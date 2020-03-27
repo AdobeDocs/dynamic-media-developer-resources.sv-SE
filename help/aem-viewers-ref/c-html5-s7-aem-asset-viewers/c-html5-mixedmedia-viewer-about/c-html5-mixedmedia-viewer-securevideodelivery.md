@@ -1,0 +1,60 @@
+---
+description: 'null'
+seo-description: 'null'
+seo-title: HTTPS-videoleverans
+solution: Experience Manager
+title: HTTPS-videoleverans
+topic: Dynamic media
+uuid: 7f8c1fe6-b464-4d80-9ffe-a36081825d49
+translation-type: tm+mt
+source-git-commit: 6cff4553307fe6cbda4b80ce3f39b58e615fa365
+
+---
+
+
+# HTTPS-videoleverans{#https-video-delivery}
+
+>[!NOTE]
+>
+>Secure Video Delivery Gäller endast AEM 6.2 med installation av [Feature Pack-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480) och AEM 6.1 med installation av [Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011).
+
+Förutsatt att visningsprogrammet fungerar i den konfiguration som beskrivs i början av det här avsnittet, kan publicerad videoleverans ske både i HTTPS-läge (säkert) och HTTP-läge (osäkert). I en standardkonfiguration följer leveransprotokollet strikt leveransprotokollet för inbäddningswebbsidan. Det är dock möjligt att tvinga fram HTTPS-video utan hänsyn till det protokoll som används när webbsidan bäddas in med [konfigurationsattributet VideoPlayer.ssl](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-ssl.md#reference-df0a29aa8a584cebaaa1c7bb6fab362e) . (Observera att förhandsgranskning av video i redigeringsläge alltid levereras säkert via HTTPS.)
+
+Beroende på vilken metod du använder för att publicera Dynamic Media-video i AEM används konfigurationsattributet på ett annat sätt, vilket visas i följande exempel: `VideoPlayer.ssl`
+
+* Om du publicerar en Dynamic Media-video med en URL-adress lägger du till `VideoPlayer.ssl` URL-adressen. Om du till exempel vill framtvinga en säker videoutgång lägger du `&VideoPlayer.ssl=on` till slutet av följande exempel på visningsprogramwebbadress:
+
+   ```
+   https://demos-pub.assetsadobe.com/etc/dam/viewers/s7viewers/html5/MixedMediaViewer.html?asset=%2Fcontent%2Fdam%2FGeometrixx-Outdoors-New-Launch%2Fbackpack%2Fbackpack_mixed_media&config=/etc/dam/presets/viewer/MixedMedia_light&serverUrl=https%3A%2F%2Fadobedemo62-h.assetsadobe.com%2Fis%2Fimage%2F&contenturl=%2F&config2=/etc/dam/presets/analytics&videoserverurl=https://gateway-na.assetsadobe.com/DMGateway/public/demoCo&VideoPlayer.ssl=on
+   ```
+
+   Se även [(Länka URL:er till ditt webbprogram](https://docs.adobe.com/content/help/en/experience-manager-64/assets/dynamic/linking-urls-to-yourwebapplication.html)).
+
+* Om du publicerar en Dynamic Media-video med inbäddad kod lägger du till i listan med andra parametrar för visningskonfiguration i kodfragmentet för inbäddning. `VideoPlayer.ssl` Om du till exempel vill tvinga fram HTTPS-video lägger du till `&VideoPlayer.ssl=on` följande exempel:
+
+   ```
+   <style type="text/css"> 
+    #s7mixedmedia_div.s7mixedmediaviewer{ 
+      width:100%;  
+      height:auto; 
+    } 
+   </style> 
+   <script type="text/javascript" src="https://demos-pub.assetsadobe.com/etc/dam/viewers/s7viewers/html5/js/MixedMediaViewer.js"></script> 
+   <div id="s7mixedmedia_div"></div> 
+   <script type="text/javascript"> 
+    var s7mixedmediaviewer = new s7viewers.MixedMediaViewer({ 
+     "containerId" : "s7mixedmedia_div", 
+     "params" : {  
+      "VideoPlayer.ssl" : "on", 
+      "serverurl" : "https://adobedemo62-h.assetsadobe.com/is/image", 
+      "contenturl" : "https://demos-pub.assetsadobe.com/",  
+      "config" : "/etc/dam/presets/viewer/MixedMedia_light", 
+      "config2": "/etc/dam/presets/analytics", 
+      "videoserverurl": "https://gateway-na.assetsadobe.com/DMGateway/public/demoCo", 
+      "asset" : "/content/dam/Geometrixx-Outdoors-New-Launch/backpack/backpack_mixed_media" } 
+    }).init(); 
+   </script>
+   ```
+
+   Se även [(Bädda in videon på en webbsida](https://docs.adobe.com/content/help/en/experience-manager-64/assets/dynamic/linking-urls-to-yourwebapplication.html).
+
