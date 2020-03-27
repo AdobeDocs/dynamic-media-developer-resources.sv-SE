@@ -1,0 +1,68 @@
+---
+description: Returnerar publiceringshistoriken för en resurs.
+seo-description: Returnerar publiceringshistoriken för en resurs.
+seo-title: getAssetPublishHistory
+solution: Experience Manager
+title: getAssetPublishHistory
+topic: Scene7 Image Production System API
+uuid: 15025c3d-eac3-4cb8-9a2a-fd80bd67478f
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# getAssetPublishHistory{#getassetpublishhistory}
+
+Returnerar publiceringshistoriken för en resurs.
+
+Syntax
+
+## Auktoriserade användartyper {#section-3b9d6a129093458fa8890139a2718912}
+
+* `IpsUser`
+* `IpsAdmin`
+* `IpsCompanyAdmin`
+* `TrialSiteAdmin`
+* `TrialSiteUser`
+* `ImagePortalAdmin`
+* `ImagePortalUser`
+* `ImagePortalContrib`
+* `ImagePortalContribUser`
+
+## Parametrar {#section-3541bd9914a44b89acfc1d419b560ee6}
+
+**Indata (getAssetPublishHistoryParam)**
+
+| Namn | Typ | Obligatoriskt | Beskrivning |
+|---|---|---|---|
+| ` *`companyHandle`*` | `xsd:string` | Ja | Referensen till företaget med resursens publiceringshistorik. |
+| ` *`assetHandle`*` | `xsd:string` | Ja | Resursen med den publiceringshistorik som du vill granska. |
+
+**Utdata (getAssetPublishHistoryReturn)**
+
+| Namn | Typ | Obligatoriskt | Beskrivning |
+|---|---|---|---|
+| ` *`pubHistoryArray`*` | `types:PublishHistoryArray` | Ja | Resursens publiceringshistorik. |
+
+## Exempel {#section-53897c51e5a047c5bd5ea5a6efb2d114}
+
+Detta kodexempel returnerar publiceringshistoriken för en resurs. En resurs har aldrig publicerats om servern returnerar en tom array.
+
+**Begäran**
+
+```java
+<getAssetPublishHistoryParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
+   <companyHandle>c|6</companyHandle>
+   <assetHandle>a|732|1|535</assetHandle>
+</getAssetPublishHistoryParam>
+```
+
+**Svar**
+
+```java
+<getAssetPublishHistoryReturn xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
+   <pubHistoryArray/>
+</getAssetPublishHistoryReturn>
+```
+
