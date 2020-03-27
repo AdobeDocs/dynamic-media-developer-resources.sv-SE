@@ -1,0 +1,38 @@
+---
+description: 'null'
+seo-description: 'null'
+seo-title: riktning
+solution: Experience Manager
+title: riktning
+topic: Dynamic media
+uuid: 0a30f3b0-64c8-4799-b4f5-fc8996a8b5a4
+translation-type: tm+mt
+source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+
+---
+
+
+# riktning{#direction}
+
+[!DNL `direction=auto|left|right`]
+
+<table id="table_1D425B7685D448459CD3FE8D683C813C"> 
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
+   <td colname="col2"> <p>Anger hur sidor visas i huvudvyn och i miniatyrbilder. Det anger också hur användaren interagerar med visningsprogrammets användargränssnitt för att växla mellan katalogbildrutor. </p> <p>När <span class="codeph"> vänster </span> används anges en högerjustering för den inledande sidan och vänsterjustering för den sista sidan. Det sammanfogar enskilda sidunderbilder för återgivningsordningen vänster till höger. Den ställer också in huvudvyn så att höger-till-vänster-animering används för att flytta fram katalogen (om <span class="codeph"> PageView.frametransition </span> är inställd på slide). Slutligen ställs miniatyrerna in för en fyllningsordning från vänster till höger. </p> <p>När du använder <span class="codeph"> höger </span> anger den på samma sätt en vänsterjustering för den inledande sidan och högerjustering för den sista sidan. Det sammanfogar enskilda sidunderbilder för återgivningsordningen höger till vänster. Den ställer också in huvudvyn så att animering från vänster till höger används för att flytta fram katalogen (om <span class="codeph"> PageView.frametransition </span> är inställd på bildruta). Slutligen ändras ordningen på miniatyrbilderna så att miniatyrbildsvyn fylls i från höger till vänster, uppifrån och ned. </p> <p>När <span class="codeph"> auto </span> är inställt använder visningsprogrammet <span class="codeph"> rätt </span> läge när språkinställningen är inställd på <span class="codeph"> ja, I </span>annat fall används <span class="codeph"> vänstra </span> läget. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Egenskaper {#section-a66ce10d6c0b449883f654e7e0657e2c}
+
+Valfritt.
+
+## Standard {#section-2879062cee1d4030b43ba3b19693f4f8}
+
+[!DNL `auto`]
+
+## Exempel {#section-798e4fc8dd9b4b059171b41a608a96ce}
+
+[!DNL `direction=right`]
