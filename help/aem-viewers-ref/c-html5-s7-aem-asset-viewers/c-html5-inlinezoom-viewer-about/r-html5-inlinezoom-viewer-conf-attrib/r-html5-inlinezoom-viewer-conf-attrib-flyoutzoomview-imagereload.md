@@ -1,0 +1,42 @@
+---
+description: 'null'
+seo-description: 'null'
+seo-title: FlyoutZoomView.imagerelload
+solution: Experience Manager
+title: FlyoutZoomView.imagerelload
+topic: Dynamic media
+uuid: 98a84ba1-4b89-424a-ac2e-4a59af33cec0
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# FlyoutZoomView.imagerelload{#flyoutzoomview-imagereload}
+
+` [FlyoutZoomView.|<containerId>_flyout.]imagereload=0|1[,breakpoint, *``*[; *`bredd`*]]`
+
+<table id="table_7DA232CB62134078B788B9AB1452F363"> 
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p> Konfigurerar hur komponenten hämtar nya bilder för huvud- och utfällningsvyn när storleken ändras. </p> <p>Om värdet är <span class="codeph"> </span>0 läses inte nya bilder in när storleken ändras, och bildupplösningen i den utfällbara vyn ändras inte. </p> <p>Med inställningen <span class="codeph"> 1 </span> kan du ange en eller flera breddbrytpunkter för den bild som läses in i huvudvyn. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> brytpunkt, <span class="varname"> bredd </span>[; <span class="varname"> bredd </span></span> </p> </td> 
+   <td colname="col2"> <p>Breddbrytpunkter för bilden som läses in i huvudvyn. </p> <p>Komponenten använder alltid den bästa passningsstorleken för den inledande inläsningen. När du har ändrat storlek hämtas alltid bilden i huvudvyn med den bredd som är lika med den närmaste större brytpunkten och som är nedskalad på klienten. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Egenskaper {#section-e6310c8c4e8547689a5b48ceddb3671d}
+
+Valfritt.
+
+## Standard {#section-fcb06fd8e7e945e590094efcf9a1d510}
+
+`1,breakpoint,300;600;1200`
+
+## Exempel {#section-3a188ab955c445bcb2efa3c49722c10d}
+
+`imagereload=1,breakpoint,200;400;800;1600`
