@@ -1,0 +1,31 @@
+---
+description: Konfigurationsattributdokumentation för eCatalog Viewer.
+seo-description: Konfigurationsattributdokumentation för eCatalog Viewer.
+seo-title: Kommandoreferens - Konfigurationsattribut
+solution: Experience Manager
+title: Kommandoreferens - Konfigurationsattribut
+topic: Dynamic media
+uuid: e1111ce2-67e8-449a-9cc2-bb53b61158a9
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# Kommandoreferens - Konfigurationsattribut{#command-reference-configuration-attributes}
+
+Konfigurationsattributdokumentation för eCatalog Viewer.
+
+Alla konfigurationskommandon kan anges i URL eller med `setParam()`, eller `setParams()`båda, API-metoder. Du kan också ange alla konfigurationsattribut som anges i konfigurationsposten på serversidan.
+
+För vissa konfigurationskommandon kan du prefix till dem med klassnamnet eller instansnamnet för motsvarande Viewer SDK-komponent. Ett instansnamn för komponenten är dynamiskt och beror på ID:t för visningsbehållarens DOM-element som skickas till `setContainerId()` API-metoden. Dokumentationen innehåller valfria prefix för sådana kommandon. Kommandot beskrivs till exempel på följande sätt `zoomstep` :
+
+`[PageView.|<containerId>_pageView].zoomstep`
+
+vilket betyder att du kan använda det här kommandot som:
+
+* `zoomstep` (kort syntax)
+* `PageView.zoomstep` (kvalificerad med komponentklassnamn)
+* `cont_pageView.zoomstep` (kvalificerad med komponent-ID, förutsatt `cont` att är behållarelementets ID)
+
+Se även [Kommandoreferens som är gemensam för alla visningsprogram - Konfigurationsattribut](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)
