@@ -1,0 +1,19 @@
+---
+description: Image Serving innehåller tre verktyg.
+seo-description: Image Serving innehåller tre verktyg.
+seo-title: Plats för verktygen
+solution: Experience Manager
+title: Plats för verktygen
+topic: Scene7 Image Serving - Image Rendering API
+uuid: e06c4ba1-e00f-464c-a6cf-54dcbabbfb45
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# Plats för verktygen{#location-of-utilities}
+
+Image Serving innehåller tre verktyg.
+
+64-bitarsversionerna finns i [!DNL *`install_folder`*/bin64/].
