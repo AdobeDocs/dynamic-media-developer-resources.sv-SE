@@ -1,0 +1,39 @@
+---
+description: Används av MetadataField/type, saveMetadataFieldParam/fieldType och createMetadataField/fieldType.
+seo-description: Används av MetadataField/type, saveMetadataFieldParam/fieldType och createMetadataField/fieldType.
+seo-title: Fälttyper för metadata
+solution: Experience Manager
+title: Fälttyper för metadata
+topic: Scene7 Image Production System API
+uuid: 57d292bb-848a-4e6e-bd08-4e6af1f9fc72
+translation-type: tm+mt
+source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+
+---
+
+
+# Fälttyper för metadata{#metadata-field-types}
+
+Används av MetadataField/type, saveMetadataFieldParam/fieldType och createMetadataField/fieldType.
+
+Syntax
+
+## Values {#section-1d8f05dbeff74bfdbd5960ccc7347557}
+
+* [!DNL `Untyped`]
+* [!DNL `Boolean`]
+* [!DNL `BooleanTag`]: Ett specialfall med [!DNL `SingleFixedTag`] en ordlista som inte kan ändras och som initierats till värdena [!DNL `True`] och [!DNL `False`].
+
+* [!DNL `Color`]
+* [!DNL `Date`]
+* [!DNL `Dimension`]
+* [!DNL `FileName`]
+* [!DNL `Float`]
+* [!DNL `Int`]
+* [!DNL `MultiFixedTag`]: Noll eller flera strängvärden från en stängd ordlista. Det är bara administratörer som kan ändra ordlistan.
+* [!DNL `MultiTag`]: Noll eller fler strängvärden.
+* [!DNL `SingleFixedTag`]: Ett strängvärde från en stängd ordlista. Om `setAssetMetadata` eller `batchSetAssetMetadata` anropas med ett värde som inte finns i ordlistan returneras ett fel. Det är bara administratörer som kan ändra ordlistan.
+
+* [!DNL `SingleTag`]: Ett strängvärde.
+* [!DNL `String`]
+
