@@ -7,7 +7,7 @@ title: Installerar för första gången
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 6a9a6dd2-2c69-447a-9628-eba08dc4f6c8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: c5b68038fa5980c7051fae916520b40e17890a7f
 
 ---
 
@@ -22,6 +22,7 @@ Den här proceduren visar hur du installerar Image Serving för första gången 
    Om licensnyckelfilen för Image Serving och/eller Image Rendering (med [!DNL .sc8] filsuffix) är tillgänglig kopierar du den till den här mappen. Annars fortsätter du med installationen och installerar licensnyckeln senare.
 1. Ta bort komprimeringen och ta bort kontrollen för Image Serving-distributionens tjärfil.
 1. Kör [!DNL ./install-is], som finns i [!DNL Setup] mappen, för att starta installationsguiden.
+
    Om ingen licensnyckel hittas visas instruktioner som beskriver hur du hämtar en licensfil. Gör det nu eller fortsätt med installationen av Image Serving och installera licensnyckeln senare.
 1. När slutanvändarlicensavtalet (EULA) visas läser du licensavtalet och anger sedan `y` att du vill fortsätta.
 
