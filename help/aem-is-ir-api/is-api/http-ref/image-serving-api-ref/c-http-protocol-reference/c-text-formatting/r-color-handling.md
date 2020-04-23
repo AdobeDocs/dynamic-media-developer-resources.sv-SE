@@ -7,14 +7,14 @@ title: Färghantering
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 6c51d204-27ca-4fbd-a297-bf1d04b63a3f
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: 341693d69fc414dacf984d66e2eaeba2418e663b
 
 ---
 
 
 # Färghantering{#color-handling}
 
-RTF-specifikationen tillåter RGB-färgvärden som anges med \colortbl. Varje komponent levereras separat med kommandona \red, \green och \blue.
+RTF-specifikationen tillåter RGB-färgvärden som anges med `\colortbl`. Varje komponent levereras separat med kommandona `\red`, `\green`och `\blue` .
 
 Det egna RTF-tilläggskommandot `\cmykcolortbl` gör att du kan ange CMYK-färger, där varje färgkomponent finns med `\cyan`-, `\magenta`- `\yellow`och `\black` -kommandona.
 
