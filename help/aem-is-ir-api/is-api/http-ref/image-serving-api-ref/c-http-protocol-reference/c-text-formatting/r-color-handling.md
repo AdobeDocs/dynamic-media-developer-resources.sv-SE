@@ -1,13 +1,11 @@
 ---
-description: RTF-specifikationen tillåter RGB-färgvärden som anges med \colortbl. Varje komponent levereras separat med kommandona \red, \green och \blue.
-seo-description: RTF-specifikationen tillåter RGB-färgvärden som anges med \colortbl. Varje komponent levereras separat med kommandona \red, \green och \blue.
-seo-title: Färghantering
+description: RTF-specifikationen tillåter RGB-färgvärden som anges med &bsol;colortbl. Varje komponent levereras separat med kommandona &bsol;red, &bsol;green och &bsol;blue.
 solution: Experience Manager
 title: Färghantering
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 6c51d204-27ca-4fbd-a297-bf1d04b63a3f
 translation-type: tm+mt
-source-git-commit: 341693d69fc414dacf984d66e2eaeba2418e663b
+source-git-commit: 925fb4b0a9018d711ea9a1db248dc2ddc803c9fb
 
 ---
 
