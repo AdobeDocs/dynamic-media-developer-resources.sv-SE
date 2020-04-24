@@ -7,7 +7,7 @@ title: Textformatering
 topic: Scene7 Image Serving - Image Rendering API
 uuid: e67b6dd2-2a78-4014-9525-816d91c9e783
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
 
 ---
 
@@ -58,19 +58,19 @@ I följande tabell visas de viktigaste funktionerna för varje textkommando:
    <td> <p>Kopia </p> </td> 
    <td> <p>no </p> </td> 
    <td> <p>ja </p> </td> 
-   <td> Copy-passning <p>, \copyfit, \copyfitlines, \copyfitmaxlines </p> </td> 
+   <td> Copy-passning <p>, <pre>\textpassning</pre>, <pre>\copyfitlines</pre>, <pre>\copyfitmaxlines</pre> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Textrutemarginaler </p> </td> 
    <td> <p>no </p> </td> 
    <td> <p>ja </p> </td> 
-   <td> <p>\margl, \margr, \margt, \margb </p> </td> 
+   <td> <p><pre>\margl</pre>, <pre>\margr</pre>, <pre>\margt</pre>, <pre>\margb</pre> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Justering av hela stycken </p> </td> 
    <td> <p>no </p> </td> 
    <td> <p>ja </p> </td> 
-   <td> <p>\qj </p> </td> 
+   <td> <p><pre>\qj</pre> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>justering av sista raden </p> </td> 
@@ -147,7 +147,7 @@ I följande tabell visas de viktigaste funktionerna för varje textkommando:
  </tbody> 
 </table>
 
-RTF-kompatibla strängar kan sättas samman manuellt eller genom att formatera texten i en textredigerare eller ordbehandlare som kan spara RTF-filer. RTF-filen kan sedan öppnas i en vanlig textredigerare och det aktuella RTF-råinnehållet i filen kopieras till begärande-URL:en.
+RTF-kompatibla strängar kan sättas samman manuellt eller genom att formatera texten i en textredigerare eller ordbehandlare som kan spara RTF-filer. RTF-filen kan sedan öppnas i en vanlig textredigerare och det aktuella RTF-innehållet i filen kopieras till begärande-URL:en.
 
 Vissa ordbehandlare genererar ganska stora filer, som innehåller viktiga preambler som inte används av Scene7 Image Serving. Vi rekommenderar att du tar bort oanvända RTF-element från strängen innan du skickar strängen till textkommandona.
 
