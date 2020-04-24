@@ -7,7 +7,7 @@ title: Begränsningar och kända fel
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 9f9fad41-4828-4fba-8f5f-2c33e7811c71
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
 
 ---
 
@@ -80,7 +80,7 @@ Digimarc-biblioteket vägrar att använda en Digimarc-vattenstämpel på en bild
 
 * Tiff- eller vinjettbegäranden som inte är Pyramided skapar ett liknande felmeddelande som
 
-   *&quot;Bild C:\Program Files\Scene7\ImageRendering\resources\MyVignette.vnt har ingen giltig DSF och område på 2,25MPixel överskrider maxvärdet på 2MPixel&quot;* .
+   *&quot;Bilden`C:\Program Files\Scene7\ImageRendering\resources\MyVignette.vnt`har ingen giltig DSF och området 2,25MPixel överskrider maxvärdet för 2MPixel&quot;* .
 
    Bästa sättet är att använda pyramiderade slipsar och vinjetteringar. Om du behöver använda icke-pyramidade vinjetter eller vinjetter följer du instruktionerna nedan för att öka storleksgränsen.
 
