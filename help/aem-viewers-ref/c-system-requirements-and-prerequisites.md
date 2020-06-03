@@ -5,9 +5,13 @@ seo-title: Systemkrav
 solution: Experience Manager
 title: Systemkrav
 topic: Dynamic media
+contentOwner: Rick Brough
 uuid: d282af6a-112e-48d6-b3ad-bec0648f4654
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: a0983053795cc119eb57386c005e1f8a7c2fa3e4
+workflow-type: tm+mt
+source-wordcount: '359'
+ht-degree: 0%
 
 ---
 
@@ -16,10 +20,12 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 Systemkrav för HTML5-visningsprogram.
 
+<!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
+
 ## Servermaskinvara och -programvara {#section-05099146f1f0418988c196635110bee6}
 
-* Dynamic Media Classic Image Serving 6.5.3 eller senare.
-* HTML5-visningsprogram kräver SDK JavaScript-bibliotek på serversidan 3.7.1 eller senare.
+* Dynamic Media Classic Image Serving 6.7.1 eller senare.
+* HTML5-visningsprogram kräver SDK JavaScript-bibliotek på serversidan 3.9.1 eller senare.
 * Sociala funktioner som &quot;Skicka e-post till en vän&quot; kräver s7ondemand 5.0.7 eller senare.
 * eCatalog Viewer - Stöd för informationspanelen kräver informationsserver 2.1.8 eller senare.
 * Sökfunktionskomponenter kräver s7search 2.3.0 eller senare.
@@ -28,18 +34,16 @@ Systemkrav för HTML5-visningsprogram.
 
 **Minimikrav för klientwebbläsare för komponentvisningsprogram**
 
-* Färgskärm och grafikkort som stöder 16-bitars High Color med upplösningen 1 024 × 768 eller högre.
-* Microsoft® Windows® 7 eller senare; Mac OS X 10.9 eller senare.
-* Firefox 61, Safari 10 (endast Mac OS), Chrome 66 (eller den senaste versionen; Chrome uppdateras automatiskt till den senaste versionen), Internet Explorer 11, Microsoft Edge.
+* Microsoft® Windows® 7 eller senare; macOS X 10.12 eller senare.
+* Firefox 69, Safari 11 (endast macOS), Chrome 75 (eller senaste versionen; Chrome uppdateras automatiskt till den senaste versionen), Internet Explorer 11, Microsoft Edge.
 * iOS6 eller senare.
 * Certifierad på iPhone 3GS eller senare och iPad 2 eller senare (endast webbläsarna Safari och Chrome).
 * Android OS 4.x eller senare.
 * BlackBerry 10 eller senare; Endast inbyggda webbläsare. Videouppspelning stöds endast för närvarande.
 * Internet Explorer på mobila enheter stöds inte för närvarande.
-* Panoramavisningsprogram stöds i iOS 10 eller senare, Firefox 61, Chrome 66, Safari 11 eller senare, Internet Explorer 11 eller senare, Microsoft Edge, Android 4.4 eller senare (endast telefonenheter).
-* Video 360-visningsprogrammet stöds iOS12 eller senare, Firefox 61, Chrome 66, Safari 12 eller senare, Microsoft Edge, Android 5 eller senare (endast telefonenheter).
-* Lodrät zoomningsvisning stöds i iOS 10 eller senare, Firefox 61, Chrome 66, Safari 11 eller senare, Internet Explorer 11, Microsoft Edge, Android 4.x eller senare.
-* Videovisningsprogrammet stöder inte uppspelning av HLS (HTTP Live Streaming) i Internet Explorer 11 som körs under Windows 7.
+* Panoramavisningsprogram stöds i iOS 10 eller senare, Firefox 69, Chrome 75, Safari 11 eller senare, Internet Explorer 11 eller senare, Microsoft Edge, Android 4.4 eller senare (endast telefonenheter).
+* Video 360-visningsprogram och Dimensional-visningsprogram stöds iOS12 eller senare, Firefox 69, Chrome 75, Safari 12 eller senare, Microsoft Edge, Android 5 eller senare (endast telefonenheter).
+* Lodrät zoomningsvisning stöds i iOS 10 eller senare, Firefox 69, Chrome 75, Safari 11 eller senare, Internet Explorer 11, Microsoft Edge, Android 4.x eller senare.
 
 <!--<a id="section_1486A48CD38F42E3956E022A48207727"></a>-->
 
