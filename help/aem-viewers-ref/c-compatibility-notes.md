@@ -7,12 +7,17 @@ title: Kompatibilitetsanteckningar
 topic: Dynamic media
 uuid: cf732a03-bfaa-4838-862f-73343cefbd67
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: a0983053795cc119eb57386c005e1f8a7c2fa3e4
+workflow-type: tm+mt
+source-wordcount: '433'
+ht-degree: 0%
 
 ---
 
 
 # Kompatibilitetsanteckningar{#compatibility-notes}
+
+<!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
 Kompatibilitetsinformation för operativsystem, webbläsare och mobila enheter.
 
@@ -54,7 +59,7 @@ Kompatibilitetsinformation för operativsystem, webbläsare och mobila enheter.
 * `IntialBitRate` modifierare stöds bara med programvaru-HLS och Flash HDS-uppspelning. Det fungerar inte när uppspelningen använder den inbyggda spelaren.
 * OGG- och WebM-progressiv uppspelning stöds inte.
 * Webbläsarskalning kan göra att videospelaren visas i fel storlek (inklusive visningsinställningar för Windows OS-kontrollpanelen).
-* Videosökning med HLS-direktuppspelning på Safari kan vara inkonsekvent.
+* Videosökning med HLS-strömning på Safari kan vara inkonsekvent.
 
 ## Internet Explorer {#section-a18e8df396954f0b807017787c00aac7}
 
