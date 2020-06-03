@@ -1,26 +1,31 @@
 ---
-description: Alla funktioner som visas i vyerna Basic Zoom, eCatalog, eCatalog Search, Flyout, Inline Zoom, Mixed Media, Spin, Video, Zoom, Carousel, Interactive Image, Interactive Video och Video360 är tillgängliga via tangentbordet.
-seo-description: Alla funktioner som visas i vyerna Basic Zoom, eCatalog, eCatalog Search, Flyout, Inline Zoom, Mixed Media, Spin, Video, Zoom, Carousel, Interactive Image, Interactive Video och Video360 är tillgängliga via tangentbordet.
+description: Alla funktioner som visas i vyerna Basic Zoom, eCatalog, eCatalog Search, Flyout, Inline Zoom, Mixed Media, Spin, Video, Zoom, Dimensional (3D), Carousel, Interactive Image, Interactive Video och Video360 är tillgängliga via tangentbordet.
+seo-description: Alla funktioner som visas i vyerna Basic Zoom, eCatalog, eCatalog Search, Flyout, Inline Zoom, Mixed Media, Spin, Video, Zoom, Dimensional (3D), Carousel, Interactive Image, Interactive Video och Video360 är tillgängliga via tangentbordet.
 seo-title: Tangentbordstillgänglighet och -navigering
 solution: Experience Manager
 title: Tangentbordstillgänglighet och -navigering
 topic: Dynamic media
 uuid: 9d7df3b0-2d77-4a2f-9ef1-210ccbd7a1a6
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: a0983053795cc119eb57386c005e1f8a7c2fa3e4
+workflow-type: tm+mt
+source-wordcount: '609'
+ht-degree: 0%
 
 ---
 
 
 # Tangentbordstillgänglighet och -navigering{#keyboard-accessibility-and-navigation}
 
-Alla funktioner som visas i vyerna Basic Zoom, eCatalog, eCatalog Search, Flyout, Inline Zoom, Mixed Media, Spin, Video, Zoom, Carousel, Interactive Image, Interactive Video och Video360 är tillgängliga via tangentbordet.
+Alla funktioner som visas i vyerna Basic Zoom, eCatalog, eCatalog Search, Flyout, Inline Zoom, Mixed Media, Spin, Video, Zoom, Carousel, Dimensional (3D), Interactive Image, Interactive Video och Video360 är tillgängliga via tangentbordet.
+
+<!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
 ## Tangentbordstillgänglighet och -navigering {#topic-f5650e9493404e55a3627c8d1366b861}
 
-Alla funktioner som visas i vyerna Basic Zoom, eCatalog, eCatalog Search, Flyout, Inline Zoom, Mixed Media, Spin, Video, Zoom, Carousel, Interactive Image, Interactive Video och Video360 är tillgängliga via tangentbordet.
+Alla funktioner som visas i vyerna Basic Zoom, eCatalog, eCatalog Search, Flyout, Inline Zoom, Mixed Media, Spin, Video, Zoom, Carousel, Dimensional (3D), Interactive Image, Interactive Video och Video360 är tillgängliga via tangentbordet.
 
-Slutanvändaren kan navigera mellan element i användargränssnittet i visningsprogrammet med hjälp av **[!UICONTROL tabb]** - och **[!UICONTROL skift+tabb]** -tangenterna. När du använder **[!UICONTROL tabb]** flyttas indatafokus till nästa element i användargränssnittet i tabbordningen. med **[!UICONTROL Skift+Tabb]** får indatafokus tillbaka till det föregående elementet i användargränssnittet. Fokusförflyttningen följer det naturliga elementet i användargränssnittet på skärmen och flyttas från vänster till höger och sedan uppifrån och ned.
+Slutanvändaren kan navigera mellan element i användargränssnittet i visningsprogrammet med hjälp av **[!UICONTROL Tab]** - och **[!UICONTROL Shift+Tab]** -tangenttryckningar. Användning av **[!UICONTROL Tab]** flyttar indatafokus till nästa element i användargränssnittet i tabbordningen. med **[!UICONTROL Shift+Tab]** får indatafokus tillbaka till föregående element i användargränssnittet. Fokusförflyttningen följer det naturliga elementet i användargränssnittet på skärmen och flyttas från vänster till höger och sedan uppifrån och ned.
 
 Beroende på inställningarna för operativsystem och webbläsare kan det element i användargränssnittet som har indatafokus få en visuell fokusindikation. Den visuella indikatorn kan till exempel vara en tunn kantlinje som återges runt elementet i användargränssnittet.
 
