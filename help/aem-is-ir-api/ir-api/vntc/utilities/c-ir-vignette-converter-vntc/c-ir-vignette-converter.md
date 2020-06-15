@@ -7,7 +7,10 @@ title: Vinjettkonverterare
 topic: Scene7 Image Serving - Image Rendering API
 uuid: b32a30d6-ae4a-406f-88a9-e8b0eec394c9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '363'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Vinjetteringskonverteraren (vntc) är ett kommandoradsverktyg som används för 
 
 [!DNL vntc] finns i [!DNL *[!DNL install_root]*\ImageServing\bin]. Den har följande funktioner:
 
-* Konverterar huvudvinjetteringar till en enda upplösning, flerupplösning eller pyramidproduktionvinjetteringar (se [Vinjettering](../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585)).
+* Konverterar primära vinjetteringar till produktionvinjetter med en upplösning, flera upplösningar eller pyramid (se [Vinjettering](../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585)).
 * Skapar ett produktionsskåp och ett fönster som täcker formatfiler (se `-resolution` och `-jpegquality`).
 
 * Kan producera olika filversioner av vinjetter, skåp och fönsteromslag för användning med äldre versioner av bildåtergivning.
