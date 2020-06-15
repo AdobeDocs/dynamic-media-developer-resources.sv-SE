@@ -7,7 +7,10 @@ title: GenerationInfo
 topic: Scene7 Image Production System API
 uuid: 166637e5-b981-4f64-8d92-5fce4f1b20d2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '53'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +26,7 @@ Syntax
 | Namn | Typ | Beskrivning |
 |---|---|---|
 | ` *`motor`*` | `xsd:string` | Genereringsmotor som används (se&quot;Generationsinformation&quot; för värden). |
-| ` *`upphovsman`*` | `types:Asset` | Tillgångspost för huvudresurs som används vid generering. |
-| ` *`genererad`*` | `types:Asset` | Tillgångspost för genererad tillgång. |
+| ` *`upphovsman`*` | `types:Asset` | Tillgångspost för den primära tillgång som används i genereringen. |
+| ` *`genererad`*` | `types:Asset` | Tillgångspost för den genererade resursen. |
 | ` *`attributeArray`*` | `types:GenerationAttributeArray` | Array med attribut som är associerade med genereringsprocessen. |
 
