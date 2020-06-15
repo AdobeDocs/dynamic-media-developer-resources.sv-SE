@@ -7,7 +7,10 @@ title: createAssetSet
 topic: Scene7 Image Production System API
 uuid: 1e86bd37-511c-4c12-abfd-075053b86f78
 translation-type: tm+mt
-source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '322'
+ht-degree: 0%
 
 ---
 
@@ -42,37 +45,37 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Handtaget till företaget som ska innehålla resursuppsättningen. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle </span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Referensen till mappen där den nya resursuppsättningen ska skapas. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> namn </span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> name </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Resursnamn. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> subType </span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> subType </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> En unik identifierare som skapats av klienten för resursuppsättningstypen. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition </span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng </span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> Parametrarna i uppsättningsdefinitionssträngen. <p>Dessa måste matcha det format som anges av målvisningsprogrammet. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle </span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng </span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> Hantera den resurs som fungerar som miniatyrbild för den nya bilduppsättningen. Om inget anges försöker IPS använda den första bildresursen som uppsättningen refererar till. </td> 
@@ -90,7 +93,7 @@ Du kan ange ersättningsfunktioner på raden som löses vid katalogsökning elle
 
 | **Ersättningsfunktion** | **Returnerar** |
 |---|---|
-| `getFilePath([asset_handle>])` | Resursens huvudfilsökväg. |
+| `getFilePath([asset_handle>])` | Resursens primära källfilssökväg. |
 | `getCatalogId([<asset_handle>])` | Resursens katalog-ID. |
 | `getMetaData([<asset_handle>], [<metadata_field_handle>])` | Metadatavärden för resursen. |
 | `getThumbCatalogId([<asset_handle>])` | Resursens katalog-ID (endast för bildbaserade resurser).Den associerade tumresursens katalog-ID (för andra resurser). Om en associerad tumresurs inte är tillgänglig returnerar funktionen en tom sträng. |
