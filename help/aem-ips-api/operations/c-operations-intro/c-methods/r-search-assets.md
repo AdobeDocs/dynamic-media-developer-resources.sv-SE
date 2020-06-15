@@ -7,7 +7,10 @@ title: searchAssets
 topic: Scene7 Image Production System API
 uuid: 125e9e0d-1856-4e80-9778-ca93cd04b766
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '637'
+ht-degree: 0%
 
 ---
 
@@ -63,169 +66,169 @@ Begränsa storleken på datauppsättningen med parametrarna `responseFieldArray`
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Handtaget till företaget med de resurser som du vill söka efter. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> accessUserHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> accessUserHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> Gör att administratörer kan arbeta som en annan användare. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> accessGroupHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> accessGroupHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> Gör att administratörer kan arbeta som en del av en annan grupp. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> mapp</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> mapp</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> Rotsökvägen för att söka efter resurser. Om det utelämnas används företagets rotmapp. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> includeSubfolders</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> includeSubfolders</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolesk</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4">Ange som <span class="codeph"> true</span> om du vill söka efter undermappar. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> Välj publiceringstillstånd. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> trashState</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> trashState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4">Val av papperskorgsläge. Standardvärdet är <span class="codeph"> NotInTrash</span>. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> conditionMatchMode</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> conditionMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> <p>Val av sökmatchningslägen för kombination av resultat av <span class="codeph"> keywordArray</span>, </p> <p> <span class="codeph"> conditionMatchMode</span> </p> <p> <span class="codeph"> systemFieldConditionArray</span>och <span class="codeph"> metadataConditionArray</span>. Standard är <span class="codeph"> MatchAll</span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> keywordArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> keywordArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:StringArray</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> <p> <p>Obs!  Inaktuell parameter. Det rekommenderas att du inte använder den. </p> </p> <p>En strängarray med nyckelord som ska matchas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> systemFieldMatchMode</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> systemFieldMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> <p>Val av sökmatchningslägen för kombination av <span class="codeph"> systemFieldCondition</span> -matchningar. Standard är <span class="codeph"> MatchAll</span> </p>. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> systemFieldConditionArray <span class="varname"></span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> systemFieldConditionArray</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> typer:SystemFieldConditionArray</span> </p> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> Arrayen med systemfältvillkor. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> tagMatchMode</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> tagMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4">Sök efter strängkonstanter för Matcha lägen. Standardvärdet är <span class="codeph"> MatchAll</span>. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> tagConditionArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> tagConditionArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:TagConditionArray</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> <p>En array med sökpredikat för taggfält. </p> <p>Predikaten kombineras enligt inställningen <span class="codeph"> tagMatchMode</span> och kombineras sedan med andra termer i <span class="codeph"> keywordArray</span>, <span class="codeph"> systemFieldConditionArray</span>och <span class="codeph"> metadataConditionArray</span> enligt inställningen <span class="codeph"> conditionMatchMode</span> . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> metadataMatchMode</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> metadataMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4">Sök i Matcha lägen för att kombinera <span class="codeph"> metadataVillkorskoder</span> . Standard är <span class="codeph"> MatchAll</span>. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> metadataConditionArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> metadataConditionArray</span> </span> </td> 
    <td colname="col2"> <p> <span class="codeph"> typer:MetadataConditionArray</span> </p> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> Arrayen med sökvillkor för metadatafält. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetTypeArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:StringArray</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> Array med resurstyper som ska ingå i sökningen. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> excludeAssetTypeArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> excludeAssetTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:StringArray</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> En array med resurstyper som ska uteslutas från sökningen. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetSubTypeArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetSubTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:StringArray</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> En lista med undertypsnamn att filtrera mot. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> strictSubTypeCheck</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> strictSubTypeCheck</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolesk</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4">Om <span class="codeph"> true</span> och <span class="codeph"> assetSubTypeArray</span> inte är tom returneras bara resurser vars undertyper finns i <span class="codeph"> assetSubTypeArray</span> . Om värdet är <span class="codeph"> false</span> (standard) returneras resurser utan definierad undertyp. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> excludeByproducts</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> excludeByproducts</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolesk</span> </td> 
    <td colname="col3"> Nej </td> 
-   <td colname="col4"> Om värdet är true utesluts byproduktresurser som genereras vid inmatning av en huvudresurs, t.ex. bilder av bortskurna PDF-sidor, från sökresultaten. Standardvärdet är false. </td> 
+   <td colname="col4"> Om värdet är true exkluderas de produktresurser som genereras vid inmatning av en primär resurs, t.ex. bilder på bortskurna PDF-sidor, från sökresultaten. Standardvärdet är false. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> excludByproductArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> excludByproductArray</span> </span> </td> 
    <td colname="col2"> <p> <span class="codeph"> typer:ExcludeByproductArray</span> </p> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> Matris med villkor för generering av produktresurser som ska uteslutas från sökresultatet. Om den här parametern finns åsidosätter den inställningen excludeByproducts. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> projectHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> projectHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sting</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> Hantering av ett projekt som innehåller de resurser som ska sökas igenom. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> recordsPerPage</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> Maximalt antal resultat som ska returneras. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4">Anger vilken resultatsida som ska returneras baserat på <span class="codeph"> recordsPerPage</span> -sidstorleken. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> sortera efter</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> Val av resurssorteringsfält. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> sortDirection</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> sortDirection</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> Val av sorteringsriktning. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> responseFieldArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:StringArray</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> Innehåller en lista med fält och underfält som ska inkluderas i svaret. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> excludeFieldArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:StringArray</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> Innehåller en lista med fält och underfält som ska uteslutas från svaret. </td> 
