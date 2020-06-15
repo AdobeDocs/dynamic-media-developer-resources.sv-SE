@@ -7,7 +7,10 @@ title: updateVinjettPublishFormat
 topic: Scene7 Image Production System API
 uuid: ef8ae609-56e8-4ed6-906b-0668c5873946
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '441'
+ht-degree: 0%
 
 ---
 
@@ -32,9 +35,9 @@ Uppdaterar inställningarna för publiceringsformat för vinjettering.
 | ` *`companyHandle`*` | `xsd:string` | Ja | Företagshandtag. |
 | ` *`vinjetteringFormatHandtag`*` | `xsd:string` | Ja | Publicera formatreferens. |
 | ` *`name`*` | `xsd:string` | Nej | Publicera formatnamn. |
-| ` *`targetWidth`*` | `xsd:int` | Ja | Anger målbredden för den resulterande vinjetteringsvyn i pixlar. Använd noll så att den resulterande vinjetteringen har samma storlek som huvudvinjetteringen. |
-| ` *`targetHeight`*` | `xsd:int` | Ja | Anger målhöjden för den resulterande vinjetteringsvyn i pixlar. Använd noll så att den resulterande vinjetteringen har samma storlek som huvudvinjetteringen. |
-| ` *`createPyramid`*` | `xsd:boolean` | Ja | Skapar en pyramidvinjettering som är optimerad för zoomning på servern för bildåtergivning. Med början från den maximala storleken, som anges av fälten Storlek på målvinjett, skapas vyer i flera storlekar i en enda vinjettutdatafil. Varje efterföljande visningsstorlek halveras tills bredden och höjden är inom 128 x 128 pixlar. |
+| ` *`targetWidth`*` | `xsd:int` | Ja | Anger målbredden för den resulterande vinjetteringsvyn i pixlar. Använd noll så att utdatavärjningen har samma storlek som den primära vinjetteringen. |
+| ` *`targetHeight`*` | `xsd:int` | Ja | Anger målhöjden för den resulterande vinjetteringsvyn i pixlar. Använd noll så att utdatavärjningen har samma storlek som den primära vinjetteringen. |
+| ` *`createPyramid`*` | `xsd:boolean` | Ja | Skapar en pyramidvinjettering som är optimerad för zoomning på servern för bildåtergivning. Med början från den maximala storleken, som anges av fälten för Target vinjettstorlek, skapas vyer i flera storlekar i en och samma vinjettutdatafil. Varje efterföljande visningsstorlek halveras tills bredden och höjden är inom 128 x 128 pixlar. |
 | ` *`thumbWidth`*` | `xsd:int` | Ja | Anger bredden på varje miniatyrbild i pixlar. Den här inställningen är valfri. Använd noll om du inte har någon miniatyrfil. |
 | ` *`saveAsVersion`*` | `xsd:int` | Ja | Anger filformatet för de publicerade vinjetterna. Om du har en ny version av Image Authoring och en äldre version av Image Rendering Server måste du ange en vinjettversion som ImageRendering Server kan läsa. Om du anger en senare version kan inte servern för bildåtergivning läsa de publicerade vinjetterna. Ange noll om du vill publicera vinjetter i den senaste versionen. |
 | ` *`sizeSuffixSeparator`*` | `xsd:string` | Ja | Anger det tecken som skiljer vinjettnamnet och suffixet åt med dess bredd. |
