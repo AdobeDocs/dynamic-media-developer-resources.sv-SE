@@ -1,18 +1,21 @@
 ---
-description: Utesluter huvudvideon från den adaptiva videouppsättningen.
-seo-description: Utesluter huvudvideon från den adaptiva videouppsättningen.
+description: Utesluter den primära videon från den adaptiva videouppsättningen.
+seo-description: Utesluter den primära videon från den adaptiva videouppsättningen.
 seo-title: ExcludeMasterVideoFromAVS
 title: ExcludeMasterVideoFromAVS
 uuid: 883c6ab0-314d-4257-82bc-0447031e68a4
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '52'
+ht-degree: 0%
 
 ---
 
 
 # ExcludeMasterVideoFromAVS{#excludemastervideofromavs}
 
-Utesluter huvudvideon från den adaptiva videouppsättningen.
+Utesluter den primära videon från den adaptiva videouppsättningen.
 
 Syntax
 
