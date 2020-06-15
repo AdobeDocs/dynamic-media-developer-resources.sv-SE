@@ -1,20 +1,23 @@
 ---
-description: Skapar en ny resurs som härletts från en befintlig huvudbildresurs.
-seo-description: Skapar en ny resurs som härletts från en befintlig huvudbildresurs.
+description: Skapar en ny resurs som härletts från en befintlig primär källbildresurs.
+seo-description: Skapar en ny resurs som härletts från en befintlig primär källbildresurs.
 seo-title: createDerivedAsset
 solution: Experience Manager
 title: createDerivedAsset
 topic: Scene7 Image Production System API
 uuid: e1f9b690-af34-4da5-a534-c3a8c6b0a8fc
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '276'
+ht-degree: 0%
 
 ---
 
 
 # createDerivedAsset{#createderivedasset}
 
-Skapar en ny resurs som härletts från en befintlig huvudbildresurs.
+Skapar en ny resurs som härletts från en befintlig primär källbildresurs.
 
 Syntax
 
@@ -40,7 +43,7 @@ Till skillnad från en bildkopia (se [copyImage](../../../operations/c-operation
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | Ja | Handtaget till det företag som innehåller den tillgång som du kommer att hämta den nya tillgången från. |
-| ` *`ownerHandle`*` | `xsd:string` | Ja | Handtaget till huvudbildresursen som den nya bilden ska hämtas från. |
+| ` *`ownerHandle`*` | `xsd:string` | Ja | Handtaget till den primära bildresurs som den nya bilden kommer att härledas från. |
 | ` *`folderHandle`*` | `xsd:string` | Ja | Referensen till mappen där den nya härledda resursen ska skapas. |
 | ` *`name`*` | `xsd:string` | Ja | Namnet på den härledda tillgången. |
 | ` *`type`*` | `xsd:string` | Ja | Tillgångstypen för den nya härledda tillgången: `AdjustedView` eller `LayerView`. |
