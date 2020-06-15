@@ -7,7 +7,10 @@ title: Begränsningar och kända fel
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 9f9fad41-4828-4fba-8f5f-2c33e7811c71
 translation-type: tm+mt
-source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '1264'
+ht-degree: 0%
 
 ---
 
@@ -53,7 +56,7 @@ Det finns vissa begränsningar och kända fel som bör beaktas när Scene7 Image
 
 ## Begränsningar för bibliotek från tredje part {#section-79768b96bf634e44ab672c5b893f343d}
 
-Digimarc-biblioteket vägrar att använda en Digimarc-vattenstämpel på en bild om en sådan redan upptäcks. Om en mallbild redigeras tillräckligt kan Digimarc-biblioteket fortfarande känna igen att vattenstämpeln har använts. Det kanske inte går att läsa den informationen. Detta resulterar i en ny bild där den ursprungliga Digimarc-informationen som tillämpades på originalbilden inte kan hämtas. Image Serving kan nu använda den Digimarc-vattenstämpel som definierats i företagskatalogen.
+Digimarc-biblioteket vägrar att använda en Digimarc-vattenstämpel på en bild om en sådan redan upptäcks. Om en primär bild redigeras tillräckligt mycket kan Digimarc-biblioteket fortfarande känna igen att vattenstämpeln har använts. Det kanske inte går att läsa den informationen. Detta resulterar i en ny bild där den ursprungliga Digimarc-informationen som tillämpades på originalbilden inte kan hämtas. Image Serving kan nu använda den Digimarc-vattenstämpel som definierats i företagskatalogen.
 
 ## Begränsningar som gäller både för bildvisning och bildåtergivning {#section-f836cb40ae2d4f32a9cf7ebda4d91bae}
 
