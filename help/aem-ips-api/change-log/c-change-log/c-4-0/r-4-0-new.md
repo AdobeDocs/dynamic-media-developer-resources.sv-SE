@@ -7,7 +7,10 @@ title: Nya tillägg och ändringar
 topic: Scene7 Image Production System API
 uuid: ca4bbe36-c1b7-471f-90a8-6b695d56ac7a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '1234'
+ht-degree: 0%
 
 ---
 
@@ -115,7 +118,7 @@ Skalen i visningsprogrammet har stöd för två parametrar: `skinFg` och `skinBg
 
 Implementerad `getAssociatedAssets` åtgärd.
 
-Tillagd `ReprocessAssets` jobbtyp som tillåter ombearbetning av tidigare överförda huvudfiler, inklusive återgivning av PDF-filer och omoptimering av bilder.
+Tillagd `ReprocessAssets` jobbtyp som tillåter ombearbetning av tidigare överförda primära källfiler, inklusive återgivning av PDF-filer och omoptimering av bilder.
 
 Fälttypen har bytt namn `PropertySetType` till `propertyType`. Detta påverkar `createPropertySetType` parameter och `getPropertySetType/getPropertySetTypes` svar.
 
@@ -288,7 +291,7 @@ Ytterligare alternativ har lagts till för `UploadDirectoryJob` och `UploadUrlsJ
   <tr> 
    <td colname="col2"> <p> <span class="codeph"> färgrymd </span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
-   <td colname="col4"> <p>Målfärgrymd för återgivning. </p> </td> 
+   <td colname="col4"> <p>Target färgmodell för återgivning. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p> <span class="codeph"> alpha </span> </p> <p>Valfritt. </p> </td> 
@@ -317,7 +320,7 @@ Ytterligare alternativ har lagts till för `UploadDirectoryJob` och `UploadUrlsJ
   <tr> 
    <td colname="col2"> <p> <span class="codeph"> färgrymd </span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
-   <td colname="col4"> <p>Målfärgrymd för återgivning. </p> </td> 
+   <td colname="col4"> <p>Target färgmodell för återgivning. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p> <span class="codeph"> pdfCatalog </span> </p> </td> 
