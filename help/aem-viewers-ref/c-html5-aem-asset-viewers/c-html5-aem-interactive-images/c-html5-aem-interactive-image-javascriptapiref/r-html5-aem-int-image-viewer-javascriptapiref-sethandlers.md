@@ -1,20 +1,23 @@
 ---
-description: JavaScript API-referens för Video Image Viewer
-seo-description: JavaScript API-referens för Video Image Viewer
+description: JavaScript API-referens för Interactive Image Viewer
+seo-description: JavaScript API-referens för Interactive Image Viewer
 seo-title: setHandlers
 solution: Experience Manager
 title: setHandlers
 topic: Dynamic media
 uuid: 93db9c88-890e-4be8-b82f-d15978a0cfac
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 323a4f72b5bb46832a569ffad38104bac7da17df
+workflow-type: tm+mt
+source-wordcount: '95'
+ht-degree: 0%
 
 ---
 
 
 # setHandlers{#sethandlers}
 
-JavaScript API-referens för Video Image Viewer
+JavaScript API-referens för Interactive Image Viewer
 
 `setHandlers(handlers)`
 
@@ -25,7 +28,7 @@ Anger noll eller flera callback-hanterare. Ett anrop till den här metoden skriv
 <table id="table_98A620DAE2C340FA97BF7204AE023CC8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> hanterare </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> hanterare </span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> {Object} </span> JSON-objekt med återanrop för visningsprogramhändelse. Egenskapsnamnet är namnet på den visningsprogramhändelse som stöds. Egenskapsvärdet är en JavaScript-funktionsreferens till ett lämpligt återanrop. </p> <p>Se <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local"> Händelseåteranrop </a> för mer information om visningsprogramhändelser. </p> </td> 
   </tr> 
  </tbody> 
