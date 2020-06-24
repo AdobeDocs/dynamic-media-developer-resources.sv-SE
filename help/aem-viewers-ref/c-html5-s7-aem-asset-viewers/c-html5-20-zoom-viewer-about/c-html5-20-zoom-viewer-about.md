@@ -8,7 +8,10 @@ title: Zooma
 topic: Dynamic media
 uuid: ec2a91e2-ce2c-48b1-a2b2-8671524288c7
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '2460'
+ht-degree: 0%
 
 ---
 
@@ -133,7 +136,7 @@ Du lägger till visningsprogrammet på en webbsida genom att göra följande:
 
 [!DNL <s7viewers_root>/html5/js/ZoomViewer.js]
 
-Du kan använda en relativ sökväg om visningsprogrammet distribueras på någon av Adobe Dynamic Media Classic-servrarna och den hanteras från samma domän. Annars anger du en fullständig sökväg till en av Adobe Dynamic Media Classic-servrarna som har IS-Viewer installerat.
+Du kan använda en relativ sökväg om visningsprogrammet distribueras på någon av Adobe Dynamic Media Classic-servrarna och den hanteras från samma domän. Annars anger du en fullständig sökväg till en av de Adobe Dynamic Media Classic-servrar där IS-Viewer är installerat.
 
 Den relativa sökvägen ser ut så här:
 
@@ -316,7 +319,7 @@ var zoomViewer = new s7viewers.ZoomViewer({
 
 Följande exempelsida visar mer verkliga användningsområden för responsiv designinbäddning med obegränsad höjd:
 
-[https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html)
+[Live Demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
 ## Bädda in i flexibel storlek med bredd och höjd definierad {#section-3674e6c032594441a6576b7fb1de6e64}
 
