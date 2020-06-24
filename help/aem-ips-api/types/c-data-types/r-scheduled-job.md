@@ -7,7 +7,10 @@ title: Schemalagt jobb
 topic: Scene7 Image Production System API
 uuid: cf0db523-2138-48c6-abbd-460a961e7de1
 translation-type: tm+mt
-source-git-commit: 26fb6212c3106deb7b088020d9f2993e40dec20b
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '268'
+ht-degree: 0%
 
 ---
 
@@ -36,14 +39,14 @@ Syntax
 | ` *`triggerState`*` | `xsd:int` | Val av utlösarläge för jobb. |
 | ` *`imageServingPublishJob`*` | `types:ImageServingPublishJob` | Jobbinformation för en bild som visar publiceringsjobb. |
 | ` *`imageServingRenderJob`*` | `types:ImageServingRenderJob` | Jobbinformation för ett bildåtergivningsjobb. |
-| ` *`videoPublishJob`*` | `types:VideoPublishJob` | Jobbinformation för ett videopubliceringsjobb. Se [VideoPublishJob](https://marketing.adobe.com/resources/help/en_US/s7/ips_api/types/r_scheduled_job.html). |
+| ` *`videoPublishJob`*` | `types:VideoPublishJob` | Jobbinformation för ett videopubliceringsjobb. Se [VideoPublishJob](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
 | ` *`serverDirectoryPublishJob`*` | `types:ServerDirectoryPublishJob` | Jobbinformation för ett serverkatalogpubliceringsjobb. |
 | ` *`uploadDirectoryJob`*` | `types:UploadDirectoryJob` | Jobbinformation för ett uppladdningskatalogjobb. |
 | ` *`uploadUrlsJob`*` | `types:UploadUrlsJob` | Jobbinformation för ett jobb för att ladda upp URL:er. |
 | ` *`optimizeImagesJob`*` | `types:OptimizeImagesJob` |  |
 | ` *`ripPdfsJob`*` | `types:RipPdfsJob` |  |
 | ` *`reprocessAssetsJob`*` | `types:ReprocessAssetsJob` |  |
-| ` *`exportJob`*` | `types:ExportJob` | Tillåt auktoriserad export av tidigare överförda filer. Se [Exportjobb](https://marketing.adobe.com/resources/help/en_US/s7/ips_api/types/r_scheduled_job.html). |
+| ` *`exportJob`*` | `types:ExportJob` | Tillåt auktoriserad export av tidigare överförda filer. Se [Exportjobb](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
 
 ## Anteckningar {#section-34ec157f281f412f9f0f6e861e6ed0cd}
 
