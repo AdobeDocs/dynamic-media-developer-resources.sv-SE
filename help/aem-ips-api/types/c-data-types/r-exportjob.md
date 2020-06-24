@@ -7,7 +7,10 @@ title: ExportJob
 topic: Scene7 Image Production System API
 uuid: 439e3dd8-85b8-4f5b-abf8-8cc5a3f59fe6
 translation-type: tm+mt
-source-git-commit: 26fb6212c3106deb7b088020d9f2993e40dec20b
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '219'
+ht-degree: 1%
 
 ---
 
@@ -37,12 +40,12 @@ ExportJob stöder inte följande resurstyper:
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> assetHandleArray</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> typer:HandleArray</span> </p> </td> 
    <td colname="col3" valign="top"> <p>Lista över <span class="codeph"> assetHandle</span> som måste exporteras. Se <a href="../../types/c-data-types/r-handle-array.md#reference-1b93fefb5477459faf9253b54349b5f9" type="reference" format="dita" scope="local"> HandleArray</a>. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fmt</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fmt</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:sträng </span> </p> </td> 
    <td colname="col3"> <p>Anger typen av <span class="codeph"> export.Möjliga värden</span>: [orig, convert] </p> <p> 
      <ul id="ul_16EF4B14100C4C7AA464CA9CF7F11D1C"> 
@@ -51,17 +54,17 @@ ExportJob stöder inte följande resurstyper:
      </ul> </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> is_modifier</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> is_modifier</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:sträng </span> </p> </td> 
-   <td colname="col3"> <p>Anger URL-strängen för <span class="codeph"> ImageServer</span> -återgivning, som läggs till i ExportJob- <span class="codeph"> konverteringsbegäran</span> . </p> <p>Mer information om hur du skickar IS-modifierare finns i <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/" scope="external" format="html"> IS-dokumentationen</a> . </p> </td> 
+   <td colname="col3"> <p>Anger URL-strängen för <span class="codeph"> ImageServer</span> -återgivning, som läggs till i ExportJob- <span class="codeph"> konverteringsbegäran</span> . </p> <p>Mer information om hur du skickar IS-modifierare finns i <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/home.html" scope="external" format="html"> IS-dokumentationen</a> . </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> makro</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> makro</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:sträng </span> </p> </td> 
    <td colname="col3"> <p></p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> emailSetting</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> emailSetting</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:sträng </span> </p> </td> 
    <td colname="col3"> <p>Val av e-postinställning. Möjliga värden: </p> <p> 
      <ul id="ul_0EEDAE11B7CD4C53A6E4B2B8CB2CF730"> 
@@ -73,7 +76,7 @@ ExportJob stöder inte följande resurstyper:
      </ul> </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> clientId</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> clientId</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:sträng </span> </p> </td> 
    <td colname="col3"> <p>Anger IP-adressen till den klient eller kund som initierade exportbegäran. </p> <p> <p>Obs!  den här parametern är för närvarande inte aktivt ifylld och är endast reserverad för framtida användning. </p> </p> </td> 
   </tr> 
