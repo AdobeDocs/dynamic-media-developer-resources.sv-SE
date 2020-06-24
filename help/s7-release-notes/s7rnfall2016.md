@@ -1,20 +1,23 @@
 ---
-description: Den senaste versionsinformationen om Adobe Scene7 hösten 2016 är en del av Adobe Experience Manager-lösningen i Adobe Marketing Cloud.
-seo-description: Den senaste versionsinformationen om Adobe Scene7 hösten 2016 är en del av Adobe Experience Manager-lösningen i Adobe Marketing Cloud.
+description: Den senaste versionsinformationen om Adobe Scene7 hösten 2016 är en del av Adobe Experience Manager i Adobe Marketing Cloud.
+seo-description: Den senaste versionsinformationen om Adobe Scene7 hösten 2016 är en del av Adobe Experience Manager i Adobe Marketing Cloud.
 seo-title: Scene7 hösten 2016
 solution: Experience Manager
 title: Scene7 hösten 2016
 topic: Dynamic media
 uuid: 3fddda65-0c6e-48ec-bd60-7e0ca59421a8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '2263'
+ht-degree: 0%
 
 ---
 
 
 # Scene7 hösten 2016{#scene-fall-release}
 
-Den senaste versionsinformationen om Adobe Scene7 hösten 2016 är en del av Adobe Experience Manager-lösningen i Adobe Marketing Cloud.
+Den senaste versionsinformationen om Adobe Scene7 hösten 2016 är en del av Adobe Experience Manager i Adobe Marketing Cloud.
 
 ## Scene7 hösten 2016 {#topic-791cdf80f91e457fbb63bfedf79f5a94}
 
@@ -58,7 +61,7 @@ Fullständig dokumentation finns på [https://docs.adobe.com/content/help/en/dyn
 
 ## Visare (Image Serving 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-Fullständig dokumentation finns i [Referenshandbok](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/)för Scene7-visningsprogram.
+Fullständig dokumentation finns i Referenshandbok för [visningsprogram](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
 
 **Felkorrigeringar för Image Serving 5.5.3**
 
@@ -68,7 +71,7 @@ Fullständig dokumentation finns i [Referenshandbok](https://marketing.adobe.com
 
 ## Visare (Image Serving 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-Fullständig dokumentation finns i [Referenshandbok](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/)för Scene7-visningsprogram.
+Fullständig dokumentation finns i Referenshandbok för [visningsprogram](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
 
 **Felkorrigeringar för Image Serving 5.5.2**
 
@@ -77,7 +80,7 @@ Fullständig dokumentation finns i [Referenshandbok](https://marketing.adobe.com
 
 ## Visare (Image Serving 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-Fullständig dokumentation finns i [Referenshandbok](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/)för Scene7-visningsprogram.
+Fullständig dokumentation finns i Referenshandbok för [visningsprogram](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
 
 **Nya funktioner, förbättringar och felkorrigeringar för Image Serving 5.5.1**
 
@@ -130,7 +133,7 @@ Fullständig dokumentation finns i [Referenshandbok](https://marketing.adobe.com
    * `IntialBitRate` modifierare stöds bara med programvarans HLS- och Flash HDS-uppspelning. Det fungerar inte när uppspelningen använder den inbyggda spelaren.
    * OGG- och WebM-progressiv uppspelning stöds inte just nu.
    * Webbläsarskalning kan göra att videospelaren visas i fel storlek (inklusive visningsinställningar för Windows OS-kontrollpanelen)
-   * Videosökning med HLS-direktuppspelning på Safari kan vara inkonsekvent.
+   * Videosökning med HLS-strömning på Safari kan vara inkonsekvent.
 
 * Internet Explorer
 
@@ -192,7 +195,7 @@ Fullständig dokumentation finns i [Referenshandbok](https://marketing.adobe.com
 
    * Posterbilden kan ha felet &quot;max size&quot;. Företag kan behöva öka begränsningsinställningen för Image Serving Publish.
    * Bildtexter för video kräver en företagsregeluppsättning om värdtjänsten för HTML-sidan hanteras från en extern server (inte en Scene7-server). Kontakta Adobes support om du behöver hjälp.
-   * Analysspårning kan rapportera felaktig uppspelningsprocent på grund av buffring
+   * Analytics tracking kan rapportera felaktig uppspelningsprocent på grund av buffring
    * Svart bildruta i stället för förhandsvisningsbild kan visas på iPad- eller Android-enheter.
    * Svart bildruta kan blinka på skärmen när visningsprogrammet läses in på iPad- eller Android-enheter.
    * Svarta kantlinjer visas på sidan om VideoPlayer-komponenten när bakgrunden är inställd på vit/genomskinlig på iPad-enheter.
