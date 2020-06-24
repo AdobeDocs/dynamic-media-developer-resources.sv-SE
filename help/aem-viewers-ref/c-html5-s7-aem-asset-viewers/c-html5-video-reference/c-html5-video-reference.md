@@ -1,21 +1,24 @@
 ---
-description: Video Viewer är en videospelare som spelar upp strömmande och progressiv video som är kodad i H.264-format. Den levereras från Scene7 Publishing System eller AEM Dynamic Media.
+description: Video Viewer är en videospelare som spelar upp strömmande och progressiv video som är kodad i H.264-format. Den levereras från Scene7 Publishing System eller AEM-Dynamic Media.
 keywords: responsive
-seo-description: Video Viewer är en videospelare som spelar upp strömmande och progressiv video som är kodad i H.264-format. Den levereras från Scene7 Publishing System eller AEM Dynamic Media.
+seo-description: Video Viewer är en videospelare som spelar upp strömmande och progressiv video som är kodad i H.264-format. Den levereras från Scene7 Publishing System eller AEM-Dynamic Media.
 seo-title: Video
 solution: Experience Manager
 title: Video
 topic: Dynamic media
 uuid: 961a9b99-5892-4ee3-a2df-13e299f5d086
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '2402'
+ht-degree: 0%
 
 ---
 
 
 # Video{#video}
 
-Video Viewer är en videospelare som spelar upp strömmande och progressiv video som är kodad i H.264-format. Den levereras från Scene7 Publishing System eller AEM Dynamic Media.
+Video Viewer är en videospelare som spelar upp strömmande och progressiv video som är kodad i H.264-format. Den levereras från Scene7 Publishing System eller AEM-Dynamic Media.
 
 Se [Systemkrav och krav](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
@@ -116,7 +119,7 @@ Du lägger till visningsprogrammet på en webbsida genom att göra följande:
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
-Du kan använda en relativ sökväg om visningsprogrammet distribueras på någon av Adobe Dynamic Media Classic-servrarna och den hanteras från samma domän. Annars anger du en fullständig sökväg till en av Adobe Dynamic Media Classic-servrarna som har IS-Viewer installerat.
+Du kan använda en relativ sökväg om visningsprogrammet distribueras på någon av Adobe Dynamic Media Classic-servrarna och den hanteras från samma domän. Annars anger du en fullständig sökväg till en av de Adobe Dynamic Media Classic-servrar där IS-Viewer är installerat.
 
 Relativ sökväg ser ut så här:
 
@@ -282,7 +285,9 @@ var videoViewer = new s7viewers.VideoViewer({
 
 Följande exempelsida visar hur responsiv designinbäddning med obegränsad höjd används i verkligheten:
 
-[https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html)
+[Live Demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+
+<!-- KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
 
 **Responsiv design embedding with width and height defined**
 
