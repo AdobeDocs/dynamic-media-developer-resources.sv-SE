@@ -7,7 +7,10 @@ title: Interaktiv video
 topic: Dynamic media
 uuid: 116c6b40-2490-4f1a-9c76-e06082069cc8
 translation-type: tm+mt
-source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '2243'
+ht-degree: 0%
 
 ---
 
@@ -93,7 +96,7 @@ Du lägger till visningsprogrammet på en webbsida genom att göra följande:
 
 [!DNL <s7viewers_root>/etc/dam/viewers/s7viewers/html5/js/InteractiveVideoViewer.js]
 
-Du kan använda en relativ sökväg om visningsprogrammet distribueras på någon av Adobe Dynamic Media Classic-servrarna och den hanteras från samma domän. Annars anger du en fullständig sökväg till en av Adobe Dynamic Media Classic-servrarna som har IS-Viewer installerat.
+Du kan använda en relativ sökväg om visningsprogrammet distribueras på någon av Adobe Dynamic Media Classic-servrarna och den hanteras från samma domän. Annars anger du en fullständig sökväg till en av de Adobe Dynamic Media Classic-servrar där IS-Viewer är installerat.
 
 Den relativa sökvägen ser ut så här:
 
@@ -126,7 +129,7 @@ Den relativa sökvägen ser ut så här:
 
    Du kan ange den statiska storleken för visningsprogrammet genom att antingen deklarera den för CSS-klassen på den `.s7interactivevideoviewer` översta nivån i absoluta enheter eller genom att använda `stagesize` modifierare.
 
-   Du kan lägga in storleksändring i CSS direkt på HTML-sidan eller i en anpassad CSS-fil för visningsprogrammet, som sedan tilldelas till en förinställningspost för visningsprogram i AEM Resurser - on demand, eller skickas explicit med `style` kommando.
+   Du kan lägga in storleksändring i CSS direkt på HTML-sidan eller i en anpassad CSS-fil för visningsprogrammet, som sedan tilldelas till en post för visningsförinställningar i AEM Assets - on demand, eller skickas explicit med `style` kommando.
 
    Mer information om hur du formaterar visningsprogrammet med CSS finns i [Anpassa visningsprogrammet för interaktiv video](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) .
 
@@ -139,7 +142,7 @@ Den relativa sökvägen ser ut så här:
    }
    ```
 
-   Du kan ställa in modifieraren i posten för visningsförinställningar i AEM Resurser - on-demand. `stagesize` Eller så kan du skicka det explicit med initieringskoden för visningsprogrammet med `params` samlingen, eller som ett API-anrop enligt beskrivningen i avsnittet Kommandoreferens, så här:
+   Du kan ställa in modifieraren i posten för visningsförinställning i AEM Assets - on-demand. `stagesize` Eller så kan du skicka det explicit med initieringskoden för visningsprogrammet med `params` samlingen, eller som ett API-anrop enligt beskrivningen i avsnittet Kommandoreferens, så här:
 
    ```
    interactivevideoviewer.setParam("stagesize", "640,640");
@@ -278,7 +281,9 @@ var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({
 
 Följande exempelsida visar mer verkliga användningsområden för responsiv designinbäddning med obegränsad höjd:
 
-[https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html)
+[Live Demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+
+<!-- OLD DEMO LOCATION-KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
 
 **Responsiv inbäddning med definierad bredd och höjd**
 
