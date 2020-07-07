@@ -7,7 +7,10 @@ title: Servercacheminnen
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 73745363-2011-453f-b7a0-96de4b44186d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '309'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Använd de här serverinställningarna för servercachen.
 
 ## PS::cache.rootPaths - Cache-datamappar {#section-f0aa808304d74ecdb0c3644f11906c53}
 
-Rotmappen för plattformsserverns diskcache. En eller flera absoluta filsökvägar eller sökvägar i förhållande till *[!DNL install_folder]*, avgränsade med semikolon (;). Data för HTTP-svarscachen kommer att fördelas jämnt över alla angivna mappar. Cacheminnen för hjälpcacheminnen (kompilerade bildkataloger och externa bilddata) finns i den primära cachemappen (den första mappen i listan).
+Rotmappen för Platform-serverns diskcache. En eller flera absoluta filsökvägar eller sökvägar i förhållande till *[!DNL install_folder]*, avgränsade med semikolon (;). Data för HTTP-svarscachen kommer att fördelas jämnt över alla angivna mappar. Cacheminnen för hjälpcacheminnen (kompilerade bildkataloger och externa bilddata) finns i den primära cachemappen (den första mappen i listan).
 
 ## PS::cache.maxSize - Cachestorlek för svarsdata {#section-ed2e1e7ba4bd4e13b77bb20c4cacddb4}
 
@@ -28,7 +31,7 @@ Maximal storlek för HTTP-svarscache i byte. Denna inställning begränsar mäng
 
 Antalet poster som allokerats för indexet för HTTP-svarscache i minnet.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >I Linux måste du se till att det finns tillräckligt med i-noder för cachepartitionen för att undvika att i-noderna tar slut.
 
@@ -36,7 +39,7 @@ Antalet poster som allokerats för indexet för HTTP-svarscache i minnet.
 
 Image Server behöver ibland spara mellanliggande data på disken. Sökvägen kan vara absolut eller relativ till *[!DNL install_folder]*.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Den nya mappen måste skapas innan den här inställningen ändras. Kontrollera att åtkomstbehörigheterna är inställda så att Image Server har fullständig kontroll över mappen.
 
@@ -44,7 +47,7 @@ Image Server behöver ibland spara mellanliggande data på disken. Sökvägen ka
 
 Serverhanteraren behöver ibland spara mellanliggande data på disken. Sökvägen kan vara absolut eller relativ till *[!DNL install_folder]*. Standardvärdet är [!DNL *[!DNL install_folder]*/temp].
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Den nya mappen måste skapas innan den här inställningen ändras. Se till att åtkomstbehörigheterna är inställda så att Server Supervisor har fullständig kontroll över mappen.
 
