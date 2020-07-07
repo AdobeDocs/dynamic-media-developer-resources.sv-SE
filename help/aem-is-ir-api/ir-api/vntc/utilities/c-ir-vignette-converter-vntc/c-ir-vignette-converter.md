@@ -7,9 +7,9 @@ title: Vinjettkonverterare
 topic: Scene7 Image Serving - Image Rendering API
 uuid: b32a30d6-ae4a-406f-88a9-e8b0eec394c9
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ När du genererar produktionsvinjetteringar läggs pixelbredden för utdatavvinj
 
 [!DNL vntc] begränsar sig som standard till högst 3 GB minne. När Vntc når den här gränsen avbryts bearbetningen och ett fel genereras. Den här gränsen kan ändras med `-maxmem`.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Vinjetteringsverktyget i Bildredigering kan också användas för att förbereda vinjetter för bildåtergivning. På samma sätt kan innehållsredigeringsverktyget generera kabinettformatfiler för användning med bildåtergivning. Använd [!DNL vntc] om bearbetningen ska automatiseras. Verktygen i Bildredigering har ett grafiskt användargränssnitt, vilket gör det enklare att använda interaktivt.
 
