@@ -7,7 +7,10 @@ title: Bildstorleksbegränsningar
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 6736e652-c495-45a2-bdd2-9975f99af0a2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '241'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +35,7 @@ Begränsar storleken på bilder som Image Server skriver till filer med `req=sav
 
 Den största tillåtna storleken (i pixlar) för bilder som inte är PTIFF-filer som Image Server får öppna. Image Serving returnerar ett fel när ett försök görs att få åtkomst till en bild som inte är PTIFF och som är större än denna gräns.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Om du anger ett för högt värde kan det leda till att Image Server får slut på minne och att fel uppstår, inklusive krascher.
 
