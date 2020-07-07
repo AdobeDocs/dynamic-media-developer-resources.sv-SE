@@ -7,7 +7,10 @@ title: Systemkrav och krav
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 80196574-f5a2-4298-880a-cc36f90b6e21
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '411'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ Kontrollera att datorn uppfyller systemkraven innan du använder Scene7 Image Se
 
 Servern bör uppfylla följande maskinvarukrav.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >System med processorer med AMD64 och Intel® EM64T är vanligtvis konfigurerade som NUMA-plattformar (Non-Uniform Memory Architecture). Detta innebär att kärnan konstruerar flera minnesnoder vid start i stället för att konstruera en enda minnesnod. Konstruktionen för flera noder kan resultera i minnesöverbelastning på en eller flera av noderna innan andra noder töms. När minnesöverbelastning inträffar kan kärnan bestämma sig för att avsluta processer (till exempel Image Server eller Platform Server) trots att det finns tillgängligt minne. Adobe Systems rekommenderar därför att du stänger av NUMA om du kör ett sådant system. Använd `numa=off` startalternativet för att undvika att kärnan stoppar dessa processer.
 
