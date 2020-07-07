@@ -7,7 +7,10 @@ title: Verifierar installationen
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 4fdf61c7-3c9f-4f3e-9696-60eb7e3f2209
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '142'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +27,7 @@ Image Server är installerad som Linux-daemon.
 
    `> /sbin/service ImageServing status`
 
-   >[!NOTE] {class=&quot;- topic/note &quot;
+   >[!NOTE]
    >
    >Du måste ha rotbehörighet för att köra dessa skript.
 
@@ -34,6 +37,6 @@ Image Server är installerad som Linux-daemon.
 
 [!DNL http:// *[!DNL server:port]*/ir/render]
 
-I svaren kontrollerar du om det finns objekt som börjar med &quot; `imageServer.`&quot;, vilket anger att plattformsservern kunde kommunicera med Image Server.
+I svaren kontrollerar du om det finns objekt som börjar med &quot; `imageServer.`&quot;, vilket anger att Platform Server kunde kommunicera med Image Server.
 >Ytterligare verifiering kan utföras med exempelsidorna i dokumentations- och demopaketen, om det är installerat.
 
