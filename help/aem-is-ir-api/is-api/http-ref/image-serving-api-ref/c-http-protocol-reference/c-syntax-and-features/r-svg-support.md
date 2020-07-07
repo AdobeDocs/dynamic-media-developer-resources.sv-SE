@@ -7,7 +7,10 @@ title: SVG-stöd
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 30d7b37d-fdef-4518-a4b3-4baee56fa634
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '522'
+ht-degree: 0%
 
 ---
 
@@ -36,11 +39,11 @@ Bilder kan infogas i SVG med hjälp av `<image>` elementet . Bilder som `xlink::
 
 Ange antingen en fullständig bildserverbegäran, som börjar med `http://`eller en relativ URL, som börjar med `/is/image`. Om en fullständig HTTP-sökväg anges tas domännamnet bort från sökvägen och konverteras till det relativa formatet. Det kan vara en fördel att använda en fullständig HTTP-sökväg eftersom den kan förhandsgranskas med en SVG-renderare från en annan tillverkare.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Stödet för bildåtergivning i den här versionen av Image Serving är begränsat. Referenser till bilder från SVG bör endast användas i situationer där traditionella bildserverlager och mallfunktioner inte räcker till för att uppnå det önskade resultatet. SVG får under inga omständigheter användas för att generera sammansatta bilder i flera bilder.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Bilder som är inbäddade i SVG ändrar för närvarande inte automatiskt storlek. Kontrollera att alla bildreferenser innehåller de bildserverskommandon som behövs för att ställa in önskad bildstorlek (t.ex. `wid=`). Om bildstorleken inte anges explicit används `attribute::DefaultPix` .
 
