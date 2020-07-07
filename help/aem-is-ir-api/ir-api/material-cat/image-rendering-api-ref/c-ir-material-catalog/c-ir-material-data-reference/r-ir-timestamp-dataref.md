@@ -7,7 +7,10 @@ title: TimeStamp
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 77ce8bee-7b55-4ff8-8dfb-ebd3ce9c7a8a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '278'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Tidsstämpel för filändring. Anger datum/tid då bilden och/eller datafilerna 
 
 Om `attribute::UseLastModified` är inställt returneras det senaste av `catalog::TimeStamp` - och `vignette::TimeStamp` -värdena för allt material och den vinjett som ingår i begäran som en senast ändrad rubrik i HTTP-svaret.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >De faktiska filtiderna för den bild eller de datafiler som är kopplade till den här katalogposten används aldrig för detta ändamål.
 
