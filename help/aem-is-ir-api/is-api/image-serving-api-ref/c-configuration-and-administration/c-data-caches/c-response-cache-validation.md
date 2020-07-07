@@ -7,7 +7,10 @@ title: Verifiering av svarscache
 topic: Scene7 Image Serving - Image Rendering API
 uuid: d1aad5ae-f0fa-489b-a48b-b0ac8c8f43bb
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '330'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +27,7 @@ För typiska program som till största delen innehåller bilder som är registre
 
 Cacheposter blir ogiltiga och kan genereras om när en katalogpost som ingår i begäran ändras på ett sätt som troligen skulle orsaka en ändring av svarsbilden. Innehållet i `catalog::Modifier` ändras till exempel.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Scene7 pyramid TIFF-bilder (PTIFF) bevarar fildatumet internt i filhuvudet i valideringssyfte. Filändringstiden som bevaras av filsystemet används för att kontrollera om en fil som inte är en PTIFF-fil har ändrats.
 
