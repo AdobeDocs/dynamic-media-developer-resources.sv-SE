@@ -7,7 +7,10 @@ title: Innehållsdatamappar
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 7c4d60ca-8a8b-453c-887d-a6a16eacc883
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '235'
+ht-degree: 0%
 
 ---
 
@@ -26,9 +29,9 @@ Platsen för statiska innehållskälldata som är avsedda att levereras via [!DN
 
 Flera värden kan anges avgränsade med semikolon för att distribuera statiskt innehåll i flera filsystem. Vanligtvis inställd på samma värden som `IS::RootPath`.
 
-Plattformsservern testar rotsökvägarna i den ordning som anges tills den begärda filen hittas.
+Platform Server testar rotsökvägarna i den ordning som anges tills den begärda filen hittas.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Som standard är det här fältet avsiktligt inställt på en icke-befintlig plats ( [!DNL *[!DNL install_folder]*/static]), vilket inaktiverar den statiska innehållstjänsten.
 
