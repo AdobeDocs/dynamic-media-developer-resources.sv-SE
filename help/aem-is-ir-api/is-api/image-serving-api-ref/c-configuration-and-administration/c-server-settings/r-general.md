@@ -7,7 +7,10 @@ title: Allmänt
 topic: Scene7 Image Serving - Image Rendering API
 uuid: d7ec3dba-64b8-431b-b446-84ab6139ba8a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '230'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Allmänna serverinställningar
 
 ## TC::PsPort - huvudavlyssningsport {#section-d31d3051aa994a76b60b70c3d9f7e89f}
 
-Anger den huvudsakliga avlyssningsporten för plattformsservern. Den här porten används också för att komma åt dokumentation och exempelsidor för bildservrar, bildåtergivning och Scene7-visningsprogram (om de är installerade).
+Anger huvudavlyssningsporten för Platform Server. Den här porten används också för att komma åt dokumentation och exempelsidor för bildservrar, bildåtergivning och Scene7-visningsprogram (om de är installerade).
 
 ## IS::CacheServerUrl - URL för cachelagring av tjänstens rot {#section-bcca227a1f91453b834db4ea050968e2}
 
@@ -36,7 +39,7 @@ Den tid som Image Server väntar på att en fjärrserver ska leverera den begär
 
 Ange som false om du inte vill tillåta begäranden som inte innehåller något giltigt katalog-ID i sökvägen. Standardvärdet är `true`. När den anges `false`returneras ett fel för begäranden utan katalog-ID.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >`req=catalogprops` omfattas inte av den här inställningen.
 
