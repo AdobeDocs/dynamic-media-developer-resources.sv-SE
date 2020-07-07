@@ -7,7 +7,10 @@ title: Varningströsklar
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 032cb396-1a03-4ba9-82d6-ed2cb06e8cf2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '406'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ Använd de här serverinställningarna för att konfigurera tröskelvärden för
 
 En svarstidsvarning skickas när den genomsnittliga tiden för behandling av en begäran under samplingsintervallet överskrider det tröskelvärde som anges här. Uttryckt i msek; heltal 0 eller större. Typiska värden är mellan 100 och 1000 msek, beroende på hur komplexa åtgärderna är.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Begäranden som resulterar i svarsstatus 4xx eller 5xx beaktas inte för den här aviseringen.
 
@@ -36,7 +39,7 @@ En minsta trafikvarning skickas när det genomsnittliga antalet begäranden per 
 
 ## AS::monitorAlertGenerator.minFreeHeapSpace -Free Heap Space Threshold {#section-ce6705045f6842769030ccb1894594cc}
 
-Anger det minsta lediga Java-heap-utrymmet. En prioritetsvarning skickas omedelbart efter en skräpinsamlingscykel för Java när det lediga stackutrymmet är under detta tröskelvärde. 50 MB rekommenderas för säker användning av plattformsservern. Om du behåller det kostnadsfria stackutrymmet ovanför det här värdet minskas frekvensen för skräpinsamlingscykler, vilket kan förbättra serverprestanda generellt. Heltalsvärde i byte, 0 eller större.
+Anger det minsta lediga Java-heap-utrymmet. En prioritetsvarning skickas omedelbart efter en skräpinsamlingscykel för Java när det lediga stackutrymmet är under detta tröskelvärde. 50 MB rekommenderas för säker drift av Platform Server. Om du behåller det kostnadsfria stackutrymmet ovanför det här värdet minskas frekvensen för skräpinsamlingscykler, vilket kan förbättra serverprestanda generellt. Heltalsvärde i byte, 0 eller större.
 
 ## AS::monitorAlertGenerator.maxOverlap - Maximalt antal samtidiga begäranden {#section-ddc6925bff944758ab19bcc9cf3f2589}
 
