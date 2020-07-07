@@ -7,7 +7,10 @@ title: Begär kapsling och inbäddning
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 59031329-e65f-4631-bc7d-83f2540cc836
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '1075'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Image Serving har stöd för obegränsad kapsling av Image Serving-begäranden, inbäddning av begäranden om bildåtergivning samt inbäddning av bilder som hämtats från externa servrar. Det är bara lagerbilder och lagermasker som har stöd för dessa mekanismer.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Vissa e-postklienter och proxyservrar kan koda klammerparenteserna som används för syntaxen för kapsling och inbäddning. I program där detta är ett problem bör parenteser användas i stället för klammerparenteser.
 
@@ -30,7 +33,7 @@ Token är `is` skiftlägeskänslig.
 
 Den kapslade begäran får inte innehålla serverrotsökvägen (vanligtvis ` http:// *[!DNL server]*/is/image/'`).
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >De kapslade begärandeavgränsningstecknen ( `'(',')'`) och kommandoavgränsningstecknen ( `'?'`, `'&'`, `'='`) i kapslade begäranden får inte HTTP-kodas. I praktiken måste kapslade begäranden kodas på samma sätt som den yttre (kapslade) begäran.
 
@@ -62,7 +65,7 @@ Token är `ir` skiftlägeskänslig.
 
 *[!DNL renderRequest]* är den vanliga begäran om bildåtergivning, exklusive HTTP-rotsökvägen ` http:// *[!DNL server]*/ir/render/`.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >De kapslade begärandeavgränsningstecknen ( `'(',')'`) och kommandoavgränsningstecknen ( `'?'`, `'&'`, `'='`) i kapslade begäranden får inte HTTP-kodas. Inbäddade begäranden måste i själva verket kodas på samma sätt som den yttre (inbäddade) begäran.
 
@@ -87,13 +90,13 @@ När FXG-grafikåtergivaren (även kallad [!DNL AGMServer]) är installerad och 
 
 Token är `fxg` skiftlägeskänslig.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >FXG-grafikåtergivning är endast tillgängligt i Scene7-värdmiljön och kan kräva ytterligare licensiering. Kontakta Scene7 Support för mer information.
 
 *[!DNL renderRequest]* är den vanliga FXG-återgivningsbegäran, exklusive HTTP-rotsökvägen ` http:// *[!DNL server]*/agm/render/`.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Avgränsningstecknen ( `'(',')'`) och kommandoavgränsningstecknen ( `'?'`, `'&'`, `'='`) i kapslade begäranden får inte HTTP-kodas. Inbäddade begäranden måste i själva verket kodas på samma sätt som den yttre (inbäddade) begäran.
 
@@ -127,7 +130,7 @@ Externa bilder cachelagras av servern enligt de cachelagringsrubriker som ingår
 
 Den här funktionen stöder samma bildfilsformat som stöds av verktyget Bildkonvertering (IC), med undantag för källbilder med 16 bitar per komponent.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Image Serving kör automatiskt valideringsverktyget när en extern bild används första gången, för att säkerställa att bilden är giltig och inte har skadats under överföringen. Detta kan orsaka en viss fördröjning vid första åtkomsten. För bästa prestanda bör du begränsa storleken på sådana bilder och/eller använda ett bildfilsformat som komprimeras väl.
 
