@@ -7,7 +7,10 @@ title: Konfigurera och hantera servern
 topic: Scene7 Image Serving - Image Rendering API
 uuid: cd344495-cb41-440e-b3f8-5b5812e81a9c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '89'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Det här avsnittet innehåller information som hjälper dig att konfigurera och hantera servern för bildåtergivning.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Bildservern måste vara korrekt konfigurerad och funktionell för att bildåtergivningen ska fungera korrekt.
 
