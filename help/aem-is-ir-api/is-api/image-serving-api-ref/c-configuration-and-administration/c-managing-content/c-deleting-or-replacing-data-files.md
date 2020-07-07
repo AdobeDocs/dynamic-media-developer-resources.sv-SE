@@ -7,7 +7,10 @@ title: Ta bort eller ersätta datafiler
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 7b446144-48f6-4b50-93ec-0287425d932a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '393'
+ht-degree: 0%
 
 ---
 
@@ -16,11 +19,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 När det är enkelt och enkelt att lägga till nya datafiler måste du vara särskilt försiktig när du ersätter befintliga datafiler som aktivt används av servern. I stället för att bara ersätta sådana filer rekommenderar vi att du ger ersättningsfilen ett nytt namn (t.ex. lägger till ett versionssuffix till filnamnet). När den nya filen har publicerats kan den gamla versionen tas bort.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Datafiler ska aldrig ersättas eller tas bort när de används aktivt av bildservern. Fel eller till och med en serverkrasch kan inträffa i annat fall.
 
-Kom ihåg att plattformsserverns cache och klientens cacheposter måste bli inaktuella innan uppdaterade data kan ses av klienten. Du kan uppdatera specifika cacheposter direkt med `cache=validate` kommandot.
+Kom ihåg att cacheposterna för Platform Server och klientcachen måste bli inaktuella innan de uppdaterade data kan ses av klienten. Du kan uppdatera specifika cacheposter direkt med `cache=validate` kommandot.
 
 Ändringar i teckensnittsfiler och ICC-profilfiler spåras inte direkt av cachehanteraren. Om en sådan resurs ändras utan att dess ID ändras, kommer servercachen inte att känna till ändringen och `cache=validate` kommer inte att göra att cacheposten uppdateras. `cache=update` kan användas för att framtvinga återskapande av sådana cacheposter.
 
