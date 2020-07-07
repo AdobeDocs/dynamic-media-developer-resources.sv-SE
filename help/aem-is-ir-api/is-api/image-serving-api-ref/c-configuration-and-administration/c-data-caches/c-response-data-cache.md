@@ -1,22 +1,25 @@
 ---
-description: Plattformsservern cachelagrar alla svarsbilder och vissa textdata till disken, såvida inte en begäran har markerats som icke-cachelagrad.
-seo-description: Plattformsservern cachelagrar alla svarsbilder och vissa textdata till disken, såvida inte en begäran har markerats som icke-cachelagrad.
+description: Platform Server cachelagrar alla svarsbilder och vissa textdata på disken om inte en begäran har markerats som icke-cachelagrad.
+seo-description: Platform Server cachelagrar alla svarsbilder och vissa textdata på disken om inte en begäran har markerats som icke-cachelagrad.
 seo-title: Cache för svarsdata
 solution: Experience Manager
 title: Cache för svarsdata
 topic: Scene7 Image Serving - Image Rendering API
 uuid: dbfda210-3b50-4e8c-8d77-7263ae4e80a2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '316'
+ht-degree: 0%
 
 ---
 
 
 # Cache för svarsdata{#response-data-cache}
 
-Plattformsservern cachelagrar alla svarsbilder och vissa textdata till disken, såvida inte en begäran har markerats som icke-cachelagrad.
+Platform Server cachelagrar alla svarsbilder och vissa textdata på disken om inte en begäran har markerats som icke-cachelagrad.
 
-Platsen för plattformsserverns diskcache anges med `PS::cache.rootPaths`.
+Platsen för Platform Servers diskcache anges med `PS::cache.rootPaths`.
 
 För program som har höga träfffrekvenser i cacheminnet kan du öka serverns prestanda och kapacitet genom att distribuera svarsdatacachen mellan flera diskenheter. Du uppnår detta genom att skapa en cacherotmapp på varje disk och registrera dem i `PS::cache.rootPaths`.
 
@@ -24,8 +27,8 @@ För program som har höga träfffrekvenser i cacheminnet kan du öka serverns p
 
 Svarscachen hanteras dessutom `PS::cache.maxSize`genom att det maximala antalet cacheposter begränsas med `PS::cache.maxEntries`. I Linux måste den här inställningen ange ett värde som inte är större än antalet tillgängliga noder i cachepartitionen.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
->Plattformsservern underhåller ett cacheindex i minnet. Indexets storlek är 32 byte högre än värdet för `PS::cache.maxEntries`. Du kan behöva öka stackstorleken för Platform Server för att få plats med större cacheminnen.
+>Platform Server underhåller ett cacheindex i minnet. Indexets storlek är 32 byte högre än värdet för `PS::cache.maxEntries`. Du kan behöva öka stackstorleken för Platform Server för att få plats med större cacheminnen.
 
-Systemet använder en cacheindexfil som sparas på disken när servern stängs av på ett ordnat sätt. Om det inträffar oväntade händelser, t.ex. ett strömavbrott, kanske filen inte sparas. Det kan dessutom ta flera minuter för plattformsservern att bli klar.
+Systemet använder en cacheindexfil som sparas på disken när servern stängs av på ett ordnat sätt. Om det inträffar oväntade händelser, t.ex. ett strömavbrott, kanske filen inte sparas. Det kan dessutom ta flera minuter innan Platform Server blir klar.
