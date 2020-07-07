@@ -7,7 +7,10 @@ title: Uppdaterar från IS 4.7.4 eller senare
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 3d23f13a-a9be-45ff-9765-c71bdeb77c5f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '219'
+ht-degree: 0%
 
 ---
 
@@ -18,19 +21,19 @@ Använd den här proceduren när du uppgraderar Scene7 Image Serving.
 
 Om du uppgraderar från en äldre version av Image Serving kontaktar du supporten för rätt process.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Mappen kan tas bort [!DNL webapps] vid uppgradering. Säkerhetskopiera [!DNL webapps] mappen innan du uppgraderar.
 
 1. Logga in på servervärden med administratörsbehörighet.
 1. Extrahera innehållet i ZIP-filen Image Serving distribution.
 1. Kör setup/setup.exe för att starta installationsguiden.
-1. Klicka på **[!UICONTROL Nästa]** om du vill gå vidare till slutanvändaravtalet (EULA), läsa licensavtalet och klicka på **[!UICONTROL Ja]**.
+1. Klicka **[!UICONTROL Next]** för att gå vidare till slutanvändaravtalet (EULA), läsa licensavtalet och klicka på **[!UICONTROL Yes]**.
 
    På nästa sida visas de tidigare konfigurationsinställningarna.
-1. Klicka på **[!UICONTROL Nästa]** för att starta uppdateringsinstallationen.
+1. Klicka **[!UICONTROL Next]** för att starta uppdateringsinstallationen.
 
-   >[!NOTE] {class=&quot;- topic/note &quot;
+   >[!NOTE]
    >
    >Installationsprogrammet säkerhetskopierar de gamla serverkonfigurationsfilerna till [!DNL BACKUP/] mappen.
 
