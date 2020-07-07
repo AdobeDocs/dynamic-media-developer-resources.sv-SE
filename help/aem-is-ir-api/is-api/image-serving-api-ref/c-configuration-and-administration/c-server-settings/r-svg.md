@@ -7,7 +7,10 @@ title: SVG
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 9e69b150-46ac-480f-96db-afadccc40fe4
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '286'
+ht-degree: 0%
 
 ---
 
@@ -32,9 +35,9 @@ Största storlek på SVG-källfil i kBytes. Servern returnerar ett fel när ett 
 
 Begränsar storleken på bilder som SVGRender kan producera. Heltalsvärde som är större än 0 i miljoner pixlar. Ett fel returneras om en återgivningsåtgärd skulle överskrida storleksgränsen. Standardvärdet är 4.
 
-## PS::svgProvider.port - avlyssningsport för plattformsserver {#section-f7e42a96c2dd4523b46f0557c239e659}
+## PS::svgProvider.port - Platform Server Listening Port {#section-f7e42a96c2dd4523b46f0557c239e659}
 
-Den port som används för SVgRender för att hämta bilder från plattformsservern som ska bäddas in i SVG-återgivningar.
+Den port som används för SVgRender för att hämta bilder från Platform Server som ska bäddas in i SVG-återgivning.
 
 Viktigt För att SVGRender-komponenten ska fungera korrekt måste det här konfigurationsalternativet anges till samma värde som `TC::PsPort`.
 
@@ -46,7 +49,7 @@ Anger var SVgRender ska hitta de teckensnittsfiler som behövs för att återge 
 
 Konfigurerar den port som Image Server och SVGRender-komponenten kommunicerar på.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >För att SVGRender-komponenten ska fungera korrekt måste samma portnummer anges för `SVG::SVGRender.port` och `IS::SVGTcpPort`.
 
