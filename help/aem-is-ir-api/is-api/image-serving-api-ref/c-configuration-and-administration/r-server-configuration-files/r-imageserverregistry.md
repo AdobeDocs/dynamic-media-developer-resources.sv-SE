@@ -7,7 +7,10 @@ title: ImageServerRegistry.xml
 topic: Scene7 Image Serving - Image Rendering API
 uuid: cc401f75-1eb1-40fe-8308-eaaf9e14f906
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '168'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ När du ändrar den här XML-filen måste du se till att behålla giltig XML-syn
 
 För att ändringarna ska börja gälla startar du om Image Server när du har redigerat den här filen. Det är bara elementvärdena som anges nedan som kan ändras. Redigera eventuellt annat innehåll i den här filen endast om du får råd från Scene7 Technical Support.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Ändra inte elementens struktur `<imageserverregistry>`och ordning. Var försiktig när du redigerar den här filen, annars kanske inte Image Server kan startas.
 
