@@ -7,7 +7,10 @@ title: Egna variabler
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 933fba00-759c-4bd3-bada-eec751426d9e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '260'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +27,7 @@ Frågedelen av begäranden och vinjett::Modifierarsträngar kan innehålla anvä
 
 Variabler definieras på liknande sätt som andra serverkommandon, med syntaxen ovan. Variabler måste definieras innan de kan refereras. Variabler som definieras i `vignette::Modifier` kan refereras i URL-begäran och vice versa.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >*[!DNL value]* måste vara URL-kodad med ett-pass för säker HTTP-överföring. Dubbel kodning krävs om *[!DNL value]* överförs via HTTP. Detta är fallet när *[!DNL value]* ersätts med en kapslad utländsk begäran.
 
