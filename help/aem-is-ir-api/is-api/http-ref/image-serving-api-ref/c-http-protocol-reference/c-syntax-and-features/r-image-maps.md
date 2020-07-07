@@ -7,7 +7,10 @@ title: Bildscheman
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 2b7b620b-712b-4110-ba38-993a354c09d3
 translation-type: tm+mt
-source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '402'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ Källbildscheman skickas till IS antingen via `catalog::Map` eller med `map=` ko
 
 Ett bildschema består av ett eller flera HTML AREA-element som är rätt avgränsade med &#39;&lt;&#39; och &#39;>&#39;. Om det anges via katalog::Map antas alla pixelkoordinatvärden vara i den ursprungliga bildupplösningen och i förhållande till det övre vänstra hörnet i (oförändrad) källbilden. När koordinatvärdena anges via ett `map=` kommando antas de vara lagerkoordinater i förhållande till lagrets övre vänstra hörn (efter `rotate=` och `extend=`).
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >% koordinater tillåts inte för närvarande och kan behandlas felaktigt.
 
