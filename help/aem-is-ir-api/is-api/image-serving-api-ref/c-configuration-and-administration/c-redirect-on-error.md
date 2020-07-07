@@ -7,7 +7,10 @@ title: Omdirigering vid fel
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 894babe9-9c3c-4972-ae8f-387d65b4167d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '327'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +36,7 @@ När den är aktiverad och ett sådant fel inträffar under bearbetningen av beg
 
 Felomdirigering aktiveras genom inställning `PS::errorRedirect.rootUrl` till den sekundära serverns HTTP-domännamn och portnummer. Dessutom konfigureras timeout för anslutningen med `PS::errorRedirect.connectTimeout` och den maximala tid som den primära servern väntar på ett svar från den sekundära servern innan ett fel returneras till klienten konfigureras med `PS::errorRedirect.socketTimeout`.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Om den sekundära servern inte kan kontaktas returneras ett textfelssvar till klienten, även om en standardbild eller felbild är konfigurerad.
 
