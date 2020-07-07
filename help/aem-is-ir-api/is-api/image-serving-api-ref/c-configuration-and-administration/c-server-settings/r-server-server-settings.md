@@ -7,7 +7,10 @@ title: Server
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 50db98cc-8354-4884-9416-00808828061b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 0%
 
 ---
 
@@ -20,23 +23,23 @@ Använd de här serverinställningarna för att konfigurera servern.
 
 Både en 32- och en 64-bitarsversion av Image Server finns för Linux. Ange ImageServer64 när den installeras på 64-bitars Linux-servrar, eller ImageServer32 (standard) när den installeras på 32-bitarsservrar.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >64-bitarsversionen av Image Server stöder inte FlashPix-källfiler.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >64-bitarsläge stöds inte i Windows. Endast `ImageServer32` angivet. I annat fall startar inte Image Serving.
 
-## SV::PSHeapSize - stackstorlek för plattformsserver {#section-fd83715948764aeda58d6b3a9f9f8be9}
+## SV::PSHeapSize - stackstorlek för Platform Server {#section-fd83715948764aeda58d6b3a9f9f8be9}
 
-Java-stackstorleken för plattformsservern. Standardvärdet är &quot; `512m`&quot; (512 MB).
+Java-stackstorleken för Platform Server. Standardvärdet är &quot; `512m`&quot; (512 MB).
 
 ## IS::TcpPort, PS::isConnection.port - Image Server Listening Port {#section-5421bfd2ca2a4a979faf812b6fdb2887}
 
-Anger porten som används för kommunikation mellan plattformsservern och Image-servern. Se till att ange ett portnummer som inte används på annat sätt på värdsystemet.
+Anger porten som används för kommunikation mellan Platform Server och Image Server. Se till att ange ett portnummer som inte används på annat sätt på värdsystemet.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >För att bildservern ska fungera på rätt sätt måste samma värde anges för `IS::TcpPort` och `PS::isConnection.port`.
 
