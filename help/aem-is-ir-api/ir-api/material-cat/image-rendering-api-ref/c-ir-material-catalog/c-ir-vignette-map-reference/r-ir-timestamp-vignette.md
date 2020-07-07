@@ -7,7 +7,10 @@ title: TimeStamp
 topic: Scene7 Image Serving - Image Rendering API
 uuid: d2649e86-8a6f-4f63-ab6a-8b2d8c03f8c0
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '238'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Tidsstämpel för ändring. Anger datum/tid då denna vinjettering senast ändra
 
 Om `attribute::UseLastModified` anges returneras det senaste `vignette::TimeStamp` värdet och `catalog::TimeStamp`värdet för vinjetteringen och allt material som ingår i begäran som en senast ändrad rubrik i HTTP-svaret.
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >Den faktiska filtiden för vinjettfilen används aldrig för detta ändamål.
 
