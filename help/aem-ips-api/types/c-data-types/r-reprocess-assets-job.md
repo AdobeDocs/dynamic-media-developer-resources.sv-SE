@@ -7,9 +7,9 @@ title: ÅterbearbetaResurserJobb
 topic: Scene7 Image Production System API
 uuid: 5b4aa838-0fb4-4ae8-be5a-8ce1e1487127
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: fa8be83171215f39cd2593a3bfe75ffe5fb7abcd
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Syntax
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> preserveCrop</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:boolesk</span> </p> </td> 
-   <td colname="col3">Kontrollerar bevarande av befintliga beskärningsdefinitioner. Standardvärdet är <span class="codeph"> true</span>. </td> 
+   <td colname="col3"> <p>Kontrollerar bevarande av befintliga beskärningsdefinitioner. Standardvärdet är true.</p> <p>Om du anger parametern manualCropOptions och motsvarande värden används de nya värdena (exklusive 0,0,0,0) för resursen oavsett preserveCrop-värdet.</p><p>Om du <i>inte</i> anger parametern manualCropOptions behålls värdet för preserveCrop. Om värdet är true behålls de befintliga värdena för preserveCrop. om false tas preserveCrop-värdena bort.</p><p>Exempel:</p><p><p>&lt;preserveCrop&gt;false&lt;/preserveCrop&gt;<br />&lt;manualCropOptions&gt;<br />&lt;left&gt;190&lt;/left&gt;<br />&lt;right&gt;310&lt;/right&gt;<br />&lt;top&gt;160&lt;/top&gt;<br />&lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualCropOptions&gt;</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </p> </td> 
