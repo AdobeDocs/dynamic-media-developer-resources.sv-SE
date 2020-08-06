@@ -7,7 +7,10 @@ title: Uppdaterar från IS 4.7.4 eller senare
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 70beb1a3-71b9-4bd0-b048-13d88446a9d3
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 038f0f8f2c4f815e47749e0bab153c63e5396c91
+workflow-type: tm+mt
+source-wordcount: '219'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +35,7 @@ Mappen kan tas bort [!DNL webapps] vid uppgradering. Säkerhetskopiera [!DNL web
    När installationen är klar visas följande meddelande:
 
    `Image Server was started successfully`
->Under en uppdatering uppdateras [!DNL ImageServing/conf/server.xml] filen till de senaste inställningarna. Om du har ändrat eller lagt till värden bör du spara dina befintliga [!DNL server.xml] och implementera ändringarna efter uppgraderingen.
->
->Efter en uppdateringsinstallation bör du överväga att värma upp HTTP-svarscachen innan servern aktiveras. Mer information finns i beskrivningen av [!DNL playlog] verktyget.
 
+Under en uppdatering uppdateras [!DNL ImageServing/conf/server.xml] filen till de senaste inställningarna. Om du har ändrat eller lagt till värden bör du spara dina befintliga [!DNL server.xml] och implementera ändringarna efter uppgraderingen.
+
+Efter en uppdateringsinstallation bör du överväga att värma upp HTTP-svarscachen innan servern aktiveras. Mer information finns i beskrivningen av [!DNL playlog] verktyget.
