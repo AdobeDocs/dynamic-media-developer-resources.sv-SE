@@ -7,7 +7,10 @@ title: Installerar för första gången
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 6a9a6dd2-2c69-447a-9628-eba08dc4f6c8
 translation-type: tm+mt
-source-git-commit: c5b68038fa5980c7051fae916520b40e17890a7f
+source-git-commit: edb21832b3e36a6498c6aad27813cd4b3032b48f
+workflow-type: tm+mt
+source-wordcount: '400'
+ht-degree: 0%
 
 ---
 
@@ -57,17 +60,18 @@ Den här proceduren visar hur du installerar Image Serving för första gången 
  </tbody> 
 </table>
 
-1. Tryck på **[!UICONTROL Retur]** om du vill acceptera standardvärdet eller ange ett annat värde.
+1. Tryck för **[!UICONTROL Enter]** att godkänna standardvärdet eller ange ett annat värde.
 
    Kontrollera att alla angivna portnummer är unika och inte används på annat sätt på den här värden.
 
-   **Viktigt: **Om ett annat konto än roten anges måste du se till att åtkomstbehörigheterna för alla filer och mappar som Image Server behöver för att läsa och/eller skriva är korrekt konfigurerade när dessa mappar konfigureras om i konfigurationsfilerna.
->Image Serving är nu installerat i [!DNL /usr/local/Scene7/ImageServing]. Visst bildåtergivningsinnehåll är installerat i [!DNL /usr/local/Scene7/ImageRendering].
->
->Installationsguiden försöker starta Image Server mot slutet av installationen. Om ingen giltig licensnyckel hittas kan inte Image Server starta. Om det finns en giltig licens och Image Server fortfarande inte startas, bör du läsa loggfilerna.
->[!NOTE]
-Om licensen har installerats efter installation av Image Serving måste Image Server startas manuellt innan den används.
->
->
->
+   >[!IMPORTANT]
+   >
+   >Om ett annat konto än roten anges måste du se till att åtkomstbehörigheterna för alla filer och mappar som Image Server behöver för att läsa och/eller skriva är korrekt konfigurerade när dessa mappar konfigureras om i konfigurationsfilerna.
+   >
+   >Image Serving är nu installerat i [!DNL /usr/local/Scene7/ImageServing]. Visst bildåtergivningsinnehåll är installerat i [!DNL /usr/local/Scene7/ImageRendering].
+   >
+   >Installationsguiden försöker starta Image Server mot slutet av installationen. Om ingen giltig licensnyckel hittas kan inte Image Server starta. Om det finns en giltig licens och Image Server fortfarande inte startas, bör du läsa loggfilerna.
 
+>[!NOTE]
+>
+>Om licensen har installerats efter installation av Image Serving måste Image Server startas manuellt innan den används.
