@@ -7,7 +7,10 @@ title: ordlista
 topic: Scene7 Image Serving - Image Rendering API
 uuid: f137d362-74a1-45b3-9274-a3a2d6cf5db0
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 0%
 
 ---
 
@@ -20,19 +23,19 @@ Glanskarta. Tillhandahåller pixel-för-pixel-kontroll av glansigheten i en uppr
 
 <table id="simpletable_6AFC3DEB61D647339525C7CFFA052608"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> embeddedReq</span></span> </p></td> 
-  <td class="stentry"> <p><span class="codeph">{'is{'<span class="varname"> isReq</span>'}'}|{'<span class="varname"> foreignReq</span>'}' </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> embeddedReq</span> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&amp;Klona;klammerparentes;'is&amp;klammerparentes;<span class="varname"> isReq</span>'&amp;klammerparenteser;'&amp;klammerparenteser;klammerparenteser;'&amp;klammerparenteser;klammerparenteser<span class="varname"></span>;' </span> </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> glossMapFile</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> glossMapFile</span> </span> </p></td> 
   <td class="stentry"> <p>Bildfil för glanskarta (gråskala). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> isReq</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> isReq</span> </span> </p></td> 
   <td class="stentry"> <p>Begäran till Image Server. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> foreignReq </span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> foreignReq </span> </span> </p></td> 
   <td class="stentry"> <p>Begär till en extern server. </p></td> 
  </tr> 
 </table>
