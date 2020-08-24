@@ -7,7 +7,10 @@ title: setContainerId
 topic: Dynamic media
 uuid: 19149e38-b9d2-4ecd-a555-92e2960f7ee3
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '91'
+ht-degree: 0%
 
 ---
 
@@ -18,14 +21,14 @@ JavaScript API-referens för eCatalog Viewer.
 
 [!DNL ` setContainerId( *`containerId`*)`]
 
-Anger ID:t för [!DNL `DOM` -behållaren (vanligtvis en [!DNL `DIV`]) som visningsprogrammet infogas i. Det är inte nödvändigt att ha behållarelementet skapat när metoden anropas. Behållaren måste dock finnas när [!DNL `init()`] den körs. Den måste anropas innan [!DNL `init()`].
+Anger ID:t för den `DOM` behållare (vanligtvis en `DIV`) som visningsprogrammet infogas i. Det är inte nödvändigt att ha behållarelementet skapat när metoden anropas. Behållaren måste dock finnas när `init()` den körs. Den måste anropas innan `init()`.
 
-Den här metoden är valfri om visningsprogrammets konfigurationsinformation skickas med [!DNL `config`] JSON-objektet till konstruktorn.
+Den här metoden är valfri om visningsprogrammets konfigurationsinformation skickas med `config` JSON-objektet till konstruktorn.
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId </span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> {string} </span> -ID för behållare. </p> </td> 
   </tr> 
  </tbody> 
