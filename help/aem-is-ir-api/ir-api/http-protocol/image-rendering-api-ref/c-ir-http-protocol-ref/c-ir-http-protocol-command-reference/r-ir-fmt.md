@@ -7,7 +7,10 @@ title: fmt
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 7c589119-d1b3-460f-acbd-5e8d10d0d976
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '603'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Svara i bildformat. Anger bildkodningsformatet för bilddata som skickas till klienten och motsvarande MIME-svarstyp för HTTP-svarshuvudet.
 
-` fmt= *``*[,[ *``*][, *`format pixelTypetiffCompression`*`]]
+` fmt= *``*[,[ *``*][, *`formatpixelTypetiffCompression`*]]`
 
 <table id="simpletable_200779AA8D8D49A089A295AED5C98C8F"> 
  <tr class="strow"> 
@@ -57,7 +60,7 @@ Svara i bildformat. Anger bildkodningsformatet för bilddata som skickas till kl
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>swf-alpha </p> </td> 
-  <td class="stentry"> <p>Förstörande JPEG och dekomprimerad mask som är inbäddad i en Macromedia swf-fil. </p> </td> 
+  <td class="stentry"> <p>Förstörande JPEG och en dekomprimerad mask som är inbäddad i en Macromedia swf-fil. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
@@ -169,7 +172,7 @@ I följande tabell visas giltiga kombinationer av *`format`* och *`pixelType`*, 
    <td colname="col1"> <p>swf, swf-alpha </p> </td> 
    <td colname="col2"> <p>rgb, grå </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/x-shockwave-flash&gt; </span> </p> </td> 
-   <td colname="col4"> <p>Nej </p> <p>(Inbäddade ICC-profiler ignoreras i Flash Player.) </p> </td> 
+   <td colname="col4"> <p>Nej </p> <p>(Flash Player ignorerar inbäddade ICC-profiler.) </p> </td> 
    <td colname="col5"> <p> <span class="codeph"> qlt= </span>, <span class="codeph"> attribut::TrustedDomains </span> </p> </td> 
   </tr> 
   <tr> 
