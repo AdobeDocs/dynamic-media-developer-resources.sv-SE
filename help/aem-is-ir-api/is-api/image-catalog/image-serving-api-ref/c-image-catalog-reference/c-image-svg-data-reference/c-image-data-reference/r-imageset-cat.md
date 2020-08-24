@@ -7,7 +7,10 @@ title: ImageSet
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 1a34aaef-4053-4474-abb8-794331898d88
 translation-type: tm+mt
-source-git-commit: 06f227705765e4173e1c4b49dd7d8202884f5e07
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '703'
+ht-degree: 0%
 
 ---
 
@@ -18,19 +21,19 @@ Bilduppsättningsdata. Innehåller en mekanism för att definiera sorterade upps
 
 En bilduppsättning består av en sorterad, kommaavgränsad lista med objekt, där varje objekt består av ett eller flera underobjekt (bild-ID, färgrute-ID, mediafilsökvägar, etiketter osv.), separerade med semikolon och/eller kolon.
 
-Klammerparenteserna &#39;{ }&#39; och &#39;( )&#39; kan användas för att avgränsa visst innehåll (till exempel färgvärden) eller för att ange kapslade uppsättningar. Klammerparenteser och parenteser som används på det här sättet får inte kodas och måste alltid visas som matchade par, annars inträffar ett katalogtolkningsfel.
+Klammerparenteser `{ }` och parenteser `( )` kan användas för att avgränsa visst innehåll (till exempel färgvärden) eller för att ange kapslade uppsättningar. Klammerparenteser och parenteser som används på det här sättet får inte kodas och måste alltid visas som matchade par, annars inträffar ett katalogtolkningsfel.
 
 >[!NOTE]
 >
 >Följande tecken används som angivna avgränsare och måste HTTP-kodas när de visas i uppsättningen som en del av id- eller strängvärden:
 >
->* ,
->* ;
->* :
->* {
->* }
->* (
->* )
+>* `,`
+>* `;`
+>* `:`
+>* `{`
+>* `}`
+>* `(`
+>* `)`
 
 
 
