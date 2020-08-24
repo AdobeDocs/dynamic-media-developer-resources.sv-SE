@@ -7,7 +7,10 @@ title: Speciella textobjekt
 topic: Scene7 Image Serving - Image Rendering API
 uuid: efcc3962-7097-4395-8b9f-f37c6e7f5b75
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '76'
+ht-degree: 0%
 
 ---
 
@@ -41,12 +44,12 @@ Använd följande specialenheter när du formaterar text.
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \{ </span> </td> 
+   <td> <span class="codeph"> &amp;klammer;klammerparentes; </span> </td> 
    <td> <p>Klammerparenteser som är öppna just nu. </p> </td> 
    <td> <p>Klammerparentesen måste vara HTTP-kodad. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \} </span> </td> 
+   <td> <span class="codeph"> &amp;rbrace; </span> </td> 
    <td> <p>Stäng klammerparentesen. </p> </td> 
    <td> <p>Klammerparentesen måste vara HTTP-kodad. </p> </td> 
   </tr> 
