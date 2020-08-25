@@ -7,7 +7,10 @@ title: fmt
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 29151740-3bbc-4c5e-bbc7-4afe9064ff5f
 translation-type: tm+mt
-source-git-commit: f490c0b927679917d5fbf3553e60aa90952735c3
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '856'
+ht-degree: 0%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: f490c0b927679917d5fbf3553e60aa90952735c3
 
 Svarsbildformat.
 
-`fmt=format[,` `[`*`pixelType`*`]`,`[`*`compression`*]]
+`fmt=format[,` `[`*`pixelType`*`]`,`[`*`compression`*`]]`
 
-*`format`* — jpeg| jpg| pjpeg| png| png8| png-alpha| png8-alpha| tif| tif-alpha| swf| swf-alpha| swf3| swf3-alpha| eps| gif| gif-alpha| m3u8| f4m| webb| webp-alpha| jpeg2000| jpeg2000-alpha| jpegxr| jpegxr-alpha
+*`format`* — jpeg | jpg | pjpeg | png | png8 | png-alpha | png8-alpha | tif | tif-alpha | swf | swf-alpha | swf3 | swf3-alpha | eps | gif | gif-alpha | m3u8 | f4m | webb | webp-alpha | jpeg2000 | jpeg2000-alpha | jpegxr | jpegxr-alpha
 
 | *`format`* | Beskrivning |
 |---|---| 
@@ -35,10 +38,10 @@ Svarsbildformat.
 | `eps` | Okomprimerad binär kapslad PostScript |
 | `gif` | GIF med 2 till 256 färger |
 | `gif-alpha` | GIF med 2 till 255 färger plus genomskinlighet för nyckelfärger |
-| `swf` | Förstörande JPEG inbäddad i en Adobe AS2 swf-fil |
-| `swf-alpha` | Förstörande JPEG och dekomprimerad mask inbäddad i en Adobe AS2 swf-fil |
+| `swf` | Förstörande JPEG inbäddad i en Adobe AS2-swf-fil |
+| `swf-alpha` | Förstörande JPEG och en dekomprimerad mask som är inbäddad i en Adobe AS2-swf-fil |
 | `swf3` | Förstörande JPEG inbäddad i en Adobe AS3 swf-fil |
-| `swf3-alpha` | Förstörande JPEG och en dekomprimerad mask som är inbäddad i en Adobe AS3 swf-fil. **Obs**: swf- och swf-alpha-formaten används bäst för ActionScript 2-program (Flash Player 8 och tidigare). swf3 och swf3-alpha rekommenderas för ActionScript3-program (Flash Player 9 och senare) |
+| `swf3-alpha` | Förstörande JPEG och en dekomprimerad mask som är inbäddad i en Adobe AS3-swf-fil. **Obs**: swf- och swf-alpha-formaten passar bäst för program i ActionScript 2 (Flash Player 8 och tidigare). swf3 och swf3-alpha rekommenderas för ActionScript3-program (Flash Player 9 och senare) |
 | `m3u8` | Manifestformat för Apple Streaming Server |
 | `f4m` | Manifestformat för Flash Streaming Server |
 | `webp` | Förstörande och förlustfri WebP |
@@ -82,8 +85,8 @@ I följande tabell visas giltiga kombinationer av *`format`*och *`pixelType`*, m
 <table id="table_12F897A34D1D47F3AA492D4F074F09D5"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> <i> format</i></b> </th> 
-   <th class="entry"> <b> <i> pixelType</i></b> </th> 
+   <th class="entry"> <b> <i> format</i> </b> </th> 
+   <th class="entry"> <b> <i> pixelType</i> </b> </th> 
    <th class="entry"> <b> MIME-typ för svar</b> </th> 
    <th class="entry"> <b>Bädda in ICC-profil</b> </th> 
    <th class="entry"> <b> Alternativ</b> </th> 
@@ -116,13 +119,13 @@ I följande tabell visas giltiga kombinationer av *`format`*och *`pixelType`*, m
    <td colname="col2"> <p>rgb, gray, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;image/tiff&gt; </span> </p> </td> 
    <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <span class="codeph"> <span class="varname"> komprimering </span></span> <p> ( <span class="codeph"> none|lzw|zip|jpeg </span>) </p> <p>endast tiff; tiff-alpha stöder inte jpeg-komprimering. </p> <p> <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> ignoreras om inte <span class="varname"> komprimering </span> är inställd på <span class="codeph"> jpeg </span>. </p> <p>, pathEmbed=, xmpEmbed= </p> </td> 
+   <td colname="col5"> <span class="codeph"> <span class="varname"> komprimering </span> </span> <p> ( <span class="codeph"> none|lzw|zip|jpeg </span>) </p> <p>endast tiff; tiff-alpha stöder inte jpeg-komprimering. </p> <p> <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> ignoreras om inte <span class="varname"> komprimering </span> är inställd på <span class="codeph"> jpeg </span>. </p> <p>, pathEmbed=, xmpEmbed= </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> swf,swf3, swf-alpha, swf-alpha3 </p> </td> 
    <td colname="col2"> <p>rgb, grå </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/x-shockwave-flash&gt; </span> </p> </td> 
-   <td colname="col4"> <p>Nej </p> <p> <p>Obs!  Inbäddade ICC-profiler ignoreras i Adobe Flash Player. </p> </p> </td> 
+   <td colname="col4"> <p>Nej </p> <p> <p>Obs!  Adobe Flash Player ignorerar inbäddade ICC-profiler. </p> </p> </td> 
    <td colname="col5"> <p> <span class="codeph"> qlt= </span>, <span class="codeph"> attribut::TrustedDomains </span> </p> </td> 
   </tr> 
   <tr valign="top"> 
@@ -130,7 +133,7 @@ I följande tabell visas giltiga kombinationer av *`format`*och *`pixelType`*, m
    <td colname="col2"> <p>rgb, gray, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/pdf&gt; </span> </p> </td> 
    <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <span class="codeph"> <span class="varname"> komprimering </span></span> <p> ( <span class="codeph"> none|zip|jpeg </span>), <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> ignoreras såvida inte <span class="codeph"> komprimeringen <span class="varname"></span> är inställd på </span> jpeg <span class="codeph"> </span>. </p> </td> 
+   <td colname="col5"> <span class="codeph"> <span class="varname"> komprimering </span> </span> <p> ( <span class="codeph"> none|zip|jpeg </span>), <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> ignoreras såvida inte <span class="codeph"> komprimeringen <span class="varname"></span> är inställd på </span> jpeg <span class="codeph"> </span>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> eps </p> </td> 
