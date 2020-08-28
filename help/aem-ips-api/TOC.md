@@ -4,7 +4,10 @@ product: adobe
 archtype: end-user
 user-guide-title: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
+source-git-commit: 88d3a65852365d7fcd7631ff5b5f7215b7c48618
+workflow-type: tm+mt
+source-wordcount: '640'
+ht-degree: 0%
 
 ---
 
@@ -354,7 +357,6 @@ source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
    + [SystemFieldConditionArray](types/c-data-types/r-system-field-condition-array.md)
    + [TaggCondition](types/c-data-types/r-tag-condition.md)
    + [TagConditionArray](types/c-data-types/r-tag-condition-array.md)
-   + [TagConditionArray](types/c-data-types/r-tag-condition-array.md)
    + [TaggFieldValues](types/c-data-types/r-tag-field-values.md)
    + [TaggFieldValuesArray](types/c-data-types/r-tag-field-values-array.md)
    + [TagValueUpdate](types/c-data-types/r-tag-value-update.md)
@@ -370,7 +372,7 @@ source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
    + [ThumbAssetUpdateArray](types/c-data-types/r-thumb-asset-update-array.md)
    + [Miniatyrbildsalternativ](types/c-data-types/r-thumbnail-options.md)
    + [AvkomprimeraAlternativ](types/c-data-types/r-uncompress-options.md)
-   + [UnsharpMaskOptions](types/c-data-types/r-unsharp-mask-options.md)
+   + [OskarpMaskOptions](types/c-data-types/r-unsharp-mask-options.md)
    + [UploadDirectoryJob](types/c-data-types/r-upload-directory-job.md)
    + [UploadPostJob](types/c-data-types/r-upload-post-job.md)
    + [UploadUrl](types/c-data-types/r-upload-url.md)
@@ -412,7 +414,7 @@ source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
    + [Teckensnittsformat](string-constants/c-string-constants/r-font-styles.md)
    + [Teckensnittstyper](string-constants/c-string-constants/r-font-types.md)
    + [Genereringsinformation](string-constants/c-string-constants/r-generation-info.md)
-   + [Illustrator-processer](string-constants/c-string-constants/r-illustrator-processes.md)
+   + [Illustrator Processes](string-constants/c-string-constants/r-illustrator-processes.md)
    + [Filtyper för jobbloggar](string-constants/c-string-constants/r-job-log-file-types.md)
    + [Sorteringsfält för jobbloggar](string-constants/c-string-constants/r-job-log-sort-fields.md)
    + [Jobbloggtyper](string-constants/c-string-constants/r-job-log-types.md)
@@ -422,8 +424,8 @@ source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
    + [Operatorer för numerisk jämförelse/datumjämförelse](string-constants/c-string-constants/r-numeric-date-comparison-operators.md)
    + [PDF-processer](string-constants/c-string-constants/r-pdf-processes.md)
    + [Behörighetstyper](string-constants/c-string-constants/r-permission-types.md)
-   + [Photoshop: Ankarlägen](string-constants/c-string-constants/r-photoshop-anchor-modes.md)
-   + [Photoshop: Namngivningslägen för lager](string-constants/c-string-constants/r-photoshop-layer-naming-modes.md)
+   + [Photoshop ankarlägen](string-constants/c-string-constants/r-photoshop-anchor-modes.md)
+   + [Namngivningslägen för Photoshop-lager](string-constants/c-string-constants/r-photoshop-layer-naming-modes.md)
    + [PostScript-färgmodell](string-constants/c-string-constants/r-postscript-colorspace-modes.md)
    + [Profilklasser](string-constants/c-string-constants/r-profile-classes.md)
    + [Publiceringsläge](string-constants/c-string-constants/r-publish-state.md)
