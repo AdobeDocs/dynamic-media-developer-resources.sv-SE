@@ -7,7 +7,10 @@ title: Datatyper
 topic: Scene7 Image Production System API
 uuid: 49e99f49-5bab-460f-a5f4-c966027b77fe
 translation-type: tm+mt
-source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
+source-git-commit: 88d3a65852365d7fcd7631ff5b5f7215b7c48618
+workflow-type: tm+mt
+source-wordcount: '228'
+ht-degree: 0%
 
 ---
 
@@ -191,7 +194,6 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 + [SystemFieldConditionArray](r-system-field-condition-array.md)
 + [TaggCondition](r-tag-condition.md)
 + [TagConditionArray](r-tag-condition-array.md)
-+ [TagConditionArray](r-tag-condition-array.md)
 + [TaggFieldValues](r-tag-field-values.md)
 + [TaggFieldValuesArray](r-tag-field-values-array.md)
 + [TagValueUpdate](r-tag-value-update.md)
@@ -207,7 +209,7 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 + [ThumbAssetUpdateArray](r-thumb-asset-update-array.md)
 + [Miniatyrbildsalternativ](r-thumbnail-options.md)
 + [AvkomprimeraAlternativ](r-uncompress-options.md)
-+ [UnsharpMaskOptions](r-unsharp-mask-options.md)
++ [OskarpMaskOptions](r-unsharp-mask-options.md)
 + [UploadDirectoryJob](r-upload-directory-job.md)
 + [UploadPostJob](r-upload-post-job.md)
 + [UploadUrl](r-upload-url.md)
