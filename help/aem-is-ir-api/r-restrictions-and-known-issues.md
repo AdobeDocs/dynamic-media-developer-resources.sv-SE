@@ -1,15 +1,15 @@
 ---
-description: Det finns vissa begränsningar och kända fel som bör beaktas när Scene7 Image Serving används.
-seo-description: Det finns vissa begränsningar och kända fel som bör beaktas när Scene7 Image Serving används.
+description: Det finns vissa begränsningar och kända fel som bör beaktas när du använder Scene7 Image Serving.
+seo-description: Det finns vissa begränsningar och kända fel som bör beaktas när du använder Scene7 Image Serving.
 seo-title: Begränsningar och kända fel
 solution: Experience Manager
 title: Begränsningar och kända fel
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 9f9fad41-4828-4fba-8f5f-2c33e7811c71
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 0e9d6a0ccbb040b27cc89b933442d8530c60d5c8
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1248'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Begränsningar och kända fel{#restrictions-and-known-issues}
 
-Det finns vissa begränsningar och kända fel som bör beaktas när Scene7 Image Serving används.
+Det finns vissa begränsningar och kända fel som bör beaktas när du använder Scene7 Image Serving.
 
 ## Dokumentationsfel {#section-b1579410b11e41e488c7de9ecc7e8d5c}
 
@@ -85,19 +85,19 @@ Digimarc-biblioteket vägrar att använda en Digimarc-vattenstämpel på en bild
 
    *&quot;Bilden`C:\Program Files\Scene7\ImageRendering\resources\MyVignette.vnt`har ingen giltig DSF och området 2,25MPixel överskrider maxvärdet för 2MPixel&quot;* .
 
-   Bästa sättet är att använda pyramiderade slipsar och vinjetteringar. Om du behöver använda icke-pyramidade vinjetter eller vinjetter följer du instruktionerna nedan för att öka storleksgränsen.
+   Det bästa sättet är att använda pyramiderade slipsar och vinjetteringar. Om du behöver använda icke-pyramidade vinjetter eller vinjetter följer du instruktionerna nedan för att öka storleksgränsen.
 
    *Gå runt*:
 
-   För bildåtergivning av icke-pyramidade vinjetter ökar du egenskapsvärdet för IrMaxNonPyrVignetteSize i konfigurationsfilen [!DNL *[!DNL install_root]*/ImageServing/bin/ ImageServerRegistry.xml].
+   För bildåtergivning av icke-pyramidade vinjetter ökar du egenskapsvärdet för IrMaxNonPyrVignetteSize i [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] konfigurationsfilen.
 
-   För Image Serving non-pyramided TIFFs ökar du egenskapsvärdet för `MaxNonDsfSize` i konfigurationsfilen [!DNL *[!DNL install_root]* /ImageServing/bin/ ImageServerRegistry.xml].
+   För Bildservning av icke-pyramidade TIFF-filer ökar du egenskapsvärdet för `MaxNonDsfSize` i [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] konfigurationsfilen.
 
-* I Adobe Photoshop CS3 sparas inte PSD-filer med lager som standard som en sammansatt bild.
+* I Adobe Photoshop CS3 sparas inte PSD-filer med lager som standard som sammansatta bilder.
 
    *Symtom*:
 
-   PSD-filen med Adobe Photoshop CS3-lager visas som svart med texten&quot;Denna lageruppbyggda Photoshop-fil sparades inte med en sammansatt bild&quot;. för svarsbilden Image Serving eller i IPS.
+   PSD-filen med lager i Adobe Photoshop CS3 visas som svart med texten&quot;Denna Photoshop-fil med lager har inte sparats med en sammansatt bild&quot;. för svarsbilden Image Serving eller i IPS.
 
    *Tillfällig lösning*:
 
@@ -119,7 +119,7 @@ Digimarc-biblioteket vägrar att använda en Digimarc-vattenstämpel på en bild
 * PNG-bilder med 16 bitar per kanal stöds inte för PhotoFont-text.
 * Färgkorrigeringar för PNG-bilder med inbäddade färgprofiler använder hårdkodade alternativ. Återgivningsmetoden är relativ kolorimetrisk och svartpunktskompensation är aktiverat för PhotoFont-text.
 * Filbaserad sökning stöds inte när språköversättning är aktiverat i [!DNL ini] företagsfilen.
-* Bildredigering skriver inte oavslutade Photoshop-banor korrekt.
+* Image Serving skriver inte oavslutade Photoshop-sökvägar korrekt.
 * Image Serving stöder för närvarande inte bearbetning av TIFF-filer som exporterats med Adobe Media Encoder 4.0.1 eller tidigare. Adobe Media Encoder ingår i Premiere Pro CS4, After Effects CS4 och Creative Suite 4 Production Premium.
 * Att använda `text=` med självskalande lager stöder inte RTF-strängar som använder mer än en inställning för linjejustering.
 
@@ -135,7 +135,7 @@ Digimarc-biblioteket vägrar att använda en Digimarc-vattenstämpel på en bild
 
    *Tillfällig lösning*
 
-   Ange egenskapen `svgProvider.fontRoot=` i [!DNL *[!DNL install_root]* /ImageServing/conf/PlatformServer.conf].
+   Ange egenskapen `svgProvider.fontRoot=` i [!DNL install_root/ImageServing/conf/PlatformServer.conf] .
 
 * Beskärning används för närvarande i stället `bgColor=` för `color=` att fylla i nya utökade områden.
 
@@ -145,7 +145,7 @@ Digimarc-biblioteket vägrar att använda en Digimarc-vattenstämpel på en bild
 ## Begränsningar som endast gäller för bildåtergivning {#section-4c6949e797174607a3d1ab4d3d4a725a}
 
 * Dekaler och väggmaterial kan inte avlägsnas.
-* Storleken på texturer är begränsad i förhållande till vinjetteringsvyns storlek. I sällsynta fall kan standardgränsen på 425 % av visningsstorleken störa ett program som använder mycket stora icke-repeterbara texturer. Om det inte går att ändra programmet eller innehållet så att det fungerar inom de fördefinierade begränsningarna kan procentandelen ökas enligt följande. Öppna [!DNL *[!DNL install_root]*/ImageServing/conf/ImageServerRegistry.xml] med en textredigerare, leta reda på `IrMaxTextureSizeFactor` och ange ett nytt procentvärde. Ändringen börjar gälla omedelbart utan att du behöver starta om Image Server.
+* Storleken på texturer är begränsad i förhållande till vinjetteringsvyns storlek. I sällsynta fall kan standardgränsen på 425 % av visningsstorleken störa ett program som använder mycket stora icke-repeterbara texturer. Om det inte går att ändra programmet eller innehållet så att det fungerar inom de fördefinierade begränsningarna kan procentandelen ökas enligt följande. Öppna [!DNL install_root/ImageServing/conf/ImageServerRegistry.xml], leta upp `IrMaxTextureSizeFactor` och ange ett nytt procentvärde i en textredigerare. Ändringen börjar gälla omedelbart utan att du behöver starta om Image Server.
 
 * JavaScript-motorer i Netscape och Opera cache-svarsdata även om nocache-huvudet är inställt. Detta stör en korrekt funktion för tillståndskänsliga begäranden.
 
