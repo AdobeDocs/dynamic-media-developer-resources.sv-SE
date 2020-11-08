@@ -7,7 +7,10 @@ title: Förfrågan om obehörig
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 59b12a78-c4ba-4b6d-97bc-63150298ed73
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 80ae3a549340156bb74faa1793c43d3a8fa3853c
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,6 +20,10 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 Innehållet i hela modifierardelen av begärandesträngen, inklusive det valfria låssuffixet, kan döljas genom att standardkodningen base64 används.
 
 Servern försöker avkoda om `attribute::RequestObfuscation` den är inställd. Om avkodningen misslyckas avvisas begäran. Om både låsning av begäran och obstruktion av begäran används, måste låssuffixet genereras och läggas till före base64-kodning.
+
+>[!IMPORTANT]
+>
+>Om du aktiverar den här funktionen bör du vara medveten om att det finns vissa begränsningar för dess användning som omfattar följande:<br>- Användargränssnittet för dynamiska media kanske inte visar rätt information för **[!UICONTROL Last Published]** fältet. Detta påverkar dock inte publiceringen.<br>- För närvarande fungerar inte HLS-videoströmning när **[!UICONTROL Request obfuscation]** och **[!UICONTROL Request locking]** är aktiverat.
 
 ## Exempel {#section-dd4bfab19aa040f8ba3f6e397c6b0941}
 
