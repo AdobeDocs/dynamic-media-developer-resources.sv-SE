@@ -3,8 +3,12 @@ cloud: experience-cloud
 product: adobe
 archtype: end-user
 user-guide-title: Dynamic Media Image Serving and Rendering API
+breadcrumb-title: Dynamic Media Image Serving and Rendering API
 translation-type: tm+mt
-source-git-commit: 79874613934ca399358bb74d6b911700f8df530d
+source-git-commit: 901f0c3986715279e0c696db93be2048343d2bc5
+workflow-type: tm+mt
+source-wordcount: '1465'
+ht-degree: 0%
 
 ---
 
