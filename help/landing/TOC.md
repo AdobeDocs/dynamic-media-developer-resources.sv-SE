@@ -1,10 +1,17 @@
 ---
-title: Adobe Dynamic Media Developer Resources
-seo-title: Resursguider för Adobe Dynamic Media-utvecklare för tittare, bildvisning, bildåtergivning och bildproduktion
-description: Adobe Dynamic Media Developer Resources
-seo-description: Resursguider för Adobe Dynamic Media-utvecklare för tittare, bildvisning, bildåtergivning och bildproduktion
+title: Resurser för Adobe Dynamic Media-utvecklare
+cloud: experience-cloud
+product: Adobe Dynamic Media Developer Resources
+audience: end-user
+user-guide-title: Resurser för Adobe Dynamic Media Developer
+breadcrumb-title: Resurser för Dynamic Media Developer
+user-guide-description: Få tillgång till resurser för Dynamic Media-utvecklare som referenshandboken för visningsprogrammen, API:t för bildproduktionssystemet, API:t för bildserver och återgivning samt arkiverade veringsinformation för Scene7.
+index: y
 translation-type: tm+mt
-source-git-commit: 48efa6eabf127265f24ec5986a46893cf431a07d
+source-git-commit: 901f0c3986715279e0c696db93be2048343d2bc5
+workflow-type: tm+mt
+source-wordcount: '44'
+ht-degree: 0%
 
 ---
 
