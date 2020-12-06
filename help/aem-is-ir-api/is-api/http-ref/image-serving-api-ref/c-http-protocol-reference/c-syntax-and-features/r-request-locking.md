@@ -7,9 +7,9 @@ title: Begäranlåsning
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 03239376-1e40-48d2-a396-c276802854ed
 translation-type: tm+mt
-source-git-commit: 6b51248cdc6a6b9d36893545640dbbeb11a0c414
+source-git-commit: 021c1d1f975083af3950775e230d4f73cbf9e0ec
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Om attribute::RequestLock anges måste ett låsvärde läggas till i begäran, i
 
 >[!IMPORTANT]
 >
->Om du aktiverar den här funktionen bör du vara medveten om att det finns vissa begränsningar för dess användning som omfattar följande:<br>- Användargränssnittet för dynamiska media kanske inte visar rätt information för **[!UICONTROL Last Published]** fältet. Detta påverkar dock inte publiceringen.<br>- För närvarande fungerar inte HLS-videoströmning när **[!UICONTROL Request Obfuscation]** och **[!UICONTROL Request Locking]** är aktiverat.
+>Om du aktiverar den här funktionen bör du vara medveten om att det finns vissa begränsningar för dess användning som omfattar följande:<br>- Användargränssnittet för dynamiska media kanske inte visar rätt information för **[!UICONTROL Last Published]** fältet. Detta påverkar dock inte publiceringen.<br>- För närvarande fungerar inte HLS-videoströmning när **[!UICONTROL Request obfuscation]** och **[!UICONTROL Request locking]** är aktiverat.<br>- För närvarande fungerar inte vissa dynamiska medievyer när **[!UICONTROL Request obfuscation]** och **[!UICONTROL Request locking]** är aktiverade.
 
 C++-exempelkod för att generera begäranlåsningsvärdet:
 
