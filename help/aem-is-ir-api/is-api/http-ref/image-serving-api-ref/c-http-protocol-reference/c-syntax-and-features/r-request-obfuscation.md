@@ -7,9 +7,9 @@ title: Förfrågan om obehörig
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 59b12a78-c4ba-4b6d-97bc-63150298ed73
 translation-type: tm+mt
-source-git-commit: 6b51248cdc6a6b9d36893545640dbbeb11a0c414
+source-git-commit: 021c1d1f975083af3950775e230d4f73cbf9e0ec
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Servern försöker avkoda om `attribute::RequestObfuscation` den är inställd. 
 
 >[!IMPORTANT]
 >
->Om du aktiverar den här funktionen bör du vara medveten om att det finns vissa begränsningar för dess användning som omfattar följande:<br>- Användargränssnittet för dynamiska media kanske inte visar rätt information för **[!UICONTROL Last Published]** fältet. Detta påverkar dock inte publiceringen.<br>- För närvarande fungerar inte HLS-videoströmning när **[!UICONTROL Request obfuscation]** och **[!UICONTROL Request locking]** är aktiverat.
+>Om du aktiverar den här funktionen bör du vara medveten om att det finns vissa begränsningar för dess användning som omfattar följande:<br>- Användargränssnittet för dynamiska media kanske inte visar rätt information för **[!UICONTROL Last Published]** fältet. Detta påverkar dock inte publiceringen.<br>- För närvarande fungerar inte HLS-videoströmning när **[!UICONTROL Request obfuscation]** och **[!UICONTROL Request locking]** är aktiverat.<br>- För närvarande fungerar inte vissa dynamiska medievyer när **[!UICONTROL Request obfuscation]** och **[!UICONTROL Request locking]** är aktiverade.
 
 ## Exempel {#section-dd4bfab19aa040f8ba3f6e397c6b0941}
 
