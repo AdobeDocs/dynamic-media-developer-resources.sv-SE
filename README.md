@@ -1,16 +1,12 @@
 ---
-source-git-commit: 250f3499a23461ed1fd6fb5440d74c71767f6ef3
+source-git-commit: ef87bdd7a1346be76cef7e59ab70de41eba4f331
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
 # Adobe Dynamic Media Developer Resources Documentation
-
-| EXL-PR | EXL | Förhandsgranska | Aktivera | Publicerad | Hjälp |
-|--- |--- |--- |--- |--- |--- |
-| [![Byggstatus](https://docs.ci.corp.adobe.com/view/exl-pr/job/dynamic-media-developer-resources.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/dynamic-media-developer-resources.en_pr-exl/lastBuild/) | [![Byggstatus](https://docs.ci.corp.adobe.com/view/exl-pr/job/dynamic-media-developer-resources.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/dynamic-media-developer-resources.en_exl/lastBuild/lastBuild) | [Förhandsgranska URL](https://experienceleague.corp.adobe.com/docs/dynamic-media-developer-resources/library/home.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [Live-URL](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html?lang=en) | [Redigeringshandbok](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
 Det här är databasen för Adobe EDynamic Media Developer Resources-dokumentation.
 
