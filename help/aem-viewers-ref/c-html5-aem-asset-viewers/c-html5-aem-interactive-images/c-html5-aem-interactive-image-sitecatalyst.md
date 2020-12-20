@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: ae870d2e-2a09-4551-935a-916d0e657653
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '94'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Som standard skickar visningsprogrammet en enda HTTP-begäran för spårning till konfigurerad Image Server med information om visningsprogramtyp och version.
 
-Om du vill integrera med analyssystem från tredje part måste du lyssna på återanropet från `trackEvent` visningsprogrammet och bearbeta återanropsfunktionens `eventInfo` argument efter behov. Följande kod är ett exempel på en sådan hanterarfunktion:
+Om du vill integrera med analyssystem från tredje part måste du lyssna på `trackEvent`-återanropet för visningsprogrammet och bearbeta `eventInfo`-argumentet för återanropsfunktionen efter behov. Följande kod är ett exempel på en sådan hanterarfunktion:
 
 ```
 var interactiveImage = new s7viewers.InteractiveImage({ 
@@ -53,11 +56,11 @@ Visningsprogrammet spårar följande SDK-användarhändelser:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LADDA </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LADDA  </span> </p> </td> 
    <td colname="col2"> <p>visningsprogrammet läses in först. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> HREF </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> HREF  </span> </p> </td> 
    <td colname="col2"> <p>användaren aktiverar hotspot. </p> </td> 
   </tr> 
  </tbody> 
