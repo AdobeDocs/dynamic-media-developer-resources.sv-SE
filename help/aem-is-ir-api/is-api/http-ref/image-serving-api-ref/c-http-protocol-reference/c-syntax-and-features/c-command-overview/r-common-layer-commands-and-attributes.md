@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: f11da6ba-18f2-42d6-8257-cb8ebef8c7d8
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 0%
 
 ---
 
 
-# Gemensamma lagerkommandon{#common-layer-commands}
+# Kommandon för gemensamma lager{#common-layer-commands}
 
 Dessa kommandon gäller för bild-, text- och enfärgslager. De flesta är inte användbara för den sammansatta bilden och för enkla, icke-lageruppbyggda begäranden. De gäller inte för effektlager.
 
