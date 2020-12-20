@@ -33,13 +33,13 @@ En felvarning utfärdas när förhållandet mellan HTTP-felsvar och totalt antal
 
 Reellt värde mellan 0,0 och 1,0. Vanligtvis inställt på mellan 0,005 och 0,1. Ange 1 om du vill inaktivera felmeddelanden.
 
-## AS::monitorAlertGenerator.minRequestRate - Lågt tröskelvärde för trafik {#section-8dfb89ed138640fd86f5ce1dae2a533e}
+## AS::monitorAlertGenerator.minRequestRate - Lågt trafiktröskelvärde {#section-8dfb89ed138640fd86f5ce1dae2a533e}
 
 En minsta trafikvarning skickas när det genomsnittliga antalet begäranden per sekund som tagits emot under det aktuella provtagningsintervallet underskrider detta tröskelvärde. Inaktivera varningen genom att ange värdet 0. Uttryckt i begäranden per sekund. Verkligt värde 0 eller större.
 
 ## AS::monitorAlertGenerator.minFreeHeapSpace -Free Heap Space Threshold {#section-ce6705045f6842769030ccb1894594cc}
 
-Anger det minsta lediga Java-heap-utrymmet. En prioritetsvarning skickas omedelbart efter en skräpinsamlingscykel för Java när det lediga stackutrymmet är under detta tröskelvärde. 50 MB rekommenderas för säker drift av Platform Server. Om du behåller det kostnadsfria stackutrymmet ovanför det här värdet minskas frekvensen för skräpinsamlingscykler, vilket kan förbättra serverprestanda generellt. Heltalsvärde i byte, 0 eller större.
+Anger det minsta lediga Java-heap-utrymmet. En prioritetsvarning skickas omedelbart efter en skräpinsamlingscykel för Java när det lediga stackutrymmet är under detta tröskelvärde. 50 MB rekommenderas för säker användning av plattformsservern. Om du behåller det kostnadsfria stackutrymmet ovanför det här värdet minskas frekvensen för skräpinsamlingscykler, vilket kan förbättra serverprestanda generellt. Heltalsvärde i byte, 0 eller större.
 
 ## AS::monitorAlertGenerator.maxOverlap - Maximalt antal samtidiga begäranden {#section-ddc6925bff944758ab19bcc9cf3f2589}
 
