@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: d329807a-22b0-42a3-9297-8dad7a1dce43
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '487'
+ht-degree: 0%
 
 ---
 
@@ -26,9 +29,9 @@ Bildkataloger har följande funktioner:
 
 Även om inga specifika bildkataloger är definierade är alla funktioner i bildkataloger tillgängliga via standardkatalogen ( [!DNL default.ini]).
 
-Om ` *`rootId`*` i URL-sökvägen för begäran matchar `attribute::RootId` en viss bildkatalog, kommer den katalogen att bli huvudkatalog för denna begäran. Huvudkatalogen innehåller standardattribut och standardinställningar för hela begäran. Om ingen matchning hittas används standardkatalogen i stället.
+Om ` *`rootId`*` i URL-sökvägen för begäran matchar `attribute::RootId` för en viss bildkatalog, kommer den katalogen att bli huvudkatalog för denna begäran. Huvudkatalogen innehåller standardattribut och standardinställningar för hela begäran. Om ingen matchning hittas används standardkatalogen i stället.
 
-En katalog som identifieras i ett `src=` eller `mask=` kommando innehåller följande katalogattribut och data till det aktuella lagret:
+En katalog som identifieras i ett `src=`- eller `mask=`-kommando ger följande katalogattribut och data till det aktuella lagret:
 
 <table id="table_D3FA66EA5D054745900DE5A120885AA8"> 
  <thead> 
@@ -44,7 +47,7 @@ En katalog som identifieras i ett `src=` eller `mask=` kommando innehåller föl
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::Expiration</span> </p> </td> 
-   <td> <p> standard för <span class="codeph"> katalog::Det aktuella lagrets förfallodatum</span> eller förfallodatum om ingen katalogpost är inblandad </p> </td> 
+   <td> <p> standard för <span class="codeph">-katalog::Förfallotid</span> eller utgångsdatum för det aktuella lagret om ingen katalogpost är inblandad </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::Icc*</span> </p> </td> 
@@ -56,11 +59,11 @@ En katalog som identifieras i ett `src=` eller `mask=` kommando innehåller föl
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::Resolution</span> </p> </td> 
-   <td> <p> standard för <span class="codeph"> katalog::Endast upplösning</span> </p> </td> 
+   <td> <p> standard för <span class="codeph">-katalog::Upplösning</span> endast </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> katalog::Ankarpunkt</span> </p> </td> 
-   <td> <p> standard för det aktuella lagrets <span class="codeph"> ankare=</span> -värde </p> </td> 
+   <td> <p> standard för det aktuella lagrets <span class="codeph">-ankarpunktsvärde=</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> katalog::Förfallotid</span> </p> </td> 
@@ -76,11 +79,11 @@ En katalog som identifieras i ett `src=` eller `mask=` kommando innehåller föl
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> katalog::MaskPath</span> </p> </td> 
-   <td> <p> standard för <span class="codeph"> mask=</span> för aktuellt lager </p> </td> 
+   <td> <p> standard för <span class="codeph"> mask=</span> för det aktuella lagret </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> katalog::Modifier</span> </p> </td> 
-   <td> <p> prefixkommandon för det aktuella lagret (varje kommando i <span class="codeph"> katalog::Modifier</span> kan åsidosättas av samma kommando i URL:en om det anges för samma lager) </p> </td> 
+   <td> <p> prefixkommandon för det aktuella lagret (varje kommando i <span class="codeph">-katalogen::Modifier</span> kan åsidosättas av samma kommando i URL:en, om det anges för samma lager) </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> katalog::Path</span> </p> </td> 
@@ -88,7 +91,7 @@ En katalog som identifieras i ett `src=` eller `mask=` kommando innehåller föl
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> katalog::PostModifier</span> </p> </td> 
-   <td> <p> postfix-kommandon för det aktuella lagret (liknar <span class="codeph"> katalog::Modifier</span>, men kommandon i <span class="codeph"> katalog::PostModifier</span> åsidosätter samma kommandon som anges i URL:en eller i <span class="codeph"> katalog::Modifier</span>) </p> </td> 
+   <td> <p> postfix-kommandon för det aktuella lagret (liknar <span class="codeph">-katalog::Modifier</span>, men kommandon i <span class="codeph">-katalog::PostModifier</span> åsidosätter samma kommandon som anges i URL:en eller i <span class="codeph">-katalog::Modifier</span>) </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> katalog::Upplösning</span> </p> </td> 
@@ -97,14 +100,14 @@ En katalog som identifieras i ett `src=` eller `mask=` kommando innehåller föl
  </tbody> 
 </table>
 
-Inom samma lager `src=` och `mask=` måste referera till samma bildkatalog (om sådan finns).
+I samma lager måste `src=` och `mask=` referera till samma bildkatalog (om någon).
 
-En katalog som identifieras i ett `icc=` kommando används bara för att leta upp en post från katalogens ICC-profiltabell. Inga andra katalogattribut eller data berörs.
+En katalog som identifieras i ett `icc=`-kommando används bara för att leta upp en post från katalogens ICC-profiltabell. Inga andra katalogattribut eller data berörs.
 
-Om ` *`rootId`*` tolkas som en katalog och ` *`objId`*` matchas med en `catalog::Id` i den här katalogen ersätts ` *`rootId/objId`*` effektivt av katalogposten enligt följande:
+Om ` *`rootId`*` matchar en katalog och ` *`objId`*` matchas med `catalog::Id` i den här katalogen ersätts ` *`rootId/objId`*` av katalogposten på något av följande sätt:
 
 `src=attribute::RootPath/catalog::Path& mask=attribute::RootPath/catalog::MaskPath& anchor=catalog::Anchor& catalog::Modifier& catalog::PostModifier`
 
 ## Se även {#section-00e4f6b39cd14244bcce537a3f831259}
 
-[Referens](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)för bildkatalog, [src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1), [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [anchor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c)
+[Referens](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) för bildkatalog,  [src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1),  [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e),  [anchor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c)
