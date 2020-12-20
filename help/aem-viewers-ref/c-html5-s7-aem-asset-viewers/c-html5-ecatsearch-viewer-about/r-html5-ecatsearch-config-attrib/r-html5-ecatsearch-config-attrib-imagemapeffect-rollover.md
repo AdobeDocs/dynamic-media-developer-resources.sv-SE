@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 276122d8-2109-42eb-be13-bead35cd3fe2
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p>Anger när informationspanelen ska visas. </p> <p>Om värdet är <span class="codeph"> 1</span>visas informationspanelen när musen kommer in i bildschemaområdet (om bildschemat har ett icke-tomt <span class="codeph"> rollover_key</span> -attribut). </p> <p>Om värdet är <span class="codeph"> 0</span> , aktiveras informationspanelen när användaren klickar på bildschemat (om bildschemat har en icke-tom <span class="codeph"> rollover_key</span> och tomma <span class="codeph"> href</span> -attribut). </p> <p> Ignoreras på pekenheter, inklusive datorer med pekskärm, och ställs automatiskt in på <span class="codeph"> 0</span>. </p> </td> 
+   <td colname="col2"> <p>Anger när informationspanelen ska visas. </p> <p>Om <span class="codeph"> 1</span> anges visas informationspanelen när musen kommer till bildschemaområdet (om bildschemat inte är tomt, <span class="codeph"> rollover_key</span>-attribut). </p> <p>Om inställt på <span class="codeph"> 0</span> infopanelen aktiveras när användaren klickar på bildschemat (om bildschemat har ett icke-tomt <span class="codeph"> rollover_key</span> och tomt <span class="codeph"> href</span>-attribut). </p> <p> Ignoreras på pekenheter, inklusive datorer med pekskärm, och ställs automatiskt in på <span class="codeph"> 0</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
