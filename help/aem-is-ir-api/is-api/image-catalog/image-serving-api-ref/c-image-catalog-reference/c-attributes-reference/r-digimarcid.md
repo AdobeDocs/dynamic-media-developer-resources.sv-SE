@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 23f1952f-71b7-4b2a-917d-8161ea855ac9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 0%
 
 ---
 
@@ -22,15 +25,15 @@ Fem eller sex kommaavgränsade heltal. Det tredje och fjärde numret används in
 
 `creator-id, creator-pin, durability [ , chroma ]`
 
-De `creator-id` och `creator-pin` tillhandahålls av Digimarc när tjänsten köps. De oanvända värdena ska lämnas tomma.
+`creator-id` och `creator-pin` tillhandahålls av Digimarc när tjänsten köps. De oanvända värdena ska lämnas tomma.
 
 `durability` anger den inbäddade styrkan för Digimarc-vattenstämpeln. Den kan vara 1, 2, 3 eller 4, med 1 som indikerar svagast och 4 starkaste hållbarhet.
 
-Ange 1 `chroma` för att koda vattenstämpeln till bildens krominansdata eller 0 (standard) för att koda den till luminansen. Den här inställningen ignoreras när gråskalebilder skrivs ut.
+Ange `chroma` till 1 om du vill koda vattenstämpeln till bildens krominansdata eller till 0 (standard) om du vill koda den till luminansen. Den här inställningen ignoreras när gråskalebilder skrivs ut.
 
 ## Standard {#section-d6ecb6e95a7b4232bd612834ea49e6bc}
 
-Ärvs från `default::DigimarcId` om inte definierad eller om tom.
+Ärvs från `default::DigimarcId` om det inte är definierat eller om det är tomt.
 
 ## Exempel {#section-8469ae1c27b4461da3d53fbabc32d3c5}
 
