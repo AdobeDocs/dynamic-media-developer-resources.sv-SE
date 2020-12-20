@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: 52ec039f-51ef-4e4a-a927-2616d3675e86
 translation-type: tm+mt
 source-git-commit: 657ad46b75f4b0c671d6601da8349e05af378d0f
+workflow-type: tm+mt
+source-wordcount: '26'
+ht-degree: 0%
 
 ---
 
 
-# Filtyper för jobbloggar{#job-log-file-types}
+# Filtyper för jobblogg{#job-log-file-types}
 
 Används av JobLogDetial/assetType.
 
 Syntax
 
-## Values {#section-6abb6143e2cb4319b5f0eff37129fa9d}
+## Värden {#section-6abb6143e2cb4319b5f0eff37129fa9d}
 
 * [!DNL `NoType`]
 * [!DNL `PublishCatalog`]
