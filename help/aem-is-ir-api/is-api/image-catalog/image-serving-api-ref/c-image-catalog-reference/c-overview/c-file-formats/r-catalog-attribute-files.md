@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 63985780-f032-4542-8d84-b8b608ceea4b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '223'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Katalogattributfiler kan ha vilket namn som helst, men måste ha ett .ini-filsuffix. De kan enkelt underhållas med valfri textredigerare.
 
-Katalogattributfiler består av en uppsättning textposter, avgränsade med en enda `<CR>` (ASCII-kod `0xD`), en enda `<LF>` (ASCII-kod `0xA`) eller ett `<CR><LF>` par. Varje post består av ett attributnamn och ett eller flera kommaavgränsade attributvärden:
+Katalogattributfiler består av en uppsättning textposter, avgränsade med en `<CR>` (ASCII-kod `0xD`), en enskild `<LF>` (ASCII-kod `0xA`) eller ett `<CR><LF>`-par. Varje post består av ett attributnamn och ett eller flera kommaavgränsade attributvärden:
 
 ` *``*= *`namvalues`*{<CR>|<LF>|<CR><LF }`
 
