@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 62e0e55a-55a3-417d-ad51-ec77a7c16ac3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '186'
+ht-degree: 0%
 
 ---
 
@@ -22,8 +25,8 @@ Aktiveringspunkter kan antingen aktivera en snabbvyfunktion på värdwebbsidan g
 
 ## Snabbvyaktiveringspunkter {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Dessa typer av hotspot-områden bör redigeras med åtgärdstypen&quot;snabbvy&quot; i Dynamic Media, i AEM Assets - on demand. När en användare aktiverar en sådan hotspot kör visningsprogrammet `quickViewActivate` JavaScript-återanropet och skickar hotspot-data till den. Inbäddningswebbsidan förväntas lyssna efter det här återanropet. När sidan utlöses öppnas en egen snabbvyimplementering.
+Dessa typer av hotspot-områden bör redigeras med åtgärdstypen&quot;snabbvy&quot; i Dynamic Media, AEM Assets - on demand. När en användare aktiverar en sådan hotspot kör visningsprogrammet JavaScript-återanropet `quickViewActivate` och skickar hotspot-data till den. Inbäddningswebbsidan förväntas lyssna efter det här återanropet. När sidan utlöses öppnas en egen snabbvyimplementering.
 
 ## Omdirigera till extern webbsida {#section-ef820c71251e4215800bb99c0c9ebe16}
 
-Aktiveringspunkter som har skapats för åtgärdstypen&quot;Snabbvy&quot; i dynamiska media för AEM Resurser - omdirigerar användaren till en extern URL. Beroende på inställningarna under utvecklingen öppnas URL-adressen i en ny webbläsarflik, i samma fönster eller i det namngivna webbläsarfönstret.
+Aktiveringspunkter som skapats för åtgärdstypen&quot;Snabbvy&quot; i Dynamic Media för AEM Assets - dirigerar om användaren till en extern URL. Beroende på inställningarna under utvecklingen öppnas URL-adressen i en ny webbläsarflik, i samma fönster eller i det namngivna webbläsarfönstret.
