@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e5d990af-1c5a-4253-8ecd-b51119cee3a2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '129'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ JavaScript API-referens för visningsprogrammet för utfällbara bilder.
 
 Startar initieringen av visningsprogrammet. Vid den här tidpunkten måste behållar-DOM-elementet skapas så att visningsprogramkoden kan hitta det med dess ID.
 
-Om behållarelementet inte är en del av webbsideslayouten just nu (t.ex. kan det döljas med `display:none` ett format som tilldelats det), gör visningsprogrammet uppehåll i initieringsprocessen tills webbsidan återför behållarelementet till layouten. När detta inträffar återgår visningsprogrammet automatiskt.
+Om behållarelementet inte är en del av webbsideslayouten ännu (t.ex. kan det döljas med formatet `display:none` som tilldelats det), gör visningsprogrammet uppehåll i initieringsprocessen tills webbsidan återför behållarelementet till layouten. När detta inträffar återgår visningsprogrammet automatiskt.
 
 Den här metoden ska bara anropas en gång under visningsprogrammets livscykel, efterföljande anrop ignoreras.
 
