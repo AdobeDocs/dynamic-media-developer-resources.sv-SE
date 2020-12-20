@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: b4fdf51f-89ec-4a69-9179-078ee8e1937f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '92'
+ht-degree: 0%
 
 ---
 
@@ -39,7 +42,7 @@ IPS API returnerar inget svar för den här åtgärden.
 
 ## Exempel {#section-cf319fc8f86a40ab9cbd838b031973fe}
 
-I det här kodexemplet används uppsättningens handtag som ett fält i den `deletePropertySetParam` som skickas till IPS Web services-servern för att ta bort egenskapsuppsättningen.
+Det här kodexemplet använder uppsättningens referens som ett fält i `deletePropertySetParam` som skickas till IPS Web services-servern för att ta bort egenskapsuppsättningen.
 
 **Begäran**
 
