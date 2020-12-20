@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: a2f0047b-ad62-4605-a723-b43d53fbea56
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '158'
+ht-degree: 0%
 
 ---
 
@@ -29,15 +32,15 @@ Se [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-proto
 
 >[!NOTE]
 >
->Textbanor `clipPath=`stängs inte automatiskt när z eller Z inte anges i slutet av en underbana.
+>Textbanor som skiljer sig från `clipPath=` stängs inte automatiskt när z eller Z inte anges i slutet av en underbana.
 
 *`pathDefinition`* kan innehålla flera delsökvägar. Texten återges i de underordnade banorna i den angivna ordningen.
 
-RTF-kommandona `\ql`, `\qc`, `\qr`, `\li`och `\ri` kan användas för att placera den återgivna texten längs banan.
+RTF-kommandona `\ql`, `\qc`, `\qr`, `\li` och `\ri` kan användas för att placera den återgivna texten längs sökvägen.
 
 ## Egenskaper {#section-068137df436c46b9b55d271eb60e7285}
 
-Textlagerattribut ( `textPs=` endast). Ignoreras av andra lager. Gäller för `layer=0` om det anges för `layer=comp`. Ignoreras om det `textPs=` finns någon.
+Textlagerattribut ( `textPs=` endast). Ignoreras av andra lager. Gäller för `layer=0` om det anges för `layer=comp`. Ignoreras om `textPs=` finns.
 
 Ett fel returneras om ett lager innehåller både `textPath=` och `textFlowPath=`.
 
@@ -47,4 +50,4 @@ Ingen, för standardtextåtergivning.
 
 ## Se även {#section-3050d8f47e1d4f5c9b474dece45ea93d}
 
-[textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767) , [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d), [textFlowPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md#reference-0b8d9493d71342f0b6a64a6d221584ef), [textlager](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-text-layers.md#reference-47e78cfb18134db5ab09e17af14a6a8f)
+[textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767) ,  [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d),  [textFlowPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md#reference-0b8d9493d71342f0b6a64a6d221584ef),  [textlager](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-text-layers.md#reference-47e78cfb18134db5ab09e17af14a6a8f)
