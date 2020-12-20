@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: d09832e4-5058-420a-8ee9-c6b5a2d42190
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '273'
+ht-degree: 0%
 
 ---
 
@@ -31,19 +34,19 @@ Utseendet på helskärmsknappen styrs av CSS-klassväljaren:
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p> Placera från den övre kanten, inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> höger </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> höger  </span> </p> </td> 
    <td colname="col2"> <p> Placera från den högra kanten, inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vänster </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> vänster  </span> </p> </td> 
    <td colname="col2"> <p> Placera från den vänstra kanten, inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> nederkant </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> nederkant  </span> </p> </td> 
    <td colname="col2"> <p>Placera från den nedre kanten, inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
@@ -51,15 +54,15 @@ Utseendet på helskärmsknappen styrs av CSS-klassväljaren:
    <td colname="col2"> <p> Bredden på helskärmsknappen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Höjden på helskärmsknappen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Den bild som visas för ett visst knappläge. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Placera inuti en teckningssprite, om CSS-sprites används. </p> <p>Se <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-fragment </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -67,11 +70,11 @@ Utseendet på helskärmsknappen styrs av CSS-klassväljaren:
 
 >[!NOTE]
 >
->Den här knappen har stöd för både `state` - och `selected` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen. Motsvarar `selected='true'` i synnerhet läget &quot;helskärm&quot; och `selected='false'` läget &quot;normal&quot;.
+>Den här knappen stöder både attributväljarna `state` och `selected`, som kan användas för att tillämpa olika skal på olika knapplägen. `selected='true'` motsvarar i synnerhet helskärmsläget och `selected='false'` motsvarar normalläget.
 
-Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) .
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av element i användargränssnittet](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Exempel** - För att ställa in en helskärmsknapp som är 32 x 32 pixlar och placerad 6 pixlar från kontrollfältets övre och högra kant. Du kan även visa olika bilder för vart och ett av de fyra olika knapplägena när du markerar dem eller inte markerar dem.
+**Exempel**  - För att ställa in en helskärmsknapp som är 32 x 32 pixlar och placerad 6 pixlar från kontrollfältets övre och högra kant. Du kan även visa olika bilder för vart och ett av de fyra olika knapplägena när du markerar dem eller inte markerar dem.
 
 ```
 .s7video360viewer . s7fullscreenbutton { 
