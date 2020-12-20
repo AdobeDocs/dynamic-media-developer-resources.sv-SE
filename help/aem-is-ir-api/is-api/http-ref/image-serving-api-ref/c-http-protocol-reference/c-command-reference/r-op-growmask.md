@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 016501e8-33c5-4c9e-8d26-120b1e929c55
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '118'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +32,7 @@ Används främst för att förstora eller förminska en mask något för att und
 
 ## Egenskaper {#section-b1c66d65168d4ea695e8662ea690bd4e}
 
-Gäller det aktuella lagret eller det aktuella lagret `0` om `layer=comp`.
+Gäller för det aktuella lagret eller för lagret `0` om `layer=comp`.
 
 ## Standard {#section-14c908bb87cb42acbea709effea2f964}
 
