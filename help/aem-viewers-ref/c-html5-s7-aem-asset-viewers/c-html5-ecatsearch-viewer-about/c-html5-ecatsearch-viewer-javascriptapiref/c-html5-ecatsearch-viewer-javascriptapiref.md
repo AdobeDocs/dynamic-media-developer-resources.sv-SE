@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: b65dec1e-567a-450f-9e24-e7841dc6f701
 translation-type: tm+mt
 source-git-commit: 8d7fdab78c5d23d0e541effa9b9c470921bd144b
+workflow-type: tm+mt
+source-wordcount: '142'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 8d7fdab78c5d23d0e541effa9b9c470921bd144b
 
 Huvudklassen i eCatalog Search Viewer är eCatalogSearchViewer. Den deklareras i s7viewers namnutrymme. Detta JavaScript-API omfattar konstruktor, metoder och återanrop för just den här klassen.
 
-I alla följande exempel står `<instance>` för det faktiska namnet på JavaScript-visningsobjektet som initieras från `s7viewers.eCatalogSearchViewer` klassen.
+I alla följande exempel står `<instance>` för det faktiska namnet på JavaScript-visningsobjektet som har initierats från klassen `s7viewers.eCatalogSearchViewer`.
 
 * [dispose](r-html5-ecatsearch-javascriptapiref-dispose.md)
 * [eCatalogSearchViewer](r-html5-ecatsearch-javascriptapiref-ecatalogsearchviewer.md)
