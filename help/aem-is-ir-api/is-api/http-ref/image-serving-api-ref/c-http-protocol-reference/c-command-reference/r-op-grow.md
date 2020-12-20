@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: bc9bf889-f7e1-4a65-b6d6-7e1257ef8c11
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +28,7 @@ Dilate/erode image. Använder en morfologisk dilat (radie > 0) eller erodera (ra
  </tr> 
 </table>
 
-` *`radien`*` anges i pixlar i förhållande till den sammansatta bilden. Om bilden är färgad bearbetas varje komponent separat.
+` *`Radie `*` i pixlar i förhållande till den sammansatta bilden. Om bilden är färgad bearbetas varje komponent separat.
 
 Används främst för att ändra storlek på lagereffekter. Det är också användbart om du vill få specialeffekter på textlager eller enfärgade lager med masker.
 
