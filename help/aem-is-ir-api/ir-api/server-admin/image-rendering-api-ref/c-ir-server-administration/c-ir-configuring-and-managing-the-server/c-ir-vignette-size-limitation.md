@@ -23,5 +23,5 @@ Bildåtergivning tillämpar en storleksbegränsning på två megapixlar för vin
 
 >[!NOTE]
 >
->`attribute::MaxPix` och `IS::MaxMessageSize` kan också behöva justeras för att tillåta ovanligt stora svarstider för bilder. Mer information finns i dokumentationen om bildservning.
+>`attribute::MaxPix` och  `IS::MaxMessageSize` kan också behöva justeras för att tillåta ovanligt stora svarsbilder. Mer information finns i dokumentationen om bildservning.
 
