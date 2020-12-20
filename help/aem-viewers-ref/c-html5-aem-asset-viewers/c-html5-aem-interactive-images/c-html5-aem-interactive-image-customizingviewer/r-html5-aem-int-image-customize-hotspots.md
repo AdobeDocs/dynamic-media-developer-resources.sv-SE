@@ -1,6 +1,6 @@
 ---
-description: Visningsprogrammet visar hotspot-ikoner över huvudvyn på platser där hotspot-områden ursprungligen skapades i Dynamic Media of AEM Assets - on-demand.
-seo-description: Visningsprogrammet visar hotspot-ikoner över huvudvyn på platser där hotspot-områden ursprungligen skapades i Dynamic Media of AEM Assets - on-demand.
+description: Visningsprogrammet visar hotspot-ikoner över huvudvyn på platser där hotspot-områden ursprungligen skapades i Dynamic Media av AEM Assets - on-demand.
+seo-description: Visningsprogrammet visar hotspot-ikoner över huvudvyn på platser där hotspot-områden ursprungligen skapades i Dynamic Media av AEM Assets - on-demand.
 seo-title: Aktiveringspunkter
 solution: Experience Manager
 title: Aktiveringspunkter
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: 79c4d128-e24a-43b0-8e18-13b588eb396e
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '143'
+ht-degree: 0%
 
 ---
 
 
 # Aktiveringspunkter{#hotspots}
 
-Visningsprogrammet visar hotspot-ikoner över huvudvyn på platser där hotspot-områden ursprungligen skapades i Dynamic Media of AEM Assets - on-demand.
+Visningsprogrammet visar hotspot-ikoner över huvudvyn på platser där hotspot-områden ursprungligen skapades i Dynamic Media av AEM Assets - on-demand.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,11 +38,11 @@ Utseendet på hotspot-ikonen styrs med följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Ikoner med aktiveringspunkt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p>Placera inuti teckningsspriten, om CSS-sprites används. </p> <p>Se <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -47,7 +50,7 @@ Utseendet på hotspot-ikonen styrs med följande CSS-klassväljare:
    <td colname="col2"> <p>Aktiveringspunktsikonens bredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Höjd på hotspot-ikon. </p> </td> 
   </tr> 
  </tbody> 
