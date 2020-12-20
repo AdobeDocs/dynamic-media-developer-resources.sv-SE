@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 582d0b34-bbf9-4af0-9f7a-4415d307f5d7
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '47'
+ht-degree: 17%
 
 ---
 
@@ -21,7 +24,7 @@ Konfigurationsattribut för Video360 Viewer.
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
    <td colname="col2"> <p> Anger om tittaren börjar spela upp videon vid inläsningen. Observera att vissa system - som vissa mobila enheter - kanske inte har stöd för automatisk uppspelning. </p> </td> 
   </tr> 
  </tbody> 
