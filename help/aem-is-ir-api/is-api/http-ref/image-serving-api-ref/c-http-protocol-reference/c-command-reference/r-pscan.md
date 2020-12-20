@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: c8e1d7a9-679c-437f-aa53-67aca3f40b30
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '270'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ Den faktiska hastigheten för varje skanning beror på överföringshastigheten 
 
 `Auto` använder de inläsningsinställningar som beräknas av det oberoende JPEG-biblioteket och beror på färgmodellen. Värdena för `3`, `4`, `5` motsvarar inställningen Skanna som finns i Adobe Photoshop när du sparar en JPEG-fil som en pjpeg (progressiv JPEG).
 
-Om `pscan` inte anges används standardvärdet `auto`.
+Om `pscan` inte är inställt är standardvärdet `auto`.
 
 ## Egenskaper {#section-e36aa3c63a974b969d9e4f43fe5a37ab}
 
