@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: cd9f7a42-e314-4ec9-abe2-a27581c7cd23
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '114'
+ht-degree: 0%
 
 ---
 
@@ -39,25 +42,25 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Referensen till företaget med mappar med behörigheter som du vill ta bort. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Hantera till mappen. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> updateChildren</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> updateChildren</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolesk</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> <p>När <span class="codeph"> true</span>: 
+   <td colname="col4"> <p>När <span class="codeph"> är true</span>: 
      <ul id="ul_1305D060E0F34A61AA3C827E43F296E6"> 
       <li id="li_AB8705F3CEAD4B8A8F1C28291A6F7EC8">Borttagning av behörigheter sprids genom alla mappbehörighetsåtgärder. </li> 
-     </ul> </p> <p>Vid <span class="codeph"> false</span>: 
+     </ul> </p> <p>När <span class="codeph"> är false</span>: 
      <ul id="ul_19AEE80F1FC84B64AD623E050C12A0CD"> 
       <li id="li_B8B78851004C43DB8CB7958E380AF510">Åtgärden påverkar endast den angivna mappen. </li> 
      </ul> </p> </td> 
