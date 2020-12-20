@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# Kompatibilitetsanteckningar{#compatibility-notes}
+# Kompatibilitetsinformation{#compatibility-notes}
 
 <!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
@@ -74,6 +74,6 @@ Kompatibilitetsinformation för operativsystem, webbläsare och mobila enheter.
 ## Safari {#section-f8de598293d349188aa02c82cd3af8b6}
 
 * Safari 6.1 eller senare: Inställningarna för Internetplugin-programmet kan förhindra uppspelning av Flash-video.
-* Videosökning med HLS-direktuppspelning på Safari kan vara inkonsekvent.
+* Videosökning med HLS-strömning på Safari kan vara inkonsekvent.
 * Det går inte att söka till slutet av videon på Safari 6 med HLS-direktuppspelning.
 
