@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 9714fc99-2259-4766-96d7-fe2f9fd2f341
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '264'
+ht-degree: 0%
 
 ---
 
@@ -46,56 +49,56 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span></span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:sträng  </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Handtaget till företaget med den bildschema som du vill spara. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle </span></span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:sträng  </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Handtaget till den bildresurs som bildschemat tillhör. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> imageMapHandle </span></span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> imageMapHandle  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:sträng  </span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> Handtaget till bildschemat. Skapar ett bildschema om NULL. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> namn </span></span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> name  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:sträng  </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Namnet på det bildschema som skapas eller sparas. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> formtyp </span></span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> shapeType  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:sträng  </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Val av regionsform. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> region </span></span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> region  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:sträng  </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> En kommaavgränsad lista med punkter som definierar regionen. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> åtgärd </span></span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> åtgärd  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:sträng  </span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> <p>Det <span class="codeph"> href- </span> värde som är associerat med bildschemat som anges i IPS-gränssnittet. </p> <p>Om du vill hämta <span class="codeph"> href- </span> värdet klickar du på bilden i IPS-gränssnittet, kopierar och klistrar in URL:en i det här elementet och formaterar sedan IPS-URL:en som en korrekt URL. Till exempel blir <span class="codeph"> &amp; </span> &amp; <span class="codeph"> amp;amp; </span>. </p> </td> 
+   <td colname="col4"> <p>Det <span class="codeph"> href </span>-värde som är associerat med bildschemat enligt specifikationen i IPS-gränssnittet. </p> <p>Om du vill hämta <span class="codeph"> href </span>-värdet klickar du på bilden i IPS-gränssnittet, kopierar och klistrar in URL:en i det här elementet och formaterar sedan IPS-URL:en som en korrekt URL. Till exempel blir <span class="codeph"> &amp; </span> <span class="codeph"> &amp;amp; </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> position </span></span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:int </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> position  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:int  </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Ordningen i listan med bildscheman (Z-axeln). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> aktiverad </span></span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolesk </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> aktiverad  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:boolesk  </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"></td> 
   </tr> 
