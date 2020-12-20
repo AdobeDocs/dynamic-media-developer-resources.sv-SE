@@ -1,6 +1,6 @@
 ---
-description: URL-prefix för Flash Streaming Server. URL-prefix för Flash Streaming Server som används vid generering av f4m-svar med flera bitar med req=mbrSet.
-seo-description: URL-prefix för Flash Streaming Server. URL-prefix för Flash Streaming Server som används vid generering av f4m-svar med flera bitar med req=mbrSet.
+description: URL-prefix för Flash Streaming Server. URL-prefix för Flash-direktuppspelningsserver som används vid generering av f4m-svar med flera bitar och req=mbrSet.
+seo-description: URL-prefix för Flash Streaming Server. URL-prefix för Flash-direktuppspelningsserver som används vid generering av f4m-svar med flera bitar och req=mbrSet.
 seo-title: HttpFlashStreamingContext
 solution: Experience Manager
 title: HttpFlashStreamingContext
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 7a69e7ac-9a32-4e32-a7bc-cc90c5cbe49c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '79'
+ht-degree: 0%
 
 ---
 
 
 # HttpFlashStreamingContext{#httpflashstreamingcontext}
 
-URL-prefix för Flash Streaming Server. URL-prefix för Flash Streaming Server som används vid generering av f4m-svar med flera bitar med req=mbrSet.
+URL-prefix för Flash Streaming Server. URL-prefix för Flash-direktuppspelningsserver som används vid generering av f4m-svar med flera bitar och req=mbrSet.
 
 ## Egenskaper {#section-e7ae7d96a7cb40829de7e784fcbbad33}
 
