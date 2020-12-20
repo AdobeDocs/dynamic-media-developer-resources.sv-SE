@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 4689fd20-dfa0-47eb-8184-cd233f1ac088
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '197'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ Gör att du kan beskära till begränsningsramen för en inbäddad namngiven ban
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> pathName</span></span> </p> </td> 
-   <td colname="col2"> <p>Namnet på banan som är inbäddad i lagerkällbilden (endast ASCII). </p> <p> <span class="codeph"><span class="varname"> pathName</span></span> är namnet på en bana som är inbäddad i lagerkällbilden. Banan omformas automatiskt efter behov för att bibehålla den relativa justeringen med bildinnehållet. Om mer än en <span class="codeph"><span class="varname"> pathName</span></span> anges beskärs servern till begränsningsramen för varje bana, en åt gången. Alla <span class="codeph"><span class="varname"> pathName</span></span> som inte hittas i källbilden ignoreras. </p> </td> 
+   <td colname="col2"> <p>Namnet på banan som är inbäddad i lagerkällbilden (endast ASCII). </p> <p> <span class="codeph"><span class="varname"> pathName är </span></span> namnet på en bana som är inbäddad i lagerkällbilden. Banan omformas automatiskt efter behov för att bibehålla den relativa justeringen med bildinnehållet. Om mer än en <span class="codeph"><span class="varname"> pathName</span></span> anges beskärs servern till begränsningsramen för varje sökväg, en i taget. Alla <span class="codeph"><span class="varname"> pathName</span></span> som inte hittas i källbilden ignoreras. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -39,4 +42,4 @@ Ingen, utan ytterligare beskärning av lagret.
 
 ## Se även {#section-a60f6e37ebf14e458519fcc4d2cc911d}
 
-[beskärning](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab), [clipPathE](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)
+[beskärning](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab),  [clipPathE](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)
