@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: adea34ca-adbe-465e-8991-f39a7a81d611
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '126'
+ht-degree: 1%
 
 ---
 
@@ -19,8 +22,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_18D47E7C6A2D4D68B94225CB621D5F7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Anger om en ändring av rotationsriktningen ska tillåtas när en tvådimensionell rotation används. </p> <p>När den är inställd på <span class="codeph"> 1 </span>identifierar komponenten den primära dragnings- eller dragriktningen (vågrät kontra lodrät) i början av gesten. Därefter behåller den riktningen tills gesten avslutas. Om användaren till exempel startar ett vågrätt snurra och sedan bestämmer sig för att fortsätta dra-gesten lodrätt, utförs ingen lodrät snurra i komponenten. I stället beaktas endast musens eller dragningens horisontella rörelse. </p> <p>Med värdet <span class="codeph"> 0 </span> kan användaren ändra rotationsriktning när som helst under gestförloppet. Inställningen påverkar inte om rotationsuppsättningen är 1D. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
+   <td colname="col2"> <p> Anger om en ändring av rotationsriktningen ska tillåtas när en tvådimensionell rotation används. </p> <p>När den anges till <span class="codeph"> 1 </span> identifierar komponenten den primära dragnings- eller dragriktningen (vågrät eller lodrät) i början av gesten. Därefter behåller den riktningen tills gesten avslutas. Om användaren till exempel startar ett vågrätt snurra och sedan bestämmer sig för att fortsätta dra-gesten lodrätt, utförs ingen lodrät snurra i komponenten. I stället beaktas endast musens eller dragningens horisontella rörelse. </p> <p>Med värdet <span class="codeph"> 0 </span> kan användaren ändra rotationsriktning när som helst under gestförloppet. Inställningen påverkar inte om rotationsuppsättningen är 1D. </p> </td> 
   </tr> 
  </tbody> 
 </table>
