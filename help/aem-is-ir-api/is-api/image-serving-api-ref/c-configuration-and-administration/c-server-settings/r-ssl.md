@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: dec9bd09-8191-4010-8898-2890ffbe9ca7
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '96'
+ht-degree: 0%
 
 ---
 
@@ -20,9 +23,9 @@ Använd de här serverinställningarna för SSL.
 
 Anger avlyssningsporten för plattformsservern för SSL-anslutningar. Standardvärdet är 8443.
 
-## TC::keystoreFile - sökväg till nyckelbehållarfil {#section-0cdf9b3cfcf249818b22221d01bafebe}
+## TC::keystoreFile - sökväg till nyckelfil {#section-0cdf9b3cfcf249818b22221d01bafebe}
 
-Ange sökvägen/namnet för SSL-nyckelbehållarfilen. Kan vara en absolut sökväg eller en relativ sökväg till [!DNL *[!DNL install_folder]*/conf]. Standard är *install_folder*/conf/scene7keystore.
+Ange sökvägen/namnet för SSL-nyckelbehållarfilen. Kan vara en absolut sökväg eller en relativ sökväg till [!DNL *[!DNL install_folder]*/conf]. Standardvärdet är *install_folder*/conf/scene7keystore.
 
 ## TC::keystorePass - lösenord för nyckelbehållare {#section-e7e9bfb7df584a248c0e3ee46803c3b1}
 
