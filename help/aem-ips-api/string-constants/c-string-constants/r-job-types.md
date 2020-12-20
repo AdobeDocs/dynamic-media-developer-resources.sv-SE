@@ -21,7 +21,7 @@ Används av ActiveJob/type och ScheduledJob/type.
 
 Syntax
 
-## Values {#section-5a623c905fb24fcd8d2dd655968aa666}
+## Värden {#section-5a623c905fb24fcd8d2dd655968aa666}
 
 * `ImageServingPublish`
 * `ImageRenderingPublish`
