@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 2af1f501-4236-4b95-8e90-31a5e7f26bc3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '116'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ Vanligtvis en kort och unik identifierare, till exempel ett SKU-nummer. Kan ocks
 
 ## Egenskaper {#section-267bbf34677e4401abbaf6fdce52191b}
 
-Textsträng. Obligatoriskt. Primär indexnyckel för vinjettschematabellen. Varje `vignette::Id` värde måste vara unikt i tabellen och får inte innehålla tecknen &#39;,&#39;.
+Textsträng. Obligatoriskt. Primär indexnyckel för vinjettschematabellen. Varje `vignette::Id`-värde måste vara unikt i tabellen och får inte innehålla tecknen &#39;,&#39;.
 
 ## Standard {#section-736d3419b19045efa00887cb595b0337}
 
