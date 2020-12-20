@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8442a3d6-5f45-48d1-8e6e-71f0ed384227
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '77'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Innehåller konfigurationsinställningar för serveransvarig.
 
 När du redigerar den här XML-filen måste du behålla giltig XML-syntax, annars kanske inte Image Server kan startas.
 
-Starta om bildservern när du har redigerat den här filen för att se till att ändringarna börjar gälla. Endast de element-/attributvärden som markeras nedan stöds för ändring. Redigera endast allt annat innehåll i den här filen om du får råd från Scene7 Technical Support.
+Starta om bildservern när du har redigerat den här filen för att se till att ändringarna börjar gälla. Endast de element-/attributvärden som markeras nedan stöds för ändring. Redigera allt annat innehåll i filen endast om Scene7 tekniska support rekommenderar det.
 
 ```
 <supervisor>
