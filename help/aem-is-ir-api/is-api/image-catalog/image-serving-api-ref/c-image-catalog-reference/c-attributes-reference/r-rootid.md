@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 98cece72-487f-4a0d-ad6f-018b656f0f03
 translation-type: tm+mt
 source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+workflow-type: tm+mt
+source-wordcount: '92'
+ht-degree: 0%
 
 ---
 
@@ -22,8 +25,8 @@ Textsträngsvärde. Kan endast innehålla tecken som är giltiga i HTTP-sökväg
 
 ## Standard {#section-c5296f4e52394984bf1c0d265ecde940}
 
-Ingen. Varje katalog måste ha ett unikt `attribute::RootId` värde. [!DNL default.ini] har vanligtvis ett tomt värde `attribute::RootId`.
+Ingen. Varje katalog måste ha ett unikt `attribute::RootId`-värde. [!DNL default.ini] har vanligtvis ett tomt värde  `attribute::RootId`.
 
 ## Se även {#section-5297eaaf736b4db5901e0b37e7cb8bbe}
 
-[katalog::Id](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-id-cat.md) , [src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1)
+[katalog::Id](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-id-cat.md) ,  [src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1)
