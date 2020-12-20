@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# AvkomprimeraAlternativ{#uncompressoptions}
+# UnCompressOptions{#uncompressoptions}
 
 Överföringsinställning för att bearbeta ZIP- och TAR-filer som primära resurser (ingen) eller för att extrahera och överföra deras innehåll (UnCompress).
 
@@ -39,8 +39,8 @@ ht-degree: 0%
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3"> <p>Kontrollerar arkiveringsfilbearbetning för ZIP och TAR. Tillhandahåller två alternativ: 
      <ul id="ul_F34E2F3B9B74450CA7E76BD9FD7137C2">
-      <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> Ingen:</span> Bearbeta som primära resurser. </li>
-      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> Avkomprimera:</span> Extrahera och bearbeta innehåll. </li>
+      <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> Inget:</span> Bearbeta som primära resurser. </li>
+      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> UnCompress:</span> Extrahera och bearbeta innehåll. </li>
      </ul><p>Obs! Strängkonstanter är skiftlägeskänsliga. Använd <span class="codeph"> UnCompress</span>, inte <span class="codeph"> uncompress</span> eller <span class="codeph"> unCompress</span>. </p></p> </td> 
   </tr> 
  </tbody> 
