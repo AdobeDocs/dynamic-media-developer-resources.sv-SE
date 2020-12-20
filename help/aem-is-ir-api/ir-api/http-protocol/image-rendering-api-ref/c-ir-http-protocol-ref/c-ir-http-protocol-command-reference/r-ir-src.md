@@ -36,11 +36,11 @@ Materialfil. Anger materialdata, antingen i form av en enstaka materialkatalogre
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> embeddedReq</span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph">&amp;Klona;klammerparentes;'is&amp;klammerparentes;<span class="varname"> isReq</span>'&amp;klammerparenteser;'&amp;klammerparenteser;|&amp;klammerparenteser;klammerparenteser;'<span class="varname"> irReq</span>'&amp;klammerparenteser;'|&amp;klammerparenteser<span class="varname"></span>' amp;rbrace;'</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&amp;klammerparentes;'<span class="varname"> isReq</span>'&amp;rbrace;'&amp;rbrace;|&amp;lbrace;'ir&amp;lbrace;'<span class="varname"> irReq</span>'&amp;rbrace;'|&amp;lbrace;'&amp;lbrace;'<span class="varname"> foreignReq</span>'&amp;rbrace;'</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p></td> 
-  <td class="stentry"> <p>ID för materialkatalog (<span class="codeph"> attribute::RootId</span>). </p></td> 
+  <td class="stentry"> <p>ID för materialkatalog (<span class="codeph">-attribut::RootId</span>). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> recId</span> </p></td> 
@@ -78,19 +78,19 @@ Materialfil. Anger materialdata, antingen i form av en enstaka materialkatalogre
 
 Repeterbart textur-, dekal- och skrivbordsmaterial kräver en enda bild, som kan anges som en fil eller inbäddad begäran.
 
-Kabinettmaterial kräver en kabinettformatfil ( [!DNL .vnc]), som inte kan anges som en kapslad begäran. En texturbildfil är valfri för skåp, och om den anges kan den vara antingen en fil eller en inbäddad begäran.
+Kabinettmaterial kräver en kabinettformatfil ( [!DNL .vnc]) som inte kan anges som en kapslad begäran. En texturbildfil är valfri för skåp, och om den anges kan den vara antingen en fil eller en inbäddad begäran.
 
-Fönsteromslagsmaterial kräver en fönsteromslagsformatfil ( [!DNL .vnw]), som inte kan anges som en kapslad begäran. En texturfil är valfri och om den anges kan den vara antingen en fil eller en inbäddad begäran.
+Fönsteromslagsmaterial kräver en formatfil för fönsteromslutning ( [!DNL .vnw]), som inte kan anges som en kapslad begäran. En texturfil är valfri och om den anges kan den vara antingen en fil eller en inbäddad begäran.
 
-Vid bildåtergivning används samma regler som för bildservrar när du söker efter materialkataloger, katalogposter och datafiler. Mer information finns i beskrivningen av *`object`* datatypen i dokumentationen för bildservrar.
+Vid bildåtergivning används samma regler som för bildservrar när du söker efter materialkataloger, katalogposter och datafiler. Mer information finns i beskrivningen av datatypen *`object`* i dokumentationen för bildservrar.
 
-*`materialFile`* är en sökväg som är relativ till `attribute::RootPath`.
+*`materialFile`* är en sökväg som är relativ till  `attribute::RootPath`.
 
-*`foreignReq`* kan antingen vara en relativ URL-adress `attribute::RootUrl`eller en absolut URL-adress om `attribute::AllowDirectUrls` har angetts.
+*`foreignReq`* kan antingen vara en relativ URL-adress  `attribute::RootUrl`eller en absolut URL-adress om  `attribute::AllowDirectUrls` är angiven.
 
 Om *`catId`* inte anges används sessionskatalogen.
 
-`srcE=` och `srcN=` ge tillgång till material som är inbäddat i vinjetteringen.
+`srcE=` och  `srcN=` ger tillgång till material som är inbäddat i vinjetteringen.
 
 ## Filformat som stöds {#section-f2186d3eef834fc8bbecb2bc68daacad}
 
@@ -114,7 +114,7 @@ En MSS för ett färgat skåp med en separat upprepningsbar textur:
 
 `…&obj=cabinets&src=cabs/maple02.vnc,cabs/maple.jpg&res=40&color=185,105,35&…`
 
-Samma material kan finnas i en materialkatalog `'cat`i posten `12-3-2`:
+Samma material kunde finnas i en materialkatalog `'cat` i posten `12-3-2`:
 
 `…&obj=cabinets&src=cat/12-3-2&…`
 
@@ -124,4 +124,4 @@ En kapslad begäran till Image Serving om att få en texturbild:
 
 ## Se även {#section-d01d25b8903e4f5ca6aef4a084fca6b7}
 
-[Materialkataloger](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-material-catalogs/c-ir-http-material-catalogs.md#concept-772742c1688f420a88a56f5136ad1db2), [attribut::RootUrl](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402), [attribut::AllowDirectUrls](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-allowdirecturls.md#reference-02000c0f3c494292bad8425d06268882)
+[Materialkataloger](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-material-catalogs/c-ir-http-material-catalogs.md#concept-772742c1688f420a88a56f5136ad1db2),  [attribut::RootUrl](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402),  [attribut::AllowDirectUrls](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-allowdirecturls.md#reference-02000c0f3c494292bad8425d06268882)
