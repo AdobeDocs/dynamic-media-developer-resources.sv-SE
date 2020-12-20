@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 06ec434a-2793-4227-ac93-ae3871c38ab9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 0%
 
 ---
 
@@ -39,7 +42,7 @@ IPS API returnerar inget svar för den här åtgärden.
 
 ## Exempel {#section-e1c474ea91a040609ecd7c2400f4fa3c}
 
-Det här kodexemplet tar bort ett företags metadatafält. Det använder företagshandtaget och metadatahandtaget som fält i den `deleteMetadataFieldParam` som skickas till IPS-webbtjänstservern för att utföra den här åtgärden.
+Det här kodexemplet tar bort ett företags metadatafält. Företagshandtaget och metadatahandtaget används som fält i `deleteMetadataFieldParam` som skickas till IPS Web services-servern för att utföra den här åtgärden.
 
 **Begäran**
 
