@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 059ff97f-dc03-4894-b708-17d0a799c2a2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '40'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +24,7 @@ URL-kommando för Video360 Viewer.
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoURL</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoURL</span> </span> </p> </td> 
    <td colname="col2"> <p> Den absoluta URL:en till en extern video. </p> </td> 
   </tr> 
  </tbody> 
@@ -29,7 +32,7 @@ URL-kommando för Video360 Viewer.
 
 ## Egenskaper {#section-f42369774e2740dcb399626a0e4e930e}
 
-Obligatoriskt. (Om inte `asset` parameter används. Se Stöd för [](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760)extern video.)
+Obligatoriskt. (Om inte parametern `asset` används. Se [Stöd för extern video](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760).)
 
 ## Standard {#section-d016470e92a74f98a18c4ab3489410a5}
 
