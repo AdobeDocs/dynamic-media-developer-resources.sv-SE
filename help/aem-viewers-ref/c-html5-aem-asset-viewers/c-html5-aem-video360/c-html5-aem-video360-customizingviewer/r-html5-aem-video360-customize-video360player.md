@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e78a9c22-4217-42cc-ba47-3acb4130a4fd
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '222'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +34,7 @@ Följande CSS-klassväljare styr videospelarens utseende:
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Huvudvyns bakgrundsfärg. </p> </td> 
   </tr> 
  </tbody> 
@@ -39,7 +42,7 @@ Följande CSS-klassväljare styr videospelarens utseende:
 
 Du kan lokalisera det felmeddelande som visas om systemet inte kan spela upp videon.
 
-Se [Lokalisering av element](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)i användargränssnittet.
+Se [Lokalisering av element i användargränssnittet](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
 Exempel - Om du vill ställa in ett videovisningsprogram med videospelarens storlek inställd på 512 x 288 pixlar.
 
@@ -72,19 +75,19 @@ Utseendet på buffringsanimeringen styrs med följande CSS-klassväljare:
    <td colname="col2"> <p> Animeringsikonens bredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p> Höjd på animeringsikonen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal-vänster </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal-vänster  </span> </p> </td> 
    <td colname="col2"> <p> Animeringsikonens vänstermarginal, normalt minus halva ikonens bredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal-top  </span> </p> </td> 
    <td colname="col2"> <p> Animeringsikonens övre marginal, normalt minus halva ikonens höjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Knacka teckningar. </p> </td> 
   </tr> 
  </tbody> 
