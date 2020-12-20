@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 10332f0d-4ed3-4981-8034-46dffa5d68b0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '123'
+ht-degree: 0%
 
 ---
 
@@ -35,8 +38,8 @@ Cachekontroll. Tillåter selektiv inaktivering av cachelagring på klientsidan (
  </tr> 
 </table>
 
-Om bara ett *`cacheControl`* värde anges används det på både klient- och servercachen.
+Om bara ett *`cacheControl`*-värde har angetts tillämpas det på både klient- och servercachen.
 
-Begär attribut. Ignoreras när begäran inte returnerar en svarsbild. *`clientControl`* ignoreras när cachelagring på klientsidan inaktiveras av bildkatalogen (om `catalog::Expiration` den har ett negativt värde).
+Begär attribut. Ignoreras när begäran inte returnerar en svarsbild. *`clientControl`* ignoreras när cachelagring på klientsidan inaktiveras av bildkatalogen (om  `catalog::Expiration` den har ett negativt värde).
 
 Standardvärdet är `cache=on,on`.
