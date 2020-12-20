@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 02905b23-bbf3-4ae7-828d-915b22d8f167
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Alla konfigurationsfiler finns i install_folder/conf och kan redigeras med de fl
 
 >[!NOTE]
 >
->De flesta serverkonfigurationsfiler innehåller ytterligare egenskaper och värden som inte beskrivs i det här dokumentet. Sådana egenskaper är avsedda för intern serveranvändning och får inte ändras såvida inte Scene7 Tech Support särskilt anger det.
+>De flesta serverkonfigurationsfiler innehåller ytterligare egenskaper och värden som inte beskrivs i det här dokumentet. Sådana egenskaper är avsedda för intern serveranvändning och får inte ändras om inte Scene7 Tech Support särskilt anger det.
 
 I det här dokumentet behandlas inställningar för följande konfigurationsfiler:
 
