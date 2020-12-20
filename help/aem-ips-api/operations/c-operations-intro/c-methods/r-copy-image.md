@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: ae24f0cc-bcf0-4652-a67d-ed69f8a0da92
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '161'
+ht-degree: 0%
 
 ---
 
@@ -42,31 +45,31 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:sträng</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Handtaget till företaget som innehåller bilden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:sträng</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Handtaget till bildresursen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> folderHandle</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> folderHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:sträng</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Handtaget till mappen där bilden ska kopieras. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> namn</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> name</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:sträng</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Namn på ny bild. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> urlModifier</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> urlModifier</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:sträng</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p> </p> </td> 
@@ -87,7 +90,7 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:sträng</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Handtaget till den kopierade bilden. </p> </td> 
