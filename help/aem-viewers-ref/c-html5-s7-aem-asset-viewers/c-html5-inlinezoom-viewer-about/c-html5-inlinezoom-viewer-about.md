@@ -40,7 +40,7 @@ Inline Zoom Viewer kan användas både i popup-läge med en produktionsklar HTML
 
 Konfigurationen och skalningen liknar den för andra visningsprogram. Du kan använda anpassad CSS för att använda skalning.
 
-Se [Kommandoreferens som är gemensam för alla visningsprogram - Konfigurationsattribut](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) och [Kommandoreferens som är gemensamma för alla visningsprogram - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+Se [Kommandoreferens som är gemensam för alla visningsprogram - Konfigurationsattribut](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) och [Kommandoreferens som är gemensam för alla visningsprogram - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
 ## Interagera med Inline Zoom Viewer {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
@@ -75,7 +75,7 @@ Visningsprogrammet är fullt åtkomligt via tangentbordet.
 
 Se [Tangentbordstillgänglighet och -navigering](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
-## Bädda in Inline Zoom Viewer {#section-6bb5d3c502544ad18a58eafe12a13435}
+## Inbäddad zoomningsvisare {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 Olika webbsidor har olika behov av visningsprogrammets beteende. Ibland innehåller en webbsida en klickbar länk som öppnar visningsprogrammet i ett separat webbläsarfönster. I andra fall kan det vara nödvändigt att bädda in visningsprogrammet direkt på värdsidan. I det senare fallet kan webbsidan ha en statisk sidlayout, eller använda responsiv design som visas på olika enheter, eller för olika webbläsarfönsterstorlekar. För att tillgodose dessa behov har visningsprogrammet stöd för tre primära åtgärdslägen: popup-fönster, inbäddning i fast storlek och responsiv inbäddning.
 
@@ -83,13 +83,13 @@ Olika webbsidor har olika behov av visningsprogrammets beteende. Ibland innehål
 
 I popup-läget öppnas visningsprogrammet i ett separat webbläsarfönster eller på en separat flik. Det tar hela webbläsarfönsterområdet och justeras när webbläsarfönstret ändras eller när enhetens orientering ändras.
 
-Det här läget är det vanligaste för mobila enheter. Webbsidan läser in visningsprogrammet med hjälp av `window.open()` JavaScript-anrop, korrekt konfigurerat `A` HTML-element eller något annat lämpligt sätt.
+Det här läget är det vanligaste för mobila enheter. Webbsidan läser in visningsprogrammet med hjälp av JavaScript-anrop (`window.open()`), korrekt konfigurerat HTML-element (`A`) eller på något annat lämpligt sätt.
 
-Vi rekommenderar att du använder den färdiga HTML-sidan för popup-läge `FlyoutViewer.html`. Den finns under [!DNL html5/] undermappen till din standarddistribution av Image Serving-Viewers:
+Vi rekommenderar att du använder den körklara HTML-sidan för popup-läge `FlyoutViewer.html`. Den finns under undermappen [!DNL html5/] i din standarddistribution av Image Serving-Viewers:
 
 `<s7viewers_root>/html5/FlyoutViewer.html`
 
-Det är också nödvändigt att ha komponenten FlyoutZoomView konfigurerad för att fungera i inline-zoomläget. Vi rekommenderar att du använder den färdiga `Scene7SharedAssets/Universal_HTML5_Zoom_Inline` förinställningen för visningsprogrammet för textbunden zoomning eller en anpassad förinställning som härletts från den. Visuell anpassning kan uppnås genom att använda anpassad CSS.
+Det är också nödvändigt att ha komponenten FlyoutZoomView konfigurerad för att fungera i inline-zoomläget. Vi rekommenderar att du använder den färdiga `Scene7SharedAssets/Universal_HTML5_Zoom_Inline`-förinställningen för visningsprogrammet för textbunden zoomning, eller en anpassad förinställning som härletts från den. Visuell anpassning kan uppnås genom att använda anpassad CSS.
 
 Följande är ett exempel på HTML-kod som öppnar visningsprogrammet i ett nytt fönster:
 
@@ -105,13 +105,13 @@ Det primära användningsområdet är webbsidor som är orienterade för datorer
 
 Inbäddningsläget med fast storlek används när visningsprogrammet inte ändrar sin storlek efter den första inläsningen. Det här alternativet passar bäst för webbsidor som har en statisk sidlayout.
 
-Det responsiva designinbäddningsläget förutsätter att visningsprogrammet kan behöva ändra storlek under körning som svar på storleksändringen av behållaren `DIV`. Det vanligaste användningsområdet är att lägga till ett visningsprogram på en webbsida som använder en flexibel sidlayout.
+Inbäddningsläget för responsiv design förutsätter att visningsprogrammet kan behöva ändra storlek under körning som svar på storleksändringen för dess behållare `DIV`. Det vanligaste användningsområdet är att lägga till ett visningsprogram på en webbsida som använder en flexibel sidlayout.
 
-När du använder responsivt designinbäddningsläge med Inline Zoom Viewer måste du ange explicita brytpunkter för huvudvisningsbilden med hjälp av `imagereload` parametern. Bäst är att du matchar brytpunkterna med brytpunkterna för visningsprogrammets bredd enligt CSS-reglerna för webbsidor.
+När du använder responsivt designinbäddningsläge med Inline Zoom Viewer måste du ange explicita brytpunkter för huvudvisningsbilden med parametern `imagereload`. Bäst är att du matchar brytpunkterna med brytpunkterna för visningsprogrammets bredd enligt CSS-reglerna för webbsidor.
 
-I läget responsiv designinbäddning beter sig visningsprogrammet olika beroende på hur en webbsida ändrar sin behållare `DIV`. Om webbsidan bara anger behållarens bredd `DIV`utan begränsningar, väljer visningsprogrammet automatiskt dess höjd enligt proportionerna för den resurs som används. Det innebär att resursen passar in perfekt i vyn utan utfyllnad på sidorna. Det här användningsexemplet är det vanligaste för webbsidor som använder responsiva designlayoutramverk som Bootstrap, Foundation och så vidare.
+I läget responsiv designinbäddning beter sig visningsprogrammet olika beroende på hur en webbsida ändrar sin behållare `DIV`. Om webbsidan bara anger bredden på behållaren `DIV`, och dess höjd inte begränsas, väljer visningsprogrammet automatiskt höjden enligt proportionerna för den resurs som används. Det innebär att resursen passar in perfekt i vyn utan utfyllnad på sidorna. Det här användningsexemplet är det vanligaste för webbsidor där responsiva designlayoutramverk som Bootstrap, Foundation och så vidare används.
 
-Om webbsidan ställer in både bredd och höjd för visningsprogrammets behållare `DIV`fyller visningsprogrammet bara det området och följer den storlek som anges i webbsidans layout. Ett bra exempel på hur du kan använda det här är att bädda in visningsprogrammet i en modal övertäckning, där storleken på övertäckningen anpassas efter webbläsarens fönsterstorlek.
+Om webbsidan ställer in både bredd och höjd för visningsprogrammets behållare `DIV` fyller visningsprogrammet bara det området och följer den storlek som anges i webbsidans layout. Ett bra exempel på hur du kan använda det här är att bädda in visningsprogrammet i en modal övertäckning, där storleken på övertäckningen anpassas efter webbläsarens fönsterstorlek.
 
 **Inbäddning med fast storlek**
 
@@ -124,7 +124,7 @@ Du lägger till visningsprogrammet på en webbsida genom att göra följande:
 
 1. Lägga till JavaScript-filen för visningsprogrammet på webbsidan.
 
-   Om du vill skapa ett visningsprogram måste du lägga till en script-tagg i HTML-huvudet. Innan du kan använda visningsprogrammets API måste du ta med `FlyoutViewer.js`. `FlyoutViewer.js` finns i följande [!DNL html5/js/] undermapp i din standarddistribution av IS-Viewer:
+   Om du vill skapa ett visningsprogram måste du lägga till en script-tagg i HTML-huvudet. Innan du kan använda visningsprogrammets API måste du ta med `FlyoutViewer.js`. `FlyoutViewer.js` finns i följande  [!DNL html5/js/] undermapp i din standarddistribution av IS-Viewer:
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
@@ -138,16 +138,16 @@ En relativ sökväg ser ut så här:
 
 >[!NOTE]
 >
->Du bör bara referera till JavaScript- `include` filen för huvudvisningsprogrammet på sidan. Du bör inte referera till några ytterligare JavaScript-filer i webbsideskoden som kan hämtas av visningsprogrammets logik under körningen. Referera inte direkt till HTML5 SDK- `Utils.js` biblioteket som läses in av visningsprogrammet från `/s7viewers` kontextsökvägen (så kallad konsoliderad SDK `include`). Orsaken är att platsen för `Utils.js` eller liknande visningsprogrambibliotek för miljön hanteras helt av visningsprogrammets logik och platsen ändras mellan visningsprogramversioner. Adobe sparar inte äldre versioner av sekundära visningsprogram `includes` på servern.
+>Du bör bara referera till JavaScript-filen `include` för huvudvisningsprogrammet på sidan. Du bör inte referera till några ytterligare JavaScript-filer i webbsideskoden som kan hämtas av visningsprogrammets logik under körningen. Referera inte direkt till HTML5 SDK `Utils.js`-biblioteket som läses in av visningsprogrammet från kontextsökvägen `/s7viewers` (s.k. konsoliderad SDK `include`). Orsaken är att platsen för `Utils.js` eller liknande visningsprogrambibliotek för miljön hanteras helt av visningsprogrammets logik och platsen ändras mellan visningsprogramversioner. Adobe sparar inte äldre versioner av sekundära visningsprogram `includes` på servern.
 >
 >
->Det innebär att om du skickar en direkt referens till ett sekundärt JavaScript `include` som används av visningsprogrammet på sidan så bryts visningsprogrammets funktion i framtiden när en ny produktversion distribueras.
+>Det innebär att om du skickar en direkt referens till ett sekundärt JavaScript `include` som används av visningsprogrammet på sidan så bryts visningsprogrammets funktioner i framtiden när en ny produktversion distribueras.
 
 1. Definierar behållar-DIV.
 
    Lägg till ett tomt DIV-element på sidan där du vill att visningsprogrammet ska visas. DIV-elementet måste ha sitt ID definierat eftersom detta ID senare skickas till visningsprogrammets API.
 
-   Platshållarens DIV är ett positionerat element, vilket innebär att `position` CSS-egenskapen är inställd på `relative` eller `absolute`.
+   Platshållarens DIV är ett positionerat element, vilket innebär att CSS-egenskapen `position` är inställd på `relative` eller `absolute`.
 
    Det är webbsidans ansvar att ange rätt `z-index` för platshållarens DIV-element. Om du gör det ser du till att visningsprogrammets utfällbara del visas ovanpå de andra webbsidelementen.
 
@@ -159,11 +159,11 @@ En relativ sökväg ser ut så här:
 
 1. Anger visningsprogrammets storlek.
 
-   I det här visningsprogrammet visas miniatyrer när du arbetar med uppsättningar med flera objekt. På stationära datorer placeras miniatyrbilder under huvudvyn. Samtidigt tillåter visningsprogrammet växling av huvudresursen under körning med hjälp av `setAsset()` API. Som utvecklare har du kontroll över hur visningsprogrammet hanterar miniatyrbildsområdet i det nedre området när den nya resursen bara har ett objekt. Det går att behålla den yttre visningsstorleken intakt och låta huvudvyn öka höjden och uppta miniatyrområdet. Eller så kan du hålla storleken på huvudvyn statisk och komprimera det yttre visningsområdet, vilket gör att webbsidans innehåll kan flyttas upp och sedan använda det lediga utrymmet från miniatyrbilderna.
+   I det här visningsprogrammet visas miniatyrer när du arbetar med uppsättningar med flera objekt. På stationära datorer placeras miniatyrbilder under huvudvyn. Samtidigt tillåter visningsprogrammet växling av huvudresursen under körning med hjälp av API:t `setAsset()`. Som utvecklare har du kontroll över hur visningsprogrammet hanterar miniatyrbildsområdet i det nedre området när den nya resursen bara har ett objekt. Det går att behålla den yttre visningsstorleken intakt och låta huvudvyn öka höjden och uppta miniatyrområdet. Eller så kan du hålla storleken på huvudvyn statisk och komprimera det yttre visningsområdet, vilket gör att webbsidans innehåll kan flyttas upp och sedan använda det lediga utrymmet från miniatyrbilderna.
 
-   Om du vill behålla de yttre gränserna för visningsprogrammet intakt definierar du storleken för CSS-klassen på den översta nivån i absoluta enheter `.s7flyoutviewer` . Storleksändring i CSS kan placeras direkt på HTML-sidan eller i en anpassad CSS-fil för visningsprogrammet, som senare tilldelas till en visningsförinställningspost i Scene7 Publishing System, eller skickas explicit med style-kommando.
+   Om du vill behålla de yttre gränserna för visningsprogrammet intakt definierar du storleken för den översta CSS-klassen `.s7flyoutviewer` i absoluta enheter. Storleksändring i CSS kan placeras direkt på HTML-sidan eller i en anpassad CSS-fil för visningsprogrammet, som senare tilldelas en förinställningspost för visningsprogrammet i Scene7 Publishing System, eller skickas explicit med style-kommando.
 
-   Mer information om hur du formaterar visningsprogrammet med CSS finns i [Anpassa visningsprogrammet för textbunden zoomning](../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/c-html5-inlinezoom-viewer-customizingviewer.md#concept-82f8c71adbe54680a0c2f83f81e5f451) .
+   Mer information om hur du formaterar visningsprogrammet med CSS finns i [Anpassa visningsprogrammet för textbunden zoom](../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/c-html5-inlinezoom-viewer-customizingviewer.md#concept-82f8c71adbe54680a0c2f83f81e5f451).
 
    Följande är ett exempel på hur du definierar den statiska storleken på det yttre visningsprogrammet på en HTML-sida:
 
@@ -178,9 +178,9 @@ En relativ sökväg ser ut så här:
 
    [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/InlineZoom-fixed-outer-area.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/InlineZoom-fixed-outer-area.html)
 
-   Om du vill göra huvudvyns dimensioner statiska definierar du visningsstorleken i absoluta enheter för den inre `Container` SDK-komponenten med hjälp av `.s7flyoutviewer .s7container` CSS-väljaren. Dessutom bör du åsidosätta den fasta storlek som är definierad för CSS-klassen på den `.s7flyoutviewer` översta nivån i standardvisningsprogrammets CSS genom att ange den som `auto`.
+   Om du vill göra huvudvyns dimensioner statiska definierar du visningsstorleken i absoluta enheter för den inre `Container` SDK-komponenten med hjälp av CSS-väljaren `.s7flyoutviewer .s7container`. Dessutom bör du åsidosätta den fasta storlek som är definierad för CSS-klassen `.s7flyoutviewer` på den översta nivån i standardvisningsprogrammets CSS genom att ange den till `auto`.
 
-   Följande är ett exempel på hur du definierar visningsstorleken för den inre `Container` SDK-komponenten så att huvudvisningsområdet inte ändrar dess storlek när du byter resurs:
+   Följande är ett exempel på hur du definierar visningsstorleken för den inre SDK-komponenten `Container` så att huvudvisningsområdet inte ändrar dess storlek när du byter resurs:
 
    ```
    #s7viewer.s7flyoutviewer { 
@@ -201,13 +201,13 @@ En relativ sökväg ser ut så här:
 
 1. Skapa och initiera visningsprogrammet.
 
-   När du har slutfört stegen ovan skapar du en instans av `s7viewers.FlyoutViewer` klassen, skickar all konfigurationsinformation till konstruktorn och anropar `init()` metoden för en visningsprograminstans. Konfigurationsinformation skickas till konstruktorn som ett JSON-objekt. Det här objektet bör åtminstone ha det `containerId` fält som innehåller namnet på visningsbehållar-ID och det kapslade JSON- `params` objektet med konfigurationsparametrar som visningsprogrammet stöder. I det här fallet måste objektet ha minst den URL för bildserver som skickas som `params` egenskap, den ursprungliga resursen som `serverUrl` parameter, grundsökvägen för inläsning av CSS som `asset` parameter och förinställningsnamnet som `contentUrl` `config` parameter. Med JSON-baserat initierings-API kan du skapa och starta visningsprogrammet med en enda kodrad.
+   När du har slutfört stegen ovan skapar du en instans av klassen `s7viewers.FlyoutViewer`, skickar all konfigurationsinformation till konstruktorn och anropar metoden `init()` för en visningsprograminstans. Konfigurationsinformation skickas till konstruktorn som ett JSON-objekt. Det här objektet ska åtminstone ha fältet `containerId` som innehåller namnet på visningsbehållar-ID och kapslat JSON-objekt `params` med konfigurationsparametrar som visningsprogrammet stöder. I det här fallet måste `params`-objektet ha minst den URL för bildservrar som skickas som `serverUrl`-egenskap, den ursprungliga resursen som `asset`-parameter, grundsökväg för inläsning av CSS som `contentUrl`-parameter och förinställningsnamnet som `config`-parameter. Med JSON-baserat initierings-API kan du skapa och starta visningsprogrammet med en enda kodrad.
 
-   Det är viktigt att lägga till visningsprogrambehållaren i DOM så att visningsprogramkoden kan hitta behållarelementet med dess ID. I vissa webbläsare fördröjs skapandet av DOM tills webbsidan är slut. För maximal kompatibilitet anropar du metoden precis före den avslutande `init()` taggen eller på body- `BODY` `onload()` händelsen.
+   Det är viktigt att lägga till visningsprogrambehållaren i DOM så att visningsprogramkoden kan hitta behållarelementet med dess ID. I vissa webbläsare fördröjs skapandet av DOM tills webbsidan är slut. För maximal kompatibilitet anropar du metoden `init()` precis före den avslutande `BODY`-taggen eller på body-händelsen `onload()`.
 
-   Samtidigt bör behållarelementet inte nödvändigtvis vara en del av webbsidans layout just nu. Den kan till exempel vara dold med hjälp av ett format som är tilldelat den. `display:none` I det här fallet skjuter visningsprogrammet upp initieringsprocessen tills webbsidan återför behållarelementet till layouten. När detta inträffar återgår visningsprogrammet automatiskt.
+   Samtidigt bör behållarelementet inte nödvändigtvis vara en del av webbsidans layout just nu. Det kan till exempel vara dolt med `display:none`-format som tilldelats det. I det här fallet skjuter visningsprogrammet upp initieringsprocessen tills webbsidan återför behållarelementet till layouten. När detta inträffar återgår visningsprogrammet automatiskt.
 
-   Följande är ett exempel på hur du skapar en visningsprograminstans, skickar de minsta nödvändiga konfigurationsalternativen till konstruktorn och anropar `init()` metoden. Exemplet förutsätter `inlineZoomViewer` att visningsprograminstansen är `s7viewer` är platshållarens namn `DIV`, `http://s7d1.scene7.com/is/image/` är webbadressen till bildservern, och `Scene7SharedAssets/ImageSet-Views-Sample` är tillgången:
+   Följande är ett exempel på hur du skapar en visningsprograminstans, skickar de minsta nödvändiga konfigurationsalternativen till konstruktorn och anropar metoden `init()`. Exemplet förutsätter att `inlineZoomViewer` är visningsprograminstansen; `s7viewer` är namnet på platshållaren `DIV`; `http://s7d1.scene7.com/is/image/` är webbadressen för bildservrar; och `Scene7SharedAssets/ImageSet-Views-Sample` är resursen:
 
    ```
    <script type="text/javascript"> 
@@ -255,7 +255,7 @@ En relativ sökväg ser ut så här:
 
 ## Responsiv designinbäddning med obegränsad höjd {#section-056cb574713c4d07be6d07cf3c598839}
 
-Med responsiv designinbäddning har webbsidan normalt någon typ av flexibel layout som bestämmer visningsprogrammets behållares körningsstorlek `DIV`. I följande exempel kan du anta att webbsidan tillåter att visningsprogrammets behållare tar 40 % av webbläsarens fönsterstorlek, och låter dess höjd vara obegränsad. `DIV` HTML-koden för webbsidan ser ut så här:
+Med responsiv designinbäddning har webbsidan normalt någon typ av flexibel layout som bestämmer visningsprogrammets körningsstorlek `DIV`. I följande exempel antar du att webbsidan tillåter att visningsprogrammets behållare `DIV` tar 40 % av webbläsarfönstrets storlek, och låter dess höjd vara obegränsad. HTML-koden för webbsidan ser ut så här:
 
 ```
 <!DOCTYPE html> 
@@ -282,9 +282,9 @@ Att lägga till visningsprogrammet på en sådan sida liknar stegen för inbädd
 
 Alla stegen ovan är desamma som med inbäddning med fast storlek med följande tre undantag:
 
-* Lägg till behållaren `DIV` till den befintliga &quot;hållaren&quot; `DIV`.
-* en ny `imagereload` parameter med explicita brytpunkter,
-* I stället för att ange en fast visningsstorlek med absoluta enheter används CSS som ställer in visningsprogrammet `width` och `height` till 100 % enligt följande:
+* lägg till behållaren `DIV` i den befintliga &quot;hållaren&quot; `DIV`;
+* lade till parametern `imagereload` med explicita brytpunkter;
+* i stället för att ange en fast visningsstorlek med absoluta enheter använder du CSS som ställer in visningsprogrammet `width` och `height` till 100 % enligt följande:
 
 ```
 #s7viewer.s7flyoutviewer { 
@@ -338,7 +338,7 @@ Följande exempelsida visar mer verkliga användningsområden för responsiv des
 
 ## Flexibel storleksinbäddning med definierad bredd och höjd {#section-0a329016f9414d199039776645c693de}
 
-Vid flexibel inbäddning med bredd och höjd är webbsidans format annorlunda. DIV:n får båda storlekarna och den centreras i webbläsarfönstret. `"holder"` Dessutom ställer webbsidan in storleken på elementet `HTML` och `BODY` elementet till 100 procent.
+Vid flexibel inbäddning med bredd och höjd är webbsidans format annorlunda. Den ger båda storlekarna till DIV:n `"holder"` och centrerar den i webbläsarfönstret. Dessutom anger webbsidan storleken på elementen `HTML` och `BODY` till 100 procent.
 
 ```
 <!DOCTYPE html> 
@@ -409,9 +409,9 @@ var inlineZoomViewer = new s7viewers.FlyoutViewer({
 </html>
 ```
 
-## Bädda in med Setter-baserat API {#section-af26f0cc2e5140e8a9bfd0c6a841a6d1}
+## Inbäddning med Setter-baserad API {#section-af26f0cc2e5140e8a9bfd0c6a841a6d1}
 
-I stället för att använda JSON-baserad initiering kan du använda set-based API och no-args-konstruktor. Om du använder den här API-konstruktorn används inga parametrar och konfigurationsparametrar anges med metoderna `setContainerId()`, `setParam()`och `setAsset()` API med separata JavaScript-anrop.
+I stället för att använda JSON-baserad initiering kan du använda set-based API och no-args-konstruktor. Om du använder den här API-konstruktorn används inga parametrar och konfigurationsparametrar anges med API-metoderna `setContainerId()`, `setParam()` och `setAsset()` med separata JavaScript-anrop.
 
 I följande exempel visas hur du använder inbäddning med fast storlek med set-based API:
 
