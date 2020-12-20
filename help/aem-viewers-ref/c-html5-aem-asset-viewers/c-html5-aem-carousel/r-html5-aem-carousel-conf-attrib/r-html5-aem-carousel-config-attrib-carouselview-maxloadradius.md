@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 0dcebbce-f449-4f5f-acbc-02960e1dbdba
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '66'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> -1|0|<span class="varname"> förinläsare</span></span> </p> </td> 
-   <td> <p>Anger beteende för komponentförinläsning. </p> <p>Om värdet är <span class="codeph"> -1</span> kommer komponenten att förhandsladda alla karusellbildrutor när de är i vänteläge. </p> <p>Om värdet är <span class="codeph"> 0</span> läser komponenten bara in den bildruta som är synlig, föregående och nästa bildruta. </p> <p><span class="codeph"><span class="varname"> Med</span></span>förinläsningsfunktionen definieras hur många osynliga bildrutor runt den bildruta som visas som förinlästa när den är inaktiv. </p> </td> 
+   <td> <p>Anger beteende för komponentförinläsning. </p> <p>När den är inställd på <span class="codeph"> -1</span> kommer komponenten att förhandsladda alla karusellbildrutor när den är inaktiv. </p> <p>Om <span class="codeph"> 0</span> anges läser komponenten bara in den bildruta som är synlig, föregående och nästa bildruta. </p> <p><span class="codeph"><span class="varname"> Med </span></span>förinläsningsfunktionen definieras hur många osynliga bildrutor runt den bildruta som visas som förinlästa när den är inaktiv. </p> </td> 
   </tr> 
  </tbody> 
 </table>
