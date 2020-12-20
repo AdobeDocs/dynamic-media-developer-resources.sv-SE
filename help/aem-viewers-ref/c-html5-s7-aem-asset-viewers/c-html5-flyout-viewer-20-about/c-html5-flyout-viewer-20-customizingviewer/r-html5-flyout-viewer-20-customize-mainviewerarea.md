@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: bc0beeaf-3e7d-4ede-9a7d-04afb1724e44
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '109'
+ht-degree: 0%
 
 ---
 
 
-# Huvudvisningsområde{#main-viewer-area}
+# Huvudvisningsprogramområde{#main-viewer-area}
 
 Huvudvisningsområdet är det område som upptas av den utfällbara vyn och färgrutorna.
 
@@ -39,11 +42,11 @@ Visningsområdets utseende styrs av följande CSS-klassväljare:
    <td colname="col2"> <p>Bredden på visningsprogrammet. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Visningsprogrammets höjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Bakgrundsfärg i hexadecimalt format. </p> </td> 
   </tr> 
  </tbody> 
