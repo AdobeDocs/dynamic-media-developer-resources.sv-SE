@@ -23,7 +23,7 @@ När det är enkelt och enkelt att lägga till nya datafiler måste du vara sär
 >
 >Datafiler ska aldrig ersättas eller tas bort när de används aktivt av bildservern. Fel eller till och med en serverkrasch kan inträffa i annat fall.
 
-Kom ihåg att cacheposterna för Platform Server och klientcachen måste bli inaktuella innan de uppdaterade data kan ses av klienten. Du kan uppdatera specifika cacheposter direkt med `cache=validate` kommandot.
+Kom ihåg att plattformsserverns cache och klientens cacheposter måste bli inaktuella innan uppdaterade data kan ses av klienten. Specifika cacheposter kan uppdateras omedelbart med kommandot `cache=validate`.
 
 Ändringar i teckensnittsfiler och ICC-profilfiler spåras inte direkt av cachehanteraren. Om en sådan resurs ändras utan att dess ID ändras, kommer servercachen inte att känna till ändringen och `cache=validate` kommer inte att göra att cacheposten uppdateras. `cache=update` kan användas för att framtvinga återskapande av sådana cacheposter.
 
