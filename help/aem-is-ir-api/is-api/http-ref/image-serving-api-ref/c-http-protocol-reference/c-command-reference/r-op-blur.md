@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8405bbb5-fe09-412e-9b52-0af2c01f48b9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 0%
 
 ---
 
@@ -37,6 +40,6 @@ Lager, kommando. Gäller det aktuella lagret eller den sammansatta bilden om `la
 
 ## Exempel {#section-1ebacde68388492eb108ae0fcd7424db}
 
-Gör bakgrunden i en bild oskarp. En separat maskbild refereras av `catalog::MaskPath`. Observera att `layer=0`måste anges explicit, annars `op_blur` tillämpas det på hela den sammansatta bilden.
+Gör bakgrunden i en bild oskarp. `catalog::MaskPath` refererar till en separat maskbild. Observera att `layer=0`måste anges explicit, annars används `op_blur` på hela den sammansatta bilden.
 
 `http://server/myRootId/myImageId?wid=500&layer=0&maskUse=invert&op_blur=20&layer=1&src=myRootId/myImageId`
