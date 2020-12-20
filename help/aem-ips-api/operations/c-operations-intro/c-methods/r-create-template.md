@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: c54bd47c-13e1-4b0d-a24c-9829b0a6d5bf
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '205'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Skapar en bild med flera lager som kan ha flera text- och bildlager.
 
-Parametern anger `urlModifier` de Image Server-protokollkommandon som lagras i Image Server-katalogen som används före eventuella användardefinierade kommandon på URL:en. Parametern anger `urlPostApplyModifier` protokollkommandon som används efter URL-kommandon, vilket åsidosätter eventuella inställningar som användaren anger.
+Parametern `urlModifier` anger de Image Server-protokollkommandon som lagras i Image Server-katalogen som används före eventuella kommandon som användaren anger på URL:en. Parametern `urlPostApplyModifier` anger protokollkommandon som används efter URL-kommandon, som åsidosätter eventuella inställningar som användaren anger.
 
 ## Auktoriserade användartyper {#section-9fb615d8e75f452eab2893cc3decfbe6}
 
@@ -47,7 +50,7 @@ Parametern anger `urlModifier` de Image Server-protokollkommandon som lagras i I
 
 ## Exempel {#section-09adb4d2f0c944af875c4463a461f55d}
 
-I det här kodexemplet skapas en mall i en mapp som anges av ett handtag med namnet `APIcreateTemplate`, a `urlModifier`och a `urlPostApplyModifier`. Svaret returnerar referensen till den nya mallen.
+I det här kodexemplet skapas en mall i en mapp som anges av en referens, med namnet `APIcreateTemplate`, `urlModifier` och `urlPostApplyModifier`. Svaret returnerar referensen till den nya mallen.
 
 **Begäran**
 
