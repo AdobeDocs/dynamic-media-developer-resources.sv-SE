@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 7d04b923-e062-4764-9e48-99a7bba72d3f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '94'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Tänk på dessa miniatyrregler.
 
-1. Om `catalog::ThumbType=Crop`så skalas (beskuren) bilden till minsta möjliga storlek samtidigt som hela målrektangeln täcks. Om `catalog::ThumbType=Fit`så skalas (den beskurna) bilden till den största möjliga storleken samtidigt som hela bilden fortfarande passas in i målrektangeln. Om `catalog::ThumbType=Texture`den (beskurna) bilden skalas till förhållandet mellan `catalog::ThumbRes` och `catalog::Resolution`.
+1. Om `catalog::ThumbType=Crop` skalas (beskuren) bilden till minsta möjliga storlek samtidigt som den täcker hela målrektangeln. Om `catalog::ThumbType=Fit` skalas (beskuren) bilden till den största möjliga storleken medan hela bilden fortfarande passas in i målrektangeln. Om `catalog::ThumbType=Texture` skalas (beskuren) bilden till förhållandet `catalog::ThumbRes` till `catalog::Resolution`.
 1. Justera den skalförändrade bilden mot målrektangeln baserat på `attribute::ThumbHorizAlign` och `attribute::ThumbVertAlign`.
 1. Beskär resultatet till målrektangeln.
 
