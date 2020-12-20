@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 185824c5-d6f2-4e1b-99ac-726a295ec5f4
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '191'
+ht-degree: 0%
 
 ---
 
@@ -19,8 +22,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_1D425B7685D448459CD3FE8D683C813C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
-   <td colname="col2"> <p>Anger hur sidor visas i huvudvyn och i miniatyrbilder. Det anger också hur användaren interagerar med visningsprogrammets användargränssnitt för att växla mellan katalogbildrutor. </p> <p>När <span class="codeph"> vänster </span> används anges en högerjustering för den inledande sidan och vänsterjustering för den sista sidan. Det sammanfogar enskilda sidunderbilder för återgivningsordningen vänster till höger. Den ställer också in huvudvyn så att höger-till-vänster-animering används för att flytta fram katalogen (om <span class="codeph"> PageView.frametransition </span> är inställd på slide). Slutligen ställs miniatyrerna in för en fyllningsordning från vänster till höger. </p> <p>När du använder <span class="codeph"> höger </span> anger den på samma sätt en vänsterjustering för den inledande sidan och högerjustering för den sista sidan. Det sammanfogar enskilda sidunderbilder för återgivningsordningen höger till vänster. Den ställer också in huvudvyn så att animering från vänster till höger används för att flytta fram katalogen (om <span class="codeph"> PageView.frametransition </span> är inställd på bildruta). Slutligen ändras ordningen på miniatyrbilderna så att miniatyrbildsvyn fylls i från höger till vänster, uppifrån och ned. </p> <p>När <span class="codeph"> auto </span> är inställt använder visningsprogrammet <span class="codeph"> rätt </span> läge när språkinställningen är inställd på <span class="codeph"> ja, I </span>annat fall används <span class="codeph"> vänstra </span> läget. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> auto|left|right  </span> </p> </td> 
+   <td colname="col2"> <p>Anger hur sidor visas i huvudvyn och i miniatyrbilder. Det anger också hur användaren interagerar med visningsprogrammets användargränssnitt för att växla mellan katalogbildrutor. </p> <p>När <span class="codeph"> vänster </span> används anges högerjustering för den inledande sidan och vänsterjustering för den sista sidan. Det sammanfogar enskilda sidunderbilder för återgivningsordningen vänster till höger. Den ställer också in huvudvyn så att höger-till-vänster-bildruteanimering används för att flytta fram katalogen (om <span class="codeph"> PageView.frametransition </span> är inställd på bildruta). Slutligen ställs miniatyrerna in för en fyllningsordning från vänster till höger. </p> <p>När <span class="codeph"> höger </span> används anger den på samma sätt en vänsterjustering för den inledande sidan och högerjustering för den sista sidan. Det sammanfogar enskilda sidunderbilder för återgivningsordningen höger till vänster. Den ställer också in huvudvyn så att animering från vänster till höger används för att flytta fram katalogen (om <span class="codeph"> PageView.frametransition </span> är inställd på bildruta). Slutligen ändras ordningen på miniatyrbilderna så att miniatyrbildsvyn fylls i från höger till vänster, uppifrån och ned. </p> <p>När <span class="codeph"> auto </span> är inställt använder visningsprogrammet läget <span class="codeph"> right </span> när språkområdet är inställt på <span class="codeph"> ja; </span>I annat fall används det vänstra <span class="codeph">-läget.</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
