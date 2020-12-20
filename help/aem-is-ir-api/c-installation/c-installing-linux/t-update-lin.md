@@ -21,21 +21,21 @@ Använd den här proceduren när du uppgraderar Scene7 Image Serving i Linux.
 
 Om du uppgraderar från en äldre version av Image Serving kontaktar du supporten för rätt process.
 
-Mappen kan tas bort [!DNL webapps] vid uppgradering. Säkerhetskopiera [!DNL webapps] mappen innan du uppgraderar.
+Mappen [!DNL webapps] kan tas bort vid uppgradering. Säkerhetskopiera mappen [!DNL webapps] innan du uppgraderar.
 
 1. Logga in på servervärden med rotprivilegier.
 1. Ta bort komprimeringen och ta bort kontrollen för Image Serving-distributionens tjärfil.
-1. Kör [!DNL ./install-is] för att starta installationsguiden som finns i [!DNL setup] mappen.
+1. Kör [!DNL ./install-is] för att starta installationsguiden som finns i mappen [!DNL setup].
 
    Installationsprogrammet för uppdateringen kontrollerar det installerade paketets integritet och version. Om det lyckas visas slutanvändaravtalet (&quot;EULA&quot;).
-1. Läs licensavtalet och ange sedan &quot; **[!UICONTROL y]**&quot; för att fortsätta med installationen.
+1. Läs licensavtalet och ange **[!UICONTROL y]** för att fortsätta med installationen.
 
-   Installationsprogrammet säkerhetskopierar de gamla serverkonfigurationsfilerna till [!DNL BACKUP/] mappen.
+   Installationsprogrammet säkerhetskopierar de gamla serverkonfigurationsfilerna till mappen [!DNL BACKUP/].
 
    När installationen är klar visas följande meddelande:
 
    `Image Server was started successfully`
 
-Under en uppdatering uppdateras [!DNL ImageServing/conf/server.xml] filen till de senaste inställningarna. Om du har ändrat eller lagt till värden bör du spara dina befintliga [!DNL server.xml] och implementera ändringarna efter uppgraderingen.
+Under en uppdatering uppdateras [!DNL ImageServing/conf/server.xml]-filen till de senaste inställningarna. Om du har ändrat eller lagt till värden bör du spara dina befintliga [!DNL server.xml] och implementera ändringarna igen efter uppgraderingen.
 
-Efter en uppdateringsinstallation bör du överväga att värma upp HTTP-svarscachen innan servern aktiveras. Mer information finns i beskrivningen av [!DNL playlog] verktyget.
+Efter en uppdateringsinstallation bör du överväga att värma upp HTTP-svarscachen innan servern aktiveras. Mer information finns i beskrivningen av verktyget [!DNL playlog].
