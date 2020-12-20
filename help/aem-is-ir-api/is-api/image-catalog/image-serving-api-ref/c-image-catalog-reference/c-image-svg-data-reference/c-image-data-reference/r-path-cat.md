@@ -6,11 +6,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 0fca88bb-de00-4eff-83ad-c0f5e3b8ece0
 translation-type: tm+mt
 source-git-commit: 7b837020deef888a038a074d0aa826d43e60aeb6
+workflow-type: tm+mt
+source-wordcount: '147'
+ht-degree: 0%
 
 ---
 
 
-# Bana{#path}
+# Sökväg{#path}
 
 Sökväg till bildfil.
 
@@ -24,7 +27,7 @@ Textsträng. Obligatoriskt för bildposter, kan vara tomt för mallposter. Om de
 
 Mer information om vilka filformat som stöds finns i beskrivningen av verktyget Image Converter (IC).
 
-Program som kräver bilddata i flera olika upplösningar fungerar bäst när du använder det flerupplösta formatet PTIFF (Dynamic Media pyramid TIFF). IC-verktyget används för att skapa PTIFF-bilder från alla bildformat som stöds.
+Program som kräver bilddata i flera olika upplösningar fungerar bäst när du använder multiupplösningsformatet Dynamic Media pyramid TIFF (PTIFF). IC-verktyget används för att skapa PTIFF-bilder från alla bildformat som stöds.
 
 ## Standard {#path-default}
 
@@ -32,6 +35,6 @@ Ingen.
 
 ## Se även {#path-seealso}
 
-[IC Utility](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) , [attribute::RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md) , [attribute::DefaultExt](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultext.md) , [src=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md)
+[IC Utility](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) ,  [attribute::RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md) ,  [attribute::DefaultExt](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultext.md) ,  [src=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md)
 
 <!-- [attribute::LowerCasePaths]() -->
