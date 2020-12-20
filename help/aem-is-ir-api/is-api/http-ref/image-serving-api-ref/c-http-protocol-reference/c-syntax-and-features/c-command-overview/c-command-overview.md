@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 14207f6a-3573-4f03-988d-249c7c67f2ba
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '118'
+ht-degree: 0%
 
 ---
 
 
-# Översikt över kommandot Image Serving HTTP protocol{#image-serving-http-protocol-command-overview}
+# Kommandoöversikt för Image Serving HTTP-protokoll{#image-serving-http-protocol-command-overview}
 
 De kommandon som stöds av Image Serving listas nedan, grupperade efter grovkategori. Mer information om användning och tillämplighet finns i de specifika kommandobeskrivningarna.
 
