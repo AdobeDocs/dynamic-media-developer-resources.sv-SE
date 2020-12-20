@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 5bca705a-3a48-4e5e-83eb-c200b6318564
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '89'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +28,7 @@ Utskriftsupplösning. Åsidosätter utskriftsupplösningsvärdet som är inbädd
  </tr> 
 </table>
 
-Utskriftsupplösningen definieras vanligtvis av det utskriftsupplösningsvärde som är inbäddat i vinjetteringen.
+Utskriftsupplösningen definieras normalt av det utskriftsupplösningsvärde som är inbäddat i vinjetteringen.
 
 Om du anger utskriftsupplösningen ändras inte svarsbildens pixelstorlek.
 
