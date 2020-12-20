@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 3599c8d3-dc4b-434e-8b11-775ea6f155ee
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Sökvägar till bilddatafiler. Anger de filer som innehåller bilddata för den här katalogen.
 
-Bilddatafiler läses in i den angivna ordningen. Om samma `catalog::Id` värde förekommer i mer än en post (antingen i samma eller olika katalogfiler) gäller den sista instansen.
+Bilddatafiler läses in i den angivna ordningen. Om samma `catalog::Id`-värde förekommer i mer än en post (antingen i samma eller olika katalogfiler) gäller den sista instansen.
 
 ## Egenskaper {#section-6da55f145ecd4e31a5de52637a436983}
 
