@@ -1,30 +1,33 @@
 ---
-description: Det grundläggande zoomvisningsprogrammet har stöd för Adobe Analytics-spårning direkt.
-seo-description: Det grundläggande zoomvisningsprogrammet har stöd för Adobe Analytics-spårning direkt.
-seo-title: Stöd för Adobe Analytics-spårning
+description: Visningsprogrammet för grundläggande zoomning har stöd för Adobe Analytics-spårning direkt.
+seo-description: Visningsprogrammet för grundläggande zoomning har stöd för Adobe Analytics-spårning direkt.
+seo-title: Stöd för Adobe Analytics tracking
 solution: Experience Manager
-title: Stöd för Adobe Analytics-spårning
+title: Stöd för Adobe Analytics tracking
 topic: Dynamic media
 uuid: f48fde77-7e48-4d56-b5c5-079a484e6d9c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 0%
 
 ---
 
 
-# Stöd för Adobe Analytics-spårning{#support-for-adobe-analytics-tracking}
+# Stöd för Adobe Analytics tracking{#support-for-adobe-analytics-tracking}
 
-Det grundläggande zoomvisningsprogrammet har stöd för Adobe Analytics-spårning direkt.
+Visningsprogrammet för grundläggande zoomning har stöd för Adobe Analytics-spårning direkt.
 
-## Spåra direkt {#section-ba994f079d0343c8ae48adffaa3195a3}
+## Spåra {#section-ba994f079d0343c8ae48adffaa3195a3} direkt
 
-Det enkla zoomvisningsprogrammet har stöd för att [!DNL Adobe Analytics] spåra färdiga filer. Om du vill aktivera spårning skickar du rätt namn på företagets förinställning som `config2` parameter.
+Visningsprogrammet för grundläggande zoomning har stöd för [!DNL Adobe Analytics]-spårning som är körklar. Om du vill aktivera spårning skickar du rätt namn på företagets förinställning som `config2`-parameter.
 
 Visningsprogrammet skickar även en enda HTTP-begäran för spårning till den konfigurerade Image Server med information om visningsprogramtyp och version.
 
 ## Anpassad spårning {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Om du vill integrera med analyssystem från tredje part måste du lyssna på `trackEvent` visningsprogrammets återanrop och bearbeta callback-funktionens `eventInfo` argument efter behov. Följande kod är ett exempel på en sådan hanterarfunktion:
+Om du vill integrera med analyssystem från tredje part måste du lyssna på `trackEvent`-återanropet för visningsprogrammet och bearbeta `eventInfo`-argumentet för återanropsfunktionen efter behov. Följande kod är ett exempel på en sådan hanterarfunktion:
 
 ```
 var basicZoomViewer = new s7viewers.BasicZoomViewer({ 
@@ -59,19 +62,19 @@ Visningsprogrammet spårar följande SDK-användarhändelser:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LADDA </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LADDA  </span> </p> </td> 
    <td colname="col2"> <p>visningsprogrammet läses in först. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>en resurs byts ut i visningsprogrammet med <span class="codeph"> setAsset()- </span> API:t. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> SWAP  </span> </p> </td> 
+   <td colname="col2"> <p>en resurs byts ut i visningsprogrammet med hjälp av API:t <span class="codeph"> setAsset() </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ZOOMA </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ZOOMA  </span> </p> </td> 
    <td colname="col2"> <p> en bild zoomas in. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PAN </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PAN  </span> </p> </td> 
    <td colname="col2"> <p>en bild är panorerad. </p> </td> 
   </tr> 
  </tbody> 
