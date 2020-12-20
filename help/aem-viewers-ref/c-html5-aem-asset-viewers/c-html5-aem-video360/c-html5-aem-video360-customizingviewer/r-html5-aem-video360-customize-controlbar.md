@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 328e34f1-9e60-4056-9a8a-e9292fb65605
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '207'
+ht-degree: 0%
 
 ---
 
@@ -31,25 +34,25 @@ Följande CSS-klassväljare styr kontrollfältets utseende:
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p>Placera från den övre kanten, inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> nederkant </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> nederkant  </span> </p> </td> 
    <td colname="col2"> <p> Placera från den nedre kanten, inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Kontrollfältets höjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Kontrollfältets bakgrundsfärg. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Exempel** - Om du vill ställa in ett videovisningsprogram med ett grått kontrollfält som är 30 pixlar högt och som visas högst upp i visningsprogrammets behållare.
+**Exempel**  - Om du vill ställa in ett videovisningsprogram med ett grått kontrollfält som är 30 pixlar högt och som visas högst upp i visningsprogrammets behållare.
 
 ```
 .s7video360viewer .s7controlbar {  
