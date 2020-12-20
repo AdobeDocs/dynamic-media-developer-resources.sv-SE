@@ -1,18 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: FavoriterVisa.favoriterThumbView
+seo-title: FavoritesView.favoritesThumbView
 solution: Experience Manager
-title: FavoriterVisa.favoriterThumbView
+title: FavoritesView.favoritesThumbView
 topic: Dynamic media
 uuid: 5c362eb3-dece-4546-8a79-fd79c2852a78
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '58'
+ht-degree: 1%
 
 ---
 
 
-# FavoriterVisa.favoriterThumbView{#favoritesview-favoritesthumbview}
+# FavoritesView.favoritesThumbView{#favoritesview-favoritesthumbview}
 
 ` [FavoritesView.|<containerId>_favoritesView.]favoritesThumbArea= *`area`*`
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> area</span></span> </p> </td> 
-   <td colname="col2"> <p> Anger beskärningsområdet för favoritminiatyrbilden. Uttryckt som ett relativt värde till den totala bildrutestorleken, med ett intervall från <span class="codeph"> 0</span> till <span class="codeph"> 1,0</span>. </p> <p>Värdet <span class="codeph"> 1</span> innebär att hela bildrutebilden används som miniatyrbild. </p> <p>Värdet <span class="codeph"> 0,1</span> innebär att endast 10 % av bildrutestorleken används. </p> </td> 
+   <td colname="col2"> <p> Anger beskärningsområdet för favoritminiatyrbilden. Uttryckt som ett relativt värde till den totala bildrutestorleken, med ett intervall från <span class="codeph"> 0</span> till <span class="codeph"> 1.0</span>. </p> <p>Värdet <span class="codeph"> 1</span> innebär att hela bildrutebilden används för miniatyrbilden. </p> <p>Värdet <span class="codeph"> 0.1</span> betyder att endast 10 % av bildrutestorleken används. </p> </td> 
   </tr> 
  </tbody> 
 </table>
