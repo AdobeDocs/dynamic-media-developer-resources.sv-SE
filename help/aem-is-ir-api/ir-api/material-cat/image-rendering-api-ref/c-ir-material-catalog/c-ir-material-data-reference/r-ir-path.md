@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 9e85a358-3f2f-4b8b-a98f-03de2a1a8a4c
 translation-type: tm+mt
 source-git-commit: 7d3902803d42f5d479dd04ac9470a4088809f3d6
+workflow-type: tm+mt
+source-wordcount: '221'
+ht-degree: 0%
 
 ---
 
 
-# Bana *{#path}
+# Sökväg *{#path}
 
 Sökväg till bildfil. Relativ sökväg och namn för en textur- eller dekal bildfil.
 
@@ -28,7 +31,7 @@ Textsträng. Krävs för textur- och dekmaterial, valfritt för skåp och fönst
 
 Bildåtergivning stöder samma källbildformat som Scene7 Image Serving.
 
-Program som kräver bilddata i flera olika upplösningar fungerar bäst när du använder det flerupplösta formatet Scene7-pyramid TIFF (PTIFF). Image Serving innehåller verktyget Image Converter (IC) som skapar PTIFF-bilder i alla format som stöds.
+Program som kräver bilddata i flera olika upplösningar fungerar bäst när du använder multiupplösningsformatet Scene7 pyramid TIFF (PTIFF). Image Serving innehåller verktyget Image Converter (IC) som skapar PTIFF-bilder i alla format som stöds.
 
 Se beskrivningen av verktyget IC i dokumentationen för Image Serving för en fullständig lista över filformat som stöds.
 
@@ -38,4 +41,4 @@ Ingen.
 
 ## Se även {#section-1bf37fab8e5f4c42a03b785abafc53bd}
 
-[IC Utility](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) , [attribut::RootPath](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md), [src=](/help/aem-is-ir-api/ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md)
+[IC Utility](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) ,  [attribute::RootPath](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md),  [src=](/help/aem-is-ir-api/ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md)
