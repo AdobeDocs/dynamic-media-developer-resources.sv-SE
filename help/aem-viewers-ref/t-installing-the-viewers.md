@@ -1,6 +1,6 @@
 ---
-description: Instruktioner för hur du installerar API:t för Dynamic Media Viewer.
-seo-description: Instruktioner för hur du installerar API:t för Dynamic Media Viewer.
+description: Instruktioner för installation av Dynamic Media Viewer API.
+seo-description: Instruktioner för installation av Dynamic Media Viewer API.
 seo-title: Installera flera visningsprogram på samma server
 solution: Experience Manager
 title: Installera flera visningsprogram på samma server
@@ -19,11 +19,11 @@ ht-degree: 1%
 
 <!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
-Instruktioner för installation av API:t för visningsprogram för dynamiska media.
+Instruktioner för installation av API:t för visningsprogram i Dynamic Media.
 
 Installera och testa Image Serving innan du installerar visningsprogrammen för Image Serving.
 
-Kopiera IS Viewer-filerna till hårddisken och distribuera sedan `s7viewers.war` filen till `../ImageServing/webapps` katalogen. I dokumentationen för Image Serving finns instruktioner om hur du distribuerar, startar, stoppar och hanterar Image Server.
+Kopiera IS Viewer-filerna till hårddisken och distribuera sedan `s7viewers.war`-filen till `../ImageServing/webapps`-katalogen. I dokumentationen för Image Serving finns instruktioner om hur du distribuerar, startar, stoppar och hanterar Image Server.
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ Kopiera IS Viewer-filerna till hårddisken och distribuera sedan `s7viewers.war`
 **Installera visningsprogrammen på samma server**
 
 1. Byt namn på visningsprogrammet .war till önskad kontext och distribuera filen till önskad plats.
-1. Ange `this.isViewerRoot` parametern i `config.js`.
+1. Ange parametern `this.isViewerRoot` i `config.js`.
 1. Öppna `config.js` i roten för den nya visningsprogrammappen.
-1. Ange parametern `this.isViewerRoot = "/s7viewers"` till `s7viewers.war` filens kontext. Exempel, `"/s7viewers-4.0"`. Spara och stäng filen.
+1. Ange parametern `this.isViewerRoot = "/s7viewers"` i kontexten för filen `s7viewers.war`. Exempel, `"/s7viewers-4.0"`. Spara och stäng filen.
 1. Spara filen och stäng den.
