@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 609d3c3f-290d-4c21-b61e-70831bee74ea
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '279'
+ht-degree: 0%
 
 ---
 
 
-# Twitter-delning{#twitter-share}
+# Twitter-resurs{#twitter-share}
 
 Twitter-delningsverktyget består av en knapp som har lagts till på panelen Dela via sociala medier. När användaren klickar på knappen omdirigeras användaren till en delningsdialogruta som tillhandahålls av en social tjänst. Knappens position hanteras helt av verktyget för social delning.
 
@@ -33,15 +36,15 @@ Utseendet på Twitter-delningsknappen styrs av följande CSS-klassväljare:
    <td colname="col2"> <p>Knappbredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Knapphöjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Bilden som visas för ett visst knappläge. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Placera inuti en teckningssprite, om CSS-sprites används. </p> <p>Se även <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-fragment </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -49,11 +52,11 @@ Utseendet på Twitter-delningsknappen styrs av följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen har stöd för attributväljaren, som kan användas för att tillämpa olika skal på olika knapplägen. `state`
+>Den här knappen stöder attributväljaren `state`, som kan användas för att tillämpa olika skal på olika knapplägen.
 
-Det går att ta bort knappen från panelen för sociala medier genom att ange `display:none` CSS-egenskapen i dess CSS-klass.
+Det går att ta bort knappen från panelen Dela via CSS-egenskapen `display:none` i CSS-klassen.
 
-Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av element i användargränssnittet](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - för att ställa in en Twitter-delningsknapp som är 28 x 28 pixlar och visar en annan bild för vart och ett av de fyra olika knapplägena:
 
