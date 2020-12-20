@@ -8,19 +8,22 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 89ec0f27-fc12-47c2-b9dd-e0ee768587b5
 translation-type: tm+mt
 source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+workflow-type: tm+mt
+source-wordcount: '146'
+ht-degree: 0%
 
 ---
 
 
 # header{#header}
 
-Rubrikelement för HTTP-svar. Valfritt i `<rule>` element.
+Rubrikelement för HTTP-svar. Valfritt i `<rule>`-element.
 
 ## Attribut {#section-6e903ab4c64f4b1488b8ae74274f50a6}
 
-**`Name`= &quot;*text*&quot;**: Obligatoriskt. Anger namnet på HTTP-huvudet.
+**`Name`= &quot;*text*&quot;** : Obligatoriskt. Anger namnet på HTTP-huvudet.
 
-**`Action`= &quot;set&quot;|`"add"`**: Valfritt. Standard är`"set"`, vilket ersätter alla aktuella rubrikvärden. Ange`"add"`att rubrikvärdet ska läggas till, avgränsat med kommatecken.
+**`Action`= &quot;set&quot; |`"add"`**: Valfritt. Standardvärdet är `"set"`, som ersätter alla aktuella rubrikvärden. Ange `"add"` för att lägga till rubrikvärdet, avgränsat med kommatecken.
 
 ## Data {#section-a387f541396c49d99c29692a38032914}
 
@@ -43,6 +46,6 @@ I följande regel används en anpassad rubrik när rubrikvärdet anges som en va
 </rule>
 ```
 
-Den här regeln aktiveras av följande begäran, och HTTP-svarshuvudet anges `Edge-Control::no-store`:
+Den här regeln aktiveras av följande begäran, och HTTP-svarshuvudet `Edge-Control::no-store` anges:
 
 `http://server/is/image/cat/id?$Edge-Control=no-store`
