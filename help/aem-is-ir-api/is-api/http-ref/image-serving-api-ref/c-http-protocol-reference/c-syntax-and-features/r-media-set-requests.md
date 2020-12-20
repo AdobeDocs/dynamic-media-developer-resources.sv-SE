@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: af9fabcd-531d-43fb-bd97-269923bea5e8
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '995'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ Visningsprogrammen kan använda den här funktionen för att generera svar som i
 
 ## Syntax för begäran {#section-d72b1d95e4ce4bb1b332ce096c2b99f1}
 
-Uppsättningssvaret för en `catalog::ImageSet` kan hämtas med hjälp av modifieraren och genom att `req=set` referera till katalogens post-ID i nätsökvägen. Alternativt kan bilduppsättningen anges direkt i URL-adressen med hjälp av `imageset=` modifieraren. Om modifieraren används för att ange bilduppsättningen bör hela värdet omges av klammerparenteser för att undvika bilduppsättningsvärdet och för att säkerställa att alla inkluderade modifierare inte tolkas som en del av URL-frågesträngen. `imageset=`
+Du kan hämta det angivna svaret för en `catalog::ImageSet` med modifieraren `req=set` och referera till katalogpost-ID:t i nätsökvägen. Alternativt kan bilduppsättningen anges direkt i URL-adressen med modifieraren `imageset=`. Om modifieraren `imageset=` används för att ange bilduppsättningen bör hela värdet omges av klammerparenteser för att undvika bilduppsättningsvärdet och för att säkerställa att alla inkluderade modifierare inte tolkas som en del av URL-frågesträngen.
 
 ## Typer av inställda svar {#section-93eb0a1f70344da2a888e56372ad3896}
 
@@ -29,7 +32,7 @@ Mekanismen set har stöd för följande typer av svar:
 <table id="simpletable_3718A93699F64805A41BC8A24D7962D2"> 
  <tr class="strow"> 
   <td class="stentry"> <p>enkla bilder </p></td> 
-  <td class="stentry"> <p>En bildpost utan <span class="codeph"> katalog::ImageSet</span> har definierats. </p></td> 
+  <td class="stentry"> <p>En bildpost utan <span class="codeph">-katalog::ImageSet</span> definierad. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>enkla videoklipp </p></td> 
@@ -67,9 +70,9 @@ Mekanismen set har stöd för följande typer av svar:
 
 ## Identifiering av typ för yttre uppsättning {#section-3dd6e453528d46898e559d31458a59ba}
 
-När en `req=set` begäran tas emot bestäms vilken typ av svar som ska genereras av värdet för `catalog::AssetType`. Om `catalog::AssetType` inte är definierad bestäms svarstypen av följande regler:
+När en `req=set`-begäran tas emot bestäms vilken typ av svar som ska genereras av värdet `catalog::AssetType`. Om `catalog::AssetType` inte är definierad bestäms svarstypen av följande regler:
 
-* Om en post hittas i bildkatalogen `catalog::ImageSet` definieras AND
+* Om en post hittas i bildkatalogen definieras AND `catalog::ImageSet`
 
    * Anta att e-katalog har angetts om minst en post i fältet Imageset innehåller ett kolon
    * Anta att medieuppsättningar finns om minst en post i fältet Imageset innehåller två semikolon.
@@ -98,7 +101,7 @@ När en `req=set` begäran tas emot bestäms vilken typ av svar som ska generera
 
 I samtliga fall kommer det resulterande xml-svaret att överensstämma med det angivna XML-dokumentet med den angivna rotnoden som motsvarar den identifierade typen.
 
-## Identifiering av intern set-typ {#section-8f46490e467247e69ce284704def06f3}
+## Identifiering av intern typ {#section-8f46490e467247e69ce284704def06f3}
 
 När den yttre uppsättningen identifieras som en typ av medieuppsättning innehåller svaret en uppsättning medieuppsättningsobjekt som motsvarar varje medieuppsättningspost i `catalog::ImageSet`. Om den valfria typparametern anges för en viss medieuppsättningspost mappas den till en utdatatyp enligt följande tabell:
 
@@ -126,11 +129,11 @@ Det returnerade xml-svaret uppfyller följande specifikation:
 
 ## LabelKey {#section-bf565de6f7294cf89620343c9071f415}
 
-Modifieraren används tillsammans med `labelkey=` `catalog::UserData`fältet för att generera etiketter för bilder och färgrutor. Fältet tolkas som en uppsättning nyckel/värde-par och etikettnyckelindexen i den här uppsättningen för att hämta värdet för den angivna nyckeln. `catalog:UserData` Värdet returneras sedan i attributet *`l`* för *`s`* och *`i`*.
+Modifieraren `labelkey=` används tillsammans med fältet `catalog::UserData`för att generera etiketter för bilder och färgrutor. Fältet `catalog:UserData` tolkas som en uppsättning nyckel/värde-par och etikettnyckelindexen i den här uppsättningen för att hämta värdet för den angivna nyckeln. Värdet returneras sedan i attributet *`l`* för *`s`* och *`i`*.
 
-## Tvingade begränsningar {#section-b9f042873bee45a5ae11b69fd42f2bca}
+## Tvingande begränsningar {#section-b9f042873bee45a5ae11b69fd42f2bca}
 
-För att begränsa svarsstorleken och förhindra självrefererande problem, styrs det maximala kapslingsdjupet av egenskapen server `PS::fvctx.nestingLimit`. Om gränsen överskrids returneras ett fel.
+För att begränsa svarsstorleken och förhindra självrefererande problem, styrs det maximala kapslingsdjupet av serveregenskapen `PS::fvctx.nestingLimit`. Om gränsen överskrids returneras ett fel.
 
 För att begränsa storleken på xml-svaren för stora e-kataloguppsättningar, inaktiveras privata metadata för broschyruppsättningsobjekt enligt serveregenskapen `PS::fvctx.brochureLimit`. Alla privata metadata som är associerade med broschyren exporteras tills broschyrgränsen nås. När gränsen har överskridits ignoreras privata kartor och användardata och en motsvarande flagga ställs in för att ange vilken typ av data som har utelämnats.
 
@@ -138,11 +141,11 @@ Kapslade medieuppsättningar stöds inte. En kapslad medieuppsättning definiera
 
 ## Exempel {#section-588c9d33aa05482c86cd2b1936887228}
 
-Exempel på XML-svar för `req=set` begäran finns på sidan Egenskaper under rubriken HTML-exempel.
+XML-svar för `req=set`-begäran finns på sidan Egenskaper under rubriken HTML-exempel.
 
 `http://crc.scene7.com/is-docs/examples/properties.htm`
 
 ## Se även {#section-625ec466c948476e800dc0c52a4532d3}
 
-[req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76) , [imageset=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-imageset-req.md#reference-c42935490db84830b31e9e649895dee3), [katalog::ImageSet](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md), [Image Catalog Reference](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)
+[req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76) ,  [imageset=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-imageset-req.md#reference-c42935490db84830b31e9e649895dee3),  [katalog::ImageSet](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md),  [Image Catalog Reference](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)
 
