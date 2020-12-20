@@ -6,6 +6,9 @@ topic: Dynamic media
 uuid: df94044f-7f09-4645-8a6b-6dc58751ddcc
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '56'
+ht-degree: 1%
 
 ---
 
@@ -17,8 +20,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo </span></span> </p> </td> 
-   <td colname="col2"> <p> { <span class="codeph"> Object </span>} JSON-objekt med lokaliseringsdata. </p> <p>Mer information finns i <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-namespace.md#concept-679bfabb3e3e4c12a285c4e9c4144153" format="dita" scope="local"> namnutrymmet för SDK </a> i visningsprogrammet. </p> <p>Mer information om objektets innehåll finns i användarhandboken <i>för</i> visningsprogrammet SDK och i exemplet. Valfritt. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo  </span> </span> </p> </td> 
+   <td colname="col2"> <p> { <span class="codeph"> Objektet </span>} JSON-objekt med lokaliseringsdata. </p> <p>Mer information finns i <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-namespace.md#concept-679bfabb3e3e4c12a285c4e9c4144153" format="dita" scope="local"> SDK-namnområdet för visningsprogrammet </a>. </p> <p>Mer information om objektets innehåll finns i <i>användarhandboken för SDK för visningsprogrammet</i> och exemplet. Valfritt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
