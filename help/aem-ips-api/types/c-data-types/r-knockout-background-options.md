@@ -8,11 +8,14 @@ topic: Scene7 Image Production System API
 uuid: 1486d646-f42a-4ed4-9450-313950969c39
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '198'
+ht-degree: 0%
 
 ---
 
 
-# BlockeraBakgrundAlternativ{#knockoutbackgroundoptions}
+# KnockoutBackgroundOptions{#knockoutbackgroundoptions}
 
 Maskera (ursparning) bakgrunden för markerade bilder. På så sätt kan du täcka över dem i andra lager med en genomskinlighet utanför objektbilden. En valfri parameter som är inaktiverad som standard.
 
@@ -30,9 +33,9 @@ Maskera (ursparning) bakgrunden för markerade bilder. På så sätt kan du täc
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> hörn</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> hörn</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
-   <td colname="col3">Markerar det hörn du vill arbeta med. <span class="codeph"> hörnet</span> accepterar följande värden: 
+   <td colname="col3">Markerar det hörn du vill arbeta med. <span class="codeph"> Följande värden </span> accepteras: 
     <ul id="ul_36C2F07706764A7081010D5521BF3096">
      <li id="li_CBACE5C6AA8C48D3BEE033D3AE03AF3C"><span class="codeph"> UpperLeft</span></li>
      <li id="li_49AC53536B4B4D2CA3DD89E2A2B2E95D"><span class="codeph"> NederkantVänster</span></li>
@@ -41,7 +44,7 @@ Maskera (ursparning) bakgrunden för markerade bilder. På så sätt kan du täc
     </ul></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> tolerans</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> tolerans</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dubbel</span> </td> 
    <td colname="col3">En valfri inställning som tar bort tomt utrymme från bildkanter baserat på genomskinlighet. Accepterar ett värdeintervall från 0,0 till 1,0. Ange: 
     <ul id="ul_FE5423B857AE43FCBA7A9AEA76C754CC">
@@ -50,9 +53,9 @@ Maskera (ursparning) bakgrunden för markerade bilder. På så sätt kan du täc
     </ul></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> fillMethod</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fillMethod</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
-   <td colname="col3"> <p>Styr pixelgenomskinlighet på den plats som anges av <span class="codeph"><span class="varname"> hörnvariabeln</span></span> . Dessa värden accepteras av <span class="codeph"> fillMethod</span> : </p> 
+   <td colname="col3"> <p>Styr pixelgenomskinlighet på den plats som anges av variabeln <span class="codeph"><span class="varname"> corner</span></span>. Du kan använda följande värden för <span class="codeph"> fillMethod</span>: </p> 
     <ul id="ul_D95F3B613D344BB89487ED09D83F9217"> 
      <li id="li_3D7B7CA1B9094D16A98E0BA3D962E97F"> <span class="codeph"> FloodFill</span>: Vrider alla pixlar i det angivna hörnet genomskinliga. </li> 
      <li id="li_F97343C3DA7644BCBD1748AD8F9DCE2E"> <span class="codeph"> MatchPixel</span>: Vrider alla matchande pixlar genomskinliga oavsett plats. </li> 
