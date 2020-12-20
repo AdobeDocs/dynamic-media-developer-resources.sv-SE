@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: f1edbcc4-966a-4ec6-8ba9-a76f3ae51733
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '92'
+ht-degree: 0%
 
 ---
 
 
-# Vyn Snurra{#spin-view}
+# Snurra vy{#spin-view}
 
 Huvudvyn består av rotationsbilden när den aktuella resursen är en snurruppsättning.
 
@@ -35,7 +38,7 @@ Visningsområdets utseende styrs av följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Bakgrundsfärg i hexadecimalt format för rotationsvyn. </p> </td> 
   </tr> 
  </tbody> 
