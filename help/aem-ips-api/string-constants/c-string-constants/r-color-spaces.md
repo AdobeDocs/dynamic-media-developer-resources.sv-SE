@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: a703fccb-932d-4de8-84a1-bc0483013151
 translation-type: tm+mt
 source-git-commit: af14dafbef63e45b945e49e3c3616e0c3148b818
+workflow-type: tm+mt
+source-wordcount: '29'
+ht-degree: 0%
 
 ---
 
 
-# Färgrymder{#color-spaces}
+# Färgmodeller{#color-spaces}
 
 Används av IccProfileFieldUpdate/colorSpace och IccProfileFieldUpdate/pcsType.
 
 Syntax
 
-## Values {#section-e1221f5b9cfb49349143a74cae91889a}
+## Värden {#section-e1221f5b9cfb49349143a74cae91889a}
 
 * [!DNL `XYZ`]
 * [!DNL `Lab`]
