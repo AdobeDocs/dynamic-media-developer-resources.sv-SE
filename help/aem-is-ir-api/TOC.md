@@ -16,7 +16,7 @@ ht-degree: 0%
 # Dynamic Media Image Serving and Rendering API {#image-serving-api}
 
 + [Dynamic Media Developer Resources - startsida](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
-+ [Startsida för Dynamic Media Image Serving och Image Rendering API](home.md)
++ [Dynamic Media Image Serving and Image Rendering API - startsida](home.md)
 + [Om den här versionen](r-about-this-release.md)
 + [Systemkrav och krav](r-requirements-and-prerequisites.md)
 + [Krav och rekommendationer för diskutrymme](r-disk-space-reqs.md)
@@ -28,7 +28,7 @@ ht-degree: 0%
    + [Licenser](c-installation/c-licensing.md)
    + [Innehåll](c-installation/c-contents.md)
    + [Installationsmapp](c-installation/c-install-folder.md)
-   + Installera i Windows {#windows-install}
+   + Installerar i Windows {#windows-install}
       + [Installera i Windows](c-installation/t-installing-on-windows/t-installing-on-windows.md)
       + [Installerar för första gången](c-installation/t-installing-on-windows/t-first-time-installation-win.md)
       + [Installera under ett annat användarkonto än administratören](c-installation/t-installing-on-windows/t-diff-account-win.md)
@@ -39,7 +39,7 @@ ht-degree: 0%
       + [Installerar för första gången](c-installation/c-installing-linux/t-first-install-lin.md)
       + [Uppdaterar från IS 4.7.4 eller senare](c-installation/c-installing-linux/t-update-lin.md)
       + [Verifierar installationen](c-installation/c-installing-linux/t-verify-install-lin.md)
-   + Starta och stoppa bildvisning {#start-stop-image-servicing}
+   + Startar och stoppar bildservering {#start-stop-image-servicing}
       + [Starta och stoppa bildvisning](c-installation/t-starting-and-stopping/t-starting-and-stopping.md)
       + [Starta eller stoppa i Windows](c-installation/t-starting-and-stopping/t-startstop-windows.md)
       + [Starta eller stoppa i Linux](c-installation/t-starting-and-stopping/t-startstop-linux.md)
@@ -49,7 +49,7 @@ ht-degree: 0%
    + [Bildserverkomponenter](is-api/image-serving-api-ref/r-components.md)
    + Konfiguration och administration {#config-admin}
       + [Konfiguration och administration](is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md)
-      + Konfigurationsfiler för Service {#server-config-files}
+      + Konfigurationsfiler för serviceservern {#server-config-files}
          + [Serverkonfigurationsfiler](is-api/image-serving-api-ref/c-configuration-and-administration/r-server-configuration-files/r-server-configuration-files.md)
          + [PlatformServer.conf](is-api/image-serving-api-ref/c-configuration-and-administration/r-server-configuration-files/r-platformserverconf.md)
          + [monitor.conf](is-api/image-serving-api-ref/c-configuration-and-administration/r-server-configuration-files/r-monitorconf.md)
@@ -111,7 +111,7 @@ ht-degree: 0%
       + Syntax och funktioner {#syntax-and-features}
          + [Syntax och funktioner](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-syntax-and-features.md)
          + [Grundläggande syntax för Image Serving HTTP-protokoll](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-basic-syntax.md)
-         + HTTP-protokollkommandot Image Serving {#image-serving-http}
+         + Image Serving HTTP protocol command {#image-serving-http}
             + [Översikt över kommandot Image Serving HTTP protocol](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/c-command-overview.md)
             + [Begär kommandon](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-request-commands-and-attributes.md)
             + [Visa kommandon](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-view-commands-and-attributes.md)
@@ -282,7 +282,7 @@ ht-degree: 0%
             + [XML-egenskaper](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/r-xml-properties.md)
             + [JSONP-egenskaper](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/r-json-properties.md)
          + [Fel](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/r-errors.md)
-      + Serverfunktion {#server-behavior}
+      + Serverbeteende {#server-behavior}
          + [Anteckningar om serverfunktion](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/c-notes-on-server-behavior.md)
          + [Den sammansatta arbetsytan](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-the-compositing-canvas.md)
          + [Lageromformningar](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-layer-transforms.md)
@@ -296,11 +296,11 @@ ht-degree: 0%
          + [Exempel A](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md)
          + [Exempel B](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-b.md)
          + [Exempel C](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-c.md)
-   + Referens för FXG-serverprotokoll {#fxg-server-protocol-ref}
+   + FXG-serverns protokollreferens {#fxg-server-protocol-ref}
       + [Referens för FXG-serverprotokoll](is-api/image-serving-api-ref/c-is-fxg-server-protocol/c-is-fxg-server-protocol.md)
       + FXG-serverprotokoll {#fxg-server-protocol}
          + [FXG-serverprotokoll](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-fxg-server-protocol.md)
-         + Referens för FXG-serverprotokoll {#protocol-ref}
+         + FXG-serverns protokollreferens {#protocol-ref}
             + [Översikt över protokollreferens för FXG-server](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-fxg-server-protocol-reference/c-fxg-server-protocol-reference.md)
             + [utfallsmarginal](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-fxg-server-protocol-reference/r-bleedmargin.md)
             + [cache](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-fxg-server-protocol-reference/r-is-fxg-cache.md)
@@ -501,7 +501,7 @@ ht-degree: 0%
       + [ICC-profilmappningsreferens](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md)
       + [Namn](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/r-name-icc.md)
       + [ProfilePath](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/r-profilepath-icc.md)
-   + Referens för regeluppsättning {#rule-set-reference}
+   + Regeluppsättningsreferens {#rule-set-reference}
       + [Referens för regeluppsättning](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md)
       + [adressfilter](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-addressfilter-rule.md)
       + [uttryck](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-expression-rule.md)
@@ -552,10 +552,10 @@ ht-degree: 0%
    + HTTP-protokollreferens {#http-protocol-reference}
       + [HTTP-protokollreferens](ir-api/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-ref.md)
       + [Introduktion](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-introduction.md)
-      + Syntax och funktioner för HTTP-protokoll {#http-protocol-syntax}
+      + Syntax för HTTP-protokoll och funktioner {#http-protocol-syntax}
          + [Syntax och funktioner för HTTP-protokoll](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-protocol-syntax-and-features.md)
          + [Grundläggande syntax för HTTP-protokoll för bildåtergivning](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/r-ir-basic-syntax.md)
-         + Kommandoöversikt över HTTP-protokollet för bildåtergivning {#image-rendering-http-protocol-command-overview}
+         + HTTP-protokollkommandoöversikt för bildåtergivning {#image-rendering-http-protocol-command-overview}
             + [Kommandoöversikt över HTTP-protokollet för bildåtergivning](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-command-overview/c-ir-command-overview.md)
             + [Visa attribut](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-command-overview/r-ir-view-attributes.md)
             + [Markeringskommandon](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-command-overview/r-ir-selection-commands.md)
@@ -581,7 +581,7 @@ ht-degree: 0%
             + [Reflektioner](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/r-ir-reflections.md)
             + [Glanseffekter](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-gloss-effects.md)
             + [Avancerade renderingsinställningar](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-advanced-render-settings.md)
-         + Begär kapsling och inbäddning {#request-nesting-and-embedding}
+         + Begär kapsling och inbäddning av {#request-nesting-and-embedding}
             + [Begär kapsling och inbäddning *](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-request-nesting-and-embedding/c-ir-request-nesting-and-embedding.md)
             + [Inbäddade bildserverbegäranden](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-request-nesting-and-embedding/c-ir-embedded-image-serving-requests.md)
             + [Begäranden om kapslad bildåtergivning](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-request-nesting-and-embedding/c-ir-nested-image-rendering-requests.md)
@@ -591,7 +591,7 @@ ht-degree: 0%
             + [Materialkataloger *](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-material-catalogs/c-ir-http-material-catalogs.md)
             + [Sessionskatalog](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-material-catalogs/r-ir-session-catalog.md)
          + [Förbehandling av begäran *](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-request-pre-processing.md)
-         + Egna variabler {#custom-variables}
+         + Anpassade variabler {#custom-variables}
             + [Översikt över anpassade variabler](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-custom-variables/c-ir-custom-variables.md)
             + [Variabel bearbetning i kapslade begäranden](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-custom-variables/c-ir-variable-processing-in-nested-requests.md)
             + [Variabel bearbetning i inbäddade externa begäranden](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-custom-variables/c-ir-variable-processing-in-embedded-foreign-requests.md)
@@ -643,7 +643,7 @@ ht-degree: 0%
          + [type](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-type.md)
          + [vinjettering](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-vignette.md)
          + [wid](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-wid.md)
-      + HTTP-protokollsvarsdata {#http-protocol-response-data}
+      + HTTP-protokollets svarsdata {#http-protocol-response-data}
          + [HTTP-protokollsvarsdata](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-http-protocol-response-data.md)
          + [Bilder](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-images.md)
          + [Egenskaper](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md)
@@ -703,7 +703,7 @@ ht-degree: 0%
          + [Betrodda domäner *](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-trusteddomains.md)
          + [UseLastModified](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-uselastmodified.md)
          + [VinjettMapFile](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-vignettemapfile.md)
-      + Referens för materialdata {#material-data-reference}
+      + Materialdatareferens {#material-data-reference}
          + [Referens för materialdata](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/c-ir-material-data-reference.md)
          + [Justering](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-alignment.md)
          + [Ankarpunkt](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-anchor.md)
@@ -739,7 +739,7 @@ ht-degree: 0%
          + [ICC-profilmappningsreferens](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-icc-profile-map-reference/c-ir-icc-profile-map-reference.md)
          + [Namn](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-icc-profile-map-reference/r-ir-name-icc.md)
          + [ProfilePath](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-icc-profile-map-reference/r-ir-profilepath.md)
-      + Referens för regeluppsättning {#rule-set-reference}
+      + Regeluppsättningsreferens {#rule-set-reference}
          + [Referens för regeluppsättning](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/c-ir-rule-set-reference.md)
          + [adressfilter](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/r-ir-addressfilter.md)
          + [uttryck](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/r-ir-expression.md)
