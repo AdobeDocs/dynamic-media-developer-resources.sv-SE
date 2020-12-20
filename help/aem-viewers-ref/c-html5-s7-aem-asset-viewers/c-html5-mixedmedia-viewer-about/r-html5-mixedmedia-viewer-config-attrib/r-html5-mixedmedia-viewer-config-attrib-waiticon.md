@@ -1,18 +1,21 @@
 ---
 description: Konfigurationsattribut för visningsprogrammet för blandad media.
 seo-description: Konfigurationsattribut för visningsprogrammet för blandad media.
-seo-title: VideoPlayer.exception
+seo-title: VideoPlayer.waiticon
 solution: Experience Manager
-title: VideoPlayer.exception
+title: VideoPlayer.waiticon
 topic: Dynamic media
 uuid: d57aa367-27cd-4aa2-b1bb-05a29b0c245a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '37'
+ht-degree: 5%
 
 ---
 
 
-# VideoPlayer.exception{#videoplayer-waiticon}
+# VideoPlayer.waiticon{#videoplayer-waiticon}
 
 Konfigurationsattribut för visningsprogrammet för blandad media.
 
