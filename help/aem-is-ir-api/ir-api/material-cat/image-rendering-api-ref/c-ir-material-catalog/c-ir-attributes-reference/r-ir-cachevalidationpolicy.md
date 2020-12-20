@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 299dd5fe-9a0c-43df-a4c8-6b9e9c24003b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '116'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Verifieringsprincip för servercache. Anger när cacheposter på serversidan valideras.
 
-Med utgångsbaserad validering kontrolleras källmaterial och vinjetter regelbundet för att se om de har ändrats. Med katalogbaserad validering kontrolleras källbilderna endast efter att `catalog::TimeStamp` värdet har ändrats.
+Med utgångsbaserad validering kontrolleras källmaterial och vinjetter regelbundet för att se om de har ändrats. Med katalogbaserad validering kontrolleras källbilderna endast efter att `catalog::TimeStamp`-värdet har ändrats.
 
 Katalogbaserad validering rekommenderas när både material- och vinjettkataloger används. Förfallobaserad validering bör användas när vinjetter refereras i begäranden om bildåtergivning direkt via sökväg.
 
@@ -26,7 +29,7 @@ Enum. 0 för att välja förfallobaserad validering. 1 för att välja katalogba
 
 ## Standard {#section-e09f3af8b6b3497d963199988dc5345d}
 
-Ärvs från `default::CacheValidationPolicy` om inte definierad eller om tom.
+Ärvs från `default::CacheValidationPolicy` om det inte är definierat eller om det är tomt.
 
 ## Se även {#section-b374e4d908e24af8995b2b376ca1be8b}
 
