@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 073b6651-970c-460c-b044-e3ef37cc677a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '151'
+ht-degree: 3%
 
 ---
 
@@ -26,7 +29,7 @@ Enum.
   <td class="stentry"> <p>Ärv från <span class="codeph"> standard::OnFailSel </span>. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>1 </p> </td> 
+  <td class="stentry"> <p>3 </p> </td> 
   <td class="stentry"> <p>Behåll föregående markering. </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -49,4 +52,4 @@ Enum.
 
 ## Se även {#section-f8b15dd64c674c5484d190dd9e3016af}
 
-[sel=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-sel.md#reference-01322c58d414481385c29fcdd27a090b) , [attribut::OnFailObj](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-onfailobj.md#reference-4c6ba90418e84da5831f8573bbbf2c8d)
+[sel=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-sel.md#reference-01322c58d414481385c29fcdd27a090b) ,  [attribut::OnFailObj](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-onfailobj.md#reference-4c6ba90418e84da5831f8573bbbf2c8d)
