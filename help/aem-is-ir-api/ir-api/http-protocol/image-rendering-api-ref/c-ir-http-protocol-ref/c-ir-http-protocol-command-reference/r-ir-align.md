@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 0b24cd82-f9b2-48f4-9052-8c2026370ff7
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '197'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +27,7 @@ Strukturåtergivningsjustering. Anger vilken av ursprungspunkterna som definiera
   <td class="stentry"> <p>Standardstartpunkt (mittmatchning). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>1 </p></td> 
+  <td class="stentry"> <p>3 </p></td> 
   <td class="stentry"> <p>Löpande matchningsursprung. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -39,9 +42,9 @@ Strukturåtergivningsjustering. Anger vilken av ursprungspunkterna som definiera
 
 Med renderaren tillämpas texturen på objektet så att texturens fästpunkt ( `anchor=`) sammanfaller med den angivna startpunkten.
 
-Varje objekt kan definiera upp till 6 punkter (0,1, 3, 4, 5, 6). Om ett `align` värde anges men motsvarande nollpunkt inte definieras av vinjettobjektet, används standardnollpunkten (mittmatchningen).
+Varje objekt kan definiera upp till 6 punkter (0,1, 3, 4, 5, 6). Om ett `align`-värde anges men motsvarande utgångspunkt inte definieras av vinjettobjektet, används standardstartpunkten (mittmatchningen).
 
-`align=2` anger slumpmässig texturjustering, i vilket fall `anchor=` ignoreras.
+`align=2` anger slumpmässig texturjustering, i vilket fall  `anchor=` ignoreras.
 
 Används främst för möbelklädda material, möjligen för klädtyger, för att hantera justeringen av texturen mellan närliggande objekt.
 
@@ -55,4 +58,4 @@ Materialattribut. Ignoreras om en vägg, ett skåp, en enhet eller ett fönstert
 
 ## Se även {#section-945d1ce275df487d9d564d4043156c79}
 
-[katalog::Alignment](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-alignment.md#reference-e52152e8dc244d0aa13b40c615d0f399) , [anchor=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26)
+[katalog::Alignment](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-alignment.md#reference-e52152e8dc244d0aa13b40c615d0f399) ,  [anchor=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26)
