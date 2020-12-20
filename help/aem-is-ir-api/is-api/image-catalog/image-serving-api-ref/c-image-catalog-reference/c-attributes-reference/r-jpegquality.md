@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: c256c44c-2807-4a0c-b6e4-3de0a828feda
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '91'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ Heltal och flagga, avgränsade med kommatecken. Det första värdet ligger inom 
 
 ## Standard {#section-0b25eddd59bc434abfe38eeea9d45df3}
 
-Ärvs från `default::JpegQuality` om inte definierad eller om tom.
+Ärvs från `default::JpegQuality` om det inte är definierat eller om det är tomt.
 
 ## Se även {#section-aa994afc02ea4f799655233ea32d36c9}
 
