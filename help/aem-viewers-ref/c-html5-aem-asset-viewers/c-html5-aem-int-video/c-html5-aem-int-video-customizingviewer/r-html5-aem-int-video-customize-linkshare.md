@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: c98cb3bd-0e94-46ef-8875-662925d3c067
 translation-type: tm+mt
 source-git-commit: f930a511ca83f81379b37fe7419c8e13736e78c7
+workflow-type: tm+mt
+source-wordcount: '1422'
+ht-degree: 0%
 
 ---
 
@@ -33,15 +36,15 @@ Utseendet på knappen för länkdelning styrs med följande CSS-klassväljare:
    <td colname="col2"> <p>Knappbredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Knapphöjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Bilden som visas för ett visst knappläge. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Placera inuti en teckningssprite, om CSS-sprites används. </p> <p>Se <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-fragment </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -49,11 +52,11 @@ Utseendet på knappen för länkdelning styrs med följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen har stöd för attributväljaren, som kan användas för att tillämpa olika skal på olika knapplägen. `state`
+>Den här knappen stöder attributväljaren `state`, som kan användas för att tillämpa olika skal på olika knapplägen.
 
-Det går att ta bort knappen från panelen för sociala medier genom att ange `display:none` CSS-egenskapen i dess CSS-klass.
+Det går att ta bort knappen från panelen Dela via CSS-egenskapen `display:none` i CSS-klassen.
 
-Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av element](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)i användargränssnittet.
+Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av element i användargränssnittet](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
 Exempel - om du vill ställa in en knapp för länkdelning som är 28 x 28 pixlar och visar en annan bild för vart och ett av de fyra olika knapplägena:
 
@@ -87,17 +90,17 @@ Bakgrundsöverlägget som täcker webbsidan när dialogrutan är aktiv styrs med
 <table id="table_DB4183CE8061425084D495A355A941F8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opacitet </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opacitet  </span> </p> </td> 
    <td colname="col2"> <p>Opacitet för bakgrundsövertäckning. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Bakgrundsövertäckningsfärg. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Exempel** - om du vill ställa in en bakgrundsövertäckning till grått med 70 % opacitet:
+**Exempel** : om du vill ställa in en bakgrundsövertäckning till grått med 70 % opacitet:
 
 ```
 .s7video360viewer .s7linkdialog .s7backoverlay { 
@@ -117,25 +120,25 @@ Som standard visas den modala dialogrutan centrerat på skärmen på stationära
 <table id="table_E31711ADF4C7446182549244362199A3"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p> Dialogrutans kantradie, om dialogrutan inte tar hela webbläsaren. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Dialogrutans bakgrundsfärg. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Ska antingen vara unset eller inställd på 100 %, vilket innebär att dialogrutan tar hela webbläsarfönstret (det här läget rekommenderas på enheter med pekskärm). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Ska antingen vara unset eller inställd på 100 %, vilket innebär att dialogrutan tar hela webbläsarfönstret (det här läget rekommenderas på enheter med pekskärm). </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Exempel** - för att ställa in dialogrutan så att den använder hela webbläsarfönstret och har en vit bakgrund på enheter med pekskärm:
+**Exempel** : för att ställa in dialogrutan så att den använder hela webbläsarfönstret och har en vit bakgrund på enheter med pekskärm:
 
 ```
 .s7video360viewer.s7touchinput .s7linkdialog .s7dialog { 
@@ -156,7 +159,7 @@ Dialogrutans rubrik består av en ikon, en titeltext och en stängningsknapp. Ru
 <table id="table_E407E844C9BD4B5DA8B5BBDE0554F9CA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> utfyllnad </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> utfyllnad  </span> </p> </td> 
    <td colname="col2"> <p> Inre utfyllnad för rubrikinnehåll. </p> </td> 
   </tr> 
  </tbody> 
@@ -173,7 +176,7 @@ Ikonen och rubriktexten placeras i en extra behållare som styrs med följande C
 <table id="table_5B03CF843F0D4B1295A3FC1EB50C56F1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> utfyllnad </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> utfyllnad  </span> </p> </td> 
    <td colname="col2"> <p> Inre utfyllnad för rubrikikonen och titeln </p> </td> 
   </tr> 
  </tbody> 
@@ -190,19 +193,19 @@ Rubrikikonen styrs med följande CSS-klassväljare
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Ikonens bredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Ikonhöjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Ikonbild. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Placera inuti en teckningssprite, om CSS-sprites används. </p> <p>Se <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-fragment </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -219,19 +222,19 @@ Rubriken styrs med följande CSS-klassväljare:
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
    <td colname="col2"> <p>Teckenbredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Teckenhöjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Teckensnittsfamilj. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> utfyllnad </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> utfyllnad  </span> </p> </td> 
    <td colname="col2"> <p>Intern textutfyllnad. </p> </td> 
   </tr> 
  </tbody> 
@@ -248,31 +251,31 @@ Stängningsknappen styrs med följande CSS-klassväljare:
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p> Lodrät knappposition i förhållande till rubrikbehållare. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> höger </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> höger  </span> </p> </td> 
    <td colname="col2"> <p> Vågrät knappposition i förhållande till rubrikbehållare. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Knappbredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Knapphöjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> utfyllnad </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> utfyllnad  </span> </p> </td> 
    <td colname="col2"> <p>Knappens inre utfyllnad. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Knappbild för varje läge. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Placera inuti en teckningssprite, om CSS-sprites används. </p> <p>Se <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-fragment </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -280,11 +283,11 @@ Stängningsknappen styrs med följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen har stöd för attributväljaren, som kan användas för att tillämpa olika skal på olika knapplägen. `state`
+>Den här knappen stöder attributväljaren `state`, som kan användas för att tillämpa olika skal på olika knapplägen.
 
-Knappbeskrivningen Stäng och dialogrutans titel kan lokaliseras. Se [Lokalisering av element](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)i användargränssnittet.
+Knappbeskrivningen Stäng och dialogrutans titel kan lokaliseras. Se [Lokalisering av element i användargränssnittet](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Exempel** - Om du vill ställa in en dialogruterubrik med utfyllnad, en 22 x 12 pixlar-ikon, en 16 punkters fetstil och en 28 x 28 pixlars stängningsknapp som placeras två pixlar uppifrån och två pixlar från höger om dialogrutan:
+**Exempel** : för att ställa in en dialogruterubrik med utfyllnad, en ikon med storleken 22 x 12 pixlar, en rubrik med 16 punkter i fet stil och en stängningsknapp med storleken 28 x 28 pixlar som placeras två pixlar uppifrån och två pixlar från höger om dialogrutan:
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogheader { 
@@ -335,7 +338,7 @@ Dialogrutans sidfot består av en Avbryt-knapp. Sidfotsbehållaren styrs med fö
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
    <td colname="col2"> <p> Kant som du kan använda för att visuellt separera sidfoten från resten av dialogrutan. </p> </td> 
   </tr> 
  </tbody> 
@@ -352,7 +355,7 @@ Sidfoten har en inre behållare som behåller knappen. Den styrs med följande C
 <table id="table_C34906888A8145C7A61E503DFC6B08A9"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> utfyllnad </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> utfyllnad  </span> </p> </td> 
    <td colname="col2"> <p> Inre utfyllnad mellan sidfoten och knappen. </p> </td> 
   </tr> 
  </tbody> 
@@ -371,19 +374,19 @@ Knappen är bara tillgänglig på stationära datorer.
 <table id="table_021D0467632F49FEBFDF4CF96D2D67C7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Knappbredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Knapphöjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> färg </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> färg  </span> </p> </td> 
    <td colname="col2"> <p> Knapptextfärg för varje läge. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Knappbakgrundsfärg för varje läge. </p> </td> 
   </tr> 
  </tbody> 
@@ -391,7 +394,7 @@ Knappen är bara tillgänglig på stationära datorer.
 
 >[!NOTE]
 >
->Knappen Markera allt har stöd för attributväljaren, som kan användas för att tillämpa olika skal på olika knapplägen. `state`
+>Knappen Markera allt har stöd för attributväljaren `state`, som kan användas för att tillämpa olika skal på olika knapplägen.
 
 Knappen Avbryt styrs med följande CSS-klassväljare:
 
@@ -404,19 +407,19 @@ Knappen Avbryt styrs med följande CSS-klassväljare:
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Knappbredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Knapphöjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> färg </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> färg  </span> </p> </td> 
    <td colname="col2"> <p> Knapptextfärg för varje läge. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Knappbakgrundsfärg för varje läge. </p> </td> 
   </tr> 
  </tbody> 
@@ -424,7 +427,7 @@ Knappen Avbryt styrs med följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen har stöd för attributväljaren, som kan användas för att tillämpa olika skal på olika knapplägen. `state`
+>Den här knappen stöder attributväljaren `state`, som kan användas för att tillämpa olika skal på olika knapplägen.
 
 Dessutom har båda knapparna samma gemensamma CSS-klass som kan innehålla CSS-inställningar som är desamma för andra dialogruteknappar:
 
@@ -437,35 +440,35 @@ Dessutom har båda knapparna samma gemensamma CSS-klass som kan innehålla CSS-i
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
    <td colname="col2"> <p>Knappens teckensnittsbredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Knappens teckenstorlek. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Knappteckensnittsfamilj. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> line-height  </span> </p> </td> 
    <td colname="col2"> <p> Texthöjd inuti knappen. Påverkar lodrät justering. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> box-shadow </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> box-shadow  </span> </p> </td> 
    <td colname="col2"> <p>Skugga. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal-höger </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal-höger  </span> </p> </td> 
    <td colname="col2"> <p>Högerknappsmarginal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Knappverktygstipsen kan lokaliseras. Se [Lokalisering av element](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)i användargränssnittet.
+Knappverktygstipsen kan lokaliseras. Se [Lokalisering av element i användargränssnittet](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Exempel** - om du vill ställa in en dialogruteslut med knappen Avbryt (64 x 34), med textfärg och bakgrundsfärger som är olika för varje knappläge:
+**Exempel**  - för att ställa in en dialogrutefot med knappen Avbryt (64 x 34), med textfärg och bakgrundsfärger som är olika för varje knappläge:
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogfooter { 
@@ -536,21 +539,21 @@ Dialogrutans huvudområde (mellan sidhuvudet och sidfoten) innehåller dialogrut
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p> Höjden på området i huvuddialogrutan. Den ska bara anges när dialogrutan fungerar i skrivbordsläge. Det är inte tillämpligt när dialogrutans storlek ändras så att den upptar hela webbläsarfönstret. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Bakgrundsfärgen i huvuddialogrutan. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal  </span> </p> </td> 
    <td colname="col2"> <p>Yttre marginal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Exempel** - om du vill ställa in ett huvuddialogruteområde så att det blir 300 pixlar högt, har en marginal på 10 pixlar och använder en vit bakgrund:
+**Exempel** : om du vill ställa in ett huvudområde i dialogrutan till 300 pixlars höjd, har en marginal på 10 pixlar och använder en vit bakgrund:
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogviewarea { 
@@ -571,13 +574,13 @@ Allt formulärinnehåll - som etiketter och inmatningsfält - finns inuti en beh
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> utfyllnad </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> utfyllnad  </span> </p> </td> 
    <td colname="col2"> <p>Inre utfyllnad. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Exempel** - för att ställa in formulärinnehåll så att det har 10 pixlar utfyllnad:
+**Exempel** : för att ställa in formulärinnehåll så att det har 10 pixlar utfyllnad:
 
 ```
 .s7interactivevideoviewer .s7linkdialog .s7dialogbody { 
@@ -598,27 +601,27 @@ Den här klassen är inte lämplig för att styra etikettens storlek eller place
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
    <td colname="col2"> <p>Etikettens teckensnittsbredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Teckensnittsstorlek för etikett. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Etikettteckensnittsfamilj. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> färg </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> färg  </span> </p> </td> 
    <td colname="col2"> <p>Textfärg för etikett. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Dialogruteetiketterna kan lokaliseras. Se [Lokalisering av element](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)i användargränssnittet.
+Dialogruteetiketterna kan lokaliseras. Se [Lokalisering av element i användargränssnittet](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Exempel** - om du vill ställa in alla etiketter till grått, fet med ett teckensnitt på nio pixlar:
+**Exempel** : om du vill ställa in alla etiketter till grått, fet med ett teckensnitt på nio pixlar:
 
 ```
 .s7video360viewer .s7linkdialog .s7dialoglabel { 
@@ -639,17 +642,17 @@ Storleken på textkopian som visas ovanpå länken styrs av följande CSS-klassv
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Textbredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> utfyllnad </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> utfyllnad  </span> </p> </td> 
    <td colname="col2"> <p>Inre utfyllnad. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Exempel** - för att ange att textkopian ska vara 430 pixlar bred och ha en 10 pixlar stor utfyllnad längst ned:
+**Exempel** : om du vill att textkopian ska vara 430 pixlar bred och ha 10 pixlar utfyllnad längst ned:
 
 ```
 .s7video360viewer .s7linkdialog .s7dialoginputwide { 
@@ -669,17 +672,17 @@ Delningslänken kapslas i en behållare och styrs med följande CSS-klassväljar
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
    <td colname="col2"> <p>Kant runt delningslänkens behållare. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> utfyllnad </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> utfyllnad  </span> </p> </td> 
    <td colname="col2"> <p>Inre utfyllnad. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Exempel** - om du vill ange en grå kant på en pixel runt inbäddningskoden och ha nio pixlar utfyllnad:
+**Exempel** : om du vill ange en grå kant på en pixel runt inbäddningskoden och ha nio pixlar utfyllnad:
 
 ```
 .s7video360viewer .s7linkdialog .s7dialoginputcontainer { 
@@ -699,13 +702,13 @@ Själva delningslänken styrs med följande CSS-klassväljare:
 <table id="table_65CF778F5BDA45118208538DCBE203FB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Dela länkbredd. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Exempel** - för att ange delningslänken som 450 pixlar bred:
+**Exempel**  - för att ange delningslänken som 450 pixlar bred:
 
 ```
 .s7video360viewer .s7linkdialog .s7dialoglink { 
