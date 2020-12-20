@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 50ab61fa-df44-4305-ad9f-693c4aea1e69
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '317'
+ht-degree: 0%
 
 ---
 
@@ -37,37 +40,37 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyName</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Namnet på det företag som metadatafältet tillhör. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetType</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Resurstyp. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> namn</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Namnet på metadatafältet som du skapar. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldType</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4">Typ av metadatafält. <p>Metadatafältstyperna definierar de tillgängliga typerna. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> <p>Standardvärdet för metadatafältet som ska skapas (till exempel <span class="codeph"> Scen 7</span>). </p> <p>Standardvärden stöds inte för taggfältstyper och måste utelämnas. Om ett icke-tomt standardvärde anges för en taggfältstyp returneras ett fel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolesk</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> Dölj eller visa systemspecifika IPS-metadata. </td> 
@@ -79,7 +82,7 @@ Syntax
    <td colname="col4"> <p>En boolesk flagga som anger om metadatafältet används (valideras) när värdet ställs in. </p> <p>Om värdet är true genereras ett fel om ett ogiltigt värde anges i <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> Gör att du kan skapa en uppsättning delade uppräknade värden som markerade taggar kan peka på. </td> 
@@ -95,7 +98,7 @@ Syntax
 
 ## Exempel {#section-ba66be30f36b4aeba1bc721b0b92fdfc}
 
-Detta kodexempel skapar ett metadatafält för strängtyp med namnet `createMetadataField`. Svaret returnerar referensen till det nya metadatafältet.
+Detta kodexempel skapar ett metadatafält av strängtyp med namnet `createMetadataField`. Svaret returnerar referensen till det nya metadatafältet.
 
 **Begäran**
 
