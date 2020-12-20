@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 839b6a7f-4f6f-43ad-8eb8-254959c7fbac
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '216'
+ht-degree: 0%
 
 ---
 
 
-# Stöd för hotspot- och bildscheman{#hotspot-and-image-maps-support}
+# Stöd för aktiveringspunkter och bildscheman{#hotspot-and-image-maps-support}
 
 Visningsprogrammet har stöd för återgivning av hotspot-ikoner och bildschemaområden ovanpå huvudvyn. Utseendet på hotspot-ikoner och -regioner styrs via CSS enligt beskrivningen i avsnittet Anpassa hotspot-områden och bildscheman.
 
@@ -22,8 +25,8 @@ Aktiveringspunkter och regioner kan antingen aktivera en snabbvyfunktion på vä
 
 ## Snabbvyaktiveringspunkter {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Dessa typer av hotspot-områden eller bildscheman bör redigeras med åtgärdstypen&quot;Snabbvy&quot; i Dynamic Media, från AEM. När en användare aktiverar ett sådant hotspot- eller bildschema kör visningsprogrammet `quickViewActivate` JavaScript-återanropet och skickar hotspot- eller bildschemats data till det. Inbäddningswebbsidan förväntas lyssna efter det här återanropet. När sidan utlöses öppnas en egen snabbvyimplementering.
+Den här typen av hotspot-områden eller bildscheman ska redigeras med åtgärdstypen&quot;Snabbvy&quot; i Dynamic Media, AEM. När en användare aktiverar ett sådant hotspot- eller bildschema kör visningsprogrammet JavaScript-återanropet `quickViewActivate` och skickar hotspot- eller bildschemats data till det. Inbäddningswebbsidan förväntas lyssna efter det här återanropet. När sidan utlöses öppnas en egen snabbvyimplementering.
 
 ## Omdirigera till extern webbsida {#section-ef820c71251e4215800bb99c0c9ebe16}
 
-Aktiveringspunkter eller bildscheman som skapats för åtgärdstypen&quot;Snabbvy&quot; i dynamiska media i AEM dirigerar om användaren till en extern URL. Beroende på inställningarna under utvecklingen öppnas URL-adressen i en ny webbläsarflik, i samma fönster eller i det namngivna webbläsarfönstret.
+Aktiveringspunkter eller bildscheman som skapats för åtgärdstypen&quot;Snabbvy&quot; i Dynamic Media AEM dirigerar om användaren till en extern URL. Beroende på inställningarna under utvecklingen öppnas URL-adressen i en ny webbläsarflik, i samma fönster eller i det namngivna webbläsarfönstret.
