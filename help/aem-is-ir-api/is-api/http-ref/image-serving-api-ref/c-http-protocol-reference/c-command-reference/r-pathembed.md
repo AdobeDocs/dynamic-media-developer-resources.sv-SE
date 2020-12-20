@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 93e63c7c-c091-4bb1-baff-45706fd611ea
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '165'
+ht-degree: 0%
 
 ---
 
@@ -22,11 +25,11 @@ Bädda in bandata. Anger om Photoshop-banor från källbildfilen för lager 0 sk
 
 Begär attribut. Ignoreras om källbilden inte innehåller sökvägsdata. Banans data skalas och roteras på samma sätt som bilddata. Endast sökvägar från källbilden av `layer=0` bearbetas. banor från andra lagerbilder ignoreras.
 
-Ignoreras om utdatabildformatet inte stöder baninbäddning. Se beskrivningen av `fmt=` för en lista över de utdataformat som stöder baninbäddning.
+Ignoreras om utdatabildformatet inte stöder baninbäddning. Se beskrivningen av `fmt=` för en lista över utdatabildformat som stöder baninbäddning.
 
 ## Begränsningar {#section-697cddb79a1542bc8457d2f4f59eec69}
 
-Öppna Photoshop-banor (banor som inte bildar stängda slingor) kan för närvarande inte bäddas in i svarsbilden.
+Öppna Photoshop-sökvägar (sökvägar som inte bildar stängda slingor) stöds för närvarande inte för inbäddning i svarsbilden.
 
 ## Standard {#section-62f113ad71c04517a2741d93319a2b5d}
 
