@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 6a557795-0caf-4b5f-974e-fb4c1481a83c
 translation-type: tm+mt
 source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+workflow-type: tm+mt
+source-wordcount: '144'
+ht-degree: 0%
 
 ---
 
@@ -22,12 +25,12 @@ Om det anges kommer förfrågningar till den här bildkatalogen som kommer från
 
 Kommaavgränsad lista med IP-adresser med valfria netmasker (CIDR-notation används):
 
-`*`ipAddress`*` `[`/ *`netmask`*`]`*`[`,*`ipAddress`*`[`/*`netmask`*`]]`
+`*`ipAddress`*` `[`/  *`netmask`*`]`*  `[`,*`ipAddress`*`[`/*`netmask`*`]]`
 
 <table id="simpletable_9F82BB0D42A9434883F2F70A2A92898C"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> ipAddress</span> </p> </td> 
-  <td class="stentry"> <p>IP-adress i formatet <span class="varname"> ddd.ddd.ddd</span> . </p></td> 
+  <td class="stentry"> <p>IP-adress i formatet <span class="varname"> ddd.ddd.ddd</span>. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> netmask</span> </p></td> 
@@ -35,11 +38,11 @@ Kommaavgränsad lista med IP-adresser med valfria netmasker (CIDR-notation anvä
  </tr> 
 </table>
 
-Det här attributet ignoreras när en förbearbetningsregel med ett `<addressfilter>` element används.
+Det här attributet ignoreras när en förbearbetningsregel med ett `<addressfilter>`-element används.
 
 ## Standard {#section-de26e8c9225745e985e4beac1f03f4f6}
 
-Ärvs från `default::AddressFilter` om inte definierad eller om tom.
+Ärvs från `default::AddressFilter` om det inte är definierat eller om det är tomt.
 
 ## Exempel {#section-a955314d2b6a4213a16c12a8b18d8627}
 
