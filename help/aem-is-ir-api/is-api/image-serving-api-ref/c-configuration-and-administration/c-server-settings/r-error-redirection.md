@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: b2c2f725-98c3-44a4-8f50-2ca4da7f2156
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '138'
+ht-degree: 0%
 
 ---
 
 
-# Felomdirigering{#error-redirection}
+# Fel vid omdirigering{#error-redirection}
 
 Använd de här serverinställningarna för att omdirigera fel.
 
@@ -22,7 +25,7 @@ Använd de här serverinställningarna för att omdirigera fel.
 
 ## PS::errorRedirect.rootUrl - Omdirigeringsserver {#section-85f22e48d68842a490b0e1191543b558}
 
-Rotwebbadressen ( [!DNL HTTP:// *[!DNL domain]*[: [ *[!DNL port]*]]) för den sekundära Image Serving-distributionen som begäranden som misslyckas lokalt ska omdirigeras till. Omdirigering av fel är inaktiverat (standard) när den här inställningen är tom eller inte definierad.
+Rotwebbadressen ( [!DNL HTTP:// *[!DNL domain]*[: *[!DNL port]*]) för den sekundära Image Serving-distributionen som begäranden som misslyckas lokalt ska omdirigeras till. Omdirigering av fel är inaktiverat (standard) när den här inställningen är tom eller inte definierad.
 
 ## PS::errorRedirect.connectTimeout - Timeout för omdirigering av anslutning {#section-3971be8f720d4b32a2cc7860b4085971}
 
