@@ -25,14 +25,14 @@ Servern bör uppfylla följande maskinvarukrav.
 
 >[!NOTE]
 >
->System med processorer med AMD64 och Intel® EM64T är vanligtvis konfigurerade som NUMA-plattformar (Non-Uniform Memory Architecture). Detta innebär att kärnan konstruerar flera minnesnoder vid start i stället för att konstruera en enda minnesnod. Konstruktionen för flera noder kan resultera i minnesöverbelastning på en eller flera av noderna innan andra noder töms. När minnesöverbelastning inträffar kan kärnan bestämma sig för att avsluta processer (till exempel Image Server eller Platform Server) trots att det finns tillgängligt minne. Adobe Systems rekommenderar därför att du stänger av NUMA om du kör ett sådant system. Använd `numa=off` startalternativet för att undvika att kärnan stoppar dessa processer.
+>System med processorer med AMD64 och Intel® EM64T är vanligtvis konfigurerade som NUMA-plattformar (Non-Uniform Memory Architecture). Detta innebär att kärnan konstruerar flera minnesnoder vid start i stället för att konstruera en enda minnesnod. Konstruktionen för flera noder kan resultera i minnesöverbelastning på en eller flera av noderna innan andra noder töms. När minnesöverbelastning inträffar kan kärnan bestämma sig för att avsluta processer (till exempel Image Server eller Platform Server) trots att det finns tillgängligt minne. Därför rekommenderar Adobe Systems att du stänger av NUMA om du kör ett sådant system. Använd startalternativet `numa=off` för att undvika att kärnan stoppar dessa processer.
 
 **Windows**
 
 * Intel Xeon®- eller AMD® Opteron-processor med minst fyra kärnor.
 * Minst 16 GB RAM-minne.
 * Växla utrymme motsvarande minst dubbelt så mycket fysiskt minne (RAM).
-* 2 GB ledigt hårddiskutrymme för installation och grundläggande åtgärder. Ytterligare diskutrymme krävs för källbilder, loggar, datacache och manifestfiler.
+* 2 GB ledigt hårddiskutrymme för installation och grundläggande funktioner. Ytterligare diskutrymme krävs för källbilder, loggar, datacache och manifestfiler.
 * Fast Ethernet-nätverkskort.
 
 **Linux**
@@ -40,10 +40,10 @@ Servern bör uppfylla följande maskinvarukrav.
 * Intel Xeon®- eller AMD® Opteron-processor med minst fyra kärnor.
 * Minst 16 GB RAM-minne.
 * Växling är inaktiverat (rekommenderas).
-* 2 GB ledigt hårddiskutrymme för installation och grundläggande åtgärder. Ytterligare diskutrymme krävs för källbilder, loggar, datacache och manifestfiler.
+* 2 GB ledigt hårddiskutrymme för installation och grundläggande funktioner. Ytterligare diskutrymme krävs för källbilder, loggar, datacache och manifestfiler.
 * Fast Ethernet-nätverkskort.
 
-**Obs! (Linux):** Image Serving fungerar inte med SELinux aktiverat. Det här alternativet är aktiverat som standard. Om du vill inaktivera SELinux redigerar du [!DNL /etc/selinux/config] filen och ändrar SELinux-värdet från:
+**Obs! (Linux):** Bildservrar fungerar inte när SELinux är aktiverat. Det här alternativet är aktiverat som standard. Om du vill inaktivera SELinux redigerar du filen [!DNL /etc/selinux/config] och ändrar SELinux-värdet från:
 
 `SELINUX=enforcing`
 
@@ -51,7 +51,7 @@ till
 
 `SELINUX=disabled`
 
-**Obs! (Linux):** Kontrollera att värdnamnet för servern kan matchas till en IP-adress. Om det inte är möjligt lägger du till det fullständiga, kvalificerade värdnamnet och IP-adressen [!DNL /etc/hosts] som i följande exempel.
+**Obs! (Linux):** Kontrollera att serverns värdnamn kan matchas till en IP-adress. Om det inte är möjligt lägger du till det fullständiga, kvalificerade värdnamnet och IP-adressen till [!DNL /etc/hosts] som i följande exempel.
 
 `<ip address> <fully qualified hostname>`
 
@@ -69,7 +69,7 @@ Scene7 Image Serving kräver följande serverprogramvara.
 * Red Hat® Enterprise 5 eller CentOS 5.5 och senare, med de senaste korrigeringsfilerna.
 * 64-bitars operativsystem.
 
-**Obs!** Om du vill använda Image Serving i Windows måste du installera Microsoft Visual Studio 2010 som kan återdistribueras. Den kan distribueras på följande plats:
+**Obs!** Om du vill använda Image Serving i Windows måste du installera Microsoft Visual Studio 2010 som kan distribueras om. Den kan distribueras på följande plats:
 
 [http://www.microsoft.com/en-us/download/details.aspx?id=13523](http://www.microsoft.com/en-us/download/details.aspx?id=13523)
 
