@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8b8e5b06-a0b7-47e1-942d-0297d08c313b
 translation-type: tm+mt
 source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+workflow-type: tm+mt
+source-wordcount: '311'
+ht-degree: 2%
 
 ---
 
 
 # regel{#rule}
 
-Regelelement för begäran. En eller flera regler är valfria i `<ruleset>` elementet.
+Regelelement för begäran. En eller flera regler är valfria i `<ruleset>`-elementet.
 
 ## Attribut {#section-d4a3b0496c0c4aa5bd7da87203b9379b}
 
@@ -22,7 +25,7 @@ Regelelement för begäran. En eller flera regler är valfria i `<ruleset>` elem
 
 `Replace = "first" | "all"`: Valfritt. Standardvärdet är &quot;first&quot;.
 
-`RequestType` = *&quot;`types`&quot;*: Valfritt. Anger vilken indatakontext regeln gäller för. *`types`* är en kommaavgränsad lista, som kan innehålla en eller flera av de variabler som anges i följande tabell. Om `RequestType` inte anges gäller regeln för begäranden som tas emot i alla kontexter som stöds.
+`RequestType` =  *&quot;`types`&quot;*: Valfritt. Anger vilken indatakontext regeln gäller för. *`types`* är en kommaavgränsad lista, som kan innehålla en eller flera av de variabler som anges i följande tabell. Om `RequestType` inte anges gäller regeln för begäranden som tas emot i alla kontexter som stöds.
 
 <table id="table_4935E1ED03624DA6AF3F8DC9AAA10237"> 
  <thead> 
@@ -51,14 +54,14 @@ Regelelement för begäran. En eller flera regler är valfria i `<ruleset>` elem
  </tbody> 
 </table>
 
-**`Name = "text"`**: Valfritt. Används för att identifiera `<rule>` elementet i felsökningsloggar och felmeddelanden.
+**`Name = "text"`**: Valfritt. Används för att identifiera `<rule>`-elementet i felsökningsloggar och felmeddelanden.
 
 `  *`Attribut`* ="value"`: Valfritt. `<rule>` -element kan definiera något av följande attribut i valfri kombination. Om den anges och regeln matchas kommer de att åsidosätta motsvarande katalogattribut för den här begäran. Standardvärdet är `RequestType="is"`.
 
 <table id="table_67AED5BEADDF4DAC99B5EF46438C1ABC"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> <span class="varname"> Attribut </span></b> </th> 
+   <th class="entry"> <b> <span class="varname"> Attribut  </span> </b> </th> 
    <th class="entry"> <p>Motsvarande bildkatalogsattribut </p> </th> 
   </tr> 
  </thead>
@@ -77,7 +80,7 @@ Regelelement för begäran. En eller flera regler är valfria i `<ruleset>` elem
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> MaxPix</span> </p> </td> 
-   <td> <p><a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-maxpix.md#reference-e167d396ac794079ba8b5e6eb16eeda5" type="reference" format="dita" scope="local"> attribute::MaxPix </a> </p> </td> 
+   <td> <p><a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-maxpix.md#reference-e167d396ac794079ba8b5e6eb16eeda5" type="reference" format="dita" scope="local"> attribute::MaxPix  </a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> RequestLock</span> </p> </td> 
@@ -104,7 +107,7 @@ Regelelement för begäran. En eller flera regler är valfria i `<ruleset>` elem
 
 Mer information finns i beskrivningen av motsvarande bildkatalogsattribut.
 
-Förfalloattributen åsidosätter bara standardattributvärdena. Åsidosättningen ignoreras om ett specifikt `catalog::Expiration` värde gäller för begäran.
+Förfalloattributen åsidosätter bara standardattributvärdena. Åsidosättningen ignoreras om ett specifikt `catalog::Expiration`-värde gäller för begäran.
 
 ## Data {#section-8fce013a4c724da58af3fee4e7a90e72}
 
@@ -114,11 +117,11 @@ Förfalloattributen åsidosätter bara standardattributvärdena. Åsidosättning
   <td class="stentry"> <p>Valfritt </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> &lt;ersättning&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> &lt;substitution&gt;</span> </p></td> 
   <td class="stentry"> <p>Valfritt </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> &lt;adressfilter&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> &lt;addressfilter&gt;</span> </p></td> 
   <td class="stentry"> <p>Valfritt </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -129,10 +132,10 @@ Förfalloattributen åsidosätter bara standardattributvärdena. Åsidosättning
 
 ## Anteckningar {#section-0c5fbc363070419d8c9800b0c02dc9f9}
 
-Om både `<expression>` och `<substitution>` anges, och hämtade delsträngar inte används, ersätts den första matchande delsträngen med `<substitution>`.
+Om både `<expression>` och `<substitution>` anges och hämtade delsträngar inte används, ersätts den första matchade delsträngen med `<substitution>`.
 
-Om `<expression>` inte anges matchar alla sökvägar och `<substitution>` läggs till i slutet av banan.
+Om `<expression>` inte anges läggs alla sökvägar till och `<substitution>` till i slutet av sökvägen.
 
-Om `<substitution>` inte anges sker ingen omformning av sökväg eller fråga, men alla angivna katalogattribut åsidosätts. Om `<substitution>` är tom tas den matchande delsträngen bort.
+Om `<substitution>` inte har angetts sker ingen omformning av sökväg eller fråga, men alla angivna katalogattribut åsidosätts. Om `<substitution>` är tom tas den matchande delsträngen bort.
 
-Funktionen `<addressfilter>` används bara när en matchning inträffar och innan frågeregler tillämpas.
+`<addressfilter>` används bara när en matchning inträffar och innan frågeregler tillämpas.
