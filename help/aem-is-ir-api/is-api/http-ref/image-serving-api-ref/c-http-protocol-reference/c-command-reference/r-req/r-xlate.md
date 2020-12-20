@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 4c2370e5-1d46-4242-89bb-a5ce416ef63c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '127'
+ht-degree: 2%
 
 ---
 
@@ -25,7 +28,7 @@ Tillgängliga språkspecifika versioner. Returnerar en lista med tillgängliga s
  </tr> 
 </table>
 
-Se Översättning av [objekt-ID](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414).
+Se [Översättning av objekt-ID](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414).
 
 Exempel:
 
@@ -33,7 +36,7 @@ Exempel:
 
 HTTP-svaret kan nås med TTL-värdet baserat på `catalog::Expiration`.
 
-Begäranden som stöder JSONP-svarsformatet gör att du kan ange namnet på JS-callback-hanteraren med den utökade syntaxen för `req=` parametern:
+Begäranden som stöder JSONP-svarsformatet gör att du kan ange namnet på JS-callback-hanteraren med den utökade syntaxen för parametern `req=`:
 
 `req=...,json [&handler = reqHandler ]`
 
