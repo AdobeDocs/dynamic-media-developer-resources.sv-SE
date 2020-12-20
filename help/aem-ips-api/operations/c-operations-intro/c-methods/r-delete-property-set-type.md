@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 7a5232cc-fa3a-4dac-bf88-8b954dd37c87
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 0%
 
 ---
 
@@ -39,7 +42,7 @@ IPS API returnerar inget svar för den här åtgärden.
 
 ## Exempel {#section-85faa2e3411a4e23aa6489037f7ce078}
 
-I det här kodexemplet används typens handtag som ett fält i den `deletePropertySetTypeParam` som skickas till IPS Web services-servern för att ta bort egenskapsuppsättningstypen.
+I det här kodexemplet används typens referens som ett fält i `deletePropertySetTypeParam` som skickas till IPS Web services-servern för att ta bort egenskapsuppsättningstypen.
 
 **Begäran**
 
