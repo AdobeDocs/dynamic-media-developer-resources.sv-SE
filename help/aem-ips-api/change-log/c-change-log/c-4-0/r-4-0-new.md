@@ -24,69 +24,69 @@ Implementerade API-versioner sida vid sida med separata WSDL:er och schemanamnut
 * Tidigare API-versioner: `IpsApi.wsdl, http://www.scene7.com/IpsApi/xsd`.
 * SPS 4.0-version: `IpsApi-2008-01-15.wsdl, http://www.scene7.com/IpsApi/xsd/2008-01-15`.
 
-Tillagt `PostScriptOptions/alpha` fält.
+Ett `PostScriptOptions/alpha`-fält har lagts till.
 
-Lagt till `VideoRootUrl` och `SwfRootUrl` egenskaper för `getProperty` åtgärden.
+Lagt till `VideoRootUrl`- och `SwfRootUrl`-egenskaper för åtgärden `getProperty`.
 
-Tillagda valfria `appName` och `appVersion` parametrar för `authHeader` att spåra anropande program. Loggning har lagts till i `ipsApiService.log`.
+Valfria `appName`- och `appVersion`-parametrar har lagts till i `authHeader` för att spåra anropande program. Loggning har lagts till i `ipsApiService.log`.
 
-En valfri `serviceUrl` param har lagts till i WSDL-genereringstjänsten. Detta är särskilt användbart för felsökningsutkast. Exempel: `http://<server>/scene7/webservice/IpsApi-2008-01-15.wsdl?serviceUrl=http://localhost:8081`
+En valfri `serviceUrl`-param har lagts till i WSDL-genereringens serverlet. Detta är särskilt användbart för felsökningsutkast. Exempel: `http://<server>/scene7/webservice/IpsApi-2008-01-15.wsdl?serviceUrl=http://localhost:8081`
 
-Implementerad `getZipEntries` åtgärd.
+Implementerad `getZipEntries`-åtgärd.
 
 Implementerade sökintervall och typbestämda jämförelsevärden för systemfältvillkor.
 
-Lagt till en `'Asset'` strängkonstant för resurstyp, främst för att tillåta metadatafält för korsresurser.
+`'Asset'`-konstanten för resurstypsträngen har lagts till, främst för att tillåta metadatafält för korsresurser.
 
-Implementerad `trashState` param för `searchAssets`.
+Implementerad `trashState`-param för `searchAssets`.
 
-Implementerad `getAssetPublishHistory` åtgärd.
+Implementerad `getAssetPublishHistory`-åtgärd.
 
-Extra SOAP-huvud (tillval) för att aktivera felhantering i Flex. `faultHttpStatusCode` Använd Flex `<faultHttpStatusCode>200</faultHttpStatusCode>`. Standardstatuskoden för felsvar är `500 (Internal Server Error)`.
+Valfri `faultHttpStatusCode` SOAP-rubrik har lagts till för att aktivera felhantering i Flex. Använd `<faultHttpStatusCode>200</faultHttpStatusCode>` för Flex. Standardstatuskoden för felsvar är `500 (Internal Server Error)`.
 
 Lagt till åtgärder för att återställa resurser från papperskorgen och tomma resurser från papperskorgen.
 
 Implementerade CRUD-åtgärder.
 
-Flagga för aktiverad `ImageMap` typ och `saveImageMap` åtgärd har lagts till.
+Flagga som är aktiverad har lagts till i åtgärden `ImageMap` och `saveImageMap`.
 
 Stöd för Optimera återstående filer.
 
-Tillagd `setAssetsPublishState` för statusuppdateringar för masspublicering.
+`setAssetsPublishState` har lagts till för statusuppdateringar för masspublicering.
 
-Lagt till `ImageServingPublishSettings`, `getImageServingPublishSettings`, `setImageServingPublishSettings`.
+`ImageServingPublishSettings`, `getImageServingPublishSettings`, `setImageServingPublishSettings` har lagts till.
 
-Föråldrad `saveMetadataField` åtgärd till förmån för nya `createMetadataField` och `updateMetadataField` operationer.
+Borttagen `saveMetadataField`-åtgärd till förmån för nya `createMetadataField`- och `updateMetadataField`-åtgärder.
 
 Implementerad `deleteAssetsParam` batchborttagningsåtgärd.
 
-Implementerad `moveAssetsParam` batchflyttåtgärd.
+Implementerad `moveAssetsParam` batchflyttningsåtgärd.
 
-Implementerad `deleteMetadataField` åtgärd.
+Implementerad `deleteMetadataField`-åtgärd.
 
-Implementerad `get/setImageRenderingPublishSettings`, `get/set/create/updateVignettePublishFormat` åtgärder.
+Implementerade `get/setImageRenderingPublishSettings`-, `get/set/create/updateVignettePublishFormat`-åtgärder.
 
-Implementerat `getAssetCounts`.
+Implementerad `getAssetCounts`.
 
-Stöd har lagts till `setImageSetMembers` för att inkludera `RenderSet` medlemmar i `ImageSet` resurser.
+Stöd har lagts till i `setImageSetMembers` för att inkludera `RenderSet`-medlemmar i `ImageSet`-resurser.
 
-Lagt till `replaceImage` åtgärd.
+`replaceImage`-åtgärden har lagts till.
 
-Lagt till `copyImage` åtgärd.
+`copyImage`-åtgärden har lagts till.
 
-Lagt till `setUrlModifier` åtgärd och `urlModifier/urlPostApplyModifier` fält för `LayerViewInfo`, `TemplateInfo`och `WatermarkInfo`.
+`setUrlModifier`-åtgärden och `urlModifier/urlPostApplyModifier`-fälten för `LayerViewInfo`, `TemplateInfo` och `WatermarkInfo` har lagts till.
 
-Lagt till `createDerivedAsset` åtgärd. För närvarande `ownerHandle` måste bildresursen referera till en bildresurs och typen kan vara `AdjustedView` eller `LayerView`.
+`createDerivedAsset`-åtgärden har lagts till. För närvarande måste `ownerHandle` referera till en bildresurs och typen kan vara `AdjustedView` eller `LayerView`.
 
-Lagt till `createTemplate` åtgärd. För närvarande kan detta anropas för att skapa mall- eller vattenstämpelresurser.
+`createTemplate`-åtgärden har lagts till. För närvarande kan detta anropas för att skapa mall- eller vattenstämpelresurser.
 
-Företagsinställningar för IPS, `CompanySettings`som exporteras till API:t för webbtjänster.
+Företagsinställningar för IPS, `CompanySettings`, som har porterats till API:t för webbtjänster.
 
-Filterflagga har lagts till `excludeByproducts` i `searchAssets` åtgärden. Om du anger den här flaggan som true körs `PSDlayer` bilder och PDF-rippade bilder.
+Filterflaggan `excludeByproducts` har lagts till i åtgärden `searchAssets`. Om du anger den här flaggan som true körs `PSDlayer` bilder och PDF-rippade bilder.
 
-Lagt till `getGenerationInfo` åtgärd.
+`getGenerationInfo`-åtgärden har lagts till.
 
-Lagt till `SystemMessage` egenskapsnamn till `getProperty` åtgärden.
+`SystemMessage`-egenskapsnamnet har lagts till i åtgärden `getProperty`.
 
 Ändrade vissa strängkonstanter för resurstyp så att de matchade fälten för resursinformation.
 
@@ -97,15 +97,15 @@ Lagt till `SystemMessage` egenskapsnamn till `getProperty` åtgärden.
 
 Ändrat resultatformat för gruppåtgärder för att sammanfatta lyckade åtgärder, varningar och fel.
 
-Implementerad åtgärd för `batchSetAssetMetadata` batchmetadata.
+Implementerad `batchSetAssetMetadata` batchmetadataåtgärd.
 
 Implementerat stöd för appspecifika data.
 
-Implementerat stöd för booleska flaggor för `createTemplate`, `extendLayers`och `extractText` för överföringsjobb för att styra processen för Photoshop-bearbetning (liknar ändringarna för att lägga till filöverföringar).
+Implementerat stöd för booleska flaggor för `createTemplate`, `extendLayers` och `extractText` för överföringsjobb för att styra bearbetningen av Photoshop (liknar ändringarna för att lägga till filöverföringar).
 
-Implementerade `setImageMaps` och `setZoomTargets` åtgärder.
+Implementerade `setImageMaps`- och `setZoomTargets`-åtgärder.
 
-Implementerade `ViewerPreset` åtgärder. De identifierade typerna är:
+Implementerade `ViewerPreset`-åtgärder. De identifierade typerna är:
 
 * `VideoPlayer` (Video publicerar bara dessa visningsprogram.)
 * `Brochure`
@@ -116,13 +116,13 @@ Implementerade `ViewerPreset` åtgärder. De identifierade typerna är:
 
 Skalen i visningsprogrammet har stöd för två parametrar: `skinFg` och `skinBg`. Backend-koden utför all bearbetning som krävs för att bevara bakåtkompatibilitet.
 
-Implementerad `getAssociatedAssets` åtgärd.
+Implementerad `getAssociatedAssets`-åtgärd.
 
-Tillagd `ReprocessAssets` jobbtyp som tillåter ombearbetning av tidigare överförda primära källfiler, inklusive återgivning av PDF-filer och omoptimering av bilder.
+`ReprocessAssets`-jobbtypen har lagts till för att tillåta ombearbetning av tidigare överförda primära källfiler, inklusive återgivning av PDF-filer och omoptimering av bilder.
 
-Fälttypen har bytt namn `PropertySetType` till `propertyType`. Detta påverkar `createPropertySetType` parameter och `getPropertySetType/getPropertySetTypes` svar.
+Namnet på fälttypen `PropertySetType` har ändrats till `propertyType`. Detta påverkar parametern `createPropertySetType` och `getPropertySetType/getPropertySetTypes`-svaret.
 
-Implementerad `batchSetImageFields` åtgärd som stöder inställning av bildanvändardata och andra redigerbara bildfält.
+Implementerad `batchSetImageFields`-åtgärd som stöder inställning av bildanvändardata och andra redigerbara bildfält.
 
 47 Lagt till filstorleksfält till olika typer av tillgångsinformation:
 
@@ -153,53 +153,53 @@ Implementerad `batchSetImageFields` åtgärd som stöder inställning av bildanv
 * `PowerPointInfo`
 * `RTFInfo`
 
-Implementerad `getActivePublishContexts` åtgärd. Den här åtgärden returnerar en array med publiceringskontextnamn med aktiva publiceringsservrar för det angivna företaget. Aktuella publiceringskontextnamn är:
+Implementerad `getActivePublishContexts`-åtgärd. Den här åtgärden returnerar en array med publiceringskontextnamn med aktiva publiceringsservrar för det angivna företaget. Aktuella publiceringskontextnamn är:
 
 * `ImageServing`
 * `ImageRendering`
 * `Video`
 
-Implementerad `getSearchStrings` åtgärd. Den returnerar en array med söksträngar för den angivna resursen.
+Implementerad `getSearchStrings`-åtgärd. Den returnerar en array med söksträngar för den angivna resursen.
 
 Lagt till språkparametrar för jobb och en mekanism för att ange språkområde för API-åtgärder. Språksträngen ska formateras som `<language_code>[-<country_code>]`. Språkkoden är en gemen kod med två bokstäver enligt ISO-639, och den valfria landskoden är en kod med två bokstäver i versaler enligt ISO-3166.
 
-En valfri språkområdesparameter har lagts till i SOAP-huvudet för att ange språkområdet för API-åtgärder. `authHeader` Om den här parametern inte finns `Accept-Language` används HTTP-huvudet. Om den här rubriken inte heller finns kommer standardspråket för IPS-servern att användas.
+En valfri språkområdesparameter har lagts till i `authHeader` SOAP-huvudet för att ange språkområdet för API-åtgärder. Om den här parametern inte finns kommer HTTP-huvudet `Accept-Language` att användas. Om den här rubriken inte heller finns kommer standardspråket för IPS-servern att användas.
 
 Stöd för get/set har lagts till för metadatafält med starkt typsnitt.
 
 Implementerat stöd för SOAP och HTTP-huvud för GZIP-svarskontroll.
 
-Flagga har lagts till `gzipResponse` i `authHeader`. Om det inte finns kontrollerar API:t även HTTP- `Accept-Encoding` huvudet.
+Flaggan `gzipResponse` har lagts till i `authHeader`. Om den inte finns kontrollerar API:t även HTTP `Accept-Encoding`-huvudet.
 
 Stöd har lagts till i searchAssets för väldigt typbestämda villkor för metadatafält.
 
 * För alla fälttyper kan värdet skickas med en strängjämförelseoperator ( `Equals, NotEquals, Contains, NotContains, StartsWith, EndsWith`)
-* För booleska fält kan `boolVal` skickas med `Equals` operatorn .
-* För Int-fält kan `longVal` skickas med en numerisk jämförelseoperator ( `Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`) eller `minLong/maxLong` skickas med en numerisk intervallåtgärd ( `Between, NotBetween`).
-* För flyttalsfält kan `doubleVal` skickas med en numerisk jämförelseoperator ( `Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`) eller `minDouble/maxDouble` skickas med en numerisk intervallåtgärd ( `Between, NotBetween`).
-* För datumfält kan du skicka `dateVal` med en numerisk jämförelseoperator ( `Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`) eller skicka minDate/maxDate med en numerisk intervallåtgärd ( `Between, NotBetween`).
+* För booleska fält kan `boolVal` skickas med `Equals`-operatorn.
+* För Int-fält kan `longVal` skickas med en numerisk jämförelseoperator ( `Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`) eller `minLong/maxLong` kan skickas med numeriska intervallåtgärder ( `Between, NotBetween`).
+* För flyttalsfält kan `doubleVal` skickas med en numerisk jämförelseoperator ( `Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`) eller `minDouble/maxDouble` kan skickas med numeriska intervallåtgärder ( `Between, NotBetween`).
+* För datumfält kan du skicka `dateVal` med en numerisk jämförelseoperator ( `Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`) eller skicka minDate/maxDate med numeriska intervallåtgärder ( `Between, NotBetween`).
 
-Beskrivningar `jobSubType`och `originalJobName` fält har lagts till i `JobLog` typen.
+Beskrivnings-, `jobSubType`- och `originalJobName`-fält har lagts till i typen `JobLog`.
 
-* `originalJobName` är jobbnamnet som skickas till `submitJob` (utan unika suffix eller efterjobbsnamn).
-* `jobSubType` används för närvarande bara av `ImageServingPublishJob` jobb (där det är ett av `full`, `increment, fullwithsearch,` eller `fulloverride`).
+* `originalJobName` är jobbnamnet som skickas till  `submitJob` (utan unika suffix eller efterjobbsnamn).
+* `jobSubType` används för närvarande bara av  `ImageServingPublishJob` jobb (där det är ett av  `full`eller  `increment, fullwithsearch,`   `fulloverride`).
 * `description` är för närvarande en tom sträng för alla jobbtyper, men kommer så småningom att innehålla information om sammanfattningsjobb, som överföringssökvägen.
 
-Dessutom ingår inte följande fält i både `getJobLogs` och `getJobLogDetails`. I tidigare versioner var de endast tillgängliga med `getJobLogDetails`.
+Dessutom ingår inte följande fält i både `getJobLogs` och `getJobLogDetails`. I tidigare versioner var de bara tillgängliga med `getJobLogDetails`.
 
 * `endDate` (om jobbet har slutförts).
-* `fileDuplicateCount` (tidigare var det alltid `0` med `getJobLogs`)
-* `fileUpdateCount` (tidigare alltid var `0` med `getJobLogs` och inkluderad i `fileSuccessCount`; delas nu upp i separata fält).
+* `fileDuplicateCount` (tidigare var det alltid  `0` med  `getJobLogs`)
+* `fileUpdateCount` (Tidigare har alltid varit  `0` med  `getJobLogs` och inkluderat i  `fileSuccessCount`; delas nu upp i separata fält).
 
-Tillagt assetHandle-fält till `JobLogDetail` typ.
+Tillagt AssetHandle-fält till typen `JobLogDetail`.
 
-En valfri beskrivningsparameter har lagts till i `submitJob`. Detta skickas för hämtning i `getScheduledJobs`, `getActiveJobs`och `getJobLogs`.
+En valfri description-parameter har lagts till i `submitJob`. Detta skickas för hämtning i `getScheduledJobs`, `getActiveJobs` och `getJobLogs`.
 
-SKU-systemfältet är inaktuellt. Fältet ignoreras om det skickas som ett `SystemFieldCondition` till `searchAssets`.
+SKU-systemfältet är inaktuellt. Fältet ignoreras om det skickas som `SystemFieldCondition` till `searchAssets`.
 
-Tillagt `excludeAssetTypeArray` filter till `searchAssets`.
+`excludeAssetTypeArray`-filter har lagts till i `searchAssets`.
 
-Tillagd `MaskInfo` typ till `Asset`.
+`MaskInfo`-typen har lagts till i `Asset`.
 
 Nya tillgångstyper har lagts till för hantering av IPS:
 
@@ -212,33 +212,33 @@ Nya tillgångstyper har lagts till för hantering av IPS:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Illustrator </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Illustrator  </span> </p> </td> 
    <td colname="col2"> <p>Adobe Illustrator-fil. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PostScript </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PostScript  </span> </p> </td> 
    <td colname="col2"> <p>EPS- och PostScript-filer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> WordDoc </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> WordDoc  </span> </p> </td> 
    <td colname="col2"> <p>Microsoft Word-dokument för filer som slutar med .doc. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ExcelDoc </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ExcelDoc  </span> </p> </td> 
    <td colname="col2"> <p>Microsoft Excel-dokument för filer som slutar med .xls. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PowerPointDoc </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PowerPointDoc  </span> </p> </td> 
    <td colname="col2"> <p>Microsoft PowerPoint-dokument för filer som slutar med .ppt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> RTFDoc </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> RTFDoc  </span> </p> </td> 
    <td colname="col2"> <p>RTF-fil för filer som överförts och som slutar med .rtf. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ytterligare alternativ har lagts till för `UploadDirectoryJob` och `UploadUrlsJob` för att styra bearbetningen av PostScript-, Illustrator- och PDF-filer oberoende av varandra. Alla befintliga jobb kommer att tillhandahålla de nödvändiga parametrarna till var och en av de tre bearbetningspipelinerna så att de fungerar exakt som de gör idag. Det ursprungliga `PostScriptOptions` blocket används för att ange bearbetningen för Illustrator- och EPS/PS-filer. Alternativt kan du ange speciella filalternativblock för bearbetning. Listan över ändringar innehåller:
+Ytterligare alternativ har lagts till i `UploadDirectoryJob` och `UploadUrlsJob` för att styra bearbetningen av PostScript-, Illustrator- och PDF-filer oberoende av varandra. Alla befintliga jobb kommer att tillhandahålla de nödvändiga parametrarna till var och en av de tre bearbetningspipelinerna så att de fungerar exakt som de gör idag. Det ursprungliga `PostScriptOptions`-blocket används för att ställa in bearbetningen för Illustrator- och EPS/PS-filer. Alternativt kan du ange speciella filalternativblock för bearbetning. Listan över ändringar innehåller:
 
 <table id="table_D4E5ACCB2D144D05A5FA0129AA5F9344"> 
  <thead> 
@@ -251,12 +251,12 @@ Ytterligare alternativ har lagts till för `UploadDirectoryJob` och `UploadUrlsJ
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1" morerows="1"> <p> <span class="codeph"> PostScriptOptions </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> process </span> </p> </td> 
+   <td colname="col1" morerows="1"> <p> <span class="codeph"> PostScriptOptions  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> process  </span> </p> </td> 
    <td colname="col3"> <p> 
      <ul id="ul_6BBFF026010F4913BD632B3312E17C4B"> 
-      <li id="li_AA1131A68FB242C9A1380DE6F8F318C7"> <p> <span class="codeph"> Ingen </span> </p> </li> 
-      <li id="li_141F4C3FC9D34C9AABECA91394A82969"> <p> <span class="codeph"> Rastrera </span>(standard) </p> </li> 
+      <li id="li_AA1131A68FB242C9A1380DE6F8F318C7"> <p> <span class="codeph"> Ingen  </span> </p> </li> 
+      <li id="li_141F4C3FC9D34C9AABECA91394A82969"> <p> <span class="codeph"> Rastrera  </span>(standard) </p> </li> 
      </ul> </p> </td> 
    <td colname="col4"> <p> 
      <ul id="ul_14D0A696DF4E408DA50E102057EB7AC7"> 
@@ -265,17 +265,17 @@ Ytterligare alternativ har lagts till för `UploadDirectoryJob` och `UploadUrlsJ
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <span class="codeph"> alpha </span> </p> <p>Valfritt. </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;boolesk&gt; </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> alpha  </span> </p> <p>Valfritt. </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;boolean&gt; </span> </p> </td> 
    <td colname="col4"> <p>Börjar gälla när filen rastreras till en bild. Det skapar en genomskinlig bakgrund om originalfilen definieras på det här sättet för att täcka över logotyper. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" morerows="3"> <p> <span class="codeph"> IllustratorOptions </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> process </span> </p> </td> 
+   <td colname="col1" morerows="3"> <p> <span class="codeph"> IllustratorOptions  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> process  </span> </p> </td> 
    <td colname="col3"> <p> 
      <ul id="ul_C2F1000A01DE41678A8E1DDE0C8A0E97"> 
-      <li id="li_53749049B383441A81CB427A5B5F26A8"> <span class="codeph"> Ingen </span> </li> 
-      <li id="li_C5332FC35E5C4687B30D4C1081015BB0"> <span class="codeph"> Rastrera </span> (standard) </li> 
+      <li id="li_53749049B383441A81CB427A5B5F26A8"> <span class="codeph"> Ingen  </span> </li> 
+      <li id="li_C5332FC35E5C4687B30D4C1081015BB0"> <span class="codeph"> Rastrera  </span> (standard) </li> 
      </ul> </p> </td> 
    <td colname="col4"> <p> 
      <ul id="ul_41924574773542B7BFC4989667C14E97"> 
@@ -284,27 +284,27 @@ Ytterligare alternativ har lagts till för `UploadDirectoryJob` och `UploadUrlsJ
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <span class="codeph"> upplösning </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;heltal&gt; </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> upplösning  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;integer&gt; </span> </p> </td> 
    <td colname="col4"> <p>Rastrerar upplösningen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <span class="codeph"> färgrymd </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> färgrymd  </span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
-   <td colname="col4"> <p>Target färgmodell för återgivning. </p> </td> 
+   <td colname="col4"> <p>Målfärgrymd för återgivning. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <span class="codeph"> alpha </span> </p> <p>Valfritt. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> alpha  </span> </p> <p>Valfritt. </p> </td> 
    <td colname="col3"> <p> </p> </td> 
    <td colname="col4"> <p>Påverkar när filen rastreras till en bild. Skapar en genomskinlig bakgrund om originalfilen definieras på det här sättet för att skapa överliggande logotyper. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" morerows="4"> <p> <span class="codeph"> PDFOptions </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> process </span> </p> </td> 
+   <td colname="col1" morerows="4"> <p> <span class="codeph"> PDFOptions  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> process  </span> </p> </td> 
    <td colname="col3"> <p> 
      <ul id="ul_EF9C27EE7A154DA890CB9E6BA174D767"> 
-      <li id="li_0BB0FC1BA43043EEA1EA257E5D603978"> <p> <span class="codeph"> Ingen </span> </p> </li> 
-      <li id="li_E3FA07129C2646C7B98854C22CDAC1F0"> <p> <span class="codeph"> Rastrera </span> (standard) </p> </li> 
+      <li id="li_0BB0FC1BA43043EEA1EA257E5D603978"> <p> <span class="codeph"> Ingen  </span> </p> </li> 
+      <li id="li_E3FA07129C2646C7B98854C22CDAC1F0"> <p> <span class="codeph"> Rastrera  </span> (standard) </p> </li> 
      </ul> </p> </td> 
    <td colname="col4"> <p> 
      <ul id="ul_84EE74454FF5434087A895F915E68103"> 
@@ -313,23 +313,23 @@ Ytterligare alternativ har lagts till för `UploadDirectoryJob` och `UploadUrlsJ
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <span class="codeph"> upplösning </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;heltal&gt; </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> upplösning  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;integer&gt; </span> </p> </td> 
    <td colname="col4"> <p>Rastrerar upplösningen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <span class="codeph"> färgrymd </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> färgrymd  </span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
-   <td colname="col4"> <p>Target färgmodell för återgivning. </p> </td> 
+   <td colname="col4"> <p>Målfärgrymd för återgivning. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <span class="codeph"> pdfCatalog </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;boolesk&gt; </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> pdfCatalog  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;boolean&gt; </span> </p> </td> 
    <td colname="col4"> <p>Definierar om en PDF-fil med flera sidor ska kombineras i en e-katalog efter återgivningen (standardvärdet är true). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <span class="codeph"> extractSearchWords </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;boolesk&gt; </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> extractSearchWords  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;boolean&gt; </span> </p> </td> 
    <td colname="col4"> <p>Definierar om ord från PDF-filen ska extraheras till databasen för att senare skickas till en sökserver (standardvärdet är false). </p> </td> 
   </tr> 
  </tbody> 
@@ -337,7 +337,7 @@ Ytterligare alternativ har lagts till för `UploadDirectoryJob` och `UploadUrlsJ
 
 Du kan även hämta frågor från `getScheduledJobs`.
 
-Konfigurationsegenskapen har ändrats så att den har ett av följande värden: `webservice.gzip.response`
+Konfigurationsegenskapen `webservice.gzip.response` har ändrats så att något av följande värden används:
 
 <table id="table_FCBBF1643DC84F5CBF81DCA6B552E0C4"> 
  <thead> 
@@ -348,19 +348,19 @@ Konfigurationsegenskapen har ändrats så att den har ett av följande värden: 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> aldrig </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> aldrig  </span> </p> </td> 
    <td colname="col2"> <p>Gzip-svar får inte ges. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> soppa </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> soppa  </span> </p> </td> 
    <td colname="col2"> <p>Gzip-svar endast om authHeader/gzipResponse är true. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> acceptera </span> </p> </td> 
-   <td colname="col2"> <p>Gzip om authHeader/gzipResponse är true eller om ingen gzipResponse-rubrik finns och HTTP Accept-Encoding-huvudet innehåller gzip. (Standard). </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> acceptera  </span> </p> </td> 
+   <td colname="col2"> <p>Gzip om authHeader/gzipResponse är true, eller ingen gzipResponse-rubrik finns och HTTP Accept-Encoding-huvudet innehåller gzip. (Standard). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> alltid </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> alltid  </span> </p> </td> 
    <td colname="col2"> <p>Gzip-svar alltid, oavsett rubrikvärden. Använd det här värdet endast i felsökningssyfte. </p> </td> 
   </tr> 
  </tbody> 
