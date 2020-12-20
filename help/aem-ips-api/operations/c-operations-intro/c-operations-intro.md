@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 713646a7-1108-4f93-bec2-3fbe7e548515
 translation-type: tm+mt
 source-git-commit: 806e7e670ee98e1fb6adf52ffc95fb989fa69400
+workflow-type: tm+mt
+source-wordcount: '718'
+ht-degree: 0%
 
 ---
 
@@ -47,17 +50,17 @@ searchParam.setFolder("myFolder");
 SearchAssetsReturn retVal = ipsApi.searchAssets(searchParam, authHeader);
 ```
 
-## Vanliga typer av handtag {#section-e683ac8283284f9688e63f51a494f7a0}
+## Vanliga referenstyper {#section-e683ac8283284f9688e63f51a494f7a0}
 
 **companyHandle**
 
-De flesta åtgärder kräver att du anger en företagskontext genom att ange en `companyHandle` parameter. Företagshandtaget är en pekare som returneras av vissa åtgärder som `getCompanyInfo`, `addCompany`och `getCompanyMembership`.
+De flesta åtgärder kräver att du anger en företagskontext genom att skicka en `companyHandle`-parameter. Företagshandtaget är en pekare som returneras av vissa åtgärder, till exempel `getCompanyInfo`, `addCompany` och `getCompanyMembership`.
 
 **userHandle**
 
-Parametern `userHandle` är en valfri parameter för åtgärder som riktar sig till en viss användare. Som standard riktar dessa åtgärder sig till den anropande användaren (den användare vars inloggningsuppgifter skickas för autentisering). Administratörsanvändare med rätt behörighet kan dock ange en annan användare. Åtgärden anger till exempel vanligtvis lösenordet för den autentiserade användaren, men en administratör kan använda `setPassword` `userHandle` parametern för att ange lösenordet för en annan användare.
+Parametern `userHandle` är en valfri parameter för åtgärder som riktar sig till en viss användare. Som standard riktar dessa åtgärder sig till den anropande användaren (den användare vars inloggningsuppgifter skickas för autentisering). Administratörsanvändare med rätt behörighet kan dock ange en annan användare. Åtgärden `setPassword` anger till exempel vanligtvis lösenordet för den autentiserade användaren, men en administratör kan använda parametern `userHandle` för att ange lösenordet för en annan användare.
 
-För åtgärder som kräver en företagskontext (med parametern `companyHandle` ) måste både autentiserade användare och målanvändare vara medlemmar i det angivna företaget. För åtgärder som inte kräver någon företagskontext måste både den autentiserade användaren och målanvändaren vara medlemmar i minst ett gemensamt företag.
+För åtgärder som kräver en företagskontext (med parametern `companyHandle`) måste både autentiserade användare och målanvändare vara medlemmar i det angivna företaget. För åtgärder som inte kräver någon företagskontext måste både den autentiserade användaren och målanvändaren vara medlemmar i minst ett gemensamt företag.
 
 Följande åtgärder kan hämta användarhandtag:
 
@@ -70,13 +73,13 @@ Följande åtgärder kan hämta användarhandtag:
 
 **accessUserHandle och accessGroupHandle**
 
-Som standard används åtgärder som kräver åtkomstbehörighet (läsa, skriva, ta bort) i den anropande användarens behörighetskontext. Vissa åtgärder gör att du kan ändra den här kontexten med parametern `accessUserHandle` eller `accessGroupHandle` . Parametern `accessUserHandle` gör att en administratör kan personifiera en annan användare. Parametern `accessGroupHandle` gör att anroparen kan arbeta i kontexten för en viss användargrupp.
+Som standard används åtgärder som kräver åtkomstbehörighet (läsa, skriva, ta bort) i den anropande användarens behörighetskontext. Vissa åtgärder gör att du kan ändra den här kontexten med parametern `accessUserHandle` eller `accessGroupHandle`. Med parametern `accessUserHandle` kan en administratör personifiera en annan användare. Parametern `accessGroupHandle` gör att anroparen kan arbeta i kontexten för en viss användargrupp.
 
 **responseFieldArray och excludeFieldArray**
 
-Vissa åtgärder gör att anroparen kan begränsa vilka fält som ska inkluderas i svaret. Genom att begränsa fält kan du minska den tid och det minne som krävs för att bearbeta begäran och minska svarsdatans storlek. Anroparen kan begära en viss lista med fält genom att skicka en `responseFieldArray` parameter eller med en uppräknad lista med uteslutna fält via `excludeFieldArray` parametern.
+Vissa åtgärder gör att anroparen kan begränsa vilka fält som ska inkluderas i svaret. Genom att begränsa fält kan du minska den tid och det minne som krävs för att bearbeta begäran och minska svarsdatans storlek. Anroparen kan begära en viss lista med fält genom att skicka en `responseFieldArray`-parameter eller med en lista över uteslutna fält via parametern `excludeFieldArray`.
 
-Både `responseFieldArray` och `excludeFieldArray` anger fält genom att använda en nodsökväg som avgränsas med `/`. Om du till exempel anger att bara ska returnera namnet, det senaste ändringsdatumet och metadata för varje resurs, ska du referera till följande: `searchAssets`
+Både `responseFieldArray` och `excludeFieldArray` anger fält med en nodsökväg avgränsad med `/`. Om du till exempel anger att `searchAssets` bara returnerar namnet, det senaste ändringsdatumet och metadata för varje resurs, refererar du till följande:
 
 ```
 <responseFieldArray> 
@@ -94,16 +97,16 @@ Om du vill returnera alla fält (förutom behörigheter):
 </excludeFieldArray>
 ```
 
-Observera att nodsökvägarna är relativa till den returnerade nodroten. Om du anger ett komplext textfält utan något av dess underordnade element (till exempel `assetArray/items/imageInfo`), inkluderas alla dess underordnade element. Om du anger ett eller flera delelement i ett komplext typfält (till exempel `assetArray/items/imageInfo/originalPath`) inkluderas endast dessa delelement.
+Observera att nodsökvägarna är relativa till den returnerade nodroten. Om du anger ett komplext textfält utan något av dess underelement (till exempel `assetArray/items/imageInfo`) inkluderas alla dess underelement. Om du anger ett eller flera delelement i ett komplext typfält (till exempel `assetArray/items/imageInfo/originalPath`) inkluderas endast dessa delelement.
 
-Om du inte tar med `responseFieldArray` eller `excludeFieldArray` i en begäran returneras alla fält.
+Om du inte inkluderar `responseFieldArray` eller `excludeFieldArray` i en begäran, returneras alla fält.
 
 **Språk**
 
-Från och med IPS 4.0 har API:t för IPS stöd för att ställa in språkkontexten för en åtgärd genom att skicka parametern `authHeader` locale. Om parametern locale inte finns `Accept-Language` används HTTP-huvudet. Om den här rubriken inte heller finns kommer standardspråket för IPS-servern att användas.
+Sedan IPS 4.0 har IPS API stöd för att ställa in språkkontexten för en åtgärd genom att skicka parametern `authHeader` locale. Om parametern locale inte finns kommer HTTP-huvudet `Accept-Language` att användas. Om den här rubriken inte heller finns kommer standardspråket för IPS-servern att användas.
 
-Vissa åtgärder tar också explicita språkområdesparametrar, som kan skilja sig från åtgärdssammanhanget. Åtgärden tar till exempel en `submitJob` `locale` parameter som anger språkområdet som används för jobbloggning och e-postmeddelanden.
+Vissa åtgärder tar också explicita språkområdesparametrar, som kan skilja sig från åtgärdssammanhanget. Åtgärden `submitJob` tar till exempel en `locale`-parameter som anger språkinställningen som används för jobbloggning och e-postmeddelanden.
 
-Språkparametrar använder formatet `<language_code>[-<country_code>]`
+Språkparametrar har formatet `<language_code>[-<country_code>]`
 
-Om språkkoden är en gemen tvåbokstavskod som anges av ISO-639 och den valfria landskoden är en versal, tvåbokstavskod som specificeras av ISO-3266. Språksträngen för amerikansk engelska är till exempel `en-US`.
+Om språkkoden är en gemen tvåbokstavskod som anges av ISO-639 och den valfria landskoden är en versal, tvåbokstavskod som specificeras av ISO-3266. Den nationella strängen för amerikansk engelska är till exempel `en-US`.
