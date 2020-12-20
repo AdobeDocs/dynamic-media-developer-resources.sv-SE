@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 622dc7ca-55b8-4a82-b9a7-65588aee87d0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '196'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +28,7 @@ Välj Effektlager. Markerar ett effektlager och startar ett nytt lagersegment i 
  </tr> 
 </table>
 
-Alla kommandon i det nya segmentet används på det angivna effektlagret. Ett effektlagersegment avslutas av nästa `layer=` eller `effect=` kommandot eller av slutet av begäran.
+Alla kommandon i det nya segmentet används på det angivna effektlagret. Ett effektlagersegment avslutas av nästa `layer=`- eller `effect=`-kommando eller i slutet av begäran.
 
 *`n`* måste vara mindre än 0 för yttre lagereffekter (dvs. effekter bakom det överordnade lagret) och större än 0 för inre lagereffekter (dvs. effekter i det överordnade lagret). Effektlagrets nummer behöver inte följa på varandra.
 
