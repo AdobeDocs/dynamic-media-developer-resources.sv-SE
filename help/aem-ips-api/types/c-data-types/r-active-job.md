@@ -63,7 +63,7 @@ Ange ett jobbtypsvärde för att returnera jobbtypen. Du kan returnera följande
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
-   <td colname="col3">Ursprungligt namn på den <span class="codeph"> ActiveJob</span> -typ som skickades med jobbet. </td> 
+   <td colname="col3">Ursprungligt namn på typen <span class="codeph"> ActiveJob</span> som skickades med jobbet. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
@@ -83,7 +83,7 @@ Ange ett jobbtypsvärde för att returnera jobbtypen. Du kan returnera följande
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> locale</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
-   <td colname="col3">Språkinställningen för jobbloggsinformation och e-postlokalisering. <p>Ange nationella inställningar som <span class="codeph"> &lt;språkkod&gt;[-&lt;landskod&gt;]</span>, där språkkoden är en kod med två bokstäver och gemener enligt ISO-639, och den valfria landskoden är en kod med två bokstäver i gemener enligt ISO-3166. Den nationella strängen för engelska (USA) skulle till exempel vara: <span class="codeph"> en-US</span>. </p></td> 
+   <td colname="col3">Språkinställningen för jobbloggsinformation och e-postlokalisering. <p>Ange språkinställningar som <span class="codeph"> &lt;språkkod&gt;[-&lt;landskod&gt;]</span>, där språkkoden är en gemen tvåbokstavskod enligt ISO-639, och den valfria landskoden är en gemen tvåbokstavskod enligt ISO-3166. Den nationella strängen för engelska (USA) skulle till exempel vara: <span class="codeph"> en-US</span>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> description</span> </span> </td> 
