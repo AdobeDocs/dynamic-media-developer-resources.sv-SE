@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: ed446ebf-4a3d-4ee8-9ab3-596b1f05e5f4
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 0%
 
 ---
 
@@ -42,13 +45,13 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:sträng</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Handtaget till företaget som tillgångarna tillhör. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> typer:HandleArray</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Arrayen med resurser som ska tas bort. </p> </td> 
@@ -69,31 +72,31 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> successCount</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> successCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Antalet borttagna resurser. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningCount</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Resurserna som genererade en varning när åtgärden försökte ta bort dem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorCount</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Resurserna som genererade ett fel när åtgärden försökte ta bort dem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningDetailArray</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> typer:AssetOperationFaultArray</span> </p> </td> 
    <td colname="col3"> <p>Nej </p> </td> 
    <td colname="col4"> <p>Arrayen med information som är kopplad till resurserna som genererade en varning när åtgärden försökte ta bort dem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorDetailArray</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> typer:AssetOperationFaultArray</span> </p> </td> 
    <td colname="col3"> <p>Nej </p> </td> 
    <td colname="col4"> <p>Arrayen med information som är associerad med resurserna som genererade ett fel när åtgärden försökte ta bort dem. </p> </td> 
@@ -103,7 +106,7 @@ Syntax
 
 ## Exempel {#section-aaad1933bf86479eb6cb476cec7d4587}
 
-Det här kodexemplet skickar en referens till ett företag och en array med resurshanterare i en `deleteAssetsParam` begäran till webbtjänstservern. `deleteAssetsReturn` returnerar ett antal lyckade åtgärder på 2, vilket anger att båda resurserna togs bort.
+Det här kodexemplet skickar en referens till ett företag och en array med tillgångshandtag i en `deleteAssetsParam`-begäran till webbtjänstservern. `deleteAssetsReturn` returnerar ett antal lyckade åtgärder på 2, vilket anger att båda resurserna togs bort.
 
 **Begäran**
 
