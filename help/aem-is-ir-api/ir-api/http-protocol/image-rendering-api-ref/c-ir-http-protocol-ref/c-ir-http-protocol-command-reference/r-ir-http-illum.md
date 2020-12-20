@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 16c7144f-7f16-47d1-8140-fd679e702660
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '93'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ Väljare för illustrationsschema. Anger den belysningskarta som materialet ska 
 
 Om den angivna belysningskartan inte är tillgänglig i målvinjetteringen används den närmaste tillgängliga kartan i stället.
 
-`illum=-1` anger att belysningskartan väljs automatiskt baserat på `gloss=` värdet.
+`illum=-1` anger att belysningskartan väljs automatiskt baserat på  `gloss=` värdet.
 
 ## Egenskaper {#section-aace8466566e4cf1a0c5a6c0167245c9}
 
