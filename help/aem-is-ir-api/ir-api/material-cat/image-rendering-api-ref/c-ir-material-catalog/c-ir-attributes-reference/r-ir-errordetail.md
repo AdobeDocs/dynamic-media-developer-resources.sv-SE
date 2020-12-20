@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: aab11640-95d7-427d-b79f-c477b2c9047e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '180'
+ht-degree: 2%
 
 ---
 
@@ -26,7 +29,7 @@ Följande värden är tillåtna:
   <td class="stentry"> <p>Endast titel. Returnerar en kort allmän beskrivning av felet. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>1 </p></td> 
+  <td class="stentry"> <p>3 </p></td> 
   <td class="stentry"> <p>Kort meddelande. Reserverad för framtida bruk. Returnerar för närvarande samma information som 0. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -49,7 +52,7 @@ Uppräknat värde, måste vara 0, 1, 2 eller 3.
 
 ## Standard {#section-5e78d550050840cc9a1de811c581b94f}
 
-Ärvs från `default::ErrorDetail` om inget anges eller om det är tomt.
+Ärvs från `default::ErrorDetail` om det inte anges eller om det är tomt.
 
 ## Se även {#section-474e71922d194c7ca06f2aad3b30e025}
 
