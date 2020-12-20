@@ -8,17 +8,20 @@ topic: Dynamic media
 uuid: 04a042d8-7329-4f1d-b3b9-312d620b1f29
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '1298'
+ht-degree: 0%
 
 ---
 
 
-# Uppmaning{#call-to-action}
+# Call to action{#call-to-action}
 
 Panelen Anrop till åtgärd visas när videon avslutas och alla interaktiva färgrutor som är associerade med videon visas.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Panelen består av ett rubrikområde som visar videotiteln, en knapp för att spela upp i det övre högra hörnet och faktiska interaktiva färgrutor som visas som ett rullningsbart rutnät. Du kan inaktivera panelen med [konfigurationsattributet callToActionRecap](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-calltoactionrecap.md#reference-3720b68800684ddabf523e9d81644ce6) .
+Panelen består av ett rubrikområde som visar videotiteln, en knapp för att spela upp i det övre högra hörnet och faktiska interaktiva färgrutor som visas som ett rullningsbart rutnät. Du kan inaktivera panelen med konfigurationsattributet [callToActionRecap](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-calltoactionrecap.md#reference-3720b68800684ddabf523e9d81644ce6).
 
 Anropet till åtgärdspanelen tar alltid hela det tillgängliga visningsprogramområdet.
 
@@ -30,12 +33,12 @@ Följande CSS-klassväljare styr utseendet på bakgrundsfärgen i åtgärdspanel
 .s7interactivevideoviewer .s7calltoaction
 ```
 
-## CSS-egenskaper för bakgrundsfärgen för åtgärdspanelen {#css-properties-of-the-background-color-of-the-call-to-action-panel}
+## CSS-egenskaper för bakgrundsfärgen för anropet till åtgärdspanelen {#css-properties-of-the-background-color-of-the-call-to-action-panel}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Bakgrundsfärg för åtgärdspanelen. </p> </td> 
   </tr> 
  </tbody> 
@@ -59,20 +62,20 @@ Följande CSS-klassväljare styr utseendet på huvudet i åtgärdspanelen:
 .s7interactivevideoviewer .s7calltoaction .s7header
 ```
 
-## CSS-egenskaper för huvudet i åtgärdspanelen {#css-properties-of-the-call-to-action-panel-header}
+## CSS-egenskaper för anropet till åtgärdspanelens rubrik {#css-properties-of-the-call-to-action-panel-header}
 
 <table id="table_DAA1770AB3074845B5E1B700CD6FC18A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Rubrikens bakgrundsfärg. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Huvudets höjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-bottom  </span> </p> </td> 
    <td colname="col2"> <p>Rubrikens nedre kant. </p> </td> 
   </tr> 
  </tbody> 
@@ -103,31 +106,31 @@ Följande CSS-klassväljare styr utseendet på rubriktiteln i åtgärdspanelen:
 <table id="table_A5E36A5C4C664346B6DAE9A02B36C3D2"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> färg </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> färg  </span> </p> </td> 
    <td colname="col2"> <p> Textfärg inuti banderollen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Teckenstorlek. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> line-height  </span> </p> </td> 
    <td colname="col2"> <p>Radhöjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p> Teckensnittsfamilj. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> textjustering </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> textjustering  </span> </p> </td> 
    <td colname="col2"> <p>Textjustering i banderollen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-left  </span> </p> </td> 
    <td colname="col2"> <p>Utfyllnad till vänster. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> utfyllnad höger </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> utfyllnad höger  </span> </p> </td> 
    <td colname="col2"> <p> Högerutfyllnad som ger utrymme för knappen Spela upp. </p> </td> 
   </tr> 
  </tbody> 
@@ -159,11 +162,11 @@ Följande CSS-klassväljare styr utseendet på stängningsknappen i åtgärdspan
 <table id="table_CB0BCBE70DB447BC8D31034A96308924"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p>Placera längst upp i sidhuvudet, inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> höger </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> höger  </span> </p> </td> 
    <td colname="col2"> <p>Placera till höger om sidhuvudet, inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
@@ -171,15 +174,15 @@ Följande CSS-klassväljare styr utseendet på stängningsknappen i åtgärdspan
    <td colname="col2"> <p>Knappbredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p> Knapphöjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Bild som visas för ett visst knappläge. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p>Placera inuti teckningsspriten, om CSS-sprites används. </p> <p>Se <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-fragment </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -187,7 +190,7 @@ Följande CSS-klassväljare styr utseendet på stängningsknappen i åtgärdspan
 
 >[!NOTE]
 >
->Den här knappen har stöd för attributväljaren, som kan användas för att tillämpa olika skal på olika knapplägen. `state`
+>Den här knappen har stöd för attributväljaren `state`, som kan användas för att tillämpa olika skal på olika knapplägen.
 
 ## Exempel {#example-3}
 
@@ -231,7 +234,7 @@ Följande CSS-klassväljare styr utseendet på miniatyrrutnätet i åtgärdspane
 <table id="table_A0DDD21C84944D48A639F51FCC8DF065"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Bakgrundsfärg för miniatyrbildområdet. </p> </td> 
   </tr> 
  </tbody> 
@@ -260,8 +263,8 @@ Följande CSS-klassväljare styr utseendet på tumcellen i åtgärdspanelen:
 <table id="table_9CEBEF6FC7024F02840A581AEEF612B4"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal </span> </p> </td> 
-   <td colname="col2"> <p> Storlek på den vågräta och lodräta marginalen runt varje miniatyrbild. </p> <p>Faktiskt vågrätt miniatyrmellanrum är lika med summan av vänster och höger marginaluppsättning för <span class="codeph"> .s7miniatyrcell </span>. Samma regel gäller även för lodräta avstånd. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal  </span> </p> </td> 
+   <td colname="col2"> <p> Storlek på den vågräta och lodräta marginalen runt varje miniatyrbild. </p> <p>Faktiskt vågrätt avstånd för miniatyrbilder är lika med summan av vänster och höger marginaluppsättning för <span class="codeph"> .s7miniatyrcell </span>. Samma regel gäller även för lodräta avstånd. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -292,15 +295,15 @@ Följande CSS-klassväljare styr utseendet på miniatyrbilden i åtgärdspanelen
 <table id="table_ECD7477F4BE94BA8943210FA8B6B8D01"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Miniatyrens bredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Höjden på miniatyrbilden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
    <td colname="col2"> <p>Miniatyrens kantlinje. </p> </td> 
   </tr> 
  </tbody> 
@@ -308,7 +311,7 @@ Följande CSS-klassväljare styr utseendet på miniatyrbilden i åtgärdspanelen
 
 >[!NOTE]
 >
->Miniatyrbilden har stöd för attributväljaren, som kan användas för att tillämpa olika skal på olika miniatyrlägen. `state` motsvarar i synnerhet `state="selected"` miniatyrbilden för den markerade bilden, `state="default"` motsvarar resten av miniatyrbilderna, används `state="over"` vid hovring av musen.
+>Miniatyrbilden stöder attributväljaren `state`, som kan användas för att tillämpa olika skal på olika miniatyrlägen. `state="selected"` motsvarar i synnerhet miniatyrbilden för den markerade bilden; `state="default"` motsvarar resten av miniatyrbilderna; `state="over"` används vid hovring av musen.
 
 ## Exempel {#example-6}
 
@@ -334,19 +337,19 @@ Följande CSS-klassväljare styr utseendet på miniatyretiketten i åtgärdspane
 <table id="table_E2C9F21EBD9140FD9D20A4BBAD117E2F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> färg </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> färg  </span> </p> </td> 
    <td colname="col2"> <p> Etikettens textfärg. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> textjustering </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> textjustering  </span> </p> </td> 
    <td colname="col2"> <p>Etikettens vågräta justering. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Teckensnittsnamn. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Teckensnittsfamilj. </p> </td> 
   </tr> 
  </tbody> 
@@ -380,19 +383,19 @@ Följande CSS-klassväljare styr utseendet på rullningslistområdet i åtgärds
 <table id="table_6D3A4A68BFDB44259A6E2E632B9195F3"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p> Bredd på rullningslist. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p>Lodrät rullningslist förskjutning från miniatyrbildernas övre del. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> nederkant </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> nederkant  </span> </p> </td> 
    <td colname="col2"> <p>Lodrät förskjutning av rullningslisten från miniatyrbildernas nedre del. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> höger </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> höger  </span> </p> </td> 
    <td colname="col2"> <p> Vågrät förskjutning av rullningslist från miniatyrbildernas högra kant. </p> </td> 
   </tr> 
  </tbody> 
@@ -426,11 +429,11 @@ Följande CSS-klassväljare styr utseendet på rullningslistens spår i åtgärd
 <table id="table_7A7D40C332F4461FAAC623196C00D5A8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Bredd på rullningsspårets list. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Bakgrundsfärg för spårfältet. </p> </td> 
   </tr> 
  </tbody> 
@@ -462,35 +465,35 @@ Följande CSS-klassväljare styr utseendet på tumhöjden och andra proportioner
 <table id="table_1F39948FC3924FA4B7F851B65B2D860B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Tummans bredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Höjd på tummen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-top  </span> </p> </td> 
    <td colname="col2"> <p>Lodrät utfyllnad mellan spårets överkant. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-bottom  </span> </p> </td> 
    <td colname="col2"> <p>Lodrät utfyllnad mellan spårets nederkant. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p>Kantradie. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Tummans färg. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Bild som visas för ett givet tumläge. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Placera inuti en teckningssprite, om CSS-sprites används. </p> <p>Se <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-fragment </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -498,7 +501,7 @@ Följande CSS-klassväljare styr utseendet på tumhöjden och andra proportioner
 
 >[!NOTE]
 >
->Tummen har stöd för attributväljaren, som kan användas för att tillämpa olika skal på följande olika tumlägen: `state` `"up"`, `"down"`, `"over"`och `"disabled"`.
+>Tummen har stöd för attributväljaren `state`, som kan användas för att tillämpa olika skal på följande olika tumlägen: `"up"`, `"down"`, `"over"` och `"disabled"`.
 
 ## Exempel {#example-10}
 
@@ -531,19 +534,19 @@ Det är inte möjligt att placera rullningsknappar med CSS-egenskaperna top, lef
 <table id="table_FE17D19E0545424EADB0256524361359"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p> Knappens bredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Knappens höjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Bild som visas för ett visst knappläge. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Placera inuti en teckningssprite, om CSS-sprites används. </p> <p>Se <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-fragment </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -551,9 +554,9 @@ Det är inte möjligt att placera rullningsknappar med CSS-egenskaperna top, lef
 
 >[!NOTE]
 >
->Dessa knappar har stöd för attributväljaren, som kan användas för att tillämpa olika skal på följande olika tumlägen: `state` `"up"`, `"down"`, `"over"`och `"disabled"`.
+>Dessa knappar har stöd för attributväljaren `state`, som kan användas för att tillämpa olika skal på följande olika tumlägen: `"up"`, `"down"`, `"over"` och `"disabled"`.
 
-Knappverktygstipsen kan lokaliseras. Se [Lokalisering av element](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)i användargränssnittet.
+Knappverktygstipsen kan lokaliseras. Se [Lokalisering av element i användargränssnittet](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 ## Exempel {#example-11}
 
