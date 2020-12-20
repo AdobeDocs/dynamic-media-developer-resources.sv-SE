@@ -1,18 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Innehållsförteckning.hållning
+seo-title: TableOfContents.bearing
 solution: Experience Manager
-title: Innehållsförteckning.hållning
+title: TableOfContents.bearing
 topic: Dynamic media
 uuid: 832ebacf-d57f-4efa-ab1a-6a454f7c7a32
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '159'
+ht-degree: 0%
 
 ---
 
 
-# Innehållsförteckning.hållning{#tableofcontents-bearing}
+# TableOfContents.bearing{#tableofcontents-bearing}
 
 [!DNL `[TableOfContents.|<containerId>_tableOfContents.]bearing=[fit-lateral|fit-vertical][, *`autoHideDelay`*]`]
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> fit-ateral|fit-vertikal</span> </p> </td> 
-   <td> <p> Styr riktningen på den nedrullningsbara panelens utseende. </p> <p>När den är inställd på <span class="codeph"> justerad lodrät</span>flyttar komponenten först baspanelens position till nederkanten av dess knapp och försöker rulla ut panelen antingen till höger eller till vänster från basplatsen. För varje försök kontrollerar komponenten om panelen har klippts av en extern behållare. Om alla försök misslyckas försöker komponenten att flytta baspanelens position uppåt och upprepa utrullningsförsök i höger och vänster riktning. </p> <p>När den är inställd på <span class="codeph"> "fit-ateral</span>" använder komponenten en liknande logik, men flyttar basen till höger först och försöker upp och ned i riktningen. Sedan flyttas basen åt vänster och leder nedåt och uppåt. </p> </td> 
+   <td> <p> Styr riktningen på den nedrullningsbara panelens utseende. </p> <p>När den är inställd på <span class="codeph"> fit-vertical</span> flyttar komponenten först baspanelspositionen till nederkanten av knappen och försöker rulla ut panelen antingen till höger eller till vänster från basplatsen. För varje försök kontrollerar komponenten om panelen har klippts av en extern behållare. Om alla försök misslyckas försöker komponenten att flytta baspanelens position uppåt och upprepa utrullningsförsök i höger och vänster riktning. </p> <p>När den är inställd på <span class="codeph"> fit-ateral</span>, använder komponenten en liknande logik, men flyttar basen till höger först och provar i riktningarna nedåt och uppåt. Sedan flyttas basen åt vänster och leder nedåt och uppåt. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> autoHideDelay</span></span> </p> </td> 
