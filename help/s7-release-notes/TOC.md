@@ -10,6 +10,9 @@ archtype: end-user
 user-guide: null
 translation-type: tm+mt
 source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
+workflow-type: tm+mt
+source-wordcount: '99'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
 
 + [Dynamic Media Developer Resources - startsida](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
 + [Senaste versionsinformation](s7rn2017.md)
-+ Arkiv {#archive-release-notes}
++ Arkivera {#archive-release-notes}
    + [Scene7 hösten 2016](s7rnfall2016.md)
    + [Versionsinformation om Scene7 Publishing System 6.10 (maj 2015)](s7rn610.md)
    + [Versionsinformation om Scene7 Publishing System 6.9 (oktober 2014)](s7rn69.md)
