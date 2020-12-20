@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 572ad63b-e3b1-478a-b3b3-2cba0b3413d6
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '97'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Dominerande bildfärg. Subtraktiv färg, används för texturfärgning. Bör vara den genomsnittliga dominerande färgen i texturbilden.
 
-Du kan också använda `BaseColor`som fyllningsfärg om ett texturmaterial som inte har något `catalog::Color` används på ett vinjetteringsobjekt som inte är texturerbart.
+Du kan också använda `BaseColor`som fyllningsfärg om ett texturmaterial som inte har `catalog::Color` används på ett vinjetteringsobjekt som inte kan struktureras.
 
 ## Egenskaper {#section-d9aec235f28b402581cf2277f5fc6fbb}
 
