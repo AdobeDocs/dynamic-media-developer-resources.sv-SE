@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 9044515e-7cfb-4e86-9ac4-e071b60f38d1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '438'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Spelningsloggverktyget kan användas för att förgenerera innehåll för HTTP-s
 
 Den befintliga Image Serving HTTP-svarscachen är inte garanterat användbar efter en större versionsuppgradering (när den första eller andra siffran i versionsnumret ändras). Om servern ska tas direkt in i fulladdningsförhållanden efter uppgraderingen kan servern bli överbelastad med de första timmarna av cacheminnesbegäranden tills cacheminnet är någorlunda ifyllt och cachens träffhastighet ökar.
 
-För att undvika den här inledande inläsningen kan `playlog` verktyget användas för att förgenerera innehåll för HTTP-svarscachen. `playlog` extraherar HTTP-begäranden från en befintlig åtkomstloggfil och skickar den till servern för att generera cacheposter. För vanliga användningsscenarier räcker det att spela upp en enda åtkomstloggfil som innehåller trafikens hela dag.
+För att undvika den här inledande inläsningsökningen kan verktyget `playlog` användas för att förgenerera innehåll för HTTP-svarscachen. `playlog` extraherar HTTP-begäranden från en befintlig åtkomstloggfil och skickar den till servern för att generera cacheposter. För vanliga användningsscenarier räcker det att spela upp en enda åtkomstloggfil som innehåller trafikens hela dag.
 
 Förutom att fylla i HTTP-svarscachen efter uppgraderingsinstallationer, används verktyget även för att förgenerera cacheinnehåll när en ny server läggs till i en belastningsutjämnad miljö. spela bara upp en nyligen använd loggfil från en av de andra servrarna.
 
@@ -30,39 +33,39 @@ Förutom att fylla i HTTP-svarscachen efter uppgraderingsinstallationer, använd
 
 <table id="simpletable_39B9638BCB0F4244B5155C958C044C31"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> -p <span class="varname"> prefix </span></span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -p  <span class="varname"> prefix  </span> </span> </p> </td> 
   <td class="stentry"> <p>Rot-URL som ska användas som prepend för begäranden som extraheras från loggfilen. </p> <p>Standard: <span class="filepath"> http://localhost:8080/is </span>) </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> -n <span class="varname"> kol </span></span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -n  <span class="varname"> col  </span> </span> </p> </td> 
   <td class="stentry"> <p>Fältnummer (kolumn) som innehåller begäran i loggposten. 1-baserad. </p> <p>Standard: 16 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> -s <span class="varname"> separator </span></span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -s  <span class="varname"> avgränsare  </span> </span> </p> </td> 
   <td class="stentry"> <p>Fältavgränsare; reguljärt uttrycksmönster. </p> <p>Standard: <span class="codeph"> [ ]+ </span>) </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> -m <span class="varname"> markör </span></span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -m  <span class="varname"> markör  </span> </span> </p> </td> 
   <td class="stentry"> <p>Markör för begäran. identifierar förfrågningar i loggfilen som ska spelas upp, reguljärt uttrycksmönster. </p> <p>Standard: <span class="codeph"> Begäran: </span>) </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> -x <span class="varname"> suffix </span></span> </p> </td> 
-  <td class="stentry"> <p>Tillägg till den begäran som extraherats ur loggfilen. kan användas för att skilja uppspelade begäranden från live-begäranden i loggfilerna, a '?' eller '&amp;'-avgränsare infogas automatiskt, suffixet kan referera till valfritt loggfält efter position inom klammerparentes, standardvärdet motsvarar signaturfältet i md5. </p> <p>Standard: <span class="codeph"> playlog={25} </span>) </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -x  <span class="varname"> suffix  </span> </span> </p> </td> 
+  <td class="stentry"> <p>Tillägg till den begäran som extraherats ur loggfilen. kan användas för att skilja uppspelade begäranden från live-begäranden i loggfilerna, a '?' eller '&amp;'-avgränsare infogas automatiskt, suffixet kan referera till valfritt loggfält efter position inom klammerparentes, standardvärdet motsvarar signaturfältet md5. </p> <p>Standard: <span class="codeph"> playlog={25} </span>) </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> -v </span> </p> </td> 
-  <td class="stentry"> <p>I detaljerat läge skrivs de genererade begärande-URL:erna ut till <span class="codeph"> stdout </span>. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -v  </span> </p> </td> 
+  <td class="stentry"> <p>I detaljerat läge skrivs de genererade URL:erna för begäran ut till <span class="codeph"> stdout </span>. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> -h </span> </p> </td> 
-  <td class="stentry"> <p>Skriv ut en sammanfattning som ska <span class="codeph"> stoppas </span>. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -h  </span> </p> </td> 
+  <td class="stentry"> <p>Skriv ut en synkronisering till <span class="codeph"> stdout </span>. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> -r </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -r  </span> </p> </td> 
   <td class="stentry"> <p>request-method - HTTP-begärandemetod som ska användas ( <span class="codeph"> get|post|head|smart </span>). </p> <p>Standard: <span class="codeph"> smart </span>) </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> -o </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -o  </span> </p> </td> 
   <td class="stentry"> <p>request-method-pos - pos in log file to capture original method from. </p> <p>Standard: 15 </p> </td> 
  </tr> 
 </table>
