@@ -49,7 +49,7 @@ Systemkrav för HTML5-visningsprogram.
 
 >[!NOTE]
 >
->Från och med 30 september 2018 upphör stödet för TLS 1.0 (Transport Layer Security 1.0) i Adobe Dynamic Media Classic Viewer. Dynamic Media Classic har därför inte längre stöd för visningsprogram i följande webbläsare och/eller på plattformar som stöder TLS 1.0. (Adobe Systems rekommenderar användning av TLS 1.2 eller senare.)
+>Från och med 30 september 2018 upphör stödet för TLS 1.0 (Transport Layer Security 1.0) i Adobe Dynamic Media Classic Viewer. Därför stöder inte Dynamic Media Classic längre visningsprogram i följande webbläsare och/eller på plattformar som stöder TLS 1.0. (Adobe Systems rekommenderar att du använder TLS 1.2 eller senare.)
 
 * Android 2.3.7
 * Android 4.0.4
@@ -71,6 +71,6 @@ Systemkrav för HTML5-visningsprogram.
 
 >[!NOTE]
 >
->FLASH VIEWERS END-OF-Life - Från och med den 31 januari 2017 upphörde Adobe Scene7 Publishing System officiellt med stöd för Flash-visningsprogrammets plattform. Mer information om den här viktiga ändringen finns på följande webbplats med vanliga frågor och svar:
+>FLASH VIEWERS END-OF-Life - Från och med den 31 januari 2017 upphörde Adobe Scene7 Publishing System officiellt med stöd för visningsprogrammet för Flash. Mer information om den här viktiga ändringen finns på följande webbplats med vanliga frågor och svar:
 
 [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
