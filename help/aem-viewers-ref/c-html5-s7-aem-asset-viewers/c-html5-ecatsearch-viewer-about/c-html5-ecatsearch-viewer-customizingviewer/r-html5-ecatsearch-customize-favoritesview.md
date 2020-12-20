@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e9d0380e-3b08-45e4-8419-447df2e8de37
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '293'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +34,7 @@ Positionen och höjden på vyn Favoriter hanteras av vyn. i CSS är det bara mö
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Bakgrundsfärg i vyn Favoriter. </p> </td> 
   </tr> 
   <tr> 
@@ -61,7 +64,7 @@ Avståndet mellan Favoriter-miniatyrbilder styrs med följande CSS-klassväljare
 <table id="table_EED8CE63D805458196DE0E87C7E9945F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal  </span> </p> </td> 
    <td colname="col2"> <p> Storleken på den lodräta marginalen runt varje miniatyrbild. Det faktiska mellanrummet för miniatyrbilder är lika med summan av den övre och nedre marginalen som är inställd för <span class="codeph"> .s7miniatyrcell </span>. </p> </td> 
   </tr> 
  </tbody> 
@@ -86,15 +89,15 @@ Utseendet på enskilda miniatyrbilder styrs med följande CSS-klassväljare:
 <table id="table_6F5B1438CAFA49E9B33400C6970ABDA1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Miniatyrens bredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Höjden på miniatyrbilden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
    <td colname="col2"> <p>Miniatyrens kantlinje. </p> </td> 
   </tr> 
  </tbody> 
@@ -102,7 +105,7 @@ Utseendet på enskilda miniatyrbilder styrs med följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Miniatyrbilden har stöd för attributväljaren, som kan användas för att tillämpa olika skal på olika miniatyrlägen. `state` Motsvarar i synnerhet den miniatyrbild som användaren nyligen har valt `state="selected"` . `state="default"` motsvarar resten av miniatyrbilderna. Och `state="over"` används vid hovring med musen.
+>Miniatyrbilden stöder attributväljaren `state`, som kan användas för att tillämpa olika skal på olika miniatyrlägen. `state="selected"` motsvarar i synnerhet den miniatyrbild som nyligen valts av användaren. `state="default"` motsvarar resten av miniatyrbilderna. Och `state="over"` används vid mushovring.
 
 Exempel - Om du vill ställa in miniatyrbilder som är 75 x 75 pixlar har du en ljusgrå standardkant och en mörkgrå markerad kant.
 
@@ -130,11 +133,11 @@ Utseendet på miniatyrbildetiketten styrs av följande CSS-klassväljare:
 <table id="table_B41339A16ACB46CB87D3EB1FD05FA2CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Teckensnittsnamn. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Teckenstorlek. </p> </td> 
   </tr> 
  </tbody> 
