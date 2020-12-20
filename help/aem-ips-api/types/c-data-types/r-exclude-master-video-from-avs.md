@@ -33,7 +33,7 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> true|false</span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolesk</span> </td> 
-   <td colname="col3"> <p>Utesluter huvudvideofilen från den adaptiva videouppsättningen. </p> <p>Standardvärdet är true. </p> </td> 
+   <td colname="col3"> <p>Utesluter den överordnad videofilen från den adaptiva videouppsättningen. </p> <p>Standardvärdet är true. </p> </td> 
   </tr> 
  </tbody> 
 </table>
