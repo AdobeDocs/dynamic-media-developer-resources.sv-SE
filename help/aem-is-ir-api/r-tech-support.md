@@ -19,6 +19,6 @@ ht-degree: 0%
 
 Använd följande för att kontakta teknisk support.
 
-* **Telefon** - 020-810 329, måndag till fredag, utom helgdagar.
-* **Skapa ett supportärende** - [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+* **Telefon** - 800-898-9743, måndag till fredag, utom helgdagar.
+* **Skapa ett supportärende**  -  [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 
