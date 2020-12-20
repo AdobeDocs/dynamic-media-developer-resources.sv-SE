@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 25f228c2-dc03-461a-aee8-40fdb3d4cf5e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '416'
+ht-degree: 0%
 
 ---
 
@@ -18,9 +21,9 @@ Skapa ett&quot;pappersprogram&quot;.
 
 En bakgrundsbild innehåller fotot av en modell eller mannequin. Ytterligare poster i bildkatalogen innehåller olika kläder och tillbehör, som fotograferats för att passa skyltdockan i form och storlek.
 
-Alla kläder-/tillbehörsfoton maskeras och beskärs till markeringsramen för masken för att minimera bildstorlekarna. Fästpunkter och upplösningar styrs noga för att bibehålla justeringen mellan lagren och bakgrundsbilden, och alla bilder läggs till i en bildkatalog med rätt värden lagrade i `catalog::Resolution` och `catalog::Anchor`.
+Alla kläder-/tillbehörsfoton maskeras och beskärs till markeringsramen för masken för att minimera bildstorlekarna. Bildankarpunkter och upplösningar styrs noga för att bibehålla justeringen mellan lagren och bakgrundsbilden, och alla bilder läggs till i en bildkatalog med rätt värden lagrade i `catalog::Resolution` och `catalog::Anchor`.
 
-Förutom lagerhantering vill vi också ändra färgen för markerade objekt. Posterna för dessa objekt förbearbetas för att ta bort den ursprungliga färgen och justera intensiteten och kontrasten på ett sätt som passar kommandot för färgläggning. Den här förbearbetningen kan göras offline med ett bildredigeringsverktyg som Photoshop, eller så kan den göras trivialt genom att lägga till `op_brightness=` och `op_contrast=` till `catalog::Modifier`fältet.
+Förutom lagerhantering vill vi också ändra färgen för markerade objekt. Posterna för dessa objekt förbearbetas för att ta bort den ursprungliga färgen och justera intensiteten och kontrasten på ett sätt som passar kommandot för färgläggning. Den här förbearbetningen kan göras offline med ett bildredigeringsverktyg som Photoshop, eller i enkla fall kan den göras trivialt genom att lägga till `op_brightness=` och `op_contrast=` i `catalog::Modifier`fältet.
 
 Det här programmet kräver ingen separat mall eftersom alla objekt redan är korrekt justerade med sina bildsankarpunkter ( `catalog::Anchor`) och skalade ( `catalog::Resolution`). Vi överlåter det till kunden för att säkerställa lämplig lagerordning.
 
@@ -42,9 +45,9 @@ Det spelar ingen roll vilken upplösning som anges för varje lager, så länge 
 
 Kommandona `res=` kan utelämnas om alla källbilder har samma upplösning i full skala (vilket troligen är fallet för den här typen av program).
 
-Du måste ange `rootId` värdet för alla `src=` kommandon, även om de är samma som det `rootId` som anges i URL-sökvägen.
+`rootId` måste anges för alla `src=`-kommandon, även om de är samma som `rootId` som anges i URL-sökvägen.
 
-Om ingen bildkatalog ska användas går det inte att använda en upplösningsbaserad skalningsmetod. I det här fallet måste explicita skalfaktorer beräknas för varje lagerobjekt, baserat på förhållandet mellan `catalog::Resolution` värdena för varje lager och `catalog::Resolution` värdet för bakgrundslagret. Sammansättningsbegäran (med färre lager) kan därför se ut så här:
+Om ingen bildkatalog ska användas går det inte att använda en upplösningsbaserad skalningsmetod. I det här fallet måste explicita skalningsfaktorer beräknas för varje lagerobjekt, baserat på förhållandet mellan `catalog::Resolution`-värdena för varje lager och `catalog::Resolution`-värdet för bakgrundslagret. Sammansättningsbegäran (med färre lager) kan därför se ut så här:
 
 ```
 http://server/myApp/mannequin.tif?&hei=400&qlt=90&
