@@ -1,6 +1,6 @@
 ---
-description: Hämtar ett XMP-metadatapaket för den angivna resursen.
-seo-description: Hämtar ett XMP-metadatapaket för den angivna resursen.
+description: Hämtar ett XMP metadatapaket för den angivna resursen.
+seo-description: Hämtar ett XMP metadatapaket för den angivna resursen.
 seo-title: getXMPPacket
 solution: Experience Manager
 title: getXMPPacket
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: c4b40e76-a459-4036-ace2-8df202305bf9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '79'
+ht-degree: 0%
 
 ---
 
 
 # getXMPPacket{#getxmppacket}
 
-Hämtar ett XMP-metadatapaket för den angivna resursen.
+Hämtar ett XMP metadatapaket för den angivna resursen.
 
 Syntax
 
@@ -35,13 +38,13 @@ Syntax
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | Ja | Företagshandtaget för det paket som du vill returnera (t.ex. `c|656`). |
-| ` *`assetHandle`*` | `xsd:string` | Ja | Resursen som XMP-paketet ska hämtas för. |
+| ` *`assetHandle`*` | `xsd:string` | Ja | Resursen som XMP ska hämtas för. |
 
 **Utdata (getXMPPacketReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`compressedPacket`*` | `xsd:Base 64 binary` | Ja | [!DNL zlib-compressed] XMP-paket. |
+| ` *`compressedPacket`*` | `xsd:Base 64 binary` | Ja | [!DNL zlib-compressed] XMP. |
 
 ## Exempel {#section-d681af49122e4ca9bcd04110a2e98e6f}
 
