@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 4d9d161e-e39b-4607-9fb1-9dbfb06d7704
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '72'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> Anger det bildformat som används av komponenten för att läsa in bilder från Image Server. Formatet är ett värde som stöds av Image Server och klientens webbläsare. </p> <p>Om bildformatet slutar med <span class="codeph"> -alpha</span>återges bilderna som genomskinligt innehåll av komponenten. För alla andra bildformatsvärden behandlas bilderna som ogenomskinliga. </p> </td> 
+   <td colname="col2"> <p> Anger det bildformat som används av komponenten för att läsa in bilder från Image Server. Formatet är ett värde som stöds av Image Server och klientens webbläsare. </p> <p>Om bildformatet slutar med <span class="codeph"> -alpha</span> återges bilderna som genomskinligt innehåll av komponenten. För alla andra bildformatsvärden behandlas bilderna som ogenomskinliga. </p> </td> 
   </tr> 
  </tbody> 
 </table>
