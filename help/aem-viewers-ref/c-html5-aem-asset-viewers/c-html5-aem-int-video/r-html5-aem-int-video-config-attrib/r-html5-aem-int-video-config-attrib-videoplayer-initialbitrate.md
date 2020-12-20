@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 251ab7d2-a0b5-4658-a2b8-6b39dd93dd5b
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '117'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ Konfigurationsattribut för Interactive Video Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> value</span> </p> </td> 
-   <td colname="col2"> <p> Anger den videobithastighet (i kbit/s eller kbit/s) som används för den första videouppspelningen på en dator. </p> <p>Om det här bithastighetsvärdet inte finns i den adaptiva videouppsättningen startar videospelaren med videon som har den näst lägre bithastigheten. </p> <p>Om värdet är <span class="codeph"> 0</span> startar videospelaren från den lägsta möjliga bithastigheten. </p> <p>Gäller endast för system som inte har inbyggt stöd för HTML5 HLS-video (till exempel webbläsarna Firefox, Chrome och Internet Explorer 11 i Windows 10) och när uppspelningsläget är inställt på auto. </p> </td> 
+   <td colname="col2"> <p> Anger den videobithastighet (i kbit/s eller kbit/s) som används för den första videouppspelningen på en dator. </p> <p>Om det här bithastighetsvärdet inte finns i den adaptiva videouppsättningen startar videospelaren med videon som har den näst lägre bithastigheten. </p> <p>Om <span class="codeph"> 0</span> anges startar videospelaren från den lägsta möjliga bithastigheten. </p> <p>Gäller endast för system som inte har inbyggt stöd för HTML5 HLS-video (till exempel webbläsarna Firefox, Chrome och Internet Explorer 11 i Windows 10) och när uppspelningsläget är inställt på auto. </p> </td> 
   </tr> 
  </tbody> 
 </table>
