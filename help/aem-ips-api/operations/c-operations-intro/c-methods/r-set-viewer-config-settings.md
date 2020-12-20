@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: d83d866e-9243-479f-9b33-727aad8158e5
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +38,7 @@ Syntax
 | ` *`assetHandle`*` | `xsd:string` | Ja | Resurshandtag. |
 | ` *`name`*` | `xsd:string` | Ja | Resursnamn. |
 | ` *`type`*` | `xsd:string` | Ja | Den typ av resurs som du vill använda visningsprogramkonfigurationen på. |
-| ` *`configSettingArray`*` | `types:ConfigSettingArray` | Ja | Arrayen med `ConfigSettings` som används för resursen. |
+| ` *`configSettingArray`*` | `types:ConfigSettingArray` | Ja | Arrayen `ConfigSettings` som används för resursen. |
 
 **Utdata (setViewerConfigSettingsParam)**
 
