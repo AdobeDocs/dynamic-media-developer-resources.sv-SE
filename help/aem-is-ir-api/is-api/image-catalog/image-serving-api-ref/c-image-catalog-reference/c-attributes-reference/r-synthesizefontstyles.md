@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: f1c67490-7f14-4a6c-a7ba-5a476231ef34
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '156'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +29,7 @@ Flagga. Ange 0 om du vill inaktivera och 1 om du vill aktivera syntetiska tecken
 
 ## Standard {#section-71f94aa65e404d14b441674c040b59e3}
 
-Ärvs från `default::SynthesizeFontStyles` om inte definierad eller om tom.
+Ärvs från `default::SynthesizeFontStyles` om det inte är definierat eller om det är tomt.
 
 ## Se även {#section-47a79659cc844272b6d5f36c946e12ac}
 
