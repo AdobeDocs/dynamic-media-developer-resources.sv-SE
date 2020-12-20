@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: e67b6dd2-2a78-4014-9525-816d91c9e783
 translation-type: tm+mt
 source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
+workflow-type: tm+mt
+source-wordcount: '573'
+ht-degree: 0%
 
 ---
 
@@ -16,11 +19,11 @@ source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
 
 Image Serving innehåller flera alternativ för att återge text, som du kan använda med kommandona text= och textPs=.
 
-`textPs=` ger hög likhet med text som återges med Adobe Photoshop och Illustrator. `text=` är rimligen kompatibelt med text som återges med Windows Wordpad.
+`textPs=` ger en hög grad av likhet med text som återges med Adobe Photoshop och Illustrator. `text=` är rimligen kompatibelt med text som återges med Windows Wordpad.
 
 >[!NOTE]
 >
->Förutom de skillnader som finns listade någon annanstans, `text=` skapas subtila skillnader i den återgivna texten när den jämförs med `textPs=`. Understrykningar har till exempel inte samma tjocklek och position och syntetiserad kursiv återgivning visas i en något annorlunda vinkel. Om texten inte får plats i det tillgängliga utrymmet kan den sista raden beskäras delvis, medan hela rader endast `text=` `textPs=` återges.
+>Förutom de skillnader som anges på andra ställen skapar `text=` subtila skillnader i den återgivna texten när den jämförs med `textPs=`. Understrykningar har till exempel inte samma tjocklek och position och syntetiserad kursiv återgivning visas i en något annorlunda vinkel. Om texten inte får plats i det tillgängliga utrymmet kan `text=` delvis beskära den sista raden, medan `textPs=` bara återger hela rader.
 
 Alla textkommandon accepterar formaterad text som är baserad på en delmängd av RTF-specifikationen (Rich Text Format). Varje textlager kan ange ett eget textkommando.
 
@@ -147,13 +150,13 @@ I följande tabell visas de viktigaste funktionerna för varje textkommando:
  </tbody> 
 </table>
 
-RTF-kompatibla strängar kan sättas samman manuellt eller genom att formatera texten i en textredigerare eller ordbehandlare som kan spara RTF-filer. RTF-filen kan sedan öppnas i en vanlig textredigerare och det aktuella RTF-innehållet i filen kopieras till begärande-URL:en.
+RTF-kompatibla strängar kan sättas samman manuellt eller genom att formatera texten i en textredigerare eller ordbehandlare som kan spara RTF-filer. RTF-filen kan sedan öppnas i en vanlig textredigerare och det aktuella RTF-råinnehållet i filen kopieras till begärande-URL:en.
 
-Vissa ordbehandlare genererar ganska stora filer, som innehåller viktiga preambler som inte används av Scene7 Image Serving. Vi rekommenderar att du tar bort oanvända RTF-element från strängen innan du skickar strängen till textkommandona.
+Vissa ordbehandlare genererar ganska stora filer, som innehåller viktiga preamultiplikationer som inte används av Scene7 Image Serving. Vi rekommenderar att du tar bort oanvända RTF-element från strängen innan du skickar strängen till textkommandona.
 
 Språkkodning som bygger på UTF-8 och ISO-standarder stöds i RTF-strängar som ett alternativ till de vanliga RTF-teckenkodningsmekanismerna. Detta gör att program kan skicka icke-engelsk text till servern utan att känna till RTF-kodning.
 
-Alla tecken som inte är HTTP-kompatibla måste escape-konverteras om strängen ska skickas via http. Endast &#39;=&#39;, &#39;&amp;&#39; och &#39;%&#39; behöver escape-konverteras om strängen är inkluderad i `catalog::Modifiers` fältet i en bildkatalogpost. Kontrolltecken, inklusive `<CR>`, `<LF>`och `<TAB>` ska alltid tas bort.
+Alla tecken som inte är HTTP-kompatibla måste escape-konverteras om strängen ska skickas via http. Endast &#39;=&#39;, &#39;&amp;&#39; och &#39;%&#39; behöver escape-konverteras om strängen är inkluderad i fältet `catalog::Modifiers` i en bildkatalogspost. Kontrolltecken som `<CR>`, `<LF>` och `<TAB>` ska alltid tas bort.
 
 Textmotorerna i Image Serving tolkar en deluppsättning kommandon som definieras av RTF-specifikationen (Rich Text Format), version 1.6. Den här delmängden fokuserar på teckensnitt-/teckenformatering, enkel styckeformatering och stöd för internationella teckensnitt och teckenuppsättningar. Mer avancerade formateringskonstruktioner, som formatmallar och tabeller, stöds inte för närvarande.
 
