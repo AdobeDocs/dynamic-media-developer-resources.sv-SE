@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: e4314348-2160-4775-a02f-b4892924f064
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '224'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Hämtar information om en företagsjobblogg.
 
-Svarsfältet `logMessage` lokaliseras baserat på `authHeader``locale` fältet.
+Svarsfältet `logMessage` är lokaliserat baserat på `authHeader` `locale`-fältet.
 
 ## Auktoriserade användartyper {#section-6f720a7baad64eb3805868c88af9a960}
 
@@ -44,49 +47,49 @@ Svarsfältet `logMessage` lokaliseras baserat på `authHeader``locale` fältet.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Referensen till företaget som jobbloggen tillhör. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> En referens till ett aktivt eller slutfört jobb. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> Jobbloggens ursprungliga namn. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> logTypeArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> logTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:StringArray</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> En eller flera loggtypskonstanter. Om sådana finns returneras endast de angivna loggtyperna. Som standard returneras alla loggtyper. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> recordsPerPage</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Nej </td> 
-   <td colname="col4">Maximalt antal <span class="codeph"> detailArray</span> -objekt som ska returneras. Det högsta och standardvärdet är 1 000. </td> 
+   <td colname="col4">Maximalt antal <span class="codeph"> detailArray</span> objekt som ska returneras. Det högsta och standardvärdet är 1 000. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Nej </td> 
-   <td colname="col4">Sidnummer för <span class="codeph"> posterPerPage</span>-resultat som ska returneras. Standardvärdet är 1. </td> 
+   <td colname="col4">Sidnummer för <span class="codeph"> recordsPerPage</span>-results att returnera. Standardvärdet är 1. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> sortera efter</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> <p>Ett av jobbdetaljfältets konstantvärden för sorteringsfält (datum eller loggtyp). Standardvärdet är Datum. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> sortDirection</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> sortDirection</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> <p>En av strängkonstanterna för sorteringsriktning. Standardvärdet är stigande. </p> </td> 
