@@ -8,19 +8,22 @@ topic: Dynamic media
 uuid: 16a0ca99-1ed5-4f1d-b068-55adc46fde0b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '98'
+ht-degree: 1%
 
 ---
 
 
 # FlyoutZoomView.tip{#flyoutzoomview-tip}
 
-` [FlyoutZoomView.|<containerId>_flyout.]tip= *`durationcountfade`*[, *``*][, *``*]`
+` [FlyoutZoomView.|<containerId>_flyout.]tip= *`durationcountfade `*[, *``*][, *``*]`
 
 <table id="table_E314540D347D47699C04EB80D20C0721"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> varaktighet</span></span> </p> </td> 
-   <td colname="col2"> <p> Anger antalet sekunder som spetstexten visas innan den döljs. Om värdet är <span class="codeph"> -1</span>visas alltid meddelandet, även om användaren aktiverar den utfällbara menyn. </p> </td> 
+   <td colname="col2"> <p> Anger antalet sekunder som spetstexten visas innan den döljs. När det är inställt på <span class="codeph"> -1</span> visas alltid meddelandet, även om användaren aktiverar den utfällbara menyn. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> antal</span></span> </p> </td> 
@@ -28,7 +31,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> tona</span></span> </p> </td> 
-   <td colname="col2"> Anger varaktigheten för en tonad animering som inträffar när texten visas eller försvinner. Värdet <span class="codeph"> 0</span> anger ingen tonad övergång. </td> 
+   <td colname="col2"> Anger varaktigheten för en tonad animering som inträffar när texten visas eller försvinner. Värdet <span class="codeph"> 0</span> anger ingen toningsövergång. </td> 
   </tr> 
  </tbody> 
 </table>
