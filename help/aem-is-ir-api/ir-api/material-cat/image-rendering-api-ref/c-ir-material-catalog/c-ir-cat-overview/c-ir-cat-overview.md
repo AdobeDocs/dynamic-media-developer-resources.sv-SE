@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: f2128b64-8caf-4a59-b11f-604fe62bae69
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '438'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Materialkataloger innehåller information om vinjetter, material och stöddata, som ICC-profiler, till servern.
 
-Varje materialkatalog består av en nödvändig *katalogattributfil* och en uppsättning valfria *katalogdatafiler*:
+Varje materialkatalog består av en obligatorisk *katalogattributfil* och en uppsättning valfria *katalogdatafiler*:
 
 * Vinjetteringsschemafilen, som specificerar vinjetter och mallar samt tillhörande metadata.
 * Materialdatafilen som specificerar material och anger tillhörande texturbildfiler och metadata.
@@ -25,7 +28,7 @@ Varje materialkatalog består av en nödvändig *katalogattributfil* och en upps
 
 Katalogdatafiler associeras med materialkataloger efter filreferenser i katalogattributfilen. Samma katalogdatafil kan delas av flera materialkataloger.
 
-Katalogattributfiler måste ha ett [!DNL .ini] filsuffix och måste finnas i *katalogmappen* för bildåtergivning ( [!DNL PlatformServer::ir.catalogRootPath]). Katalogdatafiler kan finnas i samma mapp eller i andra mappar som är tillgängliga för återgivningsservern.
+Katalogattributfiler måste ha filsuffixet [!DNL .ini] och måste finnas i mappen Image Rendering *katalog* ( [!DNL PlatformServer::ir.catalogRootPath]). Katalogdatafiler kan finnas i samma mapp eller i andra mappar som är tillgängliga för återgivningsservern.
 
 **Uppdaterar materialkataloger**
 
@@ -37,7 +40,7 @@ Standardkatalogen innehåller standardvärden för alla katalogattribut för all
 
 Standardkatalogen innehåller dessutom alla attribut och dataposter (ICC-profiler) när ingen specifik materialkatalog är inblandad i en åtgärd.
 
-För att återgivningsservern ska fungera på rätt sätt måste katalogattributfilen för standardkatalogen namnges [!DNL default.ini]och alltid finnas i katalogmappen. Den måste vara fullt ifylld med alla nödvändiga attribut, förutom `attribute::RootId` och referenserna till de olika katalogdatafilerna, som alla är valfria.
+För att återgivningsservern ska fungera på rätt sätt måste katalogattributfilen för standardkatalogen ha namnet [!DNL default.ini], måste alltid finnas i katalogmappen och måste vara fullt ifylld med alla nödvändiga attribut, förutom `attribute::RootId` och referenserna till de olika katalogdatafilerna, som alla är valfria.
 
 **Se även**
 
