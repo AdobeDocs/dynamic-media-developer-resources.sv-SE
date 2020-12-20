@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 12730b17-110e-405b-97fe-e70fab89c703
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '73'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +25,7 @@ Konfigurationsattribut för Carousel Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">[0|1][,varaktighet][,riktning]</span> </p> </td> 
-   <td colname="col2"> <p> Anger på/av, varaktighet för att visa varje banderoll i karusellen och riktningen för automatisk slinga. </p> <p>Ange 0 <span class="codeph"></span> för automatisk slinga av. </p> <p>Ange <span class="codeph"> 1</span> för automatisk slinga när övergångstiden är i sekunder som styrs av <span class="codeph"> varaktighet</span>. </p> <p>Riktningen på den automatiska slingan styrs med <span class="codeph"> riktning</span>. Riktningen <span class="codeph"> har ett</span> intervall mellan <span class="codeph"> 1</span> höger-till-vänster och <span class="codeph"> 0</span> vänster-till-höger. </p> </td> 
+   <td colname="col2"> <p> Anger på/av, varaktighet för att visa varje banderoll i karusellen och riktningen för automatisk slinga. </p> <p>Ange <span class="codeph"> 0</span> för automatisk loop av. </p> <p>Ange <span class="codeph"> 1</span> som automatisk loop på med varaktighet för övergång i sekunder som styrs av <span class="codeph"> duration</span>. </p> <p>Riktningen på den automatiska slingan styrs med <span class="codeph"> riktning</span>. Riktningen <span class="codeph"></span> har intervallet mellan <span class="codeph"> 1</span> höger-till-vänster och <span class="codeph"> 0</span> vänster-till-höger. </p> </td> 
   </tr> 
  </tbody> 
 </table>
