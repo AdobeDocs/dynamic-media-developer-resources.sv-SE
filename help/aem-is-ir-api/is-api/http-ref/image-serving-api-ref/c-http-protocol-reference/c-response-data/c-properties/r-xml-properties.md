@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 9d169ad2-e466-4ab3-8900-ea9c6125edad
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '137'
+ht-degree: 0%
 
 ---
 
@@ -38,9 +41,9 @@ Ett typiskt egenskapssvarsdokument har följande allmänna struktur:
 </prop-group>
 ```
 
-Elementet `<prop-group>` används som den yttersta behållaren och för grupperingsegenskaper. Om en grupp har namnet motsvarar namnet Java-/JavaScript-objektnamnet.
+`<prop-group>`-elementet används som den yttersta behållaren och för grupperingsegenskaper. Om en grupp har namnet motsvarar namnet Java-/JavaScript-objektnamnet.
 
 >[!NOTE]
 >
->Teckenkodning kan anges för vissa `req=` typer. Mer information finns i beskrivningen av det specifika `req=`kommandot.
+>Teckenkodning kan anges för vissa `req=`-typer. Mer information finns i beskrivningen av det specifika `req=`kommandot.
 
