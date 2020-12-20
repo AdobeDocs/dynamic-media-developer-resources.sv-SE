@@ -27,6 +27,6 @@ Tänk på att om du tar bort eller ersätter en källdatafil kommer återgivning
 
 Återgivningsservern måste stoppas för att andra datafiler ska kunna ersättas.
 
-Cacheposter för Platform Server ogiltigförklaras automatiskt när materialfiler eller vinjetter ersätts. Att ersätta ICC-profilfiler gör inte cacheminnen ogiltiga.
+Plattformsserverns cacheposter blir automatiskt ogiltiga när materialfiler eller vinjetter ersätts. Att ersätta ICC-profilfiler gör inte cacheminnen ogiltiga.
 
 Du bör ge en ersättningsfil ett nytt namn och uppdatera motsvarande katalogposter för att undvika komplikationer med att ersätta filer. Detta gör att du kan ersätta en datafil medan servern är aktiv och gör att servercacheposter blir inaktuella automatiskt utan ytterligare åtgärder. Den här metoden kan användas för alla datafiler som hanteras av bildkataloger.
