@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 79b7690a-cea1-4c5e-99d6-60febf0e85f5
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '101'
+ht-degree: 0%
 
 ---
 
@@ -18,6 +21,6 @@ Det finns flera mekanismer för att starta/stoppa Image Server och Platform Serv
 
 1. Välj något av följande om du vill starta eller stoppa Image Serving:
 
-* Kontrollpanelen för Windows-tjänster kan användas för att starta, stoppa, starta om och verifiera status för tjänsten &quot;Scene7 Image Serving&quot;.
-* **[!UICONTROL Start Menu]**> **[!UICONTROL All Programs]**> **[!UICONTROL Scene7]**> **[!UICONTROL Image Serving]**> **[!UICONTROL Control Service]** innehåller kommandon för att starta, stoppa och starta om tjänsten Scene7 Image Serving.
+* Kontrollpanelen för Windows-tjänster kan användas för att starta, stoppa, starta om och verifiera statusen för tjänsten Scene7 Image Serving.
+* **[!UICONTROL Start Menu]**>  **[!UICONTROL All Programs]**>  **[!UICONTROL Scene7]**>  **[!UICONTROL Image Serving]**>  **[!UICONTROL Control Service]** innehåller kommandon för att starta, stoppa och starta om tjänsten Scene7 Image Serving.
 
