@@ -1,6 +1,6 @@
 ---
-description: Photoshop-filegenskaper.
-seo-description: Photoshop-filegenskaper.
+description: Photoshop filegenskaper.
+seo-description: Photoshop filegenskaper.
 seo-title: PsdInfo
 solution: Experience Manager
 title: PsdInfo
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: 0512f996-ddeb-4c3c-a2e8-bef59ea99f9c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '32'
+ht-degree: 0%
 
 ---
 
 
 # PsdInfo{#psdinfo}
 
-Photoshop-filegenskaper.
+Photoshop filegenskaper.
 
 Syntax
 
