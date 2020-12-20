@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 04358471-537d-4904-9775-db6a6ada2204
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '96'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +38,7 @@ Utseendet styrs med följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> kontur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kontur  </span> </p> </td> 
    <td colname="col2"> <p>Fokusmarkeringsstil. </p> </td> 
   </tr> 
  </tbody> 
