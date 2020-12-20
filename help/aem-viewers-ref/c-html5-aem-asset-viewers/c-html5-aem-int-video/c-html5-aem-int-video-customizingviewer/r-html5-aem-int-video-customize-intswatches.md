@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 9f9df764-3dd0-414e-a0db-4287f0019313
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '939'
+ht-degree: 0%
 
 ---
 
@@ -35,23 +38,23 @@ Följande CSS-klassväljare styr platsen och orienteringen för den interaktiva 
    <td colname="col2"> <p>Bredd på den interaktiva färgrutepanelen </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Höjden på den interaktiva färgrutepanelen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p>Den översta positionen för den interaktiva färgrutepanelen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> nederkant </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> nederkant  </span> </p> </td> 
    <td colname="col2"> <p>Nedre position för panelen för interaktiva färgrutor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vänster </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> vänster  </span> </p> </td> 
    <td colname="col2"> <p>Den vänstra positionen för den interaktiva färgrutepanelen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> höger </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> höger  </span> </p> </td> 
    <td colname="col2"> <p>Den högra positionen för den interaktiva färgrutepanelen. </p> </td> 
   </tr> 
  </tbody> 
@@ -103,37 +106,37 @@ Följande CSS-klassväljare styr utseendet på banderollpanelen:
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Bakgrundsfärg på banderollpanelen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> färg </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> färg  </span> </p> </td> 
    <td colname="col2"> <p>Textfärg i banderollpanelen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
    <td colname="col2"> <p>Kant runt banderollpanelen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
    <td colname="col2"> <p>Den teckensnittsvikt som ska användas för texten i banderollpanelen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Den teckenstorlek som ska användas för texten i banderollpanelen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Den teckensnittsfamilj som ska användas för texten i banderollpanelen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-align  </span> </p> </td> 
    <td colname="col2"> <p>Den teckensnittsjustering som ska användas för texten i banderollpanelen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Banderollverktygstipset kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
+Banderollverktygstipset kan lokaliseras. Mer information finns i [Lokalisering av element i användargränssnittet](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 ## Exempel {#section-e8caea0a303c425a8a637c2a47c06355}
 
@@ -159,7 +162,7 @@ Följande CSS-klassväljare styr utseendet på färgrutorna:
 <table id="table_45E98E96B07246CAA5D3076FAF62A0B3"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Bakgrundsfärg för färgruteområdet. </p> </td> 
   </tr> 
  </tbody> 
@@ -184,7 +187,7 @@ Följande CSS-klassväljare styr mellanrummet mellan miniatyrbilder av färgruto
 <table id="table_FE6A749EA3894956998D50EA4AB6497B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal  </span> </p> </td> 
    <td colname="col2"> <p> Storleken på den vågräta och lodräta marginalen runt varje miniatyrbild. Det faktiska mellanrummet för miniatyrbilder är lika med summan av vänster och höger marginaluppsättning för <span class="codeph"> .s7miniatyrcell </span>. </p> </td> 
   </tr> 
  </tbody> 
@@ -209,15 +212,15 @@ Följande CSS-klassväljare styr utseendet på enskilda miniatyrbilder:
 <table id="table_FB760FE6BEA44E129C07DD912C86DE57"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Miniatyrens bredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Höjden på miniatyrbilden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
    <td colname="col2"> <p>Miniatyrens kantlinje. </p> </td> 
   </tr> 
  </tbody> 
@@ -225,7 +228,7 @@ Följande CSS-klassväljare styr utseendet på enskilda miniatyrbilder:
 
 >[!NOTE]
 >
->Miniatyrbilden har stöd för attributväljaren, som du kan använda för att använda olika skal för olika miniatyrlägen. `state` motsvarar i synnerhet `state="selected"` miniatyrbilden för den markerade bilden, `state="default"` motsvarar resten av miniatyrbilderna, används `state="over"` vid hovring av musen.
+>Miniatyrbilden stöder attributväljaren `state`, som du kan använda för att använda olika skal för olika miniatyrlägen. `state="selected"` motsvarar i synnerhet miniatyrbilden för den markerade bilden; `state="default"` motsvarar resten av miniatyrbilderna; `state="over"` används vid hovring av musen.
 
 ## Exempel {#section-69fec189ffaa440b97b6b846c320b75b}
 
@@ -247,19 +250,19 @@ Följande CSS-klassväljare styr utseendet på miniatyrbildetiketten:
 <table id="table_81B3209FB8124FFA9DB81FD35717900D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> färg </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> färg  </span> </p> </td> 
    <td colname="col2"> <p>Textfärg. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
    <td colname="col2"> <p>Etikettkant. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> textjustering </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> textjustering  </span> </p> </td> 
    <td colname="col2"> <p>Vågrät textjustering. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Teckensnittsnamn. </p> </td> 
   </tr> 
  </tbody> 
@@ -285,26 +288,26 @@ Följande CSS-klassväljare styr utseendet på upp- och nedrullningsknapparna:
 
 `.s7interactivevideoviewer .s7interactiveswatches .s7scrolldownbutton`
 
-Det är inte möjligt att placera rullningsknapparna med CSS- `top`, `left`och `bottom``right` egenskaper. i stället placerar visningsprogramlogiken dem automatiskt.
+Det går inte att placera rullningsknapparna med CSS-egenskaperna `top`, `left`, `bottom` och `right`. i stället placerar visningsprogramlogiken dem automatiskt.
 
 ## CSS-egenskaper för uppåt- och nedrullningsknapparnas utseende {#css-properties-of-the-appearance-of-the-up-and-down-scroll-buttons}
 
 <table id="table_48AF27AFBB1543288D45449D6900675C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Bredd på rullningsknappen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Höjden på rullningsknappen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Bilden som visas för ett visst knappläge. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p>Positionen inuti teckningsspriten, om CSS-sprites används. </p> <p>Se även <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-fragment </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -312,9 +315,9 @@ Det är inte möjligt att placera rullningsknapparna med CSS- `top`, `left`och `
 
 >[!NOTE]
 >
->Den här knappen har stöd för attributväljaren, som du kan använda för att tillämpa olika skal på knapplägena: `state` &quot; `up`&quot;, &quot; `down`&quot;, &quot; `over`&quot; och &quot; `disabled`&quot;.
+>Den här knappen stöder attributväljaren `state`, som du kan använda för att använda olika skal för knapplägena: &quot; `up`&quot;, &quot; `down`&quot;, &quot; `over`&quot; och &quot; `disabled`&quot;.
 
-Knappverktygstipsen kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
+Knappverktygstipsen kan lokaliseras. Mer information finns i [Lokalisering av element i användargränssnittet](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 ## Exempel {#section-e6ce4fa084b84288bc7583342b2c510c}
 
