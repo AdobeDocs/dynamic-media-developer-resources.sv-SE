@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8e12aa06-072c-4e7a-84e6-01437c43c57b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '250'
+ht-degree: 0%
 
 ---
 
@@ -21,20 +24,20 @@ Omsamplingsläge. Väljer den omsamplings- och/eller interpoleringsalgoritm som 
 <table id="table_FD658AC521E24EB9ADBB87F98549BC3B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bilin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bilin  </span> </p> </td> 
    <td colname="col2"> <p>Väljer bilinjär standardinterpolation. Snabbaste omsamplingsmetod. vissa aliaseringsartefakter kan bli märkbara. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bikub </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bikub  </span> </p> </td> 
    <td colname="col2"> <p>Väljer bikubisk interpolation. Processorintensivare än bilinjär interpolation, men ger skarpare bilder med mindre framträdande aliasartefakter. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> skarp2 </span> </p> </td> 
-   <td colname="col2"> <p>Väljer en modifierad Lanczos Window-funktion som en interpoleringsalgoritm. Kan ge något tydligare resultat än bikubisk till en högre CPU-kostnad. <span class="codeph"> sharp </span> har ersatts med <span class="codeph"> sharp2 </span>, vilket minskar sannolikheten för att kantutjämningsartefakter (Moiré) uppstår. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> skarp2  </span> </p> </td> 
+   <td colname="col2"> <p>Väljer en modifierad Lanczos Window-funktion som en interpoleringsalgoritm. Kan ge något tydligare resultat än bikubisk till en högre CPU-kostnad. <span class="codeph"> sharp  </span> har ersatts med  <span class="codeph"> sharp2  </span>som har en mindre sannolikhet att orsaka aliasing-artefakter (Moiré). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bisharp </span> </p> </td> 
-   <td colname="col2"> <p>Väljer Photoshops standardomsampling för att minska bildstorleken, som kallas"bikubisk skarpare" i Adobe Photoshop. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bisharp  </span> </p> </td> 
+   <td colname="col2"> <p>Väljer Photoshop standardomsampling för att minska bildstorleken, som kallas"bikubisk skarpare" i Adobe Photoshop. </p> </td> 
   </tr> 
  </tbody> 
 </table>
