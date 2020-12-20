@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: b118e441-f128-4dfd-a82e-62ec4d1ebf84
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '74'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> Anger det bildformat som komponenten använder för att läsa in bilder från Image Server. Om det angivna formatet slutar med"-alfa" återges bilderna som genomskinligt innehåll. För alla andra bildformat hanterar komponenten bilder som ogenomskinliga. Komponenten har som standard en vit bakgrund. Om du vill göra den genomskinlig anger du CSS-egenskapen för bakgrundsfärg som genomskinlig. </p> </td> 
+   <td colname="col2"> <p> Anger det bildformat som komponenten använder för att läsa in bilder från Image Server. Om det angivna formatet slutar med"-alpha" återges bilderna som genomskinligt innehåll. För alla andra bildformat hanterar komponenten bilder som ogenomskinliga. Komponenten har som standard en vit bakgrund. Om du vill göra den genomskinlig anger du CSS-egenskapen för bakgrundsfärg som genomskinlig. </p> </td> 
   </tr> 
  </tbody> 
 </table>
