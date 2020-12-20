@@ -1,6 +1,6 @@
 ---
-description: Anger eller uppdaterar ett XMP-metadatapaket för en resurs.
-seo-description: Anger eller uppdaterar ett XMP-metadatapaket för en resurs.
+description: Anger eller uppdaterar ett XMP metadatapaket för en resurs.
+seo-description: Anger eller uppdaterar ett XMP metadatapaket för en resurs.
 seo-title: updateXMPPacket
 solution: Experience Manager
 title: updateXMPPacket
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: 97a40261-8f85-4e8c-8aa5-ed4fec297f33
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '79'
+ht-degree: 0%
 
 ---
 
 
 # updateXMPPacket{#updatexmppacket}
 
-Anger eller uppdaterar ett XMP-metadatapaket för en resurs.
+Anger eller uppdaterar ett XMP metadatapaket för en resurs.
 
 Syntax
 
@@ -36,7 +39,7 @@ Syntax
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | Ja | Företagshandtag. |
 | ` *`assetHandle`*` | `xsd:string` | Ja | Resurshandtag. |
-| ` *`compressedPacket`*` | `xsd:Base 64 binary` | Ja | [!DNL zlib-compressed] XMP-paket som du vill ställa in eller uppdatera. |
+| ` *`compressedPacket`*` | `xsd:Base 64 binary` | Ja | [!DNL zlib-compressed] XMP paket som du vill ställa in eller uppdatera. |
 
 **Utdata (updateXMPPacketReturn)**
 
