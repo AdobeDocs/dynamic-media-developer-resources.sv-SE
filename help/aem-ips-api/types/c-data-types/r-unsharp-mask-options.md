@@ -1,9 +1,9 @@
 ---
 description: Inställningar som förbättrar bildskärpan för optimerade TIF-pyramidfiler.
 seo-description: Inställningar som förbättrar bildskärpan för optimerade TIF-pyramidfiler.
-seo-title: UnsharpMaskOptions
+seo-title: OskarpMaskOptions
 solution: Experience Manager
-title: UnsharpMaskOptions
+title: OskarpMaskOptions
 topic: Scene7 Image Production System API
 uuid: 73073de0-41b6-471c-8887-f6b94ed2af90
 translation-type: tm+mt
@@ -23,7 +23,7 @@ Inställningar som förbättrar bildskärpan för optimerade TIF-pyramidfiler.
 
 ## Parametrar {#section-c3f0d03136ba4422819cb463bd393885}
 
-Ange ett värde för `unsharpMaskOptions` alternativ med `minOccurs=" *`n`*".`
+Ange ett värde för `unsharpMaskOptions`-alternativ med `minOccurs=" *`n`*".`
 
 <table id="table_D1392963C5694969A9D546F82DB6F45C">
  <thead>
@@ -65,7 +65,7 @@ Ange ett värde för `unsharpMaskOptions` alternativ med `minOccurs=" *`n`*".`
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> monokrom</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:int</span></td>
-   <td colname="col3"><p>Värdena är bara <span class="codeph"> 0</span> eller <span class="codeph"> 1</span> . </p><p>Ange <span class="codeph"> 0</span> för varje färgkomponent separat eller 1 <span class="codeph"></span> för endast bildens intensitet (intensitet). Lagermasken eller den sammansatta masken blir också skarpare. </p><p><span class="codeph"><span class="varname"> monokrom</span></span> ignoreras för gråskalebilder. </p></td>
+   <td colname="col3"><p>Värdena är endast <span class="codeph"> 0</span> eller <span class="codeph"> 1</span>. </p><p>Ange <span class="codeph"> 0</span> om du vill tillämpa på varje färgkomponent separat eller <span class="codeph"> 1</span> om du bara vill använda bildens intensitet (intensitet). Lagermasken eller den sammansatta masken blir också skarpare. </p><p><span class="codeph"><span class="varname"> Monokromeis </span></span> ignoreras för gråskalebilder. </p></td>
   </tr>
  </tbody>
 </table>
