@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 0915066f-2106-4cbc-a68a-f149810c24f8
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '153'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +32,7 @@ Syntax
 
 ## Parametrar {#section-00d1e00dd5014513a52b4e6b4f61de62}
 
-**Input (deleteProjectParam)**
+**Indata (deleteProjectParam)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
@@ -42,7 +45,7 @@ IPS API returnerar inget svar för den här åtgärden.
 
 ## Exempel {#section-e38507f1f7ec41b9a625f47390490254}
 
-This code sample uses the company handle and the project handle as fields in the deleteProjectParam sent to the IPS Web services server in order to delete the project.
+Det här kodexemplet använder företagshandtaget och projektreferensen som fält i deleteProjectParam som skickas till IPS-webbtjänstservern för att ta bort projektet.
 
 **Begäran**
 
