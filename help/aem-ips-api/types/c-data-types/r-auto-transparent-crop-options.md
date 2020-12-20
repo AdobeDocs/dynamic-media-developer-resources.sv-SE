@@ -8,11 +8,14 @@ topic: Scene7 Image Production System API
 uuid: 4c3d365d-e011-4f38-bea7-68cf0cba7893
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '58'
+ht-degree: 0%
 
 ---
 
 
-# AutoTransparentBeskärningsalternativ{#autotransparentcropoptions}
+# AutoTransparentCropOptions{#autotransparentcropoptions}
 
 Alternativ som används vid automatisk beskärning av bilder baserat på genomskinlighet.
 
