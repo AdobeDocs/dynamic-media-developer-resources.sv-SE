@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 178f9979-fff5-45ce-a001-1263d1770ea8
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '235'
+ht-degree: 0%
 
 ---
 
@@ -49,28 +52,28 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> successCount</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> successCount</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Antal resurser har flyttats. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> warningCount</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> warningCount</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Antal resurser som genererade varningar när åtgärden försökte flytta dem. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> errorCount</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> errorCount</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Antal resurser som genererade fel när åtgärden försökte flytta dem. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> warningDetailArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:AssetOperationFaultArray</span> </td> 
    <td colname="col3"> Nej </td> 
-   <td colname="col4"> <span class="codeph"></span>AssetOperationFaultssom innehåller: 
+   <td colname="col4"> <span class="codeph"> </span>AssetOperationFaultssom innehåller: 
     <ul id="ul_689F4A87A68140F18DFB43868226A409"> 
      <li id="li_274C8BF5932F4AF584AA92F25E0F33C6">Resurser som utlöste varningarna. </li> 
      <li id="li_5CC4A9120CA94F968CAF0D0135C49E0A">Varningskoder. </li> 
@@ -78,10 +81,10 @@ Syntax
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> errorDetailArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:AssetOperationFaultArray</span> </td> 
    <td colname="col3"> Nej </td> 
-   <td colname="col4"> <span class="codeph"></span>AssetOperationFaultssom innehåller: 
+   <td colname="col4"> <span class="codeph"> </span>AssetOperationFaultssom innehåller: 
     <ul id="ul_C397BC384A134F429D01ADA28DF2E097"> 
      <li id="li_EAEBB5F539164480BA9EAA7C8FFBF69A">Resurser som orsakade felen. </li> 
      <li id="li_F96D5FBB2F7A402AA36D8DFA3971391D">Felkoder. </li> 
