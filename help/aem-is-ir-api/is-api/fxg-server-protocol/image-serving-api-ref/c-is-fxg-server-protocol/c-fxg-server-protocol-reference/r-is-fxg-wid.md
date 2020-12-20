@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: b59b936c-abab-4f9d-95ca-0a09743ba0fb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '182'
+ht-degree: 0%
 
 ---
 
@@ -27,11 +30,11 @@ Visa bredd. Anger svarsbildens bredd (visningsbild).
 
 ## Standard {#section-830bae0b6bac440098444d7cdcb23e2e}
 
-Om varken `wid=`, `hei=`eller `scale=` anges är svarsbilden standardvisningsstorleken som anges i FXG-filen.
+Om varken `wid=`, `hei=` eller `scale=` anges är svarsbilden den standardvisningsstorlek som anges i FXG-filen.
 
-Rasterformat återges med standardvisningsstorlek (eller inställningen DefaultPix). Klicka på **[!UICONTROL Programinställningar]** > **[!UICONTROL Publiceringsinställningar]** > **[!UICONTROL Bildserver]** och ange värden för bredd och höjd. Mindre storlekar ger bättre prestanda. Du måste spara inställningarna och utföra en bildserverkublicering för att kunna tillämpa en ändring.
+Rasterformat återges med standardvisningsstorlek (eller inställningen DefaultPix). Klicka på **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** och ange värden för bredd och höjd. Mindre storlekar ger bättre prestanda. Du måste spara inställningarna och utföra en bildserverkublicering för att kunna tillämpa en ändring.
 
-Om du använder ett `scale=1` kommando återges en begäran om rasterformat med den storlek som anges i FXG-filen.
+Om du använder ett `scale=1`-kommando återges en begäran om rasterformat med den storlek som anges i FXG-filen.
 
 ## Exempel {#section-2f72cb2653d54c6aaacf0d97521fb72c}
 
