@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 60419120-effc-4895-8bb1-7e4b70a67c5b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '62'
+ht-degree: 3%
 
 ---
 
@@ -19,8 +22,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p>Anger visningsprogrammets layout på enheter med pekskärm. När parametern är inställd på <span class="codeph"> 1 </span>visar visningsprogrammet färgrutor under huvudvyn på skrivbordet. på enheter med pekskärm är färgrutorna överlagrade i huvudvyn. </p> <p>När parametern är inställd på <span class="codeph"> 0 </span>återges färgrutorna under huvudvyn på alla enhetstyper. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
+   <td colname="col2"> <p>Anger visningsprogrammets layout på enheter med pekskärm. När parametern är inställd på <span class="codeph"> 1 </span> visar visningsprogrammet färgrutor under huvudvyn på skrivbordet. på enheter med pekskärm är färgrutorna överlagrade i huvudvyn. </p> <p>När parametern är inställd på <span class="codeph"> 0 </span> återges färgrutor under huvudvyn på alla enhetstyper. </p> </td> 
   </tr> 
  </tbody> 
 </table>
