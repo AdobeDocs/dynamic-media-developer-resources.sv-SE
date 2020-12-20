@@ -21,7 +21,7 @@ Bilduppsättningsdata. Innehåller en mekanism för att definiera sorterade upps
 
 En bilduppsättning består av en sorterad, kommaavgränsad lista med objekt, där varje objekt består av ett eller flera underobjekt (bild-ID, färgrute-ID, mediafilsökvägar, etiketter osv.), separerade med semikolon och/eller kolon.
 
-Klammerparenteser `{ }` och parenteser `( )` kan användas för att avgränsa visst innehåll (till exempel färgvärden) eller för att ange kapslade uppsättningar. Klammerparenteser och parenteser som används på det här sättet får inte kodas och måste alltid visas som matchade par, annars inträffar ett katalogtolkningsfel.
+Klammerparenteserna `{ }` och parenteserna `( )` kan användas för att avgränsa visst innehåll (till exempel färgvärden) eller för att ange kapslade uppsättningar. Klammerparenteser och parenteser som används på det här sättet får inte kodas och måste alltid visas som matchade par, annars inträffar ett katalogtolkningsfel.
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ Klammerparenteser `{ }` och parenteser `( )` kan användas för att avgränsa vi
 
 Mer information om hur du strukturerar och använder bilduppsättningar finns i dokumentationen för visningsprogram för bildservrar.
 
-Servern returnerar innehållet i det här fältet utan ändringar som svar på en `req=imageset` begäran.
+Servern returnerar innehållet i det här fältet utan ändringar som svar på en `req=imageset`-begäran.
 
 ## Standarduppsättningar {#section-5ecc8ffee7224668b63f601383665564}
 
@@ -80,7 +80,7 @@ Varje objekt i en tvådimensionell snurra kan bestå av en enkel bild, en refere
 
 | ` *`2dSpinItem`*` | ` *`2dSpinSet`* *`2dSpinItem`* &#42;[ ',' *`2dSpinItem`* ]` |
 |---|---|
-| ` *`2dSpinItem`*` | ` *`imageIdbasicSpinSetbasicSpinSetId`* | { '{' *``* '}' } | *``*` |
+| ` *`2dSpinItem`*` | ` *`imageIdbasicSpinSetbasicSpinSetId `* | { '{' *``* '}' } | *``*` |
 | ` *`basicSpinSetId`*` | IS reference (catalog/id) to a catalog record defining a basic spin set |
 
 **Siduppsättningar**
@@ -99,7 +99,7 @@ Varje objekt i en medieuppsättning kan bestå av en bild, grundläggande färgr
 |---|---|
 | ` *`artikel`*` | ` { *``* | *``* | *``*}} | *``* } [ ; [ *``* ] [ ; [ *`videoItemItemItemItemItemItemIDreserved`* ] ] ]` |
 | ` *`videoItem`*` | ` *``* ; *`videoswatchId`*` |
-| ` *`recutItem`*` | ` *`recutswatchId`* ; *`för`*` |
+| ` *`recutItem`*` | ` *`recutswatchId `* ; *`för`*` |
 | ` *`imageItem`*` | ` *``* ; [ *`imageIdswatchId`* ]` |
 | ` *`setItem`*` | ` { *``* | { '{' *``* '}' } } ; *`setIdinlineSetSwatchId`*` |
 | ` *`ID`*` | `media type identifier [ img | basic | advanced_image | img | img_set | advanced_imageset | advanced_swatchset | spin | video ]` |
@@ -119,9 +119,9 @@ En videouppsättning består av en enkel lista med video-ID där varje id refere
 
 ## Egenskaper {#section-17c731e5c46646aa90ac21f39bb693ca}
 
-Textsträng. Kommaavgränsad lista med `catalog::Id` värden, absoluta sökvägar till Image Server-filer eller sökvägar i förhållande till `attribute::RootPath`. Samma bild kan refereras flera gånger i uppsättningen. Den definierande katalogposten kan visas i uppsättningen på vilken plats som helst.
+Textsträng. Kommaavgränsad lista med `catalog::Id`-värden, absoluta sökvägar för Image Server-filer eller filsökvägar i förhållande till `attribute::RootPath`. Samma bild kan refereras flera gånger i uppsättningen. Den definierande katalogposten kan visas i uppsättningen på vilken plats som helst.
 
-Det här fältet deltar i textsträngslokalisering. Förutom *`label`* strängar (ingår i *`solidColorSpecifier`*) lokaliseras alla avgränsade fält om de innehåller minst en `^loc=…^`lokaliseringstoken. Mer information finns i Lokalisering [av](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) textsträngar i *HTTP-protokollreferensen* .
+Det här fältet deltar i textsträngslokalisering. Förutom *`label`*-strängar (ingår i *`solidColorSpecifier`*) lokaliseras alla avgränsade fält om de innehåller minst en `^loc=…^`-lokaliseringstoken. Mer information finns i [Lokalisering av textsträng](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) i *HTTP-protokollreferens*.
 
 ## Standard {#section-c3a60e360393478284f0f2d2da5b963b}
 
@@ -129,4 +129,4 @@ Ingen.
 
 ## Se även {#section-4c99c44f99074aa0a4ed90ba183bbc25}
 
-[req=imageset](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md) , [attribute::RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md), [Object Id Translation](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md) , [Text String Localization](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) , Image Serving Viewer Documentation
+[req=imageset](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md) ,  [attribute::RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md),  [Object Id Translation](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md) ,  [Text String Localization](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) , Image Serving Viewer Documentation
