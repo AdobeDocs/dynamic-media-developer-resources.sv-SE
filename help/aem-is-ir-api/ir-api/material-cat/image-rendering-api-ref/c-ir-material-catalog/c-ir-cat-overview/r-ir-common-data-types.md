@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: b36cf09d-dee2-4e8b-9500-e8fa4c5c112f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '173'
+ht-degree: 0%
 
 ---
 
@@ -22,11 +25,11 @@ Färgvärde. Hexadecimalt, packat RGB-värde, eventuellt föregånget av 0x. RGB
 
 **Flagga**
 
-`0`=false, `1`=true, alla andra värden betyder okänd eller ospecificerad.
+`0`=false,  `1`=true, alla andra värden betyder okänd eller ospecificerad.
 
 **Enum**
 
-0 anger ett okänt eller ospecificerat värde, samma som ett tomt fält. Giltiga `enum` värden är heltal i följd med början på 1.
+0 anger ett okänt eller ospecificerat värde, samma som ett tomt fält. Giltiga `enum`-värden är heltal i följd med början på 1.
 
 **Heltal**
 
@@ -38,4 +41,4 @@ Signerat flyttalsvärde (t.ex. `0, 12.5, 245 , -2.34e4`). 0 eller negativa värd
 
 **Textsträng**
 
-Strängavgränsare är valfria, såvida inte strängen innehåller några `<CR>`-, `<LF>`- eller `<TAB>` -tecken. Enkla och dubbla citattecken kan användas som avgränsare. Om citattecken används måste alla sådana citattecken som är inbäddade i strängen föregås av två citattecken (t.ex. &#39; `This month''s Special`&#39;).
+Strängavgränsare är valfria, såvida inte strängen innehåller några `<CR>`-, `<LF>`- eller `<TAB>`-tecken. Enkla och dubbla citattecken kan användas som avgränsare. Om citattecken används måste alla sådana citattecken som är inbäddade i strängen föregås av två citattecken (t.ex. &#39; `This month''s Special`&#39;).
