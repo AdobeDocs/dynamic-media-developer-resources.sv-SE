@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 30bc2a4a-35ef-4047-88b6-0250b3e3139b
 translation-type: tm+mt
 source-git-commit: b82b8eb6f8ac7c87b0c25d2b3915024ad220fa40
+workflow-type: tm+mt
+source-wordcount: '153'
+ht-degree: 0%
 
 ---
 
@@ -20,4 +23,4 @@ I moderna webbläsare, förutom Internet Explorer 10 och tidigare, och på vissa
 
 På iOS-enheter och i äldre Internet Explorer-webbläsare används helskärmsläget&quot;simulerat&quot; istället. I det här läget ändras visningsprogrammets storlek så att hela delen av webbläsarfönstret visas. Dessutom visas webbläsarens användargränssnitt och andra fönster fortfarande på skärmen.
 
-Slutanvändaren aktiverar och avslutar helskärmsläget genom att trycka på knappen Helskärm i visningsprogrammets användargränssnitt. När det inbyggda helskärmsläget används på skrivbordet kan du även avsluta det genom att trycka på **Esc**.
+Slutanvändaren aktiverar och avslutar helskärmsläget genom att trycka på knappen Helskärm i visningsprogrammets användargränssnitt. När helskärmsläget &quot;native&quot; används på skrivbordet kan du även avsluta det genom att trycka på **Esc**.
