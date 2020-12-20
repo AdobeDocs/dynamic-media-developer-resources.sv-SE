@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: c7063907-78e8-47f8-9424-78ab9d123ad1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '202'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +32,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
       ]&gt;</code> </p> <p>Syntaxen för innehållsmallen är följande: </p> <p> <code>&lt;info&gt;
       &lt;var&nbsp;name='VAR_NAME'&nbsp;rollover='ROLLOVER_KEY'&gt;&lt;!CDATA[&nbsp;VAR_VALUE&nbsp;]]&gt;
       &lt;![CDATA[&nbsp;TEMPLATE_CONTENT&nbsp;]]&gt;
-      &lt;/info&gt;</code> </p> <p>Det innebär att mallen måste börja med elementet <span class="codeph"> &lt;info&gt;</span> som kan innehålla valfria <span class="codeph"> &lt;var&gt;</span> -standardelement. Själva mallinnehållet, <span class="codeph"> TEMPLATE_CONTENT</span> , är HTML-text. Innehållsmallen kan dessutom innehålla variabelnamn omgivna av <span class="codeph"> $</span> -tecken som ersätts med de variabelvärden som informationsservern returnerar eller med standardvärden. </p> <p>Standardvariabler som definieras i mallen kan antingen vara globala (om rollover-attributet inte har angetts) eller specifika för en viss rollover-nyckel (om rollover-attributet finns). </p> <p>Under mallbearbetningen har variabler som är specifika för rollover-nycklar företräde framför globala variabler. </p> </td> 
+      &lt;/info&gt;</code> </p> <p>Det innebär att mallen måste börja med <span class="codeph"> &lt;info&gt;</span>-elementet som kan innehålla <span class="codeph"> &lt;var&gt;</span>-element (valfritt). Själva mallinnehållet <span class="codeph"> TEMPLATE_CONTENT</span> är HTML-text. Innehållsmallen kan dessutom innehålla variabelnamn omgivna av <span class="codeph"> $</span> tecken som ersätts med de variabelvärden som informationsservern returnerar eller med standardvärden. </p> <p>Standardvariabler som definieras i mallen kan antingen vara globala (om rollover-attributet inte har angetts) eller specifika för en viss rollover-nyckel (om rollover-attributet finns). </p> <p>Under mallbearbetningen har variabler som är specifika för rollover-nycklar företräde framför globala variabler. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -48,6 +51,6 @@ Ingen.
 
 ## Exempel {#section-16d184665c484964af9a22f79ff3f840}
 
-Om informationsserversvaret returnerar produktnamnet som en variabel `$1$` och produktbildens URL returneras som en variabel `$2$`.
+Om informationsserversvaret returnerar produktnamnet som variabel `$1$` och produktbild-URL returneras som variabel `$2$`.
 
 `template=<info><![CDATA[Product description:$1$<br>Product image:<img src="$2$">]]></info>`
