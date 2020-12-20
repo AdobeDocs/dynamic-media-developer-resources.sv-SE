@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 84e04972-32ce-4aca-aae6-d5b8bbe761e6
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '215'
+ht-degree: 0%
 
 ---
 
 
-# Bildserverkomponenter{#image-serving-components}
+# Image Serving components{#image-serving-components}
 
 Scen 7 Image Serving består av följande komponenter:
 
@@ -50,7 +53,7 @@ Scen 7 Image Serving består av följande komponenter:
   </tr> 
   <tr> 
    <td colname="col1"> <p>ATE-textåtergivningskomponent </p> </td> 
-   <td colname="col2"> <p>En eller flera instanser av textrenderingstjänsten kan vara aktiva när <span class="codeph"> textPs=</span> -åtgärder körs. </p> </td> 
+   <td colname="col2"> <p>En eller flera instanser av textrenderingstjänsten kan vara aktiva när <span class="codeph"> textPs=</span>-åtgärder körs. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>SVG-återgivningskomponent </p> </td> 
@@ -63,4 +66,4 @@ Scen 7 Image Serving består av följande komponenter:
  </tbody> 
 </table>
 
-Ytterligare konfigurationsinställningar tillhandahålls av standardkatalogen ( [!DNL default.ini]) eller specifika bildkataloger (mer information finns i [Bildkataloger](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) ).
+Ytterligare konfigurationsinställningar tillhandahålls av standardkatalogen ( [!DNL default.ini]) eller specifika bildkataloger (mer information finns i [Bildkataloger](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)).
