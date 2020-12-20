@@ -8,11 +8,14 @@ topic: Scene7 Image Production System API
 uuid: e844a395-0ab3-45a7-bcec-8e9e15efc70e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '82'
+ht-degree: 0%
 
 ---
 
 
-# updateAssetSet{#updateassetset}
+# updateAsset{#updateassetset}
 
 Uppdaterar en resursuppsättning.
 
