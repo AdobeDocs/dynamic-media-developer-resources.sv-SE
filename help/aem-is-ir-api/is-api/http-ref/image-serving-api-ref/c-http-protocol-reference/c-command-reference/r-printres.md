@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 1a62611a-b3b9-4f20-834f-e34e75d33ddd
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '137'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +28,7 @@ Utskriftsupplösning. Åsidosätter utskriftsupplösningsvärdet som är inbädd
  </tr> 
 </table>
 
-Utskriftsupplösningen definieras vanligtvis av `catalog::PrintResolution` för en kataloginmatning, i annat fall av det utskriftsupplösningsvärde som är inbäddat i källbilden. När det gäller en mallbild eller sammansatt bild med flera lager är standardutskriftsupplösningen som är inbäddad i svarsfilen utskriftsupplösningen för lagerbilden med det lägsta lagernumret.
+Utskriftsupplösningen definieras vanligtvis av `catalog::PrintResolution` för en kataloginmatning, i annat fall av utskriftsupplösningsvärdet som är inbäddat i källbilden. När det gäller en mallbild eller sammansatt bild med flera lager är standardutskriftsupplösningen som är inbäddad i svarsfilen utskriftsupplösningen för lagerbilden med det lägsta lagernumret.
 
 Om du anger utskriftsupplösningen ändras inte svarsbildens pixelstorlek.
 
