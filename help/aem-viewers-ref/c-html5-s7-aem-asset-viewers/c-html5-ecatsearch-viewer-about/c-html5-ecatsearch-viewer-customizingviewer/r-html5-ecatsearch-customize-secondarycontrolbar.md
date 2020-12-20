@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 38217d2a-8668-46e1-9df1-f29c1c7e0798
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '199'
+ht-degree: 0%
 
 ---
 
@@ -31,19 +34,19 @@ Utseendet på det sekundära kontrollfältet styrs med följande CSS-klassvälja
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p>Placera högst upp i visningsprogrammet. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> nederkant </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> nederkant  </span> </p> </td> 
    <td colname="col2"> <p>Placera längst ned i visningsprogrammet. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Huvudkontrollfältets höjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Bakgrundsfärgen för det sekundära kontrollfältet. </p> </td> 
   </tr> 
  </tbody> 
