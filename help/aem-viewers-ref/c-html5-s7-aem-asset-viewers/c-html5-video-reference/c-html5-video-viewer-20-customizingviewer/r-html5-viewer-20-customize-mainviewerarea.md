@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: f395b22d-55b8-4422-9aa4-9dd4b7a24063
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '127'
+ht-degree: 0%
 
 ---
 
 
-# Huvudvisningsområde{#main-viewer-area}
+# Huvudvisningsprogramområde{#main-viewer-area}
 
 Huvudvisningsområdet upptas av videon. Den ställs vanligtvis in så att den passar den tillgängliga enhetsskärmen när ingen storlek har angetts.
 
@@ -33,11 +36,11 @@ Följande CSS-klassväljare styr visningsområdets utseende:
    <td colname="col2"> <p>Bredd på visningsprogram. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Höjd på visningsprogram. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Bakgrundsfärg i hexadecimalt format. </p> </td> 
   </tr> 
  </tbody> 
