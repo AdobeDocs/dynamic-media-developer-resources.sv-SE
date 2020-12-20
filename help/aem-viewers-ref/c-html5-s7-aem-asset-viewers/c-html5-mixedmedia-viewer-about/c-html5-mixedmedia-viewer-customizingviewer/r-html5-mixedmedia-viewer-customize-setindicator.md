@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e62fac7c-28b6-40bf-83cc-8bcfbaa0dfa3
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '297'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +38,7 @@ Utseendet på den angivna indikatorbehållaren styrs med följande CSS-klassväl
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Bakgrundsfärgen i hexadecimalt format för uppsättningsindikatorn. </p> </td> 
   </tr> 
  </tbody> 
@@ -66,31 +69,31 @@ Utseendet på en enskild set-indikatorpunkt styrs med CSS-klassväljaren:
    <td colname="col2"> <p>Bredden på den angivna indikatorpunkten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Höjden på den angivna indikatorpunkten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal-vänster </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal-vänster  </span> </p> </td> 
    <td colname="col2"> <p>Vänstermarginal i pixlar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal-top  </span> </p> </td> 
    <td colname="col2"> <p>Övre marginal i pixlar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal-höger </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal-höger  </span> </p> </td> 
    <td colname="col2"> <p>Högermarginal i pixlar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal-bottom  </span> </p> </td> 
    <td colname="col2"> <p>Undre marginal i pixlar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p>Kantradie i pixlar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Bakgrundsfärg i hexadecimalt format. </p> </td> 
   </tr> 
  </tbody> 
@@ -98,7 +101,7 @@ Utseendet på en enskild set-indikatorpunkt styrs med CSS-klassväljaren:
 
 >[!NOTE]
 >
->Den angivna indikatorpunkten har stöd för attributväljaren, som kan användas för att tillämpa olika skal på olika miniatyrlägen. `state` Motsvarar `state="selected"` den aktuella sidan med miniatyrbilder, `state="unselected"` vilket motsvarar standardläget för punkt.
+>Den angivna indikatorpunkten stöder attributväljaren `state`, som kan användas för att tillämpa olika skal på olika miniatyrlägen. `state="selected"` motsvarar den aktuella sidan med miniatyrbilder och `state="unselected"` motsvarar standardpunktläget.
 
 Exempel - för att ställa in att indikatorpunkten ska vara 15 x 15 pixlar, med två pixlar i vågrät marginal, fem pixlar i övre marginal, en pixel i nedre marginal, tolv pixlars radie, #D5D3D3 standardfärg och #939393 aktiv färg:
 
