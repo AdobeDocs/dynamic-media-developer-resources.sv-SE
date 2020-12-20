@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 28a17400-4807-4e14-937a-80309be53d55
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '118'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Image Serving stöder åtkomst till källbilder på externa HTTP- och FTP-servrar.
 
-För att ange en extern URL för ett `src=` eller `mask=` kommando. Avgränsa bara hela den inbäddade URL:en med klammerparenteser:
+Om du vill ange en extern URL för ett `src=`- eller `mask=`-kommando; Avgränsa bara hela den inbäddade URL:en med klammerparenteser:
 
 ` …&src={ *[!DNL foreignUrl]*}&…`
 
