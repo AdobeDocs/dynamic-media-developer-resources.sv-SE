@@ -1,6 +1,6 @@
 ---
-description: Använd PDF-jobbalternativ. En jobbalternativfil eller PDF-förinställning är en fil som genereras av Illustrator i dialogrutan Spara som PDF-alternativ eller PDF-förinställningar i InDesign.
-seo-description: Använd PDF-jobbalternativ. En jobbalternativfil eller PDF-förinställning är en fil som genereras av Illustrator i dialogrutan Spara som PDF-alternativ eller PDF-förinställningar i InDesign.
+description: Använd PDF-jobbalternativ. En jobbalternativfil eller PDF-förinställning är en fil som skapas av Illustrator i dialogrutan Spara som PDF-alternativ eller PDF-förinställningar i InDesign.
+seo-description: Använd PDF-jobbalternativ. En jobbalternativfil eller PDF-förinställning är en fil som skapas av Illustrator i dialogrutan Spara som PDF-alternativ eller PDF-förinställningar i InDesign.
 seo-title: joboption
 solution: Experience Manager
 title: joboption
@@ -8,19 +8,22 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 7288cf29-850f-4121-8425-5f995daac22d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '256'
+ht-degree: 0%
 
 ---
 
 
 # joboption{#joboption}
 
-Använd PDF-jobbalternativ. En jobbalternativfil eller PDF-förinställning är en fil som genereras av Illustrator i dialogrutan Spara som PDF-alternativ eller PDF-förinställningar i InDesign.
+Använd PDF-jobbalternativ. En jobbalternativfil eller PDF-förinställning är en fil som skapas av Illustrator i dialogrutan Spara som PDF-alternativ eller PDF-förinställningar i InDesign.
 
 ` joboption= *`value`*`
 
 <table id="simpletable_BA7B58BE0B0740298D45DDEBE7832D93"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> värde</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> value</span></span> </p> </td> 
   <td class="stentry"> <p>IPSID för jobbalternativsfilen. </p></td> 
  </tr> 
 </table>
