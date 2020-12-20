@@ -1,6 +1,6 @@
 ---
-description: Bädda in XMP-metadata. Anger om XMP-metadata ska inkluderas i svarsbilden.
-seo-description: Bädda in XMP-metadata. Anger om XMP-metadata ska inkluderas i svarsbilden.
+description: Bädda in XMP metadata. Anger om XMP metadata ska inkluderas i svarsbilden.
+seo-description: Bädda in XMP metadata. Anger om XMP metadata ska inkluderas i svarsbilden.
 seo-title: xmpEmbed
 solution: Experience Manager
 title: xmpEmbed
@@ -8,25 +8,28 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: c0dfd0e5-16d1-4a6e-957a-ecc276b9361a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '141'
+ht-degree: 0%
 
 ---
 
 
 # xmpEmbed{#xmpembed}
 
-Bädda in XMP-metadata. Anger om XMP-metadata ska inkluderas i svarsbilden.
+Bädda in XMP metadata. Anger om XMP metadata ska inkluderas i svarsbilden.
 
 `xmpEmbed=0|1`
 
 >[!NOTE]
 >
->XMP-data skickas från källbilden till svarsbilden utan ändring. Detta kan leda till att felaktiga data bäddas in i svarsbilden.
+>XMP data skickas från källbilden till svarsbilden utan ändring. Detta kan leda till att felaktiga data bäddas in i svarsbilden.
 
 ## Egenskaper {#section-27024c4272f44d9a8c264a0629193af2}
 
-Begär attribut. Ignoreras om källbilden inte innehåller XMP-data. Endast XMP-data från källbilden av `layer=0` bearbetas. XMP-data från andra lagerbilder ignoreras.
+Begär attribut. Ignoreras om källbilden inte innehåller XMP data. Endast XMP data från källbilden av `layer=0` bearbetas. XMP data från andra lagerbilder ignoreras.
 
-Ignoreras om utdatabildformatet inte stöder XMP-inbäddning. Se beskrivningen av `fmt=` för en lista över de utdataformat som stöder XMP-inbäddning.
+Ignoreras om utdatabildformatet inte stöder XMP inbäddning. Se beskrivningen av `fmt=` för en lista över de utdatabildformat som stöder XMP.
 
 ## Standard {#section-aedbedd04d664ba184b2cfe35644b960}
 
