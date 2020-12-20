@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 4b94f9ea-3f7b-45ee-9381-6434f2bc4e31
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '183'
+ht-degree: 0%
 
 ---
 
@@ -52,7 +55,7 @@ Ange eller uppdatera publiceringsläget för en eller flera resurser. Du kan ang
 
 ## Exempel {#section-283a073f3cb14bcda5abed863c538aa4}
 
-I det här kodexemplet anges publiceringsstatus för en resurs som använder `NotMarkedForPublish`.
+I det här kodexemplet anges publiceringsstatus för en resurs med `NotMarkedForPublish`.
 
 **Begäran**
 
