@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: ec321901-f077-4f71-a48c-20cae11c41d1
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '145'
+ht-degree: 0%
 
 ---
 
 
-# Huvudvisningsområde{#main-viewer-area}
+# Huvudvisningsprogramområde{#main-viewer-area}
 
 Huvudvisningsområdet är det område som upptas av 360-videon. Den ställs vanligtvis in så att den passar den tillgängliga enhetsskärmen när ingen storlek har angetts.
 
@@ -39,11 +42,11 @@ Visningsområdets utseende styrs av följande CSS-klassväljare:
    <td colname="col2"> <p>Bredden på visningsprogrammet. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Visningsprogrammets höjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Bakgrundsfärg i hexadecimalt format. </p> </td> 
   </tr> 
  </tbody> 
@@ -51,7 +54,7 @@ Visningsområdets utseende styrs av följande CSS-klassväljare:
 
 ## Exempel {#section-ee18025b182a42dc98052de5f133ddfe}
 
-Så här ställer du in ett visningsprogram med en vit bakgrund ( `#FFFFFF`) och gör det 512 x 288 pixlar stort.
+Om du vill ställa in ett visningsprogram med en vit bakgrund ( `#FFFFFF`) och göra storleken 512 x 288 pixlar.
 
 ```
 .s7video360viewer { 
