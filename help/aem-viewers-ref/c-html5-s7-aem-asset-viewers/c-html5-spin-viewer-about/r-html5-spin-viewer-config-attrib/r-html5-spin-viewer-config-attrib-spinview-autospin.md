@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 9d24ed39-e4b9-442b-bc64-c77707ff69d8
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '100'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Aktiverar eller inaktiverar den automatiska rotationsanimeringen. För att uppnå bästa möjliga funktion för automatisk rotation rekommenderar vi att du läser in alla bildrutor i förväg genom att ange <span class="codeph"> maxloadradius</span> till <span class="codeph"> -1</span>. Observera dock att detta leder till ökad inläsningstid och ökad bandbreddsanvändning. </p> </td> 
+   <td colname="col2"> <p> Aktiverar eller inaktiverar den automatiska rotationsanimeringen. För att få bästa möjliga upplevelse av automatisk rotation rekommenderar vi att du läser in alla bildrutor i förväg genom att ställa in <span class="codeph"> maxloadradius</span> på <span class="codeph"> -1</span>. Observera dock att detta leder till ökad inläsningstid och ökad bandbreddsanvändning. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> varaktighet</span></span> </p> </td> 
@@ -32,7 +35,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> spin_number</span></span> </p> </td> 
-   <td colname="col2"> <p> Antalet fullständiga rotationer som görs innan autospin stoppas. Talet är ett flyttal. Ange till <span class="codeph"> -1</span> för ett oändligt automatiskt snurra. </p> </td> 
+   <td colname="col2"> <p> Antalet fullständiga rotationer som görs innan autospin stoppas. Talet är ett flyttal. Ange <span class="codeph"> -1</span> för en oändlig automatisk rotation. </p> </td> 
   </tr> 
  </tbody> 
 </table>
