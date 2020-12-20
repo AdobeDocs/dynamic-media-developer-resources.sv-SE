@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Använd de här serverinställningarna för att konfigurera servern.
 
-## SV::ImageServerMode - Image Server-läge {#section-991b287f2dde4f77a24fc69d5b32cabd}
+## SV::ImageServerMode - Image Server Mode {#section-991b287f2dde4f77a24fc69d5b32cabd}
 
 Både en 32- och en 64-bitarsversion av Image Server finns för Linux. Ange ImageServer64 när den installeras på 64-bitars Linux-servrar, eller ImageServer32 (standard) när den installeras på 32-bitarsservrar.
 
@@ -29,19 +29,19 @@ Både en 32- och en 64-bitarsversion av Image Server finns för Linux. Ange Imag
 
 >[!NOTE]
 >
->64-bitarsläge stöds inte i Windows. Endast `ImageServer32` angivet. I annat fall startar inte Image Serving.
+>64-bitarsläge stöds inte i Windows. Endast `ImageServer32` kan anges. I annat fall startar inte Image Serving.
 
-## SV::PSHeapSize - stackstorlek för Platform Server {#section-fd83715948764aeda58d6b3a9f9f8be9}
+## SV::PSHeapSize - stackstorlek för plattformsserver {#section-fd83715948764aeda58d6b3a9f9f8be9}
 
-Java-stackstorleken för Platform Server. Standardvärdet är &quot; `512m`&quot; (512 MB).
+Java-stackstorleken för plattformsservern. Standardvärdet är `512m` (512 MB).
 
 ## IS::TcpPort, PS::isConnection.port - Image Server Listening Port {#section-5421bfd2ca2a4a979faf812b6fdb2887}
 
-Anger porten som används för kommunikation mellan Platform Server och Image Server. Se till att ange ett portnummer som inte används på annat sätt på värdsystemet.
+Anger porten som används för kommunikation mellan plattformsservern och Image-servern. Se till att ange ett portnummer som inte används på annat sätt på värdsystemet.
 
 >[!NOTE]
 >
->För att bildservern ska fungera på rätt sätt måste samma värde anges för `IS::TcpPort` och `PS::isConnection.port`.
+>För att Image Serving ska fungera på rätt sätt måste samma värde anges för `IS::TcpPort` och `PS::isConnection.port`.
 
 ## IS::PhysicalMemory - Minnesgräns för avbildningsserver {#section-85e37aa2ac6e456eb698da716dd3247d}
 
