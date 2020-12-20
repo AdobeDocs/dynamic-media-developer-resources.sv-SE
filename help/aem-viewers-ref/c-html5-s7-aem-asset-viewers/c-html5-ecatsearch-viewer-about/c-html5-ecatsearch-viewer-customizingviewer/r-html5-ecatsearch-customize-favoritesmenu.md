@@ -1,6 +1,6 @@
 ---
-description: Listrutan Favoriter visas i kontrollfältet. Det består av en knapp och en panel som utökas när en användare klickar eller trycker på en knapp. Panelen innehåller enskilda favoritverktyg.
-seo-description: Listrutan Favoriter visas i kontrollfältet. Det består av en knapp och en panel som utökas när en användare klickar eller trycker på en knapp. Panelen innehåller enskilda favoritverktyg.
+description: Listrutan Favoriter visas i kontrollfältet. Den består av en knapp och en panel som utökas när en användare klickar eller trycker på en knapp. Panelen innehåller enskilda favoritverktyg.
+seo-description: Listrutan Favoriter visas i kontrollfältet. Den består av en knapp och en panel som utökas när en användare klickar eller trycker på en knapp. Panelen innehåller enskilda favoritverktyg.
 seo-title: Favoriter-menyn
 solution: Experience Manager
 title: Favoriter-menyn
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: 46de2a74-690e-4010-8a71-54206dd02fd0
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '360'
+ht-degree: 0%
 
 ---
 
 
-# Favoriter-menyn{#favorites-menu}
+# Favoritmeny{#favorites-menu}
 
-Listrutan Favoriter visas i kontrollfältet. Det består av en knapp och en panel som utökas när en användare klickar eller trycker på en knapp. Panelen innehåller enskilda favoritverktyg.
+Listrutan Favoriter visas i kontrollfältet. Den består av en knapp och en panel som utökas när en användare klickar eller trycker på en knapp. Panelen innehåller enskilda favoritverktyg.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -29,11 +32,11 @@ Placeringen och storleken på Favoriter-menyn i visningsprogrammets användargr�
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal-top  </span> </p> </td> 
    <td colname="col2"> <p> Förskjutningen från kontrollfältets överkant. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal-vänster </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal-vänster  </span> </p> </td> 
    <td colname="col2"> <p> Avståndet till nästa knapp till vänster eller till vänster om kontrollfältet om det är den första knappen på en rad. </p> </td> 
   </tr> 
   <tr> 
@@ -41,7 +44,7 @@ Placeringen och storleken på Favoriter-menyn i visningsprogrammets användargr�
    <td colname="col2"> <p>Knappens bredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Knappens höjd. </p> </td> 
   </tr> 
  </tbody> 
@@ -69,11 +72,11 @@ Utseendet på menyknappen Favoriter styrs av följande CSS-klassväljare:
 <table id="table_970D62A1413145E0A964FA9D9F108579"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Bilden som visas för ett visst knappläge. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Placera inuti en teckningssprite, om CSS-sprites används. </p> <p>Se även <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-fragment </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -81,9 +84,9 @@ Utseendet på menyknappen Favoriter styrs av följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen har stöd för attributväljaren, som kan användas för att tillämpa olika skal på olika knapplägen. `state`
+>Den här knappen stöder attributväljaren `state`, som kan användas för att tillämpa olika skal på olika knapplägen.
 
-Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av element i användargränssnittet](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - Ställ in en Favoriter-menyknapp som visar olika bilder för de fyra olika knapplägena.
 
@@ -113,7 +116,7 @@ Utseendet på panelen som innehåller enskilda Favoriter-ikoner styrs av följan
 <table id="table_B57B44C561E94F86BB1B0EC1671F26DB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Panelens bakgrundsfärg. </p> </td> 
   </tr> 
  </tbody> 
