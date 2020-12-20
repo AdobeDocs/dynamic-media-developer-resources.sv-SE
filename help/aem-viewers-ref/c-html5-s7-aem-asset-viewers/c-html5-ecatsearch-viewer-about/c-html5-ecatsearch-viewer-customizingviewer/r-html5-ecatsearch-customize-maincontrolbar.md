@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 21b6e6cd-115f-4c7b-a61e-34b307142045
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '691'
+ht-degree: 0%
 
 ---
 
@@ -31,25 +34,25 @@ Utseendet på huvudkontrollfältet styrs av följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p>Placera högst upp i visningsprogrammet. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> nederkant </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> nederkant  </span> </p> </td> 
    <td colname="col2"> <p>Placera längst ned i visningsprogrammet. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Huvudkontrollfältets höjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Huvudkontrollfältets bakgrundsfärg. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Exempel** - för att ställa in ett grått huvudkontrollfält som är 36 pixlar högt och placerat högst upp i visningsbehållaren.
+**Exempel**  - för att ställa in ett grått huvudkontrollfält som är 36 pixlar högt och placerat högst upp i visningsbehållaren.
 
 ```
 .s7ecatalogsearchviewer .s7controlbar { 
@@ -75,7 +78,7 @@ Rullningsfunktionen är aktiverad för huvudkontrollfältet och inaktiverad för
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> position </span> </p> </td> 
-   <td colname="col2"> <p>När den är inställd på <span class="codeph"> statisk är </span> rullningsfunktionen inaktiverad. </p> <p>Ange den här egenskapen till <span class="codeph"> absolut </span> för att aktivera rullningsfunktionen. </p> </td> 
+   <td colname="col2"> <p>När den är inställd på <span class="codeph"> static </span> är rullningsfunktionen inaktiverad. </p> <p>Ställ in den här egenskapen på <span class="codeph"> absolut </span> för att aktivera rullningsfunktionen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -99,7 +102,7 @@ Utseendet på den här rullningsknappbehållaren styrs av följande CSS-klassvä
    <td colname="col2"> <p>Normalt ska vara lika med eller större än bredden på själva rullningsknappen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Behållarens bakgrundsfärg. </p> </td> 
   </tr> 
  </tbody> 
@@ -120,19 +123,19 @@ Utseendet på den här knappen styrs av följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Knappens bredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Knappens höjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Bilden som visas för ett visst knappläge. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p>Placera inuti en teckningssprite, om CSS-sprites används. </p> <p>Se även <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-fragment </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -140,11 +143,11 @@ Utseendet på den här knappen styrs av följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen stöder väljarna `state` och `selected` attribut, som kan användas för att tillämpa olika skal på olika knapplägen. I synnerhet motsvarar `state="selected"` det inledande rullningsknappläget när det är möjligt att rulla innehållet i kontrollfältet åt vänster. `state="default"` motsvarar läget när innehållet rullas hela vägen till vänster och rullningsknappen föreslår att det återgår till det ursprungliga läget.
+>Den här knappen stöder attributväljarna `state` och `selected`, som kan användas för att tillämpa olika skal på olika knapplägen. `state="selected"` motsvarar i synnerhet det inledande rullningsknappläget när det är möjligt att rulla innehållet i kontrollfältet åt vänster, `state="default"` motsvarar läget när innehållet rullas hela vägen till vänster och rullningsknappen föreslår att det återgår till det ursprungliga läget.
 
-Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av element i användargränssnittet](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
-**Exempel** - för att aktivera rullningsfunktionen i huvudkontrollfältet för mobiltelefoner och ställa in en rullningsknapp på 64 x 64 pixlar som visar en annan bild för var och en av de fyra olika knapplägena när den är markerad eller inte är markerad:
+**Exempel**  - för att aktivera rullningsfunktionen i huvudkontrollfältet för mobiltelefoner och ställa in en rullningsknapp som är 64 x 64 pixlar som visar olika bilder för de fyra olika knapplägena när de är markerade eller inte är markerade:
 
 ```
 .s7ecatalogsearchviewer.s7size_small .s7controlbar .s7innercontrolbarcontainer { 
