@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# ÅterbearbetaResurserJobb{#reprocessassetsjob}
+# ReprocessAssetsJob{#reprocessassetsjob}
 
 Jobbtyp som tillåter ombearbetning av tidigare överförda primära filer, inklusive återgivning av PDF-filer och omoptimering av bilder.
 
@@ -55,7 +55,7 @@ Syntax
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> preserveCrop</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:boolesk</span> </p> </td> 
-   <td colname="col3"> <p>Kontrollerar bevarande av befintliga beskärningsdefinitioner. Standardvärdet är true.</p> <p>Om du anger parametern manualCropOptions och motsvarande värden används de nya värdena (exklusive 0,0,0,0) för resursen oavsett preserveCrop-värdet.</p><p>Om du <i>inte</i> anger parametern manualCropOptions behålls värdet för preserveCrop. Om värdet är true behålls de befintliga värdena för preserveCrop. om false tas preserveCrop-värdena bort.</p><p>Exempel:</p><p><p>&lt;preserveCrop&gt;false&lt;/preserveCrop&gt;<br />&lt;manualCropOptions&gt;<br />&lt;left&gt;190&lt;/left&gt;<br />&lt;right&gt;310&lt;/right&gt;<br />&lt;top&gt;160&lt;/top&gt;<br />&lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualCropOptions&gt;</p> </td> 
+   <td colname="col3"> <p>Kontrollerar bevarande av befintliga beskärningsdefinitioner. Standardvärdet är true.</p> <p>Om du anger parametern manualCropOptions och motsvarande värden används de nya värdena (exklusive 0,0,0,0) för resursen oavsett preserveCrop-värdet.</p><p>Om du <i>inte</i> anger parametern manualCropOptions behålls värdet för preserveCrop. Om värdet är true behålls de befintliga värdena för preserveCrop. om false tas preserveCrop-värdena bort.</p><p>Exempel:</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />    &lt;left&gt;190&lt;/left&gt;<br />    &lt;right&gt;310&lt;/right&gt;<br />    &lt;top&gt;160&lt;/top&gt;<br />    &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </p> </td> 
@@ -75,7 +75,7 @@ Syntax
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> photoshopOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> typer:PhotoshopOptions</span> </p> </td> 
-   <td colname="col3"> <p>Alternativ för att överföra Photoshop-filer till bildservern. </p> </td> 
+   <td colname="col3"> <p>Alternativ för överföring av Photoshop-filer till Image Server. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postScriptOptions</span> </span> </p> </td> 
@@ -150,7 +150,7 @@ Syntax
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> typer:KnockoutBackgroundOptions</span> </p> </td> 
-   <td colname="col3"> <p>Maskera bakgrunden för markerade bilder. På så sätt kan du täcka över dem i andra lager med en genomskinlighet utanför objektbilden. </p> <p>Valfritt. </p> <p>Se<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> BlockeraBakgrundAlternativ</a> </p> </td> 
+   <td colname="col3"> <p>Maskera bakgrunden för markerade bilder. På så sätt kan du täcka över dem i andra lager med en genomskinlighet utanför objektbilden. </p> <p>Valfritt. </p> <p>Se<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> BlockeraBakgrundsalternativ</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </p> </td> 
@@ -162,13 +162,13 @@ Syntax
 
 **Anteckningar**
 
-Du kan välja mellan följande `*CropOptions` :
+Du kan välja `*CropOptions`:
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-Du kan välja mellan följande `*PublishJob` :
+Du kan välja `*PublishJob`:
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`
