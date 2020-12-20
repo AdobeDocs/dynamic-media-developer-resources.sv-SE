@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 2cc2fb9f-ad32-4ac6-8e58-c8a11b786d65
 translation-type: tm+mt
 source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
+workflow-type: tm+mt
+source-wordcount: '111'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +29,7 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 * [Teckensnittsformat](r-font-styles.md)
 * [Teckensnittstyper](r-font-types.md)
 * [Genereringsinformation](r-generation-info.md)
-* [Illustrator-processer](r-illustrator-processes.md)
+* [Illustrator Processes](r-illustrator-processes.md)
 * [Filtyper för jobbloggar](r-job-log-file-types.md)
 * [Sorteringsfält för jobbloggar](r-job-log-sort-fields.md)
 * [Jobbloggtyper](r-job-log-types.md)
@@ -36,8 +39,8 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 * [Operatorer för numerisk jämförelse/datumjämförelse](r-numeric-date-comparison-operators.md)
 * [PDF-processer](r-pdf-processes.md)
 * [Behörighetstyper](r-permission-types.md)
-* [Photoshop: Ankarlägen](r-photoshop-anchor-modes.md)
-* [Photoshop: Namngivningslägen för lager](r-photoshop-layer-naming-modes.md)
+* [Photoshop ankarlägen](r-photoshop-anchor-modes.md)
+* [Namngivningslägen för Photoshop-lager](r-photoshop-layer-naming-modes.md)
 * [PostScript-färgmodell](r-postscript-colorspace-modes.md)
 * [Profilklasser](r-profile-classes.md)
 * [Publiceringsläge](r-publish-state.md)
