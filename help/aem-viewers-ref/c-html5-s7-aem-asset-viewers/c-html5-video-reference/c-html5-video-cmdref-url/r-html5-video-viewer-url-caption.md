@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 670d83c2-bfc5-411a-8581-5103a62aa8cf
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '202'
+ht-degree: 1%
 
 ---
 
 
-# bildtext{#caption}
+# caption{#caption}
 
 URL-kommando för Video Viewer.
 
@@ -34,18 +37,18 @@ Visningsprogrammet har stöd för undertextning via WebVTT-filer på webben. Öv
    <td colname="col1"> <p> A </p> </td> 
    <td colname="col2"> <p>textjustering </p> </td> 
    <td colname="col3"> <p><span class="codeph"> left|right|middle|start|end</span> </p> </td> 
-   <td colname="col4"> <p> Styr textjustering. </p> <p>Standard är <span class="codeph"> mitten</span>. </p> </td> 
+   <td colname="col4"> <p> Styr textjustering. </p> <p>Standardvärdet är <span class="codeph"> mitten</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>T </p> </td> 
    <td colname="col2"> <p>textposition </p> </td> 
-   <td colname="col3"> <p> 0%-100% </p> </td> 
+   <td colname="col3"> <p> 0 %-100 % </p> </td> 
    <td colname="col4"> <p> Procentandel indrag i VideoPlayer-komponenten för bildtextens början. </p> <p>Standardvärdet är 0 %. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>S </p> </td> 
    <td colname="col2"> <p>radstorlek </p> </td> 
-   <td colname="col3"> <p> 0%-100% </p> </td> 
+   <td colname="col3"> <p> 0 %-100 % </p> </td> 
    <td colname="col4"> <p> Procentandel av videobredden som används för bildtexter. </p> <p>Standardvärdet är 100 %. </p> </td> 
   </tr> 
   <tr> 
@@ -67,7 +70,7 @@ Andra WebVTT-funktioner i WebVTT-filen stöds inte, men bör inte störa bildtex
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Anger standardläget för bildtext (aktiverad är <span class="codeph"> 1</span>). </p> </td> 
+   <td colname="col2"> <p> Anger standardbildtextläget (aktiverat är <span class="codeph"> 1</span>). </p> </td> 
   </tr> 
  </tbody> 
 </table>
