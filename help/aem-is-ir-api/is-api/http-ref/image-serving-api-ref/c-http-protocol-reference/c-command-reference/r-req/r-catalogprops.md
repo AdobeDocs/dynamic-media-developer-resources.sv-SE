@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 09252d39-8604-4785-bcdc-ad229a691035
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '229'
+ht-degree: 0%
 
 ---
 
 
-# katalogprops{#catalogprops}
+# kataloger{#catalogprops}
 
 Egenskaper för bildkatalog. Returnerar gemensamma attribut för den bildkatalog som anges i sökvägen för begäran.
 
@@ -27,7 +30,7 @@ Egenskaper för bildkatalog. Returnerar gemensamma attribut för den bildkatalog
 
 Utelämna katalog-ID:t för att hämta standardkatalogegenskaperna ( [!DNL default.ini]). HTTP-svaret kan nås med TTL-värdet baserat på `attribute::NonImgExpiration`.
 
-Begäranden som stöder JSONP-svarsformatet gör att du kan ange namnet på JS-callback-hanteraren med den utökade syntaxen för `req=` parametern:
+Begäranden som stöder JSONP-svarsformatet gör att du kan ange namnet på JS-callback-hanteraren med den utökade syntaxen för parametern `req=`:
 
 `req=...,json [&handler = reqHandler ]`
 
@@ -80,7 +83,7 @@ Följande egenskapsvärden returneras:
   <tr valign="top"> 
    <td> <p> <span class="codeph"> catalog.fileTime</span> </p> </td> 
    <td> <p> string </p> </td> 
-   <td> <p> <span class="codeph"> attribute::LastModified</span>, eller, om sådan inte finns, den senaste ändringstiden för <span class="varname"> -katalogfilen</span><span class="filepath"> .ini</span> -fil </p> </td> 
+   <td> <p> <span class="codeph"> attribute::LastModified</span>, eller, om sådan inte finns, den senaste ändringstiden för  <span class="varname"> catalog</span><span class="filepath"> .</span> inifile </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.jpegQuality</span> </p> </td> 
