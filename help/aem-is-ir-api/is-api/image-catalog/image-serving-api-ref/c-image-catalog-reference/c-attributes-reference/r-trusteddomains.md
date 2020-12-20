@@ -1,6 +1,6 @@
 ---
-description: Webbdomäner för Flash-program. Adobe Flash-program kan kräva åtkomst till egenskaperna för bilder som levereras med fmt=swf eller fmt=swf3.
-seo-description: Webbdomäner för Flash-program. Adobe Flash-program kan kräva åtkomst till egenskaperna för bilder som levereras med fmt=swf eller fmt=swf3.
+description: Flash webbdomäner. Adobe Flash kan kräva åtkomst till egenskaper för bilder som levereras med fmt=swf eller fmt=swf3.
+seo-description: Flash webbdomäner. Adobe Flash kan kräva åtkomst till egenskaper för bilder som levereras med fmt=swf eller fmt=swf3.
 seo-title: Betrodda domäner
 solution: Experience Manager
 title: Betrodda domäner
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 1d056d68-b699-413c-897c-8612444735c5
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '128'
+ht-degree: 0%
 
 ---
 
 
 # Betrodda domäner{#trusteddomains}
 
-Webbdomäner för Flash-program. Adobe Flash-program kan kräva åtkomst till egenskaperna för bilder som levereras med fmt=swf eller fmt=swf3.
+Flash webbdomäner. Adobe Flash kan kräva åtkomst till egenskaper för bilder som levereras med fmt=swf eller fmt=swf3.
 
 SWF-filen måste bevilja åtkomst uttryckligen genom att registrera namnet på de programdomäner som den litar på.
 
