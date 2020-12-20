@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 43d8e003-79f7-4e41-98d7-b362ab7180ea
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '952'
+ht-degree: 0%
 
 ---
 
@@ -35,11 +38,11 @@ När panelen är aktiv visas visningsprogrammets användargränssnitt med en hal
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Övertäckningens färg. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opacitet </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opacitet  </span> </p> </td> 
    <td colname="col2"> <p>Färgens opacitet. </p> </td> 
   </tr> 
  </tbody> 
@@ -84,7 +87,7 @@ Den övre delen av sökresultatpanelen är dedikerad till sökrutan. Utfyllnaden
 <table id="table_A1B96108542742DC8DCBCC9064F9E90B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> utfyllnad </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> utfyllnad  </span> </p> </td> 
    <td colname="col2"> <p> Utfyllnad runt inmatningsrutan. </p> </td> 
   </tr> 
  </tbody> 
@@ -101,23 +104,23 @@ Sökindatafältet styrs av följande CSS-klassväljare:
 <table id="table_9FB5E89847BF4C889DC22AD7E842C0F7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Höjden på sökinmatningsfältet. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-left  </span> </p> </td> 
    <td colname="col2"> <p> Den inre utfyllnaden mellan inmatningsfältets gränser och inmatningstexten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
    <td colname="col2"> <p>Kant för sökinmatningsfältet. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal  </span> </p> </td> 
    <td colname="col2"> <p>Marginal för sökinmatningsfältet </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Storlek på textteckensnittet. </p> </td> 
   </tr> 
  </tbody> 
@@ -144,27 +147,27 @@ Sökknappen till vänster om sökinmatningsfältet i form av &quot;lookglass&quo
 <table id="table_CDD818B40BB1416CB47B7C52F799DE0C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Bredd på indataknappen för sökning. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Höjden på indataknappen för sökning. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>URL:en till ikonbilden för "lookglass". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-size  </span> </p> </td> 
    <td colname="col2"> <p>Storleken på ikonen för "lookglass". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
    <td colname="col2"> <p>Kant på indataknappen för sökning. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal  </span> </p> </td> 
    <td colname="col2"> <p>Marginal för sökknappen. </p> </td> 
   </tr> 
  </tbody> 
@@ -194,19 +197,19 @@ Sökresultatpanelen kan visa en textfråga när funktionen anropas för första 
 <table id="table_1DF5A12A21584FCC8C25F170078FEFE6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> färg </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> färg  </span> </p> </td> 
    <td colname="col2"> <p> Textens färg. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Namn på textteckensnitt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-align  </span> </p> </td> 
    <td colname="col2"> <p>Vågrät textjustering. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Storlek på teckensnittstext. </p> </td> 
   </tr> 
  </tbody> 
@@ -214,9 +217,9 @@ Sökresultatpanelen kan visa en textfråga när funktionen anropas för första 
 
 >[!NOTE]
 >
->Den här textpanelen har stöd för attributväljaren, som kan användas för att tillämpa olika format på olika textmeddelanden. `state` motsvarar i synnerhet den textprompt som visas när panelen anropas för första gången, `state='prompt'` `state='results'` motsvarar texten med information om sökträffar, och `state='no_results'` motsvarar den text som visas när sökfrågan inte returnerade några resultat.
+>Den här textpanelen har stöd för attributväljaren `state`, som kan användas för att tillämpa olika format på olika textmeddelanden. `state='prompt'` motsvarar i synnerhet den textprompt som visas när panelen anropas för första gången; `state='results'` motsvarar texten med information om sökträffar; och `state='no_results'` motsvarar den text som visas när sökfrågan inte returnerade några resultat.
 
-Meddelandetexten kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
+Meddelandetexten kan lokaliseras. Mer information finns i [Lokalisering av element i användargränssnittet](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - för att ställa in en textpanel som använder ett grått teckensnitt på 18 pixlar:
 
@@ -238,7 +241,7 @@ Sökresultaten återges som en enda kolumn eller som en enda rad med miniatyrbil
 <table id="table_26974E509F6943BB98CBC1E4BAE62D68"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal  </span> </p> </td> 
    <td colname="col2"> <p> Storleken på den lodräta marginalen runt varje miniatyrbild. Det faktiska mellanrummet för miniatyrbilder är lika med summan av de övre och nedre marginalerna som angetts för <span class="codeph"> .s7miniatyrcell </span>. </p> </td> 
   </tr> 
  </tbody> 
@@ -263,15 +266,15 @@ Utseendet på enskilda miniatyrbilder styrs med följande CSS-klassväljare:
 <table id="table_00829E44F75040A4B2AE19ACD550DA1E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Miniatyrens bredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Höjden på miniatyrbilden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
    <td colname="col2"> <p>Miniatyrens kantlinje. </p> </td> 
   </tr> 
  </tbody> 
@@ -298,15 +301,15 @@ Utseendet på miniatyrbildetiketten styrs av följande CSS-klassväljare:
 <table id="table_CA669F6AE7574FF389BF725B3F768E5E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> färg </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> färg  </span> </p> </td> 
    <td colname="col2"> <p> Textfärg. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Namn på textteckensnitt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Storlek på textteckensnitt. </p> </td> 
   </tr> 
  </tbody> 
@@ -336,19 +339,19 @@ Det går inte att placera rullningsknappar med CSS-egenskaperna top, left, botto
 <table id="table_11063C7F428D4707A8138F17650F8F5F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Bredd på rullningsknappen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Höjden på rullningsknappen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Bilden som visas för ett visst knappläge. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Placera inuti en teckningssprite, om CSS-sprites används. </p> <p>Se även <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-fragment </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -356,9 +359,9 @@ Det går inte att placera rullningsknappar med CSS-egenskaperna top, left, botto
 
 >[!NOTE]
 >
->Den här knappen har stöd för attributväljaren, som kan användas för att tillämpa olika skal på `state` , `"up"``"down"`och `"over"``"disabled"` knapplägen.
+>Den här knappen stöder attributväljaren `state`, som kan användas för att tillämpa olika skal på knapplägena `"up"`, `"down"`, `"over"` och `"disabled"`.
 
-Knappverktygstipsen kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
+Knappverktygstipsen kan lokaliseras. Mer information finns i [Lokalisering av element i användargränssnittet](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - för att ställa in en rullningsknapp som är 125 x 35 pixlar och har olika teckningar för varje läge:
 
