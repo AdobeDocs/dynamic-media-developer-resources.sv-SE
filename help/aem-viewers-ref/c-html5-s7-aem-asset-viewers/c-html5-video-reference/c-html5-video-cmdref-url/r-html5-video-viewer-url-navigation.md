@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 5622633e-ea05-4afc-a2e3-e34db73019b0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '59'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +26,7 @@ Visningsprogrammet har stöd för kapitelnavigering via WebVTT-filer på webben.
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fil</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fil</span> </span> </p> </td> 
    <td colname="col2"> <p> Anger en URL eller sökväg till WebVTT-navigeringsinnehåll. Image Serving bör vara värd för WebVTT-filen. </p> </td> 
   </tr> 
  </tbody> 
