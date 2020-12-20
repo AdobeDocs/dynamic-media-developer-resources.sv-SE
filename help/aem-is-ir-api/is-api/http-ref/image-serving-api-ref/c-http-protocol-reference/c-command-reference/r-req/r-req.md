@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: b888be10-89e5-4b41-a2bd-f83533ea2481
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '99'
+ht-degree: 0%
 
 ---
 
@@ -39,8 +42,8 @@ Typ av begäran. Anger typen av begäran.
 * [xlate](r-xlate.md)
 * [xmp](r-xmp.md)
 
-Om inget annat anges i de detaljerade beskrivningarna returnerar servern `text` svar med MIME-typ `text/plain`. I många typer av förfrågningar kan du ange en svarstyp, till exempel `text`som vanligtvis är standard, `javascript`, `xml`eller `json`. De associerade MIME-svarstyperna är `text/plain`, `text/javascript`, `text/xml`och `text/javascript`.
+Om inget annat anges i de detaljerade beskrivningarna returnerar servern `text` svar med MIME-typen `text/plain`. I många typer av förfrågningar kan du ange en svarstyp, till exempel `text`, som vanligtvis är standard, `javascript`, `xml` eller `json`. De associerade MIME-svarstyperna är `text/plain`, `text/javascript`, `text/xml` och `text/javascript`.
 
-Om inget annat anges formaterar svaren som en uppsättning `name=value` par.
+Om inget annat anges formaterar svaren som en uppsättning `name=value`-par.
 
 Se [Egenskaper](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9).
