@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 59b37d60-1d0c-4d0b-a5a0-98d8bf9e9064
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '182'
+ht-degree: 0%
 
 ---
 
@@ -25,13 +28,13 @@ Sammansättningsmall. Gör att du kan ange en sammansättningsmall som finns i e
  </tr> 
 </table>
 
-*`template`* måste vara en bildkatalogspost med malltexten i `catalog::Modifier`.
+*`template`* måste vara en bildkatalogspost med malltexten i  `catalog::Modifier`.
 
-När det `template=` finns kommer det objekt som anges i begärandesökvägen inte att användas som källa för lager 0, men kan refereras som ett `src=` eller `mask=` var som helst i mallen genom att använda den fördefinierade variabeln path `$object$` som ett `src=` värde. `catalog::Modifier` för det objekt som anges i begärandesökvägen används bara i samband med att mallen ersätts `$object$` , medan `catalog::PostModifier` alltid används.
+När `template=` finns kommer objektet som anges i begärandesökvägen inte att användas som källa för lager 0, men kan refereras som `src=` eller `mask=` var som helst i mallen med den fördefinierade sökvägsvariabeln `$object$` som ett `src=`-värde. `catalog::Modifier` för det objekt som anges i begärandesökvägen tillämpas bara i samband med att mallen ersätts  `$object$` i, medan  `catalog::PostModifier` alltid används.
 
 Lager 0 definieras i mallbrödtexten och kan vara ett bild-, enfärgat, textbaserat eller kapslat eller inbäddat begärandolager.
 
-`catalog:PostModifier` of *`object`* ignoreras när *`object`* används med `template=`.
+`catalog:PostModifier` of  *`object`* ignoreras när  *`object`* används med  `template=`.
 
 ## Standard {#section-9de53ea27c4b4fd4811e40e345d8ba05}
 
@@ -47,4 +50,4 @@ Se exemplen i [Mallar](../../../../../is-api/http-ref/image-serving-api-ref/c-ht
 
 ## Se även {#section-067587444f774469931ecafd5a39834c}
 
-[objekt](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0), [mallar](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e), [fördefinierad banvariabel](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-substitution-variables.md#reference-90dc01aba44940e4acdd0c6476e7aa5a)
+[objekt](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0),  [mallar](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e),  [fördefinierad banvariabel](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-substitution-variables.md#reference-90dc01aba44940e4acdd0c6476e7aa5a)
