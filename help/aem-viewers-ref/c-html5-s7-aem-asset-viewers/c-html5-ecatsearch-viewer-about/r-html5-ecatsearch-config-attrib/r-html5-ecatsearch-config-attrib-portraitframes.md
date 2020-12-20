@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: b915df14-62cf-4ff2-8336-dac4b3dd605f
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '48'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> dela|heldragen</span> </p> </td> 
-   <td colname="col2"> <p>Ange att det ska <span class="codeph"> delas</span> så att visningsprogrammet kan visa uppslag med dubbla sidor som en separat sida när de används på en mobil enhet i stående orientering. Ange som <span class="codeph"> heldragen</span> om du alltid vill visa dubbelsidiga uppslag som heldragen bild, oavsett enhetens orientering. </p> </td> 
+   <td colname="col2"> <p>Ange <span class="codeph"> dela</span> så att visningsprogrammet kan visa dubbelsidiga uppslag som en separat sida när det används på en mobil enhet i stående orientering. Ange <span class="codeph"> heldragen</span> om du alltid vill visa dubbelsidiga uppslag som heldragen bild, oavsett enhetens orientering. </p> </td> 
   </tr> 
  </tbody> 
 </table>
