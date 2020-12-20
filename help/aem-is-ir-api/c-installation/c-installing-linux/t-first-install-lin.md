@@ -22,12 +22,12 @@ Den här proceduren visar hur du installerar Image Serving för första gången 
 1. Logga in på servervärden med rotbehörigheter.
 1. Skapa mappen [!DNL /usr/local/scene7/licenses].
 
-   Om licensnyckelfilen för Image Serving och/eller Image Rendering (med [!DNL .sc8] filsuffix) är tillgänglig kopierar du den till den här mappen. Annars fortsätter du med installationen och installerar licensnyckeln senare.
+   Om licensnyckelfilen för Image Serving och/eller Image Rendering (med filsuffixet [!DNL .sc8]) är tillgänglig kopierar du den till den här mappen. Annars fortsätter du med installationen och installerar licensnyckeln senare.
 1. Ta bort komprimeringen och ta bort kontrollen för Image Serving-distributionens tjärfil.
-1. Kör [!DNL ./install-is], som finns i [!DNL Setup] mappen, för att starta installationsguiden.
+1. Kör [!DNL ./install-is] i mappen [!DNL Setup] för att starta installationsguiden.
 
    Om ingen licensnyckel hittas visas instruktioner som beskriver hur du hämtar en licensfil. Gör det nu eller fortsätt med installationen av Image Serving och installera licensnyckeln senare.
-1. När slutanvändarlicensavtalet (EULA) visas läser du licensavtalet och anger sedan `y` att du vill fortsätta.
+1. När slutanvändarlicensavtalet (EULA) visas läser du licensavtalet och anger `y` för att fortsätta.
 
    Installationsprogrammet visar de uppmaningar som anges i följande tabell.
 
@@ -60,7 +60,7 @@ Den här proceduren visar hur du installerar Image Serving för första gången 
  </tbody> 
 </table>
 
-1. Tryck för **[!UICONTROL Enter]** att godkänna standardvärdet eller ange ett annat värde.
+1. Tryck på **[!UICONTROL Enter]** om du vill acceptera standardvärdet eller ange ett annat värde.
 
    Kontrollera att alla angivna portnummer är unika och inte används på annat sätt på den här värden.
 
@@ -68,7 +68,7 @@ Den här proceduren visar hur du installerar Image Serving för första gången 
    >
    >Om ett annat konto än roten anges måste du se till att åtkomstbehörigheterna för alla filer och mappar som Image Server behöver för att läsa och/eller skriva är korrekt konfigurerade när dessa mappar konfigureras om i konfigurationsfilerna.
    >
-   >Image Serving är nu installerat i [!DNL /usr/local/Scene7/ImageServing]. Visst bildåtergivningsinnehåll är installerat i [!DNL /usr/local/Scene7/ImageRendering].
+   >Image Serving är nu installerat på [!DNL /usr/local/Scene7/ImageServing]. Visst bildåtergivningsinnehåll är installerat på [!DNL /usr/local/Scene7/ImageRendering].
    >
    >Installationsguiden försöker starta Image Server mot slutet av installationen. Om ingen giltig licensnyckel hittas kan inte Image Server starta. Om det finns en giltig licens och Image Server fortfarande inte startas, bör du läsa loggfilerna.
 
