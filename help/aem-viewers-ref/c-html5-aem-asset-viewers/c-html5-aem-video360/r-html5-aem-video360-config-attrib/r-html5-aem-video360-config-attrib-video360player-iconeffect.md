@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: a0a2f840-e330-4636-8daf-1cd3f2eddf01
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '134'
+ht-degree: 5%
 
 ---
 
@@ -16,13 +19,13 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Konfigurationsattribut för Video360 Viewer.
 
-` [Video360Player.|<containerId>_video360Player.]iconeffect=0|1[, *`countfadeautoHide`*][, *``*][, *``*]`
+` [Video360Player.|<containerId>_video360Player.]iconeffect=0|1[, *`countfadeautoHide `*][, *``*][, *``*]`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Gör att IconEffect kan visas ovanpå videon när videon är i pausat läge. På vissa enheter används inbyggda kontroller. I sådana fall ignoreras <span class="codeph"> ikoneffektsmodifieraren</span> . </p> </td> 
+   <td colname="col2"> <p> Gör att IconEffect kan visas ovanpå videon när videon är i pausat läge. På vissa enheter används inbyggda kontroller. I sådana fall ignoreras modifieraren <span class="codeph"> iconeffect</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> antal</span></span> </p> </td> 
@@ -34,7 +37,7 @@ Konfigurationsattribut för Video360 Viewer.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> autoHide</span></span> </p> </td> 
-   <td colname="col2"> <p> Anger antalet sekunder som IconEffect ska vara helt synlig innan den döljs automatiskt. Det vill säga, tiden efter att animeringen har tonats in och innan animeringen börjar tonas ut. Ange 0 <span class="codeph"></span> om du vill inaktivera funktionen för att dölja automatiskt. </p> </td> 
+   <td colname="col2"> <p> Anger antalet sekunder som IconEffect ska vara helt synlig innan den döljs automatiskt. Det vill säga, tiden efter att animeringen har tonats in och innan animeringen börjar tonas ut. Ange <span class="codeph"> 0</span> om du vill inaktivera funktionen för att dölja automatiskt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
