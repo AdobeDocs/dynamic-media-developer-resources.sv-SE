@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: e9bf2780-a520-4fb1-ab4c-40bb799e36a4
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '345'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +32,7 @@ HTTP-svaret kan nås med TTL-värdet baserat på `attribute::NonImgExpiration`.
 
 Andra kommandon i begärandesträngen ignoreras.
 
-Begäranden som stöder JSONP-svarsformatet gör att du kan ange namnet på JS-callback-hanteraren med den utökade syntaxen för `req=` parametern:
+Begäranden som stöder JSONP-svarsformatet gör att du kan ange namnet på JS-callback-hanteraren med den utökade syntaxen för parametern `req=`:
 
 `req=...,json [&handler = reqHandler ]`
 
@@ -47,12 +50,12 @@ Följande egenskaper returneras:
   <tr> 
    <td> <p> <span class="codeph"> image.anchor</span> </p> </td> 
    <td> <p> int,int </p> </td> 
-   <td> <p> <span class="codeph"> katalog::Ankarpunkt</span> eller standardfästpunkt </p> </td> 
+   <td> <p> <span class="codeph"> katalog::</span> Ankarpunkt är standardfästpunkt </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.expiration</span> </p> </td> 
    <td> <p> double </p> </td> 
-   <td> <p> <span class="codeph"> katalog::Förfallotid</span> eller standardtid för live </p> </td> 
+   <td> <p> <span class="codeph"> katalog::</span> Förfallotid eller standardtid för direktuppspelning </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.height</span> </p> </td> 
@@ -72,12 +75,12 @@ Följande egenskaper returneras:
   <tr> 
    <td> <p> <span class="codeph"> image.embedded PhotoshopPaths</span> </p> </td> 
    <td> <p> boolesk </p> </td> 
-   <td> <p> 1 om bilden innehåller Photoshop-bandata </p> </td> 
+   <td> <p> 1 om bilden innehåller Photoshop sökvägsdata </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> bild. embeddedXmpData</span> </p> </td> 
    <td> <p> boolesk </p> </td> 
-   <td> <p> 1 om bilden innehåller XMP-data </p> </td> 
+   <td> <p> 1 om bilden innehåller XMP data </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.mask</span> </p> </td> 
@@ -87,12 +90,12 @@ Följande egenskaper returneras:
   <tr> 
    <td> <p> <span class="codeph"> image.modifier</span> </p> </td> 
    <td> <p> string </p> </td> 
-   <td> <p> <span class="codeph"> katalog:Modifier</span> eller tom om ingen katalogpost finns </p> </td> 
+   <td> <p> <span class="codeph"> katalog::</span> Modifierare är tom om det inte är en katalogpost </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> bild. photoshopPathNames</span> </p> </td> 
    <td> <p> string </p> </td> 
-   <td> <p> Kommaavgränsad lista med namnen på alla Photoshop-banor som är associerade med den här bilden </p> </td> 
+   <td> <p> Kommaavgränsad lista med namnen på alla Photoshop-sökvägar som är associerade med den här bilden </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.pixType</span> </p> </td> 
@@ -102,7 +105,7 @@ Följande egenskaper returneras:
   <tr> 
    <td> <p> <span class="codeph"> image.postModifier</span> </p> </td> 
    <td> <p> string </p> </td> 
-   <td> <p> <span class="codeph"> attribute::PostModifier</span> eller empty om not a catalog entry </p> </td> 
+   <td> <p> <span class="codeph"> attribute::</span> PostModifieror empty if not a catalog entry </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.printRes</span> </p> </td> 
@@ -112,22 +115,22 @@ Följande egenskaper returneras:
   <tr> 
    <td> <p> <span class="codeph"> image.resolution</span> </p> </td> 
    <td> <p> verklig </p> </td> 
-   <td> <p> <span class="codeph"> katalog::Upplösning</span> eller standardobjektets upplösning </p> </td> 
+   <td> <p> <span class="codeph"> katalog::</span> Upplösning eller standardobjektets upplösning </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.timeStamp</span> </p> </td> 
    <td> <p> string </p> </td> 
-   <td> <p>Ändringsdatum/tid (från <span class="codeph"> katalog::TimeStamp</span> eller bildfilen) </p> </td> 
+   <td> <p>Ändringsdatum/tid (från <span class="codeph">-katalog::TimeStamp</span> eller bildfilen) </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.thumbRes</span> </p> </td> 
    <td> <p> verklig </p> </td> 
-   <td> <p> <span class="codeph"> katalog::ThumbRes</span> eller standardupplösning för miniatyrbilder </p> </td> 
+   <td> <p> <span class="codeph"> katalog::</span> ThumbResor the default thumbnail resolution </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.thumbType</span> </p> </td> 
    <td> <p> enum </p> </td> 
-   <td> <p> <span class="codeph"> katalog::ThumbType</span> eller standardminiatyrtyp </p> </td> 
+   <td> <p> <span class="codeph"> katalog::</span> ThumbType eller standardminiatyrbildstyp </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.width</span> </p> </td> 
@@ -137,7 +140,7 @@ Följande egenskaper returneras:
   <tr> 
    <td> <p> <span class="codeph"> image.translateId</span> </p> </td> 
    <td> <p> string </p> </td> 
-   <td> <p> Katalog-ID som <span class="varname"> objektet</span> som anges i sökvägen tolkas till (se <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414" type="reference" format="dita" scope="local"> Objekt-ID-översättning</a>). </p> </td> 
+   <td> <p> Katalog-ID som <span class="varname">-objektet</span> som anges i sökvägen tolkas till (se <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414" type="reference" format="dita" scope="local"> Översättning av objekt-ID</a>). </p> </td> 
   </tr> 
  </tbody> 
 </table>
