@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 160d3c4b-3871-43bd-a17d-96198c7ea839
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '273'
+ht-degree: 0%
 
 ---
 
@@ -41,12 +44,12 @@ Placera etiketten&quot;Vid försäljning&quot; i det övre vänstra hörnet av b
 
 `http:// *`server`*/myRootId/myImageId?scl=1&size=300,300&origin=-0.5,-0.5 &layer=1&src=labelImage&origin=-0.5,-0.5&rotate=-30&color=ffffff40`
 
-Vi använder på lager 0 `size=` för att ange visningsstorlek, i stället för att använda `wid=` och `hei=`. Det gör `myImageId` att du kan ändra storlek utan att ändra den slutliga storleken på `labelImage`. Vi måste också ange `scl=1`det, annars kan den sammansatta bilden skalas till `attribute::DefaultPix` (om inte värdet är 0,0). `color=` lägger till den halvgenomskinliga bakgrundsfärgen i textrutan före rotering.
+Vi använder `size=` på lager 0 för att ange visningsstorlek, i stället för att använda `wid=` och `hei=`. Det gör att storleken på `myImageId` kan ändras utan att den slutliga storleken på `labelImage` ändras. Vi måste också ange `scl=1`, annars kan den sammansatta bilden skalas till `attribute::DefaultPix` (om inte värdet är 0,0). `color=` lägger till den halvgenomskinliga bakgrundsfärgen i textrutan före rotering.
 
-Nollpunkten för båda lagren ställs in på det övre vänstra hörnet för att uppnå den önskade justeringen. Observera att nollpunkten för lager 1 gäller `labelImage`efter att den har roterats.
+Nollpunkten för båda lagren ställs in på det övre vänstra hörnet för att uppnå den önskade justeringen. Observera att ursprungspunkten för lager 1 gäller `labelImage`efter att den har roterats.
 
 Se [Exempel A](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac) i [Mallar](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e) för ett exempel på roterad text.
 
 ## Se även {#section-c371ee0845994b7382c02e782d1bc595}
 
-[anchor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c) , [bgColor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab), [color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)
+[anchor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c) ,  [bgColor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab),  [color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)
