@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: b660b9fd-592b-4072-83c9-f70330ee19ab
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '202'
+ht-degree: 0%
 
 ---
 
@@ -29,11 +32,11 @@ Utseendet på Favorit-ikonen styrs av följande CSS-klassväljare:
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Bilden som visas för ikonen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Placera inuti en teckningssprite, om CSS-sprites används. </p> <p>Se även <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-fragment </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -41,7 +44,7 @@ Utseendet på Favorit-ikonen styrs av följande CSS-klassväljare:
    <td colname="col2"> <p>Ikonens bredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Ikonens höjd. </p> </td> 
   </tr> 
  </tbody> 
@@ -57,20 +60,20 @@ Exempel - ställ in en ikon med 36 x 36 pixlar för Favoriter.
 }
 ```
 
-På stationära datorer har komponenten stöd för attributväljaren som du kan använda på `cursortype` `.s7favoriteseffect` klassen och styr typen av markör baserat på den valda användaråtgärden. Följande `cursortype` värden stöds:
+På stationära datorer har komponenten stöd för attributväljaren `cursortype` som du kan använda för klassen `.s7favoriteseffect` och styr typen av markör baserat på den valda användaråtgärden. Följande `cursortype`-värden stöds:
 
 <table id="table_71F8F333909247E4ACFEBDE3A1370EAB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mode_add </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mode_add  </span> </p> </td> 
    <td colname="col2"> <p>Den användare som visas lägger till en ny Favorit-ikon. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mode_remove </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mode_remove  </span> </p> </td> 
    <td colname="col2"> <p>Den användare som visas tar bort en befintlig Favorit-ikon. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mode_view </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mode_view  </span> </p> </td> 
    <td colname="col2"> <p>Visas i normalläge när favoritredigering inte är aktiv. </p> </td> 
   </tr> 
  </tbody> 
