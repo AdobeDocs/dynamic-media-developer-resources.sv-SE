@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Lager sätts samman i den ordning som anges av kommandot layer=, där lager med högre nummer döljer lager med lägre nummer.
 
-Lager 0 utgör bakgrundslagret, som alltid krävs och som definierar den sammansatta bildens storlek. Alla lagertyper tillåts för lager 0. Storleken på lager 0 måste definieras, antingen explicit med `size=` eller implicit, baserat på innehållsbilden eller texten. De områden i andra lager som ligger utanför lagrets område 0 tas inte med i utdatabilden.
+Lager 0 utgör bakgrundslagret, som alltid krävs och som definierar den sammansatta bildens storlek. Alla lagertyper tillåts för lager 0. Storleken på lager 0 måste definieras, antingen explicit med `size=` eller implicit, baserat på innehållets bild eller text. De områden i andra lager som ligger utanför lagrets område 0 tas inte med i utdatabilden.
 
 >[!NOTE]
 >
