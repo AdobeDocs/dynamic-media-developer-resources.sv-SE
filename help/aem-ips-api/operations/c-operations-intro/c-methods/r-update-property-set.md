@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 21a59c5a-7799-4af6-ab9f-b0311f5f7254
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '95'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +40,7 @@ Syntax
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
 | ` *`setHandle`*` | `xsd:string` | Ja | Hantera till egenskapsuppsättningen. |
-| ` *`replaceProperties`*` | `xsd:string` | Nej | Ange som `true` ska ersätta egenskaper. |
+| ` *`replaceProperties`*` | `xsd:string` | Nej | Ange `true` för att ersätta egenskaper. |
 | ` *`propertyArray`*` | `types:PropertyArray` | Ja | Array med uppdaterade egenskaper för egenskapsuppsättningen. |
 
 **Utdata (updatePropertySetReturn)**
