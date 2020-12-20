@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e72ae5d6-574e-4f30-827c-021ce5dafcee
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '56'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> förinläsare</span></span> </p> </td> 
-   <td colname="col2"> <p>Anger beteende för komponentförinläsning. </p> <p>När värdet är <span class="codeph"> -1</span> läses miniatyrbilderna in samtidigt när komponenten initieras eller resursen ändras. </p> <p>Om värdet är <span class="codeph"> 0</span> läses endast de synliga miniatyrbilderna in. </p> <p>Ange <span class="codeph"><span class="varname"> förinläsare</span></span> definierar hur många osynliga rader/kolumner runt det synliga området som är förinlästa. </p> </td> 
+   <td colname="col2"> <p>Anger beteende för komponentförinläsning. </p> <p>När värdet är <span class="codeph"> -1</span> läses miniatyrbilderna in samtidigt när komponenten initieras eller resursen ändras. </p> <p>Om <span class="codeph"> 0</span> anges läses endast de synliga miniatyrbilderna in. </p> <p>Med inställningen <span class="codeph"><span class="varname"> preloadNbr</span></span> definieras hur många osynliga rader/kolumner runt det synliga området som är förinlästa. </p> </td> 
   </tr> 
  </tbody> 
 </table>
