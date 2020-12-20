@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 13120562-9201-4733-bd9d-4a54eac913e9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '197'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +30,7 @@ Liknande krav som exempel A, men använd en enfärgad bakgrund och låt höjden 
  </tr> 
 </table>
 
-Bilden placeras i lager 0 och höjdvärdet för `size=` är 0, vilket gör att den faktiska höjden bestäms av höjden på bilden när den skalats till 800 pixlar bred.
+Bilden placeras i lager 0 och höjdvärdet `size=` är inställt på 0, vilket gör att den faktiska höjden bestäms av bildens höjd när den skalats till 800 pixlar bred.
 
 `extend=` lägger till 100 pixlar i över- och underkant och 200 pixlar till höger.
 
