@@ -15,12 +15,12 @@ ht-degree: 0%
 # Dynamic Media Image Production System API {#image-production-api}
 
 + [Dynamic Media Developer Resources - startsida](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
-+ [Om API för Dynamic Media Image Production System](c-overview.md)
++ [Om Dynamic Media Image Production System API](c-overview.md)
 + [Inaktuella anrop](c-deprecated-calls.md)
 + [WSDL-versioner för IPS-webbtjänst](c-wsdl-versions.md)
 + Operationsmetoder {#operation-methods}
    + [Operationsmetoder](operations/c-operations-intro/c-operations-intro.md)
-   + Operationsparametrar {#operation-parameters}
+   + Åtgärdsparametrar {#operation-parameters}
       + [Översikt över åtgärdsparametrar](operations/c-operations-intro/c-methods/c-methods.md)
       + [addCompany](operations/c-operations-intro/c-methods/r-add-company.md)
       + [addCompanyMembership](operations/c-operations-intro/c-methods/r-add-company-membership.md)
