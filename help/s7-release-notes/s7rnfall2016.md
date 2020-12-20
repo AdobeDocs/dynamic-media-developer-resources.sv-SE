@@ -1,6 +1,6 @@
 ---
-description: Den senaste versionsinformationen om Adobe Scene7 hösten 2016 är en del av Adobe Experience Manager i Adobe Marketing Cloud.
-seo-description: Den senaste versionsinformationen om Adobe Scene7 hösten 2016 är en del av Adobe Experience Manager i Adobe Marketing Cloud.
+description: Den senaste versionsinformationen om Adobe Scene7 hösten 2016 ingår i Adobe Experience Manager-lösningen i Adobe Marketing Cloud.
+seo-description: Den senaste versionsinformationen om Adobe Scene7 hösten 2016 ingår i Adobe Experience Manager-lösningen i Adobe Marketing Cloud.
 seo-title: Scene7 hösten 2016
 solution: Experience Manager
 title: Scene7 hösten 2016
@@ -15,13 +15,13 @@ ht-degree: 0%
 ---
 
 
-# Scene7 hösten 2016{#scene-fall-release}
+# Scene7 hösten 2016-utgåvan{#scene-fall-release}
 
-Den senaste versionsinformationen om Adobe Scene7 hösten 2016 är en del av Adobe Experience Manager i Adobe Marketing Cloud.
+Den senaste versionsinformationen om Adobe Scene7 hösten 2016 ingår i Adobe Experience Manager-lösningen i Adobe Marketing Cloud.
 
-## Scene7 hösten 2016 {#topic-791cdf80f91e457fbb63bfedf79f5a94}
+## Scene7 hösten 2016 utgåva {#topic-791cdf80f91e457fbb63bfedf79f5a94}
 
-Den senaste versionsinformationen för [!DNL Adobe Scene7] hösten 2016-versionen är en del av [!DNL Adobe Experience Manager] lösningen i [!DNL Adobe Marketing Cloud].
+Den senaste versionsinformationen för [!DNL Adobe Scene7] hösten 2016 som en del av [!DNL Adobe Experience Manager]-lösningen i [!DNL Adobe Marketing Cloud].
 
 * [Allmänt](s7rnfall2016.md#section-52afeb72ecb34c1585ea67a5051825a2)
 * [Scene7 Publishing System](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
@@ -29,24 +29,24 @@ Den senaste versionsinformationen för [!DNL Adobe Scene7] hösten 2016-versione
 * [Visare (Image Serving 5.5.2)](s7rnfall2016.md#section-9932c988cfee45749594af481dfc6476)
 * [Visare (Image Serving 5.5.1)](s7rnfall2016.md#section-833ab92c91c941d2bfdc27f233f582ad)
 * [Scene7 HTML5 Viewer SDK 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
-* [Scene7 Image Serving 6.3.2 and Image Rendering 6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
+* [Scene7 Image Serving 6.3.2 och Image Rendering 6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
 
 ## Allmänt {#section-52afeb72ecb34c1585ea67a5051825a2}
 
-Adobe är mycket glada över att kunna meddela att det finns HTTP/2-leverans av innehåll, vilket ger bättre prestanda.
+Adobe är glada över att kunna meddela att det finns HTTP/2-leverans av innehåll, vilket i sin helhet ger bättre prestanda.
 
-Se Vanliga frågor om [HTTP2-leverans av innehåll](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html).
+Se [HTTP2 Delivery of Content FAQ](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html).
 
 ## Scene7 Publishing System {#section-24487cb493444d808fb7193f0a00cdd4}
 
-Fullständig dokumentation finns på [https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html)
+Fullständig dokumentation finns i [https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html)
 
 **Nya funktioner, förbättringar och felkorrigeringar**
 
-* Funktionen för videoinspelning har tagits bort från [!DNL Adobe Scene7 Publishing System] användargränssnittet.
+* Funktionen för videoinspelning har tagits bort från användargränssnittet i [!DNL Adobe Scene7 Publishing System].
 * Autentisering har lagts till för alla Scene7-servrar där det är nödvändigt och möjligt.
 * Felkorrigering som involverar listvyn i papperskorgen.
-* Användarfunktionen **Skapa SPSAdmin** har tagits bort från användarhantering på grund av säkerhetsproblem.
+* **Användarfunktionen SPSAdmin** har tagits bort från användarhanteringen på grund av säkerhetsproblem.
 * FTP WebAdmin har nu stöd för OKTA-autentisering.
 * Funktionen för standardlösenordet som skapades för nya Media Portal-användare har tagits bort.
 * Felkorrigering med det tillfälliga lösenord som skapades när en ny användare lades till. Lösenordet uppfyller inte de nödvändiga lösenordskraven.
@@ -61,7 +61,7 @@ Fullständig dokumentation finns på [https://docs.adobe.com/content/help/en/dyn
 
 ## Visare (Image Serving 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-Fullständig dokumentation finns i Referenshandbok för [visningsprogram](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
+Fullständig dokumentation finns i [Referenshandbok för visningsprogram](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
 
 **Felkorrigeringar för Image Serving 5.5.3**
 
@@ -71,7 +71,7 @@ Fullständig dokumentation finns i Referenshandbok för [visningsprogram](https:
 
 ## Visare (Image Serving 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-Fullständig dokumentation finns i Referenshandbok för [visningsprogram](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
+Fullständig dokumentation finns i [Referenshandbok för visningsprogram](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
 
 **Felkorrigeringar för Image Serving 5.5.2**
 
@@ -80,17 +80,17 @@ Fullständig dokumentation finns i Referenshandbok för [visningsprogram](https:
 
 ## Visare (Image Serving 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-Fullständig dokumentation finns i Referenshandbok för [visningsprogram](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
+Fullständig dokumentation finns i [Referenshandbok för visningsprogram](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
 
 **Nya funktioner, förbättringar och felkorrigeringar för Image Serving 5.5.1**
 
 * HTML5 eCatalog-visningsprogram med sökfunktion.
 * Lagt till HLS-direktuppspelad videouppspelning som standardmetod för leverans av video i de flesta datorsystem. Flash-baserad HDS-videoströmning är fortfarande tillgängligt som ett alternativt uppspelningsalternativ.
 * Stöd för enheter med både mus- och pekrörelser som kör Chrome-webbläsare har lagts till.
-* Utökat stöd för Marketing Cloud Org ID i Analytics-integreringen.
+* Stöd för Marketing Cloud Org ID har lagts till i Analytics-integreringen.
 * Uppdatera AppMeasurement JavaScript-biblioteket till version 1.6.1.
 * Stöd för höger-till-vänster-orientering har lagts till i eCatalog-visningsprogrammet.
-* Korrigerat problem där `tip=0,-1,0` ett fel utanför intervallet uppstod.
+* Korrigerat problem där `tip=0,-1,0` orsakade ett fel utanför intervallet.
 
 **Kompatibilitetsanteckningar**
 
@@ -130,7 +130,7 @@ Fullständig dokumentation finns i Referenshandbok för [visningsprogram](https:
 * HTML5-video
 
    * Internet Explorer 9: anpassade förhandsgranskningsbilder visas inte.
-   * `IntialBitRate` modifierare stöds bara med programvarans HLS- och Flash HDS-uppspelning. Det fungerar inte när uppspelningen använder den inbyggda spelaren.
+   * `IntialBitRate` modifierare stöds bara med HLS- och Flash HDS-uppspelning. Det fungerar inte när uppspelningen använder den inbyggda spelaren.
    * OGG- och WebM-progressiv uppspelning stöds inte just nu.
    * Webbläsarskalning kan göra att videospelaren visas i fel storlek (inklusive visningsinställningar för Windows OS-kontrollpanelen)
    * Videosökning med HLS-strömning på Safari kan vara inkonsekvent.
@@ -154,11 +154,11 @@ Fullständig dokumentation finns i Referenshandbok för [visningsprogram](https:
 
 **Kända fel och begränsningar**
 
-* Modifierare för bildserverfunktionen från `iscommands` läggs inte till i `req=set` begäran. Modifierare som bara påverkar bildvisningen fungerar bra. Modifierare som påverkar storleken måste användas i en komplex resurs. Exempel:
+* Image Serving-modifierare från `iscommands` har inte lagts till i `req=set`-begäran. Modifierare som bara påverkar bildvisningen fungerar bra. Modifierare som påverkar storleken måste användas i en komplex resurs. Exempel:
 
    `https://s7d9.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset= {Scene7SharedAssets/Backpack_B?extendn=0.5%252C0.5%252C0.5%252C0.5}`
 
-* [Utfällbar] IE9 finns ibland kvar på skärmen när musen är avstängd.
+* [Flyout ] IE9 kan ibland finnas kvar på skärmen när musen är avstängd.
 * Webbläsarskalning leder till fel storleksändring.
 * iPad 2: Big eCatalog-resurs kommer att krascha Safari på iOS.
 * Alla visningsprogram
@@ -173,7 +173,7 @@ Fullständig dokumentation finns i Referenshandbok för [visningsprogram](https:
    * Parametrar med explicita instansnamn i koden kräver att instansnamn i URL:en också skrivs över (till exempel `zoomView.iconfeffect=0`).
    * Beskärning av bildserverkommandon stöds inte just nu.
    * Knappen Stäng fungerar bara om visningsprogrammet är öppet i det underordnade fönstret.
-   * Modifieraren har inte stöd för `iscommands` Image Serving-modifierare som påverkar bildstorleken.
+   * Modifieraren `iscommands` stöder inte Image Serving-modifierare som påverkar bildstorleken.
 
 * HTML5 eCatalog
 
@@ -189,13 +189,13 @@ Fullständig dokumentation finns i Referenshandbok för [visningsprogram](https:
 
 * HTML5 Social
 
-   * För att miniatyrerna ska kunna återges korrekt i utgående e-post måste `serverurl` modifieraren ha en absolut URL.
+   * För att miniatyrerna ska kunna återges korrekt i utgående e-post måste modifieraren `serverurl` ha en absolut URL.
 
 * HTML5-video
 
    * Posterbilden kan ha felet &quot;max size&quot;. Företag kan behöva öka begränsningsinställningen för Image Serving Publish.
-   * Bildtexter för video kräver en företagsregeluppsättning om värdtjänsten för HTML-sidan hanteras från en extern server (inte en Scene7-server). Kontakta Adobes support om du behöver hjälp.
-   * Analytics tracking kan rapportera felaktig uppspelningsprocent på grund av buffring
+   * Videoklipp kräver en företagsregeluppsättning om det är en extern server (inte en Scene7-server) som är värd för HTML-sidan. Kontakta supporten för Adobe om du behöver hjälp.
+   * Analysspårning kan rapportera felaktig uppspelningsprocent på grund av buffring
    * Svart bildruta i stället för förhandsvisningsbild kan visas på iPad- eller Android-enheter.
    * Svart bildruta kan blinka på skärmen när visningsprogrammet läses in på iPad- eller Android-enheter.
    * Svarta kantlinjer visas på sidan om VideoPlayer-komponenten när bakgrunden är inställd på vit/genomskinlig på iPad-enheter.
@@ -206,12 +206,12 @@ Fullständig dokumentation finns i Referenshandbok för [visningsprogram](https:
 
 ## Scene7 HTML5 Viewer SDK 3.0.2 {#section-30e2392859c442d1aab2766d0f1d1580}
 
-Användarhandboken finns i mappen Adobe HTML5 Viewer SDK för klientinstallationen. Komponent-API-dokumentationen finns i undermappen docs i klientinstallationen.
+Användarhandboken finns i Adobe HTML5 Viewer SDK-mappen för klientinstallationen. Komponent-API-dokumentationen finns i undermappen docs i klientinstallationen.
 
 **Felkorrigeringar för 3.0.2**
 
 * VideoPlayer - videon kunde inte spelas upp i Internet Explorer 11 i Windows 7
-* TableOf Contents - `initialframe` påverkade inte stående läge på mobila enheter för HTML5 eCatalog-visningsprogrammet.
+* TableOfContents - `initialframe` påverkade inte stående läge på mobila enheter för HTML5 eCatalog-visningsprogrammet.
 
 **Nya funktioner, förbättringar och felkorrigeringar för 3.0.1**
 
@@ -229,7 +229,7 @@ Användarhandboken finns i mappen Adobe HTML5 Viewer SDK för klientinstallation
 
 * FlyoutzoomView
 
-   * Åtgärdat fall där `tip=0,-1,0` ett fel utanför intervallet uppstod.
+   * Korrigerat fall där `tip=0,-1,0` orsakade ett fel utanför intervallet.
 
 **Kompatibilitetsanteckningar**
 
@@ -294,9 +294,9 @@ Användarhandboken finns i mappen Adobe HTML5 Viewer SDK för klientinstallation
 
 * Alla komponenter
 
-   * I version 2.7.2 och tidigare lades vissa komponenter till i DOM med hjälp av `insertBefore()` API. Det innebär att sådana komponenter placeras längst ned i staplingsordningen, oavsett när komponentinstansen skapas i förhållande till andra komponenter. I version 2.8.1 använder alla komponenter `appendChild()` API nu, vilket innebär att komponentens staplingsordning skulle matcha ordningen när instansen skapades.
+   * I version 2.7.2 och tidigare lades vissa komponenter till i DOM med hjälp av API:t `insertBefore()`. Det innebär att sådana komponenter placeras längst ned i staplingsordningen, oavsett när komponentinstansen skapas i förhållande till andra komponenter. I version 2.8.1 använder alla komponenter nu API:t `appendChild()`, vilket innebär att komponentens staplingsordning skulle matcha ordningen när instansen skapades.
 
-   * Det går inte att använda modifierare för att ange bildens alfakanalformat. `iscommand` Använd `FMT` komponentparametern i stället.
+   * Det går inte att använda modifieraren `iscommand` för att ange bildens alfakanalformat. Använd parametern `FMT` i stället.
    * CSS-transformationsegenskapen stöds inte just nu.
 
 * Pekskärmar
@@ -339,7 +339,7 @@ Användarhandboken finns i mappen Adobe HTML5 Viewer SDK för klientinstallation
 * Färgrutekomponent
 
    * När du väljer en färgruta som ligger utanför intervallet visas 2 högdagrar.
-   * Automatisk rullning med `selectSwatch()` metod fungerar felaktigt.
+   * Automatisk rullning med metoden `selectSwatch()` fungerar felaktigt.
 
 * VideoPlayer
 
@@ -350,6 +350,6 @@ Användarhandboken finns i mappen Adobe HTML5 Viewer SDK för klientinstallation
 
 ## Scene7 Image Serving 6.3.2 and Image Rendering 6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
 
-* IC-verktyg - flaggan stöds inte `downsample2x2` längre. Den här flaggan var en 2x2-nedsampling med låg kvalitet som inte längre används av IPS.
-* CORS-huvud - CORS-huvudet är för närvarande konfigurerat för `/is/content/` begäranden.
+* IC-verktyg - flaggan `downsample2x2` stöds inte längre. Den här flaggan var en 2x2-nedsampling med låg kvalitet som inte längre används av IPS.
+* CORS-huvud - CORS-huvudet är för närvarande konfigurerat för `/is/content/`-begäranden.
 
