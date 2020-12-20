@@ -8,6 +8,9 @@ topic: Image Production System API
 uuid: 22f5a601-165a-4dc2-b545-2aa1d6f5a370
 translation-type: tm+mt
 source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
+workflow-type: tm+mt
+source-wordcount: '172'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
 
 Med webbtjänstens API:t för IPS (Image Production System) kan externa program och tredjepartsutvecklare programmässigt komma åt IPS-resurser och -funktioner.
 
-Denna referenshandbok innehåller och definierar alla tjänster, metoder och datatyper som används av IPS Web Service API. Det har specifikt testats för kompatibilitet med Java (med Apache Axis2-biblioteket), Adobe Flex och Microsoft .NET.
+Denna referenshandbok innehåller och definierar alla tjänster, metoder och datatyper som används av IPS Web Service API. Den har specifikt testats för kompatibilitet med Java (med biblioteket Apache Axis2), Adobe Flex och Microsoft .NET.
 
 ## Standarder och protokoll {#section-d85e71e44b7f432b9c65ce6ca45b7157}
 
