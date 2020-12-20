@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e080ae49-c38f-43c3-a7b9-d5f8f41ba6d0
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '3073'
+ht-degree: 0%
 
 ---
 
@@ -33,15 +36,15 @@ Utseendet på e-postdelningsknappen styrs av följande CSS-klassväljare:
    <td colname="col2"> <p>Knappens bredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Knappens höjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Bilden som visas för ett visst knappläge. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Placera inuti en teckningssprite, om CSS-sprites används. </p> <p>Se även <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-fragment </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -49,11 +52,11 @@ Utseendet på e-postdelningsknappen styrs av följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen har stöd för attributväljaren, som kan användas för att tillämpa olika skal på olika knapplägen. `state`
+>Den här knappen stöder attributväljaren `state`, som kan användas för att tillämpa olika skal på olika knapplägen.
 
-Det går att ta bort knappen från panelen för sociala medier genom att ange `display:none` CSS-egenskapen i dess CSS-klass.
+Det går att ta bort knappen från panelen Dela via CSS-egenskapen `display:none` i CSS-klassen.
 
-Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av element i användargränssnittet](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - för att ställa in en knapp för e-postdelning som är 28 x 28 pixlar och som visar en annan bild för vart och ett av de fyra olika knapplägena.
 
@@ -87,11 +90,11 @@ Bakgrundsöverlägget som täcker webbsidan när dialogrutan är aktiv styrs med
 <table id="table_1A0C28D8C81D413C83D73DEAC53057C5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opacitet </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opacitet  </span> </p> </td> 
    <td colname="col2"> <p> Opacitet för bakgrundsövertäckning. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Bakgrundsövertäckningsfärg. </p> </td> 
   </tr> 
  </tbody> 
@@ -117,19 +120,19 @@ Som standard visas den modala dialogrutan centrerat på skärmen på stationära
 <table id="table_5272BC8EF9124018B4290356B95B5559"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p> Dialogrutans kantradie (om dialogrutan inte tar hela webbläsarfönstret). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Dialogrutans bakgrundsfärg. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p> ska antingen vara urkopplad eller inställd på 100 %, i vilket fall dialogrutan tar hela webbläsarfönstret (detta läge rekommenderas på pekenheter), </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p> Ska antingen vara unset eller inställd på 100 %, vilket innebär att dialogrutan visas i hela webbläsarfönstret (det här läget rekommenderas på enheter med pekskärm). </p> </td> 
   </tr> 
  </tbody> 
@@ -156,7 +159,7 @@ Dialogrutans rubrik består av en ikon, en titeltext och en stängningsknapp. Ru
 <table id="table_E407E844C9BD4B5DA8B5BBDE0554F9CA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> utfyllnad </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> utfyllnad  </span> </p> </td> 
    <td colname="col2"> <p> Inre utfyllnad för rubrikinnehåll. </p> </td> 
   </tr> 
  </tbody> 
@@ -173,7 +176,7 @@ Ikonen och rubriktexten placeras i en extra behållare som styrs med
 <table id="table_5B03CF843F0D4B1295A3FC1EB50C56F1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> utfyllnad </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> utfyllnad  </span> </p> </td> 
    <td colname="col2"> <p> Inre utfyllnad för rubrikikonen och titeln. </p> </td> 
   </tr> 
  </tbody> 
@@ -190,19 +193,19 @@ Rubrikikonen styrs med följande CSS-klassväljare:
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Ikonens bredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Ikonhöjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Ikonbild. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Placera inuti en teckningssprite, om CSS-sprites används. </p> <p>Se även <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-fragment </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -219,19 +222,19 @@ Rubriken styrs med följande CSS-klassväljare:
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
    <td colname="col2"> <p>Teckenbredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Teckenhöjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Teckensnittsfamilj. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> utfyllnad </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> utfyllnad  </span> </p> </td> 
    <td colname="col2"> <p>Intern textutfyllnad. </p> </td> 
   </tr> 
  </tbody> 
@@ -248,31 +251,31 @@ Stängningsknappen styrs med följande CSS-klassväljare:
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p> Lodrät knappposition i förhållande till rubrikbehållare. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> höger </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> höger  </span> </p> </td> 
    <td colname="col2"> <p> Vågrät knappposition i förhållande till rubrikbehållare. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Knappbredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Knapphöjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> utfyllnad </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> utfyllnad  </span> </p> </td> 
    <td colname="col2"> <p>Knappens inre utfyllnad. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Knappbild för varje läge. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Placera inuti en teckningssprite, om CSS-sprites används. </p> <p>Se även <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-fragment </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -280,9 +283,9 @@ Stängningsknappen styrs med följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen har stöd för attributväljaren, som kan användas för att tillämpa olika skal på olika knapplägen. `state`
+>Den här knappen stöder attributväljaren `state`, som kan användas för att tillämpa olika skal på olika knapplägen.
 
-Knappbeskrivningen Stäng och dialogrutans titel kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
+Knappbeskrivningen Stäng och dialogrutans titel kan lokaliseras. Mer information finns i [Lokalisering av element i användargränssnittet](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - för att ställa in ett dialoghuvud med utfyllnad, en ikon med storleken 24 x 17 pixlar, en rubrik med 16 punkter i fet stil och en stängningsknapp med storleken 28 x 28 pixlar som placerats två pixlar uppifrån och två pixlar från höger om en dialogrutebehållare:
 
@@ -335,7 +338,7 @@ Dialogrutans sidfot består av knapparna Avbryt och Skicka e-post. Sidfotsbehål
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
    <td colname="col2"> <p> Kant som du kan använda för att visuellt separera sidfoten från resten av dialogrutan. </p> </td> 
   </tr> 
  </tbody> 
@@ -352,7 +355,7 @@ Sidfoten har en inre behållare som behåller båda knapparna. Den styrs med fö
 <table id="table_C34906888A8145C7A61E503DFC6B08A9"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> utfyllnad </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> utfyllnad  </span> </p> </td> 
    <td colname="col2"> <p> Inre utfyllnad mellan sidfoten och knapparna. </p> </td> 
   </tr> 
  </tbody> 
@@ -369,19 +372,19 @@ Knappen Avbryt styrs med följande CSS-klassväljare:
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Knappbredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Knapphöjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> färg </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> färg  </span> </p> </td> 
    <td colname="col2"> <p> Knapptextfärg för varje läge. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Knappbakgrundsfärg för varje läge. </p> </td> 
   </tr> 
  </tbody> 
@@ -389,7 +392,7 @@ Knappen Avbryt styrs med följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen har stöd för attributväljaren, som kan användas för att tillämpa olika skal på olika knapplägen. `state`
+>Den här knappen stöder attributväljaren `state`, som kan användas för att tillämpa olika skal på olika knapplägen.
 
 Knappen Skicka e-post styrs med följande CSS-klassväljare:
 
@@ -402,19 +405,19 @@ Knappen Skicka e-post styrs med följande CSS-klassväljare:
 <table id="table_91C75B2470A24DC2AD3973A91FA8B325"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Knappbredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Knapphöjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> färg </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> färg  </span> </p> </td> 
    <td colname="col2"> <p> Knapptextfärg för varje läge. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Knappbakgrundsfärg för varje läge. </p> </td> 
   </tr> 
  </tbody> 
@@ -422,7 +425,7 @@ Knappen Skicka e-post styrs med följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen har stöd för attributväljaren, som kan användas för att tillämpa olika skal på olika knapplägen. `state`
+>Den här knappen stöder attributväljaren `state`, som kan användas för att tillämpa olika skal på olika knapplägen.
 
 Dessutom har båda knapparna samma gemensamma CSS-klass som kan innehålla CSS-inställningar som är desamma för andra dialogruteknappar:
 
@@ -435,33 +438,33 @@ Dessutom har båda knapparna samma gemensamma CSS-klass som kan innehålla CSS-i
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
    <td colname="col2"> <p>Knappens teckensnittsbredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Knappens teckenstorlek. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Knappteckensnittsfamilj. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> line-height  </span> </p> </td> 
    <td colname="col2"> <p> Texthöjd inuti knappen. Påverkar lodrät justering. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> box-shadow </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> box-shadow  </span> </p> </td> 
    <td colname="col2"> <p>Skugga. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal-höger </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal-höger  </span> </p> </td> 
    <td colname="col2"> <p>Högerknappsmarginal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Den här knappens funktionsbeskrivningar kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
+Den här knappens funktionsbeskrivningar kan lokaliseras. Mer information finns i [Lokalisering av element i användargränssnittet](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - om du vill ställa in en dialogruteslut med knappen Avbryt 64 x 34 och skicka e-postknappen 82 x 34, med textfärgen och bakgrundsfärgen olika för varje knappläge:
 
@@ -534,15 +537,15 @@ Huvuddialogrutan (mellan sidhuvudet och sidfoten) innehåller rullningsbart dial
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p> Höjden på området i huvuddialogrutan. Den ska bara anges när dialogrutan fungerar i skrivbordsläge. Det är inte tillämpligt när dialogrutans storlek ändras så att den upptar hela webbläsarfönstret. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Bakgrundsfärgen i huvuddialogrutan. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal  </span> </p> </td> 
    <td colname="col2"> <p>Yttre marginal. </p> </td> 
   </tr> 
  </tbody> 
@@ -550,7 +553,7 @@ Huvuddialogrutan (mellan sidhuvudet och sidfoten) innehåller rullningsbart dial
 
 >[!NOTE]
 >
->Huvuddialogrutan har stöd för den valfria `state` attributväljaren. Den ställs in på `sendsuccess` när e-postformuläret skickas och dialogrutan visar ett bekräftelsemeddelande. Så länge bekräftelsemeddelandet är litet kan den här attributväljaren användas för att minska dialogrutans höjd när ett sådant bekräftelsemeddelande visas.
+>Huvuddialogrutan har stöd för den valfria attributväljaren `state`. Värdet är `sendsuccess` när e-postformuläret skickas och dialogrutan visar ett bekräftelsemeddelande. Så länge bekräftelsemeddelandet är litet kan den här attributväljaren användas för att minska dialogrutans höjd när ett sådant bekräftelsemeddelande visas.
 
 Exempel - Om du vill ställa in att huvudområdet i dialogrutan ska vara 300 pixlar högt från början och 100 pixlar högt när bekräftelsemeddelandet visas, har du en marginal på tio pixlar och använder en vit bakgrund:
 
@@ -578,7 +581,7 @@ Om höjden på den här behållaren verkar vara större än huvudområdet i dial
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> utfyllnad </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> utfyllnad  </span> </p> </td> 
    <td colname="col2"> <p>Inre utfyllnad. </p> </td> 
   </tr> 
  </tbody> 
@@ -603,7 +606,7 @@ Dialogruteformuläret fylls i rad för rad, där varje rad innehåller en del av
 <table id="table_2CCCC71B45B444A8B9CE2894129C9C02"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> utfyllnad </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> utfyllnad  </span> </p> </td> 
    <td colname="col2"> <p>Utfyllnad för inre linje. </p> </td> 
   </tr> 
  </tbody> 
@@ -630,25 +633,25 @@ Den här klassen är inte lämplig för att styra etikettens storlek eller place
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
    <td colname="col2"> <p>Etikettens teckensnittsbredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Teckensnittsstorlek för etikett. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Etikettteckensnittsfamilj. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> färg </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> färg  </span> </p> </td> 
    <td colname="col2"> <p>Textfärg för etikett. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Dialogruteetiketter kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
+Dialogruteetiketter kan lokaliseras. Mer information finns i [Lokalisering av element i användargränssnittet](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - om du vill ställa in alla etiketter till grått, fetstil med ett teckensnitt på nio pixlar:
 
@@ -671,19 +674,19 @@ Alla statiska etiketter som visas till vänster om formulärinmatningsfälten st
 <table id="table_B5CF02837BAA42C7B79B6D9DA20792DF"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Bredden på den statiska etiketten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> textjustering </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> textjustering  </span> </p> </td> 
    <td colname="col2"> <p>Den vågräta textjusteringen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal  </span> </p> </td> 
    <td colname="col2"> <p>Statisk etikettmarginal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> utfyllnad </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> utfyllnad  </span> </p> </td> 
    <td colname="col2"> <p>Statisk etikettutfyllnad. </p> </td> 
   </tr> 
  </tbody> 
@@ -711,11 +714,11 @@ Varje formulärindatafält placeras i behållaren så att du kan använda en anp
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
    <td colname="col2"> <p>Kant runt inmatningsfältbehållaren. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> utfyllnad </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> utfyllnad  </span> </p> </td> 
    <td colname="col2"> <p>Inre utfyllnad. </p> </td> 
   </tr> 
  </tbody> 
@@ -723,7 +726,7 @@ Varje formulärindatafält placeras i behållaren så att du kan använda en anp
 
 >[!NOTE]
 >
->Indatafältbehållaren stöder valfri `state` attributväljare. Den ställs in på `verifyerror` när användaren gör ett misstag i indataformatet och den interna valideringen misslyckas. Den här attributväljaren kan användas för att markera felaktiga användarindata i formuläret.
+>Indatafältbehållaren stöder valfri `state`-attributväljare. Värdet är `verifyerror` när användaren gör ett misstag i indataformatet och det inte går att utföra intern validering. Den här attributväljaren kan användas för att markera felaktiga användarindata i formuläret.
 
 De flesta indatafält som sprids från etiketten till vänster upp till höger i dialogrutans brödtext (som inkluderar fältet Från och fältet Meddelande) styrs med följande CSS-klassväljare:
 
@@ -736,7 +739,7 @@ De flesta indatafält som sprids från etiketten till vänster upp till höger i
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Bredd på indatafält. </p> </td> 
   </tr> 
  </tbody> 
@@ -753,7 +756,7 @@ Fältet Till är smalare eftersom det tilldelar utrymme för knappen Ta bort e-p
 <table id="table_DFA9059209FF4184BD483A529424E97F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Bredd på indatafält. </p> </td> 
   </tr> 
  </tbody> 
@@ -783,24 +786,24 @@ Indatafältet för e-postmeddelanden styrs dessutom med:
 .s7ecatalogviewer .s7emaildialog .s7dialogmessage
 ```
 
-Med den här klassen kan du ange specifika egenskaper för det underliggande `TEXTAREA` elementet.
+Med den här klassen kan du ange specifika egenskaper för det underliggande `TEXTAREA`-elementet.
 
 **CSS-egenskaper för dialogrutemeddelandet**
 
 <table id="table_9E9D5A0C3CDB45739615C4C07F8DC046"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Meddelandets höjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> word-wrap </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> word-wrap  </span> </p> </td> 
    <td colname="col2"> <p>Radbrytningsformat. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exempel - om du vill ange att ett e-postmeddelande ska vara 50 pixlar högt och använda `break-word` automatisk radbrytning:
+Exempel - om du vill ange att ett e-postmeddelande ska vara 50 pixlar högt och använda `break-word` ordbrytning:
 
 ```
 .s7ecatalogviewer .s7emaildialog .s7dialogmessage { 
@@ -809,7 +812,7 @@ Exempel - om du vill ange att ett e-postmeddelande ska vara 50 pixlar högt och 
 }
 ```
 
-Med knappen Lägg till en annan e-postadress kan en användare lägga till fler än en adress i ett e-postformulär. Den styrs med följande CSS-klassväljare:
+Med knappen Lägg till en annan e-postadress kan en användare lägga till fler än en adress i e-postformuläret. Den styrs med följande CSS-klassväljare:
 
 ```
 .s7ecatalogviewer .s7emaildialog .s7dialogaddemailbutton
@@ -820,43 +823,43 @@ Med knappen Lägg till en annan e-postadress kan en användare lägga till fler 
 <table id="table_8829DC0694684E8BA427DFB821F7433D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Knapphöjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> färg </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> färg  </span> </p> </td> 
    <td colname="col2"> <p>Knapptextfärg för varje läge. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Knappbild för varje läge. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p>Knappbildens placering inuti knappområdet. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
    <td colname="col2"> <p>Knappens teckensnittsbredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Knappens teckenstorlek. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Knappteckensnittsfamilj. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> line-height  </span> </p> </td> 
    <td colname="col2"> <p>Texthöjd inuti knappen. Påverkar den lodräta justeringen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> textjustering </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> textjustering  </span> </p> </td> 
    <td colname="col2"> <p>Vågrät textjustering. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> utfyllnad </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> utfyllnad  </span> </p> </td> 
    <td colname="col2"> <p>Inre utfyllnad. </p> </td> 
   </tr> 
  </tbody> 
@@ -864,9 +867,9 @@ Med knappen Lägg till en annan e-postadress kan en användare lägga till fler 
 
 >[!NOTE]
 >
->Den här knappen har stöd för attributväljaren, som kan användas för att tillämpa olika skal på olika knapplägen. `state`
+>Den här knappen stöder attributväljaren `state`, som kan användas för att tillämpa olika skal på olika knapplägen.
 
-Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av element i användargränssnittet](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - Om du vill ställa in knappen &quot;Lägg till en annan e-postadress&quot; så att den är 25 pixlar hög använder du 12 punkters fet stil med högerjustering och en annan textfärg och bild för varje läge:
 
@@ -910,19 +913,19 @@ Med knappen Ta bort kan en användare ta bort extra adresser från e-postformul�
 <table id="table_79E4C65741E64859B9C9E9DCCB3D050B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Knappbredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Knapphöjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Knappbild för varje läge. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Placera inuti en teckningssprite, om CSS-sprites används. </p> <p>Se även <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-fragment </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -930,9 +933,9 @@ Med knappen Ta bort kan en användare ta bort extra adresser från e-postformul�
 
 >[!NOTE]
 >
->Den här knappen har stöd för attributväljaren, som kan användas för att tillämpa olika skal på olika knapplägen. `state`
+>Den här knappen stöder attributväljaren `state`, som kan användas för att tillämpa olika skal på olika knapplägen.
 
-Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av element i användargränssnittet](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - om du vill ställa in en Ta bort-knapp på 25 x 25 pixlar och använda en annan bild för varje läge:
 
@@ -966,11 +969,11 @@ Innehållet som delas visas längst ned i dialogrutan och innehåller en miniaty
 <table id="table_9C5CBFC2482E4A46BE837573B0B02FE4"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
    <td colname="col2"> <p>Behållarkanten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> utfyllnad </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> utfyllnad  </span> </p> </td> 
    <td colname="col2"> <p>Inre utfyllnad. </p> </td> 
   </tr> 
  </tbody> 
@@ -998,19 +1001,19 @@ Egenskapen `background-image` anges av komponentlogiken.
 <table id="table_4C614FF2CEB149DAB5B7D7BC38CD3CAE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Bredd på miniatyrbild. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Höjd på miniatyrbild. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> lodrät justering </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> lodrät justering  </span> </p> </td> 
    <td colname="col2"> <p>Miniatyrbild för lodrät justering. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> utfyllnad </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> utfyllnad  </span> </p> </td> 
    <td colname="col2"> <p>Inre utfyllnad. </p> </td> 
   </tr> 
  </tbody> 
@@ -1038,7 +1041,7 @@ Innehållsrubrik, ursprung och beskrivning grupperas ytterligare i en panel till
 <table id="table_EDFA6229D8C3468E989E7EC05F23EF3B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Panelbredd. </p> </td> 
   </tr> 
  </tbody> 
@@ -1063,19 +1066,19 @@ Innehållstiteln styrs med följande CSS-klassväljare:
 <table id="table_E83C149E66EC474092DF8A180DA9A550"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal  </span> </p> </td> 
    <td colname="col2"> <p>Yttre marginal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
    <td colname="col2"> <p>Teckenbredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Teckenstorlek. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Teckensnittsfamilj. </p> </td> 
   </tr> 
  </tbody> 
@@ -1101,19 +1104,19 @@ Innehållets ursprung styrs med följande CSS-klassväljare:
 <table id="table_51763B532A9C4AE8AE54B69933A8C0B5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal  </span> </p> </td> 
    <td colname="col2"> <p>Yttre marginal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
    <td colname="col2"> <p>Teckenbredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Teckenstorlek. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Teckensnittsfamilj. </p> </td> 
   </tr> 
  </tbody> 
@@ -1138,19 +1141,19 @@ Innehållsbeskrivningen styrs med följande CSS-klassväljare:
 <table id="table_F0F917ED3D1D4FCE974F48214D287E14"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal  </span> </p> </td> 
    <td colname="col2"> <p>Yttre marginal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
    <td colname="col2"> <p>Teckenbredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Teckenstorlek. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Teckensnittsfamilj. </p> </td> 
   </tr> 
  </tbody> 
@@ -1176,35 +1179,35 @@ När en användare anger felaktiga indata och intern validering misslyckas, elle
 <table id="table_C114E1004C334D339C25A3438E8E6614"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Felikon. Standard är ett utropstecken. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Felikonens position i meddelandeområdet. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> färg </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> färg  </span> </p> </td> 
    <td colname="col2"> <p>Textfärg för meddelande. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
    <td colname="col2"> <p>Teckenbredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Teckenstorlek. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Teckensnittsfamilj. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> line-height  </span> </p> </td> 
    <td colname="col2"> <p> Texthöjd inuti meddelandet. Påverkar lodrät justering. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> utfyllnad </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> utfyllnad  </span> </p> </td> 
    <td colname="col2"> <p>Inre utfyllnad. </p> </td> 
   </tr> 
  </tbody> 
@@ -1212,9 +1215,9 @@ När en användare anger felaktiga indata och intern validering misslyckas, elle
 
 >[!NOTE]
 >
->Det här meddelandet har stöd för attributväljaren med följande möjliga värden: `state` `verifyerror`, `senderror`och `sendsuccess`. `verifyerror` anges när ett meddelande visas på grund av ett internt indatavalideringsfel. `senderror` ställs in när en backend-e-posttjänst rapporterar ett fel, anges `sendsuccess` när e-post skickas. På det här sättet kan du formatera meddelandet på olika sätt beroende på hur dialogrutan ser ut.
+>Det här meddelandet stöder attributväljaren `state` med följande möjliga värden: `verifyerror`, `senderror` och `sendsuccess`. `verifyerror` anges när ett meddelande visas på grund av ett internt indatavalideringsfel.  `senderror` anges när en backend-e-posttjänst rapporterar ett fel,  `sendsuccess` anges när e-post skickas. På så sätt kan du formatera meddelandet på olika sätt beroende på hur dialogrutan är skriven.
 
-Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av element i användargränssnittet](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - om du vill ange att ett meddelande ska använda ett teckensnitt med 10 punkter fet stil, har radhöjden 25 pixlar, utfyllnaden 20 pixlar till vänster, använder ett utropstecken, röd text om ett fel uppstår och ingen ikon och grön text om det lyckas:
 
@@ -1251,7 +1254,7 @@ Om lodrät rullning behövs återges rullningslisten i panelen nära den högra 
 <table id="table_A0C3AC7E00544FFBB8E1364F4CDDB371"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Bredd på rullningspanelen. </p> </td> 
   </tr> 
  </tbody> 
@@ -1276,19 +1279,19 @@ Utseendet på rullningslistområdet styrs med följande CSS-klassväljare:
 <table id="table_2BF74CF43E9B42D79F99A3F5208D7051"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p> Bredden på rullningslisten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p> Den lodräta rullningslistens förskjutning från rullningspanelens överkant. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> nederkant </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> nederkant  </span> </p> </td> 
    <td colname="col2"> <p> Den lodräta rullningslistens förskjutning från rullningspanelens nederkant. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> höger </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> höger  </span> </p> </td> 
    <td colname="col2"> <p> Den vågräta rullningslistens förskjutning från rullningspanelens högra kant. </p> </td> 
   </tr> 
  </tbody> 
@@ -1316,11 +1319,11 @@ Rullningslistens spår är området mellan den övre och den nedre rullningsknap
 <table id="table_EE990E7A342843619EDD84BAD29C6F2A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Spårbredden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Bakgrundsfärgen för spåret. </p> </td> 
   </tr> 
  </tbody> 
@@ -1346,27 +1349,27 @@ Rullningslistens reglage rör sig lodrätt inom ett rullningsspårsområde. Dess
 <table id="table_5A4A283A50044A51881D997885674BDF"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Miniatyrbredden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Tumthöjden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-top  </span> </p> </td> 
    <td colname="col2"> <p> Den lodräta utfyllnaden mellan spårets överkant. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-bottom  </span> </p> </td> 
    <td colname="col2"> <p> Den lodräta utfyllnaden mellan spårets nederkant. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Bilden som visas för ett givet tumläge. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Placera inuti en teckningssprite, om CSS-sprites används. </p> <p>Se även <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-fragment </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -1374,7 +1377,7 @@ Rullningslistens reglage rör sig lodrätt inom ett rullningsspårsområde. Dess
 
 >[!NOTE]
 >
->Tummen har stöd för attributväljaren, som kan användas för att tillämpa olika skal på olika tumlägen: `state` `up`, `down`, `over`och `disabled`.
+>Tummen har stöd för attributväljaren `state`, som kan användas för att tillämpa olika skal på olika tumlägen: `up`, `down`, `over` och `disabled`.
 
 Exempel - för att ställa in rullningslistens reglage som är 28 x 45 pixlar, har en marginal på tio pixlar över och under och har olika teckningar för varje läge:
 
@@ -1409,26 +1412,26 @@ Utseendet på de övre och nedre rullningsknapparna styrs av följande CSS-klass
 .s7ecatalogviewer .s7emaildialog .s7scrollbar .s7scrolldownbutton
 ```
 
-Det går inte att placera rullningsknappar med CSS- `top`, `left`och `bottom``right` -egenskaper. I stället placerar visningsprogramlogiken dem automatiskt.
+Det går inte att placera rullningsknappar med CSS-egenskaperna `top`, `left`, `bottom` och `right`. I stället placerar visningsprogramlogiken dem automatiskt.
 
 **CSS-egenskaper för de övre och nedre rullningsknapparna**
 
 <table id="table_EB853317E08941979B0E141C3C9B2C49"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Knappens bredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Knappens höjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Bilden som visas för ett visst knappläge. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Placera inuti en teckningssprite, om CSS-sprites används. </p> <p>Se även <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-fragment </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -1436,9 +1439,9 @@ Det går inte att placera rullningsknappar med CSS- `top`, `left`och `bottom``ri
 
 >[!NOTE]
 >
->Dessa knappar har stöd för attributväljaren, som kan användas för att tillämpa olika skal på olika knapplägen: `state` `up`, `down`, `over`och `disabled`.
+>Dessa knappar har stöd för attributväljaren `state`, som kan användas för att tillämpa olika skal på olika knapplägen: `up`, `down`, `over` och `disabled`.
 
-Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av element i användargränssnittet](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - för att ställa in rullningsknappar som är 28 x 32 pixlar och har olika teckningar för varje läge:
 
