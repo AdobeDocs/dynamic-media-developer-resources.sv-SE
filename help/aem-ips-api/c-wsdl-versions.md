@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 3443bb91-1663-4686-b20a-94c372f0026e
 translation-type: tm+mt
 source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
+workflow-type: tm+mt
+source-wordcount: '1021'
+ht-degree: 0%
 
 ---
 
@@ -65,7 +68,7 @@ services/IpsApiService
  </tbody> 
 </table>
 
-## WSDL:er som stöds {#section-ebbba69880f94e9c823f1147974eb404}
+## WSDL:er {#section-ebbba69880f94e9c823f1147974eb404} som stöds
 
 Kom ihåg att du kanske måste ändra koden om du vill använda funktionerna i den senaste versionen av IPS API. IPS-API:t stöder WSDL:er för följande versioner:
 
@@ -80,43 +83,43 @@ Kom ihåg att du kanske måste ändra koden om du vill använda funktionerna i d
  <tbody> 
   <tr> 
    <td colname="col1"> <p>6.8/2014R1 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> IpsApi-2014-04-03.wsdl </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2014-04-03 </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> IpsApi-2014-04-03.wsdl  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2014-04-03  </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>6.6/2013R1 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> IpsApi-2013-02-15.wsdl </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2013-02-15 </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> IpsApi-2013-02-15.wsdl  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2013-02-15  </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>6.0/2012R1 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> IpsApi-2012-02-14.wsdl </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2012-02-14 </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> IpsApi-2012-02-14.wsdl  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2012-02-14  </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>4.5 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> IpsApi-2010-01-31.wsdl </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2010-01-31 </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> IpsApi-2010-01-31.wsdl  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2010-01-31  </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>4.4 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> IpsApi-2009-07-31.wsdl </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2009-07-31 </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> IpsApi-2009-07-31.wsdl  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2009-07-31  </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>4.2 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> IpsApi-2008-09-10.wsdl </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2008-09-10 </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> IpsApi-2008-09-10.wsdl  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2008-09-10  </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>4.0 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> IpsApi-2008-01-15.wsdl </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2008-01-15 </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> IpsApi-2008-01-15.wsdl  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2008-01-15  </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Pre-4.0 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> IpsApi.wsdl </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> IpsApi.wsdl  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd  </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -131,7 +134,7 @@ IPS API-webbtjänsten stöder endast SOAP-bindning.
 
 **Transporter som stöds**
 
-IPS API SOAP-bindningen stöder endast HTTP-transport. Gör alla SOAP-begäranden med HTTPS POST-metoden.
+IPS API SOAP-bindningen stöder endast HTTP-transport. Gör alla SOAP-begäranden med HTTPS-POST-metoden.
 
 **SOAP-åtgärdshuvud**
 
@@ -143,7 +146,7 @@ Formatet document/literal används för alla in- och utdatameddelanden med typer
 
 **Begär autentisering**
 
-Den metod som rekommenderas för att skicka autentiseringsuppgifter i API-begäranden är att använda elementet `authHeader` enligt definitionen i WSDL för IPS API.
+Den metod som rekommenderas för att skicka autentiseringsuppgifter i API-begäranden är att använda elementet `authHeader` som definierats i IPS API WSDL.
 
 ```
 <element name="authHeader"> 
@@ -172,39 +175,39 @@ Den metod som rekommenderas för att skicka autentiseringsuppgifter i API-begär
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> användare </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> användare  </span> </p> </td> 
    <td colname="col2"> <p> Giltig e-postadress för IPS-användare. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> lösenord </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> lösenord  </span> </p> </td> 
    <td colname="col2"> <p>Lösenord för användarkonto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> locale </span> </p> </td> 
-   <td colname="col2"> <p> Valfri språkinställning för begäran. Mer information finns i <b>Språk</b> . </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> locale  </span> </p> </td> 
+   <td colname="col2"> <p> Valfri språkinställning för begäran. Mer information finns i <b>Språk</b>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> appName </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> appName  </span> </p> </td> 
    <td colname="col2"> <p> Anropar programnamn. Den här parametern är valfri, men vi rekommenderar att du tar med den i alla förfrågningar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> appVersion </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> appVersion  </span> </p> </td> 
    <td colname="col2"> <p> Anropar programversion. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> gzipResponse </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> gzipResponse  </span> </p> </td> 
    <td colname="col2"> <p> Valfri flagga för att aktivera eller inaktivera gzip-komprimering för XML-svar. Som standard är svaren gzip-komprimerade om rubriken HTTP Accept-Encoding anger stöd för gzip. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> errorHttpStatusCode </span> </p> </td> 
-   <td colname="col2"> <p> Valfri parameter för att åsidosätta HTTP-statuskoden för felsvar. Som standard returnerar felsvar HTTP-statuskod 500 (Internt serverfel). Vissa klientplattformar, inklusive Adobe Flash, kan inte läsa svarsbrödtexten om inte statuskoden 200 (OK) returneras. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> errorHttpStatusCode  </span> </p> </td> 
+   <td colname="col2"> <p> Valfri parameter för att åsidosätta HTTP-statuskoden för felsvar. Som standard returnerar felsvar HTTP-statuskod 500 (Internt serverfel). Vissa klientplattformar, inklusive Adobe Flash, kan inte läsa svarstexten om inte statuskoden 200 (OK) returneras. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Elementet `authHeader` definieras alltid i namnutrymmet `http://www.scene7.com/IpsApi/xsd`, oavsett API-version.
+`authHeader`-elementet definieras alltid i namnutrymmet `http://www.scene7.com/IpsApi/xsd`, oavsett API-version.
 
-Följande är ett exempel på hur du använder elementet `authHeader` i en SOAP-rubrik för en begäran:
+Följande är ett exempel på hur du använder elementet `authHeader` i en SOAP-huvud för begäran:
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
@@ -219,15 +222,15 @@ Följande är ett exempel på hur du använder elementet `authHeader` i en SOAP-
 
 **Andra autentiseringsmetoder för begäranden**
 
-Om klientprogrammet av någon anledning inte kan skicka SOAP-huvudet kan API-begäranden även ange autentiseringsuppgifter med HTTP Basic-autentisering (enligt RFC 2617). `authHeader`
+Om det av någon anledning inte är möjligt för klientprogrammet att skicka SOAP-huvudet `authHeader` kan API-begäranden även ange autentiseringsuppgifter med HTTP Basic-autentisering (enligt RFC 2617).
 
-För HTTP Basic-autentisering måste HTTP-huvudavsnittet i varje SOAP POST-begäran innehålla en rubrik i formuläret:
+För grundläggande HTTP-autentisering måste HTTP-huvudavsnittet i varje SOAP-POST innehålla en rubrik i formuläret:
 
 `Authorization: Basic base64(<IPS_user_email>:<password>)`
 
-Där `base64()` används standardkodningen Base64, `<IPS_user_email>` är e-postadressen till en giltig IPS-användare och `<password>` är användarens lösenord.
+Där `base64()` använder standardkodningen Base64 är `<IPS_user_email>` e-postadressen för en giltig IPS-användare och `<password>` är användarens lösenord.
 
-Skicka auktoriseringshuvudet företrädesvis med den initiala begäran. Om inga autentiseringsuppgifter ingår i begäran svarar `IpsApiService` inte med statuskoden `401 (Unauthorized)`. I stället `500 (Internal Server Error)` returneras statuskoden med en SOAP-felkod som anger att begäran inte kunde autentiseras.
+Skicka auktoriseringshuvudet företrädesvis med den initiala begäran. Om inga autentiseringsuppgifter ingår i begäran svarar inte `IpsApiService` med statuskoden `401 (Unauthorized)`. I stället returneras statuskoden `500 (Internal Server Error)` med en SOAP-felkod som anger att begäran inte kunde autentiseras.
 
 Före IPS 3.8 implementerades autentisering via SOAP-huvudet med elementen `AuthUser` och `AuthPassword` i namnutrymmet `http://www.scene7.com/IpsApi`. Exempel:
 
@@ -238,7 +241,7 @@ Före IPS 3.8 implementerades autentisering via SOAP-huvudet med elementen `Auth
 </soap:Header>
 ```
 
-Det här formatet stöds fortfarande för bakåtkompatibilitet, men har ersatts med `authHeader` elementet.
+Det här formatet stöds fortfarande för bakåtkompatibilitet, men har ersatts med elementet `authHeader`.
 
 **Begär auktorisering**
 
@@ -246,7 +249,7 @@ När anroparens autentiseringsuppgifter har autentiserats kontrolleras begäran 
 
 **Exempel på SOAP-begäran och -svar**
 
-I följande exempel visas en fullständig `addCompany` åtgärd, inklusive HTTP-huvuden:
+I följande exempel visas en fullständig `addCompany`-åtgärd, inklusive HTTP-rubriker:
 
 ```
 POST /scene7/services/IpsApiService HTTP/1.1 
@@ -300,7 +303,7 @@ xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
 
 **SOAP-fel**
 
-När en åtgärd påträffar ett undantagsvillkor returneras ett SOAP-fel som texten i SOAP-meddelandet i stället för det normala svaret. Om en icke-admin-användare till exempel försöker skicka föregående `addCompany` begäran, returneras följande svar:
+När en åtgärd påträffar ett undantagsvillkor, returneras ett SOAP-fel som texten i SOAP-meddelandet i stället för det normala svaret. Om en icke-admin-användare till exempel försöker skicka föregående `addCompany`-begäran returneras följande svar:
 
 ```
 HTTP/1.1 500 Internal Server Error 
