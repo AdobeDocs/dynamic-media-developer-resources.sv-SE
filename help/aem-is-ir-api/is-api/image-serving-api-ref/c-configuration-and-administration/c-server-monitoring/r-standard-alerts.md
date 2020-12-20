@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: d3294434-a44b-4742-9d77-a6945760d33c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '240'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +38,7 @@ I följande tabell beskrivs varje typ av standardvarning.
   <tr> 
    <td> <p>Hög samtidighet </p> </td> 
    <td> <p>Konc </p> </td> 
-   <td> Skickas när antalet begäranden som behandlas samtidigt ( <i>överlappning</i>) överskrider det angivna tröskelvärdet. Kan vara en indikation på ett serveröverlagringsvillkor. </td> 
+   <td> Genereras när antalet begäranden som behandlas samtidigt (<i>överlappning</i>) överskrider det angivna tröskelvärdet. Kan vara en indikation på ett serveröverlagringsvillkor. </td> 
   </tr> 
   <tr> 
    <td> <p>Minsta trafik </p> </td> 
@@ -50,7 +53,7 @@ I följande tabell beskrivs varje typ av standardvarning.
   <tr> 
    <td> <p>Svarstid </p> </td> 
    <td> <p>RTime </p> </td> 
-   <td> <p>Skickas när den genomsnittliga bearbetningstiden för begäranden under samplingsintervallet ökar över det angivna tröskelvärdet. Anger vanligtvis ett tillfälligt eller permanent överlagringstillstånd för servern eller serverdelens bildlagringssystem. </p> <p>Felsvar beaktas inte vid beräkning av den genomsnittliga svarstiden. </p> </td> 
+   <td> <p>Skickas när den genomsnittliga bearbetningstiden för begäranden under samplingsintervallet ökar över det angivna tröskelvärdet. Anger oftast ett tillfälligt eller beständigt överlagringstillstånd för servern eller serverdelens bildlagringssystem. </p> <p>Felsvar beaktas inte vid beräkning av den genomsnittliga svarstiden. </p> </td> 
   </tr> 
  </tbody> 
 </table>
