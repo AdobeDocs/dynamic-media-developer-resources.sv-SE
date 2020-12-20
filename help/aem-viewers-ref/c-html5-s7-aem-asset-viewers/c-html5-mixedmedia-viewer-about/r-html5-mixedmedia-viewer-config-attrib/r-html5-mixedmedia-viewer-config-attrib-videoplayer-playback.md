@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 7016d414-aa93-4854-8f95-24e94082b5ce
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '118'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ Konfigurationsattribut för visningsprogrammet för blandad media.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|progressiv</span> </p> </td> 
-   <td colname="col2"> <p> Anger den typ av uppspelning som används av visningsprogrammet. När <span class="codeph"> auto</span> är inställt används HTML5-direktuppspelad video i HLS-format i de flesta webbläsare och på alla iOS-enheter. Den återgår till progressiv HTML5-uppspelning på vissa system som äldre Internet Explorer och Android. </p> <p>Om du anger <span class="codeph"> progressiv</span> förlitar sig visningsprogrammet endast på HTML5-uppspelning, eftersom det stöds av webbläsare och video spelas upp progressivt på alla system. </p> <p>Mer information om hur du väljer uppspelning i automatiskt och progressivt läge finns i användarhandboken för Viewer SDK. </p> </td> 
+   <td colname="col2"> <p> Anger den typ av uppspelning som används av visningsprogrammet. När <span class="codeph"> auto</span> är inställt använder visningsprogrammet HTML5-direktuppspelad video i HLS-format på de flesta webbläsare och alla iOS-enheter. Den återgår till progressiv HTML5-uppspelning på vissa system som äldre Internet Explorer och Android. </p> <p>Om <span class="codeph"> progressiv</span> har angetts förlitar sig visningsprogrammet bara på HTML5-uppspelning, eftersom det stöds av webbläsare och video spelas upp progressivt på alla system. </p> <p>Mer information om hur du väljer uppspelning i automatiskt och progressivt läge finns i användarhandboken för Viewer SDK. </p> </td> 
   </tr> 
  </tbody> 
 </table>
