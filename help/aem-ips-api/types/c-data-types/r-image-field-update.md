@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 0262be3e-f840-41cd-bedc-cc37d9982235
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '71'
+ht-degree: 0%
 
 ---
 
@@ -26,5 +29,5 @@ Syntax
 | ` *`upplösning`*` | `xsd:double` | Bildupplösning i pixlar per tum. |
 | ` *`anchorX`*` | `xsd:int` | Bildankarpunkt för X-axel. |
 | ` *`anchorY`*` | `xsd:int` | Bildankarpunkt för Y-axel. |
-| ` *`userData`*` | `xsd:string` | Värde för `userData` metadatafältet, som publiceras till den bild som används i katalogfältet för användardata. |
+| ` *`userData`*` | `xsd:string` | Värdet för metadatafältet `userData`, som publiceras till den bild som används i katalogfältet för användardata. |
 
