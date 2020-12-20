@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 4ff170a3-ce37-454f-b4b0-b323de3dc9c9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '144'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Med visningsprogrammet kan du skriva ut kataloginnehållet till en skrivare.
 
 Utskriftsfunktionen aktiveras av en dedikerad knapp i verktygsfältet. Genom att klicka på knappen kan användaren välja ett utskriftsintervall och antalet sidor per ark.
 
-Utskriftens kvalitet kan justeras med hjälp av `printquality` konfigurationsparametern. Observera att du inte bör ange värden `printquality` som är betydligt högre än standardvärdena. Orsaken är att den leder till mycket hög minnesförbrukning i webbläsaren på klientens system. Kontrollera också att den maximala bildsvarsstorleken som angetts för ditt SPS-företag är större än det konfigurerade `printquality` värdet.
+Utskriftens kvalitet kan justeras med konfigurationsparametern `printquality`. Observera att det inte är rekommenderat att ställa in `printquality` på värden som är betydligt högre än standardvärdet. Orsaken är att den leder till mycket hög minnesförbrukning i webbläsaren på klientens system. Kontrollera också att den maximala bildsvarsstorleken som angetts för ditt SPS-företag är större än det konfigurerade `printquality`-värdet.
 
 >[!NOTE]
 >
