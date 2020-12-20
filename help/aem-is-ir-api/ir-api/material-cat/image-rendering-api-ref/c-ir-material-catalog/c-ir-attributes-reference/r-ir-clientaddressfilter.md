@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: b68f527b-7fa7-43e3-9517-57a6c3700b06
 translation-type: tm+mt
 source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
 
 Klientens IP-adressfilter. Tillåter specifikation av en eller flera IP-adresser eller adressintervall.
 
-Om det anges kommer förfrågningar till den här bildkatalogen som kommer från en klient till en IP-adress som inte finns med i listan att avvisas. `localhost` är alltid en implicit del av `ClientAddressFilter` definitionen, även om den inte uttryckligen anges. Förfrågningar som kommer från `localhost` avvisas aldrig, oavsett `ClientAddressFilter` specifikation.
+Om det anges kommer förfrågningar till den här bildkatalogen som kommer från en klient till en IP-adress som inte finns med i listan att avvisas. `localhost` är alltid en implicit del av  `ClientAddressFilter` definitionen, även om den inte uttryckligen anges. Begäranden som kommer från `localhost` avvisas aldrig, oavsett `ClientAddressFilter`-specifikationen.
 
 ## Egenskaper {#section-21a2992f108d42fb8660c0d65aa61e13}
 
@@ -24,20 +27,20 @@ Kommaavgränsad lista med IP-adresser med valfria netmasker ([CIDR-notation](htt
 
 ` *[!DNL ipAddress]*[/ *[!DNL netmask]*]&#42;[, *[!DNL ipAddress]*[/ *[!DNL netmask]*]]`
 
-* *[!DNL ipAddress]* IP-adress i *[!DNL ddd.ddd.ddd.ddd]* format
+* *[!DNL ipAddress]* IP-adress i  *[!DNL ddd.ddd.ddd.ddd]* format
 
 * *[!DNL netmask]* nätmask (0...32)
 
-Det här attributet ignoreras när en förbearbetningsregel med ett `<addressfilter>` element används.
+Det här attributet ignoreras när en förbearbetningsregel med ett `<addressfilter>`-element används.
 
 ## Standard {#section-beddaa18ed6c4f3ba1eb2d4471267712}
 
-Ärvs från `default::AddressFilter` om inte definierad eller om tom.
+Ärvs från `default::AddressFilter` om det inte är definierat eller om det är tomt.
 
 ## Exempel {#section-72b4a3615bff4a5f8b03d83c6489aaba}
 
 * Inga åtkomstbegränsningar: `0.0.0.0/0`
-* Bevilja åtkomst till alla adresser som börjar med `192: 192.0.0.0/8`
+* Bevilja åtkomst till alla adresser med början från `192: 192.0.0.0/8`
 * Ge åtkomst till de 512 värdarna med adresser mellan `192.168.12.0` och `192.168.13.255: 192.168.12.0/23`
 
 * Ge åtkomst till en enda IP-adress: `192.168.2.117` eller `192.168.2.117/32`
