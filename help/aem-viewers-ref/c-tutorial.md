@@ -1,6 +1,6 @@
 ---
-description: Viewer SDK innehåller en uppsättning JavaScript-baserade komponenter för anpassad visningsprogramutveckling. Tittarna är webbaserade program som gör att multimediematerial från Adobe Scene7 kan bäddas in på webbsidor.
-seo-description: Viewer SDK innehåller en uppsättning JavaScript-baserade komponenter för anpassad visningsprogramutveckling. Tittarna är webbaserade program som gör att multimediematerial från Adobe Scene7 kan bäddas in på webbsidor.
+description: Viewer SDK innehåller en uppsättning JavaScript-baserade komponenter för anpassad visningsprogramutveckling. Tittarna är webbaserade program som gör att multimediematerial som hanteras av Adobe Scene7 kan bäddas in på webbsidor.
+seo-description: Viewer SDK innehåller en uppsättning JavaScript-baserade komponenter för anpassad visningsprogramutveckling. Tittarna är webbaserade program som gör att multimediematerial som hanteras av Adobe Scene7 kan bäddas in på webbsidor.
 seo-title: Självstudiekurs om SDK för visningsprogram
 solution: Experience Manager
 title: Självstudiekurs om SDK för visningsprogram
@@ -8,19 +8,22 @@ topic: Dynamic media
 uuid: ea331f05-0c58-4e6b-b5a1-d9b8372d8e94
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '999'
+ht-degree: 0%
 
 ---
 
 
 # Självstudiekurs om SDK för visningsprogram{#viewer-sdk-tutorial}
 
-Viewer SDK innehåller en uppsättning JavaScript-baserade komponenter för anpassad visningsprogramutveckling. Tittarna är webbaserade program som gör att multimediematerial från Adobe Scene7 kan bäddas in på webbsidor.
+Viewer SDK innehåller en uppsättning JavaScript-baserade komponenter för anpassad visningsprogramutveckling. Tittarna är webbaserade program som gör att multimediematerial som hanteras av Adobe Scene7 kan bäddas in på webbsidor.
 
-SDK innehåller till exempel interaktiv zoomning och panorering. Den ger även 360-gradersvisning och videouppspelning av resurser som överförts till Adobe Scene7 via serverdelsprogrammet SPS (Scene7 Publishing System).
+SDK innehåller till exempel interaktiv zoomning och panorering. Den ger även 360-gradig vy och videouppspelning av resurser som överförts till Adobe Scene7 via serverdelsprogrammet SPS (Scene7 Publishing System).
 
 Även om komponenterna är beroende av HTML5-funktioner är de utformade för att fungera på Android- och Apple iOS-enheter och stationära datorer, inklusive Internet Explorer och senare. Den här typen av upplevelser innebär att du kan skapa ett enda arbetsflöde för alla plattformar som stöds.
 
-SDK består av UI-komponenter som utgör visningsprograminnehåll. Du kan formatera de här komponenterna med CSS och andra komponenter än användargränssnittskomponenter som har någon stödroll, som hämtning, tolkning och spårning av uppsättningar. Alla komponentbeteenden kan anpassas med modifieringar som du kan ange på flera olika sätt, till exempel som `name=value` par i URL:en.
+SDK består av UI-komponenter som utgör visningsprograminnehåll. Du kan formatera de här komponenterna med CSS och andra komponenter än användargränssnittskomponenter som har någon stödroll, som hämtning, tolkning och spårning av uppsättningar. Alla komponentbeteenden kan anpassas med modifierare som du kan ange på flera olika sätt, till exempel som `name=value`-par i URL:en.
 
 Den här självstudiekursen innehåller följande åtgärder som du kan använda för att skapa ett enkelt zoomningsvisningsprogram:
 
@@ -32,9 +35,9 @@ Den här självstudiekursen innehåller följande åtgärder som du kan använda
 * [Lägga till knappar i visningsprogrammet](c-tutorial.md#section-1fc334fa0d2b47eb9cdad461725c07be)
 * [Konfigurera färgrutorna lodrätt](c-tutorial.md#section-91a8829d5b5a4d45a35b7faeb097fcc9)
 
-## Hämta den senaste SDK-versionen av visningsprogrammet från Adobe Developer Connection {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
+## Hämta den senaste SDK:n för visningsprogram från Adobe Developer Connection {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
 
-1. Hämta den senaste SDK:n för visningsprogram från Adobe Developer Connection [här](https://marketing.adobe.com/developer/devcenter/scene7/show).
+1. Hämta den senaste Viewer SDK-versionen från Adobe Developer Connection [här](https://marketing.adobe.com/developer/devcenter/scene7/show).
 
    >[!NOTE]
    >
@@ -79,7 +82,7 @@ Den här självstudiekursen innehåller följande åtgärder som du kan använda
    </html>
    ```
 
-   Lägg till följande JavaScript-kod i - `script` taggen för att initiera `ParameterManager`. Detta hjälper dig att förbereda för att skapa och instansiera SDK-komponenter i `initViewer` funktionen:
+   Lägg till följande JavaScript-kod i `script`-taggen för att initiera `ParameterManager`. Detta hjälper dig att förbereda för att skapa och instansiera SDK-komponenter i funktionen `initViewer`:
 
    ```
    /* We create a self-running anonymous function to encapsulate variable scope. Placing code inside such 
@@ -119,11 +122,11 @@ Den här självstudiekursen innehåller följande åtgärder som du kan använda
 
 Du kommer nu att lägga till format i visningsprogrammet.
 
-## Lägga till format i visningsprogrammet {#section-3783125360a1425eae5a5a334867cc32}
+## Lägger till stil i visningsprogrammet {#section-3783125360a1425eae5a5a334867cc32}
 
 1. Du kan lägga till några grundläggande format för det här helsidesvisningsprogrammet som du skapar.
 
-   Lägg till följande `style` block längst ned i `head`:
+   Lägg till följande `style`-block längst ned i `head`:
 
    ```
    <style> 
@@ -144,11 +147,11 @@ Du kommer nu att lägga till format i visningsprogrammet.
 
 Du kommer nu att inkludera komponenterna `Container` och `ZoomView`.
 
-## Inklusive Container och ZoomView {#section-1a01730663154a508b88cc40c6f35539}
+## Inkluderar Container och ZoomView {#section-1a01730663154a508b88cc40c6f35539}
 
 1. Skapa ett faktiskt visningsprogram genom att inkludera komponenterna `Container` och `ZoomView`.
 
-   Infoga följande `include` satser längst ned i `<head>` elementet - efter att [!DNL Utils.js] skriptet har lästs in:
+   Infoga följande `include`-satser längst ned i `<head>`-elementet - efter att [!DNL Utils.js]-skriptet har lästs in:
 
    ```
    <!-- 
@@ -163,13 +166,13 @@ Du kommer nu att inkludera komponenterna `Container` och `ZoomView`.
 
 1. Skapa nu variabler för att referera till de olika SDK-komponenterna.
 
-   Lägg till följande variabler högst upp i den anonyma huvudfunktionen, alldeles ovanför `s7sdk.Util.init()`:
+   Lägg till följande variabler högst upp i den anonyma huvudfunktionen, precis ovanför `s7sdk.Util.init()`:
 
    ```
    var container, zoomView;
    ```
 
-1. Infoga följande inuti `initViewer` funktionen för att definiera vissa modifierare och instansiera respektive komponenter:
+1. Infoga följande inuti funktionen `initViewer` för att definiera vissa modifierare och instansiera respektive komponenter:
 
    ```
    /* Modifiers can be added directly to ParameterManager instance */ 
@@ -190,7 +193,7 @@ Du kommer nu att inkludera komponenterna `Container` och `ZoomView`.
    resizeViewer(container.getWidth(), container.getHeight());
    ```
 
-1. För att ovanstående kod ska fungera korrekt lägger du till en `containerResize` händelsehanterare och en hjälpfunktion:
+1. För att ovanstående kod ska fungera korrekt lägger du till en `containerResize`-händelsehanterare och en hjälpfunktion:
 
    ```
    /* Event handler for s7sdk.event.ResizeEvent.COMPONENT_RESIZE events dispatched by Container to resize 
@@ -209,7 +212,7 @@ Du kommer nu att inkludera komponenterna `Container` och `ZoomView`.
 
    ![](assets/viewer-1.jpg)
 
-Nu ska du lägga till komponenterna `MediaSet` och `Swatches` till visningsprogrammet.
+Nu ska du lägga till komponenterna `MediaSet` och `Swatches` i visningsprogrammet.
 
 ## Lägga till MediaSet- och Swatches-komponenter i visningsprogrammet {#section-02b8c21dd842400e83eae2a48ec265b7}
 
@@ -228,9 +231,9 @@ Nu ska du lägga till komponenterna `MediaSet` och `Swatches` till visningsprogr
    var mediaSet, container, zoomView, swatches;
    ```
 
-1. Skapa instanser `MediaSet` och `Swatches` komponenter inuti `initViewer` funktionen.
+1. Instansiera `MediaSet`- och `Swatches`-komponenterna inuti funktionen `initViewer`.
 
-   Se till att instansiera `Swatches` instansen efter `ZoomView` och `Container` komponenterna, annars döljs följande i staplingsordningen `Swatches`:
+   Se till att instansiera `Swatches`-instansen efter `ZoomView`- och `Container`-komponenterna, annars döljs `Swatches` i staplingsordningen:
 
    ```
    // Create MediaSet to manage assets and add event listener to the NOTF_SET_PARSED event 
@@ -266,7 +269,7 @@ Nu ska du lägga till komponenterna `MediaSet` och `Swatches` till visningsprogr
    }
    ```
 
-1. Placera färgrutorna längst ned i visningsprogrammet genom att lägga till följande CSS till `style` elementet:
+1. Placera färgrutorna längst ned i visningsprogrammet genom att lägga till följande CSS i `style`-elementet:
 
    ```
    /* Align swatches to bottom of viewer */ 
@@ -280,7 +283,7 @@ Nu ska du lägga till komponenterna `MediaSet` och `Swatches` till visningsprogr
 
 1. Förhandsgranska ditt visningsprogram.
 
-   Observera att färgrutorna finns i det nedre vänstra hörnet i visningsprogrammet. Om du vill att färgrutorna ska ha hela visningsprogrammets bredd lägger du till ett anrop om att manuellt ändra storlek på färgrutorna när användaren ändrar storlek på webbläsaren. Lägg till följande i `resizeViewer` funktionen:
+   Observera att färgrutorna finns i det nedre vänstra hörnet i visningsprogrammet. Om du vill att färgrutorna ska ha hela visningsprogrammets bredd lägger du till ett anrop om att manuellt ändra storlek på färgrutorna när användaren ändrar storlek på webbläsaren. Lägg till följande i funktionen `resizeViewer`:
 
    ```
    swatches.resize(width, swatches.getHeight());
@@ -308,9 +311,9 @@ Nu ska du lägga till knapparna för inzoomning, utzoomning och zoomning i visni
    var mediaSet, container, zoomView, swatches, zoomInButton, zoomOutButton, zoomResetButton;
    ```
 
-1. Instansiera knappar längst ned i `initViewer` funktionen.
+1. Instansiera knappar längst ned i funktionen `initViewer`.
 
-   Kom ihåg att ordningen är viktig, såvida du inte anger `z-index` i CSS:
+   Kom ihåg att ordningen gäller, såvida du inte anger `z-index` i CSS:
 
    ```
    /* Create Zoom In, Zoom Out and Zoom Reset buttons */ 
@@ -324,7 +327,7 @@ Nu ska du lägga till knapparna för inzoomning, utzoomning och zoomning i visni
    zoomResetButton.addEventListener("click", function() { zoomView.zoomReset(); });
    ```
 
-1. Definiera några grundläggande format för knapparna genom att lägga till följande i `style` blocket längst upp i filen:
+1. Definiera några grundläggande format för knapparna genom att lägga till följande i `style`-blocket högst upp i filen:
 
    ```
    /* define styles common to all button components and their sub-classes */ 
@@ -358,21 +361,21 @@ Nu ska du lägga till knapparna för inzoomning, utzoomning och zoomning i visni
 
 ## Konfigurera färgrutorna lodrätt {#section-91a8829d5b5a4d45a35b7faeb097fcc9}
 
-1. Du kan konfigurera modifierare direkt på `ParameterManager` instansen.
+1. Du kan konfigurera modifierare direkt på `ParameterManager`-instansen.
 
-   Lägg till följande längst upp i `initViewer` funktionen för att konfigurera `Swatches` miniatyrlayouten som en rad:
+   Lägg till följande längst upp i funktionen `initViewer` för att konfigurera miniatyrlayouten `Swatches` som en rad:
 
    ```
    params.push("Swatches.tmblayout", "1,0");
    ```
 
-1. Uppdatera följande resize-anrop inuti `resizeViewer`:
+1. Uppdatera följande resize-anrop i `resizeViewer`:
 
    ```
    swatches.resize(swatches.getWidth(), height);
    ```
 
-1. Redigera följande `s7swatches` regel i `ZoomViewer.css`:
+1. Redigera följande `s7swatches`-regel i `ZoomViewer.css`:
 
    ```
    .s7swatches { 
