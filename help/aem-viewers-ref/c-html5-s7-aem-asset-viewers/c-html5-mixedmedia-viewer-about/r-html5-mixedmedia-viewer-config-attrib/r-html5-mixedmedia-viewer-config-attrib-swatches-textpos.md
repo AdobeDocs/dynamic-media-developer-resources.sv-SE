@@ -1,18 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Färgrutor.textpos
+seo-title: Swatches.textpos
 solution: Experience Manager
-title: Färgrutor.textpos
+title: Swatches.textpos
 topic: Dynamic media
 uuid: 1ad94058-4dca-40b9-a694-a6c1452880c1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '50'
+ht-degree: 2%
 
 ---
 
 
-# Färgrutor.textpos{#swatches-textpos}
+# Swatches.textpos{#swatches-textpos}
 
 `[Swatches.|<containerId>_swatches.]textpos=bottom|top|left|right|none|tooltip`
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td> <p> Anger var etiketten ritas i förhållande till färgrutans miniatyrbild. Det innebär att etiketten centreras på den angivna platsen i förhållande till färgrutans miniatyrbild. När <span class="codeph"> verktygstips</span> anges ritas ingen etikett. </p> </td> 
+   <td> <p> Anger var etiketten ritas i förhållande till färgrutans miniatyrbild. Det innebär att etiketten centreras på den angivna platsen i förhållande till färgrutans miniatyrbild. När <span class="codeph"> tooltip</span> har angetts ritas ingen etikett. </p> </td> 
   </tr> 
  </tbody> 
 </table>
