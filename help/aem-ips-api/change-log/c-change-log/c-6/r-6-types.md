@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: ef7c43ee-467f-46b9-bd82-05e8359bd829
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '84'
+ht-degree: 0%
 
 ---
 
@@ -40,19 +43,19 @@ Syntax
 
 **Tillagd**
 
-* Tillagd `numUrls` i `UploadUrlsJob`.
+* `numUrls` har lagts till i `UploadUrlsJob`.
 
-* Tillagd `fileName` i `Asset.`
+* `fileName` har lagts till i `Asset.`
 
-* Tillagd `isHidden` i `MetadataField`.
+* `isHidden` har lagts till i `MetadataField`.
 
-* Tillagd `taskState` i `TaskProgress`.
+* `taskState` har lagts till i `TaskProgress`.
 
-* Tillagd `exportJob` till `ActiveJob` och `ScheduledJob`.
+* `exportJob` har lagts till i `ActiveJob` och `ScheduledJob`.
 
-* Tillagd `optmizedPath` och `optimizedFile` till `PsdInfo`.
+* `optmizedPath` och `optimizedFile` har lagts till i `PsdInfo`.
 
-* Tillagt `contextHandle` i:
+* `contextHandle` har lagts till i:
 
    * `ImageRenderingPublishJob`
    * `VideoPublishJob`
@@ -66,9 +69,9 @@ Syntax
 
 **Ändrad**
 
-* In `User`, ändrad `role` till `defaultRole`.
+* I `User` har `role` ändrats till `defaultRole`.
 
-* In `Folder`, ändrad `permissions` till `permissionsSetHandle`.
+* I `Folder` har `permissions` ändrats till `permissionsSetHandle`.
 
-* In `AssetSummary`, `type` and `name` are now optional.
+* I `AssetSummary` är `type` och `name` nu valfria.
 
