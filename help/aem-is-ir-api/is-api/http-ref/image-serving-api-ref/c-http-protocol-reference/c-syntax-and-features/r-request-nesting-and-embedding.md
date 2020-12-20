@@ -29,13 +29,13 @@ En hel Image Serving-begäran kan användas som en lagerkälla genom att ange de
 
 `…&src=is( nestedRequest)&…`
 
-Token är `is` skiftlägeskänslig.
+Token `is` är skiftlägeskänslig.
 
 Den kapslade begäran får inte innehålla serverrotsökvägen (vanligtvis ` http:// *[!DNL server]*/is/image/'`).
 
 >[!NOTE]
 >
->De kapslade begärandeavgränsningstecknen ( `'(',')'`) och kommandoavgränsningstecknen ( `'?'`, `'&'`, `'='`) i kapslade begäranden får inte HTTP-kodas. I praktiken måste kapslade begäranden kodas på samma sätt som den yttre (kapslade) begäran.
+>De kapslade avgränsningstecknen för begäran ( `'(',')'`) och kommandoavgränsningstecknen ( `'?'`, `'&'`, `'='`) i kapslade begäranden får inte vara HTTP-kodade. I praktiken måste kapslade begäranden kodas på samma sätt som den yttre (kapslade) begäran.
 
 Förbearbetningsregler tillämpas på kapslade begäranden.
 
@@ -51,23 +51,23 @@ Följande kommandon ignoreras när de anges i kapslade begäranden (antingen i b
 
 Om den resulterande bilden av den kapslade begäran innehåller maskdata (alfavärden) skickas den till inbäddningslagret som lagermask.
 
-De ignoreras också `attribute::MaxPix`och `attribute::DefaultPix` den bildkatalog som gäller för den kapslade begäran.
+Även `attribute::MaxPix`och `attribute::DefaultPix` för bildkatalogen som gäller för den kapslade begäran ignoreras.
 
 Bildresultatet av en kapslad IS-begäran kan cachelagras genom att inkludera `cache=on`. Som standard är cachelagring av mellanliggande data inaktiverad. Cachelagring bör endast aktiveras när den mellanliggande bilden förväntas återanvändas i en annan begäran inom en rimlig tidsperiod. Standardhantering av cache på serversidan gäller. Data cachelagras i ett icke-förstörande format.
 
 ## Begäranden om inbäddad bildåtergivning {#section-69c5548db930412b9b90d9b2951a6969}
 
-När Bildåtergivning för Scene7 är aktiverat på servern kan återgivningsbegäranden användas som lagerkällor genom att ange dem med kommandot src= (eller mask=). Använd följande syntax:
+När Scene7 Image Rendering är aktiverat på servern kan återgivningsbegäranden användas som lagerkällor genom att ange dem med kommandot src= (eller mask=). Använd följande syntax:
 
 ` …&src=ir( *[!DNL renderRequest]*)&…`
 
-Token är `ir` skiftlägeskänslig.
+Token `ir` är skiftlägeskänslig.
 
-*[!DNL renderRequest]* är den vanliga begäran om bildåtergivning, exklusive HTTP-rotsökvägen ` http:// *[!DNL server]*/ir/render/`.
+*[!DNL renderRequest]* är den vanliga begäran om bildåtergivning, exklusive HTTP-rotsökvägen  ` http:// *[!DNL server]*/ir/render/`.
 
 >[!NOTE]
 >
->De kapslade begärandeavgränsningstecknen ( `'(',')'`) och kommandoavgränsningstecknen ( `'?'`, `'&'`, `'='`) i kapslade begäranden får inte HTTP-kodas. Inbäddade begäranden måste i själva verket kodas på samma sätt som den yttre (inbäddade) begäran.
+>De kapslade avgränsningstecknen för begäran ( `'(',')'`) och kommandoavgränsningstecknen ( `'?'`, `'&'`, `'='`) i kapslade begäranden får inte vara HTTP-kodade. Inbäddade begäranden måste i själva verket kodas på samma sätt som den yttre (inbäddade) begäran.
 
 Följande kommandon för bildåtergivning ignoreras när de anges i kapslade begäranden:
 
@@ -78,27 +78,27 @@ Följande kommandon för bildåtergivning ignoreras när de anges i kapslade beg
 * `printRes=`
 * `req=`
 
-De ignoreras också `attribute::MaxPix` och `attribute::DefaultPix` den materialkatalog som gäller för den kapslade återgivningsbegäran.
+Även `attribute::MaxPix` och `attribute::DefaultPix` ignoreras för materialkatalogen som gäller för den kapslade återgivningsbegäran.
 
 Bildresultatet av en kapslad IR-begäran kan cachelagras genom att inkludera `cache=on`. Som standard är cachelagring av mellanliggande data inaktiverad. Cachelagring bör endast aktiveras när den mellanliggande bilden förväntas återanvändas i en annan begäran inom en rimlig tidsperiod. Standardhantering av cache på serversidan gäller. Data cachelagras i ett icke-förstörande format.
 
-## Inbäddade FXG-renderingsbegäranden {#section-c817e4b4f7da414ea5a51252ca7e120a}
+## Inbäddade FXG-återgivningsbegäranden {#section-c817e4b4f7da414ea5a51252ca7e120a}
 
-När FXG-grafikåtergivaren (även kallad [!DNL AGMServer]) är installerad och aktiverad med bildservern, kan FXG-begäranden användas som lagerkällor genom att ange dem i `src=` - eller `mask=`-kommandon. Använd följande syntax:
+När FXG-grafikåtergivaren (även [!DNL AGMServer]) är installerad och aktiverad med Image Serving, kan FXG-begäranden användas som lagerkällor genom att ange dem med kommandona `src=` (eller `mask=`). Använd följande syntax:
 
 `…&src=fxg( renderRequest)&…`
 
-Token är `fxg` skiftlägeskänslig.
+Token `fxg` är skiftlägeskänslig.
 
 >[!NOTE]
 >
->FXG-grafikåtergivning är endast tillgängligt i Scene7-värdmiljön och kan kräva ytterligare licensiering. Kontakta Scene7 Support för mer information.
+>FXG-grafikåtergivning är endast tillgängligt i Scene7 värdmiljö och kan kräva ytterligare licensiering. Kontakta Scene7 Support för mer information.
 
-*[!DNL renderRequest]* är den vanliga FXG-återgivningsbegäran, exklusive HTTP-rotsökvägen ` http:// *[!DNL server]*/agm/render/`.
+*[!DNL renderRequest]* är den vanliga FXG-återgivningsbegäran, exklusive HTTP-rotsökvägen  ` http:// *[!DNL server]*/agm/render/`.
 
 >[!NOTE]
 >
->Avgränsningstecknen ( `'(',')'`) och kommandoavgränsningstecknen ( `'?'`, `'&'`, `'='`) i kapslade begäranden får inte HTTP-kodas. Inbäddade begäranden måste i själva verket kodas på samma sätt som den yttre (inbäddade) begäran.
+>Avgränsningstecknen ( `'(',')'`) och kommandoavgränsningstecknen ( `'?'`, `'&'`, `'='`) i kapslade begäranden får inte vara HTTP-kodade. Inbäddade begäranden måste i själva verket kodas på samma sätt som den yttre (inbäddade) begäran.
 
 Följande FXG-kommandon ignoreras när de anges i kapslade begäranden:
 
@@ -116,17 +116,17 @@ Image Serving stöder åtkomst till källbilder på externa HTTP-servrar.
 >
 >Endast HTTP-protokollet stöds för fjärr-URL:er.
 
-Om du vill ange en extern URL för ett `src=` eller ett `mask=` kommando avgränsar du det externa URL- eller URL-fragmentet med parenteser:
+Om du vill ange en extern URL för ett `src=`- eller `mask=`-kommando avgränsar du det externa URL- eller URL-fragmentet med parenteser:
 
 `…&src=( foreignUrl)&…`
 
-Viktigt! Avgränsningstecknen ( `'(',')'`) och kommandoavgränsningstecknen ( `'?'`, `'&'`, `'='`) i kapslade begäranden får inte vara HTTP-kodade. Inbäddade begäranden måste i själva verket kodas på samma sätt som den yttre (inbäddade) begäran.
+Viktigt! Avgränsartecken ( `'(',')'`) och kommandoavgränsartecken ( `'?'`, `'&'`, `'='`) i kapslade begäranden får inte vara HTTP-kodade. Inbäddade begäranden måste i själva verket kodas på samma sätt som den yttre (inbäddade) begäran.
 
 Fullständiga absoluta URL:er (om `attribute::AllowDirectUrls` har angetts) och URL:er i förhållande till `attribute::RootUrl` tillåts. Ett fel inträffar om en absolut URL är inbäddad och attributet: `AllowDirectUrls` är 0 eller om en relativ URL har angetts och `attribute::RootUrl` är tom.
 
 Även om externa URL:er inte kan anges direkt i sökvägskomponenten i den begärda URL:en, går det att ställa in en förbearbetningsregel som tillåter konvertering av relativa sökvägar till absoluta URL:er (se exemplet nedan).
 
-Externa bilder cachelagras av servern enligt de cachelagringsrubriker som ingår i HTTP-svaret. Om varken en `ETag` eller en senast ändrad HTTP-svarshuvud finns, cachelagras inte svaret. Detta kan orsaka dålig prestanda vid upprepad åtkomst för samma externa bild, eftersom Image Serving måste hämta om och validera bilden vid varje åtkomst.
+Externa bilder cachelagras av servern enligt de cachelagringsrubriker som ingår i HTTP-svaret. Om varken en `ETag` eller en Senast ändrad HTTP-svarshuvud finns, cachelagras inte svaret. Detta kan orsaka dålig prestanda vid upprepad åtkomst för samma externa bild, eftersom Image Serving måste hämta om och validera bilden vid varje åtkomst.
 
 Den här funktionen stöder samma bildfilsformat som stöds av verktyget Bildkonvertering (IC), med undantag för källbilder med 16 bitar per komponent.
 
@@ -152,7 +152,7 @@ Med mindre ändringar kan vi förskala bilden för lager 0 och cachelagra den pe
 
 `layer=0&src=is(?src=$img$&size=300,300&cache=on)&layer=1&text=$txt$`
 
-**Bädda in begäranden om Scene7-bildåtergivning**
+**Bädda in begäranden om Scene7 bildåtergivning**
 
 Använda en mall som lagras i [!DNL myCatalog/myTemplate]; generera bilden för lager2 i mallen med Scene7 Image Rendering:
 
@@ -162,4 +162,4 @@ Lägg märke till de kapslade klammerparenteserna. Begäran om bildåtergivning 
 
 ## Se även {#section-109a0a9a3b144158958351139c8b8e69}
 
-[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) , [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [Request PreProcessing](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-preprocessing.md#reference-c27976436bf04194bfbe9adf40ea98e3), Image Rendering Reference, [Templates](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e), [Image Serving Utilities](../../../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f)
+[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) ,  [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e),  [Request PreProcessing](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-preprocessing.md#reference-c27976436bf04194bfbe9adf40ea98e3), Image Rendering Reference,  [Templates](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e),  [Image Serving Utilities](../../../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f)
