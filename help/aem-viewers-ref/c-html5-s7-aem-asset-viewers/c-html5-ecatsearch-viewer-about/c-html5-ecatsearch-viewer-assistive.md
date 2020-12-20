@@ -8,28 +8,31 @@ topic: Dynamic media
 uuid: 525ab400-c022-4f33-a0e3-bafb6019f1a7
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '418'
+ht-degree: 0%
 
 ---
 
 
-# Teknikstöd{#assistive-technology-support}
+# Stöd för hjälpfunktioner{#assistive-technology-support}
 
 Alla visningsprogramkomponenter har stöd för ARIA-roller (Accessible Rich Internet Applications) och -attribut för att förbättra integrationen med hjälpmedelstekniker som skärmläsare.
 
-Visningsprogramelementet på den översta nivån har roll `region` och `aria-label` attribut inställt som standard på visningsprogrammets namn. Du kan styra etiketten med `Container.LABEL` lokaliseringssymbolen.
+Visningsprogramelementet på den översta nivån har rollattributen `region` och `aria-label` inställda som standard på visningsprogrammets namn. Du kan styra etiketten med lokaliseringssymbolen `Container.LABEL`.
 
-Knappar har rollen `button` och beskrivande text angiven med `aria-label` -attributet. Värdet för `aria-label` attributet fylls i från värdet för knappens lokaliseringssymbol. När en knapp är inaktiverad ställs attributet in i enlighet med detta `aria-disabled` .
+Knappar har rollen `button` och beskrivande text med attributet `aria-label`. Värdet för attributet `aria-label` fylls i från värdet för knappens lokaliseringssymbol. När en knapp är inaktiverad ställs attributet `aria-disabled` in därefter.
 
-Huvudvyn har en roll `application`. En kort beskrivning av huvudvyn finns i `aria-roledescription`, med det värde som definieras av `ROLE_DESCRIPTION` lokaliseringssymbolen för motsvarande huvudvykomponent. Navigeringstips för tangentbordsanvändare tillhandahålls med `aria-describedby`, texten för användartipset kommer från `USAGE_HINT` lokaliseringssymbolen. Om en resurs har en etikett definierad i fältet UserData, ställs attributet in med värdet för den etiketten. `aria-label`
+Huvudvyn har rollen `application`. En kort beskrivning av huvudvyn finns i `aria-roledescription`, med det värde som definieras av lokaliseringssymbolen `ROLE_DESCRIPTION` för motsvarande huvudvykomponent. Navigeringstips för tangentbordsanvändare tillhandahålls med `aria-describedby`, texten för användartipset kommer från lokaliseringssymbolen `USAGE_HINT`. Om en resurs har en etikett definierad i fältet UserData ställs attributet `aria-label` in med värdet för den etiketten.
 
-Aktiveringspunkter, regioner och bildscheman har rollen `button` och beskrivande text med `aria-label` attribut, med värdet för aktiveringspunkten eller bildschemats etikett. När användaren fokuserar på aktiveringspunkter eller bildscheman visas navigeringstips för tangentbordsanvändare med `aria-describedby`, där texten för användartipset kommer från `USAGE_HINT` lokaliseringssymbolen.
+Aktiveringspunkter, regioner och bildscheman har rollen `button` och en beskrivande textuppsättning med attributet `aria-label`, med värdet för aktiveringspunkten eller bildschemats etikett. När användaren fokuserar på aktiveringspunkter eller bildscheman visas navigeringstips för tangentbordsanvändare med `aria-describedby`, där texten för användartipset kommer från lokaliseringssymbolen `USAGE_HINT`.
 
-Miniatyrbilder har rollen `dialog` med `aria-label` attribut som styrs av `ThumbnailGridView.LABEL` lokaliseringssymbolen. Enskilda miniatyrbilder har en roll `button`. Om en miniatyrbild är markerad får den `aria-selected` attributet angivet till `true`.
+Miniatyrbilder har rollen `dialog` med attributet `aria-label` som styrs av språksymbolen `ThumbnailGridView.LABEL`. Enskilda miniatyrbilder har rollen `button`. Om du väljer en miniatyrbild får den `aria-selected`-attributet `true`.
 
-Komponenter som visar färgrutor har rollen `listbox` med `aria-label` attributet inställt på värdet för den komponentens `LABEL` lokaliseringssymbol. Enskilda färgrutor har rollen `option` med `aria-setsize` och `aria-posinset` attribut som beskriver färgrutans placering i uppsättningen. Om du väljer en färgruta får den attributuppsättningen `aria-selected` som `true`.
+Komponenter som visar färgrutor har rollen `listbox` med attributet `aria-label` inställt på värdet för `LABEL`-lokaliseringssymbolen för den komponenten. Enskilda färgrutor har rollen `option` med attributen `aria-setsize` och `aria-posinset` som beskriver färgrutans position i uppsättningen. Om du väljer en färgruta får den attributet `aria-selected` inställt på `true`.
 
-Listrutor aktiveras av knappar med ytterligare `aria-haspopup` attribut inställt på `true` `aria-controls` och det attribut som refererar till det faktiska nedrullningsbara panelelementet. Själva listrutan har rollen `menu` med underelement `menuitem`. Varje menyalternativ har det angivna `aria-label` -attributet.
+Listrutor aktiveras av knappar med ytterligare `aria-haspopup`-attribut inställt på `true` och `aria-controls`-attributet som refererar till det faktiska nedrullningsbara panelelementet. Den nedrullningsbara panelen har rollen `menu` med underelement som har rollen `menuitem`. Varje menyalternativ har det angivna `aria-label`-attributet.
 
-Användargränssnittet för sökning är grupperat i elementet med rollen `search`. Indatafältet för sökning har rollen `searchbox` och refererar till den informativa etiketten som styrs av `SearchPanel.INFO_PROMPT` lokaliseringssymbolen med `aria-describedby` attribut.
+Användargränssnittet för sökning är grupperat i elementet med rollen `search`. Indatafältet för sökning har rollen `searchbox` och refererar till den informativa etikett som styrs av `SearchPanel.INFO_PROMPT`-lokaliseringssymbolen med attributet `aria-describedby`.
 
-Modala dialogrutor har rollen `dialog`. Dialogrutans rubrikelement refereras av `aria-labelledby` -attributet.
+Modala dialogrutor har rollen `dialog`. Dialogrutans rubrikelement refereras av attributet `aria-labelledby`.
