@@ -1,6 +1,6 @@
 ---
-description: Platform Server cachelagrar alla svarsbilder och vissa textdata på disken om inte en begäran har markerats som icke-cachelagrad.
-seo-description: Platform Server cachelagrar alla svarsbilder och vissa textdata på disken om inte en begäran har markerats som icke-cachelagrad.
+description: Plattformsservern cachelagrar alla svarsbilder och vissa textdata till disken, såvida inte en begäran har markerats som icke-cachelagrad.
+seo-description: Plattformsservern cachelagrar alla svarsbilder och vissa textdata till disken, såvida inte en begäran har markerats som icke-cachelagrad.
 seo-title: Cache för svarsdata
 solution: Experience Manager
 title: Cache för svarsdata
@@ -15,20 +15,20 @@ ht-degree: 0%
 ---
 
 
-# Cache för svarsdata{#response-data-cache}
+# Svarsdatacache{#response-data-cache}
 
-Platform Server cachelagrar alla svarsbilder och vissa textdata på disken om inte en begäran har markerats som icke-cachelagrad.
+Plattformsservern cachelagrar alla svarsbilder och vissa textdata till disken, såvida inte en begäran har markerats som icke-cachelagrad.
 
-Platsen för Platform Servers diskcache anges med `PS::cache.rootPaths`.
+Platsen för plattformsserverns diskcache anges med `PS::cache.rootPaths`.
 
 För program som har höga träfffrekvenser i cacheminnet kan du öka serverns prestanda och kapacitet genom att distribuera svarsdatacachen mellan flera diskenheter. Du uppnår detta genom att skapa en cacherotmapp på varje disk och registrera dem i `PS::cache.rootPaths`.
 
 `PS::cache.maxSize` Anger den totala storleken för alla cacheposter, utan hänsyn till någon belastning i filsystemet. Hur mycket diskutrymme som krävs beror på filsystemets egenskaper, t.ex. diskblockets storlek och antalet cacheposter. Vi rekommenderar att du reserverar dubbelt så mycket diskutrymme för HTTP-diskcachen som den mängd som anges av `PS::cache.maxSize`. En algoritm som används senast används för att hålla mängden cachelagrade data inom gränsen.
 
-Svarscachen hanteras dessutom `PS::cache.maxSize`genom att det maximala antalet cacheposter begränsas med `PS::cache.maxEntries`. I Linux måste den här inställningen ange ett värde som inte är större än antalet tillgängliga noder i cachepartitionen.
+Förutom `PS::cache.maxSize` hanteras även svarscachen genom att det maximala antalet cacheposter med `PS::cache.maxEntries` begränsas. I Linux måste den här inställningen ange ett värde som inte är större än antalet tillgängliga noder i cachepartitionen.
 
 >[!NOTE]
 >
->Platform Server underhåller ett cacheindex i minnet. Indexets storlek är 32 byte högre än värdet för `PS::cache.maxEntries`. Du kan behöva öka stackstorleken för Platform Server för att få plats med större cacheminnen.
+>Plattformsservern underhåller ett cacheindex i minnet. Indexets storlek är 32 byte gånger värdet `PS::cache.maxEntries`. Du kan behöva öka stackstorleken för Platform Server för att få plats med större cacheminnen.
 
-Systemet använder en cacheindexfil som sparas på disken när servern stängs av på ett ordnat sätt. Om det inträffar oväntade händelser, t.ex. ett strömavbrott, kanske filen inte sparas. Det kan dessutom ta flera minuter innan Platform Server blir klar.
+Systemet använder en cacheindexfil som sparas på disken när servern stängs av på ett ordnat sätt. Om det inträffar oväntade händelser, t.ex. ett strömavbrott, kanske filen inte sparas. Det kan dessutom ta flera minuter för plattformsservern att bli klar.
