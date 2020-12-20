@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 7f442019-37a9-4473-be92-a952a7a67664
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '107'
+ht-degree: 0%
 
 ---
 
@@ -34,6 +37,7 @@ Syntax
 >
 >* Användaren måste ha läsåtkomst för att kunna returnera resurserna.
 >* Alla användare har åtkomst till det delade företaget.
+
 >
 
 
