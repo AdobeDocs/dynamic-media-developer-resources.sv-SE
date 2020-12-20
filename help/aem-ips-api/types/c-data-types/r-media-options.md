@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 4de59678-1bef-484c-9a43-ded531537aeb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 0%
 
 ---
 
@@ -30,19 +33,19 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> videoEncodingPresetsArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> videoEncodingPresetsArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:HandleArray</span> </td> 
-   <td colname="col3">En array med <span class="codeph"> PropertySet</span> hanterar referenser till videokodningsförinställningar för omkodning av videoklipp. </td> 
+   <td colname="col3">En array med <span class="codeph"> PropertySet</span> hanterar referenser till förinställningar för videokodning för omkodningsvideor. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> generateThumbnail</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> generateThumbnail</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolesk</span> </td> 
    <td colname="col3"> När värdet är true extraheras den första bildrutan i videon och används som miniatyrbild. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> miniatyrbildAlternativ</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:ThumbnailOptions</span> </td> 
-   <td colname="col3">Valfritt. Gör att du kan välja en viss videobildruta som ska användas som miniatyrbild. <p>Om du vill ange en miniatyrbild anger du tiden (i millisekunder från videostarten) för den bildruta som du vill använda. Värdena varierar från 0 till slutet av videon. <p>Obs! Om du anger fel tid blir <span class="codeph"> standardvärdet true för generateThumbnail</span> . </p></p><p>Se <a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> Miniatyrbildsalternativ</a>. </p></td> 
+   <td colname="col3">Valfritt. Gör att du kan välja en viss videobildruta som ska användas som miniatyrbild. <p>Om du vill ange en miniatyrbild anger du tiden (i millisekunder från videostarten) för den bildruta som du vill använda. Värdena varierar från 0 till slutet av videon. <p>Obs! Om du anger fel tid används <span class="codeph"> generateThumbnail</span> som standard true. </p></p><p>Se <a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> ThumbnailOptions</a>. </p></td> 
   </tr> 
  </tbody> 
 </table>
