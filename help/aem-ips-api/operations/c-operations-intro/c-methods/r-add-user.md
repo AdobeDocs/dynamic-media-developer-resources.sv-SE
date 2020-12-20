@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: b8c5ada6-470e-4795-a4f3-20750da709a9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '190'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +37,7 @@ När du lägger till en användare till flera företag anger du de företagen ef
 | ` *`firstName`*` | `xsd:string` | Ja | Användarens förnamn. |
 | ` *`lastName`*` | `xsd:string` | Ja | Användarens efternamn. |
 | ` *`e-post`*` | `xsd:string` | Ja | Användarens e-postadress. |
-| ` *`defaultRole`*` | `xsd:string` | Ja | Anger rollen för en användare i varje företag de tillhör. Observera dock att `IpsAdmin` rollen åsidosätter andra inställningar per företag. |
+| ` *`defaultRole`*` | `xsd:string` | Ja | Anger rollen för en användare i varje företag de tillhör. Observera dock att `IpsAdmin`-rollen åsidosätter andra inställningar per företag. |
 | ` *`lösenord`*` | `xsd:string` | Ja | Anger användarens lösenord |
 | ` *`passwordExpires`*` | `xsd:dateTime` | Nej | Anger lösenordets förfalloperiod. Ange tidszonen när begäran skickas. Tidszoner justeras till Central Time. |
 | ` *`isValid`*` | `xsd:boolean` | Ja | Anger om användaren är giltig. |
