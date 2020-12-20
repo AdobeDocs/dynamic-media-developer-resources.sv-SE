@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: b81968e7-ebaf-426c-9230-1afcf4b5cf24
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '112'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +24,7 @@ Dilate/erode image. Tillämpar en morfologisk dilatation (radie > 0) eller erode
 <table id="simpletable_3BAA4523D29E447FA7A4C9009B3E8344"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> radiusR</span></span> </p> </td> 
-  <td class="stentry"> <p>Dilate/erode radius in pixels where <span class="codeph"><span class="varname"> radiusR</span></span> is applied as is, oavsett om masken nedsamplas (int -100..100). </p></td> 
+  <td class="stentry"> <p>Dilate/erode radius in pixels where <span class="codeph"><span class="varname"> radiusR</span></span> is applied as is oavsett om masken nedsamplas (int -100..100). </p></td> 
  </tr> 
 </table>
 
@@ -29,7 +32,7 @@ Används främst för att förstora eller förminska en mask något för att und
 
 ## Egenskaper {#section-b1c66d65168d4ea695e8662ea690bd4e}
 
-Gäller det aktuella lagret eller det aktuella lagret `0` om `layer=comp`.
+Gäller för det aktuella lagret eller för lagret `0` om `layer=comp`.
 
 ## Standard {#section-14c908bb87cb42acbea709effea2f964}
 
