@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 62e2ba15-d966-48c7-86dc-373069c3ea46
 translation-type: tm+mt
 source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
+workflow-type: tm+mt
+source-wordcount: '76'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ Syntax
 
 ## Parametrar {#section-577d46cc75774c7c8fbdcff203a0d9ac}
 
-Resurserna har en separat markör för varje publiceringsläge och kontext. Ange publiceringsstatus med [setAssetsContextState](../../operations/c-operations-intro/c-methods/r-set-asset-context-state.md#reference-da96f9caef734f2883fddaf58cd886d7).
+Resurserna har en separat markör för varje publiceringsläge och kontext. Ange publiceringstillståndet med [setAssetsContextState](../../operations/c-operations-intro/c-methods/r-set-asset-context-state.md#reference-da96f9caef734f2883fddaf58cd886d7).
 
 <table id="table_1165D5DDC89140CD8222E5A04B39048E">
  <thead>
