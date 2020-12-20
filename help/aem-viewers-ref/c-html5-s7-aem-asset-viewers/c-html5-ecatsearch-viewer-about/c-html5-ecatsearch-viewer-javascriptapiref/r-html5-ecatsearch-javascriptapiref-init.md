@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: b01f1497-8bee-4e01-8f92-272b324cb2dd
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '126'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ JavaScript API-referens för eCatalog Viewer.
 
 Startar initieringen av eCatalog Viewer. Vid den här tidpunkten måste behållarens DOM-element skapas så att visningsprogramkoden kan hitta det med dess ID.
 
-Om behållarelementet inte är en del av webbsideslayouten just nu (t.ex. kan det döljas med [!DNL `display:none`] ett format som tilldelats det), gör visningsprogrammet uppehåll i initieringsprocessen tills webbsidan återför behållarelementet till layouten. När detta inträffar återgår visningsprogrammet automatiskt.
+Om behållarelementet inte är en del av webbsideslayouten ännu (t.ex. kan det döljas med formatet [!DNL `display:none`] som tilldelats det), gör visningsprogrammet uppehåll i initieringsprocessen tills webbsidan återför behållarelementet till layouten. När detta inträffar återgår visningsprogrammet automatiskt.
 
 Anropa endast den här metoden en gång under visningsprogrammets livscykel. efterföljande anrop ignoreras.
 
