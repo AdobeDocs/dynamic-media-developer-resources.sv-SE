@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 0d0f2fd8-b3fc-46fd-8720-9c4c51db9646
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '194'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> infoserverurl</span></span> </p> </td> 
-   <td> <p>URL-mallen för Info-servern används för att hämta nyckel/värde-par för variabelersättning i informationspanelens innehållsmall. Den angivna mallen innehåller vanligtvis makroplatshållare som ersätts med aktuella data innan begäran skickas till servern. </p> <p><span class="codeph"> $1$</span> ersätts med det rollover-värde som utlöste aktiveringen av <span class="codeph"> InfoPanelPopup</span> . </p> <p><span class="codeph"> $2$</span> ersätts med sekvensnumret för den aktuella bildrutan i bilduppsättningen. </p> <p><span class="codeph"> $3$</span> ersätts med det första sökvägselementet som anges i namnet på den överordnade uppsättningen för det aktuella objektet. Det motsvarar vanligtvis katalog-ID:t. </p> <p><span class="codeph"> $4$</span> ersätts med följande element i sökvägen och motsvarar resurs-ID:t. Den faktiska syntaxen för informationsserverbegäran är beroende av informationsservern och skiljer sig från server till server. Följande är till exempel en typisk mall för en Scene7-informationsserver: </p> <p><span class="codeph"> http://server_domain/s7info/s7/$3$/$4$/$1$</span> </p> </td> 
+   <td> <p>URL-mallen för Info-servern används för att hämta nyckel/värde-par för variabelersättning i informationspanelens innehållsmall. Den angivna mallen innehåller vanligtvis makroplatshållare som ersätts med aktuella data innan begäran skickas till servern. </p> <p><span class="codeph"> $1$</span> ersätts med det rollover-värde som utlöste  <span class="codeph"> </span> InfoPanelPopupactivation. </p> <p><span class="codeph"> $2$</span> ersätts med sekvensnumret för den aktuella bildrutan i bilduppsättningen. </p> <p><span class="codeph"> $3$</span> ersätts med det första sökvägselementet som anges i namnet på den överordnade uppsättningen för det aktuella objektet. Det motsvarar vanligtvis katalog-ID:t. </p> <p><span class="codeph"> $4$</span> ersätts med följande element i sökvägen och motsvarar resurs-ID:t. Den faktiska syntaxen för informationsserverbegäran är beroende av informationsservern och skiljer sig från server till server. Följande är till exempel en typisk Scene7 Info Server-begärandemall: </p> <p><span class="codeph"> http://server_domain/s7info/s7/$3$/$4$/$1$</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
