@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: feeb02c0-f3f9-4559-acd9-cad30788b70b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '128'
+ht-degree: 0%
 
 ---
 
@@ -22,14 +25,14 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
    <td colname="col1"> <p> <span class="codeph"> bild|sväng|auto</span> </p> </td> 
    <td colname="col2"> <p> Anger vilken typ av effekt som används vid bildruteändring. </p> <p> 
      <ul id="ul_4224B7C2722A4185A8BD48703D019AA1"> 
-      <li id="li_8482037F8E1C4F11A84DF51790A073FE"> <p><span class="codeph"> bildrutan</span> aktiverar en övergång där den gamla bildrutan inte syns och den nya bildrutan visas. </p> </li> 
-      <li id="li_CE9A99564DF348D0A76AB2A5945155A5"> <p><span class="codeph"> aktiverar i så fall</span> en bläddringseffekt när en användare kan dra i ett av de fyra uppslagshörnen och utföra en interaktiv bläddring. </p> <p>När <span class="codeph"> tur</span> används styrs komponentens utseende med modifieraren <span class="codeph"> pageturnstyle</span> och CSS-klassen <span class="codeph"> .s7pagedivider</span> ignoreras. </p> <p>Obs!  <p><span class="codeph"> turanimering</span> stöds inte på Motorola Xoom. </p> </p> </li> 
-      <li id="li_79F85B0429CD4B389399FB3823FE767F"> <p> <span class="codeph"> ställer automatiskt</span> in övergången för vändbara bildrutor på stationära datorer och bildruteövergången på touchenheter. </p> </li> 
+      <li id="li_8482037F8E1C4F11A84DF51790A073FE"> <p><span class="codeph"> Med </span> bildrutor inaktiveras en övergång där den gamla bildrutan inte syns och den nya bildrutan visas. </p> </li> 
+      <li id="li_CE9A99564DF348D0A76AB2A5945155A5"> <p><span class="codeph"> Med </span> vändning kan du aktivera en sidvändningseffekt när en användare kan dra i ett av de fyra uppslagshörnen och utföra en interaktiv sidvändning. </p> <p>När <span class="codeph"> tur</span> används kontrolleras komponentens utseende med modifieraren <span class="codeph"> pageturnstyle</span> och CSS-klassen <span class="codeph"> .s7pagedivider</span> ignoreras. </p> <p>Obs!  <p><span class="codeph"> Det finns inte stöd för </span> vändanimering i Motorola Xoom. </p> </p> </li> 
+      <li id="li_79F85B0429CD4B389399FB3823FE767F"> <p> <span class="codeph"> automatiskt </span> ställer in övergången för vändbara bildrutor på stationära datorer och bildruteövergången på pekenheter. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> varaktighet</span></span> </p> </td> 
-   <td colname="col2"> <p>Anger längden i sekunder för en <span class="codeph"> bildruta</span> eller <span class="codeph"> sväng</span> övergångseffekt. </p> </td> 
+   <td colname="col2"> <p>Anger längden i sekunder för en <span class="codeph">-bildruta</span> eller <span class="codeph">-sväng</span>-övergångseffekt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
