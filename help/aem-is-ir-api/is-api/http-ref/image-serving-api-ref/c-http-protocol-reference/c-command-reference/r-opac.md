@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 268279bd-d777-4afe-b175-841af7e55406
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '228'
+ht-degree: 0%
 
 ---
 
@@ -29,13 +32,13 @@ Justera bildens opacitet. Gör att förgrundsopaciteten för en bild, text, enf�
  </tr> 
 </table>
 
-Förgrundsopaciteten för ett bildlager bestäms av lagermasken eller bildens alfakanal, eller om ingen av dem finns, är den 100 %. Förgrundsopaciteten för ett textlager är 100 % och för ett enfärgat lager anges med `color=`.
+Förgrundsopaciteten för ett bildlager bestäms av lagermasken eller bildens alfakanal, eller om ingen av dem finns, är den 100 %. Förgrundsopaciteten för ett textlager är 100 % och för ett enfärgat lager är `color=`.
 
-`opac=` ändrar aldrig opaciteten för områden som är fyllda med `color=` eller `bgColor=`med undantag för förgrundsområden för enfärgade lager och effektlager (angivna med `color=`).
+`opac=` ändrar aldrig opaciteten för områden som är fyllda med  `color=` eller  `bgColor=`med undantag för förgrundsområden för enfärgade lager och effektlager (angivna med  `color=`).
 
-När det anges i ett bild-, text- eller enfärgslager *`opacity`* används hela lagret, inklusive alla associerade effektlager, medan det bara *`fillOpacity`* gäller innehållet i det primära lagret. När det anges i ett effektlager används det *`opacity`* på effektlagret, medan *`fillOpacity`* ignoreras.
+När *`opacity`* anges i en bild, text eller enfärgat färglager används hela lagret, inklusive alla associerade effektlager, medan *`fillOpacity`* endast gäller innehållet i det primära lagret. När *`opacity`* anges i ett effektlager används det på effektlagret, medan *`fillOpacity`* ignoreras.
 
-Den effektiva opaciteten för innehållet i huvudlagret är ( *`opacity`* * *`fillOpacity`* / 100). Effektiv opacitet för effektlager är ( *`opacity`* huvudeffekt *`opacity`* / 100).
+Den effektiva opaciteten för innehållet i huvudlagret är ( *`opacity`* * *`fillOpacity`* / 100). Effektiv opacitet för effektlager är (huvudvärde *`opacity`* * effekt *`opacity`* / 100).
 
 ## Egenskaper {#section-ac3f136ff1584a2eab87500b7164f7fa}
 
@@ -53,4 +56,4 @@ Textopaciteten i det här exemplet är 90*70/100=63 % och opaciteten för effekt
 
 ## Se även {#section-dbdad35ccd544590b4b11d31a9ab062e}
 
-[color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md) , [bgColor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab)
+[color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md) ,  [bgColor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab)
