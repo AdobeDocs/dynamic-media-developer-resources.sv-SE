@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 34cb6c80-77eb-42b0-91dd-ae0369ea2881
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 0%
 
 ---
 
@@ -35,11 +38,11 @@ Visningsområdets utseende styrs av följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Bakgrundsfärg i hexadecimalt format för huvudvyn. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> markör </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> markör  </span> </p> </td> 
    <td colname="col2"> <p>Markören visas över huvudvyn. </p> </td> 
   </tr> 
  </tbody> 
@@ -53,7 +56,7 @@ Exempel - för att göra huvudvyn genomskinlig.
 }
 ```
 
-På datorer har komponenten stöd för `cursortype` attributväljare som kan användas på `.s7zoomview` klassen. Den styr typen av markör baserat på komponentens tillstånd och användaråtgärder. Följande `cursortype` värden stöds:
+På stationära datorer har komponenten stöd för `cursortype`-attributväljare som kan tillämpas på klassen `.s7zoomview`. Den styr typen av markör baserat på komponentens tillstånd och användaråtgärder. Följande `cursortype`-värden stöds:
 
 * `default`
 
