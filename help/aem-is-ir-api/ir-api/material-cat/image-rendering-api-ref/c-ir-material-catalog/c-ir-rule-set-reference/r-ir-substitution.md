@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: f72902b1-0b0f-4401-9c3c-46573048cb25
 translation-type: tm+mt
 source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+workflow-type: tm+mt
+source-wordcount: '144'
+ht-degree: 0%
 
 ---
 
 
 # ersättning{#substitution}
 
-Ersättningssträngselement. Valfritt i `<rule>` element.
+Ersättningssträngselement. Valfritt i `<rule>`-element.
 
 ## Attribut {#section-d955eefc53eb4274861270669c01f9ca}
 
@@ -36,6 +39,6 @@ Om `<substitution>` är tom tas den matchande strängen eller delsträngen bort.
 
 ## Anteckning {#section-90fe89bb17a04804b7ff3c93df082892}
 
-Ersättningssträngen får inte innehålla literala &lt;- och &amp;-tecken. Dessa reserverade tecken kan kodas med `&` respektive `<`eller så kan hela strängen omslutas av ett XML- `CDATA` avsnitt:
+Ersättningssträngen får inte innehålla literala &lt;- och &amp;-tecken. Dessa reserverade tecken kan kodas med `&` och `<`, eller så kan hela strängen omslutas av ett XML `CDATA`-avsnitt:
 
 `<substitution><![CDATA[&text=<Hello, world!>]]></ substitution>`
