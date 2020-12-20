@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 48abea17-058e-4469-bb16-0abee8ef5214
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '187'
+ht-degree: 0%
 
 ---
 
@@ -49,7 +52,7 @@ Syntax
 
 ## Exempel {#section-bee5be2402f54cb9a3a02cc07def4135}
 
-I det här exemplet läggs en enskild resurs (som refereras av dess referens) till i en resurshanteringsarray till ett projekt som anges i begäran. Åtgärden slutfördes när svaret `successCount` returneras `1`.
+I det här exemplet läggs en enskild resurs (som refereras av dess referens) till i en resurshanteringsarray till ett projekt som anges i begäran. Åtgärden slutfördes när svaret `successCount` returnerar `1`.
 
 **Begäran**
 
