@@ -1,6 +1,6 @@
 ---
-description: Vinjetteringsverktyget (ingår i Scene7 Image Authoring package) innehåller funktioner för att styra lågnivåaspekter av vinjetteringsmotorn.
-seo-description: Vinjetteringsverktyget (ingår i Scene7 Image Authoring package) innehåller funktioner för att styra lågnivåaspekter av vinjetteringsmotorn.
+description: Vinjetteringsverktyget (som ingår i Scene7 Image Authoring package) innehåller funktioner för att styra lågnivåaspekter av vinjetteringsmotorn.
+seo-description: Vinjetteringsverktyget (som ingår i Scene7 Image Authoring package) innehåller funktioner för att styra lågnivåaspekter av vinjetteringsmotorn.
 seo-title: Avancerade renderingsinställningar
 solution: Experience Manager
 title: Avancerade renderingsinställningar
@@ -8,19 +8,22 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 18e7f3cf-4d30-445c-813c-546a91987b99
 translation-type: tm+mt
 source-git-commit: e3b096b97419a86de244b97876439ad9c491b950
+workflow-type: tm+mt
+source-wordcount: '630'
+ht-degree: 17%
 
 ---
 
 
 # Avancerade renderingsinställningar{#advanced-render-settings}
 
-Vinjetteringsverktyget (ingår i Scene7 Image Authoring package) innehåller funktioner för att styra lågnivåaspekter av vinjetteringsmotorn.
+Vinjetteringsverktyget (som ingår i Scene7 Image Authoring package) innehåller funktioner för att styra lågnivåaspekter av vinjetteringsmotorn.
 
 >[!NOTE]
 >
->Renderingsinställningar är en avancerad funktion för bildåtergivning och bildredigering. Kontakta Adobes tekniska support eller din Adobe-konsultrepresentant för utbildning, konsultation eller båda, om hur du använder Renderingsinställningar.
+>Renderingsinställningar är en avancerad funktion för bildåtergivning och bildredigering. Kontakta Adobe tekniska support eller din Adobe-konsultrepresentant för att få utbildning, konsultation eller båda, om hur du använder Renderingsinställningar.
 
-De här inställningarna styrs interaktivt i Bildredigering. Det går att använda samma inställningar i Bildåtergivning med `rs=` kommandot (eller med `catalog::RenderSettings` värdet). Den här mekanismen används för att välja olika skärpealternativ för varje material och för att ändra beteendet för belysningsåtergivningsalgoritmerna, t.ex. att ändra mättnaden för högdagrar eller kontrasten i skuggor.
+De här inställningarna styrs interaktivt i Bildredigering. Du kan använda samma inställningar i Bildåtergivning med kommandot `rs=` (eller med värdet `catalog::RenderSettings`). Den här mekanismen används för att välja olika skärpealternativ för varje material och för att ändra beteendet för belysningsåtergivningsalgoritmerna, t.ex. att ändra mättnaden för högdagrar eller kontrasten i skuggor.
 
 ## Avancerade renderingsinställningar (rs=) {#section-d9e7f341ebd44f07a4e90f1f5910726b}
 
@@ -39,7 +42,7 @@ De här inställningarna styrs interaktivt i Bildredigering. Det går att använ
    <td colname="col1"> <p>A </p> </td> 
    <td colname="col2"> <p>Återgivningseffekter/alternativ skuggning åsidosätter inställningen i vinjetteringen. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
-   <td colname="col4"> <p>1 </p> </td> 
+   <td colname="col4"> <p>3 </p> </td> 
    <td colname="col5"> <p>A0=Återgivningseffekter </p> <p>A1=Alternativ skuggning </p> </td> 
   </tr> 
   <tr> 
@@ -52,14 +55,14 @@ De här inställningarna styrs interaktivt i Bildredigering. Det går att använ
   <tr> 
    <td colname="col1"> <p>B </p> </td> 
    <td colname="col2"> <p>USM-belopp (%). </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>500 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>V </p> </td> 
    <td colname="col2"> <p>USM-radie (pixlar). </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>100 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
@@ -73,7 +76,7 @@ De här inställningarna styrs interaktivt i Bildredigering. Det går att använ
   <tr> 
    <td colname="col1"> <p>Q </p> </td> 
    <td colname="col2"> <p>Storleksändringsläge. </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>5 </p> </td> 
    <td colname="col5"> <p> 
      <ul id="ul_87184BB93E7F46D59BA1AAAFA8455512"> 
@@ -109,7 +112,7 @@ De här inställningarna styrs interaktivt i Bildredigering. Det går att använ
   <tr> 
    <td colname="col1"> <p>S </p> </td> 
    <td colname="col2"> <p>Supersampling: Slumpmässig hastighet. </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>20 </p> </td> 
    <td colname="col5"> <p>Standardvärdet är 5. </p> </td> 
   </tr> 
@@ -130,7 +133,7 @@ De här inställningarna styrs interaktivt i Bildredigering. Det går att använ
   <tr> 
    <td colname="col1"> <p>P </p> </td> 
    <td colname="col2"> <p>Poisson: Exempel/pixel. </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>4 </p> </td> 
    <td colname="col5"> <p>Standardvärdet är 1. </p> </td> 
   </tr> 
@@ -138,7 +141,7 @@ De här inställningarna styrs interaktivt i Bildredigering. Det går att använ
    <td colname="col1"> <p>Y </p> </td> 
    <td colname="col2"> <p>Poisson: Använd växlingsknappen. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
-   <td colname="col4"> <p>1 </p> </td> 
+   <td colname="col4"> <p>3 </p> </td> 
    <td colname="col5"> <p>Standardvärdet är 1. </p> </td> 
   </tr> 
   <tr> 
@@ -187,7 +190,7 @@ De här inställningarna styrs interaktivt i Bildredigering. Det går att använ
    <td colname="col1"> <p>L </p> </td> 
    <td colname="col2"> <p>Glanbaserad extrapolationsstyrka. </p> </td> 
    <td colname="col3"> <p>100 </p> </td> 
-   <td colname="col4"> <p>600 </p> </td> 
+   <td colname="col4"> <p>800 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
   <tr> 
