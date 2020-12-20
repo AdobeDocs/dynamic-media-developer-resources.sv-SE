@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 220d285c-2275-4ed4-b606-e832e89aa916
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '76'
+ht-degree: 0%
 
 ---
 
@@ -30,9 +33,9 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> objekt</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> objekt</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
-   <td colname="col3"> <p>En kommaavgränsad lista med nyckelord som sammanfogas i egenskapsnoden <span class="codeph"> dc:subject=</span> XMP. Om ett kommatecken visas i något av de enskilda värdena måste det föregås av ett omvänt snedstreck (\). Ett literalt omvänt snedstreck är det vanliga dubbla snedstrecket (\\). </p> </td> 
+   <td colname="col3"> <p>En kommaavgränsad lista med nyckelord som sammanfogas med egenskapsnoden <span class="codeph"> dc:subject=</span> XMP. Om ett kommatecken visas i något av de enskilda värdena måste det föregås av ett omvänt snedstreck (\). Ett literalt omvänt snedstreck är det vanliga dubbla snedstrecket (\\). </p> </td> 
   </tr> 
  </tbody> 
 </table>
