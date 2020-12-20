@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e6e9e97c-5d9b-47ca-bae3-ed3371c5ff9b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Styr högdagerutseendet för huvudvyn när den utfällbara menyn är aktiv. Om värdet är <span class="codeph"> 0</span>markeras det område som är synligt i det utfällbara fönstret med hjälp av formaten <span class="codeph"> .s7highlight</span> eller <span class="codeph"> .s7cursor</span> CSS-klassnamn (beroende på värdet för <span class="codeph"> highlightmode</span> -modifieraren). När värdet är <span class="codeph"> 1</span> ändras komponentens inverteringsläge, där det visningsområde som visas antingen är helt genomskinligt (om markeringsläget <span class="codeph"> är inställt på</span> markering <span class="codeph"> ) eller formaterat med CSS-klassnamnet</span>.s7cursor <span class="codeph"> (om markeringsläget</span> <span class="codeph"></span> <span class="codeph"></span><span class="codeph"></span> är inställt på¥), men det omgivande området fylls med stilar som tillhandahålls av¥ CSS-klassnamn . </p> </td> 
+   <td colname="col2"> <p> Styr högdagerutseendet för huvudvyn när den utfällbara menyn är aktiv. När det är inställt på <span class="codeph"> 0</span> markeras det område som är synligt i det utfällbara fönstret med format som finns i antingen <span class="codeph"> .s7highlight</span> eller <span class="codeph"> .s7cursor</span> CSS-klassnamn (beroende på värdet för <span class="codeph"> highlightmode</span> modifierare). Om <span class="codeph"> 1</span>-komponenten anges som &lt;a1/&gt; aktiveras inverterat läge där det område som visas för närvarande antingen är helt genomskinligt (om <span class="codeph"> markeringsläge</span> är inställt på <span class="codeph"> markera</span>) eller formaterat med <span class="codeph"> .s7cursor</span> CSS-klassnamn (i <span class="codeph"> markeringsläge</span> är inställt på <span class="codeph">-markören</span>), men det omgivande området fylls med format som tillhandahålls av <span class="codeph"> .s7overlay</span> CSS-klassnamn. </p> </td> 
   </tr> 
  </tbody> 
 </table>
