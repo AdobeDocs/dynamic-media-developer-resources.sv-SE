@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 6333c630-2df1-4eb1-b2fb-e67692f747eb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '92'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ Heltal, större än 0. Uttryckt i punkter per tum.
 
 ## Standard {#section-b5d70865fe8d40229d8d91404fdf3244}
 
-Ärvs från `default::Resolution` om inte definierad eller om tom.
+Ärvs från `default::Resolution` om det inte är definierat eller om det är tomt.
 
 ## Se även {#section-54f8797a2b694d91a316f0d7414fac32}
 
