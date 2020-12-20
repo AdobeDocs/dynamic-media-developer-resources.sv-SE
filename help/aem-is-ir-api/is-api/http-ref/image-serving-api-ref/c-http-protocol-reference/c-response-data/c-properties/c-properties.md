@@ -8,20 +8,23 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 22c271f7-e9dc-4f3e-af7b-1efe89df983e
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '59'
+ht-degree: 0%
 
 ---
 
 
 # Egenskaper{#properties}
 
-Egenskapsdata returneras som svar på följande `req=` typer:
+Egenskapsdata returneras som svar på följande `req=`-typer:
 
 * `catalogprops`
 * `imageprops`
 * `props`
 * `userdata`
 
-`userdata` svar formateras bara som egenskaper när innehållet i `catalog::UserData` följer egenskapsformatet.
+`userdata` svar formateras bara som egenskaper när innehållet i  `catalog::UserData` följer egenskapsformatet.
 
 * [Textegenskaper (Java)](r-text-java-properties.md)
 * [JavaScript-egenskaper](r-javascript-properties.md)
