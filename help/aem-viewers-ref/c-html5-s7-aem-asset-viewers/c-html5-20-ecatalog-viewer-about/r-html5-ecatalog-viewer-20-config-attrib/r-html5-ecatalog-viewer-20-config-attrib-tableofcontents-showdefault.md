@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 244a8485-a615-4155-a5a9-9d468ac3208f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '46'
+ht-degree: 4%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td> <p> När den är inställd på <span class="codeph"> 1</span> fyller komponenten i den nedrullningsbara panelen med element för alla sidor, även för de som inte har någon etikett definierad. </p> <p>Om värdet är <span class="codeph"> 0</span> visas endast objekt med explicita etiketter på den nedrullningsbara panelen. </p> </td> 
+   <td> <p> När den är inställd på <span class="codeph"> 1</span> fyller komponenten i den nedrullningsbara panelen med element för alla sidor, även för de som inte har någon etikett definierad. </p> <p>Om <span class="codeph"> 0</span> anges visas endast objekt med explicita etiketter i den nedrullningsbara panelen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
