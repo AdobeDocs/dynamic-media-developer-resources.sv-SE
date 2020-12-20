@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 92cf60c4-3f80-42bc-b135-17bc22ba151e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '76'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Det finns två alternativ för att starta eller stoppa Image Serving i Linux.
 
-* Skriptet för att starta, stoppa och verifiera status för Image Serving finns i [!DNL ImageServing/bin] mappen:
+* Skriptet som ska starta, stoppa och verifiera status för Image Serving finns i mappen [!DNL ImageServing/bin]:
 
    `ImageServing.sh {start|stop|restart|status}`
 * Följande alternativ bör vara välbekant för systemadministratörer:
