@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: c7585cd5-6a95-43b1-8f68-c1eba868164c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '199'
+ht-degree: 0%
 
 ---
 
@@ -18,11 +21,11 @@ JavaScript API-referens för Spin Viewer
 
 `getComponent(componentId)`
 
-Returnerar en referens till SDK-komponenten för visningsprogrammet som används av visningsprogrammet. Webbsidan kan använda den här metoden för att utöka eller anpassa beteendet för visningsprogrammet som inte är installerat. Anropa den här metoden först efter att `initComplete` visningsprogrammets återanrop har körts, annars kanske komponenten inte har skapats ännu av visningsprogramlogiken.
+Returnerar en referens till SDK-komponenten för visningsprogrammet som används av visningsprogrammet. Webbsidan kan använda den här metoden för att utöka eller anpassa beteendet för visningsprogrammet som inte är installerat. Anropa den här metoden först efter att återanropet för visningsprogrammet `initComplete` har körts, annars kanske komponenten inte har skapats ännu av visningsprogramlogiken.
 
 ## Parametrar {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-` *`componentID`*` - `{String}` ett ID för SDK-komponenten för visningsprogrammet som används av visningsprogrammet. Detta visningsprogram stöder följande komponent-ID:
+` *`componentID`*`  -  `{String}` ett ID för SDK-komponenten för visningsprogrammet som används av visningsprogrammet. Detta visningsprogram stöder följande komponent-ID:
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
@@ -33,48 +36,48 @@ Returnerar en referens till SDK-komponenten för visningsprogrammet som används
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> parameterManager </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.ParameterManager </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> parameterManager  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.ParameterManager  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> container </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Container </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> container  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Container  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mediaSet </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.MediaSet </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mediaSet  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.MediaSet  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spinView </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.SpinView </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spinView  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.SpinView  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomInButton </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ZoomInButton </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoomInButton  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ZoomInButton  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomOutButton </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ZoomOutButton </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoomOutButton  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ZoomOutButton  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomResetButton </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ZoomResetButton </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoomResetButton  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ZoomResetButton  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> fullScreenButton </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.FullScreenButton </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> fullScreenButton  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.FullScreenButton  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> closeButton </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.CloseButton </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> closeButton  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.CloseButton  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spinLeftButton </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PanLeftButton </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spinLeftButton  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PanLeftButton  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spinRightButton </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PanRightButton </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spinRightButton  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PanRightButton  </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
