@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 0a30c913-39d1-4521-b65c-f2b3879f6928
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '95'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +25,7 @@ Konfigurationsattribut för Interactive Video Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> Anger det bildformat som komponenten använder för att läsa in bilder från Image Server. </p> <p>Om det angivna formatet slutar med "<span class="codeph"> -alpha</span>" återges bilderna som genomskinligt innehåll av komponenten. För alla andra bildformat hanterar komponenten bilderna som ogenomskinliga. Observera att komponenten har en vit bakgrund som standard. Om du vill göra den helt genomskinlig anger du därför CSS-egenskapen för bakgrundsfärg <span class="codeph"> som</span> genomskinlig <span class="codeph"></span>. </p> </td> 
+   <td colname="col2"> <p> Anger det bildformat som komponenten använder för att läsa in bilder från Image Server. </p> <p>Om det angivna formatet slutar med "<span class="codeph"> -alpha</span>" återges bilderna som genomskinligt innehåll av komponenten. För alla andra bildformat hanterar komponenten bilderna som ogenomskinliga. Observera att komponenten har en vit bakgrund som standard. För att göra den helt genomskinlig anger du därför CSS-egenskapen <span class="codeph"> background-color</span> som <span class="codeph"> transparent</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
