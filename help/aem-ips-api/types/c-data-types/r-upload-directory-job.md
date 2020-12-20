@@ -95,7 +95,7 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> mediaOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:MediaOptions</span> </td> 
-   <td colname="col3"> <p>Alternativ som gör att du kan ange en miniatyrbild från videon. </p> <p>Se <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> Mediealternativ</a>. </p> </td> 
+   <td colname="col3"> <p>Alternativ som gör att du kan ange en miniatyrbild från videon. </p> <p>Se <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> skriv över</span> </span> </td> 
@@ -110,7 +110,7 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> photoshopOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:PhotoshopOptions</span> </td> 
-   <td colname="col3"> <p>Alternativ för att överföra Photoshop-filer till bildservern. </p> </td> 
+   <td colname="col3"> <p>Alternativ för överföring av Photoshop-filer till bildservern. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> postHttpUrl</span> </span> </td> 
@@ -118,7 +118,7 @@ Syntax
    <td colname="col3"> <p>URL:en för filöverföringsmålet. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> postImageRenderingPublish</span> - </span>jobb </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> </span> </span>postImageRenderingPublishJob </td> 
    <td colname="col2"> <span class="codeph"> typer:ImageRendingPublishJob</span> </td> 
    <td colname="col3"> <p>Information om ett publiceringsjobb för bildåtergivning som körs när överföringen är klar. </p> </td> 
   </tr> 
@@ -175,7 +175,7 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unCompressOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:UnCompressOptions</span> </td> 
-   <td colname="col3"> <p>Extrahera och bearbeta innehållet i överförda TAR/ZIP-filer med dessa valfria inställningar. </p> <p>Se <a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> AvkomprimeraAlternativ</a>. </p> </td> 
+   <td colname="col3"> <p>Extrahera och bearbeta innehållet i överförda TAR/ZIP-filer med dessa valfria inställningar. </p> <p>Se <a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> UnCompressOptions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </td> 
@@ -192,13 +192,13 @@ Syntax
 
 ## Anteckningar {#section-637405ff7e0b4a71b83fd359b92fa0c2}
 
-Du kan t. `CropOptions`ex. bara välja något av följande:
+För `CropOptions` kan du bara välja något av följande:
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-Du kan t. `PublishJob`ex. bara välja något av följande:
+För `PublishJob` kan du bara välja något av följande:
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`
