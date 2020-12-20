@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 6cf7a16c-42bf-4576-bcb1-d504589b2748
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '243'
+ht-degree: 0%
 
 ---
 
@@ -35,19 +38,19 @@ Knappens utseende styrs med följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p>Placera högst upp i visningsprogrammets ram. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> höger </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> höger  </span> </p> </td> 
    <td colname="col2"> <p>Placera till höger om visningsprogrammets ram. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vänster </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> vänster  </span> </p> </td> 
    <td colname="col2"> <p>Position från vänster om visningsprogrammet. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> nederkant </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> nederkant  </span> </p> </td> 
    <td colname="col2"> <p>Placera längst ned i visningsprogrammets ram. </p> </td> 
   </tr> 
   <tr> 
@@ -55,19 +58,19 @@ Knappens utseende styrs med följande CSS-klassväljare:
    <td colname="col2"> <p>Knappens bredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Knappens höjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Bilden som visas för ett visst knappläge. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Placera inuti en teckningssprite, om CSS-sprites används. </p> <p>Se även <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> markör </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> markör  </span> </p> </td> 
    <td colname="col2"> <p>Markörtyp. </p> </td> 
   </tr> 
  </tbody> 
@@ -75,9 +78,9 @@ Knappens utseende styrs med följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen har stöd för attributväljaren, som kan användas för att tillämpa olika skal på olika knapplägen. `state`
+>Den här knappen stöder attributväljaren `state`, som kan användas för att tillämpa olika skal på olika knapplägen.
 
-Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) .
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av element i användargränssnittet](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md).
 
 Exempel - om du vill ställa in en tidigare bildknapp som är 60 x 60 pixlar, placerad 10 pixlar från den högra visningsprogramkanten och lodrätt centrerad, och visar en annan bild för vart och ett av de fyra knapplägena.
 
