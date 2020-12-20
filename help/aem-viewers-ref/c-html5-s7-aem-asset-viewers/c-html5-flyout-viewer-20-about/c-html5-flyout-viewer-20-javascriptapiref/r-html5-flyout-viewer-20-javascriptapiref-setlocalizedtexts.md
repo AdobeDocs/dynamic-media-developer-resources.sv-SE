@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 69341735-5ebe-4e3b-acad-b6b916b11bb5
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '75'
+ht-degree: 0%
 
 ---
 
@@ -21,8 +24,8 @@ JavaScript API-referens för visningsprogrammet för utfällbara bilder.
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo </span></span> </p> </td> 
-   <td colname="col2"> <p> { <span class="codeph"> Object </span>} JSON-objekt med lokaliseringsdata. </p> <p>Mer information finns i Lokalisering av element i användargränssnittet <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27" format="dita" scope="local"> </a> . </p> <p>Mer information om objektets innehåll finns i användarhandboken <i>för</i> visningsprogrammet SDK och i exemplet. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo  </span> </span> </p> </td> 
+   <td colname="col2"> <p> { <span class="codeph"> Objektet </span>} JSON-objekt med lokaliseringsdata. </p> <p>Mer information finns i <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27" format="dita" scope="local"> Lokalisering av användargränssnittselement </a>. </p> <p>Mer information om objektets innehåll finns i <i>användarhandboken för SDK för visningsprogrammet</i> och exemplet. </p> </td> 
   </tr> 
  </tbody> 
 </table>
