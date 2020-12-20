@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 7ca69994-e788-41a9-93ac-f22b6b9920d0
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '248'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
 
 Utöka lager. Lägger till marginaler i ett lager eller beskär lagrets rektangel.
 
-`extend= *`vänster`*, *``*, *``*, *`höger nederkant`*`
+`extend= *`vänster `*, *``*, *``*, *`höger nederkant`*`
 
 `extendN= *``*, *``*, *``*, *`leftNtopNrightNbottomN`*`
 
@@ -26,16 +29,16 @@ Utöka lager. Lägger till marginaler i ett lager eller beskär lagrets rektange
   <td class="stentry"> <p>Antal pixlar att lägga till (eller ta bort från, om värdet är negativt) i den vänstra, övre, högra och nedre kanten av lagerrektangeln (int, int, int, int). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> vänsterN,övreN,nedreN,högerN</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> leftN,topN,bottomN,rightN</span></span> </p></td> 
   <td class="stentry"> <p>Mängd utrymme som ska läggas till (eller tas bort från, om värdet är negativt) i den vänstra, övre, högra och nedre kanten av lagerrektangeln, uttryckt som normaliserade värden i förhållande till storleken på den ursprungliga lagerrektangeln (reella, reella, reella). </p></td> 
  </tr> 
 </table>
 
-`extend=` används på lagret *när* bilden har beskurits ( `crop=`) och alla lageromformningar, inklusive `rotate=`, har tillämpats.
+`extend=` används på lagret  ** när bilden har beskurits (  `crop=`) och alla lageromformningar, inklusive  `rotate=`dessa, har tillämpats.
 
-Det utökade området fylls med `bgColor=`eller förblir genomskinligt om det inte anges.
+Det utökade området fylls med `bgColor=` eller, om det inte anges, förblir genomskinligt.
 
-Argumentvärden för `extendN=` är normaliserade i förhållande till storleken på lagerrektangeln efter lageromformningar, inklusive `rotate=` har tillämpats.
+Argumentvärden för `extendN=` normaliseras i förhållande till storleken på lagerrektangeln efter att lageromformningar, inklusive `rotate=` har tillämpats.
 
 ## Egenskaper {#section-8fc94de871f841f3bf5e1df135972ca9}
 
@@ -59,4 +62,4 @@ Observera att höjden på den sammansatta bilden varierar beroende på bildens p
 
 ## Se även {#section-2d9572be32ca4602b60920b3810f3638}
 
-[crop=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab) , [color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md), [size=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-size.md#reference-04d383f32c7b4003bed9978cb854747b), [origin=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md#reference-e11c7ac06e2240cc884c3fec98f05138), [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)
+[crop=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab) ,  [color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md),  [size=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-size.md#reference-04d383f32c7b4003bed9978cb854747b),  [origin=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md#reference-e11c7ac06e2240cc884c3fec98f05138),  [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)
