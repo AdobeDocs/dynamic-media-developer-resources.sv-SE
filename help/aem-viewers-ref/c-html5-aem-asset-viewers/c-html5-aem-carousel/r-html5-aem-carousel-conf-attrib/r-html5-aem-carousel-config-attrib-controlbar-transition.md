@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 80053511-f0e2-49f6-a1db-cd96c7788703
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '128'
+ht-degree: 0%
 
 ---
 
@@ -22,11 +25,11 @@ Konfigurationsattribut för Carousel Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ingen|tona</span> </p> </td> 
-   <td colname="col2"> <p> Anger den effekttyp som används för att visa eller dölja kontrollfältet och dess innehåll. </p> <p>Inställd på <span class="codeph"> ingen</span> för direktvisning/dölj. </p> <p>Ställ in på <span class="codeph"> toning</span> för att få en gradvis toningseffekt. </p> </td> 
+   <td colname="col2"> <p> Anger den effekttyp som används för att visa eller dölja kontrollfältet och dess innehåll. </p> <p>Ange <span class="codeph"> none</span> för direktvisning/dölj. </p> <p>Ange <span class="codeph"> tona</span> för att få en gradvis toningseffekt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> delaytohide</span></span> </p> </td> 
-   <td colname="col2"> <p> Anger tiden i sekunder mellan den senaste mus-/pekhändelsen som registrerats av kontrollfältet och tidskontrollfältet döljs. </p> <p>Om värdet är <span class="codeph"> -1</span> utlöses aldrig komponentens automatiska döljningseffekt, och därför förblir den alltid synlig på skärmen. </p> </td> 
+   <td colname="col2"> <p> Anger tiden i sekunder mellan den senaste mus-/pekhändelsen som registrerats av kontrollfältet och tidskontrollfältet döljs. </p> <p>Om den anges till <span class="codeph"> -1</span> utlöser komponenten aldrig sin auto-hide-effekt och förblir därför alltid synlig på skärmen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> varaktighet</span></span> </p> </td> 
