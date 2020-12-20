@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: fbd85880-041a-4482-8897-1941bffa7955
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 0%
 
 ---
 
@@ -22,9 +25,9 @@ Disponerar den här visningsprograminstansen genom att frigöra alla resurser so
 
 Webbsideskoden bör även ta bort variabeln för visningsprograminstansen så att den helt tar bort visningsprogrammet från webbläsarminnet.
 
-Om webbsideskoden har registrerade händelseavlyssnare direkt i Viewer SDK-komponenter som används av visningsprogrammet eller lagrade externa referenser till sådana komponenter, måste sådana avlyssnare uttryckligen avregistreras av webbsideskoden, och sådana externa komponentreferenser måste tas bort innan anrop `dispose()`.
+Om webbsideskoden har registrerade händelseavlyssnare direkt i Viewer SDK-komponenter som används av visningsprogrammet eller lagrade externa referenser till sådana komponenter måste sådana avlyssnare uttryckligen avregistreras av webbsideskoden, och sådana externa komponentreferenser måste tas bort innan du anropar `dispose()`.
 
-Kom inte åt visningsprogrammets API längre efter att `dispose()` anropas.
+Åtkomst inte till visningsprogrammets API längre efter att `dispose()` har anropats.
 
 ## Parametrar {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 
