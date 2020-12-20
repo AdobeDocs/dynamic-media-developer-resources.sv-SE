@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 12391b8b-532f-4e68-ad60-4dbcc86d9e58
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '74'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +25,7 @@ Konfigurationsattribut för Interactive Video Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">1|0|<span class="varname"> förinläsare</span></span> </p> </td> 
-   <td colname="col2"> <p> Anger beteende för komponentförinläsning. </p> <p>När värdet är <span class="codeph"> -1</span> läses alla färgrutor in samtidigt när komponenten initieras eller resursen ändras. </p> <p>Om värdet är <span class="codeph"> 0</span> läses endast synliga färgrutor in. </p> <p>Ange som <span class="codeph"><span class="varname"> förinläsare</span></span> för att definiera hur många osynliga rader/kolumner runt det synliga området som ska förinläsas. </p> </td> 
+   <td colname="col2"> <p> Anger beteende för komponentförinläsning. </p> <p>När värdet är <span class="codeph"> -1</span> läses alla färgrutor in samtidigt när komponenten initieras eller resursen ändras. </p> <p>Om <span class="codeph"> 0</span> anges läses endast synliga färgrutor in. </p> <p>Ange <span class="codeph"><span class="varname"> som förinläsare</span></span> för att definiera hur många osynliga rader/kolumner runt det synliga området som ska förinläsas. </p> </td> 
   </tr> 
  </tbody> 
 </table>
