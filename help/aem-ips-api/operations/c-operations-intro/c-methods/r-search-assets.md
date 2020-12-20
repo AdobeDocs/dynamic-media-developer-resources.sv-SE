@@ -27,11 +27,11 @@ Syntax
 
 **Svarsstorlek**
 
-`searchAssets` returnerar upp till 1 000 resurser i ett enda samtal. Om du vill returnera upp till 10 000 resurser per anrop begränsar du svarsdata till en delmängd av `totalRows`fälten, `name`, `handle``type`och `subType` . Om du vill returnera större uppsättningar ställer du in sidindelning med `resultPage` parametern.
+`searchAssets` returnerar upp till 1 000 resurser i ett enda samtal. Om du vill returnera upp till 10 000 resurser per anrop begränsar du svarsdata till en delmängd av fälten `totalRows`, `name`, `handle`, `type` och `subType`. Om du vill returnera större uppsättningar ställer du in sidindelning med parametern `resultPage`.
 
 **Begränsa resultatfilens storlek med responseFieldArray eller excludeFieldArray**
 
-Begränsa storleken på datauppsättningen med parametrarna `responseFieldArray` eller `excludFieldArray` . De här parametrarna minskar minnesanvändningen och bandbredden och kan förbättra svarstiderna på servern.
+Begränsa storleken på datauppsättningen med parametrarna `responseFieldArray` eller `excludFieldArray`. De här parametrarna minskar minnesanvändningen och bandbredden och kan förbättra svarstiderna på servern.
 
 ## Auktoriserade användartyper {#section-9c4bc41bb8b4493982197eb13c7cdc55}
 
@@ -93,7 +93,7 @@ Begränsa storleken på datauppsättningen med parametrarna `responseFieldArray`
    <td colname="col1"> <span class="codeph"> <span class="varname"> includeSubfolders</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolesk</span> </td> 
    <td colname="col3"> Nej </td> 
-   <td colname="col4">Ange som <span class="codeph"> true</span> om du vill söka efter undermappar. </td> 
+   <td colname="col4">Ange <span class="codeph"> true</span> om du vill söka efter undermappar. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
@@ -111,7 +111,7 @@ Begränsa storleken på datauppsättningen med parametrarna `responseFieldArray`
    <td colname="col1"> <span class="codeph"> <span class="varname"> conditionMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3"> Nej </td> 
-   <td colname="col4"> <p>Val av sökmatchningslägen för kombination av resultat av <span class="codeph"> keywordArray</span>, </p> <p> <span class="codeph"> conditionMatchMode</span> </p> <p> <span class="codeph"> systemFieldConditionArray</span>och <span class="codeph"> metadataConditionArray</span>. Standard är <span class="codeph"> MatchAll</span>. </p> </td> 
+   <td colname="col4"> <p>Val av sökmatchningslägen för kombination av resultat av <span class="codeph"> nyckelordsarray</span>, </p> <p> <span class="codeph"> conditionMatchMode</span> </p> <p> <span class="codeph"> systemFieldConditionArray</span> och  <span class="codeph"> metadataConditionArray</span>. Standardvärdet är <span class="codeph"> MatchAll</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> keywordArray</span> </span> </td> 
@@ -123,7 +123,7 @@ Begränsa storleken på datauppsättningen med parametrarna `responseFieldArray`
    <td colname="col1"> <span class="codeph"> <span class="varname"> systemFieldMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3"> Nej </td> 
-   <td colname="col4"> <p>Val av sökmatchningslägen för kombination av <span class="codeph"> systemFieldCondition</span> -matchningar. Standard är <span class="codeph"> MatchAll</span> </p>. </td> 
+   <td colname="col4"> <p>Val av sökmatchningslägen för kombination av <span class="codeph"> systemFieldCondition</span>-matchningar. Standardvärdet är <span class="codeph"> MatchaAlla</span> </p>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> systemFieldConditionArray</span> </span> </p> </td> 
@@ -141,13 +141,13 @@ Begränsa storleken på datauppsättningen med parametrarna `responseFieldArray`
    <td colname="col1"> <span class="codeph"> <span class="varname"> tagConditionArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:TagConditionArray</span> </td> 
    <td colname="col3"> Nej </td> 
-   <td colname="col4"> <p>En array med sökpredikat för taggfält. </p> <p>Predikaten kombineras enligt inställningen <span class="codeph"> tagMatchMode</span> och kombineras sedan med andra termer i <span class="codeph"> keywordArray</span>, <span class="codeph"> systemFieldConditionArray</span>och <span class="codeph"> metadataConditionArray</span> enligt inställningen <span class="codeph"> conditionMatchMode</span> . </p> </td> 
+   <td colname="col4"> <p>En array med sökpredikat för taggfält. </p> <p>Predikaten kombineras enligt inställningen <span class="codeph"> tagMatchMode</span> och kombineras sedan med eventuella termer i <span class="codeph"> keywordArray</span>, <span class="codeph"> systemFieldConditionArray</span> och <span class="codeph"> metadataConditionArray</span> enligt <span class="codeph"> conditionMatch Läge</span> inställning. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> metadataMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3"> Nej </td> 
-   <td colname="col4">Sök i Matcha lägen för att kombinera <span class="codeph"> metadataVillkorskoder</span> . Standard är <span class="codeph"> MatchAll</span>. </td> 
+   <td colname="col4">Sök efter matchningslägen för att kombinera <span class="codeph"> metadataCondition</span>-matchningar. Standardvärdet är <span class="codeph"> MatchAll</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> metadataConditionArray</span> </span> </td> 
@@ -165,7 +165,7 @@ Begränsa storleken på datauppsättningen med parametrarna `responseFieldArray`
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeAssetTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:StringArray</span> </td> 
    <td colname="col3"> Nej </td> 
-   <td colname="col4"> En array med resurstyper som ska uteslutas från sökningen. </td> 
+   <td colname="col4"> Array med resurstyper som ska uteslutas från sökningen. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetSubTypeArray</span> </span> </td> 
@@ -177,7 +177,7 @@ Begränsa storleken på datauppsättningen med parametrarna `responseFieldArray`
    <td colname="col1"> <span class="codeph"> <span class="varname"> strictSubTypeCheck</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolesk</span> </td> 
    <td colname="col3"> Nej </td> 
-   <td colname="col4">Om <span class="codeph"> true</span> och <span class="codeph"> assetSubTypeArray</span> inte är tom returneras bara resurser vars undertyper finns i <span class="codeph"> assetSubTypeArray</span> . Om värdet är <span class="codeph"> false</span> (standard) returneras resurser utan definierad undertyp. </td> 
+   <td colname="col4">Om <span class="codeph"> true</span> och <span class="codeph"> assetSubTypeArray</span> inte är tomma returneras bara resurser vars undertyper är i <span class="codeph"> assetSubTypeArray</span>. Om <span class="codeph"> är false</span> (standard) returneras resurser utan definierad undertyp. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeByproducts</span> </span> </td> 
@@ -207,7 +207,7 @@ Begränsa storleken på datauppsättningen med parametrarna `responseFieldArray`
    <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Nej </td> 
-   <td colname="col4">Anger vilken resultatsida som ska returneras baserat på <span class="codeph"> recordsPerPage</span> -sidstorleken. </td> 
+   <td colname="col4">Anger vilken resultatsida som ska returneras baserat på sidstorleken <span class="codeph"> recordsPerPage</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 
