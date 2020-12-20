@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: e836c5af-53b8-4bfa-a93a-98750cca9745
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '75'
+ht-degree: 0%
 
 ---
 
@@ -32,9 +35,9 @@ Syntax
 
 **searchAssets**
 
-* Med den valfria `publishState` parametern kan du söka efter `MarkedForPublish/NotMarkedForPublish` resursens tillstånd.
+* Med den valfria parametern `publishState` kan du söka efter resursläget `MarkedForPublish/NotMarkedForPublish`.
 
 **getJobLogs**
 
-* Med den valfria `userHandle` parametern kan du hämta jobbloggar som skickats in av en viss användare.
+* Med den valfria parametern `userHandle` kan du hämta jobbloggar som skickats in av en viss användare.
 
