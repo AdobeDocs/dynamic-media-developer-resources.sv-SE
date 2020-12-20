@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: b1ed5145-e5d1-4458-94c4-00ee55f58a05
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '61'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> maxitems</span></span> </p> </td> 
-   <td> <p>Det maximala antalet objekt i den nedrullningsbara innehållsförteckningen. </p> <p>Dessutom kan du minska antalet synliga objekt i listrutan om det beskärs av den yttre behållaren. </p> <p>När den anges till <span class="codeph"> 0</span> visar den komponenten så många objekt som möjligt med tanke på den behållare den läggs till i. </p> </td> 
+   <td> <p>Det maximala antalet objekt i den nedrullningsbara innehållsförteckningen. </p> <p>Dessutom kan du minska antalet synliga objekt i listrutan om det beskärs av den yttre behållaren. </p> <p>När den är inställd på <span class="codeph"> 0</span> visar den komponenten så många objekt som möjligt med tanke på den behållare den läggs till i. </p> </td> 
   </tr> 
  </tbody> 
 </table>
