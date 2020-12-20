@@ -34,7 +34,7 @@ Omdirigering av fel sker inte i något annat fall.
 
 När den är aktiverad och ett sådant fel inträffar under bearbetningen av begäran, skickar den primära servern begäran till den sekundära servern för bearbetning. Svaret vidarebefordras sedan direkt till klienten, oavsett om det visar om det är klart eller inte. Den primära servern markerar loggposter för sådana vidarebefordrade begäranden med cacheanvändning `REMOTE`. Svarsdata cachelagras inte lokalt av den primära servern.
 
-Felomdirigering aktiveras genom inställning `PS::errorRedirect.rootUrl` till den sekundära serverns HTTP-domännamn och portnummer. Dessutom konfigureras timeout för anslutningen med `PS::errorRedirect.connectTimeout` och den maximala tid som den primära servern väntar på ett svar från den sekundära servern innan ett fel returneras till klienten konfigureras med `PS::errorRedirect.socketTimeout`.
+Felomdirigering aktiveras genom att `PS::errorRedirect.rootUrl` anges till HTTP-domännamnet och portnumret för den sekundära servern. Dessutom är timeout för anslutningen konfigurerad med `PS::errorRedirect.connectTimeout` och den maximala tiden som den primära servern väntar på ett svar från den sekundära servern innan ett fel returneras till klienten konfigureras med `PS::errorRedirect.socketTimeout`.
 
 >[!NOTE]
 >
