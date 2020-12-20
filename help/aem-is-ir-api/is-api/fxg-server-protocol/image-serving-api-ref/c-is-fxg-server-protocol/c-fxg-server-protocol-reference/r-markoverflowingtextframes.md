@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 90237128-8d29-45cc-90e8-7fe46c1dae38
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '183'
+ht-degree: 0%
 
 ---
 
@@ -23,6 +26,6 @@ Visa dolda textramar med plustecken. En indikator för textspill visar när text
  </tr> 
 </table>
 
-Om du anger modifierare `markOverflowingTextFrames=1` via ett URL-anrop markeras alla textramar där texten är dold med ett plustecken. I SPS-förhandsgranskare är dessutom indikatorn för överskjutande text inställd på `TRUE`som standard.
+Om du ställer in modifieraren `markOverflowingTextFrames=1` via ett URL-anrop markeras alla textramar där texten är dold med ett plustecken. I SPS-förhandsgranskning är dessutom indikatorn för överskjutande text inställd på `TRUE` som standard.
 
 Standardvärdet är 0.
