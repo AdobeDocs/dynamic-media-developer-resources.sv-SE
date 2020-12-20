@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# Bildstorleksbegränsningar{#image-size-limits}
+# Begränsningar för bildstorlek{#image-size-limits}
 
 Använd de här serverinställningarna för att ange bildstorleksbegränsningar.
 
@@ -27,9 +27,9 @@ Begränsar storleken på de data som Image Server får skicka till Platform Serv
 
 Begränsar storleken på de bilder som Image Server kan producera (exklusive bilder som sparats till fil). Heltalsvärde som är större än 0 i miljoner pixlar. Ett fel returneras om en återgivningsåtgärd skulle överskrida storleksgränsen. Standardvärdet är 16.
 
-## IS::MaxSavePixels - storleksgräns för att spara till filer {#section-d1547c4afa88467080ab08356f775e06}
+## IS::MaxSavePixels - Storleksgräns för att spara filer {#section-d1547c4afa88467080ab08356f775e06}
 
-Begränsar storleken på bilder som Image Server skriver till filer med `req=saveToFile` kommandot. Heltalsvärde som är större än 0 i miljoner pixlar. Ett fel returneras om filsparandet skulle överskrida gränsen. Standardvärdet är 100 miljoner pixlar.
+Begränsar storleken på bilder som Image Server skriver till filer med kommandot `req=saveToFile`. Heltalsvärde som är större än 0 i miljoner pixlar. Ett fel returneras om filsparandet skulle överskrida gränsen. Standardvärdet är 100 miljoner pixlar.
 
 ## IS::MaxNonDsfSize - storleksgräns för icke-PTIFF-indatabilder {#section-50de28a7158a436393cce5da0d1e4d46}
 
