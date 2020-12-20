@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 57d292bb-848a-4e6e-bd08-4e6af1f9fc72
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '107'
+ht-degree: 0%
 
 ---
 
@@ -18,11 +21,11 @@ Används av MetadataField/type, saveMetadataFieldParam/fieldType och createMetad
 
 Syntax
 
-## Values {#section-1d8f05dbeff74bfdbd5960ccc7347557}
+## Värden {#section-1d8f05dbeff74bfdbd5960ccc7347557}
 
 * [!DNL `Untyped`]
 * [!DNL `Boolean`]
-* [!DNL `BooleanTag`]: Ett specialfall med [!DNL `SingleFixedTag`] en ordlista som inte kan ändras och som initierats till värdena [!DNL `True`] och [!DNL `False`].
+* [!DNL `BooleanTag`]: Ett specialfall av  [!DNL `SingleFixedTag`] med en icke-ändringsbar ordlista som initierats till värden  [!DNL `True`] och  [!DNL `False`].
 
 * [!DNL `Color`]
 * [!DNL `Date`]
