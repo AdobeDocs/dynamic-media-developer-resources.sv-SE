@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 39f74e9f-f04c-4c41-9669-029499388708
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '64'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ingen|tona</span> </p> </td> 
-   <td colname="col2"> <p> Anger vilken typ av effekt som används i huvudvyn vid resursändring. Ingen <span class="codeph"> står för</span> ingen övergång, huvudvyändringen sker omedelbart. Tona <span class="codeph"></span> aktiverar övertoningsövergång där den gamla bilden tonas ut och den nya bilden tonas in </p> </td> 
+   <td colname="col2"> <p> Anger vilken typ av effekt som används i huvudvyn vid resursändring. <span class="codeph"> none</span> står för ingen övergång, huvudvyändringen sker omedelbart. Med <span class="codeph">-toningen</span> aktiveras en övertoningsövergång där den gamla bilden tonas ut och den nya bilden tonas in </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> varaktighet</span></span> </p> </td> 
