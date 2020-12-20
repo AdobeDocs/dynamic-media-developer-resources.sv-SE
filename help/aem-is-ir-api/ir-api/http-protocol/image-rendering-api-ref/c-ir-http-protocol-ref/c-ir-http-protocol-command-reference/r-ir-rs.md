@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 4ff7fcb4-a10a-4e82-80a1-edf79ae1f717
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '132'
+ht-degree: 0%
 
 ---
 
 
-# r{#rs}
+# rs{#rs}
 
 Avancerade renderingsinställningar. Anger avancerade renderingsinställningar som ska användas vid rendering av den aktuella markeringen.
 
@@ -25,7 +28,7 @@ Avancerade renderingsinställningar. Anger avancerade renderingsinställningar s
  </tr> 
 </table>
 
-Används för finjustering av återgivningsutseende. Använd återgivningsfunktionen i Vinjetteringsverktyget (ingår i Scene7 Image Authoring package) för att skapa återgivningsinställningssträngar.
+Används för finjustering av återgivningsutseende. Använd återgivningsfunktionen i utvecklingsverktyget (ingår i Scene7 Image Authoring package) för att skapa återgivningsinställningssträngar.
 
 ## Egenskaper {#section-9a2b2228789046658cb80eddf343af75}
 
@@ -37,7 +40,7 @@ Materialattribut.
 
 ## Exempel {#section-47e4811882574441a4d517e42a35f352}
 
-Efter lite experimenterande med bildredigering är det fastställt att USM (Unsharp-masking) ger rätt skärpa för det angivna programmet och materialet. Strängen för renderingsinställningar som konfigurerar USM kopieras till `rs=` kommandot som ska användas med det här materialet:
+Efter lite experimenterande med bildredigering är det fastställt att USM (Unsharp-masking) ger rätt skärpa för det angivna programmet och materialet. Strängen för renderingsinställningar som konfigurerar USM kopieras till kommandot `rs=` som ska användas med det här materialet:
 
 `…&rs=U2V20W50X2&…`
 
