@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 497cd8ea-c6a4-45d2-b5e0-0898ac00913d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '134'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ Materialrotationsvinkel. Definierar rotationsvinkeln för material.
 
 <table id="simpletable_F1A87ECD86E8429788825374A6882CB9"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> vinkel </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> vinkel  </span> </p> </td> 
   <td class="stentry"> <p>Rotationsvinkel i grader (reell). </p> </td> 
  </tr> 
 </table>
@@ -31,7 +34,7 @@ Rotera repeterbara texturmaterial i godtyckliga vinklar när de används på fl�
 
 Rotera material i olika vinklar.
 
-Positiva vinklar roterar medsols. Texturen eller den dekala formen roteras runt fästpunkten ( `anchor=`). fästpunkten förblir justerad mot målobjektets nollpunkt.
+Positiva vinklar roterar medsols. Texturen eller den dekala formen roteras runt fästpunkten ( `anchor=`); fästpunkten förblir justerad mot målobjektets nollpunkt.
 
 ## Egenskaper {#section-ad4d07897ca24f63af1a4062f8618e36}
 
