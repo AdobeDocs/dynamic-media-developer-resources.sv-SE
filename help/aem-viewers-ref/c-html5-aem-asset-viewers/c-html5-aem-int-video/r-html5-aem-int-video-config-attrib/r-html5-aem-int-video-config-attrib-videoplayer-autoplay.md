@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: f67ce333-2bc3-4e02-b714-ff493f19ae17
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '47'
+ht-degree: 4%
 
 ---
 
@@ -21,7 +24,7 @@ Konfigurationsattribut för Interactive Video Viewer.
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
    <td colname="col2"> <p> Anger om tittaren börjar spela upp videon vid inläsningen. Observera att vissa system - som vissa mobila enheter - kanske inte har stöd för automatisk uppspelning. </p> </td> 
   </tr> 
  </tbody> 
