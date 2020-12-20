@@ -31,13 +31,13 @@ Sökvägen för SVG-källdatafilerna. Kan vara en eller flera absoluta filsökv�
 
 Största storlek på SVG-källfil i kBytes. Servern returnerar ett fel när ett försök görs att återge en SVG-fil som är större än denna gräns. Standardvärdet är 1 024 kbit/s.
 
-## IS::SvgMAxRenderRgnPixels - Storleksgräns för SVG-utdatabild {#section-5be1fd9639424d878a5ffd11736d3920}
+## IS::SvgMAxRenderRgnPixels - Storleksgräns för SVG-utdatamodell {#section-5be1fd9639424d878a5ffd11736d3920}
 
 Begränsar storleken på bilder som SVGRender kan producera. Heltalsvärde som är större än 0 i miljoner pixlar. Ett fel returneras om en återgivningsåtgärd skulle överskrida storleksgränsen. Standardvärdet är 4.
 
-## PS::svgProvider.port - Platform Server Listening Port {#section-f7e42a96c2dd4523b46f0557c239e659}
+## PS::svgProvider.port - Plattformsserverlyssningsporten {#section-f7e42a96c2dd4523b46f0557c239e659}
 
-Den port som används för SVgRender för att hämta bilder från Platform Server som ska bäddas in i SVG-återgivning.
+Den port som används för SVgRender för att hämta bilder från plattformsservern som ska bäddas in i SVG-återgivningar.
 
 Viktigt För att SVGRender-komponenten ska fungera korrekt måste det här konfigurationsalternativet anges till samma värde som `TC::PsPort`.
 
@@ -45,7 +45,7 @@ Viktigt För att SVGRender-komponenten ska fungera korrekt måste det här konfi
 
 Anger var SVgRender ska hitta de teckensnittsfiler som behövs för att återge SVG-text. oftast en av sökvägarna som anges i `IS::RootPaths`. Standardvärdet är [!DNL *[!DNL install_folder]*/images].
 
-## SVG::SVGRender.port, IS::SVGTcpPort - SVG Communications Port {#section-608687123aa644b7b58fe42385d71b79}
+## SVG::SVGRender.port, IS::SVGTcpPort - SVG-kommunikationsport {#section-608687123aa644b7b58fe42385d71b79}
 
 Konfigurerar den port som Image Server och SVGRender-komponenten kommunicerar på.
 
