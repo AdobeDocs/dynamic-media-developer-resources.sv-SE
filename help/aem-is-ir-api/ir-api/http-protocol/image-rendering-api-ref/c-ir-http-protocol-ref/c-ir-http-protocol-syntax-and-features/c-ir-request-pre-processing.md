@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: ef69ea23-753c-40c8-9edd-eab9c8820c98
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '226'
+ht-degree: 0%
 
 ---
 
 
-# Förbehandling av begäran *{#request-pre-processing}
+# Förbearbetning av begäran *{#request-pre-processing}
 
 Bildåtergivning ger en enkel förprocessor för begäranden baserad på regler för matchning och ersättning av reguljära uttryck.
 
@@ -22,7 +25,7 @@ Regler för förbehandling av begäranden kan ändra sökvägen och skicka fråg
 
 Förbearbetningsregler för begäranden passar ett antal olika program, varav vissa anges nedan:
 
-* Implementera en *virtuell sökvägsmekanism* som tillåter ommappning av sökvägen till fil-, FTP- och HTTP-sökvägar.
+* Implementera en *virtuell sökväg*-mekanism som tillåter ommappning av sökvägen till fil-, FTP- och HTTP-sökvägar.
 * Tillåt inte användning av processorintensiva kommandon för att förhindra servermissbruk.
 * Styr inställningarna för bildkvalitet (till exempel JPEG-kvalitet eller skärpa) beroende på sökvägen eller bildnamnet som efterfrågas.
 
