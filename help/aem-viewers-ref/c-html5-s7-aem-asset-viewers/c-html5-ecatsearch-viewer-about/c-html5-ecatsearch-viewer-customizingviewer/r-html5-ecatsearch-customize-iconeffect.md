@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 4995ac11-f591-4d1d-a292-be5d55aebf98
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '199'
+ht-degree: 0%
 
 ---
 
@@ -35,11 +38,11 @@ Visningsområdets utseende styrs av följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Zoomindikatorteckningar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Placera inuti en teckningssprite, om CSS-sprites används. </p> <p>Se även <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-fragment </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -47,7 +50,7 @@ Visningsområdets utseende styrs av följande CSS-klassväljare:
    <td colname="col2"> <p>Zoomindikatorns bredd i pixlar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Zoomindikatorns höjd i pixlar. </p> </td> 
   </tr> 
  </tbody> 
@@ -55,7 +58,7 @@ Visningsområdets utseende styrs av följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Ikoneffekten har stöd för attributväljaren, som du kan använda för att använda olika ikoneffekter på olika enheter. `media-type` motsvarar i synnerhet stationära datorer där musindata normalt används och `media-type='standard'` `media-type='multitouch'` motsvarar enheter med pekfunktioner.
+>Ikoneffekten stöder attributväljaren `media-type`, som du kan använda för att använda olika ikoneffekter på olika enheter. `media-type='standard'` motsvarar i synnerhet stationära datorer där musindata normalt används och `media-type='multitouch'` motsvarar enheter med pekrörelser.
 
 Exempel - för att ställa in en zoomindikator på 100 x 100 pixlar med olika grafik för stationära datorer och pekenheter.
 
