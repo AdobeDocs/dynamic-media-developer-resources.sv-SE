@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 82284e25-cfe0-4cf8-b410-b49196cc721c
 translation-type: tm+mt
 source-git-commit: 7721cccf3f779f258adcdcf886f7e01111e92be0
+workflow-type: tm+mt
+source-wordcount: '147'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ Ett material består av en uppsättning *attribut*. Vissa attribut krävs för v
 
 Alla attribut som förekommer inom ett materialspecifikationssegment (MSS) men som varken anges ovan eller i de specifika materialtabellerna nedan ignoreras av servern.
 
-I följande tabeller visas grundläggande materialattribut. IR har stöd för ytterligare attribut som styr [avancerade återgivningseffekter](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-advanced-render-effects.md#concept-bf8b6d8460244b9cacc7f4a3df4c5281).
+I följande tabeller visas grundläggande materialattribut. IR har stöd för ytterligare attribut för styrning av [avancerade återgivningseffekter](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-advanced-render-effects.md#concept-bf8b6d8460244b9cacc7f4a3df4c5281).
 
 Om inget annat anges är alla materialattribut valfria, med lämpliga standardvärden.
 
