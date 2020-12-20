@@ -36,7 +36,7 @@ Annars gäller standardreglerna för HTTP-kodning. HTTP-specifikationen kräver 
    <td colname="col3"> <p>32 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&lt; </p> </td> 
+   <td colname="col1"> <p>&lt;&gt; </p> </td> 
    <td colname="col2"> <p>3C </p> </td> 
    <td colname="col3"> <p>60 </p> </td> 
   </tr> 
@@ -186,4 +186,4 @@ Om du använder obehörig kodning kan kodningen begränsas till att ta bort teck
 
 ## Se även {#section-295476ec34c74973962d07dfa9eb2180}
 
-[Begärandefel](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d), [HTTP/1.1-specifikation (RFC 2616)](http://www.w3.org/Protocols/rfc2616/rfc2616.html)
+[Begärandefel](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d),  [HTTP/1.1-specifikation (RFC 2616)](http://www.w3.org/Protocols/rfc2616/rfc2616.html)
