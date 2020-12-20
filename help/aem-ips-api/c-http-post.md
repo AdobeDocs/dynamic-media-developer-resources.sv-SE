@@ -1,6 +1,6 @@
 ---
-description: När du överför resurser till Scene7 Production System krävs en eller flera HTTP POST-begäranden som ställer in ett jobb för att koordinera all loggaktivitet som är kopplad till de överförda filerna.
-seo-description: När du överför resurser till Scene7 Production System krävs en eller flera HTTP POST-begäranden som ställer in ett jobb för att koordinera all loggaktivitet som är kopplad till de överförda filerna.
+description: När du överför resurser till Scene7 Production System krävs en eller flera HTTP-POST-begäranden som ställer in ett jobb för att koordinera all loggaktivitet som är kopplad till de överförda filerna.
+seo-description: När du överför resurser till Scene7 Production System krävs en eller flera HTTP-POST-begäranden som ställer in ett jobb för att koordinera all loggaktivitet som är kopplad till de överförda filerna.
 seo-title: Överföra resurser via HTTP POST till UploadFile-servern
 solution: Experience Manager
 title: Överföra resurser via HTTP POST till UploadFile-servern
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: 8d562316-0849-4b95-a974-29732d453dc8
 translation-type: tm+mt
 source-git-commit: dac273f51703fd63f1d427fbb7713fcc79bfa2c4
+workflow-type: tm+mt
+source-wordcount: '766'
+ht-degree: 0%
 
 ---
 
 
 # Överföra resurser via HTTP POST till UploadFile-servern{#uploading-assets-by-way-of-http-posts-to-the-uploadfile-servlet}
 
-När du överför resurser till Scene7 Production System krävs en eller flera HTTP POST-begäranden som ställer in ett jobb för att koordinera all loggaktivitet som är kopplad till de överförda filerna.
+När du överför resurser till Scene7 Production System krävs en eller flera HTTP-POST-begäranden som ställer in ett jobb för att koordinera all loggaktivitet som är kopplad till de överförda filerna.
 
 Använd följande URL för att komma åt UploadFile-servern:
 
@@ -24,7 +27,7 @@ https://<server>/scene7/UploadFile
 
 >[!NOTE]
 >
->Alla POST-begäranden för ett överföringsjobb måste komma från samma IP-adress.
+>Alla POSTER som begär ett överföringsjobb måste komma från samma IP-adress.
 
 **Åtkomst till URL:er för Scene7-regioner**
 
@@ -55,32 +58,44 @@ https://<server>/scene7/UploadFile
  </tbody> 
 </table>
 
-## Överföringsjobbets arbetsflöde {#section-873625b9512f477c992f5cdd77267094}
+## Arbetsflöde för överföringsjobbet {#section-873625b9512f477c992f5cdd77267094}
 
-Överföringsjobbet består av en eller flera HTTP POST som använder en gemensam `jobHandle` korrelationsbearbetning till samma jobb. Varje begäran är `multipart/form-data` kodad och består av följande formulärdelar:
+Överföringsjobbet består av en eller flera HTTP POST som använder en vanlig `jobHandle` för att korrelera bearbetningen till samma jobb. Varje begäran är `multipart/form-data`-kodad och består av följande formulärdelar:
 
 >[!NOTE]
 >
->Alla POST-begäranden för ett överföringsjobb måste komma från samma IP-adress.
+>Alla POSTER som begär ett överföringsjobb måste komma från samma IP-adress.
 
-| Formulärdel för HTTP POST | Beskrivning ||-|-||`auth`| Krävs. Ett XML authHeader-dokument som anger autentisering och klientinformation. Se **Begär autentisering** under [SOAP](/help/aem-ips-api/c-wsdl-versions.md). |
-|`file params` |  Valfritt. Du kan inkludera en eller flera filer som ska överföras tillsammans med varje POST-begäran. Varje fildel kan innehålla en filnamnsparameter i Content-Disposition-huvudet som används som målfilnamn i IPS om ingen `uploadPostParams/fileName` parameter anges. |
+| Formulärdel för HTTP-POST | Beskrivning |
+|-|-|
+|`auth` |  Obligatoriskt. Ett XML authHeader-dokument som anger autentisering och klientinformation. Se **Begär autentisering** under [SOAP](/help/aem-ips-api/c-wsdl-versions.md). |
+|`file params` |  Valfritt. Du kan inkludera en eller flera filer som ska överföras vid varje begäran om POST. Varje fildel kan innehålla en filnamnsparameter i Content-Disposition-huvudet som används som målfilnamn i IPS om ingen `uploadPostParams/fileName`-parameter har angetts. |
 
-| HTTP POST-formulärdel | uploadPostParams-elementnamn | Typ | Beskrivning | Beskrivning|-|-|-|-||`uploadParams` (obligatoriskt. Ett XML- `uploadParams` dokument som anger överföringsparametrarna) | `companyHandle`|`xsd:string`| Krävs. Hantera till det företag som filen överförs till. ||`uploadParams` (obligatoriskt. Ett XML- `uploadParams` dokument som anger överföringsparametrarna)|`jobName`|`xsd:string`| Antingen `jobName` eller `jobHandle` krävs. Namn på överföringsjobbet. ||`uploadParams` (obligatoriskt. Ett XML- `uploadParams` dokument som anger överföringsparametrarna)|`jobHandle`|`xsd:string`| Antingen `jobName` eller `jobHandle` krävs. Hantera ett överföringsjobb som har startats i en tidigare begäran. ||`uploadParams` (obligatoriskt. Ett XML- `uploadParams` dokument som anger överföringsparametrarna)|`locale`|`xsd:string`| Valfritt. Språk- och landskod för lokalisering. ||`uploadParams` (obligatoriskt. Ett XML- `uploadParams` dokument som anger överföringsparametrarna)|`description`|`xsd:string`| Valfritt. Beskrivning av jobbet. ||`uploadParams` (obligatoriskt. Ett XML- `uploadParams` dokument som anger överföringsparametrarna)|`destFolder`|`xsd:string`| Valfritt. Sökväg till målmappen om du vill lägga till prefix till en filename-egenskap, särskilt för webbläsare och andra klienter som inte har stöd för fullständiga sökvägar i ett filnamn. ||`uploadParams` (obligatoriskt. Ett XML- `uploadParams` dokument som anger överföringsparametrarna)|`fileName`|`xsd:string`| Valfritt. Målfilens namn. Åsidosätter filename-egenskapen. ||`uploadParams` (obligatoriskt. Ett XML- `uploadParams` dokument som anger överföringsparametrarna)|`endJob`|`xsd:boolean`| Valfritt. Standardvärdet är false. ||`uploadParams` (obligatoriskt. Ett XML- `uploadParams` dokument som anger överföringsparametrarna)|`uploadParams`|`types:UploadPostJob`| Valfritt om det här är en efterföljande begäran för ett befintligt aktivt jobb. Om det finns ett befintligt jobb `uploadParams` ignoreras det och de befintliga jobböverföringsparametrarna används. Se [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4) |
+| Formulärdel för HTTP-POST  | uploadPostParams-elementnamn  | Typ  | Beskrivning  |
+|-|-|-|-|
+|`uploadParams` (obligatoriskt. Ett XML-dokument (`uploadParams`-dokument som anger överföringsparametrarna)  |  `companyHandle` | `xsd:string` | Krävs. Hantera till det företag som filen överförs till. |
+|`uploadParams` (obligatoriskt. Ett XML-dokument (`uploadParams`) som anger överföringsparametrarna)|`jobName` | `xsd:string` | Antingen `jobName` eller `jobHandle` krävs. Namn på överföringsjobbet. |
+|`uploadParams` (obligatoriskt. Ett XML-dokument (`uploadParams`) som anger överföringsparametrarna)|`jobHandle` | `xsd:string` | Antingen `jobName` eller `jobHandle` krävs. Hantera ett överföringsjobb som har startats i en tidigare begäran. |
+|`uploadParams` (obligatoriskt. Ett XML-dokument (`uploadParams`) som anger överföringsparametrarna)|`locale` | `xsd:string` | Valfritt. Språk- och landskod för lokalisering. |
+|`uploadParams` (obligatoriskt. Ett XML-dokument (`uploadParams`) som anger överföringsparametrarna)|`description` | `xsd:string` | Valfritt. Beskrivning av jobbet. |
+|`uploadParams` (obligatoriskt. Ett XML-dokument (`uploadParams`) som anger överföringsparametrarna)|`destFolder` | `xsd:string` | Valfritt. Sökväg till målmappen om du vill lägga till prefix till en filename-egenskap, särskilt för webbläsare och andra klienter som inte har stöd för fullständiga sökvägar i ett filnamn. |
+|`uploadParams` (obligatoriskt. Ett XML-dokument (`uploadParams`) som anger överföringsparametrarna)|`fileName` | `xsd:string` | Valfritt. Målfilens namn. Åsidosätter filename-egenskapen. |
+|`uploadParams` (obligatoriskt. Ett XML-dokument (`uploadParams`) som anger överföringsparametrarna)|`endJob` | `xsd:boolean` | Valfritt. Standardvärdet är false. |
+|`uploadParams` (obligatoriskt. Ett XML-dokument (`uploadParams`) som anger överföringsparametrarna)|`uploadParams` | `types:UploadPostJob` | Valfritt om detta är en efterföljande begäran för ett befintligt aktivt jobb. Om det finns ett befintligt jobb ignoreras `uploadParams` och de befintliga jobböverföringsparametrarna används. Se [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4) |
 
-Inom `<uploadPostParams>` -blocket finns det `<uploadParams>` block som anger bearbetningen av de inkluderade filerna.
+I `<uploadPostParams>`-blocket är `<uploadParams>`-blocket som anger bearbetningen av de inkluderade filerna.
 
 Se [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4).
 
-Du kan anta att `uploadParams` parametern kan ändras för enskilda filer som en del av samma jobb, men det är inte fallet. Använd samma `uploadParams` parametrar för hela jobbet.
+Du kan anta att parametern `uploadParams` kan ändras för enskilda filer som en del av samma jobb, men det är inte fallet. Använd samma `uploadParams`-parametrar för hela jobbet.
 
-Den inledande POST-begäran för ett nytt överföringsjobb bör ange `jobName` parametern, helst med ett unikt jobbnamn för att förenkla efterföljande jobbstatuskontrollfrågor och jobbloggfrågor. Ytterligare POST-begäranden för samma överföringsjobb ska ange `jobHandle` parametern i stället för `jobName`, med det `jobHandle` värde som returnerades från den ursprungliga begäran.
+Den initiala POSTEN för ett nytt överföringsjobb bör ange parametern `jobName`, helst med ett unikt jobbnamn för att förenkla efterföljande jobbstatuskontrollfrågor och jobbloggfrågor. Ytterligare POST-begäranden för samma överföringsjobb ska ange parametern `jobHandle` i stället för `jobName`, med det `jobHandle`-värde som returneras från den ursprungliga begäran.
 
-Den sista POST-begäran för ett överföringsjobb ska ange parametern till true så att inga framtida filer POSTed för det här jobbet kommer att skickas. `endJob` Detta innebär i sin tur att jobbet kan slutföras omedelbart efter att alla POSTed-filer har importerats. Annars går jobbet ut om inga fler POST-begäranden tas emot inom 30 minuter.
+Den sista POSTEN för ett överföringsjobb ska ange parametern `endJob` till true så att inga framtida filer POSTed för det här jobbet kommer att skickas. Detta innebär i sin tur att jobbet kan slutföras omedelbart efter att alla POSTed-filer har importerats. Annars går jobbet ut om inga fler begäranden om POST tas emot inom 30 minuter.
 
 ## UploadPOST-svar {#section-421df5cc04d44e23a464059aad86d64e}
 
-För en lyckad POST-begäran kommer svarstexten att vara ett XML- `uploadPostReturn` dokument, enligt XSD-koden nedan:
+För en POST som lyckas är svarstexten ett XML `uploadPostReturn`-dokument, vilket anges i följande XSD:
 
 ```
 <element name="uploadPostReturn"> 
@@ -92,11 +107,11 @@ För en lyckad POST-begäran kommer svarstexten att vara ett XML- `uploadPostRet
     </element>
 ```
 
-Den `jobHandle` returnerade parametern skickas i `uploadPostParams`/- `jobHandle` parametern för efterföljande POST-begäranden för samma jobb. Du kan också använda den för att avsöka jobbstatus med `getActiveJobs` åtgärden eller för att fråga jobbloggarna med `getJobLogDetails` åtgärden.
+Det `jobHandle` som returneras skickas i parametern `uploadPostParams`/ `jobHandle` för efterföljande POSTER för samma jobb. Du kan också använda den för att avfråga jobbstatus med åtgärden `getActiveJobs` eller för att fråga jobbloggarna med åtgärden `getJobLogDetails`.
 
-Om det uppstår ett fel när POST-begäran bearbetas, består svarstexten av en av API-feltyperna som beskrivs i [Fel](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b).
+Om det uppstår ett fel när POSTEN bearbetas består svarstexten av en av API-feltyperna som beskrivs i [Felmeddelanden](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b).
 
-## Exempel på POST-begäran {#section-810fe32abdb9426ba0fea488dffadd1e}
+## Exempel på begäran om POST {#section-810fe32abdb9426ba0fea488dffadd1e}
 
 ```
 POST /scene7/UploadFile HTTP/1.1 
@@ -166,7 +181,7 @@ Content-Transfer-Encoding: binary
 --O9-ba7tieRtqA4QRSaVk-eDq6658SPrYfvUcJ--
 ```
 
-## Exempel på POST-svar - lyckad {#section-0d515ba14c454ed0b5196ac8d1bb156e}
+## Exempel på svar från POSTEN - lyckades {#section-0d515ba14c454ed0b5196ac8d1bb156e}
 
 ```
 HTTP/1.1 200 OK 
@@ -180,7 +195,7 @@ Server: Unknown
 </uploadPostReturn>
 ```
 
-## Exempel på POST-svar - fel {#section-efc32bb371554982858b8690b05090ec}
+## Exempel på svar från POSTEN - fel {#section-efc32bb371554982858b8690b05090ec}
 
 ```
 HTTP/1.1 200 OK 
