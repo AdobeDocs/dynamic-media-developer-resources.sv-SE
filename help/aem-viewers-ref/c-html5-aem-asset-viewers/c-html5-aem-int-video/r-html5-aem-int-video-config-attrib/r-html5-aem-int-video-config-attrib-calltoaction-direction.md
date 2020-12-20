@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: fe182e8f-696d-4515-afdb-49964a374dae
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '83'
+ht-degree: 1%
 
 ---
 
@@ -21,8 +24,8 @@ Konfigurationsattribut för Interactive Video Viewer.
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
-   <td colname="col2"> <p> Anger hur miniatyrbilder fylls i vyn. </p> <p>Ange till <span class="codeph"> vänster </span> för att ange fyllningsordningen från vänster till höger. </p> <p>Om du anger till <span class="codeph"> höger </span> inverteras ordningen så att vyn fylls i från höger till vänster, uppifrån och ned. </p> <p>Ställ in på <span class="codeph"> auto </span> så att komponenten tillämpar rätt läge när språkinställningen är inställd på <span class="codeph"> "ja" </span>, i annat fall används <span class="codeph"> left </span> . </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> auto|left|right  </span> </p> </td> 
+   <td colname="col2"> <p> Anger hur miniatyrbilder fylls i vyn. </p> <p>Ange <span class="codeph"> vänster </span> för att ange fyllningsordningen vänster till höger. </p> <p>Om du anger <span class="codeph"> till höger </span> inverteras ordningen så att vyn fylls i från höger till vänster, uppifrån och ned. </p> <p>Ange <span class="codeph"> auto </span> om du vill att komponenten ska använda rätt läge när språkinställningen är <span class="codeph"> "ja" </span>; i annat fall används <span class="codeph"> vänster </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
