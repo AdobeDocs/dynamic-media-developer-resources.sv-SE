@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: a2a4fb97-89ec-41d2-ada7-8ff1775eaefa
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ JavaScript API-referens för Basic Zoom Viewer.
 
 Startar initieringen av Basic Zoom Viewer. Vid den här tidpunkten måste behållar-DOM-elementet skapas så att visningsprogramkoden kan hitta det med dess ID.
 
-Om behållarelementet inte är en del av webbsideslayouten just nu (t.ex. kan det döljas med `display:none` ett format som tilldelats det), gör visningsprogrammet uppehåll i initieringsprocessen tills webbsidan återför behållarelementet till layouten. När detta inträffar återgår visningsprogrammet automatiskt.
+Om behållarelementet inte är en del av webbsideslayouten ännu (t.ex. kan det döljas med formatet `display:none` som tilldelats det), gör visningsprogrammet uppehåll i initieringsprocessen tills webbsidan återför behållarelementet till layouten. När detta inträffar återgår visningsprogrammet automatiskt.
 
 Anropa denna metod endast en gång under tittarens livscykel. efterföljande anrop ignoreras.
 
