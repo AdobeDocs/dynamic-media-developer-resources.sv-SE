@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 2f00a06d-40d1-4ba3-a317-6ea91e25beb3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '177'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Lägger till ett företag i systemet.
 
 Skickar namnet på det företag som ska läggas till i systemet och skickar om företaget ska förfalla eller inte.
 
-När den här åtgärden anropas får systemet en ` *`companyInfo`*` -typ som innehåller en företagsreferens och beskrivande fält. Om det begärda företagsnamnet redan finns i systemet genereras ett `ipsApiFault`.
+När den här åtgärden anropas får systemet en ` *`companyInfo`*`-typ som innehåller en företagsreferens och beskrivande fält. Om det begärda företagsnamnet redan finns i systemet genereras ett `ipsApiFault`.
 
 ## Auktoriserade användartyper {#section-ae926c7672984be79f6102748accab72}
 
@@ -41,13 +44,13 @@ När den här åtgärden anropas får systemet en ` *`companyInfo`*` -typ som in
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:sträng</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Namnet på företaget som ska läggas till. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> förfaller</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> förfaller</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:dateTime</span> </p> </td> 
    <td colname="col3"> <p>Nej </p> </td> 
    <td colname="col4"> <p>Företagets förfallodatum. Ange tidszonen med begäran för det här fältet. Tidszoner justeras till Central Time. </p> </td> 
@@ -68,7 +71,7 @@ När den här åtgärden anropas får systemet en ` *`companyInfo`*` -typ som in
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:sträng</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Hantera namn, rotsökväg, utgångsdatum och tid för det nya företaget. </p> </td> 
