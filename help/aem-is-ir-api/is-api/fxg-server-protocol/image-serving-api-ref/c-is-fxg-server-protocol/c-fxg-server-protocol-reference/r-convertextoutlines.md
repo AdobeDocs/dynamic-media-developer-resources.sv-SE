@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: ec8a5f86-be10-494e-bc06-5c81520696f9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '71'
+ht-degree: 1%
 
 ---
 
@@ -23,6 +26,6 @@ Konvertera text i en PDF-fil till konturer.
  </tr> 
 </table>
 
-Använd kommandot URL `convertTextToOutlines=1` för att ändra all text i en PDF-fil till banor med konturer.
+Använd URL-kommandot `convertTextToOutlines=1` för att ändra all text i en PDF-fil till konturerade banor.
 
 När en effekt används på text i en PDF-fil, till exempel konvertering av text till konturer, minskas den slutliga återgivna bilden eller&quot;förenklas&quot;.
