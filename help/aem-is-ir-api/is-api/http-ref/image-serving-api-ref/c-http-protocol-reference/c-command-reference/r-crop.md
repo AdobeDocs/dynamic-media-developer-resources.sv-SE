@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: c8eca467-7564-48a6-82d7-17f68a1399e1
 translation-type: tm+mt
 source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+workflow-type: tm+mt
+source-wordcount: '230'
+ht-degree: 0%
 
 ---
 
 
-# beskära{#crop}
+# beskär{#crop}
 
 Beskär bild. Anger ett rektangulärt beskärningsområde, uttryckt antingen i pixlar eller normaliserat i förhållande till den högupplösta källbilden eller maskbilden.
 
@@ -22,15 +25,15 @@ Beskär bild. Anger ett rektangulärt beskärningsområde, uttryckt antingen i p
 
 <table id="simpletable_472A9AD67AA64419B0877B0535F8B14A"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> kodord</span></span> </p> </td> 
-  <td class="stentry"> <p>Pixelförskjutning från det övre vänstra hörnet av källbilden till det övre vänstra hörnet av beskärningsrektangeln (int, int). </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> coord</span></span> </p> </td> 
+  <td class="stentry"> <p>Pixelförskjutning från källbildens övre vänstra hörn till det övre vänstra hörnet av beskärningsrektangeln (int, int). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> coordN</span></span> </p> </td> 
   <td class="stentry"> <p>Normaliserad förskjutning från det övre vänstra hörnet i källbilden till det övre vänstra hörnet i beskärningsrektangeln (reellt, reellt). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> storlek</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> size</span></span> </p></td> 
   <td class="stentry"> <p>Beskärningsrektangelns storlek i pixlar (int, int). </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -39,7 +42,7 @@ Beskär bild. Anger ett rektangulärt beskärningsområde, uttryckt antingen i p
  </tr> 
 </table>
 
-Kan även användas för att utöka bilden utanför gränserna genom att ange negativa x-, y-värden och/eller bredd, höjdvärden som är större än bildens bredd, höjd. I det här fallet är det utökade området helt genomskinligt (om inte `bgColor=` anges).
+Kan även användas för att utöka bilden utanför gränserna genom att ange negativa x-, y-värden och/eller bredd, höjdvärden som är större än bildens bredd, höjd. I det här fallet är det utökade området helt genomskinligt (om inte `bgColor=` har angetts).
 
 ## Egenskaper {#section-632e0405bb9940679b5f8b1c10e0902e}
 
@@ -61,4 +64,4 @@ Hela bilden ( `cropN=0,0,1,1`).
 
 ## Se även {#section-d5616c7aa0ce4faa88f51dd5662e5daf}
 
-[cropPath](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-croppath.md) [bgColor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab) , [anchor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c), [extend=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac)
+[](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-croppath.md) [cropPathbgColor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab) ,  [anchor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c),  [extend=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac)
