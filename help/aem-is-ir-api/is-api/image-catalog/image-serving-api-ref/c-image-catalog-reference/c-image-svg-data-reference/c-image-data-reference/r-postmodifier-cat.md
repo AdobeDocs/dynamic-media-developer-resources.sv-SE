@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8800a9b2-e9c0-498b-b4e1-37952ba7c842
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '141'
+ht-degree: 0%
 
 ---
 
@@ -18,13 +21,13 @@ Modifieringssträng för postfix-begäran. Inga eller flera bildserverkommandon 
 
 Kommandon i det här fältet åsidosätter alltid kommandon i HTTP-begäran och i `catalog::Modifier`.
 
-`catalog::PostModifier` är användbart om vissa bilder kräver särskilda inställningar som normalt styrs från URL-adressen, till exempel `qlt=` eller `resmode=`. `catalog::Modifier` ska användas för att ange de flesta IS-kommandon i bildkatalogen.
+`catalog::PostModifier` är användbart om vissa bilder kräver särskilda inställningar som normalt styrs från URL-adressen, till exempel  `qlt=` eller  `resmode=`. `catalog::Modifier` ska användas för att ange de flesta IS-kommandon i bildkatalogen.
 
 Makron tillåts i `catalog::PostModifier`, förutsatt att de definieras i samma katalog eller i standardkatalogen. Egna variabler kan också användas.
 
 >[!NOTE]
 >
->Om en begäran innehåller flera lager används bara innehållet i lager 0 `catalog::PostModifier` . `catalog::PostModifier` av alla andra lager ignoreras.
+>Om en begäran innehåller flera lager används endast innehållet i `catalog::PostModifier` för lager 0. `catalog::PostModifier` av alla andra lager ignoreras.
 
 ## Egenskaper {#section-6d5b0462ba1245b8ac3ddfd15c059f42}
 
