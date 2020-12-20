@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 06464e36-8c9c-4d3c-b4e5-5911f002568c
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '173'
+ht-degree: 0%
 
 ---
 
@@ -35,11 +38,11 @@ Visningsområdets utseende styrs av följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Bakgrundsfärg i hexadecimalt format för huvudvyn. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> markör </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> markör  </span> </p> </td> 
    <td colname="col2"> <p>Markören visas över huvudvyn. </p> </td> 
   </tr> 
  </tbody> 
@@ -53,7 +56,7 @@ Exempel - för att göra huvudvyn genomskinlig.
 }
 ```
 
-I datorer har komponenten stöd för attributväljaren som kan användas på `cursortype` `.s7zoomview` klassen och styr markörtypen baserat på komponentens tillstånd och användaråtgärd. Följande `cursortype` värden stöds:
+I skrivbordssystem stöder komponenten attributväljaren `cursortype` som kan tillämpas på klassen `.s7zoomview` och styr markörtypen baserat på komponentens tillstånd och användaråtgärd. Följande `cursortype`-värden stöds:
 
 <table id="table_BC9FC40DA27B4A85995F4E9431AABF33"> 
  <thead> 
@@ -64,19 +67,19 @@ I datorer har komponenten stöd för attributväljaren som kan användas på `cu
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> standard </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> standard  </span> </p> </td> 
    <td colname="col2"> <p>Visas när bilden inte kan zoomas på grund av en liten bildupplösning, eller komponentinställningar, eller båda. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoomin  </span> </p> </td> 
    <td colname="col2"> <p>Visas när bilden kan zoomas in. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> återställ </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> återställ  </span> </p> </td> 
    <td colname="col2"> <p>Visas när bilden har maximal zoomnivå och kan återställas till det ursprungliga läget. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> dra </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> dra  </span> </p> </td> 
    <td colname="col2"> <p>Visas när en användare panorerar bilden som är i zoomläge. </p> </td> 
   </tr> 
  </tbody> 
