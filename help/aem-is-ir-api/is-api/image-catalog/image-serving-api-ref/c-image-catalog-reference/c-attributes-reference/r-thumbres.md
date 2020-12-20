@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 4a77d673-9d2e-4e62-a014-c99fa3df294a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '121'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +27,7 @@ Reellt tal som är större än 0. Uttryckt som pixlar per tum, men kan också fi
 
 ## Standard {#section-86588899ec9b4276a98b03d7faf64003}
 
-Ärvs från `default::ThumbRes` om inte definierad eller om tom.
+Ärvs från `default::ThumbRes` om det inte är definierat eller om det är tomt.
 
 ## Se även {#section-a6d2cce2e404441a996dba98a95c8e16}
 
