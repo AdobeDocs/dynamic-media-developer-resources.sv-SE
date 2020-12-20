@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 632ae721-7b39-4cd1-a1c6-1a3554167a4e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '56'
+ht-degree: 0%
 
 ---
 
@@ -30,12 +33,12 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> hörn</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> hörn</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3"> Val av Beskär hörn automatiskt. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> tolerans</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> tolerans</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dubbel</span> </td> 
    <td colname="col3">Färgmatchningsspecifikation. Använder: 
     <ul id="ul_FE5423B857AE43FCBA7A9AEA76C754CC">
