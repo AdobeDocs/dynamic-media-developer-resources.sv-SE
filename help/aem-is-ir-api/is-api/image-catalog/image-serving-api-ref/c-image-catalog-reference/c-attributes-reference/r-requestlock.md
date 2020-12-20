@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 09f20e5e-8ef1-48fe-8b3c-719d219159ec
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '77'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ Flagga. Ange 0 om du vill inaktivera låsning av begäran och 1 om du vill välj
 
 ## Standard {#section-fd5b5f0417bd444189b20494d179193e}
 
-Ärvs från `default::RequestLock` om inte definierad eller om tom.
+Ärvs från `default::RequestLock` om det inte är definierat eller om det är tomt.
 
 ## Se även {#section-851a0b6c15ce4ea8b88dedfb579e9736}
 
