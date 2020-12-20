@@ -23,7 +23,7 @@ Syntax
 
 <!--<a id="section_FE43FF204ED644C2AC901AF45982E942"></a>-->
 
-Härledda resurser anger Image Server-protokollkommandon som ändrar representationen av ägarbilden. Med den `AdjustedView` härledda typen kan du göra enkla ändringar i en enskild bild (till exempel genom att ange en beskärningsrektangel), medan den `LayerView` hjälper dig att skapa en vy med flera lager som kan innehålla text eller ytterligare bilder.
+Härledda resurser anger Image Server-protokollkommandon som ändrar representationen av ägarbilden. Med den härledda typen `AdjustedView` kan du göra enkla ändringar i en enskild bild (till exempel genom att ange en beskärningsrektangel), medan `LayerView` hjälper dig att skapa en vy med flera lager som kan innehålla text eller ytterligare bilder.
 
 Till skillnad från en bildkopia (se [copyImage](../../../operations/c-operations-intro/c-methods/r-copy-image.md#reference-0785131e690b4ad08be69172023f35d0)) länkas en härledd bild till sin ägarbild. Ändringar av ägarbilden ändrar associerade härledda resurser. Om du tar bort ägarbilden tas alla tillhörande härledda bilder bort.
 
@@ -47,8 +47,8 @@ Till skillnad från en bildkopia (se [copyImage](../../../operations/c-operation
 | ` *`folderHandle`*` | `xsd:string` | Ja | Referensen till mappen där den nya härledda resursen ska skapas. |
 | ` *`name`*` | `xsd:string` | Ja | Namnet på den härledda tillgången. |
 | ` *`type`*` | `xsd:string` | Ja | Tillgångstypen för den nya härledda tillgången: `AdjustedView` eller `LayerView`. |
-| ` *`urlModifier`*` | `xsd:string` | Nej | Bildredigerings- eller bildåtergivningsprotokollkommandon som används *före* begäran eller `urlPostApplyModifier` kommandona. |
-| ` *`urlPostApplyModifier`*` | `xsd:string` | Nej | Bildredigerings- eller bildåtergivningsprotokollkommandon som används *efter* begäran eller `urlPostApplyModifier` kommandona. |
+| ` *`urlModifier`*` | `xsd:string` | Nej | Kommandon för bildvisning eller bildåtergivningsprotokoll tillämpades *före* begäran eller `urlPostApplyModifier` kommandon. |
+| ` *`urlPostApplyModifier`*` | `xsd:string` | Nej | Kommandon för bildservning eller bildåtergivningsprotokoll har använts *efter* på begäran eller `urlPostApplyModifier` kommandon. |
 
 **Utdata (createDerivedAssetParam)**
 
@@ -58,7 +58,7 @@ Till skillnad från en bildkopia (se [copyImage](../../../operations/c-operation
 
 ## Exempel {#section-5d5ea893a1ef4edc8b3a396f1936e8c9}
 
-Exempelkoden skapar en härledd tillgång med en justerad vy och `urlModifier` med godtyckliga värden `urlPostApplyModifier` . Svaret returnerar referensen till den nyligen härledda resursen.
+Exempelkoden skapar en härledd resurs med en justerad vy och `urlModifier` och `urlPostApplyModifier` med godtyckliga värden. Svaret returnerar referensen till den nyligen härledda resursen.
 
 **Begäran**
 
