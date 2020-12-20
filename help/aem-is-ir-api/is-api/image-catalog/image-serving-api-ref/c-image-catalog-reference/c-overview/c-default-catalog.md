@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 9f0c967e-a2fa-4ef0-bacb-3dcfb06a8027
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '230'
+ht-degree: 0%
 
 ---
 
@@ -20,9 +23,9 @@ Om det inte går att hitta ett visst attribut i en viss bildkatalog använder se
 
 Dessutom innehåller standardkatalogen alla attribut och dataposter (makron, teckensnitt, ICC-profiler, begär förbearbetningsregler) när ingen specifik bildkatalog är inblandad i en åtgärd.
 
-För att plattformsservern ska fungera korrekt måste katalogattributfilen för standardkatalogen namnges [!DNL default.ini], alltid finnas i katalogmappen och vara fullt ifylld med alla nödvändiga attribut, förutom `attribute::RootId` och referenserna till de olika katalogdatafilerna, som alla är valfria.
+För att plattformsservern ska fungera korrekt måste katalogattributfilen för standardkatalogen ha namnet [!DNL default.ini], måste alltid finnas i katalogmappen och måste vara fullt ifylld med alla nödvändiga attribut, förutom `attribute::RootId` och referenserna till de olika katalogdatafilerna, som alla är valfria.
 
 >[!NOTE]
 >
->Alla katalogattributfiler utom [!DNL default.ini] måste innehålla ett unikt `attribute::RootId` värde. `attribute::RootId` måste [!DNL default.ini] vara tom.
+>Alla katalogattributfiler utom [!DNL default.ini] måste innehålla ett unikt `attribute::RootId`-värde. `attribute::RootId` måste  [!DNL default.ini] vara tom.
 
