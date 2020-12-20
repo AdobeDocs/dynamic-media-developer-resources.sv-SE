@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: d38c614b-01ed-4fad-a510-30386ac9a63d
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '65'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td> <p> Anger var etiketten ritas i förhållande till miniatyrbilden. Det innebär att etiketten centreras på den angivna platsen i förhållande till miniatyrbilden. </p> <p>När <span class="codeph"> verktygstips</span> anges visas etikettexten som ett flytande verktygstips över miniatyrbilden. Ange som <span class="codeph"> ingen</span> för att inaktivera etiketten. </p> </td> 
+   <td> <p> Anger var etiketten ritas i förhållande till miniatyrbilden. Det innebär att etiketten centreras på den angivna platsen i förhållande till miniatyrbilden. </p> <p>När <span class="codeph"> verktygstips</span> anges visas etikettexten som ett flytande verktygstips över miniatyrbilden. Ange <span class="codeph"> none</span> för att inaktivera etiketten. </p> </td> 
   </tr> 
  </tbody> 
 </table>
