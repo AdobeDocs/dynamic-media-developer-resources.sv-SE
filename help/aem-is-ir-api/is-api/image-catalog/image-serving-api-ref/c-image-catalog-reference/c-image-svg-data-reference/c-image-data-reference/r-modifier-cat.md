@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: eb17d115-22ec-4b1b-9039-9bd2bc256f48
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '114'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Modifieringssträng för prefixbegäran. Inga eller flera bildserverkommandon av
 
 Används för att permanent ändra bilder och lagra mallarna.
 
-Kommandona i det här fältet åsidosätts av samma kommandon i den begäran eller mall som posten refereras till från, samt av kommandon i `catalog::PostModifier`
+Kommandona i det här fältet åsidosätts av samma kommandon i den begäran eller mall som posten refereras till från, och av kommandon i `catalog::PostModifier`
 
 Makron tillåts i `catalog::Modifier`, förutsatt att de definieras i samma katalog eller i standardkatalogen. Egna variabler kan också användas.
 
