@@ -23,24 +23,24 @@ Om du uppgraderar från en äldre version av Image Serving kontaktar du supporte
 
 >[!NOTE]
 >
->Mappen kan tas bort [!DNL webapps] vid uppgradering. Säkerhetskopiera [!DNL webapps] mappen innan du uppgraderar.
+>Mappen [!DNL webapps] kan tas bort vid uppgradering. Säkerhetskopiera mappen [!DNL webapps] innan du uppgraderar.
 
 1. Logga in på servervärden med administratörsbehörighet.
 1. Extrahera innehållet i ZIP-filen Image Serving distribution.
 1. Kör setup/setup.exe för att starta installationsguiden.
-1. Klicka **[!UICONTROL Next]** för att gå vidare till slutanvändaravtalet (EULA), läsa licensavtalet och klicka på **[!UICONTROL Yes]**.
+1. Klicka på **[!UICONTROL Next]** om du vill gå vidare till slutanvändaravtalet (EULA), läsa licensavtalet och klicka på **[!UICONTROL Yes]**.
 
    På nästa sida visas de tidigare konfigurationsinställningarna.
-1. Klicka **[!UICONTROL Next]** för att starta uppdateringsinstallationen.
+1. Klicka på **[!UICONTROL Next]** för att starta uppdateringsinstallationen.
 
    >[!NOTE]
    >
-   >Installationsprogrammet säkerhetskopierar de gamla serverkonfigurationsfilerna till [!DNL BACKUP/] mappen.
+   >Installationsprogrammet säkerhetskopierar de gamla serverkonfigurationsfilerna till mappen [!DNL BACKUP/].
 
 1. När installationen är klar klickar du på Slutför för att avsluta installationsguiden.
 
    I vissa fall kan installationsguiden be om att starta om systemet.
 
-Under en uppdatering uppdateras [!DNL ImageServing/conf/server.xml] filen till de senaste inställningarna. Om du har ändrat eller lagt till värden bör du spara dina befintliga [!DNL server.xml] och implementera ändringarna efter uppgraderingen.
+Under en uppdatering uppdateras [!DNL ImageServing/conf/server.xml]-filen till de senaste inställningarna. Om du har ändrat eller lagt till värden bör du spara dina befintliga [!DNL server.xml] och implementera ändringarna igen efter uppgraderingen.
 
-Efter en uppdateringsinstallation bör du överväga att värma upp HTTP-svarscachen innan servern aktiveras. Mer information finns i beskrivningen av `playlog` verktyget.
+Efter en uppdateringsinstallation bör du överväga att värma upp HTTP-svarscachen innan servern aktiveras. Mer information finns i beskrivningen av verktyget `playlog`.
