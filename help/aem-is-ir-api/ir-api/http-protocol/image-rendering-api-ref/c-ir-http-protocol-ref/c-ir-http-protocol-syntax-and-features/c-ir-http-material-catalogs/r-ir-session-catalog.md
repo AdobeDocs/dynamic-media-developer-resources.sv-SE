@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 69c0f6cd-dfaf-47bf-bdd9-7abb4e6f7465
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '270'
+ht-degree: 0%
 
 ---
 
@@ -42,7 +45,7 @@ Sessionskatalogen innehåller följande standardvärden för sessioner:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::RootUrl</span> </p> </td> 
-   <td> <p> Rot-URL för relativa HTTP-filsökvägar i <span class="codeph"> src=</span> -kommandon </p> </td> 
+   <td> <p> Rot-URL för relativa HTTP-filsökvägar i <span class="codeph"> src=</span>-kommandon </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::ShowOverlapObjs</span> </p> </td> 
@@ -78,11 +81,11 @@ Sessionskatalogen innehåller följande standardvärden för sessioner:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::OnFailSel</span> </p> </td> 
-   <td> <p> Anger beteende när ett <span class="codeph"> sel=</span> -kommando misslyckas </p> </td> 
+   <td> <p> Anger beteende när ett <span class="codeph"> sel=</span>-kommando misslyckas </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::OnFailObj</span> </p> </td> 
-   <td> <p> Anger beteende när ett <span class="codeph"> obj=</span> -kommando misslyckas </p> </td> 
+   <td> <p> Anger beteende när ett <span class="codeph"> obj=</span>-kommando misslyckas </p> </td> 
   </tr> 
  </tbody> 
 </table>
