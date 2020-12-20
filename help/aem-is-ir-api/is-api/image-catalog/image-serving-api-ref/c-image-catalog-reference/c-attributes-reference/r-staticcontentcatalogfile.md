@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 82d2a68a-255a-4e65-a29f-7022e7f0f5ec
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Sökvägar till datafiler för katalog med statiskt innehåll. Anger de filer som innehåller statiska innehållsdata för den här katalogen.
 
-Datafiler för katalog med statiskt innehåll läses in i den ordning som anges. Om samma `static::Id` värde förekommer i mer än en post (antingen i samma eller olika katalogfiler) gäller den sista instansen.
+Datafiler för katalog med statiskt innehåll läses in i den ordning som anges. Om samma `static::Id`-värde förekommer i mer än en post (antingen i samma eller olika katalogfiler) gäller den sista instansen.
 
 ## Egenskaper {#section-3f8dc8d21fa84fbeb71db6ca1ecbdd8c}
 
