@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: f285d7e4-00df-4d90-a05a-71747a4c54cc
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '177'
+ht-degree: 0%
 
 ---
 
@@ -42,11 +45,11 @@ Byter namn på en resurs.
 | ` *`companyHandle`*` | `xsd:string` | Ja | Referensen till företaget som tillgången tillhör. |
 | ` *`assetHandle`*` | `xsd:string` | Ja | Referensen till resursen som du vill byta namn på. |
 | ` *`newName`*` | `xsd:string` | Ja | Resursens nya namn. |
-| ` *`validateName`*` | `xsd:boolean` | Ja | Om resurstypen `validateName` är `true` och resurstypen kräver ett unikt IPS-ID kontrolleras det nya namnet för global unicitet och `renameAsset` ett fel genereras om den inte är unik. |
+| ` *`validateName`*` | `xsd:boolean` | Ja | Om `validateName` är `true` och resurstypen kräver ett unikt IPS-ID kontrolleras det nya namnet för global unicitet och `renameAsset` returnerar ett fel om det inte är unikt. |
 
 **Utdata (renameAssetReturn)**
 
-IPS API returnerar inget svar för den här åtgärden. Se beskrivningen av elementet för `<ns1:validateName>` att få information om det här elementet.
+IPS API returnerar inget svar för den här åtgärden. Se beskrivningen av `<ns1:validateName>`-elementet för att få information om det här elementet.
 
 ## Exempel {#section-a0ddffd62bec42e09069f22ceb486f8a}
 
