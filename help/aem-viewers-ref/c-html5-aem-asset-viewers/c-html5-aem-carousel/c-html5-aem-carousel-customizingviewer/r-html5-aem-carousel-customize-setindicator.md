@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 3f90a216-654f-44a9-947d-592bd5f342d4
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '338'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +38,7 @@ Utseendet på den angivna indikatorbehållaren styrs med följande CSS-klassväl
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Bakgrundsfärgen i hexadecimalt format för uppsättningsindikatorn. </p> </td> 
   </tr> 
  </tbody> 
@@ -43,7 +46,7 @@ Utseendet på den angivna indikatorbehållaren styrs med följande CSS-klassväl
 
 >[!NOTE]
 >
->Set-indikatorn har stöd för lägesattributväljaren, som du kan använda för att använda olika format för prickade och numeriska operationslägen. motsvarar i synnerhet det numeriska driftsläget `mode="numeric"` , `mode="dotted"` motsvarar standardläget för punkt.
+>Set-indikatorn har stöd för lägesattributväljaren, som du kan använda för att använda olika format för prickade och numeriska operationslägen. `mode="numeric"` motsvarar i synnerhet det numeriska driftsläget; `mode="dotted"` motsvarar standardpunktläget.
 
 Exempel - för att ställa in en inställningsindikator med en vit bakgrund:
 
@@ -70,51 +73,51 @@ Utseendet på en enskild indikatorpunkt för uppsättning styrs med CSS-klassvä
    <td colname="col2"> <p>Bredden på den angivna indikatorpunkten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Höjden på den angivna indikatorpunkten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal-vänster </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal-vänster  </span> </p> </td> 
    <td colname="col2"> <p>Vänstermarginal i pixlar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal-top  </span> </p> </td> 
    <td colname="col2"> <p>Övre marginal i pixlar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal-höger </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal-höger  </span> </p> </td> 
    <td colname="col2"> <p>Högermarginal i pixlar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal-bottom  </span> </p> </td> 
    <td colname="col2"> <p>Undre marginal i pixlar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p>Kantradie i pixlar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Bakgrundsfärg i hexadecimalt format. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Teckensnittets namn. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Teckenstorlek. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> färg </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> färg  </span> </p> </td> 
    <td colname="col2"> <p>Teckenfärg. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> lodrät justering </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> lodrät justering  </span> </p> </td> 
    <td colname="col2"> <p>Banderollindexets lodräta justering. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> line-height  </span> </p> </td> 
    <td colname="col2"> <p>Texthöjd för banderollindexet. </p> </td> 
   </tr> 
  </tbody> 
@@ -122,7 +125,7 @@ Utseendet på en enskild indikatorpunkt för uppsättning styrs med CSS-klassvä
 
 >[!NOTE]
 >
->De angivna indikatorobjekten har stöd för attributväljaren, som kan användas för att tillämpa olika skal på olika miniatyrlägen. `state` motsvarar i synnerhet `state="selected"` det aktuella elementet i uppsättningen, `state="unselected"` motsvarar standardobjektläget.
+>De angivna indikatorobjekten stöder attributväljaren `state`, som kan användas för att tillämpa olika skal på olika miniatyrlägen. `state="selected"` motsvarar i synnerhet det aktuella elementet i uppsättningen; `state="unselected"` motsvarar standardobjektets tillstånd.
 
 Exempel - för att ställa in en inställningsindikator i prickat läge för datorer som ska placeras 20 pixlar från visningsprogrammets nederkant. Omarkerade punkter är svarta med 50 % genomskinlighet, 15 x 15 pixlar med 7 pixlar rundade hörn. Markerade punkter är svarta med 90 % genomskinlighet, 18 x 18 pixlar med 9 pixlar rundade hörn. Mellanrummet mellan punkter är 5 pixlar.
 
