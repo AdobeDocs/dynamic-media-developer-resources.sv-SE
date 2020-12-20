@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# Speciella textobjekt{#special-text-entities}
+# Speciella textentiteter{#special-text-entities}
 
 Använd följande specialenheter när du formaterar text.
 
@@ -34,27 +34,27 @@ Använd följande specialenheter när du formaterar text.
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \line </span> </td> 
+   <td> <span class="codeph"> \line  </span> </td> 
    <td> <p>Radbrytning. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \\ </span> </td> 
+   <td> <span class="codeph"> \\  </span> </td> 
    <td> <p>Bakvänt snedstreck. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;klammer;klammerparentes; </span> </td> 
+   <td> <span class="codeph"> &amp;klammerparentes;  </span> </td> 
    <td> <p>Klammerparenteser som är öppna just nu. </p> </td> 
    <td> <p>Klammerparentesen måste vara HTTP-kodad. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;rbrace; </span> </td> 
+   <td> <span class="codeph"> &amp;rankning;  </span> </td> 
    <td> <p>Stäng klammerparentesen. </p> </td> 
    <td> <p>Klammerparentesen måste vara HTTP-kodad. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \~ </span> </td> 
+   <td> <span class="codeph"> \~  </span> </td> 
    <td> <p>Fast mellanslag. </p> </td> 
    <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
   </tr> 
@@ -64,7 +64,7 @@ Använd följande specialenheter när du formaterar text.
    <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \- </span> </td> 
+   <td> <span class="codeph"> \-  </span> </td> 
    <td> <p>Valfritt bindestreck. </p> </td> 
    <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
   </tr> 
