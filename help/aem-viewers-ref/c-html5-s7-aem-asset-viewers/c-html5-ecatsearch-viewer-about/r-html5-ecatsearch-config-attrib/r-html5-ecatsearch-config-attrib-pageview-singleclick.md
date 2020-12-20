@@ -1,26 +1,29 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: PageView.singleClick
+seo-title: PageView.singleclick
 solution: Experience Manager
-title: PageView.singleClick
+title: PageView.singleclick
 topic: Dynamic media
 uuid: b08b605e-5ffc-42cc-931d-d67750a8dca8
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '94'
+ht-degree: 1%
 
 ---
 
 
-# PageView.singleClick{#pageview-singleclick}
+# PageView.singleclick{#pageview-singleclick}
 
 [!DNL `[PageView.|<containerId>_pageView.]singleclick=none|zoom|reset|zoomReset`]
 
 <table id="table_5654736F216D4ABC9FC783F83E0BBA03"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ingen|zoom|reset|zoomReset </span> </p> </td> 
-   <td colname="col2"> <p> Konfigurerar mappningen av enkla klick/tryck för att zooma åtgärder. Om du väljer <span class="codeph"> Ingen </span> inaktiveras zoomning med ett enda klick/tryck. Om inställningen är att <span class="codeph"> zooma in </span> zoomningen zoomas bilden i ett zoomsteg, CTRL+Click zoomar ut ett zoomsteg. Om du anger att du vill <span class="codeph"> återställa bilden </span> återställs zoomningen till den ursprungliga zoomnivån med ett enda klick. För <span class="codeph"> zoomReset </span>används reset om den aktuella zoomfaktorn är på eller över den angivna gränsen, i annat fall används zoomning. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ingen|zoom|reset|zoomReset  </span> </p> </td> 
+   <td colname="col2"> <p> Konfigurerar mappningen av enkla klick/tryck för att zooma åtgärder. Om du anger <span class="codeph"> inget </span> inaktiveras zoomning med en klickning. Om den är inställd på <span class="codeph"> zoomning </span> när du klickar på bilden zoomas den i ett zoomsteg; CTRL+Click zoomar ut ett zoomsteg. Om du anger <span class="codeph"> reset </span> återställs zoomningen till den ursprungliga zoomnivån med ett enda klick på bilden. För <span class="codeph"> zoomReset </span> används reset om den aktuella zoomfaktorn är vid eller över den angivna gränsen, i annat fall används zoomning. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -31,7 +34,7 @@ Valfritt.
 
 ## Standard {#section-58cbfe8a90214c49bbbfb7e83c569d75}
 
-[!DNL `zoomReset`] på stationära datorer, på [!DNL `none`] pekenheter.
+[!DNL `zoomReset`] på stationära datorer,  [!DNL `none`] på pekenheter.
 
 ## Exempel {#section-5f63781afec94e0189e135995f686c20}
 
