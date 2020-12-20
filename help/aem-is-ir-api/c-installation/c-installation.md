@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 19e9599e-800b-4c22-9325-fc47b9e5e19a
 translation-type: tm+mt
 source-git-commit: 5717550d2dea8ec086875e770ff8f200aaa75ff3
+workflow-type: tm+mt
+source-wordcount: '127'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Du måste installera Image Serving innan du kan använda den.
 
 Image Serving består av två huvudkomponenter: Image Server, som är en fristående, inbyggd kodkörbar fil, och Platform Server, som är en fristående Java-webbapplikation och applikationsserver. Bildåtergivning är en del av dessa serverkomponenter.
 
-I de följande instruktionerna refererar `install_root` till rotmappen där Image Serving och Image Rendering är installerade och `server:port` refererar till värdnamnet eller IP-adressen och portnumret som konfigurerats som plattformsserverns huvudavlyssningsport.
+I de följande instruktionerna hänvisar `install_root` till rotmappen där Image Serving och Image Rendering är installerade och `server:port` till värdnamnet eller IP-adressen och portnumret som konfigurerats som den huvudsakliga avlyssningsporten för plattformsservern.
 
 * [Licenser](c-licensing.md)
 * [Innehåll](c-contents.md)
