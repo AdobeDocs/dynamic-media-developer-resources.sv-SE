@@ -21,7 +21,7 @@ Skapar en mapp.
 
 >[!NOTE]
 >
->Den nya mappen är underordnad mappen Images, även om du anger en `/` som anger företagets rot.
+>Den nya mappen är underordnad till mappen Images, även om du anger `/` för att ange företagets rot.
 
 Syntax
 
