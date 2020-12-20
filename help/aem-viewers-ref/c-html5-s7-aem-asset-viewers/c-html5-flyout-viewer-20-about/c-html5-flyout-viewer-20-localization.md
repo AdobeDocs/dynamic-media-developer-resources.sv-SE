@@ -8,15 +8,18 @@ topic: Dynamic media
 uuid: efba09ad-200b-4540-8876-c9e462ec233a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '374'
+ht-degree: 0%
 
 ---
 
 
-# Lokalisering av användargränssnittselement{#localization-of-user-interface-elements}
+# Lokalisering av element i användargränssnittet{#localization-of-user-interface-elements}
 
 Visst innehåll som visas i visningsprogrammet kan lokaliseras. Det här innehållet innehåller funktionsbeskrivningar och informationsmeddelanden för användargränssnittselement som visas i den utfällbara zoomvyn vid inläsningen.
 
-Varje textinnehåll i visningsprogrammet som kan lokaliseras representeras av en SDK-identifierare för visningsprogrammet som kallas SYMBOL. Alla SYMBOL har ett associerat standardtextvärde för den engelska språkversionen ( `"en"`) som medföljer visningsprogrammet som inte är installerat. Den kan också ha användardefinierade värden för så många språkområden som behövs.
+Varje textinnehåll i visningsprogrammet som kan lokaliseras representeras av en SDK-identifierare för visningsprogrammet som kallas SYMBOL. Alla SYMBOL har ett associerat standardtextvärde för det engelska språket ( `"en"`) som medföljer visningsprogrammet som inte är installerat. Den kan också ha användardefinierade värden för så många språkområden som behövs.
 
 När visningsprogrammet startas kontrolleras det aktuella språkområdet för att se om det finns ett användardefinierat värde för varje SYMBOL som stöds för språkområdet. I så fall används det användardefinierade värdet. i annat fall återställs den till standardtexten som inte finns i kartongen.
 
@@ -40,7 +43,7 @@ defaultLocale:"en"
 
 I ovanstående exempel definierar lokaliseringsobjektet två språkområden ( `"en"` och `"fr"`) och tillhandahåller lokalisering för två element i användargränssnittet i varje språkområde.
 
-Webbsideskoden ska skicka lokaliseringsobjektet till visarkonstruktorn, som ett värde i konfigurationsobjektets `localizedTexts` fält. Ett annat alternativ är att skicka lokaliseringsobjektet genom att anropa `setLocalizedTexts(localizationInfo)` metoden.
+Webbsideskoden ska skicka lokaliseringsobjektet till visarkonstruktorn, som ett värde i fältet `localizedTexts` för konfigurationsobjektet. Ett annat alternativ är att skicka lokaliseringsobjektet genom att anropa metoden `setLocalizedTexts(localizationInfo)`.
 
 Följande SYMBOL stöds:
 
@@ -53,39 +56,39 @@ Följande SYMBOL stöds:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Container.LABEL </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Container.LABEL  </span> </p> </td> 
    <td colname="col2"> <p>ARIA-etikett för visningsprogramelementet på den översta nivån. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.ROLE_DESCRIPTION </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.ROLE_DESCRIPTION  </span> </p> </td> 
    <td colname="col2"> <p>ARIA-rollbeskrivning för huvudvykomponent. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.USAGE_HINT </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.USAGE_HINT  </span> </p> </td> 
    <td colname="col2"> <p>ARIA-användningstips för tangentbordsanvändare. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIP_BUBBLE_OVER </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIP_BUBBLE_OVER  </span> </p> </td> 
    <td colname="col2"> <p>Informationsmeddelande för datorer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIP_BUBBLE_TAP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIP_BUBBLE_TAP  </span> </p> </td> 
    <td colname="col2"> <p>Informationsmeddelande för pekenheter. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ScrollLeftButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ScrollLeftButton.TOOLTIP  </span> </p> </td> 
    <td colname="col2"> <p>Verktygstips för att rulla vänster knapp. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ScrollRightButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ScrollRightButton.TOOLTIP  </span> </p> </td> 
    <td colname="col2"> <p>Verktygstips för att rulla höger knapp. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ScrollUpButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ScrollUpButton.TOOLTIP  </span> </p> </td> 
    <td colname="col2"> <p>Verktygstips för att rulla uppåt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ScrollDownButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ScrollDownButton.TOOLTIP  </span> </p> </td> 
    <td colname="col2"> <p>Verktygstips för rullningsknapp. </p> </td> 
   </tr> 
  </tbody> 
