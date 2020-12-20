@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 1f2dae40-0314-483a-a731-11889e166dee
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 0%
 
 ---
 
 
-# Referens för materialdata{#material-data-reference}
+# Materialdatareferens{#material-data-reference}
 
 Om materialdata krävs för en materialkatalog måste den relativa eller absoluta sökvägen för materialdatafilen anges i attributet::CatalogFile.
 
