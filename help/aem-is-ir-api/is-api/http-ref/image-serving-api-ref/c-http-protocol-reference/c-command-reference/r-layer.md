@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 882309b3-51d7-477e-bd09-068ce9e55eb5
 translation-type: tm+mt
 source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+workflow-type: tm+mt
+source-wordcount: '397'
+ht-degree: 0%
 
 ---
 
@@ -30,12 +33,12 @@ Välj Lager. Markerar ett lager och startar ett nytt lagerdefinitionssegment i k
   <td class="stentry"> <p>Markera den sammansatta bilden. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> namn</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> name</span></span> </p></td> 
   <td class="stentry"> <p>Lagernamn. </p></td> 
  </tr> 
 </table>
 
-Alla kommandon i lagersegmentet används på det angivna lagret. Ett lagersegment avslutas med nästa `layer=` eller `effect=` nästa kommando eller slutet av begäran.
+Alla kommandon i lagersegmentet används på det angivna lagret. Ett lagersegment avslutas av nästa `layer=`- eller `effect=`-kommando eller slutet av begäran.
 
 Ange `layer=comp` om du vill markera den sammansatta bilden (eller visa vissa kommandon).
 
@@ -43,7 +46,7 @@ Lagernumret anger effektivt z-ordningen för lagret. Lager med högre nummer pla
 
 Lagernummer behöver inte vara i följd. Lager 0 krävs.
 
-Ett namn kan tilldelas ett lager med `layer= *``*, *`kommandovarianten`*` name. När ett namngivet lager har definierats kan det refereras med ` layer= *`namnet`*`, utan att behöva känna till lagrets nummer. Flera namn kan tilldelas till samma lager med hjälp av flera `layer= *``*, *`namnkommandon`*` .
+Ett namn kan tilldelas ett lager med kommandovarianten `layer= *`n`*, *`name`*`. När ett namngivet lager har definierats kan det refereras till med ` layer= *`namn`*`, utan att behöva känna till lagrets nummer. Flera namn kan tilldelas till samma lager med flera `layer= *`n`*, *`name`*`-kommandon.
 
 >[!NOTE]
 >
@@ -53,7 +56,7 @@ Ett namn kan tilldelas ett lager med `layer= *``*, *`kommandovarianten`*` name. 
 
 Lager, kommando. Ersättningsvariabelreferenser stöds inte i `layer=`.
 
-`comp` tillåts inte som en *`name`* sträng. Ett fel returneras om samma *`name`* är tilldelat mer än ett lager, eller om det finns referenser till ett lager *`name`* som inte har definierats tidigare.
+`comp` tillåts inte som en  *`name`* sträng. Ett fel returneras om samma *`name`* har tilldelats till mer än ett lager, eller om *`name`* refererar till ett lager som inte har definierats tidigare.
 
 ## Standard {#section-091859a03f8048c2b7092f0fec9c1006}
 
@@ -62,7 +65,7 @@ Lager, kommando. Ersättningsvariabelreferenser stöds inte i `layer=`.
 ## Specialfall {#section-e087cb2e3562473e8d391abfa3b9489f}
 
 * Om samma namn mappas till flera lager (till exempel: `layer=1,image&layer=2,image`) inträffar ett fel.
-* Om samma namn mappas till ett enda lager flera gånger (till exempel: `layer=1,image&layer=1,image`) anges omfånget som vanligt, utan fel.
+* Om samma namn mappas till ett enda lager flera gånger (till exempel: `layer=1,image&layer=1,image`), omfånget anges som vanligt, utan fel.
 * Flera namn för samma lager stöds.
 
    Båda namnen kan användas för att referera till lagret (till exempel: `layer=1,image&layer=1,picture`).
