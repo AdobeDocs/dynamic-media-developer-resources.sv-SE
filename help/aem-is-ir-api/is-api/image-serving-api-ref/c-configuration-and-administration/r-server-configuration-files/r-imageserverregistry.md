@@ -21,11 +21,11 @@ Innehåller konfigurationsinställningar för Image Server.
 
 När du ändrar den här XML-filen måste du se till att behålla giltig XML-syntax, annars kanske inte Image Server startar.
 
-För att ändringarna ska börja gälla startar du om Image Server när du har redigerat den här filen. Det är bara elementvärdena som anges nedan som kan ändras. Redigera eventuellt annat innehåll i den här filen endast om du får råd från Scene7 Technical Support.
+För att ändringarna ska börja gälla startar du om Image Server när du har redigerat den här filen. Det är bara elementvärdena som anges nedan som kan ändras. Redigera allt annat innehåll i filen endast om Scene7 tekniska support rekommenderar det.
 
 >[!NOTE]
 >
->Ändra inte elementens struktur `<imageserverregistry>`och ordning. Var försiktig när du redigerar den här filen, annars kanske inte Image Server kan startas.
+>Ändra inte strukturen för `<imageserverregistry>`, inklusive ordningen för element. Var försiktig när du redigerar den här filen, annars kanske inte Image Server kan startas.
 
 Följande visar vilka element som kan ändras. Det finns andra element som inte får ändras. Ordningen på elementen nedan återspeglar inte den ordning i vilken de måste finnas i filen.
 
@@ -55,4 +55,4 @@ Följande visar vilka element som kan ändras. Det finns andra element som inte 
 
 ## Anteckningar {#section-7217f011f69f41e7af4f3983d7776d6f}
 
-Det kan finnas flera `<RootPath>` element (ett för varje källdatamapp). Image Server söker igenom rotsökvägarna i den ordning som anges för att hitta en viss källfil.
+Det kan finnas flera `<RootPath>`-element (ett för varje källdatamapp). Image Server söker igenom rotsökvägarna i den ordning som anges för att hitta en viss källfil.
