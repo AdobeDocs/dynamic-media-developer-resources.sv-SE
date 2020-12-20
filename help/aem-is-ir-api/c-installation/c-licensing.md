@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 00877fc7-8e92-40a1-95d5-04f1d49182e5
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '123'
+ht-degree: 0%
 
 ---
 
@@ -16,6 +19,6 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 För att använda Image Serving krävs en licensnyckel för Scene7 Image Serving och den måste vara installerad på varje system där Image Serving ska användas.
 
-På samma sätt krävs en licensnyckel för Scene7-bildåtergivning för att använda bildåtergivning. Bildåtergivning kan användas utan en Image Serving-licens och vice versa.
+På samma sätt krävs en licensnyckel för Scene7 Image Rendering för att använda bildåtergivning. Bildåtergivning kan användas utan en Image Serving-licens och vice versa.
 
 Installationsproceduren innehåller steg för att hämta och installera nödvändiga licensnycklar.
