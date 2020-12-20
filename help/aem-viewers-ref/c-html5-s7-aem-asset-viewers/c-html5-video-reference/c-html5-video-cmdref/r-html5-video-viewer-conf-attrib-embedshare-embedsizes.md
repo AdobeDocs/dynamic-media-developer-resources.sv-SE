@@ -1,18 +1,21 @@
 ---
 description: Konfigurationsattribut för Video Viewer.
 seo-description: Konfigurationsattribut för Video Viewer.
-seo-title: EmbedShare.embedSize
+seo-title: EmbedShare.embedsizes
 solution: Experience Manager
-title: EmbedShare.embedSize
+title: EmbedShare.embedsizes
 topic: Dynamic media
 uuid: 1fc6057f-9e25-4e94-b516-e3e7af60188c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '63'
+ht-degree: 3%
 
 ---
 
 
-# EmbedShare.embedSize{#embedshare-embedsizes}
+# EmbedShare.embedsizes{#embedshare-embedsizes}
 
 Konfigurationsattribut för Video Viewer.
 
@@ -23,15 +26,15 @@ Anger en lista med inbäddningsstorlekar för kombinationsrutan för storlek i d
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> bredd </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> width  </span> </span> </p> </td> 
    <td colname="col2"> <p> Bädda in bredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> höjd </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> height  </span> </span> </p> </td> 
    <td colname="col2"> <p>Bädda in höjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
    <td colname="col2"> <p> Anger om det här listobjektet ska vara förmarkerat i kombinationsrutan. </p> </td> 
   </tr> 
  </tbody> 
