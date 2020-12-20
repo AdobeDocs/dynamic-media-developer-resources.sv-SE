@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 6d413fac-6930-4f6d-90ad-62abb419efef
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '168'
+ht-degree: 0%
 
 ---
 
@@ -20,12 +23,12 @@ När det här attributet definieras tillåts eller begränsas sökvägsbaserad �
 
 >[!NOTE]
 >
->Om inget `AllowDirectAccess` attribut anges är standardvärdet `exclude`.
+>Om attributet `AllowDirectAccess` inte anges är standardvärdet `exclude`.
 
 * `include` ger åtkomst till de angivna objekttyperna och begränsar åtkomsten för alla andra.
 * `exclude` begränsar åtkomsten för de angivna objekttyperna och tillåter åtkomst för alla andra.
 
-Om varken `include` eller `exclude` anges `include` antas.
+Om varken `include` eller `exclude` har angetts antas `include`.
 
 Följande typer kan kontrolleras:
 
@@ -39,13 +42,13 @@ Följande typer kan kontrolleras:
 
 ## Exempel {#section-4c3765ebaa4245a799b454fc196f9237}
 
-* Tillåt endast direktåtkomst för `IS` - och `STATIC` objekttyper
+* Tillåt endast direktåtkomst för objekttyperna `IS` och `STATIC`
 
    `AllowDirectAccess=include:IS,STATIC`
 
 * Tillåt direktåtkomst för alla objekttyper utom `IS` och `STATIC``AllowDirectAccess=exclude:IS,STATIC`
 
-* Tillåt direktåtkomst för *inga* objekttyper (d.v.s. ingen)
+* Tillåt direktåtkomst för *inga* objekttyper (d.v.s. inga)
 
    `AllowDirectAccess=include:`
 
@@ -53,13 +56,13 @@ Följande typer kan kontrolleras:
 
    `AllowDirectAccess=exclude:`
 
-* Motsvarar `include:IS,STATIC` (om `include`/ `exclude` saknas `include` antas detta)
+* Motsvarar `include:IS,STATIC` (om `include`/ `exclude` inte finns antas `include`)
 
    `AllowDirectAccess=IS,STATIC`
 
-   Observera att det är standardvärdet som används om attributet inte har angetts för det här företaget `AllowDirectAccess` .
+   Observera att är standardvärdet som används om attributet `AllowDirectAccess` inte har angetts för det här företaget.
 
-* Inkludera inga, vilket motsvarar `include:` (om `include`/ `exclude` inte finns, `include` antas)
+* Inkludera ingen, vilket motsvarar `include:` (om `include`/ `exclude` inte finns, antas `include`)
 
    `AllowDirectAccess=`
 
