@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: b4e1de52-db0a-43dc-aefe-26e8f5020e79
 translation-type: tm+mt
 source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
+workflow-type: tm+mt
+source-wordcount: '114'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +31,7 @@ Svarsdata är formaterade så att de kan läsas som Java-egenskaper. Ett typiskt
 
 ` *[!DNL propertyValue]*` kan vara tom. Tomt utrymme är valfritt i början och slutet av varje rad och före och efter avgränsaren &#39;=&#39;. Enkla eller dubbla citattecken kan användas för att omsluta strängvärden, men är inte obligatoriska.
 
-Strängvärden kan innehålla escape-tecken i JAVA-format, till exempel `\n`, `\t`, `\:`. eller `\\`.
+Strängvärden kan innehålla JAVA-liknande escape-tecken, som `\n`, `\t`, `\:`. eller `\\`.
 
 **Se även**
 
