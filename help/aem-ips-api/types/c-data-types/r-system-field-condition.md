@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 811095df-732d-48a3-a6ff-55d6dc602b54
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '127'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Ett sökvillkor för systemfält för åtgärden searchAssets.
 
-För unära jämförelser skickar du exakt ett värde ( `boolVal`, `longVal`, `doubleVal`eller `dateVal`) beroende på systemfältstypen. För sökintervall skickar du `min<Type>` och `max<Type>` parametrar och skickar `op` värdet `Between` eller `NotBetween`.
+För unära jämförelser skickar du exakt ett värde ( `boolVal`, `longVal`, `doubleVal` eller `dateVal`) beroende på systemfältstypen. För sökintervall skickar du parametrarna `min<Type>` och `max<Type>` och skickar `op` värdet `Between` eller `NotBetween`.
 
 ## Parametrar {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
