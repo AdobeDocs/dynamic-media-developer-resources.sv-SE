@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: cb9f4dc5-9d89-483a-ae72-b9076b27c57e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '177'
+ht-degree: 3%
 
 ---
 
@@ -24,7 +27,7 @@ Delmarkering. Tillåter att olika material används på olika områden i det mar
   <td class="stentry"> <p>Markera hela väggen. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>1 </p> </td> 
+  <td class="stentry"> <p>3 </p> </td> 
   <td class="stentry"> <p>Markera den övre halvan av väggen. </p> </td> 
  </tr> 
  <tr class="strow"> 
