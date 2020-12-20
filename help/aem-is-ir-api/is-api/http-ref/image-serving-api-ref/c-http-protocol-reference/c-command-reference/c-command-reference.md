@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 72c4ed61-3436-4df5-b586-77808fb1903a
 translation-type: tm+mt
 source-git-commit: c5bac2c6e3f3a05bf69924072c4305dbd7ba1f4f
+workflow-type: tm+mt
+source-wordcount: '224'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: c5bac2c6e3f3a05bf69924072c4305dbd7ba1f4f
 
 I det här avsnittet beskrivs HTTP-protokollkommandona.
 
-**Endast** för dynamiska media i AEM: Förutom de grundläggande bildinställningarna som är tillgängliga i användargränssnittet har [!DNL Dynamic Media] i AEM ( [!DNL Adobe Experience Manager]) stöd för många avancerade bildändringar som du kan ange i fältet **Bildmodifierare** . Dessa parametrar definieras nedan. Tänk dock på att följande funktioner inte stöds i Dynamic Media i AEM.
+**Endast** för Dynamic Media i AEM: Förutom de grundläggande bildinställningarna som är tillgängliga i användargränssnittet har  [!DNL Dynamic Media] i AEM (  [!DNL Adobe Experience Manager]) stöd för många avancerade bildändringar som du kan ange i fältet  **Image** Modifiers. Dessa parametrar definieras nedan. Tänk dock på att följande funktioner inte stöds i Dynamic Media i AEM.
 
 * Färgkorrigeringskommandon: `icc=` och `iccEmbed=`.
 * Grundläggande kommandon för mallar och textåtergivning: `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` och `textPs=`.
@@ -26,7 +29,7 @@ I det här avsnittet beskrivs HTTP-protokollkommandona.
 * `req=saveToFile`
 * `req=targets`
 * `template=`
-* Dynamiska medietjänster utan kärna: SVG, bildåtergivning och web-to-Print.
+* Icke-kärntjänster från Dynamic Media: SVG, bildåtergivning och web-to-Print.
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
