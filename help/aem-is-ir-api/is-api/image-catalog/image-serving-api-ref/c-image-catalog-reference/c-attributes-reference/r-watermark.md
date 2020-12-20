@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 18add7ab-0797-4ab3-a7e8-05c745abe605
 translation-type: tm+mt
 source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 0%
 
 ---
 
@@ -20,11 +23,11 @@ Om det anges använder servern vattenstämpeln på de begärda bilddata för all
 
 ## Egenskaper {#section-fad6ffff4c5f4b5c8010281bc1377055}
 
-Textsträng. Om det anges måste det vara ett giltigt `Catalog::Id` värde i den här bildkatalogen (eller i standardkatalogen, om det anges i [!DNL default.ini]).
+Textsträng. Om det anges måste det vara ett giltigt `Catalog::Id`-värde i den här bildkatalogen (eller i standardkatalogen, om det anges i [!DNL default.ini]).
 
 ## Standard {#section-f8a2029b5b8740b2af149bdbfa28fbae}
 
-Ärvs från `default::Watermark` om inte definierat. Om den är definierad men tom används ingen vattenstämpel för den här bildkatalogen, även om `default::Watermark` den är definierad.
+Ärvs från `default::Watermark` om inte definierat. Om den är definierad men tom används ingen vattenstämpel för den här bildkatalogen, även om `default::Watermark` är definierad.
 
 ## Se även {#section-f15dbe31013849828d78588742dde58e}
 
