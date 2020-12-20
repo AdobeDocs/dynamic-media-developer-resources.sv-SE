@@ -21,23 +21,23 @@ Använd de här serverinställningarna för att felsöka spårningsloggning.
 
 >[!NOTE]
 >
->Vi rekommenderar att du konfigurerar alla loggfiler som ska skrivas till samma mapp som `TC::directory`. Detta garanterar att alla loggfiler för Image Serving deltar i den automatiska loggfilsrotation som konfigurerats med `TC::maxDays`, vilket förhindrar att servern blir instabil på grund av att det inte finns tillräckligt med diskutrymme.
+>Vi rekommenderar att du konfigurerar alla loggfiler som ska skrivas till samma mapp som `TC::directory`. Detta garanterar att alla loggfiler för Image Serving deltar i den automatiska loggfilsrotationen som konfigurerats med `TC::maxDays`, vilket förhindrar att servern blir instabil på grund av att det inte finns tillräckligt med diskutrymme.
 
 ## SV::log - Sökväg till loggfil för serveradministratörens spårningslogg {#section-3697bc480ff646e79cacc2812c55ef26}
 
-Mapp- och basfilnamn för Server Supervisor-loggfiler. Sökvägen kan vara absolut eller relativ till *[!DNL install_folder]*. Serverhanteraren lägger till ett bindestreck och det aktuella datumet ( *[!DNL -yyyy-mm-dd]*) till filnamnet (före filsuffixet, om det finns något). Du bör skicka alla loggfiler till samma mapp som Platform Server-loggfiler ( `PS::LogFolder`) för att utnyttja den loggfilshantering som implementeras av Platform Server ( `PS::LogDays`). Standardvärdet är [!DNL logs/Supervisor.log].
+Mapp- och basfilnamn för Server Supervisor-loggfiler. Sökvägen kan vara absolut eller relativ till *[!DNL install_folder]*. Serverhanteraren lägger till ett bindestreck och det aktuella datumet ( *[!DNL -yyyy-mm-dd]*) till filnamnet (före filsuffixet, om det finns något). Vi rekommenderar att du skickar alla loggfiler till samma mapp som loggfilerna för plattformsservern ( `PS::LogFolder`) för att utnyttja loggfilshanteringen som implementeras av plattformsservern ( `PS::LogDays`). Standardvärdet är [!DNL logs/Supervisor.log].
 
 >[!NOTE]
 >
 >Den nya mappen måste skapas innan den här inställningen ändras. Se till att åtkomstbehörigheterna är inställda så att Serverhanteraren har de nödvändiga behörigheterna för att skapa, läsa och skriva.
 
-## SV::trachel - Loggnivå för servertillsynsgrupp {#section-36f8634741da4c618d67aa628b5fe474}
+## SV::trachel - Loggnivå för servertillsynsspårning {#section-36f8634741da4c618d67aa628b5fe474}
 
 Loggnivån kan vara 1, 2, 3 eller 4. Standardvärdet är 2.
 
-## IS::Log - Felsökningsloggfilens sökväg för Image Server {#section-73a3f09b77f2446c9f82207b7d8aec39}
+## IS::Log - Felsökningsloggfilssökväg för Image Server {#section-73a3f09b77f2446c9f82207b7d8aec39}
 
-Mapp- och basfilnamn för bildserverns spårningsloggfiler. Sökvägen kan vara absolut eller relativ till *[!DNL install_folder]*. ImageServer lägger till ett bindestreck och det aktuella datumet ( *[!DNL -yyyy-mm-dd]*) till filnamnet (före filsuffixet, om det finns något). Vi rekommenderar att du skickar loggfiler för Image Server till samma mapp som loggfilerna för Platform Server ( `PS::LogFolder`) för att utnyttja den loggfilshantering som implementeras av Platform Server (se `PS::LogDays`).
+Mapp- och basfilnamn för bildserverns spårningsloggfiler. Sökvägen kan vara absolut eller relativ till *[!DNL install_folder]*. ImageServer lägger till ett bindestreck och det aktuella datumet ( *[!DNL -yyyy-mm-dd]*) till filnamnet (före filsuffixet, om det finns något). Vi rekommenderar att du skickar loggfiler för Image Server till samma mapp som loggfilerna för Platform Server ( `PS::LogFolder`) för att utnyttja loggfilshanteringen som implementeras av Platform Server (se `PS::LogDays`).
 
 >[!NOTE]
 >
@@ -47,13 +47,13 @@ Mapp- och basfilnamn för bildserverns spårningsloggfiler. Sökvägen kan vara 
 
 Loggnivån kan vara 1, 2, 3 eller 4 (standard är 2)
 
-Nivå 1 loggar händelser som rör start-, avstängnings- och Platform Server-anslutningar.
+Nivå 1 loggar händelser relaterade till anslutningar för start, avstängning och plattformsserver.
 
 Nivå 2 loggar även anslutning till och frånkoppling från källbilder.
 
-Nivå 3 lägger till loggning av begäranden om pixeldata och leverans av dessa till Platform Server.
+Nivå 3 lägger till loggning av begäranden om pixeldata och leverans av dessa till plattformsservern.
 
-Nivå 4 registrerar alla meddelanden som tas emot från Platform Server.
+Nivå 4 registrerar alla meddelanden som tagits emot från plattformsservern.
 
 Nivå 3 och 4 bör endast användas i felsökningssyfte eftersom loggfilerna kan bli mycket stora.
 
