@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: ed0fb9e4-8a65-4791-a428-4e950c492198
 translation-type: tm+mt
 source-git-commit: 8d7fdab78c5d23d0e541effa9b9c470921bd144b
+workflow-type: tm+mt
+source-wordcount: '145'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 8d7fdab78c5d23d0e541effa9b9c470921bd144b
 
 Huvudklassen i visningsprogrammet för den infogade zoomningen är FlyoutViewer. Den deklareras i s7viewers namnutrymme. Detta JavaScript-API omfattar konstruktor, metoder och anrop till den här klassen.
 
-I alla följande exempel står `<instance>` för det faktiska namnet på JavaScript-visningsobjektet som initieras från `s7viewers.FlyoutViewer` klassen.
+I alla följande exempel står `<instance>` för det faktiska namnet på JavaScript-visningsobjektet som har initierats från klassen `s7viewers.FlyoutViewer`.
 
 * [dispose](r-html5-inlinezoom-viewer-javascriptapiref-dispose.md)
 * [FlyoutViewer](r-html5-inlinezoom-viewer-javascriptapiref-inlinezoomviewer.md)
