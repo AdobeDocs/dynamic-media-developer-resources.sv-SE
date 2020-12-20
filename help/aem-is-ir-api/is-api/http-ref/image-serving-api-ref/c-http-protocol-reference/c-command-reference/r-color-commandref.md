@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 46b93609-02c0-47bf-97c0-e7b2e416d292
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '216'
+ht-degree: 0%
 
 ---
 
@@ -20,18 +23,18 @@ Lagerfärg. Anger förgrundsfärgen och opaciteten för heltäckande färg- och 
 
 <table id="simpletable_68645167998A42229CEF858909FD447E"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> färg </span></span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> färg  </span> </span> </p> </td> 
   <td class="stentry"> <p>Grått, RGB eller CMYK-färgvärde, med eller utan alfa. </p> </td> 
  </tr> 
 </table>
 
-När det gäller bild- och textlager fylls genomskinliga och halvgenomskinliga områden inom markeringsramen för lagret med den angivna färgen* före* `color=` och `rotate=` `extend=` används.
+När det gäller bild- och textlager fyller `color=` genomskinliga och halvgenomskinliga områden i markeringsramen för lagret med den angivna färgen* innan* `rotate=` och `extend=` används.
 
 ## Egenskaper {#section-d6e74c36a49547849212e4db8927e678}
 
-Lagerattribut. Gäller för aktuellt lager eller för lagret 0 om `layer=comp`.
+Lagerattribut. Gäller för det aktuella lagret eller för lagret 0 om `layer=comp`.
 
-*`color`* antas finnas i den arbetsfärgrymd som motsvarar pixeltypen för *`color`*. *`color`* konverteras korrekt om lagerbilden har en annan pixeltyp vid tidpunkten för sammanslagningen.
+*`color`* antas finnas i den arbetsfärgrymd som motsvarar pixeltypen för  *`color`*. *`color`* konverteras korrekt om lagerbilden har en annan pixeltyp vid tidpunkten för sammanslagningen.
 
 ## Standard {#section-60611c72876b4c45b5c85ce35608e5ec}
 
@@ -45,4 +48,4 @@ I följande mallfragment ställer vi in textbakgrunden till en 50 % ogenomskinli
 
 ## Se även {#section-f0e059f857b64b61ab4f23312b8dc619}
 
-[color](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md#reference-0fdb264a3aed4bd78451bb55311f6e93), [bgColor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab), [opac=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-opac.md#reference-d2269b51aca34599a08d0a46ee5c27e5), [extend=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac), [bgc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88), [Color Management](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-color-management.md#reference-c7e4a72d589145189f7e4bcb6b4544d7)
+[color](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md#reference-0fdb264a3aed4bd78451bb55311f6e93),  [bgColor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab),  [opac=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-opac.md#reference-d2269b51aca34599a08d0a46ee5c27e5),  [extend=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac),  [bgc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88),  [Color Management](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-color-management.md#reference-c7e4a72d589145189f7e4bcb6b4544d7)
