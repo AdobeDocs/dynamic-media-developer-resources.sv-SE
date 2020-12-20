@@ -1,33 +1,36 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: EmbedShare.embedSize
+seo-title: EmbedShare.embedsizes
 solution: Experience Manager
-title: EmbedShare.embedSize
+title: EmbedShare.embedsizes
 topic: Dynamic media
 uuid: 13a93677-5221-48d9-bea8-d291f8612f09
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '33'
+ht-degree: 6%
 
 ---
 
 
-# EmbedShare.embedSize{#embedshare-embedsizes}
+# EmbedShare.embedsizes{#embedshare-embedsizes}
 
 ` [EmbedShare.|<containerId>_embedShare.]embedsizes= *``*, *``*[,0|1][; *``*, *`breddhöjdbreddhöjd`*[,0|1]]`
 
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> bredd </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> width  </span> </span> </p> </td> 
    <td colname="col2"> <p>Bädda in bredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> höjd </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> height  </span> </span> </p> </td> 
    <td colname="col2"> <p>Bädda in höjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
    <td colname="col2"> <p> Anger om det här listobjektet ska vara förmarkerat i kombinationsrutan. </p> </td> 
   </tr> 
  </tbody> 
