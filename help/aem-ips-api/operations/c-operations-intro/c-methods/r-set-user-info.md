@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 52e3a21e-1dd5-4f9d-b460-506d280fff47
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '116'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +38,7 @@ Syntax
 | ` *`firstName`*` | `xsd:string` | Ja | Förnamn. |
 | ` *`lastName`*` | `xsd:string` | Ja | Efternamn. |
 | ` *`e-post`*` | `xsd:string` | Ja | E-post från användare. |
-| ` *`defaultRole`*` | `xsd:string` | Ja | Anger rollen för en användare i varje företag de tillhör. Observera dock att `IpsAdmin` rollen åsidosätter andra inställningar per företag. |
+| ` *`defaultRole`*` | `xsd:string` | Ja | Anger rollen för en användare i varje företag de tillhör. Observera dock att `IpsAdmin`-rollen åsidosätter andra inställningar per företag. |
 | ` *`passwordExpires`*` | `xsd:dateTime` | Nej | Ange förfallodatum för lösenord. |
 | ` *`isValid`*` | `xsd:boolean` | Ja | Avgör om användaren är en giltig IPS-användare. |
 | ` *`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Ja | En array med företagshandtag. |
