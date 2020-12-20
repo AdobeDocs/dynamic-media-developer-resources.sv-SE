@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: c3b7aada-a03a-418d-80b2-31a86a1af786
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '90'
+ht-degree: 0%
 
 ---
 
@@ -23,5 +26,5 @@ Syntax
 | Namn | Typ | Beskrivning |
 |---|---|---|
 | ` *`ccOriginator`*` | `xsd:boolean` | Om värdet är true inkluderar användarens webbtjänstkonto, som är en lista över e-postmeddelanden som ska ta emot en e-postbekräftelse från Scene7 CDN. |
-| ` *`ccOthersArray`*` | `types:EmailArray` | En matris med e-postadresser (max 5) som ska ta emot bekräftelsemeddelandet från Scene7 CDN. |
+| ` *`ccOthersArray`*` | `types:EmailArray` | En matris med e-postadresser (max 5) som ska ta emot bekräftelsemeddelanden från Scene7 CDN. |
 
