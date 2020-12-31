@@ -7,7 +7,7 @@ title: Överföra resurser via HTTP POST till UploadFile-servern
 topic: Scene7 Image Production System API
 uuid: 8d562316-0849-4b95-a974-29732d453dc8
 translation-type: tm+mt
-source-git-commit: dac273f51703fd63f1d427fbb7713fcc79bfa2c4
+source-git-commit: 5d738b675975251dc3491ac7ae533eda082df134
 workflow-type: tm+mt
 source-wordcount: '766'
 ht-degree: 0%
@@ -66,22 +66,22 @@ https://<server>/scene7/UploadFile
 >
 >Alla POSTER som begär ett överföringsjobb måste komma från samma IP-adress.
 
-| Formulärdel för HTTP-POST | Beskrivning |
-|-|-|
-|`auth` |  Obligatoriskt. Ett XML authHeader-dokument som anger autentisering och klientinformation. Se **Begär autentisering** under [SOAP](/help/aem-ips-api/c-wsdl-versions.md). |
-|`file params` |  Valfritt. Du kan inkludera en eller flera filer som ska överföras vid varje begäran om POST. Varje fildel kan innehålla en filnamnsparameter i Content-Disposition-huvudet som används som målfilnamn i IPS om ingen `uploadPostParams/fileName`-parameter har angetts. |
+|  Formulärdel för HTTP-POST  |  Beskrivning  |
+|---|---|
+| `auth`  |   Obligatoriskt. Ett XML authHeader-dokument som anger autentisering och klientinformation. Se **Begär autentisering** under [SOAP](/help/aem-ips-api/c-wsdl-versions.md). |
+| `file params`  |   Valfritt. Du kan inkludera en eller flera filer som ska överföras vid varje begäran om POST. Varje fildel kan innehålla en filnamnsparameter i Content-Disposition-huvudet som används som målfilnamn i IPS om ingen `uploadPostParams/fileName`-parameter har angetts. |
 
-| Formulärdel för HTTP-POST  | uploadPostParams-elementnamn  | Typ  | Beskrivning  |
-|-|-|-|-|
-|`uploadParams` (obligatoriskt. Ett XML-dokument (`uploadParams`-dokument som anger överföringsparametrarna)  |  `companyHandle` | `xsd:string` | Krävs. Hantera till det företag som filen överförs till. |
-|`uploadParams` (obligatoriskt. Ett XML-dokument (`uploadParams`) som anger överföringsparametrarna)|`jobName` | `xsd:string` | Antingen `jobName` eller `jobHandle` krävs. Namn på överföringsjobbet. |
-|`uploadParams` (obligatoriskt. Ett XML-dokument (`uploadParams`) som anger överföringsparametrarna)|`jobHandle` | `xsd:string` | Antingen `jobName` eller `jobHandle` krävs. Hantera ett överföringsjobb som har startats i en tidigare begäran. |
-|`uploadParams` (obligatoriskt. Ett XML-dokument (`uploadParams`) som anger överföringsparametrarna)|`locale` | `xsd:string` | Valfritt. Språk- och landskod för lokalisering. |
-|`uploadParams` (obligatoriskt. Ett XML-dokument (`uploadParams`) som anger överföringsparametrarna)|`description` | `xsd:string` | Valfritt. Beskrivning av jobbet. |
-|`uploadParams` (obligatoriskt. Ett XML-dokument (`uploadParams`) som anger överföringsparametrarna)|`destFolder` | `xsd:string` | Valfritt. Sökväg till målmappen om du vill lägga till prefix till en filename-egenskap, särskilt för webbläsare och andra klienter som inte har stöd för fullständiga sökvägar i ett filnamn. |
-|`uploadParams` (obligatoriskt. Ett XML-dokument (`uploadParams`) som anger överföringsparametrarna)|`fileName` | `xsd:string` | Valfritt. Målfilens namn. Åsidosätter filename-egenskapen. |
-|`uploadParams` (obligatoriskt. Ett XML-dokument (`uploadParams`) som anger överföringsparametrarna)|`endJob` | `xsd:boolean` | Valfritt. Standardvärdet är false. |
-|`uploadParams` (obligatoriskt. Ett XML-dokument (`uploadParams`) som anger överföringsparametrarna)|`uploadParams` | `types:UploadPostJob` | Valfritt om detta är en efterföljande begäran för ett befintligt aktivt jobb. Om det finns ett befintligt jobb ignoreras `uploadParams` och de befintliga jobböverföringsparametrarna används. Se [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4) |
+|  Formulärdel för HTTP-POST   |  uploadPostParams-elementnamn   |  Typ   |  Beskrivning   |
+|---|---|---|---|
+| `uploadParams` (Obligatoriskt. Ett XML-dokument (`uploadParams`-dokument som anger överföringsparametrarna)   |   `companyHandle`  |  `xsd:string`  | Obligatoriskt. Hantera till det företag som filen överförs till.  |
+| `uploadParams` (Obligatoriskt. Ett XML-dokument (`uploadParams`-dokument som anger överföringsparametrarna) | `jobName`  |  `xsd:string`  | Antingen `jobName` eller `jobHandle` krävs. Namn på överföringsjobbet.  |
+| `uploadParams` (Obligatoriskt. Ett XML-dokument (`uploadParams`-dokument som anger överföringsparametrarna) | `jobHandle`  |  `xsd:string`  | Antingen `jobName` eller `jobHandle` krävs. Hantera ett överföringsjobb som har startats i en tidigare begäran.  |
+| `uploadParams` (Obligatoriskt. Ett XML-dokument (`uploadParams`-dokument som anger överföringsparametrarna) | `locale`  |  `xsd:string`  | Valfritt. Språk- och landskod för lokalisering.  |
+| `uploadParams` (Obligatoriskt. Ett XML-dokument (`uploadParams`-dokument som anger överföringsparametrarna) | `description`  |  `xsd:string`  | Valfritt. Beskrivning av jobbet.  |
+| `uploadParams` (Obligatoriskt. Ett XML-dokument (`uploadParams`-dokument som anger överföringsparametrarna) | `destFolder`  |  `xsd:string`  | Valfritt. Sökväg till målmappen om du vill lägga till prefix till en filename-egenskap, särskilt för webbläsare och andra klienter som inte har stöd för fullständiga sökvägar i ett filnamn.  |
+| `uploadParams` (Obligatoriskt. Ett XML-dokument (`uploadParams`-dokument som anger överföringsparametrarna) | `fileName`  |  `xsd:string`  | Valfritt. Målfilens namn. Åsidosätter filename-egenskapen. |
+| `uploadParams` (Obligatoriskt. Ett XML-dokument (`uploadParams`-dokument som anger överföringsparametrarna) | `endJob`  |  `xsd:boolean`  | Valfritt. Standardvärdet är false. |
+| `uploadParams` (Obligatoriskt. Ett XML-dokument (`uploadParams`-dokument som anger överföringsparametrarna) | `uploadParams`  |  `types:UploadPostJob`  | Valfritt om detta är en efterföljande begäran för ett befintligt aktivt jobb. Om det finns ett befintligt jobb ignoreras `uploadParams` och de befintliga jobböverföringsparametrarna används. Se [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4) |
 
 I `<uploadPostParams>`-blocket är `<uploadParams>`-blocket som anger bearbetningen av de inkluderade filerna.
 
