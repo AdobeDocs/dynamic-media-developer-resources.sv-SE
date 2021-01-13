@@ -1,15 +1,12 @@
 ---
+title: Installera flera Dynamic Media-visningsprogram på samma server
 description: Instruktioner för installation av Dynamic Media Viewer API.
-seo-description: Instruktioner för installation av Dynamic Media Viewer API.
-seo-title: Installera flera visningsprogram på samma server
 solution: Experience Manager
-title: Installera flera visningsprogram på samma server
-topic: Dynamic media
-uuid: 91ae8eb5-1d23-4fa3-a0d6-a4a0ed0eb104
+topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: a0983053795cc119eb57386c005e1f8a7c2fa3e4
+source-git-commit: 07eb6cf84a46753b41307187d5c5b2a077fa9009
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '162'
 ht-degree: 1%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 1%
 
 # Installera flera visningsprogram på samma server{#installing-multiple-viewers-on-the-same-server}
 
-<!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
+<!-- Updated January 13, 2021 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
 Instruktioner för installation av API:t för visningsprogram i Dynamic Media.
 
@@ -27,12 +24,12 @@ Kopiera IS Viewer-filerna till hårddisken och distribuera sedan `s7viewers.war`
 
 >[!NOTE]
 >
->Det finns ingen uppgradering för visningsprogrammen för Image Serving. Adobe rekommenderar att du säkerhetskopierar alla befintliga visningsprogramkataloger för Dynamic Media innan du fortsätter med installationen.
+>Det finns ingen uppgradering för visningsprogrammen för Image Serving. Adobe rekommenderar att du säkerhetskopierar alla befintliga Dynamic Media-visningsprogram (s7viewers) innan du fortsätter med installationen.
 
-**Installera visningsprogrammen på samma server**
+**Installera flera visningsprogram på samma server**
 
 1. Byt namn på visningsprogrammet .war till önskad kontext och distribuera filen till önskad plats.
 1. Ange parametern `this.isViewerRoot` i `config.js`.
 1. Öppna `config.js` i roten för den nya visningsprogrammappen.
-1. Ange parametern `this.isViewerRoot = "/s7viewers"` i kontexten för filen `s7viewers.war`. Exempel, `"/s7viewers-4.0"`. Spara och stäng filen.
+1. Ange parametern `this.isViewerRoot = "/s7viewers"` i kontexten för filen `s7viewers.war`. Exempel, `"/s7viewers-4.0"`.
 1. Spara filen och stäng den.
