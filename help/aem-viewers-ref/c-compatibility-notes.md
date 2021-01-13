@@ -7,7 +7,7 @@ title: Kompatibilitetsanteckningar
 topic: Dynamic media
 uuid: cf732a03-bfaa-4838-862f-73343cefbd67
 translation-type: tm+mt
-source-git-commit: a0983053795cc119eb57386c005e1f8a7c2fa3e4
+source-git-commit: 07eb6cf84a46753b41307187d5c5b2a077fa9009
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Kompatibilitetsinformation{#compatibility-notes}
 
-<!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
+<!-- Updated January 13,2021 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
 Kompatibilitetsinformation för operativsystem, webbläsare och mobila enheter.
 
@@ -76,4 +76,3 @@ Kompatibilitetsinformation för operativsystem, webbläsare och mobila enheter.
 * Safari 6.1 eller senare: Inställningarna för Internetplugin-programmet kan förhindra uppspelning av Flash-video.
 * Videosökning med HLS-strömning på Safari kan vara inkonsekvent.
 * Det går inte att söka till slutet av videon på Safari 6 med HLS-direktuppspelning.
-
