@@ -1,32 +1,29 @@
 ---
-description: Systemkrav för HTML5-visningsprogram.
-seo-description: Systemkrav för HTML5-visningsprogram.
-seo-title: Systemkrav
+title: Systemkrav för Dynamic Media HTML5-visningsprogram
+description: Systemkrav för Dynamic Media HTML5-visningsprogram.
 solution: Experience Manager
-title: Systemkrav
 topic: Dynamic media
 contentOwner: Rick Brough
-uuid: d282af6a-112e-48d6-b3ad-bec0648f4654
 translation-type: tm+mt
-source-git-commit: a0983053795cc119eb57386c005e1f8a7c2fa3e4
+source-git-commit: 07eb6cf84a46753b41307187d5c5b2a077fa9009
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
 
 
-# Systemkrav{#system-requirements}
+# Systemkrav för Dynamic Media HTML5-visningsprogram{#system-requirements}
 
-Systemkrav för HTML5-visningsprogram.
+Systemkrav för Dynamic Media HTML5-visningsprogram.
 
-<!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
+<!-- Updated January 13, 2021 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
 ## Servermaskinvara och -programvara {#section-05099146f1f0418988c196635110bee6}
 
-* Dynamic Media Classic Image Serving 6.7.1 eller senare.
-* HTML5-visningsprogram kräver SDK JavaScript-bibliotek på serversidan 3.9.1 eller senare.
-* Sociala funktioner som &quot;Skicka e-post till en vän&quot; kräver s7ondemand 5.0.7 eller senare.
+* Dynamic Media Classic (tidigare Scene7) Image Serving 6.7.1 eller senare.
+* HTML5-visningsprogram kräver SDK JavaScript-bibliotek på serversidan 3.10.2 eller senare.
+* Sociala funktioner som &quot;Skicka e-post till en vän&quot; kräver s7ondemand 5.0.9 eller senare.
 * eCatalog Viewer - Stöd för informationspanelen kräver informationsserver 2.1.8 eller senare.
 * Sökfunktionskomponenter kräver s7search 2.3.0 eller senare.
 
@@ -35,17 +32,15 @@ Systemkrav för HTML5-visningsprogram.
 **Minimikrav för klientwebbläsare för komponentvisningsprogram**
 
 * Microsoft® Windows® 7 eller senare; macOS X 10.12 eller senare.
-* Firefox 69, Safari 11 (endast macOS), Chrome 75 (eller senaste versionen; Chrome uppdateras automatiskt till den senaste versionen), Internet Explorer 11, Microsoft Edge.
+* Firefox 74, Safari 11 (endast macOS), Chrome 78 (eller senaste versionen; Chrome uppdateras automatiskt till den senaste versionen), Internet Explorer 11, Microsoft Edge.
 * iOS6 eller senare.
 * Certifierad på iPhone 3GS eller senare och iPad 2 eller senare (endast webbläsarna Safari och Chrome).
 * Android OS 4.x eller senare.
 * BlackBerry 10 eller senare; Endast inbyggda webbläsare. Videouppspelning stöds endast för närvarande.
 * Internet Explorer på mobila enheter stöds inte för närvarande.
-* Panoramavisningsprogram stöds i iOS 10 eller senare, Firefox 69, Chrome 75, Safari 11 eller senare, Internet Explorer 11 eller senare, Microsoft Edge, Android 4.4 eller senare (endast telefonenheter).
-* Video 360-visningsprogram och Dimensional-visningsprogram stöds iOS12 eller senare, Firefox 69, Chrome 75, Safari 12 eller senare, Microsoft Edge, Android 5 eller senare (endast telefonenheter).
-* Lodrät zoomningsvisning stöds i iOS 10 eller senare, Firefox 69, Chrome 75, Safari 11 eller senare, Internet Explorer 11, Microsoft Edge, Android 4.x eller senare.
-
-<!--<a id="section_1486A48CD38F42E3956E022A48207727"></a>-->
+* Panoramavisningsprogram stöds i iOS 10 eller senare, Firefox 74, Chrome 78, Safari 11 eller senare, Internet Explorer 11 eller senare, Microsoft Edge, Android 4.4 eller senare (endast telefonenheter).
+* Video360Viewer och DimensionalViewer stöds i iOS12 eller senare, Firefox 74, Chrome 78, Safari 12 eller senare, Microsoft Edge, Android 5 eller senare (endast telefonenheter).
+* ZoomVerticalViewer stöds iOS 10 eller senare, Firefox 74, Chrome 78, Safari 11 eller senare, Internet Explorer 11, Microsoft Edge, Android 4.x eller senare.
 
 >[!NOTE]
 >
@@ -67,10 +62,12 @@ Systemkrav för HTML5-visningsprogram.
 * OpenSSL 0.9.8y
 * Baidu, januari 2015
 
-<!--<a id="section_CF857D27B09D4B09999D79DA2628DDEE"></a>-->
+<!-- 
 
 >[!NOTE]
 >
->FLASH VIEWERS END-OF-Life - Från och med den 31 januari 2017 upphörde Adobe Scene7 Publishing System officiellt med stöd för visningsprogrammet för Flash. Mer information om den här viktiga ändringen finns på följande webbplats med vanliga frågor och svar:
+>FLASH VIEWERS END-OF-LIFE—Effective January 31, 2017, Adobe Scene7 Publishing System officially ended support for the Flash viewer platform. For more information about this important change, see the following FAQ website:
 
-[https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
+[https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).  
+
+-->
