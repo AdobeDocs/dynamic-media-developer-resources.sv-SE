@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Namnutrymme för visningsprogramsDK
+description: Namnutrymme för visningsprogramsDK
 solution: Experience Manager
 title: Namnutrymme för visningsprogramsDK
 topic: Dynamic media
 uuid: 476860e0-2685-4d6c-9555-acbc1d21138a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
