@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Hämta
+description: Hämta
 solution: Experience Manager
 title: Hämta
 topic: Dynamic media
 uuid: 84c1c9f5-ad96-447e-be78-bae2b7095a29
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '74'
 ht-degree: 0%
 
 ---
