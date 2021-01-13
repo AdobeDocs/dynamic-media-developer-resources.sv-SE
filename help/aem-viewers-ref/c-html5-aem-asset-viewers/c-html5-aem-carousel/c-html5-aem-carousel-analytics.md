@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Stöd för Adobe Analytics tracking
+description: Stöd för Adobe Analytics tracking
 solution: Experience Manager
 title: Stöd för Adobe Analytics tracking
 topic: Dynamic media
 uuid: a7de5549-2a9d-4153-be5e-72705ced85ac
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
