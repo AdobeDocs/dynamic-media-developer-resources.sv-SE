@@ -4,9 +4,9 @@ product: adobe
 archtype: end-user
 user-guide-title: Referenshandbok för Dynamic Media Viewer
 translation-type: tm+mt
-source-git-commit: 636edb2fe860a75af66ab5143ab91020a2eb47ec
+source-git-commit: 68497a2779c5a1fc6bd42d03f38c3ac104460709
 workflow-type: tm+mt
-source-wordcount: '1898'
+source-wordcount: '1901'
 ht-degree: 1%
 
 ---
@@ -20,9 +20,10 @@ ht-degree: 1%
 + [Systemkrav](c-system-requirements-and-prerequisites.md)
 + [Installera flera visningsprogram på samma server](t-installing-the-viewers.md)
 + Versionsinformation för visningsprogram {#viewers-release-notes}
-   + [Versionsinformation för visningsprogram (5.14.1)](c-release-notes/c-rn-06-03-20.md)
+   + [Versionsinformation för visningsprogram (5.15.3)](c-release-notes/c-rn-01-13-21.md)
    + Arkivera {#archive}
       + [Arkiv med veringsanteckningar](c-release-notes/c-archive/c-archive.md)
+      + [Versionsinformation för visningsprogram (5.14.1)](c-release-notes/c-archive/c-rn-06-03-20.md)
       + [Versionsinformation för visningsprogram (5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
       + [Versionsinformation för visningsprogram (5.12.1)](c-release-notes/c-archive/c-rn-04-01-19.md)
       + [Versionsinformation för visningsprogram (5.10.1)](c-release-notes/c-archive/c-rn-07-17-18.md)
@@ -35,6 +36,8 @@ ht-degree: 1%
       + [Versionsinformation om Scene7 Viewer 5.0.1](c-release-notes/c-archive/c-rn-04-29-14.md)
       + [Versionsinformation om Scene7 Viewer 4.9.2](c-release-notes/c-archive/c-rn-09-18-13.md)
 + [Kompatibilitetsanteckningar](c-compatibility-notes.md)
++ [Tangentbordstillgänglighet och -navigering](c-keyboard-accessibility.md)
++ [Självstudiekurs om SDK för visningsprogram](c-tutorial.md)
 + Visningsprogram för AEM Assets och Dynamic Media Classic {#viewers-aem-assets-dmc}
    + [Visningsprogram för AEM Assets och Dynamic Media Classic](c-html5-s7-aem-asset-viewers/c-html5-s7-aem-asset-viewers.md)
    + Grundläggande zoom {#basic-zoom}
@@ -939,5 +942,4 @@ ht-degree: 1%
    + [initialFrame](c-html5-viewer-20-cmdref-url/r-html5-viewer-20-cmdref-url-initialframe.md)
    + [serverUrl](c-html5-viewer-20-cmdref-url/r-html5-viewer-20-cmdref-url-serverurl.md)
    + [videoServerUrl](c-html5-viewer-20-cmdref-url/r-html5-viewer-cmdref-url-videoserverurl.md)
-+ [Tangentbordstillgänglighet och -navigering](c-keyboard-accessibility.md)
-+ [Självstudiekurs om SDK för visningsprogram](c-tutorial.md)
+
