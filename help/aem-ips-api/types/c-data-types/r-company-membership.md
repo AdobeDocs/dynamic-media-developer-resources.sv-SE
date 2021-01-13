@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: FöretagMedlemskap
+description: FöretagMedlemskap
 solution: Experience Manager
 title: FöretagMedlemskap
 topic: Scene7 Image Production System API
 uuid: 005e01d0-178b-44a9-ad50-67c47beba421
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '23'
+source-wordcount: '21'
 ht-degree: 0%
 
 ---
