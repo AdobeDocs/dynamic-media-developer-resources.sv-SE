@@ -4,10 +4,10 @@ seo-description: Felhantering av objektmarkeringsfel. Anger vilken åtgärd som 
 seo-title: OnFailObj
 solution: Experience Manager
 title: OnFailObj
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b9dcaf29-ffa5-47db-9c8c-d1809da73582
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 3%
@@ -29,7 +29,7 @@ Enum.
   <td class="stentry"> <p>Ärv från <span class="codeph"> standard::OnFailObj </span>. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p> </td> 
+  <td class="stentry"> <p>1 </p> </td> 
   <td class="stentry"> <p>Behåll föregående markering. </p> </td> 
  </tr> 
  <tr class="strow"> 
