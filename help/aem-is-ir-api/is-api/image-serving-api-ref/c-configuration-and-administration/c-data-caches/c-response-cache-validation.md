@@ -4,12 +4,12 @@ seo-description: Cacheposter uppdateras automatiskt med antingen katalogbaserad 
 seo-title: Verifiering av svarscache
 solution: Experience Manager
 title: Verifiering av svarscache
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d1aad5ae-f0fa-489b-a48b-b0ac8c8f43bb
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,6 @@ Cacheposter blir ogiltiga och kan genereras om när en katalogpost som ingår i 
 
 >[!NOTE]
 >
->Scene7 pyramid TIFF-bilder (PTIFF) bevarar fildatumet internt i filhuvudet för valideringsändamål. Filändringstiden som bevaras av filsystemet används för att kontrollera om en fil som inte är en PTIFF-fil har ändrats.
+>Dynamic Media pyramid TIFF-bilder (PTIFF) bevarar fildatumet internt i filhuvudet för valideringsändamål. Filändringstiden som bevaras av filsystemet används för att kontrollera om en fil som inte är en PTIFF-fil har ändrats.
 
 Endast bildfiler deltar i cachevalideringsprocessen. Ändringar av teckensnittsfiler eller ICC-profilfiler medför inte att cacheposter ogiltigförklaras automatiskt.
