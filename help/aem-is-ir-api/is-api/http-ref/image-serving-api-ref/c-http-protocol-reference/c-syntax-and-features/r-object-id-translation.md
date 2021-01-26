@@ -4,10 +4,10 @@ seo-description: Image Serving är en mekanism som översätter externa objekt-I
 seo-title: Översättning av objekt-ID
 solution: Experience Manager
 title: Översättning av objekt-ID
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8b4c2f44-033a-428a-b505-af389865c70a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Alla referenser till poster i bildkataloger, SVG-filer och statiska innehållska
 
 `attribute::LocaleMap` definierar reglerna som används av servern för att fastställa ID:t för det lokaliserade innehållet, givet som indata till det generiska objektet ID och  `locale=` värdet.
 
-`attribute::LocaleMap` består av en lista med  *inmatningsspråk*  (som matchar de värden som anges med  `locale=`), där vart och ett saknar eller har utmatningssuffix (  ` *`locSuffixes`*`).
+`attribute::LocaleMap` består av en lista med  *inmatningsspråk*  (som matchar de värden som anges med  `locale=`), där vart och ett saknar eller har utmatningssuffix (  `*`locSuffixes`*`).
 
 `attribute::LocaleMap` kan till exempel se ut så här:
 
