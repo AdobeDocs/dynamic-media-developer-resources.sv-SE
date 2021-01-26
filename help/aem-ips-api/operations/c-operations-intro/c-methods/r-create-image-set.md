@@ -4,10 +4,10 @@ seo-description: Skapar en bilduppsättning.
 seo-title: createImageSet
 solution: Experience Manager
 title: createImageSet
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 688f3954-bc8f-4687-8d66-e064561cd4a0
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
@@ -40,17 +40,17 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Referensen till företaget som bilduppsättningen tillhör. |
-| ` *`folderHandle`*` | `xsd:string` | Ja | Referensen till mappen. |
-| ` *`name`*` | `xsd:string` | Ja | Namn på bilduppsättning. |
-| ` *`type`*` | `xsd:string` | Ja | Bilduppsättningstyp. |
-| ` *`thumbAssetHandle`*` | `xsd:string` | Nej | Hantera den resurs som fungerar som miniatyrbild för den nya bilduppsättningen. Om inget anges försöker IPS använda den första bildresursen som uppsättningen refererar till. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Referensen till företaget som bilduppsättningen tillhör. |
+| `*`folderHandle`*` | `xsd:string` | Ja | Referensen till mappen. |
+| `*`name`*` | `xsd:string` | Ja | Namn på bilduppsättning. |
+| `*`type`*` | `xsd:string` | Ja | Bilduppsättningstyp. |
+| `*`thumbAssetHandle`*` | `xsd:string` | Nej | Hantera den resurs som fungerar som miniatyrbild för den nya bilduppsättningen. Om inget anges försöker IPS använda den första bildresursen som uppsättningen refererar till. |
 
 **Utdata**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | Ja | Handtaget till den nya bilduppsättningen. |
+| `*`assetHandle`*` | `xsd:string` | Ja | Handtaget till den nya bilduppsättningen. |
 
 ## Exempel {#section-385fe3b0af8044b0a2451336ec137fc5}
 
