@@ -4,10 +4,10 @@ seo-description: Anger miniatyrbilden för en eller flera resurser.
 seo-title: batchSetThumbAsset
 solution: Experience Manager
 title: batchSetThumbAsset
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 16c298a7-bb07-4643-824b-8f864d7f0290
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 0%
@@ -50,18 +50,18 @@ Följande miniatyrresurstyper tillåts:
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Handtaget till företaget som innehåller tillgångarna. |
-| ` *`updateArray`*` | `types:ThumbAssetUpdateArray` | Ja | Arrayen med uppdateringar. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Handtaget till företaget som innehåller tillgångarna. |
+| `*`updateArray`*` | `types:ThumbAssetUpdateArray` | Ja | Arrayen med uppdateringar. |
 
 **Utdata (batchSetThumbAssetParam)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Ja | Antal miniatyrbilder som angetts. |
-| ` *`warningCount`*` | `xsd:int` | Ja | Antalet varningar som genererades när åtgärden försökte ange miniatyrbilderna. |
-| ` *`errorCount`*` | `xsd:int` | Ja | Antalet fel som genererades när åtgärden försökte ange miniatyrbilder. |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nej | Arrayen med information som är associerad med resurserna som genererade varningar när åtgärden försökte tillämpa uppdateringarna. |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nej | Arrayen med information som är associerad med resurserna som genererade fel när åtgärden försökte tillämpa uppdateringarna. |
+| `*`successCount`*` | `xsd:int` | Ja | Antal miniatyrbilder som angetts. |
+| `*`warningCount`*` | `xsd:int` | Ja | Antalet varningar som genererades när åtgärden försökte ange miniatyrbilderna. |
+| `*`errorCount`*` | `xsd:int` | Ja | Antalet fel som genererades när åtgärden försökte ange miniatyrbilder. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nej | Arrayen med information som är associerad med resurserna som genererade varningar när åtgärden försökte tillämpa uppdateringarna. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nej | Arrayen med information som är associerad med resurserna som genererade fel när åtgärden försökte tillämpa uppdateringarna. |
 
 ## Exempel {#section-6de69a8680c24c1486c5f01488393381}
 
