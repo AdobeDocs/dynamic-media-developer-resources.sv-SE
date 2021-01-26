@@ -1,15 +1,12 @@
 ---
 description: Om du vill lägga till ett responsivt bildbibliotek på en webbsida och hantera befintliga bilder med biblioteket utför du följande steg.
-seo-description: Om du vill lägga till ett responsivt bildbibliotek på en webbsida och hantera befintliga bilder med biblioteket utför du följande steg.
-seo-title: Använda bibliotek för responsiv bild
 solution: Experience Manager
 title: Använda bibliotek för responsiv bild
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 325cdc8d-2bfa-4f9b-bf88-51d1dcc6c495
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -88,7 +85,7 @@ Följande kod är ett komplett exempel på en enkel webbsida som har en enda fly
 
 **Använda smart beskärning**
 
-Det finns två smarta beskärningslägen i AEM 6.4 och Scene7 Viewer 5.9:
+Det finns två smarta beskärningslägen i AEM 6.4 och Dynamic Media Viewer 5.9:
 
 * **Manuella** , användardefinierade brytpunkter och motsvarande Image Service-kommandon definieras i ett attribut i image-elementet.
 * **Smart Crop**  - Beräknade renderingar av smarta beskärningar hämtas automatiskt från leveransservern. Den bästa återgivningen väljs med bildelementets körningsstorlek.
