@@ -4,10 +4,10 @@ seo-description: Returnerar två olika typer av information baserat på de param
 seo-title: getGenerationInfo
 solution: Experience Manager
 title: getGenerationInfo
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 4310a702-c08b-4479-9f57-9f2bc1d6b032
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 0%
@@ -39,18 +39,18 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`Kodfras`*` | `xsd:string` | Ja | Handtaget till företaget. |
-| ` *`Kodfras`*` | `xsd:string` | Nej | Motorn som användes i generationen. Se Teckensnittsformat. |
-| ` *`Kodfras`*` | `xsd:string` | Nej | Referensen för resursen som ska frågas efter genererade resurser. |
-| ` *`Kodfras`*` | `xsd:string` | Nej | Handtaget för resursen som ska efterfrågas efter resurser och motorer som används i genereringen. |
-| ` *`Kodfras`*` | `xsd:StringArray` | Nej | Egenskaper som ingår i åtgärden. |
-| ` *`Kodfras`*` | `xsd:StringArray` | Nej | Egenskaper som är exkluderade från åtgärden. |
+| `*`Kodfras`*` | `xsd:string` | Ja | Handtaget till företaget. |
+| `*`Kodfras`*` | `xsd:string` | Nej | Motorn som användes i generationen. Se Teckensnittsformat. |
+| `*`Kodfras`*` | `xsd:string` | Nej | Referensen för resursen som ska frågas efter genererade resurser. |
+| `*`Kodfras`*` | `xsd:string` | Nej | Handtaget för resursen som ska efterfrågas efter resurser och motorer som används i genereringen. |
+| `*`Kodfras`*` | `xsd:StringArray` | Nej | Egenskaper som ingår i åtgärden. |
+| `*`Kodfras`*` | `xsd:StringArray` | Nej | Egenskaper som är exkluderade från åtgärden. |
 
 **Utdata (getGenerationInfoReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`generationArray`*` | `types:GenerationInfoArray` | Ja | Array med genereringsinformation. |
+| `*`generationArray`*` | `types:GenerationInfoArray` | Ja | Array med genereringsinformation. |
 
 ## Exempel {#section-fdffe6ed82d94c7aa90e47f7ce889403}
 
