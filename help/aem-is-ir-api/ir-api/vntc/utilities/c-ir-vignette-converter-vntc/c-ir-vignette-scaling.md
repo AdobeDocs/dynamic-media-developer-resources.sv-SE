@@ -4,12 +4,12 @@ seo-description: Fyra allmänna typer av produktionsvinjettering stöds.
 seo-title: Skalning av vinjettering
 solution: Experience Manager
 title: Skalning av vinjettering
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 08c8f826-7dce-4bcb-9323-4892262eb578
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Fyra allmänna typer av produktionsvinjettering stöds.
    Rekommenderas när alla önskade bildstorlekar för återgivning är kända. Ger bättre kvalitet och snabbare återgivning än enupplösning- och pyramidvinjettering eftersom bilden inte behöver skalas efter återgivningen.
 * Pyramid
 
-   Bäst för alla syften, som rekommenderas när flera bildstorlekar behövs och de exakta storlekarna inte är förbestämda och när någon av zoomningsvisarna i Scene7 Flash används.
+   Bäst för alla syften, som rekommenderas när flera bildstorlekar behövs och de exakta storlekarna inte är förbestämda och när visningsprogrammet för Dynamic Media Zoom används.
 * Pyramid med en eller flera upplösningar
 
    Ger hög kvalitet för specifika storlekar samtidigt som stöd för visningsprogram för zoomning och flexibilitet bibehålls.
