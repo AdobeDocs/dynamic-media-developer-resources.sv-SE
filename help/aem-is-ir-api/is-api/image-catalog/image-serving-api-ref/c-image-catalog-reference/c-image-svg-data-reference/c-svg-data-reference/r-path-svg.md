@@ -2,12 +2,12 @@
 description: Bana
 solution: Experience Manager
 title: Bana
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d1ed8a98-60eb-4bdb-884e-ea08c018d834
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '129'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Textsträng. Obligatoriskt för bild- och SVG-poster, kan vara tomt för mallpos
 
 Se beskrivningen av verktyget Image Converter (IC) för en fullständig lista över bildfilformat som stöds.
 
-Program som kräver bilddata i flera olika upplösningar fungerar bäst när du använder multiupplösningsformatet Scene7 pyramid TIFF (PTIFF). IC-verktyget används för att skapa PTIFF-bilder från alla bildformat som stöds.
+Program som kräver bilddata i flera olika upplösningar fungerar bäst när du använder multiupplösningsformatet Dynamic Media pyramid TIFF (PTIFF). IC-verktyget används för att skapa PTIFF-bilder från alla bildformat som stöds.
 
 ## Standard {#section-82dad83ec3f84ae8bf2f850b4139f63e}
 
