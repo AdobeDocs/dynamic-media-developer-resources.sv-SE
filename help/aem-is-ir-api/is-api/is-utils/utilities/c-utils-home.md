@@ -1,15 +1,12 @@
 ---
-description: Handboken för Image Serving Utilities innehåller information om verktyg som används med Scene7 Image Server och Image Rendering.
-seo-description: Handboken för Image Serving Utilities innehåller information om verktyg som används med Scene7 Image Server och Image Rendering.
-seo-title: Image Serving utilities
+description: Handboken för Image Serving Utilities innehåller information om verktyg som används med Dynamic Media Image Server och Image Rendering.
 solution: Experience Manager
 title: Image Serving utilities
-topic: Scene7 Image Serving - Image Rendering API
-uuid: d79e5dbc-0d1a-4bd2-8d0d-d5bc0344a30f
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: deb4b2f722397f269c3f558c1ba9a08d506d4c3a
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '51'
 ht-degree: 0%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 0%
 
 # Image Serving utilities{#image-serving-utilities}
 
-Handboken för Image Serving Utilities innehåller information om verktyg som används med Scene7 Image Server och Image Rendering.
+Handboken för Image Serving Utilities innehåller information om verktyg som används med Dynamic Media Image Server och Image Rendering.
 
 * [Plats för verktygen](c-location-of-utilities.md)
 * [ic](r-ic.md)
