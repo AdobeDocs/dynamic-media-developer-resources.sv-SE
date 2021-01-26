@@ -1,15 +1,15 @@
 ---
-description: API-referensen för bildåtergivning innehåller information om hur du konfigurerar och använder Scene7 Image Rendering API.
-seo-description: API-referensen för bildåtergivning innehåller information om hur du konfigurerar och använder Scene7 Image Rendering API.
+description: API-referensen för bildåtergivning innehåller information om hur du konfigurerar och använder Dynamic Media Image Rendering API.
+seo-description: API-referensen för bildåtergivning innehåller information om hur du konfigurerar och använder Dynamic Media Image Rendering API.
 seo-title: API för bildåtergivning
 solution: Experience Manager
 title: API för bildåtergivning
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 14e283bb-451c-4b6e-bd73-32488dcd93b6
 translation-type: tm+mt
-source-git-commit: deb4b2f722397f269c3f558c1ba9a08d506d4c3a
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '82'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # API för bildåtergivning{#image-rendering-api}
 
-API-referensen för bildåtergivning innehåller information om hur du konfigurerar och använder Scene7 Image Rendering API.
+API-referensen för bildåtergivning innehåller information om hur du konfigurerar och använder Dynamic Media Image Rendering API.
 
 * [Konfiguration](c-ir-installation/c-ir-installation.md)
 * [Licenser](c-ir-installation/c-ir-licensing.md)
