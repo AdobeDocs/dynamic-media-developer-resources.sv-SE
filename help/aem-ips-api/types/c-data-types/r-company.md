@@ -4,10 +4,10 @@ seo-description: Representerar ett företag.
 seo-title: Företag
 solution: Experience Manager
 title: Företag
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 8160af47-d639-4ef2-9d26-952de006ca9e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '36'
 ht-degree: 2%
@@ -25,8 +25,8 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Företagshandtag. |
-| ` *`name`*` | `xsd:string` | Företagsnamn. |
-| ` *`rootPath`*` | `xsd:string` | Företagets rotsökväg. |
-| ` *`förfaller`*` | `xsd:dateTime` | Datum och tid då företaget förfaller. |
+| `*`companyHandle`*` | `xsd:string` | Företagshandtag. |
+| `*`name`*` | `xsd:string` | Företagsnamn. |
+| `*`rootPath`*` | `xsd:string` | Företagets rotsökväg. |
+| `*`förfaller`*` | `xsd:dateTime` | Datum och tid då företaget förfaller. |
 
