@@ -4,10 +4,10 @@ seo-description: Hämtar en lista med tecken som används i ett visst fält.
 seo-title: getUserChars
 solution: Experience Manager
 title: getUserChars
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: c9fa7826-5174-4298-99e6-a0627e432567
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 0%
@@ -34,19 +34,19 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`charField`*` | `xsd:string` | Ja | Anger vilket papperskorgsläge som ska sökas efter. |
-| ` *`includeInactive`*` | `xsd:boolean` | Ja | Inkludera eller exkludera inaktiva användare. Användare av icke-IPS-administratörer måste vara en aktiv medlem i minst ett företag för att kunna auktoriseras att göra API-anrop. Ett auktoriseringsfel returneras om användaren inte har några aktiva företagsmedlemskap. |
-| ` *`includeInvalid`*` | `xsd:boolean` | Nej | Inkludera eller exkludera ogiltiga användare. |
-| ` *`companyHandleArray`*` | `types:HandleArray` | Nej | Filtrera resultat baserat på företag. |
-| ` *`groupHandleArray`*` | `types:HandleArray` | Nej | Filtrerar resultat baserat på grupper. |
-| ` *`userRoleArray`*` | `types:StringArray` | Nej | Filtrerar resultat baserat på användarroll. |
-| ` *`numChars`*` | `xsd:int` | Nej | Aktivera >1 tecken. |
+| `*`charField`*` | `xsd:string` | Ja | Anger vilket papperskorgsläge som ska sökas efter. |
+| `*`includeInactive`*` | `xsd:boolean` | Ja | Inkludera eller exkludera inaktiva användare. Användare av icke-IPS-administratörer måste vara en aktiv medlem i minst ett företag för att kunna auktoriseras att göra API-anrop. Ett auktoriseringsfel returneras om användaren inte har några aktiva företagsmedlemskap. |
+| `*`includeInvalid`*` | `xsd:boolean` | Nej | Inkludera eller exkludera ogiltiga användare. |
+| `*`companyHandleArray`*` | `types:HandleArray` | Nej | Filtrera resultat baserat på företag. |
+| `*`groupHandleArray`*` | `types:HandleArray` | Nej | Filtrerar resultat baserat på grupper. |
+| `*`userRoleArray`*` | `types:StringArray` | Nej | Filtrerar resultat baserat på användarroll. |
+| `*`numChars`*` | `xsd:int` | Nej | Aktivera >1 tecken. |
 
 **Utdata (getUserCharsReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`userCharsArray`*` | `types:StringArray` | Ja | En array med teckenprefix. |
+| `*`userCharsArray`*` | `types:StringArray` | Ja | En array med teckenprefix. |
 
 ## Exempel {#section-3702f165e8b041139a6144f4a76ca25f}
 
