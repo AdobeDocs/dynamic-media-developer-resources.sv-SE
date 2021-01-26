@@ -4,10 +4,10 @@ seo-description: Filinformation för primära videomaterial.
 seo-title: MasterVideoInfo
 solution: Experience Manager
 title: MasterVideoInfo
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 19f814c9-dddb-41ff-aef2-fb7ea91c130b
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '35'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| ` *`originalPath`*` | `xsd:string` | Filsökväg. |
-| ` *`originalFile`*` | `xsd:string` | Filnamn. |
-| ` *`fileSize`*` | `xsd:int` | Filstorlek. |
+| `*`originalPath`*` | `xsd:string` | Filsökväg. |
+| `*`originalFile`*` | `xsd:string` | Filnamn. |
+| `*`fileSize`*` | `xsd:int` | Filstorlek. |
 
