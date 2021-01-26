@@ -4,10 +4,10 @@ seo-description: Katalogmatchningsalternativ.
 seo-title: FullMatch
 solution: Experience Manager
 title: FullMatch
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0c69ba92-1411-4cb7-ac28-d26fe035222f
 translation-type: tm+mt
-source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 Katalogmatchningsalternativ.
 
-En katalogpost anges som ett ` *`rootId`*/ *`imageId`*`-par i HTTP-begäranden. Vid parsning väljs en katalog om ` *`rootId`*` matchar värdet `attribute::RootId` för katalogen och katalogposten identifieras genom att matcha ` *`imageId`*` med värdet `catalog::Id`. Om en katalog hittas, men det inte finns någon katalogpost som matchar ` *`imageId`*`, kan servern göra något av två:
+En katalogpost anges som ett `*`rootId`*/ *`imageId`*`-par i HTTP-begäranden. Vid parsning väljs en katalog om `*`rootId`*` matchar värdet `attribute::RootId` för katalogen och katalogposten identifieras genom att matcha `*`imageId`*` med värdet `catalog::Id`. Om en katalog hittas, men det inte finns någon katalogpost som matchar `*`imageId`*`, kan servern göra något av två:
 
-Om `attribute::FullMatch` inte anges används attributen för den matchade katalogen. I det här fallet ersätts ` *`rootId`*` med `attribute::RootPath` (eller `default::RootPath`, om detta inte anges i den här katalogen).
+Om `attribute::FullMatch` inte anges används attributen för den matchade katalogen. I det här fallet ersätts `*`rootId`*` med `attribute::RootPath` (eller `default::RootPath`, om detta inte anges i den här katalogen).
 
-Om `attribute::FullMatch` anges ignoreras katalogen fullständigt, som om ingen katalog hade matchats, och standardkatalogattributen används. I det här fallet förblir ` *`rootId`*` en del av sökvägen (som föregås av `default::RootPath`).
+Om `attribute::FullMatch` anges ignoreras katalogen fullständigt, som om ingen katalog hade matchats, och standardkatalogattributen används. I det här fallet förblir `*`rootId`*` en del av sökvägen (som föregås av `default::RootPath`).
 
 ## Egenskaper {#section-25e021dbe6574d00aadd08a7fa0b6e81}
 
