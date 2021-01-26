@@ -4,10 +4,10 @@ seo-description: Textsträngslokalisering gör att bildkataloger kan innehålla 
 seo-title: Textsträngslokalisering
 solution: Experience Manager
 title: Textsträngslokalisering
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: bdff2403-e3bb-4b3f-a8d7-bb108c1fbee8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 0%
@@ -124,7 +124,7 @@ Exemplet på översättningskarta anger att i så fall ska *`defaultString`* ret
 
 Flera *`locId`*-värden kan associeras med varje *`locale`* i översättningskartan. Detta möjliggör stöd för landsspecifika eller regionspecifika variationer (t.ex. amerikansk engelska jämfört med brittisk engelska) för utvalda *`stringElements`* medan det hanterar de flesta innehåll med vanliga basspråk (t.ex. internationell engelska).
 
-Vi vill till exempel lägga till stöd för amerikansk-specifik engelska ( ` *`locId`* EUS`) och brittisk-specifik engelska ( ` *`locId`* EUK`) som stöd för tillfällig alternativ stavning. Om EUK eller EUS inte finns, skulle vi återgå till E. På samma sätt kan österrikiska-specifika tyska varianter ( `DAT`) göras tillgängliga vid behov medan vanliga tyska *`localizedStrings`* (markerat med `D`) återställs under större delen av tiden.
+Vi vill till exempel lägga till stöd för amerikansk-specifik engelska ( `*`locId`* EUS`) och brittisk-specifik engelska ( `*`locId`* EUK`) som stöd för tillfällig alternativ stavning. Om EUK eller EUS inte finns, skulle vi återgå till E. På samma sätt kan österrikiska-specifika tyska varianter ( `DAT`) göras tillgängliga vid behov medan vanliga tyska *`localizedStrings`* (markerat med `D`) återställs under större delen av tiden.
 
 `attribute::LocaleStrMap` ser ut så här:
 
