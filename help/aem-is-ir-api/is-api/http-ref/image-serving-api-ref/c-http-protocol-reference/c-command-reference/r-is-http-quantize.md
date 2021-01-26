@@ -4,10 +4,10 @@ seo-description: Färgkvantifiering. Anger färgkvantifieringsattribut för GIF-
 seo-title: kvantifiera
 solution: Experience Manager
 title: kvantifiera
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 4e9c4807-59bc-4eb9-bcab-0bf0cfdf56d4
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Färgkvantifiering. Anger färgkvantifieringsattribut för GIF-utdatakonverterin
 
 Begär attribut. Används oavsett aktuell lagerinställning. Används endast om `fmt=gif`, `fmt=gif-alpha`, `fmt=png8` eller `fmt=png8-alpha`. I annat fall ignoreras.
 
-Färgerna som anges med ` *`colorList`*` måste bestå av RGB-värden i hex6-format (se ` [color](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md#reference-b044954ec6184253b8831579466b4423)`) utan prefixet `0x`. Inga andra färgspecifikationer tillåts. *`numColors`* måste vara mellan 2 och 256.
+Färgerna som anges med `*`colorList`*` måste bestå av RGB-värden i hex6-format (se ` [color](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md#reference-b044954ec6184253b8831579466b4423)`) utan prefixet `0x`. Inga andra färgspecifikationer tillåts. *`numColors`* måste vara mellan 2 och 256.
 
 ## Standard {#section-ca3e817617244e8798ccff67b2023a32}
 
