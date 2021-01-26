@@ -4,10 +4,10 @@ seo-description: Den här proceduren visar hur du installerar Image Serving för
 seo-title: Installerar för första gången
 solution: Experience Manager
 title: Installerar för första gången
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6a9a6dd2-2c69-447a-9628-eba08dc4f6c8
 translation-type: tm+mt
-source-git-commit: edb21832b3e36a6498c6aad27813cd4b3032b48f
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 0%
