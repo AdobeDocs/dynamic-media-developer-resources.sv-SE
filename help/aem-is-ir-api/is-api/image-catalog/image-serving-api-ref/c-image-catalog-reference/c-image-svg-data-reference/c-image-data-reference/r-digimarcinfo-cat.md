@@ -4,10 +4,10 @@ seo-description: Information om Digimarc-bilder. Aktiverar Digimarc-inbäddning 
 seo-title: DigimarcInfo
 solution: Experience Manager
 title: DigimarcInfo
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8371880e-47df-4333-b8a6-91feaf16c409
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 7%
@@ -23,9 +23,9 @@ Information om Digimarc-bilder. Aktiverar Digimarc-inbäddning och anger typ av 
 
 Fyra heltalsvärden, avgränsade med kommatecken.
 
-` *``*, *``*, *`typeflagsval1`*, *`val2`*`
+`*``*, *``*, *`typeflagsval1`*, *`val2`*`
 
-` *``*` typeaktiverar Digimarc-inbäddning och anger vattenstämpeltypen:
+`*``*` typeaktiverar Digimarc-inbäddning och anger vattenstämpeltypen:
 
 <table id="table_3648951F14D94C5BAD097CFB783F1EE7"> 
  <thead> 
@@ -58,7 +58,7 @@ Fyra heltalsvärden, avgränsade med kommatecken.
  </tbody> 
 </table>
 
-` *`Ett `*` bitfält med tre värden flaggas. Ange bit 0 för att ange kopieringsskyddat innehåll, bit 1 för att ange begränsat innehåll och bit 2 för att ange innehåll för vuxna:
+`*`Ett `*` bitfält med tre värden flaggas. Ange bit 0 för att ange kopieringsskyddat innehåll, bit 1 för att ange begränsat innehåll och bit 2 för att ange innehåll för vuxna:
 
 <table id="table_00F218515FBE484F9D05CBAF14F9D045"> 
  <thead> 
@@ -103,7 +103,7 @@ Fyra heltalsvärden, avgränsade med kommatecken.
  </tbody> 
 </table>
 
-Tolkningen av ` *`val1`*` och ` *`val2`*` beror på ` *`typ`*`:
+Tolkningen av `*`val1`*` och `*`val2`*` beror på `*`typ`*`:
 
 <table id="table_6B29F76BC1974C12AB7124BF84B29EC2"> 
  <thead> 
