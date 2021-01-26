@@ -4,12 +4,12 @@ seo-description: Använd följande kommandon för avancerad textformatering.
 seo-title: Avancerad textformatering
 solution: Experience Manager
 title: Avancerad textformatering
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 340166a5-5aef-4081-9114-a715cde68891
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Använd följande kommandon för avancerad textformatering.
   <tr> 
    <td> <span class="codeph"> \charscaley  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Lodrät teckenskalning. </p> </td> 
-   <td> <p>Positiv eller negativ procent. Standardvärdet är 100. Scene7-tillägg. </p> <p> <span class="codeph"> \charscaley skaley skalar  </span> även radavstånd när det används med  <span class="codeph"> text=  </span>. <span class="codeph"> textPs= bevarar  </span> alltid radavstånd oavsett mängden lodrät teckenskalning. </p> </td> 
+   <td> <p>Positiv eller negativ procent. Standardvärdet är 100. Dynamic Media-tillägg. </p> <p> <span class="codeph"> \charscaley skaley skalar  </span> även radavstånd när det används med  <span class="codeph"> text=  </span>. <span class="codeph"> textPs= bevarar  </span> alltid radavstånd oavsett mängden lodrät teckenskalning. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \ltrch  </span> </td> 
@@ -86,17 +86,17 @@ Använd följande kommandon för avancerad textformatering.
   <tr> 
    <td> <span class="codeph"> \copyfit  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Aktivera textpassning och ange största tillåtna teckenstorlek. </p> </td> 
-   <td> <p>Teckenstorlek i halvpunkter; Endast <span class="codeph"> textPs= </span>; Scene7-tillägg. </p> </td> 
+   <td> <p>Teckenstorlek i halvpunkter; Endast <span class="codeph"> textPs= </span>; Dynamic Media-tillägg. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \copyfitlines  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Maximal textpassning (mjuk begränsning). </p> </td> 
-   <td> <p>0 utan linjebegränsning, Endast <span class="codeph"> textPs= </span>; Scene7-tillägg. </p> </td> 
+   <td> <p>0 utan linjebegränsning, Endast <span class="codeph"> textPs= </span>; Dynamic Media-tillägg. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \copyfitmaxlines  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Maximalt antal rader för textpassning (trunkering). </p> </td> 
-   <td> <p> <span class="codeph"> textPs=  </span> only; Scene7-tillägg. </p> </td> 
+   <td> <p> <span class="codeph"> textPs=  </span> only; Dynamic Media-tillägg. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \baselinedir  <span class="varname"> N  </span> </span> </td> 
