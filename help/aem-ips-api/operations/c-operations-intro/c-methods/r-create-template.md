@@ -4,10 +4,10 @@ seo-description: Skapar en bild med flera lager som kan ha flera text- och bildl
 seo-title: createTemplate
 solution: Experience Manager
 title: createTemplate
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: c54bd47c-13e1-4b0d-a24c-9829b0a6d5bf
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 0%
@@ -35,18 +35,18 @@ Parametern `urlModifier` anger de Image Server-protokollkommandon som lagras i I
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Företaget som mallen tillhör. |
-| ` *`folderHandle`*` | `xsd:string` | Ja | Mappreferensen som representerar mappen där mallen finns. |
-| ` *`name`*` | `xsd:string` | Ja | Mallnamn. |
-| ` *`type`*` | `xsd:string` | Ja | Malltyp. |
-| ` *`urlModifier`*` | `xsd:string` | Ja | Anger de Image Server-kommandon som lagras i IS-katalogen och som används före användarkommandon på URL:en. |
-| ` *`urlPostApplyModifier`*` | `xsd:string` | Nej | Anger protokollkommandon som används efter URL-kommandon, som åsidosätter eventuella inställningar som användaren anger. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Företaget som mallen tillhör. |
+| `*`folderHandle`*` | `xsd:string` | Ja | Mappreferensen som representerar mappen där mallen finns. |
+| `*`name`*` | `xsd:string` | Ja | Mallnamn. |
+| `*`type`*` | `xsd:string` | Ja | Malltyp. |
+| `*`urlModifier`*` | `xsd:string` | Ja | Anger de Image Server-kommandon som lagras i IS-katalogen och som används före användarkommandon på URL:en. |
+| `*`urlPostApplyModifier`*` | `xsd:string` | Nej | Anger protokollkommandon som används efter URL-kommandon, som åsidosätter eventuella inställningar som användaren anger. |
 
 **Utdata (createTemplateParam)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | Ja | Referensen till mallen. |
+| `*`assetHandle`*` | `xsd:string` | Ja | Referensen till mallen. |
 
 ## Exempel {#section-09adb4d2f0c944af875c4463a461f55d}
 
