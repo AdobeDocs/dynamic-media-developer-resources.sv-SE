@@ -4,10 +4,10 @@ seo-description: Skapar ett bildformat.
 seo-title: saveImageFormat
 solution: Experience Manager
 title: saveImageFormat
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: b11ea668-7a82-439c-b16b-909dc86c00a2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 0%
@@ -36,16 +36,16 @@ Skapar ett bildformat.
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Handtaget till företaget med det bildformat som du vill arbeta med. |
-| ` *`imageFormatHandle`*` | `xsd:string` | Nej | Bildformatshandtag som du vill spara. |
-| ` *`name`*` | `xsd:string` | Ja | Bildformatsnamn. |
-| ` *`urlModifier`*` | `xsd:string` | Ja | Detta kan vara vilken frågesträng som helst för IPS-protokoll. Det enklaste sättet att generera en URL-modifierare är att skapa en med IPS-användargränssnittet och sedan klippa ut och klistra in frågesträngen. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Handtaget till företaget med det bildformat som du vill arbeta med. |
+| `*`imageFormatHandle`*` | `xsd:string` | Nej | Bildformatshandtag som du vill spara. |
+| `*`name`*` | `xsd:string` | Ja | Bildformatsnamn. |
+| `*`urlModifier`*` | `xsd:string` | Ja | Detta kan vara vilken frågesträng som helst för IPS-protokoll. Det enklaste sättet att generera en URL-modifierare är att skapa en med IPS-användargränssnittet och sedan klippa ut och klistra in frågesträngen. |
 
 **Utdata (saveImageFormatReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`imageFormatHandle`*` | `xsd:string` | Ja | Hantera bildformatet. |
+| `*`imageFormatHandle`*` | `xsd:string` | Ja | Hantera bildformatet. |
 
 ## Exempel {#section-c7bd733212ef494297a97093f3af193f}
 
