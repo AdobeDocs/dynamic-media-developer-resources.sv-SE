@@ -1,15 +1,12 @@
 ---
-description: Det här dokumentet beskriver HTTP-protokollet för Scene7 Image Rendering.
-seo-description: Det här dokumentet beskriver HTTP-protokollet för Scene7 Image Rendering.
-seo-title: Introduktion
+description: Det här dokumentet beskriver HTTP-protokollet för Dynamic Media Image Rendering.
 solution: Experience Manager
 title: Introduktion
-topic: Scene7 Image Serving - Image Rendering API
-uuid: d709f1d2-e7cc-4e9f-b039-aa333e517cbb
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -17,15 +14,15 @@ ht-degree: 0%
 
 # Introduktion{#introduction}
 
-Det här dokumentet beskriver HTTP-protokollet för Scene7 Image Rendering.
+Det här dokumentet beskriver HTTP-protokollet för Dynamic Media Image Rendering.
 
-Endast de allmänt tillgängliga aspekterna av protokollet beskrivs. Servern kan ha stöd för ytterligare kommandon som är reserverade för användning av Scene7 klientprogramvara.
+Endast de allmänt tillgängliga aspekterna av protokollet beskrivs. Servern kan ha stöd för ytterligare kommandon som är reserverade för användning av Dynamic Media klientprogramvara.
 
 **Målgrupp**
 
-Dokumentationen är avsedd för erfarna programmerare och webbplatsutvecklare som vill använda Scene7 Image Rendering för en webbplats eller ett anpassat program.
+Dokumentationen är avsedd för erfarna programmerare och webbplatsutvecklare som vill använda Dynamic Media Image Rendering för en webbplats eller ett anpassat program.
 
-Det antas att läsaren känner till Scene7 Image Authoring and Image Rendering, allmänna HTTP-protokollstandarder och konventioner samt grundläggande bildterminologi.
+Det antas att läsaren känner till Dynamic Media Image Authoring and Image Rendering, allmänna HTTP-protokollstandarder och konventioner samt grundläggande bildterminologi.
 
 **Dokumentkonventioner**
 
@@ -100,4 +97,4 @@ Det antas att läsaren känner till Scene7 Image Authoring and Image Rendering, 
 
 ** *`MSS`* ** Materialspecifikationssegment: en uppsättning materialattribut mellan två markeringskommandon i begäran.
 
-** *`vignette`* ** En bild som har förberetts i Scene7 Image Authoring för användning med Image Rendering.
+** *`vignette`* ** En bild som har förberetts i Dynamic Media Image Authoring för användning med Image Rendering.
