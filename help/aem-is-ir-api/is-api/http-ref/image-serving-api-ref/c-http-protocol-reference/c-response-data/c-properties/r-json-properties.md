@@ -4,12 +4,12 @@ seo-description: Om jsonp anges som svarsformat formateras svarsdata med JSONP (
 seo-title: JSONP-egenskaper
 solution: Experience Manager
 title: JSONP-egenskaper
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e53d75f2-9b43-4e8f-8191-66f69f344cdd
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Begäranden som stöder JSONP-svarsformatet gör att du kan ange namnet på JS-c
 
 `<reqHandler>` är namnet på JS-hanteraren som finns i JSONP-svaret. Endast tecknen a-z, A-Z och 0-9 tillåts. Valfritt. Standardvärdet är `s7jsonResponse`.
 
-Paketet Scene7 Image Serving Viewers innehåller ett verktyg för att begära och analysera JSONP-formaterade data från Image Serving.
+Paketet Dynamic Media Image Serving Viewers innehåller ett verktyg för att begära och analysera JSONP-formaterade data från Image Serving.
 
 Mer information om JSONP-formatet finns i [http://en.wikipedia.org/wiki/JSONP](http://en.wikipedia.org/wiki/JSONP).
 
