@@ -1,15 +1,12 @@
 ---
 description: När du överför resurser till Scene7 Production System krävs en eller flera HTTP-POST-begäranden som ställer in ett jobb för att koordinera all loggaktivitet som är kopplad till de överförda filerna.
-seo-description: När du överför resurser till Scene7 Production System krävs en eller flera HTTP-POST-begäranden som ställer in ett jobb för att koordinera all loggaktivitet som är kopplad till de överförda filerna.
-seo-title: Överföra resurser via HTTP POST till UploadFile-servern
 solution: Experience Manager
 title: Överföra resurser via HTTP POST till UploadFile-servern
-topic: Scene7 Image Production System API
-uuid: 8d562316-0849-4b95-a974-29732d453dc8
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 5d738b675975251dc3491ac7ae533eda082df134
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
@@ -29,7 +26,7 @@ https://<server>/scene7/UploadFile
 >
 >Alla POSTER som begär ett överföringsjobb måste komma från samma IP-adress.
 
-**Åtkomst till URL:er för Scene7-regioner**
+**Åtkomst till URL:er för Dynamic Media-regioner**
 
 <table id="table_45BB314ABCDA49F38DF7BECF95CC984A"> 
  <thead> 
