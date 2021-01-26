@@ -4,12 +4,12 @@ seo-description: Konfigurationsattribut definieras som attribut direkt i ett IMG
 seo-title: Kommandoreferens - Konfigurationsattribut
 solution: Experience Manager
 title: Kommandoreferens - Konfigurationsattribut
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a3d52680-2a28-40c8-9b5f-b1c252c88e4d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Kommandon för flera bildservrar eller namn på bildförinställningar avgränsa
 
 ## dataläge {#section-97caf43cf5ab4ca8b1b866d8f394a9a4}
 
-Följande två smarta beskärningslägen är tillgängliga i AEM 6.4 och senare och i Scene7 Viewer 5.9 och senare:
+Följande två smarta beskärningslägen är tillgängliga i AEM 6.4 och senare och i Dynamic Media Viewer 5.9 och senare:
 
 * **Manuella** , användardefinierade brytpunkter och motsvarande Image Service-kommandon definieras i ett attribut i image-elementet.
 * **Smart Crop**  - Beräknade renderingar av smarta beskärningar hämtas automatiskt från leveransservern. Den bästa återgivningen väljs med bildelementets körningsstorlek.
