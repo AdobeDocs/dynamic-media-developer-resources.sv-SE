@@ -1,15 +1,15 @@
 ---
-description: Vinjetteringsverktyget (som ingår i Scene7 Image Authoring package) innehåller funktioner för att styra lågnivåaspekter av vinjetteringsmotorn.
-seo-description: Vinjetteringsverktyget (som ingår i Scene7 Image Authoring package) innehåller funktioner för att styra lågnivåaspekter av vinjetteringsmotorn.
+description: Vinjetteringsverktyget (som ingår i Dynamic Media Image Authoring package) innehåller funktioner för att styra lågnivåaspekter av vinjetteringsmotorn.
+seo-description: Vinjetteringsverktyget (som ingår i Dynamic Media Image Authoring package) innehåller funktioner för att styra lågnivåaspekter av vinjetteringsmotorn.
 seo-title: Avancerade renderingsinställningar
 solution: Experience Manager
 title: Avancerade renderingsinställningar
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 18e7f3cf-4d30-445c-813c-546a91987b99
 translation-type: tm+mt
-source-git-commit: e3b096b97419a86de244b97876439ad9c491b950
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '633'
 ht-degree: 17%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 17%
 
 # Avancerade renderingsinställningar{#advanced-render-settings}
 
-Vinjetteringsverktyget (som ingår i Scene7 Image Authoring package) innehåller funktioner för att styra lågnivåaspekter av vinjetteringsmotorn.
+Vinjetteringsverktyget (som ingår i Dynamic Media Image Authoring package) innehåller funktioner för att styra lågnivåaspekter av vinjetteringsmotorn.
 
 >[!NOTE]
 >
@@ -112,7 +112,7 @@ De här inställningarna styrs interaktivt i Bildredigering. Du kan använda sam
   <tr> 
    <td colname="col1"> <p>S </p> </td> 
    <td colname="col2"> <p>Supersampling: Slumpmässig hastighet. </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>20 </p> </td> 
    <td colname="col5"> <p>Standardvärdet är 5. </p> </td> 
   </tr> 
@@ -133,7 +133,7 @@ De här inställningarna styrs interaktivt i Bildredigering. Du kan använda sam
   <tr> 
    <td colname="col1"> <p>P </p> </td> 
    <td colname="col2"> <p>Poisson: Exempel/pixel. </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>4 </p> </td> 
    <td colname="col5"> <p>Standardvärdet är 1. </p> </td> 
   </tr> 
@@ -141,7 +141,7 @@ De här inställningarna styrs interaktivt i Bildredigering. Du kan använda sam
    <td colname="col1"> <p>Y </p> </td> 
    <td colname="col2"> <p>Poisson: Använd växlingsknappen. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
-   <td colname="col4"> <p>3 </p> </td> 
+   <td colname="col4"> <p>1 </p> </td> 
    <td colname="col5"> <p>Standardvärdet är 1. </p> </td> 
   </tr> 
   <tr> 
