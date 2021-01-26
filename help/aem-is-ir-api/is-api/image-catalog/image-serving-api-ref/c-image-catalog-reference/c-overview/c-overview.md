@@ -4,12 +4,12 @@ seo-description: Bildkataloger används för att ge servern information om bilde
 seo-title: Översikt
 solution: Experience Manager
 title: Översikt
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e8c0401b-9161-4624-babb-6c7afb443e65
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,6 @@ Katalogdatafiler associeras med bildkataloger utifrån filreferenser i katalogat
 
 Katalogattributfiler måste ha ett [!DNL .ini]-filsuffix och måste finnas i plattformsserverns katalogmapp ( `PlatformServer::catalog.rootPath`). Katalogdatafiler kan finnas i samma mapp eller i en annan mapp som är tillgänglig för plattformsservern.
 
-Det här dokumentet beskriver bildkatalogsfilformatet för Scene7 Image Serving-systemet. Den avsedda målgruppen är erfarna programmerare och webbutvecklare som vill använda Scene7 Image Serving för en webb- eller anpassad applikation.
+Det här dokumentet beskriver bildkatalogsfilformatet för Dynamic Media Image Serving-systemet. Den avsedda målgruppen är erfarna programmerare och webbutvecklare som vill använda Dynamic Media Image Serving för en webb- eller anpassad applikation.
 
-Det antas att läsaren i allmänhet känner till Scene7 Image Serving-systemet, allmänna HTTP-protokollstandarder och konventioner samt grundläggande bildterminologi.
+Det antas att läsaren i allmänhet känner till Dynamic Media Image Serving-systemet, allmänna HTTP-protokollstandarder och konventioner samt grundläggande bildterminologi.
