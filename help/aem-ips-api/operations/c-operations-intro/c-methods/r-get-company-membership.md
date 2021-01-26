@@ -4,10 +4,10 @@ seo-description: Hämtar en användares medlemskap i en företagsmatris.
 seo-title: getCompanyMembership
 solution: Experience Manager
 title: getCompanyMembership
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: fb3dfe29-4292-4ab2-8015-36c4930a9c05
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 0%
@@ -40,13 +40,13 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | Nej | Handtaget till användaren vars medlemskap du vill få. |
+| `*`userHandle`*` | `xsd:string` | Nej | Handtaget till användaren vars medlemskap du vill få. |
 
 **Utdata (getCompanyMembershipReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`membershipArray`*` | `types:CompanyMembershipArray` | Ja | En matris med företagsmedlemskap. |
+| `*`membershipArray`*` | `types:CompanyMembershipArray` | Ja | En matris med företagsmedlemskap. |
 
 ## Exempel {#section-e4958d104ea344a4a79f57d07b46eba7}
 
