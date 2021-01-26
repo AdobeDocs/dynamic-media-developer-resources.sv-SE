@@ -4,10 +4,10 @@ seo-description: Vattenstämpelväljare. Anger katalog-ID:t för katalogposten s
 seo-title: Vattenstämpel
 solution: Experience Manager
 title: Vattenstämpel
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 18add7ab-0797-4ab3-a7e8-05c745abe605
 translation-type: tm+mt
-source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 0%
