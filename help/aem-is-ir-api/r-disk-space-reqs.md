@@ -1,15 +1,12 @@
 ---
 description: 'Utöver det utrymme som krävs för att installera programmet har Image Serving följande krav på diskutrymme '
-seo-description: 'Utöver det utrymme som krävs för att installera programmet har Image Serving följande krav på diskutrymme '
-seo-title: Krav och rekommendationer för diskutrymme
 solution: Experience Manager
 title: Krav och rekommendationer för diskutrymme
-topic: Scene7 Image Serving - Image Rendering API
-uuid: a6a21886-94d6-45b3-af68-497e039bdbac
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -58,7 +55,7 @@ Utöver det utrymme som krävs för att installera programmet har Image Serving 
 
 ## Krav för diskutrymme för källbilder {#section-317da75099ad480d9a461c7e706d4f1c}
 
-Du bör konvertera alla källbilder till PTIFF-format (pyramid TIFF) med kommandoradsverktyget Bildkonverterare (IC). Den här konverteringen ger optimala prestanda vid körning av Image Serving för alla program. Även om Image Server kan bearbeta alla källfilsformat som godkänts av IC har Scene7 inte stöd för sådana användningsområden.
+Du bör konvertera alla källbilder till PTIFF-format (pyramid TIFF) med kommandoradsverktyget Bildkonverterare (IC). Den här konverteringen ger optimala prestanda vid körning av Image Serving för alla program. Även om Image Server kan bearbeta alla källfilsformat som godkänts av IC har Dynamic Media inte stöd för sådana användningsområden.
 
 När du använder PTIFF-filer kan följande reglage hjälpa dig att fastställa utrymmeskrav.
 
