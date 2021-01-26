@@ -4,12 +4,12 @@ seo-description: Image Serving har stöd för obegränsad kapsling av Image Serv
 seo-title: Begär kapsling och inbäddning
 solution: Experience Manager
 title: Begär kapsling och inbäddning
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 59031329-e65f-4631-bc7d-83f2540cc836
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1081'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Bildresultatet av en kapslad IS-begäran kan cachelagras genom att inkludera `ca
 
 ## Begäranden om inbäddad bildåtergivning {#section-69c5548db930412b9b90d9b2951a6969}
 
-När Scene7 Image Rendering är aktiverat på servern kan återgivningsbegäranden användas som lagerkällor genom att ange dem med kommandot src= (eller mask=). Använd följande syntax:
+När Dynamic Media Image Rendering är aktiverat på servern kan återgivningsbegäranden användas som lagerkällor genom att ange dem med kommandot src= (eller mask=). Använd följande syntax:
 
 ` …&src=ir( *[!DNL renderRequest]*)&…`
 
@@ -92,7 +92,7 @@ Token `fxg` är skiftlägeskänslig.
 
 >[!NOTE]
 >
->FXG-grafikåtergivning är endast tillgängligt i Scene7 värdmiljö och kan kräva ytterligare licensiering. Kontakta Scene7 Support för mer information.
+>FXG-grafikåtergivning är endast tillgängligt i Dynamic Media värdmiljö och kan kräva ytterligare licensiering. Kontakta Dynamic Media tekniska support för mer information.
 
 *[!DNL renderRequest]* är den vanliga FXG-återgivningsbegäran, exklusive HTTP-rotsökvägen  ` http:// *[!DNL server]*/agm/render/`.
 
@@ -152,9 +152,9 @@ Med mindre ändringar kan vi förskala bilden för lager 0 och cachelagra den pe
 
 `layer=0&src=is(?src=$img$&size=300,300&cache=on)&layer=1&text=$txt$`
 
-**Bädda in begäranden om Scene7 bildåtergivning**
+**Bädda in begäranden om Dynamic Media bildåtergivning**
 
-Använda en mall som lagras i [!DNL myCatalog/myTemplate]; generera bilden för lager2 i mallen med Scene7 Image Rendering:
+Använda en mall som lagras i [!DNL myCatalog/myTemplate]; generera bilden för lager2 i mallen med Dynamic Media Image Rendering:
 
 `http://server/is/image/myCatalog/myTemplate?layer=2&src=ir(myRenderCatalog/myRenderObject?id=myIdValue&sel=group&src=is(myCatalog/myTexture1?res=30)&res=30)&wid=300`
 
