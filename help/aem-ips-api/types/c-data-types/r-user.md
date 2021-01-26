@@ -4,10 +4,10 @@ seo-description: En användare med resurser och typer i systemet.
 seo-title: Användare
 solution: Experience Manager
 title: Användare
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 37e939ae-dd1a-4550-aa93-b7b091ebc339
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 0%
@@ -25,11 +25,11 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| ` *`userHandle`*` | `xsd:string` | Användarhandtag. |
-| ` *`firstName`*` | `xsd:string` | Användarens förnamn. |
-| ` *`lastName`*` | `xsd:string` | Användarens efternamn. |
-| ` *`e-post`*` | `xsd:string` | e-postadress. |
-| ` *`defaultRole`*` | `xsd:string` | Anger rollen för en användare i varje företag de tillhör. Användarrollen `IpsAmin` åsidosätter dock andra användarroller. |
-| ` *`isValid`*` | `xsd:boolean` | Anger om användaren är giltig. |
-| ` *`passwordExpires`*` | `xsd:dateTime` | Anger förfallodatum för lösenord. |
+| `*`userHandle`*` | `xsd:string` | Användarhandtag. |
+| `*`firstName`*` | `xsd:string` | Användarens förnamn. |
+| `*`lastName`*` | `xsd:string` | Användarens efternamn. |
+| `*`e-post`*` | `xsd:string` | e-postadress. |
+| `*`defaultRole`*` | `xsd:string` | Anger rollen för en användare i varje företag de tillhör. Användarrollen `IpsAmin` åsidosätter dock andra användarroller. |
+| `*`isValid`*` | `xsd:boolean` | Anger om användaren är giltig. |
+| `*`passwordExpires`*` | `xsd:dateTime` | Anger förfallodatum för lösenord. |
 
