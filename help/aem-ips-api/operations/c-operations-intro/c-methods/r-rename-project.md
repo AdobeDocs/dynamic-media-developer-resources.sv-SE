@@ -4,10 +4,10 @@ seo-description: Byter namn på ett projekt.
 seo-title: renameProject
 solution: Experience Manager
 title: renameProject
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 6303c493-a6fe-4b32-80c3-947aba4190f7
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 0%
@@ -36,15 +36,15 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`companyName`*` | `xsd:string` | Ja | Hantera företaget med det projekt som du vill byta namn på. |
-| ` *`projectHandle`*` | `xsd:string` | Ja | Hantera projektet. |
-| ` *`projectName`*` | `xsd:string` | Ja | Nytt projektnamn. |
+| `*`companyName`*` | `xsd:string` | Ja | Hantera företaget med det projekt som du vill byta namn på. |
+| `*`projectHandle`*` | `xsd:string` | Ja | Hantera projektet. |
+| `*`projectName`*` | `xsd:string` | Ja | Nytt projektnamn. |
 
 **Utdata (renameProjectParam)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`projectHandle`*` | `xsd:string` | Ja | Referensen för det omdöpta projektet. |
+| `*`projectHandle`*` | `xsd:string` | Ja | Referensen för det omdöpta projektet. |
 
 ## Exempel {#section-a0a06d9244774795b695a10b92b2a5e7}
 
