@@ -7,9 +7,9 @@ title: Scene7 hösten 2016
 topic: Dynamic media
 uuid: 3fddda65-0c6e-48ec-bd60-7e0ca59421a8
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '2263'
+source-wordcount: '2264'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,8 @@ Den senaste versionsinformationen för [!DNL Adobe Scene7] hösten 2016 som en d
 * [Visare (Image Serving 5.5.3)](s7rnfall2016.md#section-1d59bcd5825d487b80b59a6d1a08ed30)
 * [Visare (Image Serving 5.5.2)](s7rnfall2016.md#section-9932c988cfee45749594af481dfc6476)
 * [Visare (Image Serving 5.5.1)](s7rnfall2016.md#section-833ab92c91c941d2bfdc27f233f582ad)
-* [Scene7 HTML5 Viewer SDK 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
-* [Scene7 Image Serving 6.3.2 och Image Rendering 6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
+* [HTML5 Viewer SDK 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
+* [Dynamic Media Image Serving 6.3.2 och Image Rendering 6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
 
 ## Allmänt {#section-52afeb72ecb34c1585ea67a5051825a2}
 
@@ -201,8 +201,8 @@ Fullständig dokumentation finns i [Referenshandbok för visningsprogram](https:
    * Svarta kantlinjer visas på sidan om VideoPlayer-komponenten när bakgrunden är inställd på vit/genomskinlig på iPad-enheter.
    * Den sista bildrutan i videon kan förvrängas på iPad med iOS 7.
    * Ibland kan makroblockering förekomma under videosökning i HLS-direktuppspelningsläge i Chrome, Firefox och Internet Explorer.
-   * Förhandsvisningsbilden kanske inte visas i Microsoft Edge-webbläsaren för första gången.
-   * Filmminiatyrbilden kan döljas när videon har lästs in i Internet Explorer 9 när progressiv uppspelning används.
+      * Förhandsvisningsbilden kanske inte visas i Microsoft Edge-webbläsaren för första gången.
+      * Filmminiatyrbilden kan döljas när videon har lästs in i Internet Explorer 9 när progressiv uppspelning används.
 
 ## Scene7 HTML5 Viewer SDK 3.0.2 {#section-30e2392859c442d1aab2766d0f1d1580}
 
@@ -348,7 +348,7 @@ Användarhandboken finns i Adobe HTML5 Viewer SDK-mappen för klientinstallation
    * Förhandsvisningsbilden kanske inte visas i Microsoft Edge-webbläsaren för första gången.
    * Filmminiatyrbilden kan döljas när videon har lästs in i Internet Explorer 9 när progressiv uppspelning används.
 
-## Scene7 Image Serving 6.3.2 and Image Rendering 6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
+## Dynamic Media Image Serving 6.3.2 and Image Rendering 6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
 
 * IC-verktyg - flaggan `downsample2x2` stöds inte längre. Den här flaggan var en 2x2-nedsampling med låg kvalitet som inte längre används av IPS.
 * CORS-huvud - CORS-huvudet är för närvarande konfigurerat för `/is/content/`-begäranden.
