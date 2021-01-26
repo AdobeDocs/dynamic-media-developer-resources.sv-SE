@@ -1,15 +1,12 @@
 ---
-description: Responsive Image Library är en JavaScript-modul som dynamiskt justerar kvaliteten på bilder som hanteras från Scene7 och bäddas in på responsiva webbsidor. Dessutom ger den bättre bildkvalitet på enheter med skärmar med hög densitet. Biblioteket kan även återge resultat från smart beskärning och smarta färgrutor på ett responsivt sätt.
-seo-description: Responsive Image Library är en JavaScript-modul som dynamiskt justerar kvaliteten på bilder som hanteras från Scene7 och bäddas in på responsiva webbsidor. Dessutom ger den bättre bildkvalitet på enheter med skärmar med hög densitet. Biblioteket kan även återge resultat från smart beskärning och smarta färgrutor på ett responsivt sätt.
-seo-title: Om bibliotek för responsiv bild
+description: Responsive Image Library är en JavaScript-modul som dynamiskt justerar kvaliteten på bilder som hanteras från Dynamic Media och bäddas in på responsiva webbsidor. Dessutom ger den bättre bildkvalitet på enheter med skärmar med hög densitet. Biblioteket kan även återge resultat från smart beskärning och smarta färgrutor på ett responsivt sätt.
 solution: Experience Manager
 title: Om bibliotek för responsiv bild
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 0906a940-59ff-45b0-b509-57bd02f2da57
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '917'
 ht-degree: 0%
 
 ---
@@ -17,11 +14,11 @@ ht-degree: 0%
 
 # Om bibliotek för responsiv bild{#about-responsive-image-library}
 
-Responsive Image Library är en JavaScript-modul som dynamiskt justerar kvaliteten på bilder som hanteras från Scene7 och bäddas in på responsiva webbsidor. Dessutom ger den bättre bildkvalitet på enheter med skärmar med hög densitet. Biblioteket kan även återge resultat från smart beskärning och smarta färgrutor på ett responsivt sätt.
+Responsive Image Library är en JavaScript-modul som dynamiskt justerar kvaliteten på bilder som hanteras från Dynamic Media och bäddas in på responsiva webbsidor. Dessutom ger den bättre bildkvalitet på enheter med skärmar med hög densitet. Biblioteket kan även återge resultat från smart beskärning och smarta färgrutor på ett responsivt sätt.
 
 ## Demo-URL:er {#section-4f72c1dc38bf4e03acfa5205733a05a5}
 
-Det enklaste sättet att använda det responsiva bildbiblioteket är att definiera en lista med brytpunktsvärden för bildbredd. Den här listan ser till att rätt återgivning läses in och visas när en bild storleksändras på grund av att webbsidans layout ändras från att användaren ändrar storlek på webbläsarfönstret eller ändrar enhetens orientering. Biblioteket övervakar kontinuerligt skärmbildens storlek och varje gång en ny brytpunktsbredd nås hämtas en ny bildåtergivning från Scene7.
+Det enklaste sättet att använda det responsiva bildbiblioteket är att definiera en lista med brytpunktsvärden för bildbredd. Den här listan ser till att rätt återgivning läses in och visas när en bild storleksändras på grund av att webbsidans layout ändras från att användaren ändrar storlek på webbläsarfönstret eller ändrar enhetens orientering. Biblioteket övervakar kontinuerligt skärmbildens storlek och varje gång en ny brytpunktsbredd nås hämtas en ny bildåtergivning från Dynamic Media.
 
 <table id="table_3D3D3991B802461A888E1093C1217D26"> 
  <thead> 
@@ -42,7 +39,7 @@ Det enklaste sättet att använda det responsiva bildbiblioteket är att definie
    <td colname="col01"> <p>2 </p> </td> 
    <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/responsive-static-image-bootstrap.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/responsive-static-image-bootstrap.html  </a> </p> <p> 
      <!-- http://sasha.s7qa.com/jira-bugs/S7-7729/responsive-static-image-bootstrap.htm--> </p> </td> 
-   <td colname="col2"> <p>I följande Bootstrap-exempel visas samma användningsfall på en webbsida. Enligt Bootstrap CSS kan layoutcellen som den responsiva bilden läggs till i ha någon av följande bredder: 360, 720 och 940 pixlar. Detta är de exakta värden som skickas som brytpunkter till det responsiva bildbiblioteket. Därför ser Scene7 till att klientens nätverksbandbredd används effektivt. Dessutom ser det till att bilden visas i exakt den storlek som behövs, med den aktuella webbsidans layout, utan att webbläsaren skalas. </p> <p>Klicka på webbadressen för att öppna webbsidan, ändra storlek på webbläsarfönstret för att hitta olika brytpunkter och övervaka nätverkstrafiken. </p> <p>Fler avancerade användningsområden är att associera olika bildförinställningar, eller bildservningskommandon, eller båda, med olika brytpunktsvärden. </p> </td> 
+   <td colname="col2"> <p>I följande Bootstrap-exempel visas samma användningsfall på en webbsida. Enligt Bootstrap CSS kan layoutcellen som den responsiva bilden läggs till i ha någon av följande bredder: 360, 720 och 940 pixlar. Detta är de exakta värden som skickas som brytpunkter till det responsiva bildbiblioteket. Därför ser Dynamic Media till att klientens nätverksbandbredd används effektivt. Dessutom ser det till att bilden visas i exakt den storlek som behövs, med den aktuella webbsidans layout, utan att webbläsaren skalas. </p> <p>Klicka på webbadressen för att öppna webbsidan, ändra storlek på webbläsarfönstret för att hitta olika brytpunkter och övervaka nätverkstrafiken. </p> <p>Fler avancerade användningsområden är att associera olika bildförinställningar, eller bildservningskommandon, eller båda, med olika brytpunktsvärden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
@@ -69,7 +66,7 @@ Det enklaste sättet att använda det responsiva bildbiblioteket är att definie
 
 **Servermaskinvara och -programvara**
 
-* Scene7 Image Serving 6.0.1 eller senare.
+* Dynamic Media Image Serving 6.0.1 eller senare.
 
 **Lägsta krav för klientwebbläsare**
 
