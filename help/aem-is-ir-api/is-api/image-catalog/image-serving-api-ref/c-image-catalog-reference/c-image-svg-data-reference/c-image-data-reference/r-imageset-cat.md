@@ -1,15 +1,12 @@
 ---
-description: Bilduppsättningsdata. Innehåller en mekanism för att definiera sorterade uppsättningar bilder och kontrollattribut som används av Scene7-visningsprogram.
-seo-description: Bilduppsättningsdata. Innehåller en mekanism för att definiera sorterade uppsättningar bilder och kontrollattribut som används av Scene7-visningsprogram.
-seo-title: ImageSet
+description: Bilduppsättningsdata. Innehåller en mekanism för att definiera sorterade uppsättningar bilder och kontrollattribut som används av Dynamic Media-visningsprogram.
 solution: Experience Manager
 title: ImageSet
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 1a34aaef-4053-4474-abb8-794331898d88
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '684'
 ht-degree: 0%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 0%
 
 # ImageSet{#imageset}
 
-Bilduppsättningsdata. Innehåller en mekanism för att definiera sorterade uppsättningar bilder och kontrollattribut som används av Scene7-visningsprogram.
+Bilduppsättningsdata. Innehåller en mekanism för att definiera sorterade uppsättningar bilder och kontrollattribut som används av Dynamic Media-visningsprogram.
 
 En bilduppsättning består av en sorterad, kommaavgränsad lista med objekt, där varje objekt består av ett eller flera underobjekt (bild-ID, färgrute-ID, mediafilsökvägar, etiketter osv.), separerade med semikolon och/eller kolon.
 
@@ -49,24 +46,24 @@ Följande uppsättningsdefinitioner stöds internt av Image Serving, och för vi
 
 Varje objekt i en grundläggande färgruteuppsättning består av en referens till en bildpost och en valfri separat referens till en bildpost som används som en färgruta.
 
-| ` *`basicSwatchSet`*` | ` *``*&#42;[',' *`swatchItemswatchItem`*]` |
+| `*`basicSwatchSet`*` | `*``*&#42;[',' *`swatchItemswatchItem`*]` |
 |---|---|
-| ` *`swatchItem`*` | ` *``*[';' *`imageIdswatch`*]` |
-| ` *`färgruta`*` | ` *`swatchId`*|solidColorSpecifier` |
-| ` *`imageId`*` | IS-bildreferens (katalog/id) |
-| ` *`swatchId`*` | IS-bildreferens (katalog/id) |
-| ` *`solidColorSpecifier`*` | ` '{0x' *``* [ *`rggbblabel`*]'}'` |
-| ` *`rrggbb`*` | Packat 6-siffrigt hexadecimalt RGB-färgvärde för enfärgade färgrutor |
-| ` *`label`*` | Valfri textetikett för heltäckande färgrutor |
+| `*`swatchItem`*` | `*``*[';' *`imageIdswatch`*]` |
+| `*`färgruta`*` | `*`swatchId`*|solidColorSpecifier` |
+| `*`imageId`*` | IS-bildreferens (katalog/id) |
+| `*`swatchId`*` | IS-bildreferens (katalog/id) |
+| `*`solidColorSpecifier`*` | ` '{0x' *``* [ *`rggbblabel`*]'}'` |
+| `*`rrggbb`*` | Packat 6-siffrigt hexadecimalt RGB-färgvärde för enfärgade färgrutor |
+| `*`label`*` | Valfri textetikett för heltäckande färgrutor |
 
 **Hierarkiska färgruteuppsättningar**
 
 Varje objekt i en hierarkisk färgruteuppsättning kan bestå av ett grundläggande färgruteobjekt eller en referens till en post i en färgruteuppsättning (färgrutor krävs för sådana objekt).
 
-| ` *`hierarkiskFärgrutaUppsättning`*` | ` *``* &#42;[ ',' *`hierarchicalSwatchItemhierarchicalSwatchItem`* ]` |
+| `*`hierarkiskFärgrutaUppsättning`*` | `*``* &#42;[ ',' *`hierarchicalSwatchItemhierarchicalSwatchItem`* ]` |
 |---|---|
-| ` *`hierarkisktSwatchItem`*` | ` *``* | { *``* ';' *`swatchItem basicSwatchSetIdswatch`* }` |
-| ` *`basicSwatchSetId`*` | IS reference (catalog/id) to a catalog record defining a basic swatch set |
+| `*`hierarkisktSwatchItem`*` | `*``* | { *``* ';' *`swatchItem basicSwatchSetIdswatch`* }` |
+| `*`basicSwatchSetId`*` | IS reference (catalog/id) to a catalog record defining a basic swatch set |
 
 **Grundläggande snurruppsättningar**
 
@@ -78,38 +75,38 @@ En grundläggande snurruppsättning består av en enkel lista med bild-ID:n.
 
 Varje objekt i en tvådimensionell snurra kan bestå av en enkel bild, en referens till en grundläggande snurra eller en grundläggande snurra som avgränsas av klammerparenteser. Parenteser kan användas i stället för klammerparenteser.
 
-| ` *`2dSpinItem`*` | ` *`2dSpinSet`* *`2dSpinItem`* &#42;[ ',' *`2dSpinItem`* ]` |
+| `*`2dSpinItem`*` | `*`2dSpinSet`* *`2dSpinItem`* &#42;[ ',' *`2dSpinItem`* ]` |
 |---|---|
-| ` *`2dSpinItem`*` | ` *`imageIdbasicSpinSetbasicSpinSetId `* | { '{' *``* '}' } | *``*` |
-| ` *`basicSpinSetId`*` | IS reference (catalog/id) to a catalog record defining a basic spin set |
+| `*`2dSpinItem`*` | `*`imageIdbasicSpinSetbasicSpinSetId `* | { '{' *``* '}' } | *``*` |
+| `*`basicSpinSetId`*` | IS reference (catalog/id) to a catalog record defining a basic spin set |
 
 **Siduppsättningar**
 
 Varje objekt i en siduppsättning kan bestå av upp till tre sidbilder, åtskilda med kolon.
 
-| ` *`pageSet`*` | ` *``* &#42;[ , *`pageItempageItem`* ]` |
+| `*`pageSet`*` | `*``* &#42;[ , *`pageItempageItem`* ]` |
 |---|---|
-| ` *`pageItem`*` | ` *``* [ : *``* [ : *`imageIdimageIdimageId`* ] ]` |
+| `*`pageItem`*` | `*``* [ : *``* [ : *`imageIdimageIdimageId`* ] ]` |
 
 **Medieuppsättningar**
 
 Varje objekt i en medieuppsättning kan bestå av en bild, grundläggande färgruteuppsättning, hierarkisk färgruteuppsättning, grundläggande rotationsuppsättning, tvådimensionell rotation, siduppsättning eller videoresurs. Varje medieuppsättningsobjekt kan också innehålla en valfri färgruta och en typidentifierare.
 
-| ` *`mediaSet`*` | ` *``* &#42;[ , *`itemItem`* ]` |
+| `*`mediaSet`*` | `*``* &#42;[ , *`itemItem`* ]` |
 |---|---|
-| ` *`artikel`*` | ` { *``* | *``* | *``*}} | *``* } [ ; [ *``* ] [ ; [ *`videoItemItemItemItemItemItemIDreserved`* ] ] ]` |
-| ` *`videoItem`*` | ` *``* ; *`videoswatchId`*` |
-| ` *`recutItem`*` | ` *`recutswatchId `* ; *`för`*` |
-| ` *`imageItem`*` | ` *``* ; [ *`imageIdswatchId`* ]` |
-| ` *`setItem`*` | ` { *``* | { '{' *``* '}' } } ; *`setIdinlineSetSwatchId`*` |
-| ` *`ID`*` | `media type identifier [ img | basic | advanced_image | img | img_set | advanced_imageset | advanced_swatchset | spin | video ]` |
-| ` *`swatchId`*` | IS-bild-ID |
-| ` *`video`*` | Filsökväg för video/animering eller statiskt katalog-ID |
-| ` *`recut`*` | Sökväg till XML-fil för postdefinition eller statiskt katalog-ID |
-| ` *`imageId`*` | IS-bild-ID |
-| ` *`setId`*` | IS reference to image, spin, or ecatalog set |
-| ` *`inlineSet`*` | Infogad bild, snurra eller katalog |
-| ` *`reserverad`*` | Reserverad för framtida bruk |
+| `*`artikel`*` | ` { *``* | *``* | *``*}} | *``* } [ ; [ *``* ] [ ; [ *`videoItemItemItemItemItemItemIDreserved`* ] ] ]` |
+| `*`videoItem`*` | `*``* ; *`videoswatchId`*` |
+| `*`recutItem`*` | `*`recutswatchId `* ; *`för`*` |
+| `*`imageItem`*` | `*``* ; [ *`imageIdswatchId`* ]` |
+| `*`setItem`*` | ` { *``* | { '{' *``* '}' } } ; *`setIdinlineSetSwatchId`*` |
+| `*`ID`*` | `media type identifier [ img | basic | advanced_image | img | img_set | advanced_imageset | advanced_swatchset | spin | video ]` |
+| `*`swatchId`*` | IS-bild-ID |
+| `*`video`*` | Filsökväg för video/animering eller statiskt katalog-ID |
+| `*`recut`*` | Sökväg till XML-fil för postdefinition eller statiskt katalog-ID |
+| `*`imageId`*` | IS-bild-ID |
+| `*`setId`*` | IS reference to image, spin, or ecatalog set |
+| `*`inlineSet`*` | Infogad bild, snurra eller katalog |
+| `*`reserverad`*` | Reserverad för framtida bruk |
 
 **Videouppsättningar**
 
