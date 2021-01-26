@@ -4,10 +4,10 @@ seo-description: Ange eller uppdatera publiceringsläget för en eller flera res
 seo-title: setAssetsContextState
 solution: Experience Manager
 title: setAssetsContextState
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 4b94f9ea-3f7b-45ee-9381-6434f2bc4e31
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -41,17 +41,17 @@ Ange eller uppdatera publiceringsläget för en eller flera resurser. Du kan ang
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Handla till företaget. |
-| ` *`assetsContextHandle`*` | `types:AssetsContextStateUpdateArray` | Ja | En array med resurser och deras nya publiceringstillstånd. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Handla till företaget. |
+| `*`assetsContextHandle`*` | `types:AssetsContextStateUpdateArray` | Ja | En array med resurser och deras nya publiceringstillstånd. |
 
 **Utdata (setAssetsContexStateReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Ja | Antalet resurser har ändrats. |
-| ` *`warningCount`*` | `xsd:int` | Ja | Antalet varningar som genereras när åtgärden försökte ändra resurser. |
-| ` *`errorCount`*` | `xsd:int` | Ja | Antalet fel som genererades när åtgärden försökte ändra resurser. |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nej | Array med fel som genereras av resurser när åtgärden försökte ändra dem. |
+| `*`successCount`*` | `xsd:int` | Ja | Antalet resurser har ändrats. |
+| `*`warningCount`*` | `xsd:int` | Ja | Antalet varningar som genereras när åtgärden försökte ändra resurser. |
+| `*`errorCount`*` | `xsd:int` | Ja | Antalet fel som genererades när åtgärden försökte ändra resurser. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nej | Array med fel som genereras av resurser när åtgärden försökte ändra dem. |
 
 ## Exempel {#section-283a073f3cb14bcda5abed863c538aa4}
 
