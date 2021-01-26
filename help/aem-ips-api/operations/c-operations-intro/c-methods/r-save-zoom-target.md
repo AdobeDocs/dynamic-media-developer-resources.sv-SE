@@ -4,10 +4,10 @@ seo-description: Skapa eller redigera ett zoommål.
 seo-title: saveZoomTarget
 solution: Experience Manager
 title: saveZoomTarget
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 197f7a2a-39ea-41cc-8e3a-76f9fe1b37d0
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 1%
@@ -36,21 +36,21 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Handtaget till företaget med det zoommål som du vill spara. |
-| ` *`assetHandle`*` | `xsd:string` | Ja | Handtaget till zoommålet. |
-| ` *`zoomTargetHandle`*` | `xsd:string` | Nej | Redigerar eller skapar ett zoommål. |
-| ` *`name`*` | `xsd:string` | Ja | Zoommålnamn. |
-| ` *`xPosition`*` | `xsd:int` | Ja | Vänster pixelplacering. |
-| ` *`yPosition`*` | `xsd:int` | Ja | Plats för övre pixel. |
-| ` *`width`*` | `xsd:int` | Ja | Zooma målbredd. |
-| ` *`height`*` | `xsd:int` | Ja | Zooma målhöjd. |
-| ` *`userData`*` | `xsd:string` | Ja | För kundspecifik information. Kan innehålla alla typer av data. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Handtaget till företaget med det zoommål som du vill spara. |
+| `*`assetHandle`*` | `xsd:string` | Ja | Handtaget till zoommålet. |
+| `*`zoomTargetHandle`*` | `xsd:string` | Nej | Redigerar eller skapar ett zoommål. |
+| `*`name`*` | `xsd:string` | Ja | Zoommålnamn. |
+| `*`xPosition`*` | `xsd:int` | Ja | Vänster pixelplacering. |
+| `*`yPosition`*` | `xsd:int` | Ja | Plats för övre pixel. |
+| `*`width`*` | `xsd:int` | Ja | Zooma målbredd. |
+| `*`height`*` | `xsd:int` | Ja | Zooma målhöjd. |
+| `*`userData`*` | `xsd:string` | Ja | För kundspecifik information. Kan innehålla alla typer av data. |
 
 **Utdata (saveZoomTargetReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`zoomTargetHandle`*` | `xsd:string` | Ja | Hantera det nyskapade zoommålet. |
+| `*`zoomTargetHandle`*` | `xsd:string` | Ja | Hantera det nyskapade zoommålet. |
 
 ## Exempel {#section-509c472c316549cdb228d7e1cfa8400a}
 
