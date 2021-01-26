@@ -4,10 +4,10 @@ seo-description: Kommandomakron innehåller namngivna kortkommandon för kommand
 seo-title: Kommandomakron
 solution: Experience Manager
 title: Kommandomakron
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a6ff5642-6716-484f-b37e-066994362a9b
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Kommandomakron innehåller namngivna kortkommandon för kommandouppsättningar. 
  </tr> 
 </table>
 
-` *`Namnet `*` är inte skiftlägeskänsligt och kan bestå av en kombination av ASCII-bokstäver, siffror, &#39;-&#39;, &#39;_&#39; och &#39;.&#39; tecken.
+`*`Namnet `*` är inte skiftlägeskänsligt och kan bestå av en kombination av ASCII-bokstäver, siffror, &#39;-&#39;, &#39;_&#39; och &#39;.&#39; tecken.
 
 Makron kan anropas var som helst i en begäran efter &#39;?&#39; samt var som helst i ett `catalog::Modifier`- eller `catalog::PostModifier`-fält. Makron kan bara representera ett eller flera fullständiga bildserverkommandon och måste separeras från andra kommandon med &quot;&amp;&quot;-avgränsare.
 
