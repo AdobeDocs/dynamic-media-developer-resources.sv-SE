@@ -4,10 +4,10 @@ seo-description: Hämtar egenskapsuppsättningar som är associerade med ett typ
 seo-title: getPropertySets
 solution: Experience Manager
 title: getPropertySets
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: fa3cadb3-92b3-4ffb-ac1e-87a01b98bcb2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
@@ -39,15 +39,15 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`typeHandle`*` | `xsd:string` | Ja | Referensen till egenskapsuppsättningstypen. |
-| ` *`primaryOwnerHandle`*` | `xsd:string` | Ja | Den primära ägaren av data som är bundna till databasobjektet. |
-| ` *`secondaryOwnerHandle`*` | `xsd:string` | Nej | En valfri sekundär dataägare. |
+| `*`typeHandle`*` | `xsd:string` | Ja | Referensen till egenskapsuppsättningstypen. |
+| `*`primaryOwnerHandle`*` | `xsd:string` | Ja | Den primära ägaren av data som är bundna till databasobjektet. |
+| `*`secondaryOwnerHandle`*` | `xsd:string` | Nej | En valfri sekundär dataägare. |
 
 **Utdata (getPropertySetsReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`setArray`*` | `types:PropertySetArray` | Ja | Array med egenskapsuppsättningar. |
+| `*`setArray`*` | `types:PropertySetArray` | Ja | Array med egenskapsuppsättningar. |
 
 ## Exempel {#section-1358af974eab4259864910337a6f0bd2}
 
