@@ -4,10 +4,10 @@ seo-description: Tar bort en grupp.
 seo-title: deleteGroup
 solution: Experience Manager
 title: deleteGroup
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 04934b16-b7ef-4657-9f63-c91fcc741ca4
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 0%
@@ -33,8 +33,8 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Referensen till företaget som tillhör gruppen som du vill ta bort. |
-| ` *`groupHandle`*` | `xsd:string` | Ja | Referensen till gruppen som du vill ta bort. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Referensen till företaget som tillhör gruppen som du vill ta bort. |
+| `*`groupHandle`*` | `xsd:string` | Ja | Referensen till gruppen som du vill ta bort. |
 
 **Utdata (deleteGroupParam)**
 
