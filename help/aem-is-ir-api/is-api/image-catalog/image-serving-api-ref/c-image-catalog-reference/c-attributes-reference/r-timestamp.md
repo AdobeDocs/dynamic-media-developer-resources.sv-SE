@@ -4,10 +4,10 @@ seo-description: Standardtidsstämpel för bildändring. Anger ett standardvärd
 seo-title: TimeStamp
 solution: Experience Manager
 title: TimeStamp
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0670e53a-ad7d-46cf-8e18-4c52a766df6f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Alla element i strängformaterade datum/tid-värden måste finnas. Om datum/tid-
 
 ## Standard {#section-ac465313c97943ed97d41ea852329177}
 
-Om den är tom eller inte definierad används filändringstiden för den här ` *`katalogen`*.ini`-filen.
+Om den är tom eller inte definierad används filändringstiden för den här `*`katalogen`*.ini`-filen.
 
 ## Se även {#section-ea19bcefa4a04d7eb5d9480cf0e2ca26}
 
