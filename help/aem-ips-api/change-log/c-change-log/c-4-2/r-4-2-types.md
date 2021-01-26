@@ -1,15 +1,12 @@
 ---
 description: Beskriver nya och ändrade datatyper för IPS API version 4.2.
-seo-description: Beskriver nya och ändrade datatyper för IPS API version 4.2.
-seo-title: Datatyper Nytt och ändrat
 solution: Experience Manager
 title: Datatyper Nytt och ändrat
-topic: Scene7 Image Production System API
-uuid: 274e49da-9eb8-4082-971c-056acb47a53e
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '51'
 ht-degree: 0%
 
 ---
