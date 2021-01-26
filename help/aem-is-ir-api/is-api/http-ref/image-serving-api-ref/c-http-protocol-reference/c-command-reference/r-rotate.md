@@ -4,10 +4,10 @@ seo-description: Rotera bild. Roterar bild-, text- eller enfärgslagret med den 
 seo-title: rotera
 solution: Experience Manager
 title: rotera
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 160d3c4b-3871-43bd-a17d-96198c7ea839
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 0%
