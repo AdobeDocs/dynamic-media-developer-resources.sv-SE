@@ -4,10 +4,10 @@ seo-description: Byter namn på en mapp.
 seo-title: renameFolder
 solution: Experience Manager
 title: renameFolder
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 7d190a57-1d81-4f41-9205-b8ffdf7330ec
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 0%
@@ -40,15 +40,15 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Hantera företaget med mappar som du vill byta namn på. |
-| ` *`folderHandle`*` | `xsd:string` | Ja | Hantera till mappen. |
-| ` *`folderName`*` | `xsd:string` | Ja | Nytt mappnamn. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Hantera företaget med mappar som du vill byta namn på. |
+| `*`folderHandle`*` | `xsd:string` | Ja | Hantera till mappen. |
+| `*`folderName`*` | `xsd:string` | Ja | Nytt mappnamn. |
 
 **Utdata (renameFolderReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`folderHandle`*` | `xsd:string` | Ja | Hantera den namnändrade mappen. |
+| `*`folderHandle`*` | `xsd:string` | Ja | Hantera den namnändrade mappen. |
 
 ## Exempel {#section-98bdd2f88d164f488676e90aba1dc864}
 
