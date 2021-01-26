@@ -4,10 +4,10 @@ seo-description: Färgvärden. Du kan ange färgvärden antingen hexadecimalt, m
 seo-title: färg
 solution: Experience Manager
 title: färg
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 61308b8e-eaac-4b2e-8500-2f9efa8a6ce8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 11%
@@ -64,7 +64,7 @@ Färgkomponentvärdena antas vara oberoende av alfavärdet (inte förmultiplicer
 
 Alla färgvärden, prefix och suffix är inte skiftlägeskänsliga.
 
-Typsuffixet k krävs för CMYK-färgvärden. Ett typsuffix kan anges för RGB- och gråfärgvärden.
+Typsuffixet k krävs för CMYK-färgvärden. Ett typsuffix kan anges för RGB och gråa färgvärden.
 
 Prefixet 0x krävs för hexadecimala gråa färgvärden.
 
