@@ -4,10 +4,10 @@ seo-description: Bildplatskoordinater som returneras av åtgärden getPhotoshopP
 seo-title: PerspectiveQuad
 solution: Experience Manager
 title: PerspectiveQuad
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e83b7b8c-995b-4ac0-ace5-491f7e98674d
 translation-type: tm+mt
-source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 9%
@@ -25,14 +25,14 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| ` *`x0`*` | `xsd:double` | Övre vänster x-axelkoordinat. |
-| ` *`y0`*` | `xsd:double` | Övre vänster y-axelkoordinat. |
-| ` *`x1`*` | `xsd:double` | Övre höger x-axelkoordinat. |
-| ` *`y1`*` | `xsd:double` | Övre höger y-axelkoordinat. |
-| ` *`x2`*` | `xsd:double` | Nedre höger x-axelkoordinat. |
-| ` *`y2`*` | `xsd:double` | Nedre höger y-axelkoordinat. |
-| ` *`x3`*` | `xsd:double` | Nedre vänster x-axelkoordinat. |
-| ` *`y3`*` | `xsd:double` | Nedre y-axelkoordinat. |
+| `*`x0`*` | `xsd:double` | Övre vänster x-axelkoordinat. |
+| `*`y0`*` | `xsd:double` | Övre vänster y-axelkoordinat. |
+| `*`x1`*` | `xsd:double` | Övre höger x-axelkoordinat. |
+| `*`y1`*` | `xsd:double` | Övre höger y-axelkoordinat. |
+| `*`x2`*` | `xsd:double` | Nedre höger x-axelkoordinat. |
+| `*`y2`*` | `xsd:double` | Nedre höger y-axelkoordinat. |
+| `*`x3`*` | `xsd:double` | Nedre vänster x-axelkoordinat. |
+| `*`y3`*` | `xsd:double` | Nedre y-axelkoordinat. |
 
 ## Exempel {#section-19ed4409ff3a41c9b52a9c9424612927}
 
