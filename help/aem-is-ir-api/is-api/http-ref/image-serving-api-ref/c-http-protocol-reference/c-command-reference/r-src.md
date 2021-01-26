@@ -4,12 +4,12 @@ seo-description: Lagerbild.
 seo-title: src
 solution: Experience Manager
 title: src
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b4396848-b992-4371-a8ae-4ff1781ae1be
 translation-type: tm+mt
-source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
@@ -43,10 +43,6 @@ Se [objekt](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol
 Kapslade eller inbäddade begäranden omsluts av klammerparenteser. Lägg till en inbäddad begäran om bildservering med `is`, en inbäddad begäran om bildåtergivning med `ir` och en begäran om FXG-grafikåtergivning med `fxg`. En begäran till en extern server antas om inget prefix anges.
 
 Se [Begär kapsling och inbäddning](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b).
-
->[!NOTE]
->
->FXG-grafikåtergivning är endast tillgängligt i Scene7 värdmiljö och kan kräva ytterligare licensiering. Kontakta Scene7 Support för mer information.
 
 ## Egenskaper {#section-2c22bb89a35d470f833df8ba898efd93}
 
