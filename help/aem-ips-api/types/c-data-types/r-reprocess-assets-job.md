@@ -4,10 +4,10 @@ seo-description: Jobbtyp som tillåter ombearbetning av tidigare överförda pri
 seo-title: ÅterbearbetaResurserJobb
 solution: Experience Manager
 title: ÅterbearbetaResurserJobb
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 5b4aa838-0fb4-4ae8-be5a-8ce1e1487127
 translation-type: tm+mt
-source-git-commit: fa8be83171215f39cd2593a3bfe75ffe5fb7abcd
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 0%
@@ -135,12 +135,12 @@ Syntax
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postImageRenderingPublishJob</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> typer:ImageRenderingPublishJob</span> </p> </td> 
-   <td colname="col3"> <p>Jobbinformation för ett publiceringsjobb för bildåtergivning som ska köras när överföringen är slutförd. </p> </td> 
+   <td colname="col3"> <p>Jobbinformation för ett publiceringsjobb för bildåtergivning som ska köras när överföringen är klar. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postVideoPublishJob</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> typer:VideoPublishJob</span> </p> </td> 
-   <td colname="col3"> <p>Jobbinformation för ett videopubliceringsjobb som ska köras när överföringen är slutförd. </p> </td> 
+   <td colname="col3"> <p>Jobbinformation för ett videopubliceringsjobb som ska köras när överföringen är klar. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </p> </td> 
@@ -155,7 +155,7 @@ Syntax
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> typer:UnsharpMaskOptions</span> </p> </td> 
-   <td colname="col3"> <p>Alternativ som gör att du kan styra inställningarna för oskarp mask när du skapar en optimerad TIF-pyramidfil. Använd de här inställningarna för att förbättra bildens skärpa. </p> <p>Se <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnsharpMaskOptions</a>. </p> </td> 
+   <td colname="col3"> <p>Alternativ som gör att du kan styra inställningar för oskarpa masker när du skapar en optimerad TIF-pyramidfil. Använd de här inställningarna för att förbättra bildens skärpa. </p> <p>Se <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnsharpMaskOptions</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
