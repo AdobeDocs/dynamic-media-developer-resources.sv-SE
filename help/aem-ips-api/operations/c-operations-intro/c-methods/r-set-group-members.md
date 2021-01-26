@@ -4,10 +4,10 @@ seo-description: Anger gruppmedlemskap för användare som tillhör ett visst f�
 seo-title: setGroupMembers
 solution: Experience Manager
 title: setGroupMembers
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: fe6585ef-a4b3-4b3c-95d0-624017650497
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
@@ -33,9 +33,9 @@ Anger gruppmedlemskap för användare som tillhör ett visst företag.
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Företagshandtag. |
-| ` *`groupHandle`*` | `xsd:string` | Ja | Gruppreferens. |
-| ` *`userHandleArray`*` | `types:HandleArray` | Ja | Array med referenser för användare vars gruppmedlemskap du vill ange. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Företagshandtag. |
+| `*`groupHandle`*` | `xsd:string` | Ja | Gruppreferens. |
+| `*`userHandleArray`*` | `types:HandleArray` | Ja | Array med referenser för användare vars gruppmedlemskap du vill ange. |
 
 **Utdata (setGroupMembesReturn)**
 
