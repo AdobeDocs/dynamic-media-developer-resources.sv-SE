@@ -1,15 +1,12 @@
 ---
-description: Vidarebefordrar den angivna listan med URL:er till Scene7 CDN-leverantören (Content Distribution Network) för att ogiltigförklara deras befintliga cache för HTTP-svar.
-seo-description: Vidarebefordrar den angivna listan med URL:er till Scene7 CDN-leverantören (Content Distribution Network) för att ogiltigförklara deras befintliga cache för HTTP-svar.
-seo-title: cdnCacheInvalidation
+description: Vidarebefordrar den angivna listan med URL:er till Dynamic Media CDN-leverantören (Content Distribution Network) för att ogiltigförklara deras befintliga cache för HTTP-svar.
 solution: Experience Manager
 title: cdnCacheInvalidation
-topic: Scene7 Image Production System API
-uuid: 16cf53d4-4101-405c-b008-009b6ac62169
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -17,19 +14,19 @@ ht-degree: 0%
 
 # cdnCacheInvalidation{#cdncacheinvalidation}
 
-Vidarebefordrar den angivna listan med URL:er till Scene7 CDN-leverantören (Content Distribution Network) för att ogiltigförklara deras befintliga cache för HTTP-svar.
+Vidarebefordrar den angivna listan med URL:er till Dynamic Media CDN-leverantören (Content Distribution Network) för att ogiltigförklara deras befintliga cache för HTTP-svar.
 
 ## cdnCacheInvalidation: Om {#section-4f70d2bc79d64288b961836ab17e9690}
 
-Cacheogiltigförklaring av CDN tvingar alla HTTP-begäranden för dessa URL:er att valideras mot aktuella publicerade data i Scene7-nätverket när denna invalideringsbegäran bearbetas via CDN-nätverket. Alla URL:er som inte är anslutna till Scene7 tjänst-URL-struktur och som direkt matchar Scene7 företags rot-ID som tilldelats när företaget skapas, resulterar i ett API-fel för hela begäran. Om det finns ogiltiga URL:er som CDN inte stöder och som den anser vara ogiltiga resulterar detta även i ett API-fel för hela begäran.
+Cacheogiltigförklaring av CDN tvingar alla HTTP-begäranden för dessa URL:er att valideras mot aktuella publicerade data i Dynamic Media-nätverket efter att denna invalideringsbegäran har bearbetats via CDN-nätverket. Alla URL:er som inte är anslutna till Dynamic Media tjänst-URL-struktur och som direkt matchar Dynamic Media företags rot-ID som tilldelats när företaget skapas, resulterar i ett API-fel för hela begäran. Om det finns ogiltiga URL:er som CDN inte stöder och som den anser vara ogiltiga resulterar detta även i ett API-fel för hela begäran.
 
 **Användningsfrekvens: Regler**
 
-Reglerna för hur ofta denna funktion ska användas regleras av Scene7 CDN-partners. CDN behåller sin frihet att försämra svarstiden för dessa ogiltigförklaringar för att behålla optimala prestanda för tjänsten för användarna. Om Scene7 får ett meddelande om överanvändning av funktionen måste vi ta till vara att inaktivera funktionen antingen per företag eller helt i tjänsten.
+Reglerna för hur ofta den här funktionen används regleras av Dynamic Medias CDN-partners. CDN behåller sin frihet att försämra svarstiden för dessa ogiltigförklaringar för att behålla optimala prestanda för tjänsten för användarna. Om Dynamic Media får ett meddelande om överanvändning av funktionen måste vi ta till vara att inaktivera funktionen antingen per företag eller helt i tjänsten.
 
 **Bekräftelsemejl**
 
-Bekräftelsemeddelanden från Scene7 CDN-partnern kan skickas till den som skapat listan eller upp till fem andra e-postadresser. API:t skickar en bekräftelse när hela CDN-nätverket har underrättats om att URL:erna som refereras i e-postmeddelandet har rensats. Ett enda anrop till `cdnCacheInvalidation` kan skicka flera e-postmeddelanden om antalet URL:er som anges överstiger det antal som Scene7 kan leverera till CDN-partnern i ett enda meddelande. Detta skulle för närvarande vara om begäran överskrider 100 URL:er, men kan ändras på begäran av CDN-partnern.
+Bekräftelsemeddelanden från Dynamic Media CDN-partnern kan skickas till den som skapat listan eller upp till fem andra e-postadresser. API:t skickar en bekräftelse när hela CDN-nätverket har underrättats om att URL:erna som refereras i e-postmeddelandet har rensats. Ett enda anrop till `cdnCacheInvalidation` kan skicka flera e-postmeddelanden om antalet URL:er som anges överstiger det antal som Dynamic Media kan leverera till CDN-partnern i ett enda meddelande. Detta skulle för närvarande vara om begäran överskrider 100 URL:er, men kan ändras på begäran av CDN-partnern.
 
 **Stöds sedan**
 
@@ -64,7 +61,7 @@ Bekräftelsemeddelanden från Scene7 CDN-partnern kan skickas till den som skapa
    <td> <p> <span class="codeph"> <span class="varname"> urlArray</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> typer:UrlArray</span> </p> </td> 
    <td> <p> Ja </p> </td> 
-   <td> <p> Lista med upp till 1 000 URL:er som ska göras ogiltiga från CDN-cachen. Alla URL:er måste innehålla Scene7-företagets rot-ID för att kunna ogiltigförklaras. </p> </td> 
+   <td> <p> Lista med upp till 1 000 URL:er som ska göras ogiltiga från CDN-cachen. Alla URL:er måste innehålla Dynamic Media-företagets rot-ID för att kunna ogiltigförklaras. </p> </td> 
   </tr> 
  </tbody> 
 </table>
