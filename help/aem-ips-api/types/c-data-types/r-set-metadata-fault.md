@@ -4,10 +4,10 @@ seo-description: Varnings- eller felinformation för en signeringsuppdatering i 
 seo-title: SetMetadataFault
 solution: Experience Manager
 title: SetMetadataFault
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 22302bb0-914a-4d50-a188-9c3ee58e0481
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 0%
@@ -25,8 +25,8 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | Resursen vars metadata inte kunde anges. |
-| ` *`fieldHandle`*` | `xsd:string` | Referensen till metadatafältet vars värde inte kunde anges. |
-| ` *`kod`*` | `xsd:int` | Felkod. |
-| ` *`orsak`*` | `xsd:string` | Felbeskrivning (oformaterad text). |
+| `*`assetHandle`*` | `xsd:string` | Resursen vars metadata inte kunde anges. |
+| `*`fieldHandle`*` | `xsd:string` | Referensen till metadatafältet vars värde inte kunde anges. |
+| `*`kod`*` | `xsd:int` | Felkod. |
+| `*`orsak`*` | `xsd:string` | Felbeskrivning (oformaterad text). |
 
