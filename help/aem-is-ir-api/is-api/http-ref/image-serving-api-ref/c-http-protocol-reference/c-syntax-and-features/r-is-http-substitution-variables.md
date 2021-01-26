@@ -4,10 +4,10 @@ seo-description: Ersättningsvariabler används för att överföra värden frå
 seo-title: Ersättningsvariabler
 solution: Experience Manager
 title: Ersättningsvariabler
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e369f2c3-8d89-4169-8869-f1d7ab89aab9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 0%
@@ -82,7 +82,7 @@ Variabelvärden som ska ersättas i externa begäranden måste vanligtvis dubbel
 
 ## Fördefinierad sökvägsvariabel {#section-930d0dd12e8f49499becc9fe8df24092}
 
-*`object`* som anges i sökvägen till begäran tilldelas den fördefinierade variabeln ` *`$object`*`. &#39; ` $ *`object`*$`&#39; kan placeras var som helst i begäran, i mallen som begäran refererar till eller i en kapslad/inbäddad begäran där ett sådant objekt tillåts, inklusive värdet för `src=` och `mask=` samt sökvägen för en kapslad/inbäddad begäran.
+*`object`* som anges i sökvägen till begäran tilldelas den fördefinierade variabeln `*`$object`*`. &#39; ` $ *`object`*$`&#39; kan placeras var som helst i begäran, i mallen som begäran refererar till eller i en kapslad/inbäddad begäran där ett sådant objekt tillåts, inklusive värdet för `src=` och `mask=` samt sökvägen för en kapslad/inbäddad begäran.
 
 Följande begäran återanvänder till exempel den bild som anges i sökvägen som källa för ett lager i en kapslad begäran:
 
@@ -92,13 +92,13 @@ Detta motsvarar
 
 `/is/image/a/b?…&layer=3&src=is{…&src=a/b}&…`
 
-Definitionen för ` *`$object`*` kan åsidosättas genom att explicit ange ` $ *`object`*=` med önskat värde.
+Definitionen för `*`$object`*` kan åsidosättas genom att explicit ange ` $ *`object`*=` med önskat värde.
 
 Den fördefinierade variabeln path används vanligtvis tillsammans med `template=`.
 
 ## Standard {#section-b02483d15529444586a2e9504805b155}
 
-Ingen. Endast variabler som har definierats ersätts av servern (förutom den fördefinierade sökvägsvariabeln $object, som alltid ersätts). Alla förekomster av ` $ *`var`*$` är literala om ` *`var`*`inte kan matchas med en befintlig variabeldefinition.
+Ingen. Endast variabler som har definierats ersätts av servern (förutom den fördefinierade sökvägsvariabeln $object, som alltid ersätts). Alla förekomster av ` $ *`var`*$` är literala om `*`var`*`inte kan matchas med en befintlig variabeldefinition.
 
 ## Exempel {#section-fba9393df6984247b7e30b3f93992e86}
 
