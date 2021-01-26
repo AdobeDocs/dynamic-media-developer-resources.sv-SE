@@ -4,10 +4,10 @@ seo-description: Anger bildspecifika fält för en eller flera bildresurser.
 seo-title: batchSetImageFields
 solution: Experience Manager
 title: batchSetImageFields
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e0ad7da4-cb28-4402-8b47-a600916d23b3
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
@@ -36,18 +36,18 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Handtaget till företaget som innehåller bildresurserna. |
-| ` *`updateArray`*` | `types:ImageFieldUpdateArray` | Ja | Arrayen med bildfält uppdateras. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Handtaget till företaget som innehåller bildresurserna. |
+| `*`updateArray`*` | `types:ImageFieldUpdateArray` | Ja | Arrayen med bildfält uppdateras. |
 
 **Utdata (batchSetImageFields)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Ja | Antalet bildfält som har angetts. |
-| ` *`warningCount`*` | `xsd:int` | Ja | Antalet varningar som genereras när åtgärden försökte ange bildfälten. |
-| ` *`errorCount`*` | `xsd:int` | Ja | Antalet fel som genererades när åtgärden försökte ange bildfälten. |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nej | Arrayen med information som är associerad med resurserna som genererade varningar när åtgärden försökte tillämpa uppdateringarna. |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nej | Arrayen med information som är associerad med resurserna som genererade fel när åtgärden försökte tillämpa uppdateringarna. |
+| `*`successCount`*` | `xsd:int` | Ja | Antalet bildfält som har angetts. |
+| `*`warningCount`*` | `xsd:int` | Ja | Antalet varningar som genereras när åtgärden försökte ange bildfälten. |
+| `*`errorCount`*` | `xsd:int` | Ja | Antalet fel som genererades när åtgärden försökte ange bildfälten. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nej | Arrayen med information som är associerad med resurserna som genererade varningar när åtgärden försökte tillämpa uppdateringarna. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nej | Arrayen med information som är associerad med resurserna som genererade fel när åtgärden försökte tillämpa uppdateringarna. |
 
 ## Exempel {#section-0476e3d6516a4f8bbaac9de983bc6d1e}
 
