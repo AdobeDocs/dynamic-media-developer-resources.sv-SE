@@ -4,12 +4,12 @@ seo-description: Zooma måldata. Inga eller fler zoommålsegenskaper, som kan an
 seo-title: Målgrupper
 solution: Experience Manager
 title: Målgrupper
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ca02483a-9aa0-4b54-b6f0-4fd10d8b2b4c
 translation-type: tm+mt
-source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Mål. *`num`*.rect krävs för varje zoommål och måste ange en rektangel som �
 
 För program som använder snurra- och broschyrvisningsprogram måste zoommålen definieras i samma katalogpost som definierar bilduppsättningen. Alla zoommåldefinitioner i katalogposterna för medlemmarna i bilduppsättningen ignoreras av visningsprogrammet.
 
-Scene7-visningsprogrammen förväntar sig zoommål i koordinaterna för den högupplösta bilden som redan har justerats med kommandona från `catalog::Modifier`.
+Dynamic Media-visningsprogrammen förväntar sig zoommål i koordinaterna för den högupplösta bilden som redan har justerats med kommandona från `catalog::Modifier`.
 
 ## Egenskaper {#section-b3f8eba4985f4b00bb935d592fe770f9}
 
