@@ -4,10 +4,10 @@ seo-description: Tar bort ett bildschema.
 seo-title: deleteImageMap
 solution: Experience Manager
 title: deleteImageMap
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 0abdf72c-f445-41d0-bd88-63b7ad1359d5
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 0%
@@ -40,8 +40,8 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Handtaget till företaget som innehåller bildschemat som ska tas bort. |
-| ` *`imageMapHandle`*` | `xsd:string` | Ja | Handtaget till bildschemat som ska tas bort. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Handtaget till företaget som innehåller bildschemat som ska tas bort. |
+| `*`imageMapHandle`*` | `xsd:string` | Ja | Handtaget till bildschemat som ska tas bort. |
 
 **Utdata (deleteImageMapParam)**
 
