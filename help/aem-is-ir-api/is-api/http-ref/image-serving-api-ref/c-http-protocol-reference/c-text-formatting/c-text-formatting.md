@@ -4,12 +4,12 @@ seo-description: Image Serving innehåller flera alternativ för att återge tex
 seo-title: Textformatering
 solution: Experience Manager
 title: Textformatering
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e67b6dd2-2a78-4014-9525-816d91c9e783
 translation-type: tm+mt
-source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
@@ -152,7 +152,7 @@ I följande tabell visas de viktigaste funktionerna för varje textkommando:
 
 RTF-kompatibla strängar kan sättas samman manuellt eller genom att formatera texten i en textredigerare eller ordbehandlare som kan spara RTF-filer. RTF-filen kan sedan öppnas i en vanlig textredigerare och det aktuella RTF-råinnehållet i filen kopieras till begärande-URL:en.
 
-Vissa ordbehandlare genererar ganska stora filer, som innehåller viktiga preamultiplikationer som inte används av Scene7 Image Serving. Vi rekommenderar att du tar bort oanvända RTF-element från strängen innan du skickar strängen till textkommandona.
+Vissa ordbehandlare genererar ganska stora filer, som innehåller viktiga preamultiplikationer som inte används av Dynamic Media Image Serving. Vi rekommenderar att du tar bort oanvända RTF-element från strängen innan du skickar strängen till textkommandona.
 
 Språkkodning som bygger på UTF-8 och ISO-standarder stöds i RTF-strängar som ett alternativ till de vanliga RTF-teckenkodningsmekanismerna. Detta gör att program kan skicka icke-engelsk text till servern utan att känna till RTF-kodning.
 
