@@ -4,10 +4,10 @@ seo-description: Returnerar ZIP-fildata.
 seo-title: getZipEnentries
 solution: Experience Manager
 title: getZipEnentries
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: cfc45f83-1cf9-4c50-9aac-5a731e62a839
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 0%
@@ -39,14 +39,14 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Referensen till företaget som innehåller ZIP-filen. |
-| ` *`assetHandle`*` | `xsd:string` | Ja | Hantera zip-filen. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Referensen till företaget som innehåller ZIP-filen. |
+| `*`assetHandle`*` | `xsd:string` | Ja | Hantera zip-filen. |
 
 **Utdata (getZipEnentriesReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`zipArray`*` | `types:ZipEntryArray` | Ja | Array med poster i en ZIP-fil. |
+| `*`zipArray`*` | `types:ZipEntryArray` | Ja | Array med poster i en ZIP-fil. |
 
 ## Exempel {#section-1fc0ad8fa448492cb5a135d3e3d161ac}
 
