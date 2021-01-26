@@ -4,10 +4,10 @@ seo-description: Hämtar de ursprungliga filsökvägarna för ett företags resu
 seo-title: getOriginalFilePaths
 solution: Experience Manager
 title: getOriginalFilePaths
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: c4acf288-1a57-4295-806b-348f15a089cc
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -41,14 +41,14 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Handtaget till företaget. |
-| ` *`assetHandleArray`*` | `types:HandleArray` | Ja | En array med handtag till resurser vars ursprungliga filsökväg du vill hämta. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Handtaget till företaget. |
+| `*`assetHandleArray`*` | `types:HandleArray` | Ja | En array med handtag till resurser vars ursprungliga filsökväg du vill hämta. |
 
 **Utdata (getOriginalFilePathsReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`originalFileArray`*` | `types:StringArray` | Ja | Arrayen med strängar som representerar de ursprungliga filsökvägarna. |
+| `*`originalFileArray`*` | `types:StringArray` | Ja | Arrayen med strängar som representerar de ursprungliga filsökvägarna. |
 
 ## Exempel {#section-a966e783a2ba49f5b6b0f961329ab2f8}
 
