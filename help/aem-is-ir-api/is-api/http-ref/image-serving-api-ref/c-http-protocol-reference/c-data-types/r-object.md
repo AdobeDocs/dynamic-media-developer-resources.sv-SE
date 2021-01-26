@@ -4,12 +4,12 @@ seo-description: Källobjektsspecificerare. Bild-, SVG- och ICC-profilobjekt kan
 seo-title: object
 solution: Experience Manager
 title: object
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8d25b47d-0f23-4d9a-a7e6-6e865ae4114e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Källobjektsspecificerare. Bild-, SVG- och ICC-profilobjekt kan anges som bildkatalogsposter eller relativa filsökvägar
 
-` *``*[/]{[ *``*/] *``*}| *`objectrootIdobjIdpath`*`
+`*``*[/]{[ *``*/] *``*}| *`objectrootIdobjIdpath`*`
 
 <table id="simpletable_A8B9B4D508B94BE5B7F6112F0A5F8270"> 
  <tr class="strow"> 
@@ -62,7 +62,7 @@ Mer information om hur *`path`* översätts till en fysisk filsökväg finns i *
 
 Se beskrivningen av verktyget IC (Image Converter) för en fullständig lista över filformat som stöds.
 
-Program som kräver bilddata i flera olika upplösningar fungerar bäst när du använder multiupplösningsformatet Scene7 pyramid TIFF (PTIF). IC-verktyget används för att skapa PTIF-bilder från alla bildformat som stöds.
+Program som kräver bilddata i flera olika upplösningar fungerar bäst när du använder multiupplösningsformatet Dynamic Media pyramid TIFF (PTIF). IC-verktyget används för att skapa PTIF-bilder från alla bildformat som stöds.
 
 ## Exempel {#section-728ca9b566b54ea1afdf8f5f0a031a57}
 
