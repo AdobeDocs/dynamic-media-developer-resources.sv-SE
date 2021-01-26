@@ -4,12 +4,12 @@ seo-description: Materialfil. Anger materialdata, antingen i form av en enstaka 
 seo-title: src
 solution: Experience Manager
 title: src
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 52751bcc-a65d-4441-a3b5-802d27b54b54
 translation-type: tm+mt
-source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ Om *`catId`* inte anges används sessionskatalogen.
 
 ## Filformat som stöds {#section-f2186d3eef834fc8bbecb2bc68daacad}
 
-Bildåtergivning stöder samma källbildformat som Scene7 Image Serving.
+Bildåtergivning stöder samma källbildformat som Dynamic Media Image Serving.
 
 Program som kräver bilddata i flera olika upplösningar fungerar bäst när du använder multiupplösningsformatet Scene7 pyramid TIFF (PTIFF). Image Serving innehåller verktyget Image Converter (IC) som skapar PTIFF-bilder i alla format som stöds.
 
