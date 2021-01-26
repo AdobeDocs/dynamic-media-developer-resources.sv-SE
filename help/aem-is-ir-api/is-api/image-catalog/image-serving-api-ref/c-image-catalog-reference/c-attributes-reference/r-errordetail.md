@@ -1,15 +1,12 @@
 ---
 description: Information om felmeddelande. Anger detaljnivån för felmeddelanden som returneras via HTTP som error.message-värde.
-seo-description: Information om felmeddelande. Anger detaljnivån för felmeddelanden som returneras via HTTP som error.message-värde.
-seo-title: ErrorDetail
 solution: Experience Manager
 title: ErrorDetail
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 46ebb8c7-930e-4844-8664-ec6a63691523
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '157'
 ht-degree: 2%
 
 ---
@@ -36,7 +33,7 @@ Följande värden är tillåtna:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>Fullständig felsökningsinformation. Lägger till Java-stackspår när det är tillämpligt. Felbilder innehåller aldrig stackspår och returnerar i stället nivå 2-information i <span class="codeph"> $error.message</span>. Den här informationen kan vara användbar när du rapporterar problem till Scene7 Tech Support. </p></td> 
+  <td class="stentry"> <p>Fullständig felsökningsinformation. Lägger till Java-stackspår när det är tillämpligt. Felbilder innehåller aldrig stackspår och returnerar i stället nivå 2-information i <span class="codeph"> $error.message</span>. Den här informationen kan vara användbar när du rapporterar problem till Dynamic Media tekniska support. </p></td> 
  </tr> 
 </table>
 
