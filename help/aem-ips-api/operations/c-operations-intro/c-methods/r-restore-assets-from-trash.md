@@ -4,10 +4,10 @@ seo-description: Återställer resurser från papperskorgen.
 seo-title: restoreAssetsFromTrash
 solution: Experience Manager
 title: restoreAssetsFromTrash
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: f7424d4c-7807-4de9-ad0c-f96364bf7b82
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
@@ -36,18 +36,18 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Referensen till ett företag med de resurser som du vill återställa. |
-| ` *`assetHandleArray`*` | `types:HandleArray` | Ja | En array med handtag för de resurser som du vill återställa. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Referensen till ett företag med de resurser som du vill återställa. |
+| `*`assetHandleArray`*` | `types:HandleArray` | Ja | En array med handtag för de resurser som du vill återställa. |
 
 **Utdata (restoreAssetsFromTrashReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Ja | Antal resurser som tagits bort från papperskorgen. |
-| ` *`warningCount`*` | `xsd:int` | Ja | Antal varningar som genererades när åtgärden försökte återställa resurser från papperskorgen. |
-| ` *`errorCount`*` | `xsd:int` | Ja | Antal fel som genererats vid försök att återställa resurser från papperskorgen. |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nej | Arrayen med information som är associerad med resurserna som genererade varningar när åtgärden försökte återställa resurser från papperskorgen. |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nej | Arrayen med information som är associerad med resurserna som genererade fel när åtgärden försökte återställa resurser från papperskorgen. |
+| `*`successCount`*` | `xsd:int` | Ja | Antal resurser som tagits bort från papperskorgen. |
+| `*`warningCount`*` | `xsd:int` | Ja | Antal varningar som genererades när åtgärden försökte återställa resurser från papperskorgen. |
+| `*`errorCount`*` | `xsd:int` | Ja | Antal fel som genererats vid försök att återställa resurser från papperskorgen. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nej | Arrayen med information som är associerad med resurserna som genererade varningar när åtgärden försökte återställa resurser från papperskorgen. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nej | Arrayen med information som är associerad med resurserna som genererade fel när åtgärden försökte återställa resurser från papperskorgen. |
 
 ## Exempel {#section-98fe0394b0634ca397c395f14f8a9358}
 
