@@ -4,10 +4,10 @@ seo-description: Beskriver värden som används av olika parametrar. Mer informa
 seo-title: Användarroller
 solution: Experience Manager
 title: Användarroller
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: d971c6aa-981a-4e15-b268-7bd685bad03b
 translation-type: tm+mt
-source-git-commit: af14dafbef63e45b945e49e3c3616e0c3148b818
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '52'
 ht-degree: 0%
