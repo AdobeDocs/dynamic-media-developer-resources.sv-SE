@@ -4,10 +4,10 @@ seo-description: Plattformsservern cachelagrar alla svarsbilder och vissa textda
 seo-title: Cache för svarsdata
 solution: Experience Manager
 title: Cache för svarsdata
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: dbfda210-3b50-4e8c-8d77-7263ae4e80a2
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
@@ -29,6 +29,6 @@ Förutom `PS::cache.maxSize` hanteras även svarscachen genom att det maximala a
 
 >[!NOTE]
 >
->Plattformsservern underhåller ett cacheindex i minnet. Indexets storlek är 32 byte gånger värdet `PS::cache.maxEntries`. Du kan behöva öka stackstorleken för Platform Server för att få plats med större cacheminnen.
+>Plattformsservern underhåller ett cacheindex i minnet. Indexets storlek är 32 byte gånger värdet `PS::cache.maxEntries`. Du kan behöva öka stackstorleken för Platform Server för att kunna hantera större cacheminnen.
 
 Systemet använder en cacheindexfil som sparas på disken när servern stängs av på ett ordnat sätt. Om det inträffar oväntade händelser, t.ex. ett strömavbrott, kanske filen inte sparas. Det kan dessutom ta flera minuter för plattformsservern att bli klar.
