@@ -1,15 +1,12 @@
 ---
-description: Viewer SDK innehåller en uppsättning JavaScript-baserade komponenter för anpassad visningsprogramutveckling. Tittarna är webbaserade program som gör att multimediematerial som hanteras av Adobe Scene7 kan bäddas in på webbsidor.
-seo-description: Viewer SDK innehåller en uppsättning JavaScript-baserade komponenter för anpassad visningsprogramutveckling. Tittarna är webbaserade program som gör att multimediematerial som hanteras av Adobe Scene7 kan bäddas in på webbsidor.
-seo-title: Självstudiekurs om SDK för visningsprogram
+description: Viewer SDK innehåller en uppsättning JavaScript-baserade komponenter för anpassad visningsprogramutveckling. Tittarna är webbaserade program som gör att multimediematerial som hanteras av Adobe Dynamic Media kan bäddas in på webbsidor.
 solution: Experience Manager
 title: Självstudiekurs om SDK för visningsprogram
 topic: Dynamic media
-uuid: ea331f05-0c58-4e6b-b5a1-d9b8372d8e94
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
@@ -17,9 +14,9 @@ ht-degree: 0%
 
 # Självstudiekurs om SDK för visningsprogram{#viewer-sdk-tutorial}
 
-Viewer SDK innehåller en uppsättning JavaScript-baserade komponenter för anpassad visningsprogramutveckling. Tittarna är webbaserade program som gör att multimediematerial som hanteras av Adobe Scene7 kan bäddas in på webbsidor.
+Viewer SDK innehåller en uppsättning JavaScript-baserade komponenter för anpassad visningsprogramutveckling. Tittarna är webbaserade program som gör att multimediematerial som hanteras av Adobe Dynamic Media kan bäddas in på webbsidor.
 
-SDK innehåller till exempel interaktiv zoomning och panorering. Den ger även 360-gradig vy och videouppspelning av resurser som överförts till Adobe Scene7 via serverdelsprogrammet SPS (Scene7 Publishing System).
+SDK innehåller till exempel interaktiv zoomning och panorering. Den ger även 360-gradig vy och videouppspelning av resurser som överförts till Adobe Dynamic Media via serverdelsprogrammet SPS (Scene7 Publishing System).
 
 Även om komponenterna är beroende av HTML5-funktioner är de utformade för att fungera på Android- och Apple iOS-enheter och stationära datorer, inklusive Internet Explorer och senare. Den här typen av upplevelser innebär att du kan skapa ett enda arbetsflöde för alla plattformar som stöds.
 
@@ -67,8 +64,8 @@ Den här självstudiekursen innehåller följande åtgärder som du kan använda
                Include Utils.js before you use any of the SDK components. This file  
                contains SDK utilities and global functions that are used to initialize the viewer and load viewer  
                components. The path to the Utils.js determines which version of the SDK that the viewer uses. You  
-               can use a relative path if the viewer is deployed on one of the Adobe Scene7 servers and it is served  
-               from the same domain. Otherwise, specify a full path to one of Adobe Scene7 servers that have the SDK  
+               can use a relative path if the viewer is deployed on one of the Adobe Dynamic Media servers and it is served  
+               from the same domain. Otherwise, specify a full path to one of Adobe Dynamic Media servers that have the SDK  
                installed.  
            --> 
            <script language="javascript" type="text/javascript"      
@@ -392,5 +389,5 @@ Nu ska du lägga till knapparna för inzoomning, utzoomning och zoomning i visni
 
    Ditt grundläggande zoomvisningsprogram är nu klart.
 
-   Den här självstudiekursen handlar om grunderna i vad Scene7 Viewer SDK erbjuder. När du arbetar med SDK kan du använda de olika standardkomponenterna för att enkelt skapa och utforma innehållsrika visningsupplevelser för målgrupperna.
+   Den här självstudiekursen handlar om grunderna i vad Dynamic Media Viewer SDK erbjuder. När du arbetar med SDK kan du använda de olika standardkomponenterna för att enkelt skapa och utforma innehållsrika visningsupplevelser för målgrupperna.
 
