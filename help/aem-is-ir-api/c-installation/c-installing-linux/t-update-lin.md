@@ -1,15 +1,15 @@
 ---
-description: Använd den här proceduren när du uppgraderar Scene7 Image Serving i Linux.
-seo-description: Använd den här proceduren när du uppgraderar Scene7 Image Serving i Linux.
+description: Använd den här proceduren när du uppgraderar Dynamic Media Image Serving i Linux.
+seo-description: Använd den här proceduren när du uppgraderar Dynamic Media Image Serving i Linux.
 seo-title: Uppdaterar från IS 4.7.4 eller senare
 solution: Experience Manager
 title: Uppdaterar från IS 4.7.4 eller senare
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 70beb1a3-71b9-4bd0-b048-13d88446a9d3
 translation-type: tm+mt
-source-git-commit: 038f0f8f2c4f815e47749e0bab153c63e5396c91
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Uppdaterar från IS 4.7.4 eller senare{#updating-from-is-or-later}
 
-Använd den här proceduren när du uppgraderar Scene7 Image Serving i Linux.
+Använd den här proceduren när du uppgraderar Dynamic Media Image Serving i Linux.
 
 Om du uppgraderar från en äldre version av Image Serving kontaktar du supporten för rätt process.
 
