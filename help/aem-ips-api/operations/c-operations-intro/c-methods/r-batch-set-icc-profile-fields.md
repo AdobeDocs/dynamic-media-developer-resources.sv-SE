@@ -4,10 +4,10 @@ seo-description: Anger metadatafält för ICC-profil.
 seo-title: batchSetIccProfileFields
 solution: Experience Manager
 title: batchSetIccProfileFields
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 163b9b36-85b6-4880-8029-8421b04f4a08
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 0%
@@ -36,18 +36,18 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Hantera till företaget som innehåller ICC-profilerna. |
-| ` *`uppdateringsmatris`*` | `xsd:string` | Ja | Matris med ICC-profiluppdateringar. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Hantera till företaget som innehåller ICC-profilerna. |
+| `*`uppdateringsmatris`*` | `xsd:string` | Ja | Matris med ICC-profiluppdateringar. |
 
 **Utdata (batchSetIccProfileFields)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Ja | Antalet ICC-profilfält som har angetts. |
-| ` *`warningCount`*` | `xsd:int` | Ja | Antalet varningar som genererades när åtgärden försökte ange ICC-profilfälten. |
-| ` *`errorCount`*` | `xsd:int` | Ja | Antalet fel som genererades när åtgärden försökte ange ICC-profilfält. |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nej | Arrayen med information som är associerad med resurserna som genererade varningar när åtgärden försökte tillämpa uppdateringarna. |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nej | Arrayen med information som är associerad med resurserna som genererade fel när åtgärden försökte tillämpa uppdateringarna. |
+| `*`successCount`*` | `xsd:int` | Ja | Antalet ICC-profilfält som har angetts. |
+| `*`warningCount`*` | `xsd:int` | Ja | Antalet varningar som genererades när åtgärden försökte ange ICC-profilfälten. |
+| `*`errorCount`*` | `xsd:int` | Ja | Antalet fel som genererades när åtgärden försökte ange ICC-profilfält. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nej | Arrayen med information som är associerad med resurserna som genererade varningar när åtgärden försökte tillämpa uppdateringarna. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nej | Arrayen med information som är associerad med resurserna som genererade fel när åtgärden försökte tillämpa uppdateringarna. |
 
 ## Exempel {#section-5dc90cfbd9b1411485b44859032f7cb9}
 
