@@ -1,15 +1,12 @@
 ---
 description: Lägger till användare från ett visst företag i en viss grupp.
-seo-description: Lägger till användare från ett visst företag i en viss grupp.
-seo-title: addGroupMembers
 solution: Experience Manager
 title: addGroupMembers
-topic: Scene7 Image Production System API
-uuid: 382d36a8-7c93-48e6-a54b-425c5e6414fe
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
@@ -33,9 +30,9 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Handtaget till företaget. |
-| ` *`groupHandle`*` | `xsd:string` | Ja | Grupphandtaget. |
-| ` *`userHandleArray`*` | `types:HandleArray` | Ja | En array med referenser till användare som du vill lägga till i en grupp. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Handtaget till företaget. |
+| `*`groupHandle`*` | `xsd:string` | Ja | Grupphandtaget. |
+| `*`userHandleArray`*` | `types:HandleArray` | Ja | En array med referenser till användare som du vill lägga till i en grupp. |
 
 **Utdata (addGroupMembersParam)**
 
@@ -43,7 +40,7 @@ IPS API returnerar inget svar för den här åtgärden.
 
 ## Exempel {#section-8f168b528aef4c4fa8c3d41f7686842f}
 
-I det här exemplet används ` *`addGroupMembersParam`*` för att lägga till en användare i ett enskilt företag. IPS API returnerar inget svar för den här åtgärden.
+I det här exemplet används `*`addGroupMembersParam`*` för att lägga till en användare i ett enskilt företag. IPS API returnerar inget svar för den här åtgärden.
 
 **Begäran**
 
