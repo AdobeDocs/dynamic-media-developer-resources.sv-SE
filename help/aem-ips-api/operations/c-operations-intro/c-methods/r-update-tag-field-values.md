@@ -4,10 +4,10 @@ seo-description: Uppdaterar taggordlistevärden för ett taggfält.
 seo-title: updateTagFieldValues
 solution: Experience Manager
 title: updateTagFieldValues
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 21689469-a0dd-480b-82ba-ebd12956ff8f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
@@ -66,11 +66,11 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Ja | Antalet uppdaterade taggfält. |
-| ` *`warningCount`*` | `xsd:int` | Ja | Antalet varningar som genererades när åtgärden försökte uppdatera taggfält. |
-| ` *`errorCount`*` | `xsd:int` | Ja | Antalet fel som genererades när åtgärden försökte uppdatera taggfält. |
-| ` *`warningDetailArray`*` | `types:TagValueUpdateFaultArray` | Nej | Arrayen med information som är associerad med resurserna som genererade varningar när åtgärden försökte uppdatera taggfält. |
-| ` *`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | Nej | Arrayen med information som är associerad med resurserna som genererade fel när åtgärden försökte uppdatera taggfält. |
+| `*`successCount`*` | `xsd:int` | Ja | Antalet uppdaterade taggfält. |
+| `*`warningCount`*` | `xsd:int` | Ja | Antalet varningar som genererades när åtgärden försökte uppdatera taggfält. |
+| `*`errorCount`*` | `xsd:int` | Ja | Antalet fel som genererades när åtgärden försökte uppdatera taggfält. |
+| `*`warningDetailArray`*` | `types:TagValueUpdateFaultArray` | Nej | Arrayen med information som är associerad med resurserna som genererade varningar när åtgärden försökte uppdatera taggfält. |
+| `*`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | Nej | Arrayen med information som är associerad med resurserna som genererade fel när åtgärden försökte uppdatera taggfält. |
 
 ## Exempel {#section-bb4dcf97044c4675974c9b8d27674001}
 
