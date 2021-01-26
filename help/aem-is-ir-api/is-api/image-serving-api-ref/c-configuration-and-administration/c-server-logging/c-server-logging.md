@@ -1,15 +1,12 @@
 ---
 description: Alla loggfiler skrivs till samma loggmapp som anges med TC-katalogen.
-seo-description: Alla loggfiler skrivs till samma loggmapp som anges med TC-katalogen.
-seo-title: Serverloggning
 solution: Experience Manager
 title: Serverloggning
-topic: Scene7 Image Serving - Image Rendering API
-uuid: f6145737-e4c3-4533-9be5-5b5a0202fe33
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 5717550d2dea8ec086875e770ff8f200aaa75ff3
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
@@ -25,7 +22,7 @@ Viktigt! Det måste finnas tillräckligt mycket diskutrymme för loggfiler för 
 
 Plattformsservern och Image Server skapar de tre typer av loggfiler som beskrivs nedan.
 
-Andra Image Serving-komponenter och vissa andra Scene7-paket, som Scene7 Viewer, kan också skapa loggfiler i samma mapp. Loggfilerna är avsedda för Scene7 internt bruk och kan begäras av Scene7 Support för felsökning.
+Andra Image Serving-komponenter och vissa andra Dynamic Media-paket, som Dynamic Media Viewer, kan också skapa loggfiler i samma mapp. Loggfilerna är avsedda för Dynamic Media internt bruk och kan begäras av Dynamic Media tekniska support för felsökning.
 
 * [Åtkomstlogg](c-access-log.md)
 * [Spårningslogg](c-trace-log.md)
