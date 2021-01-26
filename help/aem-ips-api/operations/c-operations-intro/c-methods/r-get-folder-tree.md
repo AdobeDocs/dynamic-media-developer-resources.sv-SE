@@ -4,10 +4,10 @@ seo-description: Returnerar mappar och undermappar i en hierarkisk trädstruktur
 seo-title: getFolderTree
 solution: Experience Manager
 title: getFolderTree
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 93fda0d6-c656-4254-b07b-7a448e164f28
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -41,21 +41,21 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Handtaget till företaget. |
-| ` *`accessUserHandle`*` | `xsd:string` | Nej | Används endast av administratörer för att personifiera en viss användare. |
-| ` *`accessGroupHandle`*` | `xsd:string` | Nej | Används för att filtrera efter en viss grupp, inklusive någon av dem som företaget tillhör. |
-| ` *`folderPath`*` | `xsd:string` | Nej | Rotmappen som ska hämta mappar och alla undermappar till lövnivån. Om detta utelämnas används företagsroten. |
-| ` *`djup`*` | `xsd:int` | Ja | Värdet noll hämtar mappen på den översta nivån. Alla andra värden anger djupet som ska nedbrytas i trädet. |
-| ` *`assetTypeArray`*` | `types:StringArray` | Nej | Returnerar mappar som bara innehåller angivna resurstyper. |
-| ` *`responseFieldArray`*` | `types:StringArray` | Nej | Innehåller en lista med fält som du vill inkludera i svaret. |
-| ` *`excludeFieldArray`*` | `types:StringArray` | Nej | Innehåller en lista med fält som du vill utesluta i svaret. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Handtaget till företaget. |
+| `*`accessUserHandle`*` | `xsd:string` | Nej | Används endast av administratörer för att personifiera en viss användare. |
+| `*`accessGroupHandle`*` | `xsd:string` | Nej | Används för att filtrera efter en viss grupp, inklusive någon av dem som företaget tillhör. |
+| `*`folderPath`*` | `xsd:string` | Nej | Rotmappen som ska hämta mappar och alla undermappar till lövnivån. Om detta utelämnas används företagsroten. |
+| `*`djup`*` | `xsd:int` | Ja | Värdet noll hämtar mappen på den översta nivån. Alla andra värden anger djupet som ska nedbrytas i trädet. |
+| `*`assetTypeArray`*` | `types:StringArray` | Nej | Returnerar mappar som bara innehåller angivna resurstyper. |
+| `*`responseFieldArray`*` | `types:StringArray` | Nej | Innehåller en lista med fält som du vill inkludera i svaret. |
+| `*`excludeFieldArray`*` | `types:StringArray` | Nej | Innehåller en lista med fält som du vill utesluta i svaret. |
 
 **Utdata (getFolderTreeReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`mappar`*` | `types:folders` | Nej | Hierarkin för mappar i en trädstruktur. Svaret är begränsat till högst 100 000 mappar. |
-| ` *`permissionSetArray`*` | `types:PermissionSetArray` |  |  |
+| `*`mappar`*` | `types:folders` | Nej | Hierarkin för mappar i en trädstruktur. Svaret är begränsat till högst 100 000 mappar. |
+| `*`permissionSetArray`*` | `types:PermissionSetArray` |  |  |
 
 ## Exempel {#section-a9fd2edb56574dd9bf8b0f2fd89367e4}
 
