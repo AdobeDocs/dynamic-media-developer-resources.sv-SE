@@ -1,15 +1,12 @@
 ---
 description: Lägger till en användare i en array med grupper.
-seo-description: Lägger till en användare i en array med grupper.
-seo-title: addGroupMembership
 solution: Experience Manager
 title: addGroupMembership
-topic: Scene7 Image Production System API
-uuid: a8e25f27-c300-424d-83ac-e41bb4cb7964
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
@@ -62,7 +59,7 @@ IPS API returnerar inget svar för den här åtgärden.
 
 ## Exempel {#section-f7a1f40c3d7a40ea964b29056c734d81}
 
-I det här exemplet läggs en grupp till i ett företag med ` *`groupHandleArray`*`. I det här exemplet används endast en grupp.
+I det här exemplet läggs en grupp till i ett företag med `*`groupHandleArray`*`. I det här exemplet används endast en grupp.
 
 **Begäran**
 
