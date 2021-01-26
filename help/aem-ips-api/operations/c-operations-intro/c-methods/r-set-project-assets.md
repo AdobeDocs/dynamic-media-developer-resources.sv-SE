@@ -4,10 +4,10 @@ seo-description: Tilldela eller uppdatera resurser i ett projekt.
 seo-title: setProjectAssets
 solution: Experience Manager
 title: setProjectAssets
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 98d18948-d387-4890-9c27-e8ab60cded1d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 0%
@@ -36,15 +36,15 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`companyName`*` | `xsd:string` | Ja | Företagshandtag. |
-| ` *`projectHandle`*` | `xsd:string` | Ja | Projektreferens. |
-| ` *`assetHandleArray`*` | `types:HandleArray` | Ja | Arrayen med resurshandtag som du vill associera med projektet. |
+| `*`companyName`*` | `xsd:string` | Ja | Företagshandtag. |
+| `*`projectHandle`*` | `xsd:string` | Ja | Projektreferens. |
+| `*`assetHandleArray`*` | `types:HandleArray` | Ja | Arrayen med resurshandtag som du vill associera med projektet. |
 
 **Utdata (setProjectAssetsReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Ja | Antalet resurser som lagts till. |
+| `*`successCount`*` | `xsd:int` | Ja | Antalet resurser som lagts till. |
 
 ## Exempel {#section-33c1a909c3dc4aa98da474c23a036596}
 
