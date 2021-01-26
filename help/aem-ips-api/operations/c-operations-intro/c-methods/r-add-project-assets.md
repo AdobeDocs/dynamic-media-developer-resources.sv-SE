@@ -1,15 +1,12 @@
 ---
 description: Lägger till en eller flera resurser i ett projekt.
-seo-description: Lägger till en eller flera resurser i ett projekt.
-seo-title: addProjectAssets
 solution: Experience Manager
 title: addProjectAssets
-topic: Scene7 Image Production System API
-uuid: 48abea17-058e-4469-bb16-0abee8ef5214
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
@@ -36,19 +33,19 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Hantera till det företag som är associerat med det aktuella projektet. |
-| ` *`projectHandle`*` | `xsd:string` | Ja | Hantera det projekt du lägger till resurser i. |
-| ` *`projectHandleArray`*` | `xsd:HandleArray` | Ja | Array med resurser som du lägger till i det aktuella projektet. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Hantera till det företag som är associerat med det aktuella projektet. |
+| `*`projectHandle`*` | `xsd:string` | Ja | Hantera det projekt du lägger till resurser i. |
+| `*`projectHandleArray`*` | `xsd:HandleArray` | Ja | Array med resurser som du lägger till i det aktuella projektet. |
 
 **Utdata (addProjectAssetsParam)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Ja | Antalet resurser som lagts till. |
-| ` *`warningCount`*` | `xsd:int` | Ja | Antalet varningar som genereras när åtgärden försökte lägga till resurser i ett projekt. |
-| ` *`errorCount`*` | `xsd:int` | Ja | Antalet fel som genererades när åtgärden försökte lägga till resurser i ett projekt. |
-| ` *`warningDetailHandle`*` | `xsd:AssetOperationFaultArray` | Nej | Array med varningar som genereras av resurser när åtgärden försökte lägga till dem i ett projekt. |
-| ` *`companyHandle`*` | `xsd:AssetOperationFaultArray` | Nej | Array med fel som genereras av resurser när åtgärden försökte lägga till dem i ett projekt. |
+| `*`successCount`*` | `xsd:int` | Ja | Antalet resurser som lagts till. |
+| `*`warningCount`*` | `xsd:int` | Ja | Antalet varningar som genereras när åtgärden försökte lägga till resurser i ett projekt. |
+| `*`errorCount`*` | `xsd:int` | Ja | Antalet fel som genererades när åtgärden försökte lägga till resurser i ett projekt. |
+| `*`warningDetailHandle`*` | `xsd:AssetOperationFaultArray` | Nej | Array med varningar som genereras av resurser när åtgärden försökte lägga till dem i ett projekt. |
+| `*`companyHandle`*` | `xsd:AssetOperationFaultArray` | Nej | Array med fel som genereras av resurser när åtgärden försökte lägga till dem i ett projekt. |
 
 ## Exempel {#section-bee5be2402f54cb9a3a02cc07def4135}
 
