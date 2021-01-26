@@ -1,15 +1,15 @@
 ---
-description: I det här dokumentet beskrivs materialkatalogen för Scene7 Image Rendering.
-seo-description: I det här dokumentet beskrivs materialkatalogen för Scene7 Image Rendering.
+description: I det här dokumentet beskrivs materialkatalogen för Dynamic Media Image Rendering.
+seo-description: I det här dokumentet beskrivs materialkatalogen för Dynamic Media Image Rendering.
 seo-title: Introduktion
 solution: Experience Manager
 title: Introduktion
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 38da0561-7730-4170-bf29-02de325b3ad9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,13 @@ ht-degree: 0%
 
 # Introduktion{#introduction}
 
-I det här dokumentet beskrivs materialkatalogen för Scene7 Image Rendering.
+I det här dokumentet beskrivs materialkatalogen för Dynamic Media Image Rendering.
 
 **Målgrupp**
 
-Dokumentationen är avsedd för erfarna programmerare och webbplatsutvecklare som vill använda Scene7 Image Rendering för en webbplats eller ett anpassat program.
+Dokumentationen är avsedd för erfarna programmerare och webbplatsutvecklare som vill använda Dynamic Media Image Rendering för en webbplats eller ett anpassat program.
 
-Det antas att läsaren känner till Scene7 Image Authoring and Image Rendering, allmänna HTTP-protokollstandarder och konventioner samt grundläggande bildterminologi.
+Det antas att läsaren känner till Dynamic Media Image Authoring and Image Rendering, allmänna HTTP-protokollstandarder och konventioner samt grundläggande bildterminologi.
 
 **Dokumentkonventioner**
 
