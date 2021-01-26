@@ -4,10 +4,10 @@ seo-description: Anger bildschemat för en resurs.
 seo-title: setImageMaps
 solution: Experience Manager
 title: setImageMaps
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 1dd7e032-34b4-464d-8ec6-7ad282d12891
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
@@ -36,15 +36,15 @@ Du måste ha skapat bildscheman. Bildscheman används i den ordning som de hämt
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Företagshandtag. |
-| ` *`assetHandle`*` | `xsd:string` | Ja | Resurshandtag. |
-| ` *`imageMapArray`*` | `types:ImageMapDefinitionArray` | Ja | Array med fördefinierade bildscheman. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Företagshandtag. |
+| `*`assetHandle`*` | `xsd:string` | Ja | Resurshandtag. |
+| `*`imageMapArray`*` | `types:ImageMapDefinitionArray` | Ja | Array med fördefinierade bildscheman. |
 
 **Utdata (setImageMapsReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`imageMapHandleArray`*` | `types:HandleArray` | Ja | En array med bildmappshandtag tillämpade på resursen. |
+| `*`imageMapHandleArray`*` | `types:HandleArray` | Ja | En array med bildmappshandtag tillämpade på resursen. |
 
 ## Exempel {#section-fe2e35662a6a4ee29cf250c9fd180371}
 
