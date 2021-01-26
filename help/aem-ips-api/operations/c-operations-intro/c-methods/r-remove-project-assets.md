@@ -4,10 +4,10 @@ seo-description: Tar bort resurser från ett projekt. Förstör inte tillgångar
 seo-title: removeProjectAssets
 solution: Experience Manager
 title: removeProjectAssets
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: bae09dc3-4328-4264-8fb2-e4f0c53546eb
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 0%
@@ -35,19 +35,19 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Handtaget till företaget med de resurser som du vill flytta. |
-| ` *`projectHandle`*` | `xsd:string` | Ja | Referensen till de projektresurser som du vill flytta. |
-| ` *`assetHandleArray`*` | `types:HandleArray` | Ja | En array med handtag till de resurser du vill flytta. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Handtaget till företaget med de resurser som du vill flytta. |
+| `*`projectHandle`*` | `xsd:string` | Ja | Referensen till de projektresurser som du vill flytta. |
+| `*`assetHandleArray`*` | `types:HandleArray` | Ja | En array med handtag till de resurser du vill flytta. |
 
 **Utdata (removeProjectAssetsReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Ja | Antal resurser har tagits bort. |
-| ` *`warningCount`*` | `xsd:int` | Ja | Antalet varningar som genereras när åtgärden försökte ta bort resurser från projektet. |
-| ` *`errorCount`*` | `xsd:int` | Ja | Antalet fel som genererades när åtgärden försökte ta bort resurser från projektet. |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nej | Arrayen med information som är associerad med resurserna som genererade varningar när åtgärden försökte ta bort dem från projektet. |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nej | Arrayen med information som är associerad med resurserna som genererade fel när åtgärden försökte ta bort dem från projektet. |
+| `*`successCount`*` | `xsd:int` | Ja | Antal resurser har tagits bort. |
+| `*`warningCount`*` | `xsd:int` | Ja | Antalet varningar som genereras när åtgärden försökte ta bort resurser från projektet. |
+| `*`errorCount`*` | `xsd:int` | Ja | Antalet fel som genererades när åtgärden försökte ta bort resurser från projektet. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nej | Arrayen med information som är associerad med resurserna som genererade varningar när åtgärden försökte ta bort dem från projektet. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nej | Arrayen med information som är associerad med resurserna som genererade fel när åtgärden försökte ta bort dem från projektet. |
 
 ## Exempel {#section-13546cf0a98e4e1b91b8b7cd5724ced8}
 
