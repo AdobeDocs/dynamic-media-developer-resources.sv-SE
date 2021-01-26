@@ -4,10 +4,10 @@ seo-description: Texturjustering. Justering av texturen när den används på vi
 seo-title: Justering
 solution: Experience Manager
 title: Justering
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c64d7986-9bb9-4566-8e2f-dca7f459049e
 translation-type: tm+mt
-source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 0%
