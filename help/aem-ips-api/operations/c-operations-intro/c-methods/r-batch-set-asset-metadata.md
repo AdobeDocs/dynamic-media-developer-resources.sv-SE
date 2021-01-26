@@ -4,10 +4,10 @@ seo-description: Ställer in metadata för resurser i gruppläge.
 seo-title: batchSetAssetMetadata
 solution: Experience Manager
 title: batchSetAssetMetadata
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 88d8f279-988f-4956-b66f-60fa95cf511c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%
@@ -36,18 +36,18 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Referensen till det företag vars metadata du vill ange i en gruppåtgärd. |
-| ` *`updateArray`*` | `types:BatchMetadataUpdateArray` | Ja | Arrayen med metadatauppdateringar som används för resurserna. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Referensen till det företag vars metadata du vill ange i en gruppåtgärd. |
+| `*`updateArray`*` | `types:BatchMetadataUpdateArray` | Ja | Arrayen med metadatauppdateringar som används för resurserna. |
 
 **Utdata (batchSetAssetMetadataParam)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Ja | Antalet angivna metadata. |
-| ` *`warningCount`*` | `xsd:int` | Ja | Antalet varningar som genereras när åtgärden försökte ange metadata. |
-| ` *`errorCount`*` | `xsd:int` | Ja | Antalet fel som genererades när åtgärden försökte ange metadata. |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nej | Arrayen med detaljer som är associerade med resurserna som genererar varningar när åtgärden försökte batchställa in metadata för resurserna. |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nej | Arrayen med information som är associerad med resurserna som genererar fel när åtgärden försökte batchställa in metadata för resurserna. |
+| `*`successCount`*` | `xsd:int` | Ja | Antalet angivna metadata. |
+| `*`warningCount`*` | `xsd:int` | Ja | Antalet varningar som genereras när åtgärden försökte ange metadata. |
+| `*`errorCount`*` | `xsd:int` | Ja | Antalet fel som genererades när åtgärden försökte ange metadata. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nej | Arrayen med detaljer som är associerade med resurserna som genererar varningar när åtgärden försökte batchställa in metadata för resurserna. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nej | Arrayen med information som är associerad med resurserna som genererar fel när åtgärden försökte batchställa in metadata för resurserna. |
 
 ## Exempel {#section-2de798ac920e4b47b971b1729a64395b}
 
