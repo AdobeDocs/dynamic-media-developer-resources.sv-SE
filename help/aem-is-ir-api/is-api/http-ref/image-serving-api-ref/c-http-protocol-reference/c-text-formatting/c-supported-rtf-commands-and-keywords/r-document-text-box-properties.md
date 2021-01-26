@@ -4,12 +4,12 @@ seo-description: Följande dokumentegenskaper stöds i textrutor.
 seo-title: Dokumentegenskaper (textruta)
 solution: Experience Manager
 title: Dokumentegenskaper (textruta)
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 743a773a-83b0-4667-9c67-4cefbfe77bbd
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -46,12 +46,12 @@ Följande dokumentegenskaper stöds i textrutor.
   <tr> 
    <td> <span class="codeph"> \cmykcolortbl  </span> </td> 
    <td> <p>CMYK-färgtabell. </p> </td> 
-   <td> <p>Scene7-tillägg. </p> </td> 
+   <td> <p>Dynamic Media-tillägg. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \*\iscolortbl  </span> </td> 
    <td> <p>Färgtabell för bildservningsfärger. </p> </td> 
-   <td> <p>Scene7-tillägg; Endast <span class="codeph"> textPs= </span> </p> </td> 
+   <td> <p>Dynamic Media-tillägg; Endast <span class="codeph"> textPs= </span> </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \red  <span class="varname"> N  </span> </span> </td> 
@@ -71,22 +71,22 @@ Följande dokumentegenskaper stöds i textrutor.
   <tr> 
    <td> <span class="codeph"> \cyan  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Cyanfärgskomponent. </p> </td> 
-   <td> <p>Scene7-tillägg; får endast förekomma i <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
+   <td> <p>Dynamic Media-tillägg; får endast förekomma i <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \magenta  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Magentafärgkomponent. </p> </td> 
-   <td> <p>Scene7-tillägg; får endast förekomma i <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
+   <td> <p>Dynamic Media-tillägg; får endast förekomma i <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \yellow  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Gul färgkomponent. </p> </td> 
-   <td> <p>Scene7-tillägg; får endast förekomma i <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
+   <td> <p>Dynamic Media-tillägg; får endast förekomma i <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \black  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Svart färgkomponent. </p> </td> 
-   <td> <p>Scene7-tillägg; får endast förekomma i <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
+   <td> <p>Dynamic Media-tillägg; får endast förekomma i <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \margl  <span class="varname"> N  </span> </span> </td> 
