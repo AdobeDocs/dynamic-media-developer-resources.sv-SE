@@ -1,15 +1,12 @@
 ---
 description: Image Serving implementerar en enkel funktion för visuell vattenstämpel.
-seo-description: Image Serving implementerar en enkel funktion för visuell vattenstämpel.
-seo-title: Vattenstämplar
 solution: Experience Manager
 title: Vattenstämplar
-topic: Scene7 Image Serving - Image Rendering API
-uuid: b2bbaa59-dad9-4be3-bb92-142ed44f6d65
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -23,7 +20,7 @@ En vattenstämpel är vanligtvis en halvgenomskinlig bild, men det kan vara text
 
 Vattenstämplar aktiveras genom att `attribute::Watermark` ställs in på en giltig katalogpost som skulle innehålla vattenstämpelbilden eller mallen. Om `attribute::Watermark` anges i en namngiven katalog kommer servern att lägga till vattenstämpeln i alla bildbegäranden som refererar till katalog-ID:t i begärande-URL:en. Om `default::Watermark` är inställt (i standardkatalogen [!DNL default.ini]) används vattenstämpeln på alla bildbegäranden oavsett om de refererar till en katalog eller inte.
 
-Vattenstämplar tillämpas inte på bilder som returneras som svar på miniatyrbildsbegäranden ( `req=tmb`) och vissa begäranden från Scene7-visningsprogram.
+Vattenstämplar tillämpas inte på bilder som returneras som svar på miniatyrbildsbegäranden ( `req=tmb`) och vissa begäranden från Dynamic Media-visningsprogram.
 
 ## Skalning och justering {#section-89ef9e5926ae438abbd8e70332749b76}
 
