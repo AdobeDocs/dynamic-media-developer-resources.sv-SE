@@ -4,10 +4,10 @@ seo-description: Hämtar angivna jobbloggar för det valda företaget. Du kan so
 seo-title: getJobLogs
 solution: Experience Manager
 title: getJobLogs
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 850ccfad-6cdb-4eda-a20a-762fadadf8b2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 0%
@@ -39,19 +39,19 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Nej | Företagets handtag. |
-| ` *`userHandle`*` | `xsd:string` | Nej | Hämtar loggar för jobb som skickats av en viss användare. |
-| ` *`sortBy`*` | `xsd:string` | Nej | Här kan du välja sorteringsfält. |
-| ` *`sortDirection`*` | `xsd:string` | Nej | Sorteringsordning (stigande eller fallande). |
-| ` *`startDate`*` | `xsd:dateTime` | Nej | Datum och tid då jobbloggen startades. Ange tidszonen med begäran för det här fältet. |
-| ` *`endDate`*` | `xsd:dateTime` | Nej | Datum och tid för slutet av jobbloggen. Ange tidszonen med begäran för det här fältet. |
-| ` *`numRows`*` | `xsd:int` | Nej | Maximalt antal rader att returnera. |
+| `*`companyHandle`*` | `xsd:string` | Nej | Företagets handtag. |
+| `*`userHandle`*` | `xsd:string` | Nej | Hämtar loggar för jobb som skickats av en viss användare. |
+| `*`sortBy`*` | `xsd:string` | Nej | Här kan du välja sorteringsfält. |
+| `*`sortDirection`*` | `xsd:string` | Nej | Sorteringsordning (stigande eller fallande). |
+| `*`startDate`*` | `xsd:dateTime` | Nej | Datum och tid då jobbloggen startades. Ange tidszonen med begäran för det här fältet. |
+| `*`endDate`*` | `xsd:dateTime` | Nej | Datum och tid för slutet av jobbloggen. Ange tidszonen med begäran för det här fältet. |
+| `*`numRows`*` | `xsd:int` | Nej | Maximalt antal rader att returnera. |
 
 **Utdata (getJobLogsReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`jobLogArray`*` | `types: JobLogArray` | Ja | Matris med jobbloggar. |
+| `*`jobLogArray`*` | `types: JobLogArray` | Ja | Matris med jobbloggar. |
 
 ## Exempel {#section-35871c94b4a44559912577efddbc46a6}
 
