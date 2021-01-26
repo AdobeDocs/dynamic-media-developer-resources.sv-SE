@@ -4,10 +4,10 @@ seo-description: En egenskapsuppsättningstyp anger olika inställningar som anv
 seo-title: createPropertySetType
 solution: Experience Manager
 title: createPropertySetType
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: ecbaad48-d725-4f7a-a37d-5e4cde3295cb
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 0%
@@ -34,16 +34,16 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Nej | Referensen till företaget som äger egenskapsuppsättningstypen. Om `companyHandle` inte skickas och anroparen är `IpsAdmin` skapas en global egenskapsuppsättningstyp. |
-| ` *`name`*` | `xsd:string` | Ja | Namnet på egenskapsuppsättningstypen. |
-| ` *`propertyType`*` | `xsd:string` | Ja | Val av egenskapsuppsättningstyper. |
-| ` *`allowMultiple`*` | `xsd:boolean` | Ja | Avgör om ditt program kan ha flera egenskapsuppsättningar. |
+| `*`companyHandle`*` | `xsd:string` | Nej | Referensen till företaget som äger egenskapsuppsättningstypen. Om `companyHandle` inte skickas och anroparen är `IpsAdmin` skapas en global egenskapsuppsättningstyp. |
+| `*`name`*` | `xsd:string` | Ja | Namnet på egenskapsuppsättningstypen. |
+| `*`propertyType`*` | `xsd:string` | Ja | Val av egenskapsuppsättningstyper. |
+| `*`allowMultiple`*` | `xsd:boolean` | Ja | Avgör om ditt program kan ha flera egenskapsuppsättningar. |
 
 **Utdata (createPropertySetTypeReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`typeHandle`*` | `xsd:string` | Ja | Ett handtag till typen. |
+| `*`typeHandle`*` | `xsd:string` | Ja | Ett handtag till typen. |
 
 ## Exempel {#section-13396c9639a6475190e622eae3cdb534}
 
