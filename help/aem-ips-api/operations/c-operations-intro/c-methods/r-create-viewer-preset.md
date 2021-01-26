@@ -4,10 +4,10 @@ seo-description: Skapar en förinställd vy som avgör vad en användare kan se.
 seo-title: createViewerPreset
 solution: Experience Manager
 title: createViewerPreset
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 4160d2b0-6147-459f-830a-43c99b8dc196
 translation-type: tm+mt
-source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 0%
@@ -34,17 +34,17 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Handtaget för det företag som innehåller visningsprogrammets förinställningar och resurser. |
-| ` *`folderHandle`*` | `xsd:string` | Ja | Hanteringen av mappen som innehåller resurserna. |
-| ` *`name`*` | `xsd:string` | Ja | Namn på visningsprogram. |
-| ` *`type`*` | `xsd:string` | Ja | Typ av visningsprogram. |
-| ` *`configSettingArray`*` | `types:ConfigSettingArray` | Nej | En array som innehåller namn, värden och handtag för bilder som du använder förinställningar på. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Handtaget för det företag som innehåller visningsprogrammets förinställningar och resurser. |
+| `*`folderHandle`*` | `xsd:string` | Ja | Hanteringen av mappen som innehåller resurserna. |
+| `*`name`*` | `xsd:string` | Ja | Namn på visningsprogram. |
+| `*`type`*` | `xsd:string` | Ja | Typ av visningsprogram. |
+| `*`configSettingArray`*` | `types:ConfigSettingArray` | Nej | En array som innehåller namn, värden och handtag för bilder som du använder förinställningar på. |
 
 **Utdata (createViewerPresetReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`viewerPresetHandle`*` | `xsd:string` | Ja | Handtag för förinställningen till användaren. |
+| `*`viewerPresetHandle`*` | `xsd:string` | Ja | Handtag för förinställningen till användaren. |
 
 ## Exempel {#section-c88ea63536f3461cbe4677ba53f875dd}
 
