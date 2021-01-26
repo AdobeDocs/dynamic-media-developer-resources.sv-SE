@@ -4,12 +4,12 @@ seo-description: Information om felmeddelande. Anger detaljnivån för felmeddel
 seo-title: ErrorDetail
 solution: Experience Manager
 title: ErrorDetail
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: aab11640-95d7-427d-b79f-c477b2c9047e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '181'
 ht-degree: 2%
 
 ---
@@ -44,7 +44,7 @@ Följande värden är tillåtna:
 
 * Nivå 0 rekommenderas för liveservrar som är tillgängliga för allmänheten.
 * Nivå 2 rekommenderas för testnings-, kvalitetssäkrings- och programutvecklingsservrar.
-* Information på nivå 3 kan vara användbar när du rapporterar problem till Scene7 Tech Support.
+* Information på nivå 3 kan vara användbar vid rapportering av problem till Dynamic Media tekniska support.
 
 ## Egenskaper {#section-f03f9a8edd6a4d99aff38fbec41c4b80}
 
