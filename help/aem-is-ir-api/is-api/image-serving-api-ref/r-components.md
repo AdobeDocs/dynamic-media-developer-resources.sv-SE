@@ -4,12 +4,12 @@ seo-description: 'Scen 7 Bildredigering består av följande komponenter '
 seo-title: Bildserverkomponenter
 solution: Experience Manager
 title: Bildserverkomponenter
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 84e04972-32ce-4aca-aae6-d5b8bbe761e6
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Scen 7 Image Serving består av följande komponenter:
    <td colname="col2"> <p>Fristående Java-program (inte värd för Tomcat). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Scene7 Image Rendering (även kallat Återgivningsserver) </p> </td> 
+   <td colname="col1"> <p>Dynamic Media Image Rendering (även kallat Återgivningsserver) </p> </td> 
    <td colname="col2"> <p>Kräver en separat licens för aktivering. HTTP-åtkomst vid <span class="filepath"> /ir/render</span>. Alla funktioner för bildåtergivning är integrerade i plattformsservern och bildservern, utan separata körbara komponenter. </p> </td> 
   </tr> 
  </tbody> 
