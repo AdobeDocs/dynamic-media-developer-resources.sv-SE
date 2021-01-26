@@ -4,10 +4,10 @@ seo-description: Returnerar företagsgrupper.
 seo-title: getGroups
 solution: Experience Manager
 title: getGroups
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: d6e1542d-83a2-4b25-a986-2465e9e5a145
 translation-type: tm+mt
-source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 0%
@@ -33,13 +33,13 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Handtaget till företaget. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Handtaget till företaget. |
 
 **Utdata (getGroupsReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`groupArray`*` | `types:GroupArray` | Ja | Matris med grupper. |
+| `*`groupArray`*` | `types:GroupArray` | Ja | Matris med grupper. |
 
 ## Exempel {#section-ed0708f611574354bf0c6ea83912b531}
 
