@@ -4,10 +4,10 @@ seo-description: Om req=img bestäms storleken på den sammansatta arbetsytan he
 seo-title: Den sammansatta arbetsytan
 solution: Experience Manager
 title: Den sammansatta arbetsytan
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7ec2f1b3-61fc-4bfe-96d2-a5946a238e74
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 0%
