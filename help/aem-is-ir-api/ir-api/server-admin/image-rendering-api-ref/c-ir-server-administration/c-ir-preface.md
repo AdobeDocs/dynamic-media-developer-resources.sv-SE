@@ -1,15 +1,15 @@
 ---
-description: I den här dokumentationen beskrivs serveradministrationsproblem och konfigurationsinställningar för Scene7 Image Rendering.
-seo-description: I den här dokumentationen beskrivs serveradministrationsproblem och konfigurationsinställningar för Scene7 Image Rendering.
+description: I den här dokumentationen beskrivs serveradministrationsproblem och konfigurationsinställningar för Dynamic Media Image Rendering.
+seo-description: I den här dokumentationen beskrivs serveradministrationsproblem och konfigurationsinställningar för Dynamic Media Image Rendering.
 seo-title: Prefix för serveradministration
 solution: Experience Manager
 title: Prefix för serveradministration
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 182782f1-44a8-421d-bacc-f08dcf95f58b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 # Prefix för serveradministration{#server-administration-preface}
 
-I den här dokumentationen beskrivs serveradministrationsproblem och konfigurationsinställningar för Scene7 Image Rendering.
+I den här dokumentationen beskrivs serveradministrationsproblem och konfigurationsinställningar för Dynamic Media Image Rendering.
 
 **Målgrupp**
 
-Den här dokumentationen är avsedd för systemadministratörer och webbmaster-användare som behöver installera, konfigurera och administrera Scene7 Image Rendering.
+Den här dokumentationen är avsedd för systemadministratörer och webbmaster-användare som behöver installera, konfigurera och administrera Dynamic Media Image Rendering.
 
 **Dokumentkonventioner**
 
