@@ -1,15 +1,12 @@
 ---
-description: API-anrop för bildproduktionssystem och associerade parametrar som inte längre används.
-seo-description: API-anrop för bildproduktionssystem och associerade parametrar som inte längre används.
-seo-title: Inaktuella anrop
-solution: Experience Manager
 title: Inaktuella anrop
-topic: Scene7 Image Production System API
-uuid: 03925728-f011-45f0-84a6-808dff0fd529
+description: API-anrop för bildproduktionssystem och associerade parametrar som inte längre används i Dynamic Media.
+solution: Experience Manager
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
@@ -21,7 +18,7 @@ API-anrop för bildproduktionssystem och associerade parametrar som inte längre
 
 ## Inaktuella anrop {#topic-654c0466e6434fe4a95953322255b08c}
 
-API-anrop för bildproduktionssystem och associerade parametrar som inte längre används.
+API-anrop för bildproduktionssystem och associerade parametrar som inte längre används i Dynamic Media.
 
 * `addMediaPortalEvent` - Borttagen från åtgärder. Med det här anropet kan du lägga till en mediaportal-händelse i IPS.
 * `getMediaPortalEvent` - Borttagen från åtgärder. Med det här anropet kan du hämta medieportalhändelser som matchar angivna villkor.
