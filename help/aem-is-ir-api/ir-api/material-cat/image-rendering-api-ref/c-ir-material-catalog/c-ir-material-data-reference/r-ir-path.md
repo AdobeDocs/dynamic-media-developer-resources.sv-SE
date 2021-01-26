@@ -4,12 +4,12 @@ seo-description: Sökväg till bildfil. Relativ sökväg och namn för en textur
 seo-title: Bana *
 solution: Experience Manager
 title: Bana *
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9e85a358-3f2f-4b8b-a98f-03de2a1a8a4c
 translation-type: tm+mt
-source-git-commit: 7d3902803d42f5d479dd04ac9470a4088809f3d6
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,9 @@ Textsträng. Krävs för textur- och dekmaterial, valfritt för skåp och fönst
 
 ## Filformat som stöds {#section-7ef6c9f7c72c4f03ae926d030b6c46d8}
 
-Bildåtergivning stöder samma källbildformat som Scene7 Image Serving.
+Bildåtergivning stöder samma källbildformat som Dynamic Media Image Serving.
 
-Program som kräver bilddata i flera olika upplösningar fungerar bäst när du använder multiupplösningsformatet Scene7 pyramid TIFF (PTIFF). Image Serving innehåller verktyget Image Converter (IC) som skapar PTIFF-bilder i alla format som stöds.
+Program som kräver bilddata i flera olika upplösningar fungerar bäst när du använder multiupplösningsformatet Dynamic Media pyramid TIFF (PTIFF). Image Serving innehåller verktyget Image Converter (IC) som skapar PTIFF-bilder i alla format som stöds.
 
 Se beskrivningen av verktyget IC i dokumentationen för Image Serving för en fullständig lista över filformat som stöds.
 
