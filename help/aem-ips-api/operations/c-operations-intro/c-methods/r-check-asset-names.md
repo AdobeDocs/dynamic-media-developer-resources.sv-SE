@@ -4,10 +4,10 @@ seo-description: Kontrollerar om det finns IPS ID-konflikter genom att jämföra
 seo-title: checkAssetNames
 solution: Experience Manager
 title: checkAssetNames
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 91d073a8-7648-429b-aa5c-c7d595550299
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -38,14 +38,14 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Nej | Referensen till företaget som innehåller användaren. |
-| ` *`assetNamesArray`*` | `types:StringArray` | Ja | En array med resursnamn som ska kontrolleras. |
+| `*`companyHandle`*` | `xsd:string` | Nej | Referensen till företaget som innehåller användaren. |
+| `*`assetNamesArray`*` | `types:StringArray` | Ja | En array med resursnamn som ska kontrolleras. |
 
 **Utdata (checkAssetNamesReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`inUseNameArray`*` | `types:StringArray` | Ja | En array med resursnamn som används. |
+| `*`inUseNameArray`*` | `types:StringArray` | Ja | En array med resursnamn som används. |
 
 ## Exempel {#section-bc5d120d74614a63a425ca3acc337219}
 
