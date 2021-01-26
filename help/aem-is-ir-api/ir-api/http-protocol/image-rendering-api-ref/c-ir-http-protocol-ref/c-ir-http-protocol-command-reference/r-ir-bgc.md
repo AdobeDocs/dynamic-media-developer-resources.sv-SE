@@ -4,12 +4,12 @@ seo-description: Bakgrundsfärg. Anger den subtraktiva färgen för färgningsba
 seo-title: bgc
 solution: Experience Manager
 title: bgc
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 551a0da8-dd1f-484a-bf7e-f4896370340a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Bakgrundsfärg. Anger den subtraktiva färgen för färgningsbara texturer och d
 
 Bildåtergivningens texturfärgningsalgoritm är ganska enkel - komponentvärdena för `bgc=` subtraheras från texturpixlarna, `color=` läggs till och resultatet klipps till `0,0,0` och `255,255,255`.
 
-För typisk användning av texturfärgning kan värdet för `bgc=` vara den viktigaste eller dominerande färgen i texturbilden. Scene7 Image Authoring innehåller halvautomatiska verktyg som extraherar rimliga `bgc=` färgvärden från texturbilder.
+För typisk användning av texturfärgning kan värdet för `bgc=` vara den viktigaste eller dominerande färgen i texturbilden. Dynamic Media Image Authoring innehåller halvautomatiska verktyg som extraherar rimliga `bgc=` färgvärden från texturbilder.
 
 När ett texturmaterial används på ett vinjetteringsobjekt som inte kan struktureras används `bgc=` som förgrundsfärg om `color=` inte anges.
 
