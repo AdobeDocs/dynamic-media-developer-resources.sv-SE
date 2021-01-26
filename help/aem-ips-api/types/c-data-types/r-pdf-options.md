@@ -4,10 +4,10 @@ seo-description: Alternativ för PDF-filer.
 seo-title: PDFOptions
 solution: Experience Manager
 title: PDFOptions
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 7558b6b5-ad32-4baf-896b-f4e2bd48f2ec
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 0%
@@ -25,10 +25,10 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| ` *`process`*` | `xsd:string` | Val av&quot;PDF-processer&quot;. |
-| ` *`upplösning`*` | `xsd:double` | Filupplösning. |
-| ` *`färgrymd`*` | `xsd:string` | Färgrymdsval efter skript. |
-| ` *`pdfCatalog`*` | `xsd:boolean` | Om en PDF-fil med flera sidor ska kombineras i en e-katalog efter återgivningen (standardvärdet är true). |
-| ` *`extractSearchWords`*` | `xsd:boolean` | Om sökord ska extraheras från PDF-filen. |
-| ` *`extractLinks`*` | `xsd:boolean` | Om PDF-länkar ska extraheras till bildscheman som tilldelats de rastrerade sidorna i IPS. |
+| `*`process`*` | `xsd:string` | Val av&quot;PDF-processer&quot;. |
+| `*`upplösning`*` | `xsd:double` | Filupplösning. |
+| `*`färgrymd`*` | `xsd:string` | Färgrymdsval efter skript. |
+| `*`pdfCatalog`*` | `xsd:boolean` | Om en PDF-fil med flera sidor ska kombineras i en e-katalog efter återgivningen (standardvärdet är true). |
+| `*`extractSearchWords`*` | `xsd:boolean` | Om sökord ska extraheras från PDF-filen. |
+| `*`extractLinks`*` | `xsd:boolean` | Om PDF-länkar ska extraheras till bildscheman som tilldelats de rastrerade sidorna i IPS. |
 
