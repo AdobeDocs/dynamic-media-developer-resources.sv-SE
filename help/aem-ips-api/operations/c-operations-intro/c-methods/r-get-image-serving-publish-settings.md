@@ -4,10 +4,10 @@ seo-description: Endast för internt bruk. Användare bör referera till avsnitt
 seo-title: getImageServingPublishSettings
 solution: Experience Manager
 title: getImageServingPublishSettings
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 2f00198d-0262-430b-8ac5-80f52adcff67
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 0%
@@ -34,12 +34,12 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Handtaget till företaget med bilden som visar publiceringsinställningar. |
-| ` *`contextHandle`*` | `xsd:string` | Ja | Hantera publiceringskontexten. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Handtaget till företaget med bilden som visar publiceringsinställningar. |
+| `*`contextHandle`*` | `xsd:string` | Ja | Hantera publiceringskontexten. |
 
 **Utdata**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`publishSettingArray`*` | `xsd:string` | Ja | Array med bildserverns publiceringsinställningar. |
+| `*`publishSettingArray`*` | `xsd:string` | Ja | Array med bildserverns publiceringsinställningar. |
 
