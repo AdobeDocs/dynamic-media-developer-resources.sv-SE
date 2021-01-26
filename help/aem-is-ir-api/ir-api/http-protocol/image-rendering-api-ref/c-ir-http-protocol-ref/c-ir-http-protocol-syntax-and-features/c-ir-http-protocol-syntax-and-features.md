@@ -1,15 +1,15 @@
 ---
-description: I det här avsnittet beskrivs HTTP-protokollets syntax och funktioner för Scene7 Image Rendering.
-seo-description: I det här avsnittet beskrivs HTTP-protokollets syntax och funktioner för Scene7 Image Rendering.
+description: I det här avsnittet beskrivs HTTP-protokollets syntax och funktioner för Dynamic Media Image Rendering.
+seo-description: I det här avsnittet beskrivs HTTP-protokollets syntax och funktioner för Dynamic Media Image Rendering.
 seo-title: Syntax och funktioner för HTTP-protokoll
 solution: Experience Manager
 title: Syntax och funktioner för HTTP-protokoll
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5badae8e-0874-43b1-b019-bd7445e6c2ce
 translation-type: tm+mt
-source-git-commit: 7721cccf3f779f258adcdcf886f7e01111e92be0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Syntax för HTTP-protokoll och funktioner{#http-protocol-syntax-and-features}
 
-I det här avsnittet beskrivs HTTP-protokollets syntax och funktioner för Scene7 Image Rendering.
+I det här avsnittet beskrivs HTTP-protokollets syntax och funktioner för Dynamic Media Image Rendering.
 
 * [Grundläggande syntax för HTTP-protokoll för bildåtergivning](r-ir-basic-syntax.md)
 * [Kommandoöversikt över HTTP-protokollet för bildåtergivning](c-ir-command-overview/c-ir-command-overview.md)
