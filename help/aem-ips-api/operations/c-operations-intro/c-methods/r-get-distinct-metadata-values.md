@@ -4,10 +4,10 @@ seo-description: Returnerar alla värden för ett metadatafält.
 seo-title: getDistinctMetadataValues
 solution: Experience Manager
 title: getDistinctMetadataValues
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 47c1d3a3-9f33-4c36-828a-e858370997d1
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 0%
@@ -37,14 +37,14 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Handtaget till företaget som du vill hämta data för. |
-| ` *`metadataKey`*` | `xsd:string` | Ja | Metadatanyckel i punktnotation. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Handtaget till företaget som du vill hämta data för. |
+| `*`metadataKey`*` | `xsd:string` | Ja | Metadatanyckel i punktnotation. |
 
 **Utdata (getDistinctMetadataValuesReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`valueArray`*` | `types:ValueArray` | Ja | Värden för det begärda metadatafältet. |
+| `*`valueArray`*` | `types:ValueArray` | Ja | Värden för det begärda metadatafältet. |
 
 ## Exempel {#section-0189fa6fb31646cda5ce1b0bc4fcdf46}
 
