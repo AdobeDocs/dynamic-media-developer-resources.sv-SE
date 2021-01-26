@@ -1,15 +1,12 @@
 ---
 description: Lägger till ett företag i systemet.
-seo-description: Lägger till ett företag i systemet.
-seo-title: addCompany
 solution: Experience Manager
 title: addCompany
-topic: Scene7 Image Production System API
-uuid: 2f00a06d-40d1-4ba3-a317-6ea91e25beb3
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
@@ -21,7 +18,7 @@ Lägger till ett företag i systemet.
 
 Skickar namnet på det företag som ska läggas till i systemet och skickar om företaget ska förfalla eller inte.
 
-När den här åtgärden anropas får systemet en ` *`companyInfo`*`-typ som innehåller en företagsreferens och beskrivande fält. Om det begärda företagsnamnet redan finns i systemet genereras ett `ipsApiFault`.
+När den här åtgärden anropas får systemet en `*`companyInfo`*`-typ som innehåller en företagsreferens och beskrivande fält. Om det begärda företagsnamnet redan finns i systemet genereras ett `ipsApiFault`.
 
 ## Auktoriserade användartyper {#section-ae926c7672984be79f6102748accab72}
 
