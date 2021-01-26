@@ -1,15 +1,12 @@
 ---
 description: Skapar ett användarkonto och lägger till det kontot till ett eller flera företag.
-seo-description: Skapar ett användarkonto och lägger till det kontot till ett eller flera företag.
-seo-title: addUser
 solution: Experience Manager
 title: addUser
-topic: Scene7 Image Production System API
-uuid: b8c5ada6-470e-4795-a4f3-20750da709a9
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -34,20 +31,20 @@ När du lägger till en användare till flera företag anger du de företagen ef
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`firstName`*` | `xsd:string` | Ja | Användarens förnamn. |
-| ` *`lastName`*` | `xsd:string` | Ja | Användarens efternamn. |
-| ` *`e-post`*` | `xsd:string` | Ja | Användarens e-postadress. |
-| ` *`defaultRole`*` | `xsd:string` | Ja | Anger rollen för en användare i varje företag de tillhör. Observera dock att `IpsAdmin`-rollen åsidosätter andra inställningar per företag. |
-| ` *`lösenord`*` | `xsd:string` | Ja | Anger användarens lösenord |
-| ` *`passwordExpires`*` | `xsd:dateTime` | Nej | Anger lösenordets förfalloperiod. Ange tidszonen när begäran skickas. Tidszoner justeras till Central Time. |
-| ` *`isValid`*` | `xsd:boolean` | Ja | Anger om användaren är giltig. |
-| ` *`membershipArray`*` | `xsd:CompanyMembershipUpdateArray` | Ja | En array med företagshandtag. |
+| `*`firstName`*` | `xsd:string` | Ja | Användarens förnamn. |
+| `*`lastName`*` | `xsd:string` | Ja | Användarens efternamn. |
+| `*`e-post`*` | `xsd:string` | Ja | Användarens e-postadress. |
+| `*`defaultRole`*` | `xsd:string` | Ja | Anger rollen för en användare i varje företag de tillhör. Observera dock att `IpsAdmin`-rollen åsidosätter andra inställningar per företag. |
+| `*`lösenord`*` | `xsd:string` | Ja | Anger användarens lösenord |
+| `*`passwordExpires`*` | `xsd:dateTime` | Nej | Anger lösenordets förfalloperiod. Ange tidszonen när begäran skickas. Tidszoner justeras till Central Time. |
+| `*`isValid`*` | `xsd:boolean` | Ja | Anger om användaren är giltig. |
+| `*`membershipArray`*` | `xsd:CompanyMembershipUpdateArray` | Ja | En array med företagshandtag. |
 
 **Utdata (addUserParam)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | Ja | Referensen till användaren. |
+| `*`userHandle`*` | `xsd:string` | Ja | Referensen till användaren. |
 
 ## Exempel {#section-2547cef622734b71919eef849960b5cb}
 
