@@ -4,10 +4,10 @@ seo-description: Ersättningsvariabeln används för att överföra värden frå
 seo-title: Ersättningsvariabler
 solution: Experience Manager
 title: Ersättningsvariabler
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 87cd9594-ba3b-429d-aa57-399902ef3abe
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 0%
@@ -34,6 +34,6 @@ Ersättningsvariabeln används för att överföra värden från begärande-URL:
 
 * Variabeldefinitioner och referenser kan förekomma i frågedelen av begäran-URL:en.
 * Variabler definieras enligt ovan, på samma sätt som andra IS-kommandon. radavståndet &#39;$&#39; identifierar kommandot som en variabeldefinition.
-* Variabelnamnet ` *`var`*` är skiftlägeskänsligt och kan bestå av en kombination av bokstäver, siffror, &#39;-&#39; och &#39;_&#39;.
+* Variabelnamnet `*`var`*` är skiftlägeskänsligt och kan bestå av en kombination av bokstäver, siffror, &#39;-&#39; och &#39;_&#39;.
 * Viktigt värde måste vara en URL-kodad enpass för säker HTTP-överföring.
 
