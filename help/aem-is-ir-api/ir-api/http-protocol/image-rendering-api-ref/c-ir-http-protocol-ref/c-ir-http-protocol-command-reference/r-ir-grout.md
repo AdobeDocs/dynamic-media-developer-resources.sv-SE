@@ -4,10 +4,10 @@ seo-description: Färg och tjocklek på plattans skala. Simulerar murbruk för k
 seo-title: groda
 solution: Experience Manager
 title: groda
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 00069004-40f2-4ab6-85d8-ca197b7bef69
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 0%
@@ -41,13 +41,13 @@ För maximal kontroll av jordningens utseende gäller följande krav:
 
 ## Egenskaper {#section-de78b678245b4ffda48097c345949e77}
 
-Materialattribut. ` *`Färgen `*` måste vara ett RGB-färgvärde. ` *`Bredden `*` måste vara ett reellt värde på 0 eller större.
+Materialattribut. `*`Färgen `*` måste vara ett RGB-färgvärde. `*`Bredden `*` måste vara ett reellt värde på 0 eller större.
 
 Ignoreras om upprepning = 4, 5, 7, 8, 9, 14 eller högre, eller om detta anges för andra material än repeterbara texturer.
 
 ## Standard {#section-bfab3621f70b4489a21994ab11b20cc6}
 
-Om `grout=` inte anges ändras inte bildens groout. Om ` grout= *`color`*` anges är ` *`width`*` som standard `catalog::GroutWidth`.
+Om `grout=` inte anges ändras inte bildens groout. Om ` grout= *`color`*` anges är `*`width`*` som standard `catalog::GroutWidth`.
 
 ## Se även {#section-8d472906a44943f5a8557e98f2fbc71f}
 
