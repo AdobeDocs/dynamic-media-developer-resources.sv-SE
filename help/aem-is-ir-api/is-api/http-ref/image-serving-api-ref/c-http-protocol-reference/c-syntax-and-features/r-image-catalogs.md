@@ -4,10 +4,10 @@ seo-description: Funktionerna och syntaxen för bildkataloger beskrivs i det hä
 seo-title: Bildkataloger
 solution: Experience Manager
 title: Bildkataloger
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d329807a-22b0-42a3-9297-8dad7a1dce43
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -23,13 +23,13 @@ Bildkataloger har följande funktioner:
 
 * Tillåt beständig koppling av bilder med vissa metadata- och modifieringskommandon.
 
-   Poster i bildkataloger refereras med en genvägsnotation ` *`rootId/objId`*`, där ` *`rootId`*` identifierar bildkatalogen och ` *`objId`*` identifierar en datapost i katalogen.
+   Poster i bildkataloger refereras med en genvägsnotation `*`rootId/objId`*`, där `*`rootId`*` identifierar bildkatalogen och `*`objId`*` identifierar en datapost i katalogen.
 * Ange standardvärden för vissa begärandeattribut, t.ex. JPEG-kvalitet eller om en vattenstämpel ska användas.
 * Hantera teckensnitt, ICC-profiler, makrodefinitioner och frågemallar
 
 Även om inga specifika bildkataloger är definierade är alla funktioner i bildkataloger tillgängliga via standardkatalogen ( [!DNL default.ini]).
 
-Om ` *`rootId`*` i URL-sökvägen för begäran matchar `attribute::RootId` för en viss bildkatalog, kommer den katalogen att bli huvudkatalog för denna begäran. Huvudkatalogen innehåller standardattribut och standardinställningar för hela begäran. Om ingen matchning hittas används standardkatalogen i stället.
+Om `*`rootId`*` i URL-sökvägen för begäran matchar `attribute::RootId` för en viss bildkatalog, kommer den katalogen att bli huvudkatalog för denna begäran. Huvudkatalogen innehåller standardattribut och standardinställningar för hela begäran. Om ingen matchning hittas används standardkatalogen i stället.
 
 En katalog som identifieras i ett `src=`- eller `mask=`-kommando ger följande katalogattribut och data till det aktuella lagret:
 
@@ -104,7 +104,7 @@ I samma lager måste `src=` och `mask=` referera till samma bildkatalog (om någ
 
 En katalog som identifieras i ett `icc=`-kommando används bara för att leta upp en post från katalogens ICC-profiltabell. Inga andra katalogattribut eller data berörs.
 
-Om ` *`rootId`*` matchar en katalog och ` *`objId`*` matchas med `catalog::Id` i den här katalogen ersätts ` *`rootId/objId`*` av katalogposten på något av följande sätt:
+Om `*`rootId`*` matchar en katalog och `*`objId`*` matchas med `catalog::Id` i den här katalogen ersätts `*`rootId/objId`*` av katalogposten på något av följande sätt:
 
 `src=attribute::RootPath/catalog::Path& mask=attribute::RootPath/catalog::MaskPath& anchor=catalog::Anchor& catalog::Modifier& catalog::PostModifier`
 
