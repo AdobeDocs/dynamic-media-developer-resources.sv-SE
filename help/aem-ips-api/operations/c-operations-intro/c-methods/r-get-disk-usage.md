@@ -4,10 +4,10 @@ seo-description: Returnerar information om ett företags struktur (antal filer o
 seo-title: getDiskUsage
 solution: Experience Manager
 title: getDiskUsage
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 29190200-8f49-4689-9782-1df665dca1b7
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -32,13 +32,13 @@ Returnerar information om ett företags struktur (antal filer osv.).
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Referensen till det företag vars diskanvändning du vill erhålla. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Referensen till det företag vars diskanvändning du vill erhålla. |
 
 **Utdata (getDiskUsageReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`discUsageArray`*` | `types:DiskUsageArray` | Ja | Matris med företagsdiskanvändning. |
+| `*`discUsageArray`*` | `types:DiskUsageArray` | Ja | Matris med företagsdiskanvändning. |
 
 ## Exempel {#section-cb16a97badc94076ad5da277db5ed16a}
 
