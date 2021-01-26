@@ -1,15 +1,12 @@
 ---
-description: Vinjetter är bilder som har skapats med Scene7 Image Authoring och som kan användas med Image Rendering.
-seo-description: Vinjetter är bilder som har skapats med Scene7 Image Authoring och som kan användas med Image Rendering.
-seo-title: Vinjetter
+description: Vinjetter är bilder som har skapats med Dynamic Media Image Authoring och som kan användas med Image Rendering.
 solution: Experience Manager
 title: Vinjetter
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 31d6b2b7-57c4-4fef-a498-c357c3724356
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7721cccf3f779f258adcdcf886f7e01111e92be0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 0%
 
 # Vinjetter{#vignettes}
 
-Vinjetter är bilder som har skapats med Scene7 Image Authoring och som kan användas med Image Rendering.
+Vinjetter är bilder som har skapats med Dynamic Media Image Authoring och som kan användas med Image Rendering.
 
 IR har stöd för två grundläggande typer av vinjetter, *2D* och *3D*. Rumsscener är vanligtvis 3D-vinjetteringar som kan återge reflektioner, medan de flesta andra scener, som kläder eller möbelklädsel, vanligtvis är 2D-vinjetteringar som inte har reflexionsåtergivning.
 
