@@ -4,10 +4,10 @@ seo-description: Innehåller information om varnings- eller felförhållanden so
 seo-title: AssetOperationFault
 solution: Experience Manager
 title: AssetOperationFault
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: fb6c5482-6e16-4561-927b-e4daeb7bdd7b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | Resurshandtag för den misslyckade åtgärden. |
-| ` *`kod`*` | `xsd:int` | Felkod för åtgärd. |
-| ` *`orsak`*` | `xsd:string` | Felbeskrivning eller orsak. |
+| `*`assetHandle`*` | `xsd:string` | Resurshandtag för den misslyckade åtgärden. |
+| `*`kod`*` | `xsd:int` | Felkod för åtgärd. |
+| `*`orsak`*` | `xsd:string` | Felbeskrivning eller orsak. |
 
