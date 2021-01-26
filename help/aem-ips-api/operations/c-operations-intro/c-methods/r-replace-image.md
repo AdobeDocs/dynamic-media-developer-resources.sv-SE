@@ -4,10 +4,10 @@ seo-description: Ersätter bilddata för en bildresurs.
 seo-title: replaceImage
 solution: Experience Manager
 title: replaceImage
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 46824e33-265c-4425-9ab1-8ad6b7ac154d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%
@@ -36,15 +36,15 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`companyName`*` | `xsd:string` | Ja | Handtaget till företaget med den bild som du vill ersätta. |
-| ` *`assetHandle`*` | `xsd:string` | Ja | Referensen till resursen som du vill ersätta. |
-| ` *`urlModifier`*` | `xsd:string` | Ja | Image Server-kommandon som genererar nya bilddata. |
+| `*`companyName`*` | `xsd:string` | Ja | Handtaget till företaget med den bild som du vill ersätta. |
+| `*`assetHandle`*` | `xsd:string` | Ja | Referensen till resursen som du vill ersätta. |
+| `*`urlModifier`*` | `xsd:string` | Ja | Image Server-kommandon som genererar nya bilddata. |
 
 **Utdata (replaceImageReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | Ja | Hantera den nya resursen. |
+| `*`assetHandle`*` | `xsd:string` | Ja | Hantera den nya resursen. |
 
 ## Exempel {#section-cebb93576bde4cb98cb27356ca66783b}
 
