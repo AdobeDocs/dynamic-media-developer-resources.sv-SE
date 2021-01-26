@@ -4,10 +4,10 @@ seo-description: Lagerklippsbana. Anger en klippbana för det aktuella lagret.
 seo-title: clipPath
 solution: Experience Manager
 title: clipPath
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: fe84cf7a-63af-47d3-ae4f-2122f2f0a262
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 0%
@@ -36,13 +36,13 @@ Lagerklippsbana. Anger en klippbana för det aktuella lagret.
 
 Alla delar av lagret som ligger utanför det område som definieras av `clipPath=` renderas som genomskinliga.
 
-` *`pathName är `*` namnet på en bana som är inbäddad i lagerkällbilden. Banan omformas automatiskt för att bibehålla den relativa justeringen med bildinnehållet. Om mer än en ` *`pathName`*` anges klipper servern av bilden till skärningspunkten för sökvägarna. Alla ` *`pathName`*` som inte hittas i källbilden ignoreras.
+`*`pathName är `*` namnet på en bana som är inbäddad i lagerkällbilden. Banan omformas automatiskt för att bibehålla den relativa justeringen med bildinnehållet. Om mer än en `*`pathName`*` anges klipper servern av bilden till skärningspunkten för sökvägarna. Alla `*`pathName`*` som inte hittas i källbilden ignoreras.
 
 >[!NOTE]
 >
->Endast ASCII-strängar stöds för ` *`pathName`*`.
+>Endast ASCII-strängar stöds för `*`pathName`*`.
 
-` *`Med `*` pathDefinition kan du ange explicita sökvägsdata i lagerpixelkoordinater.
+`*`Med `*` pathDefinition kan du ange explicita sökvägsdata i lagerpixelkoordinater.
 
 Om `size=` anges och inte 0,0, förstorleksändras lagret. I det här fallet är bankoordinaterna relativa till lagrets övre vänstra hörn och lagret placeras baserat på `origin=` eller dess standardvärde. Alla områden i banan utanför lagrets rektangel förblir genomskinliga.
 
@@ -52,9 +52,9 @@ Om `size=` inte har angetts för en enfärgad färg eller ett textlager betrakta
 >
 >`scale=`,  `rotate=`och  `anchor=` kommandon tillåts inte för helstora färgslager som ändrar storlek automatiskt.
 
-` *`pathDefinition `*` accepterar en sträng som liknar värdet för  `d=` attributet i SVG- `<path>` elementet, förutom att kommatecken används i stället för mellanslag för att separera värden. ` *`pathDefinition `*` kan innehålla en eller flera underbanor med sluten slinga.
+`*`pathDefinition `*` accepterar en sträng som liknar värdet för  `d=` attributet i SVG- `<path>` elementet, förutom att kommatecken används i stället för mellanslag för att separera värden. `*`pathDefinition `*` kan innehålla en eller flera underbanor med sluten slinga.
 
-Följande sökvägskommandon stöds i ` *`pathDefinition`*`:
+Följande sökvägskommandon stöds i `*`pathDefinition`*`:
 
 <table id="table_A74DD7A48B1C417D9D4BA46BECEAB981"> 
  <thead> 
