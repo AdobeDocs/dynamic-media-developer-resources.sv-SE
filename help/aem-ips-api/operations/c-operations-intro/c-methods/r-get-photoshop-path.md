@@ -4,10 +4,10 @@ seo-description: Returnerar koordinater för den fyrkant som omger den namngivna
 seo-title: getPhotoshopPath
 solution: Experience Manager
 title: getPhotoshopPath
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e3ed4888-18db-40bc-a1db-f44a342d0293
 translation-type: tm+mt
-source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 0%
@@ -38,15 +38,15 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Handla till företaget med den bild du vill arbeta med. |
-| ` *`assetHandle`*` | `xsd:string` | Ja | Hantera bildresursen. |
-| ` *`pathName`*` | `xsd:string` | Ja | Namnet på den Photoshop-sökväg som du vill returnera. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Handla till företaget med den bild du vill arbeta med. |
+| `*`assetHandle`*` | `xsd:string` | Ja | Hantera bildresursen. |
+| `*`pathName`*` | `xsd:string` | Ja | Namnet på den Photoshop-sökväg som du vill returnera. |
 
 **Utdata (getPhotoshopPathReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`perspectiveQuad`*` | `types:PerspectiveQuad` | Ja | Returnerar bildkoordinater baserat på sökvägen. Se [PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204). |
+| `*`perspectiveQuad`*` | `types:PerspectiveQuad` | Ja | Returnerar bildkoordinater baserat på sökvägen. Se [PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204). |
 
 ## Exempel {#section-1f0461cbdc184c8d8925336d5279db47}
 
