@@ -4,10 +4,10 @@ seo-description: Anger användarattribut (t.ex. namn, e-postadress, roll)
 seo-title: setUserInfo
 solution: Experience Manager
 title: setUserInfo
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 52e3a21e-1dd5-4f9d-b460-506d280fff47
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 0%
@@ -34,14 +34,14 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | Nej | Användarhandtag. |
-| ` *`firstName`*` | `xsd:string` | Ja | Förnamn. |
-| ` *`lastName`*` | `xsd:string` | Ja | Efternamn. |
-| ` *`e-post`*` | `xsd:string` | Ja | E-post från användare. |
-| ` *`defaultRole`*` | `xsd:string` | Ja | Anger rollen för en användare i varje företag de tillhör. Observera dock att `IpsAdmin`-rollen åsidosätter andra inställningar per företag. |
-| ` *`passwordExpires`*` | `xsd:dateTime` | Nej | Ange förfallodatum för lösenord. |
-| ` *`isValid`*` | `xsd:boolean` | Ja | Avgör om användaren är en giltig IPS-användare. |
-| ` *`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Ja | En array med företagshandtag. |
+| `*`userHandle`*` | `xsd:string` | Nej | Användarhandtag. |
+| `*`firstName`*` | `xsd:string` | Ja | Förnamn. |
+| `*`lastName`*` | `xsd:string` | Ja | Efternamn. |
+| `*`e-post`*` | `xsd:string` | Ja | E-post från användare. |
+| `*`defaultRole`*` | `xsd:string` | Ja | Anger rollen för en användare i varje företag de tillhör. Observera dock att `IpsAdmin`-rollen åsidosätter andra inställningar per företag. |
+| `*`passwordExpires`*` | `xsd:dateTime` | Nej | Ange förfallodatum för lösenord. |
+| `*`isValid`*` | `xsd:boolean` | Ja | Avgör om användaren är en giltig IPS-användare. |
+| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Ja | En array med företagshandtag. |
 
 **Utdata (setUserInfoReturn)**
 
