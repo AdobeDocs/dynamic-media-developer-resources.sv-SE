@@ -4,10 +4,10 @@ seo-description: Avgör om en grupp resurser är klara att publiceras.
 seo-title: setAssetsPublishState
 solution: Experience Manager
 title: setAssetsPublishState
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 2910cd6c-573b-405c-864d-a0136ac5472d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%
@@ -40,18 +40,18 @@ Detta är batchversionen av [setAssetState](../../../operations/c-operations-int
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Företagshandtag. |
-| ` *`publishStateUpdateArray`*` | `types:PublishStateUpdateArray` | Ja | Array med publiceringsstatusvärden för resurserna. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Företagshandtag. |
+| `*`publishStateUpdateArray`*` | `types:PublishStateUpdateArray` | Ja | Array med publiceringsstatusvärden för resurserna. |
 
 **Utdata (setAssetsPublishStateParam)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Ja | Antalet resurser som har uppdaterats. |
-| ` *`warningCount`*` | `xsd:int` | Ja | Antalet resurser som genererade en varning när åtgärden försökte uppdatera dem. |
-| ` *`errorCount`*` | `xsd:int` | Ja | Antalet resurser som genererade ett fel när åtgärden försökte ta bort dem. |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nej | Information som är associerad med tillgångsuppdateringarna som genererade en varning. |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nej | Information som är associerad med resursuppdateringar som genererade ett fel. |
+| `*`successCount`*` | `xsd:int` | Ja | Antalet resurser som har uppdaterats. |
+| `*`warningCount`*` | `xsd:int` | Ja | Antalet resurser som genererade en varning när åtgärden försökte uppdatera dem. |
+| `*`errorCount`*` | `xsd:int` | Ja | Antalet resurser som genererade ett fel när åtgärden försökte ta bort dem. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nej | Information som är associerad med tillgångsuppdateringarna som genererade en varning. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nej | Information som är associerad med resursuppdateringar som genererade ett fel. |
 
 ## Exempel {#section-38cfdd3436214a06a1bae16875501d51}
 
