@@ -4,10 +4,10 @@ seo-description: Knappen play/pause gör att videospelaren spelar upp eller paus
 seo-title: Knappen Spela upp/Paus
 solution: Experience Manager
 title: Knappen Spela upp/Paus
-topic: Dynamic media
+topic: Dynamic Media
 uuid: d6dd795d-f608-4304-8221-251d0a082421
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 0%
