@@ -5,10 +5,10 @@ seo-description: Mixed Media Viewer är ett visningsprogram för media. Det har 
 seo-title: Blandade media
 solution: Experience Manager
 title: Blandade media
-topic: Dynamic media
+topic: Dynamic Media
 uuid: b6028c54-7a3c-41eb-89f8-7b86bb0d0deb
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '2681'
 ht-degree: 0%
