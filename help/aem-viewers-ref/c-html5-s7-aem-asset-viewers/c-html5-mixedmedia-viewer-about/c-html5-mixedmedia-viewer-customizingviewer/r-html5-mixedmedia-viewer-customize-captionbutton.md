@@ -4,10 +4,10 @@ seo-description: Aktiverar och inaktiverar visning av undertexter. Den är inte 
 seo-title: Bildtext, knapp
 solution: Experience Manager
 title: Bildtext, knapp
-topic: Dynamic media
+topic: Dynamic Media
 uuid: a03170e4-aaa9-4822-99dd-b9cf13206bbc
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 0%
