@@ -5,9 +5,9 @@ title: EmailShare.emailurl
 topic: Dynamic Media
 uuid: 0cf61bbf-01c0-4c5c-84d2-7cecf88e51e9
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '18'
+source-wordcount: '20'
 ht-degree: 5%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> e-postadress</span></span> </p> </td> 
-   <td colname="col2"> <p> Anger bas-URL:en för Scene7 OnDemand e-posttjänst. </p> </td> 
+   <td colname="col2"> <p> Anger bas-URL:en för e-posttjänsten Dynamic Media Classic OnDemand. </p> </td> 
   </tr> 
  </tbody> 
 </table>
