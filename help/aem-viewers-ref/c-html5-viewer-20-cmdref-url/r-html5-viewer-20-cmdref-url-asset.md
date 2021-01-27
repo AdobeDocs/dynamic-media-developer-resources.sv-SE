@@ -7,7 +7,7 @@ title: resurs
 topic: Dynamic Media
 uuid: 6a72257f-d204-4258-b6f8-de6f7b00fd54
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 0%
@@ -57,15 +57,15 @@ eller
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> imageList  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Anger en explicit bilduppsättning som består av en sorterad objektsekvens, eller bildrutor, avgränsade med kommatecken. </p> <p> <p>Obs!  Den här funktionen stöds i Adobe Scene7 Publishing System; det stöds inte i Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p> Anger en explicit bilduppsättning som består av en sorterad objektsekvens, eller bildrutor, avgränsade med kommatecken. </p> <p> <p>Obs!  Den här funktionen stöds i Adobe Dynamic Media Classic; det stöds inte i Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> imageListWithModifiers  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Anger en explicit bilduppsättning där varje bildruta har sina egna Image Serving-modifierare. I det här fallet är listan med ramar omslutna av parenteser. Kontrollera att du använder dubbel HTTP-kodning för alla kommatecken som finns i den bildrutespecifika Image Serving-modifieraren. </p> <p> <p>Obs!  Den här funktionen stöds i Adobe Scene7 Publishing System; det stöds inte i Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p> Anger en explicit bilduppsättning där varje bildruta har sina egna Image Serving-modifierare. I det här fallet är listan med ramar omslutna av parenteser. Kontrollera att du använder dubbel HTTP-kodning för alla kommatecken som finns i den bildrutespecifika Image Serving-modifieraren. </p> <p> <p>Obs!  Den här funktionen stöds i Adobe Dynamic Media Classic; det stöds inte i Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> multiDimensionalSpinSet  </span> </span> </p> </td> 
-   <td colname="col2"> <p>Anger en explicit flerdimensionell snurra med följande syntax: </p> <p> <span class="codeph"> ((  <span class="varname"> horizontalSpinSet  </span>)[,(  <span class="varname"> horizontalSpinSet  </span>)])  </span> </p> <p> där <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> är en kommaseparerad lista med bildrutor för en given vågrät axel. Alla <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> ska ha samma antal bildrutor. </p> <p> <p>Obs!  Den här funktionen stöds i Adobe Scene7 Publishing System; det stöds inte i Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p>Anger en explicit flerdimensionell snurra med följande syntax: </p> <p> <span class="codeph"> ((  <span class="varname"> horizontalSpinSet  </span>)[,(  <span class="varname"> horizontalSpinSet  </span>)])  </span> </p> <p> där <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> är en kommaseparerad lista med bildrutor för en given vågrät axel. Alla <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> ska ha samma antal bildrutor. </p> <p> <p>Obs!  Den här funktionen stöds i Adobe Dynamic Media Classic; det stöds inte i Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> modifierare  </span> </span> </p> </td> 
@@ -86,19 +86,19 @@ eller
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> video  </span> </span> </p> </td> 
-   <td colname="col2"> <p> En video eller adaptiv videouppsättning. </p> <p> <p>Obs!  Den här funktionen stöds i Adobe Scene7 Publishing System; det stöds inte i Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p> En video eller adaptiv videouppsättning. </p> <p> <p>Obs!  Den här funktionen stöds i Adobe Dynamic Media Classic; det stöds inte i Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> image  </span> </span> </p> </td> 
-   <td colname="col2"> <p> En bild. </p> <p> <p>Obs!  Den här funktionen stöds i Adobe Scene7 Publishing System; det stöds inte i Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p> En bild. </p> <p> <p>Obs!  Den här funktionen stöds i Adobe Dynamic Media Classic; det stöds inte i Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> setId  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Färgruteuppsättning. </p> <p> <p>Obs!  Den här funktionen stöds i Adobe Scene7 Publishing System; det stöds inte i Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p> Färgruteuppsättning. </p> <p> <p>Obs!  Den här funktionen stöds i Adobe Dynamic Media Classic; det stöds inte i Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> swatchId  </span> </span> </p> </td> 
-   <td colname="col2"> <p>Färgrutebild. </p> <p> <p>Obs!  Den här funktionen stöds i Adobe Scene7 Publishing System; det stöds inte i Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p>Färgrutebild. </p> <p> <p>Obs!  Den här funktionen stöds i Adobe Dynamic Media Classic; det stöds inte i Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ID  </span> </span> </p> </td> 
@@ -109,7 +109,7 @@ eller
       <li id="li_C942CED779B54110BCDC74188995FD5B"> <p> <span class="codeph"> snurra  </span> </p> <p>För snurra. </p> </li> 
       <li id="li_6EA5C54F078D4B24B44F1588BF083842"> <p> <span class="codeph"> video  </span> </p> <p>För enstaka video. </p> </li> 
       <li id="li_8110FA7E0CAB4681A2D8C15F2A656E69"> <p> <span class="codeph"> video_set  </span> </p> <p>För adaptiva videouppsättningar. </p> </li> 
-     </ul> </p> <p> <p>Obs!  Den här funktionen stöds i Adobe Scene7 Publishing System; det stöds inte i Adobe Experience Manager Assets. </p> </p> </td> 
+     </ul> </p> <p> <p>Obs!  Den här funktionen stöds i Adobe Dynamic Media Classic; det stöds inte i Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> modifierare  </span> </span> </p> </td> 
