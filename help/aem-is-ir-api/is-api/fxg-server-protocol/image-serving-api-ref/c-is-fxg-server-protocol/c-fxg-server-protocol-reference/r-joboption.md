@@ -7,9 +7,9 @@ title: joboption
 topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7288cf29-850f-4121-8425-5f995daac22d
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Använd PDF-jobbalternativ. En jobbalternativfil eller PDF-förinställning är 
  </tr> 
 </table>
 
-Jobbalternativfilen kan laddas upp och publiceras av IPS/SPS. PDF-alternativen i jobbalternativsfilen används när PDF-filen genereras.
+Jobbalternativfilen kan laddas upp och publiceras av IPS/Dynamic Media Classic. PDF-alternativen i jobbalternativsfilen används när PDF-filen genereras.
 
 Följande alternativ stöds för närvarande:
 
