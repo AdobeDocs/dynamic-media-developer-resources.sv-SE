@@ -4,10 +4,10 @@ seo-description: Verktyget för e-postdelning består av en knapp som läggs til
 seo-title: E-postresurs
 solution: Experience Manager
 title: E-postresurs
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 4c6abb74-7e13-4fed-bbfb-45e388627578
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '3020'
 ht-degree: 0%
@@ -1213,7 +1213,7 @@ När en användare anger felaktiga indata och intern validering misslyckas, elle
 
 >[!NOTE]
 >
->Det här meddelandet stöder attributväljaren `state` med följande möjliga värden: `verifyerror`, `senderror` och `sendsuccess`. `verifyerror` anges när ett meddelande visas på grund av ett internt indatavalideringsfel.  `senderror` anges när en backend-e-posttjänst rapporterar ett fel,  `sendsuccess` anges när e-post skickas. På så sätt kan du formatera meddelandet på olika sätt beroende på hur dialogrutan är skriven.
+>Det här meddelandet stöder attributväljaren `state` med följande möjliga värden: `verifyerror`, `senderror` och `sendsuccess`. `verifyerror` anges när ett meddelande visas på grund av ett internt indatavalideringsfel.  `senderror` anges när en backend-e-posttjänst rapporterar ett fel,  `sendsuccess` anges när e-post skickas. På det här sättet kan du formatera meddelandet på olika sätt beroende på hur dialogrutan ser ut.
 
 Felmeddelandet kan lokaliseras. Mer information finns i [Lokalisering av element i användargränssnittet](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad).
 
