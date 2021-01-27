@@ -4,10 +4,10 @@ seo-description: Med den här knappen växlar du visning av undertexter. Den är
 seo-title: Bildtext, knapp
 solution: Experience Manager
 title: Bildtext, knapp
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 97de8cdd-8410-4128-be5c-1fc4987a5f96
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 0%
