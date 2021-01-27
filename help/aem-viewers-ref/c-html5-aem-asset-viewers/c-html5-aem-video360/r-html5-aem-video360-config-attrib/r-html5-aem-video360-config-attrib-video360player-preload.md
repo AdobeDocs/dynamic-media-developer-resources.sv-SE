@@ -4,10 +4,10 @@ seo-description: Anger om visningsprogrammet börjar läsa in videoinnehåll inn
 seo-title: Video360Player.preload
 solution: Experience Manager
 title: Video360Player.preload
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 6e3b95b8-d585-4164-8665-6211000689fe
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 5%
@@ -25,7 +25,7 @@ Anger om visningsprogrammet börjar läsa in videoinnehåll innan uppspelningen 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
-   <td colname="col2"> <p> Om värdet är <span class="codeph"> 1 </span> börjar videon laddas ned direkt efter att resursen har ställts in; I annat fall startar förinläsningen endast efter att uppspelningen initierats av slutanvändaren eller ett API-anrop. </p> <p>Om <span class="codeph"> 0 </span> är inställt på &lt;a0/&gt; kanske vissa funktioner inte fungerar förrän uppspelningen startar; sökåtgärden uppdaterar inte videobildrutan. Om förhandsvisningsbilden är inaktiverad visas den som ett tomt område i stället för som den första videobildrutan. </p> <p>Tänk på att inaktivering av förinläsning av video kan ignoreras i vissa versioner av webbläsarna Internet Explorer 11 och Edge. </p> </td> 
+   <td colname="col2"> <p> Om värdet är <span class="codeph"> 1 </span> börjar videon laddas ned direkt efter att resursen har ställts in; I annat fall startar förinläsningen endast efter att uppspelningen initierats av slutanvändaren eller ett API-anrop. </p> <p>Om <span class="codeph"> 0 </span> är inställt på  kanske vissa funktioner inte fungerar förrän uppspelningen startar; sökåtgärden uppdaterar inte videobildrutan. Om förhandsvisningsbilden är inaktiverad visas den som ett tomt område i stället för som den första videobildrutan. </p> <p>Tänk på att inaktivering av förinläsning av video kan ignoreras i vissa versioner av webbläsarna Internet Explorer 11 och Edge. </p> </td> 
   </tr> 
  </tbody> 
 </table>
