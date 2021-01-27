@@ -8,9 +8,9 @@ title: Grundläggande zoom
 topic: Dynamic Media
 uuid: 5466d647-af70-4503-9898-bb712ba6a007
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2072'
+source-wordcount: '2076'
 ht-degree: 0%
 
 ---
@@ -163,7 +163,7 @@ Den relativa sökvägen ser ut så här:
 
    Du kan ange den statiska storleken för visningsprogrammet genom att antingen deklarera den för CSS-klassen på den översta nivån i absoluta enheter eller genom att använda modifieraren `stagesize`.`.s7basiczoomviewer`
 
-   Du kan ange storlek i CSS direkt på HTML-sidan eller i en anpassad CSS-fil för visningsprogrammet, som sedan tilldelas till en förinställningspost för visningsprogrammet i SPS, eller skickas explicit med ett formatkommando.
+   Du kan ange storlek i CSS direkt på HTML-sidan eller i en anpassad CSS-fil för visningsprogrammet, som sedan tilldelas till en post för visningsförinställningar i Dynamic Media Classic, eller skickas explicit med ett formatkommando.
 
    Mer information om hur du formaterar visningsprogrammet med CSS finns i [Anpassa Basic Zoom Viewer](../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/c-html5-20-basic-zoom-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0).
 
@@ -176,7 +176,7 @@ Den relativa sökvägen ser ut så här:
    }
    ```
 
-   Du kan ställa in modifieraren `stagesize` antingen i posten för visningsförinställningen i SPS, eller skicka den explicit med initieringskoden för visningsprogrammet med samlingen `params`, eller som ett API-anrop enligt beskrivningen i avsnittet Kommandoreferens, enligt följande:
+   Du kan ställa in modifieraren `stagesize` antingen i posten för visningsförinställningar i Dynamic Media Classic, eller skicka den explicit med initieringskoden för visningsprogrammet med samlingen `params`, eller som ett API-anrop enligt beskrivningen i avsnittet Kommandoreferens, enligt följande:
 
    ```
    basicZoomViewer.setParam("stagesize", "640,480");
