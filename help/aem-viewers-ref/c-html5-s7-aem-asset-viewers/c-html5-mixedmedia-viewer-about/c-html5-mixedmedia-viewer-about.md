@@ -1,16 +1,13 @@
 ---
 description: Mixed Media Viewer är ett visningsprogram för media. Det har stöd för mediauppsättningar som innehåller bilder, färgruteuppsättningar, snurruppsättningar, videor och adaptiva videouppsättningar.
 keywords: responsive
-seo-description: Mixed Media Viewer är ett visningsprogram för media. Det har stöd för mediauppsättningar som innehåller bilder, färgruteuppsättningar, snurruppsättningar, videor och adaptiva videouppsättningar.
-seo-title: Blandade media
 solution: Experience Manager
 title: Blandade media
 topic: Dynamic Media
-uuid: b6028c54-7a3c-41eb-89f8-7b86bb0d0deb
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2681'
+source-wordcount: '2660'
 ht-degree: 0%
 
 ---
@@ -142,7 +139,7 @@ Du lägger till visningsprogrammet på en webbsida genom att göra följande:
 
 [!DNL <s7viewers_root>/html5/js/MixedMediaViewer.js]
 
-Du kan använda en relativ sökväg om visningsprogrammet distribueras på någon av Adobe Scene7-servrarna och den hanteras från samma domän. Annars anger du en fullständig sökväg till en av Adobe Scene7-servrarna som har IS-Viewer installerat.
+Du kan använda en relativ sökväg om visningsprogrammet distribueras på någon av Adobe Dynamic Media Classic-servrarna och den hanteras från samma domän. Annars anger du en fullständig sökväg till en av Adobe Dynamic Media Classic-servrarna som har IS-Viewer installerat.
 
 Den relativa sökvägen ser ut så här:
 
@@ -175,7 +172,7 @@ Den relativa sökvägen ser ut så här:
 
    I det här visningsprogrammet visas miniatyrer när du arbetar med uppsättningar med flera objekt. På stationära datorer placeras miniatyrbilder under huvudvyn. Samtidigt tillåter visningsprogrammet växling av huvudresursen under körning med hjälp av API:t `setAsset()`. Som utvecklare har du kontroll över hur visningsprogrammet hanterar miniatyrbildsområdet längst ned när den nya resursen bara har ett objekt. Det går att behålla den yttre visningsstorleken intakt och låta huvudvyn öka höjden och uppta miniatyrområdet. Eller så kan du hålla storleken på huvudvyn statisk och komprimera det yttre visningsområdet, låta webbsidans innehåll röra sig uppåt och sedan använda det lediga sidutrymmet som finns kvar från miniatyrbilderna.
 
-   Om du vill behålla de yttre gränserna för visningsprogrammet intakt definierar du storleken för den översta CSS-klassen `.s7mixedmediaviewer` i absoluta enheter. Storleksändring i CSS kan placeras direkt på HTML-sidan eller i en anpassad CSS-fil för visningsprogrammet, som senare tilldelas en förinställningspost för visningsprogrammet i Scene7 Publishing System, eller skickas explicit med style-kommando.
+   Om du vill behålla de yttre gränserna för visningsprogrammet intakt definierar du storleken för den översta CSS-klassen `.s7mixedmediaviewer` i absoluta enheter. Storleksändring i CSS kan placeras direkt på HTML-sidan eller i en anpassad CSS-fil för visningsprogrammet, som senare tilldelas till en förinställningspost för visningsprogrammet i Dynamic Media Classic, eller skickas explicit med kommandot style.
 
    Mer information om hur du formaterar visningsprogrammet med CSS finns i [Anpassa visningsprogrammet för blandade media](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#concept-61b3410f187c4bf3af09ec813c649bf4).
 
@@ -207,7 +204,7 @@ Den relativa sökvägen ser ut så här:
 
    [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/MixedMediaViewer-fixed-main-view.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/MixedMediaViewer-fixed-main-view.html)
 
-   Du kan ställa in modifieraren `stagesize` antingen i visningsprogrammets förinställningspost i Scene7 Publishing System, eller skicka den explicit med startkoden för visningsprogrammet med samlingen `params`, eller som ett API-anrop enligt beskrivningen i kommandoreferensavsnittet i den här hjälpen, som i följande exempel:
+   Du kan ställa in modifieraren `stagesize` antingen i visningsprogrammets förinställningspost i Dynamic Media Classic, eller skicka den explicit med startkoden för visningsprogrammet med samlingen `params`, eller som ett API-anrop enligt beskrivningen i kommandoreferensavsnittet i den här hjälpen, som i följande exempel:
 
    ```
    mixedMediaViewer.setParam("stagesize", "640,480");
