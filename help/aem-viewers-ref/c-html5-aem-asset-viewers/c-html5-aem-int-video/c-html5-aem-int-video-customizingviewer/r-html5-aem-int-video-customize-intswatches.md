@@ -4,10 +4,10 @@ seo-description: Panelen för interaktiva färgrutor visas bredvid videoinnehål
 seo-title: Interaktiva färgrutor
 solution: Experience Manager
 title: Interaktiva färgrutor
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 9f9df764-3dd0-414e-a0db-4287f0019313
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 0%
