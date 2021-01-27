@@ -4,10 +4,10 @@ seo-description: Verktyget för e-postdelning består av en knapp som läggs til
 seo-title: E-postresurs
 solution: Experience Manager
 title: E-postresurs
-topic: Dynamic media
+topic: Dynamic Media
 uuid: fc60dd7b-651e-458c-9057-693ca1c0afdc
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '3073'
 ht-degree: 0%
