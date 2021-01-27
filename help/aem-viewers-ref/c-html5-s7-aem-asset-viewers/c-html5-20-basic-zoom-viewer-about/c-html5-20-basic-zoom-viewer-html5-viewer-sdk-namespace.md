@@ -5,9 +5,9 @@ title: Namnutrymme för visningsprogramsDK
 topic: Dynamic Media
 uuid: a236ecba-e4ae-4235-937f-cde7746c1261
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Visningsprogrammet är byggt av många SDK-komponenter för visningsprogrammet. 
 
 Vissa avancerade användningsfall kräver dock att webbsidan hämtar en referens till en intern SDK-komponent med hjälp av visningsprogrammets API `getComponent()` och sedan använder samma flexibilitet som programmeringsgränssnitten i SDK.
 
-Namnutrymmet som används för att läsa in och initiera SDK-komponenter av visningsprogrammet beror på i vilken miljö visningsprogrammet körs. Om visningsprogrammet körs i AEM (Adobe Experience Manager) läser visningsprogrammet in SDK-komponenter i namnutrymmet `s7viewers.s7sdk`. Och det visningsprogram som hanteras från SPS läser in SDK:n till `s7classic.s7sdk`.
+Namnutrymmet som används för att läsa in och initiera SDK-komponenter av visningsprogrammet beror på i vilken miljö visningsprogrammet körs. Om visningsprogrammet körs i AEM (Adobe Experience Manager) läser visningsprogrammet in SDK-komponenter i namnutrymmet `s7viewers.s7sdk`. Och visningsprogrammet som hanteras från Dynamic Media Classic läser in SDK:n till `s7classic.s7sdk`.
 
 I båda fallen har det namnutrymme som används av SDK i visningsprogrammet antingen `s7viewers` eller `s7classic` som prefix. Den skiljer sig dessutom från det vanliga namnutrymmet `s7sdk` som används i SDK-användarhandboken eller SDK API-dokumentationen.
 
@@ -36,7 +36,7 @@ Om du till exempel tänker lyssna på händelsen `StatusEvent.NOTF_VIEW_READY` o
   }, false); 
 } 
 }); 
-The same code for viewer served from SPS will look like this: 
+The same code for viewer served from Dynamic Media Classic will look like this: 
 <instance>.setHandlers({ 
  "initComplete":function() { 
   var zoomView = <instance>.getComponent("zoomView"); 
