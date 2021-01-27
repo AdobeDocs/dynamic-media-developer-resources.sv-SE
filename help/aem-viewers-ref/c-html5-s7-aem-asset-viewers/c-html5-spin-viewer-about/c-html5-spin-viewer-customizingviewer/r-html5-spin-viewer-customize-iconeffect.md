@@ -4,10 +4,10 @@ seo-description: Rotationsindikatorn placeras över huvudvisningsområdet. Den v
 seo-title: Ikoneffekt
 solution: Experience Manager
 title: Ikoneffekt
-topic: Dynamic media
+topic: Dynamic Media
 uuid: ce0524e4-fff4-45b0-8069-d5876802d66f
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 0%
