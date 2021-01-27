@@ -1,15 +1,12 @@
 ---
-description: HTML5 Video360 Viewer är en 360-graders videospelare som spelar upp direktuppspelning och progressiv 360-video som är kodad i H.264-format, som levereras från Scene7 Publishing System eller från AEM Dynamic Media.
-seo-description: HTML5 Video360 Viewer är en 360-graders videospelare som spelar upp direktuppspelning och progressiv 360-video som är kodad i H.264-format, som levereras från Scene7 Publishing System eller från AEM Dynamic Media.
-seo-title: Video360
+description: HTML5 Video360 Viewer är en 360-graders videospelare som spelar upp direktuppspelning och progressiv 360-video som är kodad i H.264-format, som levereras från Dynamic Media Classic eller från AEM Dynamic Media.
 solution: Experience Manager
 title: Video360
-topic: Dynamic media
-uuid: b03e6289-e012-4c62-835f-814463a27774
+topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '2613'
+source-wordcount: '2582'
 ht-degree: 0%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 0%
 
 # Video360{#video}
 
-HTML5 Video360 Viewer är en 360-graders videospelare som spelar upp direktuppspelning och progressiv 360-video som är kodad i H.264-format, som levereras från Scene7 Publishing System eller från AEM Dynamic Media.
+HTML5 Video360 Viewer är en 360-graders videospelare som spelar upp direktuppspelning och progressiv 360-video som är kodad i H.264-format, som levereras från Dynamic Media Classic eller från AEM Dynamic Media.
 
 360-gradersvideor, även kallade engagerande videor eller sfäriska videor, är videoinspelningar där en vy i alla riktningar spelas in samtidigt och spelas in med en dubbelriktad kamera eller en samling kameror. Både en video och adaptiva videouppsättningar stöds. Visningsprogrammet har dessutom stöd för arbete med progressiv video och HLS-strömmar på en extern plats.
 
@@ -163,7 +160,7 @@ Den relativa sökvägen ser ut så här:
 
 1. Ange visningsprogrammets storlek
 
-   Du kan ange den statiska storleken för visningsprogrammet genom att antingen deklarera den för CSS-klassen på den översta nivån i absoluta enheter eller genom att använda modifieraren `.s7video360viewer`.`stagesize`
+   Du kan ange den statiska storleken för visningsprogrammet genom att antingen deklarera den för CSS-klassen på den översta nivån i absoluta enheter eller genom att använda modifieraren `stagesize`.`.s7video360viewer`
 
    Du kan ange storlek i CSS direkt på HTML-sidan eller i en anpassad CSS-fil för visningsprogrammet, som sedan tilldelas en post för visningsförinställningar i AEM Assets - on demand, eller skickas explicit med kommandot `style`.
 
