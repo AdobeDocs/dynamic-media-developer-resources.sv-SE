@@ -4,10 +4,10 @@ seo-description: Länkdelningsverktyget består av en knapp som läggs till på 
 seo-title: Länkresurs
 solution: Experience Manager
 title: Länkresurs
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 80ecbaca-9092-40b6-bb24-4b233356de3f
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '1424'
 ht-degree: 0%
