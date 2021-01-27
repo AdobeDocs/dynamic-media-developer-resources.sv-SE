@@ -4,9 +4,9 @@ solution: Experience Manager
 title: Självstudiekurs om SDK för visningsprogram
 topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Viewer SDK innehåller en uppsättning JavaScript-baserade komponenter för anpassad visningsprogramutveckling. Tittarna är webbaserade program som gör att multimediematerial som hanteras av Adobe Dynamic Media kan bäddas in på webbsidor.
 
-SDK innehåller till exempel interaktiv zoomning och panorering. Den ger även 360-gradig vy och videouppspelning av resurser som överförts till Adobe Dynamic Media via serverdelsprogrammet SPS (Scene7 Publishing System).
+SDK innehåller till exempel interaktiv zoomning och panorering. Den innehåller även 360-gradersvisning och videouppspelning av resurser som överförts till Adobe Dynamic Media via serverdelsprogrammet Dynamic Media Classic.
 
 Även om komponenterna är beroende av HTML5-funktioner är de utformade för att fungera på Android- och Apple iOS-enheter och stationära datorer, inklusive Internet Explorer och senare. Den här typen av upplevelser innebär att du kan skapa ett enda arbetsflöde för alla plattformar som stöds.
 
