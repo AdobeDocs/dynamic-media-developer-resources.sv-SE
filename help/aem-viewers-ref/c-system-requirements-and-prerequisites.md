@@ -5,9 +5,9 @@ solution: Experience Manager
 topic: Dynamic Media
 contentOwner: Rick Brough
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Systemkrav för Dynamic Media HTML5-visningsprogram.
 
 ## Servermaskinvara och -programvara {#section-05099146f1f0418988c196635110bee6}
 
-* Dynamic Media Classic (tidigare Scene7) Image Serving 6.7.1 eller senare.
+* Dynamic Media Classic Image Serving 6.7.1 eller senare.
 * HTML5-visningsprogram kräver SDK JavaScript-bibliotek på serversidan 3.10.2 eller senare.
 * Sociala funktioner som &quot;Skicka e-post till en vän&quot; kräver s7ondemand 5.0.9 eller senare.
 * eCatalog Viewer - Stöd för informationspanelen kräver informationsserver 2.1.8 eller senare.
