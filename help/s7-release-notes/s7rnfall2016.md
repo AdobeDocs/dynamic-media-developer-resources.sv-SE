@@ -1,15 +1,12 @@
 ---
 description: Den senaste versionsinformationen om Adobe Scene7 hösten 2016 ingår i Adobe Experience Manager-lösningen i Adobe Marketing Cloud.
-seo-description: Den senaste versionsinformationen om Adobe Scene7 hösten 2016 ingår i Adobe Experience Manager-lösningen i Adobe Marketing Cloud.
-seo-title: Scene7 hösten 2016
 solution: Experience Manager
 title: Scene7 hösten 2016
 topic: Dynamic Media
-uuid: 3fddda65-0c6e-48ec-bd60-7e0ca59421a8
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2264'
+source-wordcount: '2244'
 ht-degree: 0%
 
 ---
@@ -24,12 +21,12 @@ Den senaste versionsinformationen om Adobe Scene7 hösten 2016 ingår i Adobe Ex
 Den senaste versionsinformationen för [!DNL Adobe Scene7] hösten 2016 som en del av [!DNL Adobe Experience Manager]-lösningen i [!DNL Adobe Marketing Cloud].
 
 * [Allmänt](s7rnfall2016.md#section-52afeb72ecb34c1585ea67a5051825a2)
-* [Scene7 Publishing System](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
+* [Scene7](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
 * [Visare (Image Serving 5.5.3)](s7rnfall2016.md#section-1d59bcd5825d487b80b59a6d1a08ed30)
 * [Visare (Image Serving 5.5.2)](s7rnfall2016.md#section-9932c988cfee45749594af481dfc6476)
 * [Visare (Image Serving 5.5.1)](s7rnfall2016.md#section-833ab92c91c941d2bfdc27f233f582ad)
 * [HTML5 Viewer SDK 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
-* [Dynamic Media Image Serving 6.3.2 och Image Rendering 6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
+* [Dynamic Media Classic Image Serving 6.3.2 och Image Rendering 6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
 
 ## Allmänt {#section-52afeb72ecb34c1585ea67a5051825a2}
 
@@ -46,7 +43,7 @@ Fullständig dokumentation finns i [https://docs.adobe.com/content/help/en/dynam
 * Funktionen för videoinspelning har tagits bort från användargränssnittet i [!DNL Adobe Scene7 Publishing System].
 * Autentisering har lagts till för alla Scene7-servrar där det är nödvändigt och möjligt.
 * Felkorrigering som involverar listvyn i papperskorgen.
-* **Användarfunktionen SPSAdmin** har tagits bort från användarhanteringen på grund av säkerhetsproblem.
+* **Användarfunktionen Skapa Dynamic Media Classic (Scene7) Admin** har tagits bort från användarhantering på grund av säkerhetsproblem.
 * FTP WebAdmin har nu stöd för OKTA-autentisering.
 * Funktionen för standardlösenordet som skapades för nya Media Portal-användare har tagits bort.
 * Felkorrigering med det tillfälliga lösenord som skapades när en ny användare lades till. Lösenordet uppfyller inte de nödvändiga lösenordskraven.
