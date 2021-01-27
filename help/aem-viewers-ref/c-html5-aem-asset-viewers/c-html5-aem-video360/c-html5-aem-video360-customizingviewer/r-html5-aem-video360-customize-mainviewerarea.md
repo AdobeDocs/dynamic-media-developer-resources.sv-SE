@@ -4,10 +4,10 @@ seo-description: Huvudvisningsområdet är det område som upptas av 360-videon.
 seo-title: Huvudvisningsområde
 solution: Experience Manager
 title: Huvudvisningsområde
-topic: Dynamic media
+topic: Dynamic Media
 uuid: ec321901-f077-4f71-a48c-20cae11c41d1
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%
