@@ -5,7 +5,7 @@ title: Namnutrymme för visningsprogramsDK
 topic: Dynamic Media
 uuid: 476860e0-2685-4d6c-9555-acbc1d21138a
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Visningsprogrammet är byggt av många SDK-komponenter för visningsprogrammet. 
 
 Vissa avancerade användningsfall kräver dock att webbsidan hämtar en referens till en intern SDK-komponent med hjälp av visningsprogrammets API `getComponent()` och sedan använder samma flexibilitet som programmeringsgränssnitten i SDK.
 
-Namnutrymmet som används för att läsa in och initiera SDK-komponenter av visningsprogrammet beror på i vilken miljö visningsprogrammet körs. Om visningsprogrammet körs i AEM (Adobe Experience Manager) läser visningsprogrammet in SDK-komponenter i namnutrymmet `s7viewers.s7sdk`. På samma sätt läser visningsprogrammet från Scene7 Publishing System in SDK:n i `s7classic.s7sdk`.
+Namnutrymmet som används för att läsa in och initiera SDK-komponenter av visningsprogrammet beror på i vilken miljö visningsprogrammet körs. Om visningsprogrammet körs i AEM (Adobe Experience Manager) läser visningsprogrammet in SDK-komponenter i namnutrymmet `s7viewers.s7sdk`. På samma sätt läser visningsprogrammet från Dynamic Media Classic in SDK:n till `s7classic.s7sdk`.
 
 I båda fallen har det namnutrymme som används av SDK i visningsprogrammet antingen `s7viewers` eller `s7classic` som prefix. Den skiljer sig dessutom från det vanliga namnutrymmet `s7sdk` som används i SDK-användarhandboken eller SDK API-dokumentationen. Därför är det viktigt att använda ett fullständigt kvalificerat SDK-namnutrymme när du skriver anpassad programkod som kommunicerar med interna visningsprogramkomponenter.
 
@@ -34,7 +34,7 @@ Om du till exempel tänker lyssna på händelsen `StatusEvent.NOTF_VIEW_READY` o
   }, false); 
 } 
 }); 
-The same code for the viewer served from Scene7 Publishing System looks like the following: 
+The same code for the viewer served from Dynamic Media Classic looks like the following: 
 <instance>.setHandlers({ 
  "initComplete":function() { 
   var spinView = <instance>.getComponent("spinView"); 
