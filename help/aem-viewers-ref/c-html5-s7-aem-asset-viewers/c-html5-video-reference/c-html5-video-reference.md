@@ -1,16 +1,13 @@
 ---
-description: Video Viewer är en videospelare som spelar upp strömmande och progressiv video som är kodad i H.264-format. Den levereras från Scene7 Publishing System eller AEM Dynamic Media.
+description: Video Viewer är en videospelare som spelar upp strömmande och progressiv video som är kodad i H.264-format. Den levereras från Dynamic Media Classic eller AEM Dynamic Media.
 keywords: responsive
-seo-description: Video Viewer är en videospelare som spelar upp strömmande och progressiv video som är kodad i H.264-format. Den levereras från Scene7 Publishing System eller AEM Dynamic Media.
-seo-title: Video
 solution: Experience Manager
 title: Video
 topic: Dynamic Media
-uuid: 961a9b99-5892-4ee3-a2df-13e299f5d086
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2402'
+source-wordcount: '2372'
 ht-degree: 0%
 
 ---
@@ -18,7 +15,7 @@ ht-degree: 0%
 
 # Video{#video}
 
-Video Viewer är en videospelare som spelar upp strömmande och progressiv video som är kodad i H.264-format. Den levereras från Scene7 Publishing System eller AEM Dynamic Media.
+Video Viewer är en videospelare som spelar upp strömmande och progressiv video som är kodad i H.264-format. Den levereras från Dynamic Media Classic eller AEM Dynamic Media.
 
 Se [Systemkrav och krav](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
@@ -152,7 +149,7 @@ Relativ sökväg ser ut så här:
 
    Du kan ställa in den statiska storleken för visningsprogrammet genom att antingen deklarera den för CSS-klassen `.s7videoviewer` på den översta nivån i absoluta enheter, eller genom att använda modifieraren `stagesize`.
 
-   Storleksändring i CSS kan placeras direkt på HTML-sidan eller i en anpassad CSS-fil för visningsprogrammet, som senare tilldelas en förinställningspost för visningsprogrammet i Scene7 Publishing System eller skickas explicit med ett formatkommando.
+   Storleksändring i CSS kan placeras direkt på HTML-sidan eller i en anpassad CSS-fil för visningsprogrammet, som senare tilldelas till en post för visningsförinställningar i Dynamic Media Classic eller skickas explicit med ett formatkommando.
 
    Mer information om hur du formaterar visningsprogrammet med CSS finns i [Anpassa visningsprogrammet för video](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e).
 
@@ -165,7 +162,7 @@ Relativ sökväg ser ut så här:
    }
    ```
 
-   Du kan ställa in modifieraren `stagesize` antingen i posten för visningsförinställningar i Scene7 Publishing System, eller skicka den explicit med initieringskoden för visningsprogrammet med samlingen `params`, eller som ett API-anrop enligt beskrivningen i referensavsnittet för kommandon, som i följande:
+   Du kan ställa in modifieraren `stagesize` antingen i posten för visningsförinställningar i Dynamic Media Classic, eller skicka den explicit med initieringskoden för visningsprogrammet med samlingen `params`, eller som ett API-anrop enligt beskrivningen i referensavsnittet för kommandon, som i följande:
 
    ```
    videoViewer.setParam("stagesize", "640,480");
