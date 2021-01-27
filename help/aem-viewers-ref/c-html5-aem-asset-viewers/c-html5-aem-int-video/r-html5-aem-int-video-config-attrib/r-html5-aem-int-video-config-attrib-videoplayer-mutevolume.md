@@ -4,10 +4,10 @@ seo-description: Konfigurationsattribut för Interactive Video Viewer.
 seo-title: VideoPlayer.mutevolume
 solution: Experience Manager
 title: VideoPlayer.mutevolume
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 00a660f1-fa00-4821-aaec-7d370376c347
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 3%
@@ -25,7 +25,7 @@ Konfigurationsattribut för Interactive Video Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
-   <td colname="col2"> <p> Anger avstängt läge för videouppspelning vid första inläsningen. Om <span class="codeph"> 1 </span> är inställt på &lt;a0/&gt; är volymen avstängd; I annat fall spelas videon upp med ljud. På vissa enheter kan videouppspelning stängas av vid inläsning även spelas upp automatiskt. </p> </td> 
+   <td colname="col2"> <p> Anger avstängt läge för videouppspelning vid första inläsningen. Om <span class="codeph"> 1 </span> är inställt på  är volymen avstängd; I annat fall spelas videon upp med ljud. På vissa enheter kan videouppspelning stängas av vid inläsning även spelas upp automatiskt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
