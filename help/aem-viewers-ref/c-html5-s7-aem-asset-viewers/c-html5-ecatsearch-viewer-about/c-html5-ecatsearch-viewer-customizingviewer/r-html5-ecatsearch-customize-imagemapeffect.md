@@ -1,15 +1,12 @@
 ---
-description: Beroende på värdet på parametern mode visar visningsprogrammet bildschemaikoner över huvudvyn på platser där kartor ursprungligen skapats i Scene7 Publishing System eller renderar exakta områden som matchar formen på originalbildscheman.
-seo-description: Beroende på värdet på parametern mode visar visningsprogrammet bildschemaikoner över huvudvyn på platser där kartor ursprungligen skapats i Scene7 Publishing System eller renderar exakta områden som matchar formen på originalbildscheman.
-seo-title: Bildschemaeffekt
+description: Beroende på värdet på parametern mode visar visningsprogrammet bildschemaikoner över huvudvyn på platser där kartor ursprungligen skapats i Dynamic Media Classic eller återger exakta områden som matchar formen på originalbildscheman.
 solution: Experience Manager
 title: Bildschemaeffekt
 topic: Dynamic Media
-uuid: 8bafaec3-500c-4a1f-b511-bff125daab7f
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 0%
 
 # Bildschemaeffekt{#image-map-effect}
 
-Beroende på värdet på parametern mode visar visningsprogrammet bildschemaikoner över huvudvyn på platser där kartor ursprungligen skapats i Scene7 Publishing System eller renderar exakta områden som matchar formen på originalbildscheman.
+Beroende på värdet på parametern mode visar visningsprogrammet bildschemaikoner över huvudvyn på platser där kartor ursprungligen skapats i Dynamic Media Classic eller återger exakta områden som matchar formen på originalbildscheman.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
