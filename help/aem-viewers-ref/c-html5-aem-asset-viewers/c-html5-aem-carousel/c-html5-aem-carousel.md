@@ -4,10 +4,10 @@ seo-description: Carousel Viewer är ett visningsprogram som visar en karusell m
 seo-title: Carousel
 solution: Experience Manager
 title: Carousel
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 0ba4f40b-8dde-4479-b906-3115f09ab249
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '1978'
 ht-degree: 0%
@@ -133,7 +133,7 @@ Den relativa sökvägen ser ut så här:
 
 1. Ange visningsprogrammets storlek
 
-   Du kan ange den statiska storleken för visningsprogrammet genom att antingen deklarera den för CSS-klassen på den översta nivån i absoluta enheter eller genom att använda modifieraren `.s7carouselviewer`.`stagesize`
+   Du kan ange den statiska storleken för visningsprogrammet genom att antingen deklarera den för CSS-klassen på den översta nivån i absoluta enheter eller genom att använda modifieraren `stagesize`.`.s7carouselviewer`
 
    Du kan ange storlek i CSS direkt på HTML-sidan eller i en anpassad CSS-fil för visningsprogrammet, som sedan tilldelas en post för visningsförinställningar i AEM Assets - on demand, eller skickas explicit med kommandot `style`.
 
