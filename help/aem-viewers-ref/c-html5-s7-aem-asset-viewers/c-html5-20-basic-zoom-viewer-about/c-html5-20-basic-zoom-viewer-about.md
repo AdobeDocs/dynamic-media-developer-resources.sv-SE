@@ -5,10 +5,10 @@ seo-description: Visningsprogrammet för grundläggande zoomning är ett bildvis
 seo-title: Grundläggande zoom
 solution: Experience Manager
 title: Grundläggande zoom
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 5466d647-af70-4503-9898-bb712ba6a007
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '2072'
 ht-degree: 0%
@@ -161,7 +161,7 @@ Den relativa sökvägen ser ut så här:
 
 1. Ange visningsprogrammets storlek
 
-   Du kan ange den statiska storleken för visningsprogrammet genom att antingen deklarera den för CSS-klassen på den översta nivån i absoluta enheter eller genom att använda modifieraren `.s7basiczoomviewer`.`stagesize`
+   Du kan ange den statiska storleken för visningsprogrammet genom att antingen deklarera den för CSS-klassen på den översta nivån i absoluta enheter eller genom att använda modifieraren `stagesize`.`.s7basiczoomviewer`
 
    Du kan ange storlek i CSS direkt på HTML-sidan eller i en anpassad CSS-fil för visningsprogrammet, som sedan tilldelas till en förinställningspost för visningsprogrammet i SPS, eller skickas explicit med ett formatkommando.
 
