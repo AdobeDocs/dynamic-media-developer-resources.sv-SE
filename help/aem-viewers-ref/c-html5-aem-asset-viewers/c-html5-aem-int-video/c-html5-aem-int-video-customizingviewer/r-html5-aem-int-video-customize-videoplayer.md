@@ -4,10 +4,10 @@ seo-description: Videospelaren är det rektangulära området där videoinnehål
 seo-title: Videospelare
 solution: Experience Manager
 title: Videospelare
-topic: Dynamic media
+topic: Dynamic Media
 uuid: ff0f78b1-ff88-47b8-a118-4e0b3e75f341
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 0%
