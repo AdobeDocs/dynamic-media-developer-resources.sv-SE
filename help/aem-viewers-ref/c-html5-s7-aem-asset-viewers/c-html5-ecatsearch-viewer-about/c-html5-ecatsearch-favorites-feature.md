@@ -5,7 +5,7 @@ title: Sökfunktion
 topic: Dynamic Media
 uuid: eb8e79fa-893b-402c-a937-6d7121c95821
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Sökfunktion{#search-feature}
 
-Visningsprogrammet har stöd för textsökning i katalogens innehåll. För att sökfunktionen ska fungera måste funktionen Extrahera sökord vara aktiverad när PDF-källfilen överförs till Scene7 Publishing System.
+Visningsprogrammet har stöd för textsökning i katalogens innehåll. För att sökfunktionen ska fungera måste funktionen Extrahera sökord vara aktiverad när PDF-källfilen överförs till Dynamic Media Classic.
 
 Sökfunktionen aktiveras genom att en sökknapp aktiveras i huvudverktygsfältet. Den här åtgärden öppnar en sökresultatpanel med ett textinmatningsfält. Användaren kan göra en sökning med nyckelord som avgränsas med blanksteg eller med fraser som omges av citattecken.
 
