@@ -8,7 +8,7 @@ title: Zooma
 topic: Dynamic Media
 uuid: ec2a91e2-ce2c-48b1-a2b2-8671524288c7
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '2460'
 ht-degree: 0%
@@ -167,7 +167,7 @@ Den relativa sökvägen ser ut så här:
 
    I det här visningsprogrammet visas miniatyrbilder när du arbetar med uppsättningar med flera objekt. Miniatyrbilder för skrivbordssystem placeras under huvudvyn. Samtidigt tillåter visningsprogrammet växling av huvudresursen i körningsmiljön med hjälp av API:t `setAsset()`. Som utvecklare har du kontroll över hur visningsprogrammet hanterar miniatyrbildsområdet längst ned när den nya resursen bara har ett objekt. Det går att behålla den yttre visningsstorleken intakt och låta huvudvyn öka höjden och ta upp miniatyrbildområdet. Eller så kan du hålla storleken på huvudvyn statisk och komprimera det yttre visningsområdet, låta webbsidans innehåll röra sig uppåt och använda friskärmsutrymme från miniatyrbilderna.
 
-   Om du vill behålla de yttre visningsprogramgränserna intakta definierar du storleken för den översta CSS-klassen `.s7zoomviewer` i absoluta enheter. Storleksändring i CSS kan placeras direkt på HTML-sidan eller i en anpassad CSS-fil för visningsprogrammet, som senare tilldelas en förinställningspost för visningsprogrammet i Scene7 Publishing System eller skickas explicit med ett formatkommando.
+   Om du vill behålla de yttre visningsprogramgränserna intakta definierar du storleken för den översta CSS-klassen `.s7zoomviewer` i absoluta enheter. Storleksändring i CSS kan placeras direkt på HTML-sidan eller i en anpassad CSS-fil för visningsprogrammet, som senare tilldelas till en post för visningsförinställningar i Dynamic Media Classic eller skickas explicit med ett formatkommando.
 
    Mer information om hur du formaterar visningsprogrammet med CSS finns i [Anpassa zoomvisningsprogrammet](../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/c-html5-20-zoom-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0).
 
@@ -199,7 +199,7 @@ Den relativa sökvägen ser ut så här:
 
    [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/ZoomViewer-fixed-main-view.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/ZoomViewer-fixed-main-view.html)
 
-   Du kan ställa in modifieraren `stagesize` antingen i visningsprogrammets förinställningspost i Scene7 Publishing System, eller så kan du skicka den explicit med startkoden för visningsprogrammet med samlingen `params` eller som ett API-anrop enligt beskrivningen i kommandoreferensavsnittet i den här hjälpen, som i följande exempel:
+   Du kan ställa in modifieraren `stagesize` antingen i visningsprogrammets förinställningspost i Dynamic Media Classic, eller så kan du skicka den explicit med startkoden för visningsprogrammet med samlingen `params` eller som ett API-anrop enligt beskrivningen i kommandoreferensavsnittet i den här hjälpen, som i följande exempel:
 
    ```
     zoomViewer.setParam("stagesize", 
