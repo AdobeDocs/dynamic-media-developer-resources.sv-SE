@@ -4,10 +4,10 @@ seo-description: Representerar det maximala antalet bildrutor som ska förhandsl
 seo-title: SpinView.maxloadradius
 solution: Experience Manager
 title: SpinView.maxloadradius
-topic: Dynamic media
+topic: Dynamic Media
 uuid: e1b9fa84-837c-465e-8d37-0b6867404cae
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Representerar det maximala antalet bildrutor som ska förhandsladdas i varje rik
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> highRes</span></span> </p> </td> 
-   <td colname="col2"> <p> Styr kvaliteten på förinlästa bildrutor. </p> <p>När den är inställd på <span class="codeph"> 1</span> läses bildrutorna in med hög kvalitet och matchar komponentens storlek. </p> <p>Om <span class="codeph"> 0</span> är inställt på &lt;a0/&gt; läses endast den lågupplösta förhandsvisningspanelen in. </p> <p>Förhandsladdning med hög upplösning förbättrar slutanvändarens upplevelse, särskilt när automatisk rotation är aktiverat. Samtidigt resulterar det i långsammare starttid och högre nätförbrukning, så det bör användas med försiktighet. När högupplösta förinläsningar används, kommer de förinlästa bildrutorna alltid att ha den ursprungliga upplösning som komponenten ursprungligen lästes in med. </p> </td> 
+   <td colname="col2"> <p> Styr kvaliteten på förinlästa bildrutor. </p> <p>När den är inställd på <span class="codeph"> 1</span> läses bildrutorna in med hög kvalitet och matchar komponentens storlek. </p> <p>Om <span class="codeph"> 0</span> är inställt på  läses endast den lågupplösta förhandsvisningspanelen in. </p> <p>Förhandsladdning med hög upplösning förbättrar slutanvändarens upplevelse, särskilt när automatisk rotation är aktiverat. Samtidigt resulterar det i långsammare starttid och högre nätförbrukning, så det bör användas med försiktighet. När högupplösta förinläsningar används, kommer de förinlästa bildrutorna alltid att ha den ursprungliga upplösning som komponenten ursprungligen lästes in med. </p> </td> 
   </tr> 
  </tbody> 
 </table>
