@@ -7,9 +7,9 @@ title: markOverflowingTextFrames
 topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 90237128-8d29-45cc-90e8-7fe46c1dae38
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,6 @@ Visa dolda textramar med plustecken. En indikator för textspill visar när text
  </tr> 
 </table>
 
-Om du ställer in modifieraren `markOverflowingTextFrames=1` via ett URL-anrop markeras alla textramar där texten är dold med ett plustecken. I SPS-förhandsgranskning är dessutom indikatorn för överskjutande text inställd på `TRUE` som standard.
+Om du ställer in modifieraren `markOverflowingTextFrames=1` via ett URL-anrop markeras alla textramar där texten är dold med ett plustecken. I förhandsvisningsprogrammet för Dynamic Media Classic är dessutom indikatorn för överskjutande text inställd på `TRUE` som standard.
 
 Standardvärdet är 0.
