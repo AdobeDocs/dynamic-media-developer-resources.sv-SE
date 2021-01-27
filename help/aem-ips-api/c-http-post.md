@@ -1,10 +1,10 @@
 ---
-description: När du överför resurser till Scene7 Production System krävs en eller flera HTTP-POST-begäranden som ställer in ett jobb för att koordinera all loggaktivitet som är kopplad till de överförda filerna.
+description: När du överför resurser till Dynamic Media Classic måste du ange en eller flera HTTP-POSTER som ställer in ett jobb för att koordinera all loggaktivitet som är kopplad till de överförda filerna.
 solution: Experience Manager
 title: Överföra resurser via HTTP POST till UploadFile-servern
 topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Överföra resurser via HTTP POST till UploadFile-servern{#uploading-assets-by-way-of-http-posts-to-the-uploadfile-servlet}
 
-När du överför resurser till Scene7 Production System krävs en eller flera HTTP-POST-begäranden som ställer in ett jobb för att koordinera all loggaktivitet som är kopplad till de överförda filerna.
+När du överför resurser till Dynamic Media Classic måste du ange en eller flera HTTP-POSTER som ställer in ett jobb för att koordinera all loggaktivitet som är kopplad till de överförda filerna.
 
 Använd följande URL för att komma åt UploadFile-servern:
 
