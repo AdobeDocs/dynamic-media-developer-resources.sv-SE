@@ -5,9 +5,9 @@ title: Hämta
 topic: Dynamic Media
 uuid: 84c1c9f5-ad96-447e-be78-bae2b7095a29
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '76'
 ht-degree: 0%
 
 ---
@@ -21,5 +21,5 @@ Knappen&quot;Hämta&quot; är automatiskt tillgänglig i visningsprogrammets anv
 
 * Det finns en PDF-fil i kundens företag.
 * Namnet matchar namnet på den e-katalogresurs som skickas till visningsprogrammet och innehåller ett `.pdf`-tillägg.
-* PDF-filen publiceras i SPS.
+* PDF-filen publiceras i Dynamic Media Classic.
 
