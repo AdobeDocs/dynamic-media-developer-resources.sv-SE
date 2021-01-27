@@ -4,10 +4,10 @@ seo-description: Färgrutor består av en rad med miniatyrbilder med valfria rul
 seo-title: Färgrutor
 solution: Experience Manager
 title: Färgrutor
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 92360088-7199-49c3-80ee-e175d234a78e
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
