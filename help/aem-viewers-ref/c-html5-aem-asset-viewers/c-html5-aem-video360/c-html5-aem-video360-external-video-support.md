@@ -1,15 +1,12 @@
 ---
-description: Visningsprogrammet stöder uppspelning av video som ligger utanför SPS eller AEM Dynamic Media.
-seo-description: Visningsprogrammet stöder uppspelning av video som ligger utanför SPS eller AEM Dynamic Media.
-seo-title: Stöd för extern video
+description: Visningsprogrammet stöder uppspelning av video som ligger utanför Dynamic Media Classic eller AEM Dynamic Media.
 solution: Experience Manager
 title: Stöd för extern video
 topic: Dynamic Media
-uuid: 2e9f1c54-627f-4462-ae85-8a5ca1d09762
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 0%
 
 # Stöd för extern video{#external-video-support}
 
-Visningsprogrammet stöder uppspelning av video som ligger utanför SPS eller AEM Dynamic Media.
+Visningsprogrammet stöder uppspelning av video som ligger utanför Dynamic Media Classic eller AEM Dynamic Media.
 
 De format som stöds för den externa videon är antingen MP4 i H.264-format eller M3U8-manifest för HLS-ström.
 
