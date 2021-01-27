@@ -1,16 +1,13 @@
 ---
 description: Inline Zoom Viewer är ett bildvisningsprogram. Den visar en statisk bild där den zoomade versionen visas över den statiska bilden när en användare rullar över eller vidrör huvudvyn. Visningsprogrammet fungerar med bilduppsättningar och navigeringen görs med hjälp av färgrutor. Den är utformad för att fungera på stationära datorer och mobila enheter.
 keywords: responsive
-seo-description: Inline Zoom Viewer är ett bildvisningsprogram. Den visar en statisk bild där den zoomade versionen visas över den statiska bilden när en användare rullar över eller vidrör huvudvyn. Visningsprogrammet fungerar med bilduppsättningar och navigeringen görs med hjälp av färgrutor. Den är utformad för att fungera på stationära datorer och mobila enheter.
-seo-title: Textbunden zoom
 solution: Experience Manager
 title: Textbunden zoom
-topic: Dynamic media
-uuid: 2287aef0-79ba-4d63-911a-969fa1c63385
+topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '2457'
+source-wordcount: '2403'
 ht-degree: 0%
 
 ---
@@ -128,7 +125,7 @@ Du lägger till visningsprogrammet på en webbsida genom att göra följande:
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
-Du kan använda en relativ sökväg om visningsprogrammet distribueras på någon av Adobe Scene7-servrarna och den hanteras från samma domän. Annars anger du en fullständig sökväg till en av Adobe Scene7-servrarna som har IS-Viewer installerat.
+Du kan använda en relativ sökväg om visningsprogrammet distribueras på någon av Adobe Dynamic Media-servrarna och den hanteras från samma domän. Annars anger du en fullständig sökväg till en av Adobe Dynamic Media-servrarna som har IS-Viewer installerat.
 
 En relativ sökväg ser ut så här:
 
