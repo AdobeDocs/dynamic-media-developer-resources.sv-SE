@@ -1,16 +1,14 @@
 ---
 description: eCatalog Search Viewer är ett visningsprogram för en katalog som visar elektroniska broschyrer på uppslag eller sida för sida. Med eCatalog kan användarna navigera i katalogen med hjälp av ytterligare gränssnittselement eller dedikerade miniatyrbilder. Användarna kan också zooma in på alla sidor för att få bättre detaljer.
 keywords: responsive
-seo-description: eCatalog Search Viewer är ett visningsprogram för en katalog som visar elektroniska broschyrer på uppslag eller sida för sida. Med eCatalog kan användarna navigera i katalogen med hjälp av ytterligare gränssnittselement eller dedikerade miniatyrbilder. Användarna kan också zooma in på alla sidor för att få bättre detaljer.
-seo-title: eCatalog Search
 solution: Experience Manager
 title: eCatalog Search
-topic: Dynamic media
+topic: Dynamic Media
 uuid: f5ec33bf-e827-4709-9780-6f17096bf306
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '2228'
+source-wordcount: '2179'
 ht-degree: 0%
 
 ---
@@ -144,7 +142,7 @@ Du lägger till visningsprogrammet på en webbsida genom att göra följande:
 
 [!DNL <s7viewers_root>/html5/js/eCatalogSearchViewer.js]
 
-Du kan använda en relativ sökväg om visningsprogrammet distribueras på någon av Adobe Scene7-servrarna och den hanteras från samma domän. Annars anger du en fullständig sökväg till en av Adobe Scene7-servrarna som har IS-Viewer installerat.
+Du kan använda en relativ sökväg om visningsprogrammet distribueras på någon av Adobe Dynamic Media-servrarna och den hanteras från samma domän. Annars anger du en fullständig sökväg till en av Adobe Dynamic Media-servrarna som har IS-Viewer installerat.
 
 Den relativa sökvägen ser ut så här:
 
@@ -166,7 +164,7 @@ Den relativa sökvägen ser ut så här:
 
 1. Ange visningsprogrammets storlek
 
-   Du kan ange den statiska storleken för visningsprogrammet genom att antingen deklarera den för CSS-klassen på den översta nivån i absoluta enheter eller genom att använda modifieraren `.s7ecatalogsearchviewer`.`stagesize`
+   Du kan ange den statiska storleken för visningsprogrammet genom att antingen deklarera den för CSS-klassen på den översta nivån i absoluta enheter eller genom att använda modifieraren `stagesize`.`.s7ecatalogsearchviewer`
 
    Du kan ange storlek i CSS direkt på HTML-sidan eller i en anpassad CSS-fil för visningsprogrammet, som sedan tilldelas en förinställningspost för visningsprogrammet i Scene7 Publishing System, eller skickas explicit med ett formatkommando.
 
