@@ -4,10 +4,10 @@ seo-description: På stationära datorer har vissa element i användargränssnit
 seo-title: Verktygstips
 solution: Experience Manager
 title: Verktygstips
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 2cbf8a22-5d0e-46e3-b6e3-29739439558b
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 0%
