@@ -4,10 +4,10 @@ seo-description: Om du klickar eller trycker på den här knappen återställs v
 seo-title: Knappen Miniatyrbilder
 solution: Experience Manager
 title: Knappen Miniatyrbilder
-topic: Dynamic media
+topic: Dynamic Media
 uuid: a1a7f4b0-672e-4b83-9b21-0b8c6fc3f24a
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 0%
