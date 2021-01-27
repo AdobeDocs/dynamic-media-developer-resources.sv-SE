@@ -1,15 +1,12 @@
 ---
-description: Popup-menyn i panelen Info visas mitt i visningsprogramområdet när en användare aktiverar ett bildschema som har en rollover_key-egenskap definierad i Scene7 Publishing System och om funktionen i informationspanelen är korrekt konfigurerad för visningsprogrammet.
-seo-description: Popup-menyn i panelen Info visas mitt i visningsprogramområdet när en användare aktiverar ett bildschema som har en rollover_key-egenskap definierad i Scene7 Publishing System och om funktionen i informationspanelen är korrekt konfigurerad för visningsprogrammet.
-seo-title: Popup för panelen Info
+description: Popup-menyn i panelen Info visas mitt i visningsprogramområdet när en användare aktiverar ett bildschema som har en rollover_key-egenskap definierad i Dynamic Media Classic och om funktionen i informationspanelen är korrekt konfigurerad för visningsprogrammet.
 solution: Experience Manager
 title: Popup för panelen Info
 topic: Dynamic Media
-uuid: 4b44f48b-eabc-4a83-906a-dc7df13b2e74
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 0%
 
 # Popup för panelen Info{#info-panel-popup}
 
-Popup-menyn i panelen Info visas mitt i visningsprogramområdet när en användare aktiverar ett bildschema som har en rollover_key-egenskap definierad i Scene7 Publishing System och om funktionen i informationspanelen är korrekt konfigurerad för visningsprogrammet.
+Popup-menyn i panelen Info visas mitt i visningsprogramområdet när en användare aktiverar ett bildschema som har en rollover_key-egenskap definierad i Dynamic Media Classic och om funktionen i informationspanelen är korrekt konfigurerad för visningsprogrammet.
 
 Bakgrunden i informationspanelen täcker hela visningsprogramområdet och styrs med följande CSS-klassväljare:
 
