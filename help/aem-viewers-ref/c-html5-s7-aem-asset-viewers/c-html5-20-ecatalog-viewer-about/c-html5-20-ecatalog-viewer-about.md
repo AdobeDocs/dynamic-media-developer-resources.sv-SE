@@ -5,10 +5,10 @@ seo-description: eCatalog Viewer är ett visningsprogram för en katalog som vis
 seo-title: eCatalog
 solution: Experience Manager
 title: eCatalog
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 6950306d-637e-4932-ae96-c5366e5477f3
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '2212'
 ht-degree: 0%
@@ -171,7 +171,7 @@ Den relativa sökvägen ser ut så här:
 
 1. Ange visningsprogrammets storlek
 
-   Du kan ange den statiska storleken för visningsprogrammet genom att antingen deklarera den för CSS-klassen på den översta nivån i absoluta enheter eller genom att använda modifieraren `.s7ecatalogviewer`.`stagesize`
+   Du kan ange den statiska storleken för visningsprogrammet genom att antingen deklarera den för CSS-klassen på den översta nivån i absoluta enheter eller genom att använda modifieraren `stagesize`.`.s7ecatalogviewer`
 
    Du kan ange storlek i CSS direkt på HTML-sidan eller i en anpassad CSS-fil för visningsprogrammet, som sedan tilldelas en förinställningspost för visningsprogrammet i Scene7 Publishing System, eller skickas explicit med ett formatkommando.
 
