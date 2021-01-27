@@ -4,10 +4,10 @@ seo-description: Om du klickar eller trycker på den här knappen flyttas använ
 seo-title: Knappen Första sidan
 solution: Experience Manager
 title: Knappen Första sidan
-topic: Dynamic media
+topic: Dynamic Media
 uuid: fd164899-505c-448b-8dba-7581d97d87b6
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
