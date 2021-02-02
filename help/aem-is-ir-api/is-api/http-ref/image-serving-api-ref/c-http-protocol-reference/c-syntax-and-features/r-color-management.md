@@ -4,9 +4,9 @@ solution: Experience Manager
 title: Färghantering för bildhantering
 topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1195'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ Ytterligare profiler kan läggas till i standardprofilerna, antingen i standardk
 |`WebCoatedGrade5`|Web Coated SWOP 2006 Grade 5 Paper|WebCoatedSWOP2006Grade5.icc|
 |`WebUncoated`|U.S. Web Uncoated v2|USWebUncoated.icc|
 
-Följande tabell gäller för *Dynamic Media Classic (Scene7) Image Serving* och *Dynamic Media* (körs i körningsläget `dynamicmedia_scene7`).
+Följande tabell gäller för *Dynamic Media Classic Image Serving* och *Dynamic Media* (körs i körningsläget `dynamicmedia_scene7`).
 
 |Identifierare|Gemensamt namn|Filnamn|
 |— |— |— |
