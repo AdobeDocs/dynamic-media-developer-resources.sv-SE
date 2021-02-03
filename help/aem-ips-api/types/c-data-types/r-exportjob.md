@@ -7,9 +7,9 @@ title: ExportJob
 topic: Dynamic Media Image Production System API
 uuid: 439e3dd8-85b8-4f5b-abf8-8cc5a3f59fe6
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '217'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,7 @@ ExportJob stöder inte följande resurstyper:
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> is_modifier</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:sträng  </span> </p> </td> 
-   <td colname="col3"> <p>Anger <span class="codeph"> ImageServer</span>-återgivnings-URL-strängen, som bifogas till begäran om konvertering<span class="codeph"> för ExportJob </span>. </p> <p>Mer information om hur du skickar IS-modifierare finns i <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/home.html" scope="external" format="html"> IS-dokumentationen</a>. </p> </td> 
+   <td colname="col3"> <p>Anger <span class="codeph"> ImageServer</span>-återgivnings-URL-strängen, som bifogas till begäran om konvertering<span class="codeph"> för ExportJob </span>. </p> <p>Mer information om hur du skickar IS-modifierare finns i <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html" scope="external" format="html"> IS-dokumentationen</a>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> makro</span> </span> </p> </td> 
