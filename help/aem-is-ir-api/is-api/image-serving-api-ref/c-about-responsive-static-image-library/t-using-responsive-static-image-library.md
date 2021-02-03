@@ -4,9 +4,9 @@ solution: Experience Manager
 title: Använda bibliotek för responsiv bild
 topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Om du vill lägga till ett responsivt bildbibliotek på en webbsida och hantera 
 
 **Använda bibliotek för responsiv bild**
 
-1. I Dynamic Media Classic [skapar du en bildförinställning](http://help.adobe.com/en_US/scene7/using/WS2F6A1049-B41F-447d-A520-91227F9CDABF.html) om du tänker använda biblioteket för responsiv bild med förinställningar.
+1. I Dynamic Media Classic [skapar du en bildförinställning](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing) om du tänker använda biblioteket för responsiv bild med förinställningar.
 
    När du definierar förinställningar för bilder som används med ett responsivt bildbibliotek ska du inte använda några inställningar som påverkar bildstorleken, till exempel `wid=`, `hei=` eller `scl=`. Ange inga storleksfält i bildförinställningen. Lämna dem som tomma värden.
 1. Lägg till JavaScript-biblioteksfilen på webbsidan.
