@@ -5,7 +5,7 @@ title: HTTPS-videoleverans
 topic: Dynamic Media
 uuid: 7f8c1fe6-b464-4d80-9ffe-a36081825d49
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Beroende på vilken metod du använder för att publicera Dynamic Media-video i 
    https://demos-pub.assetsadobe.com/etc/dam/viewers/s7viewers/html5/MixedMediaViewer.html?asset=%2Fcontent%2Fdam%2FGeometrixx-Outdoors-New-Launch%2Fbackpack%2Fbackpack_mixed_media&config=/etc/dam/presets/viewer/MixedMedia_light&serverUrl=https%3A%2F%2Fadobedemo62-h.assetsadobe.com%2Fis%2Fimage%2F&contenturl=%2F&config2=/etc/dam/presets/analytics&videoserverurl=https://gateway-na.assetsadobe.com/DMGateway/public/demoCo&VideoPlayer.ssl=on
    ```
 
-   Se även [(Länka URL:er till ditt webbprogram](https://docs.adobe.com/content/help/en/experience-manager-64/assets/dynamic/linking-urls-to-yourwebapplication.html).
+   Se även [(Länka URL:er till ditt webbprogram](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic).
 
 * Om du publicerar en Dynamic Media-video med inbäddad kod lägger du till `VideoPlayer.ssl` i listan över andra parametrar för visningsprogramkonfiguration i det inbäddade kodfragmentet. Om du till exempel vill tvinga HTTPS-videoleverans lägger du till `&VideoPlayer.ssl=on` som i följande exempel:
 
@@ -57,5 +57,5 @@ Beroende på vilken metod du använder för att publicera Dynamic Media-video i 
    </script>
    ```
 
-   Se även [(Bädda in videon på en webbsida](https://docs.adobe.com/content/help/en/experience-manager-64/assets/dynamic/linking-urls-to-yourwebapplication.html).
+   Se även [(Bädda in videon på en webbsida](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic).
 
