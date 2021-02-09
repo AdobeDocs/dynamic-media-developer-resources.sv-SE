@@ -1,15 +1,12 @@
 ---
 description: Alla funktioner som visas i vyerna Basic Zoom, eCatalog, eCatalog Search, Flyout, Inline Zoom, Mixed Media, Spin, Video, Zoom, Dimensional (3D), Carousel, Interactive Image, Interactive Video och Video360 är tillgängliga via tangentbordet.
-seo-description: Alla funktioner som visas i vyerna Basic Zoom, eCatalog, eCatalog Search, Flyout, Inline Zoom, Mixed Media, Spin, Video, Zoom, Dimensional (3D), Carousel, Interactive Image, Interactive Video och Video360 är tillgängliga via tangentbordet.
-seo-title: Tangentbordstillgänglighet och -navigering
 solution: Experience Manager
 title: Tangentbordstillgänglighet och -navigering
 topic: Dynamic Media
-uuid: 9d7df3b0-2d77-4a2f-9ef1-210ccbd7a1a6
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: e85ff41d20e7b39e023cba9bff58236e8b49d4f2
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
