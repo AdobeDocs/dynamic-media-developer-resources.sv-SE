@@ -5,9 +5,9 @@ archtype: end-user
 user-guide-title: Dynamic Media Image Serving and Rendering API
 breadcrumb-title: Dynamic Media Image Serving and Rendering API
 translation-type: tm+mt
-source-git-commit: 69a21374f1128eb7ae1d03776b1b80647bdf9fea
+source-git-commit: 192b5624945b08e438a65e3e9fd25aca503857fc
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1457'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 # Dynamic Media Image Serving and Rendering API {#image-serving-api}
 
 + [Dynamic Media Developer Resources - startsida](/help/landing/home.md)
-+ [Dynamic Media Image Serving and Image Rendering API - startsida](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html?lang=en)
++ [Dynamic Media Image Serving and Image Rendering API - startsida](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html?lang=en) -->
 + [Om den här versionen](r-about-this-release.md)
 + [Systemkrav och krav](r-requirements-and-prerequisites.md)
 + [Krav och rekommendationer för diskutrymme](r-disk-space-reqs.md)
