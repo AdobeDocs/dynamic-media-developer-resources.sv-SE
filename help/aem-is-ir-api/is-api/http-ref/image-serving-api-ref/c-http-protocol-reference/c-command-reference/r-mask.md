@@ -4,12 +4,13 @@ seo-description: Bildmask. Anger en separat maskbild som ska användas som en oa
 seo-title: mask
 solution: Experience Manager
 title: mask
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2dc14d20-f02a-4a77-9b73-0c01e10d448d
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
