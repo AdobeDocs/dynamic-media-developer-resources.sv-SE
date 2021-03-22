@@ -4,12 +4,13 @@ seo-description: Tar bort behörigheter från markerade resurser.
 seo-title: removeAssetPermissions
 solution: Experience Manager
 title: removeAssetPermissions
-topic: Dynamic Media Image Production System API
 uuid: 5a351862-f412-4d89-90b7-9e70a26eacbc
+feature: Dynamic Media Classic,SDK/API,Resurshantering
+role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
