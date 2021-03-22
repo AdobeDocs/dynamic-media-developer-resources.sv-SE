@@ -4,12 +4,13 @@ seo-description: Returnerar företagsgrupper.
 seo-title: getGroups
 solution: Experience Manager
 title: getGroups
-topic: Dynamic Media Image Production System API
 uuid: d6e1542d-83a2-4b25-a986-2465e9e5a145
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---
