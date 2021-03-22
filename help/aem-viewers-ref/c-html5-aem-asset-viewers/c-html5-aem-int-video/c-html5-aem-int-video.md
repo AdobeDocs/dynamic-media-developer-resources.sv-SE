@@ -4,12 +4,13 @@ seo-description: Interactive Video Viewer är en videospelare som spelar upp str
 seo-title: Interaktiv video
 solution: Experience Manager
 title: Interaktiv video
-topic: Dynamic Media
 uuid: 116c6b40-2490-4f1a-9c76-e06082069cc8
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2243'
+source-wordcount: '2254'
 ht-degree: 0%
 
 ---
