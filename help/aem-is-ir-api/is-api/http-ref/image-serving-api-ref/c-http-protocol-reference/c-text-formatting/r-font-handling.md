@@ -4,12 +4,13 @@ seo-description: Alla teckensnitt som refereras i RTF-strängen måste vara till
 seo-title: Teckensnittshantering
 solution: Experience Manager
 title: Teckensnittshantering
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6a751973-5dae-472e-a908-bf24fa59d031
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,7 @@ Du får bäst kvalitet på kursiv och fet stil om du registrerar motsvarande tec
 
 Teckensnittet som anges med `attribute::DefaultFont` används när inga anges explicit i RTF-strängen.
 
-Image Serving stöder TrueType-, OpenType- och Adobe Type 1-teckensnitt (endast Windows).
+Image Serving har stöd för TrueType, OpenType och Adobe Type 1 (endast Windows).
 
 ## Stöd för Photofont®-teckensnitt {#section-74560ae898cf4708aba4c8b4093f5f00}
 
