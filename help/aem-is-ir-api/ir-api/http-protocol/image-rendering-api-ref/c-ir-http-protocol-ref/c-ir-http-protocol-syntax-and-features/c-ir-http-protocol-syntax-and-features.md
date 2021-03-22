@@ -4,12 +4,13 @@ seo-description: I det här avsnittet beskrivs HTTP-protokollets syntax och funk
 seo-title: Syntax och funktioner för HTTP-protokoll
 solution: Experience Manager
 title: Syntax och funktioner för HTTP-protokoll
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5badae8e-0874-43b1-b019-bd7445e6c2ce
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
