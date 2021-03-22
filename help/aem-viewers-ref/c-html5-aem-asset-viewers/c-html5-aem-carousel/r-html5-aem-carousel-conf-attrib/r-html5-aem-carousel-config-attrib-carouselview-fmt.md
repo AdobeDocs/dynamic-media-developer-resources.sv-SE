@@ -2,12 +2,13 @@
 description: CarouselView.fmt
 solution: Experience Manager
 title: CarouselView.fmt
-topic: Dynamic Media
 uuid: deba25f3-f074-42db-b1d5-d4bf22e25773
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '83'
 ht-degree: 1%
 
 ---
