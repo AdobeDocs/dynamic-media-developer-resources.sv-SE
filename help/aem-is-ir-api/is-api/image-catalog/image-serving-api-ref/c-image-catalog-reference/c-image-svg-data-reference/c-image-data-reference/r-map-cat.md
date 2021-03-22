@@ -4,12 +4,13 @@ seo-description: Bildschemadata. Inga eller fler kompletta HTML-element (<AREA>)
 seo-title: Karta
 solution: Experience Manager
 title: Karta
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 674a7a74-91bf-41c4-ab74-a5cb4f8abe1d
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
