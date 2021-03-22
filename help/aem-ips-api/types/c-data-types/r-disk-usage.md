@@ -4,12 +4,13 @@ seo-description: Diskutrymmesstatistik för en resurs eller mapp.
 seo-title: DiskUsage
 solution: Experience Manager
 title: DiskUsage
-topic: Dynamic Media Image Production System API
 uuid: a63f0ed0-c689-43b0-9c3e-9500715d15a5
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: '67'
 ht-degree: 0%
 
 ---
