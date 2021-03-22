@@ -4,12 +4,13 @@ seo-description: I det här avsnittet beskrivs alla redigerbara konfigurationsin
 seo-title: Serverinställningar
 solution: Experience Manager
 title: Serverinställningar
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: dc4deefe-c354-4d01-a1d2-815597994adc
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Administratör,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
