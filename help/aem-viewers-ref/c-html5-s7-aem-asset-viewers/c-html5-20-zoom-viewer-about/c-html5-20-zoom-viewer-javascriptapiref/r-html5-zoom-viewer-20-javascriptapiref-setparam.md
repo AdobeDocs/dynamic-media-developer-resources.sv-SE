@@ -4,12 +4,13 @@ seo-description: JavaScript API-referens för Video Viewer.
 seo-title: setParam
 solution: Experience Manager
 title: setParam
-topic: Dynamic Media
 uuid: 7688134f-ab85-43ce-9ff8-9965bd33acd0
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
