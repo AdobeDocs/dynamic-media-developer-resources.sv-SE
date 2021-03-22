@@ -4,12 +4,13 @@ seo-description: För att minska risken för manipulering av förfrågningar fin
 seo-title: Begäranlåsning
 solution: Experience Manager
 title: Begäranlåsning
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 03239376-1e40-48d2-a396-c276802854ed
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
