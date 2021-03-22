@@ -4,12 +4,13 @@ seo-description: Verktyget för e-postdelning består av en knapp som läggs til
 seo-title: E-postresurs
 solution: Experience Manager
 title: E-postresurs
-topic: Dynamic Media
 uuid: e080ae49-c38f-43c3-a7b9-d5f8f41ba6d0
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '3073'
+source-wordcount: '3083'
 ht-degree: 0%
 
 ---
@@ -287,7 +288,7 @@ Stängningsknappen styrs med följande CSS-klassväljare:
 
 Knappbeskrivningen Stäng och dialogrutans titel kan lokaliseras. Mer information finns i [Lokalisering av element i användargränssnittet](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
-Exempel - för att ställa in ett dialoghuvud med utfyllnad, en ikon med storleken 24 x 17 pixlar, en rubrik med 16 punkter i fet stil och en stängningsknapp med storleken 28 x 28 pixlar som placerats två pixlar uppifrån och två pixlar från höger om en dialogrutebehållare:
+Exempel - för att ställa in ett dialoghuvud med utfyllnad, en ikon med storleken 24 x 17 pixlar, en rubrik med 16 punkter i fet stil och en stängningsknapp med storleken 28 x 28 pixlar, placerade två pixlar uppifrån och två pixlar från höger om en dialogrutebehållare:
 
 ```
 .s7ecatalogviewer .s7emaildialog .s7dialogheader { 
