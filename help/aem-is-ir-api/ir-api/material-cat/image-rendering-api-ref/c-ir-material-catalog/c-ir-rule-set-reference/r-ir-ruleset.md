@@ -4,12 +4,13 @@ seo-description: Regelbehållarelement. En giltig regeluppsättningsfil innehål
 seo-title: linjaluppsättning
 solution: Experience Manager
 title: linjaluppsättning
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 92e691ac-079e-4f84-9142-80e0c603cfc3
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '53'
 ht-degree: 0%
 
 ---
