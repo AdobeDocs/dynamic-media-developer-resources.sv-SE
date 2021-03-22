@@ -2,12 +2,13 @@
 description: PageView.iconEffect
 solution: Experience Manager
 title: PageView.iconEffect
-topic: Dynamic Media
 uuid: c8d63ad9-6867-4b90-a113-6a75e394f706
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '128'
 ht-degree: 1%
 
 ---
