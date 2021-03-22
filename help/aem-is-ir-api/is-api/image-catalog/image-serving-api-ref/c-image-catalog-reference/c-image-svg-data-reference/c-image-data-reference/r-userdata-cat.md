@@ -4,12 +4,13 @@ seo-description: Användardata. Servern returnerar innehållet i det här fälte
 seo-title: UserData
 solution: Experience Manager
 title: UserData
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: cadc9f3c-c0ca-4c88-bc8a-97c28b439b01
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
