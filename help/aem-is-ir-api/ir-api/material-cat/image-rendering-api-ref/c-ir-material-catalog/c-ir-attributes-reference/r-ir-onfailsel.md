@@ -4,12 +4,13 @@ seo-description: Felhantering av markeringsfel. Anger vilken åtgärd som ska vi
 seo-title: OnFailSel
 solution: Experience Manager
 title: OnFailSel
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 073b6651-970c-460c-b044-e3ef37cc677a
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '159'
 ht-degree: 3%
 
 ---
@@ -29,7 +30,7 @@ Enum.
   <td class="stentry"> <p>Ärv från <span class="codeph"> standard::OnFailSel </span>. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p> </td> 
+  <td class="stentry"> <p>1 </p> </td> 
   <td class="stentry"> <p>Behåll föregående markering. </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -37,7 +38,7 @@ Enum.
   <td class="stentry"> <p>Avmarkera; Alla försök att använda material eller visa/dölja objekt ignoreras. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>1 </p> </td> 
+  <td class="stentry"> <p>3 </p> </td> 
   <td class="stentry"> <p>Returnera ett fel. </p> </td> 
  </tr> 
  <tr class="strow"> 
