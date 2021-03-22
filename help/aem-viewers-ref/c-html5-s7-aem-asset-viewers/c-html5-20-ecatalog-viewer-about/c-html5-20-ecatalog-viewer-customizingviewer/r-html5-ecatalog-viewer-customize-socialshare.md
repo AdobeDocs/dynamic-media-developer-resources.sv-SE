@@ -4,12 +4,13 @@ seo-description: Verktyget för social delning visas som standard i det övre v�
 seo-title: Social andel
 solution: Experience Manager
 title: Social andel
-topic: Dynamic Media
 uuid: 045a5525-dc7b-4ea4-b5ee-830a7ddf233a
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
