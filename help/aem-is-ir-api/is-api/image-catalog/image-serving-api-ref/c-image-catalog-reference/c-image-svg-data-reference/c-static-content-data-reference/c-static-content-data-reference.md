@@ -4,12 +4,13 @@ seo-description: I det här avsnittet beskrivs attributen för statiska innehål
 seo-title: Referens för statiska innehållsdata
 solution: Experience Manager
 title: Referens för statiska innehållsdata
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 1e8af0a9-bc08-4e7f-bab2-344ec644e873
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '40'
+source-wordcount: '48'
 ht-degree: 0%
 
 ---
