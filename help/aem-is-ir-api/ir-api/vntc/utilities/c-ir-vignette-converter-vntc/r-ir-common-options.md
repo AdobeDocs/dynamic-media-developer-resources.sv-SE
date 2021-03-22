@@ -4,12 +4,13 @@ seo-description: Följande alternativ kan användas oavsett typen av sourceFile.
 seo-title: Vanliga alternativ
 solution: Experience Manager
 title: Vanliga alternativ
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: fdf09873-4102-4ed6-a315-a87cba5c44c7
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
@@ -34,7 +35,7 @@ Följande alternativ kan användas oavsett typen av sourceFile.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -jpegquality  <span class="varname"> ival  </span> </span> </p> </td> 
-  <td class="stentry"> <p>Väljer JPEG-kodning med dataförlust för RGB och gråskalebilddata som är inbäddade i utdatafilen i stället för förlustfri PNG. Bilder med alfa (RGBA) sparas alltid med PNG-kodning. <span class="varname"> ival  </span> anger JPEG-kvaliteten (1...100), 85 eller högre rekommenderas. Standardvärdet är <span class="codeph"> -jpegquality 0 </span>, som väljer PNG-kodning. </p> </td> 
+  <td class="stentry"> <p>Väljer förstörande JPEG-kodning för RGB och gråskalebilddata som är inbäddade i utdatafilen i stället för förlustfri PNG. Bilder med alfa (RGBA) sparas alltid med PNG-kodning. <span class="varname"> ival  </span> anger JPEG-kvaliteten (1...100), 85 eller högre rekommenderas. Standardvärdet är <span class="codeph"> -jpegquality 0 </span>, som väljer PNG-kodning. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -log  <span class="varname"> path  </span> </span> </p> </td> 
