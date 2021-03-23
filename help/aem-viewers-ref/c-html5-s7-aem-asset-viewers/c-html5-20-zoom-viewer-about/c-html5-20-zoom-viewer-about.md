@@ -1,16 +1,17 @@
 ---
 description: Zoom Viewer är ett bildvisningsprogram som visar en zoombar bild. Visningsprogrammet fungerar med bilduppsättningar och navigeringen görs med hjälp av färgrutor. Den har zoomverktyg, helskärmsstöd, färgrutor och en valfri stängningsknapp. Den är utformad för att fungera på stationära datorer och mobila enheter.
-keywords: responsive
+keywords: responsiv
 seo-description: Zoom Viewer är ett bildvisningsprogram som visar en zoombar bild. Visningsprogrammet fungerar med bilduppsättningar och navigeringen görs med hjälp av färgrutor. Den har zoomverktyg, helskärmsstöd, färgrutor och en valfri stängningsknapp. Den är utformad för att fungera på stationära datorer och mobila enheter.
 seo-title: Zooma
 solution: Experience Manager
 title: Zooma
-topic: Dynamic Media
 uuid: ec2a91e2-ce2c-48b1-a2b2-8671524288c7
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2460'
+source-wordcount: '2471'
 ht-degree: 0%
 
 ---
@@ -117,7 +118,7 @@ Inbäddning med fast storlek används när visningsprogrammet inte ändrar sin s
 
 Inbäddningsläget för responsiv design förutsätter att det krävs en storleksändring av visningsprogrammet under körningen på grund av storleksändringen av dess behållare `DIV`. Det vanligaste användningsområdet är att lägga till ett visningsprogram på en webbsida som använder en flexibel layout.
 
-I läget responsiv designinbäddning beter sig visningsprogrammet olika beroende på hur webbsidan ändrar storlek på sin behållare `DIV`. Om webbsidan bara anger bredden på behållaren `DIV`, och dess höjd inte begränsas, väljer visningsprogrammet automatiskt höjden enligt proportionerna för den resurs som används. Den här logiken gör att resursen passar in perfekt i vyn utan utfyllnad på sidorna. Det här användningsexemplet är det vanligaste för webbsidor som använder responsiva layoutramverk som Bootstrap, Foundation och så vidare.
+I läget responsiv designinbäddning beter sig visningsprogrammet olika beroende på hur webbsidan ändrar storlek på sin behållare `DIV`. Om webbsidan bara anger bredden på behållaren `DIV`, och dess höjd inte begränsas, väljer visningsprogrammet automatiskt höjden enligt proportionerna för den resurs som används. Den här logiken gör att resursen passar in perfekt i vyn utan utfyllnad på sidorna. Det här användningsexemplet är det vanligaste för webbsidor där responsiva layoutramverk som Bootstrap, Foundation och så vidare används.
 
 Om webbsidan anger både bredd och höjd för visningsprogrammets behållare `DIV` fyller visningsprogrammet det området och följer den storlek som webbsidan ger. Om du till exempel bäddar in visningsprogrammet i en modal övertäckning, där storleken på övertäckningen anpassas efter webbläsarens fönsterstorlek.
 
