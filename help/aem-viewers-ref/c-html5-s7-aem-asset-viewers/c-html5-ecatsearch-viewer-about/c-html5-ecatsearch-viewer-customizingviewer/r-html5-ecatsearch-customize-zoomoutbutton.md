@@ -4,12 +4,13 @@ seo-description: Om du klickar eller trycker på den här knappen zoomas en bild
 seo-title: Knappen Zooma ut
 solution: Experience Manager
 title: Knappen Zooma ut
-topic: Dynamic Media
 uuid: cf1c62eb-e0a4-413d-93d3-3aed31e9a444
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
