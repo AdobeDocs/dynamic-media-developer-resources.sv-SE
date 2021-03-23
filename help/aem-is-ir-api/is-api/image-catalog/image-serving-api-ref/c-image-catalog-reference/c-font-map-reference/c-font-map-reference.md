@@ -4,12 +4,13 @@ seo-description: Om en teckensnittsmappning krävs för en bildkatalog måste de
 seo-title: Referens för teckensnittskarta
 solution: Experience Manager
 title: Referens för teckensnittskarta
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7a6c5eda-3b47-4c23-8a33-7b7e39de29c9
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ Om en teckensnittsmappning krävs för en bildkatalog måste den relativa eller 
 
 Poster i teckensnittskartan i en viss bildkatalog åsidosätter poster i teckensnittskartan i standardkatalogen.
 
-Image Serving har stöd för Adobe Type 1-, OpenType- och TrueType-teckensnitt.
+Image Serving har stöd för Adobe Type 1, OpenType och TrueType-teckensnitt.
 
 `textPs=` stöder även CID-, ATC- och bitmappsteckensnitt.
 
