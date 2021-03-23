@@ -2,12 +2,13 @@
 description: Namnutrymme för visningsprogramsDK
 solution: Experience Manager
 title: Namnutrymme för visningsprogramsDK
-topic: Dynamic Media
 uuid: e1639806-3052-4913-aae0-ca9a79100d0f
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva bilder
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
