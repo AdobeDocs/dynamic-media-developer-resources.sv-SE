@@ -4,12 +4,13 @@ seo-description: Vyn Favoriter består av en kolumn med miniatyrbilder.
 seo-title: Vyn Favoriter
 solution: Experience Manager
 title: Vyn Favoriter
-topic: Dynamic Media
 uuid: 6b954bec-0678-4970-b83a-c2d8fea06a25
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
