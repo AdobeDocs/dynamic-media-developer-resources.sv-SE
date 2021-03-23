@@ -4,12 +4,13 @@ seo-description: Det sekundära kontrollfältet är det rektangulära området s
 seo-title: Sekundärt kontrollfält
 solution: Experience Manager
 title: Sekundärt kontrollfält
-topic: Dynamic Media
 uuid: 38217d2a-8668-46e1-9df1-f29c1c7e0798
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
