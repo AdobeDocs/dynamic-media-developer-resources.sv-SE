@@ -4,12 +4,13 @@ seo-description: Konfigurationsattribut för Video360 Viewer.
 seo-title: SocialShare.bearing
 solution: Experience Manager
 title: SocialShare.bearing
-topic: Dynamic Media
 uuid: 43217e2e-71c5-4c58-94e0-c6ed38e25a5b
+feature: Dynamic Media Classic,visningsprogram,SDK/API,360 VR-video
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,7 @@ Konfigurationsattribut för Video360 Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> up|down|left|right|fit-vertical|fit-ateral</span> </p> </td> 
-   <td colname="col2"> <p> Anger riktningen på bildruteanimeringen för knappbehållaren. </p> <p> När den anges till <span class="codeph"> upp</span>, <span class="codeph"> ned</span>, <span class="codeph"> vänster</span> eller <span class="codeph"> höger</span>, rullas panelen ut i en angiven riktning utan en extra gränskontroll, vilket kan leda till att panelen klipps av en extern behållare. </p> <p>När den är inställd på <span class="codeph"> fit-vertical</span> flyttar komponenten först baspanelspositionen till nederkanten av SocialShare och försöker att rulla ut panelen nedifrån, till höger eller till vänster från den här basplatsen. För varje försök kontrollerar komponenten om panelen har klippts av en extern behållare. Om alla försök misslyckas försöker komponenten att flytta baspanelens position till toppen och upprepa utrullningsförsök i den övre, högra och vänstra riktningen. </p> <p>När den är inställd på <span class="codeph"> fit-ateral</span> använder komponenten en liknande logik. Basen flyttas dock först till höger och du kan testa riktningarna höger, ned och upp och sedan flytta baslinjen till vänster och sedan försöka åt vänster, ned och upp i utrullningsriktningarna. </p> </td> 
+   <td colname="col2"> <p> Anger riktningen på bildruteanimeringen för knappbehållaren. </p> <p> När den anges till <span class="codeph"> upp</span>, <span class="codeph"> ned</span>, <span class="codeph"> vänster</span> eller <span class="codeph"> höger</span>, rullas panelen ut i en angiven riktning utan en extra gränskontroll, vilket kan leda till att panelen klipps av en extern behållare. </p> <p>När den är inställd på <span class="codeph"> fit-vertical</span> flyttar komponenten först baspanelspositionen till nederkanten av SocialShare och försöker att rulla ut panelen nedifrån, till höger eller till vänster från den här basplatsen. För varje försök kontrollerar komponenten om panelen har klippts av en extern behållare. Om alla försök misslyckas försöker komponenten att flytta baspanelens position till toppen och upprepa utrullningsförsök i den övre, högra och vänstra riktningen. </p> <p>När den är inställd på <span class="codeph"> fit-ateral</span> använder komponenten en liknande logik. Basen flyttas dock först åt höger, och sedan visas riktningarna höger, ned och upp, och basen flyttas åt vänster, åt vänster, nedåt och uppåt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
