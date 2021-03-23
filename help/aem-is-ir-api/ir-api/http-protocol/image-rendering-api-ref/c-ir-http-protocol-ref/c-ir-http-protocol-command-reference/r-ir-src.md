@@ -4,12 +4,13 @@ seo-description: Materialfil. Anger materialdata, antingen i form av en enstaka 
 seo-title: src
 solution: Experience Manager
 title: src
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 52751bcc-a65d-4441-a3b5-802d27b54b54
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
