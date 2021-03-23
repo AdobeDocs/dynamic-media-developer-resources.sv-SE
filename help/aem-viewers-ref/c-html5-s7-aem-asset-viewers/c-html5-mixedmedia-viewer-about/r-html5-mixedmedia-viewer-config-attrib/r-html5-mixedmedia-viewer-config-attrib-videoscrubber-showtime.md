@@ -2,13 +2,14 @@
 description: VideoScrubber.showtime
 solution: Experience Manager
 title: VideoScrubber.showtime
-topic: Dynamic Media
 uuid: fe4e7327-5f2e-4eb4-a3ea-57a901fec1ca
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Mixa medieuppsättningar
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '19'
-ht-degree: 10%
+source-wordcount: '31'
+ht-degree: 6%
 
 ---
 
