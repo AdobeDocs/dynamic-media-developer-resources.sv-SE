@@ -1,14 +1,15 @@
 ---
 description: eCatalog Search Viewer är ett visningsprogram för en katalog som visar elektroniska broschyrer på uppslag eller sida för sida. Med eCatalog kan användarna navigera i katalogen med hjälp av ytterligare gränssnittselement eller dedikerade miniatyrbilder. Användarna kan också zooma in på alla sidor för att få bättre detaljer.
-keywords: responsive
+keywords: responsiv
 solution: Experience Manager
 title: eCatalog Search
-topic: Dynamic Media
 uuid: f5ec33bf-e827-4709-9780-6f17096bf306
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2179'
+source-wordcount: '2191'
 ht-degree: 0%
 
 ---
