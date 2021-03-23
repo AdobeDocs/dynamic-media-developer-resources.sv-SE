@@ -2,12 +2,13 @@
 description: ThumbnailGridView.maxloadradius
 solution: Experience Manager
 title: ThumbnailGridView.maxloadradius
-topic: Dynamic Media
 uuid: e72ae5d6-574e-4f30-827c-021ce5dafcee
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '65'
 ht-degree: 1%
 
 ---
