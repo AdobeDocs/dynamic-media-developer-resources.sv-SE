@@ -4,12 +4,13 @@ seo-description: Sökväg till makrodefinitionsfil. Anger filen som innehåller 
 seo-title: Makrofil
 solution: Experience Manager
 title: Makrofil
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: cbf7fd62-b868-4891-8b95-0aaf38078a36
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
