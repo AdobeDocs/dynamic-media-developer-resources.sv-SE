@@ -4,12 +4,13 @@ seo-description: JavaScript API-referens för Video360 Viewer
 seo-title: setHandlers
 solution: Experience Manager
 title: setHandlers
-topic: Dynamic Media
 uuid: e6c8afb3-576a-4536-a7a0-416a21de85dc
+feature: Dynamic Media Classic,visningsprogram,SDK/API,360 VR-video
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
