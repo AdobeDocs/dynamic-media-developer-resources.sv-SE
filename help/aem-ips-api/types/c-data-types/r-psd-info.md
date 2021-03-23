@@ -4,12 +4,13 @@ seo-description: Photoshop filegenskaper.
 seo-title: PsdInfo
 solution: Experience Manager
 title: PsdInfo
-topic: Dynamic Media Image Production System API
 uuid: 0512f996-ddeb-4c3c-a2e8-bef59ea99f9c
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '32'
+source-wordcount: '39'
 ht-degree: 0%
 
 ---
