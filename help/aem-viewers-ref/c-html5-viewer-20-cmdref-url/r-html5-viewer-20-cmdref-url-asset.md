@@ -4,12 +4,13 @@ seo-description: Parametern är gemensam för alla visningsprogram.
 seo-title: resurs
 solution: Experience Manager
 title: resurs
-topic: Dynamic Media
 uuid: 6a72257f-d204-4258-b6f8-de6f7b00fd54
+feature: Dynamic Media Classic,visningsprogram,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '591'
 ht-degree: 0%
 
 ---
