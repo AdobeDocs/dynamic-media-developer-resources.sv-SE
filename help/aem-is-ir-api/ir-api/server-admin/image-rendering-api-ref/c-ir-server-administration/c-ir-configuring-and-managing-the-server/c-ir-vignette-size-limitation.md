@@ -4,12 +4,13 @@ seo-description: Bildåtergivning tillämpar en storleksbegränsning på två me
 seo-title: Storleksbegränsning för vinjett
 solution: Experience Manager
 title: Storleksbegränsning för vinjett
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 218e8c7e-f313-47cb-af42-30c585d4ec12
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Administratör,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
@@ -23,5 +24,5 @@ Bildåtergivning tillämpar en storleksbegränsning på två megapixlar för vin
 
 >[!NOTE]
 >
->`attribute::MaxPix` och  `IS::MaxMessageSize` kan också behöva justeras för att tillåta ovanligt stora svarsbilder. Mer information finns i dokumentationen om bildservning.
+>`attribute::MaxPix` och  `IS::MaxMessageSize` kan också behöva justeras för att tillåta ovanligt stora svarstider för bilder. Mer information finns i dokumentationen om bildservning.
 
