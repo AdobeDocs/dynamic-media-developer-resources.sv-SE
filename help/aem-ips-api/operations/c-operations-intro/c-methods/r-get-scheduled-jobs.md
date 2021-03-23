@@ -4,12 +4,13 @@ seo-description: Hämtar schemalagda jobb att köras.
 seo-title: getScheduledJobs
 solution: Experience Manager
 title: getScheduledJobs
-topic: Dynamic Media Image Production System API
 uuid: 56b0623b-46d7-4d11-8eea-6543ed364b53
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '88'
 ht-degree: 0%
 
 ---
