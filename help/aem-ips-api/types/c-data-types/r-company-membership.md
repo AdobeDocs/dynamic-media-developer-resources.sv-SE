@@ -2,12 +2,13 @@
 description: FöretagMedlemskap
 solution: Experience Manager
 title: FöretagMedlemskap
-topic: Dynamic Media Image Production System API
 uuid: 005e01d0-178b-44a9-ad50-67c47beba421
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '21'
+source-wordcount: '28'
 ht-degree: 0%
 
 ---
