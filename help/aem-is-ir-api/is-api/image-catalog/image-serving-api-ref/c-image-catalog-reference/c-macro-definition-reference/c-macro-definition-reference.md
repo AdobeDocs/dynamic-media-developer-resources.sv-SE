@@ -4,12 +4,13 @@ seo-description: Information om makrots namn och definitionsparametrar.
 seo-title: Makrodefinitionsreferens
 solution: Experience Manager
 title: Makrodefinitionsreferens
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 66e9d7e7-bb1e-4f76-abdd-43679abd443b
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '35'
+source-wordcount: '43'
 ht-degree: 0%
 
 ---
