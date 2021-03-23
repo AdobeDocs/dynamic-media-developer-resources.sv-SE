@@ -4,12 +4,13 @@ seo-description: eCatalog Viewer stöder återgivning av bildschemaikoner ovanf�
 seo-title: Stöd för bildscheman
 solution: Experience Manager
 title: Stöd för bildscheman
-topic: Dynamic Media
 uuid: 69aeda21-909d-45da-bcf5-73ade8c5adda
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
