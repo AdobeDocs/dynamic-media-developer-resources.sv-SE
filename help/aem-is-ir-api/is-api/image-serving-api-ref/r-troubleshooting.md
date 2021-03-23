@@ -4,12 +4,13 @@ seo-description: Det här avsnittet innehåller lösningar på problem som iblan
 seo-title: Felsökning
 solution: Experience Manager
 title: Felsökning
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 39fdaf86-004b-4553-bde0-0367f3ef76b8
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
