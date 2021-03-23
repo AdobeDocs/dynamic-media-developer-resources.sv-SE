@@ -4,12 +4,13 @@ seo-description: Mappar en resurs till de PublishContexter där en resurs är ma
 seo-title: ResursPubliceraKontexter
 solution: Experience Manager
 title: ResursPubliceraKontexter
-topic: Dynamic Media Image Production System API
 uuid: 85914db3-d2ea-4e73-8f8d-6e18d2d44f55
+feature: Dynamic Media Classic,SDK/API,Resurshantering
+role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
