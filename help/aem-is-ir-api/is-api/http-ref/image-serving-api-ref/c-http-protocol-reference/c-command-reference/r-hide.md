@@ -4,12 +4,13 @@ seo-description: Dölj lager. Gör att ett lager kan döljas utan att det tas bo
 seo-title: hide
 solution: Experience Manager
 title: hide
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: fb50f2c4-fbac-4f0e-aa78-9cb1e47cc591
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '64'
 ht-degree: 0%
 
 ---
