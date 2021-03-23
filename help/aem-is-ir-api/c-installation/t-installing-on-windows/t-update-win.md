@@ -4,12 +4,13 @@ seo-description: Använd den här proceduren när du uppgraderar Dynamic Media I
 seo-title: Uppdaterar från IS 4.7.4 eller senare
 solution: Experience Manager
 title: Uppdaterar från IS 4.7.4 eller senare
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3d23f13a-a9be-45ff-9765-c71bdeb77c5f
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
