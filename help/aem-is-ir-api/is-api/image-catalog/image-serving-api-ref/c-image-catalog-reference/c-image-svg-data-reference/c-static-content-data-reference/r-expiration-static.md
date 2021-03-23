@@ -2,12 +2,13 @@
 description: Förfaller
 solution: Experience Manager
 title: Förfaller
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a727bbfc-940b-4d65-96d6-b2159b70bac1
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
