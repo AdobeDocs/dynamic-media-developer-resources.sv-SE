@@ -4,12 +4,13 @@ seo-description: Öka skärpan i texturen. Anger den skärpa som ska användas v
 seo-title: skarp
 solution: Experience Manager
 title: skarp
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8265eebf-9cec-4ad3-8b22-0f46f33a89f1
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '146'
 ht-degree: 2%
 
 ---
@@ -35,7 +36,7 @@ ht-degree: 2%
   <td class="stentry"> <p>0 alternativ skärpa (tidig). </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p> </td> 
+  <td class="stentry"> <p>1 </p> </td> 
   <td class="stentry"> <p>Mer skärpa (tidigt och sent). </p> </td> 
  </tr> 
 </table>
