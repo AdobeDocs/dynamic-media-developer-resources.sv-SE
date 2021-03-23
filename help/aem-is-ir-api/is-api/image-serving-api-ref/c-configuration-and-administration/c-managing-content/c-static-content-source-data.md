@@ -4,12 +4,13 @@ seo-description: Datafiler för statisk innehållskälla är bara tillgängliga 
 seo-title: Källdata för statiskt innehåll
 solution: Experience Manager
 title: Källdata för statiskt innehåll
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a3280ce7-20d7-4f4b-bf3e-e77cc7aca35f
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Administratör,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
