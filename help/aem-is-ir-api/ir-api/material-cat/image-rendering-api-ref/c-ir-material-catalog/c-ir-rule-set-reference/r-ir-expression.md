@@ -4,12 +4,13 @@ seo-description: Mönsterelement för reguljära uttryck. Valfritt i <rule>-elem
 seo-title: uttryck
 solution: Experience Manager
 title: uttryck
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e7ef3769-0090-42d6-8021-1c213f1ee391
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
