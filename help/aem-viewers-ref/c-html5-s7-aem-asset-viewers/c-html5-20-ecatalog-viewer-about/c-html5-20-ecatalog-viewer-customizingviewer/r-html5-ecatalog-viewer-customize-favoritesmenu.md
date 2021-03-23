@@ -4,12 +4,13 @@ seo-description: Listrutan Favoriter visas i kontrollfältet. Den består av en 
 seo-title: Favoriter-menyn
 solution: Experience Manager
 title: Favoriter-menyn
-topic: Dynamic Media
 uuid: 816e614d-8253-49a8-b57e-0b57b44db535
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
