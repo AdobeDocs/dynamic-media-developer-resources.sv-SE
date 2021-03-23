@@ -4,12 +4,13 @@ seo-description: Twitter-delningsverktyget består av en knapp som har lagts til
 seo-title: Twitter-delning
 solution: Experience Manager
 title: Twitter-delning
-topic: Dynamic Media
 uuid: c16ce881-e5d5-4864-bfad-69b4c9b51a21
+feature: Dynamic Media Classic,visningsprogram,SDK/API,360 VR-video
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
