@@ -4,12 +4,13 @@ seo-description: Alla visningsprogramkomponenter har stöd för ARIA-roller (Acc
 seo-title: Teknikstöd
 solution: Experience Manager
 title: Teknikstöd
-topic: Dynamic Media
 uuid: 9cc28ee1-378d-432e-9ecb-98054cb91179
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Flyout,Tillgänglighet
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
