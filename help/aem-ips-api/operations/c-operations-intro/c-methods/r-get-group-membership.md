@@ -4,12 +4,13 @@ seo-description: Returnerar medlemmarna i en grupp.
 seo-title: getGroupMembership
 solution: Experience Manager
 title: getGroupMembership
-topic: Dynamic Media Image Production System API
 uuid: 5ec48e8c-378b-43a3-b3dc-aa21dbf339b5
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
