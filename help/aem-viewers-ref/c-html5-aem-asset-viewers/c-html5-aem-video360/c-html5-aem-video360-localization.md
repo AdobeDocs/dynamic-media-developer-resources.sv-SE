@@ -4,12 +4,13 @@ seo-description: Viss innehåll som visas av visningsprogrammet kan lokaliseras.
 seo-title: Lokalisering av användargränssnittselement
 solution: Experience Manager
 title: Lokalisering av användargränssnittselement
-topic: Dynamic Media
 uuid: d5e75af0-03d6-4357-a540-4094313ed026
+feature: Dynamic Media Classic,visningsprogram,SDK/API,360 VR-video
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
