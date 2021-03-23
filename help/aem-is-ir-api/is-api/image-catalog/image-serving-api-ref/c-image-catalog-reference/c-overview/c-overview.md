@@ -4,12 +4,13 @@ seo-description: Bildkataloger används för att ge servern information om bilde
 seo-title: Översikt
 solution: Experience Manager
 title: Översikt
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e8c0401b-9161-4624-babb-6c7afb443e65
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
