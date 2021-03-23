@@ -4,12 +4,13 @@ seo-description: Maskerar en del av en bild. Masken är alltid kopplad till bild
 seo-title: Mask
 solution: Experience Manager
 title: Mask
-topic: Dynamic Media Image Production System API
 uuid: 06ac0f76-13ce-434b-ac60-6a2af9648f92
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '96'
 ht-degree: 1%
 
 ---
