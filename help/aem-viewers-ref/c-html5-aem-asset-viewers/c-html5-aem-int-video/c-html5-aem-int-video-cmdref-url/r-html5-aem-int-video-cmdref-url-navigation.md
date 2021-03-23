@@ -4,12 +4,13 @@ seo-description: URL-kommando för Interactive Video Viewer.
 seo-title: navigering
 solution: Experience Manager
 title: navigering
-topic: Dynamic Media
 uuid: eecc7458-153c-4f36-b29e-97451f275c0c
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '73'
 ht-degree: 1%
 
 ---
