@@ -4,12 +4,13 @@ seo-description: Egenskaper för svarsdata. Utvärderar den aktuella begäran so
 seo-title: proppar
 solution: Experience Manager
 title: proppar
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b9325654-81d6-4f00-bf0a-36650bea6b8d
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
@@ -34,7 +35,7 @@ Begäranden som stöder JSONP-svarsformatet gör att du kan ange namnet på JS-c
 
 `<reqHandler>` är namnet på JS-hanteraren som finns i JSONP-svaret. Endast tecknen a-z, A-Z och 0-9 tillåts. Valfritt. Standardvärdet är `s7jsonResponse`.
 
-I [Egenskaper](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9) finns en beskrivning av svarssyntaxen och MIME-svarstypen. HTTP-svaret kan nås med en TTL som baseras på `attribute::NonImgExpiration`.
+I [Egenskaper](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9) finns en beskrivning av svarssyntaxen och MIME-typen för svar. HTTP-svaret kan nås med en TTL som baseras på `attribute::NonImgExpiration`.
 
 Följande egenskaper returneras för /is/image-begäranden:
 
