@@ -4,12 +4,13 @@ seo-description: JavaScript API-referens för visningsprogrammet för utfällbar
 seo-title: dispose
 solution: Experience Manager
 title: dispose
-topic: Dynamic Media
 uuid: 08720384-1520-4a5d-bd26-a043ba708774
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Flyout
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
