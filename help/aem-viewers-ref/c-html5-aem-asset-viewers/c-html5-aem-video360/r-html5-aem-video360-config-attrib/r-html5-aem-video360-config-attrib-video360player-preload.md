@@ -4,12 +4,13 @@ seo-description: Anger om visningsprogrammet börjar läsa in videoinnehåll inn
 seo-title: Video360Player.preload
 solution: Experience Manager
 title: Video360Player.preload
-topic: Dynamic Media
 uuid: 6e3b95b8-d585-4164-8665-6211000689fe
+feature: Dynamic Media Classic,visningsprogram,SDK/API,360 VR-video
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '146'
 ht-degree: 5%
 
 ---
