@@ -4,12 +4,13 @@ seo-description: Används av PhotoshopOptions/layerNaming.
 seo-title: Namngivningslägen för Photoshop-lager
 solution: Experience Manager
 title: Namngivningslägen för Photoshop-lager
-topic: Dynamic Media Image Production System API
 uuid: bade8ee9-766f-4c03-88d4-4d54faecd40e
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '26'
+source-wordcount: '33'
 ht-degree: 0%
 
 ---
