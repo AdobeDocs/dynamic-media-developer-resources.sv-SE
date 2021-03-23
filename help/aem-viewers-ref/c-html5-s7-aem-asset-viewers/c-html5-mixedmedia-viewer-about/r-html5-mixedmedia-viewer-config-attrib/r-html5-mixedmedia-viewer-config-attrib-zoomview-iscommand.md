@@ -2,12 +2,13 @@
 description: ZoomView.iscommand
 solution: Experience Manager
 title: ZoomView.iscommand
-topic: Dynamic Media
 uuid: e2a9388d-c753-4988-9aa0-73c4d0428d67
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Mixa medieuppsättningar
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '69'
 ht-degree: 1%
 
 ---
