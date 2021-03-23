@@ -1,16 +1,17 @@
 ---
 description: All visuell anpassning och de flesta beteendeanpassningar för visningsprogrammet för blandade media görs genom att en anpassad CSS skapas.
-keywords: responsive
+keywords: responsiv
 seo-description: All visuell anpassning och de flesta beteendeanpassningar för visningsprogrammet för blandade media görs genom att en anpassad CSS skapas.
 seo-title: Anpassa blandad mediavisare
 solution: Experience Manager
 title: Anpassa blandad mediavisare
-topic: Dynamic Media
 uuid: 039462a7-2915-48f3-8d4b-0c527801b85a
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Mixa medieuppsättningar
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1350'
+source-wordcount: '1363'
 ht-degree: 0%
 
 ---
