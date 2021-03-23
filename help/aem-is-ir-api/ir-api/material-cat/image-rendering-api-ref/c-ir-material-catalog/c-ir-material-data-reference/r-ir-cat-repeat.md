@@ -4,13 +4,14 @@ seo-description: Upprepningsläge för textur. Anger hur texturbilder läggs sid
 seo-title: Upprepa
 solution: Experience Manager
 title: Upprepa
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: bd15a573-9902-4672-992d-90d171160a46
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 14%
+source-wordcount: '150'
+ht-degree: 13%
 
 ---
 
@@ -31,7 +32,7 @@ Följande värden är tillåtna för repeterbara texturmaterial:
   <td class="- topic/stentry stentry"> <p>Rakt upprepning. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
-  <td class="- topic/stentry stentry"> <p>1 </p></td> 
+  <td class="- topic/stentry stentry"> <p>3 </p></td> 
   <td class="- topic/stentry stentry"> <p>4-vägs slumpmässig indelning. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
@@ -39,7 +40,7 @@ Följande värden är tillåtna för repeterbara texturmaterial:
   <td class="- topic/stentry stentry"> <p>8-vägs slumpmässig indelning. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
-  <td class="- topic/stentry stentry"> <p>1 </p></td> 
+  <td class="- topic/stentry stentry"> <p>3 </p></td> 
   <td class="- topic/stentry stentry"> <p>Diamantindelning. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
