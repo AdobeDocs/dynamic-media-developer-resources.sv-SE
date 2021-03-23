@@ -2,12 +2,13 @@
 description: Händelseåteranrop
 solution: Experience Manager
 title: Händelseåteranrop
-topic: Dynamic Media
 uuid: c347f178-254e-45da-b06d-394098064693
+feature: Dynamic Media Classic,visningsprogram,SDK/API,360 VR-video
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
