@@ -1,13 +1,14 @@
 ---
 description: Inline Zoom Viewer är ett bildvisningsprogram. Den visar en statisk bild där den zoomade versionen visas över den statiska bilden när en användare rullar över eller vidrör huvudvyn. Visningsprogrammet fungerar med bilduppsättningar och navigeringen görs med hjälp av färgrutor. Den är utformad för att fungera på stationära datorer och mobila enheter.
-keywords: responsive
+keywords: responsiv
 solution: Experience Manager
 title: Textbunden zoom
-topic: Dynamic Media
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Textbunden zoom
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2403'
+source-wordcount: '2415'
 ht-degree: 0%
 
 ---
