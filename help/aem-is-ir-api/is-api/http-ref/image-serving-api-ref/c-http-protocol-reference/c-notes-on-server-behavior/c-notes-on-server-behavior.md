@@ -4,12 +4,13 @@ seo-description: Det finns flera saker med serverfunktioner som bör beaktas.
 seo-title: Anteckningar om serverfunktion
 solution: Experience Manager
 title: Anteckningar om serverfunktion
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: cca17322-4058-43cc-b022-ef8df52c0888
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '69'
 ht-degree: 0%
 
 ---
