@@ -4,12 +4,13 @@ seo-description: En array med metadata.
 seo-title: MetadataArray
 solution: Experience Manager
 title: MetadataArray
-topic: Dynamic Media Image Production System API
 uuid: ad814354-9fba-47fc-9011-53d6e88dd81b
+feature: Dynamic Media Classic,SDK/API,Metadata
+role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '27'
+source-wordcount: '35'
 ht-degree: 0%
 
 ---
