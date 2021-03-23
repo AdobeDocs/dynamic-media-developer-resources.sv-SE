@@ -4,12 +4,13 @@ seo-description: Konfigurationsattributdokumentation för eCatalog Viewer.
 seo-title: Kommandoreferens - Konfigurationsattribut
 solution: Experience Manager
 title: Kommandoreferens - Konfigurationsattribut
-topic: Dynamic Media
 uuid: 823ad411-653a-44de-97de-147e3b27a917
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
