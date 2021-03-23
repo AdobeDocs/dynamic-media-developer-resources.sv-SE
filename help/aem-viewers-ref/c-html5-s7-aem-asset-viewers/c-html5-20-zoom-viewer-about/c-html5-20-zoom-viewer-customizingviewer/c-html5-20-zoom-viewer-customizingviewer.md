@@ -1,16 +1,17 @@
 ---
 description: All visuell anpassning och de flesta beteendeanpassningar för Zoomvisningsprogrammet görs genom att en anpassad CSS skapas.
-keywords: responsive
+keywords: responsiv
 seo-description: All visuell anpassning och de flesta beteendeanpassningar för Zoomvisningsprogrammet görs genom att en anpassad CSS skapas.
 seo-title: Anpassa Zoom Viewer
 solution: Experience Manager
 title: Anpassa Zoom Viewer
-topic: Dynamic Media
 uuid: 7ecbc4cc-b5c0-4f4a-b747-03c484de6851
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1354'
 ht-degree: 0%
 
 ---
@@ -50,7 +51,7 @@ För att det ska vara lättare att skapa responsiv CSS-kod har visningsprogramme
 
 Den första gruppen med CSS-markörer innehåller klasserna `.s7size_large`, `.s7size_medium` och `.s7size_small`. De tillämpas baserat på visningsbehållarens körningsområde. Om visningsområdet är lika stort eller större än storleken på en vanlig skrivbordsskärm används `.s7size_large`. om området ligger nära en gemensam surfplatta tilldelas `.s7size_medium`. För områden som liknar mobiltelefonskärmar ställs `.s7size_small` in. Det främsta syftet med dessa CSS-markörer är att skapa olika användargränssnittslayouter för olika skärmar och visningsstorlekar.
 
-Den andra gruppen med CSS-markörer innehåller `.s7mouseinput` och `.s7touchinput`. `.s7touchinput` är inställt om den aktuella enheten har funktioner för pekrörelser, i annat fall  `.s7mouseinput` används. Dessa markörer är främst avsedda att skapa indataelement för användargränssnittet med olika skärmstorlekar för olika indatatyper, eftersom större element normalt krävs för pekrörelser. Om enheten har både musindata- och pekfunktioner är `.s7touchinput` inställt och visningsprogrammet återger ett pekvänligt användargränssnitt.
+Den andra gruppen med CSS-markörer innehåller `.s7mouseinput` och `.s7touchinput`. `.s7touchinput` är inställt om den aktuella enheten har funktioner för pekrörelser, i annat fall  `.s7mouseinput` används. Dessa markörer är främst avsedda att skapa indataelement i användargränssnittet med olika skärmstorlekar för olika indatatyper, eftersom större element normalt krävs för pekrörelser. Om enheten har både musindata- och pekfunktioner är `.s7touchinput` inställt och visningsprogrammet återger ett pekvänligt användargränssnitt.
 
 Följande exempel på CSS anger storleken på inzoomningsknappen till 28 x 28 pixlar på system med musindata och till 56 x 56 pixlar på enheter med pekskärm. Dessutom döljs knappen helt om visningsprogrammets storlek blir mycket liten:
 
