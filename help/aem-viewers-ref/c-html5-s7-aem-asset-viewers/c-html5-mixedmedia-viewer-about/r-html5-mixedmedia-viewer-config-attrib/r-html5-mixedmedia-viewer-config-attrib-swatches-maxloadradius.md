@@ -2,12 +2,13 @@
 description: Swatches.maxloadradius
 solution: Experience Manager
 title: Swatches.maxloadradius
-topic: Dynamic Media
 uuid: eb4a6fca-da18-4291-b7fb-e402156c85a0
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Mixa medieuppsättningar
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '65'
 ht-degree: 1%
 
 ---
