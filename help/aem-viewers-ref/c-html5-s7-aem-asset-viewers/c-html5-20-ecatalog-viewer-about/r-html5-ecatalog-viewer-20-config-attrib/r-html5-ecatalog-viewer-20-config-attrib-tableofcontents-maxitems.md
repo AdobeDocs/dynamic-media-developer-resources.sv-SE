@@ -2,12 +2,13 @@
 description: TableOfContents.maxitems
 solution: Experience Manager
 title: TableOfContents.maxitems
-topic: Dynamic Media
 uuid: b1ed5145-e5d1-4458-94c4-00ee55f58a05
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '69'
 ht-degree: 1%
 
 ---
