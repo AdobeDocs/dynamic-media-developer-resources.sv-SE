@@ -4,12 +4,13 @@ seo-description: Visst innehåll som visas i eCatalog Viewer kan lokaliseras, t.
 seo-title: Lokalisering av användargränssnittselement
 solution: Experience Manager
 title: Lokalisering av användargränssnittselement
-topic: Dynamic Media
 uuid: 836cb874-2ce6-4737-9c10-f41af003a285
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
