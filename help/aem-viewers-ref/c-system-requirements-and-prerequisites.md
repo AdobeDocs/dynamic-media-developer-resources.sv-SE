@@ -2,12 +2,13 @@
 title: Systemkrav för Dynamic Media HTML5-visningsprogram
 description: Systemkrav för Dynamic Media HTML5-visningsprogram.
 solution: Experience Manager
-topic: Dynamic Media
 contentOwner: Rick Brough
+feature: Dynamic Media Classic,visningsprogram,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: da9f05a51ff8abd88f16024bccd1c7170a36d40f
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
