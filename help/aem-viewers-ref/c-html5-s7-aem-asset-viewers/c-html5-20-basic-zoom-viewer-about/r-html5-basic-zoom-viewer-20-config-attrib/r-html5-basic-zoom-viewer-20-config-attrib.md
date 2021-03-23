@@ -4,12 +4,13 @@ seo-description: Dokumentation för konfigurationsattribut för Basic Zoom Viewe
 seo-title: Kommandoreferens - Konfigurationsattribut
 solution: Experience Manager
 title: Kommandoreferens - Konfigurationsattribut
-topic: Dynamic Media
 uuid: 6a96ed89-5ef3-4efd-82ed-08f3ad8c73cf
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '43'
+source-wordcount: '53'
 ht-degree: 0%
 
 ---
