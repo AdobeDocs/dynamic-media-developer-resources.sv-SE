@@ -4,12 +4,13 @@ seo-description: Uppdaterar resursbehörigheter.
 seo-title: updateAssetPermissions
 solution: Experience Manager
 title: updateAssetPermissions
-topic: Dynamic Media Image Production System API
 uuid: feb2faf3-81de-436e-82de-1e41df03508f
+feature: Dynamic Media Classic,SDK/API,Resurshantering
+role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '67'
 ht-degree: 0%
 
 ---
