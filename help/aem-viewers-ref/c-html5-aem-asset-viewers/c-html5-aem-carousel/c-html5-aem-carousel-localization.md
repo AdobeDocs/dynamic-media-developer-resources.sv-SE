@@ -4,12 +4,13 @@ seo-description: Visst innehåll som visas i Carousel Viewer kan lokaliseras. De
 seo-title: Lokalisering av användargränssnittselement
 solution: Experience Manager
 title: Lokalisering av användargränssnittselement
-topic: Dynamic Media
 uuid: 82e4dc72-cc12-4ab5-8370-6270f9a3d45f
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
