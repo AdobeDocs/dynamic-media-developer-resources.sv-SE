@@ -4,12 +4,13 @@ seo-description: Typ av begäran. Anger vilken typ av data som begärs.
 seo-title: req
 solution: Experience Manager
 title: req
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9dd13338-3457-477f-96e7-3ace7266d0ab
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '973'
 ht-degree: 0%
 
 ---
@@ -183,7 +184,7 @@ Kör de angivna kommandona och returnerar den återgivna bilden som maskeras av 
 
 `props`
 
-Kör de angivna kommandona och returnerar vinjettegenskaper och grupp- eller objektegenskaper i stället för den återgivna bilden. I [Egenskaper](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a) finns en beskrivning av svarssyntaxen och MIME-svarstypen. Standardvalet gäller om inte `obj=` eller `sel=` också anges (se [ `obj=` ](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-obj.md#reference-31e7dac7931b4e0eb3c7589f120a1e6a)).
+Kör de angivna kommandona och returnerar vinjettegenskaper och grupp- eller objektegenskaper i stället för den återgivna bilden. I [Egenskaper](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a) finns en beskrivning av svarssyntaxen och MIME-typen för svar. Standardvalet gäller om inte `obj=` eller `sel=` också anges (se [ `obj=` ](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-obj.md#reference-31e7dac7931b4e0eb3c7589f120a1e6a)).
 
 Följande egenskaper kan ingå i svaret:
 
