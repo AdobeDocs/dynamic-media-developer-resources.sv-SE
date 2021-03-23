@@ -4,12 +4,13 @@ seo-description: Vissa program kan kräva en annan belysningskarta för olika ty
 seo-title: Använda flera belysningskartor
 solution: Experience Manager
 title: Använda flera belysningskartor
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 24d86229-6e88-4fe2-80ef-30461aee3db5
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
