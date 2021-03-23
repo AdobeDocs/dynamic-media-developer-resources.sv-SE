@@ -4,12 +4,13 @@ seo-description: Hämtar alla systemegenskaper i en enda begäran.
 seo-title: getSystemProperties
 solution: Experience Manager
 title: getSystemProperties
-topic: Dynamic Media Image Production System API
 uuid: 08ea86ba-bde5-45a1-920a-04f784395e6a
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '71'
 ht-degree: 0%
 
 ---
