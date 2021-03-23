@@ -4,12 +4,13 @@ seo-description: En array med bildschemadefinitioner.
 seo-title: ImageMapDefinitionArray
 solution: Experience Manager
 title: ImageMapDefinitionArray
-topic: Dynamic Media Image Production System API
 uuid: 3d828b12-68df-4180-b39b-d261c3ac9539
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '32'
+source-wordcount: '39'
 ht-degree: 0%
 
 ---
