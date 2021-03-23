@@ -4,12 +4,13 @@ seo-description: De kommandon som stöds av Image Serving listas nedan, gruppera
 seo-title: Översikt över kommandot Image Serving HTTP protocol
 solution: Experience Manager
 title: Översikt över kommandot Image Serving HTTP protocol
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 14207f6a-3573-4f03-988d-249c7c67f2ba
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
