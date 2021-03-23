@@ -4,12 +4,13 @@ seo-description: Använd de här serverinställningarna för att ange bildstorle
 seo-title: Bildstorleksbegränsningar
 solution: Experience Manager
 title: Bildstorleksbegränsningar
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6736e652-c495-45a2-bdd2-9975f99af0a2
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Administratör,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
