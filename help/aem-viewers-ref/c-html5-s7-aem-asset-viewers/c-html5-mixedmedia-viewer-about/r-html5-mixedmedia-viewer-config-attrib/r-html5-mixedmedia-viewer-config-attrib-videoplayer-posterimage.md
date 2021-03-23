@@ -2,12 +2,13 @@
 description: VideoPlayer.posterimage
 solution: Experience Manager
 title: VideoPlayer.posterimage
-topic: Dynamic Media
 uuid: 28663f44-11cb-4522-bd12-d6bec17b4173
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Mixa medieuppsättningar
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ ht-degree: 0%
       <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph"> ?</span> som  <span class="codeph"> %3F</span> </p> </li> 
       <li id="li_391CCF067F734480B2B4AFC9760C479A"> <p> <span class="codeph"> &amp;</span> som  <span class="codeph"> %26</span> </p> </li> 
       <li id="li_6824B66A55554C5A8B12874DCF5BFAEE"> <p> <span class="codeph"> =</span> som  <span class="codeph"> %3D</span> </p> </li> 
-     </ul> </p> <p>Om <span class="codeph"><span class="varname"> image_id</span></span>-värdet utelämnas försöker komponenten att använda standardförhandsvisningsbilden för den resursen i stället. </p> <p>När videon har angetts som en sökväg hämtas standardfilens katalog-ID från videosökvägen som <span class="codeph"> catalog_id/image_id</span>-paret där <span class="codeph"> catalog_id</span> motsvarar den första token i sökvägen och <span class="codeph"> image_id</span> är namnet på videon där tillägget har tagits bort. Om bilden med detta ID inte finns visas inte förhandsvisningsbilden. </p> <p>Om du vill förhindra att standardförhandsvisningsbilden visas anger du <span class="codeph"> none</span> som värde för förhandsvisningsbilden. Om bara <span class="codeph"><span class="varname"> isCommands</span></span> anges används kommandona på standardförhandsvisningsbilden innan bilden visas. </p> </td> 
+     </ul> </p> <p>Om <span class="codeph"><span class="varname"> image_id</span></span>-värdet utelämnas försöker komponenten använda standardförhandsvisningsbilden för den resursen i stället. </p> <p>När videon har angetts som en sökväg hämtas standardfilens katalog-ID från videosökvägen som <span class="codeph"> catalog_id/image_id</span>-paret där <span class="codeph"> catalog_id</span> motsvarar den första token i sökvägen och <span class="codeph"> image_id</span> är namnet på videon där tillägget har tagits bort. Om bilden med detta ID inte finns visas inte förhandsvisningsbilden. </p> <p>Om du vill förhindra att standardförhandsvisningsbilden visas anger du <span class="codeph"> none</span> som värde för förhandsvisningsbilden. Om bara <span class="codeph"><span class="varname"> isCommands</span></span> anges används kommandona på standardförhandsvisningsbilden innan bilden visas. </p> </td> 
   </tr> 
  </tbody> 
 </table>
