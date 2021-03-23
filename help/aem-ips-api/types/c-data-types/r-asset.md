@@ -4,12 +4,13 @@ seo-description: Ett objekt eller en behållare i mapphierarkin.
 seo-title: Tillgång
 solution: Experience Manager
 title: Tillgång
-topic: Dynamic Media Image Production System API
 uuid: 758ac593-98d8-4366-a723-a06435c7fd3c
+feature: Dynamic Media Classic,SDK/API,Resurshantering
+role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
