@@ -4,12 +4,13 @@ seo-description: Helskärmsknappen gör att videospelaren övergår till eller a
 seo-title: Helskärmsknapp
 solution: Experience Manager
 title: Helskärmsknapp
-topic: Dynamic Media
 uuid: d09832e4-5058-420a-8ee9-c6b5a2d42190
+feature: Dynamic Media Classic,visningsprogram,SDK/API,360 VR-video
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
