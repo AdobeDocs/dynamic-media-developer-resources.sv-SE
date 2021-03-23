@@ -4,12 +4,13 @@ seo-description: Om du klickar eller trycker på den här knappen stängs webbsi
 seo-title: Knappen Stäng
 solution: Experience Manager
 title: Knappen Stäng
-topic: Dynamic Media
 uuid: d30e1bdf-31a9-463f-99f7-a978acb50ebc
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Mixa medieuppsättningar
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
