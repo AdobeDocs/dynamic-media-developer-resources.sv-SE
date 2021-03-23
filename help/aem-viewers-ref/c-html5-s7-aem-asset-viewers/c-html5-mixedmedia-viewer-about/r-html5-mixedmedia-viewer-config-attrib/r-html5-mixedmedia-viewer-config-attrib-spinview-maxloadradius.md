@@ -4,12 +4,13 @@ seo-description: Representerar det maximala antalet bildrutor som ska förhandsl
 seo-title: SpinView.maxloadradius
 solution: Experience Manager
 title: SpinView.maxloadradius
-topic: Dynamic Media
 uuid: e1b9fa84-837c-465e-8d37-0b6867404cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Mixa medieuppsättningar
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
