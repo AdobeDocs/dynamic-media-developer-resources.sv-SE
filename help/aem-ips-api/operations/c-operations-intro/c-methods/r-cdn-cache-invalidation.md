@@ -2,11 +2,12 @@
 description: Vidarebefordrar den angivna listan med URL:er till Dynamic Media CDN-leverantören (Content Distribution Network) för att ogiltigförklara deras befintliga cache för HTTP-svar.
 solution: Experience Manager
 title: cdnCacheInvalidation
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -98,7 +99,7 @@ Bekräftelsemeddelanden från Dynamic Media CDN-partnern kan skickas till den so
 
 ## Exempel {#section-f414361a58e84dfcbbac30a358d02125}
 
-I det här exemplet begärs fyra URL:er som ska ogiltigförklaras i CDN-cachen. Svaret innehåller en sammanfattning av om åtgärderna har slutförts och en lista med felinformation som har skickats direkt från CDN för att hjälpa klienten att använda den här funktionen.
+I det här exemplet begärs fyra URL:er som ska ogiltigförklaras i CDN-cachen. Svaret innehåller en sammanfattning av om åtgärderna lyckades och en lista med felinformation som tillhandahålls direkt från CDN för att hjälpa klienten att använda den här funktionen.
 
 `getCdnCacheInvalidationStatus` operation.
 
