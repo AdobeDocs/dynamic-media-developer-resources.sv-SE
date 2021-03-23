@@ -4,13 +4,14 @@ seo-description: Strukturåtergivningsjustering. Anger vilken av ursprungspunkte
 seo-title: justera
 solution: Experience Manager
 title: justera
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0b24cd82-f9b2-48f4-9052-8c2026370ff7
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 2%
+source-wordcount: '205'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +28,7 @@ Strukturåtergivningsjustering. Anger vilken av ursprungspunkterna som definiera
   <td class="stentry"> <p>Standardstartpunkt (mittmatchning). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p></td> 
+  <td class="stentry"> <p>1 </p></td> 
   <td class="stentry"> <p>Löpande matchningsursprung. </p></td> 
  </tr> 
  <tr class="strow"> 
