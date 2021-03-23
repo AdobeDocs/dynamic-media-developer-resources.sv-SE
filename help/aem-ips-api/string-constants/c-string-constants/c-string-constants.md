@@ -2,12 +2,13 @@
 description: Strängkonstanter
 solution: Experience Manager
 title: Strängkonstanter
-topic: Dynamic Media Image Production System API
 uuid: 2cc2fb9f-ad32-4ac6-8e58-c8a11b786d65
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
