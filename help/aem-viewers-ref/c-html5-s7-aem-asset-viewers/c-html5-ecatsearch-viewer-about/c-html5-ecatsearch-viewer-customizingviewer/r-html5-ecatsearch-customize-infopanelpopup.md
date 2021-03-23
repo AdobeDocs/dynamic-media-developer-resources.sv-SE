@@ -2,11 +2,12 @@
 description: Popup-menyn i panelen Info visas mitt i visningsprogramområdet när en användare aktiverar ett bildschema som har en rollover_key-egenskap definierad i Dynamic Media Classic och om funktionen i informationspanelen är korrekt konfigurerad för visningsprogrammet.
 solution: Experience Manager
 title: Popup för panelen Info
-topic: Dynamic Media
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -102,7 +103,7 @@ Informationspanelens dialogruta visas som standard i mitten av visningsprogramom
  </tbody> 
 </table>
 
-Exempel - ställ in en dialogruta med 300 x 200 pixlar i informationspanelen som är centrerad i visningsområdet; har utfyllnad på 40 pixlar längst upp och utfyllnad på 10 pixlar på alla andra sidor, en ljusgrå bakgrund och en radie och skugga på 10 pixlar.
+Exempel - ställ in en dialogruta med 300 x 200 pixlar i informationspanelen som är centrerad i visningsområdet. har utfyllnad på 40 pixlar längst upp och utfyllnad på 10 pixlar på alla andra sidor, en ljusgrå bakgrund och en radie och skugga på 10 pixlar.
 
 ```
 .s7ecatalogsearchviewer .s7infopanelpopup .s7overlay { 
