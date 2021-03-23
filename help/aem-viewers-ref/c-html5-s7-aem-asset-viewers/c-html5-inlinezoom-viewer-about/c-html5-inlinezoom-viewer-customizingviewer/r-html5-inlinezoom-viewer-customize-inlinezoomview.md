@@ -4,12 +4,13 @@ seo-description: Huvudvyn består av den statiska bilden, den zoomade bilden som
 seo-title: Utfällbar zoomvy
 solution: Experience Manager
 title: Utfällbar zoomvy
-topic: Dynamic Media
 uuid: a918c775-a36a-44e8-9ca4-90cb8f5c3a5e
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Textbunden zoom
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
