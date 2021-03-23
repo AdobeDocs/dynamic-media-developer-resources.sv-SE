@@ -4,12 +4,13 @@ seo-description: Multibithastighetsdata.
 seo-title: mbrSet
 solution: Experience Manager
 title: mbrSet
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 829c44ce-c66a-49a9-ba69-9e8e94ef8921
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
@@ -32,7 +33,7 @@ Multibithastighetsdata.
  </tr> 
 </table>
 
-Returnerar ett text- eller xml-svar som innehåller en lista med URL:er (och motsvarande bithastighet) som motsvarar giltiga videoposter i videouppsättningen som är kopplad till nettosökvägs-ID.
+Returnerar ett text- eller xml-svar som innehåller en lista med URL:er (och motsvarande bithastighet) som motsvarar giltiga videoposter i en videouppsättning som är kopplad till nätsökvägs-ID.
 
 Det tidigare kravet på att en giltig videopost innehåller ett värde för `catalog::VideoBitRate` har nu förenklats. Posten kan innehålla ett värde för `catalog::VideoBitRate`*eller* `catalog::AudioBitRate`*eller* `catalog::TotalStreamBitRate`. Endast ett av dessa måste definieras för att videoposten ska vara giltig. Observera att kraven för `catalog::Path` och ett giltigt videofiltillägg inte har ändrats.
 
