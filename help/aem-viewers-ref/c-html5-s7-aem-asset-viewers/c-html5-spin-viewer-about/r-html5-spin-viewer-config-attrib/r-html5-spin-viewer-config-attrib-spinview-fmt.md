@@ -2,12 +2,13 @@
 description: SpinView.fmt
 solution: Experience Manager
 title: SpinView.fmt
-topic: Dynamic Media
 uuid: 6004d8ab-7dc7-451d-b0e2-4f6d308203d1
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,snurra uppsättningar
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '83'
 ht-degree: 1%
 
 ---
