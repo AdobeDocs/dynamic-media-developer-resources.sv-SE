@@ -4,12 +4,13 @@ seo-description: En array med masker.
 seo-title: MaskArray
 solution: Experience Manager
 title: MaskArray
-topic: Dynamic Media Image Production System API
 uuid: c57fcdae-2cad-48ca-8ade-bb81efee142c
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '24'
+source-wordcount: '31'
 ht-degree: 0%
 
 ---
