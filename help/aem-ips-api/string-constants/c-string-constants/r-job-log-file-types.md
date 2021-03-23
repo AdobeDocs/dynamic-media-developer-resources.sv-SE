@@ -4,12 +4,13 @@ seo-description: Används av JobLogDetial/assetType.
 seo-title: Filtyper för jobbloggar
 solution: Experience Manager
 title: Filtyper för jobbloggar
-topic: Dynamic Media Image Production System API
 uuid: 52ec039f-51ef-4e4a-a927-2616d3675e86
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '26'
+source-wordcount: '33'
 ht-degree: 0%
 
 ---
