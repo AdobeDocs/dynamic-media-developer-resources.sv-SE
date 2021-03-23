@@ -4,12 +4,13 @@ seo-description: Standardmaterialskärpa. Anger standardläget för materialskä
 seo-title: Sharp
 solution: Experience Manager
 title: Sharp
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f6a6101c-3d9e-4557-892b-be7943b4fdca
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '122'
 ht-degree: 3%
 
 ---
@@ -29,7 +30,7 @@ Enum.
   <td class="stentry"> <p>Ingen skärpa. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p></td> 
+  <td class="stentry"> <p>1 </p></td> 
   <td class="stentry"> <p>Normal skärpa (efter omformningen). </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -37,7 +38,7 @@ Enum.
   <td class="stentry"> <p>Alternativ skärpa (före omformningen). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p></td> 
+  <td class="stentry"> <p>1 </p></td> 
   <td class="stentry"> <p>Mer skärpa (både före och efter omformningen). </p> </td> 
  </tr> 
 </table>
