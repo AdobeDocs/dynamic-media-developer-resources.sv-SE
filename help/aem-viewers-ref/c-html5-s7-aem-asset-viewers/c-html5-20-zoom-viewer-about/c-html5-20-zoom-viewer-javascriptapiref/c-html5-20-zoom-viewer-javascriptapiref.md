@@ -4,12 +4,13 @@ seo-description: Huvudklassen i Zoom Viewer är BasicZoomViewer. Den deklareras 
 seo-title: Javascript API-referens för Zoom Viewer
 solution: Experience Manager
 title: Javascript API-referens för Zoom Viewer
-topic: Dynamic Media
 uuid: add69992-7613-4ec2-9845-f01bf0392d0c
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
