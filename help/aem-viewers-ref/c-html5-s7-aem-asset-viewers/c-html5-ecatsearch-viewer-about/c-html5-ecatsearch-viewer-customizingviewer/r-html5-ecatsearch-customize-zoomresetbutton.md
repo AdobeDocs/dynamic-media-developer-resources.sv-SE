@@ -4,12 +4,13 @@ seo-description: Om du klickar eller trycker på den här knappen återställs e
 seo-title: Knappen Zoomåterställning
 solution: Experience Manager
 title: Knappen Zoomåterställning
-topic: Dynamic Media
 uuid: 19ef5c77-8352-4021-a022-adec6ecbf078
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
