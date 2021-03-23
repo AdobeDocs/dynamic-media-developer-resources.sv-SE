@@ -4,12 +4,13 @@ seo-description: RGB-standardprofil för utdatafärg. Anger namnet på ICC-färg
 seo-title: IccProfileRgb
 solution: Experience Manager
 title: IccProfileRgb
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0fe63607-c328-468a-aa55-0c4d16cf9f0f
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
