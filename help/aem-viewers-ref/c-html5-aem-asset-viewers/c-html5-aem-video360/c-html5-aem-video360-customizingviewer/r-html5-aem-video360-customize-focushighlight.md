@@ -4,12 +4,13 @@ seo-description: Markering av indatafokus som visas runt element i användargrä
 seo-title: Fokusmarkering
 solution: Experience Manager
 title: Fokusmarkering
-topic: Dynamic Media
 uuid: 99d822b5-29ea-4229-8eb8-e3903322b7fa
+feature: Dynamic Media Classic,visningsprogram,SDK/API,360 VR-video
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
