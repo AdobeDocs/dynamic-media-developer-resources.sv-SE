@@ -2,11 +2,12 @@
 title: Installera flera Dynamic Media-visningsprogram på samma server
 description: Instruktioner för installation av Dynamic Media Viewer API.
 solution: Experience Manager
-topic: Dynamic Media
+feature: Dynamic Media Classic,visningsprogram,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 07eb6cf84a46753b41307187d5c5b2a077fa9009
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '171'
 ht-degree: 1%
 
 ---
