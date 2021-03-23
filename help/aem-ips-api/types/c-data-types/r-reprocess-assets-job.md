@@ -4,12 +4,13 @@ seo-description: Jobbtyp som tillåter ombearbetning av tidigare överförda pri
 seo-title: ÅterbearbetaResurserJobb
 solution: Experience Manager
 title: ÅterbearbetaResurserJobb
-topic: Dynamic Media Image Production System API
 uuid: 5b4aa838-0fb4-4ae8-be5a-8ce1e1487127
+feature: Dynamic Media Classic,SDK/API,Resurshantering
+role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
