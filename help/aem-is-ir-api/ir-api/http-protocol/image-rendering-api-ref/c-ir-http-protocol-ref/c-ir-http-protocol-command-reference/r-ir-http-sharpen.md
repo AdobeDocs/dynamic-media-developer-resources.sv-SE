@@ -4,12 +4,13 @@ seo-description: Öka skärpan i svarsbilden. Ytterligare skärpa kan användas 
 seo-title: skärpa
 solution: Experience Manager
 title: skärpa
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0fc0b694-f332-4a16-9970-6b699528f165
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '79'
 ht-degree: 2%
 
 ---
@@ -27,7 +28,7 @@ ht-degree: 2%
   <td class="stentry"> <p>Ingen skärpa. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p></td> 
+  <td class="stentry"> <p>1 </p></td> 
   <td class="stentry"> <p>Skärpa. </p></td> 
  </tr> 
 </table>
