@@ -4,12 +4,13 @@ seo-description: Knappens position hanteras helt av Favoriter-menyn.
 seo-title: Knappen Visa alla favoriter
 solution: Experience Manager
 title: Knappen Visa alla favoriter
-topic: Dynamic Media
 uuid: f9fd2110-d225-4eba-8e21-acc9c0e1dfd4
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '217'
 ht-degree: 0%
 
 ---
