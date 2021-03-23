@@ -2,12 +2,13 @@
 description: FlyoutZoomView.imagereload
 solution: Experience Manager
 title: FlyoutZoomView.imagereload
-topic: Dynamic Media
 uuid: 98a84ba1-4b89-424a-ac2e-4a59af33cec0
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Textbunden zoom
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '132'
 ht-degree: 1%
 
 ---
