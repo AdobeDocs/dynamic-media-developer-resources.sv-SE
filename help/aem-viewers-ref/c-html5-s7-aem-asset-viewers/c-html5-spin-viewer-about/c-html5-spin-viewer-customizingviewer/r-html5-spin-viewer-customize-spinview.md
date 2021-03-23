@@ -4,12 +4,13 @@ seo-description: Huvudvyn består av rotationsbilden.
 seo-title: Vyn Snurra
 solution: Experience Manager
 title: Vyn Snurra
-topic: Dynamic Media
 uuid: 74f42373-b08c-43c8-8f08-e61a09655b61
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,snurra uppsättningar
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
