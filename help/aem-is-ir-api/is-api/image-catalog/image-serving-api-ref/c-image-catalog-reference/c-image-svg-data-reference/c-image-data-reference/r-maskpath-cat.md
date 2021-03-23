@@ -4,12 +4,13 @@ seo-description: Sökväg till maskfil. Relativ eller absolut sökväg och namn 
 seo-title: MaskPath
 solution: Experience Manager
 title: MaskPath
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a2d1f08a-0a26-41a6-9be2-f5cc2afb15c4
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
