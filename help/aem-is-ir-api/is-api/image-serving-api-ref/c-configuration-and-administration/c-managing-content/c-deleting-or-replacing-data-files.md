@@ -4,12 +4,13 @@ seo-description: När det är enkelt och enkelt att lägga till nya datafiler m�
 seo-title: Ta bort eller ersätta datafiler
 solution: Experience Manager
 title: Ta bort eller ersätta datafiler
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7b446144-48f6-4b50-93ec-0287425d932a
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Administratör,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
