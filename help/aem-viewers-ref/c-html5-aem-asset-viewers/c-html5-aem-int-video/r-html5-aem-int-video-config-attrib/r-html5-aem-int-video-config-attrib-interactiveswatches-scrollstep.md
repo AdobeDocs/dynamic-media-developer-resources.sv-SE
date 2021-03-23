@@ -4,12 +4,13 @@ seo-description: Konfigurationsattribut för Interactive Video Viewer.
 seo-title: InteractiveSwatches.scrollstep
 solution: Experience Manager
 title: InteractiveSwatches.scrollstep
-topic: Dynamic Media
 uuid: 6f521aa4-9155-4f14-bc89-e7af24af25f0
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '83'
 ht-degree: 1%
 
 ---
