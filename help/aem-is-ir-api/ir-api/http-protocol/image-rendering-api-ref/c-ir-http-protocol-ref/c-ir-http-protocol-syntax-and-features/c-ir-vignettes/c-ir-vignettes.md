@@ -2,11 +2,12 @@
 description: Vinjetter är bilder som har skapats med Dynamic Media Image Authoring och som kan användas med Image Rendering.
 solution: Experience Manager
 title: Vinjetter
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
