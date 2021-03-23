@@ -4,12 +4,13 @@ seo-description: Bildkonverteringsverktyg.
 seo-title: ic
 solution: Experience Manager
 title: ic
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 08fabcc9-d0b5-4136-81fc-ac896c341e1d
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1216'
 ht-degree: 0%
 
 ---
@@ -256,7 +257,7 @@ I följande tabell visas de bildfilformat och formatalternativ som stöds av IC.
   <tr> 
    <td> <b> BMP</b> <p> (Windows-bitmapp) </p> </td> 
    <td> <p> RGB | indexerad </p> </td> 
-   <td> <p> 3 | 5/6 | 8 </p> </td> 
+   <td> <p> 1 | 5/6 | 8 </p> </td> 
    <td> <p> okomprimerad | RLE </p> </td> 
    <td> <p> 5/6 bitar/kanal anger stöd för 16-bitars RGB (5-5-5 och 5-6-5 bitar/kanal). </p> </td> 
   </tr> 
