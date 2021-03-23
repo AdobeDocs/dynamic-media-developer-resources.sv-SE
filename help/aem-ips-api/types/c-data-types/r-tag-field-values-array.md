@@ -4,12 +4,13 @@ seo-description: En array med taggfältsvärden.
 seo-title: TaggFieldValuesArray
 solution: Experience Manager
 title: TaggFieldValuesArray
-topic: Dynamic Media Image Production System API
 uuid: 40a9110d-8ed4-4a9a-95ed-640c8215a7da
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '33'
+source-wordcount: '40'
 ht-degree: 0%
 
 ---
