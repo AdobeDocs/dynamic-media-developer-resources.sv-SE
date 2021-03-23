@@ -4,12 +4,13 @@ seo-description: I det här avsnittet finns anvisningar om hur du startar och st
 seo-title: Starta och stoppa bildvisning
 solution: Experience Manager
 title: Starta och stoppa bildvisning
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 1b9f90a1-5ce4-49ed-b412-32d0c914b333
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
