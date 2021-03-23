@@ -4,12 +4,13 @@ seo-description: JavaScript API-referens för eCatalog Viewer.
 seo-title: init
 solution: Experience Manager
 title: init
-topic: Dynamic Media
 uuid: b01f1497-8bee-4e01-8f92-272b324cb2dd
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
