@@ -4,12 +4,13 @@ seo-description: Om du vill kan du använda den slutliga masken på effektlager 
 seo-title: AnvändEffektmask
 solution: Experience Manager
 title: AnvändEffektmask
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a217bf76-58da-4609-b394-e5591873ad20
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
