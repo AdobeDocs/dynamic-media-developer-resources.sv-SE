@@ -4,12 +4,13 @@ seo-description: Ta bort utdata för ett jobb.
 seo-title: batchjobbta bort
 solution: Experience Manager
 title: batchjobbta bort
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d19ed1c8-e13b-4da4-90e3-6bb0dcce2a12
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
