@@ -4,12 +4,13 @@ seo-description: Uppdaterar uppsättningsdefinitionen för en befintlig resursup
 seo-title: setAssetSetDefinition
 solution: Experience Manager
 title: setAssetSetDefinition
-topic: Dynamic Media Image Production System API
 uuid: 2a2dce5d-7a01-49af-ac8b-33ae0b234ecc
+feature: Dynamic Media Classic,SDK/API,Resurshantering
+role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
@@ -48,7 +49,7 @@ IPS API returnerar inget svar för den här åtgärden.
 
 **setDefinition-funktioner**
 
-Ange `setDefinition`-ersättningsfunktioner online. De löses under en katalogsökning eller vid publicering. Ersättningssträngar har formatet `${<substitution_func>}` och inkluderar följande:
+Ange `setDefinition` ersättningsfunktioner i rad. De löses under en katalogsökning eller vid publicering. Ersättningssträngar har formatet `${<substitution_func>}` och inkluderar följande:
 
 >[!NOTE]
 >
