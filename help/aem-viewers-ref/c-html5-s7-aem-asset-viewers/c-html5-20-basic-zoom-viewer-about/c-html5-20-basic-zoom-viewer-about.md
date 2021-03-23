@@ -1,16 +1,17 @@
 ---
 description: Visningsprogrammet för grundläggande zoomning är ett bildvisningsprogram som visar en enda zoombar bild. Den har zoomverktyg, helskärmsstöd och en valfri stängningsknapp. Det här visningsprogrammet är den enklaste. Den är utformad för att fungera på stationära datorer och mobila enheter.
-keywords: responsive
+keywords: responsiv
 seo-description: Visningsprogrammet för grundläggande zoomning är ett bildvisningsprogram som visar en enda zoombar bild. Den har zoomverktyg, helskärmsstöd och en valfri stängningsknapp. Det här visningsprogrammet är den enklaste. Den är utformad för att fungera på stationära datorer och mobila enheter.
 seo-title: Grundläggande zoom
 solution: Experience Manager
 title: Grundläggande zoom
-topic: Dynamic Media
 uuid: 5466d647-af70-4503-9898-bb712ba6a007
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2076'
+source-wordcount: '2087'
 ht-degree: 0%
 
 ---
