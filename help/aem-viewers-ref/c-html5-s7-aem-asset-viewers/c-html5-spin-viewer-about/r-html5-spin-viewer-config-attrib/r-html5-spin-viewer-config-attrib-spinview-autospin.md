@@ -2,13 +2,14 @@
 description: SpinView.autospin
 solution: Experience Manager
 title: SpinView.autospin
-topic: Dynamic Media
 uuid: 9d24ed39-e4b9-442b-bc64-c77707ff69d8
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,snurra uppsättningar
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 2%
+source-wordcount: '109'
+ht-degree: 1%
 
 ---
 
