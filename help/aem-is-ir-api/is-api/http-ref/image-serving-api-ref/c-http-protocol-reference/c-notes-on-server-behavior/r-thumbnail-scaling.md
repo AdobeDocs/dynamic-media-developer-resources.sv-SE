@@ -4,12 +4,13 @@ seo-description: Steg 2 i bildlagrets omformningar ändras enligt följande för
 seo-title: Skalning av miniatyrbilder
 solution: Experience Manager
 title: Skalning av miniatyrbilder
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: df935d40-84c6-4018-9e41-faef4653ff1f
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
