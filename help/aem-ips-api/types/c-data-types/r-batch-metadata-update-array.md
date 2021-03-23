@@ -4,12 +4,13 @@ seo-description: En array med uppdateringar av batchmetadata.
 seo-title: BatchMetadataUpdateArray
 solution: Experience Manager
 title: BatchMetadataUpdateArray
-topic: Dynamic Media Image Production System API
 uuid: f095fd2a-025f-4a12-9637-d49d3324955c
+feature: Dynamic Media Classic,SDK/API,Metadata
+role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '32'
+source-wordcount: '40'
 ht-degree: 0%
 
 ---
