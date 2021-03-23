@@ -4,12 +4,13 @@ seo-description: Byter namn på en resurs.
 seo-title: renameAsset
 solution: Experience Manager
 title: renameAsset
-topic: Dynamic Media Image Production System API
 uuid: f285d7e4-00df-4d90-a05a-71747a4c54cc
+feature: Dynamic Media Classic,SDK/API,Resurshantering
+role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
