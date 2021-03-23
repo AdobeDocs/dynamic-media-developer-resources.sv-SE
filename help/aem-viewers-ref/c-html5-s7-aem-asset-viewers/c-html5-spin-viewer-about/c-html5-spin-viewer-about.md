@@ -1,16 +1,17 @@
 ---
 description: Snurra visningsprogram är ett bildvisningsprogram som ger en 360-gradersvy av bilden eller till och med flerdimensionell vy om rätt snurruppsättning används. Den har verktyg för zoomning och snurra, stöd för helskärmsläge och en valfri stängningsknapp. Den är utformad för att fungera på stationära datorer och mobila enheter.
-keywords: responsive
+keywords: responsiv
 seo-description: Snurra visningsprogram är ett bildvisningsprogram som ger en 360-gradersvy av bilden eller till och med flerdimensionell vy om rätt snurruppsättning används. Den har verktyg för zoomning och snurra, stöd för helskärmsläge och en valfri stängningsknapp. Den är utformad för att fungera på stationära datorer och mobila enheter.
 seo-title: Snurra
 solution: Experience Manager
 title: Snurra
-topic: Dynamic Media
 uuid: 5d5cdf83-cfe8-48cd-af74-b270f7400b14
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,snurra uppsättningar
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2168'
+source-wordcount: '2180'
 ht-degree: 0%
 
 ---
