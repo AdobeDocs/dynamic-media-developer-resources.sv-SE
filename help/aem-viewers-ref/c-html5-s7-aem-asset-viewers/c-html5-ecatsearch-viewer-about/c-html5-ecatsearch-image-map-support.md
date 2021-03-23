@@ -4,12 +4,13 @@ seo-description: Visningsprogrammet för eCatalog-sökning stöder återgivning 
 seo-title: Stöd för bildscheman
 solution: Experience Manager
 title: Stöd för bildscheman
-topic: Dynamic Media
 uuid: 22ba8168-b384-4eda-a147-ce8172cfed11
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
