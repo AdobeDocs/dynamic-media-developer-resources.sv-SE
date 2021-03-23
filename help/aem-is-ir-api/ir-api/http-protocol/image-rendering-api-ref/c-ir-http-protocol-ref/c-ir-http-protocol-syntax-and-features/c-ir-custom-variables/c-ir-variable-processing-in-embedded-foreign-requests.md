@@ -4,12 +4,13 @@ seo-description: $var$ referenser som förekommer var som helst inom klammerpare
 seo-title: Variabel bearbetning i inbäddade externa begäranden
 solution: Experience Manager
 title: Variabel bearbetning i inbäddade externa begäranden
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b4334a2e-dab1-4458-ab3d-bb79d2c4fdd4
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
