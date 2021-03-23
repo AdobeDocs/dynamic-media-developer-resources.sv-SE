@@ -4,12 +4,13 @@ seo-description: Returnerar ZIP-fildata.
 seo-title: getZipEnentries
 solution: Experience Manager
 title: getZipEnentries
-topic: Dynamic Media Image Production System API
 uuid: cfc45f83-1cf9-4c50-9aac-5a731e62a839
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '82'
 ht-degree: 0%
 
 ---
