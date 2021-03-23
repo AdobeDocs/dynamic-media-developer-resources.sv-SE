@@ -4,12 +4,13 @@ seo-description: Tillåt absoluta URL:er som bildkällor.
 seo-title: AllowDirectUrls
 solution: Experience Manager
 title: AllowDirectUrls
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 91d46cc5-8ada-4bd4-b7ff-3d021f4f32ea
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '65'
 ht-degree: 0%
 
 ---
