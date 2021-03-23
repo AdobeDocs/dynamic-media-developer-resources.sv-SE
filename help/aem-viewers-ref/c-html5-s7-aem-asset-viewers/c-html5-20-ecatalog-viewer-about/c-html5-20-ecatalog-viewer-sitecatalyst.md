@@ -4,12 +4,13 @@ seo-description: eCatalog Viewer har stöd för att spåra Adobe Analytics direk
 seo-title: Stöd för Adobe Analytics tracking
 solution: Experience Manager
 title: Stöd för Adobe Analytics tracking
-topic: Dynamic Media
 uuid: a96b6655-4a11-490c-8f66-3633f0ae0fee
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+role: Utvecklare,Affärsledare,datatekniker,dataarkitekt
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
