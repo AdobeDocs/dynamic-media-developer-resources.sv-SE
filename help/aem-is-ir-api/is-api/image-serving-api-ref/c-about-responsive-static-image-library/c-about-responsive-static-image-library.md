@@ -2,11 +2,12 @@
 description: Responsive Image Library är en JavaScript-modul som dynamiskt justerar kvaliteten på bilder som hanteras från Dynamic Media och bäddas in på responsiva webbsidor. Dessutom ger den bättre bildkvalitet på enheter med skärmar med hög densitet. Biblioteket kan även återge resultat från smart beskärning och smarta färgrutor på ett responsivt sätt.
 solution: Experience Manager
 title: Om bibliotek för responsiv bild
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '925'
 ht-degree: 0%
 
 ---
@@ -30,7 +31,7 @@ Det enklaste sättet att använda det responsiva bildbiblioteket är att definie
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>3 </p> </td> 
+   <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/responsive-static-image-simple.html" scope="external" format="https"> https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/responsive-static-image-simple.html  </a> </p> <p> 
      <!-- http://sasha.s7qa.com/jira-bugs/S7-7729/responsive-static-image-simple.htm--> </p> </td> 
    <td colname="col2"> <p>Följande är ett enkelt exempel där den responsiva bilden finns i en behållare som tar 50 % av webbsidans bredd. Varje gång webbläsarfönstret ändrar storlek ändras behållarbredden. När bildbredden når en av de konfigurerade brytpunkterna, som är inställda på 200, 400, 600 och 800 pixlar för illustrativa ändamål, hämtas och visas en ny återgivning. Målet är att undvika att läsa in stora bilder i onödan och spara bandbredd i nätverket. </p> <p>Klicka på webbadressen för att öppna webbsidan, ändra storlek på webbläsarfönstret och övervaka nätverkstrafiken. </p> </td> 
@@ -42,7 +43,7 @@ Det enklaste sättet att använda det responsiva bildbiblioteket är att definie
    <td colname="col2"> <p>I följande Bootstrap-exempel visas samma användningsfall på en webbsida. Enligt Bootstrap CSS kan layoutcellen som den responsiva bilden läggs till i ha någon av följande bredder: 360, 720 och 940 pixlar. Detta är de exakta värden som skickas som brytpunkter till det responsiva bildbiblioteket. Därför ser Dynamic Media till att klientens nätverksbandbredd används effektivt. Dessutom ser det till att bilden visas i exakt den storlek som behövs, med den aktuella webbsidans layout, utan att webbläsaren skalas. </p> <p>Klicka på webbadressen för att öppna webbsidan, ändra storlek på webbläsarfönstret för att hitta olika brytpunkter och övervaka nätverkstrafiken. </p> <p>Fler avancerade användningsområden är att associera olika bildförinställningar, eller bildservningskommandon, eller båda, med olika brytpunktsvärden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>3 </p> </td> 
+   <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/image-presets.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/image-presets.html  </a> </p> <p> 
      <!--http://sasha.s7qa.com/jira-bugs/S7-7729/image-presets.html--> </p> </td> 
    <td colname="col2"> <p>I det här nästa exemplet används förinställningar av olika bildkvalitet och format för olika brytpunktsstorlekar. För en liten brytpunkt används en förinställning med låg kvalitet som tvingar bildservern att återge GIF-bilden komprimerad till endast sex färger. En medelstor brytpunkt använder en bildförinställning som är konfigurerad för JPEG med hög komprimering. Den största brytpunkten är associerad med en bildförinställning av hög kvalitet med förlustfri PNG. En sådan metod säkerställer att bilder av hög kvalitet levereras till sådana enheter, baserat på antagandet att enheter med större skärmar har större bandbredd och bearbetningskraft. </p> <p>Klicka på webbadressen för att öppna webbsidan, ändra storlek på webbläsarfönstret från större till mindre och se hur bildkvaliteten försämras. </p> </td> 
