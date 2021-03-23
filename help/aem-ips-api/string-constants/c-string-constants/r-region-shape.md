@@ -4,12 +4,13 @@ seo-description: Används av ImageMap/shapeType och saveImageMapParam/shapType.
 seo-title: Regionsform
 solution: Experience Manager
 title: Regionsform
-topic: Dynamic Media Image Production System API
 uuid: ea879108-5277-479b-afa5-fa06328c61cd
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '29'
+source-wordcount: '36'
 ht-degree: 0%
 
 ---
