@@ -4,12 +4,13 @@ seo-description: Används av SystemFieldCondition/op.
 seo-title: Operatorer för numerisk jämförelse/datumjämförelse
 solution: Experience Manager
 title: Operatorer för numerisk jämförelse/datumjämförelse
-topic: Dynamic Media Image Production System API
 uuid: 95f923df-ba72-4926-a5a4-51cea6d39495
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '26'
+source-wordcount: '33'
 ht-degree: 0%
 
 ---
