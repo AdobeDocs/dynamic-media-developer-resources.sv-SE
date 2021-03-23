@@ -2,11 +2,12 @@
 title: Inaktuella anrop
 description: API-anrop för bildproduktionssystem och associerade parametrar som inte längre används i Dynamic Media.
 solution: Experience Manager
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 # Inaktuella anrop{#deprecated-calls}
 
-API-anrop för bildproduktionssystem och associerade parametrar som inte längre används.
+API-anrop till Image Production System och associerade parametrar som inte längre används.
 
 ## Inaktuella anrop {#topic-654c0466e6434fe4a95953322255b08c}
 
