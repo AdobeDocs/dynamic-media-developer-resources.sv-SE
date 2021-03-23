@@ -4,12 +4,13 @@ seo-description: Om du klickar eller trycker på den här knappen flyttas bilden
 seo-title: Knappen Snurra åt vänster
 solution: Experience Manager
 title: Knappen Snurra åt vänster
-topic: Dynamic Media
 uuid: 742a912b-7ca1-43d4-aae6-a809e01d34b9
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Mixa medieuppsättningar
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -119,7 +120,7 @@ Utseendet på den här knappen inuti behållaren styrs med CSS-klassväljaren:
 
 Knappverktygstipsen kan lokaliseras. Mer information finns i [Lokalisering av element i användargränssnittet](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-Exempel - om du vill ställa in en knapp för att snurra åt vänster som är 28 x 28 pixlar, som är placerad på den vänstra kanten av behållaren, och som visar olika bilder för de fyra olika knapplägena:
+Exempel - om du vill ställa in en knapp för att snurra åt vänster som är 28 x 28 pixlar, som är placerad på den vänstra kanten av behållaren, och som visar olika bilder för vart och ett av de fyra olika knapplägena:
 
 ```
 .s7mixedmediaviewer .s7spinbuttons .s7panleftbutton { 
