@@ -4,12 +4,13 @@ seo-description: Standardupplösning. Anger en standardupplösning om en viss ka
 seo-title: Upplösning
 solution: Experience Manager
 title: Upplösning
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b04b3746-90e6-4545-9c57-7ee3b61d99bf
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '108'
 ht-degree: 0%
 
 ---
