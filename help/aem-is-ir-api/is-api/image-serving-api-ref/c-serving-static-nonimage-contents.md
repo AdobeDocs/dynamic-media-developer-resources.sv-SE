@@ -4,12 +4,13 @@ seo-description: Du kan använda Image Serving för att hantera innehåll som in
 seo-title: Hantera statiskt innehåll (inte bildinnehåll)
 solution: Experience Manager
 title: Hantera statiskt innehåll (inte bildinnehåll)
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: bdb1383a-e02d-499f-be79-4a6dc501705c
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -92,20 +93,20 @@ Kataloger med statiskt innehåll liknar bildkataloger, men har stöd för färre
    <td colname="col2"> <p>Katalogens post-ID för det här statiska innehållsobjektet. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> katalog:sökväg  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> katalog::Path  </span> </p> </td> 
    <td colname="col2"> <p>Filsökvägen för det här innehållsobjektet. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> katalog:Förfallotid  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> katalog::Förfallotid  </span> </p> </td> 
    <td colname="col2"> <p>TTL för detta innehållsobjekt; <span class="codeph">-attribut::Förfallotid </span> används om det inte anges eller om det är tomt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> katalog:TimeStamp  </span> </p> </td> 
-   <td colname="col2"> <p>Tidsstämpel för filändring. krävs när katalogbaserad validering har aktiverats med <span class="codeph">-attribut::CacheValidationPolicy </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> katalog::TimeStamp  </span> </p> </td> 
+   <td colname="col2"> <p>Tidsstämpel för ändring av fil. krävs när katalogbaserad validering är aktiverad med <span class="codeph">-attribut::CacheValidationPolicy </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> katalog::UserData  </span> </p> </td> 
-   <td colname="col2"> <p>Valfria metadata associerade med detta statiska innehållsobjekt. tillgänglig för klienten med <span class="codeph"> req=userdata </span>. </p> </td> 
+   <td colname="col2"> <p>Valfria metadata som är kopplade till detta statiska innehållsobjekt. som är tillgänglig för klienten med <span class="codeph"> req=userdata </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> katalog::UserType  </span> </p> </td> 
@@ -116,7 +117,7 @@ Kataloger med statiskt innehåll liknar bildkataloger, men har stöd för färre
 
 ## Filtrera statiskt innehåll {#section-4c41bf41ff994910840c1352683d1f37}
 
-Den här mekanismen kan hjälpa till att säkerställa att klienter endast får det innehåll som passar deras behov. Om det statiska innehållet är taggat med lämpliga `catalog::UserType`-värden kan klienten lägga till kommandot `type=` i begäran. Vid bildservning jämförs det värde som anges med kommandot `type=` med värdet `catalog::UserType` och om något är fel returneras ett fel i stället för potentiellt olämpligt innehåll.
+Den här mekanismen kan hjälpa till att säkerställa att klienter endast får det innehåll som passar deras behov. Om det statiska innehållet är taggat med lämpliga `catalog::UserType`-värden kan klienten lägga till kommandot `type=` i begäran. Bildsvarv jämför värdet som anges med kommandot `type=` med värdet `catalog::UserType` och returnerar ett fel i stället för potentiellt olämpligt innehåll om det inte matchar.
 
 ## Bildtextfiler för video {#section-1ad25e10399e43eaa8ecb09b531dbf1a}
 
