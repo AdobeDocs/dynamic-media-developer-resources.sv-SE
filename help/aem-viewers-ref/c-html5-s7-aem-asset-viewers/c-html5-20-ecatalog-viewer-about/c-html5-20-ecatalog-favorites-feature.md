@@ -2,12 +2,13 @@
 description: Favoriter
 solution: Experience Manager
 title: Favoriter
-topic: Dynamic Media
 uuid: 764b0c5e-f131-4af8-a7a6-f60f22bcfeb7
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
