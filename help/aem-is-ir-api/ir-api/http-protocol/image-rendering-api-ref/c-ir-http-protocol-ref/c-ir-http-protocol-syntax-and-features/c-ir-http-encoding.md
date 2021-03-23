@@ -4,12 +4,13 @@ seo-description: Kommandovärden måste vara http-kodade med %xx escape-sekvense
 seo-title: HTTP-kodning för bildåtergivning
 solution: Experience Manager
 title: HTTP-kodning för bildåtergivning
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 37bd0040-7bad-4548-ab39-7f598a217732
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
