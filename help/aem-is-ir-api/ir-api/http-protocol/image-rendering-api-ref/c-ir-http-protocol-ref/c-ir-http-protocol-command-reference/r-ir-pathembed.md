@@ -4,12 +4,13 @@ seo-description: Bädda in bandata. Anger om Photoshop-banor som är inbäddade 
 seo-title: pathEmbed
 solution: Experience Manager
 title: pathEmbed
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d40ea1b5-f2d3-4f81-b96f-abb4eb7eb2b3
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
