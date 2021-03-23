@@ -1,13 +1,14 @@
 ---
 description: Video Viewer är en videospelare som spelar upp strömmande och progressiv video som är kodad i H.264-format. Den levereras från Dynamic Media Classic eller AEM Dynamic Media.
-keywords: responsive
+keywords: responsiv
 solution: Experience Manager
 title: Video
-topic: Dynamic Media
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Video
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2372'
+source-wordcount: '2383'
 ht-degree: 0%
 
 ---
@@ -172,7 +173,7 @@ Relativ sökväg ser ut så här:
 
 1. Skapa och initiera visningsprogrammet.
 
-   När du har slutfört stegen ovan skapar du en instans av klassen `s7viewers.VideoViewer`, skickar all konfigurationsinformation till konstruktorn och anropar metoden `init()` för en visningsprograminstans. Konfigurationsinformation skickas till konstruktorn som ett JSON-objekt. Det här objektet ska åtminstone ha ett `containerId`-fält som innehåller namnet på visningsbehållar-ID och kapslat `params` JSON-objekt med konfigurationsparametrar som stöds av visningsprogrammet. I det här fallet måste `params`-objektet ha minst URL-adressen för bildservern som skickas som `serverUrl`-egenskap, URL-adressen för videoservern som skickas som `videoserverurl`-egenskap och den ursprungliga resursen som `asset`-parameter. Med det JSON-baserade initierings-API:t kan du skapa och starta visningsprogrammet med en enda kodrad.
+   När du har slutfört stegen ovan skapar du en instans av klassen `s7viewers.VideoViewer`, skickar all konfigurationsinformation till konstruktorn och anropar metoden `init()` för en visningsprograminstans. Konfigurationsinformation skickas till konstruktorn som ett JSON-objekt. Det här objektet ska åtminstone ha ett `containerId`-fält som innehåller namnet på visningsbehållar-ID och kapslat `params` JSON-objekt med konfigurationsparametrar som stöds av visningsprogrammet. I det här fallet måste `params`-objektet ha minst URL-adressen för bildservern som skickas som `serverUrl`-egenskap, URL-adressen för videoservern som skickas som egenskapen `videoserverurl` och den ursprungliga resursen som parametern `asset`. Med det JSON-baserade initierings-API:t kan du skapa och starta visningsprogrammet med en enda kodrad.
 
    Det är viktigt att lägga till visningsprogrambehållaren i DOM så att visningsprogramkoden kan hitta behållarelementet med dess ID. I vissa webbläsare fördröjs skapandet av DOM tills webbsidan är slut. För maximal kompatibilitet anropar du metoden `init()` precis före den avslutande `BODY`-taggen eller på body-händelsen `onload()`.
 
