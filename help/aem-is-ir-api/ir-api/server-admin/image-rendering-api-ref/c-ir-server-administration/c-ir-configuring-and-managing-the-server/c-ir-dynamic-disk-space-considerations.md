@@ -4,12 +4,13 @@ seo-description: Bildåtergivning förbrukar diskutrymme för cachning och loggn
 seo-title: Tänk på dynamiskt diskutrymme
 solution: Experience Manager
 title: Tänk på dynamiskt diskutrymme
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: fe8fd251-75fc-4c27-b58e-7b39a4f00118
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Administratör,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '58'
 ht-degree: 0%
 
 ---
