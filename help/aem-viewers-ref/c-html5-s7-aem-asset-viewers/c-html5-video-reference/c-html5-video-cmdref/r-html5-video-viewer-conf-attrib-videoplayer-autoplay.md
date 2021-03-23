@@ -4,13 +4,14 @@ seo-description: Konfigurationsattribut för Video Viewer.
 seo-title: VideoPlayer.autoplay
 solution: Experience Manager
 title: VideoPlayer.autoplay
-topic: Dynamic Media
 uuid: a603590b-5b56-4e67-837c-1ec5b1196b35
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Video
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 6%
+source-wordcount: '54'
+ht-degree: 5%
 
 ---
 
