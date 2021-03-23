@@ -3,10 +3,12 @@ title: Adobe Dynamic Media utvecklarresurser
 seo-title: Resurshandböcker för utvecklare av Adobe Dynamic Media för tittare, bildvisning, bildåtergivning och bildproduktion
 description: Adobe Dynamic Media utvecklarresurser
 seo-description: Resurshandböcker för utvecklare av Adobe Dynamic Media för tittare, bildvisning, bildåtergivning och bildproduktion
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 192b5624945b08e438a65e3e9fd25aca503857fc
+source-git-commit: beed72f55377c5e3885cf69cf56cb0d7a83f788e
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
