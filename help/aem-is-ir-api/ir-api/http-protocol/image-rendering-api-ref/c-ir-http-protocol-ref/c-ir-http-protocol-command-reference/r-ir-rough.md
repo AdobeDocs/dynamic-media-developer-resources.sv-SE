@@ -4,12 +4,13 @@ seo-description: Materialytans grovhet. Anger materialytans relativa grovhet.
 seo-title: grov
 solution: Experience Manager
 title: grov
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d3b4ece1-cc2a-4012-ad81-2f313d3a370b
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
