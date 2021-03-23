@@ -4,12 +4,13 @@ seo-description: Ersättningsvariabler används för att överföra värden frå
 seo-title: Ersättningsvariabler
 solution: Experience Manager
 title: Ersättningsvariabler
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e369f2c3-8d89-4169-8869-f1d7ab89aab9
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '775'
 ht-degree: 0%
 
 ---
@@ -92,7 +93,7 @@ Detta motsvarar
 
 `/is/image/a/b?…&layer=3&src=is{…&src=a/b}&…`
 
-Definitionen för `*`$object`*` kan åsidosättas genom att explicit ange ` $ *`object`*=` med önskat värde.
+Definitionen av `*`$object`*` kan åsidosättas genom att explicit ange ` $ *`object`*=` med önskat värde.
 
 Den fördefinierade variabeln path används vanligtvis tillsammans med `template=`.
 
