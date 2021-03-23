@@ -4,12 +4,13 @@ seo-description: Viss information som visas i Interactive Video Viewer kan lokal
 seo-title: Lokalisering av användargränssnittselement
 solution: Experience Manager
 title: Lokalisering av användargränssnittselement
-topic: Dynamic Media
 uuid: 7c880e25-76dc-43d3-83fc-12de92afd35f
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
