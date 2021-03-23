@@ -4,12 +4,13 @@ seo-description: Innehållet i hela modifierardelen av begärandesträngen, inkl
 seo-title: Förfrågan om obehörig
 solution: Experience Manager
 title: Förfrågan om obehörig
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 59b12a78-c4ba-4b6d-97bc-63150298ed73
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
