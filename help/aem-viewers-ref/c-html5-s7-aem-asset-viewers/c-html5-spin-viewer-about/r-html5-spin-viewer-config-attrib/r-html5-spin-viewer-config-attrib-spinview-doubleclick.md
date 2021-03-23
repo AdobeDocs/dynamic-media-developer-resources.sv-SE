@@ -2,13 +2,14 @@
 description: SpinView.doubleclick
 solution: Experience Manager
 title: SpinView.doubleclick
-topic: Dynamic Media
 uuid: c1eef3d1-471e-41ef-b899-008d45b616d0
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,snurra uppsättningar
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 1%
+source-wordcount: '103'
+ht-degree: 0%
 
 ---
 
