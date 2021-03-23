@@ -4,12 +4,13 @@ seo-description: Facebook-delningsverktyget består av en knapp som läggs till 
 seo-title: Facebook-delning
 solution: Experience Manager
 title: Facebook-delning
-topic: Dynamic Media
 uuid: 6f7e9700-19c2-441d-a0d0-5bc30a50b0e3
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
