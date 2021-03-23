@@ -4,12 +4,13 @@ seo-description: JavaScript API-referens för Carousel Viewer
 seo-title: setHandlers
 solution: Experience Manager
 title: setHandlers
-topic: Dynamic Media
 uuid: 5e1e9c8f-866b-4730-9978-b45face85667
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
