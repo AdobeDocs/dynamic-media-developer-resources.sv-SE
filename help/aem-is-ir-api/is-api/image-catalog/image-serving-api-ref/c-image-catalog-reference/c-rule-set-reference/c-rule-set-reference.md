@@ -4,12 +4,13 @@ seo-description: Image Serving har stöd för en enkel förbearbetningsmekanism 
 seo-title: Referens för regeluppsättning
 solution: Experience Manager
 title: Referens för regeluppsättning
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 356e4939-c57d-459a-8e40-9b25e20fc0a3
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -110,7 +111,7 @@ Enkel strängmatchning fungerar för mycket grundläggande program, men reguljä
 
 ## Infångade delsträngar {#section-066e659406d5403599cd26ae35e80d68}
 
-För att underlätta komplexa URL-ändringar kan delsträngar fångas in i uttrycket genom att omsluta delsträngen med parenteser (..). Infångade delsträngar numreras sekventiellt med början på 1 enligt positionen för den inledande parentesen. De hämtade delsträngarna kan infogas i substitutionen med ` $ *`n`*`, där *`n`* är sekvensnumret för den hämtade delsträngen.
+För att underlätta komplexa URL-ändringar kan delsträngar fångas in i uttrycket genom att omsluta delsträngen med parenteser (..). Infångade delsträngar numreras sekventiellt med början på 1 enligt positionen för den inledande parentesen. De hämtade delsträngarna kan infogas i ersättningen med ` $ *`n`*`, där *`n`* är sekvensnumret för den hämtade delsträngen.
 
 ## Hantera regeluppsättningsfiler {#section-0598a608e4044bb4805fe93ceebe10a9}
 
