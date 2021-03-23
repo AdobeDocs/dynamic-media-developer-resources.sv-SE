@@ -4,12 +4,13 @@ seo-description: Om du vill ändra en bild kan du använda referenspunkter som l
 seo-title: FXG-serverprotokoll
 solution: Experience Manager
 title: FXG-serverprotokoll
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5cb123ca-2274-4ddb-8fa1-ab22a19172f6
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
@@ -32,7 +33,7 @@ Syntaxen är:
 
 `referencePoint <string> (northWest, north, northEast, west, center, east, southWest, south, southEast, none, inherit)`
 
-Standardvärdet är none. Värdet `inherit` skickar värdet `s7:referencePoint`, förutsatt att det inte är `none`, från sidans eller gruppnivåns överkant till alla underordnade. Inställningen `none` betyder att det inte finns någon referenspunkt för objektet och att FXG-koordinatsystemet används.
+Standardvärdet är none. Värdet `inherit` skickar `s7:referencePoint`-värdet, förutsatt att det inte är `none`, från sidans eller gruppnivåns överkant till alla underordnade. Inställningen `none` betyder att det inte finns någon referenspunkt för objektet och att FXG-koordinatsystemet används.
 
 >[!NOTE]
 >
