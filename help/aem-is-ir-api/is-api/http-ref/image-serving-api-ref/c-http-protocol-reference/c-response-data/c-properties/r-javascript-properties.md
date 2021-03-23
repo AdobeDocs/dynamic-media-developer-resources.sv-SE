@@ -4,12 +4,13 @@ seo-description: Om javascript anges som svarsformat formateras svarsdata så at
 seo-title: JavaScript-egenskaper
 solution: Experience Manager
 title: JavaScript-egenskaper
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 832a927e-ecaf-438c-8fbf-a702d58902d8
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
