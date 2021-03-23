@@ -4,12 +4,13 @@ seo-description: Bildschemadata. Innehåller data för bildschema för det här 
 seo-title: map
 solution: Experience Manager
 title: map
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9c1c3323-21ab-4820-bf4e-761b82ada1ab
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
