@@ -4,12 +4,13 @@ seo-description: Om du klickar eller trycker på den här knappen flyttas bilden
 seo-title: Högerknapp för snurra
 solution: Experience Manager
 title: Högerknapp för snurra
-topic: Dynamic Media
 uuid: 5c754e53-9311-4d4f-96e7-2bb9a5a7babf
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,snurra uppsättningar
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
