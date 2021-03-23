@@ -4,12 +4,13 @@ seo-description: Huvudvisningsområdet är det område som upptas av zoombilden 
 seo-title: Huvudvisningsområde
 solution: Experience Manager
 title: Huvudvisningsområde
-topic: Dynamic Media
 uuid: 689116cb-bbb9-4e26-9c16-9229330c4034
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
