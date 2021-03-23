@@ -2,12 +2,13 @@
 description: PageView.iscommand
 solution: Experience Manager
 title: PageView.iscommand
-topic: Dynamic Media
 uuid: 32bfd041-e44c-4a78-a923-896a85d8f75f
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '68'
 ht-degree: 1%
 
 ---
