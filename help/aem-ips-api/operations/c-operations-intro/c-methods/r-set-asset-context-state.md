@@ -4,12 +4,13 @@ seo-description: Ange eller uppdatera publiceringsläget för en eller flera res
 seo-title: setAssetsContextState
 solution: Experience Manager
 title: setAssetsContextState
-topic: Dynamic Media Image Production System API
 uuid: 4b94f9ea-3f7b-45ee-9381-6434f2bc4e31
+feature: Dynamic Media Classic,SDK/API,Resurshantering
+role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
