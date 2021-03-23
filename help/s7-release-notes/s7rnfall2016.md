@@ -1,12 +1,13 @@
 ---
-description: Den senaste versionsinformationen om Adobe Scene7 hösten 2016 ingår i Adobe Experience Manager-lösningen i Adobe Marketing Cloud.
+description: '"Den senaste versionsinformationen om Adobe Scene7 hösten 2016, en del av Adobe Experience Manager-lösningen i Adobe Marketing Cloud."'
 solution: Experience Manager
 title: Scene7 hösten 2016
-topic: Dynamic Media
+feature: Dynamic Media Classic
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2231'
+source-wordcount: '2238'
 ht-degree: 0%
 
 ---
