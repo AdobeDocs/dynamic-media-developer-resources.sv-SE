@@ -4,12 +4,13 @@ seo-description: Gör att visningsprogrammet går in i eller avslutar helskärms
 seo-title: Helskärmsknapp
 solution: Experience Manager
 title: Helskärmsknapp
-topic: Dynamic Media
 uuid: 8f0ce51b-1ef6-4631-8a54-7d34cb6e3ef2
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
