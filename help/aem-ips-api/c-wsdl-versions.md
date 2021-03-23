@@ -2,11 +2,12 @@
 description: IPS-webbtjänsten stöds av en uppsättning WSDL-dokument (Web Services Description Language) som nås från alla IPS-installationer där IPS-webbtjänstkomponenten är installerad. Varje IPS API-version innehåller en ny WSDL-fil som refererar till ett versionshanterat mål-XML-namnutrymme. Tidigare versioner av WSDL-namnutrymmen stöds också för bakåtkompatibilitet med befintliga program.
 solution: Experience Manager
 title: WSDL-versioner för IPS-webbtjänst
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '961'
 ht-degree: 0%
 
 ---
