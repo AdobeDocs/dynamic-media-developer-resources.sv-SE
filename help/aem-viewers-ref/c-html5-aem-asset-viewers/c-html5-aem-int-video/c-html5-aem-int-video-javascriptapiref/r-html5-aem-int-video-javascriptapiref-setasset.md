@@ -4,12 +4,13 @@ seo-description: JavaScript API-referens för Interactive Video Viewer.
 seo-title: setAsset
 solution: Experience Manager
 title: setAsset
-topic: Dynamic Media
 uuid: 80c670a4-1251-47f5-a66b-8ba5019df1ce
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
