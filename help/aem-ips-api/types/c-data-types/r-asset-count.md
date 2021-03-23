@@ -4,12 +4,13 @@ seo-description: Tillgångstyper och antal för ett företag.
 seo-title: AssetCount
 solution: Experience Manager
 title: AssetCount
-topic: Dynamic Media Image Production System API
 uuid: 15b745fb-203a-4301-b1ea-8e12ea7450e8
+feature: Dynamic Media Classic,SDK/API,Resurshantering
+role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: '55'
 ht-degree: 0%
 
 ---
