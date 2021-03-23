@@ -4,12 +4,13 @@ seo-description: Allmänna serverinställningar
 seo-title: Allmänt
 solution: Experience Manager
 title: Allmänt
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d7ec3dba-64b8-431b-b446-84ab6139ba8a
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Administratör,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
