@@ -4,12 +4,13 @@ seo-description: Innehållsförteckningen är en knapp som finns i huvudkontroll
 seo-title: Innehållsförteckning
 solution: Experience Manager
 title: Innehållsförteckning
-topic: Dynamic Media
 uuid: e5da89b4-fd3f-41ab-bc55-d43c2999d4b7
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1097'
 ht-degree: 0%
 
 ---
