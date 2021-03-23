@@ -4,12 +4,13 @@ seo-description: Egenskaper för en Microsoft Excel-fil.
 seo-title: ExcelInfo
 solution: Experience Manager
 title: ExcelInfo
-topic: Dynamic Media Image Production System API
 uuid: 27c11719-ac8f-43b2-a08a-cb46f47b8006
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '37'
+source-wordcount: '44'
 ht-degree: 0%
 
 ---
