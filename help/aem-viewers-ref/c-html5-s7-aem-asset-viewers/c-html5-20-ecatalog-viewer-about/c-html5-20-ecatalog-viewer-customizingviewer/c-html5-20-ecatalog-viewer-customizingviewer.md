@@ -1,16 +1,17 @@
 ---
 description: All visuell anpassning och de flesta beteendeanpassningar för eCatalog Viewer görs genom att en anpassad CSS skapas.
-keywords: responsive
+keywords: responsiv
 seo-description: All visuell anpassning och de flesta beteendeanpassningar för eCatalog Viewer görs genom att en anpassad CSS skapas.
 seo-title: Anpassa eCatalog Viewer
 solution: Experience Manager
 title: Anpassa eCatalog Viewer
-topic: Dynamic Media
 uuid: 20d0d342-acb8-421f-9ec1-447edeafda86
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1323'
 ht-degree: 0%
 
 ---
