@@ -1,16 +1,17 @@
 ---
 description: All visuell anpassning och de flesta beteendeanpassningar för den interaktiva bildvisningsprogrammet görs genom att en anpassad CSS skapas.
-keywords: responsive
+keywords: responsiv
 seo-description: All visuell anpassning och de flesta beteendeanpassningar för den interaktiva bildvisningsprogrammet görs genom att en anpassad CSS skapas.
 seo-title: Anpassa interaktiv bildvisare
 solution: Experience Manager
 title: Anpassa interaktiv bildvisare
-topic: Dynamic Media
 uuid: 19868e4e-c2c9-41e0-82a6-20884a9454a4
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva bilder
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1314'
 ht-degree: 0%
 
 ---
@@ -46,7 +47,7 @@ För att det ska vara lättare att skapa responsiv CSS-kod har visningsprogramme
 
 Den första gruppen med CSS-markörer innehåller klasserna `.s7size_large`, `.s7size_medium` och `.s7size_small`. De tillämpas baserat på visningsprogrambehållarens körningsområde. Om visningsområdet till exempel är lika stort eller större än storleken på en vanlig skrivbordsskärm använder du `.s7size_large`. Om området ligger nära en gemensam surfplatta tilldelar du `.s7size_medium`. Använd `.s7size_small` för områden som liknar mobiltelefonskärmar. Det främsta syftet med dessa CSS-markörer är att skapa olika användargränssnittslayouter för olika skärmar och visningsstorlekar.
 
-Den andra gruppen med CSS-markörer innehåller `.s7mouseinput` och `.s7touchinput`. CSS-markören `.s7touchinput` anges om den aktuella enheten kan hantera pekrörelser. Annars används `.s7mouseinput`. Dessa markörer är främst avsedda att skapa indataelement för användargränssnittet med olika skärmstorlekar för olika indatatyper, eftersom större element normalt krävs för pekrörelser.
+Den andra gruppen med CSS-markörer innehåller `.s7mouseinput` och `.s7touchinput`. CSS-markören `.s7touchinput` anges om den aktuella enheten kan hantera pekrörelser. Annars används `.s7mouseinput`. Dessa markörer är främst avsedda att skapa indataelement i användargränssnittet med olika skärmstorlekar för olika indatatyper, eftersom större element normalt krävs för pekrörelser.
 
 Följande exempel på CSS anger storleken på inzoomningsknappen till 28 x 28 pixlar på system med musindata och till 56 x 56 pixlar på enheter med pekskärmar. Om visningsprogrammets storlek är ännu mindre anges den till 20 x 20 pixlar.
 
