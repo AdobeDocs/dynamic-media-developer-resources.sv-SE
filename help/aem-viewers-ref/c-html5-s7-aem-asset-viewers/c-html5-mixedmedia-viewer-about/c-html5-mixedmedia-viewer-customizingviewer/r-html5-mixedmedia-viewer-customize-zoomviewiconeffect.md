@@ -4,12 +4,13 @@ seo-description: Zoomindikatorn visas i zoomvisningsområdet. Den visas när bil
 seo-title: Zoomvy, ikon, effekt
 solution: Experience Manager
 title: Zoomvy, ikon, effekt
-topic: Dynamic Media
 uuid: 69a44789-9587-4459-9c75-048773c9e368
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Mixa medieuppsättningar
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
