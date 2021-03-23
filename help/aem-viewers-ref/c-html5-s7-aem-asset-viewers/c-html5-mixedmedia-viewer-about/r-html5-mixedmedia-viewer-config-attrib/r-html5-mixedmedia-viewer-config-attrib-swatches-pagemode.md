@@ -2,13 +2,14 @@
 description: Swatches.pagemode
 solution: Experience Manager
 title: Swatches.pagemode
-topic: Dynamic Media
 uuid: 531b9119-1433-4856-aaeb-9ba31378a457
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Mixa medieuppsättningar
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 3%
+source-wordcount: '75'
+ht-degree: 2%
 
 ---
 
