@@ -2,12 +2,13 @@
 description: Används endast av Dynamic Media-utvecklare.
 solution: Experience Manager
 title: ConfigSetting
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 3%
+source-wordcount: '38'
+ht-degree: 2%
 
 ---
 
