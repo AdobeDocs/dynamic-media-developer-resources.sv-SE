@@ -4,12 +4,13 @@ seo-description: Tar bort en användare från ett eller flera företag.
 seo-title: removeCompanyMembership
 solution: Experience Manager
 title: removeCompanyMembership
-topic: Dynamic Media Image Production System API
 uuid: af57fde0-2297-41da-87bf-f063fc313264
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
