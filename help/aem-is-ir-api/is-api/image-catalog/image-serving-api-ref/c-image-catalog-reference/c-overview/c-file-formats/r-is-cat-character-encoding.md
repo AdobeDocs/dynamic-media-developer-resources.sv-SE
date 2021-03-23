@@ -4,12 +4,13 @@ seo-description: Image Serving stöder bildkataloger med ISO-8859-1 och UTF-8-ko
 seo-title: Teckenkodning
 solution: Experience Manager
 title: Teckenkodning
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: dfb56411-40d1-4bac-9213-9104ecba2a02
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
