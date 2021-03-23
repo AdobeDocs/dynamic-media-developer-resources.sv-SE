@@ -4,12 +4,13 @@ seo-description: I det här avsnittet beskrivs variablerna som används för att
 seo-title: Datatyper
 solution: Experience Manager
 title: Datatyper
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 66617ade-82e9-4a7e-8c65-3067b75d7a31
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '42'
+source-wordcount: '50'
 ht-degree: 0%
 
 ---
