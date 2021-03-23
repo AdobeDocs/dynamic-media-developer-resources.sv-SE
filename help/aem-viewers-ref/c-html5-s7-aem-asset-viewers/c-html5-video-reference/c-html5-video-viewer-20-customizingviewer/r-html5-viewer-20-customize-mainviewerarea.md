@@ -4,12 +4,13 @@ seo-description: Huvudvisningsområdet upptas av videon. Den ställs vanligtvis 
 seo-title: Huvudvisningsområde
 solution: Experience Manager
 title: Huvudvisningsområde
-topic: Dynamic Media
 uuid: f395b22d-55b8-4422-9aa4-9dd4b7a24063
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Video
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
