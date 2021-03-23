@@ -4,12 +4,13 @@ seo-description: Parametern är gemensam för alla visningsprogram.
 seo-title: bildtext
 solution: Experience Manager
 title: bildtext
-topic: Dynamic Media
 uuid: e5a715c4-9b5b-48fc-8228-5e7416e2b71a
+feature: Dynamic Media Classic,visningsprogram,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '278'
 ht-degree: 1%
 
 ---
@@ -72,7 +73,7 @@ Det här visningsprogrammet stöder undertextning via WebVTT-filer på webben. D
    <td colname="col1"> <p> <span class="codeph"> L  </span> </p> </td> 
    <td colname="col2"> <p>linjeposition </p> </td> 
    <td colname="col3"> <p> 0%-100%|heltal </p> </td> 
-   <td colname="col4"> <p> Anger linjens position på sidan. </p> <p>Om det uttrycks som ett heltal utan procenttecken är det antalet rader från den övre delen där texten visas. </p> <p>Om det uttrycks som ett procenttecken är procenttecknet det sista tecknet, visas bildtexten som procenttal nedåt i visningsområdet. </p> <p>Standardvärdet är <span class="codeph"> 100 % </span>. </p> </td> 
+   <td colname="col4"> <p> Anger linjens position på sidan. </p> <p>Om det uttrycks som ett heltal utan procenttecken är det antalet rader från den övre delen där texten visas. </p> <p>Om det uttrycks som ett procenttecken är procenttecknet det sista tecknet, så visas bildtexten i procent nedåt i visningsområdet. </p> <p>Standardvärdet är <span class="codeph"> 100 % </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
