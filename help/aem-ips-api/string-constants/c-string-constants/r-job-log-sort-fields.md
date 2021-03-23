@@ -4,12 +4,13 @@ seo-description: Används av getJobLogsParam/sortBy
 seo-title: Sorteringsfält för jobbloggar
 solution: Experience Manager
 title: Sorteringsfält för jobbloggar
-topic: Dynamic Media Image Production System API
 uuid: 20f870da-421b-4cb0-8287-0220ad9b9cb5
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '26'
+source-wordcount: '33'
 ht-degree: 0%
 
 ---
