@@ -4,12 +4,13 @@ seo-description: Använd PDF-jobbalternativ. En jobbalternativfil eller PDF-för
 seo-title: joboption
 solution: Experience Manager
 title: joboption
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7288cf29-850f-4121-8425-5f995daac22d
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
@@ -43,7 +44,7 @@ Följande alternativ stöds för närvarande:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Teckensnitt </p></td> 
-  <td class="stentry"> <p> Bädda in alla teckensnitt </p> <p> Bädda in OpenType-teckensnitt </p> <p> Skapa delmängder av inbäddade teckensnitt när andelen tecken som används är mindre än: </p> <p> Inkludera alltid lista </p> <p> Inkludera aldrig lista </p> </td> 
+  <td class="stentry"> <p> Bädda in alla teckensnitt </p> <p> Bädda in teckensnitt för OpenType </p> <p> Skapa delmängder av inbäddade teckensnitt när andelen tecken som används är mindre än: </p> <p> Inkludera alltid lista </p> <p> Inkludera aldrig lista </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Färg </p></td> 
