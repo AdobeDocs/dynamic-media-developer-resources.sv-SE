@@ -4,12 +4,13 @@ seo-description: Beskriver nya och ändrade operationsmetoder för IPS API versi
 seo-title: Nya och ändrade åtgärder
 solution: Experience Manager
 title: Nya och ändrade åtgärder
-topic: Dynamic Media Image Production System API
 uuid: e836c5af-53b8-4bfa-a93a-98750cca9745
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '82'
 ht-degree: 0%
 
 ---
