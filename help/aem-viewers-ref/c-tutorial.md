@@ -2,11 +2,12 @@
 description: Viewer SDK innehåller en uppsättning JavaScript-baserade komponenter för anpassad visningsprogramutveckling. Tittarna är webbaserade program som gör att multimediematerial som hanteras av Adobe Dynamic Media kan bäddas in på webbsidor.
 solution: Experience Manager
 title: Självstudiekurs om SDK för visningsprogram
-topic: Dynamic Media
+feature: Dynamic Media Classic,visningsprogram,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '974'
 ht-degree: 0%
 
 ---
