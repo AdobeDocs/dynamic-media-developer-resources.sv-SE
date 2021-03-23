@@ -4,12 +4,13 @@ seo-description: Miniatyrbilder består av ett rutnät med miniatyrbilder med en
 seo-title: Miniatyrbilder
 solution: Experience Manager
 title: Miniatyrbilder
-topic: Dynamic Media
 uuid: 340b81e0-77df-4b44-a462-b98bcc96d707
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '923'
 ht-degree: 0%
 
 ---
