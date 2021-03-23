@@ -4,12 +4,13 @@ seo-description: Anger metadatavärden för en resurs. Fungerar med en array med
 seo-title: setAssetMetadata
 solution: Experience Manager
 title: setAssetMetadata
-topic: Dynamic Media Image Production System API
 uuid: 17fe8277-a164-4f91-af96-ea43d41bd4f2
+feature: Dynamic Media Classic,SDK/API,Metadata,Resurshantering
+role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
