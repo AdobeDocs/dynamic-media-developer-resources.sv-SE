@@ -4,12 +4,13 @@ seo-description: JavaScript API-referens för Video360 Viewer.
 seo-title: setLocalizedTexter
 solution: Experience Manager
 title: setLocalizedTexter
-topic: Dynamic Media
 uuid: dd9cf899-8855-463b-a142-698fd1a650fe
+feature: Dynamic Media Classic,visningsprogram,SDK/API,360 VR-video
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '87'
 ht-degree: 0%
 
 ---
