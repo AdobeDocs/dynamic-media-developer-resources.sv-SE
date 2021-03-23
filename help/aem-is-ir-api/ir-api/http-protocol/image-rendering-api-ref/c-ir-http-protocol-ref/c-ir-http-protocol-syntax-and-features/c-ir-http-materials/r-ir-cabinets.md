@@ -4,12 +4,13 @@ seo-description: Kabinettmaterial anger en kabinettformatfil (.vnc-filtillägg),
 seo-title: Skåp
 solution: Experience Manager
 title: Skåp
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d515c613-07c5-49ef-ad6e-568a1f6c1335
+feature: Dynamic Media Classic,SDK/API
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 0%
 
 Kabinettmaterial anger en kabinettformatfil (.vnc-filtillägg), en särskild datafil som innehåller fotografiska representationer av skåp tillsammans med parameterlayoutdefinitioner och annan information som krävs för återgivning av skåftets framsidor.
 
-[!DNL vnc] filer kan innehålla en upprepningsbar kornstextur av trä eller så kan texturen ges externt via ett andra argument till  `src=`. Vissa [!DNL vnc]-filer tillåter färgläggning eller texturering av valda områden i skåpsrutor (används vanligtvis för laminerade skåpsstilar).
+[!DNL vnc] filerna kan innehålla en upprepningsbar kornstextur av trä, eller så kan texturen ges externt via ett andra argument till  `src=`. Vissa [!DNL vnc]-filer tillåter färgläggning eller texturering av valda områden i skåpsrutor (används vanligtvis för laminerade skåpsstilar).
 
 Kabinettmaterial kan bara användas på kabinettobjekt.
 
