@@ -4,12 +4,13 @@ seo-description: Huvudklassen i Video360Viewer är Video360Viewer. Den deklarera
 seo-title: JavaScript API-referens för Video360 Viewer
 solution: Experience Manager
 title: JavaScript API-referens för Video360 Viewer
-topic: Dynamic Media
 uuid: 3c700c45-c3a1-4ff2-899d-702bf2e4d230
+feature: Dynamic Media Classic,visningsprogram,SDK/API,360 VR-video
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
