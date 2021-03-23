@@ -4,12 +4,13 @@ seo-description: Om du klickar eller trycker på knappen Nästa bildruta flyttas
 seo-title: Nästa bild
 solution: Experience Manager
 title: Nästa bild
-topic: Dynamic Media
 uuid: 6cf7a16c-42bf-4576-bcb1-d504589b2748
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
