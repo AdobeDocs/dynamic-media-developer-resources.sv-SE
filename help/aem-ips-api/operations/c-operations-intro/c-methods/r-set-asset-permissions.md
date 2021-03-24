@@ -1,16 +1,13 @@
 ---
 description: Anger behörigheter för en enskild resurs genom att använda en behörighetsresurs.
-seo-description: Anger behörigheter för en enskild resurs genom att använda en behörighetsresurs.
-seo-title: setAssetPermissions
 solution: Experience Manager
 title: setAssetPermissions
-uuid: 38f26482-bce9-4d2c-9714-e8c3ae40c2d1
 feature: Dynamic Media Classic,SDK/API,Resurshantering
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
