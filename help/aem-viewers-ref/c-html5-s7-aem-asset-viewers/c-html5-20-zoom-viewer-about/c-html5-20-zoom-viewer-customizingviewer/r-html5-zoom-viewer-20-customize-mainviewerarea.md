@@ -1,16 +1,13 @@
 ---
 description: Huvudvisningsområdet är det område som upptas av zoombilden och färgrutorna. Den ställs vanligtvis in så att den passar den tillgängliga enhetsskärmen när ingen storlek har angetts.
-seo-description: Huvudvisningsområdet är det område som upptas av zoombilden och färgrutorna. Den ställs vanligtvis in så att den passar den tillgängliga enhetsskärmen när ingen storlek har angetts.
-seo-title: Huvudvisningsområde
 solution: Experience Manager
 title: Huvudvisningsområde
-uuid: 689116cb-bbb9-4e26-9c16-9229330c4034
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
