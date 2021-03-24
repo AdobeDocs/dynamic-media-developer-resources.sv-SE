@@ -1,16 +1,13 @@
 ---
 description: Anger bildspecifika fält för en eller flera bildresurser.
-seo-description: Anger bildspecifika fält för en eller flera bildresurser.
-seo-title: batchSetImageFields
 solution: Experience Manager
 title: batchSetImageFields
-uuid: e0ad7da4-cb28-4402-8b47-a600916d23b3
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
