@@ -1,16 +1,13 @@
 ---
 description: Visningsprogrammet stöder helskärmsläge.
-seo-description: Visningsprogrammet stöder helskärmsläge.
-seo-title: Helskärmsstöd
 solution: Experience Manager
 title: Helskärmsstöd
-uuid: d009d262-4c82-4847-ae70-af0fb1d318d3
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Video
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
