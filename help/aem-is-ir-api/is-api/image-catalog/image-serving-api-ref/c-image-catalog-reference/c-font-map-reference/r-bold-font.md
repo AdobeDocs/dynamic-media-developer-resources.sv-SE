@@ -1,16 +1,13 @@
 ---
 description: Fet ansiktsflagga. Anger om teckensnittsfilen som refereras av den här teckensnittskartan ska användas när det efterfrågas av RTF-kommandot fet (\b).
-seo-description: Fet ansiktsflagga. Anger om teckensnittsfilen som refereras av den här teckensnittskartan ska användas när det efterfrågas av RTF-kommandot fet (\b).
-seo-title: Fet
 solution: Experience Manager
 title: Fet
-uuid: c9bc05d6-07ff-4ad9-a5b2-3ddc81a746af
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
