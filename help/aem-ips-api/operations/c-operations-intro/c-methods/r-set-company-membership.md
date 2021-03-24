@@ -1,16 +1,13 @@
 ---
 description: Anger en användares medlemskap i ett eller flera företag.
-seo-description: Anger en användares medlemskap i ett eller flera företag.
-seo-title: setCompanyMembership
 solution: Experience Manager
 title: setCompanyMembership
-uuid: 34c9d457-bc2e-4186-8a8f-50388410640a
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
