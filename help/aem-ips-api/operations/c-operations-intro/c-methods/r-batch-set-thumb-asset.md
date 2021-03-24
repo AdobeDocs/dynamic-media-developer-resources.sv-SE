@@ -1,16 +1,13 @@
 ---
 description: Anger miniatyrbilden för en eller flera resurser.
-seo-description: Anger miniatyrbilden för en eller flera resurser.
-seo-title: batchSetThumbAsset
 solution: Experience Manager
 title: batchSetThumbAsset
-uuid: 16c298a7-bb07-4643-824b-8f864d7f0290
 feature: Dynamic Media Classic,SDK/API,Resurshantering
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
