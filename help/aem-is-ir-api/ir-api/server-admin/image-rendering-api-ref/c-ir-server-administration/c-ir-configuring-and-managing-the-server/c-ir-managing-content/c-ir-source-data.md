@@ -1,16 +1,13 @@
 ---
 description: Bildåtergivningens källdatafiler innehåller vinjettfiler, materialfiler (bilder för repeterbara texturer och dekorationer samt skåp och fönster som täcker formatfiler) och ICC-profiler.
-seo-description: Bildåtergivningens källdatafiler innehåller vinjettfiler, materialfiler (bilder för repeterbara texturer och dekorationer samt skåp och fönster som täcker formatfiler) och ICC-profiler.
-seo-title: Källdata
 solution: Experience Manager
 title: Källdata
-uuid: 76c6419c-613e-4eff-b30f-9fea2a7daf5b
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Administratör,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
