@@ -1,16 +1,13 @@
 ---
 description: Inställningar som förbättrar bildskärpan för optimerade TIF-pyramidfiler.
-seo-description: Inställningar som förbättrar bildskärpan för optimerade TIF-pyramidfiler.
-seo-title: OskarpMaskOptions
 solution: Experience Manager
 title: OskarpMaskOptions
-uuid: 73073de0-41b6-471c-8887-f6b94ed2af90
 feature: Dynamic Media Classic,SDK/API,Resurshantering
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
