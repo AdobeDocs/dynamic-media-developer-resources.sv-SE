@@ -1,16 +1,13 @@
 ---
 description: Videonavigeringen är den vågräta skjutreglaget som gör att en användare dynamiskt kan söka till valfri tidsposition i den video som spelas upp.
-seo-description: Videonavigeringen är den vågräta skjutreglaget som gör att en användare dynamiskt kan söka till valfri tidsposition i den video som spelas upp.
-seo-title: Videoskrubber
 solution: Experience Manager
 title: Videoskrubber
-uuid: cfd1055b-c4d6-42e4-ad24-a897e923e8e9
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1028'
 ht-degree: 0%
 
 ---
