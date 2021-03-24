@@ -1,16 +1,13 @@
 ---
 description: Uppspelningsikonen visas i huvudvisningsområdet. Den visas när videon pausas eller när slutet av videon nås, och den beror också på parametern iconeffect.
-seo-description: Uppspelningsikonen visas i huvudvisningsområdet. Den visas när videon pausas eller när slutet av videon nås, och den beror också på parametern iconeffect.
-seo-title: Ikoneffekt
 solution: Experience Manager
 title: Ikoneffekt
-uuid: dcab487d-0bd6-4899-82e2-e29fa812a864
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Video
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
