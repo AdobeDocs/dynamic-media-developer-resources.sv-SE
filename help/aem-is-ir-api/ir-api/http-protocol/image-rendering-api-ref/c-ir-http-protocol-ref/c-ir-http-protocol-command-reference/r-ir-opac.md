@@ -5,7 +5,7 @@ title: opac
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: 7910228217db2c97dccd306ce464c69da53ee576
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 0%
@@ -28,9 +28,9 @@ Opacitet. Anger materialets opacitet.
 
 Följande material-/objektkombinationer har stöd för variabel opacitet:
 
-* Enfärgade och repeterbara texturer som används på texturerbara överlappningsobjekt.
+* Enfärgade och repeterbara texturer som används på texturöverlappande objekt.
 * Fönsteromslagsmaterial som används på fönsteromfattande ramobjekt.
-* Decaler som används på texturerbara objekt eller väggobjekt.
+* Decaler som används på texturobjekt eller väggobjekt.
 
 Om materialet innehåller en bild med en alfakanal kan `opac=` användas för att göra bilden mer genomskinlig, men inte mer ogenomskinlig.
 
