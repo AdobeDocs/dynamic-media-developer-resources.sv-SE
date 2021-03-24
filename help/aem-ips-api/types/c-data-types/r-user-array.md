@@ -1,16 +1,13 @@
 ---
 description: En array med användare.
-seo-description: En array med användare.
-seo-title: UserArray
 solution: Experience Manager
 title: UserArray
-uuid: 5b78918b-4d6b-4d0d-90b8-6b8a7c97c5f0
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '32'
+source-wordcount: '27'
 ht-degree: 0%
 
 ---
