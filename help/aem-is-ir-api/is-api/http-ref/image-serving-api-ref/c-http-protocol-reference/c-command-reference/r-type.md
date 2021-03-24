@@ -1,16 +1,13 @@
 ---
 description: Statiskt innehållstypfilter. Anger en filtersträng för statiskt innehåll som levereras via /is/content.
-seo-description: Statiskt innehållstypfilter. Anger en filtersträng för statiskt innehåll som levereras via /is/content.
-seo-title: type
 solution: Experience Manager
 title: type
-uuid: 44906190-516c-481c-9714-bb19d77af33c
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
