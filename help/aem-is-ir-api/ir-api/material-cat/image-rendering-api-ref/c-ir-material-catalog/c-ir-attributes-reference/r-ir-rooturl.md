@@ -1,16 +1,13 @@
 ---
 description: Rot-URL för relativa bild-URL:er. Anger rot-URL:en för relativa bild-URL:er. RootUrl-attributet används i stället för RootPath-attributet när ett src=-värde omges av { curly braces }.
-seo-description: Rot-URL för relativa bild-URL:er. Anger rot-URL:en för relativa bild-URL:er. RootUrl-attributet används i stället för RootPath-attributet när ett src=-värde omges av { curly braces }.
-seo-title: RootUrl *
 solution: Experience Manager
 title: RootUrl *
-uuid: aa10f210-4765-4b0e-9ce1-812b00cd8cf5
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
