@@ -1,16 +1,13 @@
 ---
 description: Färg och tjocklek på plattans skala. Simulerar murbruk för keramiska och naturliga stenplattor.
-seo-description: Färg och tjocklek på plattans skala. Simulerar murbruk för keramiska och naturliga stenplattor.
-seo-title: groda
 solution: Experience Manager
 title: groda
-uuid: 00069004-40f2-4ab6-85d8-ca197b7bef69
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
