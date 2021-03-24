@@ -1,16 +1,13 @@
 ---
 description: Videotiden är den numeriska visning som visar aktuell tid och varaktighet för den video som spelas upp.
-seo-description: Videotiden är den numeriska visning som visar aktuell tid och varaktighet för den video som spelas upp.
-seo-title: Videotid
 solution: Experience Manager
 title: Videotid
-uuid: f8ba615f-661a-4750-bdf7-559650d464af
 feature: Dynamic Media Classic,visningsprogram,SDK/API,360 VR-video
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
