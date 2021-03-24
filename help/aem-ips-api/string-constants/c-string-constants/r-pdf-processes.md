@@ -1,16 +1,13 @@
 ---
 description: Används av PDFOptions/type.
-seo-description: Används av PDFOptions/type.
-seo-title: PDF-processer
 solution: Experience Manager
 title: PDF-processer
-uuid: 50c93577-bdf3-4b29-9722-408379d90433
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '27'
+source-wordcount: '21'
 ht-degree: 0%
 
 ---
