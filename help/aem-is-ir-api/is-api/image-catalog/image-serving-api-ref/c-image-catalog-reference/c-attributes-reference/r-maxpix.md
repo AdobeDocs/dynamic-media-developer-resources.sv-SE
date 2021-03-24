@@ -1,16 +1,13 @@
 ---
 description: Storleksgräns för svarsbild. Maximal bredd och höjd för svarsbilden som kan returneras till klienten.
-seo-description: Storleksgräns för svarsbild. Maximal bredd och höjd för svarsbilden som kan returneras till klienten.
-seo-title: MaxPix
 solution: Experience Manager
 title: MaxPix
-uuid: 22c5fac8-1e64-4917-8bb8-69a95ab549cb
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
