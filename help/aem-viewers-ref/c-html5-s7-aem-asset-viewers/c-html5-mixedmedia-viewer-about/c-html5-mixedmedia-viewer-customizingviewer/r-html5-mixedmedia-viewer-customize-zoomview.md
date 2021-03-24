@@ -1,16 +1,13 @@
 ---
 description: I kontinuerligt zoomläge består huvudvyn av den zoombara bilden när den aktuella resursen är en enda bild.
-seo-description: I kontinuerligt zoomläge består huvudvyn av den zoombara bilden när den aktuella resursen är en enda bild.
-seo-title: Zoomvy
 solution: Experience Manager
 title: Zoomvy
-uuid: c9113275-eec6-4014-b7ad-3ae9f2cf01d9
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Mixa medieuppsättningar
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
