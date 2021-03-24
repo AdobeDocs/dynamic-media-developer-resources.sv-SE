@@ -1,16 +1,13 @@
 ---
 description: Du kan använda Image Serving för att hantera innehåll som inte är en bild i kataloger och hantera det via en separat /is/content-kontext.
-seo-description: Du kan använda Image Serving för att hantera innehåll som inte är en bild i kataloger och hantera det via en separat /is/content-kontext.
-seo-title: Hantera statiskt innehåll (inte bildinnehåll)
 solution: Experience Manager
 title: Hantera statiskt innehåll (inte bildinnehåll)
-uuid: bdb1383a-e02d-499f-be79-4a6dc501705c
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
