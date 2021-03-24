@@ -1,16 +1,13 @@
 ---
 description: Materialkataloger innehåller information om vinjetter, material och stöddata, som ICC-profiler, till servern.
-seo-description: Materialkataloger innehåller information om vinjetter, material och stöddata, som ICC-profiler, till servern.
-seo-title: Översikt över materialkatalog *
 solution: Experience Manager
 title: Översikt över materialkatalog *
-uuid: f2128b64-8caf-4a59-b11f-604fe62bae69
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
