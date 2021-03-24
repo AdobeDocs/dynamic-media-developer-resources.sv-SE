@@ -1,16 +1,13 @@
 ---
 description: Publicerar filer på de konfigurerade videopubliceringsservrarna.
-seo-description: Publicerar filer på de konfigurerade videopubliceringsservrarna.
-seo-title: VideoPublishJob
 solution: Experience Manager
 title: VideoPublishJob
-uuid: 430cdb75-b909-4023-8627-e9db1991b533
 feature: Dynamic Media Classic,SDK/API,Video
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '49'
 ht-degree: 0%
 
 ---
