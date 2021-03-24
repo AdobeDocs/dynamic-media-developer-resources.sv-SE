@@ -1,16 +1,13 @@
 ---
 description: Uppsättningsindikatorn är en serie punkter som återges längst ned i visningsprogrammet. Här visas den aktuella positionen i uppsättningen.
-seo-description: Uppsättningsindikatorn är en serie punkter som återges längst ned i visningsprogrammet. Här visas den aktuella positionen i uppsättningen.
-seo-title: Ange indikator
 solution: Experience Manager
 title: Ange indikator
-uuid: 3f90a216-654f-44a9-947d-592bd5f342d4
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
