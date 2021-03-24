@@ -1,16 +1,13 @@
 ---
 description: Namn på genväg till profil. Ett kortkommandonamn för färgprofilen.
-seo-description: Namn på genväg till profil. Ett kortkommandonamn för färgprofilen.
-seo-title: Namn
 solution: Experience Manager
 title: Namn
-uuid: eca98f72-f863-4b7f-961e-81252f907d45
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '56'
 ht-degree: 0%
 
 ---
