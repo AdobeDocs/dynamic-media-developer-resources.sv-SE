@@ -1,16 +1,13 @@
 ---
 description: Om du klickar eller trycker på knappen Nästa bildruta flyttas användaren till nästa bildruta i karuselluppsättningen.
-seo-description: Om du klickar eller trycker på knappen Nästa bildruta flyttas användaren till nästa bildruta i karuselluppsättningen.
-seo-title: Nästa bild
 solution: Experience Manager
 title: Nästa bild
-uuid: 6cf7a16c-42bf-4576-bcb1-d504589b2748
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
