@@ -1,16 +1,13 @@
 ---
 description: Omsamplingsläge. Väljer den omsamplings- och/eller interpoleringsalgoritm som ska användas för skalning av bilddata. Gäller även för rotation av textlager och storleksändring av sammansatta bilder under vyomformningen.
-seo-description: Omsamplingsläge. Väljer den omsamplings- och/eller interpoleringsalgoritm som ska användas för skalning av bilddata. Gäller även för rotation av textlager och storleksändring av sammansatta bilder under vyomformningen.
-seo-title: resMode
 solution: Experience Manager
 title: resMode
-uuid: 8e12aa06-072c-4e7a-84e6-01437c43c57b
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
