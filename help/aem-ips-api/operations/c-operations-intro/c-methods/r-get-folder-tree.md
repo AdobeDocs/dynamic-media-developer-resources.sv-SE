@@ -1,16 +1,13 @@
 ---
 description: Returnerar mappar och undermappar i en hierarkisk trädstruktur. Svaret getFolderTree är begränsat till högst 100 000 mappar
-seo-description: Returnerar mappar och undermappar i en hierarkisk trädstruktur. Svaret getFolderTree är begränsat till högst 100 000 mappar
-seo-title: getFolderTree
 solution: Experience Manager
 title: getFolderTree
-uuid: 93fda0d6-c656-4254-b07b-7a448e164f28
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
