@@ -1,16 +1,13 @@
 ---
 description: Mer information om material som används vid bildåtergivning finns i Material i HTTP Protocol Reference.
-seo-description: Mer information om material som används vid bildåtergivning finns i Material i HTTP Protocol Reference.
-seo-title: Material
 solution: Experience Manager
 title: Material
-uuid: a4bbdd77-56b4-4a62-8fc4-2162b00420e7
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '42'
 ht-degree: 0%
 
 ---
