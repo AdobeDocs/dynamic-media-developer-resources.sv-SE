@@ -1,16 +1,13 @@
 ---
 description: Följande fält känns igen i ICC-färgprofilmappningsfiler.
-seo-description: Följande fält känns igen i ICC-färgprofilmappningsfiler.
-seo-title: ICC-profilkartor
 solution: Experience Manager
 title: ICC-profilkartor
-uuid: b244c95a-3198-4d6c-836f-f199022348b4
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '48'
 ht-degree: 0%
 
 ---
