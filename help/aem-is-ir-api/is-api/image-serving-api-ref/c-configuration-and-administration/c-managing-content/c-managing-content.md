@@ -1,16 +1,13 @@
 ---
 description: De här avsnitten innehåller information om hantering av innehåll.
-seo-description: De här avsnitten innehåller information om hantering av innehåll.
-seo-title: Hantera innehåll
 solution: Experience Manager
 title: Hantera innehåll
-uuid: 759697c9-0391-4b93-baac-6d153aed04f8
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Administratör,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '40'
 ht-degree: 0%
 
 ---
