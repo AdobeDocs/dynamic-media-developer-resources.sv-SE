@@ -1,16 +1,13 @@
 ---
 description: Dessa kommandon gäller för bild-, text- och enfärgslager. De är också användbara för sammansatta bilder och enkla, icke-lageruppbyggda bildförfrågningar.
-seo-description: Dessa kommandon gäller för bild-, text- och enfärgslager. De är också användbara för sammansatta bilder och enkla, icke-lageruppbyggda bildförfrågningar.
-seo-title: Vanliga åtgärder
 solution: Experience Manager
 title: Vanliga åtgärder
-uuid: 2d1be69a-661e-494a-9748-3a6525b19b1b
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
