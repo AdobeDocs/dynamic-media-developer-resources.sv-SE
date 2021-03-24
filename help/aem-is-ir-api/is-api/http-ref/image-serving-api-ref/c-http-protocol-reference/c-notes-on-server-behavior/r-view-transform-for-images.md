@@ -2,11 +2,10 @@
 description: Visa omformning för bilder
 solution: Experience Manager
 title: Visa omformning för bilder
-uuid: 8594f746-0e58-4a59-933c-a44dc0b06c25
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
