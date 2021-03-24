@@ -1,16 +1,13 @@
 ---
 description: Ersättningsvariabeln används för att överföra värden från begärande-URL:en till FXG-mallar som lagras på servern.
-seo-description: Ersättningsvariabeln används för att överföra värden från begärande-URL:en till FXG-mallar som lagras på servern.
-seo-title: Ersättningsvariabler
 solution: Experience Manager
 title: Ersättningsvariabler
-uuid: 87cd9594-ba3b-429d-aa57-399902ef3abe
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
