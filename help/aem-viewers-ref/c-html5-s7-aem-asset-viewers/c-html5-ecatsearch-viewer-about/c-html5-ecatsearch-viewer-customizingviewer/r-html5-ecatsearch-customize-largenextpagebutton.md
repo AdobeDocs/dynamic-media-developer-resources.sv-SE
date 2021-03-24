@@ -1,16 +1,13 @@
 ---
 description: Om du klickar eller trycker på den här knappen kommer användaren till nästa sida i katalogen. Den här knappen visas i huvudkontrollfältet. Den här knappen visas inte på mobiltelefoner för att spara skärmutrymme. Du kan ändra storlek, skal och position för knappen med hjälp av CSS.
-seo-description: Om du klickar eller trycker på den här knappen kommer användaren till nästa sida i katalogen. Den här knappen visas i huvudkontrollfältet. Den här knappen visas inte på mobiltelefoner för att spara skärmutrymme. Du kan ändra storlek, skal och position för knappen med hjälp av CSS.
-seo-title: Knappen Stor nästa sida
 solution: Experience Manager
 title: Knappen Stor nästa sida
-uuid: b68332b1-7b6b-46d8-8a0a-aa5a78fca5fb
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
