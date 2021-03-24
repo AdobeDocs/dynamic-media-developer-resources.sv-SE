@@ -1,17 +1,14 @@
 ---
 description: Färgvärden för attributen color= och bgc= kan anges med hjälp av en lista med decimalvärden, kommaavgränsade komponentvärden eller en hex-notation, som liknar HTML.
-seo-description: Färgvärden för attributen color= och bgc= kan anges med hjälp av en lista med decimalvärden, kommaavgränsade komponentvärden eller en hex-notation, som liknar HTML.
-seo-title: Färgvärden
 solution: Experience Manager
 title: Färgvärden
-uuid: f8e3a8e7-3e0c-4ee6-8434-caba1f2bea1f
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 7%
+source-wordcount: '127'
+ht-degree: 8%
 
 ---
 
