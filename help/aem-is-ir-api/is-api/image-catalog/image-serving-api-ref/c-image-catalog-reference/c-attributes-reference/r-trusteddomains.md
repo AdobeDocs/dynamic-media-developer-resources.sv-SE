@@ -1,16 +1,13 @@
 ---
 description: Flash webbdomäner. Adobe Flash kan kräva åtkomst till egenskaper för bilder som levereras med fmt=swf eller fmt=swf3.
-seo-description: Flash webbdomäner. Adobe Flash kan kräva åtkomst till egenskaper för bilder som levereras med fmt=swf eller fmt=swf3.
-seo-title: Betrodda domäner
 solution: Experience Manager
 title: Betrodda domäner
-uuid: 1d056d68-b699-413c-897c-8612444735c5
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
