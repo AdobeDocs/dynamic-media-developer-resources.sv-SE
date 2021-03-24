@@ -1,16 +1,13 @@
 ---
 description: Egenskaper för svarsdata. Utvärderar den aktuella begäran som om den vore en bildbegäran (req=img), men i stället för att returnera bilden returnerar servern de valda egenskaperna för svarsbilden.
-seo-description: Egenskaper för svarsdata. Utvärderar den aktuella begäran som om den vore en bildbegäran (req=img), men i stället för att returnera bilden returnerar servern de valda egenskaperna för svarsbilden.
-seo-title: proppar
 solution: Experience Manager
 title: proppar
-uuid: b9325654-81d6-4f00-bf0a-36650bea6b8d
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
