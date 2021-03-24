@@ -1,16 +1,13 @@
 ---
 description: Om du klickar eller trycker på den här knappen återställs en bild i huvudvyn. Du kan ändra storlek, skal och position för knappen med hjälp av CSS.
-seo-description: Om du klickar eller trycker på den här knappen återställs en bild i huvudvyn. Du kan ändra storlek, skal och position för knappen med hjälp av CSS.
-seo-title: Knappen Zoomåterställning
 solution: Experience Manager
 title: Knappen Zoomåterställning
-uuid: 438e50e8-8e0f-485a-89d8-6fabd8051b2f
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
