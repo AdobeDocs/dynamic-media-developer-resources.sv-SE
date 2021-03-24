@@ -1,16 +1,13 @@
 ---
 description: Bildkonverteringsverktyg.
-seo-description: Bildkonverteringsverktyg.
-seo-title: ic
 solution: Experience Manager
 title: ic
-uuid: 08fabcc9-d0b5-4136-81fc-ac896c341e1d
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1212'
 ht-degree: 0%
 
 ---
@@ -257,7 +254,7 @@ I följande tabell visas de bildfilformat och formatalternativ som stöds av IC.
   <tr> 
    <td> <b> BMP</b> <p> (Windows-bitmapp) </p> </td> 
    <td> <p> RGB | indexerad </p> </td> 
-   <td> <p> 1 | 5/6 | 8 </p> </td> 
+   <td> <p> 3 | 5/6 | 8 </p> </td> 
    <td> <p> okomprimerad | RLE </p> </td> 
    <td> <p> 5/6 bitar/kanal anger stöd för 16-bitars RGB (5-5-5 och 5-6-5 bitar/kanal). </p> </td> 
   </tr> 
@@ -313,7 +310,7 @@ I följande tabell visas de bildfilformat och formatalternativ som stöds av IC.
   <tr> 
    <td> <b> TIFF</b> </td> 
    <td> <p> CMYK | CMYKA | RGB | RGBA | grå | grayA | indexerad </p> </td> 
-   <td> <p> 3 | 8 | 16 </p> </td> 
+   <td> <p> 1 | 8 | 16 </p> </td> 
    <td> <p> okomprimerad | ZIP | LZW | JPEG | CCITT RLE | CCITT G3 | CCITT G4 | Paket </p> </td> 
    <td> <p> Med undantag för den första associerade alfakanalen ignoreras extra kanaler. </p> </td> 
   </tr> 
