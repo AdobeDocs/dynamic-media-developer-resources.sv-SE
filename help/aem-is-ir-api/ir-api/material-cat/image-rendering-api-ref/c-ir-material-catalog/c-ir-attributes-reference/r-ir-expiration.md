@@ -1,16 +1,13 @@
 ---
 description: Klientens standardtid för cache till livstid. Innehåller ett standardintervall för förfallodatum om en viss katalogpost inte innehåller ett giltigt värde för förfallodatum eller förfallotid för katalog, eller om en vinjettfil eller en materialfil används direkt, i stället för via en katalogpost.
-seo-description: Klientens standardtid för cache till livstid. Innehåller ett standardintervall för förfallodatum om en viss katalogpost inte innehåller ett giltigt värde för förfallodatum eller förfallotid för katalog, eller om en vinjettfil eller en materialfil används direkt, i stället för via en katalogpost.
-seo-title: Förfaller
 solution: Experience Manager
 title: Förfaller
-uuid: 2b56f9ec-2b25-4e6a-aead-6dad3d2df975
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
