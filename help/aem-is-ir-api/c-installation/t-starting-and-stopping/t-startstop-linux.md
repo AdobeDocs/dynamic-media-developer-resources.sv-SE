@@ -1,16 +1,13 @@
 ---
 description: Det finns två alternativ för att starta eller stoppa Image Serving i Linux.
-seo-description: Det finns två alternativ för att starta eller stoppa Image Serving i Linux.
-seo-title: Starta eller stoppa i Linux
 solution: Experience Manager
 title: Starta eller stoppa i Linux
-uuid: 92cf60c4-3f80-42bc-b135-17bc22ba151e
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '67'
 ht-degree: 0%
 
 ---
