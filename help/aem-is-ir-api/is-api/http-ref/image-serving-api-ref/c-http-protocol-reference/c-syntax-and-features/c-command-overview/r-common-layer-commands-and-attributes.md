@@ -1,16 +1,13 @@
 ---
 description: Dessa kommandon gäller för bild-, text- och enfärgslager. De flesta är inte användbara för den sammansatta bilden och för enkla, icke-lageruppbyggda begäranden. De gäller inte för effektlager.
-seo-description: Dessa kommandon gäller för bild-, text- och enfärgslager. De flesta är inte användbara för den sammansatta bilden och för enkla, icke-lageruppbyggda begäranden. De gäller inte för effektlager.
-seo-title: Gemensamma lagerkommandon
 solution: Experience Manager
 title: Gemensamma lagerkommandon
-uuid: f11da6ba-18f2-42d6-8257-cb8ebef8c7d8
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
