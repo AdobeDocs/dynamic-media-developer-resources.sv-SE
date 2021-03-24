@@ -1,16 +1,13 @@
 ---
 description: Används av ScheduledJob/triggerState.
-seo-description: Används av ScheduledJob/triggerState.
-seo-title: Utlösarlägen för jobb
 solution: Experience Manager
 title: Utlösarlägen för jobb
-uuid: 2217374c-db38-4453-8b93-f10553ce52c7
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '30'
+source-wordcount: '23'
 ht-degree: 0%
 
 ---
