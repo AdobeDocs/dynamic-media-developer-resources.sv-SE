@@ -1,16 +1,13 @@
 ---
 description: Vågrät justering för miniatyrbilder. Anger den vågräta justeringen av miniatyrbilden i svarsbildsrektangeln som anges av wid= och hei= eller av attributet DefaultThumbPix.
-seo-description: Vågrät justering för miniatyrbilder. Anger den vågräta justeringen av miniatyrbilden i svarsbildsrektangeln som anges av wid= och hei= eller av attributet DefaultThumbPix.
-seo-title: ThumbHorizAlign
 solution: Experience Manager
 title: ThumbHorizAlign
-uuid: 2fbe71e2-1227-415b-ad4c-0d0752f8f729
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
