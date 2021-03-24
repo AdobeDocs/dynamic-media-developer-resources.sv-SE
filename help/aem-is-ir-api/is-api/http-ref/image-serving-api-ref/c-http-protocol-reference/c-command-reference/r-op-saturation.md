@@ -1,16 +1,13 @@
 ---
 description: Justera mättnad. Ändrar mättnaden för varje synlig pixel i lagret eller den sammansatta bilden.
-seo-description: Justera mättnad. Ändrar mättnaden för varje synlig pixel i lagret eller den sammansatta bilden.
-seo-title: op_saturation
 solution: Experience Manager
 title: op_saturation
-uuid: 5e987841-0c3b-4f68-96b1-fad8757f3402
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
