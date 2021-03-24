@@ -1,16 +1,13 @@
 ---
 description: Rotsökväg för saveToFile=. Relativ sökväg för rotmappen som bilder som skapats med req=saveToFile ska skrivas till.
-seo-description: Rotsökväg för saveToFile=. Relativ sökväg för rotmappen som bilder som skapats med req=saveToFile ska skrivas till.
-seo-title: SavePath
 solution: Experience Manager
 title: SavePath
-uuid: 02b88e83-7fee-40d4-95ea-daba9a608e8e
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
