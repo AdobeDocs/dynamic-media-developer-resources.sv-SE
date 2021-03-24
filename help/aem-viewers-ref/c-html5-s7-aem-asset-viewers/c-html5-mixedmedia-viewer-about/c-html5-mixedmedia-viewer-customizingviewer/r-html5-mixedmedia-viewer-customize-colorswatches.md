@@ -1,16 +1,13 @@
 ---
 description: Färgrutor består av en rad med miniatyrbilder med rullningsknappar till vänster och höger. Färgrutor visas bara på skrivbordet om alla miniatyrbilder inte får plats i behållarens bredd. På mobila enheter, eller om miniatyrbilder får plats i behållarbredden, visas inte rullningsknappar.
-seo-description: Färgrutor består av en rad med miniatyrbilder med rullningsknappar till vänster och höger. Färgrutor visas bara på skrivbordet om alla miniatyrbilder inte får plats i behållarens bredd. På mobila enheter, eller om miniatyrbilder får plats i behållarbredden, visas inte rullningsknappar.
-seo-title: Färgrutor
 solution: Experience Manager
 title: Färgrutor
-uuid: 868d938f-578a-4ecf-8a71-9569450492fb
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Mixa medieuppsättningar
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
