@@ -1,16 +1,13 @@
 ---
 description: Jobbtyp som tillåter ombearbetning av tidigare överförda primära filer, inklusive återgivning av PDF-filer och omoptimering av bilder.
-seo-description: Jobbtyp som tillåter ombearbetning av tidigare överförda primära filer, inklusive återgivning av PDF-filer och omoptimering av bilder.
-seo-title: ÅterbearbetaResurserJobb
 solution: Experience Manager
 title: ÅterbearbetaResurserJobb
-uuid: 5b4aa838-0fb4-4ae8-be5a-8ce1e1487127
 feature: Dynamic Media Classic,SDK/API,Resurshantering
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
