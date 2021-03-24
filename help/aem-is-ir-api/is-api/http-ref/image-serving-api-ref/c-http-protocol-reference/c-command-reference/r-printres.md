@@ -1,16 +1,13 @@
 ---
 description: Utskriftsupplösning. Åsidosätter utskriftsupplösningsvärdet som är inbäddat i svarsbilden.
-seo-description: Utskriftsupplösning. Åsidosätter utskriftsupplösningsvärdet som är inbäddat i svarsbilden.
-seo-title: printRes
 solution: Experience Manager
 title: printRes
-uuid: 1a62611a-b3b9-4f20-834f-e34e75d33ddd
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
