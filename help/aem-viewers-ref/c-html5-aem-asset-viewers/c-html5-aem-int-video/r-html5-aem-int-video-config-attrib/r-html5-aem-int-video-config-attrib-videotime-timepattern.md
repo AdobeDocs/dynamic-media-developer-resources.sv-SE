@@ -1,16 +1,13 @@
 ---
 description: Konfigurationsattribut för Interactive Video Viewer.
-seo-description: Konfigurationsattribut för Interactive Video Viewer.
-seo-title: VideoTime.timepattern
 solution: Experience Manager
 title: VideoTime.timepattern
-uuid: 90d36f73-44f9-4e4e-9ad6-e866749f9b2f
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
