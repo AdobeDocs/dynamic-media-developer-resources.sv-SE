@@ -1,16 +1,13 @@
 ---
 description: Textsträngens datatyp.
-seo-description: Textsträngens datatyp.
-seo-title: Textsträng
 solution: Experience Manager
 title: Textsträng
-uuid: d37ff12d-5c7a-4bb5-af61-44de85a86aa0
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '68'
 ht-degree: 0%
 
 ---
