@@ -1,16 +1,13 @@
 ---
 description: Zoomindikatorn placeras över huvudvisningsområdet. Den visas när bilden är i ett återställningsläge och den är också beroende av parametern iconeffect.
-seo-description: Zoomindikatorn placeras över huvudvisningsområdet. Den visas när bilden är i ett återställningsläge och den är också beroende av parametern iconeffect.
-seo-title: Ikoneffekt
 solution: Experience Manager
 title: Ikoneffekt
-uuid: 113b2502-395d-4fd1-ab28-4995e8248593
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
