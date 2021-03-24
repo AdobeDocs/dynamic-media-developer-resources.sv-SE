@@ -1,16 +1,13 @@
 ---
 description: Standardfärgprofil för CMYK-indata. Anger namnet på ICC-färgprofilen som ska användas för CMYK-källbilder som inte bäddar in en färgprofil och för vissa CMYK-färgvärden som anges med olika bildserverkommandon, till exempel color=.
-seo-description: Standardfärgprofil för CMYK-indata. Anger namnet på ICC-färgprofilen som ska användas för CMYK-källbilder som inte bäddar in en färgprofil och för vissa CMYK-färgvärden som anges med olika bildserverkommandon, till exempel color=.
-seo-title: IccProfileSrcCmyk
 solution: Experience Manager
 title: IccProfileSrcCmyk
-uuid: 5f1c2eb6-7f32-4603-9587-d8c1f6a72bb0
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
