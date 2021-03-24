@@ -1,16 +1,13 @@
 ---
 description: Vinjetter kan skapas för att innehålla data för nästan 3D-reflektion.
-seo-description: Vinjetter kan skapas för att innehålla data för nästan 3D-reflektion.
-seo-title: Reflektioner
 solution: Experience Manager
 title: Reflektioner
-uuid: 6d86f566-0f02-4304-8a6c-08b1a2e9c72e
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
