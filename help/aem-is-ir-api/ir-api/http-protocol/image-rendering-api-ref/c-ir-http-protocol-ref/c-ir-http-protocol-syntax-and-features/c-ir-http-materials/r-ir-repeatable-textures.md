@@ -1,16 +1,13 @@
 ---
 description: Upprepningsbara texturer är bland annat inre och yttre material, t.ex. vävnader (både kläder och möbelklädsel), golvbeläggning från vägg till vägg, tapeter, motverkande material, texturer av trä, takbeklädnad och sidomaterial samt all annan allmän textur.
-seo-description: Upprepningsbara texturer är bland annat inre och yttre material, t.ex. vävnader (både kläder och möbelklädsel), golvbeläggning från vägg till vägg, tapeter, motverkande material, texturer av trä, takbeklädnad och sidomaterial samt all annan allmän textur.
-seo-title: Upprepningsbara texturer
 solution: Experience Manager
 title: Upprepningsbara texturer
-uuid: 11a55d9f-a1d7-490e-af0e-9bf2c3a35501
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
