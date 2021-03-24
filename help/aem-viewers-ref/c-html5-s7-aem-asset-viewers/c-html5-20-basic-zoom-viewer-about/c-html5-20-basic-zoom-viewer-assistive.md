@@ -1,16 +1,13 @@
 ---
 description: Alla visningsprogramkomponenter har stöd för ARIA-roller (Accessible Rich Internet Applications) och -attribut för att förbättra integrationen med hjälpmedelstekniker som skärmläsare.
-seo-description: Alla visningsprogramkomponenter har stöd för ARIA-roller (Accessible Rich Internet Applications) och -attribut för att förbättra integrationen med hjälpmedelstekniker som skärmläsare.
-seo-title: Teknikstöd
 solution: Experience Manager
 title: Teknikstöd
-uuid: 99fdb4fd-5a3d-4c4e-b1c5-10651c08bf39
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zooma,Tillgänglighet
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
