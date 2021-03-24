@@ -1,16 +1,13 @@
 ---
 description: Dölj lager. Gör att ett lager kan döljas utan att det tas bort från strängen för begäran.
-seo-description: Dölj lager. Gör att ett lager kan döljas utan att det tas bort från strängen för begäran.
-seo-title: hide
 solution: Experience Manager
 title: hide
-uuid: fb50f2c4-fbac-4f0e-aa78-9cb1e47cc591
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '50'
 ht-degree: 0%
 
 ---
