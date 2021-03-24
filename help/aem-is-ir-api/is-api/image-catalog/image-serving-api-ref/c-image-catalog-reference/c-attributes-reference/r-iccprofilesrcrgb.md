@@ -1,16 +1,13 @@
 ---
 description: RGB-standardfärgprofil för indata. Anger namnet på ICC-färgprofilen som ska användas för RGB-källbilder som inte bäddar in en färgprofil och för vissa RGB-färgvärden som anges med olika bildserverkommandon, till exempel color=.
-seo-description: RGB-standardfärgprofil för indata. Anger namnet på ICC-färgprofilen som ska användas för RGB-källbilder som inte bäddar in en färgprofil och för vissa RGB-färgvärden som anges med olika bildserverkommandon, till exempel color=.
-seo-title: IccProfileSrcRgb
 solution: Experience Manager
 title: IccProfileSrcRgb
-uuid: 4f6f19ec-3524-403e-9c79-1e2b25cd74ce
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
