@@ -1,16 +1,13 @@
 ---
 description: Helskärmsknappen gör att användaren aktiverar eller avslutar helskärmsläget. Den används när visningsprogrammet visar video och finns i kontrollfältet. Den här knappen visas inte om visningsprogrammet fungerar i popup-läge och systemet inte stöder helskärmsläge.
-seo-description: Helskärmsknappen gör att användaren aktiverar eller avslutar helskärmsläget. Den används när visningsprogrammet visar video och finns i kontrollfältet. Den här knappen visas inte om visningsprogrammet fungerar i popup-läge och systemet inte stöder helskärmsläge.
-seo-title: Helskärmsknapp för video
 solution: Experience Manager
 title: Helskärmsknapp för video
-uuid: f264154b-eb4d-4dcb-b8c0-e06c383198ae
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Mixa medieuppsättningar
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
