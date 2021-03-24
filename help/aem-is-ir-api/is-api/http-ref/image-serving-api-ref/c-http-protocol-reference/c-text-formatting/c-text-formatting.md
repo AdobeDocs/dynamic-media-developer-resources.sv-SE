@@ -1,16 +1,13 @@
 ---
 description: Image Serving innehåller flera alternativ för att återge text, som du kan använda med kommandona text= och textPs=.
-seo-description: Image Serving innehåller flera alternativ för att återge text, som du kan använda med kommandona text= och textPs=.
-seo-title: Textformatering
 solution: Experience Manager
 title: Textformatering
-uuid: e67b6dd2-2a78-4014-9525-816d91c9e783
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
