@@ -1,16 +1,13 @@
 ---
 description: Textflödesområde. Anger ett eller flera områden i vilka text som anges med textPs= ska flödas.
-seo-description: Textflödesområde. Anger ett eller flera områden i vilka text som anges med textPs= ska flödas.
-seo-title: textFlowPath
 solution: Experience Manager
 title: textFlowPath
-uuid: 5449d78f-e56b-4afb-a05a-7cf8f1f37278
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
