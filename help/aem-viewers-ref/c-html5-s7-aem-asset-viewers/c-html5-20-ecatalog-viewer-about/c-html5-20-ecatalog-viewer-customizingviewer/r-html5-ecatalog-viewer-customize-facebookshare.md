@@ -1,16 +1,13 @@
 ---
 description: Facebook-delningsverktyget består av en knapp som läggs till på panelen Dela via sociala medier. När användaren klickar på knappen omdirigeras användaren till en delningsdialogruta som tillhandahålls av en social tjänst. Knappens position hanteras helt av verktyget för social delning.
-seo-description: Facebook-delningsverktyget består av en knapp som läggs till på panelen Dela via sociala medier. När användaren klickar på knappen omdirigeras användaren till en delningsdialogruta som tillhandahålls av en social tjänst. Knappens position hanteras helt av verktyget för social delning.
-seo-title: Facebook-delning
 solution: Experience Manager
 title: Facebook-delning
-uuid: 614e7a06-90b6-4fe0-9ecf-be97881ec6d1
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
