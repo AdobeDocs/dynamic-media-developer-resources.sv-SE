@@ -1,17 +1,14 @@
 ---
 description: Färgvärden. Du kan ange färgvärden antingen hexadecimalt, med en kommaavgränsad lista över komponentvärden eller med decimaler.
-seo-description: Färgvärden. Du kan ange färgvärden antingen hexadecimalt, med en kommaavgränsad lista över komponentvärden eller med decimaler.
-seo-title: färg
 solution: Experience Manager
 title: färg
-uuid: 61308b8e-eaac-4b2e-8500-2f9efa8a6ce8
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 11%
+source-wordcount: '439'
+ht-degree: 12%
 
 ---
 
@@ -51,11 +48,11 @@ Färgvärden. Du kan ange färgvärden antingen hexadecimalt, med en kommaavgrä
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex8</span> </span> </p> </td> 
-  <td class="stentry"> <p>packat åttasiffrigt hexadecimalt RGBA- (RRGGBBAA) eller CMYK-färgvärde (CCMYYKK) (om det anges med suffixet"k") </p></td> 
+  <td class="stentry"> <p>packad åttasiffrig hexadecimal RGBA (RRGGBBAA) eller CMYK-färgvärde (CCMYYKK) (om det anges med suffixet k) </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex10</span> </span> </p></td> 
-  <td class="stentry"> <p>tio siffror hexadecimal CMYK med alfavärde (CCYMMKAA) </p> </td> 
+  <td class="stentry"> <p>tio-siffrig hexadecimal CMYK med alfavärde (CCYMMKAA) </p> </td> 
  </tr> 
 </table>
 
