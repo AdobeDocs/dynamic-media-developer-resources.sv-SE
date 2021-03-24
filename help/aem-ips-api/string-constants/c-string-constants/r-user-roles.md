@@ -1,16 +1,13 @@
 ---
 description: Beskriver värden som används av olika parametrar. Mer information finns i listan i den här artikeln
-seo-description: Beskriver värden som används av olika parametrar. Mer information finns i listan i den här artikeln
-seo-title: Användarroller
 solution: Experience Manager
 title: Användarroller
-uuid: d971c6aa-981a-4e15-b268-7bd685bad03b
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '43'
 ht-degree: 0%
 
 ---
