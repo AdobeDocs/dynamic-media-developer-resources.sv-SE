@@ -1,16 +1,13 @@
 ---
 description: Egenskapsuppsättningar är programspecifika uppsättningar med namn/värde-par som kan kopplas till olika IPS-objekt, beroende på egenskapsuppsättningstypen. Om egenskapsuppsättningstypen inte tillåter att flera uppsättningar kopplas till ett objekt (PropertySetType/allowMultipleisfalse) och objektet redan har en associerad uppsättning av samma typ, ersätter den nya uppsättningen den befintliga.
-seo-description: Egenskapsuppsättningar är programspecifika uppsättningar med namn/värde-par som kan kopplas till olika IPS-objekt, beroende på egenskapsuppsättningstypen. Om egenskapsuppsättningstypen inte tillåter att flera uppsättningar kopplas till ett objekt (PropertySetType/allowMultipleisfalse) och objektet redan har en associerad uppsättning av samma typ, ersätter den nya uppsättningen den befintliga.
-seo-title: createPropertySet
 solution: Experience Manager
 title: createPropertySet
-uuid: f0b5b951-143f-4a31-bb6b-cdeabdebbcbb
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
