@@ -1,17 +1,14 @@
 ---
 description: Materialtyp. Materialets yttyp. Används tillsammans med katalogglans och kataloggrovhet för att styra återgivningseffekter för 3D-reflektion.
-seo-description: Materialtyp. Materialets yttyp. Används tillsammans med katalogglans och kataloggrovhet för att styra återgivningseffekter för 3D-reflektion.
-seo-title: Typ
 solution: Experience Manager
 title: Typ
-uuid: 8e367013-ed4c-4504-baf7-26ea27d96469
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 12%
+source-wordcount: '141'
+ht-degree: 14%
 
 ---
 
@@ -38,7 +35,7 @@ Enum. Valfritt för alla material. Ignoreras om vinjetteringen inte har någon �
   <td class="stentry"> <p>Naturligt trä. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p> </td> 
+  <td class="stentry"> <p>1 </p> </td> 
   <td class="stentry"> <p>Putsad metall. </p> </td> 
  </tr> 
  <tr class="strow"> 
