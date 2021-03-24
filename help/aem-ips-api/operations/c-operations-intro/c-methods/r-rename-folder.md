@@ -1,16 +1,13 @@
 ---
 description: Byter namn på en mapp.
-seo-description: Byter namn på en mapp.
-seo-title: renameFolder
 solution: Experience Manager
 title: renameFolder
-uuid: 7d190a57-1d81-4f41-9205-b8ffdf7330ec
 feature: Dynamic Media Classic,SDK/API,Resurshantering
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
