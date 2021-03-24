@@ -1,16 +1,13 @@
 ---
 description: Den här versionen - Image Serving 6.6.1 and Image Rendering 6.6.1 - ersätter Image Serving 6.5.3 och Image Rendering 6.5.3.
-seo-description: Den här versionen - Image Serving 6.6.1 and Image Rendering 6.6.1 - ersätter Image Serving 6.5.3 och Image Rendering 6.5.3.
-seo-title: Om den här versionen
 solution: Experience Manager
 title: Om den här versionen
-uuid: 2fdd8920-433b-405e-bf93-dbef5735be3f
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
