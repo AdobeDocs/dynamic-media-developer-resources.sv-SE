@@ -1,16 +1,13 @@
 ---
 description: Anger typ av zoominteraktion.
-seo-description: Anger typ av zoominteraktion.
-seo-title: zoomMode
 solution: Experience Manager
 title: zoomMode
-uuid: fdbe7ab6-47db-46cf-8a0d-085c66d4b0f8
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Mixa medieuppsättningar
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
