@@ -1,16 +1,13 @@
 ---
 description: Aktivera senaste ändrade svarshuvuden. Aktiverar eller inaktiverar inkludering av den senast ändrade rubriken i tillgängliga HTTP-svar som genereras av bildåtergivning.
-seo-description: Aktivera senaste ändrade svarshuvuden. Aktiverar eller inaktiverar inkludering av den senast ändrade rubriken i tillgängliga HTTP-svar som genereras av bildåtergivning.
-seo-title: UseLastModified
 solution: Experience Manager
 title: UseLastModified
-uuid: f2ce2e04-4133-40af-ac82-cae57b253fe9
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
