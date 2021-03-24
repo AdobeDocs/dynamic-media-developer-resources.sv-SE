@@ -1,17 +1,14 @@
 ---
 description: Standardmaterialskärpa. Anger standardläget för materialskärpa om en viss katalogpost inte innehåller ett giltigt värde för katalogskärpa.
-seo-description: Standardmaterialskärpa. Anger standardläget för materialskärpa om en viss katalogpost inte innehåller ett giltigt värde för katalogskärpa.
-seo-title: Sharp
 solution: Experience Manager
 title: Sharp
-uuid: f6a6101c-3d9e-4557-892b-be7943b4fdca
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 3%
+source-wordcount: '98'
+ht-degree: 4%
 
 ---
 
@@ -30,7 +27,7 @@ Enum.
   <td class="stentry"> <p>Ingen skärpa. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>1 </p></td> 
+  <td class="stentry"> <p>3 </p></td> 
   <td class="stentry"> <p>Normal skärpa (efter omformningen). </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -38,7 +35,7 @@ Enum.
   <td class="stentry"> <p>Alternativ skärpa (före omformningen). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>1 </p></td> 
+  <td class="stentry"> <p>3 </p></td> 
   <td class="stentry"> <p>Mer skärpa (både före och efter omformningen). </p> </td> 
  </tr> 
 </table>
