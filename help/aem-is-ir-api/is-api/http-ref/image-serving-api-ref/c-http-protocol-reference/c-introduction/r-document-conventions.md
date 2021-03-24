@@ -1,16 +1,13 @@
 ---
 description: Det här dokumentet använder följande konventioner.
-seo-description: Det här dokumentet använder följande konventioner.
-seo-title: Dokumentkonventioner
 solution: Experience Manager
 title: Dokumentkonventioner
-uuid: c929774b-8560-4f8a-98fd-1b75d4419c4d
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -23,7 +20,7 @@ Det här dokumentet använder följande konventioner.
 <table id="simpletable_8C9DB0DA5F2B4C068794415602B768CB"> 
  <tr class="strow"> 
   <td class="stentry"> <p>litteral </p> </td> 
-  <td class="stentry"> <p>I syntaxavsnitt är icke-kursiv text literal. detta gäller inte för blanktecken och symbolerna [ ] { } | *. </p> </td> 
+  <td class="stentry"> <p>I syntaxavsnitt är icke-kursiv text literal. Den här regeln gäller inte för blanktecken och symbolerna [ ] {} | *. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>'literal' </p> </td> 
