@@ -1,16 +1,13 @@
 ---
 description: Om du klickar eller trycker på den här knappen återställs en bild i huvudvyn. Den här knappen visas i huvudkontrollfältet på stationära datorer och surfplattor. På mobiltelefoner visas den här knappen längst ned i mitten över bilden. Den visas emellertid inte när bilden är i ett återställningsläge. Du kan ändra storlek, skal och position för knappen med hjälp av CSS.
-seo-description: Om du klickar eller trycker på den här knappen återställs en bild i huvudvyn. Den här knappen visas i huvudkontrollfältet på stationära datorer och surfplattor. På mobiltelefoner visas den här knappen längst ned i mitten över bilden. Den visas emellertid inte när bilden är i ett återställningsläge. Du kan ändra storlek, skal och position för knappen med hjälp av CSS.
-seo-title: Knappen Zoomåterställning
 solution: Experience Manager
 title: Knappen Zoomåterställning
-uuid: 19ef5c77-8352-4021-a022-adec6ecbf078
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
