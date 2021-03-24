@@ -1,16 +1,13 @@
 ---
 description: Information om en jobbloggpost som är associerad med en viss resurs. Data returneras av getAssetJobLogs.
-seo-description: Information om en jobbloggpost som är associerad med en viss resurs. Data returneras av getAssetJobLogs.
-seo-title: AssetJobLog
 solution: Experience Manager
 title: AssetJobLog
-uuid: 0dd65da1-f358-4d9a-98a2-abfb036347e3
 feature: Dynamic Media Classic,SDK/API,Resurshantering
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
