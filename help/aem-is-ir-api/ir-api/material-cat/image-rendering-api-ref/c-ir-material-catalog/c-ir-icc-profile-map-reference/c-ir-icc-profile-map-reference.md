@@ -1,16 +1,13 @@
 ---
 description: Om en ICC-profilmappning krävs för en bildkatalog måste den relativa eller absoluta sökvägen till profilmappningsfilen anges i attributet IccProfileMapFile.
-seo-description: Om en ICC-profilmappning krävs för en bildkatalog måste den relativa eller absoluta sökvägen till profilmappningsfilen anges i attributet IccProfileMapFile.
-seo-title: ICC-profilmappningsreferens
 solution: Experience Manager
 title: ICC-profilmappningsreferens
-uuid: 3f95a24b-98fe-408c-bdc2-4272266b7e86
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
