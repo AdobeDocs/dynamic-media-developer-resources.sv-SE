@@ -1,16 +1,13 @@
 ---
 description: Metadata som ska tas bort från resursen.
-seo-description: Metadata som ska tas bort från resursen.
-seo-title: MetadataDelete
 solution: Experience Manager
 title: MetadataDelete
-uuid: 7bd80931-4b7a-4a70-a505-b351653549af
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '41'
+source-wordcount: '34'
 ht-degree: 0%
 
 ---
