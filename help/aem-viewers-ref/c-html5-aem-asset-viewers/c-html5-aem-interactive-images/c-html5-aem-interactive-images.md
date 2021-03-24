@@ -1,16 +1,13 @@
 ---
 description: Interactive Image Viewer är ett visningsprogram som visar en enstaka, ej zoombar bild med klickbara hotspot-områden. Syftet med detta visningsprogram är att implementera en"köpbar banner"-upplevelse. Användaren kan alltså markera en aktiveringspunkt över banderollbilden och omdirigeras till en snabbvy eller produktinformationssida på webbplatsen. Den är utformad för att fungera på stationära datorer och mobila enheter.
-seo-description: Interactive Image Viewer är ett visningsprogram som visar en enstaka, ej zoombar bild med klickbara hotspot-områden. Syftet med detta visningsprogram är att implementera en"köpbar banner"-upplevelse. Användaren kan alltså markera en aktiveringspunkt över banderollbilden och omdirigeras till en snabbvy eller produktinformationssida på webbplatsen. Den är utformad för att fungera på stationära datorer och mobila enheter.
-seo-title: Interaktiv bild
 solution: Experience Manager
 title: Interaktiv bild
-uuid: 18b7a0c3-c047-4ce1-8920-1d8ebc1ab60e
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva bilder
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1817'
+source-wordcount: '1752'
 ht-degree: 0%
 
 ---
