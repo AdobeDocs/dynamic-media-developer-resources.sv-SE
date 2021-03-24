@@ -1,16 +1,13 @@
 ---
 description: I det här avsnittet beskrivs HTTP-protokollkommandona.
-seo-description: I det här avsnittet beskrivs HTTP-protokollkommandona.
-seo-title: Kommandoreferens
 solution: Experience Manager
 title: Kommandoreferens
-uuid: 72c4ed61-3436-4df5-b586-77808fb1903a
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
