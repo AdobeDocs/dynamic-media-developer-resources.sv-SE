@@ -1,16 +1,13 @@
 ---
 description: Används av FontFieldUpdate/type.
-seo-description: Används av FontFieldUpdate/type.
-seo-title: Teckensnittstyper
 solution: Experience Manager
 title: Teckensnittstyper
-uuid: fb04f1a2-e4c7-4668-8ec7-d320bb38b1f9
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '27'
+source-wordcount: '21'
 ht-degree: 0%
 
 ---
