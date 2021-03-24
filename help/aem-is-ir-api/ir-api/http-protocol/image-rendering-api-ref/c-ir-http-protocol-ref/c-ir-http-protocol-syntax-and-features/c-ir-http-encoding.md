@@ -1,16 +1,13 @@
 ---
 description: Kommandovärden måste vara http-kodade med %xx escape-sekvenser, så att värdesträngarna inte innehåller de reserverade tecknen '=', '&' och '%'.
-seo-description: Kommandovärden måste vara http-kodade med %xx escape-sekvenser, så att värdesträngarna inte innehåller de reserverade tecknen '=', '&' och '%'.
-seo-title: HTTP-kodning för bildåtergivning
 solution: Experience Manager
 title: HTTP-kodning för bildåtergivning
-uuid: 37bd0040-7bad-4548-ab39-7f598a217732
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
