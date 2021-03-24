@@ -1,17 +1,14 @@
 ---
 description: Upprepningsläge för textur. Anger hur texturbilder läggs sida vid sida för att fylla målytan.
-seo-description: Upprepningsläge för textur. Anger hur texturbilder läggs sida vid sida för att fylla målytan.
-seo-title: Upprepa
 solution: Experience Manager
 title: Upprepa
-uuid: bd15a573-9902-4672-992d-90d171160a46
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 13%
+source-wordcount: '135'
+ht-degree: 14%
 
 ---
 
@@ -40,7 +37,7 @@ Följande värden är tillåtna för repeterbara texturmaterial:
   <td class="- topic/stentry stentry"> <p>8-vägs slumpmässig indelning. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
-  <td class="- topic/stentry stentry"> <p>3 </p></td> 
+  <td class="- topic/stentry stentry"> <p>1 </p></td> 
   <td class="- topic/stentry stentry"> <p>Diamantindelning. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
