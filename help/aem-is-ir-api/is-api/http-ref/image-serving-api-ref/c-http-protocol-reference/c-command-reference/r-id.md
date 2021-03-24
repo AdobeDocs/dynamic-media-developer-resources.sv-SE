@@ -1,16 +1,13 @@
 ---
 description: Bild-/metadataversion. När du arbetar med innehåll som ändras ofta kan servrar i cachningsnätverk som Akamai, webbläsarcacher och cacheminnen för företagsproxyservrar lagra Image Serving-svar som kan vara inaktuella under tidsperioder.
-seo-description: Bild-/metadataversion. När du arbetar med innehåll som ändras ofta kan servrar i cachningsnätverk som Akamai, webbläsarcacher och cacheminnen för företagsproxyservrar lagra Image Serving-svar som kan vara inaktuella under tidsperioder.
-seo-title: id
 solution: Experience Manager
 title: id
-uuid: 3d526326-c8fa-4aef-95a9-93ccacf08f73
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
