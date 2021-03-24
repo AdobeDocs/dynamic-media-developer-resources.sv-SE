@@ -1,16 +1,13 @@
 ---
 description: Uppdaterar uppsättningsdefinitionen för en befintlig resursuppsättning.
-seo-description: Uppdaterar uppsättningsdefinitionen för en befintlig resursuppsättning.
-seo-title: setAssetSetDefinition
 solution: Experience Manager
 title: setAssetSetDefinition
-uuid: 2a2dce5d-7a01-49af-ac8b-33ae0b234ecc
 feature: Dynamic Media Classic,SDK/API,Resurshantering
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
