@@ -1,16 +1,13 @@
 ---
 description: Definierar sökvillkor för taggfält.
-seo-description: Definierar sökvillkor för taggfält.
-seo-title: TaggCondition
 solution: Experience Manager
 title: TaggCondition
-uuid: c7727267-05b6-4011-9ddf-7f3134e9609b
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---
