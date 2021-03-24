@@ -1,16 +1,13 @@
 ---
 description: Skapa eller redigera ett metadatafält. Utelämna den valfria fältreferensen för att skapa ett nytt metadatafält.
-seo-description: Skapa eller redigera ett metadatafält. Utelämna den valfria fältreferensen för att skapa ett nytt metadatafält.
-seo-title: saveMetadataField
 solution: Experience Manager
 title: saveMetadataField
-uuid: ccd84366-732a-4caf-914d-3bc5fe499e7a
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
