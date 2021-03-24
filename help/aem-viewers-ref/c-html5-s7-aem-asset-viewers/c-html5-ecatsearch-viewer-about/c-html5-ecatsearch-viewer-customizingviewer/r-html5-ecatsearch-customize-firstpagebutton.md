@@ -1,16 +1,13 @@
 ---
 description: Om du klickar eller trycker på den här knappen flyttas användaren till den första sidan i katalogen. Den här knappen visas i huvudkontrollfältet på stationära datorer och surfplattor. på mobiltelefoner läggs den till i ett sekundärt kontrollfält. Du kan ändra storlek, skal och position för knappen med hjälp av CSS.
-seo-description: Om du klickar eller trycker på den här knappen flyttas användaren till den första sidan i katalogen. Den här knappen visas i huvudkontrollfältet på stationära datorer och surfplattor. på mobiltelefoner läggs den till i ett sekundärt kontrollfält. Du kan ändra storlek, skal och position för knappen med hjälp av CSS.
-seo-title: Knappen Första sidan
 solution: Experience Manager
 title: Knappen Första sidan
-uuid: 10097f10-d53b-409c-baad-d21a04d6b418
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
