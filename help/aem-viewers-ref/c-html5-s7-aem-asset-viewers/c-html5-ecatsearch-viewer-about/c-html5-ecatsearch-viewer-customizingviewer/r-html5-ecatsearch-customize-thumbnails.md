@@ -1,16 +1,13 @@
 ---
 description: Miniatyrbilder består av ett rutnät med miniatyrbilder med en valfri rullningslist till höger för att tillåta lodrät rullning.
-seo-description: Miniatyrbilder består av ett rutnät med miniatyrbilder med en valfri rullningslist till höger för att tillåta lodrät rullning.
-seo-title: Miniatyrbilder
 solution: Experience Manager
 title: Miniatyrbilder
-uuid: 623f6c7a-4ec7-4708-a7ed-1aa42a21e430
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
