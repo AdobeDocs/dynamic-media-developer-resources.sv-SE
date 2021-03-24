@@ -1,16 +1,13 @@
 ---
 description: Egenskaper för en Word-fil.
-seo-description: Egenskaper för en Word-fil.
-seo-title: WordInfo
 solution: Experience Manager
 title: WordInfo
-uuid: 616c7006-a7fe-4dbe-9532-1b296e774107
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '39'
+source-wordcount: '33'
 ht-degree: 0%
 
 ---
