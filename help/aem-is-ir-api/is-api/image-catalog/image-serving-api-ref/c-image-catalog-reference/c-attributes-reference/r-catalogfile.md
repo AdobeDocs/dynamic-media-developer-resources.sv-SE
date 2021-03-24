@@ -1,16 +1,13 @@
 ---
 description: Sökvägar till bilddatafiler. Anger de filer som innehåller bilddata för den här katalogen.
-seo-description: Sökvägar till bilddatafiler. Anger de filer som innehåller bilddata för den här katalogen.
-seo-title: CatalogFile
 solution: Experience Manager
 title: CatalogFile
-uuid: 3599c8d3-dc4b-434e-8b11-775ea6f155ee
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
