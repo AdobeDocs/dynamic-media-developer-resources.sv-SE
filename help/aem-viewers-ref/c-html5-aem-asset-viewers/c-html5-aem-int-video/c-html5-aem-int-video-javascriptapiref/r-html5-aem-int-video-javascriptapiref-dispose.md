@@ -1,16 +1,13 @@
 ---
 description: JavaScript API-referens för Interactive Video Viewer.
-seo-description: JavaScript API-referens för Interactive Video Viewer.
-seo-title: dispose
 solution: Experience Manager
 title: dispose
-uuid: 95046b8c-1277-4954-b13d-329994d0cb04
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
