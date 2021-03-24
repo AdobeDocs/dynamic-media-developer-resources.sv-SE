@@ -1,16 +1,13 @@
 ---
 description: Pixelkoordinater. Används för att ange bildkoordinater, till exempel bildförskjutningar eller beskärningsparametrar, i form av en pixelförskjutning i förhållande till det övre vänstra hörnet i en bild- eller lagerrektangel.
-seo-description: Pixelkoordinater. Används för att ange bildkoordinater, till exempel bildförskjutningar eller beskärningsparametrar, i form av en pixelförskjutning i förhållande till det övre vänstra hörnet i en bild- eller lagerrektangel.
-seo-title: coord
 solution: Experience Manager
 title: coord
-uuid: dd49f12b-5a87-4157-9e44-4beb66f83770
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
@@ -18,7 +15,7 @@ ht-degree: 0%
 
 # coord{#coord}
 
-Pixelkoordinater. Används för att ange bildkoordinater, till exempel bildförskjutningar eller beskärningsparametrar, i form av en pixelförskjutning i förhållande till det övre vänstra hörnet i en bild- eller lagerrektangel.
+Pixelkoordinater. Används för att ange bildkoordinater, t.ex. bildförskjutningar eller beskärningsparametrar, i form av en pixelförskjutning i förhållande till det övre vänstra hörnet i en bild- eller lagerrektangel.
 
 <table id="simpletable_A686120953124ACB8803CB9C877252AB"> 
  <tr class="strow"> 
