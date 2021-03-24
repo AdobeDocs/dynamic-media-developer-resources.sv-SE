@@ -1,16 +1,13 @@
 ---
 description: Huvudklassen i eCatalog Search Viewer är eCatalogSearchViewer. Den deklareras i s7viewers namnutrymme. Detta JavaScript-API omfattar konstruktor, metoder och återanrop för just den här klassen.
-seo-description: Huvudklassen i eCatalog Search Viewer är eCatalogSearchViewer. Den deklareras i s7viewers namnutrymme. Detta JavaScript-API omfattar konstruktor, metoder och återanrop för just den här klassen.
-seo-title: Javascript API-referens för eCatalog Search Viewer
 solution: Experience Manager
 title: Javascript API-referens för eCatalog Search Viewer
-uuid: b65dec1e-567a-450f-9e24-e7841dc6f701
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
