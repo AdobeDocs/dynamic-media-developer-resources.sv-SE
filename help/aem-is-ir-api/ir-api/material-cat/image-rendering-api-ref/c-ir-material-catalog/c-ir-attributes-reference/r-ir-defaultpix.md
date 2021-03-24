@@ -1,16 +1,13 @@
 ---
 description: Standardstorlek för återgivningsbild. Servern begränsar svarsbilder till att inte vara större än den här bredden och höjden om begäran inte uttryckligen anger visningsstorleken med wid= eller hei=.
-seo-description: Standardstorlek för återgivningsbild. Servern begränsar svarsbilder till att inte vara större än den här bredden och höjden om begäran inte uttryckligen anger visningsstorleken med wid= eller hei=.
-seo-title: DefaultPix
 solution: Experience Manager
 title: DefaultPix
-uuid: 27574811-a920-4e54-8635-5a643b8655ef
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
