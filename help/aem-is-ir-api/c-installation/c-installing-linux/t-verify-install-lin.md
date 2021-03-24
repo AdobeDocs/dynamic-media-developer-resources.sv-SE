@@ -1,16 +1,13 @@
 ---
 description: Kontrollera installationen när du har installerat Image Serving i Linux.
-seo-description: Kontrollera installationen när du har installerat Image Serving i Linux.
-seo-title: Verifierar installationen
 solution: Experience Manager
 title: Verifierar installationen
-uuid: 4fdf61c7-3c9f-4f3e-9696-60eb7e3f2209
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
