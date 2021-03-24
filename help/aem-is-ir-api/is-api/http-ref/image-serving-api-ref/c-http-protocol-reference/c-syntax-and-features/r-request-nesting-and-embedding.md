@@ -1,16 +1,13 @@
 ---
 description: Image Serving har stöd för obegränsad kapsling av Image Serving-begäranden, inbäddning av begäranden om bildåtergivning samt inbäddning av bilder som hämtats från externa servrar. Det är bara lagerbilder och lagermasker som har stöd för dessa mekanismer.
-seo-description: Image Serving har stöd för obegränsad kapsling av Image Serving-begäranden, inbäddning av begäranden om bildåtergivning samt inbäddning av bilder som hämtats från externa servrar. Det är bara lagerbilder och lagermasker som har stöd för dessa mekanismer.
-seo-title: Begär kapsling och inbäddning
 solution: Experience Manager
 title: Begär kapsling och inbäddning
-uuid: 59031329-e65f-4631-bc7d-83f2540cc836
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
