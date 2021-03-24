@@ -1,16 +1,13 @@
 ---
 description: Skapar en webbplatskarta för video.
-seo-description: Skapar en webbplatskarta för video.
-seo-title: CreateVideoSitemapJob
 solution: Experience Manager
 title: CreateVideoSitemapJob
-uuid: 85db2e47-ee15-4fdd-a8e2-bb45078f814a
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '57'
 ht-degree: 0%
 
 ---
