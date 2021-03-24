@@ -1,16 +1,13 @@
 ---
 description: I skrivbordssystem har vissa element i användargränssnittet, t.ex. knappar, verktygstips som visas när du hovrar musen.
-seo-description: I skrivbordssystem har vissa element i användargränssnittet, t.ex. knappar, verktygstips som visas när du hovrar musen.
-seo-title: Verktygstips
 solution: Experience Manager
 title: Verktygstips
-uuid: 37ce59fe-f1f5-4226-af2e-5183ea8b7647
 feature: Dynamic Media Classic,visningsprogram,SDK/API,360 VR-video
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '148'
 ht-degree: 0%
 
 ---
