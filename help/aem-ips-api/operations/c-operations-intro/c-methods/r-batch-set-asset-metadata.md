@@ -1,16 +1,13 @@
 ---
 description: Ställer in metadata för resurser i gruppläge.
-seo-description: Ställer in metadata för resurser i gruppläge.
-seo-title: batchSetAssetMetadata
 solution: Experience Manager
 title: batchSetAssetMetadata
-uuid: 88d8f279-988f-4956-b66f-60fa95cf511c
 feature: Dynamic Media Classic,SDK/API,Metadata.Resurshantering
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
