@@ -1,16 +1,13 @@
 ---
 description: Svarets bildbredd. Anger skalningen av den återgivna bilden så att svarsbilden inte är högre än det angivna värdet, samtidigt som bildens proportioner bevaras.
-seo-description: Svarets bildbredd. Anger skalningen av den återgivna bilden så att svarsbilden inte är högre än det angivna värdet, samtidigt som bildens proportioner bevaras.
-seo-title: wid
 solution: Experience Manager
 title: wid
-uuid: 9a58a5d2-43ac-44db-9959-ba166006b7df
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '243'
 ht-degree: 0%
 
 ---
