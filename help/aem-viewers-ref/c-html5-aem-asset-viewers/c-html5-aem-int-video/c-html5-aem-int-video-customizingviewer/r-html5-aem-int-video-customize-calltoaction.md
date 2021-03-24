@@ -1,16 +1,13 @@
 ---
 description: Panelen Anrop till åtgärd visas när videon avslutas och alla interaktiva färgrutor som är associerade med videon visas.
-seo-description: Panelen Anrop till åtgärd visas när videon avslutas och alla interaktiva färgrutor som är associerade med videon visas.
-seo-title: Uppmaning
 solution: Experience Manager
 title: Uppmaning
-uuid: 04a042d8-7329-4f1d-b3b9-312d620b1f29
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1286'
 ht-degree: 0%
 
 ---
