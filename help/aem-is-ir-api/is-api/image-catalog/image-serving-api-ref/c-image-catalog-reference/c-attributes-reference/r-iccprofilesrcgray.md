@@ -1,16 +1,13 @@
 ---
 description: Standardprofil för inmatningsfärg för gråskala. Anger namnet på ICC-färgprofilen som ska användas för gråskalekällbilder som inte bäddar in en färgprofil och för vissa gråskalefärgvärden som anges med olika bildserverkommandon, till exempel color=.
-seo-description: Standardprofil för inmatningsfärg för gråskala. Anger namnet på ICC-färgprofilen som ska användas för gråskalekällbilder som inte bäddar in en färgprofil och för vissa gråskalefärgvärden som anges med olika bildserverkommandon, till exempel color=.
-seo-title: IccProfileSrcGray
 solution: Experience Manager
 title: IccProfileSrcGray
-uuid: 823c0e33-8bb7-4754-81cf-61a5ed6f45ce
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
