@@ -1,16 +1,13 @@
 ---
 description: Jobbdata för ett batchjobb.
-seo-description: Jobbdata för ett batchjobb.
-seo-title: jobbdata
 solution: Experience Manager
 title: jobbdata
-uuid: 4d0fca91-f08a-48cf-931a-504d295785fc
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '52'
+source-wordcount: '45'
 ht-degree: 0%
 
 ---
