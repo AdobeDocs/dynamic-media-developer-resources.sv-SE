@@ -1,16 +1,13 @@
 ---
 description: Om du klickar eller trycker på den här knappen stängs webbsidan som innehåller innehållet. Den här knappen visas bara om parametern closeButton är inställd på 1. Du kan ändra storlek, skal och position för knappen med hjälp av CSS.
-seo-description: Om du klickar eller trycker på den här knappen stängs webbsidan som innehåller innehållet. Den här knappen visas bara om parametern closeButton är inställd på 1. Du kan ändra storlek, skal och position för knappen med hjälp av CSS.
-seo-title: Knappen Stäng
 solution: Experience Manager
 title: Knappen Stäng
-uuid: a5280ec8-fbb5-42d4-9504-2f1141fe7c79
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
