@@ -1,16 +1,13 @@
 ---
 description: Egenskaper för bildkatalog. Returnerar gemensamma attribut för den bildkatalog som anges i sökvägen för begäran.
-seo-description: Egenskaper för bildkatalog. Returnerar gemensamma attribut för den bildkatalog som anges i sökvägen för begäran.
-seo-title: katalogprops
 solution: Experience Manager
 title: katalogprops
-uuid: 09252d39-8604-4785-bcdc-ad229a691035
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
@@ -29,7 +26,7 @@ Egenskaper för bildkatalog. Returnerar gemensamma attribut för den bildkatalog
  </tr> 
 </table>
 
-Utelämna katalog-ID:t för att hämta standardkatalogegenskaperna ( [!DNL default.ini]). HTTP-svaret kan nås med TTL-värdet baserat på `attribute::NonImgExpiration`.
+Om du vill hämta standardkatalogegenskaperna ( [!DNL default.ini]) utelämnar du katalog-ID:t. HTTP-svaret kan nås med TTL-värdet baserat på `attribute::NonImgExpiration`.
 
 Begäranden som stöder JSONP-svarsformatet gör att du kan ange namnet på JS-callback-hanteraren med den utökade syntaxen för parametern `req=`:
 
