@@ -1,16 +1,13 @@
 ---
 description: textPs= implementerar en egen kopieringsalgoritm som automatiskt justerar teckensnittsstorleken för att fylla textområdet optimalt med text, vilket minimerar det extra utrymmet längst ned samtidigt som spill undviks.
-seo-description: textPs= implementerar en egen kopieringsalgoritm som automatiskt justerar teckensnittsstorleken för att fylla textområdet optimalt med text, vilket minimerar det extra utrymmet längst ned samtidigt som spill undviks.
-seo-title: Kopia
 solution: Experience Manager
 title: Kopia
-uuid: c3ddbf1f-c724-4436-96ff-2c616dfd355d
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
