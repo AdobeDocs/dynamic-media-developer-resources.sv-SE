@@ -1,17 +1,14 @@
 ---
 description: Konfigurationsattribut för Interactive Video Viewer.
-seo-description: Konfigurationsattribut för Interactive Video Viewer.
-seo-title: CallToAction.enabledragging
 solution: Experience Manager
 title: CallToAction.enabledragging
-uuid: efb272b5-e30e-44d5-9dec-0529b1074ed2
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 1%
+source-wordcount: '94'
+ht-degree: 2%
 
 ---
 
