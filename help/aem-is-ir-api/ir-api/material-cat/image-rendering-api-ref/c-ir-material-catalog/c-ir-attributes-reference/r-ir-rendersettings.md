@@ -1,16 +1,13 @@
 ---
 description: Standardinställningar för avancerad återgivning. Standard för katalogens RenderSettings.
-seo-description: Standardinställningar för avancerad återgivning. Standard för katalogens RenderSettings.
-seo-title: RenderSettings
 solution: Experience Manager
 title: RenderSettings
-uuid: ad8884e7-4a4c-489f-881d-1d55eedef034
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '66'
 ht-degree: 0%
 
 ---
