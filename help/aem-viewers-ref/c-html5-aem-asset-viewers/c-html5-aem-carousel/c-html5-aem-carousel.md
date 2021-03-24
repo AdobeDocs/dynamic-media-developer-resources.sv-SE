@@ -1,16 +1,13 @@
 ---
 description: Carousel Viewer är ett visningsprogram som visar en karusell med icke-zoombara banderollbilder med klickbara hotspot-områden. Syftet med detta visningsprogram är att implementera en shoppingupplevelse där användare kan välja en hotspot eller en region över banderollbilden och omdirigeras till en Quickview- eller produktinformationssida på kundens webbplats. Den är utformad för att fungera på stationära datorer och mobila enheter.
-seo-description: Carousel Viewer är ett visningsprogram som visar en karusell med icke-zoombara banderollbilder med klickbara hotspot-områden. Syftet med detta visningsprogram är att implementera en shoppingupplevelse där användare kan välja en hotspot eller en region över banderollbilden och omdirigeras till en Quickview- eller produktinformationssida på kundens webbplats. Den är utformad för att fungera på stationära datorer och mobila enheter.
-seo-title: Carousel
 solution: Experience Manager
 title: Carousel
-uuid: 0ba4f40b-8dde-4479-b906-3115f09ab249
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1989'
+source-wordcount: '1921'
 ht-degree: 0%
 
 ---
