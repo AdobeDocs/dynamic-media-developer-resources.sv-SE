@@ -1,16 +1,13 @@
 ---
 description: En Image Server-begäran (IS) kan användas som en materialavbildning.
-seo-description: En Image Server-begäran (IS) kan användas som en materialavbildning.
-seo-title: Inbäddade bildserverbegäranden
 solution: Experience Manager
 title: Inbäddade bildserverbegäranden
-uuid: dd72880d-8824-40b3-a5da-0f6ff4922939
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
