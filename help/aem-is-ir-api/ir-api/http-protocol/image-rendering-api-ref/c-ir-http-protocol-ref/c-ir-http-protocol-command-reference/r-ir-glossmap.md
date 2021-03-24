@@ -1,16 +1,13 @@
 ---
 description: Glanskarta. Tillhandahåller pixel-för-pixel-kontroll av glansigheten i en upprepningsbar textur, bakgrundsbild/kant eller dekal.
-seo-description: Glanskarta. Tillhandahåller pixel-för-pixel-kontroll av glansigheten i en upprepningsbar textur, bakgrundsbild/kant eller dekal.
-seo-title: ordlista
 solution: Experience Manager
 title: ordlista
-uuid: f137d362-74a1-45b3-9274-a3a2d6cf5db0
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
