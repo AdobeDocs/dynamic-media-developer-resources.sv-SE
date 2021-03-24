@@ -1,16 +1,13 @@
 ---
 description: Hämtar angivna jobbloggar för det valda företaget. Du kan sortera efter tecken, riktning, start- och slutdatum samt antal rader.
-seo-description: Hämtar angivna jobbloggar för det valda företaget. Du kan sortera efter tecken, riktning, start- och slutdatum samt antal rader.
-seo-title: getJobLogs
 solution: Experience Manager
 title: getJobLogs
-uuid: 850ccfad-6cdb-4eda-a20a-762fadadf8b2
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
