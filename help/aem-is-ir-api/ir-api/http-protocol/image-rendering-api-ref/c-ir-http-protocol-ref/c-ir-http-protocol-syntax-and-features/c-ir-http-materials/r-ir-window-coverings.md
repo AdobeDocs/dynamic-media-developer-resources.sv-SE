@@ -1,16 +1,13 @@
 ---
 description: Fönsterbeläggning omfattar både mjuka fönsterbeläggningar (drapes, valances, café curtains) och hårda fönsterbeläggningar (shades and blinds).
-seo-description: Fönsterbeläggning omfattar både mjuka fönsterbeläggningar (drapes, valances, café curtains) och hårda fönsterbeläggningar (shades and blinds).
-seo-title: Fönsteromslag
 solution: Experience Manager
 title: Fönsteromslag
-uuid: 3d74466a-b7c3-43b0-9b0b-f8bb809e2773
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
