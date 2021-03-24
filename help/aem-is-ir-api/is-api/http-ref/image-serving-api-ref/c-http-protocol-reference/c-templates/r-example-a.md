@@ -1,16 +1,13 @@
 ---
 description: Skapa en mall med fast storlek med en statisk bakgrundsbild, en variabel bild som är justerad mot bakgrunden i mitten till vänster och skalad till högst 80 % av bakgrunden och ett textlager med lodrät text centrerad i den högra kanten av arbetsytan.
-seo-description: Skapa en mall med fast storlek med en statisk bakgrundsbild, en variabel bild som är justerad mot bakgrunden i mitten till vänster och skalad till högst 80 % av bakgrunden och ett textlager med lodrät text centrerad i den högra kanten av arbetsytan.
-seo-title: Exempel A
 solution: Experience Manager
 title: Exempel A
-uuid: c250dbc8-1e32-46b8-ba55-c1fb0ae62695
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
