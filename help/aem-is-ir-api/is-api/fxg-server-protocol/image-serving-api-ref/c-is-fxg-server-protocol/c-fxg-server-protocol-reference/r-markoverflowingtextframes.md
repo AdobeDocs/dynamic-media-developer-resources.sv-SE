@@ -1,16 +1,13 @@
 ---
 description: Visa dolda textramar med plustecken. En indikator för textspill visar när texten överskrider det tilldelade utrymmet i en textram (eller i den sista textramen för kopplad text). Indikatorn är en röd ruta med ett plustecken.
-seo-description: Visa dolda textramar med plustecken. En indikator för textspill visar när texten överskrider det tilldelade utrymmet i en textram (eller i den sista textramen för kopplad text). Indikatorn är en röd ruta med ett plustecken.
-seo-title: markOverflowingTextFrames
 solution: Experience Manager
 title: markOverflowingTextFrames
-uuid: 90237128-8d29-45cc-90e8-7fe46c1dae38
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
