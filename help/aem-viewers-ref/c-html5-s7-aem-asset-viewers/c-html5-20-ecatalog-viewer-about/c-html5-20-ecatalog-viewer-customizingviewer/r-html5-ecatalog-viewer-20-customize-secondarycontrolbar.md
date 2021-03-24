@@ -1,16 +1,13 @@
 ---
 description: Det sekundära kontrollfältet är det rektangulära området som innehåller knapparna Första sidan och Sista sidan och en sidindikator när det är tillgängligt i CSS.
-seo-description: Det sekundära kontrollfältet är det rektangulära området som innehåller knapparna Första sidan och Sista sidan och en sidindikator när det är tillgängligt i CSS.
-seo-title: Sekundärt kontrollfält
 solution: Experience Manager
 title: Sekundärt kontrollfält
-uuid: 9a91da6b-0d9b-4b4c-9659-86a64e624947
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
