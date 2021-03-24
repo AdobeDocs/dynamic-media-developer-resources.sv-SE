@@ -5,7 +5,7 @@ title: sub
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 3%
@@ -25,7 +25,7 @@ Delmarkering. Tillåter att olika material används på olika områden i det mar
   <td class="stentry"> <p>Markera hela väggen. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>1 </p> </td> 
+  <td class="stentry"> <p>3 </p> </td> 
   <td class="stentry"> <p>Markera den övre halvan av väggen. </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -33,7 +33,7 @@ Delmarkering. Tillåter att olika material används på olika områden i det mar
   <td class="stentry"> <p>Markera den nedre halvan av väggen. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p> </td> 
+  <td class="stentry"> <p>1 </p> </td> 
   <td class="stentry"> <p>Markera den övre kantlinjens område. </p> </td> 
  </tr> 
  <tr class="strow"> 
