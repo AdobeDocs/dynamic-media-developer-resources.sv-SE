@@ -1,16 +1,13 @@
 ---
 description: Decal-material omfattar klädkonstruktioner som utrustningar, t-shirtavtryck och broderade eller tryckta logotyper, liksom icke-repeterbara platta objekt som används i inrednings- eller utvändiga applikationer, som t.ex. gurkor, vägghängsbilder, skyltar osv.
-seo-description: Decal-material omfattar klädkonstruktioner som utrustningar, t-shirtavtryck och broderade eller tryckta logotyper, liksom icke-repeterbara platta objekt som används i inrednings- eller utvändiga applikationer, som t.ex. gurkor, vägghängsbilder, skyltar osv.
-seo-title: Decaler
 solution: Experience Manager
 title: Decaler
-uuid: 6e64f382-f15f-4018-b00c-4fd21a4ebc8c
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
