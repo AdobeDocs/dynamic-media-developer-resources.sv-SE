@@ -1,16 +1,13 @@
 ---
 description: Sammansättningsmall. Gör att du kan ange en sammansättningsmall som finns i en annan katalog än huvudkatalogen.
-seo-description: Sammansättningsmall. Gör att du kan ange en sammansättningsmall som finns i en annan katalog än huvudkatalogen.
-seo-title: mall
 solution: Experience Manager
 title: mall
-uuid: 59b37d60-1d0c-4d0b-a5a0-98d8bf9e9064
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
@@ -18,7 +15,7 @@ ht-degree: 0%
 
 # mall{#template}
 
-Sammansättningsmall. Gör att du kan ange en sammansättningsmall som finns i en annan katalog än huvudkatalogen.
+Sammansättningsmall. Här kan du ange en sammansättningsmall i en annan katalog än huvudkatalogen.
 
 `template= *`mall`*`
 
@@ -31,7 +28,7 @@ Sammansättningsmall. Gör att du kan ange en sammansättningsmall som finns i e
 
 *`template`* måste vara en bildkatalogspost med malltexten i  `catalog::Modifier`.
 
-När `template=` finns kommer objektet som anges i begärandesökvägen inte att användas som källa för lager 0, men kan refereras som `src=` eller `mask=` var som helst i mallen med den fördefinierade sökvägsvariabeln `$object$` som ett `src=`-värde. `catalog::Modifier` för det objekt som anges i begärandesökvägen tillämpas bara i samband med att mallen ersätts  `$object$` i, medan  `catalog::PostModifier` alltid används.
+När det finns `template=` tillämpas inte objektet som anges i begärandesökvägen som källa för lager 0. Den kan dock refereras som `src=` eller `mask=` var som helst i mallen genom att använda den fördefinierade sökvägsvariabeln `$object$` som ett `src=`-värde. `catalog::Modifier` för det objekt som anges i begärandesökvägen tillämpas bara med ersättningspositionen för  `$object$` i mallen, medan  `catalog::PostModifier` alltid används.
 
 Lager 0 definieras i mallbrödtexten och kan vara ett bild-, enfärgat, textbaserat eller kapslat eller inbäddat begärandolager.
 
