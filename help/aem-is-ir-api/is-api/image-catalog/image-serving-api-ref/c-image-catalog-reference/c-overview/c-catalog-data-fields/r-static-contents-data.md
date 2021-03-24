@@ -1,16 +1,13 @@
 ---
 description: Följande fält stöds för statiska (icke-bildbaserade) innehållskataloger.
-seo-description: Följande fält stöds för statiska (icke-bildbaserade) innehållskataloger.
-seo-title: Statiska innehållsdata
 solution: Experience Manager
 title: Statiska innehållsdata
-uuid: a890ffef-55b2-4880-afa5-ced8598642d1
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '65'
 ht-degree: 0%
 
 ---
