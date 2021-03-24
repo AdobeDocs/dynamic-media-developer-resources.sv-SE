@@ -1,16 +1,13 @@
 ---
 description: Innehållet i hela modifierardelen av begärandesträngen, inklusive det valfria låssuffixet, kan döljas genom att standardkodningen base64 används.
-seo-description: Innehållet i hela modifierardelen av begärandesträngen, inklusive det valfria låssuffixet, kan döljas genom att standardkodningen base64 används.
-seo-title: Förfrågan om obehörig
 solution: Experience Manager
 title: Förfrågan om obehörig
-uuid: 59b12a78-c4ba-4b6d-97bc-63150298ed73
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '217'
 ht-degree: 0%
 
 ---
