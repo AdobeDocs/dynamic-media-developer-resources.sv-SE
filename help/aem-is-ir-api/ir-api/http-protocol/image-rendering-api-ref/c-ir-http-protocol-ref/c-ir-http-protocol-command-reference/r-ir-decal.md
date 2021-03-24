@@ -1,16 +1,13 @@
 ---
 description: Decal-materialväljare. Startar ett materialspecifikationssegment (MSS) för ett icke-repeterbart dekalt material.
-seo-description: Decal-materialväljare. Startar ett materialspecifikationssegment (MSS) för ett icke-repeterbart dekalt material.
-seo-title: dekal
 solution: Experience Manager
 title: dekal
-uuid: 3a164f92-b0fc-4698-8aaa-934f029437c0
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '51'
 ht-degree: 0%
 
 ---
