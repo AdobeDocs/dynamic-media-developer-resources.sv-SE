@@ -1,16 +1,13 @@
 ---
 description: Egenskaper för lagervisning.
-seo-description: Egenskaper för lagervisning.
-seo-title: LayerViewInfo
 solution: Experience Manager
 title: LayerViewInfo
-uuid: 58d26f4d-03a6-4f57-bc8e-117355c0d74c
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '54'
 ht-degree: 0%
 
 ---
