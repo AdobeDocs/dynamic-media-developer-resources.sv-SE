@@ -1,16 +1,13 @@
 ---
 description: Oskarp mask. Oskarp maskerar lagret eller den slutliga visningsbilden, efter all skalning, om layer=comp.
-seo-description: Oskarp mask. Oskarp maskerar lagret eller den slutliga visningsbilden, efter all skalning, om layer=comp.
-seo-title: op_usmR
 solution: Experience Manager
 title: op_usmR
-uuid: 98afd83c-097e-40b4-b0a6-647f70b95fae
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '148'
 ht-degree: 0%
 
 ---
