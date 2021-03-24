@@ -1,16 +1,13 @@
 ---
 description: Information om Digimarc-bilder. Aktiverar Digimarc-inbäddning och anger typ av vattenstämpel och associerade bildspecifika data.
-seo-description: Information om Digimarc-bilder. Aktiverar Digimarc-inbäddning och anger typ av vattenstämpel och associerade bildspecifika data.
-seo-title: DigimarcInfo
 solution: Experience Manager
 title: DigimarcInfo
-uuid: 8371880e-47df-4333-b8a6-91feaf16c409
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '238'
 ht-degree: 7%
 
 ---
@@ -41,7 +38,7 @@ Fyra heltalsvärden, avgränsade med kommatecken.
    <td> <p>Ingen. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>Grundläggande. </p> </td> 
   </tr> 
   <tr> 
@@ -49,7 +46,7 @@ Fyra heltalsvärden, avgränsade med kommatecken.
    <td> <p>Bild-ID. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>Transaktions-ID. </p> </td> 
   </tr> 
   <tr> 
@@ -82,7 +79,7 @@ Fyra heltalsvärden, avgränsade med kommatecken.
    <td> <p>Begränsat. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>Kopieringsskyddad, begränsad. </p> </td> 
   </tr> 
   <tr> 
@@ -131,7 +128,7 @@ Tolkningen av `*`val1`*` och `*`val2`*` beror på `*`typ`*`:
    <td> <p>Används inte. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>Transaktions-ID. </p> </td> 
    <td> <p>Används inte. </p> </td> 
   </tr> 
