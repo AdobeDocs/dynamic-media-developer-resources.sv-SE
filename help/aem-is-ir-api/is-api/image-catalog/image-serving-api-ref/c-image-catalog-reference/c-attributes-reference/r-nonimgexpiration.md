@@ -1,16 +1,13 @@
 ---
 description: Klientcache-TTL för svar som inte är bilder. Anger utgångsintervallet för vissa svar som inte är bilder.
-seo-description: Klientcache-TTL för svar som inte är bilder. Anger utgångsintervallet för vissa svar som inte är bilder.
-seo-title: NonImgExpiration
 solution: Experience Manager
 title: NonImgExpiration
-uuid: 19b37bd4-f7cf-4b5f-be1a-b2d9fda5b4b1
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
