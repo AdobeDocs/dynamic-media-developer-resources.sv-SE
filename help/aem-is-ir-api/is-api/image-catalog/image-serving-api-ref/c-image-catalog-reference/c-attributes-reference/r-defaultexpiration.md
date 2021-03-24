@@ -1,16 +1,13 @@
 ---
 description: Klientcache TTL för standardbildsvar. Anger utgångsintervallet för standardbildsvar (svar som returnerar en standardbild som har angetts med defaultImage= eller attribute DefaultImage).
-seo-description: Klientcache TTL för standardbildsvar. Anger utgångsintervallet för standardbildsvar (svar som returnerar en standardbild som har angetts med defaultImage= eller attribute DefaultImage).
-seo-title: DefaultExpiration
 solution: Experience Manager
 title: DefaultExpiration
-uuid: 5266bff9-f20b-4b3b-9566-8a3f5ba0777a
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
