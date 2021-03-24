@@ -1,16 +1,13 @@
 ---
 description: Anger gruppmedlemskap för användare som tillhör ett visst företag.
-seo-description: Anger gruppmedlemskap för användare som tillhör ett visst företag.
-seo-title: setGroupMembers
 solution: Experience Manager
 title: setGroupMembers
-uuid: fe6585ef-a4b3-4b3c-95d0-624017650497
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
