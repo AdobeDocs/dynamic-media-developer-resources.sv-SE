@@ -1,16 +1,13 @@
 ---
 description: Om du klickar eller trycker på den här knappen zoomas en bild in i huvudvyn. Den här knappen visas inte på mobiltelefoner för att spara skärmutrymme. Du kan ändra storlek, skal och position för knappen med hjälp av CSS.
-seo-description: Om du klickar eller trycker på den här knappen zoomas en bild in i huvudvyn. Den här knappen visas inte på mobiltelefoner för att spara skärmutrymme. Du kan ändra storlek, skal och position för knappen med hjälp av CSS.
-seo-title: Knappen Zooma in
 solution: Experience Manager
 title: Knappen Zooma in
-uuid: 61a4f008-1d95-48dd-9e06-7d30be44a893
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '256'
 ht-degree: 0%
 
 ---
