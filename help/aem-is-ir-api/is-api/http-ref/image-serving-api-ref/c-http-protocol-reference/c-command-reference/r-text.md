@@ -1,16 +1,13 @@
 ---
 description: Lagertext. Anger text och formatering för ett textlager.
-seo-description: Lagertext. Anger text och formatering för ett textlager.
-seo-title: text
 solution: Experience Manager
 title: text
-uuid: 5b4f9282-83a3-488d-b5d2-deb2c92de564
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '177'
 ht-degree: 0%
 
 ---
