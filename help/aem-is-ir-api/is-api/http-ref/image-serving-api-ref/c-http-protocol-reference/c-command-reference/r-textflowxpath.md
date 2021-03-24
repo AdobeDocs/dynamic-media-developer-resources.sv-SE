@@ -1,16 +1,13 @@
 ---
 description: Exkluderingsområde för textflöde. Anger ett eller flera områden som ska uteslutas från textflödet.
-seo-description: Exkluderingsområde för textflöde. Anger ett eller flera områden som ska uteslutas från textflödet.
-seo-title: textFlowXPath
 solution: Experience Manager
 title: textFlowXPath
-uuid: ce833ae7-e774-4954-a521-b6247e75f6eb
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
