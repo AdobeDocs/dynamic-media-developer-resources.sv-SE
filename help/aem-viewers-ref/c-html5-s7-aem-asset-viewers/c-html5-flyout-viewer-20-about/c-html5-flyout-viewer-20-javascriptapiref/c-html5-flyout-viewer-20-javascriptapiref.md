@@ -1,16 +1,13 @@
 ---
 description: Huvudklassen i visningsprogrammet är FlyoutViewer. Den deklareras i s7viewers namnutrymme. Detta JavaScript-API omfattar konstruktor, metoder och anrop till den här klassen.
-seo-description: Huvudklassen i visningsprogrammet är FlyoutViewer. Den deklareras i s7viewers namnutrymme. Detta JavaScript-API omfattar konstruktor, metoder och anrop till den här klassen.
-seo-title: JavaScript API-referens för visningsprogrammet
 solution: Experience Manager
 title: JavaScript API-referens för visningsprogrammet
-uuid: 45621805-8aa5-4ced-a36a-ebecb2a606a0
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Flyout
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
