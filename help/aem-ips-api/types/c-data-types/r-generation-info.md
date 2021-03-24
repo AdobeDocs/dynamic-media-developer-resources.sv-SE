@@ -1,16 +1,13 @@
 ---
 description: PostScript-filegenskaper.
-seo-description: PostScript-filegenskaper.
-seo-title: GenerationInfo
 solution: Experience Manager
 title: GenerationInfo
-uuid: 166637e5-b981-4f64-8d92-5fce4f1b20d2
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: '56'
 ht-degree: 0%
 
 ---
