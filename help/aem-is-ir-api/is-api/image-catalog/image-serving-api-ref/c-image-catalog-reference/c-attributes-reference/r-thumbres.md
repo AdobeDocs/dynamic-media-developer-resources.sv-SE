@@ -1,16 +1,13 @@
 ---
 description: Standardupplösning för miniatyrbilder. Anger ett standardvärde för upplösningen av miniatyrbildobjektet om en viss katalogpost inte innehåller ett giltigt ThumbRes-katalogvärde.
-seo-description: Standardupplösning för miniatyrbilder. Anger ett standardvärde för upplösningen av miniatyrbildobjektet om en viss katalogpost inte innehåller ett giltigt ThumbRes-katalogvärde.
-seo-title: ThumbRes
 solution: Experience Manager
 title: ThumbRes
-uuid: 4a77d673-9d2e-4e62-a014-c99fa3df294a
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
