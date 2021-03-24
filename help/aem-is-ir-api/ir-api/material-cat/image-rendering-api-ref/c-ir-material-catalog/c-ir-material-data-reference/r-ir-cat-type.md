@@ -5,7 +5,7 @@ title: Typ
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 14%
@@ -27,7 +27,7 @@ Enum. Valfritt för alla material. Ignoreras om vinjetteringen inte har någon �
   <td class="stentry"> <p>Okänd, servern använder standard. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p> </td> 
+  <td class="stentry"> <p>1 </p> </td> 
   <td class="stentry"> <p>Annat. </p> </td> 
  </tr> 
  <tr class="strow"> 
