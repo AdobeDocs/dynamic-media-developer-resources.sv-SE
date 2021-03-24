@@ -1,16 +1,13 @@
 ---
 description: Alla katalogfiler är rena textfiler.
-seo-description: Alla katalogfiler är rena textfiler.
-seo-title: Filformat
 solution: Experience Manager
 title: Filformat
-uuid: d0d35682-e794-4571-87e6-f54ac57126c7
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: '37'
 ht-degree: 0%
 
 ---
