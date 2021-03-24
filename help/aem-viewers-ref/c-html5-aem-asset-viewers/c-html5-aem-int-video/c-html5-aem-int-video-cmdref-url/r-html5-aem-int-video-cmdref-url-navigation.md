@@ -1,16 +1,13 @@
 ---
 description: URL-kommando för Interactive Video Viewer.
-seo-description: URL-kommando för Interactive Video Viewer.
-seo-title: navigering
 solution: Experience Manager
 title: navigering
-uuid: eecc7458-153c-4f36-b29e-97451f275c0c
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '66'
 ht-degree: 1%
 
 ---
