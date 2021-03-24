@@ -1,16 +1,13 @@
 ---
 description: Videospelaren är det rektangulära området där videoinnehållet visas i visningsprogrammet.
-seo-description: Videospelaren är det rektangulära området där videoinnehållet visas i visningsprogrammet.
-seo-title: Videospelare
 solution: Experience Manager
 title: Videospelare
-uuid: d7431a7b-6078-45d6-a364-434b3b44ecf4
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Mixa medieuppsättningar
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
