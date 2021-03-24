@@ -1,16 +1,13 @@
 ---
 description: Markering av indatafokus som visas runt det fokuserade elementet i användargränssnittet.
-seo-description: Markering av indatafokus som visas runt det fokuserade elementet i användargränssnittet.
-seo-title: Fokusmarkering
 solution: Experience Manager
 title: Fokusmarkering
-uuid: 50411b68-8d01-4240-b548-a6c51374a8c6
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
