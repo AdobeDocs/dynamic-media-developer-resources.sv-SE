@@ -1,16 +1,13 @@
 ---
 description: JavaScript API-referens för blandad Media Viewer
-seo-description: JavaScript API-referens för blandad Media Viewer
-seo-title: getComponent
 solution: Experience Manager
 title: getComponent
-uuid: 77531130-12e7-4001-a68f-c9a581ec5f0d
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Mixa medieuppsättningar
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
