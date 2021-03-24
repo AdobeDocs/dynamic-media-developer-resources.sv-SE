@@ -1,16 +1,13 @@
 ---
 description: Sökväg till datafil för vinjetteringsschema. Anger filen som innehåller vinjetteringskartan för den här bildkatalogen.
-seo-description: Sökväg till datafil för vinjetteringsschema. Anger filen som innehåller vinjetteringskartan för den här bildkatalogen.
-seo-title: VinjettMapFile
 solution: Experience Manager
 title: VinjettMapFile
-uuid: d07dcfea-241e-4431-b09e-dbd1df38b8ca
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
