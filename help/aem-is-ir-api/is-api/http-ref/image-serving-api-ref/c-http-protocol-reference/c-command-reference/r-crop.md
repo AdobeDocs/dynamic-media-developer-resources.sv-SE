@@ -1,16 +1,13 @@
 ---
 description: Beskär bild. Anger ett rektangulärt beskärningsområde, uttryckt antingen i pixlar eller normaliserat i förhållande till den högupplösta källbilden eller maskbilden.
-seo-description: Beskär bild. Anger ett rektangulärt beskärningsområde, uttryckt antingen i pixlar eller normaliserat i förhållande till den högupplösta källbilden eller maskbilden.
-seo-title: beskära
 solution: Experience Manager
 title: beskära
-uuid: c8eca467-7564-48a6-82d7-17f68a1399e1
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
@@ -27,7 +24,7 @@ Beskär bild. Anger ett rektangulärt beskärningsområde, uttryckt antingen i p
 <table id="simpletable_472A9AD67AA64419B0877B0535F8B14A"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> coord</span></span> </p> </td> 
-  <td class="stentry"> <p>Pixelförskjutning från det övre vänstra hörnet av källbilden till det övre vänstra hörnet av beskärningsrektangeln (int, int). </p></td> 
+  <td class="stentry"> <p>Pixelförskjutning från källbildens övre vänstra hörn till det övre vänstra hörnet av beskärningsrektangeln (int, int). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> coordN</span></span> </p> </td> 
