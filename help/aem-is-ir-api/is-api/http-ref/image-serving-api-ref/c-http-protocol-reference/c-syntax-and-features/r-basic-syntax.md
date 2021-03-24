@@ -1,16 +1,13 @@
 ---
 description: Grundsyntaxen för HTTP-protokollet är följande.
-seo-description: Grundsyntaxen för HTTP-protokollet är följande.
-seo-title: Grundläggande syntax för Image Serving HTTP-protokoll
 solution: Experience Manager
 title: Grundläggande syntax för Image Serving HTTP-protokoll
-uuid: 3269c2f2-df0f-4b62-ae9c-a267acae8071
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -18,7 +15,7 @@ ht-degree: 0%
 
 # Grundläggande syntax för Image Serving HTTP-protokoll{#image-serving-http-protocol-basic-syntax}
 
-Grundsyntaxen för HTTP-protokollet är följande.
+Grundsyntaxen för HTTP-protokollet är följande:
 
 <table id="simpletable_854C20D4C42247B99D9F123543C17E7C"> 
  <tr class="strow"> 
@@ -47,19 +44,19 @@ Grundsyntaxen för HTTP-protokollet är följande.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> makro</span> </span> </p> </td> 
-  <td class="stentry"> <p>Namnet på ett kommandomakro. </p></td> 
+  <td class="stentry"> <p>Namnet på ett kommandomakro.</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> kommentar</span> </span> </p></td> 
-  <td class="stentry"> <p>Kommentarssträng (ignoreras av servern). </p></td> 
+  <td class="stentry"> <p>Kommentarssträng (ignoreras av servern).</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> cmdName</span> </span> </p></td> 
-  <td class="stentry"> <p>Ett av de kommandon eller attributnamn som stöds. </p></td> 
+  <td class="stentry"> <p>Ett av de kommandon eller attributnamn som stöds.</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> var</span> </span> </p> </td> 
-  <td class="stentry"> <p>Namnet på en anpassad variabel. </p></td> 
+  <td class="stentry"> <p>Namnet på en anpassad variabel.</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> value</span> </span> </p></td> 
@@ -85,7 +82,7 @@ Image Serving först extraherar *`object`* och *`modifiers`* från den inkommand
 
 ## Kommentarer {#section-69ef0be0f17a418c87a0eba21c2ddb00}
 
-Kommentarer kan bäddas in i begärandesträngar var som helst och identifieras av en punkt (.) direkt efter kommandoavgränsaren (&amp;). Kommentaren avslutas av nästa förekomst av en (okodad) kommandoavgränsare. Den här funktionen kan användas för att lägga till information i begäran som inte är avsedd för Image Serving, t.ex. tidsstämplar, databas-ID:n etc.
+Kommentarer kan bäddas in i begärandesträngar var som helst och identifieras av en punkt (.) direkt efter kommandoavgränsaren (&amp;). Kommentaren avslutas av nästa förekomst av en (okodad) kommandoavgränsare. Den här funktionen kan användas för att lägga till information i begäran som inte är avsedd för Image Serving, t.ex. tidsstämplar och databas-ID:n.
 
 ## Se även {#section-d0b836568c31454b8dbeb136e6bbe0f0}
 
