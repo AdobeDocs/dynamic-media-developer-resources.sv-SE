@@ -1,16 +1,13 @@
 ---
 description: Markering av indatafokus som visas runt gränssnittselementet för fokuserade visningsprogram styrs med CSS-klassväljaren.
-seo-description: Markering av indatafokus som visas runt gränssnittselementet för fokuserade visningsprogram styrs med CSS-klassväljaren.
-seo-title: Fokusmarkering
 solution: Experience Manager
 title: Fokusmarkering
-uuid: ab7d3a24-46a9-4c74-a7ba-6e53ebf4cf1c
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Textbunden zoom
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
