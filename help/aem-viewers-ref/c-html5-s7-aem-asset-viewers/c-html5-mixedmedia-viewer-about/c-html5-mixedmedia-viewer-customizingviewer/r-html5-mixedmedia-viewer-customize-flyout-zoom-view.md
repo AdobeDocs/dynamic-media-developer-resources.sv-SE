@@ -1,16 +1,13 @@
 ---
 description: I det textbundna zoomläget består huvudvyn av den statiska bilden, den zoomade bilden som visas i den utfällbara vyn över den statiska bilden och det tips som visas ovanpå den statiska bilden.
-seo-description: I det textbundna zoomläget består huvudvyn av den statiska bilden, den zoomade bilden som visas i den utfällbara vyn över den statiska bilden och det tips som visas ovanpå den statiska bilden.
-seo-title: Utfällbar zoomvy
 solution: Experience Manager
 title: Utfällbar zoomvy
-uuid: c4c94432-7b6f-40a8-ae5f-9423234f3656
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Mixa medieuppsättningar
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
