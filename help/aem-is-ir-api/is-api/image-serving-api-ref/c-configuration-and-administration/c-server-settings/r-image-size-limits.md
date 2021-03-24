@@ -1,16 +1,13 @@
 ---
 description: Använd de här serverinställningarna för att ange bildstorleksbegränsningar.
-seo-description: Använd de här serverinställningarna för att ange bildstorleksbegränsningar.
-seo-title: Bildstorleksbegränsningar
 solution: Experience Manager
 title: Bildstorleksbegränsningar
-uuid: 6736e652-c495-45a2-bdd2-9975f99af0a2
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Administratör,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
