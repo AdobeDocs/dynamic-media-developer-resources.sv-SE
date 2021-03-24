@@ -1,16 +1,13 @@
 ---
 description: Mönsterelement för reguljära uttryck. Valfritt i <rule>-element.
-seo-description: Mönsterelement för reguljära uttryck. Valfritt i <rule>-element.
-seo-title: uttryck
 solution: Experience Manager
 title: uttryck
-uuid: f2036015-a2c7-4392-86f6-4cdf3152839a
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
