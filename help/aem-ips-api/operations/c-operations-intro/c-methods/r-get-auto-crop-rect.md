@@ -1,16 +1,13 @@
 ---
 description: Returnerar ett beskuret område för en bild baserat på dess bakgrundsfärg eller genomskinlighet.
-seo-description: Returnerar ett beskuret område för en bild baserat på dess bakgrundsfärg eller genomskinlighet.
-seo-title: getAutoCropRect
 solution: Experience Manager
 title: getAutoCropRect
-uuid: bb00d89a-5fc4-476f-aa47-3cf69ef99afe
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
