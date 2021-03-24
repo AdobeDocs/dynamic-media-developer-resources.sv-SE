@@ -1,16 +1,13 @@
 ---
 description: Visningsprogrammet visar Favoriter-ikoner över huvudvyn på platser där det ursprungligen lades till av användaren.
-seo-description: Visningsprogrammet visar Favoriter-ikoner över huvudvyn på platser där det ursprungligen lades till av användaren.
-seo-title: Favoriter, effekt
 solution: Experience Manager
 title: Favoriter, effekt
-uuid: 5fbfe299-1fae-427f-8ade-e12cd168b8a7
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
