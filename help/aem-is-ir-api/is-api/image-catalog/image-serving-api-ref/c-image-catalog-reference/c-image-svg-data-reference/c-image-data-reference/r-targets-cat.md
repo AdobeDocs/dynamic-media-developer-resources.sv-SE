@@ -1,16 +1,13 @@
 ---
 description: Zooma måldata. Inga eller fler zoommålsegenskaper, som kan användas tillsammans med zoomvisningsprogramklienten.
-seo-description: Zooma måldata. Inga eller fler zoommålsegenskaper, som kan användas tillsammans med zoomvisningsprogramklienten.
-seo-title: Målgrupper
 solution: Experience Manager
 title: Målgrupper
-uuid: ca02483a-9aa0-4b54-b6f0-4fd10d8b2b4c
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
