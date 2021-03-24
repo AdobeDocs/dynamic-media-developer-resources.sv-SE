@@ -1,16 +1,13 @@
 ---
 description: I det här avsnittet visas tecken som är reserverade för särskilda ändamål.
-seo-description: I det här avsnittet visas tecken som är reserverade för särskilda ändamål.
-seo-title: Reserverade tecken
 solution: Experience Manager
 title: Reserverade tecken
-uuid: 3b18da2e-5399-49d0-83c9-66dbf6e7807b
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
