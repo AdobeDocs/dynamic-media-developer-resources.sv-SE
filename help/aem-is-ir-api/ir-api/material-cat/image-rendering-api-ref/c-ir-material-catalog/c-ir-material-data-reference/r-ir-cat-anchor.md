@@ -1,16 +1,13 @@
 ---
 description: Bildankarpunkt. Anger fästpunkten (hotspot) för en repeterbar textur, väggkant eller dekal bild.
-seo-description: Bildankarpunkt. Anger fästpunkten (hotspot) för en repeterbar textur, väggkant eller dekal bild.
-seo-title: Ankarpunkt
 solution: Experience Manager
 title: Ankarpunkt
-uuid: 0b1a0fea-b299-44dc-b9fd-5916130b2ef3
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---
