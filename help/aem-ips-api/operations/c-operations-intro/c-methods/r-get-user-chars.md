@@ -1,16 +1,13 @@
 ---
 description: Hämtar en lista med tecken som används i ett visst fält.
-seo-description: Hämtar en lista med tecken som används i ett visst fält.
-seo-title: getUserChars
 solution: Experience Manager
 title: getUserChars
-uuid: c9fa7826-5174-4298-99e6-a0627e432567
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
