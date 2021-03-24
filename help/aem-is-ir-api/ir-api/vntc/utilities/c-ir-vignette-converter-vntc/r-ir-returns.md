@@ -1,16 +1,13 @@
 ---
 description: vntc returnerar följande värden, beroende på om ett fel påträffas under bearbetningen.
-seo-description: vntc returnerar följande värden, beroende på om ett fel påträffas under bearbetningen.
-seo-title: Returnerar
 solution: Experience Manager
 title: Returnerar
-uuid: 06c216c9-7618-439c-9900-1cdf1b3ba06f
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '51'
 ht-degree: 0%
 
 ---
