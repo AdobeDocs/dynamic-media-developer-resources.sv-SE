@@ -1,16 +1,13 @@
 ---
 description: Följande alternativ styr bearbetningen av vinjettfiler. De ignoreras om sourceFile inte är en vinjett.
-seo-description: Följande alternativ styr bearbetningen av vinjettfiler. De ignoreras om sourceFile inte är en vinjett.
-seo-title: Alternativ för vinjetter
 solution: Experience Manager
 title: Alternativ för vinjetter
-uuid: 0cb40314-07ce-496b-a27b-560d7bb4fa8e
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
