@@ -1,16 +1,13 @@
 ---
 description: Allmänna serverinställningar
-seo-description: Allmänna serverinställningar
-seo-title: Allmänt
 solution: Experience Manager
 title: Allmänt
-uuid: d7ec3dba-64b8-431b-b446-84ab6139ba8a
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Administratör,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
