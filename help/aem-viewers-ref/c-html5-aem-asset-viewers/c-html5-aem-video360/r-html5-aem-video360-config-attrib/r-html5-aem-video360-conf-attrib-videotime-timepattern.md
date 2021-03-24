@@ -1,16 +1,13 @@
 ---
 description: Konfigurationsattribut för Video360 Viewer.
-seo-description: Konfigurationsattribut för Video360 Viewer.
-seo-title: VideoTime.timepattern
 solution: Experience Manager
 title: VideoTime.timepattern
-uuid: fe145e6f-742e-44fc-b225-187a86b6700e
 feature: Dynamic Media Classic,visningsprogram,SDK/API,360 VR-video
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
