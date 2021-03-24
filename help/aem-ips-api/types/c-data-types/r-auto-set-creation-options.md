@@ -1,16 +1,13 @@
 ---
 description: Skapa skriptlista automatiskt för överföringsjobb. Anta att alla skript som anges för överföringen används på alla överförda resurser.
-seo-description: Skapa skriptlista automatiskt för överföringsjobb. Anta att alla skript som anges för överföringen används på alla överförda resurser.
-seo-title: AutoSetCreationOptions
 solution: Experience Manager
 title: AutoSetCreationOptions
-uuid: 2840fc3a-1135-4719-8f62-96a816df5f88
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '71'
 ht-degree: 0%
 
 ---
