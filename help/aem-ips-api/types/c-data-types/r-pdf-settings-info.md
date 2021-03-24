@@ -1,16 +1,13 @@
 ---
 description: Egenskaperna för en PDF-inställningsfil.
-seo-description: Egenskaperna för en PDF-inställningsfil.
-seo-title: PDFSettingsInfo
 solution: Experience Manager
 title: PDFSettingsInfo
-uuid: abbcf82d-5b6e-4f2c-8940-88ea8651aa40
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '39'
 ht-degree: 0%
 
 ---
