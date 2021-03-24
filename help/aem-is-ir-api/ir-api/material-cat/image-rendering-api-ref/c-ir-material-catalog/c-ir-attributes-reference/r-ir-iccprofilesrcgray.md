@@ -1,16 +1,13 @@
 ---
 description: Standardprofil för inmatningsfärg för gråskala. Anger namnet på ICC-färgprofilen som ska användas för gråskalematerialbilder som inte bäddar in en färgprofil.
-seo-description: Standardprofil för inmatningsfärg för gråskala. Anger namnet på ICC-färgprofilen som ska användas för gråskalematerialbilder som inte bäddar in en färgprofil.
-seo-title: IccProfileSrcGray
 solution: Experience Manager
 title: IccProfileSrcGray
-uuid: e05d1185-ffd6-4c04-a2b8-52228beae37d
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
