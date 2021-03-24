@@ -1,16 +1,13 @@
 ---
 description: Returnerar ZIP-fildata.
-seo-description: Returnerar ZIP-fildata.
-seo-title: getZipEnentries
 solution: Experience Manager
 title: getZipEnentries
-uuid: cfc45f83-1cf9-4c50-9aac-5a731e62a839
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
