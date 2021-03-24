@@ -1,16 +1,13 @@
 ---
 description: Konfigurerar hur komponenten hämtar nya bilder för huvud- och utfällningsvyn när storleken ändras.
-seo-description: Konfigurerar hur komponenten hämtar nya bilder för huvud- och utfällningsvyn när storleken ändras.
-seo-title: FlyoutZoomView.imagereload
 solution: Experience Manager
 title: FlyoutZoomView.imagereload
-uuid: 5cded4cb-7b02-47da-9e2d-b236548cc61d
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Mixa medieuppsättningar
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '143'
 ht-degree: 1%
 
 ---
