@@ -1,16 +1,13 @@
 ---
 description: En matris med funktionsfel.
-seo-description: En matris med funktionsfel.
-seo-title: AssetOperationFaultArray
 solution: Experience Manager
 title: AssetOperationFaultArray
-uuid: 78a77da2-2d0e-40d2-916f-28db0dd68154
 feature: Dynamic Media Classic,SDK/API,Resurshantering
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '43'
+source-wordcount: '36'
 ht-degree: 0%
 
 ---
