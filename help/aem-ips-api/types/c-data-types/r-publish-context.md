@@ -1,16 +1,13 @@
 ---
 description: Definierar ett publiceringsmål för ett företag.
-seo-description: Definierar ett publiceringsmål för ett företag.
-seo-title: PublishContext
 solution: Experience Manager
 title: PublishContext
-uuid: 62e2ba15-d966-48c7-86dc-373069c3ea46
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
