@@ -1,16 +1,13 @@
 ---
 description: Använder en egenskapsarray för att uppdatera en egenskapsuppsättning.
-seo-description: Använder en egenskapsarray för att uppdatera en egenskapsuppsättning.
-seo-title: updatePropertySet
 solution: Experience Manager
 title: updatePropertySet
-uuid: 21a59c5a-7799-4af6-ab9f-b0311f5f7254
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
