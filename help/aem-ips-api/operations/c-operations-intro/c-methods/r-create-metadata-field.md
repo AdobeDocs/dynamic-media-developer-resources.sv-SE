@@ -1,16 +1,13 @@
 ---
 description: Gör att administratörer kan skapa nya metadatafält som kan koordineras med content management-system eller för mallåtgärder. Exempel på skapade metadatafält är nyckelord, information om författaren till bilden eller information om upphovsrättsinnehavare.
-seo-description: Gör att administratörer kan skapa nya metadatafält som kan koordineras med content management-system eller för mallåtgärder. Exempel på skapade metadatafält är nyckelord, information om författaren till bilden eller information om upphovsrättsinnehavare.
-seo-title: createMetadataField
 solution: Experience Manager
 title: createMetadataField
-uuid: 50ab61fa-df44-4305-ad9f-693c4aea1e69
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
