@@ -1,16 +1,13 @@
 ---
 description: Bildankarpunkt. Ursprungspunkt när den här bilden används som ett lager i en mall eller sammansatt bild.
-seo-description: Bildankarpunkt. Ursprungspunkt när den här bilden används som ett lager i en mall eller sammansatt bild.
-seo-title: Ankarpunkt
 solution: Experience Manager
 title: Ankarpunkt
-uuid: 81069578-8470-4ec0-b755-47b0a8124024
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
