@@ -1,16 +1,13 @@
 ---
 description: Videospelaren är det rektangulära området där videoinnehållet visas i visningsprogrammet.
-seo-description: Videospelaren är det rektangulära området där videoinnehållet visas i visningsprogrammet.
-seo-title: Video360-spelare
 solution: Experience Manager
 title: Video360-spelare
-uuid: e78a9c22-4217-42cc-ba47-3acb4130a4fd
 feature: Dynamic Media Classic,visningsprogram,SDK/API,360 VR-video
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
