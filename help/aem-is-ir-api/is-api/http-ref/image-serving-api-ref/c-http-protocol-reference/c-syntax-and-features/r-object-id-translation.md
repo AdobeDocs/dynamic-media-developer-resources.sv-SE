@@ -1,16 +1,13 @@
 ---
 description: Image Serving är en mekanism som översätter externa objekt-ID:n till språkområdesspecifika objekt-ID:n (katalog). Det primära programmet är att tillhandahålla språkområdesspecifikt innehåll och innehåll som delas mellan flera språkområden utan att klientprogrammet behöver känna till de språkområdesspecifika objekt-ID:n.
-seo-description: Image Serving är en mekanism som översätter externa objekt-ID:n till språkområdesspecifika objekt-ID:n (katalog). Det primära programmet är att tillhandahålla språkområdesspecifikt innehåll och innehåll som delas mellan flera språkområden utan att klientprogrammet behöver känna till de språkområdesspecifika objekt-ID:n.
-seo-title: Översättning av objekt-ID
 solution: Experience Manager
 title: Översättning av objekt-ID
-uuid: 8b4c2f44-033a-428a-b505-af389865c70a
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
