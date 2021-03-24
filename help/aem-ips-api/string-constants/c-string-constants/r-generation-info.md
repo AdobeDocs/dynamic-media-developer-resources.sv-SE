@@ -1,16 +1,13 @@
 ---
 description: Används av getGenerationInfo/engine.
-seo-description: Används av getGenerationInfo/engine.
-seo-title: Genereringsinformation
 solution: Experience Manager
 title: Genereringsinformation
-uuid: 7e0ddd2c-25b5-4ff6-9906-bc6072f55681
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '27'
+source-wordcount: '21'
 ht-degree: 0%
 
 ---
