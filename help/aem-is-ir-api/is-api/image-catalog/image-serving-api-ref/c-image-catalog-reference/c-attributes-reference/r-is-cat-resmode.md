@@ -1,16 +1,13 @@
 ---
 description: Standardläge för omsampling. Anger de standardattribut för omsampling och interpolation som ska användas för skalning av bilddata.
-seo-description: Standardläge för omsampling. Anger de standardattribut för omsampling och interpolation som ska användas för skalning av bilddata.
-seo-title: ResMode
 solution: Experience Manager
 title: ResMode
-uuid: 14d184bd-6664-4f8f-b551-a92cb92a0d84
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
