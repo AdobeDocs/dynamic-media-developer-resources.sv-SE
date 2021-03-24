@@ -1,16 +1,13 @@
 ---
 description: Sessionskatalogen är den materialkatalog som innehåller sessionsattribut för begäran samt ett standard-catId-värde för alla kommandon src=, vignette= och icc=.
-seo-description: Sessionskatalogen är den materialkatalog som innehåller sessionsattribut för begäran samt ett standard-catId-värde för alla kommandon src=, vignette= och icc=.
-seo-title: Sessionskatalog
 solution: Experience Manager
 title: Sessionskatalog
-uuid: 69c0f6cd-dfaf-47bf-bdd9-7abb4e6f7465
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
