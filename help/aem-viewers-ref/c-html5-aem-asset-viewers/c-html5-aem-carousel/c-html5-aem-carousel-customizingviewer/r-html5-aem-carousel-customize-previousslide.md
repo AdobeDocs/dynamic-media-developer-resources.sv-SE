@@ -1,16 +1,13 @@
 ---
 description: Om du klickar eller trycker på den här knappen återgår användaren till föregående bild i karuselluppsättningen. Den här knappen visas inte på enheter med pekskärm. Du kan ändra storlek, skal och placera den här knappen med CSS.
-seo-description: Om du klickar eller trycker på den här knappen återgår användaren till föregående bild i karuselluppsättningen. Den här knappen visas inte på enheter med pekskärm. Du kan ändra storlek, skal och placera den här knappen med CSS.
-seo-title: Föregående bild
 solution: Experience Manager
 title: Föregående bild
-uuid: 733fa270-ce95-4493-9d31-f7f638d8368d
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
