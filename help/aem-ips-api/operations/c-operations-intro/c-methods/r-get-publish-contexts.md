@@ -2,11 +2,10 @@
 description: getPublishConTexts
 solution: Experience Manager
 title: getPublishConTexts
-uuid: 7eb90f2c-2bfc-4d61-8a24-831964ed9182
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 0%
