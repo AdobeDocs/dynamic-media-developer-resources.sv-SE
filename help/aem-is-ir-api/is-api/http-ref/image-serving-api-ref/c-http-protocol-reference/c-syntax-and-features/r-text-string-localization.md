@@ -1,16 +1,13 @@
 ---
 description: Textsträngslokalisering gör att bildkataloger kan innehålla flera språkspecifika representationer för samma strängvärde.
-seo-description: Textsträngslokalisering gör att bildkataloger kan innehålla flera språkspecifika representationer för samma strängvärde.
-seo-title: Textsträngslokalisering
 solution: Experience Manager
 title: Textsträngslokalisering
-uuid: bdff2403-e3bb-4b3f-a8d7-bb108c1fbee8
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '674'
 ht-degree: 0%
 
 ---
