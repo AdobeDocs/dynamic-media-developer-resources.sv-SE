@@ -1,16 +1,13 @@
 ---
 description: Intresseregion. Anger ett rektangulärt intresseområde (ROI) i den sammansatta bilden, uttryckt i pixlar.
-seo-description: Intresseregion. Anger ett rektangulärt intresseområde (ROI) i den sammansatta bilden, uttryckt i pixlar.
-seo-title: gradera
 solution: Experience Manager
 title: gradera
-uuid: 08657925-c52a-4279-8357-c26ad5c5ef3d
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
