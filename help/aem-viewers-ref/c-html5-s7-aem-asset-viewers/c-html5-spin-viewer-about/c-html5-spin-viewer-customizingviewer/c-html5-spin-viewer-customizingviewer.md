@@ -1,17 +1,14 @@
 ---
 description: All visuell anpassning och de flesta beteendeanpassningar för Snurra-visningsprogrammet görs genom att en anpassad CSS skapas.
 keywords: responsiv
-seo-description: All visuell anpassning och de flesta beteendeanpassningar för Snurra-visningsprogrammet görs genom att en anpassad CSS skapas.
-seo-title: Anpassa Spin Viewer
 solution: Experience Manager
 title: Anpassa Spin Viewer
-uuid: d951501c-d6da-454c-be2f-0887ffcac77c
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,snurra uppsättningar
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1353'
+source-wordcount: '1332'
 ht-degree: 0%
 
 ---
