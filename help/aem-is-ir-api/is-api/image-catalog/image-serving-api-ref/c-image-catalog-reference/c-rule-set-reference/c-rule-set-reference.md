@@ -1,16 +1,13 @@
 ---
 description: Image Serving har stöd för en enkel förbearbetningsmekanism för begäranden som baseras på regler för matchning och ersättning av reguljära uttryck.
-seo-description: Image Serving har stöd för en enkel förbearbetningsmekanism för begäranden som baseras på regler för matchning och ersättning av reguljära uttryck.
-seo-title: Referens för regeluppsättning
 solution: Experience Manager
 title: Referens för regeluppsättning
-uuid: 356e4939-c57d-459a-8e40-9b25e20fc0a3
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '810'
 ht-degree: 0%
 
 ---
