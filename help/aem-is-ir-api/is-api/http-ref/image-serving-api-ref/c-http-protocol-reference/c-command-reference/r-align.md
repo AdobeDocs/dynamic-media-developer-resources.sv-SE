@@ -1,16 +1,13 @@
 ---
 description: Justera bild med Visa. Justerar den sammansatta bilden (eventuellt efter skalning, om scl= även anges) inom visningsrektangeln som definieras av wid= och hei=.
-seo-description: Justera bild med Visa. Justerar den sammansatta bilden (eventuellt efter skalning, om scl= även anges) inom visningsrektangeln som definieras av wid= och hei=.
-seo-title: justera
 solution: Experience Manager
 title: justera
-uuid: 91940bd4-8e2b-4949-a76d-31cd238783bc
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
