@@ -1,16 +1,13 @@
 ---
 description: Rotationsindikatorn visas i rotationsvyområdet. Den visas när bilden är i ett återställningsläge och beror också på parametern iconeffect.
-seo-description: Rotationsindikatorn visas i rotationsvyområdet. Den visas när bilden är i ett återställningsläge och beror också på parametern iconeffect.
-seo-title: Ikonen Snurra vy, effekt
 solution: Experience Manager
 title: Ikonen Snurra vy, effekt
-uuid: 33445a3d-51dc-47a4-a8d1-87d25ea001e1
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Mixa medieuppsättningar
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
