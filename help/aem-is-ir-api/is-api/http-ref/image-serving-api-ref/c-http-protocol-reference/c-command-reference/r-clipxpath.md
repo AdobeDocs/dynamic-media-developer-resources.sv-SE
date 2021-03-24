@@ -1,16 +1,13 @@
 ---
 description: Inverterad lagerklippbana. Anger en exkluderingsklippbana för det aktuella lagret. Alla delar av lagret som ligger inom det område som definieras av clipXPath= återges som genomskinliga.
-seo-description: Inverterad lagerklippbana. Anger en exkluderingsklippbana för det aktuella lagret. Alla delar av lagret som ligger inom det område som definieras av clipXPath= återges som genomskinliga.
-seo-title: clipXPath
 solution: Experience Manager
 title: clipXPath
-uuid: a4062f3f-5dba-4514-acde-e1b7d608a2e9
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
