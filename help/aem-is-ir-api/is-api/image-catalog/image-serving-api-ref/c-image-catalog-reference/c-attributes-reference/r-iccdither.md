@@ -1,16 +1,13 @@
 ---
 description: Färgkonverteringsgitter. Anger om gitter ska användas för att förbättra den perceptuella kvaliteten på färgkonverteringar när ingen explicit markering görs med icc=.
-seo-description: Färgkonverteringsgitter. Anger om gitter ska användas för att förbättra den perceptuella kvaliteten på färgkonverteringar när ingen explicit markering görs med icc=.
-seo-title: IccDither
 solution: Experience Manager
 title: IccDither
-uuid: 93260809-8eab-40df-aff3-466ee391d654
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
