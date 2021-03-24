@@ -1,16 +1,13 @@
 ---
 description: Standardobjektsupplösning. Anger en standardobjektsupplösning om en viss katalogpost inte innehåller ett giltigt värde för katalogupplösning.
-seo-description: Standardobjektsupplösning. Anger en standardobjektsupplösning om en viss katalogpost inte innehåller ett giltigt värde för katalogupplösning.
-seo-title: Upplösning
 solution: Experience Manager
 title: Upplösning
-uuid: dbc594de-05b9-4efa-93a6-4fdcf1981d8d
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
