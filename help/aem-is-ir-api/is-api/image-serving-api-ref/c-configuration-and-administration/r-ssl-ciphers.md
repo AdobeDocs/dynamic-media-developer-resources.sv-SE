@@ -1,16 +1,13 @@
 ---
 description: Taggen Connector i server.xml har stöd för ett ciphers-attribut som begränsar antalet ciphers som kan väljas för en SSL-anslutning.
-seo-description: Taggen Connector i server.xml har stöd för ett ciphers-attribut som begränsar antalet ciphers som kan väljas för en SSL-anslutning.
-seo-title: Definiera SSL-ciphers
 solution: Experience Manager
 title: Definiera SSL-ciphers
-uuid: 9490fb9a-5abb-4f5e-b660-b7af0a5e4b4d
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Administratör,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
