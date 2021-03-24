@@ -1,16 +1,13 @@
 ---
 description: Ämnen i det här avsnittet beskriver syntaxen och funktionerna i HTTP-protokollen.
-seo-description: Ämnen i det här avsnittet beskriver syntaxen och funktionerna i HTTP-protokollen.
-seo-title: Syntax och funktioner
 solution: Experience Manager
 title: Syntax och funktioner
-uuid: 5f8df6a2-a8f9-4582-9e1e-8f26acf61df4
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
