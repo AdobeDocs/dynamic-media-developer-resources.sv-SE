@@ -1,16 +1,13 @@
 ---
 description: Placeringen av knappen Ta bort favorit hanteras helt av menyn Favoriter.
-seo-description: Placeringen av knappen Ta bort favorit hanteras helt av menyn Favoriter.
-seo-title: Knappen Ta bort favorit
 solution: Experience Manager
 title: Knappen Ta bort favorit
-uuid: c2e1929d-d859-49d5-8bdc-13507e25d02c
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
