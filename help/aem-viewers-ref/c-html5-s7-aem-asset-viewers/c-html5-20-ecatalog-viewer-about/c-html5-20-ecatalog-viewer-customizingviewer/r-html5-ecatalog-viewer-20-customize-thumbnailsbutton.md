@@ -1,16 +1,13 @@
 ---
 description: Om du klickar eller trycker på den här knappen återställs visningsprogrammet mellan huvudvyn och miniatyrbilderna. Den här knappen visas i huvudkontrollfältet. Du kan ändra storlek, skal och position för knappen med hjälp av CSS.
-seo-description: Om du klickar eller trycker på den här knappen återställs visningsprogrammet mellan huvudvyn och miniatyrbilderna. Den här knappen visas i huvudkontrollfältet. Du kan ändra storlek, skal och position för knappen med hjälp av CSS.
-seo-title: Knappen Miniatyrbilder
 solution: Experience Manager
 title: Knappen Miniatyrbilder
-uuid: a1a7f4b0-672e-4b83-9b21-0b8c6fc3f24a
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
