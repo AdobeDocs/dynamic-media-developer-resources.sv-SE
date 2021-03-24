@@ -1,16 +1,13 @@
 ---
 description: Uppdaterar konfigurationsinställningarna för SWF-visningsprogrammet.
-seo-description: Uppdaterar konfigurationsinställningarna för SWF-visningsprogrammet.
-seo-title: updateViewerConfigSettings
 solution: Experience Manager
 title: updateViewerConfigSettings
-uuid: ad4af874-5ca4-4182-868e-afa48b1cd2b6
 feature: Dynamic Media Classic,SDK/API,visningsförinställningar
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '68'
 ht-degree: 0%
 
 ---
