@@ -1,16 +1,13 @@
 ---
 description: Mixed Media Viewer har stöd för Adobe Analytics tracking-out-of-the-box.
-seo-description: Mixed Media Viewer har stöd för Adobe Analytics tracking-out-of-the-box.
-seo-title: Stöd för Adobe Analytics tracking
 solution: Experience Manager
 title: Stöd för Adobe Analytics tracking
-uuid: ad4dfed6-121f-4adb-bbdb-db6e6ee5672d
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Mixa medieuppsättningar
 role: Utvecklare,Affärsledare,datatekniker,dataarkitekt
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
