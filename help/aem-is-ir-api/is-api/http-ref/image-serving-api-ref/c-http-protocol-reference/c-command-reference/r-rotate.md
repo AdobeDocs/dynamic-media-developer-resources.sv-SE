@@ -1,16 +1,13 @@
 ---
 description: Rotera bild. Roterar bild-, text- eller enfärgslagret med den angivna vinkeln.
-seo-description: Rotera bild. Roterar bild-, text- eller enfärgslagret med den angivna vinkeln.
-seo-title: rotera
 solution: Experience Manager
 title: rotera
-uuid: 160d3c4b-3871-43bd-a17d-96198c7ea839
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
