@@ -1,16 +1,13 @@
 ---
 description: RGB-standardprofil för utdatafärg. Anger namnet på ICC-färgprofilen som ska användas för RGB-svarsbilder när ingen utdatafärgrymd har angetts med icc= och för vissa RGB-färgvärden som har angetts med olika bildserverkommandon, till exempel color=.
-seo-description: RGB-standardprofil för utdatafärg. Anger namnet på ICC-färgprofilen som ska användas för RGB-svarsbilder när ingen utdatafärgrymd har angetts med icc= och för vissa RGB-färgvärden som har angetts med olika bildserverkommandon, till exempel color=.
-seo-title: IccProfileRgb
 solution: Experience Manager
 title: IccProfileRgb
-uuid: 40606151-d5fa-4ae5-b6f0-e811bfea4691
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
