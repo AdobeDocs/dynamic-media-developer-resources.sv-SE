@@ -1,16 +1,13 @@
 ---
 description: Konfigurationsattribut för Video360 Viewer.
-seo-description: Konfigurationsattribut för Video360 Viewer.
-seo-title: SocialShare.bearing
 solution: Experience Manager
 title: SocialShare.bearing
-uuid: 43217e2e-71c5-4c58-94e0-c6ed38e25a5b
 feature: Dynamic Media Classic,visningsprogram,SDK/API,360 VR-video
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
