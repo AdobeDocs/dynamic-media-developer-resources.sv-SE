@@ -5,9 +5,9 @@ title: fmt
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: 4f9ce78007cb6ad8def15397aa2224cd7675bb0e
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '585'
 ht-degree: 0%
 
 ---
@@ -123,7 +123,7 @@ Svara i bildformat. Anger bildkodningsformatet för bilddata som skickas till kl
 
 `qlt-` anger JPEG-kodningsalternativen för dessa format: JPEG, TIFF med JPEG-komprimering, PDF med JPEG-komprimering och SWF-fil. Använd `quantize=` om `fmt=gif` eller `fmt=gif-alpha`. Mer information finns i kommandobeskrivningarna. De andra formaten har inga inställningsbara alternativ.
 
-8 bitar per pixelkomponent returneras för alla format och pixeltyper.
+Åtta bitar per pixelkomponent returneras för alla format och pixeltyper.
 
 I följande tabell visas giltiga kombinationer av *`format`* och *`pixelType`*, motsvarande MIME-typer för HTTP-svar, om ICC-profiler kan bäddas in (se [iccEmbed=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f)) och vilka formatspecifika kommandon som kan användas.
 
@@ -199,7 +199,7 @@ I följande tabell visas giltiga kombinationer av *`format`* och *`pixelType`*, 
 
 Anger kodningsformat för svarsbilddata som skickas till klienten och motsvarande MIME-svarstyp för HTTP-svarshuvudet.
 
-`png-alpha` returnerar oassocierad alfa (d.v.s. alfa förmultiplicerar inte pixelvärdena), medan  `tif-alpha`och  `swf-alpha` returnerar associerad alfa (d.v.s. alfavärdena förmultipliceras med alfavärdena). Alfakanalen motsvarar den inverterade delen av vinjettens bakgrundsmask för `req=img` och till gruppen eller objektmasken om `req=object` används. Om du vill använda alfa när du använder en kapslad IR-begäran lägger du till `fmt=` med lämpligt alfafilformat i den inbäddade IR-begäran och i huvudbegäran. Inga alfavärden returneras om en CMYK- eller gråskale-ICC-profil anges med `icc=`.
+`png-alpha` returnerar oassocierad alfa (d.v.s. alfa förmultiplicerar inte pixelvärdena), medan  `tif-alpha`och  `swf-alpha` returnerar associerad alfa (d.v.s. alfavärdena förmultipliceras med alfavärdena). Alfakanalen motsvarar den inverterade delen av vinjettens bakgrundsmask för `req=img` och gruppen eller objektmasken om det finns `req=object`. Om du vill använda alfa när du använder en kapslad IR-begäran lägger du till `fmt=` med lämpligt alfafilformat i den inbäddade IR-begäran och i huvudbegäran. Inga alfavärden returneras om en CMYK- eller gråskale-ICC-profil anges med `icc=`.
 
 ## Egenskaper {#section-eb12a82c69d84622bcea153dd84d95b3}
 
