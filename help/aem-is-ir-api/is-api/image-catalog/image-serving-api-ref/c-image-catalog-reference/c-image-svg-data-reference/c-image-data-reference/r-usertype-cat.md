@@ -1,16 +1,13 @@
 ---
 description: Användartyp för statiskt innehåll. Tillåter tilldelning av en användarspecificerad typ till statiska innehållsobjekt.
-seo-description: Användartyp för statiskt innehåll. Tillåter tilldelning av en användarspecificerad typ till statiska innehållsobjekt.
-seo-title: UserType
 solution: Experience Manager
 title: UserType
-uuid: 0ce53373-7896-434c-8249-39037089fab9
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '50'
 ht-degree: 0%
 
 ---
