@@ -1,16 +1,13 @@
 ---
 description: Visningsprogrammet för grundläggande zoomning har stöd för Adobe Analytics-spårning direkt.
-seo-description: Visningsprogrammet för grundläggande zoomning har stöd för Adobe Analytics-spårning direkt.
-seo-title: Stöd för Adobe Analytics tracking
 solution: Experience Manager
 title: Stöd för Adobe Analytics tracking
-uuid: f48fde77-7e48-4d56-b5c5-079a484e6d9c
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
 role: Utvecklare,Affärsledare,datatekniker,dataarkitekt
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
