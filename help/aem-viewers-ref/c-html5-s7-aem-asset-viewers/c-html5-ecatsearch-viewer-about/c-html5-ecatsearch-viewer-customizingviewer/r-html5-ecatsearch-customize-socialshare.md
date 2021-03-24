@@ -1,16 +1,13 @@
 ---
 description: Verktyget för social delning visas som standard i det övre vänstra hörnet. Den består av en knapp och en panel som utökas när användaren klickar eller trycker på en knapp och innehåller enskilda delningsverktyg.
-seo-description: Verktyget för social delning visas som standard i det övre vänstra hörnet. Den består av en knapp och en panel som utökas när användaren klickar eller trycker på en knapp och innehåller enskilda delningsverktyg.
-seo-title: Social andel
 solution: Experience Manager
 title: Social andel
-uuid: 6d463eb1-c6bf-4f1c-90e4-b5ef1e5a1538
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
