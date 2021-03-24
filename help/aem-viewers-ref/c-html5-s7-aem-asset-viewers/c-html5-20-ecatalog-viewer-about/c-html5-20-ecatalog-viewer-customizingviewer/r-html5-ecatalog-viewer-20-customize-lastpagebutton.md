@@ -1,16 +1,13 @@
 ---
 description: Om du klickar eller trycker på den här knappen flyttas användaren till den sista sidan i katalogen. Den här knappen visas i huvudkontrollfältet på stationära datorer och surfplattor. på mobiltelefoner läggs den till i ett sekundärt kontrollfält. Du kan ändra storlek, skal och position för knappen med hjälp av CSS.
-seo-description: Om du klickar eller trycker på den här knappen flyttas användaren till den sista sidan i katalogen. Den här knappen visas i huvudkontrollfältet på stationära datorer och surfplattor. på mobiltelefoner läggs den till i ett sekundärt kontrollfält. Du kan ändra storlek, skal och position för knappen med hjälp av CSS.
-seo-title: Knappen Sista sidan
 solution: Experience Manager
 title: Knappen Sista sidan
-uuid: f77b9ac5-4f00-41d4-9495-c4805d4a41f9
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
