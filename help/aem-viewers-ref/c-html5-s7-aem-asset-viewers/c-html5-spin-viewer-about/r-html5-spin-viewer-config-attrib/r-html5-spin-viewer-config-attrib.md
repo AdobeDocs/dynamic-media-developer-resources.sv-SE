@@ -1,16 +1,13 @@
 ---
 description: Dokumentation för konfigurationsattribut för Spin Viewer.
-seo-description: Dokumentation för konfigurationsattribut för Spin Viewer.
-seo-title: Kommandoreferens - Konfigurationsattribut
 solution: Experience Manager
 title: Kommandoreferens - Konfigurationsattribut
-uuid: ba60da44-d30d-459f-b3d8-5cf3ea4bcbdb
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,snurra uppsättningar
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
