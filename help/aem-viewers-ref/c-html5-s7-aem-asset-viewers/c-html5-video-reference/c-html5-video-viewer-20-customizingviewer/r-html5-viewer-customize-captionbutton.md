@@ -1,16 +1,13 @@
 ---
 description: Med den här knappen växlar du visning av undertexter. Den är inte synlig om bildtextparametern inte har angetts.
-seo-description: Med den här knappen växlar du visning av undertexter. Den är inte synlig om bildtextparametern inte har angetts.
-seo-title: Bildtext, knapp
 solution: Experience Manager
 title: Bildtext, knapp
-uuid: 97de8cdd-8410-4128-be5c-1fc4987a5f96
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Video
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
