@@ -1,16 +1,13 @@
 ---
 description: Omsamplingsläge. Väljer den omsamplings- och/eller interpoleringsalgoritm som ska användas för att skala den återgivna bilden till den storlek som anges med wid=, hei= eller scl=.
-seo-description: Omsamplingsläge. Väljer den omsamplings- och/eller interpoleringsalgoritm som ska användas för att skala den återgivna bilden till den storlek som anges med wid=, hei= eller scl=.
-seo-title: resMode
 solution: Experience Manager
 title: resMode
-uuid: 106da74a-d7da-4998-a719-c4c69ae36f6b
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '184'
 ht-degree: 0%
 
 ---
