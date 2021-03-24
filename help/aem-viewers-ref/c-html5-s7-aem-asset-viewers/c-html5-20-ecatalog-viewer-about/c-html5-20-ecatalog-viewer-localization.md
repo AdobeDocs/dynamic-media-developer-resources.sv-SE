@@ -1,16 +1,13 @@
 ---
 description: Visst innehåll som visas i eCatalog Viewer kan lokaliseras, t.ex. zoomknappar, sidändringsknappar, miniatyrknappar, helskärmsknappar, stängningsknappar och rullningslistknappar.
-seo-description: Visst innehåll som visas i eCatalog Viewer kan lokaliseras, t.ex. zoomknappar, sidändringsknappar, miniatyrknappar, helskärmsknappar, stängningsknappar och rullningslistknappar.
-seo-title: Lokalisering av användargränssnittselement
 solution: Experience Manager
 title: Lokalisering av användargränssnittselement
-uuid: bd95c7dc-3158-4cca-81d4-f5efd57c0124
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
