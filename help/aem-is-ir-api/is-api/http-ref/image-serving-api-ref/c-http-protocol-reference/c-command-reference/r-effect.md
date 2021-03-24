@@ -1,16 +1,13 @@
 ---
 description: Välj Effektlager. Markerar ett effektlager och startar ett nytt lagersegment i strängen för begäran, som är associerad med det aktuella lagret.
-seo-description: Välj Effektlager. Markerar ett effektlager och startar ett nytt lagersegment i strängen för begäran, som är associerad med det aktuella lagret.
-seo-title: effekt
 solution: Experience Manager
 title: effekt
-uuid: 622dc7ca-55b8-4a82-b9a7-65588aee87d0
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
