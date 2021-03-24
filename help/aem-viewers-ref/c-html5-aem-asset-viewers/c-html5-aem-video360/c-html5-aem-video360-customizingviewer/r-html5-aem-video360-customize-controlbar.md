@@ -1,16 +1,13 @@
 ---
 description: Kontrollfältet är det rektangulära området som innehåller och sitter bakom alla användargränssnittskontroller som är tillgängliga för videovisningsprogrammet, t.ex. uppspelnings-/pausknappen, volymkontroller osv.
-seo-description: Kontrollfältet är det rektangulära området som innehåller och sitter bakom alla användargränssnittskontroller som är tillgängliga för videovisningsprogrammet, t.ex. uppspelnings-/pausknappen, volymkontroller osv.
-seo-title: Kontrollfält
 solution: Experience Manager
 title: Kontrollfält
-uuid: 328e34f1-9e60-4056-9a8a-e9292fb65605
 feature: Dynamic Media Classic,visningsprogram,SDK/API,360 VR-video
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
