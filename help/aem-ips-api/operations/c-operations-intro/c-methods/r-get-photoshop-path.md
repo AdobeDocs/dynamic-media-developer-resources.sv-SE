@@ -1,16 +1,13 @@
 ---
 description: Returnerar koordinater för den fyrkant som omger den namngivna Photoshop-sökvägen.
-seo-description: Returnerar koordinater för den fyrkant som omger den namngivna Photoshop-sökvägen.
-seo-title: getPhotoshopPath
 solution: Experience Manager
 title: getPhotoshopPath
-uuid: e3ed4888-18db-40bc-a1db-f44a342d0293
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
