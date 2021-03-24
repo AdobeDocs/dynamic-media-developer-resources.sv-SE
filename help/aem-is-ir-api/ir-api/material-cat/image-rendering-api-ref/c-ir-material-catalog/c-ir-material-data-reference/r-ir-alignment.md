@@ -1,16 +1,13 @@
 ---
 description: Texturjustering. Justering av texturen när den används på vinjetteringsobjekt som är relaterade till varandra, t.ex. de stoppade delarna av ett möbelobjekt. Används främst för möbelklädåtergivningsprogram, eventuellt för avancerade klädprogram.
-seo-description: Texturjustering. Justering av texturen när den används på vinjetteringsobjekt som är relaterade till varandra, t.ex. de stoppade delarna av ett möbelobjekt. Används främst för möbelklädåtergivningsprogram, eventuellt för avancerade klädprogram.
-seo-title: Justering
 solution: Experience Manager
 title: Justering
-uuid: c64d7986-9bb9-4566-8e2f-dca7f459049e
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
