@@ -1,17 +1,14 @@
 ---
 description: Konfigurationsattribut för Interactive Video Viewer.
-seo-description: Konfigurationsattribut för Interactive Video Viewer.
-seo-title: VideoPlayer.waiticon
 solution: Experience Manager
 title: VideoPlayer.waiticon
-uuid: 6563b9f1-8135-4d4b-bf31-25f599e166d4
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 4%
+source-wordcount: '38'
+ht-degree: 5%
 
 ---
 
