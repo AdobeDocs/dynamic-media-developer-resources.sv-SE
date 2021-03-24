@@ -1,16 +1,13 @@
 ---
 description: En array med metadatavillkor.
-seo-description: En array med metadatavillkor.
-seo-title: MetadataConditionArray
 solution: Experience Manager
 title: MetadataConditionArray
-uuid: 235cafa9-3d96-464f-9943-9f0addfa05c1
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '37'
+source-wordcount: '31'
 ht-degree: 0%
 
 ---
