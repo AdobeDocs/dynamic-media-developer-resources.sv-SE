@@ -1,16 +1,13 @@
 ---
 description: Visst innehåll som visas i Carousel Viewer kan lokaliseras. Detta inkluderar navigeringsknappar för bildrutor.
-seo-description: Visst innehåll som visas i Carousel Viewer kan lokaliseras. Detta inkluderar navigeringsknappar för bildrutor.
-seo-title: Lokalisering av användargränssnittselement
 solution: Experience Manager
 title: Lokalisering av användargränssnittselement
-uuid: 82e4dc72-cc12-4ab5-8370-6270f9a3d45f
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
