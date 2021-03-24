@@ -1,16 +1,13 @@
 ---
 description: Gör att visningsprogrammet går in i eller avslutar helskärmsläget när användaren klickar på det. Den här knappen visas inte om visningsprogrammet fungerar i popup-läge och systemet inte stöder helskärmsläge. Du kan ändra storlek, skal och position för knappen med hjälp av CSS.
-seo-description: Gör att visningsprogrammet går in i eller avslutar helskärmsläget när användaren klickar på det. Den här knappen visas inte om visningsprogrammet fungerar i popup-läge och systemet inte stöder helskärmsläge. Du kan ändra storlek, skal och position för knappen med hjälp av CSS.
-seo-title: Helskärmsknapp
 solution: Experience Manager
 title: Helskärmsknapp
-uuid: 8f0ce51b-1ef6-4631-8a54-7d34cb6e3ef2
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
