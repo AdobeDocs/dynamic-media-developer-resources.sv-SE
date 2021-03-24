@@ -1,16 +1,13 @@
 ---
 description: Delmarkering. Tillåter att olika material används på olika områden i det markerade objektet eller den markerade gruppen, samt att tidigare använt material tas bort.
-seo-description: Delmarkering. Tillåter att olika material används på olika områden i det markerade objektet eller den markerade gruppen, samt att tidigare använt material tas bort.
-seo-title: sub
 solution: Experience Manager
 title: sub
-uuid: cb9f4dc5-9d89-483a-ae72-b9076b27c57e
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '162'
 ht-degree: 3%
 
 ---
@@ -28,7 +25,7 @@ Delmarkering. Tillåter att olika material används på olika områden i det mar
   <td class="stentry"> <p>Markera hela väggen. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p> </td> 
+  <td class="stentry"> <p>1 </p> </td> 
   <td class="stentry"> <p>Markera den övre halvan av väggen. </p> </td> 
  </tr> 
  <tr class="strow"> 
