@@ -1,16 +1,13 @@
 ---
 description: Denna materialkategori omfattar färger för väggar, trävaror och ytmaterial, bilar samt andra tillämpningar där texturer inte behövs.
-seo-description: Denna materialkategori omfattar färger för väggar, trävaror och ytmaterial, bilar samt andra tillämpningar där texturer inte behövs.
-seo-title: Solida färger
 solution: Experience Manager
 title: Solida färger
-uuid: 75b60e44-1727-4f3e-a186-df66fabeec0d
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
