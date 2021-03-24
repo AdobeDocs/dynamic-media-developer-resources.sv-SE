@@ -1,16 +1,13 @@
 ---
 description: Svarets bildhöjd. Anger skalningen av den återgivna bilden så att höjden på svarsbilden inte är större än det angivna värdet, samtidigt som bildens proportioner behålls.
-seo-description: Svarets bildhöjd. Anger skalningen av den återgivna bilden så att höjden på svarsbilden inte är större än det angivna värdet, samtidigt som bildens proportioner behålls.
-seo-title: hei
 solution: Experience Manager
 title: hei
-uuid: 616d3306-ccbd-4400-8a94-1ff6f47b802e
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
