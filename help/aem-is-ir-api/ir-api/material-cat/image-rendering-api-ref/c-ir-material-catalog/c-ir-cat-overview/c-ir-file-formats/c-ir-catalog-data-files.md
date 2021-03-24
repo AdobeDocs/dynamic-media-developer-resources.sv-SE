@@ -1,16 +1,13 @@
 ---
 description: Katalogdatafiler kan ha vilket namn och filsuffix som helst (förutom .ini).
-seo-description: Katalogdatafiler kan ha vilket namn och filsuffix som helst (förutom .ini).
-seo-title: Katalogdatafiler
 solution: Experience Manager
 title: Katalogdatafiler
-uuid: 33d991d6-5aa7-4cc6-88d4-10c4bb83d786
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
