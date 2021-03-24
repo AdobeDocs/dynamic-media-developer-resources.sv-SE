@@ -1,16 +1,13 @@
 ---
 description: Standardutskriftsupplösning. Anger en standardutskriftsupplösning om en viss katalogpost inte innehåller ett giltigt PrintResolution-katalogvärde.
-seo-description: Standardutskriftsupplösning. Anger en standardutskriftsupplösning om en viss katalogpost inte innehåller ett giltigt PrintResolution-katalogvärde.
-seo-title: PrintResolution
 solution: Experience Manager
 title: PrintResolution
-uuid: 6333c630-2df1-4eb1-b2fb-e67692f747eb
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
