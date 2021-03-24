@@ -1,16 +1,13 @@
 ---
 description: Klientmeddelande. Innehåller en funktion som gör att klienter kan infoga korta textmeddelanden i serverloggen.
-seo-description: Klientmeddelande. Innehåller en funktion som gör att klienter kan infoga korta textmeddelanden i serverloggen.
-seo-title: message
 solution: Experience Manager
 title: message
-uuid: 38d6d0e7-55cf-43ea-85b7-8f4aade4208a
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '60'
 ht-degree: 0%
 
 ---
