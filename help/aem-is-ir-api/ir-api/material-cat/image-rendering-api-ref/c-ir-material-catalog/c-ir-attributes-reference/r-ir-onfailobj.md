@@ -5,7 +5,7 @@ title: OnFailObj
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 4%
@@ -27,7 +27,7 @@ Enum.
   <td class="stentry"> <p>Ärv från <span class="codeph"> standard::OnFailObj </span>. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p> </td> 
+  <td class="stentry"> <p>1 </p> </td> 
   <td class="stentry"> <p>Behåll föregående markering. </p> </td> 
  </tr> 
  <tr class="strow"> 
