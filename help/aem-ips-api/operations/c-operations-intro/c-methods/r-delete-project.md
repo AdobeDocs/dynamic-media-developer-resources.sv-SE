@@ -1,16 +1,13 @@
 ---
 description: Tar bort ett projekt från ett företag. Länkarna mellan resurserna och projektet är brutna, men resurserna tas inte bort från IPS.
-seo-description: Tar bort ett projekt från ett företag. Länkarna mellan resurserna och projektet är brutna, men resurserna tas inte bort från IPS.
-seo-title: deleteProject
 solution: Experience Manager
 title: deleteProject
-uuid: 0915066f-2106-4cbc-a68a-f149810c24f8
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
