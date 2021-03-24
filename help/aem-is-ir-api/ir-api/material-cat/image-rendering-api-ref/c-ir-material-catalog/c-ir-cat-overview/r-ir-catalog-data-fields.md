@@ -1,16 +1,13 @@
 ---
 description: Följande katalogdatafält är tillgängliga.
-seo-description: Följande katalogdatafält är tillgängliga.
-seo-title: Katalogdatafält
 solution: Experience Manager
 title: Katalogdatafält
-uuid: 027ac3d6-3d64-4507-b17f-5ede48d55560
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
