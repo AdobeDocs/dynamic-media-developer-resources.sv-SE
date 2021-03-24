@@ -1,16 +1,13 @@
 ---
 description: Används av AutoCropColorOptions/corner.
-seo-description: Används av AutoCropColorOptions/corner.
-seo-title: Beskär hörn automatiskt
 solution: Experience Manager
 title: Beskär hörn automatiskt
-uuid: 684b4651-2978-4a11-b034-9423fe199b5e
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '27'
+source-wordcount: '21'
 ht-degree: 0%
 
 ---
