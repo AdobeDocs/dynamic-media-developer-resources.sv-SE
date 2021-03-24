@@ -1,16 +1,13 @@
 ---
 description: Visst innehåll som visas i Video Viewer kan lokaliseras. Innehållet innehåller funktionsbeskrivningar för användargränssnittselement och ett felmeddelande som visas när videon inte kan spelas upp.
-seo-description: Visst innehåll som visas i Video Viewer kan lokaliseras. Innehållet innehåller funktionsbeskrivningar för användargränssnittselement och ett felmeddelande som visas när videon inte kan spelas upp.
-seo-title: Lokalisering av användargränssnittselement
 solution: Experience Manager
 title: Lokalisering av användargränssnittselement
-uuid: 05b88ef9-0d90-4143-8558-d0d32943c348
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Video
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
