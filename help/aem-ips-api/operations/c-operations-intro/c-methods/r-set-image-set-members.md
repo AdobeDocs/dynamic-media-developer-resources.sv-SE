@@ -1,16 +1,13 @@
 ---
 description: Anger listan med resurser som är associerade med en bilduppsättning.
-seo-description: Anger listan med resurser som är associerade med en bilduppsättning.
-seo-title: setImageSetMembers
 solution: Experience Manager
 title: setImageSetMembers
-uuid: 84a73ff4-e93f-4764-80e8-e15f1fec1aeb
 feature: Dynamic Media Classic,SDK/API,Bilduppsättningar
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
