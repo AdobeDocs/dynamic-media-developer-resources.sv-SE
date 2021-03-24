@@ -1,16 +1,13 @@
 ---
 description: Cacheklustring gör att flera belastningsutjämnade servrar kan utbyta cacheposter i det primära svarscacheminnet och det sekundära datacacheminnet (för kapslade/inbäddade begäranden), vilket kan göra servern betydligt mer responsiv genom att eliminera behovet av att generera samma cachepost på flera servrar.
-seo-description: Cacheklustring gör att flera belastningsutjämnade servrar kan utbyta cacheposter i det primära svarscacheminnet och det sekundära datacacheminnet (för kapslade/inbäddade begäranden), vilket kan göra servern betydligt mer responsiv genom att eliminera behovet av att generera samma cachepost på flera servrar.
-seo-title: Cacheklustring
 solution: Experience Manager
 title: Cacheklustring
-uuid: 347165d6-a9e7-406e-81a8-8a91f745ce27
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Administratör,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
