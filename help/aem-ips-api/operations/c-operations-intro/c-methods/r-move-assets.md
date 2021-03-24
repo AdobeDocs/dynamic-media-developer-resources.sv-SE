@@ -1,16 +1,13 @@
 ---
 description: Flyttar flera resurser oberoende av varandra. Detta uppnås med hjälp av AssetMove-typen som finns i assetMoveArray. Varje AssetMove-fält innehåller en målmapp.
-seo-description: Flyttar flera resurser oberoende av varandra. Detta uppnås med hjälp av AssetMove-typen som finns i assetMoveArray. Varje AssetMove-fält innehåller en målmapp.
-seo-title: moveAssets
 solution: Experience Manager
 title: moveAssets
-uuid: 178f9979-fff5-45ce-a001-1263d1770ea8
 feature: Dynamic Media Classic,SDK/API,Resurshantering
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
