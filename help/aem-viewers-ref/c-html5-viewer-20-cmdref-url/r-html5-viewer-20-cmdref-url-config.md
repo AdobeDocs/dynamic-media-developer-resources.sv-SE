@@ -1,16 +1,13 @@
 ---
 description: Parametern är gemensam för alla visningsprogram.
-seo-description: Parametern är gemensam för alla visningsprogram.
-seo-title: config
 solution: Experience Manager
 title: config
-uuid: 9e9bb580-a33a-4405-b05c-56962d702145
 feature: Dynamic Media Classic,visningsprogram,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
