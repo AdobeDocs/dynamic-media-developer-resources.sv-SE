@@ -1,16 +1,13 @@
 ---
 description: Sökresultatpanelen består av sökrutan högst upp och huvudområdet där informationsmeddelanden eller sökresultat visas.
-seo-description: Sökresultatpanelen består av sökrutan högst upp och huvudområdet där informationsmeddelanden eller sökresultat visas.
-seo-title: Sökresultatpanel
 solution: Experience Manager
 title: Sökresultatpanel
-uuid: 43d8e003-79f7-4e41-98d7-b362ab7180ea
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '935'
 ht-degree: 0%
 
 ---
