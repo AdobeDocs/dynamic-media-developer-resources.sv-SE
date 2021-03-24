@@ -1,16 +1,13 @@
 ---
 description: Publicerar alla bilder, mallar och snurruppsättningar som är markerade som klara att publiceras i en serverkatalog.
-seo-description: Publicerar alla bilder, mallar och snurruppsättningar som är markerade som klara att publiceras i en serverkatalog.
-seo-title: ServerDirectoryPublishJob
 solution: Experience Manager
 title: ServerDirectoryPublishJob
-uuid: 779f2c13-f57c-4244-b8bd-debed2b0f9af
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '62'
 ht-degree: 0%
 
 ---
