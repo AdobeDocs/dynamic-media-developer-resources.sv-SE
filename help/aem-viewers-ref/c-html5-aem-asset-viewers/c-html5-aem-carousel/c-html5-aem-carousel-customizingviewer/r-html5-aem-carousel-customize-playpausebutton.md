@@ -1,16 +1,13 @@
 ---
 description: Med knappen Spela upp/Paus kan användaren pausa eller återuppta automatisk uppspelning av karusellen.
-seo-description: Med knappen Spela upp/Paus kan användaren pausa eller återuppta automatisk uppspelning av karusellen.
-seo-title: PlayPause, knapp
 solution: Experience Manager
 title: PlayPause, knapp
-uuid: 342def36-9dfb-487c-bed5-b0f301ce8430
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
