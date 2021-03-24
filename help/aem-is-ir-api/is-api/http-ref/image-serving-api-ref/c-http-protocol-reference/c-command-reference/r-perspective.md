@@ -1,16 +1,13 @@
 ---
 description: Perspektivomformning. Använd en perspektivomformning på lagerkällbilden för att fylla det område som anges med den fyrsidiga bilden. Andra områden i lagret förblir genomskinliga.
-seo-description: Perspektivomformning. Använd en perspektivomformning på lagerkällbilden för att fylla det område som anges med den fyrsidiga bilden. Andra områden i lagret förblir genomskinliga.
-seo-title: perspektiv
 solution: Experience Manager
 title: perspektiv
-uuid: b22d7b49-db08-48df-80bc-5b7237aea475
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
