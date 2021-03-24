@@ -1,16 +1,13 @@
 ---
 description: Rotationsindikatorn placeras över huvudvisningsområdet. Den visas när bilden är i ett återställningsläge och beror också på parametern iconeffect.
-seo-description: Rotationsindikatorn placeras över huvudvisningsområdet. Den visas när bilden är i ett återställningsläge och beror också på parametern iconeffect.
-seo-title: Ikoneffekt
 solution: Experience Manager
 title: Ikoneffekt
-uuid: ce0524e4-fff4-45b0-8069-d5876802d66f
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,snurra uppsättningar
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
