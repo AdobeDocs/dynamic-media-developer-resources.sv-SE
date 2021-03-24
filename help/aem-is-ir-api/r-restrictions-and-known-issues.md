@@ -1,16 +1,13 @@
 ---
 description: Det finns vissa begränsningar och kända fel som bör beaktas när du använder Dynamic Media Image Serving.
-seo-description: Det finns vissa begränsningar och kända fel som bör beaktas när du använder Dynamic Media Image Serving.
-seo-title: Begränsningar och kända fel
 solution: Experience Manager
 title: Begränsningar och kända fel
-uuid: 9f9fad41-4828-4fba-8f5f-2c33e7811c71
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1238'
 ht-degree: 0%
 
 ---
