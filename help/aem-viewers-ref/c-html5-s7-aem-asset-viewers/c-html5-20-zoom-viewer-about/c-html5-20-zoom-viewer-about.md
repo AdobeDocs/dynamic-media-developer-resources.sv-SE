@@ -1,17 +1,14 @@
 ---
 description: Zoom Viewer är ett bildvisningsprogram som visar en zoombar bild. Visningsprogrammet fungerar med bilduppsättningar och navigeringen görs med hjälp av färgrutor. Den har zoomverktyg, helskärmsstöd, färgrutor och en valfri stängningsknapp. Den är utformad för att fungera på stationära datorer och mobila enheter.
 keywords: responsiv
-seo-description: Zoom Viewer är ett bildvisningsprogram som visar en zoombar bild. Visningsprogrammet fungerar med bilduppsättningar och navigeringen görs med hjälp av färgrutor. Den har zoomverktyg, helskärmsstöd, färgrutor och en valfri stängningsknapp. Den är utformad för att fungera på stationära datorer och mobila enheter.
-seo-title: Zooma
 solution: Experience Manager
 title: Zooma
-uuid: ec2a91e2-ce2c-48b1-a2b2-8671524288c7
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '2471'
+source-wordcount: '2423'
 ht-degree: 0%
 
 ---
