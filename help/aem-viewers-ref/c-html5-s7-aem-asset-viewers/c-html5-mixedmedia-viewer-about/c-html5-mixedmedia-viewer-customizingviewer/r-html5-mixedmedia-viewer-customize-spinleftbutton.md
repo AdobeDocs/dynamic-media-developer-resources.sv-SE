@@ -1,16 +1,13 @@
 ---
 description: Om du klickar eller trycker på den här knappen flyttas bilden till vänster i huvudvyn. Den här knappen visas inte på mobiltelefoner för att spara skärmutrymme. Knappen döljs också när en flerdimensionell rotationsuppsättning används. Du kan ändra storlek på, skalförändra och placera knappen med CSS.
-seo-description: Om du klickar eller trycker på den här knappen flyttas bilden till vänster i huvudvyn. Den här knappen visas inte på mobiltelefoner för att spara skärmutrymme. Knappen döljs också när en flerdimensionell rotationsuppsättning används. Du kan ändra storlek på, skalförändra och placera knappen med CSS.
-seo-title: Knappen Snurra åt vänster
 solution: Experience Manager
 title: Knappen Snurra åt vänster
-uuid: 742a912b-7ca1-43d4-aae6-a809e01d34b9
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Mixa medieuppsättningar
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '342'
 ht-degree: 0%
 
 ---
