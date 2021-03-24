@@ -1,16 +1,13 @@
 ---
 description: Följ dessa anvisningar för att avinstallera bildåtergivning på ett Linux- eller Solaris-system.
-seo-description: Följ dessa anvisningar för att avinstallera bildåtergivning på ett Linux- eller Solaris-system.
-seo-title: Avinstallation på Linux och Solaris
 solution: Experience Manager
 title: Avinstallation på Linux och Solaris
-uuid: 80c0d6ec-985b-4596-bd67-22e5029f7b37
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
