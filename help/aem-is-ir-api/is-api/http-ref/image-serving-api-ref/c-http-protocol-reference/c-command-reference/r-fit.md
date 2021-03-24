@@ -1,16 +1,13 @@
 ---
 description: Anpassa svarsbilden till läget. Anger hur skalningsfaktorn beräknas, som används för att skala den sammansatta bilden till svarsbilden när svarsstorleken anges med wid= och hei= och scl=.
-seo-description: Anpassa svarsbilden till läget. Anger hur skalningsfaktorn beräknas, som används för att skala den sammansatta bilden till svarsbilden när svarsstorleken anges med wid= och hei= och scl=.
-seo-title: anpassa
 solution: Experience Manager
 title: anpassa
-uuid: 669fe757-f3a1-4cd4-b46c-6fbe5a039ce0
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
