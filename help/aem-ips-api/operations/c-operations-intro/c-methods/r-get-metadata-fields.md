@@ -1,16 +1,13 @@
 ---
 description: Hämtar användardefinierade metadatafält som är associerade med en resurs.
-seo-description: Hämtar användardefinierade metadatafält som är associerade med en resurs.
-seo-title: getMetadataFields
 solution: Experience Manager
 title: getMetadataFields
-uuid: bf891bae-53c8-4e3d-90df-caca9a7e022b
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Utvecklare,Administratör
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
