@@ -1,16 +1,13 @@
 ---
 description: Katalogidentifierare. Det HTTP-sökvägselement som ska användas för att identifiera den här katalogen i vinjett-, material- eller ICC-profilobjektsspecificeraren i HTTP-begäranden.
-seo-description: Katalogidentifierare. Det HTTP-sökvägselement som ska användas för att identifiera den här katalogen i vinjett-, material- eller ICC-profilobjektsspecificeraren i HTTP-begäranden.
-seo-title: RootId
 solution: Experience Manager
 title: RootId
-uuid: fd726466-6dca-4612-a342-50689ed1469f
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
