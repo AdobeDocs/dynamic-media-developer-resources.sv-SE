@@ -1,16 +1,13 @@
 ---
 description: Anger om visningsprogrammet börjar läsa in videoinnehåll innan uppspelningen startar.
-seo-description: Anger om visningsprogrammet börjar läsa in videoinnehåll innan uppspelningen startar.
-seo-title: VideoPlayer.preload
 solution: Experience Manager
 title: VideoPlayer.preload
-uuid: 2aaae96d-d42d-4984-aec9-86e06b3c711c
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Video
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '129'
 ht-degree: 1%
 
 ---
