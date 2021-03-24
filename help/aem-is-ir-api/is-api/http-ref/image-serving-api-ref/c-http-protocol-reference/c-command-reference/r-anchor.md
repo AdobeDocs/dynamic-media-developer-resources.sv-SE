@@ -1,16 +1,13 @@
 ---
 description: Bildankarpunkt. Definierar fästpunkten för rektangeln för bilden, den heltäckande färgen eller textrutan innan du använder omformningar (crop=, scale=, rotate=, flip=). Fungerar även som centrum för rotation för rotate=.
-seo-description: Bildankarpunkt. Definierar fästpunkten för rektangeln för bilden, den heltäckande färgen eller textrutan innan du använder omformningar (crop=, scale=, rotate=, flip=). Fungerar även som centrum för rotation för rotate=.
-seo-title: ankare
 solution: Experience Manager
 title: ankare
-uuid: 3b174360-9bb7-4dc8-83be-6b8c4ea88cd4
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
