@@ -1,17 +1,14 @@
 ---
 description: Typ av materialyta. Anger materialets yttyp.
-seo-description: Typ av materialyta. Anger materialets yttyp.
-seo-title: type
 solution: Experience Manager
 title: type
-uuid: 0f107d50-b363-4670-bb02-873677e7bbea
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 11%
+source-wordcount: '164'
+ht-degree: 12%
 
 ---
 
@@ -28,7 +25,7 @@ Typ av materialyta. Anger materialets yttyp.
   <td class="stentry"> <p>Okänd, servern använder standard </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p></td> 
+  <td class="stentry"> <p>1 </p></td> 
   <td class="stentry"> <p>Övriga </p> </td> 
  </tr> 
  <tr class="strow"> 
