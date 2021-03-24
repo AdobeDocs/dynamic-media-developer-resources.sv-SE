@@ -1,16 +1,13 @@
 ---
 description: Standardbakgrundsfärg för miniatyrbilder. RGB-värdet används för att fylla i ett område i en miniatyrbild som inte innehåller verkliga bilddata.
-seo-description: Standardbakgrundsfärg för miniatyrbilder. RGB-värdet används för att fylla i ett område i en miniatyrbild som inte innehåller verkliga bilddata.
-seo-title: ThumbBkgColor
 solution: Experience Manager
 title: ThumbBkgColor
-uuid: c75c01f4-036e-46fd-9bc1-480920c0c05a
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
