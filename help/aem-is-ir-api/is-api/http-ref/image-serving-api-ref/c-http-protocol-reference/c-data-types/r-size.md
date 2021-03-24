@@ -1,16 +1,13 @@
 ---
 description: Pixelstorlek. Används för att ange bildstorlekar eller rektangelstorlekar i pixlar.
-seo-description: Pixelstorlek. Används för att ange bildstorlekar eller rektangelstorlekar i pixlar.
-seo-title: size
 solution: Experience Manager
 title: size
-uuid: 765700ae-aeb2-435c-89ab-61d7007a1b8a
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '62'
 ht-degree: 0%
 
 ---
