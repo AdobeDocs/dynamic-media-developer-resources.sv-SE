@@ -1,17 +1,14 @@
 ---
 description: Konfigurationsattribut för Interactive Video Viewer.
-seo-description: Konfigurationsattribut för Interactive Video Viewer.
-seo-title: CallToAction.align
 solution: Experience Manager
 title: CallToAction.align
-uuid: 87852fcc-026f-4a1d-b4a4-3ce532872b85
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 0%
+source-wordcount: '95'
+ht-degree: 1%
 
 ---
 
