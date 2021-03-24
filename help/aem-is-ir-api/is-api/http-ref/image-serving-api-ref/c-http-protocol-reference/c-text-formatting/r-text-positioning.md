@@ -1,16 +1,13 @@
 ---
 description: Med renderaren text= placeras text i grunden annorlunda än renderaren textPs= när den används på lager med redan storlek (dvs. när size= anges).
-seo-description: Med renderaren text= placeras text i grunden annorlunda än renderaren textPs= när den används på lager med redan storlek (dvs. när size= anges).
-seo-title: Textplacering
 solution: Experience Manager
 title: Textplacering
-uuid: 77289c50-2f3a-4486-8274-eecfd6e5452f
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
