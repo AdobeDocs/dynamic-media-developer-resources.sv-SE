@@ -1,16 +1,13 @@
 ---
 description: Om en begäran inte kan slutföras returnerar servern antingen en felbild eller en annan HTTP-svarsstatus än 200 tillsammans med ett felmeddelande.
-seo-description: Om en begäran inte kan slutföras returnerar servern antingen en felbild eller en annan HTTP-svarsstatus än 200 tillsammans med ett felmeddelande.
-seo-title: Fel
 solution: Experience Manager
 title: Fel
-uuid: 5984fa9e-63c8-426b-be5f-48f66fc918c3
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
