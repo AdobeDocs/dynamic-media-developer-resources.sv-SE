@@ -2,7 +2,7 @@
 title: Versionsinformation om Adobe Dynamic Media Classic
 description: '"Versionsinformation om Adobe Dynamic Media Classic, en del av Adobe Experience Manager-lösningen i Adobe Experience Cloud."'
 author: Rick Brough
-cloud: experience-cloud
+cloud: Experience Cloud
 product: Dynamic Media Classic
 archtype: end-user
 feature-set: Experience Manager Assets
@@ -10,7 +10,7 @@ feature: Dynamic Media Classic
 role: Utvecklare,Affärsledare
 user-guide-description: Den senaste versionsinformationen för Adobe Dynamic Media Classic, som ingår i Adobe Experience Manager-lösningen i Adobe Experience Cloud.
 translation-type: tm+mt
-source-git-commit: 0f6386196be7cf0ad45371d6017e2e71b9048b14
+source-git-commit: 04e99bef471c5839ff6d28b1ae42f5ffed73c029
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%
