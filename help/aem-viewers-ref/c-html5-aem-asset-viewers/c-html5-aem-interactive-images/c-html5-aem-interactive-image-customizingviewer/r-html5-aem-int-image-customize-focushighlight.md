@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Fokusmarkering
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva bilder
 role: Utvecklare,Affärsledare
+exl-id: 89f34a96-2b21-4169-8c25-4b53005e59b8
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 0%
 
 ---
-
 
 # Fokusmarkering{#focus-highlight}
 
@@ -49,4 +49,3 @@ Exempel - Om du vill inaktivera standardmarkeringen för webbläsarfokus för al
  outline: none; 
 }
 ```
-
