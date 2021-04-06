@@ -4,9 +4,9 @@ user-guide-title: Referenshandbok för Dynamic Media Viewer
 feature-set: Experience Manager Assets
 user-guide-description: Anpassa Dynamic Media-visningsprogram för datorer och pekskärmar. Inkludera interaktiva bilder och videor, karuseller, snurr med mera.
 translation-type: tm+mt
-source-git-commit: 04e99bef471c5839ff6d28b1ae42f5ffed73c029
+source-git-commit: 8207cba7e75c6bff878ef7f11f74b19bb88f1d61
 workflow-type: tm+mt
-source-wordcount: '1913'
+source-wordcount: '1916'
 ht-degree: 1%
 
 ---
@@ -19,21 +19,22 @@ ht-degree: 1%
 + [Systemkrav](c-system-requirements-and-prerequisites.md)
 + [Installera flera visningsprogram på samma server](t-installing-the-viewers.md)
 + Versionsinformation för visningsprogram {#viewers-release-notes}
+   + [Versionsinformation för visningsprogram (5.16.1)](c-release-notes/c-rn-04-06-21.md)
    + [Versionsinformation för visningsprogram (5.15.3)](c-release-notes/c-rn-01-13-21.md)
    + Arkivera {#archive}
       + [Arkiv med veringsanteckningar](c-release-notes/c-archive/c-archive.md)
-      + [Versionsinformation för visningsprogram (5.14.1)](c-release-notes/c-archive/c-rn-06-03-20.md)
-      + [Versionsinformation för visningsprogram (5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
-      + [Versionsinformation för visningsprogram (5.12.1)](c-release-notes/c-archive/c-rn-04-01-19.md)
-      + [Versionsinformation för visningsprogram (5.10.1)](c-release-notes/c-archive/c-rn-07-17-18.md)
-      + [Versionsinformation om visningsprogram 5.8.2](c-release-notes/c-archive/c-rn-09-18-17.md)
-      + [Versionsinformation om visningsprogram 5.5.2](c-release-notes/c-archive/c-rn-10-13-16.md)
-      + [Versionsinformation om visningsprogram 5.4.2](c-release-notes/c-archive/c-rn-05-03-16.md)
-      + [Versionsinformation om visningsprogram 5.2.3](c-release-notes/c-archive/c-rn-05-20-15.md)
-      + [Versionsinformation om visningsprogram 5.2.2](c-release-notes/c-archive/c-rn-04-30-15.md)
-      + [Versionsinformation om visningsprogram 5.1.1](c-release-notes/c-archive/c-rn-09-19-14.md)
-      + [Versionsinformation om visningsprogram 5.0.1](c-release-notes/c-archive/c-rn-04-29-14.md)
-      + [Versionsinformation för visningsprogram 4.9.2](c-release-notes/c-archive/c-rn-09-18-13.md)
+         + [Versionsinformation för visningsprogram (5.14.1)](c-release-notes/c-archive/c-rn-06-03-20.md)
+         + [Versionsinformation för visningsprogram (5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
+         + [Versionsinformation för visningsprogram (5.12.1)](c-release-notes/c-archive/c-rn-04-01-19.md)
+         + [Versionsinformation för visningsprogram (5.10.1)](c-release-notes/c-archive/c-rn-07-17-18.md)
+         + [Versionsinformation för visningsprogram (5.8.2)](c-release-notes/c-archive/c-rn-09-18-17.md)
+         + [Versionsinformation för visningsprogram (5.5.2)](c-release-notes/c-archive/c-rn-10-13-16.md)
+         + [Versionsinformation för visningsprogram (5.4.2)](c-release-notes/c-archive/c-rn-05-03-16.md)
+         + [Versionsinformation för visningsprogram (5.2.3)](c-release-notes/c-archive/c-rn-05-20-15.md)
+         + [Versionsinformation för visningsprogram (5.2.2)](c-release-notes/c-archive/c-rn-04-30-15.md)
+         + [Versionsinformation för visningsprogram (5.1.1)](c-release-notes/c-archive/c-rn-09-19-14.md)
+         + [Versionsinformation för visningsprogram (5.0.1)](c-release-notes/c-archive/c-rn-04-29-14.md)
+         + [Versionsinformation för visningsprogram (4.9.2)](c-release-notes/c-archive/c-rn-09-18-13.md)
 + [Kompatibilitetsanteckningar](c-compatibility-notes.md)
 + [Tangentbordstillgänglighet och -navigering](c-keyboard-accessibility.md)
 + [Självstudiekurs om SDK för visningsprogram](c-tutorial.md)
