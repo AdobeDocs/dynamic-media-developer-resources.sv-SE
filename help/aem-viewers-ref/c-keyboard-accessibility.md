@@ -5,13 +5,12 @@ title: Tangentbordstillgänglighet och -navigering
 feature: Dynamic Media Classic,visningsprogram,SDK/API
 role: Utvecklare,Affärsledare
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: 8207cba7e75c6bff878ef7f11f74b19bb88f1d61
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
-
 
 # Tangentbordstillgänglighet och -navigering{#keyboard-accessibility-and-navigation}
 
@@ -25,9 +24,9 @@ Alla funktioner som visas i vyerna Basic Zoom, eCatalog, eCatalog Search, Flyout
 
 En slutanvändare kan navigera mellan element i användargränssnittet i visningsprogrammet med hjälp av **[!UICONTROL Tab]** och **[!UICONTROL Shift+Tab]**-tangenttryckningar. Om du använder **[!UICONTROL Tab]** flyttas indatafokus till nästa element i användargränssnittet i tabbordningen; om du använder **[!UICONTROL Shift+Tab]** får indatafokus tillbaka till det föregående elementet i användargränssnittet. Fokusförflyttningen följer det naturliga elementet i användargränssnittet på skärmen och flyttas från vänster till höger och sedan uppifrån och ned.
 
-Beroende på inställningarna för operativsystem och webbläsare kan det element i användargränssnittet som har indatafokus få en visuell fokusindikation. Den visuella indikatorn kan till exempel vara en tunn kantlinje som återges runt elementet i användargränssnittet.
+Beroende på inställningarna för operativsystem och webbläsare får det element i användargränssnittet som har indatafokus en visuell fokusindikation. Den visuella indikatorn kan till exempel vara en tunn kantlinje som återges runt elementet i användargränssnittet.
 
-Det går att inaktivera eller anpassa den här typen av fokusmarkering i visningsprogrammets CSS. I innehållsförteckningen i det här hjälpsystemet, under ett specifikt visningsprogramnamn (till exempel Grundläggande zoom eller Interaktiv video), klickar du på **Anpassa *namn på visningsprogrammet*** >** Fokusmarkering **.
+Det går att inaktivera eller anpassa den här typen av fokusmarkering i visningsprogrammets CSS. I innehållsförteckningen i det här hjälpsystemet, under ett specifikt visningsprogramnamn (t.ex. Grundläggande zoom eller Interaktiv video), klickar du på **Anpassa *namnet på visningsprogrammet*** >** Fokusmarkering **.
 
 De tangenttryckningar som stöds av de enskilda elementen i visningsprogrammets användargränssnitt är i de flesta fall uppenbara och enkla att upptäcka.
 
@@ -56,7 +55,7 @@ De tangenttryckningar som stöds av de enskilda elementen i visningsprogrammets 
    <td colname="col2"> <p>Uppåt-, nedåt-, vänster- eller högerpilstangenten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Snurra en bild med 360 grader </p> </td> 
+   <td colname="col1"> <p>Snurra en bild i 360 grader </p> </td> 
    <td colname="col2"> <p>Använd piltangenterna när bilden är i ett återställningsläge. </p> <p>Använd upp- eller nedpiltangenten när du arbetar med flerdimensionella snurruppsättningar. </p> </td> 
   </tr> 
   <tr> 
@@ -133,4 +132,3 @@ De tangenttryckningar som stöds av de enskilda elementen i visningsprogrammets 
   </tr> 
  </tbody> 
 </table>
-
