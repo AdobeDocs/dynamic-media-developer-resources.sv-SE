@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Nya tillägg och ändringar
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Administratör
+exl-id: f07562a8-71e9-4d98-9d0c-5bb32a7e0ef1
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '1227'
 ht-degree: 0%
 
 ---
-
 
 # Nya tillägg och ändringar{#new-additions-and-changes}
 
@@ -236,7 +236,7 @@ Nya tillgångstyper har lagts till för hantering av IPS:
  </tbody> 
 </table>
 
-Ytterligare alternativ har lagts till i `UploadDirectoryJob` och `UploadUrlsJob` för att styra bearbetningen av PostScript-, Illustrator- och PDF-filer oberoende av varandra. Alla befintliga jobb kommer att tillhandahålla de nödvändiga parametrarna till var och en av de tre bearbetningspipelinerna så att de fungerar exakt som de gör idag. Det ursprungliga `PostScriptOptions`-blocket används för att ställa in bearbetningen för Illustrator- och EPS/PS-filer. Alternativt kan du ange speciella filalternativblock för bearbetning. Listan över ändringar innehåller:
+Ytterligare alternativ har lagts till i `UploadDirectoryJob` och `UploadUrlsJob` för att styra bearbetningen av PostScript-, Illustrator- och PDF-filer oberoende av varandra. Alla befintliga jobb kommer att tillhandahålla de nödvändiga parametrarna till var och en av de tre bearbetningspipelinerna så att de fungerar exakt som de gör idag. Det ursprungliga `PostScriptOptions`-blocket används för att ange bearbetningen för Illustrator- och EPS/PS-filer. Alternativt kan du ange speciella filalternativblock för bearbetning. Listan över ändringar innehåller:
 
 <table id="table_D4E5ACCB2D144D05A5FA0129AA5F9344"> 
  <thead> 
@@ -363,4 +363,3 @@ Konfigurationsegenskapen `webservice.gzip.response` har ändrats så att något 
   </tr> 
  </tbody> 
 </table>
-
