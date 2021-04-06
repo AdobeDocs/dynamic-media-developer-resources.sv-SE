@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Social andel
 feature: Dynamic Media Classic,visningsprogram,SDK/API,360 VR-video
 role: Utvecklare,Affärsledare
+exl-id: 4bc951ae-2b9a-4cbe-9288-170c576b3b7b
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
 
 ---
-
 
 # Social resurs{#social-share}
 
@@ -127,4 +127,3 @@ Utseendet på panelen som innehåller de enskilda ikonerna för social delning s
  background-color: transparent; 
 }
 ```
-
