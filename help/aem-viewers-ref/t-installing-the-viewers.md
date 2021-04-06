@@ -4,18 +4,18 @@ description: Instruktioner för installation av Dynamic Media Viewer API.
 solution: Experience Manager
 feature: Dynamic Media Classic,visningsprogram,SDK/API
 role: Utvecklare,Affärsledare
+exl-id: 7a8d7205-d3bf-4ca8-b80a-9072436a3df5
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: 8207cba7e75c6bff878ef7f11f74b19bb88f1d61
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '170'
 ht-degree: 1%
 
 ---
 
-
 # Installera flera visningsprogram på samma server{#installing-multiple-viewers-on-the-same-server}
 
-<!-- Updated January 13, 2021 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
+<!-- Updated April 06, 2021 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
 Instruktioner för installation av API:t för visningsprogram i Dynamic Media.
 
@@ -27,7 +27,7 @@ Kopiera IS Viewer-filerna till hårddisken och distribuera sedan `s7viewers.war`
 >
 >Det finns ingen uppgradering för visningsprogrammen för Image Serving. Adobe rekommenderar att du säkerhetskopierar alla befintliga Dynamic Media-visningsprogram (s7viewers) innan du fortsätter med installationen.
 
-**Installera flera visningsprogram på samma server**
+**Så här installerar du flera visningsprogram på samma server:**
 
 1. Byt namn på visningsprogrammet .war till önskad kontext och distribuera filen till önskad plats.
 1. Ange parametern `this.isViewerRoot` i `config.js`.
