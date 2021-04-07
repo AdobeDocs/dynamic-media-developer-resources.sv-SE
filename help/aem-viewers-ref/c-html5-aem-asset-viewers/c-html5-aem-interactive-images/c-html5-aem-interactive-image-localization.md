@@ -3,14 +3,14 @@ description: Viss information som visas i Interactive Image Viewer kan lokaliser
 title: Lokalisering av användargränssnittselement
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva bilder
 role: Utvecklare,Affärsledare
+exl-id: 19749c74-5c31-4dcf-ab07-0e7f10176a86
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 0%
 
 ---
-
 
 # Lokalisering av element i användargränssnittet{#localization-of-user-interface-elements}
 
@@ -64,4 +64,3 @@ Följande SYMBOL stöds:
   </tr> 
  </tbody> 
 </table>
-
