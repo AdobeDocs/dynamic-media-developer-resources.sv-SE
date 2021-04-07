@@ -7,7 +7,7 @@ feature: Dynamic Media Classic,visningsprogram,SDK/API
 role: Utvecklare,Affärsledare
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
 translation-type: tm+mt
-source-git-commit: 62234233bb1a5bcbd0eac5d281b42ed785c0c169
+source-git-commit: dc1bbbcd109ecbeae1f3a04e7ca5371581f0f743
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 0%
@@ -73,23 +73,24 @@ Systemkrav för Dynamic Media HTML5-visningsprogram.
 
 >[!NOTE]
 >
->Från och med 30 september 2018 upphör stödet för TLS 1.0 (Transport Layer Security 1.0) i Adobe Dynamic Media Classic Viewer. Därför stöder inte Dynamic Media Classic längre visningsprogram i följande webbläsare/på följande plattformar som stöder TLS 1.0. (Adobe rekommenderar att du använder TLS 1.2 eller senare.)
+>Från och med 30 september 2018 upphör stödet för TLS 1.0 (Transport Layer Security 1.0) i Adobe Dynamic Media Classic Viewer. Därför stöder inte Dynamic Media Classic längre visningsprogram i följande webbläsare/på följande plattformar som stöder TLS 1.0 (Adobe rekommenderar att du använder TLS 1.2 eller senare):
+>
+> * Android™ 2.3.7
+> * Android™ 4.0.4
+> * Android™ 4.1.1
+> * Android™ 4.2.2
+> * Android™ 4.3
+> * Internet Explorer 7 i Windows Vista®
+> * Internet Explorer 8 i Windows® XP
+> * Internet Explorer 8-10 i Windows® 7
+> * Internet Explorer 10 på Windows® Phone 8.0
+> * Safari 5.1.9 i Apple OS X 10.6.8
+> * Safari 6.0.4 i Apple OS X 10.8.4
+> * Java™ 6u45
+> * Java™ 7u25
+> * OpenSSL 0.9.8y
+> * Baidu, januari 2015
 
-* Android™ 2.3.7
-* Android™ 4.0.4
-* Android™ 4.1.1
-* Android™ 4.2.2
-* Android™ 4.3
-* Internet Explorer 7 i Windows Vista®
-* Internet Explorer 8 i Windows® XP
-* Internet Explorer 8-10 i Windows® 7
-* Internet Explorer 10 på Windows® Phone 8.0
-* Safari 5.1.9 i Apple OS X 10.6.8
-* Safari 6.0.4 i Apple OS X 10.8.4
-* Java™ 6u45
-* Java™ 7u25
-* OpenSSL 0.9.8y
-* Baidu, januari 2015
 
 >[!NOTE]
 >
