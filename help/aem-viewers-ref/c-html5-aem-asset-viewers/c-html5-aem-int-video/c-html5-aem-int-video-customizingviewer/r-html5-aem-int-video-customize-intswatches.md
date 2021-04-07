@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Interaktiva färgrutor
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
 role: Utvecklare,Affärsledare
+exl-id: c9ef02eb-f5db-474b-b234-c49508e2af35
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 0%
 
 ---
-
 
 # Interaktiva färgrutor{#interactive-swatches}
 
@@ -335,4 +335,3 @@ Om du vill ställa in en rullningsknapp som är 60 x 36 pixlar har du olika teck
 .s7interactivevideoviewer .s7interactiveswatches .s7scrollupbutton[state='down'] { background-position: -60px -648px; } 
 .s7interactivevideoviewer .s7interactiveswatches .s7scrollupbutton[state='disabled'] { background-position: -0px -648px; }
 ```
-
