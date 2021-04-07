@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Stöd för Adobe Analytics tracking
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
 role: Utvecklare,Affärsledare,datatekniker,dataarkitekt
+exl-id: 74a69d01-fa58-4d36-8598-992baf6ae11d
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 0%
 
 ---
-
 
 # Stöd för Adobe Analytics tracking{#support-for-adobe-analytics-tracking}
 
@@ -84,4 +84,3 @@ Visningsprogrammet spårar följande SDK-användarhändelser:
   </tr> 
  </tbody> 
 </table>
-
