@@ -4,14 +4,14 @@ solution: Experience Manager
 title: setParam
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva bilder
 role: Utvecklare,Affärsledare
+exl-id: ef307acb-2ff0-46df-a06b-8dbac2e412f9
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 0%
 
 ---
-
 
 # setParam{#setparam}
 
@@ -49,4 +49,3 @@ Ingen.
 ```
 <instance>.setParam("style", "etc/dam/presets/css/html5_interactiveimage.css")
 ```
-
