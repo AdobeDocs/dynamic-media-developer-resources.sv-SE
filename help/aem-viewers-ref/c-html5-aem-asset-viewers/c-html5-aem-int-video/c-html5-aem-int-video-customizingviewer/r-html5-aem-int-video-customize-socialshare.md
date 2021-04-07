@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Social andel
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
 role: Utvecklare,Affärsledare
+exl-id: ad544a12-d2a4-45c9-9e76-e0bf96901725
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
 
 ---
-
 
 # Social resurs{#social-share}
 
@@ -133,4 +133,3 @@ Så här anger du att en panel ska ha genomskinlig färg:
  background-color: transparent; 
 }
 ```
-
