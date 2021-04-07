@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Video360-spelare
 feature: Dynamic Media Classic,visningsprogram,SDK/API,360 VR-video
 role: Utvecklare,Affärsledare
+exl-id: 54ccf872-2d24-4d3f-9808-6d0e2558f5a5
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 0%
 
 ---
-
 
 # Video360-spelare{#video-player}
 
@@ -102,4 +102,3 @@ Exempel - för att ställa in en buffringsanimering som 101 pixlar bred och 29 p
  background-image: url(images/sdk/busyicon.gif); 
 }
 ```
-
