@@ -4,14 +4,14 @@ solution: Experience Manager
 title: VideoScrubber.showchaptertime
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
 role: Utvecklare,Affärsledare
+exl-id: a030aa84-182a-48b6-9616-dc07e48dd05e
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '43'
 ht-degree: 4%
 
 ---
-
 
 # VideoScrubber.showchaptertime{#videoscrubber-showchaptertime}
 
@@ -41,4 +41,3 @@ Valfritt.
 ```
 showchaptertime=0
 ```
-
