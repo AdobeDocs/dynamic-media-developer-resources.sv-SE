@@ -4,14 +4,14 @@ solution: Experience Manager
 title: resMode
 feature: Dynamic Media Classic,SDK/API
 role: Utvecklare,Affärsledare
+exl-id: 63c1c028-0378-4a38-8018-e358491786d8
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b08d1f5b0aa512be4a6e6a4d45d8d4dec15ca1db
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
-
 
 # resMode{#resmode}
 
@@ -23,7 +23,7 @@ Omsamplingsläge. Väljer den omsamplings- och/eller interpoleringsalgoritm som 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bilin  </span> </p> </td> 
-   <td colname="col2"> <p>Väljer bilinjär standardinterpolation. Snabbaste omsamplingsmetod. vissa aliaseringsartefakter kan bli märkbara. </p> </td> 
+   <td colname="col2"> <p>Väljer bilinjär standardinterpolation. Snabbaste omsamplingsmetod. vissa aliaseringsartefakter är märkbara. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bikub  </span> </p> </td> 
@@ -31,7 +31,7 @@ Omsamplingsläge. Väljer den omsamplings- och/eller interpoleringsalgoritm som 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> skarp2  </span> </p> </td> 
-   <td colname="col2"> <p>Väljer en modifierad Lanczos Window-funktion som en interpoleringsalgoritm. Kan ge något tydligare resultat än bikubisk till en högre CPU-kostnad. <span class="codeph"> sharp  </span> har ersatts med  <span class="codeph"> sharp2  </span>som har en mindre sannolikhet att orsaka aliasing-artefakter (Moiré). </p> </td> 
+   <td colname="col2"> <p>Väljer en modifierad Lanczos Window-funktion som en interpoleringsalgoritm. Kan ge något tydligare resultat än bikubisk till en högre processorkostnad. <span class="codeph"> sharp  </span> har ersatts med  <span class="codeph"> sharp2  </span>som har en mindre sannolikhet att orsaka aliasing-artefakter (Moiré). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bisharp  </span> </p> </td> 
@@ -39,6 +39,12 @@ Omsamplingsläge. Väljer den omsamplings- och/eller interpoleringsalgoritm som 
   </tr> 
  </tbody> 
 </table>
+
+>[!IMPORTANT]
+>
+>Om du vill behålla bildens proportioner när du använder både `resMode=bisharp` och `fit=stretch` är det bäst att använda antingen parametern width eller parametern height. Om båda parametrarna måste definieras kan du kapsla in dem i ett annat lager, vilket visas i följande exempel:
+>
+>`/is/image/is/image/companyname?layer=0&src=is(companyname/imagename?wid=30&hei=30&fit=stretch)&resmode=bisharp`
 
 ## Egenskaper {#section-a171bacf4ddf43c782e46b86a16d443e}
 
@@ -50,7 +56,7 @@ Begär attribut. Gäller alla skalningsåtgärder som ingår i skapandet av den 
 
 ## Exempel {#section-ee8c3e5a2e3845fe81de5073a8ab7efe}
 
-Hämta en rendering av ett lager med bästa kvalitet som lagras i en bildkatalog. Bilden kan innehålla text. Vi räknar med att kunna fortsätta bearbeta bilden i ett bildredigeringsprogram och därför begära en alfakanal tillsammans med bilden.
+Hämta en rendering av ett lager med bästa kvalitet som lagras i en bildkatalog. Bilden kan innehålla text. Bilden bearbetas vidare i ett bildredigeringsprogram och begär därför en alfakanal tillsammans med bilden.
 
 ` http:// *`server`*/myLayeredImage?fmt=tif-alpha,,lzw&resMode=sharp2&wid=1800`
 
