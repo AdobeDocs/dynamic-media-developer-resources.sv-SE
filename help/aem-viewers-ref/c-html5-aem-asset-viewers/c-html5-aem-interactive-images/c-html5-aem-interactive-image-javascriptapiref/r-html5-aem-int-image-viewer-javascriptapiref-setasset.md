@@ -4,14 +4,14 @@ solution: Experience Manager
 title: setAsset
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva bilder
 role: Utvecklare,Affärsledare
+exl-id: e5f88bc9-a880-45eb-9554-57e185937d29
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 0%
 
 ---
-
 
 # setAsset{#setasset}
 
@@ -43,4 +43,3 @@ Referens för en bild:
 ```
 <instance>.setAsset("/content/dam/mac/aodmarketingna/shoppable-banner/shoppable-banner.jpg")
 ```
-
