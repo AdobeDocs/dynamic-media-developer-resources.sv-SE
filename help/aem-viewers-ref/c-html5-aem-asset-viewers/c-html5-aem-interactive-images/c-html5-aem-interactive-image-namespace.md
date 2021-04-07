@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Namnutrymme för visningsprogramsDK
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva bilder
 role: Utvecklare,Affärsledare
+exl-id: 8e37bb60-c875-48d6-8c86-93aba7f50f74
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 0%
 
 ---
-
 
 # SDK-namnområde för visningsprogram{#viewer-sdk-namespace}
 
@@ -37,4 +37,3 @@ Om du till exempel tänker lyssna på händelsen `StatusEvent.NOTF_VIEW_READY` o
 } 
 });
 ```
-
