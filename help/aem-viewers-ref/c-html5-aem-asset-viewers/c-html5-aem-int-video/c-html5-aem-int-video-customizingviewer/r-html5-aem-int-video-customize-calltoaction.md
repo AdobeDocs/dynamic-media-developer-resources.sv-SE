@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Uppmaning
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
 role: Utvecklare,Affärsledare
+exl-id: 43e0ffb3-d650-4b79-ab48-2f32b313b832
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '1286'
 ht-degree: 0%
 
 ---
-
 
 # Call to action{#call-to-action}
 
@@ -572,4 +572,3 @@ Inaktivera rullningsknappar genom att ange deras storlek till 0 och dölja dem:
  height: 0px; 
 }
 ```
-
