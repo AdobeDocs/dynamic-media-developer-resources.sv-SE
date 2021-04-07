@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Endast visningsprogram för AEM Assets
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
 role: Utvecklare,Affärsledare
+exl-id: f0668991-8619-4670-bc69-85a7a96893dd
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '41'
 ht-degree: 2%
 
 ---
-
 
 # Endast visningsprogram för AEM Assets{#viewers-for-aem-assets-only}
 
