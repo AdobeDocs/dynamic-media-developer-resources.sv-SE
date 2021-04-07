@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Aktiveringspunkter och bildscheman
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Utvecklare,Affärsledare
+exl-id: 70517201-9d59-4d9c-986d-a6e9655b7956
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 0%
 
 ---
-
 
 # Aktiveringspunkter och bildscheman{#hotspots-and-image-maps}
 
@@ -106,4 +106,3 @@ Exempel - ställ in ett genomskinligt bildschemaområde med en svart kant på en
  background: RGBA(0,0,0,0);  
 }
 ```
-
