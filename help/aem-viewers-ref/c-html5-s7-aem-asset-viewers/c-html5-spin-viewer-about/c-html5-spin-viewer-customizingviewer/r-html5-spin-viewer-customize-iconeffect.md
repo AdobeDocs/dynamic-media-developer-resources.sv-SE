@@ -2,8 +2,8 @@
 description: Rotationsindikatorn placeras över huvudvisningsområdet. Den visas när bilden är i ett återställningsläge och beror också på parametern iconeffect.
 solution: Experience Manager
 title: Ikoneffekt
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,snurra uppsättningar
-role: Utvecklare,Affärsledare
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

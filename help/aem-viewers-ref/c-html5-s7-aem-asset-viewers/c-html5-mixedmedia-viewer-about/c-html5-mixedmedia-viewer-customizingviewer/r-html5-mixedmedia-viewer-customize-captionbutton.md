@@ -2,8 +2,8 @@
 description: Aktiverar och inaktiverar visning av undertexter. Den är inte synlig om bildtextparametern inte har angetts. Du kan använda CSS för att ändra storlek på, skalförändra och placera den här knappen i förhållande till kontrollfältet som innehåller den.
 solution: Experience Manager
 title: Bildtext, knapp
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Mixa medieuppsättningar
-role: Utvecklare,Affärsledare
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

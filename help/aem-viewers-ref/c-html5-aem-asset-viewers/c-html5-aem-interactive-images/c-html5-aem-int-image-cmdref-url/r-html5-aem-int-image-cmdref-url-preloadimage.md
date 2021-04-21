@@ -2,8 +2,8 @@
 description: URL-kommando för Video Image Viewer.
 solution: Experience Manager
 title: preloadimage
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva bilder
-role: Utvecklare,Affärsledare
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 exl-id: 5bb61804-8c61-473f-a8a7-aa30a410e22b
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

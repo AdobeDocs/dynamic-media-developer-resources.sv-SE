@@ -3,8 +3,8 @@ description: Video Viewer är en videospelare som spelar upp strömmande och pro
 keywords: responsiv
 solution: Experience Manager
 title: Video
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Video
-role: Utvecklare,Affärsledare
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

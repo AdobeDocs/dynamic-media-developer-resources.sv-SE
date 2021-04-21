@@ -3,8 +3,8 @@ description: All visuell anpassning och de flesta beteendeanpassningar för Vide
 keywords: responsiv
 solution: Experience Manager
 title: Anpassa Video360 Viewer
-feature: Dynamic Media Classic,visningsprogram,SDK/API,360 VR-video
-role: Utvecklare,Affärsledare
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: c9dda4e8-2781-4870-9ccb-707823c56490
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

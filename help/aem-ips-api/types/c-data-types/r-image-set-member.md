@@ -2,8 +2,8 @@
 description: Resurser som tillhör en bilduppsättning.
 solution: Experience Manager
 title: ImageSetMember
-feature: Dynamic Media Classic,SDK/API,Bilduppsättningar
-role: Utvecklare,Administratör
+feature: Dynamic Media Classic,SDK/API,Image Sets
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

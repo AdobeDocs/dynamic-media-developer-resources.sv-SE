@@ -2,8 +2,8 @@
 description: Länkdelningsverktyget består av en knapp som läggs till på panelen Dela via sociala medier och den modala dialogruta som visas när verktyget aktiveras. Knappens position hanteras helt av verktyget för social delning.
 solution: Experience Manager
 title: Länkresurs
-feature: Dynamic Media Classic,visningsprogram,SDK/API,360 VR-video
-role: Utvecklare,Affärsledare
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: 9eb2ef38-9b86-4c60-90a2-6609cb3fcc39
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

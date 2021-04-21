@@ -2,8 +2,8 @@
 description: Hämta
 solution: Experience Manager
 title: Hämta
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
-role: Utvecklare,Affärsledare
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Innehållsförteckningen är en knapp som finns i huvudkontrollfältet. När den är aktiverad visas en nedrullningsbar panel med en lista över sidindex och etiketter.
 solution: Experience Manager
 title: Innehållsförteckning
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
-role: Utvecklare,Affärsledare
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

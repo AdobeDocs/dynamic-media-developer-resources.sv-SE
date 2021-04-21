@@ -2,8 +2,8 @@
 description: Uppsättningsindikatorn är en serie punkter som återges ovanpå huvudfärgrutorna när ett visningsprogram används på en pekenhet. Med punkter kan användarna navigera genom miniatyrsidor när rullningsknappar inte är tillgängliga.
 solution: Experience Manager
 title: Ange indikator
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Mixa medieuppsättningar
-role: Utvecklare,Affärsledare
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

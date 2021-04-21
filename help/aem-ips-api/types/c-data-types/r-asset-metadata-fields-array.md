@@ -2,8 +2,8 @@
 description: En array med AssetMetadataFields. Används av getAssetMetadataFields för att returnera alla metadatafält för resurser i ett enda anrop med resultat grupperade efter resurstyp.
 solution: Experience Manager
 title: AssetMetadataFieldsArray
-feature: Dynamic Media Classic,SDK/API,Metadata,Resurshantering
-role: Utvecklare,Administratör
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

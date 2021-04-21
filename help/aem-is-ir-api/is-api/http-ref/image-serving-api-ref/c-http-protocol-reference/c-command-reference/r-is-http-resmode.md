@@ -3,7 +3,7 @@ description: Omsamplingsläge. Väljer den omsamplings- och/eller interpolerings
 solution: Experience Manager
 title: resMode
 feature: Dynamic Media Classic,SDK/API
-role: Utvecklare,Affärsledare
+role: Developer,Business Practitioner
 exl-id: 63c1c028-0378-4a38-8018-e358491786d8
 translation-type: tm+mt
 source-git-commit: b08d1f5b0aa512be4a6e6a4d45d8d4dec15ca1db

@@ -3,7 +3,7 @@ description: Attributen som beskrivs i det här avsnittet känns igen i kataloga
 solution: Experience Manager
 title: Katalogattribut
 feature: Dynamic Media Classic,SDK/API
-role: Utvecklare,Affärsledare
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

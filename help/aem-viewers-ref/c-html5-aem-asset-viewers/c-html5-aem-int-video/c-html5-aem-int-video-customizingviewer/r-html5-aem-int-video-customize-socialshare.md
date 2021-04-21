@@ -2,8 +2,8 @@
 description: Verktyget för delning via sociala medier visas som standard i det övre högra hörnet. Den består av en knapp och en panel som utökas när användaren klickar eller trycker på en knapp och innehåller enskilda delningsverktyg.
 solution: Experience Manager
 title: Social andel
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
-role: Utvecklare,Affärsledare
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: ad544a12-d2a4-45c9-9e76-e0bf96901725
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

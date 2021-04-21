@@ -2,8 +2,8 @@
 description: Parametern är gemensam för alla visningsprogram.
 solution: Experience Manager
 title: bildtext
-feature: Dynamic Media Classic,visningsprogram,SDK/API
-role: Utvecklare,Affärsledare
+feature: Dynamic Media Classic,Viewers,SDK/API
+role: Developer,Business Practitioner
 exl-id: 06ce5520-944b-4ab0-8f59-67c273bd8314
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

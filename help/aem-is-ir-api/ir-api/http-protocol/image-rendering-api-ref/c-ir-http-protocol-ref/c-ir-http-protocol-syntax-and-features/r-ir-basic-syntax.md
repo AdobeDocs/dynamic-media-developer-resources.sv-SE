@@ -3,7 +3,7 @@ description: I det här avsnittet beskrivs den grundläggande syntaxen för HTTP
 solution: Experience Manager
 title: Grundläggande syntax för HTTP-protokoll för bildåtergivning
 feature: Dynamic Media Classic,SDK/API
-role: Utvecklare,Affärsledare
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

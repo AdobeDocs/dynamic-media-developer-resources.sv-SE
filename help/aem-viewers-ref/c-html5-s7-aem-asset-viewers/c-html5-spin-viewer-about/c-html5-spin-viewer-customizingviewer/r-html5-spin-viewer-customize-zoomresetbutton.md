@@ -2,8 +2,8 @@
 description: Om du klickar eller trycker på den här knappen återställs en bild i huvudvyn. Du kan ändra storlek, skal och position för knappen med hjälp av CSS.
 solution: Experience Manager
 title: Knappen Zoomåterställning
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,snurra uppsättningar
-role: Utvecklare,Affärsledare
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

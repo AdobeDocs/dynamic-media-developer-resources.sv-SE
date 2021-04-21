@@ -2,8 +2,8 @@
 description: Med den här knappen växlar du visning av undertexter. Den är inte synlig om bildtextparametern inte har angetts.
 solution: Experience Manager
 title: Bildtext, knapp
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
-role: Utvecklare,Affärsledare
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 322062a5-1741-45ce-96d7-8710a8246cd6
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

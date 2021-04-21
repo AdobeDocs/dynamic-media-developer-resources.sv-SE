@@ -3,7 +3,7 @@ description: Om du klickar eller trycker på den här knappen återgår använda
 solution: Experience Manager
 title: Föregående bild
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
-role: Utvecklare,Affärsledare
+role: Developer,Business Practitioner
 exl-id: f780e62e-7238-4cc6-b382-3a21043e1079
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

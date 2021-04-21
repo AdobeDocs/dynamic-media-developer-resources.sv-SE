@@ -3,7 +3,7 @@ description: Stöd för Adobe Analytics tracking
 solution: Experience Manager
 title: Stöd för Adobe Analytics tracking
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
-role: Utvecklare,Affärsledare,datatekniker,dataarkitekt
+role: Developer,Business Practitioner,Data Engineer,Data Architect
 exl-id: 9e321684-4861-4d81-b55c-66c77635930e
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

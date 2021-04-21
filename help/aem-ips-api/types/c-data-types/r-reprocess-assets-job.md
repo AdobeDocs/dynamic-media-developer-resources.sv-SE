@@ -2,8 +2,8 @@
 description: Jobbtyp som tillåter ombearbetning av tidigare överförda primära filer, inklusive återgivning av PDF-filer och omoptimering av bilder.
 solution: Experience Manager
 title: ÅterbearbetaResurserJobb
-feature: Dynamic Media Classic,SDK/API,Resurshantering
-role: Utvecklare,Administratör
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

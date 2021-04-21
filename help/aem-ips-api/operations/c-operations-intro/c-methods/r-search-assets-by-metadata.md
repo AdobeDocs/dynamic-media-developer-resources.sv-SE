@@ -2,8 +2,8 @@
 description: Söker i metadataindexarkivet efter de angivna söktermerna. Returnerar resursdata som metoden searchAssets.
 solution: Experience Manager
 title: searchAssetsByMetadata
-feature: Dynamic Media Classic,SDK/API,Metadata,Resurshantering
-role: Utvecklare,Administratör
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

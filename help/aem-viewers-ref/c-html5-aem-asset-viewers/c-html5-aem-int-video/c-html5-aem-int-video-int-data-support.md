@@ -2,8 +2,8 @@
 description: Interactive Video Viewer stöder återgivning av interaktiva färgrutor baserat på interaktiva data som skickas till visningsprogrammet som en konfigurationsparameter.
 solution: Experience Manager
 title: Stöd för interaktiva data
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
-role: Utvecklare,Affärsledare
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 9118bf02-16ae-4dab-92e4-17347e866cc9
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

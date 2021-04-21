@@ -3,7 +3,7 @@ description: Ämnen i det här avsnittet beskriver syntaxen och funktionerna i H
 solution: Experience Manager
 title: Syntax och funktioner
 feature: Dynamic Media Classic,SDK/API
-role: Utvecklare,Affärsledare
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

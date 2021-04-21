@@ -2,8 +2,8 @@
 description: Visningsprogram för AEM Assets och Dynamic Media Classic
 solution: Experience Manager
 title: Visningsprogram för AEM Assets och Dynamic Media Classic
-feature: Dynamic Media Classic,visningsprogram,SDK/API
-role: Utvecklare,Affärsledare
+feature: Dynamic Media Classic,Viewers,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

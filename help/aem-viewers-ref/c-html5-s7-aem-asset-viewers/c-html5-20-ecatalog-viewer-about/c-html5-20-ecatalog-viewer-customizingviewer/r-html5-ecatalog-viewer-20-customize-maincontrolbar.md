@@ -2,8 +2,8 @@
 description: Huvudkontrollfältet är det rektangulära området på stationära datorer och surfplattor som innehåller alla gränssnittskontroller (utom knapparna Stora sidor) som är tillgängliga för visningsprogrammet för eCatalog.
 solution: Experience Manager
 title: Huvudkontrollfält
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
-role: Utvecklare,Affärsledare
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

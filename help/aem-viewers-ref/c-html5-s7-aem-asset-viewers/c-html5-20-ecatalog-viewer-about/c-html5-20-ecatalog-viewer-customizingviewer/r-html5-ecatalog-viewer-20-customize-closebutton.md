@@ -2,8 +2,8 @@
 description: Om du klickar eller trycker på den här knappen stängs webbsidan som innehåller innehållet. Den här knappen visas bara om parametern closeButton är inställd på 1. Den här knappen är inte tillgänglig på stationära datorer. Du kan ändra storlek, skal och position för knappen med hjälp av CSS.
 solution: Experience Manager
 title: Knappen Stäng
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
-role: Utvecklare,Affärsledare
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

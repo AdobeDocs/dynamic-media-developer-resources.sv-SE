@@ -2,8 +2,8 @@
 description: Bilduppsättningsdata. Innehåller en mekanism för att definiera sorterade uppsättningar bilder och kontrollattribut som används av Dynamic Media-visningsprogram.
 solution: Experience Manager
 title: ImageSet
-feature: Dynamic Media Classic,SDK/API,Bilduppsättningar
-role: Utvecklare,Affärsledare
+feature: Dynamic Media Classic,SDK/API,Image Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

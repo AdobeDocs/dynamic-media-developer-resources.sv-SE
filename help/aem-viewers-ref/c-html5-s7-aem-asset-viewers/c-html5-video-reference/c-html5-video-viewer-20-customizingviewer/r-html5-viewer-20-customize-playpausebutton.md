@@ -2,8 +2,8 @@
 description: Knappen play/pause gör att videospelaren spelar upp eller pausar videoinnehållet när en användare klickar på det.
 solution: Experience Manager
 title: Knappen Spela upp/Paus
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Video
-role: Utvecklare,Affärsledare
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

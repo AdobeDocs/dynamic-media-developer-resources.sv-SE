@@ -2,8 +2,8 @@
 description: Facebook-delningsverktyget består av en knapp som läggs till på panelen Dela via sociala medier. När användaren klickar på knappen omdirigeras användaren till en delningsdialogruta som tillhandahålls av en social tjänst. Knappens position hanteras helt av verktyget för social delning.
 solution: Experience Manager
 title: Facebook-delning
-feature: Dynamic Media Classic,visningsprogram,SDK/API,360 VR-video
-role: Utvecklare,Affärsledare
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: 343cde8b-796a-420f-abb7-268b3791a684
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

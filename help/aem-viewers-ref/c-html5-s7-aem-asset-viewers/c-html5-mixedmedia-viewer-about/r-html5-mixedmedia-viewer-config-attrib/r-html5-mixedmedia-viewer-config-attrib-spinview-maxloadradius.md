@@ -2,8 +2,8 @@
 description: Representerar det maximala antalet bildrutor som ska förhandsladdas i varje riktning när SpinView är inaktiv.
 solution: Experience Manager
 title: SpinView.maxloadradius
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Mixa medieuppsättningar
-role: Utvecklare,Affärsledare
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

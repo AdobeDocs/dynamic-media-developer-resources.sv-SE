@@ -3,7 +3,7 @@ description: Skickar ett e-postmeddelande till en angiven mottagare som svar på
 solution: Experience Manager
 title: EmailConfirmation
 feature: Dynamic Media Classic,SDK/API
-role: Utvecklare,Administratör
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

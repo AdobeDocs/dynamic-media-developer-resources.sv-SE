@@ -3,7 +3,7 @@ description: Dessa kommandon gäller oavsett var i begäran de visas.
 solution: Experience Manager
 title: Visa kommandon
 feature: Dynamic Media Classic,SDK/API
-role: Utvecklare,Affärsledare
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: I det här avsnittet finns anvisningar om hur du startar och stoppa
 solution: Experience Manager
 title: Starta och stoppa bildvisning
 feature: Dynamic Media Classic,SDK/API
-role: Utvecklare,Affärsledare
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

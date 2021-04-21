@@ -3,7 +3,7 @@ description: Används av IccProfileFieldUpdate/class.
 solution: Experience Manager
 title: Profilklasser
 feature: Dynamic Media Classic,SDK/API
-role: Utvecklare,Administratör
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

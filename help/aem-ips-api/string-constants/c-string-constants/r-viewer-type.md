@@ -2,7 +2,7 @@
 description: Används av ViewerPresetInfo.
 solution: Experience Manager
 title: Typ av visningsprogram
-feature: Dynamic Media Classic,SDK/API,visningsprogram
+feature: Dynamic Media Classic,SDK/API,Viewers
 role: Developer,Administrator
 exl-id: 35a11828-d188-4025-8133-154437ba2466
 translation-type: tm+mt

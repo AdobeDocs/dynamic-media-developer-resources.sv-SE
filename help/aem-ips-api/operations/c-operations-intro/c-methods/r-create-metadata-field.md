@@ -3,7 +3,7 @@ description: Gör att administratörer kan skapa nya metadatafält som kan koord
 solution: Experience Manager
 title: createMetadataField
 feature: Dynamic Media Classic,SDK/API,Metadata
-role: Utvecklare,Administratör
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

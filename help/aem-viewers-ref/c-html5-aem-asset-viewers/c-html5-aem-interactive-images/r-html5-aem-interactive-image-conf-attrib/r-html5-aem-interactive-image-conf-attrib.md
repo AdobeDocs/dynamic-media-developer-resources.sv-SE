@@ -2,8 +2,8 @@
 description: Konfigurationsattributdokumentation för Interactive Image Viewer.
 solution: Experience Manager
 title: Kommandoreferens - Konfigurationsattribut
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva bilder
-role: Utvecklare,Affärsledare
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 exl-id: 53c4b304-3b45-4ff0-91aa-a14f39ab1e94
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

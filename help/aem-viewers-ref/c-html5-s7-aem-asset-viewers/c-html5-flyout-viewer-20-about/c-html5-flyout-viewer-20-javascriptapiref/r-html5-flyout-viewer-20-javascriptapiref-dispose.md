@@ -2,8 +2,8 @@
 description: JavaScript API-referens för visningsprogrammet för utfällbara bilder.
 solution: Experience Manager
 title: dispose
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Flyout
-role: Utvecklare,Affärsledare
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

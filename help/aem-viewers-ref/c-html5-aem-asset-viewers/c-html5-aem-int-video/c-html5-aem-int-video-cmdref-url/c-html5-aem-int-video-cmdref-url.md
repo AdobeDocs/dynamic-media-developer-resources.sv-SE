@@ -2,8 +2,8 @@
 description: Kommandoreferensdokumentation för Interactive Video Viewer.
 solution: Experience Manager
 title: Kommandoreferens - URL
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
-role: Utvecklare,Affärsledare
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: e0a9e269-4826-4518-9222-6a833d11746b
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -3,8 +3,8 @@ description: All visuell anpassning och de flesta beteendeanpassningar för den 
 keywords: responsiv
 solution: Experience Manager
 title: Anpassa Interactive Video Viewer
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
-role: Utvecklare,Affärsledare
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: c428c3e6-81be-4708-b064-f9d794183209
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

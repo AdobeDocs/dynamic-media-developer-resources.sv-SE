@@ -3,7 +3,7 @@ description: Skapa ett"pappersprogram".
 solution: Experience Manager
 title: Exempel C
 feature: Dynamic Media Classic,SDK/API
-role: Utvecklare,Affärsledare
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

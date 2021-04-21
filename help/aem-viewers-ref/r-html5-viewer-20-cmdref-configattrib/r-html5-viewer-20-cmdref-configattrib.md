@@ -2,8 +2,8 @@
 description: Konfigurationsattribut som är gemensamma för alla visningsprogram.
 solution: Experience Manager
 title: Kommandoreferens som är gemensam för alla visningsprogram - Konfigurationsattribut
-feature: Dynamic Media Classic,visningsprogram,SDK/API
-role: Utvecklare,Affärsledare
+feature: Dynamic Media Classic,Viewers,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: En array med medlemsuppdateringar för bilduppsättningar.
 solution: Experience Manager
 title: ImageSetMemberUpdateArray
-feature: Dynamic Media Classic,SDK/API,Bilduppsättningar
-role: Utvecklare,Administratör
+feature: Dynamic Media Classic,SDK/API,Image Sets
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

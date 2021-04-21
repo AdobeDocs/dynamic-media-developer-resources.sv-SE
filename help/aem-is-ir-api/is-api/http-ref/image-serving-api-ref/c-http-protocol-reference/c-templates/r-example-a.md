@@ -3,7 +3,7 @@ description: Skapa en mall med fast storlek med en statisk bakgrundsbild, en var
 solution: Experience Manager
 title: Exempel A
 feature: Dynamic Media Classic,SDK/API
-role: Utvecklare,Affärsledare
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

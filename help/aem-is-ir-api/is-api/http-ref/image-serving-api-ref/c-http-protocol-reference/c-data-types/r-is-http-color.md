@@ -3,7 +3,7 @@ description: Färgvärden. Du kan ange färgvärden antingen hexadecimalt, med e
 solution: Experience Manager
 title: färg
 feature: Dynamic Media Classic,SDK/API
-role: Utvecklare,Affärsledare
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt

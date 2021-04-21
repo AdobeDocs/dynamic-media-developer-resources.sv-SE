@@ -2,8 +2,8 @@
 description: Kopplar visningsprogramkonfigurationsinställningar till en resurs. Dessa kan vara en visningsförinställning eller källresurs för visningsprogrammet.
 solution: Experience Manager
 title: setViewerConfigSettings
-feature: Dynamic Media Classic,SDK/API,visningsförinställningar
-role: Utvecklare,Administratör
+feature: Dynamic Media Classic,SDK/API,Viewer Presets
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

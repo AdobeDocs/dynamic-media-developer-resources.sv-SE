@@ -3,7 +3,7 @@ description: Den här versionen - Image Serving 6.6.1 and Image Rendering 6.6.1 
 solution: Experience Manager
 title: Om den här versionen
 feature: Dynamic Media Classic,SDK/API
-role: Utvecklare,Affärsledare
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

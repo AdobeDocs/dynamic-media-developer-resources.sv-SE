@@ -3,7 +3,7 @@ description: Det finns två alternativ för att starta eller stoppa Image Servin
 solution: Experience Manager
 title: Starta eller stoppa i Linux
 feature: Dynamic Media Classic,SDK/API
-role: Utvecklare,Affärsledare
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

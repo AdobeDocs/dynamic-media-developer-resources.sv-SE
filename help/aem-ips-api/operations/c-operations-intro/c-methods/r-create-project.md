@@ -3,7 +3,7 @@ description: Skapar ett nytt projekt.
 solution: Experience Manager
 title: createProject
 feature: Dynamic Media Classic,SDK/API
-role: Utvecklare,Administratör
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

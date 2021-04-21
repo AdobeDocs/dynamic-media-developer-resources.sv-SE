@@ -3,7 +3,7 @@ description: Skalförändra bilden. Skalar en lagerkällbild utifrån faktor i f
 solution: Experience Manager
 title: scale
 feature: Dynamic Media Classic,SDK/API
-role: Utvecklare,Affärsledare
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

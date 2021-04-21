@@ -3,7 +3,7 @@ description: Bildåtergivning tillämpar en storleksbegränsning på två megapi
 solution: Experience Manager
 title: Storleksbegränsning för vinjett
 feature: Dynamic Media Classic,SDK/API
-role: Utvecklare,Administratör,Affärsledare
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

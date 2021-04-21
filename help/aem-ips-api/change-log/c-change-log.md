@@ -3,7 +3,7 @@ description: Ändra logg
 solution: Experience Manager
 title: Ändra logg
 feature: Dynamic Media Classic,SDK/API
-role: Utvecklare,Administratör
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

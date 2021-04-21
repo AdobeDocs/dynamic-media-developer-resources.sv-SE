@@ -2,8 +2,8 @@
 description: Ange eller uppdatera publiceringsläget för en eller flera resurser. Du kan ange separata publiceringstillstånd för varje publiceringskontext i ett företag.
 solution: Experience Manager
 title: setAssetsContextState
-feature: Dynamic Media Classic,SDK/API,Resurshantering
-role: Utvecklare,Administratör
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

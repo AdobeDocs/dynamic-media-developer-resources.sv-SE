@@ -2,8 +2,8 @@
 description: Huvudvisningsområdet är det område som upptas av 360-videon. Den ställs vanligtvis in så att den passar den tillgängliga enhetsskärmen när ingen storlek har angetts.
 solution: Experience Manager
 title: Huvudvisningsområde
-feature: Dynamic Media Classic,visningsprogram,SDK/API,360 VR-video
-role: Utvecklare,Affärsledare
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: 912cb4b3-6409-48ed-9b9c-968b63718a1b
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

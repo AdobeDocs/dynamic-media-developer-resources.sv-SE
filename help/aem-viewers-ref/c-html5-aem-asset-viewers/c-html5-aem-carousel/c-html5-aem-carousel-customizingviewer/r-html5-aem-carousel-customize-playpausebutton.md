@@ -3,7 +3,7 @@ description: Med knappen Spela upp/Paus kan användaren pausa eller återuppta a
 solution: Experience Manager
 title: PlayPause, knapp
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
-role: Utvecklare,Affärsledare
+role: Developer,Business Practitioner
 exl-id: 1b48aa7f-d1c8-4367-94c2-689991b90942
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

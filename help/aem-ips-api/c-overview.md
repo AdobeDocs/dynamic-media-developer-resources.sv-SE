@@ -3,7 +3,7 @@ description: Med webbtjänstens API:t för IPS (Image Production System) kan ext
 solution: Experience Manager
 title: Om API för bildproduktionssystem
 feature: Dynamic Media Classic,SDK/API
-role: Utvecklare,Administratör
+role: Developer,Administrator
 exl-id: c03e415f-57eb-4706-a17c-68d8469fba91
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

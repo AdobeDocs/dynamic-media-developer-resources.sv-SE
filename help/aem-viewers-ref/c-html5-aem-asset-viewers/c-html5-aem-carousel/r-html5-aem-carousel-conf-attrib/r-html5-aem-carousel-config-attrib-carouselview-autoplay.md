@@ -3,7 +3,7 @@ description: Konfigurationsattribut för Carousel Viewer.
 solution: Experience Manager
 title: CarouselView.autoplay
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
-role: Utvecklare,Affärsledare
+role: Developer,Business Practitioner
 exl-id: 43b5c169-0ef6-4a12-a777-d36c1a8d1771
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

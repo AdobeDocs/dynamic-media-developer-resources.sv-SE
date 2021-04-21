@@ -3,7 +3,7 @@ description: Standardvarningar skickas med ett konsoliderat e-postmeddelande i s
 solution: Experience Manager
 title: Standardvarningar
 feature: Dynamic Media Classic,SDK/API
-role: Utvecklare,Administratör,Affärsledare
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

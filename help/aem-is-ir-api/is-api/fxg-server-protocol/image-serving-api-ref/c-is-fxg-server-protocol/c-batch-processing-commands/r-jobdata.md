@@ -3,7 +3,7 @@ description: Jobbdata för ett batchjobb.
 solution: Experience Manager
 title: jobbdata
 feature: Dynamic Media Classic,SDK/API
-role: Utvecklare,Affärsledare
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 7910228217db2c97dccd306ce464c69da53ee576
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Huvudklassen i visningsprogrammet för den infogade zoomningen är FlyoutViewer. Den deklareras i s7viewers namnutrymme. Detta JavaScript-API omfattar konstruktor, metoder och anrop till den här klassen.
 solution: Experience Manager
 title: JavaScript API-referens för Inline Zoom Viewer
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Textbunden zoom
-role: Utvecklare,Affärsledare
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

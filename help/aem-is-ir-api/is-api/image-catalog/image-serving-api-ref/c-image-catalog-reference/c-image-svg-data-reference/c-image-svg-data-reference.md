@@ -3,7 +3,7 @@ description: Även om bild- och SVG-data är mycket lika bevaras de i separata t
 solution: Experience Manager
 title: Image/SVG-datareferens
 feature: Dynamic Media Classic,SDK/API
-role: Utvecklare,Affärsledare
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

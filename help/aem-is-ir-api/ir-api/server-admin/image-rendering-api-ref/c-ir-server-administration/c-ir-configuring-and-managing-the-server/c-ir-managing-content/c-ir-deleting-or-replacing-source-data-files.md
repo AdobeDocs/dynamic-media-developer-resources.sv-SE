@@ -3,7 +3,7 @@ description: Vinjetteringsfiler kan ersättas eller tas bort medan servern är a
 solution: Experience Manager
 title: Ta bort eller ersätta källdatafiler
 feature: Dynamic Media Classic,SDK/API
-role: Utvecklare,Administratör,Affärsledare
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

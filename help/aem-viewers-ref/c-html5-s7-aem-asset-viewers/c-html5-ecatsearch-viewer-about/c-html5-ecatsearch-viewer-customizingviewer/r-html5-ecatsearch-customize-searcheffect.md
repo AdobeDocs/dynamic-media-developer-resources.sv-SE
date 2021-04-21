@@ -2,8 +2,8 @@
 description: Visningsprogrammet visar sökresultatområden över huvudvyn så att ord eller fraser som finns i katalogen markeras.
 solution: Experience Manager
 title: Sökeffekt
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
-role: Utvecklare,Affärsledare
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

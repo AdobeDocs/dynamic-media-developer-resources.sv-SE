@@ -3,7 +3,7 @@ description: IPS-webbtjänsten stöds av en uppsättning WSDL-dokument (Web Serv
 solution: Experience Manager
 title: WSDL-versioner för IPS-webbtjänst
 feature: Dynamic Media Classic,SDK/API
-role: Utvecklare,Administratör
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

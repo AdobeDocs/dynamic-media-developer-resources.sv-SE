@@ -3,8 +3,8 @@ description: Inline Zoom Viewer är ett bildvisningsprogram. Den visar en statis
 keywords: responsiv
 solution: Experience Manager
 title: Textbunden zoom
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Textbunden zoom
-role: Utvecklare,Affärsledare
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

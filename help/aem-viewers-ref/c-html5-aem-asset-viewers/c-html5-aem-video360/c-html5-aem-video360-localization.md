@@ -2,8 +2,8 @@
 description: Viss innehåll som visas av visningsprogrammet kan lokaliseras. Detta inkluderar funktionsbeskrivningar för användargränssnittselement och ett felmeddelande som visas när videon inte kan spelas upp.
 solution: Experience Manager
 title: Lokalisering av användargränssnittselement
-feature: Dynamic Media Classic,visningsprogram,SDK/API,360 VR-video
-role: Utvecklare,Affärsledare
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: d54fd841-2246-4d2e-8bf9-7da56f2487f3
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

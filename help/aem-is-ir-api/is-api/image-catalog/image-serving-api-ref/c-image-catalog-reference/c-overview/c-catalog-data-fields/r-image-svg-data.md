@@ -3,7 +3,7 @@ description: Följande fält känns igen i bild- och SVG-datafiler.
 solution: Experience Manager
 title: Image_SVG-data
 feature: Dynamic Media Classic,SDK/API
-role: Utvecklare,Affärsledare
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: I den här dokumentationen beskrivs serveradministrationsproblem oc
 solution: Experience Manager
 title: Prefix för serveradministration
 feature: Dynamic Media Classic,SDK/API
-role: Utvecklare,Administratör,Affärsledare
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

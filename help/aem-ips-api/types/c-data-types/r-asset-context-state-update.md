@@ -2,8 +2,8 @@
 description: Ange en ny uppsättning flaggor för publiceringsläge för den publiceringskontext som är kopplad till en resurs.
 solution: Experience Manager
 title: AssetContextStateUpdate
-feature: Dynamic Media Classic,SDK/API,Resurshantering
-role: Utvecklare,Administratör
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

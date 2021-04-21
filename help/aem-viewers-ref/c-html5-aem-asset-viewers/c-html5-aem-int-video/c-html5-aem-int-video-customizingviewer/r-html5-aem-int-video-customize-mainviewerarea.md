@@ -2,8 +2,8 @@
 description: Huvudvisningsområdet är det område som upptas av de interaktiva färgrutorna. Den ställs vanligtvis in så att den passar den tillgängliga enhetsskärmen när ingen storlek har angetts.
 solution: Experience Manager
 title: Huvudvisningsområde
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
-role: Utvecklare,Affärsledare
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 8e5a44fa-422f-46f3-bd85-86bd2ce03899
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

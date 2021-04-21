@@ -2,8 +2,8 @@
 description: Hämtar jobbloggarna för en resurs. Objekt som returneras i arrayen innehåller detaljerad information om varje post i jobbloggen för den resursen. Svarsfältet logMessage är lokaliserat baserat på authHeader-fältet.
 solution: Experience Manager
 title: getAssetJobLogs
-feature: Dynamic Media Classic,SDK/API,Resurshantering
-role: Utvecklare,Administratör
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: Image Serving kan installeras i 64-bitars Windows.
 solution: Experience Manager
 title: Installera i Windows
 feature: Dynamic Media Classic,SDK/API
-role: Utvecklare,Affärsledare
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

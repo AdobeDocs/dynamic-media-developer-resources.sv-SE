@@ -3,7 +3,7 @@ description: Image Server skriver poster i den här loggfilen för att registrer
 solution: Experience Manager
 title: Image Server-logg
 feature: Dynamic Media Classic,SDK/API
-role: Utvecklare,Administratör,Affärsledare
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
