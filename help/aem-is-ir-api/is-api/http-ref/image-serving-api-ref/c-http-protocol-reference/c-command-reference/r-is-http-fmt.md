@@ -4,14 +4,13 @@ solution: Experience Manager
 title: fmt
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
+source-git-commit: bb306f1063a91eeeb6b90e64aeb2d3143697ca34
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
-
 
 # fmt{#fmt}
 
@@ -19,53 +18,54 @@ Svarsbildformat.
 
 `fmt=format[,` `[`*`pixelType`*`]`,`[`*`compression`*`]]`
 
-*`format`* — jpeg | jpg | pjpeg | png | png8 | png-alpha | png8-alpha | tif | tif-alpha | swf | swf-alpha | swf3 | swf3-alpha | eps | gif | gif-alpha | m3u8 | f4m | webb | webp-alpha | jpeg2000 | jpeg2000-alpha | jpegxr | jpegxr-alpha
+*`format`* - avif-alpha | avif | eps | f4m | gif-alpha | gif | jpeg | jpeg2000-alpha | jpeg2000 | jpegxr-alpha | jpegxr | jpg | m3u8 | pdf | pjpeg | png-alpha | png | png8-alpha | png8 | swf-alpha | swf | swf3-alpha | swf3 | tif-alpha | tif | web-alpha | webp
 
 | *`format`* | Beskrivning |
-|---|---| 
-| `jpeg` | Förstörande JPEG |
-| `jpg` | Förstörande JPG |
-| `pjpeg` | Progressiv JPEG |
-| `png` | 24-bitars förlustfri PNG |
-| `png8` | 8-bitars förlustfri PNG |
-| `png-alpha` | 24-bitars förlustfri PNG med alfakanal |
-| `png8-alpha` | 8-bitars förlustfri PNG med alfakanal |
-| `tif` | TIFF |
-| `tif-alpha` | TIFF med alfakanal |
-| `pdf` | Bild inbäddad i PDF |
+|---|---|
+| `avif-alpha` | Förstörande och förlustfri AVIF med alfakanal <br><br>*Versionstidslinje för detta format:* <br><b>Nordamerika</b> - Tillgänglig nu<br><b>Europa, Mellanöstern, Afrika</b> - 24 maj 2021<br><b>Asien-Stillahavsområdet</b> - 24 juni 202 1 |
+| `avif` | Förstörande och förlustfri AVIF <br><br>*Tidslinje för lanseringen av detta format:*<br><b> Nordamerika</b> - Tillgänglig nu<br><b>Europa, Mellanöstern, Afrika</b> - 24 maj 2021<br><b>Asien-Stillahavsområdet</b> - 24 juni 2021 |
 | `eps` | Okomprimerad binär kapslad PostScript |
-| `gif` | GIF med 2 till 256 färger |
-| `gif-alpha` | GIF med 2 till 255 färger plus genomskinlighet för nyckelfärger |
-| `swf` | Förstörande JPEG inbäddad i en Adobe AS2-swf-fil |
-| `swf-alpha` | Förstörande JPEG och en dekomprimerad mask som är inbäddad i en Adobe AS2-swf-fil |
-| `swf3` | Förstörande JPEG inbäddad i en Adobe AS3 swf-fil |
-| `swf3-alpha` | Förstörande JPEG och en dekomprimerad mask som är inbäddad i en Adobe AS3-swf-fil. **Obs**: swf- och swf-alpha-formaten passar bäst för program i ActionScript 2 (Flash Player 8 och tidigare). swf3 och swf3-alpha rekommenderas för ActionScript3-program (Flash Player 9 och senare) |
-| `m3u8` | Manifestformat för Apple Streaming Server |
 | `f4m` | Manifestformat för Flash Streaming Server |
-| `webp` | Förstörande och förlustfri WebP |
-| `webp-alpha` | Förstörande och icke-förstörande WebP med alfakanal |
-| `jpeg2000` | Förstörande och förlustfri JPEG 2000 |
+| `gif-alpha` | GIF med 2 till 255 färger plus genomskinlighet för nyckelfärger |
+| `gif` | GIF med 2 till 256 färger |
+| `jpeg` | Förstörande JPEG |
 | `jpeg2000-alpha` | Förstörande och förlustfri JPEG 2000 med alfakanal |
-| `jpegxr` | Förstörande och förlustfri JPEG XR |
+| `jpeg2000` | Förstörande och förlustfri JPEG 2000 |
 | `jpegxr-alpha` | Förstörande och förlustfri JPEG XR med alfakanal |
+| `jpegxr` | Förstörande och förlustfri JPEG XR |
+| `jpg` | Förstörande JPG |
+| `m3u8` | Manifestformat för Apple Streaming Server |
+| `pdf` | Bild inbäddad i PDF |
+| `pjpeg` | Progressiv JPEG |
+| `png-alpha` | 24-bitars förlustfri PNG med alfakanal |
+| `png` | 24-bitars förlustfri PNG |
+| `png8-alpha` | 8-bitars förlustfri PNG med alfakanal |
+| `png8` | 8-bitars förlustfri PNG |
+| `swf-alpha` | Förstörande JPEG och en dekomprimerad mask som är inbäddad i en Adobe AS2-swf-fil |
+| `swf` | Förstörande JPEG inbäddad i en Adobe AS2-swf-fil |
+| `swf3-alpha` | Förstörande JPEG och en dekomprimerad mask som är inbäddad i en Adobe AS3-swf-fil. **Obs! Formaten** swf och swf-alpha används bäst för program i ActionScript 2 (Flash Player 8 och tidigare). Formaten swf3 och swf3-alpha rekommenderas för ActionScript3-program (Flash Player 9 och senare) |
+| `swf3` | Förstörande JPEG inbäddad i en Adobe AS3 swf-fil |
+| `tif-alpha` | TIFF med alfakanal |
+| `tif` | TIFF |
+| `webp-alpha` | Förstörande och icke-förstörande WebP med alfakanal |
+| `webp` | Förstörande och förlustfri WebP |
 
-
-| *`pixelType`* — rgb | grå | cmyk |
+| *`pixelType`* - rgb | grå | cmyk |
 | *`pixelType`* | Beskrivning |
 |---|---|
-| `rgb` | Returnera RGB-bilddata. |
-| `gray` | Returnera gråskalebilddata. |
 | `cmyk` | Returnera CMYK-bilddata. |
+| `gray` | Returnera gråskalebilddata. |
+| `rgb` | Returnera RGB-bilddata. |
 
 | *`compression`* - ingen | lzw | zip | jpeg | förstörande | förlustfri |
 | *`compression`* | Beskrivning |
 |---|---|
-| `none` | Okomprimerad |
-| `lzw` | LZW-komprimering (icke-förstörande) |
-| `zip` | &quot;Deflate&quot;-komprimering (icke-förstörande) |
 | `jpeg` | JPEG-komprimering (förstörande) |
 | `lossy` | WebP-, JPEG 2000- och JPEG XR-komprimering (förstörande) |
 | `lossless` | WebP-, JPEG 2000- och JPEG XR-komprimering (icke-förstörande) |
+| `lzw` | LZW-komprimering (icke-förstörande) |
+| `none` | Okomprimerad |
+| `zip` | &quot;Deflate&quot;-komprimering (icke-förstörande) |
 
 * *`format`* anger bildkodningsformatet för bilddata som skickas till klienten och motsvarande MIME-svarstyp för HTTP-svarshuvudet.
 * *`pixelType`* kan användas för att påverka konvertering av färgrymd för utdata när  `icc=` inte har angetts.
@@ -148,7 +148,7 @@ I följande tabell visas giltiga kombinationer av *`format`*och *`pixelType`*, m
    <td colname="col5"> <p> <span class="codeph"> kvantifiera=  </span> </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p>webb, webp-alpha </p> </td> 
+   <td> <p>webp, webp-alpha </p> </td> 
    <td> <p>rgb </p> </td> 
    <td> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
    <td> <p>Nej </p> </td> 
@@ -164,6 +164,13 @@ I följande tabell visas giltiga kombinationer av *`format`*och *`pixelType`*, m
   <tr valign="top"> 
    <td> <p>jpegxr, jpegxr-alpha </p> </td> 
    <td> <p>rgb </p> </td> 
+   <td> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
+   <td> <p>Nej </p> </td> 
+   <td> <p>Samma som ovan. </p> </td> 
+  </tr>
+  <tr valign="top"> 
+   <td> <p> avif, avif-alpha </p> </td> 
+   <td> <p>rgb</p> </td> 
    <td> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
    <td> <p>Nej </p> </td> 
    <td> <p>Samma som ovan. </p> </td> 
