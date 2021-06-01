@@ -5,7 +5,7 @@ title: fmt
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: bb306f1063a91eeeb6b90e64aeb2d3143697ca34
+source-git-commit: 3ddb4c9291ee5439b67d78305589596b7935106c
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 0%
@@ -22,8 +22,8 @@ Svarsbildformat.
 
 | *`format`* | Beskrivning |
 |---|---|
-| `avif-alpha` | Förstörande och förlustfri AVIF med alfakanal <br><br>*Versionstidslinje för detta format:* <br><b>Nordamerika</b> - Tillgänglig nu<br><b>Europa, Mellanöstern, Afrika</b> - 24 maj 2021<br><b>Asien-Stillahavsområdet</b> - 24 juni 202 1 |
-| `avif` | Förstörande och förlustfri AVIF <br><br>*Tidslinje för lanseringen av detta format:*<br><b> Nordamerika</b> - Tillgänglig nu<br><b>Europa, Mellanöstern, Afrika</b> - 24 maj 2021<br><b>Asien-Stillahavsområdet</b> - 24 juni 2021 |
+| `avif-alpha` | Förstörande och förlustfri AVIF med alfakanal <br><br>*Tidslinje för lansering i detta format:* <br><b>Nordamerika</b> - Tillgänglig nu<br><b>Europa, Mellanöstern, Afrika</b> - 28 juni 2021<br><b>Asien-Stillahavsområdet</b> - 29 juni 202 1 |
+| `avif` | Förstörande och förlustfri AVIF <br><br>*Tidslinje för lanseringen av detta format:*<br><b> Nordamerika</b> - Tillgänglig nu<br><b>Europa, Mellanöstern, Afrika</b> - 28 juni 2021<br><b>Asien-Stillahavsområdet</b> - 29 juni 2021 |
 | `eps` | Okomprimerad binär kapslad PostScript |
 | `f4m` | Manifestformat för Flash Streaming Server |
 | `gif-alpha` | GIF med 2 till 255 färger plus genomskinlighet för nyckelfärger |
