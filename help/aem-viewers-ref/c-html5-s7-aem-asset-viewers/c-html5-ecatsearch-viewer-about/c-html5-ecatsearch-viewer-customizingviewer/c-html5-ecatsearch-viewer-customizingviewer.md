@@ -3,16 +3,15 @@ description: All visuell anpassning och de flesta beteendeanpassningar för visn
 keywords: responsiv
 solution: Experience Manager
 title: Anpassa visningsprogrammet för eCatalog Search
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 32b55fb1-1408-4264-92fa-b3a73f31df1d
+source-git-commit: 776539f14bbcd0342dac632c13a12eeb7b8efa21
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1406'
 ht-degree: 0%
 
 ---
-
 
 # Anpassa visningsprogrammet för eCatalog-sökning{#customizing-ecatalog-search-viewer}
 
@@ -186,7 +185,7 @@ Nedan följer referensdokumentation för användargränssnittselement som gälle
 * [Hämta](r-html5-ecatsearch-customize-download.md)
 * [E-postresurs](r-html5-ecatsearch-customize-emailshare.md)
 * [Bädda in resurs](r-html5-ecatsearch-customize-embedshare.md)
-* [Facebook-delning](r-html5-ecatsearch-customize-facebookshare.md)
+* [Facebook](r-html5-ecatsearch-customize-facebookshare.md)
 * [Favoriter, effekt](r-html5-ecatsearch-customize-favoriteseffect.md)
 * [Favoriter-menyn](r-html5-ecatsearch-customize-favoritesmenu.md)
 * [Vyn Favoriter](r-html5-ecatsearch-customize-favoritesview.md)
@@ -206,7 +205,7 @@ Nedan följer referensdokumentation för användargränssnittselement som gälle
 * [Sidindikator](r-html5-ecatsearch-customize-pageindicator.md)
 * [Sidvy](r-html5-ecatsearch-customize-pageview.md)
 * [Knappen Föregående sida](r-html5-ecatsearch-customize-previouspagebutton.md)
-* [Skriv ut](r-html5-ecatalog-viewer-20-customize-print.md)
+* [Skriv ut](r-html5-ecatsearch-customize-print.md)
 * [Knappen Ta bort favorit](r-html5-ecatsearch-customize-removefavorite.md)
 * [Sökknapp](r-html5-ecatsearch-customize-searchbutton.md)
 * [Sökeffekt](r-html5-ecatsearch-customize-searcheffect.md)
@@ -217,9 +216,8 @@ Nedan följer referensdokumentation för användargränssnittselement som gälle
 * [Miniatyrbilder](r-html5-ecatsearch-customize-thumbnails.md)
 * [Knappen Miniatyrbilder](r-html5-ecatsearch-customize-thumbnailsbutton.md)
 * [Verktygstips](r-html5-ecatsearch-customize-tooltips.md)
-* [Twitter-delning](r-html5-ecatsearch-customize-twittershare.md)
+* [Twitter](r-html5-ecatsearch-customize-twittershare.md)
 * [Knappen Visa alla favoriter](r-html5-ecatsearch-customize-viewallfavorites.md)
 * [Knappen Zooma in](r-html5-ecatsearch-customize-zoominbutton.md)
 * [Knappen Zooma ut](r-html5-ecatsearch-customize-zoomoutbutton.md)
 * [Knappen Zoomåterställning](r-html5-ecatsearch-customize-zoomresetbutton.md)
-
