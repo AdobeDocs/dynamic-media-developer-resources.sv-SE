@@ -2,13 +2,12 @@
 description: Interactive Video Viewer är en videospelare som spelar upp strömmande och progressiv video som är kodad i H.264-format.
 solution: Experience Manager
 title: Interaktiv video
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
 role: Developer,Business Practitioner
 exl-id: e54b0b1f-b015-4592-82e2-99f5080543e3
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 6df782b389f7e14b8ad510ebb6f143ece0db23c9
 workflow-type: tm+mt
-source-wordcount: '2234'
+source-wordcount: '2221'
 ht-degree: 0%
 
 ---
@@ -25,7 +24,7 @@ Visningstypen är 510.
 
 [https://marketing.adobe.com/resources/help/en_US/dm/shoppable-video/glacier/InteractiveVideoViewerDemo.html](https://marketing.adobe.com/resources/help/en_US/dm/shoppable-video/glacier/InteractiveVideoViewerDemo.html)
 
-och
+Och
 
 [https://marketing.adobe.com/resources/help/en_US/dm/shoppable-video/AXIS/index.html](https://marketing.adobe.com/resources/help/en_US/dm/shoppable-video/AXIS/index.html)
 
@@ -35,11 +34,11 @@ Se [Systemkrav](../../c-system-requirements-and-prerequisites.md#concept-9282e5b
 
 ## Använda Interactive Video Viewer {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-Interactive Video Viewer representerar en JavaScript-huvudfil och en uppsättning hjälpfiler (en enda JavaScript-fil innehåller alla Viewer SDK-komponenter som används av just detta visningsprogram, resurser och CSS) som hämtats av visningsprogrammet under körning.
+Interactive Video Viewer representerar en JavaScript-huvudfil och en uppsättning hjälpfiler som hämtats av visningsprogrammet under körning. Ett enda JavaScript ingår i alla Viewer SDK-komponenter som används av just detta visningsprogram, resurser och CSS.
 
 Interactive Video Viewer kan användas i popup-läge med en produktionsklar HTML-sida som finns i Image Serving Viewer. Den kan också användas i inbäddat läge, där den integreras med målwebbsidan med det dokumenterade API:t.
 
-Konfigurationen och skalningen liknar den för andra visningsprogram som beskrivs i den här handboken. All skalning görs med CSS (Cascading Style Sheets).
+Konfigurering och skalning liknar de andra visningsprogrammen som beskrivs i den här handboken. All skalning görs med CSS (Cascading Style Sheets).
 
 Se [Kommandoreferens som är gemensam för alla visningsprogram - Konfigurationsattribut](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) och [Kommandoreferens som är gemensam för alla visningsprogram - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
@@ -47,21 +46,21 @@ Se [Kommandoreferens som är gemensam för alla visningsprogram - Konfigurations
 
 Interactive Video Viewer innehåller en uppsättning standardkontroller för användargränssnitt för videouppspelning, t.ex. en Play/Pause-knapp, videobubblor, tidsbubbla för video, indikator för uppspelningstid/total tid, volymkontroll, helskärmsknapp och växling för stängd bildtext. Alla dessa kontroller grupperas i ett kontrollfält direkt under huvudvyn.
 
-Observera att på enheter med pekskärm är volymkontrollen dold från användargränssnittet, eftersom det bara är möjligt att styra volymen med enhetens maskinvaruknappar.
+På enheter med pekskärm döljs volymkontrollen från användargränssnittet, eftersom det bara är möjligt att styra volymen med enhetens maskinvaruknappar.
 
 När visningsprogrammet körs i popup-läge är inte knappen för helskärm tillgänglig i användargränssnittet.
 
-Visningsprogrammet visar en panel med interaktiva färgrutor till höger om videovisningsområdet. Listan med färgrutor visas automatiskt när videon spelas upp, så att färgrutor som motsvarar det aktuella videoområdet visas. Om du klickar eller trycker på en färgruta utlöses en åtgärd som var kopplad till den färgrutan under redigeringstiden. Beroende på hur du ställer in den kan utlösaren dirigera om till en annan sida på webbplatsen eller skicka produktinformation tillbaka till webbsidans logik, som i sin tur kan utlösa att en snabbvy öppnas som visar relaterat produktinnehåll.
+Visningsprogrammet visar en panel med interaktiva färgrutor till höger om videovisningsområdet. Listan med färgrutor visas automatiskt när videon spelas upp, så att färgrutor som motsvarar det aktuella videoområdet visas. Om du klickar eller trycker på en färgruta utlöses en åtgärd som var kopplad till den färgrutan under redigeringstiden. Beroende på hur du ställer in den kan utlösaren dirigeras om till en annan sida på webbplatsen. Det kan också skicka produktinformation tillbaka till webbsidans logik, som i sin tur kan utlösa att en snabbvy öppnas som visar relaterat produktinnehåll.
 
-Det går att navigera i videoinnehållet snabbt när videofiltreringen är aktiverad. Videokameror visas som markörer i videonavigeringsspåret och kapiteltiteln och beskrivningen visas när du för pekaren över (eller när du trycker en enda tryckning på peksystem). Kunden kan söka efter ett visst kapitel genom att klicka på en kapitelmarkör eller trycka på en kapitelbeskrivningsbubbla.
+Det går att navigera i videoinnehållet snabbt när videofiltreringen är aktiverad. Videokameror visas som markörer i videonavigeringsspåret och kapiteltiteln och beskrivningen visas vid överrullning (eller på pekskärmar). Kunden kan söka efter ett visst kapitel genom att klicka på en kapitelmarkör eller trycka på en kapitelbeskrivningsbubbla.
 
-Visningsprogrammet har också stöd för en mängd olika verktyg för delning av sociala medier. De är tillgängliga som en enda knapp i användargränssnittet, som utökas till ett delat verktygsfält när användaren klickar eller trycker på det. Verktygsfältet för delning innehåller en ikon för varje typ av delningskanal som stöds, till exempel Facebook, Twitter, e-postdelning, inbäddning av koddelning och länkdelning. När verktygen för e-postdelning, inbäddning eller länkdelning är aktiverade visas en modal dialogruta med ett motsvarande inmatningsformulär. När Facebook eller Twitter anropas omdirigeras användaren till en standarddelningsdialogruta från en tjänst för sociala medier. Dessutom pausas videouppspelningen automatiskt när ett delningsverktyg aktiveras. Delningsverktygen är inte tillgängliga i helskärmsläge på grund av säkerhetsbegränsningar i webbläsaren.
+Visningsprogrammet har också stöd för olika verktyg för delning av sociala medier. De är tillgängliga som en enda knapp i användargränssnittet, som utökas till ett delat verktygsfält när användaren klickar eller trycker på det. Verktygsfältet för delning innehåller en ikon för varje typ av delningskanal som stöds, till exempel Facebook, Twitter, e-postdelning, inbäddning av koddelning och länkdelning. När verktygen för e-postdelning, inbäddning eller länkdelning är aktiverade visas en modal dialogruta med ett motsvarande inmatningsformulär. När Facebook eller Twitter anropas dirigeras användaren om till en standarddelningsdialogruta från en tjänst för sociala medier. Dessutom pausas videouppspelningen automatiskt när ett delningsverktyg aktiveras. Delningsverktygen är inte tillgängliga i helskärmsläge på grund av säkerhetsbegränsningar i webbläsaren.
 
 Visningsprogrammet är fullt åtkomligt via tangentbordet. Se [Tangentbordstillgänglighet och -navigering](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
 ## Bädda in interaktiv videovisare {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Interactive Video Viewer är avsedd att bäddas in på webbsidan. En sådan webbsida kan ha en statisk layout eller vara&quot;responsiv&quot; och visas på olika enheter eller för olika webbläsarfönsterstorlekar.
+Interaktiv Video Viewer är inbäddad på värdsidan. En sådan webbsida kan ha en statisk layout eller vara&quot;responsiv&quot; och visas på olika enheter eller för olika webbläsarfönsterstorlekar.
 
 För att tillgodose dessa behov har visningsprogrammet stöd för två primära åtgärdslägen: inbäddning i fast storlek och responsiv inbäddning.
 
@@ -71,11 +70,11 @@ I det inbäddade läget läggs visningsprogrammet till på den befintliga webbsi
 
 De viktigaste användningsområdena är webbsidor som är orienterade för datorer eller surfplattor, och även responsiva designade sidor som automatiskt anpassar layouten beroende på enhetstyp.
 
-Inbäddning med fast storlek används när visningsprogrammet inte ändrar sin storlek efter den första inläsningen. Det här är det bästa alternativet för webbsidor som har en statisk layout.
+Inbäddning med fast storlek används när visningsprogrammet inte ändrar sin storlek efter den första inläsningen. Den här funktionen är det bästa alternativet för webbsidor som har en statisk layout.
 
-Inbäddning av responsiv design förutsätter att visningsprogrammet kan behöva ändra storlek vid körning som svar på storleksändringen för dess behållare `DIV`. Det vanligaste användningsområdet är att lägga till ett visningsprogram på en webbsida som använder en flexibel sidlayout.
+Inbäddning av responsiv design förutsätter att visningsprogrammet behöver ändra storlek vid körning som svar på storleksändringen av behållaren `DIV`. Det vanligaste användningsområdet är att lägga till ett visningsprogram på en webbsida som använder en flexibel sidlayout.
 
-I läget responsiv designinbäddning beter sig visningsprogrammet olika beroende på hur webbsidan ändrar storlek på sin behållare `DIV`. Om webbsidan bara anger bredden på behållaren `DIV`, och dess höjd inte begränsas, väljer visningsprogrammet automatiskt höjden enligt proportionerna för den resurs som används. Med den här funktionen kan du vara säker på att resursen passar perfekt in i vyn utan utfyllnad på sidorna. Det här användningsexemplet är det vanligaste för webbsidor med flexibla ramverk för webbdesign som Bootstrap, Foundation och så vidare.
+I läget responsiv designinbäddning beter sig visningsprogrammet olika beroende på hur webbsidan ändrar storlek på sin behållare `DIV`. Om webbsidan bara anger bredden på behållaren `DIV`, och dess höjd inte begränsas, väljer visningsprogrammet automatiskt höjden enligt proportionerna för den resurs som används. Med den här funktionen kan du vara säker på att resursen passar perfekt in i vyn utan utfyllnad på sidorna. Det här användningsexemplet är det vanligaste för webbsidor med flexibla ramverk för webbdesign som Bootstrap och Foundation.
 
 Om webbsidan ställer in både bredd och höjd för visningsprogrammets behållare `DIV` fyller visningsprogrammet bara det området och följer den storlek som anges i webbsidans layout. Ett bra exempel är att bädda in visningsprogrammet i en modal övertäckning, där storleken på övertäckningen anpassas efter webbläsarens fönsterstorlek.
 
@@ -104,7 +103,7 @@ Den relativa sökvägen ser ut så här:
 
 >[!NOTE]
 >
->Du bör bara referera till JavaScript-filen `include` för huvudvisningsprogrammet på sidan. Du bör inte referera till några ytterligare JavaScript-filer i webbsideskoden som kan hämtas av visningsprogrammets logik under körningen. Referera inte direkt till HTML5 SDK `Utils.js`-biblioteket som läses in av visningsprogrammet från kontextsökvägen `/s7viewers` (s.k. konsoliderad SDK `include`). Orsaken är att platsen för `Utils.js` eller liknande visningsprogrambibliotek för miljön hanteras helt av visningsprogrammets logik och platsen ändras mellan visningsprogramversioner. Adobe sparar inte äldre versioner av sekundära visningsprogram `includes` på servern.
+>Referera bara till JavaScript-filen `include` för huvudvisningsprogrammet på sidan. Referera inte till några ytterligare JavaScript-filer i webbsideskoden som kan hämtas av visningsprogrammets logik under körning. Referera inte direkt till HTML5 SDK `Utils.js`-biblioteket som läses in av visningsprogrammet från kontextsökvägen `/s7viewers` (s.k. konsoliderad SDK `include`). Orsaken är att platsen för `Utils.js` eller liknande visningsprogrambibliotek för miljön hanteras helt av visningsprogrammets logik och platsen ändras mellan visningsprogramversioner. Adobe sparar inte äldre versioner av sekundära visningsprogram `includes` på servern.
 >
 >
 >Det innebär att om du skickar en direkt referens till ett sekundärt JavaScript `include` som används av visningsprogrammet på sidan så bryts visningsprogrammets funktioner i framtiden när en ny produktversion distribueras.
@@ -127,7 +126,7 @@ Den relativa sökvägen ser ut så här:
 
    Du kan ange den statiska storleken för visningsprogrammet genom att antingen deklarera den för CSS-klassen på den översta nivån i absoluta enheter eller genom att använda modifieraren `stagesize`.`.s7interactivevideoviewer`
 
-   Du kan ange storlek i CSS direkt på HTML-sidan eller i en anpassad CSS-fil för visningsprogrammet, som sedan tilldelas en post för visningsförinställningar i AEM Assets - on demand, eller skickas explicit med kommandot `style`.
+   Du kan ange storlek i CSS direkt på HTML-sidan. Du kan också lägga in den i en anpassad CSS-fil för visningsprogrammet, som sedan tilldelas en post för visningsförinställningar i AEM Assets - on demand, eller skickas explicit med kommandot `style`.
 
    Mer information om hur du formaterar visningsprogrammet med CSS finns i [Anpassa visningsprogrammet för interaktiv video](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0).
 
@@ -152,11 +151,11 @@ Den relativa sökvägen ser ut så här:
 
    När du har slutfört stegen ovan skapar du en instans av klassen `s7viewers.InteractiveVideoViewer`, skickar all konfigurationsinformation till konstruktorn och anropar metoden `init()` för en visningsprograminstans. Konfigurationsinformation skickas till konstruktorn som ett JSON-objekt. Det här objektet ska åtminstone ha ett `containerId`-fält som innehåller namnet på visningsbehållar-ID och kapslat `params` JSON-objekt med konfigurationsparametrar som stöds av visningsprogrammet.
 
-   I det här fallet måste `params`-objektet ha minst den URL för bildservrar som skickas som `serverUrl`-egenskap och den ursprungliga resursen som `asset`-parameter. Med det JSON-baserade initierings-API:t kan du skapa och starta visningsprogrammet med en enda kodrad, en URL för videoservern som skickas som `videoserverurl`-egenskap, en initial resurs som `asset`-parameter och interaktiva data som `interactivedata`-egenskap. Med JSON-baserat initierings-API kan du skapa och starta visningsprogrammet med en enda kodrad.
+   I det här fallet måste `params`-objektet ha minst den URL för bildservrar som skickas som `serverUrl`-egenskap och den ursprungliga resursen som `asset`-parameter. Med det JSON-baserade initierings-API:t kan du skapa och starta visningsprogrammet med en enda kodrad, en URL för videoserver som skickas som `videoserverurl`-egenskap, en initial resurs som `asset`-parameter och interaktiva data som `interactivedata`-egenskap. Med JSON-baserat initierings-API kan du skapa och starta visningsprogrammet med en enda kodrad.
 
    Det är viktigt att lägga till visningsprogrambehållaren i DOM så att visningsprogramkoden kan hitta behållarelementet med dess ID. I vissa webbläsare fördröjs skapandet av DOM tills webbsidan är slut. För maximal kompatibilitet anropar du metoden `init()` precis före den avslutande `BODY`-taggen eller på body-händelsen `onload()`.
 
-   Dessutom bör behållarelementet inte nödvändigtvis vara en del av webbsidans layout ännu. Det kan till exempel vara dolt med `display:none`-format som tilldelats det. I det här fallet skjuter visningsprogrammet upp initieringsprocessen tills webbsidan återför behållarelementet till layouten. Det som händer gör att visningsprogrammet laddas igen automatiskt.
+   Dessutom är behållarelementet inte nödvändigtvis en del av webbsidans layout ännu. Det kan till exempel vara dolt med `display:none`-format som tilldelats det. I det här fallet skjuter visningsprogrammet upp initieringsprocessen tills webbsidan återför behållarelementet till layouten. Det som händer gör att visningsprogrammet laddas igen automatiskt.
 
    Följande är ett exempel på hur du skapar en visningsprograminstans, skickar de minsta nödvändiga konfigurationsalternativen till konstruktorn och anropar metoden `init()`. Exemplet förutsätter följande:
 
@@ -285,7 +284,7 @@ Följande exempelsida visar mer verkliga användningsområden för responsiv des
 
 **Responsiv inbäddning med definierad bredd och höjd**
 
-Om det finns responsiv inbäddning med definierad bredd och höjd är webbsidans format annorlunda. Den ger båda storlekarna till DIV:n `"holder"` och centrerar den i webbläsarfönstret. Dessutom anger webbsidan storleken på elementen `HTML` och `BODY` till 100 procent.
+Om det finns responsiv inbäddning med bredd och höjd definierad är webbsidans format annorlunda. Den ger båda storlekarna till DIV:n `"holder"` och centrerar den i webbläsarfönstret. Dessutom anger webbsidan storleken på elementen `HTML` och `BODY` till 100 procent.
 
 ```
 <!DOCTYPE html> 
