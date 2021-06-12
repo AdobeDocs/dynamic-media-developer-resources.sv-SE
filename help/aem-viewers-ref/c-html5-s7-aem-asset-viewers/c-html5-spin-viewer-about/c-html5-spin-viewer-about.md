@@ -3,16 +3,15 @@ description: Snurra visningsprogram är ett bildvisningsprogram som ger en 360-g
 keywords: responsiv
 solution: Experience Manager
 title: Snurra
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,snurra uppsättningar
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4c802d42-ea5b-4f28-b6ef-2689aa16839d
+source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
 workflow-type: tm+mt
-source-wordcount: '2130'
+source-wordcount: '2135'
 ht-degree: 0%
 
 ---
-
 
 # Snurra{#spin}
 
@@ -36,13 +35,13 @@ Spin Viewer representerar en JavaScript-huvudfil och en uppsättning hjälpfiler
 
 Snurra visningsprogram kan användas både i popup-läge med en produktionsklar HTML-sida som finns i IS-Viewer eller i inbäddat läge, där den integreras med målwebbsidan med dokumenterat API.
 
-Konfiguration och skalning liknar de andra visarnas. All skalning kan utföras via anpassad CSS.
+Konfigurationen och skalningen liknar den för andra visningsprogram. All skalning kan göras via anpassad CSS.
 
 Se [Kommandoreferens som är gemensam för alla visningsprogram - Konfigurationsattribut](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) och [Kommandoreferens som är gemensam för alla visningsprogram - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
 ## Interagera med Spin Viewer {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
-Spin Viewer stöder följande tryckgester som är vanliga i andra mobila program. När visningsprogrammet inte kan bearbeta en användares svepgest vidarebefordrar det händelsen till webbläsaren för att utföra en egen sidrullning. Detta gör att användaren kan navigera på sidan även om visningsprogrammet upptar större delen av enhetens skärmområde.
+Snurra visningsprogram har stöd för följande pekgester som är vanliga i andra mobilprogram. När visningsprogrammet inte kan bearbeta en användares dragningsgest vidarebefordrar det händelsen till webbläsaren för att utföra en inbyggd sidbläddring. Detta gör att användaren kan navigera på sidan även om användaren upptar större delen av enhetens skärmområde.
 
 <table id="table_ED747CC7178448919C34A4FCD18922D0"> 
  <thead> 
@@ -53,43 +52,43 @@ Spin Viewer stöder följande tryckgester som är vanliga i andra mobila program
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Dubbelknapp </p> </td> 
-   <td colname="col2"> <p> Zoomar på en nivå tills maximal förstoring uppnås. Nästa dubbeltrycksgest återställer visningsprogrammet till det ursprungliga visningsläget. </p> </td> 
+   <td colname="col1"> <p>Dubbelknacka </p> </td> 
+   <td colname="col2"> <p> Zoomar in en nivå tills maximal förstoring nås. Nästa dubbelknackningsgest återställer visningsprogrammet till det inledande visningsläget. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Knipning </p> </td> 
-   <td colname="col2"> <p>Zoomar in eller ut på bilden. </p> </td> 
+   <td colname="col2"> <p>Zoomar in eller ut i bilden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Vågrät rotation eller snärtning </p> </td> 
-   <td colname="col2"> <p> Om bilden är i ett återställningsläge kommer den att gå igenom uppsättningen vågrätt. </p> <p> Om bilden zoomas in flyttas bilden vågrätt. Om bilden flyttas till vykanten och en svepning fortfarande utförs i den riktningen, utförs en egen sidrullning av gesten. </p> </td> 
+   <td colname="col1"> <p>Vågrät dragning eller snärtning </p> </td> 
+   <td colname="col2"> <p> Om bilden är i ett återställningsläge snurrar den vågrätt genom den angivna uppsättningen. </p> <p> Om bilden zoomas in flyttas den vågrätt. Om bilden flyttas till vykanten och en svepning fortfarande utförs i den riktningen utför gesten en inbyggd sidrullning. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Lodrät rotation eller snärtning </p> </td> 
-   <td colname="col2"> <p> Om bilden är i ett återställningsläge ändras den lodräta vyvinkeln om en flerdimensionell rotationsuppsättning används. I en endimensionell rotationsuppsättning, eller när en flerdimensionell rotationsuppsättning finns på den sista eller den första axeln, så att den lodräta svepningen inte resulterar i en lodrät vinkeländring, utför gesten en ursprunglig sidrullning. </p> <p> Om bilden zoomas in flyttas bilden lodrätt. Om bilden flyttas till vykanten och en svepning fortfarande utförs i den riktningen, utförs en egen sidrullning av gesten. </p> </td> 
+   <td colname="col1"> <p>Lodrät dragning eller snärtning </p> </td> 
+   <td colname="col2"> <p> Om bilden är i ett återställningsläge ändras den lodräta vyvinkeln om en flerdimensionell snurruppsättning används. I en endimensionell snurra, eller när en flerdimensionell snurra är på den sista eller första axeln, så att den lodräta svepningen inte resulterar i en vertikal vinkeländring, utför gesten en en inbyggd sidrullning. </p> <p> Om bilden är inzoomad flyttas den vertikalt. Om bilden flyttas till vykanten och en svepning fortfarande utförs i den riktningen utför gesten en inbyggd sidrullning. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Visningsprogrammet stöder också både pekinginmatning och musinmatning på Windows-enheter med pekskärm och mus. Detta stöd är dock begränsat till webbläsare Chrome, Internet Explorer 11 och Edge.
+>Visningsprogrammet har också stöd för både pekrörelser och musindata på Windows-enheter med pekskärm och mus. Detta stöd är dock begränsat till webbläsarna Chrome, Internet Explorer 11 och Edge.
 
-Det här visningsprogrammet är fullt tillgängligt för tangentbordet.
+Visningsprogrammet är fullt åtkomligt via tangentbordet.
 
-Se [Tangentbordstillgänglighet och navigering](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
+Se [Tangentbordstillgänglighet och -navigering](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
-## Bädda in centrifugeringsvisningsprogram {#section-6bb5d3c502544ad18a58eafe12a13435}
+## Bädda in Spin Viewer {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Olika webbsidor har olika behov av visningsbeteende. Ibland finns det en länk på en webbsida som, när du klickar på den, öppnar visningsprogrammet i ett separat webbläsarfönster. I andra fall är det nödvändigt att bädda in visningsprogrammet till höger på värdsidan. I det senare fallet kan webbsidan ha en statisk sidlayout eller använda en känslig design som visas på olika enheter eller för olika webbläsarfönsterstorlekar. För att tillgodose dessa behov stöder visningsprogrammet tre primära åtgärdslägen: popup-fönster, inbäddning med fast storlek och responsivt designinbäddning.
+Olika webbsidor har olika behov av visningsprogrammets beteende. Ibland innehåller en webbsida en länk som, när användaren klickar på den, öppnar visningsprogrammet i ett separat webbläsarfönster. I andra fall är det nödvändigt att bädda in visningsprogrammet direkt på värdsidan. I det senare fallet kan webbsidan ha en statisk sidlayout, eller använda responsiv design som visas på olika enheter eller för olika webbläsarfönsterstorlekar. För att tillgodose dessa behov har visningsprogrammet stöd för tre primära åtgärdslägen: popup-fönster, inbäddning i fast storlek och responsiv designinbäddning.
 
 **Om popup-läge**
 
-I popup-läge öppnas visningsprogrammet i ett separat webbläsarfönster eller en separat flik. Det tar hela webbläsarfönstrets område och justerar om webbläsaren ändras eller om en mobil enhets orientering ändras.
+I popup-läge öppnas visningsprogrammet i ett separat webbläsarfönster eller på en separat flik. Det tar hela webbläsarfönsterområdet och justeras om webbläsaren ändrar storlek eller om en mobilenhets orientering ändras.
 
-Popup-läge är det vanligaste för mobila enheter. Webbsidan läser in visningsprogrammet med `window.open()` JavaScript-anrop, korrekt konfigurerat `A` HTML-element eller någon annan lämplig metod.
+Popup-läget är det vanligaste för mobila enheter. Webbsidan läser in visningsprogrammet med hjälp av JavaScript-anrop (`window.open()`), korrekt konfigurerat HTML-element (`A`) eller någon annan lämplig metod.
 
-Du bör använda en HTML-sida som är klar att användas för popup-läge. I det här fallet heter den [!DNL SpinViewer.html] och finns i undermappen [!DNL html5/] i standarddistributionen för IS-visningsprogram:
+Vi rekommenderar att du använder en körklar HTML-sida för popup-åtgärder. I det här fallet kallas det [!DNL SpinViewer.html] och finns i undermappen [!DNL html5/] i din standarddistribution av IS-Viewer:
 
 [!DNL <s7viewers_root>/html5/SpinViewer.html]
 
@@ -294,9 +293,9 @@ var spinViewer = new s7viewers.SpinViewer({
 
 Följande exempelsida visar mer verkliga användningsområden för responsiv designinbäddning med obegränsad höjd:
 
-[Live Demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+[Direktdemonstrationer](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-<!-- KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
+[Alternativ demoplats](https://experienceleague.adobe.com/tools/vlist/vlist.html)
 
 **Flexibel storleksinbäddning med definierad bredd och höjd**
 
@@ -394,4 +393,3 @@ spinViewer.init();
 </body> 
 </html>
 ```
-
