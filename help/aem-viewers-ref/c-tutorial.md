@@ -2,16 +2,15 @@
 description: Viewer SDK innehåller en uppsättning JavaScript-baserade komponenter för anpassad visningsprogramutveckling. Tittarna är webbaserade program som gör att multimediematerial som hanteras av Adobe Dynamic Media kan bäddas in på webbsidor.
 solution: Experience Manager
 title: Självstudiekurs om SDK för visningsprogram
-feature: Dynamic Media Classic,Viewers,SDK/API
+feature: Dynamic Media Classic,visningsprogram,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 3a798595-6c65-4a12-983d-3cdc53830d28
+source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
 workflow-type: tm+mt
-source-wordcount: '974'
+source-wordcount: '964'
 ht-degree: 0%
 
 ---
-
 
 # Självstudiekurs om SDK för visningsprogram{#viewer-sdk-tutorial}
 
@@ -35,7 +34,7 @@ Den här självstudiekursen innehåller följande åtgärder som du kan använda
 
 ## Hämta den senaste SDK:n för visningsprogram från Adobe Developer Connection {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
 
-1. Hämta den senaste Viewer SDK-versionen från Adobe Developer Connection [här](https://marketing.adobe.com/developer/devcenter/scene7/show).
+1. Hämta den senaste SDK:n för visningsprogram från Adobe Developer Connection <!-- SDK NO LONGER AVAILABLE TO DOWNLOAD;DOUBLE CHECK WITH AMIT. THIS ENTIRE TOPIC IS LIKELY OBSOLETE. [here](https://marketing.adobe.com/developer/devcenter/scene7/show) -->.
 
    >[!NOTE]
    >
@@ -391,4 +390,3 @@ Nu ska du lägga till knapparna för inzoomning, utzoomning och zoomning i visni
    Ditt grundläggande zoomvisningsprogram är nu klart.
 
    Den här självstudiekursen handlar om grunderna i vad Dynamic Media Viewer SDK erbjuder. När du arbetar med SDK kan du använda de olika standardkomponenterna för att enkelt skapa och utforma innehållsrika visningsupplevelser för målgrupperna.
-
