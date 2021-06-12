@@ -3,16 +3,15 @@ description: Video Viewer är en videospelare som spelar upp strömmande och pro
 keywords: responsiv
 solution: Experience Manager
 title: Video
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Video
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: fa9727dc-f9e2-4d91-b500-445693dfb6aa
+source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
 workflow-type: tm+mt
-source-wordcount: '2383'
+source-wordcount: '2388'
 ht-degree: 0%
 
 ---
-
 
 # Video{#video}
 
@@ -60,7 +59,7 @@ Se [Tangentbordstillgänglighet och -navigering](../../c-keyboard-accessibility.
 
 Video Viewer har stöd för verktyg för delning via sociala medier. De är tillgängliga som en enda knapp i användargränssnittet, som utökas till ett delningsverktygsfält när användaren klickar eller trycker på det.
 
-Verktygsfältet för delning innehåller en ikon för varje typ av delningskanal som stöds, till exempel Facebook, Twitter, e-postdelning, inbäddning av koddelning och länkdelning. När verktygen för e-postdelning, inbäddning eller länkdelning är aktiverade visas en modal dialogruta med ett motsvarande inmatningsformulär. När Facebook eller Twitter anropas omdirigeras användaren till en standarddelningsdialogruta från en tjänst för sociala medier. När ett delningsverktyg aktiveras pausas videouppspelningen automatiskt.
+Verktygsfältet för delning innehåller en ikon för varje typ av delningskanal som stöds, till exempel Facebook, Twitter, e-postdelning, inbäddning av koddelning och länkdelning. När verktygen för e-postdelning, inbäddning eller länkdelning är aktiverade visas en modal dialogruta med ett motsvarande inmatningsformulär. När Facebook eller Twitter anropas dirigeras användaren om till en standarddelningsdialogruta från en tjänst för sociala medier. När ett delningsverktyg aktiveras pausas videouppspelningen automatiskt.
 
 Delningsverktygen är inte tillgängliga i helskärmsläge på grund av säkerhetsbegränsningar i webbläsaren.
 
@@ -283,9 +282,9 @@ var videoViewer = new s7viewers.VideoViewer({
 
 Följande exempelsida visar hur responsiv designinbäddning med obegränsad höjd används i verkligheten:
 
-[Live Demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+[Direktdemonstrationer](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-<!-- KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
+[Alternativ demoplats](https://experienceleague.adobe.com/tools/vlist/vlist.html)
 
 **Responsiv design embedding with width and height defined**
 
@@ -385,4 +384,3 @@ videoViewer.init();
 </body> 
 </html> 
 ```
-
