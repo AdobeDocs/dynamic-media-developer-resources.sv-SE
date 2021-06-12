@@ -2,16 +2,15 @@
 description: Interactive Image Viewer är ett visningsprogram som visar en enstaka, ej zoombar bild med klickbara hotspot-områden. Syftet med detta visningsprogram är att implementera en"köpbar banner"-upplevelse. Användaren kan alltså markera en aktiveringspunkt över banderollbilden och omdirigeras till en snabbvy eller produktinformationssida på webbplatsen. Den är utformad för att fungera på stationära datorer och mobila enheter.
 solution: Experience Manager
 title: Interaktiv bild
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva bilder
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c7089ecd-6ff3-4fe9-9ee7-3b48c9201558
+source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
 workflow-type: tm+mt
-source-wordcount: '1752'
+source-wordcount: '1733'
 ht-degree: 0%
 
 ---
-
 
 # Interaktiv bild{#interactive-image}
 
@@ -25,7 +24,7 @@ Visningstypen är 508.
 
 ## Demo-URL {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
 
-[https://marketing.adobe.com/resources/help/en_US/dm/shoppable-banner/samples/InteractiveImage.html](https://marketing.adobe.com/resources/help/en_US/dm/shoppable-banner/samples/InteractiveImage.html)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage.html)
 
 ## Systemkrav {#section-b7270cc4290043399681dc504f043609}
 
@@ -245,7 +244,7 @@ var interactiveImage = new s7viewers.InteractiveImage({
 
 Följande exempelsida visar mer verkliga användningsområden för responsiv designinbäddning med obegränsad höjd:
 
-[https://marketing.adobe.com/resources/help/en_US/dm/shoppable-banner/samples/InteractiveImage-responsive-unrestricted-height.html](https://marketing.adobe.com/resources/help/en_US/dm/shoppable-banner/samples/InteractiveImage-responsive-unrestricted-height.html)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage-responsive-unrestricted-height.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage-responsive-unrestricted-height.html)
 
 **Flexibel storlek för inbäddning med definierad bredd och höjd**
 
@@ -343,4 +342,3 @@ interactiveImage.init();
 </body> 
 </html> 
 ```
-
