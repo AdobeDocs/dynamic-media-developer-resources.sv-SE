@@ -3,16 +3,15 @@ description: Zoom Viewer är ett bildvisningsprogram som visar en zoombar bild. 
 keywords: responsiv
 solution: Experience Manager
 title: Zooma
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 81a74026-fb15-4f57-a4c7-1ab005950245
+source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
 workflow-type: tm+mt
-source-wordcount: '2423'
+source-wordcount: '2404'
 ht-degree: 0%
 
 ---
-
 
 # Zooma{#zoom}
 
@@ -180,7 +179,7 @@ Den relativa sökvägen ser ut så här:
 
    Du kan se beteendet med ett fast yttre visningsprogram i följande exempel. Observera att storleken på det yttre visningsprogrammet inte ändras när du växlar mellan uppsättningar:
 
-   [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/ZoomViewer-fixed-outer-area.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/ZoomViewer-fixed-outer-area.html)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html)
 
    Om du vill göra huvudvyns dimensioner statiska definierar du visningsstorleken i absoluta enheter för den inre SDK-komponenten `.s7zoomviewer` `.s7container` CSS-väljaren eller genom att använda modifieraren `stagesize`.`Container`
 
@@ -195,7 +194,7 @@ Den relativa sökvägen ser ut så här:
 
    På följande demosida visas visningsprogrammets beteende med en fast storlek för huvudvyn. Observera att när du växlar mellan uppsättningar förblir huvudvyn statisk och webbsidans innehåll flyttas lodrätt.
 
-   [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/ZoomViewer-fixed-main-view.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/ZoomViewer-fixed-main-view.html)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html)
 
    Du kan ställa in modifieraren `stagesize` antingen i visningsprogrammets förinställningspost i Dynamic Media Classic, eller så kan du skicka den explicit med startkoden för visningsprogrammet med samlingen `params` eller som ett API-anrop enligt beskrivningen i kommandoreferensavsnittet i den här hjälpen, som i följande exempel:
 
@@ -415,4 +414,3 @@ zoomViewer.init();
 </body> 
 </html> 
 ```
-
