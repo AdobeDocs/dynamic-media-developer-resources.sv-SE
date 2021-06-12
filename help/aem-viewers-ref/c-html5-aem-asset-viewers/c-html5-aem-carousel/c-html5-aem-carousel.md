@@ -5,10 +5,9 @@ title: Carousel
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,Business Practitioner
 exl-id: d506dc6e-8929-4f7f-a205-1683e77681f1
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
 workflow-type: tm+mt
-source-wordcount: '1921'
+source-wordcount: '1902'
 ht-degree: 0%
 
 ---
@@ -25,7 +24,7 @@ Visningstypen är 511.
 
 ## Demo-URL {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
 
-[https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/CarouselViewerDemo.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/CarouselViewerDemo.html)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html)
 
 ## Systemkrav {#section-b7270cc4290043399681dc504f043609}
 
@@ -263,7 +262,7 @@ var carouselViewer = new s7viewers.CarouselViewer({
 
 Följande exempelsida visar mer verkliga användningsområden för responsiv designinbäddning med obegränsad höjd:
 
-[https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/CarouselViewer-responsive-unrestricted-height.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/CarouselViewer-responsive-unrestricted-height.html)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html)
 
 **Flexibel storlek för inbäddning med definierad bredd och höjd**
 
