@@ -4,14 +4,13 @@ solution: Experience Manager
 title: setPassword
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: e8d95b55-0a97-4887-b711-7be99833c389
+source-git-commit: a05fb31b7c7515492723af63914d3e9999e65e9b
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%
 
 ---
-
 
 # setPassword{#setpassword}
 
@@ -68,7 +67,7 @@ Lösenordets förfallodatum är valfritt. Om det utelämnas upphör aldrig löse
         <li id="li_6E3F084100104F2CBCF130EF8852C7B7">Engelska gemener. Till exempel <span class="codeph"> a b c d e </span> o.s.v. </li> 
         <li id="li_1FDED8D7348842BC857320D797D41217">Engelska versaler. Till exempel <span class="codeph"> A C D E </span> och så vidare. </li> 
         <li id="li_C3C4D5412AA749F3B78F37B2B696CF80">Nummer. Till exempel <span class="codeph"> 1 2 3 4 5 </span> och så vidare. </li> 
-        <li id="li_2730798F26E74B878BEDE510CD06D8DD">Specialsymboltecken. Du kan till exempel använda något av följande: <span class="codeph"> ` ~ ! @ # $ % ^ * ( ) _ + - = { } | [ ] &amp; \ : " ; ' &lt; &gt; ? , . / </span> </li> 
+        <li id="li_2730798F26E74B878BEDE510CD06D8DD">Specialsymboltecken. Du kan till exempel använda något av följande: <span class="codeph"> &amp;stämpel;grav; ~! @ # $ % ^ * ( ) _ + - = { } | [ ] &amp; \ : " ; ' &lt; &gt; ? , . / </span> </li> 
        </ul> </li> 
      </ul> </p> </td> 
   </tr> 
