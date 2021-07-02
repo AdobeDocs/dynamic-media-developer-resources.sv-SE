@@ -2,18 +2,17 @@
 description: Rotationsindikatorn visas i rotationsvyområdet. Den visas när bilden är i ett återställningsläge och beror också på parametern iconeffect.
 solution: Experience Manager
 title: Ikonen Snurra vy, effekt
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,blandade medieuppsättningar
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 1c5c73f9-c32a-4bca-93f0-c5a95756355b
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
 
-
-# Ikoneffekt för snurra vy{#spin-view-icon-effect}
+# Ikonen Snurra vy, effekt{#spin-view-icon-effect}
 
 Rotationsindikatorn visas i rotationsvyområdet. Den visas när bilden är i ett återställningsläge och beror också på parametern iconeffect.
 
@@ -70,4 +69,3 @@ background-image: url(images/spinIcon_1D.png);
 background-image: url(images/spinIcon_2D.png); 
 }
 ```
-
