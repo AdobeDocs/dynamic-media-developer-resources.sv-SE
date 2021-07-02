@@ -2,16 +2,15 @@
 description: Anger det bildformat som komponenten använder för att läsa in bilder från Image Server.
 solution: Experience Manager
 title: FlyoutZoomView.fmt
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,blandade medieuppsättningar
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 6e3bf609-eae7-4db9-b922-cba3a9f7634b
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '97'
 ht-degree: 1%
 
 ---
-
 
 # FlyoutZoomView.fmt{#flyoutzoomview-fmt}
 
