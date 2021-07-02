@@ -2,16 +2,15 @@
 description: FlyoutZoomView.preloadtiles
 solution: Experience Manager
 title: FlyoutZoomView.preloadtiles
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,blandade medieuppsättningar
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 041df5c7-9391-4dde-8988-a83272c7c438
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '72'
 ht-degree: 2%
 
 ---
-
 
 # FlyoutZoomView.preloadtiles{#flyoutzoomview-preloadtiles}
 
