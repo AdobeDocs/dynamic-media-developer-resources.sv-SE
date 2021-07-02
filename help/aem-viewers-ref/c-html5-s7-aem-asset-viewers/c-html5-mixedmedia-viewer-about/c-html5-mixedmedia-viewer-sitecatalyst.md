@@ -2,22 +2,21 @@
 description: Mixed Media Viewer har stöd för Adobe Analytics tracking-out-of-the-box.
 solution: Experience Manager
 title: Stöd för Adobe Analytics tracking
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,blandade medieuppsättningar
 role: Developer,Business Practitioner,Data Engineer,Data Architect
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3b28c853-3747-4805-a141-3cce1398d783
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
-
 
 # Stöd för Adobe Analytics tracking{#support-for-adobe-analytics-tracking}
 
 Mixed Media Viewer har stöd för Adobe Analytics tracking-out-of-the-box.
 
-## Spåra {#section-ba994f079d0343c8ae48adffaa3195a3} direkt
+## Spåra direkt {#section-ba994f079d0343c8ae48adffaa3195a3}
 
 Mixed Media Viewer har stöd för [!DNL Adobe Analytics]-spårning som är färdig. Om du vill aktivera spårning skickar du rätt namn på företagets förinställning som `config2`-parameter.
 
@@ -102,4 +101,3 @@ Visningsprogrammet spårar följande SDK-användarhändelser:
   </tr> 
  </tbody> 
 </table>
-
