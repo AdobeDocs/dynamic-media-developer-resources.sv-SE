@@ -2,18 +2,17 @@
 description: Huvudvisningsområdet är det område som upptas av huvudvyn och färgrutorna. Den ställs vanligtvis in så att den passar den tillgängliga enhetsskärmen när ingen storlek har angetts.
 solution: Experience Manager
 title: Huvudvisningsområde
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,blandade medieuppsättningar
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: fe8b748c-5318-4fcd-9f3a-d50523bb3f8f
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
 
-
-# Huvudvisningsprogramområde{#main-viewer-area}
+# Huvudvisningsområde{#main-viewer-area}
 
 Huvudvisningsområdet är det område som upptas av huvudvyn och färgrutorna. Den ställs vanligtvis in så att den passar den tillgängliga enhetsskärmen när ingen storlek har angetts.
 
@@ -59,4 +58,3 @@ Exempel - om du vill ställa in ett visningsprogram med en vit bakgrund ( `#FFFF
  height: 288px;  
 }
 ```
-
