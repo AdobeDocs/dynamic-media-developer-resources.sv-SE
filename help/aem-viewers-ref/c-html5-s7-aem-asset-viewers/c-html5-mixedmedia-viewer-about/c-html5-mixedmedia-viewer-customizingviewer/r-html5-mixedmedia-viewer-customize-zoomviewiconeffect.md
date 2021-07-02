@@ -2,16 +2,15 @@
 description: Zoomindikatorn visas i zoomvisningsområdet. Den visas när bilden är i ett återställningsläge och den är också beroende av parametern iconeffect.
 solution: Experience Manager
 title: Zoomvy, ikon, effekt
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,blandade medieuppsättningar
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: f2db0259-f1cf-41bc-86fd-97a40d01db16
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '177'
 ht-degree: 0%
 
 ---
-
 
 # Zoomvy, ikon, effekt{#zoom-view-icon-effect}
 
@@ -72,4 +71,3 @@ Exempel - för att ställa in en zoomindikator på 100 x 100 pixlar med olika gr
  background-image:url(images/v2/IconEffect_pinch.png); 
 }
 ```
-
