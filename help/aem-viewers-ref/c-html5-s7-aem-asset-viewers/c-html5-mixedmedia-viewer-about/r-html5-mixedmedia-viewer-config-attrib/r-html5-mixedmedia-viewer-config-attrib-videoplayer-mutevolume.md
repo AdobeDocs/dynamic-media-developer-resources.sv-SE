@@ -2,16 +2,15 @@
 description: Konfigurationsattribut för visningsprogrammet för blandad media.
 solution: Experience Manager
 title: VideoPlayer.mutevolume
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,blandade medieuppsättningar
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 13398ac5-7137-4345-88b8-5e4df09edb7b
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '67'
 ht-degree: 2%
 
 ---
-
 
 # VideoPlayer.mutevolume{#videoplayer-mutevolume}
 
