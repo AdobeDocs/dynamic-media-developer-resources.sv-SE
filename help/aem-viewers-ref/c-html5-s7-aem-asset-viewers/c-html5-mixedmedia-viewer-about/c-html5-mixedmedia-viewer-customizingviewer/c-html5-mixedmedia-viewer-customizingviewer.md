@@ -3,18 +3,17 @@ description: All visuell anpassning och de flesta beteendeanpassningar för visn
 keywords: responsiv
 solution: Experience Manager
 title: Anpassa blandad mediavisare
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,blandade medieuppsättningar
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3bea8efb-faf8-4909-b51a-0b9964fcd735
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '1340'
+source-wordcount: '1337'
 ht-degree: 0%
 
 ---
 
-
-# Anpassa visningsprogrammet för blandade media{#customizing-mixed-media-viewer}
+# Anpassa blandad mediavisare{#customizing-mixed-media-viewer}
 
 All visuell anpassning och de flesta beteendeanpassningar för visningsprogrammet för blandade media görs genom att en anpassad CSS skapas.
 
@@ -36,7 +35,7 @@ När du skapar anpassad CSS bör du tänka på att visningsprogrammet tilldelar 
 
 `#<containerId>.s7mixedmediaviewer`
 
-## Skapar responsiv CSS {#section-0bb49aca42d242d9b01879d5ba59d33b}
+## Skapa responsiv CSS {#section-0bb49aca42d242d9b01879d5ba59d33b}
 
 Det är möjligt att rikta in sig på olika enheter och inbäddningsstorlekar i CSS så att innehållet visas på olika sätt, beroende på användarens enhet eller en viss webbsideslayout. Detta omfattar, men är inte begränsat till, olika webbsideslayouter, elementstorlekar i användargränssnittet och bildupplösning.
 
@@ -129,7 +128,7 @@ Med en mediefrågemetod bör du organisera CSS med enhetsavkänning enligt följ
 
 Du behöver inte duplicera hela CSS för visningsprogram i varje mediefråga. Endast egenskaper som är specifika för vissa enheter omdefinieras i en mediefråga.
 
-## CSS-sprites {#section-209a43dfbddf4fc589e79cddaf233f50}
+## CSS-fragment {#section-209a43dfbddf4fc589e79cddaf233f50}
 
 Många visningsgränssnittselement är formaterade med bitmappsbilder och har mer än ett tydligt visuellt läge. Ett bra exempel är en knapp som normalt har minst tre olika lägen: &quot;up&quot;, &quot;over&quot; och &quot;down&quot;. För varje läge krävs en egen bitmappsbild.
 
@@ -185,6 +184,6 @@ background-position: -0px -560px;
 
 * När du anpassar visningsprogrammets användargränssnitt med CSS stöds inte användningen av regeln `!IMPORTANT` för att formatera visningsprogramelement. I synnerhet ska `!IMPORTANT`-regeln inte användas för att åsidosätta standardformat eller körningsformat som tillhandahålls av visningsprogrammet eller visaren-SDK:n. Orsaken är att det kan påverka beteendet för rätt komponenter. I stället bör du använda CSS-väljare med rätt specificitet för att ange CSS-egenskaper som dokumenteras i den här referenshandboken.
 
-## Element för gemensamt användargränssnitt {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
+## Element i gemensamt användargränssnitt {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
 
 Nedan följer referensdokumentation för användargränssnittselement som gäller för blandad Media Viewer:
