@@ -2,16 +2,15 @@
 description: Markering av indatafokus som visas runt gränssnittselementet för fokuserade visningsprogram styrs med CSS-klassväljaren.
 solution: Experience Manager
 title: Fokusmarkering
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,blandade medieuppsättningar
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 7d29dab2-6f01-4328-9e92-0c370acaa2d6
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '87'
 ht-degree: 0%
 
 ---
-
 
 # Fokusmarkering{#focus-highlight}
 
@@ -49,4 +48,3 @@ Exempel - Om du vill inaktivera standardmarkeringen för webbläsarfokus för al
  outline: none; 
 }
 ```
-
