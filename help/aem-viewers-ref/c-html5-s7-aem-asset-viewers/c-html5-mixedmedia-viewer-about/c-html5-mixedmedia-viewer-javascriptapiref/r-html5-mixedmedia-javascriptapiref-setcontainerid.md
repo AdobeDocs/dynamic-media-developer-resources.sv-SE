@@ -2,16 +2,15 @@
 description: JavaScript API-referens för blandad Media Viewer.
 solution: Experience Manager
 title: setContainerId
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,blandade medieuppsättningar
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b6e191dc-3172-45ba-b6f6-258cfbd5855d
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '96'
 ht-degree: 0%
 
 ---
-
 
 # setContainerId{#setcontainerid}
 
@@ -39,4 +38,3 @@ Ingen.
 ```
 <instance>.setContainerId("s7viewer");
 ```
-
