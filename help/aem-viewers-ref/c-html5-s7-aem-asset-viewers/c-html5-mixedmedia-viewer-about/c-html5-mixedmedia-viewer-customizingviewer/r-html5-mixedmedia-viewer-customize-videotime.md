@@ -2,16 +2,15 @@
 description: Videotiden är den numeriska visning som visar aktuell tid och varaktighet för den video som spelas upp.
 solution: Experience Manager
 title: Videotid
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,blandade medieuppsättningar
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 5efae314-5f37-4afc-9b9e-3108a8529e50
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
-
 
 # Videotid{#video-time}
 
@@ -71,4 +70,3 @@ color:#BBBBBB;
 width:60px;  
 }
 ```
-
