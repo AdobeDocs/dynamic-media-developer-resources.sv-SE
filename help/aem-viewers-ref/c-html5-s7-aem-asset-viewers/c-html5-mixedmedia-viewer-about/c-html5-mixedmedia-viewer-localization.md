@@ -2,18 +2,17 @@
 description: Visst innehåll som visas i visningsprogrammet för blandade media kan lokaliseras. Detta inkluderar zoomknappar, rotationsknappar, videokontroller, knappen för helskärmsläge av stängningsknappar och rullningsknappar för färgrutor.
 solution: Experience Manager
 title: Lokalisering av användargränssnittselement
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,blandade medieuppsättningar
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 119d8dde-145b-4762-a1ab-882a29e0f6a6
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
 
-
-# Lokalisering av element i användargränssnittet{#localization-of-user-interface-elements}
+# Lokalisering av användargränssnittselement{#localization-of-user-interface-elements}
 
 Visst innehåll som visas i visningsprogrammet för blandade media kan lokaliseras. Detta inkluderar zoomknappar, rotationsknappar, videokontroller, knappen för helskärmsläge av stängningsknappar och rullningsknappar för färgrutor.
 
@@ -183,4 +182,3 @@ Följande SYMBOL stöds:
   </tr> 
  </tbody> 
 </table>
-
