@@ -2,16 +2,15 @@
 description: Swatches.pagemode
 solution: Experience Manager
 title: Swatches.pagemode
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,blandade medieuppsättningar
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: feef9531-043c-44b6-a768-9f7f5b4aed71
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '72'
 ht-degree: 2%
 
 ---
-
 
 # Swatches.pagemode{#swatches-pagemode}
 
