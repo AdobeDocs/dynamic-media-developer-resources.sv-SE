@@ -2,16 +2,15 @@
 description: Anger typ av zoominteraktion.
 solution: Experience Manager
 title: zoomMode
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,blandade medieuppsättningar
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: a399ed5e-acc3-4c45-9c84-9fa572667489
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
-
 
 # zoomMode{#zoommode}
 
