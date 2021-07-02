@@ -2,16 +2,15 @@
 description: JavaScript API-referens för blandad Media Viewer.
 solution: Experience Manager
 title: setAsset
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,blandade medieuppsättningar
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3ad78de9-17a6-40c9-b389-a1f7eed11635
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
-
 
 # setAsset{#setasset}
 
@@ -75,4 +74,3 @@ Skärpemodifierare har lagts till i alla bilder i uppsättningen:
 ```
 <instance>.setAsset("Scene7SharedAssets/Mixed_Media_Set_Sample?op_sharpen=1")
 ```
-
