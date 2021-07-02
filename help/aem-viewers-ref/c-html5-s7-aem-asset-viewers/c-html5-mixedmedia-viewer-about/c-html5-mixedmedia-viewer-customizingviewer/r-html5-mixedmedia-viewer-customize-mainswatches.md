@@ -2,16 +2,15 @@
 description: Huvudfärgrutor består av en rad med miniatyrbilder med valfria rullningsknappar på vänster och höger sida. Rullningsknappar visas bara på skrivbordet om alla miniatyrer inte får plats i behållarens bredd. På mobila enheter, eller om miniatyrbilder får plats i behållarbredden, visas inte rullningsknappar.
 solution: Experience Manager
 title: Huvudfärgrutor
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,blandade medieuppsättningar
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e6ff32bf-f85a-4288-a0e5-34487229a9d9
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
-
 
 # Huvudfärgrutor{#main-swatches}
 
@@ -241,4 +240,3 @@ background-image:url(images/v2/ScrollRightButton_up.png);
  background-image:url(images/v2/ScrollRightButton_disabled.png); 
 }
 ```
-
