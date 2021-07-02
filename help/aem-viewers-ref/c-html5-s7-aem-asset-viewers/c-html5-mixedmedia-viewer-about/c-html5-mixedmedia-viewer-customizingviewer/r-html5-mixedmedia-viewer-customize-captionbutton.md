@@ -2,18 +2,17 @@
 description: Aktiverar och inaktiverar visning av undertexter. Den är inte synlig om bildtextparametern inte har angetts. Du kan använda CSS för att ändra storlek på, skalförändra och placera den här knappen i förhållande till kontrollfältet som innehåller den.
 solution: Experience Manager
 title: Bildtext, knapp
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,blandade medieuppsättningar
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 62809036-f158-402d-a8b2-2b9335e8c079
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
 
-
-# Bildtextknapp{#caption-button}
+# Bildtext, knapp{#caption-button}
 
 Aktiverar och inaktiverar visning av undertexter. Den är inte synlig om bildtextparametern inte har angetts. Du kan använda CSS för att ändra storlek på, skalförändra och placera den här knappen i förhållande till kontrollfältet som innehåller den.
 
@@ -111,4 +110,3 @@ background-image:url(images/v2/ClosedCaptionButton_down.png);
 background-image:url(images/v2/ClosedCaptionButton_disabled.png);  
 }
 ```
-
