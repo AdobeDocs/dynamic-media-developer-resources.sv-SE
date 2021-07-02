@@ -2,16 +2,15 @@
 description: Konfigurationsattribut för visningsprogrammet för blandad media.
 solution: Experience Manager
 title: VideoPlayer.playback
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,blandade medieuppsättningar
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: accf2b56-d7bd-483d-9759-fa38246a0a8f
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
-
 
 # VideoPlayer.playback{#videoplayer-playback}
 
