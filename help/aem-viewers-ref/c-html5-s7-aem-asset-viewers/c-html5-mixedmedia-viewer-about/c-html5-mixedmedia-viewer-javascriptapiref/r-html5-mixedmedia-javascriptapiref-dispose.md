@@ -2,16 +2,15 @@
 description: JavaScript API-referens för blandad Media Viewer.
 solution: Experience Manager
 title: dispose
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,blandade medieuppsättningar
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e09f73a9-a961-4188-b092-f7bbcae4946d
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
-
 
 # dispose{#dispose}
 
@@ -40,4 +39,3 @@ Ingen.
 ```
 <instance>.dispose()
 ```
-
