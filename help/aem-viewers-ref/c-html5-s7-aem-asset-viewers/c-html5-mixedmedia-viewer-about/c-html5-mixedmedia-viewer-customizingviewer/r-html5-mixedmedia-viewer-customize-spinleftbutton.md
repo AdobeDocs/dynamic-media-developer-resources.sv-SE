@@ -2,18 +2,17 @@
 description: Om du klickar eller trycker på den här knappen flyttas bilden till vänster i huvudvyn. Den här knappen visas inte på mobiltelefoner för att spara skärmutrymme. Knappen döljs också när en flerdimensionell rotationsuppsättning används. Du kan ändra storlek på, skalförändra och placera knappen med CSS.
 solution: Experience Manager
 title: Knappen Snurra åt vänster
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,blandade medieuppsättningar
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 0c7ca422-f4ac-4ad1-ab51-8521b4d4b20e
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
 
-
-# Rotera vänster knapp{#spin-left-button}
+# Knappen Snurra åt vänster{#spin-left-button}
 
 Om du klickar eller trycker på den här knappen flyttas bilden till vänster i huvudvyn. Den här knappen visas inte på mobiltelefoner för att spara skärmutrymme. Knappen döljs också när en flerdimensionell rotationsuppsättning används. Du kan ändra storlek på, skalförändra och placera knappen med CSS.
 
@@ -140,4 +139,3 @@ background-image:url(images/v2/SpinLeftButton_light_down.png);
 background-image:url(images/v2/SpinLeftButton_light_disabled.png); 
 }
 ```
-
