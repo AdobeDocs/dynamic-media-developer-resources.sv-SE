@@ -2,16 +2,15 @@
 description: ZoomView.rgn
 solution: Experience Manager
 title: ZoomView.rgn
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,blandade medieuppsättningar
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b5ac5c43-3a02-4163-8683-db08e988223b
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '46'
 ht-degree: 2%
 
 ---
-
 
 # ZoomView.rgn{#zoomview-rgn}
 
