@@ -2,16 +2,15 @@
 description: VideoTime.timepattern
 solution: Experience Manager
 title: VideoTime.timepattern
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,blandade medieuppsättningar
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 0c79b3e2-ac5a-43c3-ac52-8240e7ed3cc1
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
-
 
 # VideoTime.timepattern{#videotime-timepattern}
 
