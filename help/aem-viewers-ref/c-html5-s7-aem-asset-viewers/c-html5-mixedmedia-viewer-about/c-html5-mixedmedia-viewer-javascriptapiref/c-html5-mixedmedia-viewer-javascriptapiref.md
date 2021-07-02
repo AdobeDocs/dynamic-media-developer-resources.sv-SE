@@ -2,18 +2,17 @@
 description: Huvudklassen i Mixed Media Viewer är MixedMediaViewer. Den deklareras i s7viewers namnutrymme. Detta JavaScript-API omfattar konstruktor, metoder och anrop till den här klassen.
 solution: Experience Manager
 title: Javascript-API-referens för blandad Media Viewer
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,blandade medieuppsättningar
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: a557ffab-b9e6-4a7c-89c2-1f7b89cd6209
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
 
-
-# Javascript-API-referens för blandad mediavisare{#javascript-api-reference-for-mixed-media-viewer}
+# Javascript-API-referens för blandad Media Viewer{#javascript-api-reference-for-mixed-media-viewer}
 
 Huvudklassen i Mixed Media Viewer är MixedMediaViewer. Den deklareras i s7viewers namnutrymme. Detta JavaScript-API omfattar konstruktor, metoder och anrop till den här klassen.
 
