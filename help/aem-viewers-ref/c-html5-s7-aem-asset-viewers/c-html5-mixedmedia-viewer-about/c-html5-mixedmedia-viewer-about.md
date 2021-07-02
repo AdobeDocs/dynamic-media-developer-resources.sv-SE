@@ -3,10 +3,10 @@ description: Mixed Media Viewer är ett visningsprogram för media. Det har stö
 keywords: responsiv
 solution: Experience Manager
 title: Blandade media
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Mixa medieuppsättningar
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,blandade medieuppsättningar
 role: Developer,Business Practitioner
 exl-id: 65a54308-f9db-4458-a9c3-ccb1433af43c
-source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
 source-wordcount: '2662'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Konfigurationen och skalningen av visningsprogrammet liknar de andra visningspro
 
 Se [Kommandoreferens som är gemensam för alla visningsprogram - Konfigurationsattribut](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) och [Kommandoreferens som är gemensam för alla visningsprogram - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
-## Interagera med blandad mediavisare {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
+## Interagera med blandad Media Viewer {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
 Mixed Media Viewer har stöd för enkelberörings- och flerberöringsgester som är vanliga i andra mobilprogram. När visningsprogrammet inte kan bearbeta en användares dragningsgest vidarebefordrar det händelsen till webbläsaren för att utföra en inbyggd sidbläddring. Med den här funktionen kan en användare navigera på sidan även om användaren upptar större delen av enhetens skärmområde.
 
@@ -88,7 +88,7 @@ Visningsprogrammet är fullt åtkomligt via tangentbordet.
 
 Se [Tangentbordstillgänglighet och -navigering](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
-## Bädda in blandad mediavisare {#section-6bb5d3c502544ad18a58eafe12a13435}
+## Bädda in blandad Media Viewer {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 Olika webbsidor har olika behov av visningsprogrammets beteende. Ibland innehåller en webbsida en länk som, när användaren klickar på den, öppnar visningsprogrammet i ett separat webbläsarfönster. I andra fall är det nödvändigt att bädda in visningsprogrammet direkt på värdsidan. I det senare fallet kan webbsidan ha en statisk sidlayout, eller använda responsiv design som visas på olika enheter eller för olika webbläsarfönsterstorlekar. För att tillgodose dessa behov har visningsprogrammet stöd för tre primära åtgärdslägen: popup-fönster, inbäddning i fast storlek och responsiv designinbäddning.
 
@@ -398,7 +398,7 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 </html>
 ```
 
-## Inbäddning med Setter-baserad API {#section-af26f0cc2e5140e8a9bfd0c6a841a6d1}
+## Bädda in med Setter-baserat API {#section-af26f0cc2e5140e8a9bfd0c6a841a6d1}
 
 I stället för att använda JSON-baserad initiering kan du använda set-based API och no-args-konstruktor. Om du använder den här API-konstruktorn används inga parametrar och konfigurationsparametrar anges med API-metoderna `setContainerId()`, `setParam()` och `setAsset()` med separata JavaScript-anrop.
 
