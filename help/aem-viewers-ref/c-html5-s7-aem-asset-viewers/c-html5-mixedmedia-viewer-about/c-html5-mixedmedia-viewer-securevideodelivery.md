@@ -2,16 +2,15 @@
 description: HTTPS-videoleverans
 solution: Experience Manager
 title: HTTPS-videoleverans
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,blandade medieuppsättningar
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: f9651405-ebc6-4b1f-8fb6-031d0b295083
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
-
 
 # HTTPS-videoleverans{#https-video-delivery}
 
@@ -58,4 +57,3 @@ Beroende på vilken metod du använder för att publicera Dynamic Media-video i 
    ```
 
    Se även [(Bädda in videon på en webbsida](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic).
-
