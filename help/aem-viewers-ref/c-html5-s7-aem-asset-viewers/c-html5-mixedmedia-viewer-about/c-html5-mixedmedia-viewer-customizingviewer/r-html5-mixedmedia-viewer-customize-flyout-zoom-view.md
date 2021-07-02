@@ -2,16 +2,15 @@
 description: I det textbundna zoomläget består huvudvyn av den statiska bilden, den zoomade bilden som visas i den utfällbara vyn över den statiska bilden och det tips som visas ovanpå den statiska bilden.
 solution: Experience Manager
 title: Utfällbar zoomvy
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,blandade medieuppsättningar
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 46c91d1f-5809-4270-a06d-5068d20a6341
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
-
 
 # Utfällbar zoomvy{#flyout-zoom-view}
 
@@ -125,4 +124,3 @@ opacity: 0.5;
 filter: alpha(opacity = 50); 
 }
 ```
-
