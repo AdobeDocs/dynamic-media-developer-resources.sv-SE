@@ -2,18 +2,17 @@
 description: Huvudvyn består av rotationsbilden när den aktuella resursen är en snurruppsättning.
 solution: Experience Manager
 title: Vyn Snurra
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,blandade medieuppsättningar
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: aafc1299-b09a-4379-bd8f-b564066175bd
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
 
-
-# Snurra vy{#spin-view}
+# Vyn Snurra{#spin-view}
 
 Huvudvyn består av rotationsbilden när den aktuella resursen är en snurruppsättning.
 
@@ -49,4 +48,3 @@ Exempel - om du vill göra rotationsvyn genomskinlig.
  background-color: transparent; 
 }
 ```
-
