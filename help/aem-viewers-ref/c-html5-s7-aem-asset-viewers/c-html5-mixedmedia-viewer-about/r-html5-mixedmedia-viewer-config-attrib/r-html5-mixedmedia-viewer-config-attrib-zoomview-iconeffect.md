@@ -2,16 +2,15 @@
 description: ZoomView.iconeffect
 solution: Experience Manager
 title: ZoomView.iconeffect
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,blandade medieuppsättningar
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 40b7887d-d525-4816-8c72-9ef8f5948de3
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '126'
 ht-degree: 1%
 
 ---
-
 
 # ZoomView.iconeffect{#zoomview-iconeffect}
 
