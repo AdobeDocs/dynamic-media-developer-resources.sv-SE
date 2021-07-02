@@ -2,16 +2,15 @@
 description: Swatches.partialswatches
 solution: Experience Manager
 title: Swatches.partialswatches
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,blandade medieuppsättningar
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 1ec5fe6f-6257-4f5e-90eb-bbd068b37e3d
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: '43'
 ht-degree: 4%
 
 ---
-
 
 # Swatches.partialswatches{#swatches-partialswatches}
 
