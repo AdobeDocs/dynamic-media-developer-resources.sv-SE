@@ -2,16 +2,15 @@
 description: JavaScript API-referens för blandad Media Viewer.
 solution: Experience Manager
 title: setHandlers
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,blandade medieuppsättningar
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e30f1b73-1dba-4d4c-9e90-f343ca404550
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
-
 
 # setHandlers{#sethandlers}
 
@@ -21,7 +20,7 @@ JavaScript API-referens för blandad Media Viewer.
 
 Anger noll eller flera callback-hanterare. Ett anrop till den här metoden skriver helt över händelsehanterare som tidigare tilldelats för den visningsprograminstansen. Måste anropas före `init()`.
 
-## Parametern {#section-0cc9961784d04eb3b7d50011309b0119}
+## Parameter {#section-0cc9961784d04eb3b7d50011309b0119}
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
@@ -45,4 +44,3 @@ Ingen.
 } 
 })
 ```
-
