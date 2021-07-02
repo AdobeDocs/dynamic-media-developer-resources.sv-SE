@@ -2,18 +2,17 @@
 description: Namnutrymme för visningsprogramsDK
 solution: Experience Manager
 title: Namnutrymme för visningsprogramsDK
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,blandade medieuppsättningar
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 570f8eee-a7dd-40aa-b732-03f97d2544c0
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
 
-
-# SDK-namnområde för visningsprogram{#viewer-sdk-namespace}
+# Namnutrymme för visningsprogramsDK{#viewer-sdk-namespace}
 
 Visningsprogrammet är byggt av många SDK-komponenter för visningsprogrammet. I de flesta fall behöver webbsidan inte interagera direkt med SDK-komponenternas API. alla vanliga behov behandlas i visningsprogrammets API.
 
@@ -44,4 +43,3 @@ The same code for the viewer served from Dynamic Media Classic looks like the fo
 } 
 });
 ```
-
