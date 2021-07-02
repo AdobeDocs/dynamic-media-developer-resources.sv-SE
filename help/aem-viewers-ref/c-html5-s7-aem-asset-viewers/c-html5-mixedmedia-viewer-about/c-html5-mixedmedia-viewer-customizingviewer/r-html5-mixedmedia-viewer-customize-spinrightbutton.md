@@ -2,16 +2,15 @@
 description: Om du klickar eller trycker på den här knappen flyttas bilden till höger i huvudvyn. Den här knappen visas inte på mobiltelefoner för att spara skärmutrymme. Knappen döljs också när en flerdimensionell rotationsuppsättning används. Du kan ändra storlek på, skalförändra och placera knappen med CSS.
 solution: Experience Manager
 title: Högerknapp för snurra
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,blandade medieuppsättningar
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2e70ad27-9fce-4a18-b856-08aa6dbec3f2
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
-
 
 # Högerknapp för snurra{#spin-right-button}
 
@@ -140,4 +139,3 @@ background-image:url(images/v2/SpinRightButton_light_over.png);
  background-image:url(images/v2/SpinRightButton_light_disabled.png); 
 }
 ```
-
