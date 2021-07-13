@@ -3,15 +3,14 @@ description: Sökväg till makrodefinitionsfil. Anger filen som innehåller makr
 solution: Experience Manager
 title: Makrofil
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 5b926246-54c5-40ca-a8d3-d1a1411d8931
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '71'
 ht-degree: 0%
 
 ---
-
 
 # Makrofil{#macrofile}
 
