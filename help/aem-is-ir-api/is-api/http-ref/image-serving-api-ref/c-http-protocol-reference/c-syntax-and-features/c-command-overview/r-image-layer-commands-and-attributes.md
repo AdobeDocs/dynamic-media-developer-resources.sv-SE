@@ -3,17 +3,16 @@ description: Dessa kommandon gäller för bildlager, förutom de vanliga lagerko
 solution: Experience Manager
 title: Bildlagerkommandon
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 142e3fbb-93d6-4072-8e49-b7a7484106d8
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '42'
 ht-degree: 0%
 
 ---
 
-
-# Kommandon för bildlager{#image-layer-commands}
+# Bildlagerkommandon{#image-layer-commands}
 
 Dessa kommandon gäller för bildlager, förutom de vanliga lagerkommandona.
 
@@ -23,4 +22,3 @@ Dessa kommandon gäller för bildlager, förutom de vanliga lagerkommandona.
   <td class="stentry"> <p>Anger källbilden. </p></td> 
  </tr> 
 </table>
-
