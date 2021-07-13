@@ -3,15 +3,14 @@ description: Upprepningsbara texturer är bland annat inre och yttre material, t
 solution: Experience Manager
 title: Upprepningsbara texturer
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 3693498b-994a-460a-8b2e-780a1482d37a
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
-
 
 # Upprepningsbara texturer{#repeatable-textures}
 
@@ -88,4 +87,3 @@ Utöver dessa grundläggande attribut stöder upprepningsbara texturer följande
   </tr> 
  </tbody> 
 </table>
-
