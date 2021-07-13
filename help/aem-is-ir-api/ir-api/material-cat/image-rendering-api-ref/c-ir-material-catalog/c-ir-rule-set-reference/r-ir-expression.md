@@ -3,15 +3,14 @@ description: Mönsterelement för reguljära uttryck. Valfritt i <rule>-element.
 solution: Experience Manager
 title: uttryck
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 5fb95e93-cf14-4042-a338-d9d7df6e3b58
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
-
 
 # uttryck{#expression}
 
