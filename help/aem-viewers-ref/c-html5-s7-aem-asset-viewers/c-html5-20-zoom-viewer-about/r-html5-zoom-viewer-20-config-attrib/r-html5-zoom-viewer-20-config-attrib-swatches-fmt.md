@@ -2,16 +2,15 @@
 description: Swatches.fmt
 solution: Experience Manager
 title: Swatches.fmt
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
+role: Developer,User
+exl-id: 8b47839a-ef3b-45ae-8e8d-5c9391d71d44
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '82'
 ht-degree: 1%
 
 ---
-
 
 # Swatches.fmt{#swatches-fmt}
 
