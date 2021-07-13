@@ -3,15 +3,14 @@ description: Konfigurationsattribut definieras som attribut direkt i ett IMG-ele
 solution: Experience Manager
 title: Kommandoreferens - Konfigurationsattribut
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 8cc645f8-03fe-4ac7-b23f-36536b60fdf6
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
-
 
 # Kommandoreferens - Konfigurationsattribut{#command-reference-configuration-attributes}
 
@@ -100,4 +99,3 @@ Det associerade bildelementet skickar en `s7responsiveViewer`-h√§ndelse under k√
            } 
         });
 ```
-
