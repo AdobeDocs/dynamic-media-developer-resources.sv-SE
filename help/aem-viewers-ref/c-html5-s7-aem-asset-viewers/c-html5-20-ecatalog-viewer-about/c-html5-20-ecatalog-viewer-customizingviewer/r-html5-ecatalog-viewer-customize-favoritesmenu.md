@@ -2,18 +2,17 @@
 description: Listrutan Favoriter visas i kontrollfältet. Den består av en knapp och en panel som utökas när en användare klickar eller trycker på en knapp. Panelen innehåller enskilda favoritverktyg.
 solution: Experience Manager
 title: Favoriter-menyn
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+role: Developer,User
+exl-id: e3c90320-b6fc-4a43-b75f-d39234b1e73c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
 
-
-# Favoritmeny{#favorites-menu}
+# Favoriter-menyn{#favorites-menu}
 
 Listrutan Favoriter visas i kontrollfältet. Den består av en knapp och en panel som utökas när en användare klickar eller trycker på en knapp. Panelen innehåller enskilda favoritverktyg.
 
@@ -127,4 +126,3 @@ Exempel - ange att en panel ska ha en genomskinlig färg.
  background-color: transparent; 
 }
 ```
-
