@@ -3,9 +3,9 @@ description: Viewer SDK innehåller en uppsättning JavaScript-baserade komponen
 solution: Experience Manager
 title: Självstudiekurs om SDK för visningsprogram
 feature: Dynamic Media Classic,visningsprogram,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 3a798595-6c65-4a12-983d-3cdc53830d28
-source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Den här självstudiekursen innehåller följande åtgärder som du kan använda
 * [Lägga till knappar i visningsprogrammet](c-tutorial.md#section-1fc334fa0d2b47eb9cdad461725c07be)
 * [Konfigurera färgrutorna lodrätt](c-tutorial.md#section-91a8829d5b5a4d45a35b7faeb097fcc9)
 
-## Hämta den senaste SDK:n för visningsprogram från Adobe Developer Connection {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
+## Hämta den senaste SDK-versionen av visningsprogrammet från Adobe Developer Connection {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
 
 1. Hämta den senaste SDK:n för visningsprogram från Adobe Developer Connection <!-- SDK NO LONGER AVAILABLE TO DOWNLOAD;DOUBLE CHECK WITH AMIT. THIS ENTIRE TOPIC IS LIKELY OBSOLETE. [here](https://marketing.adobe.com/developer/devcenter/scene7/show) -->.
 
@@ -119,7 +119,7 @@ Den här självstudiekursen innehåller följande åtgärder som du kan använda
 
 Du kommer nu att lägga till format i visningsprogrammet.
 
-## Lägger till stil i visningsprogrammet {#section-3783125360a1425eae5a5a334867cc32}
+## Lägga till format i visningsprogrammet {#section-3783125360a1425eae5a5a334867cc32}
 
 1. Du kan lägga till några grundläggande format för det här helsidesvisningsprogrammet som du skapar.
 
@@ -144,7 +144,7 @@ Du kommer nu att lägga till format i visningsprogrammet.
 
 Du kommer nu att inkludera komponenterna `Container` och `ZoomView`.
 
-## Inkluderar Container och ZoomView {#section-1a01730663154a508b88cc40c6f35539}
+## Inklusive Container och ZoomView {#section-1a01730663154a508b88cc40c6f35539}
 
 1. Skapa ett faktiskt visningsprogram genom att inkludera komponenterna `Container` och `ZoomView`.
 
