@@ -2,16 +2,15 @@
 description: Sökknapp
 solution: Experience Manager
 title: Sökknapp
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+role: Developer,User
+exl-id: ede7d887-526b-4e00-9885-166dc37627aa
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
-
 
 # Sökknapp{#search-button}
 
@@ -103,4 +102,3 @@ Exempel - om du vill ställa in en sökknapp som är 28 x 28 pixlar och visar ol
  background-image:url(images/v2/Search_dark_disabled.png);  
 }
 ```
-
