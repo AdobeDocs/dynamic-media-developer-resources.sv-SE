@@ -3,15 +3,14 @@ description: Rotera bild. Roterar bild-, text- eller enfärgslagret med den angi
 solution: Experience Manager
 title: rotera
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 9f1b2d6f-4e67-4530-9ec6-870b97687ce0
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
-
 
 # rotera{#rotate}
 
