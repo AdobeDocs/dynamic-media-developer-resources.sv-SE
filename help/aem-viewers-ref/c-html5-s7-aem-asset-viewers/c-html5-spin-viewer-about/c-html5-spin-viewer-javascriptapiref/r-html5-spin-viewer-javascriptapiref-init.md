@@ -2,16 +2,15 @@
 description: JavaScript API-referens för Spin Viewer.
 solution: Experience Manager
 title: init
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,snurra uppsättningar
+role: Developer,User
+exl-id: 5217a02a-6092-4cb9-b4fb-f959cdc85a6e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
-
 
 # init{#init}
 
@@ -38,4 +37,3 @@ Ingen.
 ```
 <instance>.init()
 ```
-
