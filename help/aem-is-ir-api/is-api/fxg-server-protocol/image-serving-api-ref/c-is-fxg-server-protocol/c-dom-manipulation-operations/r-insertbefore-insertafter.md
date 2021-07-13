@@ -3,15 +3,14 @@ description: Ange XML före eller efter en nod.
 solution: Experience Manager
 title: insertBefore,insertAfter
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 20d27fa7-e98a-4f85-9e48-5fa9ad3102b7
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '58'
 ht-degree: 0%
 
 ---
-
 
 # insertBefore,insertAfter{#insertbefore-insertafter}
 
