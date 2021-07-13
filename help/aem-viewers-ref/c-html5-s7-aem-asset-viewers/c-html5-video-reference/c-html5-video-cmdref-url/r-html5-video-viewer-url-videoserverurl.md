@@ -2,16 +2,15 @@
 description: URL-kommando för Video Viewer.
 solution: Experience Manager
 title: videoServerUrl
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Video
+role: Developer,User
+exl-id: 945c32e0-a67b-4c27-b661-26510615d757
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '58'
 ht-degree: 1%
 
 ---
-
 
 # videoServerUrl{#videoserverurl}
 
@@ -41,4 +40,3 @@ Valfritt. Krävs inte för standardanvändning av SaaS.
 ```
 videoServerUrl=http://s7d1.scene7.com/is/content/
 ```
-
