@@ -2,16 +2,15 @@
 description: Om du klickar eller trycker på den här knappen flyttas användaren till föregående sida i katalogen. Den här knappen visas i huvudkontrollfältet. Den här knappen visas inte på mobiltelefoner för att spara skärmutrymme. Du kan ändra storlek, skal och position för knappen med hjälp av CSS.
 solution: Experience Manager
 title: Knappen Föregående sida
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+role: Developer,User
+exl-id: cc0e8c18-f9c1-4451-9fbe-3b082f78a7ec
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
-
 
 # Knappen Föregående sida{#previous-page-button}
 
@@ -96,4 +95,3 @@ background-image:url(images/v2/ToolBarLeftButton_dark_down.png);
 background-image:url(images/v2/ToolBarLeftButton_dark_disabled.png); 
 }
 ```
-
