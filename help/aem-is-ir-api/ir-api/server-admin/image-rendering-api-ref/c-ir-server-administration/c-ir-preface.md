@@ -3,15 +3,14 @@ description: I den här dokumentationen beskrivs serveradministrationsproblem oc
 solution: Experience Manager
 title: Prefix för serveradministration
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,Administrator,User
+exl-id: 65fc3510-3d47-4650-bf89-322b517dc004
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
-
 
 # Prefix för serveradministration{#server-administration-preface}
 
@@ -51,4 +50,3 @@ Objekt som beskrivs i den här dokumentationen har ofta följande objekttyper so
   <td class="stentry"> <p>Ett namn med prefixet 'default:::' refererar till ett attribut i standardbildkatalogen. </p></td> 
  </tr> 
 </table>
-
