@@ -3,15 +3,14 @@ description: Innehåller konfigurationsinställningar för serveransvarig.
 solution: Experience Manager
 title: SupervisorRegistry.xml
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,Administrator,User
+exl-id: cc6a16fb-fd70-431f-aad6-adb99d4da062
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
-
 
 # SupervisorRegistry.xml{#supervisorregistry-xml}
 
@@ -68,4 +67,3 @@ Starta om bildservern när du har redigerat den här filen för att se till att 
     </servers>
 </supervisor>
 ```
-
