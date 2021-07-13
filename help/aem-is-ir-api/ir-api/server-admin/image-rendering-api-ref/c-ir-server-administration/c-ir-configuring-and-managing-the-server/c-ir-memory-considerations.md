@@ -3,15 +3,14 @@ description: Mängden minne som används för bildåtergivning kan variera mycke
 solution: Experience Manager
 title: Minnesöverväganden
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,Administrator,User
+exl-id: 62eaa41c-a61c-4bcd-8dd9-9c3423bf82ef
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
-
 
 # Minnesöverväganden{#memory-considerations}
 
