@@ -2,16 +2,15 @@
 description: TableOfContents.maxitems
 solution: Experience Manager
 title: TableOfContents.maxitems
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+role: Developer,User
+exl-id: c2e559d9-96c7-4d0f-8aa6-a60d9e42c7c4
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '67'
 ht-degree: 1%
 
 ---
-
 
 # TableOfContents.maxitems{#tableofcontents-maxitems}
 
