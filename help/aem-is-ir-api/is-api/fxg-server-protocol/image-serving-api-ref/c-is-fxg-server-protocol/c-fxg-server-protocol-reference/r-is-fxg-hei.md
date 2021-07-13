@@ -3,15 +3,14 @@ description: Visa höjd. Anger svarsbildens höjd.
 solution: Experience Manager
 title: hei
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: dcc9311d-4157-490b-9fc4-47060ddb0e37
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
-
 
 # hei{#hei}
 
@@ -48,4 +47,3 @@ Om inget format anges återges bilden som en SWF-fil. I det här fallet har höj
 * GIF-alpha
 * TIF-alfa
 * PNG-alfa
-
