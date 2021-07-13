@@ -3,15 +3,14 @@ description: Information om Digimarc-bilder. Aktiverar Digimarc-inbäddning och 
 solution: Experience Manager
 title: DigimarcInfo
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 87f4d8f0-02b9-4511-9151-89c58116c78d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '235'
 ht-degree: 7%
 
 ---
-
 
 # DigimarcInfo{#digimarcinfo}
 
@@ -46,7 +45,7 @@ Fyra heltalsvärden, avgränsade med kommatecken.
    <td> <p>Bild-ID. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>Transaktions-ID. </p> </td> 
   </tr> 
   <tr> 
@@ -71,7 +70,7 @@ Fyra heltalsvärden, avgränsade med kommatecken.
    <td> <p>- </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>Kopieringsskyddad. </p> </td> 
   </tr> 
   <tr> 
@@ -79,7 +78,7 @@ Fyra heltalsvärden, avgränsade med kommatecken.
    <td> <p>Begränsat. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>Kopieringsskyddad, begränsad. </p> </td> 
   </tr> 
   <tr> 
@@ -118,7 +117,7 @@ Tolkningen av `*`val1`*` och `*`val2`*` beror på `*`typ`*`:
    <td> <p>Används inte. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>Används inte. </p> </td> 
    <td> <p>Används inte. </p> </td> 
   </tr> 
@@ -128,7 +127,7 @@ Tolkningen av `*`val1`*` och `*`val2`*` beror på `*`typ`*`:
    <td> <p>Används inte. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>Transaktions-ID. </p> </td> 
    <td> <p>Används inte. </p> </td> 
   </tr> 
