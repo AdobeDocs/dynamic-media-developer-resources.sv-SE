@@ -3,15 +3,14 @@ description: Dessa kommandon gäller för bild-, text- och enfärgslager. De är
 solution: Experience Manager
 title: Vanliga åtgärder
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: f30a9653-7aed-4233-8361-18ca6561d420
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
-
 
 # Vanliga åtgärder{#common-operations}
 
@@ -83,4 +82,3 @@ Dessa kommandon gäller för bild-, text- och enfärgslager. De är också anvä
   <td class="stentry"> <p>Anger inverterade klippformer för lagret. </p></td> 
  </tr> 
 </table>
-
