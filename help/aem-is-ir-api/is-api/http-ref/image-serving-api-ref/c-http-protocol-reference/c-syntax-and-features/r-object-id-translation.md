@@ -3,15 +3,14 @@ description: Image Serving är en mekanism som översätter externa objekt-ID:n 
 solution: Experience Manager
 title: Översättning av objekt-ID
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 7a3bd6a1-2ad4-4da2-944c-489b7d18fdc1
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '703'
 ht-degree: 0%
 
 ---
-
 
 # Översättning av objekt-ID{#object-id-translation}
 
@@ -29,7 +28,7 @@ Programmet kan bara skrivas med globala objekt-ID:n, och i stället för språks
 
 Alla referenser till poster i bildkataloger, SVG-filer och statiska innehållskataloger beaktas för översättningsteckensnitt och ICC-profilreferenser översätts inte. Förutom *`object`* i sökvägen [!DNL /is/image] och [!DNL /is/static requests], är dessa kommandon och katalogattribut föremål för ID-översättning: `src=`, `mask=`, `template=`, `defaultImage=`, `attribute::DefaultImage` och `attribute::Watermark`.
 
-## ID-översättningskartan {#section-9e417b352c314dfe94e831fdd62cddc8}
+## Översättningskarta för ID {#section-9e417b352c314dfe94e831fdd62cddc8}
 
 `attribute::LocaleMap` definierar reglerna som används av servern för att fastställa ID:t för det lokaliserade innehållet, givet som indata till det generiska objektet ID och  `locale=` värdet.
 
