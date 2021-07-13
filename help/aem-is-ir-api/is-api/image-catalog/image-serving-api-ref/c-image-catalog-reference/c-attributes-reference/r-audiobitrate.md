@@ -3,15 +3,14 @@ description: Bithastighet för ljud. Långt värde som representerar ljudbithast
 solution: Experience Manager
 title: AudioBitRate
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 7aa411e9-3f26-4f2a-b908-546993adf743
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '68'
 ht-degree: 0%
 
 ---
-
 
 # AudioBitRate{#audiobitrate}
 
