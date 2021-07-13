@@ -3,17 +3,16 @@ description: Stöd för hotspot- och bildscheman
 solution: Experience Manager
 title: Stöd för hotspot- och bildscheman
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: b441e241-809e-47cf-a309-57283bd0532b
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
 
-# Stöd för aktiveringspunkter och bildscheman{#hotspot-and-image-maps-support}
+# Stöd för hotspot- och bildscheman{#hotspot-and-image-maps-support}
 
 Visningsprogrammet har stöd för återgivning av hotspot-ikoner och bildschemaområden ovanpå huvudvyn. Utseendet på hotspot-ikoner och -regioner styrs via CSS enligt beskrivningen i avsnittet Anpassa hotspot-områden och bildscheman.
 
