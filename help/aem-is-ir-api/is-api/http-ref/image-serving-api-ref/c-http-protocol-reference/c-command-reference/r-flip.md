@@ -3,17 +3,16 @@ description: Vänd lager. Vänder lagret vågrätt, lodrätt eller både och eft
 solution: Experience Manager
 title: vända
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 451d8b4d-0f22-41f3-ac86-435797c23ea3
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
 
-
-# flip{#flip}
+# vända{#flip}
 
 Vänd lager. Vänder lagret vågrätt, lodrätt eller både och efter att beskärning= har använts och innan roate= och extend= har använts.
 
