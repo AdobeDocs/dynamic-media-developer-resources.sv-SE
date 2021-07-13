@@ -3,15 +3,14 @@ description: Det finns inget standardvärde.
 solution: Experience Manager
 title: Standard
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: a78f44fc-d5ec-485d-a7b5-a8baf06f50a5
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '43'
+source-wordcount: '40'
 ht-degree: 0%
 
 ---
-
 
 # Standard{#default}
 
