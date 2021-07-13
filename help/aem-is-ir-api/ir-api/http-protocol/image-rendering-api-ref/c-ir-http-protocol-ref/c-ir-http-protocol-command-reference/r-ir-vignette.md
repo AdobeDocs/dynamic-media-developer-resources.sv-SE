@@ -3,17 +3,16 @@ description: Vinjettfil. Anger vilken vinjett som ska användas för denna begä
 solution: Experience Manager
 title: vinjettering
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 8419d68d-7579-4e62-abbd-7dc0a736ae23
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
 
-
-# vinjett{#vignette}
+# vinjettering{#vignette}
 
 Vinjettfil. Anger vilken vinjett som ska användas för denna begäran.
 
