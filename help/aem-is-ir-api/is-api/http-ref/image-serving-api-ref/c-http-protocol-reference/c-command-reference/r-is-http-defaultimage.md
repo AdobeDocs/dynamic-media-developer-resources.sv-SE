@@ -3,15 +3,14 @@ description: Standardsvarsbild. Anger den bild- eller katalogpost som ska använ
 solution: Experience Manager
 title: defaultImage
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 741833b5-e858-4aa5-96c1-bb06539deef3
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
-
 
 # defaultImage{#defaultimage}
 
