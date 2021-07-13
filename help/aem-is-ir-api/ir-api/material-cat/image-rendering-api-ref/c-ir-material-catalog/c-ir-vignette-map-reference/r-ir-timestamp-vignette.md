@@ -3,17 +3,16 @@ description: Tidsstämpel för ändring. Anger datum/tid då denna vinjettering 
 solution: Experience Manager
 title: TimeStamp
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 6a163727-9ac6-43ca-9afd-169ac6306124
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
 
-
-# Tidsstämpel{#timestamp}
+# TimeStamp{#timestamp}
 
 Tidsstämpel för ändring. Anger datum/tid då denna vinjettering senast ändrades.
 
