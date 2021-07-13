@@ -3,17 +3,16 @@ description: Bildåtergivning har stöd för en enkel förbearbetningsmekanism f
 solution: Experience Manager
 title: Referens för regeluppsättning
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 194600d0-72d9-47fb-8525-598beb2ce17d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
 
-
-# Regeluppsättningsreferens{#rule-set-reference}
+# Referens för regeluppsättning{#rule-set-reference}
 
 Bildåtergivning har stöd för en enkel förbearbetningsmekanism för begäranden som baseras på matchnings- och ersättningsregler för reguljära uttryck.
 
@@ -54,7 +53,7 @@ Ett `<ruleset>`-element som innehåller valfritt antal `<rule>`-element tillåts
 
 Innehållet i regelfiler för förbearbetning är skiftlägeskänsligt.
 
-## URL-förbehandling {#section-737a38d1b8c746f995e64fa6cfbcec87}
+## Förbehandling av URL {#section-737a38d1b8c746f995e64fa6cfbcec87}
 
 Innan någon annan bearbetning utförs, analyseras en inkommande HTTP-begäran delvis för att avgöra vilken materialkatalog som ska användas. När katalogen har identifierats tillämpas regeluppsättningen för den valda katalogen (eller standardkatalogen, om ingen specifik katalog har identifierats).
 
