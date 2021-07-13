@@ -3,15 +3,14 @@ description: I kommandosekvensen URL eller katalogmodifierare börjar en lagerde
 solution: Experience Manager
 title: Ange lager
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: bedd5dac-7577-4c8a-9dc3-43aa4438e53a
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
-
 
 # Ange lager{#specifying-layers}
 
