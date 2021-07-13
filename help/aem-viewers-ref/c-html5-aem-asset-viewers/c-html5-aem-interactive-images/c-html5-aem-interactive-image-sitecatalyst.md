@@ -2,13 +2,12 @@
 description: Stöd för analysspårning
 solution: Experience Manager
 title: Stöd för analysspårning
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
-role: Developer,Business Practitioner,Data Engineer,Data Architect
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva bilder
+role: Developer,User,Data Engineer,Data Architect
 exl-id: 17e8937f-e328-46a4-b7d9-1fd39ab2e8bd
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
