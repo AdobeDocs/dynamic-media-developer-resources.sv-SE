@@ -3,15 +3,14 @@ description: Svara i bildformat. Anger bildkodningsformatet för bilddata som sk
 solution: Experience Manager
 title: fmt
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 4f9ce78007cb6ad8def15397aa2224cd7675bb0e
+role: Developer,User
+exl-id: 691c5421-0754-45ce-b454-dd0ceff47a58
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
-
 
 # fmt{#fmt}
 
