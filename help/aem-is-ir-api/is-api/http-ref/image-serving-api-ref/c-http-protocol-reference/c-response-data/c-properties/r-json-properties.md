@@ -3,15 +3,14 @@ description: Om jsonp anges som svarsformat formateras svarsdata med JSONP (Java
 solution: Experience Manager
 title: JSONP-egenskaper
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 2294eb37-b362-438f-94bc-eb24ca641752
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '208'
 ht-degree: 0%
 
 ---
-
 
 # JSONP-egenskaper{#jsonp-properties}
 
