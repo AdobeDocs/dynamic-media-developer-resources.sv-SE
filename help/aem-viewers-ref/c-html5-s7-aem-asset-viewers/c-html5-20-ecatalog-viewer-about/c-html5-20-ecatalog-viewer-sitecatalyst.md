@@ -2,22 +2,21 @@
 description: eCatalog Viewer har stöd för att spåra Adobe Analytics direkt.
 solution: Experience Manager
 title: Stöd för Adobe Analytics tracking
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner,Data Engineer,Data Architect
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+role: Developer,User,Data Engineer,Data Architect
+exl-id: 714e8001-06dc-49b1-838f-ab9772f2527c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
-
 
 # Stöd för Adobe Analytics tracking{#support-for-adobe-analytics-tracking}
 
 eCatalog Viewer har stöd för att spåra Adobe Analytics direkt.
 
-## Spåra {#section-ba994f079d0343c8ae48adffaa3195a3} direkt
+## Spåra direkt {#section-ba994f079d0343c8ae48adffaa3195a3}
 
 eCatalog Viewer har stöd för [!DNL Adobe Analytics]-spårning som är färdig. Om du vill aktivera spårning skickar du rätt namn på företagets förinställning som `config2`-parameter.
 
@@ -93,4 +92,3 @@ Visningsprogrammet spårar följande SDK-användarhändelser:
   </tr> 
  </tbody> 
 </table>
-
