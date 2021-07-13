@@ -2,18 +2,17 @@
 description: Placeringen av knappen Ta bort favorit hanteras helt av menyn Favoriter.
 solution: Experience Manager
 title: Knappen Ta bort favorit
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+role: Developer,User
+exl-id: 4bf4b055-598c-41b9-bc98-c51926c4785f
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
 
-
-# Ta bort favoritknapp{#remove-favorite-button}
+# Knappen Ta bort favorit{#remove-favorite-button}
 
 Placeringen av knappen Ta bort favorit hanteras helt av menyn Favoriter.
 
@@ -86,4 +85,3 @@ background-image:url(images/v2/RemoveFavoriteButton_dark_over.png);
 background-image:url(images/v2/RemoveFavoriteButton_dark_disabled.png); 
 }
 ```
-
