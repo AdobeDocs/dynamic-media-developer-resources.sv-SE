@@ -3,15 +3,14 @@ description: Materialytans grovhet. Anger materialytans relativa grovhet.
 solution: Experience Manager
 title: grov
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 8903b51c-c7d4-460f-8f28-00053eac9d6e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
-
 
 # grov{#rough}
 
