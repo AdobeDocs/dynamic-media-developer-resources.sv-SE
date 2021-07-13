@@ -3,15 +3,14 @@ description: Zooma måldata. Inga eller fler zoommålsegenskaper, som kan använ
 solution: Experience Manager
 title: Målgrupper
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: b882ba01-a1ef-4179-95c7-964c2578aad1
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
-
 
 # Målgrupper{#targets}
 
