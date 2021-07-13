@@ -3,15 +3,14 @@ description: Zoomningen anger data från bildkatalogen som mål. Returnerar zoom
 solution: Experience Manager
 title: mål
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 58f7b1ad-8762-4d23-b320-6f69e75ecf63
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
-
 
 # mål{#targets}
 
