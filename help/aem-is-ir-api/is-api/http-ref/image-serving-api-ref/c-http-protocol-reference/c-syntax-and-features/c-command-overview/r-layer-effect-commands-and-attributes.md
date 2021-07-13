@@ -3,17 +3,16 @@ description: Dessa kommandon kan användas för att definiera lagereffekter som 
 solution: Experience Manager
 title: Effektkommandon för lager
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 483b1f24-9cd2-45e0-9d18-0dc0fbe8abcf
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
 
-
-# Kommandon för lagereffekt{#layer-effect-commands}
+# Effektkommandon för lager{#layer-effect-commands}
 
 Dessa kommandon kan användas för att definiera lagereffekter som skugg- och glödeffekter. Effektlager ignorerar alla andra kommandon.
 
