@@ -2,16 +2,15 @@
 description: Hämta
 solution: Experience Manager
 title: Hämta
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+role: Developer,User
+exl-id: fb01371b-0aa6-4591-8523-120c217cf45d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
-
 
 # Hämta{#download}
 
@@ -82,4 +81,3 @@ background-image:url(images/v2/Dowmload_dark_down.png);
 background-image:url(images/v2/Dowmload_dark_disabled.png); 
 }
 ```
-
