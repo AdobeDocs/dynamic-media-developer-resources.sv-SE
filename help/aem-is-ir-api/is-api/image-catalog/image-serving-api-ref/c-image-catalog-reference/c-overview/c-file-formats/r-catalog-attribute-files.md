@@ -3,15 +3,14 @@ description: Katalogattributfiler kan ha vilket namn som helst, men måste ha et
 solution: Experience Manager
 title: Katalogattributfiler
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 79d9439d-7749-4ae1-aa73-e88e01cf7555
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
-
 
 # Katalogattributfiler{#catalog-attribute-files}
 
