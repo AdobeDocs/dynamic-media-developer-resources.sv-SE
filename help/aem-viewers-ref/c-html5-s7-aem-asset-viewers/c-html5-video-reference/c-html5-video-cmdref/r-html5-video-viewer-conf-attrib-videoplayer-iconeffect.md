@@ -2,16 +2,15 @@
 description: Konfigurationsattribut för Video Viewer.
 solution: Experience Manager
 title: VideoPlayer.iconeffect
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Video
+role: Developer,User
+exl-id: b283b495-ee28-4f9d-ad4d-b14ac2f9a1a2
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '122'
 ht-degree: 1%
 
 ---
-
 
 # VideoPlayer.iconeffect{#videoplayer-iconeffect}
 
@@ -53,4 +52,3 @@ Valfritt.
 ```
 iconeffect=0
 ```
-
