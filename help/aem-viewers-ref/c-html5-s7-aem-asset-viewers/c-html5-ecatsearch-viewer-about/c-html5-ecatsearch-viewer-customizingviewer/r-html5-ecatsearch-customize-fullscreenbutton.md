@@ -2,16 +2,15 @@
 description: Gör att visningsprogrammet går in i eller avslutar helskärmsläget när användaren klickar på det. Den här knappen visas i huvudkontrollfältet. Den här knappen visas inte om visningsprogrammet fungerar i popup-läge och systemet inte stöder helskärmsläge. Du kan ändra storlek, skal och placera knappen efter CSS.
 solution: Experience Manager
 title: Helskärmsknapp
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+role: Developer,User
+exl-id: a4b6fdc0-1047-46c6-bf77-4536819b7fcd
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
-
 
 # Helskärmsknapp{#full-screen-button}
 
@@ -108,4 +107,3 @@ background-image:url(images/exitFullBtn_down.png);
 background-image:url(images/exitFullBtn_disabled.png); } 
 }
 ```
-
