@@ -3,15 +3,14 @@ description: För att använda Image Serving krävs en licensnyckel för Dynamic
 solution: Experience Manager
 title: Licenser
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,User
+exl-id: dea93601-28f4-439d-9443-267bb8d8eefc
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
-
 
 # Licenser{#licensing}
 
