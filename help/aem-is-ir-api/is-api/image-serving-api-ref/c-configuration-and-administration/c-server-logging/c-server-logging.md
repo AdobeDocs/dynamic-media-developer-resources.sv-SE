@@ -3,15 +3,14 @@ description: Alla loggfiler skrivs till samma loggmapp som anges med TC-kataloge
 solution: Experience Manager
 title: Serverloggning
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,Administrator,User
+exl-id: 5be30dd6-e540-4189-9379-7465ac7198ce
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
-
 
 # Serverloggning{#server-logging}
 
