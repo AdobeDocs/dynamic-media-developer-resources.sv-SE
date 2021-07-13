@@ -3,17 +3,16 @@ description: Färg och tjocklek på plattans skala. Simulerar murbruk för keram
 solution: Experience Manager
 title: groda
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 6647b459-11d2-47e4-9033-3a740f01a623
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
 
-
-# grout{#grout}
+# groda{#grout}
 
 Färg och tjocklek på plattans skala. Simulerar murbruk för keramiska och naturliga stenplattor.
 
