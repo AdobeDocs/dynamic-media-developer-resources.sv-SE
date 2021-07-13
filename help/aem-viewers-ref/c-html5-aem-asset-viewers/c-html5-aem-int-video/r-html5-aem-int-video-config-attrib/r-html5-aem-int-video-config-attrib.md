@@ -2,13 +2,12 @@
 description: Konfigurationsattributdokumentation för Interactive Video Viewer.
 solution: Experience Manager
 title: Kommandoreferens - Konfigurationsattribut
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
+role: Developer,User
 exl-id: 80b7971c-82dc-47a2-adde-9e061a0f856d
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
