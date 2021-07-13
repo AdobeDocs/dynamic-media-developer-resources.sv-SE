@@ -3,15 +3,14 @@ description: Regelelement för begäran. En eller flera regler är valfria i <ru
 solution: Experience Manager
 title: regel
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 4fabd469-c80c-422a-80b0-3d31ce191d58
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '302'
 ht-degree: 2%
 
 ---
-
 
 # regel{#rule}
 
