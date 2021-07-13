@@ -2,16 +2,15 @@
 description: Swatches.maxloadradius
 solution: Experience Manager
 title: Swatches.maxloadradius
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
+role: Developer,User
+exl-id: df9d5be4-d1e1-4b72-a7e7-0f3611278d2a
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '60'
 ht-degree: 1%
 
 ---
-
 
 # Swatches.maxloadradius{#swatches-maxloadradius}
 
