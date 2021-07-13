@@ -3,15 +3,14 @@ description: Färgvärden. Du kan ange färgvärden antingen hexadecimalt, med e
 solution: Experience Manager
 title: färg
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
+role: Developer,User
+exl-id: eba88ff0-877d-432e-bbd6-9172f5b460e9
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '436'
 ht-degree: 12%
 
 ---
-
 
 # färg{#color}
 
@@ -62,7 +61,7 @@ Färgkomponentvärdena antas vara oberoende av alfavärdet (inte förmultiplicer
 
 Alla färgvärden, prefix och suffix är inte skiftlägeskänsliga.
 
-Typsuffixet k krävs för CMYK-färgvärden. Ett typsuffix kan anges för RGB- och gråfärgvärden.
+Typsuffixet k krävs för CMYK-färgvärden. Ett typsuffix kan anges för RGB och gråa färgvärden.
 
 Prefixet 0x krävs för hexadecimala gråa färgvärden.
 
