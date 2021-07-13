@@ -3,17 +3,16 @@ description: Om materialdata krävs för en materialkatalog måste den relativa 
 solution: Experience Manager
 title: Referens för materialdata
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: ef0bb687-065b-4efe-b8ca-77945bb2f54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
 
-
-# Materialdatareferens{#material-data-reference}
+# Referens för materialdata{#material-data-reference}
 
 Om materialdata krävs för en materialkatalog måste den relativa eller absoluta sökvägen för materialdatafilen anges i attributet::CatalogFile.
 
