@@ -2,18 +2,17 @@
 description: Visst innehåll som visas i visningsprogrammet kan lokaliseras. Det här innehållet innehåller funktionsbeskrivningar och informationsmeddelanden för användargränssnittselement som visas i den utfällbara zoomvyn vid inläsningen.
 solution: Experience Manager
 title: Lokalisering av användargränssnittselement
-feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Textbunden zoom
+role: Developer,User
+exl-id: 49795aa1-07c7-4f2e-bfd9-51d6581898ed
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
 
-
-# Lokalisering av element i användargränssnittet{#localization-of-user-interface-elements}
+# Lokalisering av användargränssnittselement{#localization-of-user-interface-elements}
 
 Visst innehåll som visas i visningsprogrammet kan lokaliseras. Det här innehållet innehåller funktionsbeskrivningar och informationsmeddelanden för användargränssnittselement som visas i den utfällbara zoomvyn vid inläsningen.
 
@@ -91,4 +90,3 @@ Följande SYMBOL stöds:
   </tr> 
  </tbody> 
 </table>
-
