@@ -3,15 +3,14 @@ description: Vissa program kan kräva en annan belysningskarta för olika typer 
 solution: Experience Manager
 title: Använda flera belysningskartor
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: a6e0be23-8b8a-4b60-aac1-c692319a0bce
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '177'
 ht-degree: 0%
 
 ---
-
 
 # Använda flera belysningskartor{#using-multiple-illumination-maps}
 
