@@ -3,15 +3,14 @@ description: Cacheposter uppdateras automatiskt med antingen katalogbaserad elle
 solution: Experience Manager
 title: Verifiering av svarscache
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Administrator,User
+exl-id: d2baa6e6-2700-450f-af1e-88b6d33d0e0c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
-
 
 # Verifiering av svarscache{#response-cache-validation}
 
