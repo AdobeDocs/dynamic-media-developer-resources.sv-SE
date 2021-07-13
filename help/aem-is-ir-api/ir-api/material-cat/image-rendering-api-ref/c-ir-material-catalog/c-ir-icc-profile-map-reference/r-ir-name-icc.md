@@ -3,15 +3,14 @@ description: Namn på genväg till profil. Ett kortkommandonamn för färgprofil
 solution: Experience Manager
 title: Namn
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 6ee166db-09a8-4804-926f-8b1ebddb3c77
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '58'
 ht-degree: 0%
 
 ---
-
 
 # Namn{#name}
 
