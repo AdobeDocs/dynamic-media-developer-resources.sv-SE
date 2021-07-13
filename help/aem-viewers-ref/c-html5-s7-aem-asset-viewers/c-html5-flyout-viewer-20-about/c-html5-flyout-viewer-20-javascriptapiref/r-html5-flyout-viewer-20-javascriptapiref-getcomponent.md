@@ -2,16 +2,15 @@
 description: JavaScript API-referens för visningsprogrammet
 solution: Experience Manager
 title: getComponent
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Flyout
+role: Developer,User
+exl-id: 618d34af-32d0-45bd-928d-7a4e084edbe6
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
-
 
 # getComponent{#getcomponent}
 
@@ -73,4 +72,3 @@ Mer information om en viss komponent finns i dokumentationen för SDK-API:t för
 } 
 })
 ```
-
