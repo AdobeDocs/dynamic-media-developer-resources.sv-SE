@@ -3,15 +3,14 @@ description: Katalogens post-ID. Nyckelvärde som materialposterna kontrolleras 
 solution: Experience Manager
 title: ID
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 2525a9c9-8acb-45a4-b6d1-80d08f63f9f8
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
-
 
 # ID{#id}
 
