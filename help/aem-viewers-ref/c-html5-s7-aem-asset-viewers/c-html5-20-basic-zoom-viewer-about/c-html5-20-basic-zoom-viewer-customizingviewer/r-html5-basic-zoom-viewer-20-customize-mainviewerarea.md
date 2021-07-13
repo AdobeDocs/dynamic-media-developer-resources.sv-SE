@@ -2,18 +2,17 @@
 description: Huvudvisningsområdet är det område som upptas av zoombilden. Den ställs vanligtvis in så att den passar den tillgängliga enhetsskärmen när ingen storlek har angetts.
 solution: Experience Manager
 title: Huvudvisningsområde
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
+role: Developer,User
+exl-id: f51de2d6-0de2-4a4d-bbf4-185547e6c550
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
 
-
-# Huvudvisningsprogramområde{#main-viewer-area}
+# Huvudvisningsområde{#main-viewer-area}
 
 Huvudvisningsområdet är det område som upptas av zoombilden. Den ställs vanligtvis in så att den passar den tillgängliga enhetsskärmen när ingen storlek har angetts.
 
@@ -59,4 +58,3 @@ Exempel - om du vill ställa in ett visningsprogram med vit bakgrund ( `#FFFFFF`
  height: 288px;  
 }
 ```
-
