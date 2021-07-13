@@ -3,15 +3,14 @@ description: Använd de här serverinställningarna för att felsöka spårnings
 solution: Experience Manager
 title: Debug_trace-loggning
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Administrator,User
+exl-id: fe1fc984-3c6b-4bd1-b5ba-630860ac7319
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
-
 
 # Debug_trace-loggning{#debug-trace-logging}
 
@@ -29,11 +28,11 @@ Mapp- och basfilnamn för Server Supervisor-loggfiler. Sökvägen kan vara absol
 >
 >Den nya mappen måste skapas innan den här inställningen ändras. Se till att åtkomstbehörigheterna är inställda så att Serverhanteraren har de nödvändiga behörigheterna för att skapa, läsa och skriva.
 
-## SV::trachel - Loggnivå för servertillsynsspårning {#section-36f8634741da4c618d67aa628b5fe474}
+## SV::trachel - Loggnivå för servertillsynsgrupp {#section-36f8634741da4c618d67aa628b5fe474}
 
 Loggnivån kan vara 1, 2, 3 eller 4. Standardvärdet är 2.
 
-## IS::Log - Felsökningsloggfilssökväg för Image Server {#section-73a3f09b77f2446c9f82207b7d8aec39}
+## IS::Log - Felsökningsloggfilens sökväg för Image Server {#section-73a3f09b77f2446c9f82207b7d8aec39}
 
 Mapp- och basfilnamn för bildserverns spårningsloggfiler. Sökvägen kan vara absolut eller relativ till *[!DNL install_folder]*. ImageServer lägger till ett bindestreck och det aktuella datumet ( *[!DNL -yyyy-mm-dd]*) till filnamnet (före filsuffixet, om det finns något). Vi rekommenderar att du skickar loggfiler för Image Server till samma mapp som loggfilerna för Platform Server ( `PS::LogFolder`) för att utnyttja loggfilshanteringen som implementeras av Platform Server (se `PS::LogDays`).
 
