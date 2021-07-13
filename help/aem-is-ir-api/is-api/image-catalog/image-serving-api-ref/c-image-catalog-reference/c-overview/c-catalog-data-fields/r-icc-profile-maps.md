@@ -3,17 +3,16 @@ description: Följande fält känns igen i ICC-färgprofilmappningsfiler.
 solution: Experience Manager
 title: ICC-profilkartor
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 3492f4f3-d93e-4b62-8ff6-ace228e0687e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '45'
 ht-degree: 0%
 
 ---
 
-
-# ICC-profilmappningar{#icc-profile-maps}
+# ICC-profilkartor{#icc-profile-maps}
 
 Följande fält känns igen i ICC-färgprofilmappningsfiler.
 
@@ -27,4 +26,3 @@ Följande fält känns igen i ICC-färgprofilmappningsfiler.
   <td class="stentry"> <p>ICC-färgprofilens filsökväg. </p></td> 
  </tr> 
 </table>
-
