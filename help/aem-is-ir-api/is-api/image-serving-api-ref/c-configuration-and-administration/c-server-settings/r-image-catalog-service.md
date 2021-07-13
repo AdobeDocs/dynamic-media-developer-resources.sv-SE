@@ -3,21 +3,20 @@ description: Använd de här serverinställningarna för tjänsten Image catalog
 solution: Experience Manager
 title: Tjänsten Bildkatalog
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Administrator,User
+exl-id: c089ef35-47a1-4921-8a5e-1ca78f29794d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
 
-
-# Tjänst för bildkatalog{#image-catalog-service}
+# Tjänsten Bildkatalog{#image-catalog-service}
 
 Använd de här serverinställningarna för tjänsten Image catalog.
 
-## CS::catalog.rootPath - Bildkatalogsmapp {#section-02d107f157384b18835f884f24fea3aa}
+## CS::catalog.rootPath - Mappen Bildkatalog {#section-02d107f157384b18835f884f24fea3aa}
 
 Sökväg till bildkatalogsmappen (där alla [!DNL catalog.ini]-filer måste finnas). Kan vara en absolut filsökväg eller en relativ sökväg till *[!DNL install_folder]*. Servern övervakar den här mappen kontinuerligt och läser in eller läser in kataloger igen när en ny huvudkatalogfil (med filsuffixet [!DNL .ini]) identifieras eller när den senaste ändringstiden för en befintlig huvudkatalogfil har ändrats.
 
