@@ -3,17 +3,16 @@ description: Avancerade renderingsinställningar. Avancerade renderingsinställn
 solution: Experience Manager
 title: RenderSettings
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,User
+exl-id: 37b806f8-e314-4532-a28c-1cc4ab939f09
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
 
-
-# Renderingsinställningar{#rendersettings}
+# RenderSettings{#rendersettings}
 
 Avancerade renderingsinställningar. Avancerade renderingsinställningar används för att styra lågnivåaspekter av renderingsmotorn, t.ex. materialskärpningstyp och parametrar eller vissa parametrar för belysningsalgoritmerna.
 
