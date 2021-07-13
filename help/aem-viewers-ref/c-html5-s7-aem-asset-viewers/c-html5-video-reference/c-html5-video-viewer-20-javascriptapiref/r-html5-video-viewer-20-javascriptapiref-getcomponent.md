@@ -2,16 +2,15 @@
 description: JavaScript API-referens för Video Viewer
 solution: Experience Manager
 title: getComponent
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Video
+role: Developer,User
+exl-id: 2f02371c-39c7-46fd-95a6-909efacac72c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
-
 
 # getComponent{#getcomponent}
 
@@ -121,4 +120,3 @@ Mer information om en viss komponent finns i dokumentationen till SDK API:t för
 } 
 })
 ```
-
