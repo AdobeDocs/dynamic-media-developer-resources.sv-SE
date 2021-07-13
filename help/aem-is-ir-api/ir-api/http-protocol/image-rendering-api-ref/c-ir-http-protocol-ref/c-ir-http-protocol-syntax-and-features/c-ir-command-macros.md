@@ -3,15 +3,14 @@ description: Kommandomakron innehåller namngivna kortkommandon för kommandoupp
 solution: Experience Manager
 title: Kommandomakron *
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 00f6d27e-9f6b-4eea-8f42-833fbc0f1c38
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
-
 
 # Kommandomakron *{#command-macros}
 
@@ -54,4 +53,3 @@ Eftersom `qlt=` inte är samma för den tredje begäran åsidosätter vi bara v�
 `catalog::MacroFile`,  `catalog::Modifier`, makrodefinitionsreferens
 
 <!--<a id="section_297B7FCB285F4891AA76DF8393089931"></a>-->
-
