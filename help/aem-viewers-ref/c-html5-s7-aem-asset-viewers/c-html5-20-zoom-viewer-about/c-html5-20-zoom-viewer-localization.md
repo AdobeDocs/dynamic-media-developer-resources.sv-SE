@@ -2,18 +2,17 @@
 description: Visst innehåll som visas i Video Viewer kan lokaliseras, inklusive zoomknappar och en helskärmsknapp.
 solution: Experience Manager
 title: Lokalisering av användargränssnittselement
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
+role: Developer,User
+exl-id: c386a09c-21ce-4105-b416-e6ae50219af0
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
 
-
-# Lokalisering av element i användargränssnittet{#localization-of-user-interface-elements}
+# Lokalisering av användargränssnittselement{#localization-of-user-interface-elements}
 
 Visst innehåll som visas i Video Viewer kan lokaliseras, inklusive zoomknappar och en helskärmsknapp.
 
@@ -107,4 +106,3 @@ Följande SYMBOL stöds:
   </tr> 
  </tbody> 
 </table>
-
