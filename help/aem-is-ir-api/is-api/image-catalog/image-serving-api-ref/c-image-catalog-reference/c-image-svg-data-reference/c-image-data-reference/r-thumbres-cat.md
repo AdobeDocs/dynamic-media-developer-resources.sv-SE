@@ -3,15 +3,14 @@ description: Upplösning för miniatyrbilder. Anger objektupplösningen för min
 solution: Experience Manager
 title: ThumbRes
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 1b462b7e-076d-433e-a5d2-e254396c4659
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '73'
 ht-degree: 0%
 
 ---
-
 
 # ThumbRes{#thumbres}
 
