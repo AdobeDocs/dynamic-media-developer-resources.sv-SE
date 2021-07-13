@@ -2,16 +2,15 @@
 description: Sidindikatorn visar aktuellt sidindex och totalt sidantal. Den visas i huvudkontrollfältet på stationära datorer och surfplattor, och på mobiltelefoner läggs den till i sekundära kontrollfält. Sidindikatorn kan storleksanpassas, skalförändras och placeras med CSS.
 solution: Experience Manager
 title: Sidindikator
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+role: Developer,User
+exl-id: 38241e96-ee7f-4dc1-a2a6-4a76e25b00dc
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
-
 
 # Sidindikator{#page-indicator}
 
@@ -82,4 +81,3 @@ Exempel - om du vill ställa in en sidindikator som är 56 x 28 pixlar, vågrät
  font-size:14px; 
 }
 ```
-
