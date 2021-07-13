@@ -3,15 +3,14 @@ description: Fyra typer av lager stöds.
 solution: Experience Manager
 title: Lagertyper
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 9819a73d-1108-414a-831f-37ba94c3feb9
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
-
 
 # Lagertyper{#layer-types}
 
