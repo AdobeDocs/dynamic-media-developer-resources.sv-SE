@@ -3,17 +3,16 @@ description: Sökväg till datafil för vinjetteringsschema. Anger filen som inn
 solution: Experience Manager
 title: VinjettMapFile
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: f9b7c7b1-cc49-419f-8eea-0091ef8b3011
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '74'
 ht-degree: 0%
 
 ---
 
-
-# Vinjetteringsfil{#vignettemapfile}
+# VinjettMapFile{#vignettemapfile}
 
 Sökväg till datafil för vinjetteringsschema. Anger filen som innehåller vinjetteringskartan för den här bildkatalogen.
 
