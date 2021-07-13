@@ -3,15 +3,14 @@ description: Använd de här serverinställningarna för att konfigurera tröske
 solution: Experience Manager
 title: Varningströsklar
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Administrator,User
+exl-id: 1ae76692-2688-4902-82a0-d0751408eee7
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
-
 
 # Varningströsklar{#alert-thresholds}
 
@@ -31,7 +30,7 @@ En felvarning utfärdas när förhållandet mellan HTTP-felsvar och totalt antal
 
 Reellt värde mellan 0,0 och 1,0. Vanligtvis inställt på mellan 0,005 och 0,1. Ange 1 om du vill inaktivera felmeddelanden.
 
-## AS::monitorAlertGenerator.minRequestRate - Lågt trafiktröskelvärde {#section-8dfb89ed138640fd86f5ce1dae2a533e}
+## AS::monitorAlertGenerator.minRequestRate - Lågt tröskelvärde för trafik {#section-8dfb89ed138640fd86f5ce1dae2a533e}
 
 En minsta trafikvarning skickas när det genomsnittliga antalet begäranden per sekund som tagits emot under det aktuella provtagningsintervallet underskrider detta tröskelvärde. Inaktivera varningen genom att ange värdet 0. Uttryckt i begäranden per sekund. Verkligt värde 0 eller större.
 
