@@ -3,17 +3,16 @@ description: I det här avsnittet beskrivs HTTP-protokollets syntax och funktion
 solution: Experience Manager
 title: Syntax och funktioner för HTTP-protokoll
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 62707e37-0bf0-4e72-807c-8a68dfe0067e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
 
-
-# Syntax för HTTP-protokoll och funktioner{#http-protocol-syntax-and-features}
+# Syntax och funktioner för HTTP-protokoll{#http-protocol-syntax-and-features}
 
 I det här avsnittet beskrivs HTTP-protokollets syntax och funktioner för Dynamic Media Image Rendering.
 
