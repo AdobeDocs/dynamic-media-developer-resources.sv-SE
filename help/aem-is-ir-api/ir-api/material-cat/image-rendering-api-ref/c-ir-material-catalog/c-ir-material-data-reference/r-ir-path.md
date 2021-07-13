@@ -3,17 +3,16 @@ description: Sökväg till bildfil. Relativ sökväg och namn för en textur- el
 solution: Experience Manager
 title: Bana *
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 28758709-26ae-4261-b11e-34e37b9d1b8c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
 
-
-# Sökväg *{#path}
+# Bana *{#path}
 
 Sökväg till bildfil. Relativ sökväg och namn för en textur- eller dekal bildfil.
 
