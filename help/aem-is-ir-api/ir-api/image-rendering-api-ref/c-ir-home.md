@@ -3,15 +3,14 @@ description: API-referensen för bildåtergivning innehåller information om hur
 solution: Experience Manager
 title: API för bildåtergivning
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: e7cf4b21-8020-436a-b084-b81e9c8a8b9b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '66'
 ht-degree: 0%
 
 ---
-
 
 # API för bildåtergivning{#image-rendering-api}
 
