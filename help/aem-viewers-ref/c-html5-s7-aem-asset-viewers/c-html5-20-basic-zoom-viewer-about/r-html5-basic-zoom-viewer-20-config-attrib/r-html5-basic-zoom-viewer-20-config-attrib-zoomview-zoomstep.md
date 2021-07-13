@@ -2,16 +2,15 @@
 description: ZoomView.zoomstep
 solution: Experience Manager
 title: ZoomView.zoomstep
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
+role: Developer,User
+exl-id: ded8168e-08f7-4bc0-bb8a-624bac82759e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '86'
 ht-degree: 1%
 
 ---
-
 
 # ZoomView.zoomstep{#zoomview-zoomstep}
 
