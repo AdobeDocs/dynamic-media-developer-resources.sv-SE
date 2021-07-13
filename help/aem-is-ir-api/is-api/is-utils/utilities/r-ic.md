@@ -3,15 +3,14 @@ description: Bildkonverteringsverktyg.
 solution: Experience Manager
 title: ic
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: ab653aae-532b-4f3d-8541-f6296fbf9172
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1209'
 ht-degree: 0%
 
 ---
-
 
 # ic {#ic}
 
@@ -236,7 +235,7 @@ Om du inte konverterar stora bilder behöver du inte ange parametrar som styr hu
  </tbody> 
 </table>
 
-## Bildformat {#section-ab13d941d6724e65b9f84b62d949d31c} som stöds
+## Bildformat som stöds {#section-ab13d941d6724e65b9f84b62d949d31c}
 
 I följande tabell visas de bildfilformat och formatalternativ som stöds av IC.
 
@@ -289,7 +288,7 @@ I följande tabell visas de bildfilformat och formatalternativ som stöds av IC.
   <tr> 
    <td> <p> Photoshop </p> <b>PSD</b> </td> 
    <td> <p> CMYK | CMYKA | RGB | RGBA | grå | grayA </p> </td> 
-   <td> <p> 1 | 8 | 16 </p> </td> 
+   <td> <p> 3 | 8 | 16 </p> </td> 
    <td> <p> okomprimerad | komprimerad </p> </td> 
    <td> <p> Endast sammanfogad bild; lager och extra kanaler ignoreras. </p> </td> 
   </tr> 
@@ -303,14 +302,14 @@ I följande tabell visas de bildfilformat och formatalternativ som stöds av IC.
   <tr> 
    <td> <b> PNG</b> </td> 
    <td> <p> RGB | RGBA | grå | grayA | indexerad </p> </td> 
-   <td> <p> 3 | 2 | 4 | 8 | 16 </p> </td> 
+   <td> <p> 1 | 2 | 4 | 8 | 16 </p> </td> 
    <td> <p> komprimerad </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <b> TIFF</b> </td> 
    <td> <p> CMYK | CMYKA | RGB | RGBA | grå | grayA | indexerad </p> </td> 
-   <td> <p> 1 | 8 | 16 </p> </td> 
+   <td> <p> 3 | 8 | 16 </p> </td> 
    <td> <p> okomprimerad | ZIP | LZW | JPEG | CCITT RLE | CCITT G3 | CCITT G4 | Paket </p> </td> 
    <td> <p> Med undantag för den första associerade alfakanalen ignoreras extra kanaler. </p> </td> 
   </tr> 
