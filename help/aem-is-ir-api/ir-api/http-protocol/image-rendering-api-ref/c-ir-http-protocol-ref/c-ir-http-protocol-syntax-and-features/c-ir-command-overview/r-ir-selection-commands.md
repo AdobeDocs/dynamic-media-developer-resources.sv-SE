@@ -3,15 +3,14 @@ description: Dessa kommandon används för att markera vinjettgrupper, objekt, u
 solution: Experience Manager
 title: Markeringskommandon
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 43f6ec6e-e4eb-468d-9c66-841af5e0a8a5
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
-
 
 # Markeringskommandon{#selection-commands}
 
@@ -37,4 +36,3 @@ Kommandot, eller materialet, eller båda, anges efter det här markeringskommand
   <td class="stentry"> <p>Markera ett delområde i den markerade gruppen eller objektet. </p></td> 
  </tr> 
 </table>
-
