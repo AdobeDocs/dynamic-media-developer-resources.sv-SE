@@ -3,15 +3,14 @@ description: I den här dokumentationen beskrivs hur du administrerar Dynamic Me
 solution: Experience Manager
 title: Översikt över serveradministration
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,Administrator,User
+exl-id: 294cd068-8676-4932-a3ad-1a3c5bfa691e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
-
 
 # Översikt över serveradministration{#server-administration-overview}
 
