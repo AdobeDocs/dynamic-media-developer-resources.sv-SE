@@ -2,16 +2,15 @@
 description: JavaScript API-referens för Video Viewer
 solution: Experience Manager
 title: setVideo
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Video
+role: Developer,User
+exl-id: c89099f6-09f7-4d81-939e-90ffa2764c8c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
-
 
 # setVideo{#setvideo}
 
@@ -52,4 +51,3 @@ Ingen.
 ```
 <instance>.setVideo("https://s7d9.scene7.com/is/content/Scene7SharedAssets/Glacier_Climber_MP4")
 ```
-
