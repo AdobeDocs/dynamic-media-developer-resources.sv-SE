@@ -2,18 +2,17 @@
 description: Om du klickar eller trycker på den här knappen flyttas användaren till den första sidan i katalogen. Den här knappen visas i huvudkontrollfältet på stationära datorer och surfplattor. på mobiltelefoner läggs den till i ett sekundärt kontrollfält. Du kan ändra storlek, skal och position för knappen med hjälp av CSS.
 solution: Experience Manager
 title: Knappen Första sidan
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+role: Developer,User
+exl-id: 50ebf51f-aa51-4778-8956-f969c30443aa
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
 
-
-# Knapp för första sidan{#first-page-button}
+# Knappen Första sidan{#first-page-button}
 
 Om du klickar eller trycker på den här knappen flyttas användaren till den första sidan i katalogen. Den här knappen visas i huvudkontrollfältet på stationära datorer och surfplattor. på mobiltelefoner läggs den till i ett sekundärt kontrollfält. Du kan ändra storlek, skal och position för knappen med hjälp av CSS.
 
@@ -96,4 +95,3 @@ background-image:url(images/v2/FirstPageButton_dark_down.png);
 background-image:url(images/v2/FirstPageButton_dark_disabled.png); 
 }
 ```
-
