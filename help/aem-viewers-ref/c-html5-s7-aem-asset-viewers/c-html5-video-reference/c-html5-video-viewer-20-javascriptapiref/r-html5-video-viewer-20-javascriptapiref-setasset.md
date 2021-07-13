@@ -2,16 +2,15 @@
 description: JavaScript API-referens för Video Viewer.
 solution: Experience Manager
 title: setAsset
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Video
+role: Developer,User
+exl-id: e5d71393-fcae-4bd4-8e78-a451b2f05ffc
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
-
 
 # setAsset{#setasset}
 
@@ -52,4 +51,3 @@ Ingen.
 ```
 <instance>.setAsset("Scene7SharedAssets/Glacier_Climber_MP4")
 ```
-
