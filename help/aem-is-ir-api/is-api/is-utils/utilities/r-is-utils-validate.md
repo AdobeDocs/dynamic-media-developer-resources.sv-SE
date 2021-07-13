@@ -3,15 +3,14 @@ description: Verktyg för bildvalidering. Detta kommandoradsverktyg verifierar b
 solution: Experience Manager
 title: validera
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 78d50fe9-95c6-4335-98d8-3322839ee02d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
-
 
 # validera{#validate}
 
@@ -78,4 +77,3 @@ Alla icke-PTIFF-bildfiler måste valideras innan filen blir tillgänglig för Im
   <td class="stentry"> <p>Returnerar versionsinformation för det här verktyget. Ange utan andra alternativ. </p> </td> 
  </tr> 
 </table>
-
