@@ -2,16 +2,15 @@
 description: Kommandoreferensdokumentation för Video Viewer.
 solution: Experience Manager
 title: Kommandoreferens - URL
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Video
+role: Developer,User
+exl-id: 1ed78e0d-9b93-4c66-b558-fac15c51e944
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
-
 
 # Kommandoreferens - URL{#command-reference-url}
 
