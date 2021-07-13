@@ -2,16 +2,15 @@
 description: JavaScript API-referens för eCatalog Viewer.
 solution: Experience Manager
 title: eCatalogViewer
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+role: Developer,User
+exl-id: 111699a3-8a70-4caf-b7da-7b594b785f7c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
-
 
 # eCatalogViewer{#ecatalogviewer}
 
@@ -67,4 +66,3 @@ defaultLocale:"en"
 } 
 });
 ```
-
