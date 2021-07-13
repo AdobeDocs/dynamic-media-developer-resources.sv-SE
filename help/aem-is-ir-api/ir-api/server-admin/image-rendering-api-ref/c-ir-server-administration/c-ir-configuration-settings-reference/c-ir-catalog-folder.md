@@ -3,15 +3,14 @@ description: Plats för materialkatalogmappen (där alla catalog.ini-filer måst
 solution: Experience Manager
 title: Katalogmapp (ir.catalogRootPath)
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,Administrator,User
+exl-id: 0eb64a65-e3b6-47b2-8456-39f8f8e077e1
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: '56'
 ht-degree: 0%
 
 ---
-
 
 # Katalogmapp (ir.catalogRootPath){#catalog-folder-ir-catalogrootpath}
 
