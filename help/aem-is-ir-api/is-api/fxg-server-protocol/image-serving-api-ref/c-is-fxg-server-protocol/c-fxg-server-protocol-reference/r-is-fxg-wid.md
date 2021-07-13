@@ -3,15 +3,14 @@ description: Visa bredd. Anger svarsbildens bredd (visningsbild).
 solution: Experience Manager
 title: wid
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 5edd045c-600e-4295-9672-04a5c3bc651d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
-
 
 # wid{#wid}
 
@@ -48,4 +47,3 @@ Om inget format anges återges bilden som en SWF-fil. I det här fallet har höj
 * GIF-alpha
 * TIF-alfa
 * PNG-alfa
-
