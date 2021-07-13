@@ -3,17 +3,16 @@ description: Visst innehåll som visas i Carousel Viewer kan lokaliseras. Detta 
 solution: Experience Manager
 title: Lokalisering av användargränssnittselement
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 05f5abe0-1124-4114-864d-440699bcdc39
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
 
-# Lokalisering av element i användargränssnittet{#localization-of-user-interface-elements}
+# Lokalisering av användargränssnittselement{#localization-of-user-interface-elements}
 
 Visst innehåll som visas i Carousel Viewer kan lokaliseras. Detta inkluderar navigeringsknappar för bildrutor.
 
