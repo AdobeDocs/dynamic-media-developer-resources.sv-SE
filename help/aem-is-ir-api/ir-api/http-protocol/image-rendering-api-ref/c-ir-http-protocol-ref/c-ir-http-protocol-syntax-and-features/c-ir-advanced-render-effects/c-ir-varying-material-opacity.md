@@ -3,15 +3,14 @@ description: Variabel opacitet stöds för heltäckande färg och repeterbara te
 solution: Experience Manager
 title: Varierande materialopacitet
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 65f4b578-0c64-4515-8184-2908b317a983
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
-
 
 # Varierande materialopacitet{#varying-material-opacity}
 
