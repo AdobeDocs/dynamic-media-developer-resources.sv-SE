@@ -3,22 +3,21 @@ description: Ämnen i det här avsnittet beskriver syntaxen och funktionerna i H
 solution: Experience Manager
 title: Syntax och funktioner
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 44981754-017b-4293-9d44-7611b7a470c4
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
-
 
 # Syntax och funktioner{#syntax-and-features}
 
 Ämnen i det här avsnittet beskriver syntaxen och funktionerna i HTTP-protokollen.
 
 * [Grundläggande syntax för Image Serving HTTP-protokoll](r-basic-syntax.md)
-* [Översikt över kommandot Image Serving HTTP protocol](c-command-overview/c-command-overview.md)
+* [HTTP-protokollkommandot Image Serving   översikt](c-command-overview/c-command-overview.md)
 * [Översikt över lager](c-layering-overview/c-layering-overview.md)
 * [Lageråtgärder](c-layering-overview/c-layer-operations.md)
 * [Lagereffekter](r-layer-effects.md)
