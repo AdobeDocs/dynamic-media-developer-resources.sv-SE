@@ -3,17 +3,16 @@ description: Lagerstorlek. Anger storleken eller den maximala lagerstorleken fö
 solution: Experience Manager
 title: size
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 55feeb32-b69d-4b95-80fb-c77f2612d255
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
 
-
-# storlek{#size}
+# size{#size}
 
 Lagerstorlek. Anger storleken eller den maximala lagerstorleken för ett lager, innan rotate=, perspective= och extend= används på lagret.
 
