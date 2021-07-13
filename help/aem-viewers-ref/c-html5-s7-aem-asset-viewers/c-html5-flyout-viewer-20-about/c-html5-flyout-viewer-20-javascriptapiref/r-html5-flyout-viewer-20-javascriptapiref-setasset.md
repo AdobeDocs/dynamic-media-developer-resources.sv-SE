@@ -2,16 +2,15 @@
 description: JavaScript API-referens för visningsprogrammet för utfällbara bilder.
 solution: Experience Manager
 title: setAsset
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Flyout
+role: Developer,User
+exl-id: cd66267e-7b25-4af4-b83c-f7b7f768ea8c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
-
 
 # setAsset{#setasset}
 
@@ -67,4 +66,3 @@ Skärpemodifierare har lagts till i alla bilder i uppsättningen:
 ```
 <instance>.setAsset("Scene7SharedAssets/Backpack_B,Scene7SharedAssets/Backpack_C?op_sharpen=1")
 ```
-
