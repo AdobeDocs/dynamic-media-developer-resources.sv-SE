@@ -2,16 +2,15 @@
 description: Konfigurationsattribut för Video Viewer.
 solution: Experience Manager
 title: VideoScrubber.showchaptertime
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Video
+role: Developer,User
+exl-id: 60d36054-7b60-4ab1-8220-b183390e5d84
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 4%
+source-wordcount: '40'
+ht-degree: 5%
 
 ---
-
 
 # VideoScrubber.showchaptertime{#videoscrubber-showchaptertime}
 
@@ -41,4 +40,3 @@ Valfritt.
 ```
 showchaptertime=0
 ```
-
