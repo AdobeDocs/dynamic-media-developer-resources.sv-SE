@@ -3,15 +3,14 @@ description: I det här avsnittet visas tecken som är reserverade för särskil
 solution: Experience Manager
 title: Reserverade tecken
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 76483f3f-f98b-471d-9c5d-49fa22eaf8a3
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '80'
 ht-degree: 0%
 
 ---
-
 
 # Reserverade tecken{#reserved-characters}
 
