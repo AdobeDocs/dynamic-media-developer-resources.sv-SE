@@ -2,16 +2,15 @@
 description: Huvudkontrollfältet är det rektangulära området på stationära datorer och surfplattor som innehåller alla gränssnittskontroller (utom knapparna Stora sidor) som är tillgängliga för visningsprogrammet för eCatalog.
 solution: Experience Manager
 title: Huvudkontrollfält
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+role: Developer,User
+exl-id: 4db16599-ede0-47ae-bb5a-840655d3620b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '664'
 ht-degree: 0%
 
 ---
-
 
 # Huvudkontrollfält{#main-control-bar}
 
@@ -184,4 +183,3 @@ Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalise
  background-image:url(images/v2/ControlBarRightButton_dark_disabled_touch.png); 
 }
 ```
-
