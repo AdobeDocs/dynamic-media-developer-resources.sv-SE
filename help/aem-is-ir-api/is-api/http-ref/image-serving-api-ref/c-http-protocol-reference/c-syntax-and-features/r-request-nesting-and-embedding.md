@@ -3,15 +3,14 @@ description: Image Serving har stöd för obegränsad kapsling av Image Serving-
 solution: Experience Manager
 title: Begär kapsling och inbäddning
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: b9c9d241-5a3d-4637-a90a-d8cdf29cc968
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
-
 
 # Begär kapsling och inbäddning{#request-nesting-and-embedding}
 
@@ -80,7 +79,7 @@ Följande kommandon för bildåtergivning ignoreras när de anges i kapslade beg
 
 Bildresultatet av en kapslad IR-begäran kan cachelagras genom att inkludera `cache=on`. Som standard är cachelagring av mellanliggande data inaktiverad. Cachelagring bör endast aktiveras när den mellanliggande bilden förväntas återanvändas i en annan begäran inom en rimlig tidsperiod. Standardhantering av cache på serversidan gäller. Data cachelagras i ett icke-förstörande format.
 
-## Inbäddade FXG-återgivningsbegäranden {#section-c817e4b4f7da414ea5a51252ca7e120a}
+## Inbäddade FXG-renderingsbegäranden {#section-c817e4b4f7da414ea5a51252ca7e120a}
 
 När FXG-grafikåtergivaren (även [!DNL AGMServer]) är installerad och aktiverad med Image Serving, kan FXG-begäranden användas som lagerkällor genom att ange dem med kommandona `src=` (eller `mask=`). Använd följande syntax:
 
