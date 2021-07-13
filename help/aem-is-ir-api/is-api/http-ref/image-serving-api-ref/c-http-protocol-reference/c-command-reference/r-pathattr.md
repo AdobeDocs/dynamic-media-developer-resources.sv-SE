@@ -3,15 +3,14 @@ description: Text på bana-attribut.
 solution: Experience Manager
 title: pathAttr
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: fdf9274a-70d0-4692-a7a9-c108abb9ab84
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '148'
 ht-degree: 0%
 
 ---
-
 
 # pathAttr{#pathattr}
 
