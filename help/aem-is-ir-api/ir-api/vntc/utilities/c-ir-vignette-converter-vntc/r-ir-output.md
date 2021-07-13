@@ -3,15 +3,14 @@ description: vntc genererar textdata som skickas till antingen stdern eller logg
 solution: Experience Manager
 title: Utdata
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 48b15fc2-19c2-4ff8-8059-ba3478a4eec2
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
-
 
 # Utdata{#output}
 
@@ -143,4 +142,3 @@ Följande egenskaper genereras:
   <td class="stentry"> <p>Varningsmeddelande (t.ex. när <span class="codeph"> -imagemap</span> har angetts, men inga mappningsdata hittas i vinjetteringen). </p></td> 
  </tr> 
 </table>
-
