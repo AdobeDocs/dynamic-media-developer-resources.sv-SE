@@ -3,15 +3,14 @@ description: Dilate/erode image. Tillämpar en morfologisk dilatation (radie > 0
 solution: Experience Manager
 title: op_growthMaskR
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 7abfbccf-8bcf-44d4-b50a-eca7a3f11360
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
-
 
 # op_growthMaskR{#op-growmaskr}
 
