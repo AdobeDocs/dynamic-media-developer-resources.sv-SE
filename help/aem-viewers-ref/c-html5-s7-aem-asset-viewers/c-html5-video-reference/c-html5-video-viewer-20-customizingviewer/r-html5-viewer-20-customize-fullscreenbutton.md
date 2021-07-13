@@ -2,16 +2,15 @@
 description: Helskärmsknappen gör att videospelaren övergår till eller avslutar helskärmsläget när en användare klickar på den.
 solution: Experience Manager
 title: Helskärmsknapp
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Video
+role: Developer,User
+exl-id: 120f0ee9-e76b-48d5-8ea7-8be5a8f52edc
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
-
 
 # Helskärmsknapp{#full-screen-button}
 
@@ -108,4 +107,3 @@ background-image:url(images/exitFullBtn_down.png);
 background-image:url(images/exitFullBtn_disabled.png); } 
 }
 ```
-
