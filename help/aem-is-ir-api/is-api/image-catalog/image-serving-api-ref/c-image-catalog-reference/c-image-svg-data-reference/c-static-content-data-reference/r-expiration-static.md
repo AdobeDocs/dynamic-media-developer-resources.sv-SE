@@ -3,17 +3,16 @@ description: Förfaller
 solution: Experience Manager
 title: Förfaller
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 064dab12-5f58-4e19-a6b1-fbd20182e3aa
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
 
-
-# Förfallodatum{#expiration}
+# Förfaller{#expiration}
 
 Används för att hantera klient- och proxyservercachning. Servern beräknar förfallotid/datum för HTTP-svarsdata genom att lägga till det här värdet till tid/datum för överföring.
 
