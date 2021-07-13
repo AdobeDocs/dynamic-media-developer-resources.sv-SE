@@ -2,13 +2,12 @@
 description: JavaScript API-referens för Video360 Viewer
 solution: Experience Manager
 title: setVideo
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,visningsprogram,SDK/API,360 VR-video
+role: Developer,User
 exl-id: e1894d96-6f37-4e34-a709-5b0121bd0696
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '63'
 ht-degree: 0%
 
 ---
