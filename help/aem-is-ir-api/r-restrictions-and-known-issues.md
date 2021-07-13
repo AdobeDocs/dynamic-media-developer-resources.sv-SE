@@ -3,15 +3,14 @@ description: Det finns vissa begränsningar och kända fel som bör beaktas när
 solution: Experience Manager
 title: Begränsningar och kända fel
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: fd32456b-9d99-4e82-a61c-2fc4d7030630
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1235'
 ht-degree: 0%
 
 ---
-
 
 # Begränsningar och kända fel{#restrictions-and-known-issues}
 
@@ -56,7 +55,7 @@ Det finns vissa begränsningar och kända fel som bör beaktas när du använder
 
 Digimarc-biblioteket vägrar att använda en Digimarc-vattenstämpel på en bild om en sådan redan upptäcks. Om en primär bild redigeras tillräckligt mycket kan Digimarc-biblioteket fortfarande känna igen att vattenstämpeln har använts. Det kanske inte går att läsa den informationen. Detta resulterar i en ny bild där den ursprungliga Digimarc-informationen som tillämpades på originalbilden inte kan hämtas. Image Serving kan nu använda den Digimarc-vattenstämpel som definierats i företagskatalogen.
 
-## Begränsningar gäller både för bildvisning och bildåtergivning {#section-f836cb40ae2d4f32a9cf7ebda4d91bae}
+## Begränsningar som gäller både för bildvisning och bildåtergivning {#section-f836cb40ae2d4f32a9cf7ebda4d91bae}
 
 * Bildredigering och bildåtergivning kanske inte utnyttjar alla processorer fullt ut när det finns fler än 4 processorer. Simulera trafiken på dessa datorer för att se hur fördelaktig den är med fler än 4 processorer.
 * Fjärr-URL:er som returnerar en omdirigering (HTTP-status 301, 302 eller 303) nekas.
@@ -109,7 +108,7 @@ Digimarc-biblioteket vägrar att använda en Digimarc-vattenstämpel på en bild
 * &quot; ..&quot; tillåts inte i något sökvägselement i HTTP-begäranden.
 * Avinstallationen kan ta bort filer som skapats eller ändrats av användaren från *[!DNL install_root]* eller en undermapp. Kopiera sådana filer till en annan plats innan du avinstallerar.
 
-## Begränsningar gäller endast för bildservrar {#section-b08ad535e4454265b8157dec244c4faf}
+## Begränsningar som endast gäller för bildvisning {#section-b08ad535e4454265b8157dec244c4faf}
 
 * Förgrundsfärger i RTF-kommandot ( `\cf`) stöds inte för PhotoFont-text.
 * Syntetisering av fet, kursiv och fet/kursiv avvisas som ett fel för PhotoFont-text.
@@ -140,7 +139,7 @@ Digimarc-biblioteket vägrar att använda en Digimarc-vattenstämpel på en bild
 * Färgkonverteringen kanske inte är korrekt när `bgColor=` inte matchar basfärgrymden som innehåller färgprofiler.
 * Yttre lagereffekter återges inte om lagret inte har någon mask- eller alfakata.
 
-## Begränsningar gäller endast för bildåtergivning {#section-4c6949e797174607a3d1ab4d3d4a725a}
+## Begränsningar som endast gäller för bildåtergivning {#section-4c6949e797174607a3d1ab4d3d4a725a}
 
 * Dekaler och väggmaterial kan inte avlägsnas.
 * Storleken på texturer är begränsad i förhållande till vinjetteringsvyns storlek. I sällsynta fall kan standardgränsen på 425 % av visningsstorleken störa ett program som använder mycket stora icke-repeterbara texturer. Om det inte går att ändra programmet eller innehållet så att det fungerar inom de fördefinierade begränsningarna kan procentandelen ökas enligt följande. Öppna [!DNL install_root/ImageServing/conf/ImageServerRegistry.xml] med en textredigerare, leta reda på `IrMaxTextureSizeFactor` och ange ett nytt procentvärde. Ändringen börjar gälla omedelbart utan att du behöver starta om Image Server.
@@ -151,6 +150,6 @@ Digimarc-biblioteket vägrar att använda en Digimarc-vattenstämpel på en bild
 
    Lägg till en tidsstämpel eller annan unik identifierare i begärandesträngen, till exempel `"&.ts=currentTime`.
 
-## Begränsningar som endast gäller för verktyg {#section-906a6b2378154b3da122b2332983f7a5}
+## Begränsningar som endast gäller för allmännyttiga tjänster {#section-906a6b2378154b3da122b2332983f7a5}
 
 `ImageConvert`ibland kraschar med ett segmenteringsfel när det stoppas med ett  `control-c`.
