@@ -3,15 +3,14 @@ description: Regelupps채ttningsfiler 채r XML-formaterade textfiler och m책ste f�
 solution: Experience Manager
 title: Regelupps채ttningsfiler
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 7f3d700f-1941-4220-b91d-54e78fae6aaf
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
-
 
 # Regelupps채ttningsfiler{#rule-set-files}
 
