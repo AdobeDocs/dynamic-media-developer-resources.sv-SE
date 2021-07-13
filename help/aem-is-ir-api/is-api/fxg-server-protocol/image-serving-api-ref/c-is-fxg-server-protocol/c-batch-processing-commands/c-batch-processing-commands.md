@@ -3,15 +3,14 @@ description: Följande kommandon omfattar API:t för gruppbearbetning som använ
 solution: Experience Manager
 title: Gruppbearbetningskommandon
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 40a5b597-3db2-4846-903e-1a47a999610b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '71'
 ht-degree: 0%
 
 ---
-
 
 # Gruppbearbetningskommandon{#batch-processing-commands}
 
