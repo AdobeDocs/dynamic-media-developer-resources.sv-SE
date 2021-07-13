@@ -3,15 +3,14 @@ description: En Image Server-begäran (IS) kan användas som en materialavbildni
 solution: Experience Manager
 title: Inbäddade bildserverbegäranden
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 4ece9738-45e0-43c0-ba1c-2a05ef1f39be
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
-
 
 # Inbäddade bildserverbegäranden{#embedded-image-server-requests}
 
