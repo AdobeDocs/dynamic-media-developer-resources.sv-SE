@@ -3,15 +3,14 @@ description: Makrodefinition. Ett Image Serving-protokollfragment som består av
 solution: Experience Manager
 title: Definition
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 5b8815f5-c8e0-43e1-828c-2e389388cdde
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
-
 
 # Definition{#definition}
 
