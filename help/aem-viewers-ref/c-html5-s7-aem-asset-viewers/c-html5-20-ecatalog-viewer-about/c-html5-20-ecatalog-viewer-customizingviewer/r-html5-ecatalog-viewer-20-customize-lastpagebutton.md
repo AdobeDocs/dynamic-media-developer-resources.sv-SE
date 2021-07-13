@@ -2,16 +2,15 @@
 description: Om du klickar eller trycker på den här knappen flyttas användaren till den sista sidan i katalogen. Den här knappen visas i huvudkontrollfältet på stationära datorer och surfplattor. på mobiltelefoner läggs den till i ett sekundärt kontrollfält. Du kan ändra storlek, skal och position för knappen med hjälp av CSS.
 solution: Experience Manager
 title: Knappen Sista sidan
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+role: Developer,User
+exl-id: d133a5e2-4a39-41b6-a3fc-9d1b66c78752
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
-
 
 # Knappen Sista sidan{#last-page-button}
 
@@ -96,4 +95,3 @@ background-image:url(images/v2/LastPageButton_dark_down.png);
 background-image:url(images/v2/LastPageButton_dark_disabled.png); 
 }
 ```
-
