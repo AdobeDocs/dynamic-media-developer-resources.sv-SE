@@ -3,15 +3,14 @@ description: textPs= implementerar en egen kopieringsalgoritm som automatiskt ju
 solution: Experience Manager
 title: Kopia
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: d1a560f3-f92c-4143-b80a-e1674c8a4207
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
-
 
 # Kopia{#copy-fitting}
 
