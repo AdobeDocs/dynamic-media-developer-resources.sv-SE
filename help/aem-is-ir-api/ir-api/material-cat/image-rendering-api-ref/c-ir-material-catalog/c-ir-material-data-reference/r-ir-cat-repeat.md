@@ -3,15 +3,14 @@ description: Upprepningsläge för textur. Anger hur texturbilder läggs sida vi
 solution: Experience Manager
 title: Upprepa
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 6d6946b0-a827-4ee6-963b-84529ad35ee9
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 14%
+source-wordcount: '132'
+ht-degree: 15%
 
 ---
-
 
 # Upprepa{#repeat}
 
@@ -37,7 +36,7 @@ Följande värden är tillåtna för repeterbara texturmaterial:
   <td class="- topic/stentry stentry"> <p>8-vägs slumpmässig indelning. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
-  <td class="- topic/stentry stentry"> <p>1 </p></td> 
+  <td class="- topic/stentry stentry"> <p>3 </p></td> 
   <td class="- topic/stentry stentry"> <p>Diamantindelning. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
