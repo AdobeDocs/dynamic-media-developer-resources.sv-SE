@@ -2,16 +2,15 @@
 description: Länkdelningsverktyget består av en knapp som läggs till på panelen Dela via sociala medier och den modala dialogruta som visas när verktyget aktiveras. Knappens position hanteras helt av verktyget för social delning.
 solution: Experience Manager
 title: Länkresurs
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+role: Developer,User
+exl-id: eeb5b2c7-688e-42a1-bfe6-3f29e509baed
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1391'
 ht-degree: 0%
 
 ---
-
 
 # Länkresurs{#link-share}
 
@@ -713,4 +712,3 @@ Exempel - för att ange delningslänken som 450 pixlar bred:
     width: 450px; 
 }
 ```
-
