@@ -3,9 +3,9 @@ description: stängningsknapp
 solution: Experience Manager
 title: stängningsknapp
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,blandade medieuppsättningar
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 32e888ea-52d7-4ec3-8b59-e513033a73b8
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '31'
 ht-degree: 6%
