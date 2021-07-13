@@ -3,15 +3,14 @@ description: Standardmaterialskärpa. Anger standardläget för materialskärpa 
 solution: Experience Manager
 title: Sharp
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: fe8f7662-bfa1-43bf-ab66-5de5598edcd4
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '95'
 ht-degree: 4%
 
 ---
-
 
 # Sharp{#sharp}
 
@@ -27,7 +26,7 @@ Enum.
   <td class="stentry"> <p>Ingen skärpa. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p></td> 
+  <td class="stentry"> <p>1 </p></td> 
   <td class="stentry"> <p>Normal skärpa (efter omformningen). </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -35,7 +34,7 @@ Enum.
   <td class="stentry"> <p>Alternativ skärpa (före omformningen). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p></td> 
+  <td class="stentry"> <p>1 </p></td> 
   <td class="stentry"> <p>Mer skärpa (både före och efter omformningen). </p> </td> 
  </tr> 
 </table>
