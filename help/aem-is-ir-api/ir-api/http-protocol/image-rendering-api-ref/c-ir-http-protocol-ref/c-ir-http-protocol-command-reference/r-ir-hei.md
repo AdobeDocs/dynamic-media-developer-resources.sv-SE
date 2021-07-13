@@ -3,15 +3,14 @@ description: Svarets bildhöjd. Anger skalningen av den återgivna bilden så at
 solution: Experience Manager
 title: hei
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 8e93aa32-b38e-46e4-be52-abd81222cfc3
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
-
 
 # hei{#hei}
 
