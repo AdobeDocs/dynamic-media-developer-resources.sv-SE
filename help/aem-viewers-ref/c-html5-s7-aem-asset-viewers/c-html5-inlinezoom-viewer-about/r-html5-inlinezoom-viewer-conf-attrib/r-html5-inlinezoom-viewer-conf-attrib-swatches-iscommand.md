@@ -2,16 +2,15 @@
 description: Swatches.iscommand
 solution: Experience Manager
 title: Swatches.iscommand
-feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Textbunden zoom
+role: Developer,User
+exl-id: b5b0acab-4e11-4f6a-8cb1-be6d683d7384
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '69'
 ht-degree: 1%
 
 ---
-
 
 # Swatches.iscommand{#swatches-iscommand}
 
