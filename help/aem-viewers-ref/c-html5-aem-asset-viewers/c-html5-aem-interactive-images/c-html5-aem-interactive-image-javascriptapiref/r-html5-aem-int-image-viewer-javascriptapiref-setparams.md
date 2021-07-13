@@ -2,13 +2,12 @@
 description: JavaScript API-referens för Video Image Viewer.
 solution: Experience Manager
 title: setParams
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva bilder
+role: Developer,User
 exl-id: 6a09e3bc-e79c-4206-be42-0c6ae3d91590
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
@@ -25,7 +24,7 @@ Den här metoden är valfri om visningsprogrammets konfigurationsinformation ski
 
 Se även [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
-## Parametern {#section-add05f3d7ca0426897bd74bf7ac9b9cd}
+## Parameter {#section-add05f3d7ca0426897bd74bf7ac9b9cd}
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
