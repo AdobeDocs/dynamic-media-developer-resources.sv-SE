@@ -3,21 +3,20 @@ description: Använd de här serverinställningarna för servercachen.
 solution: Experience Manager
 title: Servercacheminnen
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Administrator,User
+exl-id: 6a8d44d3-ecac-4fe0-9f81-28b1cd55e7e1
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
-
 
 # Servercacheminnen{#server-caches}
 
 Använd de här serverinställningarna för servercachen.
 
-## PS::cache.rootPaths - Cachelagra datamappar {#section-f0aa808304d74ecdb0c3644f11906c53}
+## PS::cache.rootPaths - Cache-datamappar {#section-f0aa808304d74ecdb0c3644f11906c53}
 
 Rotmappen för plattformsserverns diskcache. En eller flera absoluta filsökvägar eller sökvägar i förhållande till *[!DNL install_folder]*, avgränsade med semikolon (;). Data för HTTP-svarscachen kommer att fördelas jämnt över alla angivna mappar. Cacheminnen för hjälpcacheminnen (kompilerade bildkataloger och externa bilddata) finns i den primära cachemappen (den första mappen i listan).
 
@@ -48,4 +47,3 @@ Serverhanteraren behöver ibland spara mellanliggande data på disken. Sökväge
 >[!NOTE]
 >
 >Den nya mappen måste skapas innan den här inställningen ändras. Se till att åtkomstbehörigheterna är inställda så att Server Supervisor har fullständig kontroll över mappen.
-
