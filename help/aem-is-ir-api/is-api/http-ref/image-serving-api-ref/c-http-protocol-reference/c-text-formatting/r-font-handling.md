@@ -3,15 +3,14 @@ description: Alla teckensnitt som refereras i RTF-strängen måste vara tillgän
 solution: Experience Manager
 title: Teckensnittshantering
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: f24edd53-4b21-4147-9b50-95e616279aa8
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
-
 
 # Teckensnittshantering{#font-handling}
 
@@ -23,7 +22,7 @@ Teckensnittet som anges med `attribute::DefaultFont` används när inga anges ex
 
 Image Serving har stöd för TrueType, OpenType och Adobe Type 1 (endast Windows).
 
-## Stöd för Photofont®-teckensnitt {#section-74560ae898cf4708aba4c8b4093f5f00}
+## Stöd för teckensnitt i Photofont® {#section-74560ae898cf4708aba4c8b4093f5f00}
 
 `textPs=` stöder Photofont®-teckensnitt med följande begränsningar:
 
