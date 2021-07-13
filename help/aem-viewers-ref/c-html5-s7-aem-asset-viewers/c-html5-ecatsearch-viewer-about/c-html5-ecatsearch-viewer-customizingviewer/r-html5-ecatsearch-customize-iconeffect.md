@@ -2,16 +2,15 @@
 description: Zoomindikatorn placeras över huvudvisningsområdet. Den visas när bilden är i ett återställningsläge och den är också beroende av parametern iconeffect.
 solution: Experience Manager
 title: Ikoneffekt
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+role: Developer,User
+exl-id: 90877e39-04ac-4c6c-b7c9-98ffda9355f2
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '177'
 ht-degree: 0%
 
 ---
-
 
 # Ikoneffekt{#icon-effect}
 
@@ -72,4 +71,3 @@ Exempel - för att ställa in en zoomindikator på 100 x 100 pixlar med olika gr
  background-image:url(images/v2/IconEffect_pinch.png); 
 }
 ```
-
