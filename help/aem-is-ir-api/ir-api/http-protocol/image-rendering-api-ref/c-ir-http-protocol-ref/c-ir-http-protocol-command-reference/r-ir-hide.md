@@ -3,15 +3,14 @@ description: Dölj överlappningsobjekt. Döljer alla överlappande objekt eller
 solution: Experience Manager
 title: hide
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 70c96b62-d6bd-4f12-9ee8-abac5d97e876
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '96'
 ht-degree: 0%
 
 ---
-
 
 # hide{#hide}
 
