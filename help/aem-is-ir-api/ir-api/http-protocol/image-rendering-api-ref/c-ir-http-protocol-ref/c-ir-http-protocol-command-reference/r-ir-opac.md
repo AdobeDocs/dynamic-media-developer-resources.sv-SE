@@ -3,15 +3,14 @@ description: Opacitet. Anger materialets opacitet.
 solution: Experience Manager
 title: opac
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 7910228217db2c97dccd306ce464c69da53ee576
+role: Developer,User
+exl-id: 7acd50b2-5c0c-492e-b5a8-105dc027ebcc
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
-
 
 # opac{#opac}
 
