@@ -2,16 +2,15 @@
 description: Verktyget för e-postdelning består av en knapp som läggs till på panelen Dela via sociala medier och i den modala dialogrutan som visas när verktyget aktiveras. Knappens position hanteras helt av verktyget för social delning.
 solution: Experience Manager
 title: E-postresurs
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+role: Developer,User
+exl-id: a879994d-2f26-4fdd-9a51-73644fc033cd
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '3044'
+source-wordcount: '3041'
 ht-degree: 0%
 
 ---
-
 
 # E-postresurs{#email-share}
 
@@ -1477,4 +1476,3 @@ background-image:url(images/sdk/scroll_up_up.png);
  background-image:url(images/sdk/scroll_down_disabled.png); 
 }
 ```
-
