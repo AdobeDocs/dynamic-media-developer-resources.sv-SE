@@ -3,15 +3,14 @@ description: Skapa ett"pappersprogram".
 solution: Experience Manager
 title: Exempel C
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 70232055-2a4c-4e56-8076-3cd56a9004c5
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
-
 
 # Exempel C{#example-c}
 
@@ -52,4 +51,3 @@ http://server/myApp/mannequin.tif?&hei=400&qlt=90&
  layer= 1&scale=0.3423&anchor=345,225&src=myApp/images/tankTopGeneric.tif&colorize=240,122,17&
  layer=2&scale=0.8544&anchor=140,-157&src=myApp/images/skirt14a
 ```
-
