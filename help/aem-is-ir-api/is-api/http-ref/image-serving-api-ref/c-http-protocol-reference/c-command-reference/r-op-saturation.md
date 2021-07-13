@@ -3,15 +3,14 @@ description: Justera mättnad. Ändrar mättnaden för varje synlig pixel i lagr
 solution: Experience Manager
 title: op_saturation
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: cd71e27e-6ccc-4ade-9bcf-af8e41bcf381
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
-
 
 # op_saturation{#op-saturation}
 
