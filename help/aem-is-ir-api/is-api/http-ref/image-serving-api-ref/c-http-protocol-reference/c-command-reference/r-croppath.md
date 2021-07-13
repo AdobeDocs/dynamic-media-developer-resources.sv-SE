@@ -3,15 +3,14 @@ description: Gör att du kan beskära till begränsningsramen för en inbäddad 
 solution: Experience Manager
 title: cropPathE
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 78e9f994-d638-49a7-ac42-3146e47210e3
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
-
 
 # cropPathE{#croppathe}
 
