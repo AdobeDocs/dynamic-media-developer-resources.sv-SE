@@ -2,16 +2,15 @@
 description: JavaScript API-referens för visningsprogrammet för utfällbara bilder.
 solution: Experience Manager
 title: setHandlers
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Flyout
+role: Developer,User
+exl-id: 3a7b2aeb-2de5-4d4c-8974-47b6418140e6
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
-
 
 # setHandlers{#sethandlers}
 
@@ -21,7 +20,7 @@ JavaScript API-referens för visningsprogrammet för utfällbara bilder.
 
 Anger noll eller flera callback-hanterare. Ett anrop till den här metoden skriver helt över händelsehanterare som tidigare tilldelats för den visningsprograminstansen. Måste anropas före `init()`.
 
-## Parametern {#section-0cc9961784d04eb3b7d50011309b0119}
+## Parameter {#section-0cc9961784d04eb3b7d50011309b0119}
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
@@ -45,4 +44,3 @@ Ingen.
 } 
 })
 ```
-
