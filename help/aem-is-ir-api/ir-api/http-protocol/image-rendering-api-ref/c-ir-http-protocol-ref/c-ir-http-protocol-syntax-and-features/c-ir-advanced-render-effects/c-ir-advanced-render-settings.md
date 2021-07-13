@@ -3,15 +3,14 @@ description: Vinjetteringsverktyget (som ingår i Dynamic Media Image Authoring 
 solution: Experience Manager
 title: Avancerade renderingsinställningar
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 0ad8f4b4-dd9c-43f5-aacc-67a564e34d92
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '612'
 ht-degree: 17%
 
 ---
-
 
 # Avancerade renderingsinställningar{#advanced-render-settings}
 
@@ -131,7 +130,7 @@ De här inställningarna styrs interaktivt i Bildredigering. Du kan använda sam
   <tr> 
    <td colname="col1"> <p>P </p> </td> 
    <td colname="col2"> <p>Poisson: Exempel/pixel. </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>4 </p> </td> 
    <td colname="col5"> <p>Standardvärdet är 1. </p> </td> 
   </tr> 
@@ -139,7 +138,7 @@ De här inställningarna styrs interaktivt i Bildredigering. Du kan använda sam
    <td colname="col1"> <p>Y </p> </td> 
    <td colname="col2"> <p>Poisson: Använd växlingsknappen. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
-   <td colname="col4"> <p>3 </p> </td> 
+   <td colname="col4"> <p>1 </p> </td> 
    <td colname="col5"> <p>Standardvärdet är 1. </p> </td> 
   </tr> 
   <tr> 
