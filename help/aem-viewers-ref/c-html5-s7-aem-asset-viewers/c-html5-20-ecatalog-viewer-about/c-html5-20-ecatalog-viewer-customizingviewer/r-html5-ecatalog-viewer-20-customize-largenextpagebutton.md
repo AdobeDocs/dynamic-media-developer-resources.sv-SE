@@ -2,18 +2,17 @@
 description: Om du klickar eller trycker på den här knappen kommer användaren till nästa sida i katalogen. Den här knappen visas i huvudkontrollfältet. Den här knappen visas inte på mobiltelefoner för att spara skärmutrymme. Du kan ändra storlek, skal och position för knappen med hjälp av CSS.
 solution: Experience Manager
 title: Knappen Stor nästa sida
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+role: Developer,User
+exl-id: 8147cdf8-298c-4713-a5a5-b34674f6b2c8
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
 
-
-# Stor knapp för nästa sida{#large-next-page-button}
+# Knappen Stor nästa sida{#large-next-page-button}
 
 Om du klickar eller trycker på den här knappen kommer användaren till nästa sida i katalogen. Den här knappen visas i huvudkontrollfältet. Den här knappen visas inte på mobiltelefoner för att spara skärmutrymme. Du kan ändra storlek, skal och position för knappen med hjälp av CSS.
 
@@ -97,4 +96,3 @@ background-image:url(images/v2/RightButton_dark_down.png);
 background-image:url(images/v2/RightButton_dark_disabled.png); 
 }
 ```
-
