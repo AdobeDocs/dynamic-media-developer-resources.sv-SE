@@ -3,15 +3,14 @@ description: Standardbakgrundsfärg för miniatyrbilder. RGB-värdet används f�
 solution: Experience Manager
 title: ThumbBkgColor
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 88acf5ad-2973-42f9-9aaa-901e66b07f53
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
-
 
 # ThumbBkgColor{#thumbbkgcolor}
 
