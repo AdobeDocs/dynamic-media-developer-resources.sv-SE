@@ -3,16 +3,15 @@ description: eCatalog Search Viewer är ett visningsprogram för en katalog som 
 keywords: responsiv
 solution: Experience Manager
 title: eCatalog Search
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+role: Developer,User
+exl-id: 915e628e-65e7-44c6-a2aa-d4ae7ed03b8e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '2191'
+source-wordcount: '2188'
 ht-degree: 0%
 
 ---
-
 
 # eCatalog Search{#ecatalog-search}
 
@@ -87,11 +86,11 @@ Det här visningsprogrammet har även stöd för både pekrörelser och musindat
 
 Visningsprogrammet för eCatalog-sökning har stöd för verktyg för delning via sociala medier. De är tillgängliga som en knapp i huvudkontrollfältet, som utökas till ett delningsverktygsfält när en användare klickar eller trycker på det.
 
-Delningsverktygsfältet innehåller ikoner för varje typ av delningskanal som stöds, inklusive Facebook, Twitter, e-postdelning, inbäddning av koddelning och länkdelning. När verktygen för e-postdelning, inbäddning eller länkdelning är aktiverade visas en modal dialogruta med ett motsvarande inmatningsformulär. När Facebook eller Twitter anropas omdirigeras användaren till en standarddialogruta för delning från en social tjänst. Delningsverktygen är inte tillgängliga i helskärmsläge på grund av säkerhetsbegränsningar i webbläsaren.
+Delningsverktygsfältet innehåller ikoner för varje typ av delningskanal som stöds, inklusive Facebook, Twitter, e-postdelning, inbäddning av koddelning och länkdelning. När verktygen för e-postdelning, inbäddning eller länkdelning är aktiverade visas en modal dialogruta med ett motsvarande inmatningsformulär. När Facebook eller Twitter anropas omdirigeras användaren till en standarddelningsdialogruta från en social tjänst. Delningsverktygen är inte tillgängliga i helskärmsläge på grund av säkerhetsbegränsningar i webbläsaren.
 
 Visningsprogrammets sökfunktion finns som en ikon med ett glas som ser ut i huvudverktygsfältet. Om du klickar på eller trycker på ikonen aktiveras sökpanelen med ett inmatningsfält. När du har angett ett nyckelord eller en fras och tryckt på Retur återges sökresultaten i panelen och de ord som hittats i huvudvyn markeras.
 
-## Bädda in eCatalog Search Viewer {#section-6bb5d3c502544ad18a58eafe12a13435}
+## Bädda in visningsprogrammet för eCatalog-sökning {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 Olika webbsidor har olika behov av visningsprogrammets beteende. Ibland innehåller en webbsida en länk som, när användaren klickar på den, öppnar visningsprogrammet i ett separat webbläsarfönster. I andra fall är det nödvändigt att bädda in visningsprogrammet direkt på värdsidan. I det senare fallet kan webbsidan ha en statisk sidlayout, eller använda responsiv design som visas på olika enheter eller för olika webbläsarfönsterstorlekar. För att tillgodose dessa behov har visningsprogrammet stöd för tre primära åtgärdslägen: popup-fönster, inbäddning i fast storlek och responsiv designinbäddning.
 
@@ -398,4 +397,3 @@ eCatalogSearchViewer.init();
 </body> 
 </html>
 ```
-
