@@ -3,17 +3,16 @@ description: De kommandon som stöds av Image Serving listas nedan, grupperade e
 solution: Experience Manager
 title: Översikt över kommandot Image Serving HTTP protocol
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: bfbbd70e-4b63-4dde-8d1e-a1b143b0e034
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
 
-
-# Kommandoöversikt för Image Serving HTTP-protokoll{#image-serving-http-protocol-command-overview}
+# Översikt över kommandot Image Serving HTTP protocol{#image-serving-http-protocol-command-overview}
 
 De kommandon som stöds av Image Serving listas nedan, grupperade efter grovkategori. Mer information om användning och tillämplighet finns i de specifika kommandobeskrivningarna.
 
