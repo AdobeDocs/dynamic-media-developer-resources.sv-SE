@@ -2,16 +2,15 @@
 description: EmbedShare.embedsizes
 solution: Experience Manager
 title: EmbedShare.embedsizes
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+role: Developer,User
+exl-id: dd1f1b9e-f710-4641-b44b-2d6e3d3e20c4
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 4%
+source-wordcount: '38'
+ht-degree: 5%
 
 ---
-
 
 # EmbedShare.embedsizes{#embedshare-embedsizes}
 
