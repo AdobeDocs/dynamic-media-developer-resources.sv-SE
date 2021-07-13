@@ -3,15 +3,14 @@ description: Flash webbdomäner. Adobe Flash kan kräva åtkomst till egenskaper
 solution: Experience Manager
 title: Betrodda domäner *
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 41794f62-6140-4e54-9de2-908b20c51b37
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
-
 
 # Betrodda domäner *{#trusteddomains}
 
