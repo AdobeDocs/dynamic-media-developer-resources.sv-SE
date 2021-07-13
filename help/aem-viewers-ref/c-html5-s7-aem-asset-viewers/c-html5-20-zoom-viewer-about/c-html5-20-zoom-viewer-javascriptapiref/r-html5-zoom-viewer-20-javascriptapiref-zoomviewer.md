@@ -2,16 +2,15 @@
 description: JavaScript API-referens för Zoom Viewer.
 solution: Experience Manager
 title: ZoomViewer
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
+role: Developer,User
+exl-id: fa52a017-0748-4e4f-8d91-ad1529fbfbdb
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
-
 
 # ZoomViewer{#zoomviewer}
 
@@ -67,4 +66,3 @@ defaultLocale:"en"
 } 
 });
 ```
-
