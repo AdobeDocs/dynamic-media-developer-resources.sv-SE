@@ -3,15 +3,14 @@ description: Klientens IP-adressfilter. Tillåter specifikation av en eller fler
 solution: Experience Manager
 title: ClientAddressFilter
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 028cef35-2862-452c-872c-b953e8ccb195
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
-
 
 # ClientAddressFilter{#clientaddressfilter}
 
