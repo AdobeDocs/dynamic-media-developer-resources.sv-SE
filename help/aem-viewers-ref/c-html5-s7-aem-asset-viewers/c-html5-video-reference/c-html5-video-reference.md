@@ -4,9 +4,9 @@ keywords: responsiv
 solution: Experience Manager
 title: Video
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Video
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: fa9727dc-f9e2-4d91-b500-445693dfb6aa
-source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '2388'
 ht-degree: 0%
@@ -63,7 +63,7 @@ Verktygsfältet för delning innehåller en ikon för varje typ av delningskanal
 
 Delningsverktygen är inte tillgängliga i helskärmsläge på grund av säkerhetsbegränsningar i webbläsaren.
 
-## Bädda in videovisningsprogrammet {#section-6bb5d3c502544ad18a58eafe12a13435}
+## Bädda in Video Viewer {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 Olika webbsidor har olika behov av visningsprogrammets beteende. Ibland innehåller en webbsida en länk som öppnar visningsprogrammet i ett separat webbläsarfönster när användaren klickar på den. I andra fall måste du bädda in visningsprogrammet direkt på värdsidan. I det senare fallet kan webbsidan ha en statisk sidlayout, eller använda responsiv design som visas på olika enheter eller för olika webbläsarfönsterstorlekar. För att tillgodose dessa behov har visningsprogrammet stöd för tre primära åtgärdslägen: popup, inbäddning i fast storlek och responsiv designinbäddning.
 
