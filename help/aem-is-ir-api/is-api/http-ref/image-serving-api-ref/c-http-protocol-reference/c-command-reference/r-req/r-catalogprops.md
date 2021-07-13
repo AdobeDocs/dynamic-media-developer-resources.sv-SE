@@ -3,17 +3,16 @@ description: Egenskaper för bildkatalog. Returnerar gemensamma attribut för de
 solution: Experience Manager
 title: katalogprops
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 28bf68e8-d424-418e-99a7-5298a1d83341
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
 
-
-# kataloger{#catalogprops}
+# katalogprops{#catalogprops}
 
 Egenskaper för bildkatalog. Returnerar gemensamma attribut för den bildkatalog som anges i sökvägen för begäran.
 
@@ -145,4 +144,3 @@ Följande egenskapsvärden returneras:
   </tr> 
  </tbody> 
 </table>
-
