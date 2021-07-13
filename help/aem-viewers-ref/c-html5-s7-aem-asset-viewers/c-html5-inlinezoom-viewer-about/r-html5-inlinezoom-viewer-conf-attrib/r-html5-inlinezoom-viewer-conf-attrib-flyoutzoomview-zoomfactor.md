@@ -2,16 +2,15 @@
 description: FlyoutZoomView.zoomfactor
 solution: Experience Manager
 title: FlyoutZoomView.zoomfactor
-feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Textbunden zoom
+role: Developer,User
+exl-id: 2a9d4450-a1a0-471c-86bf-105d516b0bd7
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '184'
 ht-degree: 0%
 
 ---
-
 
 # FlyoutZoomView.zoomfactor{#flyoutzoomview-zoomfactor}
 
