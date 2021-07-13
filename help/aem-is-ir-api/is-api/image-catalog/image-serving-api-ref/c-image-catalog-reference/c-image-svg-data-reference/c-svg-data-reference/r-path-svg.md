@@ -3,17 +3,16 @@ description: Bana
 solution: Experience Manager
 title: Bana
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: f2d17309-c4d0-477f-a8d8-b40f05a1a60b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
 
-
-# Sökväg{#path}
+# Bana{#path}
 
 Servern använder de regler för sökvägsupplösning som beskrivs i [Hantera källdata](../../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md#concept-1ec4d9f0e58a430cae045761f1ff9173) för att hitta datafilen.
 
