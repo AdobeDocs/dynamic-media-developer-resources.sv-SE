@@ -2,16 +2,15 @@
 description: Bilduppsättningsdata från bildkatalogen. Returnerar bilduppsättningsdata för bildkatalogposten som anges i URL-sökvägen.
 solution: Experience Manager
 title: bilduppsättning
-feature: Dynamic Media Classic,SDK/API,Image Sets
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,SDK/API,Bilduppsättningar
+role: Developer,User
+exl-id: 730e7db9-47f0-4e96-8948-18b8185a5b7a
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
-
 
 # bilduppsättning{#imageset}
 
