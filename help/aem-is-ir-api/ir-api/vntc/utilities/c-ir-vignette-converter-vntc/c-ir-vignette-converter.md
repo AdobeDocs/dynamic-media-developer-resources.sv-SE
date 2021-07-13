@@ -3,15 +3,14 @@ description: Vinjetteringskonverteraren (vntc) är ett kommandoradsverktyg som a
 solution: Experience Manager
 title: Vinjettkonverterare
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 9e2ad2d4-9061-41d1-941b-8be4c17a6c43
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
-
 
 # Vinjettkonverterare{#vignette-converter}
 
