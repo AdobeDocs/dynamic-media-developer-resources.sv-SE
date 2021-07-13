@@ -3,15 +3,14 @@ description: Det här dokumentet beskriver HTTP-protokollet för Dynamic Media I
 solution: Experience Manager
 title: Introduktion
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: de95ace6-31e4-4065-8c82-f190a79e911d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '55'
 ht-degree: 0%
 
 ---
-
 
 # Introduktion{#introduction}
 
