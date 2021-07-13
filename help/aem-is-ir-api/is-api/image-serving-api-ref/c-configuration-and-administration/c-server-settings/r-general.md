@@ -3,15 +3,14 @@ description: Allmänna serverinställningar
 solution: Experience Manager
 title: Allmänt
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Administrator,User
+exl-id: 3e4079e7-6def-4938-bb5b-c8122502712d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
-
 
 # Allmänt{#general}
 
@@ -21,15 +20,15 @@ Allmänna serverinställningar
 
 Anger den huvudsakliga avlyssningsporten för plattformsservern. Den här porten används även för att komma åt dokumentation och exempelsidor för Image Serving, Image Rendering och Dynamic Media Viewer (om det är installerat).
 
-## IS::CacheServerUrl - Caching Service Root Url {#section-bcca227a1f91453b834db4ea050968e2}
+## IS::CacheServerUrl - URL för cachelagring av tjänstens rot {#section-bcca227a1f91453b834db4ea050968e2}
 
 Anger HTTP-rotsökvägen som tillåter att Image Server får åtkomst till cachelagringstjänsten. Måste anges till [!DNL http://localhost:TC::PsPort /is/cache/secondary], med portnumret som matchar `TC::PsPort`.
 
-## IS::RemoteUrlDefaultExpiration - Fjärrbildskällans standard-TTL {#section-e4c31228b459492cacd2f482d9575f71}
+## IS::RemoteUrlDefaultExpiration - standard-TTL för fjärr-Image Source {#section-e4c31228b459492cacd2f482d9575f71}
 
 TTL för cachelagrade bilder som hämtas via HTTP från en fjärrkälla med hjälp av `src={…}`-konstruktionen. Används endast när fjärrservern inte har något förfallohuvud i HTTP-svaret. Heltalsvärde i sekunder.
 
-## IS::RemoteUrlTimeout - Timeout för fjärrbildskälla {#section-437646c479cc4bea81dae42100a3c50a}
+## IS::RemoteUrlTimeout - fjärrtimeout för Image Source {#section-437646c479cc4bea81dae42100a3c50a}
 
 Den tid som Image Server väntar på att en fjärrserver ska leverera den begärda bildfilen via HTTP innan ett fel returneras. Heltalsvärde i sekunder.
 
