@@ -3,15 +3,14 @@ description: Makronamn.
 solution: Experience Manager
 title: Namn
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 054dbbff-0989-4fa2-8a44-e6d3ee9e5ec9
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '44'
 ht-degree: 0%
 
 ---
-
 
 # Namn{#name}
 
