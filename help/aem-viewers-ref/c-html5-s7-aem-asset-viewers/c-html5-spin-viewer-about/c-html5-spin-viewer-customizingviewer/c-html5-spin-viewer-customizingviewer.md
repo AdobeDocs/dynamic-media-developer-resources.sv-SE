@@ -3,16 +3,15 @@ description: All visuell anpassning och de flesta beteendeanpassningar för Snur
 keywords: responsiv
 solution: Experience Manager
 title: Anpassa Spin Viewer
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,snurra uppsättningar
+role: Developer,User
+exl-id: eb2ad4ee-933f-408d-955e-be9bb7484192
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1329'
 ht-degree: 0%
 
 ---
-
 
 # Anpassa Spin Viewer{#customizing-spin-viewer}
 
@@ -36,7 +35,7 @@ När du skapar anpassad CSS bör du tänka på att visningsprogrammet tilldelar 
 
 `#<containerId>.s7spinviewer`
 
-## Skapar responsiv CSS {#section-0bb49aca42d242d9b01879d5ba59d33b}
+## Skapa responsiv CSS {#section-0bb49aca42d242d9b01879d5ba59d33b}
 
 Det är möjligt att rikta in sig på olika enheter och inbäddningsstorlekar i CSS så att innehållet visas på olika sätt, beroende på användarens enhet eller en viss webbsideslayout. Detta omfattar, men är inte begränsat till, olika webbsideslayouter, elementstorlekar i användargränssnittet och bildupplösning.
 
@@ -129,7 +128,7 @@ Med en mediefrågemetod bör du organisera CSS med enhetsavkänning enligt följ
 
 Du behöver inte duplicera hela CSS för visningsprogram i varje mediefråga. Endast egenskaper som är specifika för vissa enheter omdefinieras i en mediefråga.
 
-## CSS-sprites {#section-b671c70acf284cb0aea678c2d2e4babc}
+## CSS-fragment {#section-b671c70acf284cb0aea678c2d2e4babc}
 
 Många visningsgränssnittselement är formaterade med bitmappsbilder och har mer än ett tydligt visuellt läge. Ett bra exempel är en knapp som normalt har minst tre olika lägen: &quot;up&quot;, &quot;over&quot; och &quot;down&quot;. För varje läge krävs en egen bitmappsbild.
 
@@ -183,6 +182,6 @@ background-position: -0px -560px;
 * Om du vill ta bort en knapp från användargränssnittet lägger du till `display:none` i CSS-klassen.
 * Du kan använda olika format för färgvärden som stöds i CSS. Använd formatet `rgba(R,G,B,A)` om du behöver genomskinlighet. Annars kan du använda formatet `#RRGGBB`.
 
-## Element för gemensamt användargränssnitt {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
+## Element i gemensamt användargränssnitt {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
 
 Nedan följer referensdokumentation för användargränssnittselement som gäller för blandad Media Viewer:
