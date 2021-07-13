@@ -3,15 +3,14 @@ description: Svarets bildbredd. Anger skalningen av den återgivna bilden så at
 solution: Experience Manager
 title: wid
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: a77b71c3-8600-4d7a-ba52-e158cf9668eb
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
-
 
 # wid{#wid}
 
