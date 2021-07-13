@@ -3,15 +3,14 @@ description: $var$ referenser kan förekomma var som helst inom klammerparentese
 solution: Experience Manager
 title: Variabel bearbetning i kapslade begäranden
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: fa82ec48-aeec-4cd9-8d2e-cf9c913c67a7
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
-
 
 # Variabel bearbetning i kapslade begäranden{#variable-processing-in-nested-requests}
 
