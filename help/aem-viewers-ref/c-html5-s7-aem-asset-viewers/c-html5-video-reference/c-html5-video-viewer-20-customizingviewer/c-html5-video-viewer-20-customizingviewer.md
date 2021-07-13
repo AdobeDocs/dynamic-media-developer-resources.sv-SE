@@ -3,16 +3,15 @@ description: Anpassa Video Viewer
 keywords: responsiv
 solution: Experience Manager
 title: Anpassa Video Viewer
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Video
+role: Developer,User
+exl-id: 90dc93ee-fdd0-41c9-9eef-4c9952198356
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
-
 
 # Anpassa Video Viewer{#customizing-video-viewer}
 
@@ -32,7 +31,7 @@ När du skapar anpassad CSS måste du komma ihåg att visningsprogrammet tilldel
 
 `#<containerId>.s7videoviewer`
 
-## Skapar responsiv CSS {#section-63e8f93ee2f14fd8bba1ce33a6870b80}
+## Skapa responsiv CSS {#section-63e8f93ee2f14fd8bba1ce33a6870b80}
 
 Det går att rikta in sig på olika enheter i CSS för att visa innehållet på olika sätt beroende på användarens enhet. Den här målgruppen omfattar, men är inte begränsad till, olika elementstorlekar i användargränssnittet och bildupplösning.
 
@@ -123,7 +122,7 @@ Med CSS-mediefrågor kan du ordna CSS med enhetsavkänning på följande sätt:
 
 Du behöver inte duplicera hela CSS för visningsprogram i varje mediefråga. Endast egenskaper som är specifika för vissa enheter omdefinieras i en mediefråga.
 
-## CSS-sprites {#section-9b6d8d601cb441d08214dada7bb4eddc}
+## CSS-fragment {#section-9b6d8d601cb441d08214dada7bb4eddc}
 
 Många visningsgränssnittselement är formaterade med bitmappsbilder och har mer än ett tydligt visuellt läge. Ett bra exempel är en knapp som normalt har minst tre olika lägen: &quot;up&quot;, &quot;over&quot; och &quot;down&quot;. För varje läge krävs en egen bitmappsbild.
 
@@ -215,6 +214,6 @@ background-position: -0px -1120px;
 
 * När du anpassar visningsprogrammets användargränssnitt med CSS stöds inte användningen av regeln `!IMPORTANT` för att formatera visningsprogramelement. I synnerhet ska `!IMPORTANT`-regeln inte användas för att åsidosätta standardformat eller körningsformat som tillhandahålls av visningsprogrammet eller visaren-SDK:n. Orsaken är att det kan påverka beteendet för rätt komponenter. I stället bör du använda CSS-väljare med rätt specificitet för att ange CSS-egenskaper som dokumenteras i den här referenshandboken.
 
-## Element för gemensamt användargränssnitt {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
+## Element i gemensamt användargränssnitt {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
 
 Nedan följer referensdokumentation för användargränssnittselement som gäller för Video Viewer:
