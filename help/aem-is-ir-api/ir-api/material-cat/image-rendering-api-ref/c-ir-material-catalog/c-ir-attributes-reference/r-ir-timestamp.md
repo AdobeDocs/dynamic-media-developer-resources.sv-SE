@@ -3,17 +3,16 @@ description: Standardtidsstämpel för ändring. Tillhandahåller ett standardv�
 solution: Experience Manager
 title: TimeStamp
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 0b6d8fa6-0ad9-4f72-8d6d-1427e5d59df3
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
 
-
-# Tidsstämpel{#timestamp}
+# TimeStamp{#timestamp}
 
 Standardtidsstämpel för ändring. Tillhandahåller ett standardvärde för katalogen::TimeStamp och vinjettering::TimeStamp. Om inget anges kommer servern att använda ändringsdatumet/-tiden för den här catalog.ini-filen.
 
