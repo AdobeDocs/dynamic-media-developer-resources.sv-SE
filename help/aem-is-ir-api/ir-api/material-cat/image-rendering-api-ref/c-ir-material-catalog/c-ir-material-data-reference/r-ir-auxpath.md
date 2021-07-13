@@ -3,15 +3,14 @@ description: Sökväg till datafil. Relativ sökväg och namn för datafiler som
 solution: Experience Manager
 title: AuxPath
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 55f82596-72f0-48c4-9b3a-f10ea5f610f1
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
-
 
 # AuxPath{#auxpath}
 
