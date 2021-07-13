@@ -3,15 +3,14 @@ description: Upplösningsvärdet för en repeterbar textur eller annat material 
 solution: Experience Manager
 title: Materialupplösning
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 8a02e555-87cf-47a8-823d-d6833c0fd9c7
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
-
 
 # Materialupplösning{#material-resolution}
 
