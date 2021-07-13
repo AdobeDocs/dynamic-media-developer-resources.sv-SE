@@ -2,16 +2,15 @@
 description: ZoomView.fmt
 solution: Experience Manager
 title: ZoomView.fmt
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
+role: Developer,User
+exl-id: 7cb75d38-a577-4e06-b679-c4e00db5059a
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '79'
 ht-degree: 1%
 
 ---
-
 
 # ZoomView.fmt{#zoomview-fmt}
 
