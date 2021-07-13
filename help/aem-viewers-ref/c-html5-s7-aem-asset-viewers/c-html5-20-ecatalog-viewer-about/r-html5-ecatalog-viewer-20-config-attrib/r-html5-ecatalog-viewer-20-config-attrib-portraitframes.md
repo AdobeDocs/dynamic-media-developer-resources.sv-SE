@@ -2,16 +2,15 @@
 description: portraitFrames
 solution: Experience Manager
 title: portraitFrames
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+role: Developer,User
+exl-id: 050388f8-45a9-4f09-a957-f94bead17eca
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '53'
 ht-degree: 1%
 
 ---
-
 
 # portraitFrames{#portraitframes}
 
