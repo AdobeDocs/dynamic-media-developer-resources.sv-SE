@@ -3,15 +3,14 @@ description: Grundsyntaxen för HTTP-protokollet är följande.
 solution: Experience Manager
 title: Grundläggande syntax för Image Serving HTTP-protokoll
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: ac75d6d0-a71e-45a0-89ee-b952a0202793
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
-
 
 # Grundläggande syntax för Image Serving HTTP-protokoll{#image-serving-http-protocol-basic-syntax}
 
@@ -68,7 +67,7 @@ Grundsyntaxen för HTTP-protokollet är följande:
 
 *`value`* är kommandospecifikt och kan bestå av ett eller flera värden avgränsade med kommatecken. Mer information finns i beskrivningen av de enskilda kommandona.
 
-## Serveridentifierare {#section-926ae55ddba14b8d952147a5fd701e14}
+## Server-ID {#section-926ae55ddba14b8d952147a5fd701e14}
 
 Rotkontexten [!DNL /is/image] krävs för alla HTTP-begäranden till Image Serving.
 
