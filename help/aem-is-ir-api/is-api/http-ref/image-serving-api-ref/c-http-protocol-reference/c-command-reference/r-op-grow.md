@@ -3,15 +3,14 @@ description: Dilate/erode image. Använder en morfologisk dilat (radie > 0) elle
 solution: Experience Manager
 title: op_growth
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 4c5bef4e-f80e-454d-8e93-30bf33d7ec9e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
-
 
 # op_growth{#op-grow}
 
