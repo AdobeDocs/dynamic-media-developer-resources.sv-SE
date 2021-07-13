@@ -2,16 +2,15 @@
 description: SearchPanel.align
 solution: Experience Manager
 title: SearchPanel.align
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+role: Developer,User
+exl-id: 772b2789-4152-4320-893d-efc39689424b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '82'
 ht-degree: 1%
 
 ---
-
 
 # SearchPanel.align{#searchpanel-align}
 
