@@ -3,15 +3,14 @@ description: Felhantering av markeringsfel. Anger vilken åtgärd som ska vidtas
 solution: Experience Manager
 title: OnFailSel
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: d5485569-def8-4e16-9f0e-7dd30d38439d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 3%
+source-wordcount: '125'
+ht-degree: 4%
 
 ---
-
 
 # OnFailSel{#onfailsel}
 
@@ -27,7 +26,7 @@ Enum.
   <td class="stentry"> <p>Ärv från <span class="codeph"> standard::OnFailSel </span>. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>1 </p> </td> 
+  <td class="stentry"> <p>3 </p> </td> 
   <td class="stentry"> <p>Behåll föregående markering. </p> </td> 
  </tr> 
  <tr class="strow"> 
