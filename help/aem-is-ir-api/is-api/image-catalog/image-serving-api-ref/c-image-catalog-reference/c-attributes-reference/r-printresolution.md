@@ -3,15 +3,14 @@ description: Standardutskriftsupplösning. Anger en standardutskriftsupplösning
 solution: Experience Manager
 title: PrintResolution
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: b61c63c4-09ca-43fe-b711-8b06d766aefb
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '74'
 ht-degree: 0%
 
 ---
-
 
 # PrintResolution{#printresolution}
 
