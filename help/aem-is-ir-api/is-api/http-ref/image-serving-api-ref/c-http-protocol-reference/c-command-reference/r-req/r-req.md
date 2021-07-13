@@ -3,15 +3,14 @@ description: Typ av begäran. Anger typen av begäran.
 solution: Experience Manager
 title: req
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
+role: Developer,User
+exl-id: 546b8b3f-9e37-4e8d-bf0c-db8c12696b2b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
-
 
 # req{#req}
 
