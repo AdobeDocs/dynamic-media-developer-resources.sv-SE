@@ -3,15 +3,14 @@ description: Bildankarpunkt. Ursprungspunkt när den här bilden används som et
 solution: Experience Manager
 title: Ankarpunkt
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: c54b8bb2-af4f-4c05-be7b-4326dd08993a
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
-
 
 # Ankarpunkt{#anchor}
 
