@@ -3,15 +3,14 @@ description: Använd informationen i det här avsnittet för att konfigurera och
 solution: Experience Manager
 title: Konfiguration och administration
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Administrator,User
+exl-id: fa02b6f7-777f-4c4d-a959-0f0d0fc96774
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '62'
 ht-degree: 0%
 
 ---
-
 
 # Konfiguration och administration{#configuration-and-administration}
 
