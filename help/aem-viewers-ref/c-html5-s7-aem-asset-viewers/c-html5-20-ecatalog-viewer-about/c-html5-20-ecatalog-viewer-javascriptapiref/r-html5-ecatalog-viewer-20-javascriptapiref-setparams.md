@@ -2,16 +2,15 @@
 description: JavaScript API-referens för eCatalog Viewer.
 solution: Experience Manager
 title: setParams
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+role: Developer,User
+exl-id: a93c14e8-d322-4630-9334-1b4413f1e443
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
-
 
 # setParams{#setparams}
 
@@ -43,4 +42,3 @@ Ingen.
 ```
 <instance>.setParams("PageView.zoomstep=2,3&PageView.iscommand=op_sharpen%3d1")
 ```
-
