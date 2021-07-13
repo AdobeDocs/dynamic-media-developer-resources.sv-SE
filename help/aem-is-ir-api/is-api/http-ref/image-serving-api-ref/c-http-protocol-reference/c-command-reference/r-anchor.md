@@ -3,15 +3,14 @@ description: Bildankarpunkt. Definierar fästpunkten för rektangeln för bilden
 solution: Experience Manager
 title: ankare
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: f62ae048-0dcc-4e93-a9f1-2e4db6bef51f
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
-
 
 # ankare{#anchor}
 
