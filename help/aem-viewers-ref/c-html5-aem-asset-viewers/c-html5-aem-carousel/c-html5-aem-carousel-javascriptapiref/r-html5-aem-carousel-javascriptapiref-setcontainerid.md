@@ -3,12 +3,11 @@ description: JavaScript API-referens för Carousel Viewer.
 solution: Experience Manager
 title: setContainerId
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 32636cf9-3dc7-4299-a7b7-cf803ca36514
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
@@ -23,7 +22,7 @@ Anger ID:t för DOM-behållaren (vanligtvis en `DIV`) som visningsprogrammet inf
 
 Den här metoden är valfri om visningsprogrammets konfigurationsinformation skickas med JSON-objektet `config` till konstruktorn.
 
-## Parametern {#section-fa807db629ce43bab286b1e1dc96c492}
+## Parameter {#section-fa807db629ce43bab286b1e1dc96c492}
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
