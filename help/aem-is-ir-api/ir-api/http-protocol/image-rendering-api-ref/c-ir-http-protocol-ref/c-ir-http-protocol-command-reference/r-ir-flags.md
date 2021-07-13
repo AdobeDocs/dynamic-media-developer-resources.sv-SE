@@ -3,15 +3,14 @@ description: Använd flaggor. Anger ytterligare renderingsalternativ.
 solution: Experience Manager
 title: flaggor
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: d0c3f65e-2dec-4c35-8df4-8d111e81f3f0
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
-
 
 # flaggor{#flags}
 
