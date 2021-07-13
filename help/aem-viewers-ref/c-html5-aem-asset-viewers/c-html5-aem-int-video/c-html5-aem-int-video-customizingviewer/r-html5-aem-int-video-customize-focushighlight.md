@@ -2,13 +2,12 @@
 description: Markering av indatafokus som visas runt element i användargränssnittet för fokuserade visningsprogram styrs med CSS-klassväljaren.
 solution: Experience Manager
 title: Fokusmarkering
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
+role: Developer,User
 exl-id: cb5231ed-106a-444f-aac7-06dd1a84a665
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '88'
 ht-degree: 0%
 
 ---
