@@ -1,21 +1,20 @@
 ---
-description: Twitter-delningsverktyget består av en knapp som har lagts till på panelen Dela via sociala medier. När användaren klickar på knappen omdirigeras användaren till en delningsdialogruta som tillhandahålls av en social tjänst. Knappens position hanteras helt av verktyget för social delning.
+description: Twitter delningsverktyg består av en knapp som läggs till på panelen Dela via sociala medier. När användaren klickar på knappen omdirigeras användaren till en delningsdialogruta som tillhandahålls av en social tjänst. Knappens position hanteras helt av verktyget för social delning.
 solution: Experience Manager
-title: Twitter-delning
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+title: Twitter
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Video
+role: Developer,User
+exl-id: 1db2600d-d13f-4563-b40a-098485e0ddf9
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
 
+# Twitter{#twitter-share}
 
-# Twitter-resurs{#twitter-share}
-
-Twitter-delningsverktyget består av en knapp som har lagts till på panelen Dela via sociala medier. När användaren klickar på knappen omdirigeras användaren till en delningsdialogruta som tillhandahålls av en social tjänst. Knappens position hanteras helt av verktyget för social delning.
+Twitter delningsverktyg består av en knapp som läggs till på panelen Dela via sociala medier. När användaren klickar på knappen omdirigeras användaren till en delningsdialogruta som tillhandahålls av en social tjänst. Knappens position hanteras helt av verktyget för social delning.
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
@@ -25,7 +24,7 @@ Utseendet på Twitter-delningsknappen styrs av följande CSS-klassväljare:
 .s7videoviewer .s7twittershare
 ```
 
-**CSS-egenskaper för Twitter-delningsverktyget**
+**CSS-egenskaper för delningsverktyget i Twitter**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -56,7 +55,7 @@ Det går att ta bort knappen från panelen Dela via CSS-egenskapen `display:none
 
 Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av element i användargränssnittet](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad).
 
-Exempel - för att ställa in en Twitter-delningsknapp som är 28 x 28 pixlar och visar en annan bild för vart och ett av de fyra olika knapplägena:
+Exempel - för att ställa in en delningsknapp på Twitter som är 28 x 28 pixlar och visar en annan bild för vart och ett av de fyra olika knapplägena:
 
 ```
 .s7videoviewer .s7twittershare { 
@@ -76,4 +75,3 @@ background-image:url(images/v2/TwitterShare_dark_down.png);
 background-image:url(images/v2/TwitterShare_dark_disabled.png); 
 }
 ```
-
