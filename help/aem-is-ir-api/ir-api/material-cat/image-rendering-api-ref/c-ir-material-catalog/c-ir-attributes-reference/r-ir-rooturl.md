@@ -3,15 +3,14 @@ description: Rot-URL för relativa bild-URL:er. Anger rot-URL:en för relativa b
 solution: Experience Manager
 title: RootUrl *
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 094b5143-d4f0-412f-92cf-3522157cbeca
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
-
 
 # RootUrl *{#rooturl}
 
