@@ -3,21 +3,20 @@ description: '"Den senaste versionsinformationen om Adobe Scene7 hösten 2016, e
 solution: Experience Manager
 title: Scene7 hösten 2016
 feature: Dynamic Media Classic
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,User
+exl-id: 23091ef7-750a-4ec2-9d03-1d713f436991
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '2238'
+source-wordcount: '2235'
 ht-degree: 0%
 
 ---
 
-
-# Scene7 hösten 2016-utgåvan{#scene-fall-release}
+# Scene7 hösten 2016{#scene-fall-release}
 
 Den senaste versionsinformationen om Adobe Scene7 hösten 2016 ingår i Adobe Experience Manager-lösningen i Adobe Marketing Cloud.
 
-## Scene7 hösten 2016 utgåva {#topic-791cdf80f91e457fbb63bfedf79f5a94}
+## Scene7 hösten 2016 {#topic-791cdf80f91e457fbb63bfedf79f5a94}
 
 Den senaste versionsinformationen för [!DNL Adobe Scene7] hösten 2016 som en del av [!DNL Adobe Experience Manager]-lösningen i [!DNL Adobe Marketing Cloud].
 
@@ -346,8 +345,7 @@ Användarhandboken finns i Adobe HTML5 Viewer SDK-mappen för klientinstallation
    * Förhandsvisningsbilden kanske inte visas i Microsoft Edge-webbläsaren för första gången.
    * Filmminiatyrbilden kan döljas när videon har lästs in i Internet Explorer 9 när progressiv uppspelning används.
 
-## Dynamic Media Image Serving 6.3.2 and Image Rendering 6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
+## Dynamic Media Image Serving 6.3.2 och Image Rendering 6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
 
 * IC-verktyg - flaggan `downsample2x2` stöds inte längre. Den här flaggan var en 2x2-nedsampling med låg kvalitet som inte längre används av IPS.
 * CORS-huvud - CORS-huvudet är för närvarande konfigurerat för `/is/content/`-begäranden.
-
