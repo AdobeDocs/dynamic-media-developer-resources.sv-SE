@@ -3,15 +3,14 @@ description: Vinjetter är bilder som har skapats med Dynamic Media Image Author
 solution: Experience Manager
 title: Vinjetter
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,User
+exl-id: 5e1be99c-58c0-4e3c-bc57-7be5fa25ccef
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
-
 
 # Vinjetter{#vignettes}
 
