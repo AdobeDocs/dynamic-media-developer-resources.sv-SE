@@ -3,15 +3,14 @@ description: Ange textnodsvärde för s7 elementID.
 solution: Experience Manager
 title: setVal
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 03ec2ffb-ad9a-4135-bc31-2d71284955f6
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '64'
 ht-degree: 0%
 
 ---
-
 
 # setVal{#setval}
 
