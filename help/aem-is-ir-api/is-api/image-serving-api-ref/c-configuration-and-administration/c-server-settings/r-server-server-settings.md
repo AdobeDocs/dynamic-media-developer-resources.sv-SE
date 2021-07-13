@@ -3,21 +3,20 @@ description: Använd de här serverinställningarna för att konfigurera servern
 solution: Experience Manager
 title: Server
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Administrator,User
+exl-id: 10970ca8-b209-4adf-b027-6eb8d7a15db6
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
-
 
 # Server{#server}
 
 Använd de här serverinställningarna för att konfigurera servern.
 
-## SV::ImageServerMode - Image Server Mode {#section-991b287f2dde4f77a24fc69d5b32cabd}
+## SV::ImageServerMode - Image Server-läge {#section-991b287f2dde4f77a24fc69d5b32cabd}
 
 Både en 32- och en 64-bitarsversion av Image Server finns för Linux. Ange ImageServer64 när den installeras på 64-bitars Linux-servrar, eller ImageServer32 (standard) när den installeras på 32-bitarsservrar.
 
