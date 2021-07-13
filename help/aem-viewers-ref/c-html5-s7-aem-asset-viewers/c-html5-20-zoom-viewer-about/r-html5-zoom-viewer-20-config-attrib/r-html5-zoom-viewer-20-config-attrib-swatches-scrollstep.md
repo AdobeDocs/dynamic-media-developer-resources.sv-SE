@@ -2,16 +2,15 @@
 description: Swatches.scrollstep
 solution: Experience Manager
 title: Swatches.scrollstep
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
+role: Developer,User
+exl-id: 94774bc1-c490-4341-b223-8823699b6c1e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '42'
+source-wordcount: '39'
 ht-degree: 2%
 
 ---
-
 
 # Swatches.scrollstep{#swatches-scrollstep}
 
