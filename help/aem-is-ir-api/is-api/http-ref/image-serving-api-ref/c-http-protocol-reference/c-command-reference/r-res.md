@@ -3,15 +3,14 @@ description: Upplösningsbaserad bildskalning. Skalar bilden till den önskade u
 solution: Experience Manager
 title: res
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: e8ed7b00-7bb3-463e-9aaa-47f77bd4b45e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
-
 
 # res{#res}
 
