@@ -3,17 +3,16 @@ description: Intresseregion. Anger ett rektangulärt intresseområde (ROI) i den
 solution: Experience Manager
 title: gradera
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 4fa597ba-f949-47f2-bb0f-5c078b5c7524
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '140'
 ht-degree: 0%
 
 ---
 
-
-# rgn{#rgn}
+# gradera{#rgn}
 
 Intresseregion. Anger ett rektangulärt intresseområde (ROI) i den sammansatta bilden, uttryckt i pixlar.
 
