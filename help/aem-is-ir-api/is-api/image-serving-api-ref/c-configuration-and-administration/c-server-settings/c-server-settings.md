@@ -3,15 +3,14 @@ description: I det här avsnittet beskrivs alla redigerbara konfigurationsinstä
 solution: Experience Manager
 title: Serverinställningar
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Administrator,User
+exl-id: c3296c7a-35b3-4f01-a793-35c8304ffd95
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '66'
 ht-degree: 0%
 
 ---
-
 
 # Serverinställningar{#server-settings}
 
