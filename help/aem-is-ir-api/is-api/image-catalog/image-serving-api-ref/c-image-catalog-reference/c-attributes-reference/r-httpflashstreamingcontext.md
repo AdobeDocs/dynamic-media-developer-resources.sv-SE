@@ -3,15 +3,14 @@ description: URL-prefix för Flash Streaming Server. URL-prefix för Flash-direk
 solution: Experience Manager
 title: HttpFlashStreamingContext
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 1052e14d-2906-4be5-a13c-f5f34cd46d89
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '62'
 ht-degree: 0%
 
 ---
-
 
 # HttpFlashStreamingContext{#httpflashstreamingcontext}
 
