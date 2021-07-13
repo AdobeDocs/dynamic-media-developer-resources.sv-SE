@@ -2,16 +2,15 @@
 description: Popup-menyn i panelen Info visas mitt i visningsprogramområdet när en användare aktiverar ett bildschema som har en rollover_key-egenskap definierad i Dynamic Media Classic och om funktionen i informationspanelen är korrekt konfigurerad för visningsprogrammet.
 solution: Experience Manager
 title: Popup för panelen Info
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+role: Developer,User
+exl-id: c29f085e-8093-44d2-8f98-9341d780cca8
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
-
 
 # Popup för panelen Info{#info-panel-popup}
 
@@ -200,4 +199,3 @@ background-image:url(images/v2/InfoPanelPopup_CloseButton_dark_up.png);
 background-image:url(images/v2/InfoPanelPopup_CloseButton_dark_up.png); 
 }
 ```
-
