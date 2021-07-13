@@ -3,15 +3,14 @@ description: Standardkatalogen innehåller standardvärden för alla katalogattr
 solution: Experience Manager
 title: Standardkatalog
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: db42fb67-aa6f-4217-bc69-45b01bbd0b10
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
-
 
 # Standardkatalog{#default-catalog}
 
@@ -26,4 +25,3 @@ För att plattformsservern ska fungera korrekt måste katalogattributfilen för 
 >[!NOTE]
 >
 >Alla katalogattributfiler utom [!DNL default.ini] måste innehålla ett unikt `attribute::RootId`-värde. `attribute::RootId` måste  [!DNL default.ini] vara tom.
-
