@@ -2,16 +2,15 @@
 description: Hämta
 solution: Experience Manager
 title: Hämta
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+role: Developer,User
+exl-id: 4cfdfc28-20db-41bc-a423-01d696ea6eed
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
-
 
 # Hämta{#download}
 
@@ -22,4 +21,3 @@ Knappen&quot;Hämta&quot; är automatiskt tillgänglig i visningsprogrammets anv
 * Det finns en PDF-fil i kundens företag.
 * Namnet matchar namnet på den e-katalogresurs som skickas till visningsprogrammet och innehåller ett `.pdf`-tillägg.
 * PDF-filen publiceras i Dynamic Media Classic.
-
