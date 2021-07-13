@@ -3,17 +3,16 @@ description: Användardata. Servern returnerar innehållet i det här fältet ti
 solution: Experience Manager
 title: UserData *
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: e8ec11af-9448-4796-a43d-0fb9841469dd
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '69'
 ht-degree: 1%
 
 ---
 
-
-# Användardata *{#userdata}
+# UserData *{#userdata}
 
 Användardata. Servern returnerar innehållet i det här fältet till klienten som svar på req=userdata.
 
