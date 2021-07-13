@@ -2,18 +2,17 @@
 description: Kompatibilitetsinformation för operativsystem, webbläsare och mobila enheter.
 solution: Experience Manager
 title: Kompatibilitetsanteckningar
-feature: Dynamic Media Classic,Viewers,SDK/API
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,visningsprogram,SDK/API
+role: Developer,User
 exl-id: 7ad499b1-7da6-483b-ab11-cff2eb9271da
-translation-type: tm+mt
-source-git-commit: 62234233bb1a5bcbd0eac5d281b42ed785c0c169
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
 
-# Kompatibilitetsinformation{#compatibility-notes}
+# Kompatibilitetsanteckningar{#compatibility-notes}
 
 <!-- Updated April 06, 2021 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
