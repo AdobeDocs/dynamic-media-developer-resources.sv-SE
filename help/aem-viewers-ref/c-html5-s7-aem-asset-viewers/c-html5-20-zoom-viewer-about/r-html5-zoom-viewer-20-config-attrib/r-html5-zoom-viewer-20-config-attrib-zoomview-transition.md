@@ -2,16 +2,15 @@
 description: ZoomView.transition
 solution: Experience Manager
 title: ZoomView.transition
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
+role: Developer,User
+exl-id: f1b4faa3-14d1-4eef-acc2-214c7be4a5ab
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
-
 
 # ZoomView.transition{#zoomview-transition}
 
