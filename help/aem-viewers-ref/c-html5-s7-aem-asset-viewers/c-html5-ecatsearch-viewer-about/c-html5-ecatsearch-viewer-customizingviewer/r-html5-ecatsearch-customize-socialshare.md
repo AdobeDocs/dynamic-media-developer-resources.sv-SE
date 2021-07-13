@@ -2,18 +2,17 @@
 description: Verktyget för social delning visas som standard i det övre vänstra hörnet. Den består av en knapp och en panel som utökas när användaren klickar eller trycker på en knapp och innehåller enskilda delningsverktyg.
 solution: Experience Manager
 title: Social andel
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+role: Developer,User
+exl-id: 5cac6c86-08fb-46fd-bab0-ab77154eb770
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
 
-
-# Social resurs{#social-share}
+# Social andel{#social-share}
 
 Verktyget för social delning visas som standard i det övre vänstra hörnet. Den består av en knapp och en panel som utökas när användaren klickar eller trycker på en knapp och innehåller enskilda delningsverktyg.
 
@@ -126,4 +125,3 @@ Exempel - ställ in en panel så att den har genomskinlig färg:
  background-color: transparent; 
 }
 ```
-
