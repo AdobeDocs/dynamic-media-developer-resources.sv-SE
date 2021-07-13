@@ -2,16 +2,15 @@
 description: Konfigurationsattribut för Video Viewer.
 solution: Experience Manager
 title: EmbedShare.embedsizes
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Video
+role: Developer,User
+exl-id: cf075711-1275-4eb2-8cb6-fb2609711c7a
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 2%
+source-wordcount: '64'
+ht-degree: 3%
 
 ---
-
 
 # EmbedShare.embedsizes{#embedshare-embedsizes}
 
@@ -51,4 +50,3 @@ Valfritt.
 ```
 embedsizes=800,600;640,480,1
 ```
-
