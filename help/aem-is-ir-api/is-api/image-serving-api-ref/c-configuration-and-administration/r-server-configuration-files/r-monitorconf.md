@@ -3,15 +3,14 @@ description: Innehåller inställningar för övervaknings-/varningssystemet.
 solution: Experience Manager
 title: monitor.conf
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Administrator,User
+exl-id: 09c30680-dd9f-4744-b5ec-105721058883
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
-
 
 # monitor.conf{#monitor-conf}
 
@@ -31,4 +30,3 @@ Filen är en JAVA-egenskapsfil. Det är viktigt att följa tillämpliga konventi
   <td class="stentry"> <p> monitorAlertGenerator.maxAverageResponseTime=200 </p> <p> monitorAlertGenerator.maxErrorRate=0.05 </p> <p> monitorAlertGenerator.minRequestRate=0.0 </p> <p> monitorAlertGenerator.minFreeHeapSpace=52428800 </p> <p> monitorAlertGenerator.maxOverlap=20 </p> <p> monitorAlertGenerator.lockedThreshold=60000 </p> </td> 
  </tr> 
 </table>
-
