@@ -2,16 +2,15 @@
 description: EmailShare.emailurl
 solution: Experience Manager
 title: EmailShare.emailurl
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+role: Developer,User
+exl-id: 4ebaed6f-7058-42cc-b3b2-0fe2c1d081e4
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '30'
+source-wordcount: '27'
 ht-degree: 3%
 
 ---
-
 
 # EmailShare.emailurl{#emailshare-emailurl}
 
