@@ -3,19 +3,17 @@ description: Steg 2 i bildlagrets omformningar ändras enligt följande för min
 solution: Experience Manager
 title: Skalning av miniatyrbilder
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 08290258-4fc8-4a6a-ba8f-6bdcd969fa3c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '80'
 ht-degree: 0%
 
 ---
-
 
 # Skalning av miniatyrbilder{#thumbnail-scaling}
 
 Steg 2 i bildlagrets omformningar ändras enligt följande för miniatyrbilder (t.ex. om req=tmb).
 
 * `2.` Om du  `size=` anger det passas bilden (den beskurna) in i  `size=` rektangeln med hjälp av miniatyrregler. Om `size=` inte anges, skalar du baserat på `res=` eller, om `res=` inte anges, anpassar du (beskuren) bilden till arbetsyterektangeln med hjälp av miniatyrreglerna som beskrivs nedan.
-
