@@ -3,15 +3,14 @@ description: Standardprofil för inmatningsfärg för gråskala. Anger namnet p�
 solution: Experience Manager
 title: IccProfileSrcGray
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 8c89f0bb-4912-4838-a9e2-fb5d2f255eae
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
-
 
 # IccProfileSrcGray{#iccprofilesrcgray}
 
