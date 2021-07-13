@@ -3,15 +3,14 @@ description: Dessa attribut definierar det material som ska användas på det ma
 solution: Experience Manager
 title: Materialattribut
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 77801376-5bc5-4fd4-95d6-8c80b31c779d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
-
 
 # Materialattribut{#material-attributes}
 
@@ -99,4 +98,3 @@ Dessa attribut definierar det material som ska användas på det markerade objek
   <td class="stentry"> <p>Avancerade renderingsinställningar. </p></td> 
  </tr> 
 </table>
-
