@@ -1,18 +1,17 @@
 ---
 description: Viss information som visas i Interactive Image Viewer kan lokaliseras. Detta inkluderar funktionsbeskrivningar för användargränssnittselement och ett informationsmeddelande som visas i den utfällbara zoomvyn vid inläsningen.
 title: Lokalisering av användargränssnittselement
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva bilder
+role: Developer,User
 exl-id: 19749c74-5c31-4dcf-ab07-0e7f10176a86
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
 
-# Lokalisering av element i användargränssnittet{#localization-of-user-interface-elements}
+# Lokalisering av användargränssnittselement{#localization-of-user-interface-elements}
 
 Viss information som visas i Interactive Image Viewer kan lokaliseras. Detta inkluderar funktionsbeskrivningar för användargränssnittselement och ett informationsmeddelande som visas i den utfällbara zoomvyn vid inläsningen.
 
