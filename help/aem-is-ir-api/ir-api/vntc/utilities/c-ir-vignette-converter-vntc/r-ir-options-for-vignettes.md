@@ -3,15 +3,14 @@ description: Följande alternativ styr bearbetningen av vinjettfiler. De ignorer
 solution: Experience Manager
 title: Alternativ för vinjetter
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 7f9c2b43-9264-46a4-9519-64148aebf258
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
-
 
 # Alternativ för vinjetter{#options-for-vignettes}
 
@@ -59,4 +58,3 @@ Följande alternativ styr bearbetningen av vinjettfiler. De ignoreras om sourceF
   <td class="stentry"> <p>En eller flera utdatavärdesbredder i pixlar. Ignoreras om <span class="codeph"> -info</span> har angetts. <span class="varname"> Värdet </span> kan vara 0, vilket anger höjden på indatavvinjetteringen. Mer information finns i <a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585" type="concept" format="dita" scope="local"> Vinjettskalning</a>. </p></td> 
  </tr> 
 </table>
-
