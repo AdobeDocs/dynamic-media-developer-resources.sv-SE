@@ -3,15 +3,14 @@ description: Tillåt direkt åtkomst till sökvägsbaserade resurser.
 solution: Experience Manager
 title: AllowDirectAccess
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: b4000bdf-c21a-4976-82a7-70b2261dee0b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
-
 
 # AllowDirectAccess{#allowdirectaccess}
 
@@ -63,4 +62,3 @@ Följande typer kan kontrolleras:
 * Inkludera ingen, vilket motsvarar `include:` (om `include`/ `exclude` inte finns, antas `include`)
 
    `AllowDirectAccess=`
-
