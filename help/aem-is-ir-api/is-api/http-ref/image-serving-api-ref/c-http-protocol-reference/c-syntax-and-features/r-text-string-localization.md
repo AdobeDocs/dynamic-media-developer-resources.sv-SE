@@ -3,15 +3,14 @@ description: Textsträngslokalisering gör att bildkataloger kan innehålla fler
 solution: Experience Manager
 title: Textsträngslokalisering
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: f105c7f2-b544-4c08-bb91-4916e485572d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
-
 
 # Textsträngslokalisering{#text-string-localization}
 
@@ -156,4 +155,3 @@ Följande tabell beskriver utdata för vissa representativa kombinationer av *`s
   </tr> 
  </tbody> 
 </table>
-
