@@ -3,9 +3,9 @@ description: Responsive Image Library är en JavaScript-modul som dynamiskt just
 solution: Experience Manager
 title: Om bibliotek för responsiv bild
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: f853b9b4-917c-4744-b2a5-25fde2532356
-source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Det enklaste sättet att använda det responsiva bildbiblioteket är att definie
    <td colname="col2"> <p>I följande Bootstrap-exempel visas samma användningsfall på en webbsida. Enligt Bootstrap CSS kan layoutcellen som den responsiva bilden läggs till i ha någon av följande bredder: 360, 720 och 940 pixlar. Dessa värden är exakt vad som skickas som brytpunkter till det responsiva bildbiblioteket. Därför ser Dynamic Media till att klientens nätverksbandbredd används effektivt. Dessutom ser det till att bilden visas i exakt den storlek som behövs, med den aktuella webbsidans layout, utan att webbläsaren skalas. </p> <p>Klicka på URL:en så att du öppnar webbsidan, ändrar storlek på webbläsarfönstret för att hitta olika layoutbrytpunkter och övervakar nätverkstrafiken. </p> <p>Fler avancerade användningsområden är att associera olika bildförinställningar, eller bildservningskommandon, eller båda, med olika brytpunktsvärden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/image-presets.html" format="https" scope="external"> https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/image-presets.html</a> </p> <p> 
      <!--http://sasha.s7qa.com/jira-bugs/S7-7729/image-presets.html--> </p> </td> 
    <td colname="col2"> <p>I det här nästa exemplet används förinställningar av olika bildkvalitet och format för olika brytpunktsstorlekar. För en liten brytpunkt används en förinställning med låg kvalitet som tvingar bildservern att återge GIF-bilden komprimerad till endast sex färger. En medelstor brytpunkt använder en bildförinställning som är konfigurerad för JPEG med hög komprimering. Den största brytpunkten är associerad med en bildförinställning av hög kvalitet med förlustfri PNG. En sådan metod säkerställer att bilder av hög kvalitet levereras till sådana enheter, baserat på antagandet att enheter med större skärmar har större bandbredd och bearbetningskraft. </p> <p>Klicka på webbadressen så att du öppnar webbsidan, ändrar storlek på webbläsarfönstret från större till mindre och ser hur bildkvaliteten försämras. </p> </td> 
