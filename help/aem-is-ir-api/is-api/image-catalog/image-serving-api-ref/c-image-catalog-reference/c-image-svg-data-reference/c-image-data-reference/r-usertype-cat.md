@@ -3,15 +3,14 @@ description: Användartyp för statiskt innehåll. Tillåter tilldelning av en a
 solution: Experience Manager
 title: UserType
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: a97837be-ffc3-4759-8167-81a24dd54947
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '47'
 ht-degree: 0%
 
 ---
-
 
 # UserType{#usertype}
 
