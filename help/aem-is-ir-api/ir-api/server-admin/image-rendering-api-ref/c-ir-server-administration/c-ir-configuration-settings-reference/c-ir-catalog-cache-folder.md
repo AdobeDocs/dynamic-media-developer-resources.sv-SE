@@ -3,15 +3,14 @@ description: Rotmappen för katalogsystemets cache.
 solution: Experience Manager
 title: Katalogcachemapp (ir.catalogCacheRoot)
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,Administrator,User
+exl-id: 060c8b49-f9d9-498a-a07a-5ecd61af2677
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '52'
+source-wordcount: '48'
 ht-degree: 0%
 
 ---
-
 
 # Katalogcachemapp (ir.catalogCacheRoot){#catalog-cache-folder-ir-catalogcacheroot}
 
