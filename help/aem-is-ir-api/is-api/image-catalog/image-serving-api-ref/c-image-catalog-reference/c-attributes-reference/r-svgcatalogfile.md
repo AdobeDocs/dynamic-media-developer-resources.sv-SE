@@ -3,15 +3,14 @@ description: Sökvägar till SVG-datafiler. Anger filerna som innehåller SVG-da
 solution: Experience Manager
 title: SvgCatalogFile
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 654579a2-33ff-4633-a6d0-3c03ec8d5aed
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
-
 
 # SvgCatalogFile{#svgcatalogfile}
 
