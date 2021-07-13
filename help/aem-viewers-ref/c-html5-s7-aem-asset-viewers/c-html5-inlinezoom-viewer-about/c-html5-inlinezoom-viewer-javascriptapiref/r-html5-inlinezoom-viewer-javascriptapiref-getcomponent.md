@@ -2,16 +2,15 @@
 description: JavaScript API-referens för Inline Zoom Viewer
 solution: Experience Manager
 title: getComponent
-feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Textbunden zoom
+role: Developer,User
+exl-id: 72ae83e4-b879-4b3b-a5d9-38ed0fc2969d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
-
 
 # getComponent{#getcomponent}
 
@@ -73,4 +72,3 @@ Mer information om en viss komponent finns i dokumentationen för Viewer SDK.
 } 
 })
 ```
-
