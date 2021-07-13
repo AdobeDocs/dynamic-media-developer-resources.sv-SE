@@ -2,16 +2,15 @@
 description: JavaScript API-referens för Video Viewer.
 solution: Experience Manager
 title: setParam
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
+role: Developer,User
+exl-id: d797a8be-582e-46f4-9068-db1d2757970d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '87'
 ht-degree: 0%
 
 ---
-
 
 # setParam{#setparam}
 
@@ -47,4 +46,3 @@ Ingen.
 ```
 <instance>.setParam("style", "customStyle.css")
 ```
-
