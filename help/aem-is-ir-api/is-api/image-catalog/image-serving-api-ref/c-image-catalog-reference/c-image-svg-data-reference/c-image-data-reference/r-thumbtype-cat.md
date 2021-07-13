@@ -3,15 +3,14 @@ description: Miniatyrbildstyp. Beskriver hur en miniatyrbild för den här bilde
 solution: Experience Manager
 title: ThumbType
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: a90b587d-6893-44e4-8dce-7676bc7eebe3
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
-
 
 # ThumbType{#thumbtype}
 
