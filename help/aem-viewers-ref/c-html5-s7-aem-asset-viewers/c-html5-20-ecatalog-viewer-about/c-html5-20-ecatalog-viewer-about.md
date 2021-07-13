@@ -3,16 +3,15 @@ description: eCatalog Viewer är ett visningsprogram för en katalog som visar e
 keywords: responsiv
 solution: Experience Manager
 title: eCatalog
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+role: Developer,User
+exl-id: 8e243fa5-e375-41ce-8b49-2571023130c1
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '2174'
+source-wordcount: '2171'
 ht-degree: 0%
 
 ---
-
 
 # eCatalog{#ecatalog}
 
@@ -42,7 +41,7 @@ Konfigurationen och skalningen liknar den för andra visningsprogram. All skalni
 
 Se [Kommandoreferens som är gemensam för alla visningsprogram - Konfigurationsattribut](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) och [Kommandoreferens som är gemensam för alla visningsprogram - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
-## Samverka med eCatalog Viewer {#section-642e66ca38cd4032992840ec6c0b0cd2}
+## Interagera med eCatalog Viewer {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
 eCatalog Viewer stöder följande pekgester som är vanliga i andra mobilprogram.
 
@@ -87,7 +86,7 @@ Visningsprogrammet är fullt åtkomligt via tangentbordet enligt beskrivningen i
 
 eCatalog Viewer har stöd för verktyg för delning via sociala medier. De är tillgängliga som en knapp i huvudkontrollfältet, som utökas till ett delningsverktygsfält när en användare klickar eller trycker på det.
 
-Delningsverktygsfältet innehåller ikoner för varje typ av delningskanal som stöds, inklusive Facebook, Twitter, e-postdelning, inbäddning av koddelning och länkdelning. När verktygen för e-postdelning, inbäddning eller länkdelning är aktiverade visas en modal dialogruta med ett motsvarande inmatningsformulär. När Facebook eller Twitter anropas omdirigeras användaren till en standarddialogruta för delning från en social tjänst. Delningsverktygen är inte tillgängliga i helskärmsläge på grund av säkerhetsbegränsningar i webbläsaren.
+Delningsverktygsfältet innehåller ikoner för varje typ av delningskanal som stöds, inklusive Facebook, Twitter, e-postdelning, inbäddning av koddelning och länkdelning. När verktygen för e-postdelning, inbäddning eller länkdelning är aktiverade visas en modal dialogruta med ett motsvarande inmatningsformulär. När Facebook eller Twitter anropas omdirigeras användaren till en standarddelningsdialogruta från en social tjänst. Delningsverktygen är inte tillgängliga i helskärmsläge på grund av säkerhetsbegränsningar i webbläsaren.
 
 ## Bädda in eCatalog Viewer {#section-6bb5d3c502544ad18a58eafe12a13435}
 
@@ -398,4 +397,3 @@ eCatalogViewer.init();
 </body> 
 </html>
 ```
-
