@@ -3,12 +3,11 @@ description: JavaScript API-referens för Carousel Viewer.
 solution: Experience Manager
 title: setLocalizedTexter
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 8ffb8960-187a-43ab-8081-7dfd95d4c75d
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
