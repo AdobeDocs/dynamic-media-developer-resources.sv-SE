@@ -2,18 +2,17 @@
 description: Inledningsvis visas den ändringsbara volymkontrollen som en knapp där användaren kan stänga av eller slå på ljudet i videospelaren.
 solution: Experience Manager
 title: Muterbar volym
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Video
+role: Developer,User
+exl-id: bd86af60-a9a0-4f2e-9d36-f7ee22bd8c8e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
 
-
-# Ändringsbar volym{#mutable-volume}
+# Muterbar volym{#mutable-volume}
 
 Inledningsvis visas den ändringsbara volymkontrollen som en knapp där användaren kan stänga av eller slå på ljudet i videospelaren.
 
