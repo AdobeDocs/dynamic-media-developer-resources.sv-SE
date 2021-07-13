@@ -3,17 +3,16 @@ description: Använd de här serverinställningarna för att ange bildstorleksbe
 solution: Experience Manager
 title: Bildstorleksbegränsningar
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Administrator,User
+exl-id: 75ec58ee-8c98-46cb-96b2-79d1c32e576f
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
 
-
-# Begränsningar för bildstorlek{#image-size-limits}
+# Bildstorleksbegränsningar{#image-size-limits}
 
 Använd de här serverinställningarna för att ange bildstorleksbegränsningar.
 
@@ -25,7 +24,7 @@ Begränsar storleken på de data som Image Server får skicka till Platform Serv
 
 Begränsar storleken på de bilder som Image Server kan producera (exklusive bilder som sparats till fil). Heltalsvärde som är större än 0 i miljoner pixlar. Ett fel returneras om en återgivningsåtgärd skulle överskrida storleksgränsen. Standardvärdet är 16.
 
-## IS::MaxSavePixels - Storleksgräns för att spara filer {#section-d1547c4afa88467080ab08356f775e06}
+## IS::MaxSavePixels - storleksgräns för att spara till filer {#section-d1547c4afa88467080ab08356f775e06}
 
 Begränsar storleken på bilder som Image Server skriver till filer med kommandot `req=saveToFile`. Heltalsvärde som är större än 0 i miljoner pixlar. Ett fel returneras om filsparandet skulle överskrida gränsen. Standardvärdet är 100 miljoner pixlar.
 
@@ -36,4 +35,3 @@ Den största tillåtna storleken (i pixlar) för bilder som inte är PTIFF-filer
 >[!NOTE]
 >
 >Om du anger ett för högt värde kan det leda till att Image Server får slut på minne och att fel uppstår, inklusive krascher.
-
