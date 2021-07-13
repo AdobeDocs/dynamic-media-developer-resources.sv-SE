@@ -3,15 +3,14 @@ description: Följande fält känns igen i teckensnittsmappningsfiler.
 solution: Experience Manager
 title: Teckensnittskartor
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: e01f5883-6b55-4316-a103-b77f363ebcea
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '65'
 ht-degree: 0%
 
 ---
-
 
 # Teckensnittskartor{#font-maps}
 
