@@ -3,15 +3,14 @@ description: Justera färgbalansen. Justerar värdet för varje RGB-färgkompone
 solution: Experience Manager
 title: op_colorbalance
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 93476778-97b0-4ad5-b22a-093239e845f0
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
-
 
 # op_colorbalance{#op-colorbalance}
 
