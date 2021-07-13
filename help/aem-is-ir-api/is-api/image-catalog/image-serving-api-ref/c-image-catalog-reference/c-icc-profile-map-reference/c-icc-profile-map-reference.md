@@ -3,15 +3,14 @@ description: Om en ICC-profilmappning krävs för en bildkatalog måste den rela
 solution: Experience Manager
 title: ICC-profilmappningsreferens
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: f6b75a15-55b4-44e7-a409-2eaed4e752c5
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
-
 
 # ICC-profilmappningsreferens{#icc-profile-map-reference}
 
