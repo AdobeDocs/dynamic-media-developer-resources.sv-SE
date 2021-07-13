@@ -3,17 +3,16 @@ description: Beskär bild. Anger ett rektangulärt beskärningsområde, uttryckt
 solution: Experience Manager
 title: beskära
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: d1ea63c1-95f0-4a4e-b65d-eb535eef0205
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
 
-
-# beskär{#crop}
+# beskära{#crop}
 
 Beskär bild. Anger ett rektangulärt beskärningsområde, uttryckt antingen i pixlar eller normaliserat i förhållande till den högupplösta källbilden eller maskbilden.
 
@@ -24,7 +23,7 @@ Beskär bild. Anger ett rektangulärt beskärningsområde, uttryckt antingen i p
 <table id="simpletable_472A9AD67AA64419B0877B0535F8B14A"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> coord</span></span> </p> </td> 
-  <td class="stentry"> <p>Pixelförskjutning från källbildens övre vänstra hörn till det övre vänstra hörnet av beskärningsrektangeln (int, int). </p></td> 
+  <td class="stentry"> <p>Pixelförskjutning från det övre vänstra hörnet av källbilden till det övre vänstra hörnet av beskärningsrektangeln (int, int). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> coordN</span></span> </p> </td> 
