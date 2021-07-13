@@ -3,15 +3,14 @@ description: Bildåtergivning stöder konvertering av färgrymder baserat på f�
 solution: Experience Manager
 title: Färghantering för bildåtergivning *
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: fa772ab2-8a32-4c1a-9ee3-c1cf4a0b3095
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '743'
 ht-degree: 0%
 
 ---
-
 
 # Färghantering för bildåtergivning *{#image-rendering-color-management}
 
@@ -33,7 +32,7 @@ Varje bildkatalog (och standardkatalogen) kan definiera en uppsättning ICC-prof
 
 Standardfärgrymden för en viss bild eller ett annat objekt väljs från katalogstandardprofilerna utifrån bildens pixeltyp.
 
-## Indatafärgrymd {#section-660f661a7e954df4b451e34134195276}
+## Färgrymd för indata {#section-660f661a7e954df4b451e34134195276}
 
 Materialbilder kan bädda in ICC-profiler för att definiera indatafärgrymden. Om ingen profil är inbäddad i en källbild används `attribute::IccProfileSrc*` för den tillämpliga bildkatalogen som motsvarar källbildens pixeltyp. Om attributet inte är definierat i bildkatalogen används `attribute::IccProfile*`. Om det katalogattributet inte heller är definierat färghanteras inte bilden och endast naiva omformningar används.
 
@@ -45,7 +44,7 @@ Alla återgivningsåtgärder utförs i arbetsfärgrymden.
 
 **Viktigt:ICC-** profilen för arbetsfärgrymden måste ha stöd för in- och utdataomformningar. Om en profil med enbart utdata används som arbetsfärgrymd kan IR inte konvertera material till den. En sådan färgprofil kan fortfarande användas om materialet finns i samma arbetsfärgrymd. Försök att använda material i andra färgrymder kommer att misslyckas.
 
-## Explicit färgvärde {#section-31727bf1b23e477ca92572fbbf422d2f}
+## Explicit färgvärden {#section-31727bf1b23e477ca92572fbbf422d2f}
 
 RGB-färgvärden som anges med `color=`, `bgc=`, `catalog::BgColor` och `catalog::Color` antas finnas i den aktuella arbetsfärgrymden.
 
@@ -59,7 +58,7 @@ Om färgrymden i bildfilen skiljer sig från arbetsfärgrymden, används korrekt
 
 Andra materialdatafiler, t.ex. kabinettformatfiler ( [!DNL .vnc]) eller fönsteromfattande filer ( [!DNL .vnw]), bäddar inte in färgprofiler och antas alltid finnas i arbetsfärgrymden.
 
-## Utdatafärgrymd {#section-4c2c4dfedbb8429ba5cfddc3d3eab6c4}
+## Färgrymd för utdata {#section-4c2c4dfedbb8429ba5cfddc3d3eab6c4}
 
 Alla återgivningsåtgärder utförs i arbetsfärgrymden. Om begäran anger en annan färgprofil med kommandot `icc=` kommer data att konverteras till den färgrymden precis innan de kodas och returneras till klienten. När färghanteringen är inaktiverad används vid behov en naiv konvertering för att konvertera till gråskala eller CMYK.
 
