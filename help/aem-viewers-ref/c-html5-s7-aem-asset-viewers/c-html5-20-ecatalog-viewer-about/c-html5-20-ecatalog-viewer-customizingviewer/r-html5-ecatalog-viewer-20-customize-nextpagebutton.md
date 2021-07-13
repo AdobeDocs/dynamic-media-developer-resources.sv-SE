@@ -2,16 +2,15 @@
 description: Om du klickar eller trycker på den här knappen kommer användaren till nästa sida i katalogen. Den här knappen visas i huvudkontrollfältet. Den här knappen visas inte på mobiltelefoner för att spara skärmutrymme. Du kan ändra storlek, skal och position för knappen med hjälp av CSS.
 solution: Experience Manager
 title: Knappen Nästa sida
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+role: Developer,User
+exl-id: 70051b97-cdc2-4006-b792-4b96a065dbb7
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
-
 
 # Knappen Nästa sida{#next-page-button}
 
@@ -96,4 +95,3 @@ background-image:url(images/v2/ToolBarRightButton_dark_down.png);
 background-image:url(images/v2/ToolBarRightButton_dark_disabled.png); 
 }
 ```
-
