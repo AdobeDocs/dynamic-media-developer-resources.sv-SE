@@ -3,15 +3,14 @@ description: Sökväg till maskfil. Relativ eller absolut sökväg och namn för
 solution: Experience Manager
 title: MaskPath
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: b67e0b62-d2cc-4b05-bd09-65b206466df5
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
-
 
 # MaskPath{#maskpath}
 
