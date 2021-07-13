@@ -3,15 +3,14 @@ description: Efter installationen måste du konfigurera tjänster för att kunna
 solution: Experience Manager
 title: Installera under ett annat användarkonto än administratören
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,Administrator,User
+exl-id: 20bb00cb-3af6-4573-bbff-8c4f984ed2ae
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
-
 
 # Installera under ett annat användarkonto än administratören{#installing-under-a-different-user-account-than-administrator}
 
