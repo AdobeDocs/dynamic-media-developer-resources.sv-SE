@@ -2,13 +2,12 @@
 description: JavaScript API-referens för Video Image Viewer.
 solution: Experience Manager
 title: setContainerId
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva bilder
+role: Developer,User
 exl-id: 2b9b89e6-50ea-458f-9da2-6fda1884935c
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
@@ -23,7 +22,7 @@ Anger ID:t för DOM-behållaren (vanligtvis en DIV) som visningsprogrammet infog
 
 Den här metoden är valfri om visningsprogrammets konfigurationsinformation skickas med JSON-objektet `config` till konstruktorn.
 
-## Parametern {#section-fa807db629ce43bab286b1e1dc96c492}
+## Parameter {#section-fa807db629ce43bab286b1e1dc96c492}
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
