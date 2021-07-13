@@ -3,15 +3,14 @@ description: SVgRender-komponenten är ett oberoende Java-program.
 solution: Experience Manager
 title: Konfigurera SVG
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Administrator,User
+exl-id: 9013e13f-818f-41b4-80b6-2615d9a8742f
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '69'
 ht-degree: 0%
 
 ---
-
 
 # Konfigurera SVG{#configuring-svg}
 
