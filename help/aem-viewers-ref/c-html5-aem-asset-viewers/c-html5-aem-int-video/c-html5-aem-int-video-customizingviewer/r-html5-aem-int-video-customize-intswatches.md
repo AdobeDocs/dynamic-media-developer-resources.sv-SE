@@ -2,13 +2,12 @@
 description: Panelen för interaktiva färgrutor visas bredvid videoinnehållet om interaktiva data skickades till användaren i konfigurationen. Den består av en banderoll längst upp som återger text, till exempel"Klicka för att visa", en kolumn med en eller flera interaktiva färgrutor och två rullningsknappar (endast tillgängligt på datorer).
 solution: Experience Manager
 title: Interaktiva färgrutor
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
+role: Developer,User
 exl-id: c9ef02eb-f5db-474b-b234-c49508e2af35
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '892'
 ht-degree: 0%
 
 ---
