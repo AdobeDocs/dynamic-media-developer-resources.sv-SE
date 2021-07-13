@@ -3,15 +3,14 @@ description: Visa dolda textramar med plustecken. En indikator för textspill vi
 solution: Experience Manager
 title: markOverflowingTextFrames
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: d1e2a3d4-ef1f-4d5e-be9c-eeec36f46603
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
-
 
 # markOverflowingTextFrames{#markoverflowingtextframes}
 
