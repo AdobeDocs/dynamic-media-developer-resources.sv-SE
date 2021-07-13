@@ -3,15 +3,14 @@ description: Sessionskatalogen är den materialkatalog som innehåller sessionsa
 solution: Experience Manager
 title: Sessionskatalog
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 36e0571e-7451-423f-a1df-540680381902
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
-
 
 # Sessionskatalog{#session-catalog}
 
@@ -87,4 +86,3 @@ Sessionskatalogen innehåller följande standardvärden för sessioner:
   </tr> 
  </tbody> 
 </table>
-
