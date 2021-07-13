@@ -2,18 +2,17 @@
 description: URL-kommando för Video Viewer.
 solution: Experience Manager
 title: bildtext
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Video
+role: Developer,User
+exl-id: a9af3335-ae18-4399-9014-47ec0306a087
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '203'
 ht-degree: 1%
 
 ---
 
-
-# caption{#caption}
+# bildtext{#caption}
 
 URL-kommando för Video Viewer.
 
@@ -86,4 +85,3 @@ Ingen.
 ```
 caption=Scene7SharedAssets/adobe_qbc_final_cc,1
 ```
-
