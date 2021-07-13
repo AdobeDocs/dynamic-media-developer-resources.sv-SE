@@ -3,17 +3,16 @@ description: Denna materialkategori omfattar färger för väggar, trävaror och
 solution: Experience Manager
 title: Solida färger
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 0f4f2d25-dd99-488b-89d9-88367d5a715d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
 
-
-# Enfärgade{#solid-colors}
+# Solida färger{#solid-colors}
 
 Denna materialkategori omfattar färger för väggar, trävaror och ytmaterial, bilar samt andra tillämpningar där texturer inte behövs.
 
@@ -37,4 +36,3 @@ Heltäckande färger kan användas på alla återgivningsbara objekt.
   </tr> 
  </tbody> 
 </table>
-
