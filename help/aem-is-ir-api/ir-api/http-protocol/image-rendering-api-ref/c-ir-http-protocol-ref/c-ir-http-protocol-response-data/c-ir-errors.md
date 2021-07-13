@@ -3,15 +3,14 @@ description: Om en begäran inte kan slutföras returnerar servern antingen en f
 solution: Experience Manager
 title: Fel
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: e45e3968-3659-470b-a88a-fe7ba73d8207
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
-
 
 # Fel{#errors}
 
