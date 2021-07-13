@@ -3,21 +3,20 @@ description: Inställningarna i det här avsnittet gäller för mediesvaren som 
 solution: Experience Manager
 title: Medieuppsättningssvar
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Administrator,User
+exl-id: e3833726-d345-4741-8096-d74f299ac9fc
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
-
 
 # Medieuppsättningssvar{#media-set-responses}
 
 Inställningarna i det här avsnittet gäller för mediesvaren som hämtas av req=set modifier.
 
-## PS::fvctx.useCatalogRecordValidation - cachelagringsprincip {#section-9accb087d16548a988993bb30395a6f6}
+## PS::fvctx.useCatalogRecordValidation - Caching Policy {#section-9accb087d16548a988993bb30395a6f6}
 
 Den här egenskapen styr cachelagringsprincipen när du avgör om ett svar som hämtas från cache måste genereras om eller inte. Om egenskapen är inaktiverad används tidsstämpeln för filen [!DNL catalog.ini] för validering. Om egenskapen är aktiverad används den senaste `catalog::LastModified`-tidsstämpeln från alla refererade poster för validering.
 
