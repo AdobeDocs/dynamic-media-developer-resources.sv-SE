@@ -3,15 +3,14 @@ description: Dessa kommandon gäller för heltäckande färglager, förutom de v
 solution: Experience Manager
 title: Kommandon för enfärgat lager
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: e7a14c5f-9479-4df0-beef-c5792dcc5a25
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '47'
 ht-degree: 0%
 
 ---
-
 
 # Kommandon för enfärgat lager{#solid-color-layer-commands}
 
@@ -23,4 +22,3 @@ Dessa kommandon gäller för heltäckande färglager, förutom de vanliga lagerk
   <td class="stentry"> <p>Anger en valfri lagermask. </p></td> 
  </tr> 
 </table>
-
