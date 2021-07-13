@@ -3,15 +3,14 @@ description: Cacheklustring gör att flera belastningsutjämnade servrar kan utb
 solution: Experience Manager
 title: Cacheklustring
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Administrator,User
+exl-id: d1bea565-ac4e-4717-a53f-cbe706664598
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
-
 
 # Cacheklustring{#cache-clustering}
 
@@ -32,4 +31,3 @@ Cacheklustret kan fungera i en av två grundläggande konfigurationer:
 * När `PS::cacheCluster.updateLocalCache` är inaktiverat kopieras inte data från andra servrar till det lokala cacheminnet.
 
    Detta multiplicerar det tillgängliga diskutrymmet för cachedata. Det ökar dock trafiken mellan peer-servrarna och minskar de totala svarstiderna. Använd bara den här konfigurationen när du ser låga träfffrekvenser för cacheminnet.
-
