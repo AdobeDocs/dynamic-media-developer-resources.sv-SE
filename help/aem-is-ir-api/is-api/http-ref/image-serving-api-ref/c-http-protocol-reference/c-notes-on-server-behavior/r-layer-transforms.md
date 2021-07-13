@@ -3,15 +3,14 @@ description: Omformningar används på källbilder och textlager.
 solution: Experience Manager
 title: Lageromformningar
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 5758d07c-bb84-4ab1-bf77-f59cf93f5e90
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
-
 
 # Lageromformningar{#layer-transforms}
 
