@@ -2,16 +2,15 @@
 description: FlyoutZoomView.overlay
 solution: Experience Manager
 title: FlyoutZoomView.overlay
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Flyout
+role: Developer,User
+exl-id: 7fbf24c6-900f-4e94-b879-3a8f95dc5c08
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '111'
 ht-degree: 1%
 
 ---
-
 
 # FlyoutZoomView.overlay{#flyoutzoomview-overlay}
 
