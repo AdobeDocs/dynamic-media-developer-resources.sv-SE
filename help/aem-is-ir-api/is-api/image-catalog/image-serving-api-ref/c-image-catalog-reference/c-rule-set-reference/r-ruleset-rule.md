@@ -3,17 +3,16 @@ description: Regelbehållarelement. En giltig regeluppsättningsfil innehåller 
 solution: Experience Manager
 title: linjaluppsättning
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 06ef3504-0317-4b02-8457-6b6052c7fd05
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '40'
+source-wordcount: '37'
 ht-degree: 0%
 
 ---
 
-
-# linjeset{#ruleset}
+# linjaluppsättning{#ruleset}
 
 Regelbehållarelement. En giltig regeluppsättningsfil innehåller ett `<ruleset>`-element.
 
