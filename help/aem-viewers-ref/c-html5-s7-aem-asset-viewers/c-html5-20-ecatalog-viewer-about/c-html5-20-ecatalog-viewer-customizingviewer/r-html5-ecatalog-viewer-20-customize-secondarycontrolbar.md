@@ -2,16 +2,15 @@
 description: Det sekundära kontrollfältet är det rektangulära området som innehåller knapparna Första sidan och Sista sidan och en sidindikator när det är tillgängligt i CSS.
 solution: Experience Manager
 title: Sekundärt kontrollfält
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+role: Developer,User
+exl-id: 2354c3a0-2df7-4a18-aac1-fac158a9b659
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
-
 
 # Sekundärt kontrollfält{#secondary-control-bar}
 
@@ -58,4 +57,3 @@ Exempel - om du vill ställa in ett grått sekundärt kontrollfält som är 72 p
  height: 72px; 
 }
 ```
-
