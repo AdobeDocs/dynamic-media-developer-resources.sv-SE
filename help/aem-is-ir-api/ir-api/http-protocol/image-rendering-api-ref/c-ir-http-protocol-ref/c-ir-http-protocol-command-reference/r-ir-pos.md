@@ -3,15 +3,14 @@ description: Decal position. Definierar förskjutningen i tum från den dekala b
 solution: Experience Manager
 title: pos
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 531f1465-2bec-46b6-a41e-54d993cbf410
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
-
 
 # pos{#pos}
 
