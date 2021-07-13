@@ -3,16 +3,15 @@ description: Visningsprogrammet för grundläggande zoomning är ett bildvisning
 keywords: responsiv
 solution: Experience Manager
 title: Grundläggande zoom
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
+role: Developer,User
+exl-id: ee15ce21-20c4-428b-9512-050115e4c322
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '2044'
+source-wordcount: '2041'
 ht-degree: 0%
 
 ---
-
 
 # Grundläggande zoom{#basic-zoom}
 
@@ -389,4 +388,3 @@ basicZoomViewer.init();
 </body> 
 </html>
 ```
-
