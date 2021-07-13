@@ -2,16 +2,15 @@
 description: style
 solution: Experience Manager
 title: style
-feature: Dynamic Media Classic,Viewers,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,visningsprogram,SDK/API
+role: Developer,User
+exl-id: a0547ada-3d8f-4ec2-a7e4-424fd1a78a28
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
-
 
 # style{#style}
 
