@@ -3,15 +3,14 @@ description: Öka skärpan i texturen. Anger den skärpa som ska användas vid �
 solution: Experience Manager
 title: skarp
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 7921ceba-e249-4aab-823e-c54705c4a7c3
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '130'
 ht-degree: 3%
 
 ---
-
 
 # skarp{#sharp}
 
