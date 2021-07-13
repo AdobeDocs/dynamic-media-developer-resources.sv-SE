@@ -3,15 +3,14 @@ description: Information om felmeddelande. Anger detaljnivån för felmeddelande
 solution: Experience Manager
 title: ErrorDetail
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,User
+exl-id: 08a363d0-918d-48e9-aef0-5a8554c2708a
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '162'
 ht-degree: 2%
 
 ---
-
 
 # ErrorDetail{#errordetail}
 
