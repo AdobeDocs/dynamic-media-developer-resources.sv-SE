@@ -3,17 +3,16 @@ description: Image Serving innehåller tre verktyg.
 solution: Experience Manager
 title: Plats för verktygen
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 014a17b9-f12e-4179-8b44-4b0090769743
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '31'
+source-wordcount: '28'
 ht-degree: 0%
 
 ---
 
-
-# Plats för verktyg{#location-of-utilities}
+# Plats för verktygen{#location-of-utilities}
 
 Image Serving innehåller tre verktyg.
 
