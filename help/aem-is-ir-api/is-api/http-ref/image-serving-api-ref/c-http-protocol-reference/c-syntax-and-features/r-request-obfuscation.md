@@ -3,17 +3,16 @@ description: Innehållet i hela modifierardelen av begärandesträngen, inklusiv
 solution: Experience Manager
 title: Förfrågan om obehörig
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 358d714b-703d-418b-90c0-5940f5388c7d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
 
-
-# Begär obehörig{#request-obfuscation}
+# Förfrågan om obehörig{#request-obfuscation}
 
 Innehållet i hela modifierardelen av begärandesträngen, inklusive det valfria låssuffixet, kan döljas genom att standardkodningen base64 används.
 
