@@ -2,16 +2,15 @@
 description: ThumbnailGridView.align
 solution: Experience Manager
 title: ThumbnailGridView.align
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+role: Developer,User
+exl-id: 1d7dd7f5-a5b4-43aa-9682-61f22a078f88
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '80'
 ht-degree: 1%
 
 ---
-
 
 # ThumbnailGridView.align{#thumbnailgridview-align}
 
