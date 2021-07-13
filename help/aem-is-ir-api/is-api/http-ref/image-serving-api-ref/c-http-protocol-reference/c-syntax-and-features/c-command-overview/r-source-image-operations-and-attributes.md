@@ -3,15 +3,14 @@ description: Dessa kommandon gäller för källbilder som används antingen i en
 solution: Experience Manager
 title: Källbildsåtgärder
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 2024e193-3c46-4c51-971d-c7d335657ac8
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
-
 
 # Källbildsåtgärder{#source-image-operations}
 
@@ -43,4 +42,3 @@ Dessa kommandon gäller för källbilder som används antingen i enkla begärand
   <td class="stentry"> <p>Skalförändrar källbilden med skalningsfaktor. </p></td> 
  </tr> 
 </table>
-
