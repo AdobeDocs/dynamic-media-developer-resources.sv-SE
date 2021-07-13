@@ -3,17 +3,16 @@ description: Decal-material omfattar klädkonstruktioner som utrustningar, t-shi
 solution: Experience Manager
 title: Decaler
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 07190abd-9f6f-46b5-bf77-cd97c48fc9be
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
 
-
-# Decals{#decals}
+# Decaler{#decals}
 
 Decal-material omfattar klädkonstruktioner som utrustningar, t-shirtavtryck och broderade eller tryckta logotyper, liksom icke-repeterbara platta objekt som används i inrednings- eller utvändiga applikationer, som t.ex. gurkor, vägghängsbilder, skyltar osv.
 
@@ -69,4 +68,3 @@ En skugga återges om det dekala materialet definierar en tjocklek och vinjetter
   </tr> 
  </tbody> 
 </table>
-
