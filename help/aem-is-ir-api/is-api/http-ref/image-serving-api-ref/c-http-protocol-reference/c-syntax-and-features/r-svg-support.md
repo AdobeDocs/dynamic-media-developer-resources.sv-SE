@@ -3,15 +3,14 @@ description: Image Serving stöder SVG-filer (Scalable Vector Graphics) som käl
 solution: Experience Manager
 title: SVG-stöd
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 60e40195-710f-4f03-b152-52eaa10c5b21
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
-
 
 # SVG-stöd{#svg-support}
 
