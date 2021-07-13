@@ -3,15 +3,14 @@ description: Öka skärpan i svarsbilden. Ytterligare skärpa kan användas efte
 solution: Experience Manager
 title: skärpa
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 0c831ea7-fc64-484d-b3a4-4cb713b5d873
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '56'
 ht-degree: 3%
 
 ---
-
 
 # skärpa{#sharpen}
 
@@ -25,7 +24,7 @@ ht-degree: 3%
   <td class="stentry"> <p>Ingen skärpa. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>1 </p></td> 
+  <td class="stentry"> <p>3 </p></td> 
   <td class="stentry"> <p>Skärpa. </p></td> 
  </tr> 
 </table>
