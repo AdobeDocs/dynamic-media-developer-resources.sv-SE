@@ -3,15 +3,14 @@ description: Följande attribut känns igen i katalogattributfiler.
 solution: Experience Manager
 title: Katalogattribut
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 8d344cb7-26b6-413e-9c8d-b1d1f9c94dfc
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
-
 
 # Katalogattribut{#catalog-attributes}
 
@@ -207,4 +206,3 @@ Följande attribut känns igen i katalogattributfiler.
   <td class="stentry"> Aktivera/inaktivera färgkonverteringsgitter.</td> 
  </tr> 
 </table>
-
