@@ -2,18 +2,17 @@
 description: Huvudvisningsområdet är det område som upptas av den utfällbara vyn och färgrutorna.
 solution: Experience Manager
 title: Huvudvisningsområde
-feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Textbunden zoom
+role: Developer,User
+exl-id: ab1653a3-38e6-49bb-97b7-005304349ec9
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 0%
+source-wordcount: '100'
+ht-degree: 1%
 
 ---
 
-
-# Huvudvisningsprogramområde{#main-viewer-area}
+# Huvudvisningsområde{#main-viewer-area}
 
 Huvudvisningsområdet är det område som upptas av den utfällbara vyn och färgrutorna.
 
@@ -59,4 +58,3 @@ Exempel - om du vill ställa in ett utfällbart visningsprogram med vit bakgrund
  height: 500px;  
 }
 ```
-
