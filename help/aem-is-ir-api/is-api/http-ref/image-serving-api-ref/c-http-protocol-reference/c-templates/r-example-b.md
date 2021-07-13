@@ -3,15 +3,14 @@ description: Liknande krav som exempel A, men använd en enfärgad bakgrund och 
 solution: Experience Manager
 title: Exempel B
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 90ef96fc-c12f-4fc8-b465-6520b71f4e7b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
-
 
 # Exempel B{#example-b}
 
@@ -37,4 +36,3 @@ Ursprunget för både lager 0 och lager 1 placeras i mitten till höger i samman
 Följande bild visar det sammansatta resultatet för olika bildproportioner och olika textsträngar.
 
 ![](assets/exampleb.png)
-
