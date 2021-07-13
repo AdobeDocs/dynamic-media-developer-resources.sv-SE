@@ -3,15 +3,14 @@ description: $var$ referenser som förekommer var som helst inom klammerparentes
 solution: Experience Manager
 title: Variabel bearbetning i inbäddade externa begäranden
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: a87bb2a0-0554-4978-982d-b6617925cd53
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
-
 
 # Variabel bearbetning i inbäddade externa begäranden{#variable-processing-in-embedded-foreign-requests}
 
