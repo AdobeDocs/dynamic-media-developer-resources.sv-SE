@@ -3,15 +3,14 @@ description: JPEG-kvalitet. Anger JPEG-kodningsattribut som styr komprimeringsni
 solution: Experience Manager
 title: qlt
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 8801a650-303c-47a3-8136-c8b2b7a80e9d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
-
 
 # qlt{#qlt}
 
