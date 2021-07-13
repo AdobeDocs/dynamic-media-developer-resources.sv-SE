@@ -3,15 +3,14 @@ description: IS innehåller mekanismer för att förenkla användningen av HTML-
 solution: Experience Manager
 title: Bildscheman
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 9a685f9d-205d-43b3-b5fe-3ae324fe153e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
-
 
 # Bildscheman{#image-maps}
 
