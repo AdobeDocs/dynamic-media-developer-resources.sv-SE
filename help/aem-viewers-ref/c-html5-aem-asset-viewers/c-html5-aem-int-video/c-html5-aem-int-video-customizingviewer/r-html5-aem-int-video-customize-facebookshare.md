@@ -1,21 +1,20 @@
 ---
-description: Facebook-delningsverktyget består av en knapp som läggs till på panelen Dela via sociala medier. När användaren klickar på knappen omdirigeras användaren till en delningsdialogruta som tillhandahålls av en social tjänst. Knappens position hanteras helt av verktyget för social delning.
+description: Facebook delningsverktyg består av en knapp som läggs till på panelen Dela via sociala medier. När användaren klickar på knappen omdirigeras användaren till en delningsdialogruta som tillhandahålls av en social tjänst. Knappens position hanteras helt av verktyget för social delning.
 solution: Experience Manager
-title: Facebook-delning
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
-role: Developer,Business Practitioner
+title: Facebook
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
+role: Developer,User
 exl-id: 209dfe87-ca9d-405f-ba78-4e88f6ebe1d2
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
 
-# Facebook-resurs{#facebook-share}
+# Facebook{#facebook-share}
 
-Facebook-delningsverktyget består av en knapp som läggs till på panelen Dela via sociala medier. När användaren klickar på knappen omdirigeras användaren till en delningsdialogruta som tillhandahålls av en social tjänst. Knappens position hanteras helt av verktyget för social delning.
+Facebook delningsverktyg består av en knapp som läggs till på panelen Dela via sociala medier. När användaren klickar på knappen omdirigeras användaren till en delningsdialogruta som tillhandahålls av en social tjänst. Knappens position hanteras helt av verktyget för social delning.
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
@@ -25,7 +24,7 @@ Utseendet på Facebook-delningsknappen styrs av följande CSS-klassväljare:
 .s7interactivevideoviewer .s7facebookshare
 ```
 
-**CSS-egenskaper för Facebook-delningsverktyget**
+**CSS-egenskaper för delningsverktyget i Facebook**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -58,7 +57,7 @@ Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av element i anv
 
 ## Exempel {#section-01cbe0096b1443e0a7d91956bd264465}
 
-Så här ställer du in en Facebook-delningsknapp som är 28 x 28 pixlar och visar olika bilder för de fyra olika knapplägena:
+Så här ställer du in en delningsknapp för Facebook som är 28 x 28 pixlar och visar en annan bild för vart och ett av de fyra olika knapplägena:
 
 ```
 .s7interactivevideoviewer .s7facebookshare { 
