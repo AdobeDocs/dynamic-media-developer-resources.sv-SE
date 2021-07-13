@@ -3,15 +3,14 @@ description: Storleksgräns för svarsbild. Maximal bredd och höjd för svarsbi
 solution: Experience Manager
 title: MaxPix
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 48239519-7935-45e4-ae36-5e687a356cc1
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
-
 
 # MaxPix{#maxpix}
 
