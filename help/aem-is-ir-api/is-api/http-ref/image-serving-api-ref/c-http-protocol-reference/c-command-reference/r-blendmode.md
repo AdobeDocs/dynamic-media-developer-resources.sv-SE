@@ -3,15 +3,14 @@ description: Blandningsläge. Anger vilken typ av blandning som används när la
 solution: Experience Manager
 title: blendMode
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 8f0b8b0a-a8ac-4932-986c-5d14d3311f1b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---
-
 
 # blendMode{#blendmode}
 
