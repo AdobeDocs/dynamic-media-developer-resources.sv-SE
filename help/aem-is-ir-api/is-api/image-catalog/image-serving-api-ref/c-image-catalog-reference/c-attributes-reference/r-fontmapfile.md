@@ -3,15 +3,14 @@ description: Sökväg till fil för teckensnittskarta. Anger filen som innehåll
 solution: Experience Manager
 title: FontMapFile
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: e922d51b-f92e-4cbc-a7c1-5e54e44afd50
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '71'
 ht-degree: 0%
 
 ---
-
 
 # FontMapFile{#fontmapfile}
 
