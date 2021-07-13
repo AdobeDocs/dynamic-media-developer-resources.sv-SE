@@ -3,15 +3,14 @@ description: Anpassa svarsbilden till läget. Anger hur skalningsfaktorn beräkn
 solution: Experience Manager
 title: anpassa
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: d2939f86-5dab-471d-ba59-70d91ae1e4fd
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
-
 
 # anpassa{#fit}
 
