@@ -2,16 +2,15 @@
 description: Miniatyrbilder består av ett rutnät med miniatyrbilder med en valfri rullningslist till höger för att tillåta lodrät rullning.
 solution: Experience Manager
 title: Miniatyrbilder
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+role: Developer,User
+exl-id: e3d3d33b-f6bb-4c5b-820c-028bfb6b2594
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '898'
 ht-degree: 0%
 
 ---
-
 
 # Miniatyrbilder{#thumbnails}
 
@@ -399,4 +398,3 @@ Exempel - för att ställa in rullningsknappar som är 28 x 32 pixlar och har ol
  background-image:url(images/v2/ThumbnailScrollDownButton_dark_up.png); 
 }
 ```
-
