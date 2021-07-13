@@ -3,17 +3,16 @@ description: Katalogattributfiler känner igen dessa begärandeattribut.
 solution: Experience Manager
 title: Begär attribut
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: f1f2905f-f4e8-4944-8b27-469f09aa4bce
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
 
-
-# Begärandeattribut{#request-attributes}
+# Begär attribut{#request-attributes}
 
 Katalogattributfiler känner igen dessa begärandeattribut.
 
@@ -81,4 +80,3 @@ Syntax
   <td class="stentry"> <p>Klientens IP-adressfilter. </p></td> 
  </tr> 
 </table>
-
