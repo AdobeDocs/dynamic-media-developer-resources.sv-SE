@@ -3,15 +3,14 @@ description: Materialrotationsvinkel. Definierar rotationsvinkeln för material.
 solution: Experience Manager
 title: rotera
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 355d9691-c04b-44a6-9563-5bef185cfa7e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '129'
 ht-degree: 0%
 
 ---
-
 
 # rotera{#rotate}
 
