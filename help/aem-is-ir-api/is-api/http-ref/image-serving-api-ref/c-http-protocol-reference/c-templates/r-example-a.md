@@ -3,15 +3,14 @@ description: Skapa en mall med fast storlek med en statisk bakgrundsbild, en var
 solution: Experience Manager
 title: Exempel A
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 7f731b41-994d-4f1d-b42d-e14db47e4d6c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
-
 
 # Exempel A{#example-a}
 
@@ -53,4 +52,3 @@ Alla bilder kan användas för bakgrundsbilden och bilden av lager 1. Om bakgrun
 Följande bild visar det sammansatta resultatet för olika bildproportioner i bilden i lager 1 och olika textsträngar.
 
 ![](assets/exampleausing.png)
-
