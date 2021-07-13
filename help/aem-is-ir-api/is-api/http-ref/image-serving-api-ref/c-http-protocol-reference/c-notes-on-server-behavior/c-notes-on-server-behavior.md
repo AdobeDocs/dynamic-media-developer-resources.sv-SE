@@ -3,15 +3,14 @@ description: Det finns flera saker med serverfunktioner som bör beaktas.
 solution: Experience Manager
 title: Anteckningar om serverfunktion
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 88bc0ff2-604d-4065-9a53-0884457f0e14
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '52'
 ht-degree: 0%
 
 ---
-
 
 # Anteckningar om serverfunktion{#notes-on-server-behavior}
 
