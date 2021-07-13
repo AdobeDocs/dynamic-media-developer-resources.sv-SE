@@ -3,15 +3,14 @@ description: Använd den här proceduren när du uppgraderar Dynamic Media Image
 solution: Experience Manager
 title: Uppdaterar från IS 4.7.4 eller senare
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: e0781f19-4aa8-46f7-a586-4724ff8a2e68
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
-
 
 # Uppdaterar från IS 4.7.4 eller senare{#updating-from-is-or-later}
 
