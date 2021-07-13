@@ -3,15 +3,14 @@ description: Den här versionen - Image Serving 6.6.1 and Image Rendering 6.6.1 
 solution: Experience Manager
 title: Om den här versionen
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: f837191b-1151-4c29-8059-b4d3e09e304e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
-
 
 # Om den här versionen{#about-this-release}
 
@@ -32,4 +31,3 @@ Den här versionen - Image Serving 6.6.1 and Image Rendering 6.6.1 - ersätter I
 ## Felkorrigering {#section-58dff74d56f64edeadf8f8b97b7a4161}
 
 * Ett problem har korrigerats där RTF-alternativet `\qc` följt av ett blanksteg orsakade att en begäran inte kunde återges.
-
