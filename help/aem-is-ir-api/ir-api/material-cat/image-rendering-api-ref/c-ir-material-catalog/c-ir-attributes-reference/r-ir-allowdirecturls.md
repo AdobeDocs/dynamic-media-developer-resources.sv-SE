@@ -3,15 +3,14 @@ description: Tillåt absoluta käll-URL:er.
 solution: Experience Manager
 title: AllowDirectURLs
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: f9ab0c0e-989c-42ce-b9dd-4ca2f6b382d2
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '48'
 ht-degree: 0%
 
 ---
-
 
 # AllowDirectURLs{#allowdirecturls}
 
