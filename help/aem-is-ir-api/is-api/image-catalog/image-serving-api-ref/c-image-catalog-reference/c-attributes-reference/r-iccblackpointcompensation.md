@@ -3,15 +3,14 @@ description: Svartpunktskompensation. Anger om svartpunktskompensation ska anvä
 solution: Experience Manager
 title: IccBlackPointCompensation
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 9cf6a415-cc82-40e9-a8b9-a687ca95560e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
-
 
 # IccBlackPointCompensation{#iccblackpointcompensation}
 
