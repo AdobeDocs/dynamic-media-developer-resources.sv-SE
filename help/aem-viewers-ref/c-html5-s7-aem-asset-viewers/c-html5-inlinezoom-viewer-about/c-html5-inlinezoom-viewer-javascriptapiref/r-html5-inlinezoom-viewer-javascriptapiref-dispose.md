@@ -2,16 +2,15 @@
 description: JavaScript API-referens för Inline Zoom Viewer.
 solution: Experience Manager
 title: dispose
-feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Textbunden zoom
+role: Developer,User
+exl-id: 7e525bc1-6986-414c-acc0-e011dfd7b84b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
-
 
 # dispose{#dispose}
 
@@ -40,4 +39,3 @@ Ingen.
 ```
 <instance>.dispose()
 ```
-
