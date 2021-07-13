@@ -3,15 +3,14 @@ description: Följande fält känns igen i bild- och SVG-datafiler.
 solution: Experience Manager
 title: Image_SVG-data
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 5392e08f-3614-4588-8846-4262d32f3ce1
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
-
 
 # Image_SVG-data{#image-svg-data}
 
@@ -28,7 +27,7 @@ Följande fält känns igen i bild- och SVG-datafiler.
  </tbody> 
 </table>
 
-## Begärandeattribut {#section-cfe69bcdcd4b4d129e99d11b9078ae4a}
+## Begär attribut {#section-cfe69bcdcd4b4d129e99d11b9078ae4a}
 
 <table id="table_C070C676835F49918E1B3BBF81471B09"> 
  <tbody> 
@@ -127,4 +126,3 @@ Följande fält känns igen i bild- och SVG-datafiler.
   </tr> 
  </tbody> 
 </table>
-
