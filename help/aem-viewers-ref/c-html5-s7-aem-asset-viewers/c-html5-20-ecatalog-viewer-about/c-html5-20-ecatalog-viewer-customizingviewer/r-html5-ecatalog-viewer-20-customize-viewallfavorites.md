@@ -2,18 +2,17 @@
 description: Knappens position hanteras helt av Favoriter-menyn.
 solution: Experience Manager
 title: Knappen Visa alla favoriter
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+role: Developer,User
+exl-id: e07da96d-e6ad-4257-afdb-f6967fb83f52
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
 
-
-# Visa knappen Alla favoriter{#view-all-favorites-button}
+# Knappen Visa alla favoriter{#view-all-favorites-button}
 
 Knappens position hanteras helt av Favoriter-menyn.
 
@@ -86,4 +85,3 @@ background-image:url(images/v2/ViewAllFavoritesButton_dark_over.png);
 background-image:url(images/v2/ViewAllFavoritesButton_dark_disabled.png); 
 }
 ```
-
