@@ -3,15 +3,14 @@ description: Lodrät justering för miniatyrbilder. Anger den lodräta justering
 solution: Experience Manager
 title: ThumbVertAlign
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: bb1aa398-5638-4109-bf05-bc51ace4146d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
-
 
 # ThumbVertAlign{#thumbvertalign}
 
