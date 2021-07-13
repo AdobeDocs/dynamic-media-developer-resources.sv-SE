@@ -2,16 +2,15 @@
 description: Konfigurationsattribut för Video Viewer.
 solution: Experience Manager
 title: VideoPlayer.playback
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Video
+role: Developer,User
+exl-id: 54a10b30-ebf5-4f1e-aa4a-b09055453c4e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
-
 
 # VideoPlayer.playback{#videoplayer-playback}
 
@@ -43,4 +42,3 @@ Ignoreras när visningsprogrammet fungerar med extern video. Se [Stöd för exte
 ```
 playback=progressive
 ```
-
