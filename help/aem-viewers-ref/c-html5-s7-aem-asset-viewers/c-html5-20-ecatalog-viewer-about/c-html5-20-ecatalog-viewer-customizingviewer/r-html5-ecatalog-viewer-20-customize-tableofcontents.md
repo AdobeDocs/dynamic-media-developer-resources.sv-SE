@@ -2,16 +2,15 @@
 description: Innehållsförteckningen är en knapp som finns i huvudkontrollfältet. När den är aktiverad visas en nedrullningsbar panel med en lista över sidindex och etiketter.
 solution: Experience Manager
 title: Innehållsförteckning
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+role: Developer,User
+exl-id: 9b61e269-201d-4083-9c47-0b73d55aa6ed
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: '1065'
 ht-degree: 0%
 
 ---
-
 
 # Innehållsförteckning{#table-of-contents}
 
@@ -464,4 +463,3 @@ Exempel - ställ in rullningsknappar som är 28 x 32 pixlar och har olika teckni
  background-image:url(images/v2/ThumbnailScrollDownButton_dark_up.png); 
 }
 ```
-
