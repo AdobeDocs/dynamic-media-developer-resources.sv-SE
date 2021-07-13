@@ -3,15 +3,14 @@ description: Dessa kommandon är också tillgängliga.
 solution: Experience Manager
 title: Diverse kommandon
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: b77f30bf-6991-45e5-a0c0-43db7f4130bd
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '38'
+source-wordcount: '35'
 ht-degree: 0%
 
 ---
-
 
 # Diverse kommandon{#miscellaneous-commands}
 
@@ -34,4 +33,3 @@ Dessa kommandon är också tillgängliga.
   <td class="stentry"></td> 
  </tr> 
 </table>
-
