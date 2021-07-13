@@ -2,16 +2,15 @@
 description: Huvudklassen i eCatalog Viewer är eCatalogViewer. Den deklareras i s7viewers namnutrymme. Detta JavaScript-API omfattar konstruktor, metoder och återanrop för just den här klassen.
 solution: Experience Manager
 title: Javascript API-referens för eCatalog Viewer
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+role: Developer,User
+exl-id: e7c1575f-a3f0-478d-8cc2-9bace5eb6106
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
-
 
 # Javascript API-referens för eCatalog Viewer{#javascript-api-reference-for-ecatalog-viewer}
 
