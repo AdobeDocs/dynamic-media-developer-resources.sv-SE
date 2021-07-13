@@ -2,16 +2,15 @@
 description: Vyn Favoriter består av en kolumn med miniatyrbilder.
 solution: Experience Manager
 title: Vyn Favoriter
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+role: Developer,User
+exl-id: 8daf3d19-615b-4d62-a6f5-6a153d193b88
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
-
 
 # Vyn Favoriter{#favorites-view}
 
@@ -149,4 +148,3 @@ Exempel - för att ställa in etiketter med ett Helvetica-teckensnitt med 14 pix
  font-size: 14px; 
 }
 ```
-
