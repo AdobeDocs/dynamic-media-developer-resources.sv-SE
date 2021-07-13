@@ -3,15 +3,14 @@ description: Aktivera syntetiserade teckensnittsvarianter. Styr om servern ska g
 solution: Experience Manager
 title: SynthesizeFontStyles
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 08f20748-71c7-4b9f-9b45-70352f9abf35
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
-
 
 # SynthesizeFontStyles{#synthesizefontstyles}
 
