@@ -3,15 +3,14 @@ description: Standardkvalitet för JPEG-kodning. Anger standardkvalitetsinställ
 solution: Experience Manager
 title: JpegQuality
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 1a699a9e-dbf6-4e01-95aa-37a6eb83f4df
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
-
 
 # JpegQuality{#jpegquality}
 
