@@ -3,15 +3,14 @@ description: Standardattribut för JPEG-kodning. Anger standardattributen för J
 solution: Experience Manager
 title: JpegQuality
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: c2a7f7f9-0c2c-4421-9dbc-d5c1e936f0f1
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
-
 
 # JpegQuality{#jpegquality}
 
