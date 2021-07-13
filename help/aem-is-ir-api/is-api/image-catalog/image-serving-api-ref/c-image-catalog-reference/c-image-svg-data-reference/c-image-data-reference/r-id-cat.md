@@ -3,15 +3,14 @@ description: Katalogens post-ID
 solution: Experience Manager
 title: ID
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 37945115-c93d-4f59-b3d3-a2c4ee7fc990
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
-
 
 # ID {#id}
 
