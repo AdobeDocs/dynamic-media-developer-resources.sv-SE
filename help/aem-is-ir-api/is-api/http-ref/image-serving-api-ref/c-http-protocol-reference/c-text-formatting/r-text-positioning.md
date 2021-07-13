@@ -3,15 +3,14 @@ description: Med renderaren text= placeras text i grunden annorlunda än rendera
 solution: Experience Manager
 title: Textplacering
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 092444bf-9964-4d97-b06e-3add033da284
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
-
 
 # Textplacering{#text-positioning}
 
