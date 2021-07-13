@@ -3,15 +3,14 @@ description: Om det krävs en vinjettkarta för en materialkatalog måste den re
 solution: Experience Manager
 title: Referens för vinjetteringskarta
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 77e4d131-f043-4091-8bf7-f85cc0e98002
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
-
 
 # Referens för vinjetteringskarta{#vignette-map-reference}
 
