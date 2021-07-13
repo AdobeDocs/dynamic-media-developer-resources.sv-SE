@@ -3,15 +3,14 @@ description: Katalogmatchningsalternativ.
 solution: Experience Manager
 title: FullMatch
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 1a267c48-a8eb-426a-a70a-bdb9f5f20efb
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
-
 
 # FullMatch{#fullmatch}
 
