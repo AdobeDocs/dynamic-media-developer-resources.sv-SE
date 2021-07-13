@@ -2,18 +2,17 @@
 description: eCatalog Viewer stöder återgivning av bildschemaikoner ovanför huvudvyn.
 solution: Experience Manager
 title: Stöd för bildscheman
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+role: Developer,User
+exl-id: 7a2a58f9-852e-4205-96bc-08332507b6cd
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
 
-
-# Stöd för bildschema{#image-map-support}
+# Stöd för bildscheman{#image-map-support}
 
 eCatalog Viewer stöder återgivning av bildschemaikoner ovanför huvudvyn.
 
@@ -35,7 +34,7 @@ I det här exemplet är samma URL omsluten med funktionen `loadProduct()`:
 
 Tänk på att koden körs på klientens dator när du lägger till JavaScript-koden i `HREF`-attributet för bildschemat. Kontrollera därför att JavaScript-koden är säker.
 
-## Aktivering av popup-meny för panelen Info {#section-7aa036420af646d1ad8cdc388add0b57}
+## Aktivering av popup-meny i panelen Info {#section-7aa036420af646d1ad8cdc388add0b57}
 
 Om du vill arbeta med panelen Info har ett bildschema attributuppsättningen `ROLLOVER_KEY`. Ställ också in attributet `href` samtidigt, annars stör den externa URL-bearbetningen aktiveringen av panelen Info.
 
