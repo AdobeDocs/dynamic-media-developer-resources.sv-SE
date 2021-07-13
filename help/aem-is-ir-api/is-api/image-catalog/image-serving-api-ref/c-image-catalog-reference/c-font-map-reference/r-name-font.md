@@ -3,15 +3,14 @@ description: Teckensnittets namn. Teckensnittets teckensnittsnamn exakt enligt k
 solution: Experience Manager
 title: Namn
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: cf3bc6ca-ffe2-4417-8ce8-ec68c7039365
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
-
 
 # Namn{#name}
 
