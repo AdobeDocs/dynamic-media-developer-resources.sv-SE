@@ -3,15 +3,14 @@ description: Justera bildens opacitet. Gör att förgrundsopaciteten för en bil
 solution: Experience Manager
 title: opac
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 38e0e1dc-46c0-48a4-b676-f7e6d262392f
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
-
 
 # opac{#opac}
 
