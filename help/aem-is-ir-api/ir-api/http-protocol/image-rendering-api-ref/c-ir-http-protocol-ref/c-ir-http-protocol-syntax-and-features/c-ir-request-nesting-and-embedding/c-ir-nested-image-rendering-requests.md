@@ -3,15 +3,14 @@ description: För avancerade program är det möjligt att använda resultatet av
 solution: Experience Manager
 title: Begäranden om kapslad bildåtergivning
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 52c12786-bbe7-4410-87bb-6245d782a68c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
-
 
 # Begäranden om kapslad bildåtergivning{#nested-image-rendering-requests}
 
