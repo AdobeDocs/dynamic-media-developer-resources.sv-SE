@@ -3,17 +3,16 @@ description: Följ dessa anvisningar för att avinstallera bildåtergivning på 
 solution: Experience Manager
 title: Avinstallation på Linux och Solaris
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: c81feaba-18da-441a-bfd5-40275558a384
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
 
-
-# Avinstallerar Linux och Solaris{#uninstalling-on-linux-and-solaris}
+# Avinstallation på Linux och Solaris{#uninstalling-on-linux-and-solaris}
 
 Följ dessa anvisningar för att avinstallera bildåtergivning på ett Linux- eller Solaris-system.
 
@@ -42,6 +41,5 @@ Kommandot för att ta bort ImageRendering beror på datorn:
 >1. Ta bort kataloger eller filer som inte har tagits bort i steg 2.
 
 >
-
 
 
