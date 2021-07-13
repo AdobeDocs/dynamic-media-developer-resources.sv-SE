@@ -3,15 +3,14 @@ description: Bilddata returneras om en begäran har slutförts och om begäran a
 solution: Experience Manager
 title: Bilder
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 3aa46d48-82eb-4a21-a5e5-b33904b97888
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
-
 
 # Bilder{#images}
 
