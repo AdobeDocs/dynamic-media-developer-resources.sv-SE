@@ -3,15 +3,14 @@ description: Visa höjd. Anger svarsbildens höjd (visningsbild) när det inte f
 solution: Experience Manager
 title: hei
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: c812c7f0-4ac1-42cb-be47-7baebd8caf60
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
-
 
 # hei{#hei}
 
