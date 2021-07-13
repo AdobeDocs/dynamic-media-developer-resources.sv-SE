@@ -3,15 +3,14 @@ description: Markera objekt efter pixelplats.
 solution: Experience Manager
 title: sel
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: fac33287-ebcc-4995-b968-ac377065fdd4
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
-
 
 # sel{#sel}
 
