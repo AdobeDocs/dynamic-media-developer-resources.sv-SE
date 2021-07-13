@@ -3,15 +3,14 @@ description: Konfigurationsinställningarna för bildåtergivning lagras i konfi
 solution: Experience Manager
 title: Konfigurationsfiler
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,Administrator,User
+exl-id: 44ffebae-4933-455b-a902-4f6e7bb69184
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
-
 
 # Konfigurationsfiler{#configuration-files}
 
