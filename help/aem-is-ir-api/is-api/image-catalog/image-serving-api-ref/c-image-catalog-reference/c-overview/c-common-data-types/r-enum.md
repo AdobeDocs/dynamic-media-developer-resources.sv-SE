@@ -3,17 +3,16 @@ description: Uppräkningens datatyp.
 solution: Experience Manager
 title: Enum
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: df7170f5-652c-422a-9f2a-3cb02aa1eaa0
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '27'
+source-wordcount: '24'
 ht-degree: 0%
 
 ---
 
-
-# Uppräkning{#enum}
+# Enum{#enum}
 
 Uppräkningens datatyp.
 
