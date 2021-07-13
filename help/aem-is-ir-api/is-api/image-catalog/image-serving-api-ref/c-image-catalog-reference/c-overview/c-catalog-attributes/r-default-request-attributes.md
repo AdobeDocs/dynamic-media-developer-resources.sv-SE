@@ -3,15 +3,14 @@ description: Katalogattributfiler känner igen dessa standardattribut för begä
 solution: Experience Manager
 title: Standardattribut för begäran
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: b706595d-8c3a-438a-8806-e3d85b1bdadb
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---
-
 
 # Standardattribut för begäran{#default-request-attributes}
 
@@ -57,4 +56,3 @@ Katalogattributfiler känner igen dessa standardattribut för begäran.
   </tr> 
  </tbody> 
 </table>
-
