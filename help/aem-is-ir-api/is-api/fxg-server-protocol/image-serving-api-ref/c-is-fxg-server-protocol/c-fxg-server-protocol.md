@@ -3,15 +3,14 @@ description: Om du vill ändra en bild kan du använda referenspunkter som likna
 solution: Experience Manager
 title: FXG-serverprotokoll
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 57d9ba37-819e-455f-9b22-bd7aabffe007
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
-
 
 # FXG-serverprotokoll{#fxg-server-protocol}
 
@@ -37,4 +36,3 @@ Standardvärdet är none. Värdet `inherit` skickar `s7:referencePoint`-värdet,
 >Om du vill använda en referenspunkt och inte ha någon förskjutning i objektet efter att det har manipulerats uppdaterar du objektets x- och y-värden när du har manipulerat det.
 
 När ett värde från `s7:referencePoint` används med grupper (eller banor, linjeelement eller element som inte har explicita definitioner för bredd och höjd), gäller värdet gruppens kumulativa begränsningsram. Den övre vänstra punkten i begränsningsramen för alla objekt i gruppen fungerar som referenspunkt `northWest` för gruppen. den nedre högra punkten fungerar som referenspunkt för `southEast`.
-
