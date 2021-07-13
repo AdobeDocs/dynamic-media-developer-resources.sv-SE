@@ -3,15 +3,14 @@ description: Bakgrundsfärg. Anger den subtraktiva färgen för färgningsbara t
 solution: Experience Manager
 title: bgc
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 9ac6517e-b9c3-48d9-97ac-d8aa65a8ba46
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
-
 
 # bgc{#bgc}
 
