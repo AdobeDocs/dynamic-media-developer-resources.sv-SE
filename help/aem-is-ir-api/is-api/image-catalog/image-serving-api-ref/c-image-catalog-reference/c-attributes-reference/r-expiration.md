@@ -3,17 +3,16 @@ description: Klientens standardtid för cache till livstid. Anger ett standardut
 solution: Experience Manager
 title: Förfaller
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: c9dccf8d-56b3-4608-ac05-9c17babc609e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
 
-
-# Förfallodatum{#expiration}
+# Förfaller{#expiration}
 
 Klientens standardtid för cache till livstid. Anger ett standardintervall för förfallodatum om en viss katalogpost inte innehåller en giltig katalog::Förfallovärde.
 
