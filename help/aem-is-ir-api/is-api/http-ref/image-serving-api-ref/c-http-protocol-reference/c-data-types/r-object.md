@@ -3,17 +3,16 @@ description: Källobjektsspecificerare. Bild-, SVG- och ICC-profilobjekt kan ang
 solution: Experience Manager
 title: object
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 64846f8f-ebc6-446c-8277-04c45111dc24
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
 
-
-# objekt{#object}
+# object{#object}
 
 Källobjektsspecificerare. Bild-, SVG- och ICC-profilobjekt kan anges som bildkatalogsposter eller relativa filsökvägar
 
