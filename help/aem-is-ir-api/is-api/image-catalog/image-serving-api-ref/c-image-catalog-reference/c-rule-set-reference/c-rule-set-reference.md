@@ -3,17 +3,16 @@ description: Image Serving har stöd för en enkel förbearbetningsmekanism för
 solution: Experience Manager
 title: Referens för regeluppsättning
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: dfbb5f5e-d75a-496a-8b97-f102ad1a34d5
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '807'
 ht-degree: 0%
 
 ---
 
-
-# Regeluppsättningsreferens{#rule-set-reference}
+# Referens för regeluppsättning{#rule-set-reference}
 
 Image Serving har stöd för en enkel förbearbetningsmekanism för begäranden som baseras på regler för matchning och ersättning av reguljära uttryck.
 
@@ -55,11 +54,11 @@ Ett `<ruleset>`-element som innehåller valfritt antal `<rule>`-element tillåts
 
 Innehållet i regelfiler för förbearbetning är skiftlägeskänsligt.
 
-## Validering av linjeset {#section-d8d101a0b4d74580835e37d128d05567}
+## Validering av regeluppsättning {#section-d8d101a0b4d74580835e37d128d05567}
 
 En kopia av [!DNL RuleSet.xsd] finns i katalogmappen och bör användas för att validera en regeluppsättningsfil innan den registreras i [!DNL catalog.ini]-filen. Observera att Image Serving använder en intern kopia av [!DNL RuleSet.xsd] för validering.
 
-## URL-förbehandling {#section-2c09a2d79ada46b994857c6a7fb4c13a}
+## Förbehandling av URL {#section-2c09a2d79ada46b994857c6a7fb4c13a}
 
 Innan någon annan bearbetning utförs, analyseras en inkommande HTTP-begäran delvis för att avgöra vilken bildkatalog som ska användas. När katalogen har identifierats tillämpas regeluppsättningen för den valda katalogen (eller standardkatalogen, om ingen specifik katalog har identifierats).
 
