@@ -3,15 +3,14 @@ description: Makrodefinition. Ett √•tergivningsserverprotokollfragment som best√
 solution: Experience Manager
 title: Definition
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 717b2348-b14b-42e0-a991-40c7397b6619
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '61'
 ht-degree: 0%
 
 ---
-
 
 # Definition{#definition}
 
