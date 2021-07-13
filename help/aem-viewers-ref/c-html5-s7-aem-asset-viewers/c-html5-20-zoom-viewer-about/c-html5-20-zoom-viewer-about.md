@@ -4,9 +4,9 @@ keywords: responsiv
 solution: Experience Manager
 title: Zooma
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 81a74026-fb15-4f57-a4c7-1ab005950245
-source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '2404'
 ht-degree: 0%
@@ -318,7 +318,7 @@ Följande exempelsida visar mer verkliga användningsområden för responsiv des
 
 [Live Demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-## Bädda in i flexibel storlek med angiven bredd och höjd {#section-3674e6c032594441a6576b7fb1de6e64}
+## Bädda in i flexibel storlek med bredd och höjd definierad {#section-3674e6c032594441a6576b7fb1de6e64}
 
 Vid flexibel inbäddning med bredd och höjd är webbsidans format annorlunda. Den ger båda storlekarna till DIV:n `"holder"` och centrerar den i webbläsarfönstret. Dessutom anger webbsidan storleken på elementen `HTML` och `BODY` till 100 procent.
 
@@ -384,7 +384,7 @@ var zoomViewer = new s7viewers.ZoomViewer({
 </html> 
 ```
 
-## Bädda in med set-based API {#section-44e014925f24418b900696003855c0a9}
+## Bädda in med hjälp av set-based API {#section-44e014925f24418b900696003855c0a9}
 
 I stället för att använda JSON-baserad initiering kan du använda set-based API och no-args-konstruktor. Om du använder den här API-konstruktorn används inga parametrar och konfigurationsparametrar anges med API-metoderna `setContainerId()`, `setParam()` och `setAsset()` med separata JavaScript-anrop.
 
