@@ -3,17 +3,16 @@ description: Använd de här serverinställningarna för att omdirigera fel.
 solution: Experience Manager
 title: Felomdirigering
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Administrator,User
+exl-id: a184e113-9708-412f-9b71-d75a35629adf
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
 
-
-# Fel vid omdirigering{#error-redirection}
+# Felomdirigering{#error-redirection}
 
 Använd de här serverinställningarna för att omdirigera fel.
 
