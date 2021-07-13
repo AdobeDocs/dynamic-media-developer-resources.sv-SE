@@ -3,15 +3,14 @@ description: Du kan konfigurera datacache.
 solution: Experience Manager
 title: Datacache
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Administrator,User
+exl-id: 778a6236-09f5-420c-ab31-a72063eb5326
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '40'
+source-wordcount: '36'
 ht-degree: 0%
 
 ---
-
 
 # Datacache{#data-caches}
 
