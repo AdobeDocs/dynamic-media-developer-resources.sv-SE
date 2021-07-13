@@ -2,16 +2,15 @@
 description: Huvudvyn består av den zoombara bilden.
 solution: Experience Manager
 title: Zoomvy
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
+role: Developer,User
+exl-id: 286b9df4-88db-4e5d-aab4-9cbe01195e57
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
-
 
 # Zoomvy{#zoom-view}
 
@@ -82,4 +81,3 @@ I skrivbordssystem stöder komponenten attributväljaren `cursortype` som kan ti
   </tr> 
  </tbody> 
 </table>
-
