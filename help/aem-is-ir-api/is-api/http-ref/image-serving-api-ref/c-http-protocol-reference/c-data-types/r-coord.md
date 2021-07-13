@@ -3,15 +3,14 @@ description: Pixelkoordinater. Används för att ange bildkoordinater, till exem
 solution: Experience Manager
 title: coord
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 12ca4002-a540-4eb9-bb11-824d7cb41d30
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
-
 
 # coord{#coord}
 
