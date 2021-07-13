@@ -2,16 +2,15 @@
 description: ImageMapEffect.rollover
 solution: Experience Manager
 title: ImageMapEffect.rollover
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+role: Developer,User
+exl-id: 29ca3d4d-6953-4148-9b1e-01e94d1da7df
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '87'
 ht-degree: 2%
 
 ---
-
 
 # ImageMapEffect.rollover{#imagemapeffect-rollover}
 
