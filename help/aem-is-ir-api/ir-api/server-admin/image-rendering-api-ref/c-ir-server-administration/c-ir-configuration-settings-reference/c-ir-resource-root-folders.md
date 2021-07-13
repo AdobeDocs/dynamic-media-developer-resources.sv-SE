@@ -3,15 +3,14 @@ description: Lista med sökvägar, avgränsade med semikolon, fungerar som rött
 solution: Experience Manager
 title: Resursrotmappar (ir.resourceRootPaths)
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,Administrator,User
+exl-id: 49fd45da-1af9-4016-8fc6-6ec17b7e553b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
-
 
 # Resursrotmappar (ir.resourceRootPaths){#resource-root-folders-ir-resourcerootpaths}
 
