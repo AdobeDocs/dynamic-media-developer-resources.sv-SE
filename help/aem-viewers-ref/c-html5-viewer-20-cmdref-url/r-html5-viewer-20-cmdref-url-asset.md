@@ -2,13 +2,12 @@
 description: Parametern är gemensam för alla visningsprogram.
 solution: Experience Manager
 title: resurs
-feature: Dynamic Media Classic,Viewers,SDK/API
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,visningsprogram,SDK/API
+role: Developer,User
 exl-id: edcd18b6-5292-44da-80be-b7f75ee4c48e
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
