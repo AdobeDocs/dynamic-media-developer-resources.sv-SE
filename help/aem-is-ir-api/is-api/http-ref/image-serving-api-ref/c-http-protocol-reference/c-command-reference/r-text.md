@@ -3,15 +3,14 @@ description: Lagertext. Anger text och formatering för ett textlager.
 solution: Experience Manager
 title: text
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 3966b180-bef1-4fad-af71-ba42bbdffd59
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
-
 
 # text{#text}
 
