@@ -2,13 +2,12 @@
 description: JavaScript API-referens för Interactive Image Viewer.
 solution: Experience Manager
 title: init
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva bilder
+role: Developer,User
 exl-id: 675031ab-21bb-49a5-abbc-eca8d2619e49
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
