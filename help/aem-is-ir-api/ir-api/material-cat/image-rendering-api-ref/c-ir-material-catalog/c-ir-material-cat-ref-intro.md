@@ -3,15 +3,14 @@ description: I det här dokumentet beskrivs materialkatalogen för Dynamic Media
 solution: Experience Manager
 title: Introduktion
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 1cdb9c45-329d-44df-92c3-8cba5b2b1339
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
-
 
 # Introduktion{#introduction}
 
@@ -91,4 +90,3 @@ Det antas att läsaren känner till Dynamic Media Image Authoring and Image Rend
   <td class="stentry"> <p>Tomt utrymme (blanksteg eller tabbar) tillåts inte i HTTP-begäranden. I det här dokumentet används ibland endast mellanrum mellan syntaktiska element för att skapa klarhet. </p> </td> 
  </tr> 
 </table>
-
