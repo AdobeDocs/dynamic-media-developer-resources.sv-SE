@@ -3,15 +3,14 @@ description: Väljare för illustrationsschema. Tillåter explicit markering av 
 solution: Experience Manager
 title: Illum
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 5e74b3e8-6289-4114-aa11-a6f91671363e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
-
 
 # Illum{#illum}
 
