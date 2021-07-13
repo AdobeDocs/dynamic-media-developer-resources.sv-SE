@@ -3,17 +3,16 @@ description: Namnutrymme för visningsprogramsDK
 solution: Experience Manager
 title: Namnutrymme för visningsprogramsDK
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 1712f08c-70e6-483e-a4e5-614448f35374
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
 
-# SDK-namnområde för visningsprogram{#viewer-sdk-namespace}
+# Namnutrymme för visningsprogramsDK{#viewer-sdk-namespace}
 
 Visningsprogrammet är byggt av många SDK-komponenter för visningsprogrammet. I de flesta fall behöver webbsidan inte interagera direkt med SDK-komponenternas API. alla vanliga behov behandlas i visningsprogrammets API.
 
