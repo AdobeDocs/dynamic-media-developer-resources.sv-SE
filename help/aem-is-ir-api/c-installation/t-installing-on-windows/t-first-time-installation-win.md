@@ -3,15 +3,14 @@ description: Följ de här stegen för att installera Image Serving för första
 solution: Experience Manager
 title: Installerar för första gången
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 4e34d78c-1b5b-45cf-acc5-ff12cbc6ed01
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
-
 
 # Installerar för första gången{#installing-for-the-first-time}
 
