@@ -3,15 +3,14 @@ description: Det här dokumentet använder följande konventioner.
 solution: Experience Manager
 title: Dokumentkonventioner
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: cc334766-544b-4d77-aa0e-4e509525cbaa
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
-
 
 # Dokumentkonventioner{#document-conventions}
 
@@ -87,4 +86,3 @@ Det här dokumentet använder följande konventioner.
   <td class="stentry"> <p>Tomt utrymme (blanksteg eller tabbar) tillåts inte i HTTP-begäranden. I det här dokumentet används ibland endast mellanrum mellan syntaktiska element för att skapa klarhet. </p> </td> 
  </tr> 
 </table>
-
