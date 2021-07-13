@@ -3,15 +3,14 @@ description: RTF-specifikationen tillåter RGB-färgvärden som anges med &bsol;
 solution: Experience Manager
 title: Färghantering
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 590ed0f1-8d78-4afc-ac9e-c28272cd24a6
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
-
 
 # Färghantering{#color-handling}
 
