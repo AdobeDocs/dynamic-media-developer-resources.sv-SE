@@ -2,16 +2,15 @@
 description: FlyoutZoomView.flyouttransition
 solution: Experience Manager
 title: FlyoutZoomView.flyouttransition
-feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Textbunden zoom
+role: Developer,User
+exl-id: 3199d4a3-4799-40a2-b0a5-0e1ee4744fbe
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
-
 
 # FlyoutZoomView.flyouttransition{#flyoutzoomview-flyouttransition}
 
@@ -29,7 +28,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showdelay  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Fördröjning i sekunder mellan användaråtgärd som initierar bildspelsanimeringen och början på själva bildspelsanimeringen. </p> </td> 
+   <td colname="col2"> <p> Fördröjningen i sekunder mellan användaråtgärden som initierar visningsanimeringen och början av själva visningsanimeringen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> hidetime  </span> </span> </p> </td> 
