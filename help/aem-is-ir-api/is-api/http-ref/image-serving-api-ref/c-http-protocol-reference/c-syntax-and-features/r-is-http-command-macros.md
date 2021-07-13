@@ -3,15 +3,14 @@ description: Kommandomakron innehåller namngivna kortkommandon för kommandoupp
 solution: Experience Manager
 title: Kommandomakron
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 304d93af-3427-4111-882a-35be9ec3aef5
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
-
 
 # Kommandomakron{#command-macros}
 
