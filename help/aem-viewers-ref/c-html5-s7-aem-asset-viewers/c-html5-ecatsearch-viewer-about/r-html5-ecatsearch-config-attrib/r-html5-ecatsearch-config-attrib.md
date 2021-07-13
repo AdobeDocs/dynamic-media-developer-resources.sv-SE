@@ -2,16 +2,15 @@
 description: Konfigurationsattributdokumentation för eCatalog Viewer.
 solution: Experience Manager
 title: Kommandoreferens - Konfigurationsattribut
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+role: Developer,User
+exl-id: e8ce40c9-d1c0-454f-b8fa-ba19e3fe2091
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
-
 
 # Kommandoreferens - Konfigurationsattribut{#command-reference-configuration-attributes}
 
