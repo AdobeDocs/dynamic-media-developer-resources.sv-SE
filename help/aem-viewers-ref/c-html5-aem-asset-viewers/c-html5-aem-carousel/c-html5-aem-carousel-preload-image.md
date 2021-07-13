@@ -3,12 +3,11 @@ description: Förhandsladda bilder är en statisk förhandsvisningsbild som läs
 solution: Experience Manager
 title: Förhandsladda bild
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 8caf156f-d641-44e9-94f9-5ba3245061a3
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
