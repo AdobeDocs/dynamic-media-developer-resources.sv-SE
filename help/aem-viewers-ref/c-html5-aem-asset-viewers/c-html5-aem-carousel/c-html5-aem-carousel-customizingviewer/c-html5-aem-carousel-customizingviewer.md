@@ -4,12 +4,11 @@ keywords: responsiv
 solution: Experience Manager
 title: Anpassa Carousel Viewer
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: f392d830-5c75-45dd-bab8-29a38218790d
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1344'
 ht-degree: 0%
 
 ---
@@ -40,7 +39,7 @@ När du skapar anpassad CSS bör du tänka på att visningsprogrammet tilldelar 
 
 `#<containerId>.s7carouselviewer`
 
-## Skapar responsiv CSS {#section-0bb49aca42d242d9b01879d5ba59d33b}
+## Skapa responsiv CSS {#section-0bb49aca42d242d9b01879d5ba59d33b}
 
 Det är möjligt att rikta in sig på olika enheter och inbäddningsstorlekar i CSS så att innehållet visas på olika sätt, beroende på användarens enhet eller en viss webbsideslayout. Detta omfattar, men är inte begränsat till, olika layouter, elementstorlekar i användargränssnittet och bildupplösning.
 
@@ -134,7 +133,7 @@ Med en mediefrågemetod bör du organisera CSS med enhetsavkänning enligt följ
 
 Du behöver inte duplicera hela CSS för visningsprogram i varje mediefråga. Endast egenskaper som är specifika för vissa enheter omdefinieras i en mediefråga.
 
-## CSS-sprites {#section-9b6d8d601cb441d08214dada7bb4eddc}
+## CSS-fragment {#section-9b6d8d601cb441d08214dada7bb4eddc}
 
 Många visningsgränssnittselement är formaterade med bitmappsbilder och har mer än ett tydligt visuellt läge. Ett bra exempel är en knapp som normalt har minst tre olika lägen: `up`, `over` och `down`. För varje läge krävs en egen bitmappsbild.
 
