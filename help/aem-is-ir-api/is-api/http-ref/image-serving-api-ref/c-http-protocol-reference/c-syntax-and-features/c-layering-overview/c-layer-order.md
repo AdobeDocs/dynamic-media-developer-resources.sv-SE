@@ -3,15 +3,14 @@ description: Lagernumret avgör också z-ordningen.
 solution: Experience Manager
 title: Lagerordning
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 3a8fdd55-6ac1-4bc9-935d-188ee60946d9
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---
-
 
 # Lagerordning{#layer-order}
 
