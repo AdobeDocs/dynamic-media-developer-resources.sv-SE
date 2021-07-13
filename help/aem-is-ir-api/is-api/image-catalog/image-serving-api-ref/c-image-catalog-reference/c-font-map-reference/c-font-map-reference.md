@@ -3,17 +3,16 @@ description: Om en teckensnittsmappning krävs för en bildkatalog måste den re
 solution: Experience Manager
 title: Referens för teckensnittskarta
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: b04e89ee-ae69-41c0-bd62-0929d21980c0
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
 
-
-# Teckensnittsmappningsreferens{#font-map-reference}
+# Referens för teckensnittskarta{#font-map-reference}
 
 Om en teckensnittsmappning krävs för en bildkatalog måste den relativa eller absoluta sökvägen till teckensnittsmappningsfilen anges i attributet::FontMapFile.
 
