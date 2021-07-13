@@ -3,17 +3,16 @@ description: Image Serving är en enkel preprocessor för begäranden som basera
 solution: Experience Manager
 title: Förbehandling av begäran
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: f855c36f-29f2-4ada-a103-1eb9b7b0c1a0
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
 
-
-# Förbehandling av begäranden{#request-preprocessing}
+# Förbehandling av begäran{#request-preprocessing}
 
 Image Serving är en enkel preprocessor för begäranden som baseras på regler för matchning och ersättning av reguljära uttryck.
 
