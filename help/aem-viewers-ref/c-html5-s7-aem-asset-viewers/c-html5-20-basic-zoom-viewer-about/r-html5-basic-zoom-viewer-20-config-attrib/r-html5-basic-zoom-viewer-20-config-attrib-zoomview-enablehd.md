@@ -2,16 +2,15 @@
 description: ZoomView.enableHD
 solution: Experience Manager
 title: ZoomView.enableHD
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
+role: Developer,User
+exl-id: 321ca7e2-e3f9-4b0e-8bde-41d8478e1a0b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
-
 
 # ZoomView.enableHD{#zoomview-enablehd}
 
@@ -73,4 +72,3 @@ Nedan följer de förväntade resultaten när du använder det här konfiguratio
   </tr> 
  </tbody> 
 </table>
-
