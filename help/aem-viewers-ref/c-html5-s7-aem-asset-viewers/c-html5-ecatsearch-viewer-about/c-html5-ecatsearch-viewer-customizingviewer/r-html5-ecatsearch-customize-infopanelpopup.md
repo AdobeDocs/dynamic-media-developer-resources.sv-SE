@@ -2,16 +2,15 @@
 description: Popup-menyn i panelen Info visas mitt i visningsprogramområdet när en användare aktiverar ett bildschema som har en rollover_key-egenskap definierad i Dynamic Media Classic och om funktionen i informationspanelen är korrekt konfigurerad för visningsprogrammet.
 solution: Experience Manager
 title: Popup för panelen Info
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+role: Developer,User
+exl-id: 907b7bd5-3f87-4918-ad62-8a28249ea023
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
-
 
 # Popup för panelen Info{#info-panel-popup}
 
@@ -103,7 +102,7 @@ Informationspanelens dialogruta visas som standard i mitten av visningsprogramom
  </tbody> 
 </table>
 
-Exempel - ställ in en dialogruta med 300 x 200 pixlar i informationspanelen som är centrerad i visningsområdet. har utfyllnad på 40 pixlar längst upp och utfyllnad på 10 pixlar på alla andra sidor, en ljusgrå bakgrund och en radie och skugga på 10 pixlar.
+Exempel - ställ in en dialogruta med 300 x 200 pixlar i informationspanelen som är centrerad i visningsområdet; har utfyllnad på 40 pixlar längst upp och utfyllnad på 10 pixlar på alla andra sidor, en ljusgrå bakgrund och en radie och skugga på 10 pixlar.
 
 ```
 .s7ecatalogsearchviewer .s7infopanelpopup .s7overlay { 
@@ -200,4 +199,3 @@ background-image:url(images/v2/InfoPanelPopup_CloseButton_dark_up.png);
 background-image:url(images/v2/InfoPanelPopup_CloseButton_dark_up.png); 
 }
 ```
-
