@@ -3,15 +3,14 @@ description: Sökväg till teckensnittsmått. Sökväg till och namn på en teck
 solution: Experience Manager
 title: MetricsPath
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 0f1f98a5-b53b-4e20-b4c8-e70482b01a04
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
-
 
 # MetricsPath{#metricspath}
 
