@@ -2,16 +2,15 @@
 description: Om du klickar eller trycker på den här knappen återställs en bild i huvudvyn. Den här knappen visas i huvudkontrollfältet på stationära datorer och surfplattor. På mobiltelefoner visas den här knappen längst ned i mitten över bilden. Den visas emellertid inte när bilden är i ett återställningsläge. Du kan ändra storlek, skal och position för knappen med hjälp av CSS.
 solution: Experience Manager
 title: Knappen Zoomåterställning
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+role: Developer,User
+exl-id: d5aa9e9d-4d7e-428c-a43f-d2b4c9e59777
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
-
 
 # Knappen Zoomåterställning{#zoom-reset-button}
 
@@ -96,4 +95,3 @@ background-image:url(images/v2/ZoomResetButton_dark_down.png);
 background-image:url(images/v2/ZoomResetButton_dark_disabled.png); 
 }
 ```
-
