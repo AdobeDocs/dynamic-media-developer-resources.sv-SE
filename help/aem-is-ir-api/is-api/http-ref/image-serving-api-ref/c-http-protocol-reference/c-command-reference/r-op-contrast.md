@@ -3,15 +3,14 @@ description: Justera kontrast. Justerar bildens kontrast genom att öka intensit
 solution: Experience Manager
 title: op_contrast
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 0216f22e-a3b3-4dda-89c2-9c6c2c81cab3
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
-
 
 # op_contrast{#op-contrast}
 
