@@ -2,16 +2,15 @@
 description: InfoPanelPopup.infoServerUrl
 solution: Experience Manager
 title: InfoPanelPopup.infoServerUrl
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+role: Developer,User
+exl-id: f4bb0087-1e49-47e2-84b4-44b92fade36a
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
-
 
 # InfoPanelPopup.infoServerUrl{#infopanelpopup-infoserverurl}
 
