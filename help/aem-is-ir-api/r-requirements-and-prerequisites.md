@@ -3,15 +3,14 @@ description: Kontrollera att datorn uppfyller systemkraven innan du använder Dy
 solution: Experience Manager
 title: Systemkrav och krav
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: ea2dfec9-0a42-4ccb-8442-6f7c4a39eda1
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
-
 
 # Systemkrav och krav{#system-requirements-and-prerequisites}
 
@@ -70,4 +69,3 @@ Dynamic Media Image Serving kräver följande serverprogramvara.
 **Obs!** Om du vill använda Image Serving i Windows måste du installera Microsoft Visual Studio 2010 som kan distribueras om. Den kan distribueras på följande plats:
 
 [http://www.microsoft.com/en-us/download/details.aspx?id=13523](http://www.microsoft.com/en-us/download/details.aspx?id=13523)
-
