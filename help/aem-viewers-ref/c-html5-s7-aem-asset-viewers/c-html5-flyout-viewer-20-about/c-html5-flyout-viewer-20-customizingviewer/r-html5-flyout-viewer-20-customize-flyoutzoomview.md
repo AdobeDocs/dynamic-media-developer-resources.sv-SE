@@ -2,16 +2,15 @@
 description: Huvudvyn består av den statiska bilden, den zoomade bilden som visas i den utfällbara vyn, det markeringsnavigeringsområde som visas över den statiska bilden och det tips som visas ovanpå den statiska bilden.
 solution: Experience Manager
 title: Utfällbar zoomvy
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Flyout
+role: Developer,User
+exl-id: c04c4b8f-4e63-4e84-98c0-aa0781608130
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
-
 
 # Utfällbar zoomvy{#flyout-zoom-view}
 
@@ -287,4 +286,3 @@ opacity: 0.5;
 filter: alpha(opacity = 50); 
 }
 ```
-
