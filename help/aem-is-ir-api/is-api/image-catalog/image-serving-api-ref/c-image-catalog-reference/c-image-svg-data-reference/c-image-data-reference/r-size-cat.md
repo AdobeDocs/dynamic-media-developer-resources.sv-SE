@@ -3,15 +3,14 @@ description: Bildstorlek. Pixelstorlek för den högupplösta bilden som katalog
 solution: Experience Manager
 title: Storlek
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 46f06cbb-d70f-4334-966c-624b49c3bb9b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
-
 
 # Storlek{#size}
 
