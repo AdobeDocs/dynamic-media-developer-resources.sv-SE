@@ -2,16 +2,15 @@
 description: Färgrutor består av en rad med miniatyrbilder med valfria rullningsknappar på vänster och höger sida.
 solution: Experience Manager
 title: Färgrutor
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Flyout
+role: Developer,User
+exl-id: 7040edf2-4356-4493-b886-8c5694f5863a
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
-
 
 # Färgrutor{#swatches}
 
@@ -224,4 +223,3 @@ background-image:url(images/v2/ScrollRightButton_up.png);
  background-image:url(images/v2/ScrollRightButton_disabled.png); 
 }
 ```
-
