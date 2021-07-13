@@ -3,17 +3,16 @@ description: Ta bort utdata för ett jobb.
 solution: Experience Manager
 title: batchjobbta bort
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 9aca6693-32ac-4abd-9595-95bce60050ec
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
 
-
-# batchjobbdelete{#batchjobdelete}
+# batchjobbta bort{#batchjobdelete}
 
 Ta bort utdata för ett jobb.
 
