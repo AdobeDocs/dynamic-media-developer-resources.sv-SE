@@ -3,15 +3,14 @@ description: Vinjettidentifierare. Indexnyckelvärde med vilket poster i vinjett
 solution: Experience Manager
 title: ID
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 5c0c8788-ffe5-4b42-86f6-6b4683dd7c21
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
-
 
 # ID{#id}
 
