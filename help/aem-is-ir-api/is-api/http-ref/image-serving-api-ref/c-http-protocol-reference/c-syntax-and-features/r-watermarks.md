@@ -3,15 +3,14 @@ description: Image Serving implementerar en enkel funktion för visuell vattenst
 solution: Experience Manager
 title: Vattenstämplar
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,User
+exl-id: e744be3f-9753-4513-8f37-055fa03077cc
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
-
 
 # Vattenstämplar{#watermarks}
 
