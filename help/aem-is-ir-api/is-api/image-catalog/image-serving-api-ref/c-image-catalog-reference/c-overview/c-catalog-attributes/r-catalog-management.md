@@ -3,15 +3,14 @@ description: Katalogattributfiler känner igen dessa kataloghanteringsattribut.
 solution: Experience Manager
 title: Kataloghantering
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: c29858a7-6695-4c40-a818-4161a2e97ff5
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
-
 
 # Kataloghantering{#catalog-management}
 
@@ -87,4 +86,3 @@ Katalogattributfiler känner igen dessa kataloghanteringsattribut.
   <td class="stentry"> <p>Aktivera syntetiska fet/kursiv stil. </p></td> 
  </tr> 
 </table>
-
