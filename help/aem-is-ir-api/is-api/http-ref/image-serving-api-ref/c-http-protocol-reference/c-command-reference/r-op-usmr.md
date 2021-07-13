@@ -3,15 +3,14 @@ description: Oskarp mask. Oskarp maskerar lagret eller den slutliga visningsbild
 solution: Experience Manager
 title: op_usmR
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 51a779be-568b-40e5-99d9-e875023a2b2c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
-
 
 # op_usmR{#op-usmr}
 
