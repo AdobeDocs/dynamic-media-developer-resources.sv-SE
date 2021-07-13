@@ -2,16 +2,15 @@
 description: JavaScript API-referens för Video Viewer.
 solution: Experience Manager
 title: setParams
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Video
+role: Developer,User
+exl-id: 76bad894-bfb8-4d79-b3ff-c2497c68e5e8
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
-
 
 # setParams{#setparams}
 
@@ -43,4 +42,3 @@ Ingen.
 ```
 <instance>.setParams("style=customStyle.css&VideoPlayer.playback=progressive")
 ```
-
