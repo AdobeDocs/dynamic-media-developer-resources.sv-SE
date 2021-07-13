@@ -2,18 +2,17 @@
 description: Visst innehåll som visas i eCatalog Viewer kan lokaliseras, t.ex. zoomknappar, sidändringsknappar, miniatyrknappar, helskärmsknappar, stängningsknappar och rullningslistknappar.
 solution: Experience Manager
 title: Lokalisering av användargränssnittselement
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+role: Developer,User
+exl-id: 1d7e9eba-b30c-4f85-b551-6842f73dc22c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
 
-
-# Lokalisering av element i användargränssnittet{#localization-of-user-interface-elements}
+# Lokalisering av användargränssnittselement{#localization-of-user-interface-elements}
 
 Visst innehåll som visas i eCatalog Viewer kan lokaliseras, t.ex. zoomknappar, sidändringsknappar, miniatyrknappar, helskärmsknappar, stängningsknappar och rullningslistknappar.
 
@@ -295,11 +294,11 @@ Följande SYMBOL stöds (under förutsättning att containerId är visningsbehå
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FacebookShare.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Delningsknapp för Facebook. </p> </td> 
+   <td colname="col2"> <p>Facebook delningsknapp. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Twitter-delningsknapp. </p> </td> 
+   <td colname="col2"> <p>Twitter delningsknapp. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.TOOLTIP  </span> </p> </td> 
@@ -411,4 +410,3 @@ Följande SYMBOL stöds (under förutsättning att containerId är visningsbehå
   </tr> 
  </tbody> 
 </table>
-
