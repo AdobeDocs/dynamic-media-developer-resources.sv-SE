@@ -3,15 +3,14 @@ description: Om xml anges som svarsformat formateras svarsdata som ett XML-dokum
 solution: Experience Manager
 title: XML-egenskaper
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 84cae0cd-d13b-409e-bd65-71c7e973d4b8
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
-
 
 # XML-egenskaper{#xml-properties}
 
@@ -44,4 +43,3 @@ Ett typiskt egenskapssvarsdokument har följande allmänna struktur:
 >[!NOTE]
 >
 >Teckenkodning kan anges för vissa `req=`-typer. Mer information finns i beskrivningen av det specifika `req=`kommandot.
-
