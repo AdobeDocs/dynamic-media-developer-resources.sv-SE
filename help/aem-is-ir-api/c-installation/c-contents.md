@@ -3,15 +3,14 @@ description: Efter installationen innehåller mapphierarkin i install_root de fi
 solution: Experience Manager
 title: Innehåll
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 5b03e68e-a4c2-4b4f-8579-d253d7c112de
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
-
 
 # Innehåll{#contents}
 
@@ -279,4 +278,3 @@ Efter installationen innehåller mapphierarkin i install_root de filer och mappa
   </tr> 
  </tbody> 
 </table>
-
