@@ -3,15 +3,14 @@ description: Klientcache-TTL för svar som inte är bilder. Anger utgångsinterv
 solution: Experience Manager
 title: NonImgExpiration
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: c61e2781-dfaa-4f3d-958d-5ffa755a3e4d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
-
 
 # NonImgExpiration{#nonimgexpiration}
 
