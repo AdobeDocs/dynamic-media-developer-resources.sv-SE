@@ -3,15 +3,14 @@ description: Standardfärgprofil för CMYK-indata. Anger namnet på ICC-färgpro
 solution: Experience Manager
 title: IccProfileSrcCmyk
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 018170f3-2d1a-4da1-a480-b0a7e19457d8
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
-
 
 # IccProfileSrcCmyk{#iccprofilesrccmyk}
 
