@@ -2,22 +2,21 @@
 description: Video Viewer har stöd för körklar Adobe Analytics-spårning.
 solution: Experience Manager
 title: Stöd för Adobe Analytics tracking
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner,Data Engineer,Data Architect
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Video
+role: Developer,User,Data Engineer,Data Architect
+exl-id: 2cc7087d-ed02-4560-b9ce-533af2b11a24
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
-
 
 # Stöd för Adobe Analytics tracking{#support-for-adobe-analytics-tracking}
 
 Video Viewer har stöd för körklar Adobe Analytics-spårning.
 
-## Spåra {#section-3b101fe30be943c1b679fd5c273569ca} direkt
+## Spåra direkt {#section-3b101fe30be943c1b679fd5c273569ca}
 
 Video Viewer har stöd för körklar Adobe Analytics-spårning.
 
@@ -88,4 +87,3 @@ Visningsprogrammet spårar följande SDK-användarhändelser:
   </tr> 
  </tbody> 
 </table>
-
