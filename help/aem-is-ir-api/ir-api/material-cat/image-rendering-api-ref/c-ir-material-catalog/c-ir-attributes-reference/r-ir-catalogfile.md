@@ -3,15 +3,14 @@ description: Sökväg till katalogdatafil. Anger filen som innehåller materiald
 solution: Experience Manager
 title: CatalogFile
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: ab6879cf-c32e-4e88-a269-2ddcffa61b8f
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '65'
 ht-degree: 0%
 
 ---
-
 
 # CatalogFile{#catalogfile}
 
