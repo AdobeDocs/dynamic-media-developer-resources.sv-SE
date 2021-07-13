@@ -2,22 +2,21 @@
 description: Utfällbara visningsprogram har stöd för Adobe Analytics-spårning direkt vid leverans.
 solution: Experience Manager
 title: Stöd för Adobe Analytics tracking
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
-role: Developer,Business Practitioner,Data Engineer,Data Architect
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Flyout
+role: Developer,User,Data Engineer,Data Architect
+exl-id: 6b6216f4-34dc-496f-a0c3-e97d48da14c6
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
-
 
 # Stöd för Adobe Analytics tracking{#support-for-adobe-analytics-tracking}
 
 Utfällbara visningsprogram har stöd för Adobe Analytics-spårning direkt vid leverans.
 
-## Spåra {#section-ba994f079d0343c8ae48adffaa3195a3} direkt
+## Spåra direkt {#section-ba994f079d0343c8ae48adffaa3195a3}
 
 Den utfällbara visningsprogrammet har stöd för [!DNL Adobe Analytics]-spårning som är klar att användas. Om du vill aktivera spårning skickar du rätt namn på företagets förinställning som `config2`-parameter.
 
@@ -81,4 +80,3 @@ Visningsprogrammet spårar följande SDK-användarhändelser:
   </tr> 
  </tbody> 
 </table>
-
