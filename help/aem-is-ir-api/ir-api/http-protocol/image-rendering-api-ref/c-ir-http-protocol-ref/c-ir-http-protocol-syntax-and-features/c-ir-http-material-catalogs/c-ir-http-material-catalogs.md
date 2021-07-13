@@ -3,15 +3,14 @@ description: Materialkataloger har flera funktioner.
 solution: Experience Manager
 title: Materialkataloger *
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 502f80f5-fdd1-468b-89a9-64cc9128d655
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
-
 
 # Materialkataloger *{#material-catalogs}
 
