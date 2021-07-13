@@ -2,16 +2,15 @@
 description: Med visningsprogrammet kan du skriva ut kataloginnehållet till en skrivare.
 solution: Experience Manager
 title: Utskriftsfunktion
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+role: Developer,User
+exl-id: d7c8a0da-ad8b-440e-b27b-ea85dd975d9d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '140'
 ht-degree: 0%
 
 ---
-
 
 # Utskriftsfunktion{#print-feature}
 
@@ -24,4 +23,3 @@ Utskriftens kvalitet kan justeras med konfigurationsparametern `printquality`. O
 >[!NOTE]
 >
 >Utskriftsfunktionen är bara tillgänglig på stationära datorer, förutom Internet Explorer 9.
-
