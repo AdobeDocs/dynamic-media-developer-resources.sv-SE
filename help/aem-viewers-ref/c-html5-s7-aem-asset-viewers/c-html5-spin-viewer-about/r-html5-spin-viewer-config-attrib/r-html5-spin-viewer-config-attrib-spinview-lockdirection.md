@@ -2,16 +2,15 @@
 description: SpinView.lockdirection
 solution: Experience Manager
 title: SpinView.lockdirection
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,snurra uppsättningar
+role: Developer,User
+exl-id: e29ba926-9e0e-4ddd-9f76-408f8ab3b4ca
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '132'
 ht-degree: 1%
 
 ---
-
 
 # SpinView.lockdirection{#spinview-lockdirection}
 
