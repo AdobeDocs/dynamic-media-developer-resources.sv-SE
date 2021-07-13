@@ -2,16 +2,15 @@
 description: Konfigurationsattribut för Video Viewer.
 solution: Experience Manager
 title: ControlBar.transition
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Video
+role: Developer,User
+exl-id: 133717c7-38d9-47b6-86bb-e23ebd8f147a
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
-
 
 # ControlBar.transition{#controlbar-transition}
 
@@ -49,4 +48,3 @@ Valfritt.
 ```
 transition=none
 ```
-
