@@ -3,15 +3,14 @@ description: RGB-standardfärgprofil för indata. Anger namnet på ICC-färgprof
 solution: Experience Manager
 title: IccProfileSrcRgb
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: dfcbd9fe-e696-46e3-abbf-497dc55fe855
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
-
 
 # IccProfileSrcRgb{#iccprofilesrcrgb}
 
