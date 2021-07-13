@@ -2,18 +2,17 @@
 description: Panelen Anrop till åtgärd visas när videon avslutas och alla interaktiva färgrutor som är associerade med videon visas.
 solution: Experience Manager
 title: Uppmaning
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
+role: Developer,User
 exl-id: 43e0ffb3-d650-4b79-ab48-2f32b313b832
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1283'
 ht-degree: 0%
 
 ---
 
-# Call to action{#call-to-action}
+# Uppmaning{#call-to-action}
 
 Panelen Anrop till åtgärd visas när videon avslutas och alla interaktiva färgrutor som är associerade med videon visas.
 
@@ -31,7 +30,7 @@ Följande CSS-klassväljare styr utseendet på bakgrundsfärgen i åtgärdspanel
 .s7interactivevideoviewer .s7calltoaction
 ```
 
-## CSS-egenskaper för bakgrundsfärgen för anropet till åtgärdspanelen {#css-properties-of-the-background-color-of-the-call-to-action-panel}
+## CSS-egenskaper för bakgrundsfärgen för åtgärdspanelen {#css-properties-of-the-background-color-of-the-call-to-action-panel}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -60,7 +59,7 @@ Följande CSS-klassväljare styr utseendet på huvudet i åtgärdspanelen:
 .s7interactivevideoviewer .s7calltoaction .s7header
 ```
 
-## CSS-egenskaper för anropet till åtgärdspanelens rubrik {#css-properties-of-the-call-to-action-panel-header}
+## CSS-egenskaper för huvudet i åtgärdspanelen {#css-properties-of-the-call-to-action-panel-header}
 
 <table id="table_DAA1770AB3074845B5E1B700CD6FC18A"> 
  <tbody> 
