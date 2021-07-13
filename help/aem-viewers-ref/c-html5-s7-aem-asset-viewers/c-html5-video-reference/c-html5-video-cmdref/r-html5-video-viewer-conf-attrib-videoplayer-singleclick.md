@@ -2,16 +2,15 @@
 description: Konfigurationsattribut för Video Viewer.
 solution: Experience Manager
 title: VideoPlayer.singleclick
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Video
+role: Developer,User
+exl-id: 2fd83645-16d4-45ce-8fa8-d97dc254691f
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '75'
 ht-degree: 1%
 
 ---
-
 
 # VideoPlayer.singleclick{#videoplayer-singleclick}
 
@@ -41,4 +40,3 @@ Valfritt.
 ```
 singleclick=none
 ```
-
