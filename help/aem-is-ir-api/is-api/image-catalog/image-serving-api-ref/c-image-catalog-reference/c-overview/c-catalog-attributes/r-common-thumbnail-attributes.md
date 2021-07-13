@@ -3,15 +3,14 @@ description: Katalogattributfiler känner igen dessa vanliga miniatyrattribut.
 solution: Experience Manager
 title: Vanliga miniatyrattribut
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 1289f251-61f0-4355-9dd2-f9b0690e355c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '42'
 ht-degree: 0%
 
 ---
-
 
 # Vanliga miniatyrattribut{#common-thumbnail-attributes}
 
@@ -31,4 +30,3 @@ Katalogattributfiler känner igen dessa vanliga miniatyrattribut.
   <td class="stentry"> <p>Lodrät justering för miniatyrbilder. </p></td> 
  </tr> 
 </table>
-
