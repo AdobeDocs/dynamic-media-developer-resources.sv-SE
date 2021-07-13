@@ -3,15 +3,14 @@ description: Utdatafärgprofil.
 solution: Experience Manager
 title: icc
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 8be7be8c-a23d-4a5b-93e4-44231155616b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
-
 
 # icc{#icc}
 
