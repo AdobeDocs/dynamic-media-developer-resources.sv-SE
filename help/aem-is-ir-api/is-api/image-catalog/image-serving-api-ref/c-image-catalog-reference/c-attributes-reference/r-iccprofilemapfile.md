@@ -3,15 +3,14 @@ description: Sökväg till ICC-profilmappningsfil. Anger filen som innehåller I
 solution: Experience Manager
 title: IccProfileMapFile
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 3a84dc64-3167-4419-a25d-c2f475552f07
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '76'
 ht-degree: 0%
 
 ---
-
 
 # IccProfileMapFile{#iccprofilemapfile}
 
