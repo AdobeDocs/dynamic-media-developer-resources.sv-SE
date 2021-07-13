@@ -3,15 +3,14 @@ description: Image Serving-komponenterna hanteras av Server Supervisor, som är 
 solution: Experience Manager
 title: Serveransvarig
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Administrator,User
+exl-id: 83b6a63f-6bb8-4a14-b8d5-389d23fae57c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
-
 
 # Serveransvarig{#server-supervisor}
 
