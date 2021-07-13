@@ -2,16 +2,15 @@
 description: JavaScript API-referens för Basic Zoom Viewer
 solution: Experience Manager
 title: setHandlers
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
+role: Developer,User
+exl-id: d800dbbc-2c40-4911-8f29-c8413847f7be
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '96'
 ht-degree: 0%
 
 ---
-
 
 # setHandlers{#sethandlers}
 
@@ -21,7 +20,7 @@ JavaScript API-referens för Basic Zoom Viewer
 
 Anger noll eller flera callback-hanterare. Ett anrop till den här metoden skriver helt över händelsehanterare som tidigare tilldelats för den visningsprograminstansen. Måste anropas före `init()`.
 
-## Parametern {#section-b60f082cca1542748b605689b1d43f8a}
+## Parameter {#section-b60f082cca1542748b605689b1d43f8a}
 
 <table id="table_98A620DAE2C340FA97BF7204AE023CC8"> 
  <tbody> 
@@ -45,4 +44,3 @@ Ingen.
 } 
 })
 ```
-
