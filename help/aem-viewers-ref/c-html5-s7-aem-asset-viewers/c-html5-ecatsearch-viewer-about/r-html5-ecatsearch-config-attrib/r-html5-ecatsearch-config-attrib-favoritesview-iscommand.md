@@ -2,16 +2,15 @@
 description: Kommandosträngen Bildrutevisning som används på alla miniatyrbilder.
 solution: Experience Manager
 title: FavoritesView.iscommand
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+role: Developer,User
+exl-id: 114cc5b7-32b9-4d16-ab93-a66f3ec666e0
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '67'
 ht-degree: 1%
 
 ---
-
 
 # FavoritesView.iscommand{#favoritesview-iscommand}
 
