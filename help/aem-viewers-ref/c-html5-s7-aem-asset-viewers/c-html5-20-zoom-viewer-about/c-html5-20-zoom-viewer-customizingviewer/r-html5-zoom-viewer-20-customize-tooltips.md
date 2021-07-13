@@ -2,16 +2,15 @@
 description: I skrivbordssystem har vissa element i användargränssnittet, som knappar, verktygstips som visas när du hovrar musen.
 solution: Experience Manager
 title: Verktygstips
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
+role: Developer,User
+exl-id: 829fdb7f-d9b1-449a-ad2d-88aa435fcaa2
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
-
 
 # Verktygstips{#tooltips}
 
@@ -78,4 +77,3 @@ Exempel - för att skapa verktygstips med en grå kant med hörnradie på 3px, s
  font-size: 11px; 
 }
 ```
-
