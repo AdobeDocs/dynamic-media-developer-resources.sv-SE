@@ -3,15 +3,14 @@ description: De här avsnitten innehåller information om hantering av innehåll
 solution: Experience Manager
 title: Hantera innehåll
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Administrator,User
+exl-id: f79201d3-a423-42f0-815b-2e91a22eb6f0
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '40'
+source-wordcount: '36'
 ht-degree: 0%
 
 ---
-
 
 # Hantera innehåll{#managing-content}
 
