@@ -2,16 +2,15 @@
 description: Huvudvyn består av katalogbilden. Den kan svepas för att komma till en annan sida eller zoomas.
 solution: Experience Manager
 title: Sidvy
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+role: Developer,User
+exl-id: d3368115-15e7-4d9d-a417-a3c82c9a8a64
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
-
 
 # Sidvy{#page-view}
 
@@ -175,4 +174,3 @@ cursor:url(images/slide_cursor.cur), auto;
 cursor:url(images/drag_cursor.cur), auto; 
 }
 ```
-
