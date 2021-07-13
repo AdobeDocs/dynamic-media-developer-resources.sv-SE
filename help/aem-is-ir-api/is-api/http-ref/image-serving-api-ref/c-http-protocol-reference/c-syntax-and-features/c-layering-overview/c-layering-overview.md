@@ -3,15 +3,14 @@ description: Med Image Serving kan du kombinera valfritt antal bild-, text- och 
 solution: Experience Manager
 title: Översikt över lager
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 31cb1f6a-74c7-4bae-8504-61649a66a970
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '58'
 ht-degree: 0%
 
 ---
-
 
 # Översikt över lager{#layering-overview}
 
