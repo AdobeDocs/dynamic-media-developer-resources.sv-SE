@@ -4,9 +4,9 @@ keywords: responsiv
 solution: Experience Manager
 title: Utfällbar
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Flyout
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 9b60330f-5348-431d-9682-cf97aace3679
-source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '2084'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Se [Systemkrav och krav](../../c-system-requirements-and-prerequisites.md#concep
 
 [https://s7d9.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample](https://s7d9.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample)
 
-## Använda utfällbar visningsprogram {#section-f21ac23d3f6449ad9765588d69584772}
+## Använda utfällbar vy {#section-f21ac23d3f6449ad9765588d69584772}
 
 Visningsprogrammet för utfällbara menyer representerar en JavaScript-huvudfil och en uppsättning hjälpfiler (en enda JavaScript-uppsättning innehåller alla SDK-komponenter för visningsprogrammet som används av det här visningsprogrammet, resurser, CSS) som hämtats av visningsprogrammet under körning
 
@@ -39,7 +39,7 @@ Konfigurationen och skalningen liknar den för andra visningsprogram. Du kan anv
 
 Se [Kommandoreferens som är gemensam för alla visningsprogram - Konfigurationsattribut](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) och [Kommandoreferens som är gemensam för alla visningsprogram - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
-## Interagera med visningsprogrammet för utfällbara appar {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
+## Interagera med visningsprogram för utfällbara menyer {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
 Utfällbar visningsprogram har stöd för enkelberörings- och flerberöringsgester som är vanliga i andra mobilprogram.
 
@@ -72,7 +72,7 @@ Visningsprogrammet är fullt åtkomligt via tangentbordet.
 
 Se [Tangentbordstillgänglighet och -navigering](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
-## Bädda in utfällbar visningsprogram {#section-6bb5d3c502544ad18a58eafe12a13435}
+## Bädda in visningsprogram {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 Olika webbsidor har olika behov av visningsprogrammets beteende. Webbsidan kan ha en statisk sidlayout, eller använda responsiv design som visas på olika enheter, eller för olika webbläsarfönsterstorlekar. För att tillgodose dessa behov har visningsprogrammet stöd för två primära åtgärdslägen: inbäddning i fast storlek och responsiv designinbäddning.
 
@@ -375,7 +375,7 @@ var flyoutViewer = new s7viewers.FlyoutViewer({
 </html>
 ```
 
-## Inbäddning med Setter-baserad API {#section-af26f0cc2e5140e8a9bfd0c6a841a6d1}
+## Bädda in med Setter-baserat API {#section-af26f0cc2e5140e8a9bfd0c6a841a6d1}
 
 I stället för att använda JSON-baserad initiering kan du använda set-based API och no-args-konstruktor. Om du använder den här API-konstruktorn används inga parametrar och konfigurationsparametrar anges med API-metoderna `setContainerId()`, `setParam()` och `setAsset()` med separata JavaScript-anrop.
 
