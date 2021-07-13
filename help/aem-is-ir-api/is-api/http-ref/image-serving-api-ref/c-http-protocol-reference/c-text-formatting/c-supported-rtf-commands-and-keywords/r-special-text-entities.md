@@ -3,17 +3,16 @@ description: Använd följande specialenheter när du formaterar text.
 solution: Experience Manager
 title: Speciella textobjekt
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 3798dd83-897a-441c-a7c4-ef7325b20f16
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---
 
-
-# Speciella textentiteter{#special-text-entities}
+# Speciella textobjekt{#special-text-entities}
 
 Använd följande specialenheter när du formaterar text.
 
@@ -68,4 +67,3 @@ Använd följande specialenheter när du formaterar text.
   </tr> 
  </tbody> 
 </table>
-
