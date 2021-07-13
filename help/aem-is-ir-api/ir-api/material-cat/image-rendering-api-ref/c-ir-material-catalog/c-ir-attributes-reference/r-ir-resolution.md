@@ -3,15 +3,14 @@ description: Standardupplösning. Anger en standardupplösning om en viss katalo
 solution: Experience Manager
 title: Upplösning
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: cd47f41a-b527-4c78-afb5-b9e9af0868cc
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
-
 
 # Upplösning{#resolution}
 
