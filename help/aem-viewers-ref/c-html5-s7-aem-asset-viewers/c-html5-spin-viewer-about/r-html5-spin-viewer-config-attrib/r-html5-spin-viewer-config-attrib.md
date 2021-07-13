@@ -2,16 +2,15 @@
 description: Dokumentation för konfigurationsattribut för Spin Viewer.
 solution: Experience Manager
 title: Kommandoreferens - Konfigurationsattribut
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,snurra uppsättningar
+role: Developer,User
+exl-id: 60615258-4d20-4452-a4a3-94fb88a943d7
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '148'
 ht-degree: 0%
 
 ---
-
 
 # Kommandoreferens - Konfigurationsattribut{#command-reference-configuration-attributes}
 
