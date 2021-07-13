@@ -2,16 +2,15 @@
 description: JavaScript API-referens för visningsprogrammet för utfällbara bilder.
 solution: Experience Manager
 title: setLocalizedTexter
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Flyout
+role: Developer,User
+exl-id: abe33346-303a-4121-b41b-db89ae106e31
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
-
 
 # setLocalizedTexter{#setlocalizedtexts}
 
@@ -41,4 +40,3 @@ Ingen.
 ```
 <instance>.setLocalizedTexts({"en":{"FlyoutZoomView.TIP_BUBBLE_OVER":"Mouse over to zoom"},"fr":{"FlyoutZoomView.TIP_BUBBLE_OVER":"Passez la souris sur pour zoomer"},defaultLocale:"en"})
 ```
-
