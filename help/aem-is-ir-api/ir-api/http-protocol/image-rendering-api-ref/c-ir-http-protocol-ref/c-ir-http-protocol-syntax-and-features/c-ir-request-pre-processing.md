@@ -3,17 +3,16 @@ description: Bildåtergivning ger en enkel förprocessor för begäranden basera
 solution: Experience Manager
 title: Förbehandling av begäran *
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 79a358db-0fd6-4327-a305-b0b38ad62050
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
 
-
-# Förbearbetning av begäran *{#request-pre-processing}
+# Förbehandling av begäran *{#request-pre-processing}
 
 Bildåtergivning ger en enkel förprocessor för begäranden baserad på regler för matchning och ersättning av reguljära uttryck.
 
