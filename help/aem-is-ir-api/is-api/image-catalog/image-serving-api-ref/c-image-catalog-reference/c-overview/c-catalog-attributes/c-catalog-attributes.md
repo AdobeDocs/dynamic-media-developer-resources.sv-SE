@@ -3,15 +3,14 @@ description: Attributen som beskrivs i det här avsnittet känns igen i kataloga
 solution: Experience Manager
 title: Katalogattribut
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 591dbbbf-770b-4566-9dc2-9f1eefe438e4
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '52'
 ht-degree: 0%
 
 ---
-
 
 # Katalogattribut{#catalog-attributes}
 
