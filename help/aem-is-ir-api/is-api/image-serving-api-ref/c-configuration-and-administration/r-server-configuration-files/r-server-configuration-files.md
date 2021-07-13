@@ -3,15 +3,14 @@ description: Alla konfigurationsfiler finns i install_folder/conf och kan redige
 solution: Experience Manager
 title: Serverkonfigurationsfiler
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,Administrator,User
+exl-id: 6261844c-b63d-477b-8a48-963be868aa22
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
-
 
 # Serverkonfigurationsfiler{#server-configuration-files}
 
