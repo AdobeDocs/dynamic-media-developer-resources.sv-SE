@@ -3,15 +3,14 @@ description: Aktivera senaste ändrade svarshuvuden. Aktiverar eller inaktiverar
 solution: Experience Manager
 title: UseLastModified
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 4908da5d-636e-44d2-bd49-40e01c8b5f79
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
-
 
 # UseLastModified{#uselastmodified}
 
