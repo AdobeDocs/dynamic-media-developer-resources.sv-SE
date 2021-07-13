@@ -3,15 +3,14 @@ description: Visa överlappande objekt. Anger om överlappande objekt ska visas 
 solution: Experience Manager
 title: VisaÖverlappningsobjekt
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 7fdf1c2d-9db9-4f37-a6d0-b6692b51155c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '44'
 ht-degree: 0%
 
 ---
-
 
 # VisaÖverlappningsobjekt{#showoverlapobjs}
 
