@@ -2,16 +2,15 @@
 description: Anger riktningen på bildruteanimeringen för knappbehållaren.
 solution: Experience Manager
 title: FavoritesMenu.bearing
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+role: Developer,User
+exl-id: 2466a288-59c2-4a5e-b0bd-ff5b42dcacdb
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
-
 
 # FavoritesMenu.bearing{#favoritesmenu-bearing}
 
