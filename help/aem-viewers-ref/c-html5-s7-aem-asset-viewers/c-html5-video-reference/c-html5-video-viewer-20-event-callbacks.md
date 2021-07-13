@@ -2,16 +2,15 @@
 description: Händelseåteranrop
 solution: Experience Manager
 title: Händelseåteranrop
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Video
+role: Developer,User
+exl-id: 2493208b-9030-49fa-b1fd-2f2bd524bce6
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
-
 
 # Händelseåteranrop{#event-callbacks}
 
