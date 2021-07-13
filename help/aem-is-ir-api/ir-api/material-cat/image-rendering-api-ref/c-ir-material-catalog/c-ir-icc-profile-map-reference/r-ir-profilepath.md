@@ -3,15 +3,14 @@ description: Sökväg till profilfil. ICC-färgprofilfilens sökväg och namn, i
 solution: Experience Manager
 title: ProfilePath
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: f3ab11a6-d14d-426b-aaa8-af14f062532c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '60'
 ht-degree: 0%
 
 ---
-
 
 # ProfilePath{#profilepath}
 
