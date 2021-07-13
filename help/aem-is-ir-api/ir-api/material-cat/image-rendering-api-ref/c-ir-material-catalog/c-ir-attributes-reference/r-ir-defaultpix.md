@@ -3,15 +3,14 @@ description: Standardstorlek för återgivningsbild. Servern begränsar svarsbil
 solution: Experience Manager
 title: DefaultPix
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: d60f2b8c-5213-42ad-8ec9-7e7797d74e09
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
-
 
 # DefaultPix{#defaultpix}
 
