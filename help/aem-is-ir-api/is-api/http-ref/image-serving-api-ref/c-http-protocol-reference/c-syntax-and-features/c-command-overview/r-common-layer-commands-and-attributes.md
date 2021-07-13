@@ -3,17 +3,16 @@ description: Dessa kommandon gäller för bild-, text- och enfärgslager. De fle
 solution: Experience Manager
 title: Gemensamma lagerkommandon
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: c95d198c-757f-405e-ba08-094cd402c929
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
 
-
-# Kommandon för gemensamma lager{#common-layer-commands}
+# Gemensamma lagerkommandon{#common-layer-commands}
 
 Dessa kommandon gäller för bild-, text- och enfärgslager. De flesta är inte användbara för den sammansatta bilden och för enkla, icke-lageruppbyggda begäranden. De gäller inte för effektlager.
 
@@ -63,4 +62,3 @@ Dessa kommandon gäller för bild-, text- och enfärgslager. De flesta är inte 
   <td class="stentry"> <p>Dölj lagret. </p></td> 
  </tr> 
 </table>
-
