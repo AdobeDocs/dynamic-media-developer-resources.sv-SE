@@ -3,15 +3,14 @@ description: Namn på kommandomakro.
 solution: Experience Manager
 title: name
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: b5aa907b-aa95-4573-bc05-65d84c173f25
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 8%
+source-wordcount: '33'
+ht-degree: 9%
 
 ---
-
 
 # name{#name}
 
