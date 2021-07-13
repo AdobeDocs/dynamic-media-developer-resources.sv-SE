@@ -2,16 +2,15 @@
 description: Sökresultatpanelen består av sökrutan högst upp och huvudområdet där informationsmeddelanden eller sökresultat visas.
 solution: Experience Manager
 title: Sökresultatpanel
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+role: Developer,User
+exl-id: ffbbc2ae-60da-4c3d-a350-6dbcb64e189d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
-
 
 # Sökresultatpanel{#search-results-panel}
 
@@ -396,4 +395,3 @@ Exempel - för att ställa in en rullningsknapp som är 125 x 35 pixlar och har 
 .s7ecatalogsearchviewer .s7searchpanel .s7scrolldownbutton[state='disabled'] { 
  background-image:url(images/sdk/searchpanel_scroll_down_disabled.png);
 ```
-
