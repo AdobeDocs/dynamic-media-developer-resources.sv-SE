@@ -3,15 +3,14 @@ description: Felsök begäran. Det här felsökningskommandot tolkar och förbea
 solution: Experience Manager
 title: lös
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: ef357c19-e725-4904-b635-102e75ff7518
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
-
 
 # lös{#resolve}
 
