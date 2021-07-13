@@ -2,16 +2,15 @@
 description: Konfigurationsattribut för Video Viewer.
 solution: Experience Manager
 title: VideoPlayer.loop
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Video
+role: Developer,User
+exl-id: 92d22f5d-0ba8-4ea2-bba6-2275efdd1fe0
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '38'
+source-wordcount: '35'
 ht-degree: 5%
 
 ---
-
 
 # VideoPlayer.loop{#videoplayer-loop}
 
@@ -41,4 +40,3 @@ Valfritt.
 ```
 loop=1
 ```
-
