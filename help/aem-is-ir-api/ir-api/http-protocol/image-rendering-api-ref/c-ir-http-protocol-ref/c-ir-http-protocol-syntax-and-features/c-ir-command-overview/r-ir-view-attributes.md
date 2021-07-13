@@ -3,15 +3,14 @@ description: Dessa kommandon är positionsoberoende och kan förekomma var som h
 solution: Experience Manager
 title: Visa attribut
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 18e1ee40-fe34-435a-be97-849b08618d48
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
-
 
 # Visa attribut{#view-attributes}
 
@@ -71,4 +70,3 @@ Dessa kommandon är positionsoberoende och kan förekomma var som helst i en beg
   <td class="stentry"> <p>Åsidosätt standardbeteendet för cache-lagring av svar. </p></td> 
  </tr> 
 </table>
-
