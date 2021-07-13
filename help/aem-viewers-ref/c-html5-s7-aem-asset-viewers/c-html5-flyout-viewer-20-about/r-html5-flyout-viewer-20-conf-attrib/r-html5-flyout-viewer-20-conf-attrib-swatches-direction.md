@@ -2,16 +2,15 @@
 description: Swatches.direction
 solution: Experience Manager
 title: Swatches.direction
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Flyout
+role: Developer,User
+exl-id: bdc3e5a8-e7cc-4e7b-98e7-30c0d4496abe
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '63'
 ht-degree: 1%
 
 ---
-
 
 # Swatches.direction{#swatches-direction}
 
