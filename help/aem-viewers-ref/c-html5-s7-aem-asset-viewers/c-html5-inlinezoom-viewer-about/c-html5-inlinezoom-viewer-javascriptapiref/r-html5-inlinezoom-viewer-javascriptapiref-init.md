@@ -2,16 +2,15 @@
 description: JavaScript API-referens för Inline Zoom Viewer.
 solution: Experience Manager
 title: init
-feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Textbunden zoom
+role: Developer,User
+exl-id: c4419728-1e1a-4e11-88fe-24eb0c968c5c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
-
 
 # init{#init}
 
@@ -38,4 +37,3 @@ Ingen.
 ```
 <instance>.init()
 ```
-
