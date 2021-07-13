@@ -3,15 +3,14 @@ description: Materialfil. Anger materialdata, antingen i form av en enstaka mate
 solution: Experience Manager
 title: src
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: aff45f0f-e672-40da-9cc8-db83cf3922ff
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
-
 
 # src{#src}
 
