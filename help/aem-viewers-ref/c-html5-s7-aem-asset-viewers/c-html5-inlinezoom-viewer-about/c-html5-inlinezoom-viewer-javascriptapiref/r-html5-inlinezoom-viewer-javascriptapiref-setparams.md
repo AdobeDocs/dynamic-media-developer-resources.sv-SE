@@ -2,16 +2,15 @@
 description: JavaScript API-referens för Inline Zoom Viewer.
 solution: Experience Manager
 title: setParams
-feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Textbunden zoom
+role: Developer,User
+exl-id: eb3298da-f19d-4013-8192-c51144d8b866
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
-
 
 # setParams{#setparams}
 
@@ -41,4 +40,3 @@ Ingen.
 ```
 <instance>.setParams("FlyoutZoomView.zoomfactor=2,3&Swatches.iscommand=op_sharpen%3d1")
 ```
-
