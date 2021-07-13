@@ -3,15 +3,14 @@ description: Katalogattributfiler kan ha vilket namn som helst, men måste ha et
 solution: Experience Manager
 title: Katalogattributfiler
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 8b5afb99-3201-4e43-93e7-e8998354204f
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
-
 
 # Katalogattributfiler{#catalog-attribute-files}
 
@@ -37,4 +36,3 @@ Katalogattributfiler består av en uppsättning textposter, avgränsade med en `
 * Attributnamn kan bestå av vilken kombination som helst av ASCII-bokstäver, siffror samt &quot;-&quot;, &quot;_&quot; och &quot;.&quot;
 * Om samma attributnamn förekommer mer än en gång i samma attributfil gäller det senast påträffade attributnamnet.
 * Använd &#39;#&#39; som första tecken för att markera en post som en kommentar som tolkaren ignorerar.
-
