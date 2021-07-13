@@ -3,15 +3,14 @@ description: Ett material betraktas som en väggkant när det anges i en väggka
 solution: Experience Manager
 title: Väggkanter
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: e11c38d0-8255-4363-ae60-f47be37a1495
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
-
 
 # Väggkanter{#wall-borders}
 
@@ -50,4 +49,3 @@ Texturbilder för väggkanter kan innehålla en alfakanal som definierar kantens
   </tr> 
  </tbody> 
 </table>
-
