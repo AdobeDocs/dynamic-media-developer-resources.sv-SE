@@ -2,13 +2,12 @@
 description: Konfigurationsattribut för Interactive Video Viewer.
 solution: Experience Manager
 title: VideoTime.timepattern
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
+role: Developer,User
 exl-id: de071adf-6c3c-4702-8950-8246b8ee459e
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
