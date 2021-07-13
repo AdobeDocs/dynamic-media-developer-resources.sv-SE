@@ -3,15 +3,14 @@ description: Använd de här serverinställningarna för att logga åtkomst.
 solution: Experience Manager
 title: Åtkomstloggning
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Administrator,User
+exl-id: e677a617-115d-4f6e-9eb5-bdc14ad7ff24
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
-
 
 # Åtkomstloggning{#access-logging}
 
@@ -31,7 +30,7 @@ Mappen som plattformsservern skriver loggfiler till. Detta kan vara en absolut s
 
 Antalet dagar som loggfiler ska bevaras. Nya loggfiler skapas varje dag vid midnatt. Nu tar servern bort alla filer i loggfilsmappen som är äldre än det angivna antalet dagar, inklusive de som skrivits av Image Server eller Render Server. Standardvärdet är 10.
 
-## TC::prefix - Åtkomstloggfilens namn {#section-1003856323b844049632710a5a056aa7}
+## TC::prefix - Access Log File Name {#section-1003856323b844049632710a5a056aa7}
 
 Namnprefix för filen som åtkomstloggdata skrivs till. Datumet och filsuffixet ( [!DNL  *`yyyy`*-*`mm`*-*`dd`*.log]) läggs till i den angivna strängen. Namnet på åtkomstloggfilen måste vara ett annat än namnet på spårningsloggfilen. Standardvärdet är `access-`.
 
