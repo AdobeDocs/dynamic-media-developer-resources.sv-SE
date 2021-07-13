@@ -3,17 +3,16 @@ description: Installationsmappen för Image Serving (install_folder) är install
 solution: Experience Manager
 title: Installationsmapp
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 1c4da3fb-1ab0-4a5a-b2f9-3d69ebeee15e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '71'
 ht-degree: 0%
 
 ---
 
-
-# Installera mapp{#install-folder}
+# Installationsmapp{#install-folder}
 
 Installationsmappen för Image Serving (install_folder) är install_root/ImageServing.
 
