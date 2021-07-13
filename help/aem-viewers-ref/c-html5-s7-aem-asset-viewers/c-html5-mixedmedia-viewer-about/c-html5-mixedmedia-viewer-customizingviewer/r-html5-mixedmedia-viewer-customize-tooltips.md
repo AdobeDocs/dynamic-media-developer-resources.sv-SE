@@ -3,9 +3,9 @@ description: I skrivbordssystem har vissa element i användargränssnittet, som 
 solution: Experience Manager
 title: Verktygstips
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,blandade medieuppsättningar
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: bbf8e8f0-eb1c-49fa-a501-4c7ed7827595
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 0%
