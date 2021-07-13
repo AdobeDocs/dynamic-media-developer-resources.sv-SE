@@ -3,17 +3,16 @@ description: Om du vill lägga till ett responsivt bildbibliotek på en webbsida
 solution: Experience Manager
 title: Använda bibliotek för responsiv bild
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,User
+exl-id: 2542b9f3-c398-4dbf-afa3-1671fc4fe72a
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
 
-
-# Använda responsivt bildbibliotek{#using-responsive-image-library}
+# Använda bibliotek för responsiv bild{#using-responsive-image-library}
 
 Om du vill lägga till ett responsivt bildbibliotek på en webbsida och hantera befintliga bilder med biblioteket utför du följande steg.
 
