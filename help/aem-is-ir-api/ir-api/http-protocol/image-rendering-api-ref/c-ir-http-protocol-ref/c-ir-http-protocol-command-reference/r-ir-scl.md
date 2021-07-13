@@ -3,15 +3,14 @@ description: Skalvyn. Skalar den återgivna bilden med den angivna skalningsfakt
 solution: Experience Manager
 title: scl
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: e36db25c-af45-4256-b982-b7b06b87f5f9
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
-
 
 # scl{#scl}
 
