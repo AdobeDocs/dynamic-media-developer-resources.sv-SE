@@ -3,15 +3,14 @@ description: Hämta utdata från ett skickat jobb.
 solution: Experience Manager
 title: batchjobgetoutput
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 3fb48c39-b15a-45b7-9aca-ed33f9c46c93
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '54'
 ht-degree: 0%
 
 ---
-
 
 # batchjobgetoutput{#batchjobgetoutput}
 
