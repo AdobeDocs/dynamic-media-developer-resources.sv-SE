@@ -3,15 +3,14 @@ description: Alla katalogfiler är rena textfiler.
 solution: Experience Manager
 title: Filformat
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 973bdda4-76ca-487d-ba3f-afe8a80aa1d2
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '37'
+source-wordcount: '34'
 ht-degree: 0%
 
 ---
-
 
 # Filformat{#file-formats}
 
