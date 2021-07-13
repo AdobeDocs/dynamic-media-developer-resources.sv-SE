@@ -3,17 +3,16 @@ description: Du kan använda Image Serving för att hantera innehåll som inte �
 solution: Experience Manager
 title: Hantera statiskt innehåll (inte bildinnehåll)
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: adc3d972-b02d-40db-992e-acaa06b848ff
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
 
-
-# Serverar statiskt (icke-bildinnehåll) innehåll{#serving-static-non-image-contents}
+# Hantera statiskt innehåll (inte bildinnehåll){#serving-static-non-image-contents}
 
 Du kan använda Image Serving för att hantera innehåll som inte är en bild i kataloger och hantera det via en separat /is/content-kontext.
 
@@ -73,7 +72,7 @@ Image Serving stöder följande kommandon på [!DNL /is/content]:
  </tr> 
 </table>
 
-## Statiska innehållskataloger {#section-91014f17f0d543d7aaf24539b2d7d4b9}
+## Kataloger med statiskt innehåll {#section-91014f17f0d543d7aaf24539b2d7d4b9}
 
 Kataloger med statiskt innehåll liknar bildkataloger, men har stöd för färre datafält:
 
