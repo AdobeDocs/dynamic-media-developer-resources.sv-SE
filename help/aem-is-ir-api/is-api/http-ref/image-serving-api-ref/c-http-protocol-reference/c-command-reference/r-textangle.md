@@ -3,15 +3,14 @@ description: Textåtergivningsriktning. Anger vinkeln som text som anges med tex
 solution: Experience Manager
 title: textAngle
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 102dbdc0-77b8-4c60-b456-6cf693e0b38b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
-
 
 # textAngle{#textangle}
 
