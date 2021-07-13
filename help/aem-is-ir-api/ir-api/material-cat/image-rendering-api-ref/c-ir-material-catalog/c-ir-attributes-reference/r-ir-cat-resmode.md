@@ -3,15 +3,14 @@ description: Omsamplingsläge. Standard för resMode=. Anger de omsamplings- och
 solution: Experience Manager
 title: ResMode
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: c57932a0-529c-4f31-b60e-a38de6fe277f
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---
-
 
 # ResMode{#resmode}
 
