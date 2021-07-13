@@ -3,15 +3,14 @@ description: När du har installerat Dynamic Media Image Serving bör du verifie
 solution: Experience Manager
 title: Verifierar installationen
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 3fcb1f20-8334-497e-8b3e-9097751ca5c1
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
-
 
 # Verifierar installationen{#verifying-the-installation}
 
@@ -28,4 +27,3 @@ Bildservern är installerad som en Windows-tjänst.
 
 Kontrollera om det finns `imageServer.`-objekt i svaret, vilket anger att Image Server lyssnar.
 >Ytterligare verifiering kan utföras med exempelsidorna i dokumentations- och demopaketen, om det är installerat.
-
