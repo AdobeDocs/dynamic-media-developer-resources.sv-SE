@@ -4,16 +4,16 @@ keywords: responsiv
 solution: Experience Manager
 title: Anpassa visningsprogrammet för eCatalog Search
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 32b55fb1-1408-4264-92fa-b3a73f31df1d
-source-git-commit: 776539f14bbcd0342dac632c13a12eeb7b8efa21
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '1406'
 ht-degree: 0%
 
 ---
 
-# Anpassa visningsprogrammet för eCatalog-sökning{#customizing-ecatalog-search-viewer}
+# Anpassa visningsprogrammet för eCatalog Search{#customizing-ecatalog-search-viewer}
 
 All visuell anpassning och de flesta beteendeanpassningar för visningsprogrammet för eCatalog-sökning görs genom att en anpassad CSS skapas.
 
@@ -31,7 +31,7 @@ När du skapar anpassad CSS bör du tänka på att visningsprogrammet tilldelar 
 
 `#<containerId>.s7ecatalogsearchviewer`
 
-## Skapar responsiv CSS {#section-c1e74f5114ad418884ca1c95f5ea5b63}
+## Skapa responsiv CSS {#section-c1e74f5114ad418884ca1c95f5ea5b63}
 
 Det är möjligt att rikta in sig på olika enheter och inbäddningsstorlekar i CSS så att innehållet visas på olika sätt, beroende på användarens enhet eller en viss webbsideslayout. Detta omfattar, men är inte begränsat till, olika webbsideslayouter, elementstorlekar i användargränssnittet och bildupplösning.
 
@@ -122,7 +122,7 @@ Med en mediefrågemetod bör du organisera CSS med enhetsavkänning enligt följ
 
 Du behöver inte duplicera hela CSS för visningsprogram i varje mediefråga. Endast egenskaper som är specifika för vissa enheter omdefinieras i en mediefråga.
 
-## CSS-sprites {#section-9d570f95eb2443aca74c1b02f6e89aff}
+## CSS-fragment {#section-9d570f95eb2443aca74c1b02f6e89aff}
 
 Många visningsgränssnittselement är formaterade med bitmappsbilder och har mer än ett tydligt visuellt läge. Ett bra exempel är en knapp som normalt har minst tre olika lägen: &quot;up&quot;, &quot;over&quot; och &quot;down&quot;. För varje läge krävs en egen bitmappsbild.
 
@@ -176,7 +176,7 @@ background-position: -0px -560px;
 * Om du vill ta bort en knapp från användargränssnittet lägger du till `display:none` i CSS-klassen.
 * Du kan använda olika format för färgvärden som stöds i CSS. Använd formatet `rgba(R,G,B,A)` om du behöver genomskinlighet. Annars kan du använda formatet `#RRGGBB`.
 
-## Element för gemensamt användargränssnitt {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
+## Element i gemensamt användargränssnitt {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
 
 Nedan följer referensdokumentation för användargränssnittselement som gäller eCatalog Search Viewer:
 
