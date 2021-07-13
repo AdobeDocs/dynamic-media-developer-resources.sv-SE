@@ -3,15 +3,14 @@ description: Om req=img bestäms storleken på den sammansatta arbetsytan helt a
 solution: Experience Manager
 title: Den sammansatta arbetsytan
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 38b2349f-714a-4304-bd33-5ce171b6d3a1
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
-
 
 # Den sammansatta arbetsytan{#the-compositing-canvas}
 
