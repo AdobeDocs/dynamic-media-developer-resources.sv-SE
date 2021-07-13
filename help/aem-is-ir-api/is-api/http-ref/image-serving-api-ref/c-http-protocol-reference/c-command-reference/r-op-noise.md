@@ -3,15 +3,14 @@ description: Lägg till brus. Lägger till slumpmässigt brus i förgrundsbilden
 solution: Experience Manager
 title: op_noise
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: eeadd3ab-80ff-4f9b-b5b7-4f3da6feebde
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '96'
 ht-degree: 0%
 
 ---
-
 
 # op_noise{#op-noise}
 
