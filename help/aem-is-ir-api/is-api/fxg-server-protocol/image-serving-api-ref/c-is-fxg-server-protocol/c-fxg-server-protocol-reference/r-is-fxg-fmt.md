@@ -3,15 +3,14 @@ description: Svarsbildens format.
 solution: Experience Manager
 title: fmt
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: e179fc51-0461-4000-99eb-4390c35d5606
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
-
 
 # fmt{#fmt}
 
