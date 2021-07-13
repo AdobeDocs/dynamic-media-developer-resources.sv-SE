@@ -3,15 +3,14 @@ description: Image Serving control script. Skriptet används för att starta, st
 solution: Experience Manager
 title: ImageServing
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 252e12d9-703e-4fbb-a156-8dcdc3bc4f2e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
-
 
 # ImageServing{#imageserving}
 
@@ -53,4 +52,3 @@ Image Serving control script. Skriptet används för att starta, stoppa eller st
   </tr> 
  </tbody> 
 </table>
-
