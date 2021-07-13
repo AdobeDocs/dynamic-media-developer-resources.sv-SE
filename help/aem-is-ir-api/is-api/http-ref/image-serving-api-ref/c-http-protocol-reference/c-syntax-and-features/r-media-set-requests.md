@@ -3,15 +3,14 @@ description: Image Serving är en mekanism för att hämta ett hierarkiskt texts
 solution: Experience Manager
 title: Medieuppsättningsbegäranden
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 71efed33-6248-4d23-ab4e-2caec3449171
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '967'
 ht-degree: 0%
 
 ---
-
 
 # Medieuppsättningsbegäranden{#media-set-requests}
 
@@ -99,7 +98,7 @@ När en `req=set`-begäran tas emot bestäms vilken typ av svar som ska generera
 
 I samtliga fall kommer det resulterande xml-svaret att överensstämma med det angivna XML-dokumentet med den angivna rotnoden som motsvarar den identifierade typen.
 
-## Identifiering av intern typ {#section-8f46490e467247e69ce284704def06f3}
+## Identifiering av intern set-typ {#section-8f46490e467247e69ce284704def06f3}
 
 När den yttre uppsättningen identifieras som en typ av medieuppsättning innehåller svaret en uppsättning medieuppsättningsobjekt som motsvarar varje medieuppsättningspost i `catalog::ImageSet`. Om den valfria typparametern anges för en viss medieuppsättningspost mappas den till en utdatatyp enligt följande tabell:
 
@@ -129,7 +128,7 @@ Det returnerade xml-svaret uppfyller följande specifikation:
 
 Modifieraren `labelkey=` används tillsammans med fältet `catalog::UserData`för att generera etiketter för bilder och färgrutor. Fältet `catalog:UserData` tolkas som en uppsättning nyckel/värde-par och etikettnyckelindexen i den här uppsättningen för att hämta värdet för den angivna nyckeln. Värdet returneras sedan i attributet *`l`* för *`s`* och *`i`*.
 
-## Tvingande begränsningar {#section-b9f042873bee45a5ae11b69fd42f2bca}
+## Tvingade begränsningar {#section-b9f042873bee45a5ae11b69fd42f2bca}
 
 För att begränsa svarsstorleken och förhindra självrefererande problem, styrs det maximala kapslingsdjupet av serveregenskapen `PS::fvctx.nestingLimit`. Om gränsen överskrids returneras ett fel.
 
@@ -146,4 +145,3 @@ XML-svar för `req=set`-begäran finns på sidan Egenskaper under rubriken HTML-
 ## Se även {#section-625ec466c948476e800dc0c52a4532d3}
 
 [req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76) ,  [imageset=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-imageset-req.md#reference-c42935490db84830b31e9e649895dee3),  [katalog::ImageSet](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md),  [Image Catalog Reference](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)
-
