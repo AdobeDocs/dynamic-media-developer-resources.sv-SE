@@ -3,15 +3,14 @@ description: Färgkvantifiering. Anger färgkvantifieringsattribut för GIF-utda
 solution: Experience Manager
 title: kvantifiera
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 67247016-a038-4ed4-90ed-751eaf9c4881
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
-
 
 # kvantifiera{#quantize}
 
