@@ -3,15 +3,14 @@ description: Image Serving stöder konvertering av färgrymder baserat på färg
 solution: Experience Manager
 title: Färghantering för bildhantering
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,User
+exl-id: 0c9a489c-36e0-4934-b9c5-33414a9ce0b8
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1200'
 ht-degree: 0%
 
 ---
-
 
 # Färghantering för bildhantering{#image-serving-color-management}
 
@@ -21,11 +20,11 @@ Image Serving stöder konvertering av färgrymder baserat på färgrymdsprofiler
 
 Varje bildkatalog (och standardkatalogen) kan definiera en uppsättning ICC-profiler som utgör standardfärgmodellerna för den här katalogen - en indata och en utdataprofil för gråskale-, RGB- och CMYK-data. Se ` [attribute::IccProfileRgb](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilergb.md#reference-3479e7daac54404f84b06b98ca07b9df)`, ` [attribute::IccProfileGray](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilegray.md#reference-13822a1596e440eea0492e86d88dad35)`, ` [attribute::IccProfileCmyk](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilecmyk.md#reference-db89f9dac33e447cadb359ec1ba27ee0)`, ` [attribute::IccProfileSrcRgb](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrcrgb.md#reference-b8e576d075b44f5c94d95bfb5aa22ae2)`, ` [attribute::IccProfileSrcGray](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrcgray.md#reference-a717831da24d43f680d01393660f12f9)` och ` [attribute::IccProfileSrcCmyk](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrccmyk.md#reference-b57196dfe5db41fe88bd0828ed4ec728)`.
 
-## Indatafärgrymd {#section-9f08e2c1b6aa4fe4815be174972c1944}
+## Färgrymd för indata {#section-9f08e2c1b6aa4fe4815be174972c1944}
 
 Källbilder kan bädda in ICC-profiler för att definiera indatafärgrymden. Om ingen profil är inbäddad i en källbild används `attribute::IccProfileSrc*` för den tillämpliga bildkatalogen som motsvarar källbildens pixeltyp. Om attributet inte är definierat i bildkatalogen används `attribute::IccProfile*`. Om det katalogattributet inte heller är definierat färghanteras inte bilden och endast naiva omformningar används.
 
-## Utdatafärgrymd {#section-b517bca622b64dcfa7defba6035d0716}
+## Färgrymd för utdata {#section-b517bca622b64dcfa7defba6035d0716}
 
 Färgrymden för det slutliga bildresultatet av en begäran definieras med kommandot `icc=`. Om `icc=` inte anges används standardfärgrymden för utdata (från begärans huvudkatalog) som motsvarar pixeltypen för utdatabilden som utdatafärgrymd. Om ingen utdataprofil har definierats i huvud- eller standardkatalogen och om baslagret är en bild med en inbäddad profil som matchar utdatapixeltypen, används den profilen för utdatafärgrymden. I annat fall förblir utdatafärgrymden odefinierad - endast naiva färgkonverteringar används vid konvertering mellan pixeltyper och ingen färgprofil kan bäddas in i utdatabilden.
 
@@ -69,7 +68,7 @@ Alla ICC-profiler som refereras i `catalog::IccProfile` och i `attribute::IccPro
 
 För närvarande stöds endast färgrymderna CMYK, RGB och gråskala.
 
-## ICC-färgprofiler {#section-98b4a7d9f9814e8ba27d6dcf3dcf850c} ingår
+## ICC-färgprofiler som ingår {#section-98b4a7d9f9814e8ba27d6dcf3dcf850c}
 
 Bildredigering innehåller de flesta vanliga Adobe ICC-profiler i standardbildkatalogen. Dessa profiler kan nås antingen med deras gemensamma namn (t.ex. som i Photoshop) eller med en något kortare identifierare. I följande tabell visas alla vanliga ICC-profiler. Om du refererar till en profil i kommandot `icc=` med dess gemensamma namn måste blanksteg kodas som `%20`.
 
