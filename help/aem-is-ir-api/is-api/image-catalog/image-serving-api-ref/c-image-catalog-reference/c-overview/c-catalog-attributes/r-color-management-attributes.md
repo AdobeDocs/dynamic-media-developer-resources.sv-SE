@@ -3,15 +3,14 @@ description: Katalogattributfiler känner igen dessa färghanteringsattribut.
 solution: Experience Manager
 title: Färghanteringsattribut
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: ded6bfe7-3e39-4e45-83f0-21e9bf92895f
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
-
 
 # Färghanteringsattribut{#color-management-attributes}
 
@@ -55,4 +54,3 @@ Katalogattributfiler känner igen dessa färghanteringsattribut.
   <td class="stentry"> <p>Aktivera/inaktivera färgkonverteringsgitter. </p></td> 
  </tr> 
 </table>
-
