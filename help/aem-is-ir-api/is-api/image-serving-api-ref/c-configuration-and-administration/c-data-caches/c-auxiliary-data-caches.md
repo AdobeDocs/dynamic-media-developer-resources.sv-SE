@@ -3,15 +3,14 @@ description: Mellanliggande bilddata som skapas av kapslade/inbäddade bildserin
 solution: Experience Manager
 title: Hjälpdatacache
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Administrator,User
+exl-id: 39906c86-fd9e-4961-a8ba-2ac44c4214a2
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '129'
 ht-degree: 0%
 
 ---
-
 
 # Hjälpdatacache{#auxiliary-data-caches}
 
