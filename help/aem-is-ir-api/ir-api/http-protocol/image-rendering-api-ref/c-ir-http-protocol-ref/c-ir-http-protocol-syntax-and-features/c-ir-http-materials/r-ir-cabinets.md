@@ -3,15 +3,14 @@ description: Kabinettmaterial anger en kabinettformatfil (.vnc-filtillägg), en 
 solution: Experience Manager
 title: Skåp
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: cdb3ed5e-c396-483d-aea0-2b3f24efe56e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
-
 
 # Skåp{#cabinets}
 
@@ -62,4 +61,3 @@ Kabinettmaterial kan bara användas på kabinettobjekt.
   </tr> 
  </tbody> 
 </table>
-
