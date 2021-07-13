@@ -3,15 +3,14 @@ description: Du måste konfigurera och konfigurera IR 3.x-kompatibilitetsmodulen
 solution: Experience Manager
 title: Konfigurera kompatibilitetsmodulen IR 3.x
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+role: Developer,User
+exl-id: 44fbc6be-7681-402a-936a-0511e138365c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '108'
 ht-degree: 0%
 
 ---
-
 
 # Konfigurera kompatibilitetsmodulen IR 3.x{#setup-and-configure-ir-x-compatibility-module}
 
