@@ -3,15 +3,14 @@ description: textPs= stöder ett antal olika användningsmodeller som beskrivs i
 solution: Experience Manager
 title: Textlager
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 6793eb7d-6c10-4136-b6d4-186a698a8e52
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '891'
 ht-degree: 0%
 
 ---
-
 
 # Textlager{#text-layers}
 
@@ -50,7 +49,7 @@ Om `size=` anges förutom `textPs=` (utan `textPath=` och `textFlowPath=`) begr�
 
 Alla RTF-kommandon används som förväntat.
 
-## Textruta för variabel höjd {#section-e1233d1c9f8e43218667361dc0c4fd06}
+## Textruta med variabel höjd {#section-e1233d1c9f8e43218667361dc0c4fd06}
 
 Om du anger `size=` med 0 höjd kan textrutans storlek ändras lodrätt så att allt innehåll får plats. Lagerbredden definieras av bredden `size=` och lagerhöjden av höjden på den faktiska återgivna texten. Lagret placeras som vanligt. Teckentecken nära textrutans vänstra och högra kant kan återges delvis utanför textrutan.
 
@@ -60,7 +59,7 @@ Följande RTF-kommandon ignoreras:
 
 `\vertal*`
 
-## Självstorleksanpassad text i sökvägen {#section-d26685e7085847efaaeba64b9cb5ed9f}
+## Självstorleksändring av text i bana {#section-d26685e7085847efaaeba64b9cb5ed9f}
 
 `textFlowPath=` tillsammans med  `textPs=` kan användas för att definiera ett eller flera områden i vilka text ska flödas. `textFlowXPath=` kan anges som ett alternativ för att utesluta text från att flöda in i ett eller flera områden. Om `size=` inte anges är det resulterande textlagret självstorleksförändrande och lagerstorleken bestäms av begränsningsramen för texten som återges.
 
@@ -72,7 +71,7 @@ Följande RTF-kommandon ignoreras:
 
 `\marg*`
 
-## Förinställd text i sökvägen {#section-ed492a8a54414cd4bde360500cec6968}
+## Förinställd text i bana {#section-ed492a8a54414cd4bde360500cec6968}
 
 Om `size=` anges tillsammans med `textFlowPath=` är lagerstorleken förbestämd. (0,0) av pixelkoordinatmodellen som används för att definiera banan/banorna finns i det övre vänstra hörnet av lagerrektangeln.
 
@@ -86,7 +85,7 @@ Följande RTF-kommandon ignoreras för `textFlowPath=`:
 
 `\marg*`
 
-## Självstorleksanpassad text på sökvägen {#section-7ce6b9b26b354ba381e4378703154062}
+## Textstorlek på bana {#section-7ce6b9b26b354ba381e4378703154062}
 
 `textPath=` definierar en eller flera banor på vilka text som anges med  `textPs=` ska återges. När `size=` inte anges är textlagret självstorleksförändrande. Lagerstorleken bestäms av begränsningsramen för den faktiska texten som återges.
 
