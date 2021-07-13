@@ -3,15 +3,14 @@ description: 'Utöver det utrymme som krävs för att installera programmet har 
 solution: Experience Manager
 title: Krav och rekommendationer för diskutrymme
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,User
+exl-id: 35486f3f-f0aa-4b69-a1d2-4bc6b5e41c43
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
-
 
 # Krav och rekommendationer för diskutrymme{#disk-space-requirements-and-recommendations}
 
@@ -54,7 +53,7 @@ Utöver det utrymme som krävs för att installera programmet har Image Serving 
  </tbody> 
 </table>
 
-## Krav för diskutrymme för källbilder {#section-317da75099ad480d9a461c7e706d4f1c}
+## Krav på diskutrymme för källbilder {#section-317da75099ad480d9a461c7e706d4f1c}
 
 Du bör konvertera alla källbilder till PTIFF-format (pyramid TIFF) med kommandoradsverktyget Bildkonverterare (IC). Den här konverteringen ger optimala prestanda vid körning av Image Serving för alla program. Även om Image Server kan bearbeta alla källfilsformat som godkänts av IC har Dynamic Media inte stöd för sådana användningsområden.
 
