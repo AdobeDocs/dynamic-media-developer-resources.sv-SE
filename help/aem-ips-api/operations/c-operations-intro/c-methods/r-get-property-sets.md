@@ -3,15 +3,14 @@ description: Hämtar egenskapsuppsättningar som är associerade med ett typhand
 solution: Experience Manager
 title: getPropertySets
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: da6923c3-9b86-4595-8205-645fb10e03b0
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
-
 
 # getPropertySets{#getpropertysets}
 
@@ -86,4 +85,3 @@ Detta kodexempel returnerar egenskapsuppsättningar för sin primära ägare, so
    </setArray>
 </getPropertySetsReturn>
 ```
-
