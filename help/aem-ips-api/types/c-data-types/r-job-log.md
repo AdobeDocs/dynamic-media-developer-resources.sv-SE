@@ -3,15 +3,14 @@ description: Jobbloggen när jobbet har körts.
 solution: Experience Manager
 title: JobLog
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 80ae6669-6fe7-45a6-9a1d-f8544dd4f878
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
-
 
 # JobLog{#joblog}
 
@@ -45,4 +44,3 @@ Syntax
 | `*`fatalError`*` | `xsd:boolean` | Anger om jobbet genererade ett allvarligt fel. |
 | `*`detailTotalRows`*` | `xsd:int` | Det totala antalet rader som matchar frågan, som kan vara större än storleken på `detailArray` på grund av sidstorleksbegränsningar. |
 | `*`detailArray`*` | `types:JobLogDetailArray` | Arrayen med information om det loggade jobbet. |
-
