@@ -3,9 +3,9 @@ description: Plattformsservern cachelagrar alla svarsbilder och vissa textdata t
 solution: Experience Manager
 title: Cache för svarsdata
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,User
+role: Developer,Admin,User
 exl-id: f09e596d-2b85-4950-8515-d54a2c2e86ae
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%
@@ -26,6 +26,6 @@ Förutom `PS::cache.maxSize` hanteras även svarscachen genom att det maximala a
 
 >[!NOTE]
 >
->Plattformsservern underhåller ett cacheindex i minnet. Indexets storlek är 32 byte gånger värdet `PS::cache.maxEntries`. Du kan behöva öka stackstorleken för Platform Server för att få plats med större cacheminnen.
+>Plattformsservern underhåller ett cacheindex i minnet. Indexets storlek är 32 byte gånger värdet `PS::cache.maxEntries`. Du kan behöva öka stackstorleken för Platform Server för att kunna hantera större cacheminnen.
 
 Systemet använder en cacheindexfil som sparas på disken när servern stängs av på ett ordnat sätt. Om det inträffar oväntade händelser, t.ex. ett strömavbrott, kanske filen inte sparas. Det kan dessutom ta flera minuter för plattformsservern att bli klar.
