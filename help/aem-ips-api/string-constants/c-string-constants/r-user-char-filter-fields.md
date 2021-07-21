@@ -3,17 +3,16 @@ description: Används av getUsersParam och getUserCharsParam/charField.
 solution: Experience Manager
 title: Fält för användarteckenfilter
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 40ba507b-6859-4b37-b801-c6f21d12e98e
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '29'
+source-wordcount: '27'
 ht-degree: 0%
 
 ---
 
-
-# Användarfält för teckenfilter{#user-char-filter-fields}
+# Fält för användarteckenfilter{#user-char-filter-fields}
 
 Används av getUsersParam och getUserCharsParam/charField.
 
@@ -27,4 +26,3 @@ Syntax
 * [!DNL `Email`]
 * [!DNL `StartsWith`]
 * [!DNL `EndsWith`]
-
