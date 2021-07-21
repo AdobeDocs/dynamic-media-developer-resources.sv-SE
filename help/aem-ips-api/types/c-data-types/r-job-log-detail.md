@@ -3,15 +3,14 @@ description: Jobblogginformation.
 solution: Experience Manager
 title: JobLogDetail
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: fe41a48a-4671-4179-a128-aadc7bc0683b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '66'
 ht-degree: 0%
 
 ---
-
 
 # JobLogDetail{#joblogdetail}
 
@@ -29,4 +28,3 @@ Syntax
 | `*`assetType`*` | `xsd:string` | Val av resurstyp. |
 | `*`assetHandle`*` | `xsd:string` | Resurshandtag som refereras i jobbloggen. |
 | `*`auxArray`*` | `types:JobLogDetailAuxArray` | Innehåller ytterligare detaljerad jobblogginformation utöver de fem jobbloggtyperna som beskrivs ovan. |
-
