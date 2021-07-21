@@ -2,18 +2,17 @@
 description: Beskriver värden som används av olika indataparametrar. Mer information finns i listan i den här artikeln.
 solution: Experience Manager
 title: Tillgångstyper
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Resurshantering
+role: Developer,Admin
+exl-id: efbdf214-403e-4dc8-90c1-97e6fd113265
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '45'
 ht-degree: 0%
 
 ---
 
-
-# Resurstyper{#asset-types}
+# Tillgångstyper{#asset-types}
 
 Beskriver värden som används av olika indataparametrar. Mer information finns i listan i den här artikeln.
 
@@ -77,4 +76,3 @@ Syntax
 * [!DNL `Xsl`]
 * [!DNL `Zip Rtf`]
 * [!DNL `ZoomTarget`]
-
