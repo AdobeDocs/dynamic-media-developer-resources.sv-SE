@@ -3,15 +3,14 @@ description: Används av searchAssetsParam/conditionMatchMode, searchAssetsParam
 solution: Experience Manager
 title: Sök efter matchningslägen
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 67f3b0a9-2e4b-428d-bceb-28a0599da5ce
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '33'
+source-wordcount: '31'
 ht-degree: 0%
 
 ---
-
 
 # Sök efter matchningslägen{#search-match-modes}
 
@@ -23,4 +22,3 @@ Syntax
 
 * [!DNL `MatchAll`]
 * [!DNL `MatchAny`]
-
