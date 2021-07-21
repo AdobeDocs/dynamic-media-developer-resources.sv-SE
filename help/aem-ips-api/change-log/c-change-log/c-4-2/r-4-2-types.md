@@ -3,15 +3,14 @@ description: Beskriver nya och ändrade datatyper för IPS API version 4.2.
 solution: Experience Manager
 title: Datatyper Nytt och ändrat
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,Admin
+exl-id: 3917e778-bd28-4047-b9f8-3063f136e492
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '56'
 ht-degree: 0%
 
 ---
-
 
 # Datatyper: Nytt och ändrat{#data-types-new-and-modified}
 
@@ -64,4 +63,3 @@ Tillagda parametrar:
 
 * `preservePublishState`
 * `preserveCrop`
-
