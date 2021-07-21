@@ -3,15 +3,14 @@ description: Anger det zoommål som är associerat med en resursbild. Befintliga
 solution: Experience Manager
 title: setZoomTargets
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 1b4ac729-00cf-4ea2-9098-60b4af3c7e6d
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
-
 
 # setZoomTargets{#setzoomtargets}
 
@@ -83,4 +82,3 @@ Detta kodexempel definierar en array med zoommål efter namn, position (x- och y
    </zoomTargetHandleArray>
 </setZoomTargetsReturn>
 ```
-
