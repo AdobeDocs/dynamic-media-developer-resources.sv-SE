@@ -3,15 +3,14 @@ description: Hämtar alla taggordlistevärden som definierats för ett eller fle
 solution: Experience Manager
 title: getTagFieldValues
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 12836783-4f9d-41d3-9b42-6e25238d7ed5
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
-
 
 # getTagFieldValues{#gettagfieldvalues}
 
@@ -83,4 +82,3 @@ Syntax
    </fieldArray>
 </getTagFieldValuesReturn>
 ```
-
