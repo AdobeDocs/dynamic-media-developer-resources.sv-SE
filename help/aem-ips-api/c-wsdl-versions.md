@@ -3,15 +3,14 @@ description: IPS-webbtjänsten stöds av en uppsättning WSDL-dokument (Web Serv
 solution: Experience Manager
 title: WSDL-versioner för IPS-webbtjänst
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,Admin
+exl-id: d7a6079e-286e-4e62-b2ff-551ef4a5815c
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
-
 
 # WSDL-versioner för IPS-webbtjänst{#ips-web-service-wsdl-versions}
 
@@ -66,7 +65,7 @@ services/IpsApiService
  </tbody> 
 </table>
 
-## WSDL:er {#section-ebbba69880f94e9c823f1147974eb404} som stöds
+## WSDL:er som stöds {#section-ebbba69880f94e9c823f1147974eb404}
 
 Kom ihåg att du kanske måste ändra koden om du vill använda funktionerna i den senaste versionen av IPS API. IPS-API:t stöder WSDL:er för följande versioner:
 
@@ -329,4 +328,3 @@ Connection: close
    </soapenv:Body> 
 </soapenv:Envelope>
 ```
-
