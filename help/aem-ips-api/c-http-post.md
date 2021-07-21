@@ -2,13 +2,12 @@
 description: När du överför resurser till Dynamic Media Classic måste du ange en eller flera HTTP-POSTER som ställer in ett jobb för att koordinera all loggaktivitet som är kopplad till de överförda filerna.
 solution: Experience Manager
 title: Överföra resurser via HTTP POST till UploadFile-servern
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
+feature: Dynamic Media Classic,SDK/API,Resurshantering
+role: Developer,Admin
 exl-id: e40293be-d00f-44c1-8ae7-521ce3312ca8
-translation-type: tm+mt
-source-git-commit: e7c747c44d27ed1769ab872d962a814d80c0b345
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '734'
 ht-degree: 0%
 
 ---
@@ -56,7 +55,7 @@ https://<server>/scene7/UploadFile
  </tbody> 
 </table>
 
-## Arbetsflöde för överföringsjobbet {#section-873625b9512f477c992f5cdd77267094}
+## Överföringsjobbets arbetsflöde {#section-873625b9512f477c992f5cdd77267094}
 
 Överföringsjobbet består av en eller flera HTTP POST som använder en vanlig `jobHandle` för att korrelera bearbetningen till samma jobb. Varje begäran är `multipart/form-data`-kodad och består av följande formulärdelar:
 
@@ -109,7 +108,7 @@ Det `jobHandle` som returneras skickas i parametern `uploadPostParams`/ `jobHand
 
 Om det uppstår ett fel när POSTEN bearbetas består svarstexten av en av API-feltyperna som beskrivs i [Felmeddelanden](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b).
 
-## Exempel på begäran om POST {#section-810fe32abdb9426ba0fea488dffadd1e}
+## Exempelbegäran om POST {#section-810fe32abdb9426ba0fea488dffadd1e}
 
 ```
 POST /scene7/UploadFile HTTP/1.1 
@@ -179,7 +178,7 @@ Content-Transfer-Encoding: binary
 --O9-ba7tieRtqA4QRSaVk-eDq6658SPrYfvUcJ--
 ```
 
-## Exempel på svar från POSTEN - lyckades {#section-0d515ba14c454ed0b5196ac8d1bb156e}
+## Exempel på svar från POSTEN - lyckad {#section-0d515ba14c454ed0b5196ac8d1bb156e}
 
 ```
 HTTP/1.1 200 OK 
