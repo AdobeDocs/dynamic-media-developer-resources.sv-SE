@@ -3,15 +3,14 @@ description: Ett metadatafält som returneras av searchAssets.
 solution: Experience Manager
 title: Metadata
 feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 62e3e215-31ea-49fd-937e-d136fdf84aff
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '63'
 ht-degree: 1%
 
 ---
-
 
 # Metadata{#metadata}
 
@@ -29,4 +28,3 @@ Syntax
 | `*`longVal`*` | `xsd:long` | Långt metadatavärde (endast för fält av typen int). |
 | `*`doubleVal`*` | `xsd:double` | Dubbelt metadatavärde (endast för fält med flyttal). |
 | `*`dateVal`*` | `xsd:dateTime` | Datummetadatavärde (endast för datumtypsfält). |
-
