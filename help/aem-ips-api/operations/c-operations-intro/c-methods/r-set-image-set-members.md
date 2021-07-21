@@ -2,16 +2,15 @@
 description: Anger listan med resurser som är associerade med en bilduppsättning.
 solution: Experience Manager
 title: setImageSetMembers
-feature: Dynamic Media Classic,SDK/API,Image Sets
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Bilduppsättningar
+role: Developer,Admin
+exl-id: c30df5fe-e355-45d4-8c06-e396caca0d58
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
-
 
 # setImageSetMembers{#setimagesetmembers}
 
