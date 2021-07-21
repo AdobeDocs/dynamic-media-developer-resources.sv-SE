@@ -2,16 +2,15 @@
 description: Tilldela eller uppdatera resurser i ett projekt.
 solution: Experience Manager
 title: setProjectAssets
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Resurshantering
+role: Developer,Admin
+exl-id: b6e6e9bd-5ee2-4750-9182-49e7a3e3486c
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
-
 
 # setProjectAssets{#setprojectassets}
 
@@ -69,4 +68,3 @@ Det här kodexemplet tilldelar en resurs till ett projekt. Begäran returnerar e
    <errorCount>0</errorCount>
 </setProjectAssetsReturn>
 ```
-
