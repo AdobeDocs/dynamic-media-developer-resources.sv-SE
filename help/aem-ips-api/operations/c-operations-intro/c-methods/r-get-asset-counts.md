@@ -2,16 +2,15 @@
 description: Hämtar tillgångarna och antalet tillgångar som är associerade med ett visst företag.
 solution: Experience Manager
 title: getAssetCount
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Resurshantering
+role: Developer,Admin
+exl-id: 21cb8023-d6fe-416a-b16f-636df8a37958
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '148'
 ht-degree: 0%
 
 ---
-
 
 # getAssetCount{#getassetcounts}
 
@@ -74,4 +73,3 @@ I det här kodexemplet används företagets referens som ett fält i `getAssetCo
    </countArray>
 </getAssetCountsReturn>
 ```
-
