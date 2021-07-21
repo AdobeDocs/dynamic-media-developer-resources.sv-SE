@@ -3,15 +3,14 @@ description: Skapar ett nytt publiceringsformat för en vinjett.
 solution: Experience Manager
 title: createVignettePublishFormat
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: d58e1290-8a79-4129-99ce-776b919dea13
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
-
 
 # createVignettePublishFormat{#createvignettepublishformat}
 
@@ -153,4 +152,3 @@ Den här koden skapar ett format för vinjettering. Begäran om att skapa anger 
    <vignetteFormatHandle>v|21|282</vignetteFormatHandle>
 </createVignettePublishFormatReturn>
 ```
-
