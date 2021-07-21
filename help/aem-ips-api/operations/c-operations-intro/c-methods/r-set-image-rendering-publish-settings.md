@@ -3,15 +3,14 @@ description: Endast för Scene 7-utvecklare. Mer information finns i avsnittet R
 solution: Experience Manager
 title: setImageRenderingPublishSettings
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 7b0fe5d2-2779-417f-a5fe-577def2e0158
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '60'
 ht-degree: 0%
 
 ---
-
 
 # setImageRenderingPublishSettings{#setimagerenderingpublishsettings}
 
@@ -28,4 +27,3 @@ Syntax
 | `*`companyHandle`*` | `xsd:string` | Ja | Företagshandtag. |
 | `*`publishSettingsArray`*` | `types:ConfigSettingArray` | Ja | Endast för Scene 7-utvecklare. |
 | `*`contextHandle`*` | `xsd:string` | Nej | Hantera publiceringskontexten. |
-
