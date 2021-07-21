@@ -3,15 +3,14 @@ description: Tar bort ett bildformat. Hämta bildformatshandtaget från saveImag
 solution: Experience Manager
 title: deleteImageFormat
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: bd717c08-6da4-47f1-8614-e4ba79d8176c
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
-
 
 # deleteImageFormat{#deleteimageformat}
 
