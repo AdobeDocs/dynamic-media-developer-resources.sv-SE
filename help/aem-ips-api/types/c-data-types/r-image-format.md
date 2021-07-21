@@ -3,15 +3,14 @@ description: Ostrukturerad namngiven uppsättning bildutdatainställningar.
 solution: Experience Manager
 title: ImageFormat
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 570ada53-17d0-4c8a-8843-ace29de92bf3
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '46'
 ht-degree: 2%
 
 ---
-
 
 # ImageFormat{#imageformat}
 
@@ -26,4 +25,3 @@ Inte en resurstyp.
 | `*`imageFormatHandle`*` | `xsd:string` | Bildformatshandtag. |
 | `*`name`*` | `xsd:string` | Bildformatsnamn. |
 | `*`urlModifier`*` | `xsd:string` | URL för bildserver som representerar bildformatet. |
-
