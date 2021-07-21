@@ -3,15 +3,14 @@ description: Jobbtyp som tillåter auktoriserad export av tidigare överförda f
 solution: Experience Manager
 title: ExportJob
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: f0266b9f-c6e0-4843-b002-0bc068d43424
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '211'
 ht-degree: 1%
 
 ---
-
 
 # ExportJob{#exportjob}
 
@@ -89,4 +88,3 @@ is_modifer = &fmt=png
 macro=$test$ 
 output_file = fileToExport.tiff
 ```
-
