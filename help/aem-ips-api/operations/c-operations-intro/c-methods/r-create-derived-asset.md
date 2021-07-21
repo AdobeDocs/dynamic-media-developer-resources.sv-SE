@@ -2,16 +2,15 @@
 description: Skapar en ny resurs som härletts från en befintlig primär källbildresurs.
 solution: Experience Manager
 title: createDerivedAsset
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,SDK/API,Resurshantering
+role: Developer,Admin
+exl-id: a3b20a8a-ed0d-40be-9a8c-41ba09b1d724
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
-
 
 # createDerivedAsset{#createderivedasset}
 
@@ -79,4 +78,3 @@ Exempelkoden skapar en härledd resurs med en justerad vy och `urlModifier` och 
    <assetHandle>a|944|10|2</assetHandle>
 </createDerivedAssetReturn>
 ```
-
