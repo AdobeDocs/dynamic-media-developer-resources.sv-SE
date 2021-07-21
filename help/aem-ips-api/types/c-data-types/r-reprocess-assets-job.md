@@ -2,18 +2,17 @@
 description: Jobbtyp som tillåter ombearbetning av tidigare överförda primära filer, inklusive återgivning av PDF-filer och omoptimering av bilder.
 solution: Experience Manager
 title: ÅterbearbetaResurserJobb
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Resurshantering
+role: Developer,Admin
+exl-id: b6078246-54e1-4119-b4f8-ba6a28577cff
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
 
-
-# ReprocessAssetsJob{#reprocessassetsjob}
+# ÅterbearbetaResurserJobb{#reprocessassetsjob}
 
 Jobbtyp som tillåter ombearbetning av tidigare överförda primära filer, inklusive återgivning av PDF-filer och omoptimering av bilder.
 
@@ -171,4 +170,3 @@ Du kan välja `*PublishJob`:
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`
 * `postVideoPublishJob`
-
