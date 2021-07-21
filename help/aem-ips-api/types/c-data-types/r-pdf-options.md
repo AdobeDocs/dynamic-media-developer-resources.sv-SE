@@ -3,15 +3,14 @@ description: Alternativ för PDF-filer.
 solution: Experience Manager
 title: PDFOptions
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 140c9261-e590-4889-9be4-29afd19ffa86
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '73'
 ht-degree: 0%
 
 ---
-
 
 # PDFOptions{#pdfoptions}
 
@@ -29,4 +28,3 @@ Syntax
 | `*`pdfCatalog`*` | `xsd:boolean` | Om en PDF-fil med flera sidor ska kombineras i en e-katalog efter återgivningen (standardvärdet är true). |
 | `*`extractSearchWords`*` | `xsd:boolean` | Om sökord ska extraheras från PDF-filen. |
 | `*`extractLinks`*` | `xsd:boolean` | Om PDF-länkar ska extraheras till bildscheman som tilldelats de rastrerade sidorna i IPS. |
-
