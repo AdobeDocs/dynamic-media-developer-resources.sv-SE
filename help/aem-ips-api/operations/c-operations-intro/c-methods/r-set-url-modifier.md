@@ -3,15 +3,14 @@ description: Ställer in kommandona för Image Serving eller Image Rendering fö
 solution: Experience Manager
 title: setUrlModifier
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 9e96ffc8-5a38-46b8-9ba8-956c86b32c7a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
-
 
 # setUrlModifier{#seturlmodifier}
 
