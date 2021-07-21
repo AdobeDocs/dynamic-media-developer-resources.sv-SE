@@ -3,15 +3,14 @@ description: Definierar ett publiceringsmål för ett företag.
 solution: Experience Manager
 title: PublishContext
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: b0656d6c-0f73-4f1d-9e1f-20b07cfe44b9
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '73'
 ht-degree: 0%
 
 ---
-
 
 # PublishContext{#publishcontext}
 
