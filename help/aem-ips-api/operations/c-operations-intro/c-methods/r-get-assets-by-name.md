@@ -2,16 +2,15 @@
 description: Returnerar resurser baserat på en array med resursnamn.
 solution: Experience Manager
 title: getAssetsByName
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Resurshantering
+role: Developer,Admin
+exl-id: e48574e3-9d16-45fb-b4c8-98b5e092e611
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
-
 
 # getAssetsByName{#getassetsbyname}
 
@@ -155,4 +154,3 @@ Detta kodexempel returnerar två bildtypsobjekt.
    </assetArray>
 </getAssetsByNameReturn>
 ```
-
