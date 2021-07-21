@@ -3,15 +3,14 @@ description: Egenskaper för en ACO-resurs.
 solution: Experience Manager
 title: AcoInfo
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: dfec2e24-05a2-4a9c-bd78-9ee35dd8b1b6
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '33'
+source-wordcount: '31'
 ht-degree: 0%
 
 ---
-
 
 # AcoInfo{#acoinfo}
 
@@ -26,4 +25,3 @@ Syntax
 | `originalPath` | `xsd:string` | ACO-filsökväg. |
 | `originalFile` | `xsd:string` | ACO-filnamn. |
 | `fileSize` | `xsd:int` | ACO-filstorlek. |
-
