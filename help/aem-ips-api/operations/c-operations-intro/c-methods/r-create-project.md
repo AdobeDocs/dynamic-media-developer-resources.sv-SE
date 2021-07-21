@@ -3,15 +3,14 @@ description: Skapar ett nytt projekt.
 solution: Experience Manager
 title: createProject
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Admin
+exl-id: dd9c07df-9a8f-4b67-9838-31dd96fd127b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
-
 
 # createProject{#createproject}
 
@@ -61,4 +60,3 @@ Det här kodexemplet skapar ett projekt med namnet `ApiTestProject` i ett föret
    <projectHandle>p|6|ApiTestProject</projectHandle>
 </createProjectReturn>
 ```
-
