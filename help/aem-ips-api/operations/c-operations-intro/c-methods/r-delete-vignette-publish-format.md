@@ -3,15 +3,14 @@ description: Tar bort ett publiceringsformat för vinjettering.
 solution: Experience Manager
 title: deleteVinjettPublishFormat
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: a437cb47-c45c-41a0-8499-53e4c2ae3164
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '80'
 ht-degree: 0%
 
 ---
-
 
 # deleteVinjettPublishFormat{#deletevignettepublishformat}
 
