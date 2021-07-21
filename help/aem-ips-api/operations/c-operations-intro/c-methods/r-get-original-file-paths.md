@@ -3,15 +3,14 @@ description: Hämtar de ursprungliga filsökvägarna för ett företags resurser
 solution: Experience Manager
 title: getOriginalFilePaths
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 81d06a8c-55c1-47d5-adc9-928ab30199c6
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
-
 
 # getOriginalFilePaths{#getoriginalfilepaths}
 
@@ -74,4 +73,3 @@ Detta kodexempel returnerar filsökvägarna för resurser som anges med unika re
    </originalFileArray>
 </getOriginalFilePathsReturn>
 ```
-
