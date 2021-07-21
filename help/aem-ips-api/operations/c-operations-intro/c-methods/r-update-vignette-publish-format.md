@@ -3,15 +3,14 @@ description: Uppdaterar inställningarna för publiceringsformat för vinjetteri
 solution: Experience Manager
 title: updateVinjettPublishFormat
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 7f199ed4-375f-4451-b66a-e50bcd55bf23
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
-
 
 # updateVinjettPublishFormat{#updatevignettepublishformat}
 
@@ -81,4 +80,3 @@ Det här kodexemplet uppdaterar ett vinjetteringsformat och returnerar handtaget
    <vignetteFormatHandle>v|21|283</vignetteFormatHandle>
 </updateVignettePublishFormatReturn>
 ```
-
