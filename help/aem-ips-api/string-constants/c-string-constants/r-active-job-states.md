@@ -3,15 +3,14 @@ description: Används av ActiveJobs/tillstånd.
 solution: Experience Manager
 title: Aktiva jobblägen
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: d4a7ef64-ab7f-4f8f-9c61-2aa67e67b609
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '23'
+source-wordcount: '21'
 ht-degree: 0%
 
 ---
-
 
 # Aktiva jobblägen{#active-job-states}
 
@@ -28,4 +27,3 @@ Syntax
 * [!DNL `Running`]
 * [!DNL `Stopping`]
 * [!DNL `Done`]
-
