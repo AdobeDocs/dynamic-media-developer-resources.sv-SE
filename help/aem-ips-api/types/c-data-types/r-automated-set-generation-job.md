@@ -3,15 +3,14 @@ description: Gruppera filer i uppsättningar med hjälp av en listmatris för re
 solution: Experience Manager
 title: AutomatedSetGenerationJob
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 44df6dfa-1485-40c2-8a14-bbf451b87641
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
-
 
 # AutomatedSetGenerationJob{#automatedsetgenerationjob}
 
@@ -83,4 +82,3 @@ Parametern `emailSetting` innehåller följande alternativ:
   </sequence>
 </complexType>
 ```
-
