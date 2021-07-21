@@ -3,15 +3,14 @@ description: Returnerar en array med alla företag.
 solution: Experience Manager
 title: getAllCompanies
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 0e339ecf-83b5-410c-8683-f3d73bd92339
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
-
 
 # getAllCompanies{#getallcompanies}
 
@@ -70,4 +69,3 @@ Detta kodexempel returnerar alla företag i IPS i en array. Observera att sampli
    </ns1:companyArray>
 </ns1:getAllCompaniesReturn>
 ```
-
