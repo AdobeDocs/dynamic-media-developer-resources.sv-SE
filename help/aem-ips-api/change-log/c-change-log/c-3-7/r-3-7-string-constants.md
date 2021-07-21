@@ -3,15 +3,14 @@ description: Beskriver nya och ändrade strängkonstanter för IPS API version 3
 solution: Experience Manager
 title: Strängkonstanter Nytt och ändrat
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,Admin
+exl-id: c62cb98f-d87f-4273-bc51-30e4845d6540
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '45'
 ht-degree: 0%
 
 ---
-
 
 # Strängkonstanter: Nytt och ändrat{#string-constants-new-and-modified}
 
@@ -40,4 +39,3 @@ Syntax
 **Tillgångstyper**
 
 * `Zip` har lagts till.
-
