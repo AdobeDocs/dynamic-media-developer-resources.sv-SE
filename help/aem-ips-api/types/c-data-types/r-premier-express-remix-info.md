@@ -3,15 +3,14 @@ description: Egenskaper för en PremierExpressRemix-filresurs.
 solution: Experience Manager
 title: PremierExpressRemixInfo
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 725612b5-6e60-4c43-b33a-11c6fccb3c1d
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '35'
+source-wordcount: '33'
 ht-degree: 0%
 
 ---
-
 
 # PremierExpressRemixInfo{#premierexpressremixinfo}
 
@@ -26,4 +25,3 @@ Syntax
 | `*`originalPath`*` | `xsd:string` | Filsökväg. |
 | `*`originalFile`*` | `xsd:string` | Filnamn. |
 | `*`fileSize`*` | `xsd:int` | Filstorlek. |
-
