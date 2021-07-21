@@ -2,16 +2,15 @@
 description: Tömmer resurser från IPS-papperskorgen.
 solution: Experience Manager
 title: emptyAssetsFromTrash
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Resurshantering
+role: Developer,Admin
+exl-id: 36866dc8-6a16-4445-942f-d0ea3c168272
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
-
 
 # emptyAssetsFromTrash{#emptyassetsfromtrash}
 
@@ -73,4 +72,3 @@ I det här kodexemplet används företagets handtag och en tillgångshandtag som
    <errorCount>0</errorCount>
 </emptyAssetsFromTrashReturn>
 ```
-
