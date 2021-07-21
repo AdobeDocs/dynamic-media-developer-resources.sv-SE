@@ -3,15 +3,14 @@ description: Hämtar användardefinierade metadatafält som är associerade med 
 solution: Experience Manager
 title: getMetadataFields
 feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 4d01e2e7-9b68-4dfa-9fe8-08a22cb4bfd5
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
-
 
 # getMetadataFields{#getmetadatafields}
 
@@ -73,4 +72,3 @@ Detta kodexempel returnerar metadataresurser för den angivna typen och företag
    </fieldArray>
 </getMetadataFieldsReturn>
 ```
-
