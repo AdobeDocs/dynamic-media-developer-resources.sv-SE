@@ -2,16 +2,15 @@
 description: Skapar en bilduppsättning.
 solution: Experience Manager
 title: createImageSet
-feature: Dynamic Media Classic,SDK/API,Image Sets
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,SDK/API,Bilduppsättningar
+role: Developer,Admin
+exl-id: 01ccc705-97e4-4e75-a322-e24bb78cb496
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
-
 
 # createImageSet{#createimageset}
 
@@ -72,4 +71,3 @@ I det här kodexemplet skapas en bilduppsättning som anges av företag, mapp, n
    <assetHandle>25741|22|841</assetHandle>
 </createImageSetReturn>
 ```
-
