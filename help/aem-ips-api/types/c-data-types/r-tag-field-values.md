@@ -3,17 +3,16 @@ description: En array med värden för ett taggfält.
 solution: Experience Manager
 title: TaggFieldValues
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 94969a10-1317-4efa-abbe-a374a8d42c30
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '43'
+source-wordcount: '41'
 ht-degree: 0%
 
 ---
 
-
-# TagFieldValues{#tagfieldvalues}
+# TaggFieldValues{#tagfieldvalues}
 
 En array med värden för ett taggfält.
 
@@ -25,4 +24,3 @@ Syntax
 |---|---|---|
 | `*`fieldHandle`*` | `xsd:string` | Fälthandtag för tagg. |
 | `*`valueArray`*` | `xsd:StringArray` | En array med värden för ett taggfält. |
-
