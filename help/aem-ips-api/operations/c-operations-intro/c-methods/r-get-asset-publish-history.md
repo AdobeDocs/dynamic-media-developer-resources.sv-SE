@@ -2,16 +2,15 @@
 description: Returnerar publiceringshistoriken för en resurs.
 solution: Experience Manager
 title: getAssetPublishHistory
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Resurshantering
+role: Developer,Admin
+exl-id: f337e7f9-1af6-4164-b9bd-e697548e2850
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '96'
 ht-degree: 0%
 
 ---
-
 
 # getAssetPublishHistory{#getassetpublishhistory}
 
@@ -66,4 +65,3 @@ Detta kodexempel returnerar publiceringshistoriken för en resurs. En resurs har
    <pubHistoryArray/>
 </getAssetPublishHistoryReturn>
 ```
-
