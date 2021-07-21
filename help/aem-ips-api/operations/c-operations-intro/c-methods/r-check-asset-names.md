@@ -3,15 +3,14 @@ description: Kontrollerar om det finns IPS ID-konflikter genom att jämföra res
 solution: Experience Manager
 title: checkAssetNames
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Admin
+exl-id: 0756c4fc-64ec-4022-a6aa-fcf1542b41b0
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
-
 
 # checkAssetNames{#checkassetnames}
 
@@ -70,4 +69,3 @@ Den här exempelkoden begär de resursnamn som används för ett angivet företa
    </inUseNameArray>
 </checkAssetNamesReturn>
 ```
-
