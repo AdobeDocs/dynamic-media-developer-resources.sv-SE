@@ -3,12 +3,11 @@ description: Beskriver nya och ändrade strängkonstanter för IPS API version 3
 solution: Experience Manager
 title: Strängkonstanter Nytt och ändrat
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 38f28e0f-edda-4786-9627-c0ef49645237
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '61'
 ht-degree: 0%
 
 ---
