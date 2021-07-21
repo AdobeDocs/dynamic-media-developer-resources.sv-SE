@@ -3,17 +3,16 @@ description: Maskera (ursparning) bakgrunden för markerade bilder. På så sät
 solution: Experience Manager
 title: BlockeraBakgrundAlternativ
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: aed8cf2e-5a09-43ff-9420-0d0d54059515
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
 
-
-# KnockoutBackgroundOptions{#knockoutbackgroundoptions}
+# BlockeraBakgrundAlternativ{#knockoutbackgroundoptions}
 
 Maskera (ursparning) bakgrunden för markerade bilder. På så sätt kan du täcka över dem i andra lager med en genomskinlighet utanför objektbilden. En valfri parameter som är inaktiverad som standard.
 
@@ -84,4 +83,3 @@ Typen `KnockoutBackgroundOptions` används av:
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
 * [UploadUrlsJob](../../types/c-data-types/r-upload-urls-job.md#reference-8e9bc895268c4321b233dbeadc990398)
-
