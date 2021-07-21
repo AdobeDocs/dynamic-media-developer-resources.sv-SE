@@ -2,16 +2,15 @@
 description: Returnerar alla metadatafält grupperade efter resurstyp.
 solution: Experience Manager
 title: getAssetMetadataFields
-feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Metadata,Resurshantering
+role: Developer,Admin
+exl-id: 5234d3ea-c333-4e35-91ae-ce3412919fda
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '71'
 ht-degree: 0%
 
 ---
-
 
 # getAssetMetadataFields{#getassetmetadatafields}
 
@@ -68,4 +67,3 @@ Syntax
    </assetFieldsArray>
 <getAssetMetadataFieldsReturn>
 ```
-
