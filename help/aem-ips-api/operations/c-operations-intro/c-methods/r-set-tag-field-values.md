@@ -3,15 +3,14 @@ description: Anger taggordlistevärden för ett befintligt taggfält.
 solution: Experience Manager
 title: setTagFieldValues
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 50f437d6-fec5-4961-884e-fdb75d201ab7
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
-
 
 # setTagFieldValues{#settagfieldvalues}
 
