@@ -3,15 +3,14 @@ description: Skapa skriptlista automatiskt för överföringsjobb. Anta att alla
 solution: Experience Manager
 title: AutoSetCreationOptions
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: e6e969be-0410-4be7-88d6-491d715fd137
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '69'
 ht-degree: 0%
 
 ---
-
 
 # AutoSetCreationOptions{#autosetcreationoptions}
 
@@ -24,4 +23,3 @@ Syntax
 | Namn | Typ | Beskrivning |
 |---|---|---|
 | `*`autoSetsArray`*` | `types:HandleArray` | En matris med [!DNL PropertySet]-handtag som definierar de skript för automatisk set-generering som används vid överföring. |
-
