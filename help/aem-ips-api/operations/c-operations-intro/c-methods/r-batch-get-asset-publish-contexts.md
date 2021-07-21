@@ -2,16 +2,15 @@
 description: Returnerar publiceringskontexterna för resurser som har markerats för publicering.
 solution: Experience Manager
 title: batchGetAssetPublishConTexts
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic,SDK/API,Resurshantering
+role: Developer,Admin
+exl-id: ba1f62a7-2698-4300-b6de-6d07ac764b0c
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
-
 
 # batchGetAssetPublishConTexts{#batchgetassetpublishcontexts}
 
@@ -102,4 +101,3 @@ Syntax
   </assetPublishContextsArray>
 </batchGetAssetPublishContextsReturn>
 ```
-
