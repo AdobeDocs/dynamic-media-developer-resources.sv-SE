@@ -3,15 +3,14 @@ description: Skapar ett användarkonto och lägger till det kontot till ett elle
 solution: Experience Manager
 title: addUser
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,Admin
+exl-id: aed39e73-f528-4c26-8f62-c3d796e9101a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
-
 
 # addUser{#adduser}
 
@@ -74,4 +73,3 @@ IPS API returnerar ett användarhandtagselement som anger den nya användaren.
    <ns1:userHandle>525s|juser@scene7.com</ns1:userHandle>
 </ns1:addUserReturn>
 ```
-
