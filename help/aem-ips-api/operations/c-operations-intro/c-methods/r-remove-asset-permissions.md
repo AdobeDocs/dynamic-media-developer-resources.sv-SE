@@ -2,16 +2,15 @@
 description: Tar bort behörigheter från markerade resurser.
 solution: Experience Manager
 title: removeAssetPermissions
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Resurshantering
+role: Developer,Admin
+exl-id: c47d9853-91b1-45fe-b8ff-aaa1239ca0d1
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
-
 
 # removeAssetPermissions{#removeassetpermissions}
 
