@@ -2,16 +2,15 @@
 description: En array med bilduppsättningsmedlemmar.
 solution: Experience Manager
 title: ImageSetMemberArray
-feature: Dynamic Media Classic,SDK/API,Image Sets
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Bilduppsättningar
+role: Developer,Admin
+exl-id: 364f9a58-2128-4d1c-bdad-1ae2677e8e48
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '35'
+source-wordcount: '33'
 ht-degree: 0%
 
 ---
-
 
 # ImageSetMemberArray{#imagesetmemberarray}
 
@@ -24,4 +23,3 @@ Syntax
 | Namn | Typ | Beskrivning |
 |---|---|---|
 | `*`objekt`*` | `types:ImageSetMember` | Arrayen med bilduppsättningsmedlemmar. |
-
