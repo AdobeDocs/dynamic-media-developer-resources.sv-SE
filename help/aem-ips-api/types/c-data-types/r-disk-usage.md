@@ -3,15 +3,14 @@ description: Diskutrymmesstatistik för en resurs eller mapp.
 solution: Experience Manager
 title: DiskUsage
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: a3c4c1cd-0fcc-4e7a-a4aa-884d0ce2f208
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '56'
 ht-degree: 0%
 
 ---
-
 
 # DiskUsage{#diskusage}
 
@@ -28,4 +27,3 @@ Syntax
 | `*`imageCount`*` | `xsd:int` | Antal lagrade bilder. |
 | `*`discSpaceUsage`*` | `xsd:long` | Total filsida i kB. |
 | `*`lastModified`*` | `xsd:dateTime` | Datum-, tids- och tidszonen som typen `DiskUsage` senast ändrades. |
-
