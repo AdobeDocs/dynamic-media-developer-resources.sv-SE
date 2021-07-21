@@ -3,15 +3,14 @@ description: En MediaPortal-händelse.
 solution: Experience Manager
 title: MPEvent
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 642c82d1-aea1-4430-a599-b526fdbc8091
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '137'
 ht-degree: 10%
 
 ---
-
 
 # MPEvent{#mpevent}
 
@@ -44,4 +43,3 @@ Syntax
 | `*`float2`*` | `xsd:double` | Innehavare av flyttal (valfritt). |
 | `*`float3`*` | `xsd:double` | Innehavare av flyttal (valfritt). |
 | `*`time1`*` | `xsd:dateTime` | Innehavare av datum-/tidsstämpelinformation (valfritt). |
-
