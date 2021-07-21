@@ -3,15 +3,14 @@ description: En valfri typ där du kan välja en viss videobildruta som ska anv�
 solution: Experience Manager
 title: Miniatyrbildsalternativ
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 7d84590d-2227-4d9a-9cb0-0f4b1fcabd8e
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
-
 
 # Miniatyrbildsalternativ{#thumbnailoptions}
 
@@ -47,4 +46,3 @@ Syntax
       </sequence>
 </complexType>
 ```
-
