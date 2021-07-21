@@ -3,17 +3,16 @@ description: Används av getJobLogsParam/sortBy
 solution: Experience Manager
 title: Sorteringsfält för jobbloggar
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: a84452b5-c464-4df6-b34b-1f912f89c7c7
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '25'
+source-wordcount: '23'
 ht-degree: 0%
 
 ---
 
-
-# Sorteringsfält för jobblogg{#job-log-sort-fields}
+# Sorteringsfält för jobbloggar{#job-log-sort-fields}
 
 Används av getJobLogsParam/sortBy
 
@@ -30,4 +29,3 @@ Syntax
 * [!DNL `FileErrorCount`]
 * [!DNL `FileWarningCount`]
 * [!DNL `FileSuccessCount`]
-
