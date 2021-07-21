@@ -3,15 +3,14 @@ description: Returnerar två olika typer av information baserat på de parametra
 solution: Experience Manager
 title: getGenerationInfo
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: fa098e3c-8145-4238-a84c-c545f1c53341
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
-
 
 # getGenerationInfo{#getgenerationinfo}
 
@@ -78,4 +77,3 @@ Det här kodexemplet returnerar information om resurser som genererats från en 
    </generationArray>
 </getGenerationInfoReturn>
 ```
-
