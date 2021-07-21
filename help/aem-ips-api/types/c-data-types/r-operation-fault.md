@@ -3,15 +3,14 @@ description: Detaljmeddelande som svarar på en av de URL:er som anges i CDN-beg
 solution: Experience Manager
 title: OperationFault
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: e1fa7f66-f9d9-45cd-a9b3-d0ff344b137d
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '54'
 ht-degree: 0%
 
 ---
-
 
 # OperationFault{#operationfault}
 
@@ -27,4 +26,3 @@ Detaljmeddelande som svarar på en av de URL:er som anges i CDN-begäran om ogil
 |---|---|---|
 | `*`kod`*` | `xsd:int` | Felkod från CDN |
 | `*`orsak`*` | `xsd:string` | Felmeddelande från CDN |
-
