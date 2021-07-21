@@ -3,17 +3,16 @@ description: Används av IccProfileFieldUpdate/colorSpace och IccProfileFieldUpd
 solution: Experience Manager
 title: Färgrymder
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: f2989963-e0d4-42b8-9807-a63d43728540
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '27'
+source-wordcount: '25'
 ht-degree: 0%
 
 ---
 
-
-# Färgmodeller{#color-spaces}
+# Färgrymder{#color-spaces}
 
 Används av IccProfileFieldUpdate/colorSpace och IccProfileFieldUpdate/pcsType.
 
@@ -45,4 +44,3 @@ Syntax
 * [!DNL `DCLR`]
 * [!DNL `ECLR`]
 * [!DNL `FCLR`]
-
