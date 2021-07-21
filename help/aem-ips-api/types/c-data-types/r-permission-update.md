@@ -3,15 +3,14 @@ description: Beskriver behörighetsändringar.
 solution: Experience Manager
 title: PermissionUpdate
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: a21b9d66-14bd-4983-9eb9-54ab1be1261e
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '41'
+source-wordcount: '39'
 ht-degree: 0%
 
 ---
-
 
 # PermissionUpdate{#permissionupdate}
 
@@ -27,4 +26,3 @@ Syntax
 | `*`permissionType`*` | `xsd:string` | Behörighetstyp. |
 | `*`isAllowed`*` | `xsd:boolean` | Anger om behörighetsuppdateringen är tillåten. |
 | `*`isOverride`*` | `xsd:boolean` | Avgör om behörigheten åsidosätter en annan. |
-
