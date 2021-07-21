@@ -2,18 +2,17 @@
 description: Mappar en resurs till de PublishContexter där en resurs är markerad för publicering.
 solution: Experience Manager
 title: ResursPubliceraKontexter
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Resurshantering
+role: Developer,Admin
+exl-id: fa94e3ce-b210-4d0d-88f1-0b245d5a52b5
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '61'
 ht-degree: 0%
 
 ---
 
-
-# AssetPublishContext{#assetpublishcontexts}
+# ResursPubliceraKontexter{#assetpublishcontexts}
 
 Mappar en resurs till de PublishContexter där en resurs är markerad för publicering.
 
@@ -25,4 +24,3 @@ Syntax
 |---|---|---|
 | `*`assetHandle`*` | `xsd:string` | Hantera tillgången. |
 | `*`publishContextArray`*` | `types:PublishContextArray` | En array med publiceringskontexter där resursen är markerad för publicering. |
-
