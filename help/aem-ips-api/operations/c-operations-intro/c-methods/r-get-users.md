@@ -3,15 +3,14 @@ description: Hämtar en array med användare som anges av hanterare för företa
 solution: Experience Manager
 title: getUsers
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: dfdcbcdd-232f-4c73-9520-c7c958eedf54
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
-
 
 # getUsers{#getusers}
 
@@ -81,4 +80,3 @@ Detta kodexempel returnerar användararrayen för flera valfria parametrar. Anv�
    </userArray>
 </getUsersReturn>
 ```
-
