@@ -2,16 +2,15 @@
 description: Lägger till en eller flera resurser i ett projekt.
 solution: Experience Manager
 title: addProjectAssets
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic,SDK/API,Resurshantering
+role: Developer,Admin
+exl-id: 60aa2846-b41e-4131-b465-82aa832434f7
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
-
 
 # addProjectAssets{#addprojectassets}
 
@@ -73,4 +72,3 @@ I det här exemplet läggs en enskild resurs (som refereras av dess referens) ti
    <errorCount>0</errorCount>
 </addProjectAssetsReturn>
 ```
-
