@@ -3,15 +3,14 @@ description: Publicerar alla bilder, mallar och snurruppsättningar som är mark
 solution: Experience Manager
 title: ServerDirectoryPublishJob
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: b6fe49ef-9db8-495c-9d5e-3230889f21ca
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '60'
 ht-degree: 0%
 
 ---
-
 
 # ServerDirectoryPublishJob{#serverdirectorypublishjob}
 
@@ -25,4 +24,3 @@ Syntax
 |---|---|---|
 | `*`emailSettings`*` | `xsd:string` | Val av e-postinställningar. |
 | `*`httpCompletionUrl`*` | `xsd:string` | URL för att skicka ett meddelande om slutförande. |
-
