@@ -3,17 +3,16 @@ description: Information om aktivitetens förlopp.
 solution: Experience Manager
 title: AktivitetFörlopp
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 35e3be1e-ccc2-460c-98c1-bbefab1df699
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
 
-
-# Aktivitetsförlopp{#taskprogress}
+# AktivitetFörlopp{#taskprogress}
 
 Information om aktivitetens förlopp.
 
@@ -85,4 +84,3 @@ Syntax
   </tr> 
  </tbody> 
 </table>
-
