@@ -3,15 +3,14 @@ description: Egenskaper för ett zoommål.
 solution: Experience Manager
 title: ZoomTarget
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 08125f45-38cb-45bb-bc29-c767f4d0aed9
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '81'
 ht-degree: 3%
 
 ---
-
 
 # ZoomTarget{#zoomtarget}
 
@@ -32,4 +31,3 @@ Syntax
 | `*`userData`*` | `xsd:string` | Användardata som är associerade med zoommålet. |
 | `*`position`*` | `xsd:int` | Tillåter att zoommål som är kopplade till en resurs sorteras baserat på position |
 | `*`lastModified`*` | `xsd:dateTime` | Datum för senaste ändring. |
-
