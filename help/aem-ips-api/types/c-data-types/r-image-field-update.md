@@ -3,15 +3,14 @@ description: Uppdaterar bildfältet som är associerat med en bildresurs.
 solution: Experience Manager
 title: ImageFieldUpdate
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 82bc016b-8a2b-4811-a0b4-1e2a93add3b6
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '66'
 ht-degree: 0%
 
 ---
-
 
 # ImageFieldUpdate{#imagefieldupdate}
 
@@ -28,4 +27,3 @@ Syntax
 | `*`anchorX`*` | `xsd:int` | Bildankarpunkt för X-axel. |
 | `*`anchorY`*` | `xsd:int` | Bildankarpunkt för Y-axel. |
 | `*`userData`*` | `xsd:string` | Värdet för metadatafältet `userData`, som publiceras till den bild som används i katalogfältet för användardata. |
-
