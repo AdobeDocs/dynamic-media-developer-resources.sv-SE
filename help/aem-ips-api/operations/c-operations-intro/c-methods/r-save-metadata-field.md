@@ -3,15 +3,14 @@ description: Skapa eller redigera ett metadatafält. Utelämna den valfria fält
 solution: Experience Manager
 title: saveMetadataField
 feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 56a45324-5027-4375-a790-c965f682e4b9
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
-
 
 # saveMetadataField{#savemetadatafield}
 
@@ -122,4 +121,3 @@ I det här kodexemplet skapas ett nytt metadatafält som begränsas av strängko
    <fieldHandle>47|ALL|Resolution</fieldHandle>
 </saveMetadataFieldReturn>
 ```
-
