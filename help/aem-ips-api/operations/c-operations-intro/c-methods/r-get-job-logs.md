@@ -3,15 +3,14 @@ description: Hämtar angivna jobbloggar för det valda företaget. Du kan sorter
 solution: Experience Manager
 title: getJobLogs
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 6239c3c4-bdbc-4e69-82d4-48a76f080eff
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
-
 
 # getJobLogs{#getjoblogs}
 
@@ -86,4 +85,3 @@ Detta kodexempel returnerar IPS-jobbloggar för ett visst företag. Du kan ocks�
    </jobLogArray>
 </getJobLogsReturn>
 ```
-
