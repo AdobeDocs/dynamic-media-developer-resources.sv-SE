@@ -2,11 +2,10 @@
 description: Ställer in metadata för resurser i gruppläge.
 solution: Experience Manager
 title: batchSetAssetMetadata
-feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
-role: Developer,Administrator
+feature: Dynamic Media Classic,SDK/API,Metadata,Resurshantering
+role: Developer,Admin
 exl-id: 7393fa4f-71fb-48a5-a7f3-91eec82c88c1
-translation-type: tm+mt
-source-git-commit: f464a7adcb8035a5bdebf1a6c9b647ba04535431
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 0%
