@@ -2,16 +2,15 @@
 description: Uppdaterar uppsättningsdefinitionen för en befintlig resursuppsättning.
 solution: Experience Manager
 title: setAssetSetDefinition
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Resurshantering
+role: Developer,Admin
+exl-id: f3fbe13b-e650-4a5d-9c46-a492b11fa13e
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
-
 
 # setAssetSetDefinition{#setassetsetdefinition}
 
