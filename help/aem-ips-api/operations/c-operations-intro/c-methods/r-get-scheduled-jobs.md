@@ -3,15 +3,14 @@ description: Hämtar schemalagda jobb att köras.
 solution: Experience Manager
 title: getScheduledJobs
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 7920637e-b289-410c-ae5c-e67cd7b21aba
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '80'
 ht-degree: 0%
 
 ---
-
 
 # getScheduledJobs{#getscheduledjobs}
 
@@ -78,4 +77,3 @@ Detta kodexempel returnerar alla schemalagda jobb i en jobbarray. Arrayen inneh�
    </jobArray>
 </getScheduledJobsReturn>
 ```
-
