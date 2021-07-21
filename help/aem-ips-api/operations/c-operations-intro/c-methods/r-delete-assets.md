@@ -2,16 +2,15 @@
 description: Tar bort flera resurser.
 solution: Experience Manager
 title: deleteAssets
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Resurshantering
+role: Developer,Admin
+exl-id: 487f83e6-f713-40e9-a442-e1179b30012c
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
-
 
 # deleteAssets{#deleteassets}
 
@@ -127,4 +126,3 @@ Det här kodexemplet skickar en referens till ett företag och en array med till
    <errorCount>0</errorCount>
 </deleteAssetsReturn>
 ```
-
