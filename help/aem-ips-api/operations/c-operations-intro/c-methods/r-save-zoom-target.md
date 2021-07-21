@@ -3,15 +3,14 @@ description: Skapa eller redigera ett zoommål.
 solution: Experience Manager
 title: saveZoomTarget
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 595fd5c8-4e98-4c1a-b396-c8e170aaf454
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '129'
 ht-degree: 1%
 
 ---
-
 
 # saveZoomTarget{#savezoomtarget}
 
@@ -76,4 +75,3 @@ Det här kodexemplet sparar ett zoommål. Svaret returnerar zoommålreferensen.
    <zoomTargetHandle>34194|9|301</zoomTargetHandle>
 </saveZoomTargetReturn>
 ```
-
