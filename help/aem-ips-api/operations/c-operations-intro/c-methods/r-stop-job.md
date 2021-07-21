@@ -3,15 +3,14 @@ description: Stoppar ett pågående jobb.
 solution: Experience Manager
 title: stopJob
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 90e61cf1-11f1-4504-8007-126ba4fe436a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '59'
 ht-degree: 0%
 
 ---
-
 
 # stopJob{#stopjob}
 
