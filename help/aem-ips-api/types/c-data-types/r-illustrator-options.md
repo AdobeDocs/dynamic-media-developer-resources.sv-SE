@@ -3,15 +3,14 @@ description: Alternativ för en Adobe Illustrator-fil.
 solution: Experience Manager
 title: IllustratorOptions
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: f6c06fe3-5dfa-4885-9083-c6c41ae0e0ea
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '64'
 ht-degree: 0%
 
 ---
-
 
 # IllustratorOptions{#illustratoroptions}
 
@@ -27,4 +26,3 @@ Syntax
 | `*`upplösning`*` | `xsd:string` | Filupplösning. |
 | `*`colorSpace`*` | `xsd:string` | Målfärgrymd. |
 | `*`alpha`*` | `xsd:boolean` | Om filen ska rastreras till en bild. I så fall skapar du en genomskinlig bakgrund om originalfilen har definierats på det här sättet för att skapa överliggande logotyper. |
-
