@@ -3,15 +3,14 @@ description: Hanterar behörigheter för åtkomst, ändring, skapande eller bort
 solution: Experience Manager
 title: Behörighet
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 18e5f8f6-3cbe-4d36-b02a-5a3002e4498c
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '59'
 ht-degree: 0%
 
 ---
-
 
 # Behörighet{#permission}
 
@@ -28,4 +27,3 @@ Syntax
 | `*`permissionType`*` | `xsd:string` | Val av behörighetstyp. |
 | `*`isAllowed`*` | `xsd:boolean` | Anger om behörighet är tillåten. |
 | `*`isOverride`*` | `xsd:boolean` | Avgör om behörigheten åsidosätter en annan. |
-
