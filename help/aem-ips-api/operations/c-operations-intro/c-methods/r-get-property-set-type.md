@@ -3,15 +3,14 @@ description: Hämtar en egenskapsuppsättningstyp med hjälp av ett handtag för
 solution: Experience Manager
 title: getPropertySetType
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: ff9c3d24-577c-4a9c-8820-60c2a33773bc
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
-
 
 # getPropertySetType{#getpropertysettype}
 
@@ -90,4 +89,3 @@ Detta kodexempel returnerar en egenskapsuppsättningstyp efter namn.
       <allowMultiple>false</allowMultiple></type>
 </getPropertySetTypeReturn>
 ```
-
