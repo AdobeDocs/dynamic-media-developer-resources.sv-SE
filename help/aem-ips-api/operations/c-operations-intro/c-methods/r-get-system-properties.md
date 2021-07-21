@@ -3,15 +3,14 @@ description: Hämtar alla systemegenskaper i en enda begäran.
 solution: Experience Manager
 title: getSystemProperties
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: b0ef16fd-1645-4e22-99bb-8c9269623168
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '60'
 ht-degree: 0%
 
 ---
-
 
 # getSystemProperties{#getsystemproperties}
 
@@ -70,4 +69,3 @@ Detta kodexempel returnerar en array med systemegenskaper. Svaret trunkeras för
    </propertyArray> 
 </getSystemPropertiesReturn>
 ```
-
