@@ -2,16 +2,15 @@
 description: Hämtar alla visningsprogramkonfigurationsinställningar som är associerade med den angivna resursen.
 solution: Experience Manager
 title: getViewerConfigSettings
-feature: Dynamic Media Classic,SDK/API,Viewer Presets
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,visningsförinställningar
+role: Developer,Admin
+exl-id: c0438238-8aab-4478-926a-fc0e11732fc1
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
-
 
 # getViewerConfigSettings{#getviewerconfigsettings}
 
@@ -41,4 +40,3 @@ Syntax
 |---|---|---|---|
 | `*`type`*` | `xsd:string` | Ja | Visningstyp som konfigurationsinställningarna gäller för. |
 | `*`configSettingsArray`*` | `types:ConfigSettingsArray` | Ja | Array med visningsprogrammets konfigurationsinställningar. |
-
