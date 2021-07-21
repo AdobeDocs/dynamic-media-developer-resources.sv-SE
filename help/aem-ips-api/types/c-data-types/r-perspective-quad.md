@@ -3,15 +3,14 @@ description: Bildplatskoordinater som returneras av åtgärden getPhotoshopPath.
 solution: Experience Manager
 title: PerspectiveQuad
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: dae44565-083d-47f5-8a08-2567590315a4
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '77'
 ht-degree: 10%
 
 ---
-
 
 # PerspectiveQuad{#perspectivequad}
 
