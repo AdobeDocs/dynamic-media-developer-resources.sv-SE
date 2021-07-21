@@ -2,16 +2,15 @@
 description: Flyttar flera resurser oberoende av varandra. Detta uppnås med hjälp av AssetMove-typen som finns i assetMoveArray. Varje AssetMove-fält innehåller en målmapp.
 solution: Experience Manager
 title: moveAssets
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Resurshantering
+role: Developer,Admin
+exl-id: e5bb2188-d262-4324-9f71-68634b6af654
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
-
 
 # moveAssets{#moveassets}
 
@@ -123,4 +122,3 @@ Det här kodexemplet flyttar resurser till en specifik plats som anges av `asset
    <errorCount>0</errorCount>
 </moveAssetsReturn>
 ```
-
