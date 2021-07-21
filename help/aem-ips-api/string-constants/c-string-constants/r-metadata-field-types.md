@@ -3,15 +3,14 @@ description: Används av MetadataField/type, saveMetadataFieldParam/fieldType oc
 solution: Experience Manager
 title: Fälttyper för metadata
 feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: cbbe55f2-bd22-44f5-9440-f58fb45b8d9a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
-
 
 # Fälttyper för metadata{#metadata-field-types}
 
@@ -37,4 +36,3 @@ Syntax
 
 * [!DNL `SingleTag`]: Ett strängvärde.
 * [!DNL `String`]
-
