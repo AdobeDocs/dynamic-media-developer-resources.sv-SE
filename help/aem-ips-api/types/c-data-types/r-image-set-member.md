@@ -2,16 +2,15 @@
 description: Resurser som tillhör en bilduppsättning.
 solution: Experience Manager
 title: ImageSetMember
-feature: Dynamic Media Classic,SDK/API,Image Sets
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Bilduppsättningar
+role: Developer,Admin
+exl-id: f0857d98-be79-40a6-8a84-c2c7b4c423c5
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '76'
 ht-degree: 0%
 
 ---
-
 
 # ImageSetMember{#imagesetmember}
 
@@ -25,4 +24,3 @@ Sidåterställning innebär att en [!DNL eCatalog] ska starta en ny sida. `Rende
 |---|---|---|
 | `*`resurs`*` | `type:Asset` | Resurser i bilduppsättningsarrayen. |
 | `*`pageReset`*` | `xsd:boolean` | Startar en ny sida. Inställningen ignoreras och värdet tvingas till `true` för uppsättningarna `eCatalog` och `RenderSet`. |
-
