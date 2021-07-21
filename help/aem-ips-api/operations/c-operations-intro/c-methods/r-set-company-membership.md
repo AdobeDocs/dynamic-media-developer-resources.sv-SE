@@ -3,15 +3,14 @@ description: Anger en användares medlemskap i ett eller flera företag.
 solution: Experience Manager
 title: setCompanyMembership
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 43144c75-1d83-4e1d-8319-c3275d349a2f
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
-
 
 # setCompanyMembership{#setcompanymembership}
 
