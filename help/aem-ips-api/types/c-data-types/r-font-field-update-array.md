@@ -3,15 +3,14 @@ description: En array med teckensnittsfält uppdateras.
 solution: Experience Manager
 title: FontFieldUpdateArray
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 1ed5562a-90f6-483c-98ef-96bc5a5131ed
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '35'
+source-wordcount: '33'
 ht-degree: 0%
 
 ---
-
 
 # FontFieldUpdateArray{#fontfieldupdatearray}
 
@@ -24,4 +23,3 @@ Syntax
 | Namn | Typ | Beskrivning |
 |---|---|---|
 | `*`objekt`*` | `types:FontFieldUpdate` | Ett objekt i teckensnittsfältet uppdaterar matrisen. |
-
