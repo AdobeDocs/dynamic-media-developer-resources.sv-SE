@@ -3,15 +3,14 @@ description: Returnerar företagsgrupper.
 solution: Experience Manager
 title: getGroups
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: d98c08a6-4c20-4538-9598-c905078ab7de
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '66'
 ht-degree: 0%
 
 ---
-
 
 # getGroups{#getgroups}
 
@@ -63,4 +62,3 @@ Den här koden returnerar en array som innehåller alla grupper som tillhör ett
    </groupArray>
 </getGroupsReturn>
 ```
-
