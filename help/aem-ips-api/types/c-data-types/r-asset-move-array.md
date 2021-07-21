@@ -2,16 +2,15 @@
 description: En array med resursflyttningar.
 solution: Experience Manager
 title: AssetMoveArray
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Resurshantering
+role: Developer,Admin
+exl-id: 9d3f0c27-7414-46d9-888a-85226b0fbac6
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '29'
+source-wordcount: '27'
 ht-degree: 0%
 
 ---
-
 
 # AssetMoveArray{#assetmovearray}
 
@@ -24,4 +23,3 @@ Syntax
 | Namn | Typ | Beskrivning |
 |---|---|---|
 | `*`objekt`*` | `type:AssetMove` | En array med resursflyttningar. |
-
