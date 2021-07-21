@@ -3,15 +3,14 @@ description: Uppdaterar taggordlistevärden för ett taggfält.
 solution: Experience Manager
 title: updateTagFieldValues
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 6de49217-2d15-49d9-9357-b058b2564686
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
-
 
 # updateTagFieldValues{#updatetagfieldvalues}
 
@@ -120,4 +119,3 @@ Syntax
    </errorDetailArray>
 </updateTagFieldValuesReturn>
 ```
-
