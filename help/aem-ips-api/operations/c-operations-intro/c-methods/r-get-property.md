@@ -3,15 +3,14 @@ description: Hämtar strängvärden för systemegenskaper som är relaterade til
 solution: Experience Manager
 title: getProperty
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 2297b785-28c7-49c6-8891-00986f35ea88
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
-
 
 # getProperty{#getproperty}
 
@@ -73,4 +72,3 @@ I det här kodexemplet används en IPS Properties-strängkonstant för att retur
    <value>3.8.0</value>
 </getPropertyReturn>
 ```
-
