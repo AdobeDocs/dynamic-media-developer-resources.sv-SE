@@ -3,17 +3,16 @@ description: Maskerar en del av en bild. Masken är alltid kopplad till bilden. 
 solution: Experience Manager
 title: Mask
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 0e18096c-0666-400b-a562-b6d183bd3334
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '75'
 ht-degree: 1%
 
 ---
 
-
-# Maskera{#mask}
+# Mask{#mask}
 
 Maskerar en del av en bild. Masken är alltid kopplad till bilden. Hämta en mask från ImageInfo.
 
@@ -28,4 +27,3 @@ Syntax
 | `*`maskPath`*` | `xsd:string` | Relativ bana till masken. |
 | `*`maskFile`*` | `xsd:string` | Maskfil. |
 | `*`lastModified`*` | `types:dateTime` | Datum-, tids- och tidszon som masken senast ändrades. |
-
