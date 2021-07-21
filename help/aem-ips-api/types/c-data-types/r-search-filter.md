@@ -3,15 +3,14 @@ description: Filter som hjälper dig att definiera sökvillkor så att sökninge
 solution: Experience Manager
 title: SearchFilter
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: b3a26966-33c9-48ca-b0ed-d05fc0e2050f
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
-
 
 # SearchFilter{#searchfilter}
 
@@ -99,4 +98,3 @@ Syntax
   </tr> 
  </tbody> 
 </table>
-
