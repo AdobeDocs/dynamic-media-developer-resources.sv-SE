@@ -3,17 +3,16 @@ description: Manuella beskärningsalternativ för bilder.
 solution: Experience Manager
 title: ManuellaBeskärningsalternativ
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 829147b9-de78-4e8f-814c-ed44f714cb2e
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '62'
 ht-degree: 0%
 
 ---
 
-
-# ManualCropOptions{#manualcropoptions}
+# ManuellaBeskärningsalternativ{#manualcropoptions}
 
 Manuella beskärningsalternativ för bilder.
 
@@ -27,4 +26,3 @@ Syntax
 | `*`höger`*` | `xsd:int` | Den högra positionen för manuell beskärning i pixlar. |
 | `*`top`*` | `xsd:int` | Den övre positionen för manuell beskärning i pixlar. |
 | `*`nederkant`*` | `xsd:int` | Den understa positionen för manuell beskärning i pixlar. |
-
