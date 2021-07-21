@@ -3,15 +3,14 @@ description: Används av FontFieldUpdate/type.
 solution: Experience Manager
 title: Teckensnittstyper
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 3a127244-89b9-45ed-bf25-23395a89d20e
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '21'
+source-wordcount: '19'
 ht-degree: 0%
 
 ---
-
 
 # Teckensnittstyper{#font-types}
 
@@ -28,4 +27,3 @@ Syntax
 * [!DNL `PFB`]
 * [!DNL `TTC`]
 * [!DNL `KERN`]
-
