@@ -3,17 +3,16 @@ description: Genereras när en autentiserad användare inte har tillräcklig beh
 solution: Experience Manager
 title: permissionFault
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,Admin
+exl-id: 76965735-92d8-46be-b589-67cad3b987dc
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '59'
 ht-degree: 16%
 
 ---
 
-
-# authenticationFault{#authorizationfault}
+# permissionFault{#authorizationfault}
 
 Genereras när en autentiserad användare inte har tillräcklig behörighet för att utföra en uppgift.
 
@@ -40,4 +39,3 @@ Syntax
 |---|---|---|
 | `code` | `xsd:int` | Fel-ID |
 | `reason` | `xsd:string` | Ett informativt meddelande som beskriver felet. |
-
