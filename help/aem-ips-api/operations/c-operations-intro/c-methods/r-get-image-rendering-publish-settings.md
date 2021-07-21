@@ -3,15 +3,14 @@ description: Endast för internt bruk. Se avsnittet Referens-Katalogattribut fö
 solution: Experience Manager
 title: getImageRenderingPublishSettings
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 152dfd61-2fba-47b4-8e69-fbbc8fb57f87
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
-
 
 # getImageRenderingPublishSettings{#getimagerenderingpublishsettings}
 
@@ -40,4 +39,3 @@ Syntax
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
 | `*`publishSettingsArray`*` | `type:ConfigSettingArray` | Ja | Publiceringsinställningar för bildåtergivning. |
-
