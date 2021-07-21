@@ -3,15 +3,14 @@ description: Array med detaljtyper för hjälpjobbloggar.
 solution: Experience Manager
 title: JobLogDetailAuxArray
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 69662118-8dbc-47ce-a6e3-0f2edf0109ac
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '37'
+source-wordcount: '35'
 ht-degree: 0%
 
 ---
-
 
 # JobLogDetailAuxArray{#joblogdetailauxarray}
 
@@ -24,4 +23,3 @@ Syntax
 | Namn | Typ | Beskrivning |
 |---|---|---|
 | `*`objekt`*` | `types:JobLogDetailAux` | En matris med detaljtyper för hjälpjobbloggar. |
-
