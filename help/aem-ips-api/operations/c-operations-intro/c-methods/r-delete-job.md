@@ -3,15 +3,14 @@ description: Tar bort ett aktuellt eller schemalagt jobb.
 solution: Experience Manager
 title: deleteJob
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: d38dd1e2-668e-4956-b854-54bf466d6d45
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
-
 
 # deleteJob{#deletejob}
 
