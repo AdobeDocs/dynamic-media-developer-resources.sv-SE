@@ -3,15 +3,14 @@ description: Ett jobb som är schemalagt att köras.
 solution: Experience Manager
 title: Schemalagt jobb
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: c0084d10-ce38-4a01-9246-aaec44abc8eb
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
-
 
 # Schemalagt jobb{#scheduledjob}
 
@@ -56,4 +55,3 @@ När du anger ett jobbtypsvärde i `submitJob` returneras ett jobb baserat på d
 * `serverDirectoryPublishJob`
 * `uploadDirectorhJob`
 * `uploadUrlsJob`
-
