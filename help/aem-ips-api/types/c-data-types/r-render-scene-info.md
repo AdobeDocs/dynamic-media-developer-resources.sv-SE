@@ -3,15 +3,14 @@ description: Återge egenskaper för scenresurser.
 solution: Experience Manager
 title: RenderSceneInfo
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 0ecbeb51-77c5-4d17-a0e8-8f700679125a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '31'
+source-wordcount: '29'
 ht-degree: 0%
 
 ---
-
 
 # RenderSceneInfo{#rendersceneinfo}
 
@@ -24,4 +23,3 @@ Syntax
 | Namn | Typ | Beskrivning |
 |---|---|---|
 | `*`url`*` | `xsd:string` | URL för bildservern som representerar återgivningsscenen. |
-
