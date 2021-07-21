@@ -2,16 +2,15 @@
 description: Avgör om en resurs är klar att publiceras.
 solution: Experience Manager
 title: setAssetPublishState
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Resurshantering
+role: Developer,Admin
+exl-id: 0dc195ee-9229-40a3-ad8b-8f00c2c9ff97
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
-
 
 # setAssetPublishState{#setassetpublishstate}
 
