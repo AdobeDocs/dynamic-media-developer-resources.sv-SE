@@ -3,15 +3,14 @@ description: Anger olika företagsspecifika konfigurationsvärden.
 solution: Experience Manager
 title: setCompanySettings
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: c6b72ceb-3c86-4b13-89e9-5f1bb9846b2c
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
-
 
 # setCompanySettings{#setcompanysettings}
 
