@@ -3,15 +3,14 @@ description: Tar bort taggfältsvärden från ordlistan för ett taggfält.
 solution: Experience Manager
 title: deleteTagFieldValues
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 2694bd6d-b1ba-4146-a155-12829d9dfa47
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
-
 
 # deleteTagFieldValues{#deletetagfieldvalues}
 
