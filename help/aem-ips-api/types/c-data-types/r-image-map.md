@@ -3,15 +3,14 @@ description: Målet för en klickåtgärd i webbläsaren.
 solution: Experience Manager
 title: ImageMap
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 123eba56-2a59-44c5-93f0-205c362d071d
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '102'
 ht-degree: 3%
 
 ---
-
 
 # ImageMap{#imagemap}
 
@@ -31,4 +30,3 @@ Alltid associerat med en bild. Du kan hämta ett `ImageMap`-mål från `ImageInf
 | `*`position`*` | `xsd:string` | Placera i formatet för HTML-elementets `<area>`-attribut. [!DNL coords] Exempel: `coords ="0,0,84,128"`. |
 | `*`aktiverad`*` | `xsd:boolean` | True om bildschema är aktiverat. |
 | `*`lastModified`*` | `xsd:dateTime` | Datum och tid då bildschemat senast ändrades. |
-
