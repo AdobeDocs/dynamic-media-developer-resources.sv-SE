@@ -3,15 +3,14 @@ description: Returnerar en array med Photoshop sökvägsnamn för den angivna bi
 solution: Experience Manager
 title: getPhotoshopPathNames
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 11d4c0d0-a3a3-4324-a4a6-1dd7b7e673da
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '82'
 ht-degree: 0%
 
 ---
-
 
 # getPhotoshopPathNames{#getphotoshoppathnames}
 
@@ -65,4 +64,3 @@ Syntax
   </pathNameArray>
 </getPhotoshopPathNamesReturn>
 ```
-
