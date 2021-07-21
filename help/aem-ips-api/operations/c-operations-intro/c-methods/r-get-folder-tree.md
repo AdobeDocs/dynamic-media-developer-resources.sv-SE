@@ -3,15 +3,14 @@ description: Returnerar mappar och undermappar i en hierarkisk trädstruktur. Sv
 solution: Experience Manager
 title: getFolderTree
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 1afe63ca-d11a-4fa5-a26b-90a23bee1b68
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
-
 
 # getFolderTree{#getfoldertree}
 
@@ -132,4 +131,3 @@ I det här kodexemplet används ett företagshandtag och en djupparameter för a
   <permissionSetArray>
 </getFolderTreeReturn>
 ```
-
