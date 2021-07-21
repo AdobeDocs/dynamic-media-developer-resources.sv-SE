@@ -2,18 +2,17 @@
 description: Ett objekt eller en behållare i mapphierarkin.
 solution: Experience Manager
 title: Tillgång
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Resurshantering
+role: Developer,Admin
+exl-id: 943e653a-ed30-4c75-9bad-6ef5b72f5219
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
 
-
-# Resurs{#asset}
+# Tillgång{#asset}
 
 Ett objekt eller en behållare i mapphierarkin.
 
@@ -312,4 +311,3 @@ Syntax
   </tr> 
  </tbody> 
 </table>
-
