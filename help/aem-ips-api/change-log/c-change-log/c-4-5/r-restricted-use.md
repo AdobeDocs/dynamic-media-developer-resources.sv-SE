@@ -3,15 +3,14 @@ description: Dessa nya eller ändrade åtgärder och datatyper som finns i betav
 solution: Experience Manager
 title: Begränsad användning
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,Admin
+exl-id: 6602c5bc-9f75-4885-ae14-cab14e6afa5e
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
-
 
 # Begränsad användning{#restricted-use}
 
@@ -107,4 +106,3 @@ Dessa åtgärder och typer kan inaktiveras, ändras eller tas bort vid efterföl
 * Ändrad `setImageRenderingPublishSettings` till att inkludera en valfri `contextHandle`parameter
 
 * Ändrad `submitJob` till att inkludera en valfri `createVideoSitemap`-jobbtyp
-
