@@ -3,15 +3,14 @@ description: En matris med meddelanden som svarar på en av de URL:er som anges 
 solution: Experience Manager
 title: OperationFaultArray
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: b9b92686-a378-4ba0-814b-3354344aa6d2
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '57'
 ht-degree: 0%
 
 ---
-
 
 # OperationFaultArray{#operationfaultarray}
 
@@ -39,4 +38,3 @@ En matris med meddelanden som svarar på en av de URL:er som anges i CDN-begära
   </tr> 
  </tbody> 
 </table>
-
