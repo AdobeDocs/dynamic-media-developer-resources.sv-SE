@@ -3,15 +3,14 @@ description: Anger metadatafält för ICC-profil.
 solution: Experience Manager
 title: batchSetIccProfileFields
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Admin
+exl-id: d10a30ca-afa7-4ef0-8cef-0329b0068bf3
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
-
 
 # batchSetIccProfileFields{#batchseticcprofilefields}
 
@@ -74,4 +73,3 @@ Syntax
    <errorCount>0</errorCount>
 </batchSetIccProfileFieldsReturn>
 ```
-
