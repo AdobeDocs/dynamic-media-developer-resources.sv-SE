@@ -3,15 +3,14 @@ description: Anger eller uppdaterar ett XMP metadatapaket för en resurs.
 solution: Experience Manager
 title: updateXMPPacket
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 04d85dba-cc86-4069-ab5d-9a5b3fe542c9
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '73'
 ht-degree: 0%
 
 ---
-
 
 # updateXMPPacket{#updatexmppacket}
 
@@ -69,4 +68,3 @@ C8bO5sugbVa5/4Hnd05blc9y1zmGCCI0zcO50PyK40+q4LbWPt3IqGmykqnONnVgUUYNvsdfOH6wzN6C
    <success>true</success>
 </updateXMPPacketReturn>
 ```
-
