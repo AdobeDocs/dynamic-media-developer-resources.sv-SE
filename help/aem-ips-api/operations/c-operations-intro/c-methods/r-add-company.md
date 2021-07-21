@@ -3,15 +3,14 @@ description: Lägger till ett företag i systemet.
 solution: Experience Manager
 title: addCompany
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,Admin
+exl-id: 2f834fe8-a621-4a41-9473-8ef53294b348
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
-
 
 # addCompany{#addcompany}
 
@@ -101,4 +100,3 @@ I det här exemplet visas en begäran om att lägga till ett företag i IPS-syst
    </ns1:companyInfo>
 </ns1:addCompanyReturn>
 ```
-
