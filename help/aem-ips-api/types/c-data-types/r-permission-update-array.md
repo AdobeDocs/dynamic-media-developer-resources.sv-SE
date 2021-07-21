@@ -3,15 +3,14 @@ description: En array med behörighetsuppdateringar.
 solution: Experience Manager
 title: PermissionUpdateArray
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: eeff58a6-d6c0-4772-b735-5ba91afb61fc
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '29'
+source-wordcount: '27'
 ht-degree: 0%
 
 ---
-
 
 # PermissionUpdateArray{#permissionupdatearray}
 
@@ -24,4 +23,3 @@ Syntax
 | Namn | Typ | Beskrivning |
 |---|---|---|
 | `*`objekt`*` | `types:PermissionUpdateArray` | Behörighetsuppdateringsmatrisen. |
-
