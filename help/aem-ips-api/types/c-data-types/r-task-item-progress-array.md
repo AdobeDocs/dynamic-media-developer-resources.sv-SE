@@ -3,15 +3,14 @@ description: En array med information om ett uppgiftsobjekt.
 solution: Experience Manager
 title: TaskItemProgressArray
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: deba612e-34ea-4892-8ee7-a2d5acb96299
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '42'
+source-wordcount: '40'
 ht-degree: 0%
 
 ---
-
 
 # TaskItemProgressArray{#taskitemprogressarray}
 
@@ -24,4 +23,3 @@ Syntax
 | Namn | Typ | Beskrivning |
 |---|---|---|
 | `*`objekt`*` | `types:TaskItemProgress` | Uppgiftsobjektets förloppsarray. Minsta förekomst är noll. Maximum är obundet. |
-
