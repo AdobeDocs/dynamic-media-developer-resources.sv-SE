@@ -3,15 +3,14 @@ description: Beskriver värden som används av olika parametrar. Mer information
 solution: Experience Manager
 title: Användarroller
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: f94443ba-7715-4790-bd2a-120e0cb8848e
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '43'
+source-wordcount: '41'
 ht-degree: 0%
 
 ---
-
 
 # Användarroller{#user-roles}
 
@@ -39,4 +38,3 @@ Syntax
 * [!DNL `ImagePortalUser`]
 * [!DNL `ImagePortalContrib`]
 * [!DNL `ImagePortalContribUser`]
-
