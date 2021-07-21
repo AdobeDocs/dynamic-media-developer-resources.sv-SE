@@ -3,15 +3,14 @@ description: Använder en egenskapsarray för att uppdatera en egenskapsuppsätt
 solution: Experience Manager
 title: updatePropertySet
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: bbe6a664-b6e1-4b46-867d-a134070b13da
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
-
 
 # updatePropertySet{#updatepropertyset}
 
