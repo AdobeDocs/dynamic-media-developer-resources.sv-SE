@@ -3,15 +3,14 @@ description: Egenskaper för en ICC-profilresurs.
 solution: Experience Manager
 title: IccProfileInfo
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 10e04ec2-14af-4d15-9970-f47a2407d077
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '41'
+source-wordcount: '39'
 ht-degree: 0%
 
 ---
-
 
 # IccProfileInfo{#iccprofileinfo}
 
@@ -26,4 +25,3 @@ Syntax
 | `*`originalPath`*` | `xsd:string` | ICC-profilsökväg. |
 | `*`originalFile`*` | `xsd:string` | Namnet på den ursprungliga ICC-profilen. |
 | `*`fileSize`*` | `xsd:int` | ICC-profilstorlek. |
-
