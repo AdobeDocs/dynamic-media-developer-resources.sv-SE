@@ -3,15 +3,14 @@ description: Överför filer från angivna serverkataloger regelbundet.
 solution: Experience Manager
 title: UploadDirectoryJob
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: a23f1bc2-aa6a-4c1d-aab5-7f6dbd08682c
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
-
 
 # UploadDirectoryJob{#uploaddirectoryjob}
 
@@ -201,4 +200,3 @@ För `PublishJob` kan du bara välja något av följande:
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`
 * `postvideoPublishJob`
-
