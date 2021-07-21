@@ -3,15 +3,14 @@ description: Tar bort ett projekt från ett företag. Länkarna mellan resursern
 solution: Experience Manager
 title: deleteProject
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: b42be3ef-c935-4548-8f92-4fc33af321b5
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
-
 
 # deleteProject{#deleteproject}
 
