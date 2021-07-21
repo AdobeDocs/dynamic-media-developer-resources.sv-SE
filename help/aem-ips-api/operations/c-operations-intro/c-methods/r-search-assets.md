@@ -2,16 +2,15 @@
 description: Sök efter resurser baserat på dina angivna villkor.
 solution: Experience Manager
 title: searchAssets
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Resurshantering
+role: Developer,Admin
+exl-id: 58bd80e4-e9eb-43e4-8508-04e330f0ad26
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
-
 
 # searchAssets{#searchassets}
 
@@ -272,4 +271,3 @@ Det här kodexemplet söker efter bildresurser som tillhör ett visst företag. 
     </assetArray>
 </searchAssetsReturn>
 ```
-
