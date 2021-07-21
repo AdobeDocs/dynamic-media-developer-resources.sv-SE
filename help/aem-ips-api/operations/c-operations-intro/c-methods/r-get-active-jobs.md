@@ -3,15 +3,14 @@ description: Hämtar alla aktiva jobb.
 solution: Experience Manager
 title: getActiveJobs
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 55e92ebc-d153-49b5-bf2e-c69d042e15b6
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
-
 
 # getActiveJobs{#getactivejobs}
 
@@ -65,4 +64,3 @@ Detta kodexempel returnerar alla aktiva jobb för ett företag som kör i IPS. I
    <jobArray></jobArray>
 </getActiveJobsReturn>
 ```
-
