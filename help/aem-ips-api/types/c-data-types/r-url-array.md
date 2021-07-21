@@ -3,15 +3,14 @@ description: En array med URL:er för att göra CDN-cache ogiltig.
 solution: Experience Manager
 title: UrlArray
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 61225fb2-7c25-4f9c-82c9-02bf69995028
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '48'
 ht-degree: 0%
 
 ---
-
 
 # UrlArray{#urlarray}
 
@@ -39,4 +38,3 @@ En array med URL:er för att göra CDN-cache ogiltig.
   </tr> 
  </tbody> 
 </table>
-
