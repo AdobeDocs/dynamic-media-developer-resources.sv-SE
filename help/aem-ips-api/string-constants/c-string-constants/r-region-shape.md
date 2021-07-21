@@ -3,17 +3,16 @@ description: Används av ImageMap/shapeType och saveImageMapParam/shapType.
 solution: Experience Manager
 title: Regionsform
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 84a27a16-23fc-4e58-ba05-49882dd72174
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '27'
+source-wordcount: '25'
 ht-degree: 0%
 
 ---
 
-
-# Regionform{#region-shape}
+# Regionsform{#region-shape}
 
 Används av ImageMap/shapeType och saveImageMapParam/shapType.
 
@@ -23,4 +22,3 @@ Syntax
 
 * [!DNL `Rectangle`]
 * [!DNL `Polygon`]
-
