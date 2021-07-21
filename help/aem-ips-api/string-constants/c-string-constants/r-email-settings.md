@@ -3,15 +3,14 @@ description: Beskriver värden som används av olika indataparametrar. Mer infor
 solution: Experience Manager
 title: E-postinställningar
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: f6fb7d58-968a-41c8-b0a8-ccab37e98801
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '43'
 ht-degree: 0%
 
 ---
-
 
 # E-postinställningar{#email-settings}
 
@@ -35,4 +34,3 @@ Syntax
 * [!DNL `ErrorAndWarning`]
 * [!DNL `JobCompletion`]
 * [!DNL `None`]
-
