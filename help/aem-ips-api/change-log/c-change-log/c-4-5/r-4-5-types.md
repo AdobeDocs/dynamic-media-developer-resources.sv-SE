@@ -3,15 +3,14 @@ description: Beskriver nya och ändrade datatyper för IPS API version 4.5.
 solution: Experience Manager
 title: Datatyper Nytt och ändrat
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,Admin
+exl-id: 45024d75-8058-40f8-b3e3-9b28b4cdc3f7
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '65'
 ht-degree: 0%
 
 ---
-
 
 # Datatyper: Nytt och ändrat{#data-types-new-and-modified}
 
@@ -49,4 +48,3 @@ Syntax
 
 * `MetadataUpdate`
 * `UploadUrlsJob` kräver ett  `urlArray` och lägger till ett valfritt  `numUrls` antal
-
