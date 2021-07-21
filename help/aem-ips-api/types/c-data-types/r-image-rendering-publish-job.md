@@ -3,15 +3,14 @@ description: Publicerar filer till bildåtergivningsservrarna.
 solution: Experience Manager
 title: ImageRenderingPublishJob
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 09d97e1f-8266-44b3-a50d-6088489712a5
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: '44'
 ht-degree: 0%
 
 ---
-
 
 # ImageRenderingPublishJob{#imagerenderingpublishjob}
 
@@ -26,4 +25,3 @@ Syntax
 | `*`emailSetting`*` | `xsd:string` | Val av e-postinställningar. |
 | `*`httpCompletionUrl`*` | `xsd:string` | URL för att skicka ett meddelande om slutförande. |
 | `*`contextHandle`*` | `xsd:string` | Hantera publiceringskontexten. |
-
