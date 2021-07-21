@@ -2,16 +2,15 @@
 description: Söker i metadataindexarkivet efter de angivna söktermerna. Returnerar resursdata som metoden searchAssets.
 solution: Experience Manager
 title: searchAssetsByMetadata
-feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Metadata,Resurshantering
+role: Developer,Admin
+exl-id: a0e01edb-c52b-436d-a166-e24cc6861c49
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
-
 
 # searchAssetsByMetadata{#searchassetsbymetadata}
 
@@ -128,7 +127,7 @@ Du kan lösa det här problemet genom att använda `fieldHandles` för resursern
 | `*`totalRows`*` | `xsd:int` | Nej | Antal träffar. |
 | `*`assetArray`*` | `types:AssetArray` | Nej | Array med resurser som returneras av sökningen. |
 
-## metadataConditionArray-information {#section-1af4a4a22f82451eabdf6dfe13d9f27d}
+## metadataConditionArray - information {#section-1af4a4a22f82451eabdf6dfe13d9f27d}
 
 **Objektstruktur**
 
@@ -157,7 +156,7 @@ Du kan lösa det här problemet genom att använda `fieldHandles` för resursern
 * `sku`
 * `modified_at`
 * `modified_by`
-* `created_at` (samma som  `modified_at` (datum i formuläret: fr.o.m. 25 juli 2014 22:13:45 GMT-0500 (CDT))
+* `created_at` (samma som  `modified_at` (datum i formuläret: fr.o.m. 25 juli 2014 22:13:45 GMT-0500 (CDT)
 
 * `created_by`
 
@@ -252,4 +251,3 @@ xmlns:ns="http://www.scene7.com/IpsApi/xsd/2010-01-31">
    </soapenv:Body>
 </soapenv:Envelope>
 ```
-
