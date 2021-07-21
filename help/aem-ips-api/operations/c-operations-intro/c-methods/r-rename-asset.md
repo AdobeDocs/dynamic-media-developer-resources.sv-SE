@@ -2,16 +2,15 @@
 description: Byter namn på en resurs.
 solution: Experience Manager
 title: renameAsset
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Resurshantering
+role: Developer,Admin
+exl-id: f3fff3c1-1b48-4d86-8a81-f75be00fc329
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
-
 
 # renameAsset{#renameasset}
 
