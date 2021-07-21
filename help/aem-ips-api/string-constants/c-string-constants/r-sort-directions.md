@@ -3,15 +3,14 @@ description: Används av searchAssetsParam/sortDirection och getJobLogsParam/sor
 solution: Experience Manager
 title: Sorteringsanvisningar
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 0f31d017-3750-43e7-9c86-7c87fb6407a3
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '27'
+source-wordcount: '25'
 ht-degree: 0%
 
 ---
-
 
 # Sorteringsanvisningar{#sort-directions}
 
@@ -23,4 +22,3 @@ Syntax
 
 * [!DNL `Ascending`]
 * [!DNL `Descending`]
-
