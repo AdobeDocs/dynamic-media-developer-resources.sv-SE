@@ -3,15 +3,14 @@ description: Kontrollerar om en användare med ett visst företag (identifieras 
 solution: Experience Manager
 title: checkLogin
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Admin
+exl-id: 1f96f376-574c-464b-9c89-c215f6454b81
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
-
 
 # checkLogin{#checklogin}
 
@@ -70,4 +69,3 @@ I den här exempelkoden används en företagshanteringsparameter, e-postadress o
    <ns1:status>InvalidLogin</ns1:status>
 </ns1:checkLoginReturn>
 ```
-
