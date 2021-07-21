@@ -2,16 +2,15 @@
 description: Ersätter bilddata för en bildresurs.
 solution: Experience Manager
 title: replaceImage
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Resurshantering
+role: Developer,Admin
+exl-id: bf8c1f5c-7829-4750-b5b7-b8b20d115d17
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
-
 
 # replaceImage{#replaceimage}
 
@@ -65,4 +64,3 @@ Det här kodexemplet ersätter en bild och tillämpar ett `urlModifier`-värde m
    <assetHandle>a|140626|1|102524</assetHandle>
 </replaceImageReturn>
 ```
-
