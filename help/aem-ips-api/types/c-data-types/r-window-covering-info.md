@@ -3,15 +3,14 @@ description: Egenskaper för ett fönster som täcker filen.
 solution: Experience Manager
 title: WindowCoveringInfo
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 43f7927d-6341-4d30-9a3c-de1d61b4d667
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '57'
 ht-degree: 0%
 
 ---
-
 
 # WindowCoveringInfo{#windowcoveringinfo}
 
@@ -30,4 +29,3 @@ Syntax
 | `*`imageFile`*` | `xsd:string` | Filnamn för fönstret som täcker bilden. |
 | `*`optimizedPath`*` | `xsd:string` | Optimerad sökväg till filen. |
 | `*`optimizedFile`*` | `xsd:string` | Optimerat filnamn. |
-
