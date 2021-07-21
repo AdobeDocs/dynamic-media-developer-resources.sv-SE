@@ -3,15 +3,14 @@ description: En array med CompanyMetadataInfo-element.
 solution: Experience Manager
 title: CompanyMetadataInfoArray
 feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 424a2f52-9cc2-46d6-817b-6ea64f46a229
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '29'
+source-wordcount: '27'
 ht-degree: 0%
 
 ---
-
 
 # CompanyMetadataInfoArray{#companymetadatainfoarray}
 
@@ -25,4 +24,3 @@ Syntax
 |---|---|---|
 | `*`Kodfras`*` | `Code Phrase` |  |
 | `*`Kodfras`*` | `Code Phrase` |  |
-
