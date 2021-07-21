@@ -3,15 +3,14 @@ description: Uppdatera information för ICC-profilegenskaper.
 solution: Experience Manager
 title: IccProfileFieldUpdate
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: b988a430-8ed6-456b-b37b-b4185c5d3b32
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '59'
 ht-degree: 0%
 
 ---
-
 
 # IccProfileFieldUpdate{#iccprofilefieldupdate}
 
@@ -27,4 +26,3 @@ Syntax
 | `*`class`*` | `xsd:string` | Profilklasser (se&quot;Profilklasser&quot; för värden). |
 | `*`colorSpace`*` | `xsd:string` | Profilfärgrymd (se &quot;Färgrymder&quot; för värden). |
 | `*`pcsType`*` | `xsd:string` | Profilanslutningsrymd (se &quot;Färgrymder&quot; för värden). |
-
