@@ -3,15 +3,14 @@ description: Avgör vilken genereringsmotor och genererad resurstyp som ska utes
 solution: Experience Manager
 title: ExcludeByproductCondition
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 5b37e01b-9e9c-4d34-9d39-1f9bfe356e53
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '63'
 ht-degree: 0%
 
 ---
-
 
 # ExcludeByproductCondition{#excludebyproductcondition}
 
@@ -25,4 +24,3 @@ Syntax
 |---|---|---|
 | `*`motor`*` | `xsd:string` | Genereringsmotorn som skapade resurser som du vill utesluta. Se Genereringsinformation för värden. |
 | `*`generatedAssetType`*` | `xsd:string` | Exkluderad tillgångstyp. Se Resurstyper för värden. |
-
