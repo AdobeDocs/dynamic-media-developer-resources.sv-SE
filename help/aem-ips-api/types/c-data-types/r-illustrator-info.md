@@ -3,15 +3,14 @@ description: Egenskaper för en Adobe Illustrator-fil.
 solution: Experience Manager
 title: IllustratorInfo
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 4ff75141-4de4-4280-9f7a-901bdfc060fb
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '35'
+source-wordcount: '33'
 ht-degree: 0%
 
 ---
-
 
 # IllustratorInfo{#illustratorinfo}
 
@@ -26,4 +25,3 @@ Syntax
 | `*`originalPath`*` | `xsd:string` | Filsökväg. |
 | `*`originalFile`*` | `xsd:string` | Filnamn. |
 | `*`fileSize`*` | `xsd:int` | Filstorlek. |
-
