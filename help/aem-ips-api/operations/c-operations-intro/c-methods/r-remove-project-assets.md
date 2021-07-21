@@ -2,16 +2,15 @@
 description: Tar bort resurser från ett projekt. Förstör inte tillgångarna.
 solution: Experience Manager
 title: removeProjectAssets
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Resurshantering
+role: Developer,Admin
+exl-id: 6bf169ec-c724-4ac0-a2bf-67af2ebba21a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
-
 
 # removeProjectAssets{#removeprojectassets}
 
@@ -63,4 +62,3 @@ Detta kodexempel tar bort 2 resurser från ett projekt (anges av projektreferens
    </assetHandleArray>
 </removeProjectAssetsParam>
 ```
-
