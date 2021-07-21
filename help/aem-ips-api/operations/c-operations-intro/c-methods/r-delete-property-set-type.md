@@ -3,15 +3,14 @@ description: Tar bort en egenskapsuppsättningstyp och dess associerade egenskap
 solution: Experience Manager
 title: deletePropertySetType
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 97ec0f41-794f-4340-b86d-ab07a742d447
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
-
 
 # deletePropertySetType{#deletepropertysettype}
 
