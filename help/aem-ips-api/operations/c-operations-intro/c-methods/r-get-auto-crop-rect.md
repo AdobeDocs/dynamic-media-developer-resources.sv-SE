@@ -3,15 +3,14 @@ description: Returnerar ett beskuret område för en bild baserat på dess bakgr
 solution: Experience Manager
 title: getAutoCropRect
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: e291597a-b863-42dd-88dc-13398b734410
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
-
 
 # getAutoCropRect{#getautocroprect}
 
@@ -82,5 +81,5 @@ Syntax
 >[!MORELIKETHIS]
 >
 >* [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6)
->* [AutoTransparentBeskärningsalternativ](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)
+* [AutoTransparentBeskärningsalternativ](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)
 
