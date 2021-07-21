@@ -2,16 +2,15 @@
 description: Sökresultat för metadata som innehåller sammanfattad information om en resurs.
 solution: Experience Manager
 title: AssetSummary
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Resurshantering
+role: Developer,Admin
+exl-id: 25f16a2b-6cd8-485f-a6bd-2a9bc9b3243b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '129'
 ht-degree: 2%
 
 ---
-
 
 # AssetSummary{#assetsummary}
 
@@ -35,4 +34,3 @@ Syntax
 | `*`metadataArray`*` | `types:MetadataArray` | Array med metadatavärden som är associerade med resursen. |
 | `*`score`*` | `xsd:double` | Definierar precisionen vid likhetssökning (0 = ingen matchning, 1 = exakt matchning). |
 | `*`scoreDetail`*` | `xsd:string` | Innehåller detaljerad information om liknande områden som ett resultat av en likhetssökning. |
-
