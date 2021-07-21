@@ -3,15 +3,14 @@ description: Returnerar ZIP-fildata.
 solution: Experience Manager
 title: getZipEnentries
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: eb052685-b750-4a12-b00e-28e676340e98
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
-
 
 # getZipEnentries{#getzipentries}
 
@@ -75,4 +74,3 @@ Det här kodexemplet returnerar information om ZIP-filer, inklusive komprimerad 
    </zipArray>
 </getZipEntriesReturn>
 ```
-
