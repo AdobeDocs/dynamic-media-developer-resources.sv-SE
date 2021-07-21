@@ -3,17 +3,16 @@ description: Alternativ för Photoshop-bilder.
 solution: Experience Manager
 title: PhotoshopAlternativ
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 0ad8e002-4fbd-442f-84ba-89cc551ec3de
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '38'
+source-wordcount: '36'
 ht-degree: 0%
 
 ---
 
-
-# PhotoshopOptions{#photoshopoptions}
+# PhotoshopAlternativ{#photoshopoptions}
 
 Alternativ för Photoshop-bilder.
 
@@ -46,4 +45,3 @@ Syntax
   </tr> 
  </tbody> 
 </table>
-
