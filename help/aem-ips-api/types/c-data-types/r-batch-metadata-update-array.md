@@ -3,15 +3,14 @@ description: En array med uppdateringar av batchmetadata.
 solution: Experience Manager
 title: BatchMetadataUpdateArray
 feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 50833aba-2e2c-4562-b37c-dc560d5d6e52
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '33'
+source-wordcount: '31'
 ht-degree: 0%
 
 ---
-
 
 # BatchMetadataUpdateArray{#batchmetadataupdatearray}
 
@@ -24,4 +23,3 @@ Syntax
 | Namn | Typ | Beskrivning |
 |---|---|---|
 | `*`objekt`*` | `types:BatchMetadataUpdate` | Arrayen med batchuppdateringar. |
-
