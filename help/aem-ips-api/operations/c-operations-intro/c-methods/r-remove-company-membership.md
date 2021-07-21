@@ -3,15 +3,14 @@ description: Tar bort en användare från ett eller flera företag.
 solution: Experience Manager
 title: removeCompanyMembership
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 1cb9a286-48a0-4542-a80a-c97fd973474e
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
-
 
 # removeCompanyMembership{#removecompanymembership}
 
