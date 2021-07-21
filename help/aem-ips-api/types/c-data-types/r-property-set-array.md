@@ -3,15 +3,14 @@ description: En array med egenskapsuppsättningar.
 solution: Experience Manager
 title: PropertySetArray
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 9b8c4960-bced-4b37-b072-a713c4b20bfa
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '28'
+source-wordcount: '26'
 ht-degree: 0%
 
 ---
-
 
 # PropertySetArray{#propertysetarray}
 
@@ -24,4 +23,3 @@ Syntax
 | Namn | Typ | Beskrivning |
 |---|---|---|
 | `*`objekt`*` | `types:PropertySet` | Array för egenskapsuppsättning. |
-
