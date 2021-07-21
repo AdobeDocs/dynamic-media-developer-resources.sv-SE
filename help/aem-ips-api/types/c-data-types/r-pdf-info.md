@@ -3,15 +3,14 @@ description: Egenskaper för PDF-fil.
 solution: Experience Manager
 title: PDFInfo
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 033bdcf2-ddb2-48c2-97ab-2f72cc7780c8
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '29'
+source-wordcount: '27'
 ht-degree: 0%
 
 ---
-
 
 # PDFInfo{#pdfinfo}
 
@@ -26,4 +25,3 @@ Syntax
 | `*`originalPath`*` | `xsd:string` | Filsökväg. |
 | `*`originalFile`*` | `xsd:int` | Filnamn. |
 | `*`fileSize`*` | `xsd:int` | Filstorlek. |
-
