@@ -3,12 +3,11 @@ description: Beskriver nya och implementerade ändringar för IPS API v4.0.
 solution: Experience Manager
 title: Nya tillägg och ändringar
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: f07562a8-71e9-4d98-9d0c-5bb32a7e0ef1
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '1227'
+source-wordcount: '1225'
 ht-degree: 0%
 
 ---
@@ -236,7 +235,7 @@ Nya tillgångstyper har lagts till för hantering av IPS:
  </tbody> 
 </table>
 
-Ytterligare alternativ har lagts till i `UploadDirectoryJob` och `UploadUrlsJob` för att styra bearbetningen av PostScript-, Illustrator- och PDF-filer oberoende av varandra. Alla befintliga jobb kommer att tillhandahålla de nödvändiga parametrarna till var och en av de tre bearbetningspipelinerna så att de fungerar exakt som de gör idag. Det ursprungliga `PostScriptOptions`-blocket används för att ange bearbetningen för Illustrator- och EPS/PS-filer. Alternativt kan du ange speciella filalternativblock för bearbetning. Listan över ändringar innehåller:
+Ytterligare alternativ har lagts till i `UploadDirectoryJob` och `UploadUrlsJob` för att styra bearbetningen av PostScript-, Illustrator- och PDF-filer oberoende av varandra. Alla befintliga jobb kommer att tillhandahålla de nödvändiga parametrarna till var och en av de tre bearbetningspipelinerna så att de fungerar exakt som de gör idag. Det ursprungliga `PostScriptOptions`-blocket används för att ställa in bearbetningen för Illustrator- och EPS/PS-filer. Alternativt kan du ange speciella filalternativblock för bearbetning. Listan över ändringar innehåller:
 
 <table id="table_D4E5ACCB2D144D05A5FA0129AA5F9344"> 
  <thead> 
