@@ -3,15 +3,14 @@ description: Vidarebefordrar den angivna listan med URL:er till Dynamic Media CD
 solution: Experience Manager
 title: cdnCacheInvalidation
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,Admin
+exl-id: 65b758f2-b49a-4616-b657-a64808c9202a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
-
 
 # cdnCacheInvalidation{#cdncacheinvalidation}
 
@@ -126,4 +125,3 @@ I det här exemplet begärs fyra URL:er som ska ogiltigförklaras i CDN-cachen. 
    <errorCount>0</errorCount>
 </cdnCacheInvalidationReturn>
 ```
-
