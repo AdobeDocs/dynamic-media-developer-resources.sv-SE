@@ -2,16 +2,15 @@
 description: Hämtar resurser som är associerade med en angiven resurs och information om deras relation.
 solution: Experience Manager
 title: getAssociatedAssets
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Resurshantering
+role: Developer,Admin
+exl-id: cf49719f-5d79-4e64-a785-bf3b2fe200c7
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
-
 
 # getAssociatedAssets{#getassociatedassets}
 
