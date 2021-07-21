@@ -3,15 +3,14 @@ description: Returnerar alla mappar och undermappar med början i mappsökvägen
 solution: Experience Manager
 title: getFolders
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 71fe3343-2560-4d74-8ec3-1229d83a62e1
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
-
 
 # getFolders{#getfolders}
 
@@ -94,4 +93,3 @@ Detta kodexempel returnerar en array som innehåller alla företagets mappar til
    </folderArray>
 </getFoldersReturn>
 ```
-
