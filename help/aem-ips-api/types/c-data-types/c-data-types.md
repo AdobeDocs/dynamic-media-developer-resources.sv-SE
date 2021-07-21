@@ -3,15 +3,14 @@ description: Datatyper
 solution: Experience Manager
 title: Datatyper
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: a8bc6fcc-fb94-4bc2-83b7-76788db15f3e
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
-
 
 # Datatyper{#data-types}
 
