@@ -3,15 +3,14 @@ description: Skickar ett e-postmeddelande till en angiven mottagare som svar på
 solution: Experience Manager
 title: EmailConfirmation
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,Admin
+exl-id: b4698637-a897-47fa-92d4-4ab400e56962
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
-
 
 # EmailConfirmation{#emailconfirmation}
 
@@ -25,4 +24,3 @@ Syntax
 |---|---|---|
 | `*`ccOriginator`*` | `xsd:boolean` | Om värdet är true inkluderar användarens webbtjänstkonto, som är en lista över e-postmeddelanden som ska ta emot en e-postbekräftelse från Dynamic Media CDN. |
 | `*`ccOthersArray`*` | `types:EmailArray` | En matris med e-postadresser (max 5) som ska ta emot bekräftelsemeddelanden från Dynamic Media CDN. |
-
