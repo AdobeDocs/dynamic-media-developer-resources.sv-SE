@@ -3,15 +3,14 @@ description: Hämtar projekt för en grupp med relaterade resurser.
 solution: Experience Manager
 title: getProjects
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: d7262ed7-7419-4d6b-86ed-f3ad4657d654
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '71'
 ht-degree: 0%
 
 ---
-
 
 # getProjects{#getprojects}
 
@@ -70,4 +69,3 @@ Detta kodexempel returnerar alla projektreferenser i en projektarray.
    </projectArray>
 </getProjectsReturn>
 ```
-
