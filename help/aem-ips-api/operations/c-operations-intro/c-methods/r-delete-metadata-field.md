@@ -3,15 +3,14 @@ description: Tar bort ett företags metadatafält.
 solution: Experience Manager
 title: deleteMetadataField
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 1922fc1b-2abc-4d31-985a-65c788af4d46
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
-
 
 # deleteMetadataField{#deletemetadatafield}
 
