@@ -3,15 +3,14 @@ description: Egenskaper för en CSS-filresurs.
 solution: Experience Manager
 title: CssInfo
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: b3a65c0c-b2c9-48da-9233-5fbcdd55d986
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '38'
+source-wordcount: '36'
 ht-degree: 0%
 
 ---
-
 
 # CssInfo{#cssinfo}
 
@@ -26,4 +25,3 @@ Syntax
 | `*`originalPath`*` | `xsd:string` | Sökväg till CSS-filen. |
 | `*`originalFile`*` | `xsd:string` | Filnamn. |
 | `*`fileSize`*` | `xsd:int` | Filstorlek. |
-
