@@ -3,15 +3,14 @@ description: Egenskaper för en kabinettresurs.
 solution: Experience Manager
 title: CabinetInfo
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 78ec00cd-c410-412c-970f-96226563a45a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '64'
 ht-degree: 0%
 
 ---
-
 
 # CabinetInfo{#cabinetinfo}
 
@@ -30,4 +29,3 @@ Syntax
 | `*`imageFile`*` | `xsd:string` | Filnamn på det skåp som är associerat med vinjetteringen. |
 | `*`optimizedPath`*` | `xsd:string` | Sökväg till det IPS-optimerade skåpet. |
 | `*`optimizedFile`*` | `xsd:string` | IPS-optimerad kabinettfil. |
-
