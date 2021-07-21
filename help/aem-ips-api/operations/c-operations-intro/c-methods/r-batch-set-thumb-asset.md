@@ -2,16 +2,15 @@
 description: Anger miniatyrbilden för en eller flera resurser.
 solution: Experience Manager
 title: batchSetThumbAsset
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,SDK/API,Resurshantering
+role: Developer,Admin
+exl-id: f7d7ddd9-a3c3-47c4-8da6-d693851d0d7f
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
-
 
 # batchSetThumbAsset{#batchsetthumbasset}
 
@@ -85,4 +84,3 @@ Följande miniatyrresurstyper tillåts:
    <errorCount>0</errorCount>
 </batchSetThumbAssetReturn>
 ```
-
