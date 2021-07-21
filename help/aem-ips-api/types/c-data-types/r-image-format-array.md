@@ -3,15 +3,14 @@ description: Array med bildformat.
 solution: Experience Manager
 title: ImageFormatArray
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: daf6049f-24e8-4a4b-a9b3-c7f4f2e56f81
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '27'
+source-wordcount: '25'
 ht-degree: 0%
 
 ---
-
 
 # ImageFormatArray{#imageformatarray}
 
@@ -24,4 +23,3 @@ Syntax
 | Namn | Typ | Beskrivning |
 |---|---|---|
 | `*`objekt`*` | `types:ImageFormat` | Array med bildformat. |
-
