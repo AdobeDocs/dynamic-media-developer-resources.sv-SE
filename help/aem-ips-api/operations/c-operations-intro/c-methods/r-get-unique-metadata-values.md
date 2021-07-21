@@ -3,15 +3,14 @@ description: Hämtar unika metadatafältvärden.
 solution: Experience Manager
 title: getUniqueMetadataValues
 feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: ac5f5667-6c94-425c-bc01-f9df48d16e00
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '63'
 ht-degree: 0%
 
 ---
-
 
 # getUniqueMetadataValues{#getuniquemetadatavalues}
 
@@ -66,4 +65,3 @@ I det här kodexemplet används en fältreferens för att returnera specifika me
    </values>
 </getUniqueMetadataValuesReturn>
 ```
-
