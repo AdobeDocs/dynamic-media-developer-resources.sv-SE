@@ -3,15 +3,14 @@ description: Uppdatera fältmetadata.
 solution: Experience Manager
 title: updateMetadataField
 feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 67506e76-aa23-46a7-a900-03d89b4266fd
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
-
 
 # updateMetadataField{#updatemetadatafield}
 
@@ -112,4 +111,3 @@ Detta kodexempel uppdaterar tilldelar ett nytt namn och standardvärde till ett 
    <fieldHandle>m|21|IMAGE|updateMetadataField</fieldHandle>
 </updateMetadataFieldReturn>
 ```
-
