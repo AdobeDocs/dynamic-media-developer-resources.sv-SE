@@ -3,15 +3,14 @@ description: En villkorsmatris för systemfält.
 solution: Experience Manager
 title: SystemFieldConditionArray
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: bc6fd6c6-acb9-4a90-830b-e964af04abd2
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '31'
+source-wordcount: '29'
 ht-degree: 0%
 
 ---
-
 
 # SystemFieldConditionArray{#systemfieldconditionarray}
 
@@ -24,4 +23,3 @@ Syntax
 | Namn | Typ | Beskrivning |
 |---|---|---|
 | `*`objekt`*` | `types:SystemFieldConditions` | En matris med systemfältvillkor. |
-
