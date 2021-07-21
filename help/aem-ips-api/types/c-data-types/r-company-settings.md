@@ -3,17 +3,16 @@ description: Företagsspecifika konfigurationsinställningar.
 solution: Experience Manager
 title: CompanySettings
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 82e6362d-beab-47ff-bb20-11047f0d8787
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
 
-
-# Företagsinställningar{#companysettings}
+# CompanySettings{#companysettings}
 
 Företagsspecifika konfigurationsinställningar.
 
@@ -32,4 +31,3 @@ Syntax
 | `*`discSpaceWarningMin`*` | `xsd:int` | Minsta mängd ledigt utrymme i bildkatalogen innan en varning skickas ut. |
 | `*`emailTrashCleanupWarning`*` | `xsd:boolean` | Avgör om e-post ska skickas innan objekt som placeras i papperskorgen kan tas bort automatiskt. |
 | `*`javascriptUploadEnabled`*` | `types:Asset` | Avgör om JavaScript-filer ska överföras. Detta är en potentiell säkerhetsrisk, så använd detta alternativ med försiktighet. |
-
