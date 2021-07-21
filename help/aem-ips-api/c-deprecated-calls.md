@@ -3,15 +3,14 @@ title: Inaktuella anrop
 description: API-anrop för bildproduktionssystem och associerade parametrar som inte längre används i Dynamic Media.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,Admin
+exl-id: f6711780-9a96-4a61-9066-8d83316758c3
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
-
 
 # Inaktuella anrop{#deprecated-calls}
 
@@ -24,4 +23,3 @@ API-anrop för bildproduktionssystem och associerade parametrar som inte längre
 * `addMediaPortalEvent` - Borttagen från åtgärder. Med det här anropet kan du lägga till en mediaportal-händelse i IPS.
 * `getMediaPortalEvent` - Borttagen från åtgärder. Med det här anropet kan du hämta medieportalhändelser som matchar angivna villkor.
 * `getCdnCacheInvalidationStatus` - Borttagen från åtgärder. API:t är nu föråldrat eftersom API:t `cdnCacheInvalidation` gör cache nästan omedelbart ogiltig (~5 sekunder). Därför krävs inte längre avsökning för ogiltigförklaringsstatus.
-
