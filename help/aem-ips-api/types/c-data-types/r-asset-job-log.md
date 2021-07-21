@@ -2,16 +2,15 @@
 description: Information om en jobbloggpost som är associerad med en viss resurs. Data returneras av getAssetJobLogs.
 solution: Experience Manager
 title: AssetJobLog
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Resurshantering
+role: Developer,Admin
+exl-id: 2c8ebec2-a664-46cd-b843-9893bfa0a9d1
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
-
 
 # AssetJobLog{#assetjoblog}
 
@@ -67,4 +66,3 @@ Syntax
   </tr> 
  </tbody> 
 </table>
-
