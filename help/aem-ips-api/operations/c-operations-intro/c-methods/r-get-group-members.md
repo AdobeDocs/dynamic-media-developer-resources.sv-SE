@@ -3,15 +3,14 @@ description: Hämtar de användare som tillhör ett visst företag och en viss g
 solution: Experience Manager
 title: getGroupMembers
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 81af79ee-be82-439f-9f42-a1ec09cd8ea0
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
-
 
 # getGroupMembers{#getgroupmembers}
 
@@ -62,4 +61,3 @@ Detta kodexempel returnerar en användarhandtagsarray som innehåller alla anvä
    </userHandleArray>
 </getGroupMembersReturn>
 ```
-
