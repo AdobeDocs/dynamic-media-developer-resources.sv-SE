@@ -3,12 +3,11 @@ description: Beskriver nya och ändrade operationsmetoder för IPS API version 4
 solution: Experience Manager
 title: Nya och ändrade åtgärder
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: f51bb85e-5585-49ad-87c6-57c5e62531c7
-translation-type: tm+mt
-source-git-commit: e7c747c44d27ed1769ab872d962a814d80c0b345
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '43'
 ht-degree: 0%
 
 ---
