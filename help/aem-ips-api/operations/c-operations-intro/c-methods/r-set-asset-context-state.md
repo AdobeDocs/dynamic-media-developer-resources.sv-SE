@@ -2,16 +2,15 @@
 description: Ange eller uppdatera publiceringsläget för en eller flera resurser. Du kan ange separata publiceringstillstånd för varje publiceringskontext i ett företag.
 solution: Experience Manager
 title: setAssetsContextState
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Resurshantering
+role: Developer,Admin
+exl-id: 28d0a67b-3e36-43fc-800d-17c841dca3a0
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
-
 
 # setAssetsContextState{#setassetscontextstate}
 
@@ -116,4 +115,3 @@ I det här kodexemplet anges publiceringsstatus för en resurs med `NotMarkedFor
   <errorCount>0</errorCount>
 </setAssetsContextStateReturn>
 ```
-
