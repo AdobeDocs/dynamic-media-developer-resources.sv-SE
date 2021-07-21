@@ -2,16 +2,15 @@
 description: Hämtar en array med medlemmar som finns i en bilduppsättning.
 solution: Experience Manager
 title: getImageSetMembers
-feature: Dynamic Media Classic,SDK/API,Image Sets
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Bilduppsättningar
+role: Developer,Admin
+exl-id: 29ceef8b-127f-4460-8623-c3e26c959327
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
-
 
 # getImageSetMembers{#getimagesetmembers}
 
@@ -69,4 +68,3 @@ Detta kodexempel returnerar specifika bilduppsättningsmedlemmar. Svaret returne
    <memberArray></memberArray>
 </getImageSetMembersReturn>
 ```
-
