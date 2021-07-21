@@ -3,15 +3,14 @@ description: Skapa ett nytt bildschema eller redigera ett befintligt.
 solution: Experience Manager
 title: saveImageMap
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 91e40549-9b26-41f2-a3ab-7e9bec8f9ba7
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
-
 
 # saveImageMap{#saveimagemap}
 
@@ -135,4 +134,3 @@ I det här kodexemplet skapas ett nytt bildschema för en resurs. Den använder 
    <imageMapHandle>34191|8|554</imageMapHandle> 
 </saveImageMapReturn>
 ```
-
