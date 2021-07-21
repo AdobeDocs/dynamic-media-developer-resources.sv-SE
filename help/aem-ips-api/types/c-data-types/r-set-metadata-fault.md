@@ -3,15 +3,14 @@ description: Varnings- eller felinformation för en signeringsuppdatering i en b
 solution: Experience Manager
 title: SetMetadataFault
 feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 49c6f355-4b5f-4b98-9a58-5732d56fdccb
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '64'
 ht-degree: 0%
 
 ---
-
 
 # SetMetadataFault{#setmetadatafault}
 
@@ -27,4 +26,3 @@ Syntax
 | `*`fieldHandle`*` | `xsd:string` | Referensen till metadatafältet vars värde inte kunde anges. |
 | `*`kod`*` | `xsd:int` | Felkod. |
 | `*`orsak`*` | `xsd:string` | Felbeskrivning (oformaterad text). |
-
