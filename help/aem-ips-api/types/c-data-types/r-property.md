@@ -3,15 +3,14 @@ description: Ett namn- och värdepar.
 solution: Experience Manager
 title: Egenskap
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 7c7675e5-d85c-4320-8b7a-a49af24ac4ff
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '30'
+source-wordcount: '28'
 ht-degree: 3%
 
 ---
-
 
 # Egenskap{#property}
 
@@ -25,4 +24,3 @@ Syntax
 |---|---|---|
 | `*`name`*` | `xsd:string` | Egenskapsnamn. |
 | `*`value`*` | `xsd:string` | Egenskapsvärde. |
-
