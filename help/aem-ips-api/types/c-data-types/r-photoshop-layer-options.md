@@ -3,15 +3,14 @@ description: Alternativ för bildlager i Photoshop.
 solution: Experience Manager
 title: PhotoshopLayerOptions
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: fae60e86-6ec5-4f19-a76f-7d179dfb5dba
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '60'
 ht-degree: 0%
 
 ---
-
 
 # PhotoshopLayerOptions{#photoshoplayeroptions}
 
@@ -28,4 +27,3 @@ Syntax
 | `*`createTemplate`*` | `xsd:boolean` | Om en mall ska skapas från Photoshop-lager. |
 | `*`extractText`*` | `xsd:boolean` | Om text ska extraheras som textlager. |
 | `*`extendLayers`*` | `xsd:boolean` | Anger om lager ska utökas till hela bakgrundens storlek. |
-
