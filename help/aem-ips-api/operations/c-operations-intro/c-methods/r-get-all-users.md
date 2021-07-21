@@ -3,15 +3,14 @@ description: Hämtar alla användare i en array.
 solution: Experience Manager
 title: getAllUsers
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: db1fd5c9-80f5-463a-870f-be3e38c21bab
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
-
 
 # getAllUsers{#getallusers}
 
@@ -90,4 +89,3 @@ Detta kodexempel returnerar alla användare. Svaret kortas av för att vara kort
    </ns1:userArray>
 <ns1:getAllUsersReturn>
 ```
-
