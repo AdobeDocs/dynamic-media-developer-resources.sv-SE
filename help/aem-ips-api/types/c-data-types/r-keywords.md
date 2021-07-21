@@ -3,15 +3,14 @@ description: Nyckelord
 solution: Experience Manager
 title: Nyckelord
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 5eb9ca70-5971-412d-92d1-4e9898d556fd
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '46'
 ht-degree: 2%
 
 ---
-
 
 # Nyckelord{#keywords}
 
@@ -27,4 +26,3 @@ Syntax
 | `*`y`*` | `xsd:int` | Nyckelordsposition på y-axeln (i pixlar). |
 | `*`width`*` | `xsd:int` | Nyckelordsbredd i pixlar. |
 | `*`height`*` | `xsd:int` | Nyckelordshöjd i pixlar. |
-
