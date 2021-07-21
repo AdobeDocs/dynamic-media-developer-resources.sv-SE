@@ -3,15 +3,14 @@ description: Användardefinierade fältdefinitioner för specifika resurser.
 solution: Experience Manager
 title: MetadataField
 feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 97175076-9078-4bc4-b3ea-73c3ea772f6a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
-
 
 # MetadataField{#metadatafield}
 
@@ -77,4 +76,3 @@ Hämta taggfältsdefinitioner med åtgärderna `getMetadataFields` eller `getAss
   </tr> 
  </tbody> 
 </table>
-
