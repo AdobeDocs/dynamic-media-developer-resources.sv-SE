@@ -2,16 +2,15 @@
 description: Uppdaterar en bilduppsättning.
 solution: Experience Manager
 title: updateImageSet
-feature: Dynamic Media Classic,SDK/API,Image Sets
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Bilduppsättningar
+role: Developer,Admin
+exl-id: d8d5fb80-17f1-424f-8a61-27189f87d603
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
-
 
 # updateImageSet{#updateimageset}
 
@@ -67,4 +66,3 @@ Syntax
 ```java
 <updateImageSetReturn xmlns="http://www.scene7.com/IpsApi/xsd/2014-04-03"/>
 ```
-
