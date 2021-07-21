@@ -3,15 +3,14 @@ description: Hämtar information om en företagsjobblogg.
 solution: Experience Manager
 title: getJobLogDetails
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: d2e4eea6-041b-4a80-beda-cbb8d74cd50b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
-
 
 # getJobLogDetails{#getjoblogdetails}
 
@@ -152,4 +151,3 @@ Detta kodexempel returnerar alla jobbloggsdetaljer för ett visst företag. Den 
    </jobLogArray>
 </getJobLogDetailsReturn>
 ```
-
