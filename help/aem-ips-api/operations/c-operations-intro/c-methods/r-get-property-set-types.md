@@ -3,15 +3,14 @@ description: Hämtar egenskapsuppsättningstyperna som är associerade med det a
 solution: Experience Manager
 title: getPropertySetTypes
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 7686d30b-e071-4950-8af1-4dd25312ce4b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
-
 
 # getPropertySetTypes{#getpropertysettypes}
 
@@ -92,4 +91,3 @@ Syntax
   </typeArray>
 </getPropertySetTypesReturn>
 ```
-
