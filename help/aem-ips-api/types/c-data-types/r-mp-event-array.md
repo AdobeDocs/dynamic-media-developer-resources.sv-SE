@@ -3,15 +3,14 @@ description: En array med MediaPortal-händelser.
 solution: Experience Manager
 title: MPEventArray
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 6af68714-bdba-485c-89c4-51b79d93405a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '28'
+source-wordcount: '26'
 ht-degree: 0%
 
 ---
-
 
 # MPEventArray{#mpeventarray}
 
@@ -24,4 +23,3 @@ Syntax
 | Namn | Typ | Beskrivning |
 |---|---|---|
 | `*`objekt`*` | `types:MPEvent` | MediaPortal-händelsematris. |
-
