@@ -3,15 +3,14 @@ description: Används av IccProfileFieldUpdate/class.
 solution: Experience Manager
 title: Profilklasser
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 9c6b59a2-bf26-4032-a963-d29268d0a0f8
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '21'
+source-wordcount: '19'
 ht-degree: 0%
 
 ---
-
 
 # Profilklasser{#profile-classes}
 
@@ -28,4 +27,3 @@ Syntax
 * [!DNL `ColorSpaceConversion`]
 * [!DNL `Abstract`]
 * [!DNL `NamedColor`]
-
