@@ -3,15 +3,14 @@ description: Hämtar en användares medlemskap i en företagsmatris.
 solution: Experience Manager
 title: getCompanyMembership
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 53af8a97-208c-4c44-93d6-aa36a459af51
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
-
 
 # getCompanyMembership{#getcompanymembership}
 
@@ -73,4 +72,3 @@ Det här kodexemplet tar en användarreferens och hämtar alla användarens för
     </membershipArray>
 </getCompanyMembershipReturn>
 ```
-
