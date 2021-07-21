@@ -2,18 +2,17 @@
 description: Skapar en generisk resursuppsättning med en råuppsättningsdefinitionssträng som ska publiceras på en Image Server.
 solution: Experience Manager
 title: createAssetSet
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,SDK/API,Resurshantering
+role: Developer,Admin
+exl-id: 4565eb4f-eeb7-4b98-bfef-1a59e9a931af
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
 
-
-# createAsset{#createassetset}
+# createAssetSet{#createassetset}
 
 Skapar en generisk resursuppsättning med en råuppsättningsdefinitionssträng som ska publiceras på en Image Server.
 
@@ -135,4 +134,3 @@ jcompany/myRenderSet;jcompany/myRenderSet;1,jcompany/Videos/Somebodys_N08275_flv
    <assetHandle>a|1801|44|1801</assetHandle> 
 </createAssetSetReturn>
 ```
-
