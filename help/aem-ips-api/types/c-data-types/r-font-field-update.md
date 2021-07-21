@@ -3,15 +3,14 @@ description: Uppdatera information för teckensnittsegenskaper.
 solution: Experience Manager
 title: FontFieldUpdate
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 9e7b90d6-78da-48ff-8dff-9def3c32e3bc
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '62'
 ht-degree: 0%
 
 ---
-
 
 # FontFieldUpdate{#fontfieldupdate}
 
@@ -31,4 +30,3 @@ Syntax
 | `*`style`*` | `xsd:string` | Teckensnittsformat (se Teckensnittsformat för värden). |
 | `*`typeName`*` | `xsd:string` | Typnamn för teckensnitt. |
 | `*`type`*` | `xsd:string` | Teckensnittstyp (se Teckensnittstyper för värden). |
-
