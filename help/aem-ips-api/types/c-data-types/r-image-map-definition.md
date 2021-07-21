@@ -3,15 +3,14 @@ description: Måldefinition för en klickåtgärd i webbläsaren.
 solution: Experience Manager
 title: ImageMapDefinition
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 58478e7c-e3a1-4dd5-8ff9-e9752301b93c
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '77'
 ht-degree: 1%
 
 ---
-
 
 # ImageMapDefinition{#imagemapdefinition}
 
@@ -28,4 +27,3 @@ Syntax
 | `*`region`*` | `xsd:string` | Koordinater för bildschema. Formatet baseras på HTML-taggattributen `<area>`. |
 | `*`åtgärd`*` | `xsd:string` | Andra attribut som ska tas med i HTML-taggen `<area>`, inklusive URL:en `href`. |
 | `*`aktiverad`*` | `xsd:boolean` | True om bildschemat är aktiverat. |
-
