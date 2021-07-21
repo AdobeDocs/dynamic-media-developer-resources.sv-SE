@@ -3,17 +3,16 @@ description: FöretagMedlemskap
 solution: Experience Manager
 title: FöretagMedlemskap
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 10a1cd09-5cd8-48e6-93cf-da8d04d9941a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '28'
+source-wordcount: '26'
 ht-degree: 0%
 
 ---
 
-
-# CompanyMembership{#companymembership}
+# FöretagMedlemskap{#companymembership}
 
 Syntax
 
@@ -24,4 +23,3 @@ Syntax
 | `*`företag`*` | `types:Company` |  |
 | `*`roll`*` | `xsd:string` |  |
 | `*`isActive`*` | `xsd:boolean` | Anger användarens status för varje företag de tillhör. |
-
