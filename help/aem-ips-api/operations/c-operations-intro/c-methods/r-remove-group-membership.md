@@ -3,15 +3,14 @@ description: Tar bort användare från en array med grupper.
 solution: Experience Manager
 title: removeGroupMembership
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 892ee01c-e07b-4321-b0b7-5bb606036340
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
-
 
 # removeGroupMembership{#removegroupmembership}
 
