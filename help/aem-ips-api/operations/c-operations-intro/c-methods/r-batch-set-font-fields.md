@@ -3,15 +3,14 @@ description: Anger metadatafält för teckensnitt.
 solution: Experience Manager
 title: batchSetFontFields
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Admin
+exl-id: f38aa861-2a81-4663-967e-72611122f51b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
-
 
 # batchSetFontFields{#batchsetfontfields}
 
@@ -74,4 +73,3 @@ Anger metadatafält för teckensnitt.
    <errorCount>0</errorCount>
 </batchSetFontFieldsReturn>
 ```
-
