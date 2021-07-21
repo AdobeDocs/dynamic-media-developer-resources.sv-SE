@@ -3,15 +3,14 @@ description: Egenskaper för en vattenstämpelresurs.
 solution: Experience Manager
 title: Vattenstämpelinformation
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 38821d96-d0d2-4f3b-9c31-15d6a8d66e9e
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '34'
+source-wordcount: '32'
 ht-degree: 0%
 
 ---
-
 
 # Vattenstämpelinformation{#watermarkinfo}
 
@@ -26,4 +25,3 @@ Syntax
 | `*`url`*` | `xsd:string` | URL för bildserver som representerar mallen. |
 | `*`urlModifier`*` | `xsd:string` |  |
 | `*`urlPostApplyModifier`*` | `xsd:string` |  |
-
