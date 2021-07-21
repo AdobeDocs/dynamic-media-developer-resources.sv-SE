@@ -3,15 +3,14 @@ description: Lägger till nya taggvärden i ordlistan för ett befintligt taggf�
 solution: Experience Manager
 title: addTagFieldValues
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,Admin
+exl-id: 099263e4-8214-46eb-898e-7a28c4f25598
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
-
 
 # addTagFieldValues{#addtagfieldvalues}
 
