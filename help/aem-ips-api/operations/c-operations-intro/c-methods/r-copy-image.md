@@ -3,15 +3,14 @@ description: Skapar en kopia av en befintlig bildresurs. De angivna Image Server
 solution: Experience Manager
 title: copyImage
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Admin
+exl-id: 059ebbca-2341-444b-850a-1ec9582692ec
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
-
 
 # copyImage{#copyimage}
 
@@ -119,4 +118,3 @@ Exempelkoden kopierar en bild som anges av företag, resurs, mappreferens och na
    <assetHandle>a|943|1|580</assetHandle>
 </copyImageReturn>
 ```
-
