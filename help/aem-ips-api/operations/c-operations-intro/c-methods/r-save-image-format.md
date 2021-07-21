@@ -3,15 +3,14 @@ description: Skapar ett bildformat.
 solution: Experience Manager
 title: saveImageFormat
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: cafbd715-237b-4454-920e-643f0c84e208
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
-
 
 # saveImageFormat{#saveimageformat}
 
@@ -68,4 +67,3 @@ I det här kodexemplet skapas ett bildformat. I det här exemplet bestämdes `ur
    <imageFormatHandle>47|301</imageFormatHandle> 
 </saveImageFormatReturn>
 ```
-
