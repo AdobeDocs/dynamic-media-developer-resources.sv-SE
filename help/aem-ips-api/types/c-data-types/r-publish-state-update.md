@@ -3,15 +3,14 @@ description: Parametrar som används för att uppdatera publiceringstillståndet
 solution: Experience Manager
 title: PublishStateUpdate
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: b1767e3c-7e77-44a3-9bd2-e7d7587c014f
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '41'
+source-wordcount: '39'
 ht-degree: 0%
 
 ---
-
 
 # PublishStateUpdate{#publishstateupdate}
 
@@ -25,4 +24,3 @@ Syntax
 |---|---|---|
 | `*`assetHandle`*` | `xsd:string` | Resurshandtag. |
 | `*`publishState`*` | `xsd:string` | Nytt publiceringstillstånd. |
-
