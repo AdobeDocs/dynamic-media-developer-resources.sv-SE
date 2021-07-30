@@ -5,7 +5,7 @@ title: Nya och ändrade åtgärder
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9033328a-d0ce-4ef2-b6ec-c6a81fbedf9d
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: d2e73ae5f92d9ba3471dc7207842753ccff94c28
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 0%
@@ -38,11 +38,7 @@ Syntax
 ## Ändrade åtgärder {#section-1c022cc62d274c349837013f1c02ca51}
 
 * `Asset` innehåller  `animatedGifInfo`,  `swcInfo`,  `cssInfo`och  `javascriptInfo` parametrar.
-
 * `createMetadataField` innehåller en valfri  `isHidden` parameter.
-
 * `saveMetadataField` innehåller en valfri  `isHidden` parameter.
-
 * `searchAssets`
-* 
 * Parametern `renameFiles` har tagits bort för tidigare versioner och tagits bort från åtgärden `renameAsset`. Sökvägen för den virtuella filen ändras så att den matchar det nya resursnamnet (med filtillägget bevarat), medan sökvägarna för fysiska filer inte påverkas. API-klienter måste ta bort referenser till den här parametern när de uppdaterar till den nya API-versionen.
