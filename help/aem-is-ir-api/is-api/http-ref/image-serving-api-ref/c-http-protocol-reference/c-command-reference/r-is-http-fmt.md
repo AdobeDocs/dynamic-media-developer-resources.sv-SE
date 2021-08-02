@@ -5,9 +5,9 @@ title: fmt
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 9d86f2acad638cbbcb80b48ead73443c76c895a9
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -22,33 +22,33 @@ Svarsbildformat.
 
 | *`format`* | Beskrivning |
 |---|---|
-| `avif-alpha` | Förstörande och förlustfri AVIF med alfakanal <br><br>*Versionstidslinje för detta format:* <br><b>Nordamerika</b> - Tillgänglig nu<br><b>Europa, Mellanöstern, Afrika</b> - 13 augusti 2021<br><b>Asien-Stillahavsområdet</b> - Tillgänglig nu |
-| `avif` | Förstörande och förlustfri AVIF <br><br>*Tidslinje för lansering av detta format:*<br><b> Nordamerika</b> - Tillgänglig nu<br><b>Europa, Mellanöstern, Afrika</b> - 13 augusti 2021<br><b>Asien-Stillahavsområdet</b> - Tillgänglig nu |
-| `eps` | Okomprimerad binär kapslad PostScript |
-| `f4m` | Manifestformat för Flash Streaming Server |
-| `gif-alpha` | GIF med 2 till 255 färger plus genomskinlighet för nyckelfärger |
-| `gif` | GIF med 2 till 256 färger |
-| `jpeg` | Förstörande JPEG |
-| `jpeg2000-alpha` | Förstörande och förlustfri JPEG 2000 med alfakanal |
-| `jpeg2000` | Förstörande och förlustfri JPEG 2000 |
-| `jpegxr-alpha` | Förstörande och förlustfri JPEG XR med alfakanal |
-| `jpegxr` | Förstörande och förlustfri JPEG XR |
-| `jpg` | Förstörande JPG |
-| `m3u8` | Manifestformat för Apple Streaming Server |
-| `pdf` | Bild inbäddad i PDF |
-| `pjpeg` | Progressiv JPEG |
-| `png-alpha` | 24-bitars förlustfri PNG med alfakanal |
-| `png` | 24-bitars förlustfri PNG |
-| `png8-alpha` | 8-bitars förlustfri PNG med alfakanal |
-| `png8` | 8-bitars förlustfri PNG |
-| `swf-alpha` | Förstörande JPEG och en dekomprimerad mask som är inbäddad i en Adobe AS2-swf-fil |
-| `swf` | Förstörande JPEG inbäddad i en Adobe AS2-swf-fil |
-| `swf3-alpha` | Förstörande JPEG och en dekomprimerad mask som är inbäddad i en Adobe AS3-swf-fil. **Obs! Formaten** swf och swf-alpha används bäst för program i ActionScript 2 (Flash Player 8 och tidigare). Formaten swf3 och swf3-alpha rekommenderas för ActionScript3-program (Flash Player 9 och senare) |
-| `swf3` | Förstörande JPEG inbäddad i en Adobe AS3 swf-fil |
-| `tif-alpha` | TIFF med alfakanal |
-| `tif` | TIFF |
-| `webp-alpha` | Förstörande och icke-förstörande WebP med alfakanal |
-| `webp` | Förstörande och förlustfri WebP |
+| `avif-alpha` | Förstörande och förlustfri AVIF med alfakanal. |
+| `avif` | Förstörande och förlustfri AVIF. |
+| `eps` | Okomprimerad binär Encapsulated PostScript. |
+| `f4m` | Manifestformat för Flash Streaming Server. |
+| `gif-alpha` | GIF med 2 till 255 färger plus genomskinlighet för nyckelfärger. |
+| `gif` | GIF med 2 till 256 färger. |
+| `jpeg` | Förstörande JPEG. |
+| `jpeg2000-alpha` | Förstörande och förlustfri JPEG 2000 med alfakanal. |
+| `jpeg2000` | Förstörande och förlustfri JPEG 2000. |
+| `jpegxr-alpha` | Förstörande och förlustfri JPEG XR med alfakanal. |
+| `jpegxr` | Förstörande och förlustfri JPEG XR. |
+| `jpg` | Förstörande JPG. |
+| `m3u8` | Manifestformat för Apple Streaming Server. |
+| `pdf` | Bild inbäddad i PDF-format. |
+| `pjpeg` | Progressiv JPEG. |
+| `png-alpha` | 24-bitars förlustfri PNG med alfakanal. |
+| `png` | 24-bitars förlustfri PNG. |
+| `png8-alpha` | 8-bitars förlustfri PNG med alfakanal. |
+| `png8` | 8-bitars förlustfri PNG. |
+| `swf-alpha` | Förstörande JPEG och en dekomprimerad mask som är inbäddad i en Adobe AS2-swf-fil. |
+| `swf` | Förstörande JPEG inbäddad i en Adobe AS2-swf-fil. |
+| `swf3-alpha` | Förstörande JPEG och en dekomprimerad mask som är inbäddad i en Adobe AS3-swf-fil. **Obs! Formaten** swf och swf-alpha används bäst för program i ActionScript 2 (Flash Player 8 och tidigare). Formaten swf3 och swf3-alpha rekommenderas för ActionScript3-program (Flash Player 9 och senare). |
+| `swf3` | Förstörande JPEG inbäddad i en Adobe AS3-swf-fil. |
+| `tif-alpha` | TIFF med alfakanal. |
+| `tif` | TIFF. |
+| `webp-alpha` | Förstörande och förlustfri WebP med alfakanal. |
+| `webp` | Förstörande och förlustfri WebP. |
 
 | *`pixelType`* - rgb | grå | cmyk |
 | *`pixelType`* | Beskrivning |
@@ -60,12 +60,12 @@ Svarsbildformat.
 | *`compression`* - ingen | lzw | zip | jpeg | förstörande | förlustfri |
 | *`compression`* | Beskrivning |
 |---|---|
-| `jpeg` | JPEG-komprimering (förstörande) |
-| `lossy` | WebP-, JPEG 2000- och JPEG XR-komprimering (förstörande) |
-| `lossless` | WebP-, JPEG 2000- och JPEG XR-komprimering (icke-förstörande) |
-| `lzw` | LZW-komprimering (icke-förstörande) |
-| `none` | Okomprimerad |
-| `zip` | &quot;Deflate&quot;-komprimering (icke-förstörande) |
+| `jpeg` | JPEG-komprimering (förstörande). |
+| `lossy` | WebP-, JPEG 2000- och JPEG XR-komprimering (förstörande). |
+| `lossless` | WebP-, JPEG 2000- och JPEG XR-komprimering (icke-förstörande). |
+| `lzw` | LZW-komprimering (icke-förstörande) (Lempel-Ziv-Welch). |
+| `none` | Okomprimerad. |
+| `zip` | &quot;Deflate&quot;-komprimering (icke-förstörande). |
 
 * *`format`* anger bildkodningsformatet för bilddata som skickas till klienten och motsvarande MIME-svarstyp för HTTP-svarshuvudet.
 * *`pixelType`* kan användas för att påverka konvertering av färgrymd för utdata när  `icc=` inte har angetts.
