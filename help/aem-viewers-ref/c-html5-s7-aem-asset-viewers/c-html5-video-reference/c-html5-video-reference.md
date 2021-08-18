@@ -1,21 +1,21 @@
 ---
-description: Video Viewer är en videospelare som spelar upp strömmande och progressiv video som är kodad i H.264-format. Den levereras från Dynamic Media Classic eller AEM Dynamic Media.
+description: Video Viewer är en videospelare som spelar upp strömmande och progressiv video som är kodad i H.264-format. Den levereras från Dynamic Media Classic eller Adobe Experience Manager med Dynamic Media.
 keywords: responsiv
 solution: Experience Manager
 title: Video
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Video
 role: Developer,User
 exl-id: fa9727dc-f9e2-4d91-b500-445693dfb6aa
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: f77dc0c1ac8305037bbb561451317c8e62209cec
 workflow-type: tm+mt
-source-wordcount: '2388'
+source-wordcount: '2379'
 ht-degree: 0%
 
 ---
 
 # Video{#video}
 
-Video Viewer är en videospelare som spelar upp strömmande och progressiv video som är kodad i H.264-format. Den levereras från Dynamic Media Classic eller AEM Dynamic Media.
+Video Viewer är en videospelare som spelar upp strömmande och progressiv video som är kodad i H.264-format. Den levereras från Dynamic Media Classic eller Experience Manager med Dynamic Media.
 
 Se [Systemkrav och krav](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
@@ -47,7 +47,7 @@ På enheter med pekskärm döljs volymkontrollen från användargränssnittet ef
 
 När visningsprogrammet körs i popup-läge är knappen för helskärm inte tillgänglig i användargränssnittet.
 
-Det går att navigera snabbt i innehållet i en video när videofiltreringen är aktiverad. Videokameror visas som markörer i videonavigeringsspåret och kapiteltiteln och tillhörande beskrivning visas när du för musen över eller med ett tryck på pekskärmssystem. Användarna kan söka efter ett visst kapitel genom att klicka på en kapitelmarkör eller knacka på kapitelbeskrivningsbubblan.
+Det går att navigera snabbt i innehållet i en video när videokapitlet är aktiverat. Videokameror visas som markörer i videonavigeringsspåret och kapiteltiteln och tillhörande beskrivning visas när du för musen över eller med en enda tryckning på pekskärmssystem. Användarna kan söka efter ett visst kapitel genom att markera en kapitelmarkör eller välja kapitelbeskrivningsbubblan.
 
 Visningsprogrammet stöder både pekrörelser och musindata på Windows-enheter med pekskärm och mus. Detta stöd är dock begränsat till webbläsarna Chrome, Internet Explorer 11 och Edge.
 
@@ -57,7 +57,7 @@ Se [Tangentbordstillgänglighet och -navigering](../../c-keyboard-accessibility.
 
 ## Delningsverktyg för sociala medier med Video Viewer {#section-907d316fe1da4b87abb9775f02464704}
 
-Video Viewer har stöd för verktyg för delning via sociala medier. De är tillgängliga som en enda knapp i användargränssnittet, som utökas till ett delningsverktygsfält när användaren klickar eller trycker på det.
+Video Viewer stöder verktyg för delning via sociala medier. De är tillgängliga som en enda knapp i användargränssnittet, som utökas till ett delat verktygsfält när användaren klickar eller trycker på det.
 
 Verktygsfältet för delning innehåller en ikon för varje typ av delningskanal som stöds, till exempel Facebook, Twitter, e-postdelning, inbäddning av koddelning och länkdelning. När verktygen för e-postdelning, inbäddning eller länkdelning är aktiverade visas en modal dialogruta med ett motsvarande inmatningsformulär. När Facebook eller Twitter anropas dirigeras användaren om till en standarddelningsdialogruta från en tjänst för sociala medier. När ett delningsverktyg aktiveras pausas videouppspelningen automatiskt.
 
@@ -67,7 +67,7 @@ Delningsverktygen är inte tillgängliga i helskärmsläge på grund av säkerhe
 
 Olika webbsidor har olika behov av visningsprogrammets beteende. Ibland innehåller en webbsida en länk som öppnar visningsprogrammet i ett separat webbläsarfönster när användaren klickar på den. I andra fall måste du bädda in visningsprogrammet direkt på värdsidan. I det senare fallet kan webbsidan ha en statisk sidlayout, eller använda responsiv design som visas på olika enheter eller för olika webbläsarfönsterstorlekar. För att tillgodose dessa behov har visningsprogrammet stöd för tre primära åtgärdslägen: popup, inbäddning i fast storlek och responsiv designinbäddning.
 
-Det går att bädda in flera videor på samma sida på både surfplattor och mobila enheter. I de flesta fall kan bara en video spelas upp i taget. När en användare börjar spela upp en video och sedan försöker spela upp en annan, pausas den första videon automatiskt. Videon som pausades automatiskt kommer ihåg den aktuella uppspelningstiden, så att användaren alltid kan återgå till den och återuppta uppspelningen. Det enda undantaget som den här regeln gäller är i Chrome-webbläsaren på Android 4.x-enheter, som kan spela upp videor parallellt.
+Det går att bädda in flera videor på samma sida på både surfplattor och mobila enheter. Vanligtvis kan du bara spela upp en video i taget. När en användare börjar spela upp en video och sedan försöker spela upp en annan, pausas den första videon automatiskt. Videon som pausades automatiskt kommer ihåg den aktuella uppspelningstiden, så att användaren alltid kan återgå till den och återuppta uppspelningen. Det enda undantaget som den här regeln gäller är webbläsaren Chrome på Android™ 4.x-enheter, som kan spela upp videor parallellt.
 
 **Om popup-läge**
 
@@ -91,13 +91,13 @@ Följande är ett exempel på HTML-kod som öppnar visningsprogrammet i ett nytt
 
 I det inbäddade läget läggs visningsprogrammet till på den befintliga webbsidan, som kanske redan har kundinnehåll som inte är relaterat till visningsprogrammet. Visningsprogrammet upptar normalt bara en del av webbsidans fastighet.
 
-Det primära användningsområdet är webbsidor som är orienterade för datorer eller surfplattor, och även responsiva designsidor som automatiskt anpassar layouten beroende på enhetstyp.
+De viktigaste användningsområdena är webbsidor som är orienterade för datorer eller surfplattor, och även responsiva designsidor som automatiskt anpassar layouten beroende på enhetstyp.
 
 Inbäddning med fast storlek används när visningsprogrammet inte ändrar sin storlek efter den första inläsningen. Det här alternativet är bäst för webbsidor som har en statisk sidlayout.
 
-Inbäddning av responsiv design förutsätter att visningsprogrammet kan behöva ändra storlek vid körning som svar på storleksändringen av behållaren `DIV`. Det vanligaste användningsområdet är att lägga till visningsprogrammet på en webbsida som använder en flexibel sidlayout.
+Inbäddning av responsiv design förutsätter att visningsprogrammet måste ändra storlek vid körning som svar på storleksändringen för dess behållare `DIV`. Det vanligaste användningsområdet är att lägga till visningsprogrammet på en webbsida som använder en flexibel sidlayout.
 
-I läget responsiv designinbäddning beter sig visningsprogrammet olika beroende på hur webbsidan ändrar storlek på sin behållare `DIV`. Om webbsidan bara anger bredden på behållaren `DIV`, och dess höjd inte begränsas, väljer visningsprogrammet automatiskt höjden enligt proportionerna för den resurs som används. Den här metoden ser till att resursen passar perfekt in i vyn utan utfyllnad på sidorna. Det här användningsexemplet är det vanligaste för webbsidor som använder ett responsivt designlayoutramverk som Bootstrap, Foundation och så vidare.
+I läget responsiv designinbäddning beter sig visningsprogrammet olika beroende på hur webbsidan ändrar storlek på sin behållare `DIV`. Om webbsidan bara anger bredden på behållaren `DIV`, och dess höjd inte begränsas, väljer visningsprogrammet automatiskt höjden enligt proportionerna för den resurs som används. Den här metoden ser till att resursen passar perfekt in i vyn utan utfyllnad på sidorna. Det här användningsexemplet är det vanligaste för webbsidor som använder ett responsivt designlayoutramverk som Bootstrap eller Foundation.
 
 Om webbsidan ställer in både bredd och höjd för visningsprogrammets behållare `DIV` fyller visningsprogrammet bara det området och följer den storlek som anges i webbsidans layout. Ett bra exempel är att bädda in visningsprogrammet i en modal övertäckning, där storleken på övertäckningen anpassas efter storleken på webbläsarfönstret.
 
@@ -126,7 +126,7 @@ Relativ sökväg ser ut så här:
 
 >[!NOTE]
 >
->Du bör bara referera till JavaScript-filen `include` för huvudvisningsprogrammet på sidan. Du bör inte referera till några ytterligare JavaScript-filer i webbsideskoden som kan hämtas av visningsprogrammets logik under körningen. Referera inte direkt till HTML5 SDK `Utils.js`-biblioteket som läses in av visningsprogrammet från kontextsökvägen `/s7viewers` (s.k. konsoliderad SDK `include`). Orsaken är att platsen för `Utils.js` eller liknande visningsprogrambibliotek för miljön hanteras helt av visningsprogrammets logik och platsen ändras mellan visningsprogramversioner. Adobe sparar inte äldre versioner av sekundära visningsprogram `includes` på servern.
+>Referera bara till JavaScript-filen `include` för huvudvisningsprogrammet på sidan. Referera inte till några ytterligare JavaScript-filer i webbsideskoden som kan hämtas av visningsprogrammets logik under körning. Referera inte direkt till HTML5 SDK `Utils.js`-biblioteket som läses in av visningsprogrammet från kontextsökvägen `/s7viewers` (s.k. konsoliderad SDK `include`). Orsaken är att platsen för `Utils.js` eller liknande visningsprogrambibliotek för miljön hanteras helt av visningsprogrammets logik och platsen ändras mellan visningsprogramversioner. Adobe sparar inte äldre versioner av sekundära visningsprogram `includes` på servern.
 >
 >
 >Det innebär att om du skickar en direkt referens till ett sekundärt JavaScript `include` som används av visningsprogrammet på sidan så bryts visningsprogrammets funktioner i framtiden när en ny produktversion distribueras.
@@ -149,7 +149,7 @@ Relativ sökväg ser ut så här:
 
    Du kan ställa in den statiska storleken för visningsprogrammet genom att antingen deklarera den för CSS-klassen `.s7videoviewer` på den översta nivån i absoluta enheter, eller genom att använda modifieraren `stagesize`.
 
-   Storleksändring i CSS kan placeras direkt på HTML-sidan eller i en anpassad CSS-fil för visningsprogrammet, som senare tilldelas till en post för visningsförinställningar i Dynamic Media Classic eller skickas explicit med ett formatkommando.
+   Du kan lägga in storleksändring i CSS direkt på HTML-sidan eller i en anpassad CSS-fil för visningsprogrammet. Den tilldelas senare till en post för visningsförinställningar i Dynamic Media Classic eller skickas explicit med ett formatkommando.
 
    Mer information om hur du formaterar visningsprogrammet med CSS finns i [Anpassa visningsprogrammet för video](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e).
 
@@ -162,7 +162,7 @@ Relativ sökväg ser ut så här:
    }
    ```
 
-   Du kan ställa in modifieraren `stagesize` antingen i posten för visningsförinställningar i Dynamic Media Classic, eller skicka den explicit med initieringskoden för visningsprogrammet med samlingen `params`, eller som ett API-anrop enligt beskrivningen i referensavsnittet för kommandon, som i följande:
+   Du kan ange modifieraren `stagesize` antingen i posten för visningsförinställningar i Dynamic Media Classic, eller skicka den explicit med initieringskoden för visningsprogrammet med samlingen `params`. Eller som ett API-anrop enligt beskrivningen i kommandoreferensavsnittet, som i följande:
 
    ```
    videoViewer.setParam("stagesize", "640,480");
@@ -176,7 +176,7 @@ Relativ sökväg ser ut så här:
 
    Det är viktigt att lägga till visningsprogrambehållaren i DOM så att visningsprogramkoden kan hitta behållarelementet med dess ID. I vissa webbläsare fördröjs skapandet av DOM tills webbsidan är slut. För maximal kompatibilitet anropar du metoden `init()` precis före den avslutande `BODY`-taggen eller på body-händelsen `onload()`.
 
-   Samtidigt bör behållarelementet inte nödvändigtvis vara en del av webbsidans layout just nu. Det kan till exempel vara dolt med `display:none`-format som tilldelats det. I det här fallet skjuter visningsprogrammet upp initieringsprocessen tills webbsidan återför behållarelementet till layouten. När detta inträffar återgår visningsprogrammet automatiskt.
+   Samtidigt behöver behållarelementet inte nödvändigtvis vara en del av webbsidans layout ännu. Det kan till exempel vara dolt med `display:none`-format som tilldelats det. I det här fallet skjuter visningsprogrammet upp initieringsprocessen tills webbsidan återför behållarelementet till layouten. När den här åtgärden utförs återtas visningsprogrammet automatiskt.
 
    Följande är ett exempel på hur du skapar en visningsprograminstans, skickar nödvändiga minimikonfigurationsalternativ till konstruktorn och anropar metoden `init()`. I det här exemplet antas `videoViewer` vara visningsprograminstansen, `s7viewer` är namnet på platshållaren `DIV`, [!DNL http://s7d1.scene7.com/is/image/] är URL-adressen för bildservern, [!DNL http://s7d1.scene7.com/is/content/] är URL-adressen för videoservern och [!DNL Scene7SharedAssets/Glacier_Climber_MP4] är resursen.
 
@@ -284,11 +284,11 @@ Följande exempelsida visar hur responsiv designinbäddning med obegränsad höj
 
 [Direktdemonstrationer](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Alternativ demoplats](https://experienceleague.adobe.com/tools/vlist/vlist.html)
+[Alternativ demoplats](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 **Responsiv design embedding with width and height defined**
 
-Vid responsiv designinbäddning med definierad bredd och höjd är webbsidans format annorlunda. ger både storlekar för &quot; holder&quot; `DIV` och centrerar den i webbläsarfönstret. På webbsidan anges dessutom storleken på elementen `HTML` och `BODY` till 100 %:
+Om det finns responsiv designinbäddning med definierad bredd och höjd är webbsidans format annorlunda. ger både storlekar för &quot; holder&quot; `DIV` och centrerar den i webbläsarfönstret. På webbsidan anges dessutom storleken på elementen `HTML` och `BODY` till 100 %:
 
 ```
 <!DOCTYPE html> 
