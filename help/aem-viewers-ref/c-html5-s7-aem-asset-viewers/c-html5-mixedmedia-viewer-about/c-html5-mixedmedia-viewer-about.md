@@ -6,9 +6,9 @@ title: Blandade media
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,blandade medieuppsättningar
 role: Developer,User
 exl-id: 65a54308-f9db-4458-a9c3-ccb1433af43c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: f77dc0c1ac8305037bbb561451317c8e62209cec
 workflow-type: tm+mt
-source-wordcount: '2662'
+source-wordcount: '2654'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Se [Kommandoreferens som är gemensam för alla visningsprogram - Konfigurations
 
 ## Interagera med blandad Media Viewer {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
-Mixed Media Viewer har stöd för enkelberörings- och flerberöringsgester som är vanliga i andra mobilprogram. När visningsprogrammet inte kan bearbeta en användares dragningsgest vidarebefordrar det händelsen till webbläsaren för att utföra en inbyggd sidbläddring. Med den här funktionen kan en användare navigera på sidan även om användaren upptar större delen av enhetens skärmområde.
+Mixed Media Viewer har stöd för enkelberörings- och flerberöringsgester som är vanliga i andra mobilprogram. När visningsprogrammet inte kan bearbeta en användares svepningsgest vidarebefordrar det händelsen till webbläsaren för att utföra en inbyggd sidrullning. Med den här funktionen kan en användare navigera på sidan även om användaren upptar större delen av enhetens skärmområde.
 
 <table id="table_ED747CC7178448919C34A4FCD18922D0"> 
  <thead> 
@@ -116,11 +116,11 @@ I det inbäddade läget läggs visningsprogrammet till på den befintliga webbsi
 
 De viktigaste användningsområdena är webbsidor som är orienterade för datorer eller surfplattor, och även responsiva designsidor som automatiskt anpassar layouten beroende på enhetstyp.
 
-Inbäddning med fast storlek används när visningsprogrammet inte ändrar sin storlek efter den första inläsningen. Det här är det bästa alternativet för webbsidor som har en statisk layout.
+Inbäddning med fast storlek används när visningsprogrammet inte ändrar sin storlek efter den första inläsningen. Den här åtgärden är det bästa alternativet för webbsidor med en statisk layout.
 
-Inbäddning av responsiv design förutsätter att visningsprogrammet kan behöva ändra storlek vid körning som svar på storleksändringen för dess behållare `DIV`. Det vanligaste användningsområdet är att lägga till ett visningsprogram på en webbsida som använder en flexibel sidlayout.
+Inbäddning av responsiv design förutsätter att visningsprogrammet måste ändra storlek vid körning som svar på storleksändringen för dess behållare `DIV`. Det vanligaste användningsområdet är att lägga till ett visningsprogram på en webbsida som använder en flexibel sidlayout.
 
-I läget responsiv designinbäddning beter sig visningsprogrammet olika beroende på hur webbsidan ändrar storlek på sin behållare `DIV`. Om webbsidan bara anger bredden på behållaren `DIV`, och dess höjd inte begränsas, väljer visningsprogrammet automatiskt höjden enligt proportionerna för den resurs som används. Med den här funktionen kan du vara säker på att resursen passar perfekt in i vyn utan utfyllnad på sidorna. Det här användningsexemplet är det vanligaste för webbsidor med responsiva designlayoutramverk som Bootstrap, Foundation och så vidare.
+I läget responsiv designinbäddning beter sig visningsprogrammet olika beroende på hur webbsidan ändrar storlek på sin behållare `DIV`. Om webbsidan bara anger bredden på behållaren `DIV`, och dess höjd inte begränsas, väljer visningsprogrammet automatiskt höjden enligt proportionerna för den resurs som används. Med den här funktionen kan du vara säker på att resursen passar perfekt in i vyn utan utfyllnad på sidorna. Det här användningsexemplet är det vanligaste för webbsidor som använder responsiva designlayoutramverk som Bootstrap eller Foundation.
 
 Om webbsidan ställer in både bredd och höjd för visningsprogrammets behållare `DIV` fyller visningsprogrammet bara det området och följer den storlek som anges i webbsidans layout. Ett bra exempel är att bädda in visningsprogrammet i en modal övertäckning, där storleken på övertäckningen anpassas efter webbläsarens fönsterstorlek.
 
@@ -149,7 +149,7 @@ Den relativa sökvägen ser ut så här:
 
 >[!NOTE]
 >
->Du bör bara referera till JavaScript-filen `include` för huvudvisningsprogrammet på sidan. Du bör inte referera till några ytterligare JavaScript-filer i webbsideskoden som kan hämtas av visningsprogrammets logik under körningen. Referera inte direkt till HTML5 SDK `Utils.js`-biblioteket som läses in av visningsprogrammet från kontextsökvägen `/s7viewers` (s.k. konsoliderad SDK `include`). Orsaken är att platsen för `Utils.js` eller liknande visningsprogrambibliotek för miljön hanteras helt av visningsprogrammets logik och platsen ändras mellan visningsprogramversioner. Adobe sparar inte äldre versioner av sekundära visningsprogram `includes` på servern.
+>Referera bara till JavaScript-filen `include` för huvudvisningsprogrammet på sidan. Referera inte till några ytterligare JavaScript-filer i webbsideskoden som kan hämtas av visningsprogrammets logik under körning. Referera inte direkt till HTML5 SDK `Utils.js`-biblioteket som läses in av visningsprogrammet från kontextsökvägen `/s7viewers` (s.k. konsoliderad SDK `include`). Orsaken är att platsen för `Utils.js` eller liknande visningsprogrambibliotek för miljön hanteras helt av visningsprogrammets logik och platsen ändras mellan visningsprogramversioner. Adobe sparar inte äldre versioner av sekundära visningsprogram `includes` på servern.
 >
 >
 >Det innebär att om du skickar en direkt referens till ett sekundärt JavaScript `include` som används av visningsprogrammet på sidan så bryts visningsprogrammets funktioner i framtiden när en ny produktversion distribueras.
@@ -170,9 +170,9 @@ Den relativa sökvägen ser ut så här:
 
 1. Ange visningsprogrammets storlek
 
-   I det här visningsprogrammet visas miniatyrer när du arbetar med uppsättningar med flera objekt. På stationära datorer placeras miniatyrbilder under huvudvyn. Samtidigt tillåter visningsprogrammet växling av huvudresursen under körning med hjälp av API:t `setAsset()`. Som utvecklare har du kontroll över hur visningsprogrammet hanterar miniatyrbildsområdet längst ned när den nya resursen bara har ett objekt. Det går att behålla den yttre visningsstorleken intakt och låta huvudvyn öka höjden och uppta miniatyrområdet. Eller så kan du hålla storleken på huvudvyn statisk och komprimera det yttre visningsområdet, låta webbsidans innehåll röra sig uppåt och sedan använda det lediga sidutrymmet som finns kvar från miniatyrbilderna.
+   I det här visningsprogrammet visas miniatyrer när du arbetar med uppsättningar med flera objekt. På stationära datorer placeras miniatyrbilder under huvudvyn. Samtidigt tillåter visningsprogrammet växling av huvudresursen under körning med hjälp av API:t `setAsset()`. Som utvecklare har du kontroll över hur visningsprogrammet hanterar miniatyrbildsområdet längst ned när den nya resursen bara har ett objekt. Det går att behålla den yttre visningsstorleken intakt och låta huvudvyn öka höjden och uppta miniatyrområdet. Eller så kan du bibehålla huvudvisningsstorleken statisk och komprimera det yttre visningsområdet så att webbsidans innehåll kan flyttas uppåt. Använd sedan det kostnadsfria utrymmet som finns kvar från miniatyrbilderna.
 
-   Om du vill behålla de yttre gränserna för visningsprogrammet intakt definierar du storleken för den översta CSS-klassen `.s7mixedmediaviewer` i absoluta enheter. Storleksändring i CSS kan placeras direkt på HTML-sidan eller i en anpassad CSS-fil för visningsprogrammet, som senare tilldelas till en förinställningspost för visningsprogrammet i Dynamic Media Classic, eller skickas explicit med kommandot style.
+   Om du vill behålla de yttre visningsprogramgränserna intakta definierar du storleken för CSS-klassen på den översta nivån i absoluta enheter. `.s7mixedmediaviewer` Storleksändring i CSS kan placeras direkt på HTML-sidan eller i en anpassad CSS-fil för visningsprogrammet, och senare tilldelas en förinställningspost för visningsprogrammet i Dynamic Media Classic, eller skickas explicit med kommandot style.
 
    Mer information om hur du formaterar visningsprogrammet med CSS finns i [Anpassa visningsprogrammet för blandade media](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#concept-61b3410f187c4bf3af09ec813c649bf4).
 
@@ -204,7 +204,7 @@ Den relativa sökvägen ser ut så här:
 
    [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html)
 
-   Du kan ställa in modifieraren `stagesize` antingen i visningsprogrammets förinställningspost i Dynamic Media Classic, eller skicka den explicit med startkoden för visningsprogrammet med samlingen `params`, eller som ett API-anrop enligt beskrivningen i kommandoreferensavsnittet i den här hjälpen, som i följande exempel:
+   Du kan ställa in modifieraren `stagesize` antingen i posten för visningsförinställningar i Dynamic Media Classic eller skicka den explicit med initieringskoden för visningsprogrammet med samlingen `params`. Eller som ett API-anrop enligt beskrivningen i kommandoreferensavsnittet i den här hjälpen, som i följande:
 
    ```
    mixedMediaViewer.setParam("stagesize", "640,480");
@@ -218,7 +218,7 @@ Den relativa sökvägen ser ut så här:
 
    Det är viktigt att lägga till visningsprogrambehållaren i DOM så att visningsprogramkoden kan hitta behållarelementet med dess ID. I vissa webbläsare fördröjs skapandet av DOM tills webbsidan är slut. För maximal kompatibilitet anropar du metoden `init()` precis före den avslutande `BODY`-taggen eller på body-händelsen `onload()`.
 
-   Samtidigt bör behållarelementet inte nödvändigtvis vara en del av webbsidans layout just nu. Det kan till exempel vara dolt med `display:none`-format som tilldelats det. I det här fallet skjuter visningsprogrammet upp initieringsprocessen tills webbsidan återför behållarelementet till layouten. När detta inträffar återgår visningsprogrammet automatiskt.
+   Samtidigt behöver behållarelementet inte nödvändigtvis vara en del av webbsidans layout ännu. Det kan till exempel vara dolt med `display:none`-format som tilldelats det. I det här fallet skjuter visningsprogrammet upp initieringsprocessen tills webbsidan återför behållarelementet till layouten. När den här åtgärden utförs återtas visningsprogrammet automatiskt.
 
    Följande är ett exempel på hur du skapar en visningsprograminstans, skickar de lägsta nödvändiga konfigurationsalternativen till konstruktorn och anropar metoden `init()`. Exemplet förutsätter att `mixedMediaViewer` är visningsprograminstansen; `s7viewer` är namnet på platshållaren `DIV`; [!DNL http://s7d1.scene7.com/is/image/] är webbadressen för bildservrar; [!DNL http://s7d1.scene7.com/is/content/] är webbadressen till videoservern; och [!DNL Scene7SharedAssets/Mixed_Media_Set_Sample] är resursen:
 
@@ -329,11 +329,11 @@ Följande exempelsida visar mer verkliga användningsområden för responsiv des
 
 [Direktdemonstrationer](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Alternativ demoplats](https://experienceleague.adobe.com/tools/vlist/vlist.html)
+[Alternativ demoplats](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 ## Flexibel storleksinbäddning med definierad bredd och höjd {#section-0a329016f9414d199039776645c693de}
 
-Vid flexibel inbäddning med bredd och höjd är webbsidans format annorlunda. Den ger båda storlekarna till DIV:n `"holder"` och centrerar den i webbläsarfönstret. Dessutom anger webbsidan storleken på elementen `HTML` och `BODY` till 100 procent.
+Om det finns inbäddning i flexibel storlek med bredd och höjd definierad, är webbsidans format annorlunda. Den ger båda storlekarna till DIV:n `"holder"` och centrerar den i webbläsarfönstret. Dessutom anger webbsidan storleken på elementen `HTML` och `BODY` till 100 procent.
 
 ```
 <!DOCTYPE html> 
