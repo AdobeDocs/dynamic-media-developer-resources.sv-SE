@@ -6,9 +6,9 @@ title: Snurra
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,snurra uppsättningar
 role: Developer,User
 exl-id: 4c802d42-ea5b-4f28-b6ef-2689aa16839d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: f77dc0c1ac8305037bbb561451317c8e62209cec
 workflow-type: tm+mt
-source-wordcount: '2135'
+source-wordcount: '2138'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Se [Kommandoreferens som är gemensam för alla visningsprogram - Konfigurations
 
 ## Interagera med Spin Viewer {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
-Snurra visningsprogram har stöd för följande pekgester som är vanliga i andra mobilprogram. När visningsprogrammet inte kan bearbeta en användares dragningsgest vidarebefordrar det händelsen till webbläsaren för att utföra en inbyggd sidbläddring. Detta gör att användaren kan navigera på sidan även om användaren upptar större delen av enhetens skärmområde.
+Snurra visningsprogram har stöd för följande pekgester som är vanliga i andra mobilprogram. När visningsprogrammet inte kan bearbeta en användares svepningsgest vidarebefordrar det händelsen till webbläsaren för att utföra en inbyggd sidrullning. Med den här funktionen kan användaren navigera på sidan även om användaren upptar större delen av enhetens skärmområde.
 
 <table id="table_ED747CC7178448919C34A4FCD18922D0"> 
  <thead> 
@@ -65,7 +65,7 @@ Snurra visningsprogram har stöd för följande pekgester som är vanliga i andr
   </tr> 
   <tr> 
    <td colname="col1"> <p>Lodrät dragning eller snärtning </p> </td> 
-   <td colname="col2"> <p> Om bilden är i ett återställningsläge ändras den lodräta vyvinkeln om en flerdimensionell snurruppsättning används. I en endimensionell snurra, eller när en flerdimensionell snurra är på den sista eller första axeln, så att den lodräta svepningen inte resulterar i en vertikal vinkeländring, utför gesten en en inbyggd sidrullning. </p> <p> Om bilden är inzoomad flyttas den vertikalt. Om bilden flyttas till vykanten och en svepning fortfarande utförs i den riktningen utför gesten en inbyggd sidrullning. </p> </td> 
+   <td colname="col2"> <p> Om bilden är i ett återställningsläge ändras den lodräta vyvinkeln om en flerdimensionell snurruppsättning används. I en endimensionell snurra utför gesten en inbyggd sidrullning. Eller, om en flerdimensionell snurra är på den sista eller den första axeln så att den lodräta svepningen inte resulterar i en vertikal vyvinkeländring, utför gesten också en inbyggd sidrullning. </p> <p> Om bilden är inzoomad flyttas den vertikalt. Om bilden flyttas till vykanten och en svepning fortfarande utförs i den riktningen utför gesten en inbyggd sidrullning. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -108,11 +108,11 @@ I det inbäddade läget läggs visningsprogrammet till på den befintliga webbsi
 
 De viktigaste användningsområdena är webbsidor som är orienterade för datorer eller surfplattor, och även responsiva designsidor som automatiskt anpassar layouten beroende på enhetstyp.
 
-Inbäddning med fast storlek används när visningsprogrammet inte ändrar sin storlek efter den första inläsningen. Det här är det bästa alternativet för webbsidor som har en statisk layout.
+Inbäddning med fast storlek används när visningsprogrammet inte ändrar sin storlek efter den första inläsningen. Den här åtgärden är det bästa alternativet för webbsidor med en statisk layout.
 
-Inbäddning av responsiv design förutsätter att visningsprogrammet kan behöva ändra storlek vid körning som svar på storleksändringen för dess behållare `DIV`. Det vanligaste användningsområdet är att lägga till ett visningsprogram på en webbsida som använder en flexibel sidlayout.
+Inbäddning av responsiv design förutsätter att visningsprogrammet måste ändra storlek vid körning som svar på storleksändringen för dess behållare `DIV`. Det vanligaste användningsområdet är att lägga till ett visningsprogram på en webbsida som använder en flexibel sidlayout.
 
-I läget responsiv designinbäddning beter sig visningsprogrammet olika beroende på hur webbsidan ändrar storlek på sin behållare `DIV`. Om webbsidan bara anger bredden på behållaren `DIV`, och dess höjd inte begränsas, väljer visningsprogrammet automatiskt höjden enligt proportionerna för den resurs som används. Med den här funktionen kan du vara säker på att resursen passar perfekt in i vyn utan utfyllnad på sidorna. Det här användningsexemplet är det vanligaste för webbsidor med responsiva designlayoutramverk som Bootstrap, Foundation och så vidare.
+I läget responsiv designinbäddning beter sig visningsprogrammet olika beroende på hur webbsidan ändrar storlek på sin behållare `DIV`. Om webbsidan bara anger bredden på behållaren `DIV`, och dess höjd inte begränsas, väljer visningsprogrammet automatiskt höjden enligt proportionerna för den resurs som används. Med den här funktionen kan du vara säker på att resursen passar perfekt in i vyn utan utfyllnad på sidorna. Det här användningsexemplet är det vanligaste för webbsidor som använder responsiva designlayoutramverk som Bootstrap eller Foundation.
 
 Om webbsidan ställer in både bredd och höjd för visningsprogrammets behållare `DIV` fyller visningsprogrammet bara det området och följer den storlek som anges i webbsidans layout. Ett bra exempel kan vara att bädda in visningsprogrammet i en modal övertäckning, där storleken på övertäckningen anpassas efter webbläsarens fönsterstorlek.
 
@@ -141,7 +141,7 @@ Du lägger till Spin Viewer på en webbsida genom att göra följande:
 
    >[!NOTE]
    >
-   >Du bör bara referera till JavaScript-filen `include` för huvudvisningsprogrammet på sidan. Du bör inte referera till några ytterligare JavaScript-filer i webbsideskoden som kan hämtas av visningsprogrammets logik under körningen. Referera inte direkt till HTML5 SDK `Utils.js`-biblioteket som läses in av visningsprogrammet från kontextsökvägen `/s7viewers` (s.k. konsoliderad SDK `include`). Orsaken är att platsen för `Utils.js` eller liknande visningsprogrambibliotek för miljön hanteras helt av visningsprogrammets logik och platsen ändras mellan visningsprogramversioner. Adobe sparar inte äldre versioner av sekundära visningsprogram `includes` på servern.
+   >Referera bara till JavaScript-filen `include` för huvudvisningsprogrammet på sidan. Referera inte till några ytterligare JavaScript-filer i webbsideskoden som kan hämtas av visningsprogrammets logik under körning. Referera inte direkt till HTML5 SDK `Utils.js`-biblioteket som läses in av visningsprogrammet från kontextsökvägen `/s7viewers` (s.k. konsoliderad SDK `include`). Orsaken är att platsen för `Utils.js` eller liknande visningsprogrambibliotek för miljön hanteras helt av visningsprogrammets logik och platsen ändras mellan visningsprogramversioner. Adobe sparar inte äldre versioner av sekundära visningsprogram `includes` på servern.
    >
    >
    >Det innebär att om du skickar en direkt referens till ett sekundärt JavaScript `include` som används av visningsprogrammet på sidan så bryts visningsprogrammets funktioner i framtiden när en ny produktversion distribueras.
@@ -162,7 +162,7 @@ Du lägger till Spin Viewer på en webbsida genom att göra följande:
 
    Du kan ange den statiska storleken för visningsprogrammet genom att antingen deklarera den för CSS-klassen på den översta nivån i absoluta enheter eller genom att använda modifieraren `stagesize`.`.s7spinviewer`
 
-   Du kan ange storlek i CSS direkt på HTML-sidan eller i en anpassad CSS-fil för visningsprogrammet, som sedan tilldelas till en post för visningsförinställningar i Dynamic Media Classic, eller skickas explicit med ett formatkommando.
+   Du kan ange storlek i CSS direkt på HTML-sidan eller i en anpassad CSS-fil för visningsprogrammet. Den tilldelas senare till en post för visningsförinställningar i Dynamic Media Classic, eller skickas explicit med ett formatkommando.
 
    Mer information om hur du formaterar visningsprogrammet med CSS finns i [Anpassa Spin Viewer](../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#concept-464f3bfa55764bc09c92d8c7480b0b55).
 
@@ -175,7 +175,7 @@ Du lägger till Spin Viewer på en webbsida genom att göra följande:
    }
    ```
 
-   Du kan ställa in modifieraren `stagesize` antingen i posten för visningsförinställningar i Dynamic Media Classic, eller skicka den explicit med initieringskoden för visningsprogrammet med samlingen `params`, eller som ett API-anrop enligt beskrivningen i avsnittet Kommandoreferens, enligt följande:
+   Du kan ange modifieraren `stagesize` antingen i posten för visningsförinställningar i Dynamic Media Classic. Eller så kan du skicka det explicit med initieringskoden för visningsprogrammet med `params`-samlingen eller som ett API-anrop enligt beskrivningen i avsnittet Kommandoreferens, enligt följande:
 
    ```
     spinViewer.setParam("stagesize", 
@@ -190,7 +190,7 @@ Du lägger till Spin Viewer på en webbsida genom att göra följande:
 
    Det är viktigt att lägga till visningsprogrambehållaren i DOM så att visningsprogramkoden kan hitta behållarelementet med dess ID. I vissa webbläsare fördröjs skapandet av DOM tills webbsidan är slut. För maximal kompatibilitet anropar du metoden `init()` precis före den avslutande `BODY`-taggen eller på body-händelsen `onload()`.
 
-   Samtidigt bör behållarelementet inte nödvändigtvis vara en del av webbsidans layout just nu. Det kan till exempel vara dolt med formatet `display:none` som tilldelats det. I det här fallet skjuter visningsprogrammet upp initieringsprocessen tills webbsidan återför behållarelementet till layouten. När den här åtgärden utförs återtas visningsprogrammet automatiskt.
+   Samtidigt behöver behållarelementet inte nödvändigtvis vara en del av webbsidans layout ännu. Det kan till exempel vara dolt med formatet `display:none` som tilldelats det. I det här fallet skjuter visningsprogrammet upp initieringsprocessen tills webbsidan återför behållarelementet till layouten. När den här åtgärden utförs återtas visningsprogrammet automatiskt.
 
    Följande är ett exempel på hur du skapar en visningsprograminstans, skickar de minsta nödvändiga konfigurationsalternativen till konstruktorn och anropar metoden `init()`. Exemplet förutsätter att `spinViewer` är visningsprograminstansen, `s7viewer` är namnet på platshållaren `DIV`, [!DNL http://s7d1.scene7.com/is/image/] är URL:en för bildservrar och [!DNL Scene7SharedAssets/SpinSet_Sample] är resursen.
 
@@ -295,11 +295,11 @@ Följande exempelsida visar mer verkliga användningsområden för responsiv des
 
 [Direktdemonstrationer](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Alternativ demoplats](https://experienceleague.adobe.com/tools/vlist/vlist.html)
+[Alternativ demoplats](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 **Flexibel storleksinbäddning med definierad bredd och höjd**
 
-Vid flexibel inbäddning med bredd och höjd är webbsidans format annorlunda. Det innebär att den ger både storlekar för &quot; holder&quot; `DIV` och centrerar den i webbläsarfönstret. På webbsidan anges dessutom storleken på elementen `HTML` och `BODY` till 100 %:
+Om det finns inbäddning i flexibel storlek med bredd och höjd definierad, är webbsidans format annorlunda. Det innebär att den ger både storlekar för &quot; holder&quot; `DIV` och centrerar den i webbläsarfönstret. På webbsidan anges dessutom storleken på elementen `HTML` och `BODY` till 100 %:
 
 ```
 <!DOCTYPE html> 
