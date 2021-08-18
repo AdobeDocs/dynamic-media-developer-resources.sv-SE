@@ -5,9 +5,9 @@ title: Interaktiv video
 feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
 role: Developer,User
 exl-id: e54b0b1f-b015-4592-82e2-99f5080543e3
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: f77dc0c1ac8305037bbb561451317c8e62209cec
 workflow-type: tm+mt
-source-wordcount: '2217'
+source-wordcount: '2216'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ När visningsprogrammet körs i popup-läge är inte knappen för helskärm till
 
 Visningsprogrammet visar en panel med interaktiva färgrutor till höger om videovisningsområdet. Listan med färgrutor visas automatiskt när videon spelas upp, så att färgrutor som motsvarar det aktuella videoområdet visas. Om du klickar eller trycker på en färgruta utlöses en åtgärd som var kopplad till den färgrutan under redigeringstiden. Beroende på hur du ställer in den kan utlösaren dirigeras om till en annan sida på webbplatsen. Det kan också skicka produktinformation tillbaka till webbsidans logik, som i sin tur kan utlösa att en snabbvy öppnas som visar relaterat produktinnehåll.
 
-Det går att navigera i videoinnehållet snabbt när videofiltreringen är aktiverad. Videokameror visas som markörer i videonavigeringsspåret och kapiteltiteln och beskrivningen visas vid överrullning (eller på pekskärmar). Kunden kan söka efter ett visst kapitel genom att klicka på en kapitelmarkör eller trycka på en kapitelbeskrivningsbubbla.
+Du kan snabbt navigera i videoinnehållet när videokapitlet är aktiverat. Videokameror visas som markörer i videonavigeringsspåret och kapiteltiteln och beskrivningen visas vid överrullning (eller på pekskärmar). Kunden kan söka efter ett visst kapitel genom att klicka på en kapitelmarkör eller trycka på en kapitelbeskrivningsbubbla.
 
 Visningsprogrammet har också stöd för olika verktyg för delning av sociala medier. De är tillgängliga som en enda knapp i användargränssnittet, som utökas till ett delat verktygsfält när användaren klickar eller trycker på det. Verktygsfältet för delning innehåller en ikon för varje typ av delningskanal som stöds, till exempel Facebook, Twitter, e-postdelning, inbäddning av koddelning och länkdelning. När verktygen för e-postdelning, inbäddning eller länkdelning är aktiverade visas en modal dialogruta med ett motsvarande inmatningsformulär. När Facebook eller Twitter anropas dirigeras användaren om till en standarddelningsdialogruta från en tjänst för sociala medier. Dessutom pausas videouppspelningen automatiskt när ett delningsverktyg aktiveras. Delningsverktygen är inte tillgängliga i helskärmsläge på grund av säkerhetsbegränsningar i webbläsaren.
 
@@ -280,7 +280,7 @@ Följande exempelsida visar mer verkliga användningsområden för responsiv des
 
 [Direktdemonstrationer](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Alternativ demoplats](https://experienceleague.adobe.com/tools/vlist/vlist.html)
+[Alternativ demoplats](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 **Responsiv inbäddning med definierad bredd och höjd**
 
