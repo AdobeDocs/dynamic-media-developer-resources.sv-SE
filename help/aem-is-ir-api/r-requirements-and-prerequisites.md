@@ -5,9 +5,9 @@ title: Systemkrav och krav
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ea2dfec9-0a42-4ccb-8442-6f7c4a39eda1
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c58199c5884c368e92e50fe0ef9d6ad523e36266
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,4 @@ Dynamic Media Image Serving kräver följande serverprogramvara.
 * Red Hat® Enterprise 5 eller CentOS 5.5 och senare, med de senaste korrigeringsfilerna.
 * 64-bitars operativsystem.
 
-**Obs!** Om du vill använda Image Serving i Windows måste du installera Microsoft Visual Studio 2010 som kan distribueras om. Den kan distribueras på följande plats:
-
-[http://www.microsoft.com/en-us/download/details.aspx?id=13523](http://www.microsoft.com/en-us/download/details.aspx?id=13523)
+**Obs!** Om du vill använda Image Serving i Windows måste du installera Microsoft Visual Studio 2010 som kan distribueras om.
