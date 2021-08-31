@@ -5,9 +5,9 @@ title: WSDL-versioner för IPS-webbtjänst
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d7a6079e-286e-4e62-b2ff-551ef4a5815c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '954'
 ht-degree: 0%
 
 ---
@@ -139,7 +139,7 @@ Om du vill bearbeta en begäran anger du HTTP-huvudet SOAPAction till namnet på
 
 **Meddelandeformat**
 
-Formatet document/literal används för alla in- och utdatameddelanden med typer som är baserade på definitionsspråket XML-schema ( [http://www.w3.org/TR/xmlschema-0/](http://www.w3.org/TR/xmlschema-0/)) och som anges i WSDL-filen. Alla typer kräver kvalificerade namn med det målnamnutrymmesvärde som anges i WSDL-filen.
+Formatet document/literal används för alla in- och utdatameddelanden med typer som är baserade på definitionsspråket XML-schema ( [https://www.w3.org/TR/xmlschema-0/](https://www.w3.org/TR/xmlschema-0/)) och som anges i WSDL-filen. Alla typer kräver kvalificerade namn med det målnamnutrymmesvärde som anges i WSDL-filen.
 
 **Begär autentisering**
 

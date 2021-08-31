@@ -5,9 +5,9 @@ title: RTF-kommandon och nyckelord som stöds
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a63bc7f1-34a9-485d-aadd-c65e3e26034a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Nedan följer en lista över nyckelord och kommandon som stöds av textmotorn Scene 7 Image Serving.
 
-Mer information om varje nyckelord eller kommando finns i den publicerade [RTF 1.6-specifikationen](http://msdn.microsoft.com/en-us/library/aa140277%28v=office.10%29.aspx).
+Mer information om varje nyckelord eller kommando finns i den publicerade [RTF 1.6-specifikationen](https://msdn.microsoft.com/en-us/library/aa140277%28v=office.10%29.aspx).
 
 RTF-kommandon som inte visas nedan ignoreras av parsern.
 

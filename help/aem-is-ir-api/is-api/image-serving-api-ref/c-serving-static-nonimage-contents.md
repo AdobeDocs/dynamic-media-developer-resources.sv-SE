@@ -5,9 +5,9 @@ title: Hantera statiskt innehåll (inte bildinnehåll)
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: adc3d972-b02d-40db-992e-acaa06b848ff
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -125,9 +125,9 @@ Du kan kapsla in videobeskrivningsfiler (WebVTT), CSS eller valfri textfil i JSO
 
 Du kan också använda spår för andra typer av tidsbestämda metadata. Källdata för varje spårelement är en textfil som består av en lista med tidsbestämda tips. Cues kan innehålla data i format som JSON eller CSV.
 
-Mer information om JSONP-formatet finns i [http://en.wikipedia.org/wiki/JSONP](http://en.wikipedia.org/wiki/JSONP).
+Mer information om JSONP-formatet finns i [https://en.wikipedia.org/wiki/JSONP](https://en.wikipedia.org/wiki/JSONP).
 
-Mer information om JSON-formatet finns i [www.json.org](http://www.json.org).
+Mer information om JSON-formatet finns i [www.json.org](https://www.json.org).
 
 ## Se även {#section-7b28631016044a22a3a6762fd64771e9}
 
