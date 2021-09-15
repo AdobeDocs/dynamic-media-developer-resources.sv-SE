@@ -2,12 +2,12 @@
 description: Kompatibilitetsinformation för operativsystem, webbläsare och mobila enheter.
 solution: Experience Manager
 title: Kompatibilitetsanteckningar
-feature: Dynamic Media Classic,visningsprogram,SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 7ad499b1-7da6-483b-ab11-cff2eb9271da
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Kompatibilitetsinformation för operativsystem, webbläsare och mobila enheter.
 * `IntialBitRate` modifierare stöds bara med HLS- och Flash HDS-uppspelning. Det fungerar inte när uppspelningen använder den inbyggda spelaren.
 * OGG- och WebM-progressiv uppspelning stöds inte.
 * Webbläsarskalning gör att videospelaren visas i fel storlek (inklusive visningsinställningar för Kontrollpanelen i Windows®).
-* Videosökning med HLS-strömning på Safari är inkonsekvent.
+* Videosökningar med HLS-strömning på Safari är inkonsekventa.
 
 ## Internet Explorer {#section-a18e8df396954f0b807017787c00aac7}
 
@@ -71,5 +71,5 @@ Kompatibilitetsinformation för operativsystem, webbläsare och mobila enheter.
 ## Safari {#section-f8de598293d349188aa02c82cd3af8b6}
 
 * Safari 6.1 eller senare: Inställningarna för Internetplugin-program förhindrar uppspelning av Flash-video.
-* Videosökning med HLS-strömning på Safari är inkonsekvent.
+* Videosökningar med HLS-strömning på Safari är inkonsekventa.
 * Det går inte att söka till slutet av videon på Safari 6 med HLS-direktuppspelning.

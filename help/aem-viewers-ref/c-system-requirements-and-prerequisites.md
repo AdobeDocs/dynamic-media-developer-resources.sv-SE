@@ -3,12 +3,12 @@ title: Systemkrav för Dynamic Media HTML5-visningsprogram
 description: Systemkrav för Dynamic Media HTML5-visningsprogram.
 solution: Experience Manager
 contentOwner: Rick Brough
-feature: Dynamic Media Classic,visningsprogram,SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Systemkrav för Dynamic Media HTML5-visningsprogram.
 ## Servermaskinvara och -programvara {#section-05099146f1f0418988c196635110bee6}
 
 * Dynamic Media Classic Image Serving 6.7.1 eller senare.
-* HTML5-visningsprogram kräver SDK JavaScript™-bibliotek på serversidan 3.11.1 eller senare.
+* HTML5-visningsprogram kräver SDK JavaScript-bibliotek på serversidan 3.11.1 eller senare.
 * Sociala funktioner som &quot;Skicka e-post till en vän&quot; kräver s7ondemand 5.0.9 eller senare.
 * eCatalog Viewer - Stöd för informationspanelen kräver informationsserver 2.1.8 eller senare.
 * Sökfunktionskomponenter kräver s7search 2.3.0 eller senare.

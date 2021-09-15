@@ -1,13 +1,13 @@
 ---
+title: Ange indikator
 description: Uppsättningsindikatorn är en serie punkter som återges längst ned i visningsprogrammet. Här visas den aktuella positionen i uppsättningen.
 solution: Experience Manager
-title: Ange indikator
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 7d0827c5-f420-4804-983c-5298ee92b276
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Utseendet på den angivna indikatorbehållaren styrs med följande CSS-klassväl
 >
 >Set-indikatorn har stöd för lägesattributväljaren, som du kan använda för att använda olika format för prickade och numeriska operationslägen. `mode="numeric"` motsvarar i synnerhet det numeriska driftsläget; `mode="dotted"` motsvarar standardpunktläget.
 
-Exempel - för att ställa in en inställningsindikator med en vit bakgrund:
+Anta till exempel att du vill ställa in en uppsättningsindikator med vit bakgrund:
 
 ```
 .s7carouselviewer .s7setindicator { 
@@ -124,7 +124,7 @@ Utseendet på en enskild indikatorpunkt för uppsättning styrs med CSS-klassvä
 >
 >De angivna indikatorobjekten stöder attributväljaren `state`, som kan användas för att tillämpa olika skal på olika miniatyrlägen. `state="selected"` motsvarar i synnerhet det aktuella elementet i uppsättningen; `state="unselected"` motsvarar standardobjektets tillstånd.
 
-Exempel - för att ställa in en inställningsindikator i prickat läge för datorer som ska placeras 20 pixlar från visningsprogrammets nederkant. Omarkerade punkter är svarta med 50 % genomskinlighet, 15 x 15 pixlar med 7 pixlar rundade hörn. Markerade punkter är svarta med 90 % genomskinlighet, 18 x 18 pixlar med 9 pixlar rundade hörn. Mellanrummet mellan punkter är 5 pixlar.
+Anta till exempel att du vill ställa in en angiven indikator i prickat läge för stationära datorer. Du vill att den ska placeras 20 pixlar från visningsprogrammets nederkant. Och du vill att omarkerade punkter ska vara svarta med 50 % genomskinlighet, 15 x 15 pixlar med sju pixlar rundade hörn. Markerade punkter är svarta med 90 % genomskinlighet, 18 x 18 pixlar med nio pixlar rundade hörn. Avståndet mellan punkter är fem pixlar.
 
 ```
 .s7carouselviewer.s7mouseinput .s7setindicator { 

@@ -1,13 +1,13 @@
 ---
+title: PlayPause, knapp
 description: Med knappen Spela upp/Paus kan användaren pausa eller återuppta automatisk uppspelning av karusellen.
 solution: Experience Manager
-title: PlayPause, knapp
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 1b48aa7f-d1c8-4367-94c2-689991b90942
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Knappens utseende styrs med följande CSS-klassväljare:
 
 Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av element i användargränssnittet](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md).
 
-Exempel - för att ställa in en pausknapp för uppspelning som är 28 x 28 pixlar, d.v.s. 17 pixlar från nederkanten och 12 pixlar från den vänstra kanten av visningsprogrammet, och som visar en annan bild för vart och ett av de fyra knapplägena när de är markerade eller inte markerade.
+Anta till exempel att du vill ställa in en pausknapp för uppspelning som är 28 x 28 pixlar. Du vill att knappen ska placeras 17 pixlar från nederkanten och 12 pixlar från den vänstra kanten av visningsprogrammet. Och du vill att den ska visa olika bilder för vart och ett av de fyra olika knapplägena när den är markerad eller inte är markerad.
 
 ```
 .s7carouselviewer .s7playpausebutton { 

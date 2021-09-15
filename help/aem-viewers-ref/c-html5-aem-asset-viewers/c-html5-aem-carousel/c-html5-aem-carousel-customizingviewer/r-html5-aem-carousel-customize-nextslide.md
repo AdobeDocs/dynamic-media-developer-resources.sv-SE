@@ -1,20 +1,20 @@
 ---
-description: Om du klickar eller trycker på knappen Nästa bildruta flyttas användaren till nästa bildruta i karuselluppsättningen.
-solution: Experience Manager
 title: Nästa bild
+description: Om du väljer knappen Nästa bildruta flyttas användaren till nästa bildruta i karuselluppsättningen.
+solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: c64889bb-bcbe-49c6-a0be-b4013ead7b90
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
 
 # Nästa bild{#next-slide}
 
-Om du klickar eller trycker på knappen Nästa bildruta flyttas användaren till nästa bildruta i karuselluppsättningen.
+Om du väljer knappen Nästa bildruta flyttas användaren till nästa bildruta i karuselluppsättningen.
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
@@ -79,7 +79,7 @@ Knappens utseende styrs med följande CSS-klassväljare:
 
 Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av element i användargränssnittet](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md).
 
-Exempel - om du vill ställa in en tidigare bildknapp som är 60 x 60 pixlar, placerad 10 pixlar från den högra visningsprogramkanten och lodrätt centrerad, och visar en annan bild för vart och ett av de fyra knapplägena.
+Anta till exempel att du vill ställa in en tidigare bildknapp som är 60 x 60 pixlar. Du vill att knappen ska placeras tio pixlar från den högra visningsprogramkanten och lodrätt centrerad. Och du vill att den ska visa olika bilder för vart och ett av de fyra knapplägena.
 
 ```
 .s7carouselviewer .s7panrightbutton{ 

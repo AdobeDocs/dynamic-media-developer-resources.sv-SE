@@ -1,20 +1,20 @@
 ---
-description: På stationära datorer har vissa element i användargränssnittet, som knappar, verktygstips som visas när du hovrar musen.
-solution: Experience Manager
 title: Verktygstips
+description: På stationära datorer har vissa element i användargränssnittet, t.ex. knappar, verktygstips som visas när du hovrar musen.
+solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: b4604528-93f6-440c-b676-7b4c89fff6c8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '140'
 ht-degree: 0%
 
 ---
 
 # Verktygstips{#tooltips}
 
-På stationära datorer har vissa element i användargränssnittet, som knappar, verktygstips som visas när du hovrar musen.
+På stationära datorer har vissa element i användargränssnittet, t.ex. knappar, verktygstips som visas när du hovrar musen.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -63,9 +63,9 @@ Utseendet på verktygstipsen styrs av följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Om verktygstipsen anpassas från webbsidan för inbäddning måste alla egenskaper innehålla regeln `!IMPORTANT`. Detta är inte nödvändigt om verktygstipsen är anpassade i visningsprogrammets CSS-fil.
+>Om verktygstipsen anpassas från webbsidan för inbäddning måste alla egenskaper innehålla regeln `!IMPORTANT`. Det här steget är inte nödvändigt om verktygstipsen är anpassade i visningsprogrammets CSS-fil.
 
-Exempel - för att ställa in funktionsbeskrivningar som har en grå kant med en hörnradie på 3 pixlar, svart bakgrund och vit text i Arial, 11 pixlar stor:
+Exempel - för att skapa verktygstips som har en grå kant med en hörnradie på 3 pixlar, svart bakgrund och vit text i Arial®, 11 pixlar stor:
 
 ```
 .s7tooltip { 

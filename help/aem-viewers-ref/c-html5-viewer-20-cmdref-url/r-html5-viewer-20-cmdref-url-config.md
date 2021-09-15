@@ -1,13 +1,13 @@
 ---
+title: config
 description: Parametern är gemensam för alla visningsprogram.
 solution: Experience Manager
-title: config
-feature: Dynamic Media Classic,visningsprogram,SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 503a1fc6-7a6b-4f55-bad1-11f22435276f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Läs in visningsprogrammet med följande kommando:
 config=2020/preset-oct
 ```
 
-Detta motsvarar följande kommandon som anges explicit i URL:en:
+Det här exemplet motsvarar följande kommando som anges explicit i URL:en:
 
 ```
 style=customStyle.css
@@ -72,7 +72,7 @@ Läs in visningsprogrammet med följande kommando:
 config=2019/spin-oct
 ```
 
-Detta motsvarar följande kommandon som anges explicit i URL:en:
+Det här exemplet motsvarar följande kommando som anges explicit i URL:en:
 
 ```
 zoomStep=3&maxZoom=200
@@ -92,7 +92,7 @@ Läs in visningsprogrammet med följande kommando:
 config=/etc/dam/presets/viewer/Shoppable_Banner
 ```
 
-Detta motsvarar följande kommandon som anges explicit i URL:en:
+Det här exemplet motsvarar följande kommandon som anges explicit i URL:en:
 
 `style=etc/dam/presets/css/html5_interactiveimage.css`
 
@@ -110,7 +110,7 @@ Läs in visningsprogrammet med följande kommando:
 config=/etc/dam/presets/viewer/Shoppable_Video_Dark
 ```
 
-Detta motsvarar följande kommandon som anges explicit i URL:en:
+Det här exemplet motsvarar följande kommandon som anges explicit i URL:en:
 
 ```
 style=etc/dam/presets/css/html5_interactivevideo_dark.css
@@ -130,7 +130,7 @@ Läs in visningsprogrammet med följande kommando:
 config=/etc/dam/presets/viewer/Carousel_Dotted_light
 ```
 
-Detta motsvarar följande kommandon som anges explicit i URL:en:
+Det här exemplet motsvarar följande kommandon som anges explicit i URL:en:
 
 ```
 style= etc/dam/presets/css/html5_carouselviewer_dotted_light.css
