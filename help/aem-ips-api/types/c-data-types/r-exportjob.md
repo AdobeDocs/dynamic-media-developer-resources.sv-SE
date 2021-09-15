@@ -5,9 +5,9 @@ title: ExportJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f0266b9f-c6e0-4843-b002-0bc068d43424
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f64229a72bef887f356b118a1da4ba5177c28bbc
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '206'
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ ExportJob stöder inte följande resurstyper:
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> is_modifier</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:sträng  </span> </p> </td> 
-   <td colname="col3"> <p>Anger <span class="codeph"> ImageServer</span>-återgivnings-URL-strängen, som bifogas till begäran om konvertering<span class="codeph"> för ExportJob </span>. </p> <p>Mer information om hur du skickar IS-modifierare finns i <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html" scope="external" format="html"> IS-dokumentationen</a>. </p> </td> 
+   <td colname="col3"> <p>Anger <span class="codeph"> ImageServer</span>-återgivnings-URL-strängen, som bifogas till begäran om konvertering<span class="codeph"> för ExportJob </span>. </p> <p>Mer information om hur du skickar IS-modifierare finns i <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html" scope="external" format="html"> IS-dokumentationen</a>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> makro</span> </span> </p> </td> 
