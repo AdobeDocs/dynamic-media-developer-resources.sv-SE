@@ -1,13 +1,13 @@
 ---
+title: CarouselView.maxloadradius
 description: CarouselView.maxloadradius
 solution: Experience Manager
-title: CarouselView.maxloadradius
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 8a3d3d32-7970-420c-8ad8-296c9ba1f08a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '63'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> -1|0|<span class="varname"> förinläsare</span></span> </p> </td> 
-   <td> <p>Anger beteende för komponentförinläsning. </p> <p>När den är inställd på <span class="codeph"> -1</span> kommer komponenten att förhandsladda alla karusellbildrutor när den är inaktiv. </p> <p>Om <span class="codeph"> 0</span> anges läser komponenten bara in den bildruta som är synlig, föregående och nästa bildruta. </p> <p><span class="codeph"><span class="varname"> Med </span></span>förinläsningsfunktionen definieras hur många osynliga bildrutor runt den bildruta som visas som förinlästa när den är inaktiv. </p> </td> 
+   <td> <p>Anger beteende för komponentförinläsning. </p> <p>När den är inställd på <span class="codeph"> -1</span> läser komponenten in alla karusellbildrutor i förväg när den är inaktiv. </p> <p>Om <span class="codeph"> 0</span> anges läser komponenten bara in den bildruta som är synlig, föregående och nästa bildruta. </p> <p><span class="codeph"><span class="varname"> Med </span></span>förinläsningsfunktionen definieras hur många osynliga bildrutor runt den bildruta som visas som förinlästa när den är inaktiv. </p> </td> 
   </tr> 
  </tbody> 
 </table>

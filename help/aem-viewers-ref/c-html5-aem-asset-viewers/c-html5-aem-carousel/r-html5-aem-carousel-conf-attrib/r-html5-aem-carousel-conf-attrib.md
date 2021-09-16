@@ -1,13 +1,13 @@
 ---
+title: Kommandoreferens - Konfigurationsattribut
 description: Konfigurationsattributdokumentation för Carousel Viewer.
 solution: Experience Manager
-title: Kommandoreferens - Konfigurationsattribut
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 71c2c973-d711-4d37-b778-381a7ec71527
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '140'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Vissa konfigurationskommandon kan ha prefixet med klassnamnet eller instansnamne
 
 `[ZoomView.|<containerId>_carouselView].fmt`
 
-vilket betyder att du kan använda det här kommandot som:
+I så fall kan du använda det här kommandot:
 
 * `fmt` (kort syntax)
 * `CarouselView.fmt` (kvalificerad med komponentklassnamn)

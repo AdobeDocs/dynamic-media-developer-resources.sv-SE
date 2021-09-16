@@ -1,13 +1,13 @@
 ---
+title: CarouselView.frametransition
 description: CarouselView.frametransition
 solution: Experience Manager
-title: CarouselView.frametransition
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 771395fb-775d-462e-86dc-0600cfecb345
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '95'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ingen|tona|bildruta  </span> </p> </td> 
-   <td colname="col2"> <p>Anger vilken typ av effekt som används vid bildruteändring. <span class="codeph"> ingen  </span> står för någon övergång, bildruteändringen sker omedelbart. </p> <p> <span class="codeph"> toning  </span> innebär en övergång mellan gamla och nya bildrutor. </p> <p> <span class="codeph"> bildrutan  </span> aktiverar övergång där den gamla bildrutan glider ut ur vyn och den nya bildrutan glider in. </p> </td> 
+   <td colname="col2"> <p>Anger vilken typ av effekt som används vid bildruteändring. <span class="codeph"> ingen </span> står till exempel för ingen övergång; bildruteändringen sker omedelbart. Och </p> <p> <span class="codeph"> toning  </span> innebär en övergång mellan gamla och nya bildrutor. Äntligen </p> <p> <span class="codeph"> bildrutan  </span> aktiverar övergång där den gamla bildrutan glider ut ur vyn och den nya bildrutan glider in. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> varaktighet  </span> </span> </p> </td> 
