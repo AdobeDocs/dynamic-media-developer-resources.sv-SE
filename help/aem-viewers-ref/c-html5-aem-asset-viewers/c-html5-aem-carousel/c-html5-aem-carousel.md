@@ -1,20 +1,20 @@
 ---
-description: Carousel Viewer är ett visningsprogram som visar en karusell med icke-zoombara banderollbilder med klickbara hotspot-områden. Syftet med detta visningsprogram är att implementera en shoppingupplevelse där användare kan välja en hotspot eller en region över banderollbilden och omdirigeras till en Quickview- eller produktinformationssida på kundens webbplats. Den är utformad för att fungera på stationära datorer och mobila enheter.
-solution: Experience Manager
 title: Carousel
+description: Carousel Viewer är ett visningsprogram som visar en karusell med icke-zoombara banderollbilder med klickbara hotspot-områden. Det här visningsprogrammet kan hjälpa dig att implementera en shoppingupplevelse där användarna kan välja en hotspot eller ett område över banderollbilden. De kan omdirigeras till en Quickview- eller produktinformationssida på kundens webbplats. Den är utformad för att fungera på stationära datorer och mobila enheter.
+solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: d506dc6e-8929-4f7f-a205-1683e77681f1
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4aaa77b1fb58b30b02ee15f6080169fa354d5907
 workflow-type: tm+mt
-source-wordcount: '1902'
+source-wordcount: '1888'
 ht-degree: 0%
 
 ---
 
 # Carousel{#carousel}
 
-Carousel Viewer är ett visningsprogram som visar en karusell med icke-zoombara banderollbilder med klickbara hotspot-områden. Syftet med detta visningsprogram är att implementera en shoppingupplevelse där användare kan välja en hotspot eller en region över banderollbilden och omdirigeras till en Quickview- eller produktinformationssida på kundens webbplats. Den är utformad för att fungera på stationära datorer och mobila enheter.
+Carousel Viewer är ett visningsprogram som visar en karusell med icke-zoombara banderollbilder med klickbara hotspot-områden. Det här visningsprogrammet kan hjälpa dig att implementera en shoppingupplevelse där användarna kan välja en hotspot eller ett område över banderollbilden. De kan omdirigeras till en Quickview- eller produktinformationssida på kundens webbplats. Den är utformad för att fungera på stationära datorer och mobila enheter.
 
 >[!NOTE]
 >
@@ -78,11 +78,11 @@ I det inbäddade läget läggs visningsprogrammet till på den befintliga webbsi
 
 De viktigaste användningsområdena är webbsidor som är orienterade för datorer eller surfplattor, och responsiva designade sidor som automatiskt anpassar layouten beroende på enhetstyp.
 
-Inbäddning med fast storlek används när visningsprogrammet inte ändrar sin storlek efter den första inläsningen. Det här är det bästa alternativet för webbsidor som har en statisk layout.
+Inbäddning med fast storlek används när visningsprogrammet inte ändrar sin storlek efter den första inläsningen. Den här metoden är det bästa alternativet för webbsidor med en statisk layout.
 
-Inbäddning av responsiv design förutsätter att visningsprogrammet kan behöva ändra storlek vid körning som svar på storleksändringen för dess behållare `DIV`. Det vanligaste användningsområdet är att lägga till ett visningsprogram på en webbsida som använder en flexibel sidlayout.
+Inbäddning av responsiv design förutsätter att visningsprogrammet måste ändra storlek vid körning som svar på storleksändringen för dess behållare `DIV`. Det vanligaste användningsområdet är att lägga till ett visningsprogram på en webbsida som använder en flexibel sidlayout.
 
-I läget responsiv designinbäddning beter sig visningsprogrammet olika beroende på hur webbsidan ändrar storlek på sin behållare `DIV`. Om webbsidan bara anger bredden på behållaren `DIV`, och dess höjd inte begränsas, väljer visningsprogrammet automatiskt höjden enligt proportionerna för den använda resursen. Med den här funktionen kan du vara säker på att resursen passar perfekt in i vyn utan utfyllnad på sidorna. Det här användningsexemplet är det vanligaste för webbsidor med flexibla ramverk för webbdesign som Bootstrap, Foundation och så vidare.
+I läget responsiv designinbäddning beter sig visningsprogrammet olika beroende på hur webbsidan ändrar storlek på sin behållare `DIV`. Om webbsidan bara anger bredden på behållaren `DIV`, och dess höjd inte begränsas, väljer visningsprogrammet automatiskt höjden enligt proportionerna för den använda resursen. Med den här funktionen kan du vara säker på att resursen passar perfekt in i vyn utan utfyllnad på sidorna. Det här användningsexemplet är det vanligaste för webbsidor med flexibla ramverk för webbdesign som Bootstrap och Foundation.
 
 Om webbsidan ställer in både bredd och höjd för visningsprogrammets behållare `DIV` fyller visningsprogrammet bara det området. Den har också samma storlek som webbsidans layout. Ett bra exempel är att bädda in visningsprogrammet i en modal övertäckning, där storleken på övertäckningen anpassas efter webbläsarens fönsterstorlek.
 
@@ -111,7 +111,7 @@ Den relativa sökvägen ser ut så här:
 
 >[!NOTE]
 >
->Du bör bara referera till JavaScript-filen `include` för huvudvisningsprogrammet på sidan. Du bör inte referera till några ytterligare JavaScript-filer i webbsideskoden som kan hämtas av visningsprogrammets logik under körningen. Referera inte direkt till HTML5 SDK `Utils.js`-biblioteket som läses in av visningsprogrammet från kontextsökvägen `/s7viewers` (s.k. konsoliderad SDK `include`). Orsaken är att platsen för `Utils.js` eller liknande visningsprogrambibliotek för miljön hanteras helt av visningsprogrammets logik och platsen ändras mellan visningsprogramversioner. Adobe sparar inte äldre versioner av sekundära visningsprogram `includes` på servern.
+>Referera bara till JavaScript-filen `include` för huvudvisningsprogrammet på sidan. Referera inte till några ytterligare JavaScript-filer i webbsideskoden som kan hämtas av visningsprogrammets logik under körning. Referera inte direkt till HTML5 SDK `Utils.js`-biblioteket som läses in av visningsprogrammet från kontextsökvägen `/s7viewers` (s.k. konsoliderad SDK `include`). Orsaken är att platsen för `Utils.js` eller liknande visningsprogrambibliotek för miljön hanteras helt av visningsprogrammets logik och platsen ändras mellan visningsprogramversioner. Adobe sparar inte äldre versioner av sekundära visningsprogram `includes` på servern.
 >
 >
 >Det innebär att om du skickar en direkt referens till ett sekundärt JavaScript `include` som används av visningsprogrammet på sidan så bryts visningsprogrammets funktioner i framtiden när en ny produktversion distribueras.
@@ -132,7 +132,7 @@ Den relativa sökvägen ser ut så här:
 
    Du kan ange den statiska storleken för visningsprogrammet genom att antingen deklarera den för CSS-klassen på den översta nivån i absoluta enheter eller genom att använda modifieraren `stagesize`.`.s7carouselviewer`
 
-   Du kan ange storlek i CSS direkt på HTML-sidan eller i en anpassad CSS-fil för visningsprogrammet, som sedan tilldelas en post för visningsförinställningar i AEM Assets - on demand, eller skickas explicit med kommandot `style`.
+   Du kan ange storlek i CSS direkt på HTML-sidan. Du kan också lägga in storleksändring i en anpassad CSS-fil för visningsprogrammet, som sedan tilldelas en post för visningsförinställningar i AEM Assets - On-demand, eller skickas explicit med kommandot `style`.
 
    Mer information om hur du formaterar visningsprogrammet med CSS finns i [Anpassa Carousel Viewer](../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0).
 
@@ -159,7 +159,7 @@ Den relativa sökvägen ser ut så här:
 
    Det är viktigt att lägga till visningsprogrambehållaren i DOM så att visningsprogramkoden kan hitta behållarelementet med dess ID. I vissa webbläsare fördröjs skapandet av DOM tills webbsidan är slut. För maximal kompatibilitet anropar du metoden `init()` precis före den avslutande `BODY`-taggen eller på body-händelsen `onload()`.
 
-   Samtidigt bör behållarelementet inte nödvändigtvis vara en del av webbsidans layout just nu. Det kan till exempel vara dolt med `display:none`-format som tilldelats det. I det här fallet skjuter visningsprogrammet upp initieringsprocessen tills webbsidan återför behållarelementet till layouten. När detta inträffar återgår visningsprogrammet automatiskt.
+   Samtidigt behöver behållarelementet inte nödvändigtvis vara en del av webbsidans layout ännu. Det kan till exempel vara dolt med `display:none`-format som tilldelats det. I det här fallet skjuter visningsprogrammet upp initieringsprocessen tills webbsidan återför behållarelementet till layouten. När den här funktionaliteten inträffar återgår visningsprogrammet automatiskt.
 
    Följande är ett exempel på hur du skapar en visningsprograminstans, skickar de lägsta nödvändiga konfigurationsalternativen till konstruktorn och anropar metoden `init()`. Exemplet förutsätter att `carouselViewer` är visningsprograminstansen; `s7viewer` är namnet på platshållaren `DIV`; `https://adobedemo62-h.assetsadobe.com/is/image` är URL:en för bildhantering och `/content/dam/dm-public-facing-live-demo-page/04_shoppable_carousel/05_shoppable_banner` är resursen:
 
@@ -266,7 +266,7 @@ Följande exempelsida visar mer verkliga användningsområden för responsiv des
 
 **Flexibel storlek för inbäddning med definierad bredd och höjd**
 
-Vid flexibel inbäddning med bredd och höjd är webbsidans format annorlunda. Den ger båda storlekarna till DIV:n `"holder"` och centrerar den i webbläsarfönstret. Dessutom anger webbsidan storleken på elementen `HTML` och `BODY` till 100 procent.
+Vid inbäddning i flexibel storlek med definierad bredd och höjd är webbsidans format annorlunda. Den ger båda storlekarna till DIV:n `"holder"` och centrerar den i webbläsarfönstret. Dessutom anger webbsidan storleken på elementen `HTML` och `BODY` till 100 procent.
 
 ```
 <!DOCTYPE html> 

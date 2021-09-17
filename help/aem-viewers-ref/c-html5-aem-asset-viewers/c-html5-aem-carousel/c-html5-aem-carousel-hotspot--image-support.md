@@ -1,13 +1,13 @@
 ---
+title: Stöd för hotspot- och bildscheman
 description: Stöd för hotspot- och bildscheman
 solution: Experience Manager
-title: Stöd för hotspot- och bildscheman
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: b441e241-809e-47cf-a309-57283bd0532b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4aaa77b1fb58b30b02ee15f6080169fa354d5907
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -20,10 +20,10 @@ Se [Aktiveringspunkter och bildscheman](../../c-html5-aem-asset-viewers/c-html5-
 
 Aktiveringspunkter och regioner kan antingen aktivera en snabbvyfunktion på värdwebbsidan genom att aktivera ett JavaScript-återanrop eller dirigera om en användare till en extern webbsida.
 
-## Snabbvyaktiveringspunkter {#section-cda48fc9730142d0bb3326bac7df3271}
+## Snabbvisa hotspot-områden {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Den här typen av hotspot-områden eller bildscheman ska redigeras med åtgärdstypen&quot;Snabbvy&quot; i Dynamic Media, AEM. När en användare aktiverar ett sådant hotspot- eller bildschema kör visningsprogrammet JavaScript-återanropet `quickViewActivate` och skickar hotspot- eller bildschemats data till det. Inbäddningswebbsidan förväntas lyssna efter det här återanropet. När sidan utlöses öppnas en egen snabbvyimplementering.
+Den här typen av hotspot-områden eller bildscheman bör redigeras med åtgärdstypen&quot;Quickview&quot; i Dynamic Media, Adobe Experience Manager. När en användare aktiverar ett sådant hotspot- eller bildschema kör visningsprogrammet JavaScript-återanropet `quickViewActivate` och skickar hotspot- eller bildschemats data till det. Inbäddningswebbsidan förväntas lyssna efter det här återanropet. När sidan utlöses öppnas en egen snabbvyimplementering.
 
 ## Omdirigera till extern webbsida {#section-ef820c71251e4215800bb99c0c9ebe16}
 
-Aktiveringspunkter eller bildscheman som skapats för åtgärdstypen&quot;Snabbvy&quot; i Dynamic Media AEM dirigerar om användaren till en extern URL. Beroende på inställningarna under utvecklingen öppnas URL-adressen i en ny webbläsarflik, i samma fönster eller i det namngivna webbläsarfönstret.
+Aktiveringspunkter eller bildscheman som skapats för åtgärdstypen&quot;Quickview&quot; i Dynamic Media i Experience Manager dirigerar om användaren till en extern URL. Beroende på inställningarna under utvecklingen öppnas URL-adressen i en ny webbläsarflik, i samma fönster eller i det namngivna webbläsarfönstret.

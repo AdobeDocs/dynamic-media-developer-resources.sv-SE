@@ -1,20 +1,20 @@
 ---
-description: Visst innehåll som visas i Carousel Viewer kan lokaliseras. Detta inkluderar navigeringsknappar för bildrutor.
-solution: Experience Manager
 title: Lokalisering av användargränssnittselement
+description: Visst innehåll som visas i Carousel Viewer kan lokaliseras. Innehållet innehåller navigeringsknappar för bildrutor.
+solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 05f5abe0-1124-4114-864d-440699bcdc39
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4aaa77b1fb58b30b02ee15f6080169fa354d5907
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
 
 # Lokalisering av användargränssnittselement{#localization-of-user-interface-elements}
 
-Visst innehåll som visas i Carousel Viewer kan lokaliseras. Detta inkluderar navigeringsknappar för bildrutor.
+Visst innehåll som visas i Carousel Viewer kan lokaliseras. Innehållet innehåller navigeringsknappar för bildrutor.
 
 Varje textinnehåll i visningsprogrammet som kan lokaliseras representeras av den speciella SDK-identifieraren för visningsprogrammet som kallas SYMBOL. Alla SYMBOL har ett associerat standardtextvärde för en engelsk språkinställning ( `"en"`) som levereras med visningsprogrammet som inte är installerat och kan även ha användardefinierade värden för så många språkinställningar som behövs.
 
@@ -66,7 +66,7 @@ Följande SYMBOL stöds:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Container.LABEL  </span> </p> </td> 
-   <td colname="col2"> <p> ARIA-etikett för visningsprogramelementet på den översta nivån. </p> </td> 
+   <td colname="col2"> <p> ARIA-etikett för visningsprogramelement på den översta nivån. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> CarouselView.ROLE_DESCRIPTION  </span> </p> </td> 
