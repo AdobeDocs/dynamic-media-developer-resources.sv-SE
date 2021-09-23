@@ -1,13 +1,13 @@
 ---
+title: Interaktiva färgrutor
 description: Panelen för interaktiva färgrutor visas bredvid videoinnehållet om interaktiva data skickades till användaren i konfigurationen. Den består av en banderoll längst upp som återger text, till exempel"Klicka för att visa", en kolumn med en eller flera interaktiva färgrutor och två rullningsknappar (endast tillgängligt på datorer).
 solution: Experience Manager
-title: Interaktiva färgrutor
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: c9ef02eb-f5db-474b-b234-c49508e2af35
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Följande CSS-klassväljare styr platsen och orienteringen för den interaktiva 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
-   <td colname="col2"> <p>Den översta positionen för den interaktiva färgrutepanelen. </p> </td> 
+   <td colname="col2"> <p>Den övre positionen för den interaktiva färgrutepanelen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> nederkant  </span> </p> </td> 
@@ -62,11 +62,11 @@ Körningsplatsen och orienteringen för den interaktiva färgrutepanelen definie
 * Om du vill återge interaktiva färgrutor vågrätt längst ned i visningsprogrammet anger du höjden till ett absolut pixelvärde. vänster och nerifrån till 0px; width, right, and top to auto.
 * Om du vill återge interaktiva färgrutor lodrätt till höger om videoinnehållet anger du bredden till en absolut pixel. höger och uppifrån till 0px; höjd, vänster och nederst till auto.
 
-Det går att använda CSS-markörer tillsammans med den här formateringen för att få en adaptiv placering av den interaktiva färgrutepanelen.
+Det går att använda CSS-markörer med den här stilen för att få en adaptiv placering av den interaktiva färgrutepanelen.
 
 ## Exempel {#example}
 
-Så här ställer du in en interaktiv färgrutepanel så att den återges vågrätt längst ned i visningsprogrammet på pekenheter med liggande orientering och så att den visas lodrätt till höger om videoinnehållet i alla andra fall:
+Om du vill konfigurera en interaktiv färgrutepanel så att den återges vågrätt längst ned i visningsprogrammet på enheter med pekskärm i liggande orientering. Och för att visa det lodrätt till höger om videoinnehållet i alla andra fall:
 
 ```
 .s7interactivevideoviewer.s7touchinput.s7device_landscape .s7interactiveswatches, 
@@ -192,7 +192,7 @@ Följande CSS-klassväljare styr mellanrummet mellan miniatyrbilder av färgruto
 
 ## Exempel {#section-39fb270b7e494a9d99e6e8f6890ec53c}
 
-Så här anger du ett lodrätt avstånd på 10 pixlar:
+Så här anger du ett lodrätt avstånd på tio pixlar:
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7thumbcell { 
@@ -267,7 +267,7 @@ Följande CSS-klassväljare styr utseendet på miniatyrbildetiketten:
 
 ## Exempel {#section-eb141eb6c1154183baa69796edb90536}
 
-Så här ställer du in etiketter som ska använda vänsterjusterad, vit, 12 pixlar i teckensnittet Helvetica och en nederkantsram:
+Så här ställer du in etiketter som ska använda vänsterjusterad, vit, 12 pixlar i Helvetica®-teckensnittet och en nederkant:
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7label { 

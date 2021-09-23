@@ -1,11 +1,11 @@
 ---
+title: Uppmaning
 description: Panelen Anrop till åtgärd visas när videon avslutas och alla interaktiva färgrutor som är associerade med videon visas.
 solution: Experience Manager
-title: Uppmaning
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 43e0ffb3-d650-4b79-ab48-2f32b313b832
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
 source-wordcount: '1283'
 ht-degree: 0%
@@ -187,11 +187,11 @@ Följande CSS-klassväljare styr utseendet på stängningsknappen i åtgärdspan
 
 >[!NOTE]
 >
->Den här knappen har stöd för attributväljaren `state`, som kan användas för att tillämpa olika skal på olika knapplägen.
+>Den här knappen stöder attributväljaren `state`, som kan användas för att tillämpa olika skal på olika knapplägen.
 
 ## Exempel {#example-3}
 
-för att ställa in en uppspelningsknapp som är 28 x 28 pixlar; placerad 20 pixlar från sidhuvudets övre och högra kant, visar olika bilder för vart och ett av de fyra olika knapplägena, hämtar teckningen från komponentens sprite-bild:
+Så här ställer du in en uppspelningsknapp som är 28 x 28 pixlar. Knappen måste placeras 20 pixlar från sidhuvudets övre och högra kant. Och den måste visa olika bilder för vart och ett av de fyra olika knapplägena. hämtar teckningen från komponentens sprite-bild:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7closebutton { 
@@ -255,7 +255,7 @@ Följande CSS-klassväljare styr utseendet på tumcellen i åtgärdspanelen:
 .s7interactivevideoviewer .s7calltoaction .s7thumbcell
 ```
 
-## CSS-egenskaper för miniatyrcellen i åtgärdspanelen: {#css-properties-of-the-thumbcell-in-the-call-to-action-panel}
+## CSS-egenskaper för tumcellen i åtgärdspanelen: {#css-properties-of-the-thumbcell-in-the-call-to-action-panel}
 
 <table id="table_9CEBEF6FC7024F02840A581AEEF612B4"> 
  <tbody> 
@@ -354,7 +354,7 @@ Följande CSS-klassväljare styr utseendet på miniatyretiketten i åtgärdspane
 
 ## Exempel {#example-7}
 
-Om du vill ställa in etiketter som använder en vit färg ska du centrera 15 pixlar och använda teckensnittet Arial:
+Om du vill ställa in etiketter som använder en vit färg ska du centrera 15 pixlar och använda ett Arial®-teckensnitt:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7label { 

@@ -1,13 +1,13 @@
 ---
+title: Bildtext, knapp
 description: Med den här knappen växlar du visning av undertexter. Den är inte synlig om bildtextparametern inte har angetts.
 solution: Experience Manager
-title: Bildtext, knapp
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 322062a5-1741-45ce-96d7-8710a8246cd6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalise
 
 ## Exempel {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Om du vill ställa in en knapp med en undertextning som är 28 x 28 pixlar, placerad fyra pixlar från överkanten och 68 pixlar från den högra kanten av kontrollfältet, och visar en bild för vart och ett av de fyra olika knapplägena när det är markerat eller inte.
+Så här ställer du in en undertextningsknapp som är 28 x 28 pixlar. Knappen måste placeras fyra pixlar från kontrollfältets övre kant och 68 pixlar från kontrollfältets högra kant. Och den måste visa olika bilder för var och en av de fyra olika knapplägena när den är markerad eller inte är markerad.
 
 ```
 .s7interactivevideoviewer .s7closedcaptionbutton { 

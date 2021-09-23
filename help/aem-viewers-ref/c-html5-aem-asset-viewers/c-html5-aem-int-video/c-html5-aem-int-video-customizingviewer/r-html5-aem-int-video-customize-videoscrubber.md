@@ -1,13 +1,13 @@
 ---
+title: Videoskrubber
 description: Videonavigeringen är den vågräta skjutreglaget som gör att en användare dynamiskt kan söka till valfri tidsposition i den video som spelas upp.
 solution: Experience Manager
-title: Videoskrubber
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 9d11f2e9-315c-44d8-beb1-530d2b316604
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14ca8cd5e1ce60d59806765e573e50417d0ccc50
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1022'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Videonavigeringen är den vågräta skjutreglaget som gör att en användare dyn
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Rubbens &#39;knob&#39; rör sig också när videon spelas upp för att ange videons aktuella tidsposition under uppspelningen. Videonavigeringslisten har alltid hela kontrollfältets bredd. Det går att skalförändra videospolaren. ändra dess höjd och lodräta position med CSS.
+Rubbens &#39;knob&#39; rör sig också när videon spelas upp för att ange videons aktuella tidsposition under uppspelningen. Videonavigeringslisten har alltid hela kontrollfältets bredd. Det går att skapa skal för videospolaren och ändra dess höjd och lodräta position med CSS.
 
 Videonavigeringens allmänna utseende styrs med följande CSS-klassväljare:
 
@@ -158,7 +158,7 @@ Följande CSS-klassväljare styr den tid som spelas upp:
 
 Verktygstipset för videospolning kan lokaliseras. Mer information finns i [Lokalisering av element i användargränssnittet](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
-**Exempel**  - Om du vill ställa in ett videovisningsprogram med en videonavigeringsruta med anpassade spårfärger som är 10 pixlar höga och placerade 10 pixlar och 35 pixlar från kontrollfältets övre och vänstra kant.
+**Exempel**  - Om du vill ställa in ett visningsprogram för video med en videokamera och anpassade spårfärger som är tio pixlar höga. Placera den tio pixlar och 35 pixlar från kontrollfältets övre och vänstra kant.
 
 ```
 .s7interactivevideoviewer .s7videoscrubber  { 
@@ -181,7 +181,7 @@ background-color:#888888;
 }
 ```
 
-När videofiltrering är aktiverat med parametern `navigation` visas kapitelplaceringar som markörer ovanpå videonavigeringsspåret.
+När videokapitelmarkören är aktiverad med parametern `navigation` visas kapitelplaceringar som markörer ovanpå videonavigeringsspåret.
 
 Videokapitelmarkören styrs av följande CSS-klassväljare:
 
@@ -430,7 +430,7 @@ Beskrivningen av videokapitlet styrs av följande CSS-klassväljare:
  </tbody> 
 </table>
 
-**Exempel**  - Om du vill ställa in videokapitelbeskrivning med ett mörkgrått, 11 pixlar Verdana-teckensnitt med ljusgrå bakgrund, Linjehöjd på 5 pixlar, vågrät utfyllnad på 12 pixlar, övre utfyllnad på 12 pixlar och nedre utfyllnad på 9 pixlar.
+**Exempel**  - Om du vill ställa in kapitelbeskrivning för video med ett mörkgrått teckensnitt med 11 pixlar Verdana och en ljusgrå bakgrund. En höjd på fem pixlar, vågrät utfyllnad på 12 pixlar, övre utfyllnad på 12 pixlar och nedre utfyllnad på nio pixlar.
 
 ```
 .s7interactivevideoviewer .s7videoscrubber .s7chapter .s7description { 
@@ -455,7 +455,7 @@ Kassaanslutningen längst ned i kapitelbubblan styrs av följande CSS-klassvälj
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border-color  </span> </p> </td> 
-   <td colname="col2"> <p>Konnektionens färg. </p> <p>Definieras som <span class="codeph"> &lt;color&gt; genomskinlig </span> så att endast den övre kantfärgen definieras och de återstående kantlinjerna förblir genomskinliga. </p> </td> 
+   <td colname="col2"> <p>Konnektionens färg. </p> <p>Definieras som <span class="codeph"> &lt;color&gt; genomskinlig </span> så att endast den översta kantsfärgen definieras och de återstående kantlinjerna förblir genomskinliga. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border-width  </span> </p> </td> 

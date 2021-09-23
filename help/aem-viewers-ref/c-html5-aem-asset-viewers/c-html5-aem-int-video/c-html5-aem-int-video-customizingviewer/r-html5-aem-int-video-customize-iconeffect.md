@@ -1,13 +1,13 @@
 ---
+title: Ikoneffekt
 description: Uppspelningsikonen visas i huvudvisningsområdet. Den visas när videon pausas eller när slutet av videon nås, och den beror också på parametern iconeffect.
 solution: Experience Manager
-title: Ikoneffekt
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: bbb35286-fdb6-4329-a837-17fe8f976276
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
@@ -47,11 +47,11 @@ Utseendet på uppspelningsikonen styrs med följande CSS-klassväljare:
  </tbody> 
 </table>
 
-Ikoneffekten stöder attributväljaren `state`. `state="play"` används när videon pausas mitt i uppspelningen och  `state="replay"` används när spelhuvudet är i slutet av direktuppspelningen.
+Ikoneffekten stöder attributväljaren `state`. Attributet `state="play"` används när videon pausas mitt i uppspelningen och `state="replay"` används när spelhuvudet är i slutet av direktuppspelningen.
 
 ## Exempel {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Ställ in en 100 x 100 pixlar uppspelningsikon.
+Ställ in en 100 x 100 pixlar stor uppspelningsikon.
 
 ```
 .s7interactivevideoviewer .s7videoplayer .s7iconeffect { 

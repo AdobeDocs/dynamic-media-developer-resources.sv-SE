@@ -1,13 +1,13 @@
 ---
+title: navigering
 description: URL-kommando för Interactive Video Viewer.
 solution: Experience Manager
-title: navigering
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 9852e723-fd1f-4ade-921b-cfb92bf9f2ad
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '55'
 ht-degree: 1%
 
 ---
