@@ -1,13 +1,13 @@
 ---
+title: JavaScript API-referens för Interactive Image Viewer
 description: Huvudklassen i Interactive Image Viewer är InteractiveImage. Den deklareras i s7viewers namnutrymme. Detta JavaScript-API omfattar konstruktor, metoder och återanrop för just den här klassen.
 solution: Experience Manager
-title: JavaScript API-referens för Interactive Image Viewer
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva bilder
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 40a3554c-633f-418e-b365-2cae4eebe878
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---

@@ -1,13 +1,13 @@
 ---
+title: Länkresurs
 description: Länkdelningsverktyget består av en knapp som läggs till på panelen Dela via sociala medier och den modala dialogruta som visas när verktyget aktiveras. Knappens position hanteras helt av verktyget för social delning.
 solution: Experience Manager
-title: Länkresurs
-feature: Dynamic Media Classic,visningsprogram,SDK/API,360 VR-video
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 9eb2ef38-9b86-4c60-90a2-6609cb3fcc39
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1385'
 ht-degree: 0%
 
 ---
@@ -284,7 +284,7 @@ Stängningsknappen styrs med följande CSS-klassväljare:
 
 Knappbeskrivningen Stäng och dialogrutans titel kan lokaliseras. Se [Lokalisering av element i användargränssnittet](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Exempel** : för att ställa in en dialogruterubrik med utfyllnad, en ikon med storleken 22 x 12 pixlar, en rubrik med 16 punkter i fet stil och en stängningsknapp med storleken 28 x 28 pixlar som placeras två pixlar uppifrån och två pixlar från höger om dialogrutan:
+**Exempel**  - Om du vill ställa in en dialogruterubrik med utfyllnad, en ikon med 22 x 12 pixlar och en rubrik med 16 punkter i fet stil. Slutligen en stängningsknapp på 28 x 28 pixlar som placeras två pixlar uppifrån och två pixlar från höger om dialogrutan:
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogheader { 
@@ -426,7 +426,7 @@ Knappen Avbryt styrs med följande CSS-klassväljare:
 >
 >Den här knappen stöder attributväljaren `state`, som kan användas för att tillämpa olika skal på olika knapplägen.
 
-Dessutom har båda knapparna samma gemensamma CSS-klass som kan innehålla CSS-inställningar som är desamma för andra dialogruteknappar:
+Båda knapparna har dessutom en gemensam CSS-klass som kan innehålla CSS-inställningar som är desamma för andra dialogruteknappar:
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogfooter .s7button
@@ -560,7 +560,7 @@ Dialogrutans huvudområde (mellan sidhuvudet och sidfoten) innehåller dialogrut
 }
 ```
 
-Allt formulärinnehåll - som etiketter och inmatningsfält - finns inuti en behållare som styrs med följande CSS-klassväljare:
+Allt formulärinnehåll, till exempel etiketter och inmatningsfält, finns inuti en behållare som styrs med följande CSS-klassväljare:
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogbody
@@ -577,7 +577,7 @@ Allt formulärinnehåll - som etiketter och inmatningsfält - finns inuti en beh
  </tbody> 
 </table>
 
-**Exempel** : för att ställa in formulärinnehåll så att det har 10 pixlar utfyllnad:
+**Exempel** : för att ställa in formulärinnehåll så att det får utfyllnad på tio pixlar:
 
 ```
 .s7interactivevideoviewer .s7linkdialog .s7dialogbody { 

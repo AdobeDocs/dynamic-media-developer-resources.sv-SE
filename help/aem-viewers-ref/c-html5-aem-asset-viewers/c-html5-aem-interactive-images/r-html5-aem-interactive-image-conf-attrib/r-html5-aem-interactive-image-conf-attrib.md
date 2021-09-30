@@ -1,13 +1,13 @@
 ---
+title: Kommandoreferens - Konfigurationsattribut
 description: Konfigurationsattributdokumentation för Interactive Image Viewer.
 solution: Experience Manager
-title: Kommandoreferens - Konfigurationsattribut
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva bilder
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 53c4b304-3b45-4ff0-91aa-a14f39ab1e94
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Vissa konfigurationskommandon kan ha prefixet med klassnamnet eller instansnamne
 
 `[ZoomView.|<containerId>_zoomView].fmt`
 
-vilket betyder att du kan använda det här kommandot som:
+Betyder att du kan använda det här kommandot som:
 
 * `fmt` (kort syntax)
 * `ZoomView.fmt` (kvalificerad med komponentklassnamn)

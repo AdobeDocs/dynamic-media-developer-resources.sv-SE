@@ -1,14 +1,14 @@
 ---
+title: Anpassa Video360 Viewer
 description: All visuell anpassning och de flesta beteendeanpassningar för Video360 Viewer görs genom att en anpassad CSS skapas.
 keywords: responsiv
 solution: Experience Manager
-title: Anpassa Video360 Viewer
-feature: Dynamic Media Classic,visningsprogram,SDK/API,360 VR-video
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: c9dda4e8-2781-4870-9ccb-707823c56490
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: '1295'
 ht-degree: 0%
 
 ---
@@ -27,23 +27,23 @@ Den anpassade CSS-filen måste innehålla samma klassdeklarationer som standardk
 
 Ett annat sätt att tillhandahålla anpassade CSS-regler är att använda inbäddade format direkt på webbsidan eller i någon av de länkade externa CSS-reglerna.
 
-När du skapar anpassad CSS bör du tänka på att visningsprogrammet tilldelar klassen `.s7video360viewer` till dess behållar-DOM-element. Om du använder en extern CSS-fil som skickas med kommandot `style=` ska du använda klassen `.s7video360viewer` som överordnad klass i den underordnade väljaren för dina CSS-regler. Om du gör inbäddade format på webbsidan kan du även kvalificera den här väljaren med ett ID för behållar-DOM-elementet enligt följande:
+När du skapar anpassad CSS bör du tänka på att visningsprogrammet tilldelar klassen `.s7video360viewer` till dess behållar-DOM-element. Om du använder en extern CSS-fil som skickas med kommandot `style=` ska du använda klassen `.s7video360viewer` som överordnad klass i den underordnade väljaren för dina CSS-regler. Om du gör inbäddade format på webbsidan kvalificerar du även den här väljaren med ett ID för behållar-DOM-elementet enligt följande:
 
 `#<containerId>.s7video360viewer`
 
 ## Skapa responsiv CSS {#section-0bb49aca42d242d9b01879d5ba59d33b}
 
-Det är möjligt att rikta in sig på olika enheter och inbäddningsstorlekar i CSS så att innehållet visas på olika sätt beroende på användarens enhet eller en viss webbsideslayout. Detta omfattar, men är inte begränsat till, olika layouter, elementstorlekar i användargränssnittet och bildupplösning.
+Det är möjligt att rikta in sig på olika enheter och inbäddningsstorlekar i CSS så att innehållet visas på olika sätt beroende på användarens enhet eller en viss webbsideslayout. Den här metoden omfattar, men är inte begränsad till, olika layouter, elementstorlekar i användargränssnittet och bildupplösning.
 
-Visningsprogrammet har stöd för två sätt att skapa responsiv CSS: CSS-markörer och vanliga CSS-mediefrågor. Du kan använda dessa separat eller tillsammans.
+Visningsprogrammet har stöd för två sätt att skapa responsiv CSS: CSS-markörer och vanliga CSS-mediefrågor. Du kan använda markörer eller frågor oberoende av varandra eller tillsammans.
 
 **CSS-markörer**
 
-För att det ska vara lättare att skapa responsiv CSS-kod har visningsprogrammet stöd för CSS-markörer. Dessa är speciella CSS-klasser som dynamiskt tilldelas till visningsbehållarelementet på den översta nivån baserat på visningsprogrammets storlek vid körning och den indatatyp som används på den aktuella enheten.
+Visningsprogrammet har stöd för CSS-markörer för att kunna skapa responsiv CSS-kod. Dessa markörer är speciella CSS-klasser som dynamiskt tilldelas till visningsprogrambehållarelementet på den översta nivån. De baseras på visningsprogrammets storlek vid körning och den indatatyp som används på den aktuella enheten.
 
 Den första gruppen med CSS-markörer innehåller klasserna `.s7size_large`, `.s7size_medium` och `.s7size_small`. De tillämpas baserat på visningsbehållarens körningsområde. Om visningsområdet är lika stort eller större än storleken på en vanlig skrivbordsskärm används `.s7size_large`. om området ligger nära en gemensam surfplatta tilldelas `.s7size_medium`. För områden som liknar mobiltelefonskärmar ställs `.s7size_small` in. Det främsta syftet med dessa CSS-markörer är att skapa olika användargränssnittslayouter för olika skärmar och visningsstorlekar.
 
-Den andra gruppen med CSS-markörer innehåller `.s7mouseinput` och `.s7touchinput`. `.s7touchinput` är inställt om den aktuella enheten har funktioner för pekrörelser, i annat fall  `.s7mouseinput` används. Dessa markörer är främst avsedda att skapa indataelement i användargränssnittet med olika skärmstorlekar för olika indatatyper, eftersom större element normalt krävs för pekrörelser. Observera att om enheten har både musindata- och pekfunktioner är `.s7touchinput` inställt och visningsprogrammet kommer att återge ett pekvänligt användargränssnitt.
+Den andra gruppen med CSS-markörer innehåller `.s7mouseinput` och `.s7touchinput`. Markören `.s7touchinput` anges om den aktuella enheten har funktioner för pekrörelser; i annat fall används `.s7mouseinput`. Dessa markörer är främst avsedda att skapa indataelement i användargränssnittet med olika skärmstorlekar för olika indatatyper, eftersom större element normalt krävs för pekrörelser. Om enheten har både musindata- och pekfunktioner är `.s7touchinput` inställt och visningsprogrammet återger ett pekvänligt användargränssnitt.
 
 I följande exempel på CSS anges storleken på uppspelnings-/pausknappen till 28 x 28 pixlar på system med musindata och 56 x 56 pixlar på pekenheter. Dessutom döljs knappen helt om visningsprogrammets storlek minskar avsevärt:
 
@@ -61,7 +61,7 @@ I följande exempel på CSS anges storleken på uppspelnings-/pausknappen till 2
 }
 ```
 
-Om du vill ange enheter med olika pixeldensitet som mål måste du använda CSS-mediefrågor. Följande mediefrågeblock skulle innehålla CSS som är specifikt för skärmar med hög densitet:
+Om du vill använda enheter med olika pixeldensitet som mål måste du använda CSS-mediefrågor. Följande mediefrågeblock skulle innehålla CSS som är specifikt för skärmar med hög densitet:
 
 ```
 @media screen and (-webkit-min-device-pixel-ratio: 1.5) 
@@ -171,7 +171,7 @@ background-image:url(images/v2/ReplayButton_disabled.png);
 
 Nackdelen med detta är att slutanvändaren får flimmer eller fördröjt svar i användargränssnittet när elementet interagerar med det för första gången. Den här åtgärden inträffar eftersom bildgrafiken för det nya elementläget inte har hämtats ännu. Den här metoden kan också ha en liten negativ inverkan på prestanda på grund av ett ökat antal HTTP-anrop till servern.
 
-CSS-sprites är en annan metod där bilder för alla elementlägen kombineras till en enda PNG-fil som kallas&quot;sprite&quot;. En sådan&quot;sprite&quot; har alla visuella lägen för det angivna elementet placerade efter varandra. När du formaterar ett element i användargränssnittet med fragment refereras samma sprite-bild till för alla olika lägen i CSS. Dessutom används egenskapen `background-position` för varje läge för att ange vilken del av Sprite-bilden som ska användas. Du kan strukturera en&quot;sprite&quot;-bild på ett lämpligt sätt. Visningsprogram har normalt en lodrät stapling. Nedan visas ett&quot;sprite&quot;-baserat exempel på hur du formaterar samma helskärmsknapp tidigare:
+CSS-sprites är en annan metod där bilder för alla elementlägen kombineras till en enda PNG-fil som kallas&quot;sprite&quot;. En sådan&quot;sprite&quot; har alla visuella lägen för det angivna elementet placerade efter varandra. När du formaterar ett element i användargränssnittet med sprites refereras samma sprite-bild till för alla olika lägen i CSS. Dessutom används egenskapen `background-position` för varje läge för att ange vilken del av Sprite-bilden som ska användas. Du kan strukturera en&quot;sprite&quot;-bild på ett lämpligt sätt. Visningsprogram har normalt en lodrät stapling. Nedan visas ett&quot;sprite&quot;-baserat exempel på hur du formaterar samma helskärmsknapp tidigare:
 
 ```
 .s7video360viewer .s7fullscreenbutton[state][selected]{ 
@@ -214,7 +214,7 @@ background-position: -0px -1120px;
 * Om du vill ta bort en knapp från användargränssnittet lägger du till `display:none` i CSS-klassen.
 * Du kan använda olika format för färgvärden som stöds i CSS. Använd formatet `rgba(R,G,B,A)` om du behöver genomskinlighet. Annars kan du använda formatet `#RRGGBB`.
 
-* När du anpassar visningsprogrammets användargränssnitt med CSS stöds inte användningen av regeln `!IMPORTANT` för att formatera visningsprogramelement. I synnerhet ska `!IMPORTANT`-regeln inte användas för att åsidosätta standardformat eller körningsformat som tillhandahålls av visningsprogrammet eller visaren-SDK:n. Orsaken är att det kan påverka beteendet för rätt komponenter. I stället bör du använda CSS-väljare med rätt specificitet för att ange CSS-egenskaper som dokumenteras i den här referenshandboken.
+* När du anpassar visningsprogrammets användargränssnitt med CSS stöds inte `!IMPORTANT`-regeln för att formatera visningsprogramelement. I synnerhet ska `!IMPORTANT`-regeln inte användas för att åsidosätta standardformat eller körningsformat som tillhandahålls av visningsprogrammet eller visaren-SDK:n. Orsaken är att det kan påverka beteendet för rätt komponenter. I stället bör du använda CSS-väljare med rätt specificitet för att ange CSS-egenskaper som dokumenteras i den här referenshandboken.
 
 ## Element i gemensamt användargränssnitt {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
 

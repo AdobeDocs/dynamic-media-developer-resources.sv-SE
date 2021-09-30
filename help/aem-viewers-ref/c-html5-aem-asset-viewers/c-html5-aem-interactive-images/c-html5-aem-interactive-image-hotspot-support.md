@@ -1,13 +1,13 @@
 ---
+title: Stöd för hotspot
 description: Stöd för hotspot
 solution: Experience Manager
-title: Stöd för hotspot
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva bilder
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 9b9ccdf4-4639-4ba8-988c-c68d81192619
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -20,10 +20,10 @@ Se [Aktiveringspunkter](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-
 
 Aktiveringspunkter kan antingen aktivera en snabbvyfunktion på värdwebbsidan genom att aktivera ett JavaScript-återanrop eller dirigera om en användare till en extern webbsida.
 
-## Snabbvyaktiveringspunkter {#section-cda48fc9730142d0bb3326bac7df3271}
+## Snabbvisa hotspot-områden {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Dessa typer av hotspot-områden bör redigeras med åtgärdstypen&quot;snabbvy&quot; i Dynamic Media, AEM Assets - on demand. När en användare aktiverar en sådan hotspot kör visningsprogrammet JavaScript-återanropet `quickViewActivate` och skickar hotspot-data till den. Inbäddningswebbsidan förväntas lyssna efter det här återanropet. När sidan utlöses öppnas en egen snabbvyimplementering.
+Dessa typer av hotspot-områden bör skapas med åtgärdstypen&quot;QuickView&quot; i Dynamic Media, Adobe Experience Manager Assets - On-demand. När en användare aktiverar en sådan hotspot kör visningsprogrammet JavaScript-återanropet `quickViewActivate` och skickar hotspot-data till den. Inbäddningswebbsidan förväntas lyssna efter det här återanropet. När sidan utlöses öppnas en egen snabbvyimplementering.
 
 ## Omdirigera till extern webbsida {#section-ef820c71251e4215800bb99c0c9ebe16}
 
-Aktiveringspunkter som skapats för åtgärdstypen&quot;Snabbvy&quot; i Dynamic Media för AEM Assets - dirigerar om användaren till en extern URL. Beroende på inställningarna under utvecklingen öppnas URL-adressen i en ny webbläsarflik, i samma fönster eller i det namngivna webbläsarfönstret.
+Aktiveringspunkter som har skapats för åtgärdstypen&quot;Snabbvy&quot; i Dynamic Media för Experience Manager-resurser - Används vid behov omdirigeras användaren till en extern URL. Beroende på inställningarna under utvecklingen öppnas URL-adressen i en ny webbläsarflik, i samma fönster eller i det namngivna webbläsarfönstret.

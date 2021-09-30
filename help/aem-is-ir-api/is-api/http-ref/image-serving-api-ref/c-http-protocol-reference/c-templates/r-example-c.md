@@ -1,13 +1,13 @@
 ---
+title: Exempel C
 description: Skapa ett"pappersprogram".
 solution: Experience Manager
-title: Exempel C
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 70232055-2a4c-4e56-8076-3cd56a9004c5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ En bakgrundsbild innehåller fotot av en modell eller mannequin. Ytterligare pos
 
 Alla kläder-/tillbehörsfoton maskeras och beskärs till markeringsramen för masken för att minimera bildstorlekarna. Bildankarpunkter och upplösningar styrs noga för att bibehålla justeringen mellan lagren och bakgrundsbilden, och alla bilder läggs till i en bildkatalog med rätt värden lagrade i `catalog::Resolution` och `catalog::Anchor`.
 
-Förutom lagerhantering vill vi också ändra färgen för markerade objekt. Posterna för dessa objekt förbearbetas för att ta bort den ursprungliga färgen och justera intensiteten och kontrasten på ett sätt som passar kommandot för färgläggning. Den här förbearbetningen kan göras offline med ett bildredigeringsverktyg som Photoshop, eller i enkla fall kan den göras trivialt genom att lägga till `op_brightness=` och `op_contrast=` i `catalog::Modifier`fältet.
+Förutom lagerhantering vill du också ändra färgen för markerade objekt. Posterna för dessa objekt förbearbetas för att ta bort den ursprungliga färgen och justera intensiteten och kontrasten på ett sätt som passar kommandot för färgläggning. Den här förbearbetningen kan göras offline med ett bildredigeringsverktyg som Adobe Photoshop, eller i enkla fall kan den göras trivialt genom att lägga till `op_brightness=` och `op_contrast=` i `catalog::Modifier`fältet.
 
-Det här programmet kräver ingen separat mall eftersom alla objekt redan är korrekt justerade med sina bildsankarpunkter ( `catalog::Anchor`) och skalade ( `catalog::Resolution`). Vi överlåter det till kunden för att säkerställa lämplig lagerordning.
+Det här programmet kräver ingen separat mall eftersom alla objekt redan är korrekt justerade med sina bildsankarpunkter ( `catalog::Anchor`) och skalade ( `catalog::Resolution`). Det är upp till klienten att säkerställa rätt lagerordning.
 
 En vanlig begäran kan se ut så här:
 
@@ -36,7 +36,7 @@ layer=4&res=999&src=rootId/hat2generic&colorize=12,15,34&
 layer=6&res=999&src=rootId/shoes21
 ```
 
-Endast höjden anges. Detta gör att den returnerade bilden kan variera i bredd beroende på mannequin-bildens proportioner, utan att marginalerna fylls med bakgrundsfärgen.
+Endast höjden anges. På så sätt kan den returnerade bilden variera i bredd beroende på mannequin-bildens proportioner, utan att marginalerna fylls med bakgrundsfärgen.
 
 Det spelar ingen roll vilken upplösning som anges för varje lager, så länge de är desamma. Den här versionen kanske inte tillåter vyer att vara större än de sammansatta bilderna. Om du anger ett stort upplösningsvärde undviker du problem som beror på den här begränsningen. All bearbetning och sammansättning sker med den optimala upplösningen för den begärda bildstorleken, för att uppnå bästa prestanda och utdatakvalitet.
 

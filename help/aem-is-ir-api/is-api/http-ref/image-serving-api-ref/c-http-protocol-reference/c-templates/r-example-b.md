@@ -5,9 +5,9 @@ title: Exempel B
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 90ef96fc-c12f-4fc8-b465-6520b71f4e7b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
@@ -27,12 +27,12 @@ Liknande krav som exempel A, men använd en enfärgad bakgrund och låt höjden 
  </tr> 
 </table>
 
-Bilden placeras i lager 0 och höjdvärdet `size=` är inställt på 0, vilket gör att den faktiska höjden bestäms av bildens höjd när den skalats till 800 pixlar bred.
+Bilden placeras i lager 0 och höjdvärdet `size=` anges till 0. Den här inställningen gör att den faktiska höjden bestäms av bildens höjd efter att den skalats till 800 pixlar bred.
 
-`extend=` lägger till 100 pixlar i över- och underkant och 200 pixlar till höger.
+Variabeln `extend=` lägger till 100 pixlar i över- och underkanten och 200 pixlar till höger.
 
 Ursprunget för både lager 0 och lager 1 placeras i mitten till höger i sammansättningsområdet för att uppnå önskad textposition.
 
 Följande bild visar det sammansatta resultatet för olika bildproportioner och olika textsträngar.
 
-![](assets/exampleb.png)
+![Exempel B-bild](assets/exampleb.png)

@@ -1,13 +1,13 @@
 ---
+title: Bädda in resurs
 description: Verktyget Bädda in delning består av en knapp som läggs till på panelen Dela via sociala medier och den modala dialogruta som visas när verktyget aktiveras. Knappens position hanteras helt av verktyget för social delning.
 solution: Experience Manager
-title: Bädda in resurs
-feature: Dynamic Media Classic,visningsprogram,SDK/API,360 VR-video
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 08ba7a29-8b17-4167-a9f3-82aa4cf65556
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '2603'
+source-wordcount: '2599'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Det går att ta bort knappen från panelen Dela via CSS-egenskapen `display:none
 
 Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av element i användargränssnittet](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Exempel** : för att ställa in en inbäddad delningsknapp som är 28 x 28 pixlar och som visar olika bilder för de fyra olika knapplägena:
+**Exempel**  - Så här ställer du in en inbäddad delningsknapp som är 28 x 28 pixlar och visar en annan bild för vart och ett av de fyra olika knapplägena:
 
 ```
 .s7video360viewer .s7embedshare { 
@@ -162,7 +162,7 @@ Dialogrutans rubrik består av en ikon, en titeltext och en stängningsknapp. Ru
  </tbody> 
 </table>
 
-Ikonen och rubriktexten placeras i en extra behållare som styrs med följande:
+Ikonen och rubriktexten placeras i en extra behållare som styrs av följande:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogheader .s7dialogline
@@ -284,7 +284,7 @@ Stängningsknappen styrs med följande CSS-klassväljare:
 
 Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av element i användargränssnittet](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Exempel** : för att ställa in ett dialoghuvud med utfyllnad, en ikon med storleken 24 x 14 pixlar, en rubrik med 16 punkter i fet stil och en stängningsknapp med storleken 28 x 28 pixlar, placerad två pixlar uppifrån och två pixlar från höger i dialogrutan:
+**Exempel**  - Om du vill ställa in ett dialoghuvud med utfyllnad, en ikon med 24 x 14 pixlar och en rubrik med 16 punkter i fet stil. Slutligen en stängningsknapp på 28 x 28 pixlar, placerad två pixlar uppifrån och två pixlar från höger i dialogrutan:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogheader { 
@@ -426,7 +426,7 @@ Knappen Avbryt styrs med följande CSS-klassväljare:
 >
 >Den här knappen stöder attributväljaren `state`, som kan användas för att tillämpa olika skal på olika knapplägen.
 
-Dessutom har båda knapparna samma gemensamma CSS-klass som kan innehålla CSS-inställningar som är desamma för andra dialogruteknappar:
+Båda knapparna har dessutom en gemensam CSS-klass som kan innehålla CSS-inställningar som är desamma för andra dialogruteknappar:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogfooter .s7button
@@ -712,7 +712,7 @@ Den faktiska inbäddningskodtexten styrs med följande CSS-klassväljare:
  </tbody> 
 </table>
 
-**Exempel** : för att ställa in inbäddningskod så att  `break-word` automatisk radbrytning används:
+**Exempel**  - Så här konfigurerar du inbäddningskod så att den använder  `break-word` automatisk radbrytning:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogmessage { 
@@ -794,7 +794,7 @@ Bredden på kombinationsrutan för inbäddningsstorlek styrs med följande CSS-k
 
 >[!NOTE]
 >
->Kombinationsrutan stöder attributväljaren `expanded` med möjliga värden `true` och `false`. `true` används när kombinationsrutan visar en fördefinierad inbäddningsstorlek, vilket innebär att all tillgänglig bredd används. `false` används när alternativet för anpassad storlek är markerat i kombinationsrutan, så det bör krympa för att ge utrymme för anpassade indatafält för bredd och höjd.
+>Kombinationsrutan stöder attributväljaren `expanded` med möjliga värden `true` och `false`. Värdet `true` används när kombinationsrutan visar en av fördefinierade inbäddningsstorlekar, vilket innebär att den ska ha all tillgänglig bredd. Värdet `false` används när alternativet för anpassad storlek väljs i kombinationsrutan, så det bör krympa för att tillåta utrymme för anpassade indatafält för bredd och höjd.
 
 **Exempel**  - för att ange att kombinationsrutan för inbäddningsstorlek ska vara 300 pixlar bred när ett fördefinierat objekt visas och 110 pixlar bred när en anpassad storlek visas:
 
@@ -894,7 +894,7 @@ Kombinationsrutan har en nedrullningsknapp till höger och den styrs med följan
 }
 ```
 
-Panelen med listan över inbäddningsstorlekar som visas när kombinationsrutan öppnas styrs med följande CSS-klassväljare:
+Panelen med listan över inbäddningsstorlekar som visas när kombinationsrutan öppnas, styrs med följande CSS-klassväljare:
 
 ```
 .s7video360viewer .s7embeddialog .s7comboboxdropdown
@@ -1039,7 +1039,7 @@ Varje indatafält med anpassad storlek kapslas i en behållare som återger en k
  </tbody> 
 </table>
 
-**Exempel** : om du vill ange att indatafälten med en anpassad storlek ska ha en grå kant, marginal, utfyllnad och vara 70 pixlar bred:
+**Exempel**  - Så här anger du att indatafälten med en pixel ska ha en grå kant, marginal, utfyllnad och vara 70 pixlar breda:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogcustomsize { 

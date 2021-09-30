@@ -1,22 +1,22 @@
 ---
-description: Skapa en mall med fast storlek med en statisk bakgrundsbild, en variabel bild som är justerad mot bakgrunden i mitten till vänster och skalad till högst 80 % av bakgrunden och ett textlager med lodrät text centrerad i den högra kanten av arbetsytan.
-solution: Experience Manager
 title: Exempel A
+description: Skapa en mall med fast storlek med en statisk bakgrundsbild, en variabel bild som justeras mot bakgrunden i mitten till vänster och skalas så att den inte överskrider 80 % av bakgrunden. Och slutligen ett textlager med lodrät text centrerad vid arbetsytans högra kant.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7f731b41-994d-4f1d-b42d-e14db47e4d6c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
 
 # Exempel A{#example-a}
 
-Skapa en mall med fast storlek med en statisk bakgrundsbild, en variabel bild som är justerad mot bakgrunden i mitten till vänster och skalad till högst 80 % av bakgrunden och ett textlager med lodrät text centrerad i den högra kanten av arbetsytan.
+Skapa en mall med fast storlek med en statisk bakgrundsbild, en variabel bild som justeras mot bakgrunden i mitten till vänster och skalas så att den inte överskrider 80 % av bakgrunden. Och slutligen ett textlager med lodrät text centrerad vid arbetsytans högra kant.
 
-![](assets/examplea.png)
+![Exempel på en bild](assets/examplea.png)
 
 ## Mallposten {#section-32f54710593e438fa0622224c89380af}
 
@@ -33,15 +33,15 @@ Infoga objekt
  </tr> 
 </table>
 
-`origin=`-värdena för alla lager anges explicit i mallen för att strikt styra placering och justering av lagren. Varje lagers ursprung ställs in så att det matchar den önskade justeringen för det lagret. `origin=` för bakgrunden (lager 0) ställs in på mitten; detta är godtyckligt eftersom bakgrundsbilden inte ändras vid körning, ett värde för origo för lager 0 kan användas.
+`origin=`-värdena för alla lager anges explicit i mallen för att strikt styra placering och justering av lagren. Varje lagers ursprung ställs in så att det matchar den önskade justeringen för det lagret. `origin=` för bakgrunden (lager 0) ställs in på mitten; detta värde är godtyckligt eftersom bakgrundsbilden inte ändras vid körning, ett värde för origo för lager 0 kan användas.
 
 `pos=`-värdena ger de förskjutningar som behövs mellan lagerstartpunkterna för att uppnå önskad lagerplacering.
 
-Fästpunkten för bild 1 i lager 1 placeras i mitten till vänster. tillsammans med `pos=`-värdet uppnår detta vänstercentrerad justering mellan bakgrunden och bilden i lager 1, oavsett bildens proportioner i lager 1.
+Fästpunkten för bilden i lager 1 placeras i mitten till vänster med `pos=`-värdet. Den här inställningen ger den vänstercentrerade justeringen mellan bakgrunden och bilden i lager 1, oavsett bildförhållandet för bilden i lager 1.
 
-På samma sätt är ankarpunkten för textlagret placerad till höger i mitten av textrutan med automatisk storlek. I kombination med pos= uppnås den önskade högercentrerade justeringen för den roterade texten, oberoende av teckensnittsstorlek och stränglängd.
+På samma sätt är ankarpunkten för textlagret placerad till höger i den automatiskt storleksanpassade textrutan, med värdet `pos=`. Med den här inställningen uppnås den önskade högercentrerade justeringen för den roterade texten, oberoende av teckensnittsstorlek och stränglängd.
 
-Den faktiska visningstexten kommer att anges vid körning, så en variabel används för att separera texten från rtf-formateringsomslaget. Vi använder standardvariabeln `$object` för bilden av lager 1. Detta gör att du kan ange den här bilden i sökvägen för begäran.
+Den faktiska visningstexten anges vid körning, så en variabel används för att separera texten från rtf-formateringsomslaget. Standardvariabeln `$object` används för bilden av lager 1. Med den här variabeln kan du ange den här bilden i sökvägen för begäran.
 
 Alla bilder kan användas för bakgrundsbilden och bilden av lager 1. Om bakgrundsbilden har en mask fylls de omaskerade områdena med standardbakgrundsfärgen ( `attribute::BkgColor`), eller så blir de genomskinliga när `fmt=png-alpha` eller `fmt=tif-alpha` används. Om bakgrundsbilden har en icke-fyrkantig proportion centreras den i svarsbilden och det extra utrymmet fylls med `attribute::BkgColor`. Om bilden i lager 1 har alfavärden eller en mask förblir bakgrundsbilden (eller bakgrundsfärgen) synlig i de genomskinliga områdena. Om bilden inte har någon mask fyller den hela den tilldelade rektangeln.
 
@@ -49,6 +49,6 @@ Alla bilder kan användas för bakgrundsbilden och bilden av lager 1. Om bakgrun
 
 ` http:// *`server`*/myRootId/anotherImage?template=myTemplate1&$text=about+the+image`
 
-Följande bild visar det sammansatta resultatet för olika bildproportioner i bilden i lager 1 och olika textsträngar.
+Följande bild visar det sammansatta resultatet för olika proportioner i bilden för lager 1 och olika textsträngar.
 
-![](assets/exampleausing.png)
+![Exempel på en sammansatt resultatbild](assets/exampleausing.png)

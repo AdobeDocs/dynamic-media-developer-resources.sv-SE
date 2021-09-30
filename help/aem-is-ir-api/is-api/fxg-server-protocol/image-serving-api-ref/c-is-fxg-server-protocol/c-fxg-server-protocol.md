@@ -1,13 +1,13 @@
 ---
+title: FXG-serverprotokoll
 description: Om du vill ändra en bild kan du använda referenspunkter som liknar kompaspunkter.
 solution: Experience Manager
-title: FXG-serverprotokoll
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 57d9ba37-819e-455f-9b22-bd7aabffe007
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -16,14 +16,14 @@ ht-degree: 0%
 
 Om du vill ändra en bild kan du använda referenspunkter som liknar kompaspunkter.
 
-Med referenspunkter kan du rotera, skala eller ändra storlek på en bild i förhållande till en viss referenspunkt. Referenspunkterna är `northWest`, `north`, `northEast`, `west`, `center`, `east`, `southWest`, `south` och `southeast`. Om du till exempel använder mittreferenspunkten kan du rotera en bild 45 grader i mitten. Den här bilden visar var referenspunkterna finns, en bild, bilden roterades 20 grader från referenspunkten `northWest` och bilden roterades 20 grader från referenspunkten `east`.
+Med referenspunkter kan du rotera, skala eller ändra storlek på en bild i förhållande till en viss referenspunkt. Referenspunkterna är `northWest`, `north`, `northEast`, `west`, `center`, `east`, `southWest`, `south` och `southeast`. Om du till exempel använder mittreferenspunkten kan du rotera en bild 45° i mitten. I följande bild visas var referenspunkterna finns: en bild, bilden roterades 20 grader från referenspunkten `northWest` och bilden roterades 20 grader från referenspunkten `east`.
 
-![](assets/wp_ref_points.png)
+![Referenspunktsbild](assets/wp_ref_points.png)
 
 * S. Referenspunktens platser
 * B. En bild
-* C. Bilden roterades 20 grader från referenspunkten `northWest`
-* D. Bilden roterades 20 grader från referenspunkten `east`
+* C. Bilden roterades 20° från referenspunkten `northWest`
+* D. Bilden roterade 20° från referenspunkten `east`
 
 Syntaxen är:
 

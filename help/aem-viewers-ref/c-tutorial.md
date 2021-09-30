@@ -1,13 +1,13 @@
 ---
+title: Självstudiekurs om SDK för visningsprogram
 description: Viewer SDK innehåller en uppsättning JavaScript-baserade komponenter för anpassad visningsprogramutveckling. Tittarna är webbaserade program som gör att multimediematerial som hanteras av Adobe Dynamic Media kan bäddas in på webbsidor.
 solution: Experience Manager
-title: Självstudiekurs om SDK för visningsprogram
-feature: Dynamic Media Classic,visningsprogram,SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 3a798595-6c65-4a12-983d-3cdc53830d28
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ Viewer SDK innehåller en uppsättning JavaScript-baserade komponenter för anpa
 
 SDK innehåller till exempel interaktiv zoomning och panorering. Den innehåller även 360-gradersvisning och videouppspelning av resurser som överförts till Adobe Dynamic Media via serverdelsprogrammet Dynamic Media Classic.
 
-Även om komponenterna är beroende av HTML5-funktioner är de utformade för att fungera på Android- och Apple iOS-enheter och stationära datorer, inklusive Internet Explorer och senare. Den här typen av upplevelser innebär att du kan skapa ett enda arbetsflöde för alla plattformar som stöds.
+Även om komponenterna är beroende av HTML5-funktioner är de utformade för att fungera på Android™- och Apple iOS-enheter och stationära datorer, inklusive Internet Explorer och senare. Den här typen av upplevelser innebär att du kan skapa ett enda arbetsflöde för alla plattformar som stöds.
 
-SDK består av UI-komponenter som utgör visningsprograminnehåll. Du kan formatera de här komponenterna med CSS och andra komponenter än användargränssnittskomponenter som har någon stödroll, som hämtning, tolkning och spårning av uppsättningar. Alla komponentbeteenden kan anpassas med modifierare som du kan ange på flera olika sätt, till exempel som `name=value`-par i URL:en.
+SDK består av UI-komponenter som utgör visningsprograminnehåll. Du kan formatera de här komponenterna med CSS och andra komponenter än användargränssnittskomponenter som har någon stödroll, som hämtning, tolkning och spårning av uppsättningar. Alla komponentbeteenden kan anpassas med modifierare som du kan ange på olika sätt, till exempel som `name=value`-par i URL:en.
 
 Den här självstudiekursen innehåller följande åtgärder som du kan använda för att skapa ett enkelt zoomningsvisningsprogram:
 
@@ -38,13 +38,13 @@ Den här självstudiekursen innehåller följande åtgärder som du kan använda
 
    >[!NOTE]
    >
-   >Du kan slutföra den här självstudiekursen utan att behöva ladda ned SDK-paketet för visningsprogrammet eftersom SDK faktiskt läses in via fjärranslutning. Viewer-paketet innehåller dock ytterligare exempel och en API-referenshandbok som du kan använda när du skapar egna visningsprogram.
+   >Du kan slutföra den här självstudiekursen utan att behöva ladda ned SDK-paketet för visningsprogrammet eftersom SDK har lästs in via fjärranslutning. Viewer-paketet innehåller dock ytterligare exempel och en API-referenshandbok som kan hjälpa dig att skapa egna visningsprogram.
 
 ## Läs in SDK för visningsprogrammet {#section-98596c276faf4cf79ccf558a9f4432c6}
 
 1. Börja med att konfigurera en ny sida för att utveckla det grundläggande zoomvisningsprogrammet som du ska skapa.
 
-   Överväg att göra detta med bootstrap-koden, eller loader-koden, för att konfigurera ett tomt SDK-program. Öppna din favorittextredigerare och klistra in följande HTML-kod i den:
+   Ta den här nya sidan som Bootstrap - eller inläsarkod - som du använder för att konfigurera ett tomt SDK-program. Öppna din favorittextredigerare och klistra in följande HTML-kod i den:
 
    ```
    <!DOCTYPE html> 
@@ -79,7 +79,7 @@ Den här självstudiekursen innehåller följande åtgärder som du kan använda
    </html>
    ```
 
-   Lägg till följande JavaScript-kod i `script`-taggen för att initiera `ParameterManager`. Detta hjälper dig att förbereda för att skapa och instansiera SDK-komponenter i funktionen `initViewer`:
+   Lägg till följande JavaScript-kod i `script`-taggen så att den initierar `ParameterManager`. Om du gör det kan du förbereda dig för att skapa och instansiera SDK-komponenter inuti funktionen `initViewer`:
 
    ```
    /* We create a self-running anonymous function to encapsulate variable scope. Placing code inside such 
@@ -115,9 +115,9 @@ Den här självstudiekursen innehåller följande åtgärder som du kan använda
 
 1. Spara filen som en tom mall. Du kan använda vilket filnamn du vill.
 
-   Du kommer att använda den här tomma mallfilen som referens när du skapar nya visningsprogram i framtiden. Den här mallen fungerar lokalt och när den används från en webbserver.
+   Du kommer att använda den här tomma mallfilen som referens när du skapar visningsprogram i framtiden. Den här mallen fungerar lokalt och när den används från en webbserver.
 
-Du kommer nu att lägga till format i visningsprogrammet.
+Nu kan du lägga till stil i visningsprogrammet.
 
 ## Lägga till format i visningsprogrammet {#section-3783125360a1425eae5a5a334867cc32}
 
@@ -142,7 +142,7 @@ Du kommer nu att lägga till format i visningsprogrammet.
    </style>
    ```
 
-Du kommer nu att inkludera komponenterna `Container` och `ZoomView`.
+Inkludera nu komponenterna `Container` och `ZoomView`.
 
 ## Inklusive Container och ZoomView {#section-1a01730663154a508b88cc40c6f35539}
 
@@ -169,7 +169,7 @@ Du kommer nu att inkludera komponenterna `Container` och `ZoomView`.
    var container, zoomView;
    ```
 
-1. Infoga följande inuti funktionen `initViewer` för att definiera vissa modifierare och instansiera respektive komponenter:
+1. Infoga följande inuti funktionen `initViewer` så att du kan definiera vissa modifierare och instansiera respektive komponenter:
 
    ```
    /* Modifiers can be added directly to ParameterManager instance */ 
@@ -205,11 +205,11 @@ Du kommer nu att inkludera komponenterna `Container` och `ZoomView`.
    }
    ```
 
-1. Förhandsgranska sidan så att du ser vad du har skapat. Sidan ser ut så här:
+1. Förhandsgranska sidan så att du ser vad du har skapat. Sidan ska se ut så här:
 
-   ![](assets/viewer-1.jpg)
+   ![Exempel på en bild i visningsprogrammet](assets/viewer-1.jpg)
 
-Nu ska du lägga till komponenterna `MediaSet` och `Swatches` i visningsprogrammet.
+Lägg till komponenterna `MediaSet` och `Swatches` i visningsprogrammet.
 
 ## Lägga till MediaSet- och Swatches-komponenter i visningsprogrammet {#section-02b8c21dd842400e83eae2a48ec265b7}
 
@@ -288,9 +288,9 @@ Nu ska du lägga till komponenterna `MediaSet` och `Swatches` i visningsprogramm
 
    Visningsprogrammet ser nu ut som följande bild. Prova att ändra storlek på webbläsarfönstret i visningsprogrammet och observera det resulterande beteendet.
 
-   ![](assets/viewer-2.jpg)
+   ![Exempel på två bilder i visningsprogrammet](assets/viewer-2.jpg)
 
-Nu ska du lägga till knapparna för inzoomning, utzoomning och zoomning i visningsprogrammet.
+Nu kan du lägga till knapparna för att zooma in, zooma ut och zooma in i visningsprogrammet.
 
 ## Lägga till knappar i visningsprogrammet {#section-1fc334fa0d2b47eb9cdad461725c07be}
 
@@ -350,17 +350,17 @@ Nu ska du lägga till knapparna för inzoomning, utzoomning och zoomning i visni
     }
    ```
 
-1. Förhandsgranska ditt visningsprogram. Det ser ut så här:
+1. Förhandsgranska ditt visningsprogram. Det ska se ut så här:
 
-   ![](assets/viewer-3.jpg)
+   ![Exempel på tre bilder i visningsprogrammet](assets/viewer-3.jpg)
 
-   Nu ska du konfigurera färgrutorna så att de justeras lodrätt till höger.
+   Konfigurera nu färgrutorna så att de justeras lodrätt till höger.
 
 ## Konfigurera färgrutorna lodrätt {#section-91a8829d5b5a4d45a35b7faeb097fcc9}
 
 1. Du kan konfigurera modifierare direkt på `ParameterManager`-instansen.
 
-   Lägg till följande längst upp i funktionen `initViewer` för att konfigurera miniatyrlayouten `Swatches` som en rad:
+   Lägg till följande längst upp i funktionen `initViewer` så att du kan konfigurera miniatyrlayouten `Swatches` som en rad:
 
    ```
    params.push("Swatches.tmblayout", "1,0");
@@ -385,7 +385,7 @@ Nu ska du lägga till knapparna för inzoomning, utzoomning och zoomning i visni
 
 1. Förhandsgranska ditt visningsprogram. Det ser ut så här:
 
-   ![](assets/viewer-4.jpg)
+   ![Exempel på fyra bilder i visningsprogrammet](assets/viewer-4.jpg)
 
    Ditt grundläggande zoomvisningsprogram är nu klart.
 
