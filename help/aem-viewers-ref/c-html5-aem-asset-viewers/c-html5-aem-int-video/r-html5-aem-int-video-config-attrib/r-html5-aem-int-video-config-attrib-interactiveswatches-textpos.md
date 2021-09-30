@@ -1,13 +1,13 @@
 ---
+title: InteractiveSwatches.textpos
 description: Konfigurationsattribut för Interactive Video Viewer.
 solution: Experience Manager
-title: InteractiveSwatches.textpos
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 875d36cc-7372-454e-9a04-32492a2e558e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '74'
 ht-degree: 1%
 
 ---

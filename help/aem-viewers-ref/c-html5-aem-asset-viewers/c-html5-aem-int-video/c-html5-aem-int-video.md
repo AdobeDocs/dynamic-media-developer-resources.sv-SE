@@ -1,13 +1,13 @@
 ---
+title: Interaktiv video
 description: Interactive Video Viewer är en videospelare som spelar upp strömmande och progressiv video som är kodad i H.264-format.
 solution: Experience Manager
-title: Interaktiv video
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: e54b0b1f-b015-4592-82e2-99f5080543e3
-source-git-commit: f77dc0c1ac8305037bbb561451317c8e62209cec
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '2216'
+source-wordcount: '2211'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,7 @@ Den relativa sökvägen ser ut så här:
 
    Du kan ange den statiska storleken för visningsprogrammet genom att antingen deklarera den för CSS-klassen på den översta nivån i absoluta enheter eller genom att använda modifieraren `stagesize`.`.s7interactivevideoviewer`
 
-   Du kan ange storlek i CSS direkt på HTML-sidan. Du kan också lägga in den i en anpassad CSS-fil för visningsprogrammet, som sedan tilldelas en post för visningsförinställningar i AEM Assets - on demand, eller skickas explicit med kommandot `style`.
+   Du kan ange storlek i CSS direkt på HTML-sidan. Du kan också lägga in den i en anpassad CSS-fil för visningsprogrammet, som sedan tilldelas en post för visningsförinställningar i Adobe Experience Manager Assets - On demand, eller skickas explicit med kommandot `style`.
 
    Mer information om hur du formaterar visningsprogrammet med CSS finns i [Anpassa visningsprogrammet för interaktiv video](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0).
 
@@ -139,7 +139,7 @@ Den relativa sökvägen ser ut så här:
    }
    ```
 
-   Du kan ställa in modifieraren `stagesize` i posten för visningsförinställningar i AEM Assets - on demand. Du kan också skicka det explicit med initieringskoden för visningsprogrammet med `params`-samlingen eller som ett API-anrop enligt beskrivningen i avsnittet Kommandoreferens, enligt följande:
+   Du kan ställa in modifieraren `stagesize` i posten för visningsförinställningar i Experience Manager Assets - On-demand. Du kan också skicka det explicit med initieringskoden för visningsprogrammet med `params`-samlingen eller som ett API-anrop enligt beskrivningen i avsnittet Kommandoreferens, enligt följande:
 
    ```
    interactivevideoviewer.setParam("stagesize", "640,640");

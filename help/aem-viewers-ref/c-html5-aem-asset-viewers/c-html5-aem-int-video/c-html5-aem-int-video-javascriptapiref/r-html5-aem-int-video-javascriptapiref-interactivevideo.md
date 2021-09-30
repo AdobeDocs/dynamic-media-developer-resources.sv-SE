@@ -1,13 +1,13 @@
 ---
+title: InteractiveVideoViewer
 description: JavaScript API-referens för Interactive Video Viewer.
 solution: Experience Manager
-title: InteractiveVideoViewer
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: efd0ffea-482c-4af4-ac77-ac1b7f326ce9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ JavaScript API-referens för Interactive Video Viewer.
 
 `InteractiveVideoViewer([config])`
 
-Konstruktor, skapar en ny Interactive Video Viewer-instans.
+Konstruktor, skapar en Interactive Video Viewer-instans.
 
 ## Parametrar {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 

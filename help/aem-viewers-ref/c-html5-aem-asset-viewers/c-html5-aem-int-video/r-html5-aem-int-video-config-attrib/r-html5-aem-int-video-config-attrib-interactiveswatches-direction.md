@@ -1,13 +1,13 @@
 ---
+title: InteractiveSwatches.direction
 description: Konfigurationsattribut för Interactive Video Viewer.
 solution: Experience Manager
-title: InteractiveSwatches.direction
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 6f5ec9e3-9912-4f6a-b848-de0076c4b86f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '74'
 ht-degree: 1%
 
 ---

@@ -1,14 +1,14 @@
 ---
+title: VideoPlayer.autoplay
 description: Konfigurationsattribut för Interactive Video Viewer.
 solution: Experience Manager
-title: VideoPlayer.autoplay
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 0b4fb87f-f8c6-4da8-b12a-0cde5f62fa60
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 4%
+source-wordcount: '40'
+ht-degree: 5%
 
 ---
 
@@ -22,7 +22,7 @@ Konfigurationsattribut för Interactive Video Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
-   <td colname="col2"> <p> Anger om tittaren börjar spela upp videon vid inläsningen. Observera att vissa system - som vissa mobila enheter - kanske inte har stöd för automatisk uppspelning. </p> </td> 
+   <td colname="col2"> <p> Anger om tittaren börjar spela upp videon vid inläsningen. Vissa system, till exempel vissa mobila enheter, kanske inte har stöd för automatisk uppspelning. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,13 +1,13 @@
 ---
+title: Kommandoreferens - Konfigurationsattribut
 description: Konfigurationsattributdokumentation för Interactive Video Viewer.
 solution: Experience Manager
-title: Kommandoreferens - Konfigurationsattribut
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Interaktiva videoklipp
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 80b7971c-82dc-47a2-adde-9e061a0f856d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Vissa konfigurationskommandon kan ha prefixet med klassnamnet eller instansnamne
 
 `[VideoPlayer.|<containerId>_videoPlayer].playback`
 
-vilket betyder att du kan använda det här kommandot som:
+Det betyder att du kan använda följande kommando som:
 
 * `playback` (kort syntax)
 * `VideoPlayer.playback` (kvalificerad med komponentklassnamn)
