@@ -1,20 +1,20 @@
 ---
-description: Verktyget för delning via sociala medier visas som standard i det övre högra hörnet. Den består av en knapp och en panel som utökas när användaren klickar eller trycker på en knapp och innehåller enskilda delningsverktyg.
-solution: Experience Manager
 title: Social andel
-feature: Dynamic Media Classic,visningsprogram,SDK/API,360 VR-video
+description: Verktyget för social delning visas som standard i det övre högra hörnet. Den består av en knapp och en panel som utökas när användaren klickar eller trycker på en knapp och innehåller enskilda delningsverktyg.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 4bc951ae-2b9a-4cbe-9288-170c576b3b7b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Social andel{#social-share}
 
-Verktyget för delning via sociala medier visas som standard i det övre högra hörnet. Den består av en knapp och en panel som utökas när användaren klickar eller trycker på en knapp och innehåller enskilda delningsverktyg.
+Verktyget för social delning visas som standard i det övre högra hörnet. Den består av en knapp och en panel som utökas när användaren klickar eller trycker på en knapp och innehåller enskilda delningsverktyg.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

@@ -1,13 +1,13 @@
 ---
+title: Stöd för Adobe Analytics tracking
 description: Stöd för Adobe Analytics tracking
 solution: Experience Manager
-title: Stöd för Adobe Analytics tracking
-feature: Dynamic Media Classic,visningsprogram,SDK/API,360 VR-video
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User,Data Engineer,Data Architect
 exl-id: fb58a388-e4da-475d-b726-d5a32e99cce0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

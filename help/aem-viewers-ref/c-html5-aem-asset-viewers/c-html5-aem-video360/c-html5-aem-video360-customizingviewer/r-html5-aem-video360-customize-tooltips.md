@@ -1,13 +1,13 @@
 ---
+title: Verktygstips
 description: I skrivbordssystem har vissa element i användargränssnittet, t.ex. knappar, verktygstips som visas när du hovrar musen.
 solution: Experience Manager
-title: Verktygstips
-feature: Dynamic Media Classic,visningsprogram,SDK/API,360 VR-video
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 051bfbed-103e-4fcf-9f01-93f03730397a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -63,9 +63,9 @@ Utseendet på verktygstipsen styrs av följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Om verktygstipsen anpassas från webbsidan för inbäddning måste alla egenskaper innehålla regeln `!IMPORTANT`. Detta är inte nödvändigt om verktygstipsen är anpassade i visningsprogrammets CSS-fil.
+>Om verktygstipsen anpassas från webbsidan för inbäddning måste alla egenskaper innehålla regeln `!IMPORTANT`. Den här regeln är inte nödvändig om verktygstipsen är anpassade i visningsprogrammets CSS-fil.
 
-Exempel - Om du vill ställa in verktygstips som har en grå kant med en hörnradie på tre pixlar, svart bakgrund och vit text i Arial, 11 pixlar:
+Exempel - Om du vill skapa verktygstips som har en grå kant med en hörnradie på tre pixlar, svart bakgrund och vit text i Arial®, 11 pixlar:
 
 ```
 .s7tooltip { 

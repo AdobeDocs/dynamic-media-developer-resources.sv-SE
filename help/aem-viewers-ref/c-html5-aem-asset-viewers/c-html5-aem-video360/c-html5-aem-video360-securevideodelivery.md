@@ -1,13 +1,13 @@
 ---
+title: HTTPS-videoleverans
 description: HTTPS-videoleverans
 solution: Experience Manager
-title: HTTPS-videoleverans
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 79f7e356-55d1-46e1-b85a-2e73633c9404
-source-git-commit: c58199c5884c368e92e50fe0ef9d6ad523e36266
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 >
 >HTTP Secure Video Delivery applies only to AEM 6.2 with the installation of [Feature Pack-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480) and to AEM 6.1 with installation of [Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011). -->
 
-Förutsatt att visningsprogrammet fungerar i den konfiguration som beskrivs i början av det här avsnittet, kan publicerad videoleverans ske både i HTTPS-läge (säkert) och HTTP-läge (osäkert). I en standardkonfiguration följer leveransprotokollet strikt leveransprotokollet för inbäddningswebbsidan. Det går dock att tvinga fram HTTPS-video utan hänsyn till det protokoll som används när webbsidan bäddas in med konfigurationsattributet [Video360Player.ssl](/help/aem-viewers-ref/c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-ssl.md). (Observera att förhandsgranskning av video i redigeringsläge alltid levereras säkert via HTTPS.)
+Om visningsprogrammet fungerar i den konfiguration som beskrivs i början av det här avsnittet, kan publicerad videoleverans ske både i HTTPS-läge (säkert) och HTTP-läge (osäkert). I en standardkonfiguration följer leveransprotokollet strikt leveransprotokollet för inbäddningswebbsidan. Det går dock att tvinga fram HTTPS-video utan hänsyn till det protokoll som används när webbsidan bäddas in med konfigurationsattributet [Video360Player.ssl](/help/aem-viewers-ref/c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-ssl.md). (Förhandsgranskning av video i redigeringsläge levereras alltid säkert via HTTPS.)
 
-Beroende på vilken metod du använder för att publicera Dynamic Media-video i AEM används konfigurationsattributet `Video360Player.ssl` på ett annat sätt, vilket visas i följande exempel:
+Beroende på vilken metod du använder för att publicera Dynamic Media-video i Adobe Experience Manager används konfigurationsattributet `Video360Player.ssl` på ett annat sätt, vilket visas i följande exempel:
 
 * Om du publicerar en Dynamic Media-video med en URL-adress lägger du till `Video360Player.ssl` i URL-adressen. Om du till exempel vill framtvinga en säker videoleverans lägger du till `&Video360Player.ssl=on` i slutet av följande exempel på visningsprogrammets URL:
 

@@ -1,13 +1,13 @@
 ---
+title: Videoskrubber
 description: Videonavigeringen är den vågräta skjutreglaget som gör att en användare dynamiskt kan söka till valfri tidsposition i den video som spelas upp.
 solution: Experience Manager
-title: Videoskrubber
-feature: Dynamic Media Classic,visningsprogram,SDK/API,360 VR-video
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: a0b89b4b-5f66-41d5-88b9-a01fddec437e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Videonavigeringen är den vågräta skjutreglaget som gör att en användare dyn
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Rubbens &#39;knob&#39; rör sig också när videon spelas upp för att ange videons aktuella tidsposition under uppspelningen. Videonavigeringslisten har alltid hela kontrollfältets bredd. Det går att skalförändra videospolaren. ändra dess höjd och lodräta position med CSS.
+Rubbens &#39;knob&#39; rör sig också när videon spelas upp för att ange videons aktuella tidsposition under uppspelningen. Videonavigeringslisten har alltid hela kontrollfältets bredd. Det går att skalförändra videospolaren. Ändra dess höjd och lodräta position med CSS.
 
 Videonavigeringens allmänna utseende styrs med följande CSS-klassväljare:
 
@@ -158,7 +158,7 @@ Följande CSS-klassväljare styr den tid som spelas upp:
 
 Verktygstipset för videospolning kan lokaliseras. Mer information finns i [Lokalisering av element i användargränssnittet](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Exempel**  - Om du vill ställa in ett videovisningsprogram med en videonavigeringsruta med anpassade spårfärger som är 10 pixlar höga och placerade 10 pixlar och 35 pixlar från kontrollfältets övre och vänstra kant.
+**Exempel**  - Om du vill ställa in ett visningsprogram för video med en videobub med anpassade spårfärger som är tio pixlar höga. Placera den tio och 35 pixlar från kontrollfältets övre och vänstra kant.
 
 ```
 .s7video360viewer .s7videoscrubber  { 

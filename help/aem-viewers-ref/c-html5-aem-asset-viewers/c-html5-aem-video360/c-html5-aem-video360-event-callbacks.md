@@ -1,13 +1,13 @@
 ---
+title: Händelseåteranrop
 description: Händelseåteranrop
 solution: Experience Manager
-title: Händelseåteranrop
-feature: Dynamic Media Classic,visningsprogram,SDK/API,360 VR-video
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 24ea35c0-a0b1-4768-9336-94eb5e2d4fb2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Visningsprogramhändelser som stöds är bland annat följande:
 
    * `objID {String}` används inte för närvarande.
    * `compClass {String}` används inte för närvarande.
-   * `instName {String}` ett instansnamn för HTML5 Viewer SDK-komponenten som utlöste händelsen.
+   * `instName {String}` ett instansnamn för HTML5-visarens SDK-komponent som utlöste händelsen.
    * `timeStamp {Number}` händelsetidsstämpel.
    * `eventInfo {String}` händelsenyttolast.
 

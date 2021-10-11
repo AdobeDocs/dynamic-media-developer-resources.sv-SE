@@ -1,14 +1,14 @@
 ---
+title: EmbedShare.embedsizes
 description: Konfigurationsattribut för Video360 Viewer.
 solution: Experience Manager
-title: EmbedShare.embedsizes
-feature: Dynamic Media Classic,visningsprogram,SDK/API,360 VR-video
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 3a6c23dd-5e2c-4149-aa24-37d445128125
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Konfigurationsattribut för Video360 Viewer.
 
-` [EmbedShare.|<containerId>_embedShare.]embedsizes= *``*, *``*[,0|1][; *``*, *`breddhöjdbreddhöjd`*[,0|1]]`
+` [EmbedShare.|<containerId>_embedShare.]embedsizes= *``*, *``*[,0|1][; *``*, *`breddbreddhöjd`*[,0|1]]`
 
 Anger en lista med inbäddningsstorlekar för kombinationsrutan för storlek i dialogrutan för inbäddningsdelning.
 

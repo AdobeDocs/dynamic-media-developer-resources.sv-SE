@@ -1,14 +1,14 @@
 ---
+title: Video360Player.progressivebitrate
 description: Konfigurationsattribut för Video360 Viewer.
 solution: Experience Manager
-title: Video360Player.progressivebitrate
-feature: Dynamic Media Classic,visningsprogram,SDK/API,360 VR-video
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: a253ef01-19ae-4de4-a4fc-b10b28e72c00
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Konfigurationsattribut för Video360 Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> value</span> </p> </td> 
-   <td colname="col2"> <p> Anger önskad videobithastighet som ska spelas upp från en adaptiv videouppsättning i kbit/s (eller kbit/s) om det aktuella systemet inte har stöd för adaptiv videouppspelning. </p> <p>Komponenten hämtar videoströmmen med den högsta möjliga (men inte högre) bithastigheten till det angivna värdet. Om alla videoströmmar i den adaptiva videouppsättningen har högre kvalitet än det angivna värdet väljer logiken bithastigheten med den lägsta kvaliteten. </p> </td> 
+   <td colname="col2"> <p> Anger önskad videobithastighet som ska spelas upp från en adaptiv videouppsättning i kilobit per sekund (eller kbit/s) om det aktuella systemet inte har stöd för adaptiv videouppspelning. </p> <p>Komponenten hämtar videoströmmen med den högsta möjliga (men inte högre) bithastigheten till det angivna värdet. Om alla videoströmmar i den adaptiva videouppsättningen har högre kvalitet än det angivna värdet väljer logiken bithastigheten med den lägsta kvaliteten. </p> </td> 
   </tr> 
  </tbody> 
 </table>

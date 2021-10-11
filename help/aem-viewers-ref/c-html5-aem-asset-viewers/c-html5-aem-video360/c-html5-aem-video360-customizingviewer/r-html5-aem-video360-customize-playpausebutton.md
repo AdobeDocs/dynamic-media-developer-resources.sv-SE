@@ -1,13 +1,13 @@
 ---
+title: Knappen Spela upp/Paus
 description: Knappen play/pause gör att videospelaren spelar upp eller pausar videoinnehållet när en användare klickar på det.
 solution: Experience Manager
-title: Knappen Spela upp/Paus
-feature: Dynamic Media Classic,visningsprogram,SDK/API,360 VR-video
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 5f8741a4-d286-4b2d-8a11-23bce119209a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -69,11 +69,11 @@ Följande CSS-klassväljare styr knappens utseende:
 >
 >Den här knappen stöder både attributväljarna `state`, `selected` och `replay`, som kan användas för att tillämpa olika skal på olika knapplägen. `selected='true'` motsvarar i synnerhet&quot;play&quot;-läget och `selected='false'` motsvarar&quot;pause&quot;-läget,
 >
->`replay='true'` anges när videon har nått slutet och när du klickar på knappen startas uppspelningen om från början.
+>Attributväljaren `replay='true'` anges när videon har nått slutet och om du väljer knappen startas uppspelningen om från början.
 
 Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av element i användargränssnittet](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Exempel**  - För att ställa in en uppspelnings-/pausknapp som är 32 x 32 pixlar; den är placerad sex pixlar från kontrollfältets övre och vänstra kant och visar en annan bild för vart och ett av de fyra olika knapplägena när den är markerad eller inte är markerad.
+**Exempel**  - För att ställa in en uppspelnings-/pausknapp som är 32 x 32 pixlar. Placera sex pixlar från kontrollfältets övre och vänstra kant. Och slutligen, visar en annan bild för vart och ett av de fyra olika knapplägena när de är markerade eller inte markerade.
 
 ```
 .s7video360viewer .s7playpausebutton { 

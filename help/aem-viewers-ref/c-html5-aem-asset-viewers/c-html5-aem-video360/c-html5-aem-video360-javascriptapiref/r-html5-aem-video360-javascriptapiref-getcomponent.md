@@ -1,13 +1,13 @@
 ---
+title: getComponent
 description: JavaScript API-referens för Video360 Viewer.
 solution: Experience Manager
-title: getComponent
-feature: Dynamic Media Classic,visningsprogram,SDK/API,360 VR-video
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: bc5f0046-8e20-4ff0-a90f-05c38f686ad2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -95,13 +95,13 @@ Returnerar en referens till SDK-komponenten för visningsprogrammet som används
  </tbody> 
 </table>
 
-När du arbetar med SDK-API:er är det viktigt att du använder rätt fullständigt kvalificerat SDK-namnutrymme enligt beskrivningen i [SDK-namnutrymme för visningsprogram](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-viewer-sdk-namespace.md#concept-4ee8657c7d67421f8e7880130a246621).
+När du arbetar med SDK API:er är det viktigt att du använder rätt fullständigt kvalificerat SDK-namnutrymme enligt beskrivningen i [SDK-namnutrymme för visningsprogram](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-viewer-sdk-namespace.md#concept-4ee8657c7d67421f8e7880130a246621).
 
-Mer information om en viss komponent finns i dokumentationen för *HTML5 Viewer SDK API*.
+Mer information om en viss komponent finns i *HTML5 Viewer SDK API*-dokumentationen.
 
 ## Returnerar {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` en referens till SDK-komponenten för visningsprogrammet. Metoden returnerar `null` om `componentId` inte är en visningsprogramkomponent som stöds eller om komponenten ännu inte har skapats av visningsprogramlogiken.
+`{Object}` är en referens till SDK-komponenten för visningsprogrammet. Metoden returnerar `null` om `componentId` inte är en visningsprogramkomponent som stöds eller om komponenten ännu inte har skapats av visningsprogramlogiken.
 
 ## Exempel {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

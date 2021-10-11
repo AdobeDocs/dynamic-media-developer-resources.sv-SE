@@ -1,14 +1,14 @@
 ---
+title: Video360Player.playback
 description: Konfigurationsattribut för Video360 Viewer.
 solution: Experience Manager
-title: Video360Player.playback
-feature: Dynamic Media Classic,visningsprogram,SDK/API,360 VR-video
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: e5a56195-c3ca-4748-aef6-e1f143ac254d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Konfigurationsattribut för Video360 Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|progressiv</span> </p> </td> 
-   <td colname="col2"> <p> Anger den typ av uppspelning som används av visningsprogrammet. </p> <p>När <span class="codeph"> auto</span> är inställt använder visningsprogrammet HTML5-direktuppspelad video i HLS-format i de flesta webbläsare och alla iOS-enheter och återgår till progressiv HTML5-uppspelning i vissa system som äldre Internet Explorer och Android. </p> <p>När <span class="codeph"> progressiv</span> är inställt förlitar sig visningsprogrammet endast på HTML5-uppspelning som stöds av webbläsare och spelar upp video progressivt på alla system. </p> <p>Mer information om hur du väljer uppspelning i inbyggda lägen för <span class="codeph"> auto</span> och <span class="codeph"> progressiva</span> finns i användarhandboken för HTML5-visningsprogram för SDK. </p> </td> 
+   <td colname="col2"> <p> Anger den typ av uppspelning som används av visningsprogrammet. </p> <p>När <span class="codeph"> auto</span> är inställt använder visningsprogrammet HTML5 direktuppspelad video i HLS-format i de flesta webbläsare och på alla iOS-enheter. Dessutom återgår den till progressiv uppspelning i HTML5 i vissa system som äldre Internet Explorer och Android™. </p> <p>När <span class="codeph"> progressiv</span> är inställt förlitar sig visningsprogrammet endast på uppspelning i HTML5 som stöds av webbläsare och spelar upp video progressivt på alla system. </p> <p>Mer information om hur du väljer uppspelning i inbyggda lägen för <span class="codeph"> auto</span> och <span class="codeph"> progressiva</span> finns i användarhandboken för HTML5 Viewers SDK. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,28 +1,28 @@
 ---
-description: HTML5 Video360 Viewer är en 360-graders videospelare som spelar upp direktuppspelning och progressiv 360-video som är kodad i H.264-format, som levereras från Dynamic Media Classic eller från AEM Dynamic Media.
-solution: Experience Manager
 title: Video360
-feature: Dynamic Media Classic,visningsprogram,SDK/API,360 VR-video
+description: HTML5 Video360 Viewer är en 360-graders videospelare som spelar upp strömning och progressiv 360-video som är kodad i H.264-format, som levereras från Dynamic Media Classic eller Adobe Experience Manager, Dynamic Media.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 74dca3f6-ce89-4c5b-8459-c2c4ca8ed27c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '2590'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Video360{#video}
 
-HTML5 Video360 Viewer är en 360-graders videospelare som spelar upp direktuppspelning och progressiv 360-video som är kodad i H.264-format, som levereras från Dynamic Media Classic eller från AEM Dynamic Media.
+HTML5 Video360 Viewer är en 360-graders videospelare som spelar upp strömning och progressiv 360-video som är kodad i H.264-format, som levereras från Dynamic Media Classic eller Adobe Experience Manager, Dynamic Media.
 
-360-gradersvideor, även kallade engagerande videor eller sfäriska videor, är videoinspelningar där en vy i alla riktningar spelas in samtidigt och spelas in med en dubbelriktad kamera eller en samling kameror. Både en video och adaptiva videouppsättningar stöds. Visningsprogrammet har dessutom stöd för arbete med progressiv video och HLS-strömmar på en extern plats.
+360-gradersvideor, även kallade engagerande videor eller sfäriska videor, är videoinspelningar där en vy i alla riktningar spelas in samtidigt och spelas in med en dubbelriktad kamera eller en samling kameror. Både en video och adaptiva videouppsättningar stöds. Visningsprogrammet har också stöd för arbete med progressiv video och HLS-strömmar på en extern plats.
 
 Rekommenderade proportioner för 360-video är 2:1. Spatial ljud stöds inte. Visningsprogrammet är utformat för att endast fungera med 360-video. Om du försöker spela upp en video som inte är 360 resulterar det i förvrängd videouppspelning.
 
 Visningsprogrammet är utformat för att fungera både i webbläsare för datorer och mobila enheter med stöd för HTML5-video. Visningsprogrammet har stöd för valfria verktyg för delning via sociala medier.
 
-Visningsprogrammet Video360 använder HTML5-direktuppspelad videouppspelning i HLS-format i standardkonfigurationen när det underliggande systemet stöder det. På system som saknar stöd för HTML5-direktuppspelning återgår visningsprogrammet till progressiv HTML5-videoleverans.
+Visningsprogrammet Video360 använder direktuppspelad videouppspelning i HLS-format i HTML5-format i standardkonfigurationen när det underliggande systemet stöder det. På system som saknar stöd för direktuppspelning från HTML5 återgår visningsprogrammet till progressiv videoleverans i HTML5.
 
 Visningstypen är 517.
 
@@ -36,9 +36,9 @@ Se [Systemkrav](../../c-system-requirements-and-prerequisites.md#concept-9282e5b
 
 ## Använda Video360 Viewer {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-HTML5 Video360 Viewer representerar en JavaScript-huvudfil och en uppsättning hjälpfiler (en enda JavaScript-uppsättning innehåller alla SDK-komponenter för HTML5 Viewer som används av just detta visningsprogram, resurser, CSS) som hämtats av visningsprogrammet under körning.
+HTML5 Video360 Viewer representerar en JavaScript-huvudfil och en uppsättning hjälpfiler (en enda JavaScript-fil innehåller alla HTML5 Viewer SDK-komponenter som används av detta visningsprogram, resurser och CSS) som hämtats av visningsprogrammet under körning.
 
-HTML5 Video360 Viewer kan användas både i popup-läge med en produktionsklar HTML-sida som finns i IS-Viewer eller i inbäddat läge, där den integreras med målwebbsidan med dokumenterat API.
+HTML5 Video360 Viewer kan användas både i popup-läge med en produktionsklar HTML-sida som finns i IS-Viewer eller i inbäddat läge, där den integreras med målwebbsidan med hjälp av dokumenterad API.
 
 Konfigurationen och skalningen liknar den för andra visningsprogram som beskrivs i den här handboken. All skalning görs med CSS (Cascading Style Sheets).
 
@@ -50,25 +50,29 @@ Se [Kommandoreferens som är gemensam för alla visningsprogram - Konfigurations
 * 1080p, 5 000 kbit/s
 * 1440p, 6600 kbit/s
 
-Observera dock att visning av video som är kodad med sådana höga kvalitetsinställningar kräver en anslutning med hög bandbredd på slutanvändarens enhet.
+Observera dock att visning av video som är kodad med sådana högkvalitativa inställningar kräver en anslutning med hög bandbredd på slutanvändarens enhet.
 
 ## Interagera med Video360 Viewer {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
 HTML5 Video360 Viewer innehåller en uppsättning standardkontroller för användargränssnitt för videouppspelning, t.ex. uppspelnings-/pausknapp, tidsbubbla för videouppspelning, indikator för uppspelningstid/total tid, volymkontroll och helskärmsknapp. Alla dessa kontroller grupperas i kontrollfältet längst ned i visningsprogrammets användargränssnitt.
 
-Observera att på enheter med pekskärm är volymkontrollen dold från användargränssnittet, eftersom det bara är möjligt att styra volymen med enhetens maskinvaruknappar.
+På enheter med pekskärm döljs volymkontrollen från användargränssnittet, eftersom det bara är möjligt att styra volymen med enhetens maskinvaruknappar.
 
 När visningsprogrammet körs i popup-läge är inte knappen för helskärm tillgänglig i användargränssnittet.
 
-Visningsprogrammet har också stöd för en mängd olika verktyg för delning av sociala medier. De är tillgängliga som en enda knapp i användargränssnittet, som utökas till ett delat verktygsfält när användaren klickar eller trycker på det. Verktygsfältet för delning innehåller en ikon för varje typ av delningskanal som stöds, till exempel Facebook, Twitter, e-postdelning, inbäddning av koddelning och länkdelning. När verktygen för e-postdelning, inbäddning eller länkdelning är aktiverade visas en modal dialogruta med ett motsvarande inmatningsformulär. När Facebook eller Twitter anropas dirigeras användaren om till en standarddelningsdialogruta från en tjänst för sociala medier. Dessutom pausas videouppspelningen automatiskt när ett delningsverktyg aktiveras. Delningsverktygen är inte tillgängliga i helskärmsläge på grund av säkerhetsbegränsningar i webbläsaren.
+Visningsprogrammet har också stöd för olika verktyg för delning av sociala medier. De är tillgängliga som en enda knapp i användargränssnittet, som utökas till ett delat verktygsfält när användaren klickar eller trycker på det. Verktygsfältet för delning innehåller en ikon för varje typ av delningskanal som stöds, till exempel Facebook, Twitter, e-postdelning, inbäddning av koddelning och länkdelning. När verktygen för e-postdelning, inbäddning eller länkdelning är aktiverade visas en modal dialogruta med ett motsvarande inmatningsformulär. När Facebook eller Twitter anropas dirigeras användaren om till en standarddelningsdialogruta från en tjänst för sociala medier. Dessutom pausas videouppspelningen automatiskt när ett delningsverktyg aktiveras. Delningsverktygen är inte tillgängliga i helskärmsläge på grund av säkerhetsbegränsningar i webbläsaren.
 
-Visningsprogrammet har stöd för 360 videouppspelning på VR-headset (som Oculus Go och Oculus Rift), VR HMD-monteringar (med huvudmonterad bildskärm) (som Google Cardboard) och andra enheter som inte stöder VR (som webbläsare på stationära datorer, surfplattor och mobiltelefoner som inte är anslutna till VR HMD-monteringar).
+Visningsprogrammet stöder 360 videouppspelning på följande:
+
+* VR-headset (som Oculus Go och Oculus Rift)
+* VR HMD-montering (huvudmonterad bildskärm) (som Google-kartong)
+* Enheter som inte är VR-aktiverade (som webbläsare på stationära datorer, surfplattor och mobiltelefoner som inte är anslutna till VR HMD-monteringar)
 
 Ingen ytterligare konfiguration krävs för att visa 360-videoinnehåll på VR-headset. Visningsprogrammet identifierar automatiskt VR-headset och visar VR-knappen ovanpå videoinnehållet. När du aktiverar den här VR-knappen växlar videouppspelningen till VR-läge. Visningsprogrammet har endast stöd för VR-återgivning i webbläsare med WebVR-stöd.
 
 För att du ska kunna använda VR-HMD-montering måste modifieraren `Video360Player.vrrender` anges till `1` i visningsprogrammets konfiguration, vilket tvingar stereoskopisk återgivning.
 
-På VR-headset och VR HMD-monteringspunkten ändras som svar på headset-rörelser, men inte i VR-läge.
+På VR-headset och VR HMD-monteringar sker en synpunktsförändring som svar på headsetets rörelse, men inte andra uppspelningskontroller tillhandahålls i VR-läge.
 
 När man tittar på 360-video på enheter som inte är VR-aktiverade kan man använda musen, pekfunktionen eller tangentbordet för att styra videouppspelning och synvinkel.
 
@@ -80,21 +84,21 @@ Visningsprogrammet är fullt åtkomligt via tangentbordet. Se [Tangentbordstillg
 
 Olika webbsidor har olika behov av visningsprogrammets beteende. Ibland innehåller en webbsida en länk som öppnar visningsprogrammet i ett separat webbläsarfönster när användaren klickar på den. I andra fall måste du bädda in visningsprogrammet direkt på värdsidan. I det senare fallet kan webbsidan ha en statisk sidlayout, eller använda responsiv design som visas på olika enheter eller för olika webbläsarfönsterstorlekar. För att tillgodose dessa behov har visningsprogrammet stöd för tre primära åtgärdslägen: popup, inbäddning i fast storlek och responsiv designinbäddning.
 
-Det går att bädda in flera videor på samma sida på både surfplattor och mobila enheter. I de flesta fall kan bara en video spelas upp i taget. När en användare börjar spela upp en video och sedan försöker spela upp en annan, pausas den första videon automatiskt. Videon som pausades automatiskt kommer ihåg den aktuella uppspelningstiden, så att användaren alltid kan återgå till den och återuppta uppspelningen. Det enda undantaget som den här regeln gäller är i Chrome-webbläsaren på Android 4.x-enheter, som kan spela upp videor parallellt.
+Det går att bädda in flera videor på samma sida på både surfplattor och mobila enheter. Vanligtvis kan du bara spela upp en video i taget. När en användare börjar spela upp en video och sedan försöker spela upp en annan, pausas den första videon automatiskt. Videon som pausades automatiskt kommer ihåg den aktuella uppspelningstiden, så att användaren alltid kan återgå till den och återuppta uppspelningen. Det enda undantaget som den här regeln gäller är webbläsaren Chrome på Android™ 4.x-enheter, som kan spela upp videor parallellt.
 
 **Om popup-läge**
 
 I popup-läge öppnas visningsprogrammet i ett separat webbläsarfönster eller på en separat flik. Det tar hela webbläsarfönsterområdet och justeras om webbläsaren ändrar storlek eller enhetens orientering ändras.
 
-Det här läget är det vanligaste för mobila enheter. Webbsidan läser in visningsprogrammet med hjälp av JavaScript-anrop (`window.open()`), korrekt konfigurerat HTML-element (`A`) eller någon annan lämplig metod.
+Det här läget är det vanligaste för mobila enheter. Webbsidan läser in visningsprogrammet med hjälp av JavaScript-anrop `window.open()`, korrekt konfigurerat `A` HTML-element eller någon annan lämplig metod.
 
-Vi rekommenderar att du använder en HTML-sida som inte är tillgänglig för popup-åtgärder. Den kallas [!DNL Video360Viewer.html] och finns under undermappen [!DNL html5/] i din standarddistribution av IS-Viewer:
+Vi rekommenderar att du använder en HTML-sida som inte finns i kartongen för popup-åtgärder. Den kallas [!DNL Video360Viewer.html] och finns under undermappen [!DNL html5/] i din standarddistribution av IS-Viewer:
 
 [!DNL <s7viewers_root>/html5/Video360Viewer.html]
 
 Du kan anpassa visuellt genom att använda anpassad CSS.
 
-Följande är ett exempel på HTML-kod som öppnar visningsprogrammet i ett nytt fönster:
+Här följer ett exempel på HTML som öppnar visningsprogrammet i ett nytt fönster:
 
 ```
 <a href="https://s7d9.scene7.com/s7viewers/html5/Video360Viewer.html?asset=Viewers/space_station_360-AVS" target="_blank">Open popup viewer</a>
@@ -106,11 +110,11 @@ I det inbäddade läget läggs visningsprogrammet till på den befintliga webbsi
 
 De viktigaste användningsområdena är webbsidor som är orienterade för datorer eller surfplattor, och även responsiva designade sidor som automatiskt anpassar layouten beroende på enhetstyp.
 
-Inbäddning med fast storlek används när visningsprogrammet inte ändrar sin storlek efter den första inläsningen. Det här är det bästa alternativet för webbsidor som har en statisk layout.
+Inbäddning med fast storlek används när visningsprogrammet inte ändrar sin storlek efter den första inläsningen. Den här metoden är det bästa alternativet för webbsidor med en statisk layout.
 
-Inbäddning av responsiv design förutsätter att visningsprogrammet kan behöva ändra storlek vid körning som svar på storleksändringen för dess behållare `DIV`. Det vanligaste användningsområdet är att lägga till ett visningsprogram på en webbsida som använder en flexibel sidlayout.
+Inbäddning av responsiv design förutsätter att visningsprogrammet måste ändra storlek vid körning som svar på storleksändringen för dess behållare `DIV`. Det vanligaste användningsområdet är att lägga till ett visningsprogram på en webbsida som använder en flexibel sidlayout.
 
-I läget responsiv designinbäddning beter sig visningsprogrammet olika beroende på hur webbsidan ändrar storlek på sin behållare `DIV`. Om webbsidan bara anger bredden på behållaren `DIV`, och dess höjd inte begränsas, väljer visningsprogrammet automatiskt höjden enligt proportionerna för den resurs som används. Med den här funktionen kan du vara säker på att resursen passar perfekt in i vyn utan utfyllnad på sidorna. Det här användningsexemplet är det vanligaste för webbsidor med flexibla ramverk för webbdesign som Bootstrap, Foundation och så vidare.
+I läget responsiv designinbäddning beter sig visningsprogrammet olika beroende på hur webbsidan ändrar storlek på sin behållare `DIV`. Om webbsidan bara anger bredden på behållaren `DIV`, och dess höjd inte begränsas, väljer visningsprogrammet automatiskt höjden enligt proportionerna för den resurs som används. Med den här funktionen kan du vara säker på att resursen passar perfekt in i vyn utan utfyllnad på sidorna. Det här användningsexemplet är det vanligaste för webbsidor med flexibla ramverk för webbdesign som Bootstrap och Foundation.
 
 Om webbsidan ställer in både bredd och höjd för visningsprogrammets behållare `DIV` fyller visningsprogrammet bara det området och följer den storlek som anges i webbsidans layout. Ett bra exempel är att bädda in visningsprogrammet i en modal övertäckning, där storleken på övertäckningen anpassas efter webbläsarens fönsterstorlek.
 
@@ -125,7 +129,7 @@ Du lägger till visningsprogrammet på en webbsida genom att göra följande:
 
 1. Lägga till JavaScript-filen för visningsprogrammet på webbsidan.
 
-   Om du vill skapa ett visningsprogram måste du lägga till en script-tagg i HTML-huvudet. Innan du kan använda visningsprogrammets API måste du ta med [!DNL Video360Viewer.js]. Filen [!DNL Video360Viewer.js] finns under undermappen [!DNL html5/js/] i din standarddistribution av IS-Viewer:
+   Om du vill skapa ett visningsprogram måste du lägga till en script-tagg i huvudet HTML. Innan du kan använda visningsprogrammets API måste du ta med [!DNL Video360Viewer.js]. Filen [!DNL Video360Viewer.js] finns under undermappen [!DNL html5/js/] i din standarddistribution av IS-Viewer:
 
 [!DNL <s7viewers_root>/etc/dam/viewers/s7viewers/html5/js/Video360Viewer.js]
 
@@ -139,7 +143,7 @@ Den relativa sökvägen ser ut så här:
 
 >[!NOTE]
 >
->Du bör bara referera till JavaScript-filen `include` för huvudvisningsprogrammet på sidan. Du bör inte referera till några ytterligare JavaScript-filer i webbsideskoden som kan hämtas av visningsprogrammets logik under körningen. Referera inte direkt till HTML5 SDK `Utils.js`-biblioteket som läses in av visningsprogrammet från kontextsökvägen `/s7viewers` (s.k. konsoliderad SDK `include`). Orsaken är att platsen för `Utils.js` eller liknande visningsprogrambibliotek för miljön hanteras helt av visningsprogrammets logik och platsen ändras mellan visningsprogramversioner. Adobe sparar inte äldre versioner av sekundära visningsprogram `includes` på servern.
+>Referera bara till JavaScript-filen `include` för huvudvisningsprogrammet på sidan. Referera inte till några ytterligare JavaScript-filer i webbsideskoden som kan hämtas av visningsprogrammets logik under körning. Referera inte direkt till biblioteket HTML5 SDK `Utils.js` som läses in av visningsprogrammet från kontextsökvägen `/s7viewers` (s.k. konsoliderad SDK `include`). Orsaken är att platsen för `Utils.js` eller liknande visningsprogrambibliotek för miljön hanteras helt av visningsprogrammets logik och platsen ändras mellan visningsprogramversioner. Adobe sparar inte äldre versioner av sekundära visningsprogram `includes` på servern.
 >
 >
 >Det innebär att om du skickar en direkt referens till ett sekundärt JavaScript `include` som används av visningsprogrammet på sidan så bryts visningsprogrammets funktioner i framtiden när en ny produktversion distribueras.
@@ -162,7 +166,7 @@ Den relativa sökvägen ser ut så här:
 
    Du kan ange den statiska storleken för visningsprogrammet genom att antingen deklarera den för CSS-klassen på den översta nivån i absoluta enheter eller genom att använda modifieraren `stagesize`.`.s7video360viewer`
 
-   Du kan ange storlek i CSS direkt på HTML-sidan eller i en anpassad CSS-fil för visningsprogrammet, som sedan tilldelas en post för visningsförinställningar i AEM Assets - on demand, eller skickas explicit med kommandot `style`.
+   Du kan ange storlek i CSS direkt på HTML-sidan, eller i en anpassad CSS-fil för visningsprogrammet, som senare tilldelas en post för visningsförinställningar i Adobe Experience Manager Assets - On demand, eller skickas explicit med kommandot `style`.
 
    Mer information om hur du formaterar visningsprogrammet med CSS finns i [Anpassa visningsprogrammet för Video360](../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0).
 
@@ -187,7 +191,7 @@ Den relativa sökvägen ser ut så här:
 
    När du har slutfört stegen ovan skapar du en instans av klassen `s7viewers.Video360Viewer`, skickar all konfigurationsinformation till konstruktorn och anropar metoden `init()` för en visningsprograminstans. Konfigurationsinformation skickas till konstruktorn som ett JSON-objekt. Det här objektet ska åtminstone ha ett `containerId`-fält som innehåller namnet på visningsbehållar-ID och kapslat `params` JSON-objekt med konfigurationsparametrar som stöds av visningsprogrammet.
 
-   I det här fallet måste `params`-objektet ha minst den URL för bildservrar som skickas som `serverUrl`-egenskap och den ursprungliga resursen som `asset`-parameter. Med det JSON-baserade initierings-API:t kan du skapa och starta visningsprogrammet med en enda kodrad, en URL för videoservern som skickas som `videoserverurl`-egenskap, en initial resurs som `asset`-parameter och interaktiva data som `interactivedata`-egenskap. Med JSON-baserat initierings-API kan du skapa och starta visningsprogrammet med en enda kodrad.
+   I det här fallet måste `params`-objektet ha minst den URL för bildservrar som skickas som `serverUrl`-egenskap och den ursprungliga resursen som `asset`-parameter. Med det JSON-baserade initierings-API:t kan du skapa och starta visningsprogrammet med en enda kodrad, en URL för videoserver som skickas som `videoserverurl`-egenskap, en initial resurs som `asset`-parameter och interaktiva data som `interactivedata`-egenskap. Med JSON-baserat initierings-API kan du skapa och starta visningsprogrammet med en enda kodrad.
 
    Det är viktigt att lägga till visningsprogrambehållaren i DOM så att visningsprogramkoden kan hitta behållarelementet med dess ID. I vissa webbläsare fördröjs skapandet av DOM tills webbsidan är slut. För maximal kompatibilitet anropar du metoden `init()` precis före den avslutande `BODY`-taggen eller på body-händelsen `onload()`.
 
@@ -246,7 +250,7 @@ Den relativa sökvägen ser ut så här:
 
 **Responsiv designinbäddning med obegränsad höjd**
 
-Med responsiv designinbäddning har webbsidan normalt någon typ av flexibel layout som bestämmer visningsprogrammets körningsstorlek `DIV`. I följande exempel antar du att webbsidan tillåter att visningsprogrammets behållare `DIV` tar 40 % av webbläsarfönstrets storlek, och låter dess höjd vara obegränsad. HTML-koden för webbsidan ser ut så här:
+Med responsiv designinbäddning har webbsidan normalt någon typ av flexibel layout som bestämmer visningsprogrammets körningsstorlek `DIV`. I följande exempel antar du att webbsidan tillåter att visningsprogrammets behållare `DIV` tar 40 % av webbläsarfönstrets storlek, och låter dess höjd vara obegränsad. Webbsidans HTML-kod ser ut så här:
 
 ```
 <!DOCTYPE html> 
@@ -303,7 +307,7 @@ var video360Viewer = new s7viewers.Video360Viewer({
 
 **Responsiv inbäddning med definierad bredd och höjd**
 
-Om det finns responsiv inbäddning med definierad bredd och höjd är webbsidans format annorlunda. Den ger båda storlekarna till DIV:n `"holder"` och centrerar den i webbläsarfönstret. Dessutom anger webbsidan storleken på elementen `HTML` och `BODY` till 100 procent.
+Om det finns responsiv inbäddning med bredd och höjd definierad är webbsidans format annorlunda. Den ger båda storlekarna till DIV:n `"holder"` och centrerar den i webbläsarfönstret. Dessutom anger webbsidan storleken på elementen `HTML` och `BODY` till 100 procent.
 
 ```
 <!DOCTYPE html> 

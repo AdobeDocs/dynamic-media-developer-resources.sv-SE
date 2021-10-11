@@ -1,20 +1,20 @@
 ---
-description: Viss innehåll som visas av visningsprogrammet kan lokaliseras. Detta inkluderar funktionsbeskrivningar för användargränssnittselement och ett felmeddelande som visas när videon inte kan spelas upp.
-solution: Experience Manager
 title: Lokalisering av användargränssnittselement
-feature: Dynamic Media Classic,visningsprogram,SDK/API,360 VR-video
+description: Viss innehåll som visas av visningsprogrammet kan lokaliseras. Detta innehåll innehåller funktionsbeskrivningar för användargränssnittselement och ett felmeddelande som visas när videon inte kan spelas upp.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: d54fd841-2246-4d2e-8bf9-7da56f2487f3
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Lokalisering av användargränssnittselement{#localization-of-user-interface-elements}
 
-Viss innehåll som visas av visningsprogrammet kan lokaliseras. Detta inkluderar funktionsbeskrivningar för användargränssnittselement och ett felmeddelande som visas när videon inte kan spelas upp.
+Viss innehåll som visas av visningsprogrammet kan lokaliseras. Detta innehåll innehåller funktionsbeskrivningar för användargränssnittselement och ett felmeddelande som visas när videon inte kan spelas upp.
 
 Varje textinnehåll i visningsprogrammet som kan lokaliseras representeras av en SDK-identifierare för visningsprogrammet som kallas SYMBOL. Alla SYMBOL har ett associerat standardtextvärde för det engelska språket ( `"en"`) som medföljer visningsprogrammet som inte är installerat. Den kan också ha användardefinierade värden för så många språkområden som behövs.
 
@@ -54,7 +54,7 @@ Följande SYMBOL stöds:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Container.LABEL  </span> </p> </td> 
-   <td colname="col2"> <p>ARIA-etikett för visningsprogramelementet på den översta nivån. </p> </td> 
+   <td colname="col2"> <p>ARIA-etikett för visningsprogramelement på den översta nivån. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_SELECTED  </span> </p> </td> 
