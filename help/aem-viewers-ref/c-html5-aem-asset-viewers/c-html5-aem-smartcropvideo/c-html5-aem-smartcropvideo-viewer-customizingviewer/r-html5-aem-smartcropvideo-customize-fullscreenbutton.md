@@ -1,11 +1,11 @@
 ---
+title: Helskärmsknapp
 description: Helskärmsknappen gör att videospelaren för smart beskärning går in i eller avslutar helskärmsläget när en användare klickar på den.
 solution: Experience Manager
-title: Helskärmsknapp
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 120f0ee9-e76b-48d5-8ea7-8be5a8f52edc
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 0%

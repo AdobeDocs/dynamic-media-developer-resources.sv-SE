@@ -1,11 +1,11 @@
 ---
+title: Videospelare
 description: Videospelaren för smart beskärning är det rektangulära området där videoinnehållet visas i visningsprogrammet.
 solution: Experience Manager
-title: Videospelare
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 2741821f-78fe-44d4-8604-fee10086e0a0
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 0%
@@ -78,7 +78,7 @@ Undertexter placeras i en intern behållare inuti videospelaren för smart besk�
  </tbody> 
 </table>
 
-Exempel - Så här ställer du in en textning som är 14 pixlar, ljusgrå, Arial, på en halvgenomskinlig svart bakgrund:
+Exempel - Så här ställer du in en textning som är 14 pixlar, ljusgrå Arial®, på en halvgenomskinlig svart bakgrund:
 
 ```
 .s7smartcropvideoviewer .s7smartcropvideoplayer .s7caption { 

@@ -1,14 +1,14 @@
 ---
+title: SmartCropVideoViewer
 description: JavaScript API-referens för visningsprogrammet för smart beskärning.
 solution: Experience Manager
-title: SmartCropVideoViewer
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 4ba152e6-b5a9-4e81-b9f8-aa987a1c31f9
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '207'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ JavaScript API-referens för visningsprogrammet för smart beskärning.
 
 `SmartCropVideoViewer([config])`
 
-Konstruktor; skapar en ny instans av visningsprogrammet för smart beskärning.
+Konstruktor; skapar en instans av visningsprogrammet för smart beskärning.
 
 ## Parametrar {#section-8bc3d1424c8444f193716fc8d9975765}
 

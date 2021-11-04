@@ -1,20 +1,20 @@
 ---
+title: getComponent
 description: JavaScript API-referens för visningsprogrammet Smart Crop Video
 solution: Experience Manager
-title: getComponent
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 2f02371c-39c7-46fd-95a6-909efacac72c
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
 
 # getComponent{#getcomponent}
 
-JavaScript API-referens för visningsprogrammet Smart Crop Video
+JavaScript API-referens för visningsprogrammet för smart beskärning.
 
 `getComponent(componentId)`
 
@@ -110,7 +110,7 @@ Mer information om en viss komponent finns i dokumentationen till SDK API:t för
 
 ## Returnerar {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` en referens till SDK-komponenten för visningsprogrammet. Metoden returnerar `null` om `componentId` är inte en visningsprogramkomponent som stöds eller om komponenten ännu inte har skapats av visningsprogramlogiken.
+`{Object}` En referens till SDK-komponenten för visningsprogrammet. Metoden returnerar `null` om `componentId` är inte en visningsprogramkomponent som stöds eller om komponenten ännu inte har skapats av visningsprogramlogiken.
 
 ## Exempel {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

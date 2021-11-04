@@ -1,13 +1,13 @@
 ---
+title: SmartCropVideoPlayer.preload
 description: Anger om visningsprogrammet börjar läsa in videoinnehåll innan uppspelningen startar.
 solution: Experience Manager
-title: SmartCropVideoPlayer.preload
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: cee887f6-bbd9-46dd-aa41-03493596fcf4
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '117'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Anger om visningsprogrammet börjar läsa in videoinnehåll innan uppspelningen 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Om inställt på <span class="codeph"> 1 </span> videon börjar laddas ned direkt efter att resursen har ställts in, I annat fall startar förinläsningen endast efter att uppspelningen initierats av slutanvändaren eller ett API-anrop. </p> <p>Om inställt på <span class="codeph"> 0 </span> vissa funktioner kanske inte fungerar förrän uppspelningen startar, sökåtgärden uppdaterar inte videobildrutan. Om förhandsvisningsbilden är inaktiverad visas den som ett tomt område i stället för som den första videobildrutan. </p> <p>Tänk på att inaktivering av förinläsning av video kan ignoreras i vissa versioner av webbläsarna Internet Explorer 11 och Edge. </p> </td> 
+   <td colname="col2"> <p> Om inställt på <span class="codeph"> 1 </span> videon börjar laddas ned direkt efter att resursen har ställts in, I annat fall startar förinläsningen endast efter att uppspelningen initierats av slutanvändaren eller ett API-anrop. </p> <p>Om inställt på <span class="codeph"> 0 </span> vissa funktioner kanske inte fungerar förrän uppspelningen startar igen, sökåtgärden uppdaterar inte videobildrutan. Om förhandsvisningsbilden är inaktiverad visas den som ett tomt område i stället för som den första videobildrutan. </p> <p>Inaktivering av förinläsning av video kan ignoreras i vissa versioner av webbläsarna Internet Explorer 11 och Edge. </p> </td> 
   </tr> 
  </tbody> 
 </table>

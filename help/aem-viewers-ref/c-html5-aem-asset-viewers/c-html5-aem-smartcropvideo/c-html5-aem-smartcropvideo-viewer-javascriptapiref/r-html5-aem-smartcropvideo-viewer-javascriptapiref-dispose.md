@@ -1,11 +1,11 @@
 ---
+title: dispose
 description: JavaScript API-referens för visningsprogrammet för smart beskärning.
 solution: Experience Manager
-title: dispose
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: c4bcccdc-6f23-4213-a1d1-03c5c62ba484
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 0%
@@ -22,9 +22,9 @@ Disponerar den här visningsprograminstansen genom att frigöra alla resurser so
 
 Webbsideskoden bör även ta bort variabeln för visningsprograminstansen så att den helt tar bort visningsprogrammet från webbläsarminnet.
 
-Om webbsideskoden har registrerade händelseavlyssnare direkt i Viewer SDK-komponenter som används av visningsprogrammet eller lagrade externa referenser till sådana komponenter måste sådana avlyssnare uttryckligen avregistreras av webbsideskoden, och sådana externa komponentreferenser måste tas bort innan anrop görs `dispose()`.
+Om webbsideskoden har registrerade händelseavlyssnare direkt i Viewer SDK-komponenter som används av visningsprogrammet - eller lagrade externa referenser till sådana komponenter - måste sådana avlyssnare uttryckligen avregistreras av webbsideskoden. Sådana externa komponentreferenser måste tas bort innan anrop görs `dispose()`.
 
-Kom inte åt visningsprogrammets API längre efter `dispose()` anropas.
+Åtkomst inte längre till visningsprogrammets API efter `dispose()` anropas.
 
 ## Parametrar {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 

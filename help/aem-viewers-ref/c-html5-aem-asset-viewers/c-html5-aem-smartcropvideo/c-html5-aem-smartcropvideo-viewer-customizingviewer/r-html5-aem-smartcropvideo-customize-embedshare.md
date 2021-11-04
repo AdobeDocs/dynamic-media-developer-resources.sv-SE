@@ -1,13 +1,13 @@
 ---
+title: Bädda in resurs
 description: Verktyget Bädda in delning består av en knapp som läggs till på panelen Dela via sociala medier och den modala dialogruta som visas när verktyget aktiveras. Knappens position hanteras helt av verktyget för social delning.
 solution: Experience Manager
-title: Bädda in resurs
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: e29a81b8-67f3-4367-b21c-d5902420bc85
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
-source-wordcount: '2580'
+source-wordcount: '2590'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Det går att ta bort knappen från panelen Dela via inställningen `display:none
 
 Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) för mer information.
 
-Exempel - för att ställa in en knapp för inbäddningsdelning som är 28 x 28 pixlar och visar en annan bild för vart och ett av de fyra olika knapplägena:
+Exempel - Så här ställer du in en inbäddad delningsknapp som är 28 x 28 pixlar och visar olika bilder för de fyra olika knapplägena:
 
 ```
 .s7smartcropvideoviewer .s7embedshare { 
@@ -284,7 +284,7 @@ Stängningsknappen styrs med följande CSS-klassväljare:
 
 Knappbeskrivningen Stäng och dialogrutans titel kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) för mer information.
 
-Exempel - för att ställa in dialoghuvud med utfyllnad, 24 x 14 pixlars ikon, fet 16 punkters titel och stängningsknapp på 28 x 28 pixlar, placerad två pixlar uppifrån och två pixlar från höger om dialogbehållare:
+Exempel - Om du vill ställa in en dialogruterubrik med utfyllnad, en 24 x 14 pixlars ikon, en 16 punkters fetstil och en 28 x 28 pixlars stängningsknapp. Låt den slutligen placera två pixlar uppifrån och två pixlar från höger om behållaren i dialogrutan:
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogheader { 
@@ -426,7 +426,7 @@ Knappen Avbryt styrs med följande CSS-klassväljare:
 >
 >Knappen Avbryt stöder `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen.
 
-Dessutom har båda knapparna samma gemensamma CSS-klass som kan innehålla CSS-inställningar som är desamma för andra dialogruteknappar:
+Båda knapparna har dessutom en gemensam CSS-klass som kan innehålla CSS-inställningar som är desamma för andra dialogruteknappar:
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogfooter .s7button
@@ -579,7 +579,7 @@ Om höjden på den här behållaren verkar vara större än huvudområdet i dial
  </tbody> 
 </table>
 
-Exempel - om du vill ställa in formulärinnehåll så att det har utfyllnad på tio pixlar:
+Exempel - Så här ställer du in formulärinnehåll så att det har en utfyllnad på tio pixlar:
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogbody { 
@@ -712,7 +712,7 @@ Den faktiska inbäddningskodtexten styrs med följande CSS-klassväljare:
  </tbody> 
 </table>
 
-Exempel - för att ställa in inbäddningskod att använda `break-word` automatisk radbrytning:
+Exempel - Så här ställer du in inbäddningskoden som ska användas `break-word` automatisk radbrytning:
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogmessage { 
@@ -794,7 +794,7 @@ Bredden på kombinationsrutan för inbäddningsstorlek styrs med följande CSS-k
 
 >[!NOTE]
 >
->Kombinationsrutan har stöd för `expanded` attributväljare med möjliga värden för `true` och `false`. `true` används när kombinationsrutan visar en fördefinierad inbäddningsstorlek, vilket innebär att all tillgänglig bredd används. `false` används när alternativet för anpassad storlek är markerat i kombinationsrutan, så det bör krympa för att ge utrymme för anpassade indatafält för bredd och höjd.
+>Kombinationsrutan har stöd för `expanded` attributväljare med möjliga värden för `true` och `false`. The `true` Värdet används när kombinationsrutan visar en fördefinierad inbäddningsstorlek, vilket innebär att all tillgänglig bredd används. The `false` Värdet används när alternativet för anpassad storlek är markerat i kombinationsrutan, så det bör krympa för att tillåta utrymme för anpassade indatafält för bredd och höjd.
 
 Exempel - Att ställa in kombinationsrutan för inbäddningsstorlek till 300 pixlar bred när ett fördefinierat objekt visas och 110 pixlar bred när en anpassad storlek visas:
 
@@ -892,7 +892,7 @@ Exempel - om du vill ställa in en nedrullningsknapp på 28 x 28 pixlar och ha e
 }
 ```
 
-Panelen med listan över inbäddningsstorlekar som visas när kombinationsrutan öppnas styrs med följande CSS-klassväljare:
+Panelen med listan över inbäddningsstorlekar som visas när kombinationsrutan öppnas, styrs med följande CSS-klassväljare:
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7comboboxdropdown
@@ -983,7 +983,7 @@ Exempel - för att ange bockmarkeringsikonen till 25 x 25 pixlar:
 }
 ```
 
-När alternativet Anpassad storlek är markerat i kombinationsrutan för inbäddningsstorlek visas två extra inmatningsfält till höger så att användaren kan ange en anpassad inbäddningsstorlek. Dessa fält placeras i en behållare som styrs med följande CSS-klassväljare:
+När alternativet Anpassad storlek har valts i kombinationsrutan för inbäddningsstorlek visas två extra inmatningsfält till höger så att användaren kan ange en anpassad inbäddningsstorlek. Dessa fält placeras i en behållare som styrs med följande CSS-klassväljare:
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogcustomsizepanel
@@ -1037,7 +1037,7 @@ Varje indatafält med anpassad storlek kapslas i en behållare som återger en k
  </tbody> 
 </table>
 
-Exempel - om du vill ange att indatafälten med anpassad storlek ska ha en grå kant, marginal, utfyllnad på en pixel och vara 70 pixlar bred:
+Exempel - om du vill ange att indatafälten med anpassad storlek ska ha en grå kant, marginal, utfyllnad och vara 70 pixlar bred:
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogcustomsize { 

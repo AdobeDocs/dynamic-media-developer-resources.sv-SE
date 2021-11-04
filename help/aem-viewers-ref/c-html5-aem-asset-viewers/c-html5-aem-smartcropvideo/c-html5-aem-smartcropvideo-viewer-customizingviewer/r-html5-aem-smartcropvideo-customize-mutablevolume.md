@@ -1,11 +1,11 @@
 ---
+title: Muterbar volym
 description: Inledningsvis visas den ändringsbara volymkontrollen som en knapp där användaren kan stänga av eller slå på ljudet i den smarta beskärningsvideospelaren.
 solution: Experience Manager
-title: Muterbar volym
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: bd86af60-a9a0-4f2e-9d36-f7ee22bd8c8e
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 0%

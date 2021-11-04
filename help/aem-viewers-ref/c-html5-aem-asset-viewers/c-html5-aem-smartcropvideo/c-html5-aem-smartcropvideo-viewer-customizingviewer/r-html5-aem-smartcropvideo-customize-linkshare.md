@@ -1,13 +1,13 @@
 ---
+title: Länkresurs
 description: Länkdelningsverktyget består av en knapp som läggs till på panelen Dela via sociala medier och den modala dialogruta som visas när verktyget aktiveras. Knappens position hanteras helt av verktyget för social delning.
 solution: Experience Manager
-title: Länkresurs
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: a80b47fd-0399-4d0a-8c11-cfa4acc5a713
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1374'
 ht-degree: 0%
 
 ---
@@ -284,7 +284,7 @@ Stängningsknappen styrs med följande CSS-klassväljare:
 
 Knappbeskrivningen Stäng och dialogrutans titel kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) för mer information.
 
-Exempel - Om du vill ställa in en dialogruterubrik med utfyllnad, en ikon med storleken 22 x 12 pixlar, en rubrik med 16 punkter i fet stil och en stängningsknapp med storleken 28 x 28 pixlar som placeras två pixlar uppifrån och två pixlar från höger om dialogrutan:
+Exempel - Om du vill ställa in en dialogruterubrik med utfyllnad, en 22 x 12 pixlar ikon och en 16 punkters fetstil. Slutligen en stängningsknapp på 28 x 28 pixlar som placeras två pixlar uppifrån och två pixlar från höger om dialogrutan:
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7dialogheader { 
@@ -426,7 +426,7 @@ Knappen Avbryt styrs med följande CSS-klassväljare:
 >
 >Den här knappen har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen.
 
-Dessutom har båda knapparna samma gemensamma CSS-klass som kan innehålla CSS-inställningar som är desamma för andra dialogruteknappar:
+Båda knapparna har dessutom en gemensam CSS-klass som kan innehålla CSS-inställningar som är desamma för andra dialogruteknappar:
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7dialogfooter .s7button

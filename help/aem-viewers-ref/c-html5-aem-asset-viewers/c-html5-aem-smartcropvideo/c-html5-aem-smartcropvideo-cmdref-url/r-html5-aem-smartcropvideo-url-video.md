@@ -1,11 +1,11 @@
 ---
+title: video
 description: URL-kommando för visningsprogrammet för smart beskärning.
 solution: Experience Manager
-title: video
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 03347280-64f8-47da-b33b-0fa1ba2bc59a
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 0%

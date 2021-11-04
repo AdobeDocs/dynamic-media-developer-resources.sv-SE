@@ -1,13 +1,13 @@
 ---
+title: init
 description: JavaScript API-referens för visningsprogrammet för smart beskärning.
 solution: Experience Manager
-title: init
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: d46a9c8b-064a-4928-b30e-885b12d287ab
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ JavaScript API-referens för visningsprogrammet för smart beskärning.
 
 Startar initieringen av videovisningsprogrammet för smart beskärning. Vid den här tidpunkten måste behållar-DOM-elementet skapas så att visningsprogramkoden kan hitta det med dess ID.
 
-Om behållarelementet inte är en del av webbsideslayouten ännu, till exempel, kan det vara dolt med `display:none` det format som tilldelats det - visningsprogrammet avbryter sin initieringsprocess tills den tidpunkt då webbsidan återför behållarelementet till layouten. När detta inträffar återgår visningsprogrammet automatiskt.
+Om behållarelementet inte är en del av webbsideslayouten än, kan det till exempel döljas med `display:none` format som tilldelats det - visningsprogrammet avbryter sin initieringsprocess. Det gör det tills webbsidan återför behållarelementet till layouten. När den här åtgärden utförs återtas visningsprogrammet automatiskt.
 
 Anropa denna metod endast en gång under tittarens livscykel. efterföljande anrop ignoreras.
 

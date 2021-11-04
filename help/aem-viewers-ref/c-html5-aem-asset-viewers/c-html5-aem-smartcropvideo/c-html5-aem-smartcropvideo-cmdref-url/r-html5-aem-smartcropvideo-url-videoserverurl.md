@@ -1,11 +1,11 @@
 ---
+title: videoServerUrl
 description: URL-kommando för visningsprogrammet för smart beskärning.
 solution: Experience Manager
-title: videoServerUrl
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 945c32e0-a67b-4c27-b661-26510615d757
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '55'
 ht-degree: 1%

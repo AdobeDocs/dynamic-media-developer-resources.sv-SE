@@ -1,11 +1,11 @@
 ---
+title: SmartCropVideoPlayer.loop
 description: Konfigurationsattribut för visningsprogrammet för smart beskärning.
 solution: Experience Manager
-title: SmartCropVideoPlayer.loop
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 92d22f5d-0ba8-4ea2-bba6-2275efdd1fe0
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '32'
 ht-degree: 6%

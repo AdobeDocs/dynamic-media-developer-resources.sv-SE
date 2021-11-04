@@ -1,11 +1,11 @@
 ---
+title: setParams
 description: JavaScript API-referens för visningsprogrammet för smart beskärning.
 solution: Experience Manager
-title: setParams
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 76bad894-bfb8-4d79-b3ff-c2497c68e5e8
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%
@@ -18,7 +18,7 @@ JavaScript API-referens för visningsprogrammet för smart beskärning.
 
 ` setParams( *`parametrar`*)`
 
-Anger en eller flera parametrar till ett givet värde. Metodargumentets syntax är identisk med en URL-frågesträng. Det betyder att den representerar namn=värde-par avgränsade med `&`. Samma som i en frågesträng är namn och värden procentuellt kodade med UTF8. Innan du ringer `init()`måste den här parametern anropas.
+Anger en eller flera parametrar till ett givet värde. Metodargumentets syntax är identisk med en URL-frågesträng. Det betyder att den representerar namn=värde-par avgränsade med `&`. Samma som i en frågesträng, namn och värden kodas i procent med UTF8. Innan du ringer `init()`måste den här parametern anropas.
 
 Den här metoden är valfri om visningsprogrammets konfigurationsinformation skickas med `config` JSON-objekt till konstruktorn.
 

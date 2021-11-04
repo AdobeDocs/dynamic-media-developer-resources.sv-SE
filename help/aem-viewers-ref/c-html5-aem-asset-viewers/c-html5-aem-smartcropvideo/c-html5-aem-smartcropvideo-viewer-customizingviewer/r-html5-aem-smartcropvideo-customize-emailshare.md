@@ -1,13 +1,13 @@
 ---
+title: E-postresurs
 description: Verktyget för e-postdelning består av en knapp som läggs till på panelen Dela via sociala medier och i den modala dialogrutan som visas när verktyget aktiveras. Knappens position hanteras helt av verktyget för social delning.
 solution: Experience Manager
-title: E-postresurs
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 1788e069-68dd-4960-bc49-34ffdf29991a
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
-source-wordcount: '2980'
+source-wordcount: '2994'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ background-image:url(images/v2/EmailShare_dark_disabled.png);
 }
 ```
 
-Bakgrundsöverlägget som täcker webbsidan när dialogrutan är aktiv styrs med följande CSS-klassväljare:
+Bakgrundsöverlägget som täcker en webbsida när dialogrutan är aktiv styrs med följande CSS-klassväljare:
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7backoverlay
@@ -282,7 +282,7 @@ Stängningsknappen styrs med följande CSS-klassväljare:
 
 Knappbeskrivningen Stäng och dialogrutans titel kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) för mer information.
 
-Exempel - för att ställa in dialoghuvud med utfyllnad, ikon med storleken 24 x 17 pixlar, fet 16 punkters titel och stängningsknapp med storleken 28 x 28 pixlar, placerad 2 pixlar uppifrån och 2 pixlar från höger i dialogrutan:
+Exempel - Om du vill ställa in ett dialoghuvud med utfyllnad, en 24 x 17 pixlar-ikon och en fet 16-punkters rubrik. Slutligen en stängningsknapp på 28 x 28 pixlar, placerad två pixlar uppifrån och två pixlar från höger i dialogrutan:
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogheader { 
@@ -422,7 +422,7 @@ Knappen Skicka e-post styrs med följande CSS-klassväljare:
 >
 >Den här knappen har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen.
 
-Dessutom har båda knapparna samma gemensamma CSS-klass som kan innehålla CSS-inställningar som är desamma för andra dialogruteknappar:
+Båda knapparna har dessutom en gemensam CSS-klass som kan innehålla CSS-inställningar som är desamma för andra dialogruteknappar:
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogfooter .s7button
@@ -461,7 +461,7 @@ Dessutom har båda knapparna samma gemensamma CSS-klass som kan innehålla CSS-i
 
 Knappverktygstipsen kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) för mer information.
 
-Exempel - om du vill ställa in en dialogruteslut med knappen Avbryt 64 x 34 och skicka e-postknappen 82 x 34, med textfärgen och bakgrundsfärgen olika för varje knappläge:
+Exempel - Om du vill ställa in en dialogruteslut med knappen Avbryt (64 x 34) och knappen Skicka e-post (82 x 34). Slutligen är textfärgen och bakgrundsfärgen olika för varje knappläge:
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogfooter { 
@@ -757,7 +757,7 @@ Indatafältet &quot;Till&quot; är smalare eftersom det tilldelar utrymme för k
  </tbody> 
 </table>
 
-Exempel - att ställa in ett formulär så att det har en grå kant på en pixel med nio pixlar utfyllnad runt alla inmatningsfält. att ha samma kantlinje i röd färg för fält som inte godkänns vid validering, att ha indatafältet &quot;Till&quot; som är 250 pixlar brett och resten av inmatningsfälten 300 pixlar brett:
+Exempel - Att ställa in ett formulär så att det har en grå kant på en pixel med nio pixlar utfyllnad runt alla inmatningsfält. Om du vill ha samma kantlinje i röd färg för fält som inte godkänns vid validering, om du vill att indatafältet ska vara 250 pixlar brett och resten av inmatningsfälten 300 pixlar brett:
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialoginputcontainer { 
@@ -775,7 +775,7 @@ Exempel - att ställa in ett formulär så att det har en grå kant på en pixel
 }
 ```
 
-Indatafältet för e-postmeddelanden styrs dessutom med:
+Indatafältet för e-postmeddelanden styrs också med:
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogmessage
@@ -1163,7 +1163,7 @@ Exempel - om du vill ställa in en innehållsbeskrivning så att den har en marg
 }
 ```
 
-När en användare anger felaktiga indata och intern validering misslyckas, eller när dialogrutan behöver visa ett fel eller ett bekräftelsemeddelande när formuläret skickas, visas ett meddelande högst upp i dialogrutan. Den styrs med följande CSS-klassväljare:
+När en användare anger felaktiga indata och intern validering misslyckas, eller när dialogrutan måste visa ett fel eller ett bekräftelsemeddelande när formuläret skickas, visas ett meddelande högst upp i dialogrutan. Den styrs med följande CSS-klassväljare:
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogerrormessage
@@ -1210,11 +1210,11 @@ När en användare anger felaktiga indata och intern validering misslyckas, elle
 
 >[!NOTE]
 >
->Det här meddelandet har stöd för `state` attributväljare med följande möjliga värden: `verifyerror`, `senderror`och `sendsuccess`. `verifyerror` anges när ett meddelande visas på grund av ett internt indatavalideringsfel. `senderror` anges när en backend-e-posttjänst rapporterar ett fel, `sendsuccess` anges när e-post skickas. På så sätt kan du formatera meddelandet på olika sätt beroende på hur dialogrutan är skriven.
+>Det här meddelandet har stöd för `state` attributväljare med följande möjliga värden: `verifyerror`, `senderror`och `sendsuccess`. Värdet `verifyerror` anges när ett meddelande visas på grund av ett internt indatavalideringsfel. Värdet `senderror` anges när en backend-e-posttjänst rapporterar ett fel. The `sendsuccess` värdet anges när e-post skickas utan fel. På det här sättet kan du formatera meddelandet på olika sätt beroende på hur dialogrutan ser ut.
 
 Felmeddelandet kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) för mer information.
 
-Exempel - om du vill ange att ett meddelande ska använda ett teckensnitt med 10 punkter fet stil, har radhöjden 25 pixlar, utfyllnaden 20 pixlar till vänster, använder ett utropstecken, röd text om ett fel uppstår och ingen ikon och grön text om det lyckas:
+Exempel - Om du vill ange att ett meddelande ska använda ett teckensnitt med tio punkters fet stil har du en radhöjd på 25 pixlar och en utfyllnad på 20 pixlar till vänster. Använd också en utropsteckenikon, röd text om det finns ett fel och ingen ikon och grön text om det fungerar:
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogerrormessage[state="verifyerror"] { 

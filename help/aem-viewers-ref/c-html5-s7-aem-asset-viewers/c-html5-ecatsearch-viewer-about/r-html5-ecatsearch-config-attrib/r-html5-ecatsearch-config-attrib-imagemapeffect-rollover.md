@@ -2,12 +2,12 @@
 description: ImageMapEffect.rollover
 solution: Experience Manager
 title: ImageMapEffect.rollover
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 29ca3d4d-6953-4148-9b1e-01e94d1da7df
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '79'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p>Anger när informationspanelen ska visas. </p> <p>Om <span class="codeph"> 1</span> anges visas informationspanelen när musen kommer till bildschemaområdet (om bildschemat inte är tomt, <span class="codeph"> rollover_key</span>-attribut). </p> <p>Om inställt på <span class="codeph"> 0</span> infopanelen aktiveras när användaren klickar på bildschemat (om bildschemat har ett icke-tomt <span class="codeph"> rollover_key</span> och tomt <span class="codeph"> href</span>-attribut). </p> <p> Ignoreras på pekenheter, inklusive datorer med pekskärm, och ställs automatiskt in på <span class="codeph"> 0</span>. </p> </td> 
+   <td colname="col2"> <p>Anger när informationspanelen ska visas. </p> <p>Om inställt på <span class="codeph"> 1</span>visas informationspanelen när musen kommer in i bildschemaområdet (om bildschemat inte är tomt), <span class="codeph"> rollover_key</span> attribut). </p> <p>Om inställt på <span class="codeph"> 0</span> informationspanelen aktiveras när bildschemat väljs (om bildschemat har en icke-tom <span class="codeph"> rollover_key</span> och tom <span class="codeph"> href</span> attribut). </p> <p> Ignoreras på pekenheter, inklusive datorer med pekskärm, och ställs automatiskt in på <span class="codeph"> 0</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

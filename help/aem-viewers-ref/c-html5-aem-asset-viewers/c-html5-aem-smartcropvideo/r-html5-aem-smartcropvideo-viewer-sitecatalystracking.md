@@ -1,11 +1,11 @@
 ---
+title: Stöd för Adobe Analytics tracking
 description: Videovisningsprogrammet för Smart Crop har stöd för Adobe Analytics-spårning direkt.
 solution: Experience Manager
-title: Stöd för Adobe Analytics tracking
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User,Data Engineer,Data Architect
-exl-id: 2cc7087d-ed02-4560-b9ce-533af2b11a24
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 0%

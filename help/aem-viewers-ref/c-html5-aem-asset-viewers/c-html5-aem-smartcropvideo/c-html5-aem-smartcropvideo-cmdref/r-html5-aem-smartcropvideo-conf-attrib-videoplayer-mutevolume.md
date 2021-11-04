@@ -1,11 +1,11 @@
 ---
+title: SmartCropVideoPlayer.mutevolume
 description: Konfigurationsattribut för visningsprogrammet för smart beskärning.
 solution: Experience Manager
-title: SmartCropVideoPlayer.mutevolume
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 8f644a40-7fd9-4edd-be29-698635b46507
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 3%
@@ -22,7 +22,7 @@ Konfigurationsattribut för visningsprogrammet för smart beskärning.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Anger avstängt läge för videouppspelning vid första inläsningen. Om inställt på <span class="codeph"> 1 </span> volymen är avstängd, I annat fall spelas videon upp med ljud. På vissa enheter kan videouppspelning stängas av vid inläsning även spelas upp automatiskt. </p> </td> 
+   <td colname="col2"> <p> Anger avstängt läge för videouppspelning vid första inläsningen. Om inställt på <span class="codeph"> 1 </span> volymen är avstängd, I annat fall spelas videon upp med ljud. På vissa enheter kan videon spelas upp automatiskt när videouppspelning stängs av vid inläsning. </p> </td> 
   </tr> 
  </tbody> 
 </table>

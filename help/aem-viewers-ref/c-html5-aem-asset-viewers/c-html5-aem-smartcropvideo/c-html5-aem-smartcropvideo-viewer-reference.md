@@ -1,12 +1,12 @@
 ---
+title: Video för smart beskärning
 description: Smart Crop Video Viewer är en videospelare som spelar upp strömmande och progressiv video som är kodad i H.264-format med stöd för smart beskärning. Den levereras från Dynamic Media Classic eller Adobe Experience Manager med Dynamic Media.
 keywords: responsiv
 solution: Experience Manager
-title: Video för smart beskärning
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: fa9727dc-f9e2-4d91-b500-445693dfb6aa
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '2410'
 ht-degree: 0%
@@ -41,7 +41,16 @@ Se [Kommandoreferens som är gemensam för alla visningsprogram - Konfigurations
 
 ## Interagera med Smart Crop Video Viewer {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
-Smart Crop Video Viewer innehåller en uppsättning standardkontroller för användargränssnitt för videouppspelning, t.ex. en knapp för uppspelning/paus, en tidsbubbla för videouppspelning, en indikator för uppspelningstid/total tid, volymkontroll, helskärmsknapp och växling för stängd bildtext. Alla dessa kontroller grupperas i ett kontrollfält längst ned i visningsprogrammets användargränssnitt.
+Smart Crop Video Viewer innehåller en uppsättning standardkontroller för användargränssnitt för videouppspelning, som:
+
+* En Play/Pause-knapp.
+* Videokamera tidsbubblan.
+* Indikator för uppspelningstid/total tid.
+* Volymkontroll.
+* Helskärmsknapp.
+* Växla undertexter.
+
+Alla dessa kontroller grupperas i ett kontrollfält längst ned i visningsprogrammets användargränssnitt.
 
 På enheter med pekskärm döljs volymkontrollen från användargränssnittet eftersom det bara är möjligt att styra volymen med maskinvaruknapparna.
 
@@ -65,7 +74,7 @@ Delningsverktygen är inte tillgängliga i helskärmsläge på grund av säkerhe
 
 ## Inbäddning av visningsprogram för smart beskärning {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Olika webbsidor har olika behov av visningsprogrammets beteende. Ibland innehåller en webbsida en länk som öppnar visningsprogrammet i ett separat webbläsarfönster när användaren klickar på den. I andra fall måste du bädda in visningsprogrammet direkt på värdsidan. I det senare fallet kan webbsidan ha en statisk sidlayout, eller använda responsiv design som visas på olika enheter eller för olika webbläsarfönsterstorlekar. För att tillgodose dessa behov har visningsprogrammet stöd för tre primära åtgärdslägen: popup, inbäddning i fast storlek och responsiv designinbäddning.
+Olika webbsidor har olika behov av visningsprogrammets beteende. Ibland innehåller en webbsida en länk som när den är markerad öppnar visningsprogrammet i ett separat webbläsarfönster. I andra fall måste du bädda in visningsprogrammet direkt på värdsidan. I det senare fallet kan webbsidan ha en statisk sidlayout, eller använda responsiv design som visas på olika enheter eller för olika webbläsarfönsterstorlekar. För att tillgodose dessa behov har visningsprogrammet stöd för tre primära åtgärdslägen: popup, inbäddning i fast storlek och responsiv designinbäddning.
 
 Det går att bädda in flera videor på samma sida på både surfplattor och mobila enheter. Vanligtvis kan du bara spela upp en video i taget. När en användare börjar spela upp en video och sedan försöker spela upp en annan, pausas den första videon automatiskt. Videon som pausades automatiskt kommer ihåg den aktuella uppspelningstiden, så att användaren alltid kan återgå till den och återuppta uppspelningen. Det enda undantaget som den här regeln gäller är webbläsaren Chrome på Android™ 4.x-enheter, som kan spela upp videor parallellt.
 

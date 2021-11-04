@@ -1,13 +1,13 @@
 ---
+title: Videoskrubber
 description: Videonavigeringen är den vågräta skjutreglaget som gör att en användare dynamiskt kan söka till valfri tidsposition i den video som spelas upp.
 solution: Experience Manager
-title: Videoskrubber
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 404e39d4-565e-4dde-b2bd-fa83a895d001
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Videonavigeringen är den vågräta skjutreglaget som gör att en användare dyn
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Rubbens &#39;knob&#39; rör sig också när videon spelas upp för att ange videons aktuella tidsposition under uppspelningen. Videonavigeringslisten har alltid hela kontrollfältets bredd. Det går att skalförändra videospolaren. ändra dess höjd och lodräta position med CSS.
+Rubbens &#39;knob&#39; rör sig också när videon spelas upp för att ange videons aktuella tidsposition under uppspelningen. Videonavigeringslisten har alltid hela kontrollfältets bredd. Det går att skapa skal för videospolaren, ändra dess höjd och lodräta position med CSS.
 
 Videonavigeringens allmänna utseende styrs med följande CSS-klassväljare:
 
@@ -158,7 +158,7 @@ Följande CSS-klassväljare styr den tid som spelas upp:
 
 Verktygstipset för videospolning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) för mer information.
 
-**Exempel** - Om du vill ställa in ett videovisningsprogram med en videonavigeringsruta med anpassade spårfärger som är 10 pixlar höga och placerade 10 pixlar och 35 pixlar från kontrollfältets övre och vänstra kant.
+**Exempel** - Om du vill ställa in ett videovisningsprogram med en videonavigeringsruta med anpassade spårfärger som är tio pixlar höga. Och slutligen, ha den placerad 10 och 35 pixlar från kontrollfältets övre och vänstra kant.
 
 ```
 .s7smartcropvideoviewer .s7videoscrubber  { 

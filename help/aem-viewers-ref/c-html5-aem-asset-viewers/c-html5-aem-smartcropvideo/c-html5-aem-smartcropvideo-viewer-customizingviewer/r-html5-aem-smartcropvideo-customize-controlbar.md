@@ -1,20 +1,20 @@
 ---
-description: Kontrollfältet är det rektangulära området som innehåller och sitter bakom alla UI-kontroller som är tillgängliga för visningsprogrammet för Smart Crop Video, t.ex. uppspelnings-/pausknappen, volymkontroller osv.
-solution: Experience Manager
 title: Kontrollfält
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+description: Kontrollfältet är det rektangulära området som innehåller och sitter bakom alla UI-kontroller som är tillgängliga för visningsprogrammet för smart beskärning, till exempel uppspelnings-/pausknappen och volymkontrollerna.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 2239307a-4a05-4392-b35c-a64ea6c938ad
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
 
 # Kontrollfält{#control-bar}
 
-Kontrollfältet är det rektangulära området som innehåller och sitter bakom alla UI-kontroller som är tillgängliga för visningsprogrammet för Smart Crop Video, t.ex. uppspelnings-/pausknappen, volymkontroller osv.
+Kontrollfältet är det rektangulära området som innehåller och sitter bakom alla UI-kontroller som är tillgängliga för visningsprogrammet för smart beskärning, till exempel uppspelnings-/pausknappen och volymkontrollerna.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

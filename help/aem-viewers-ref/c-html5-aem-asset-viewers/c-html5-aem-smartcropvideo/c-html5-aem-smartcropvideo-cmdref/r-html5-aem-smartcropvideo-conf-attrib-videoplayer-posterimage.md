@@ -1,11 +1,11 @@
 ---
+title: SmartCropVideoPlayer.posterimage
 description: Konfigurationsattribut för visningsprogrammet för smart beskärning.
 solution: Experience Manager
-title: SmartCropVideoPlayer.posterimage
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: c09884e2-60a1-4fce-997a-29747b4ccb7b
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Konfigurationsattribut för visningsprogrammet för smart beskärning.
       <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph"> ?</span> as <span class="codeph"> %3F</span> </p> </li> 
       <li id="li_391CCF067F734480B2B4AFC9760C479A"> <p> <span class="codeph"> &amp;</span> as <span class="codeph"> %26</span> </p> </li> 
       <li id="li_6824B66A55554C5A8B12874DCF5BFAEE"> <p> <span class="codeph"> =</span> as <span class="codeph"> %3D</span> </p> </li> 
-     </ul> </p> <p>Om <span class="codeph"><span class="varname"> image_id</span></span> om värdet utelämnas försöker komponenten använda standardförhandsvisningsbilden för den resursen i stället. </p> <p>När videon har angetts som en sökväg hämtas standardfilens katalog-ID från videosökvägen som <span class="codeph"> catalog_id/image_id</span> par där <span class="codeph"> catalog_id</span> motsvarar den första variabeln i sökvägen och <span class="codeph"> image_id</span> är namnet på videon med tillägget borttaget. Om bilden med detta ID inte finns visas inte förhandsvisningsbilden. </p> <p>Om du vill förhindra att standardförhandsvisningsbilden visas anger du <span class="codeph"> ingen</span> som värde för förhandsvisningsbilden. Om bara <span class="codeph"><span class="varname"> isCommands</span></span> anges att kommandona används för standardförhandsvisningsbilden innan bilden visas. </p> </td> 
+     </ul> </p> <p>Om <span class="codeph"><span class="varname"> image_id</span></span> om värdet utelämnas försöker komponenten använda standardförhandsvisningsbilden för den resursen i stället. </p> <p>När videon har angetts som en sökväg hämtas standardfilens katalog-ID från videosökvägen som <span class="codeph"> catalog_id/image_id</span> par. The <span class="codeph"> catalog_id</span> motsvarar den första variabeln i sökvägen och <span class="codeph"> image_id</span> är namnet på videon med tillägget borttaget. Om bilden med detta ID inte finns visas inte förhandsvisningsbilden. </p> <p>Om du vill förhindra att standardförhandsvisningsbilden visas anger du <span class="codeph"> ingen</span> som värde för förhandsvisningsbilden. Om bara <span class="codeph"><span class="varname"> isCommands</span></span> anges används kommandona på standardförhandsvisningsbilden innan bilden visas. </p> </td> 
   </tr> 
  </tbody> 
 </table>

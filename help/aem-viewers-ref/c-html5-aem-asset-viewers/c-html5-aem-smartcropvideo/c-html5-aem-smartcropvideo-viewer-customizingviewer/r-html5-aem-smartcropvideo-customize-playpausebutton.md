@@ -1,13 +1,13 @@
 ---
+title: Knappen Spela upp/Paus
 description: Knappen play/pause gör att videospelaren för smart beskärning spelar upp eller pausar videoinnehållet när en användare klickar på det.
 solution: Experience Manager
-title: Knappen Spela upp/Paus
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 174ddf15-e6be-4a65-8c82-5c9edf061a6c
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -69,13 +69,13 @@ Följande CSS-klassväljare styr knappens utseende:
 >
 >Den här knappen har stöd för båda `state`, `selected`och `replay` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen. I synnerhet `selected='true'` motsvarar&quot;play&quot;-läget och `selected='false'` motsvarar läget &quot;paus&quot;,
 >
->`replay='true'` anges när videon har nått slutet och när du klickar på knappen startas uppspelningen om från början.
+>Attributväljaren `replay='true'` anges när videon har nått slutet och när du väljer knappen startas uppspelningen om från början.
 
 Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) för mer information.
 
 ## Exempel {#section-e8caea0a303c425a8a637c2a47c06355}
 
-för att ställa in en uppspelnings-/pausknapp som är 32 x 32 pixlar; den är placerad sex pixlar från kontrollfältets övre och vänstra kant och visar en annan bild för vart och ett av de fyra olika knapplägena när den är markerad eller inte är markerad.
+Så här ställer du in en Play/Pause-knapp som är 32 x 32 pixlar. Placera den sex pixlar från kontrollfältets övre och vänstra kant. Och slutligen, visa olika bilder för var och en av de fyra olika knapplägena när de är markerade eller inte markerade.
 
 ```
 .s7smartcropvideoviewer .s7playpausebutton { 

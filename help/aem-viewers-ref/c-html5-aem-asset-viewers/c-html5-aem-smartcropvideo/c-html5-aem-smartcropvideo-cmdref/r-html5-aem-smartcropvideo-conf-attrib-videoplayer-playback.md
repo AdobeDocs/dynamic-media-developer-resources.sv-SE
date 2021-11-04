@@ -1,13 +1,13 @@
 ---
+title: SmartCropVideoPlayer.playback
 description: Konfigurationsattribut för visningsprogrammet för smart beskärning.
 solution: Experience Manager
-title: SmartCropVideoPlayer.playback
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 54a10b30-ebf5-4f1e-aa4a-b09055453c4e
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Konfigurationsattribut för visningsprogrammet för smart beskärning.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|progressiv</span> </p> </td> 
-   <td colname="col2"> <p> Anger den typ av uppspelning som används av visningsprogrammet. När <span class="codeph"> auto</span> är inställt, i de flesta webbläsare och på alla iOS-enheter använder visningsprogrammet direktuppspelad HTML5-video i HLS-format. Den återgår till progressiv uppspelning i HTML5 på vissa system som äldre Internet Explorer och Android. </p> <p>If <span class="codeph"> progressiv</span> anges att visningsprogrammet endast förlitar sig på uppspelning i HTML5 eftersom det stöds av webbläsare och att videon spelas upp progressivt på alla system. </p> <p>Mer information om hur du väljer uppspelning i automatiskt och progressivt läge finns i användarhandboken för Viewer SDK. </p> </td> 
+   <td colname="col2"> <p> Anger den typ av uppspelning som används av visningsprogrammet. När <span class="codeph"> auto</span> är inställt, i de flesta webbläsare och på alla iOS-enheter använder visningsprogrammet direktuppspelad HTML5-video i HLS-format. Den återgår till progressiv uppspelning i HTML5 på vissa system som äldre Internet Explorer och Android™. </p> <p>If <span class="codeph"> progressiv</span> anges att visningsprogrammet endast förlitar sig på uppspelning i HTML5 eftersom det stöds av webbläsare och att videon spelas upp progressivt på alla system. </p> <p>Mer information om hur du väljer uppspelning i automatiskt och progressivt läge finns i användarhandboken för Viewer SDK. </p> </td> 
   </tr> 
  </tbody> 
 </table>

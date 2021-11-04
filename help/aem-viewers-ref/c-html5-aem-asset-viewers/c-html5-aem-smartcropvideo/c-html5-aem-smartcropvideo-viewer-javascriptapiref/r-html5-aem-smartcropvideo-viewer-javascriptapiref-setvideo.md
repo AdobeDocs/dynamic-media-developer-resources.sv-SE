@@ -1,11 +1,11 @@
 ---
+title: setVideo
 description: JavaScript API-referens för visningsprogrammet Smart Crop Video
 solution: Experience Manager
-title: setVideo
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: c89099f6-09f7-4d81-939e-90ffa2764c8c
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%

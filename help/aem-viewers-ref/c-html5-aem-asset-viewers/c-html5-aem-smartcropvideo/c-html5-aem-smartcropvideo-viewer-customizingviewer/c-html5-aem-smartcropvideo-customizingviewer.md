@@ -1,21 +1,21 @@
 ---
+title: Anpassa visningsprogrammet för video med smart beskärning
 description: Anpassa visningsprogrammet för video med smart beskärning
 keywords: responsiv
 solution: Experience Manager
-title: Anpassa visningsprogrammet för video med smart beskärning
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 90dc93ee-fdd0-41c9-9eef-4c9952198356
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
-source-wordcount: '1265'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
 
 # Anpassa visningsprogrammet för video med smart beskärning{#customizing-smartcrop-video-viewer}
 
-All visuell anpassning och de flesta beteendeanpassningar görs genom att en anpassad CSS skapas.
+Alla visuella anpassningar och de flesta beteendeanpassningar görs genom att en anpassad CSS skapas.
 
 Det föreslagna arbetsflödet är att ta standard-CSS-filen för rätt visningsprogram, kopiera den till en annan plats, anpassa den och ange platsen för den anpassade filen i `style=` -kommando.
 
@@ -27,7 +27,7 @@ Anpassad CSS-fil måste innehålla samma klassdeklarationer som standardklassdek
 
 Ett annat sätt att tillhandahålla anpassade CSS-regler är att använda inbäddade format direkt på webbsidan eller i någon av de länkade externa CSS-reglerna.
 
-När du skapar anpassad CSS måste du komma ihåg att visningsprogrammet tilldelar `.s7smartcropvideoviewer` till behållar-DOM-elementet. Om du använder en extern CSS-fil som skickas med `style=` kommando, använda `.s7smartcropvideoviewer` som överordnad klass i underordnad väljare för dina CSS-regler. Om du bäddar in format på webbsidan kan du även kvalificera väljaren med ett ID för behållar-DOM-elementet enligt följande:
+Kom ihåg att visningsprogrammet tilldelar `.s7smartcropvideoviewer` till behållar-DOM-elementet. Om du använder en extern CSS-fil som skickas med `style=` kommando, använda `.s7smartcropvideoviewer` som överordnad klass i underordnad väljare för dina CSS-regler. Om du bäddar in format på webbsidan kvalificerar du även den här väljaren med ett ID för behållar-DOM-elementet enligt följande:
 
 `#<containerId>.s7smartcropvideoviewer`
 
@@ -35,17 +35,17 @@ När du skapar anpassad CSS måste du komma ihåg att visningsprogrammet tilldel
 
 Det går att rikta in sig på olika enheter i CSS för att visa innehållet på olika sätt beroende på användarens enhet. Den här målgruppen omfattar, men är inte begränsad till, olika elementstorlekar i användargränssnittet och bildupplösning.
 
-Visningsprogrammet har stöd för två sätt att skapa responsiv CSS: CSS-markörer och vanliga CSS-mediefrågor. Du kan använda dessa separat eller tillsammans.
+Visningsprogrammet har stöd för två sätt att skapa responsiv CSS: CSS-markörer och vanliga CSS-mediefrågor. Du kan använda dessa två mekanismer oberoende av varandra eller tillsammans.
 
 **CSS-markörer**
 
-För att det ska vara lättare att skapa responsiv designad CSS har visningsprogrammet stöd för CSS-markörer som har särskilda CSS-klasser som dynamiskt tilldelas till visningsprogrambehållarelementet på den översta nivån baserat på visningsprogrammets storlek vid körning och den indatatyp som används på den aktuella enheten.
+För att hjälpa till att skapa responsiv designad CSS har visningsprogrammet stöd för CSS-markörer som har särskilda CSS-klasser som dynamiskt tilldelats till visningsprogrammets behållarelement på den översta nivån. Tilldelningen baseras på visningsprogrammets storlek vid körning och den indatatyp som används på den aktuella enheten.
 
 Den första gruppen med CSS-markörer innehåller `.s7size_large`, `.s7size_medium`och `.s7size_small` klasser. De tillämpas baserat på visningsprogrambehållarens körningsområde. Det vill säga om visningsområdet är lika med eller större än storleken på en vanlig skrivbordsskärm `.s7size_large` används, om området är nästan lika stort som en vanlig surfplatta `.s7size_medium` är tilldelad. För områden som liknar mobiltelefonskärmar `.s7size_small` är inställt. Det främsta syftet med dessa CSS-markörer är att skapa olika användargränssnittslayouter för olika skärmar och visningsstorlekar.
 
-Den andra gruppen med CSS-markörer innehåller `.s7mouseinput` och `.s7touchinput`. `.s7touchinput` är inställt om den aktuella enheten har funktioner för pekrörelser, i annat fall, `.s7mouseinput` används. Dessa markörer är avsedda att skapa indataelement i användargränssnittet med olika skärmstorlekar för olika indatatyper, eftersom större element normalt krävs för pekrörelser. Om enheten har både musingång och pekfunktioner, `.s7touchinput` är inställt och visningsprogrammet återger ett pekvänligt användargränssnitt.
+Den andra gruppen med CSS-markörer innehåller `.s7mouseinput` och `.s7touchinput`. Markören `.s7touchinput` är inställt om den aktuella enheten har funktioner för pekrörelser, i annat fall, `.s7mouseinput` används. Dessa markörer är avsedda att skapa indataelement i användargränssnittet med olika skärmstorlekar för olika indatatyper, eftersom större element normalt krävs för pekrörelser. Om enheten har både musingång och pekfunktioner, `.s7touchinput` är inställt och visningsprogrammet återger ett pekvänligt användargränssnitt.
 
-I följande exempel på CSS anges storleken på uppspelnings-/pausknappen till 28 x 28 pixlar på system med musindata och 56 x 56 pixlar på pekenheter. Dessutom döljs knappen helt om visningsprogrammets storlek blir riktigt liten:
+I följande exempel på CSS anges storleken på uppspelnings-/pausknappen till 28 x 28 pixlar på system med musindata och 56 x 56 pixlar på pekenheter. Dessutom döljs knappen helt om visningsprogrammets storlek blir liten:
 
 ```
 .s7smartcropvideoviewer.s7mouseinput .s7playpausebutton { 
@@ -69,7 +69,7 @@ Om du vill använda enheter med en annan pixeldensitet som mål använder du CSS
 }
 ```
 
-Att använda CSS-markörer är det mest flexibla sättet att skapa responsiv CSS eftersom det gör att du inte bara kan rikta in dig på enhetens skärmstorlek utan även på den faktiska visningsstorleken, vilket kan vara användbart för responsiva layouter.
+Att använda CSS-markörer är det mest flexibla sättet att skapa responsiv CSS. Tack vare den här flexibiliteten kan du inte bara ange enhetens skärmstorlek som mål utan även den faktiska visningsstorleken, vilket kan vara användbart för responsiva layouter för designsidor.
 
 Använd CSS-standardfilen för visningsprogrammet som ett exempel på en CSS-markörmetod.
 
@@ -169,7 +169,7 @@ background-image:url(images/v2/ReplayButton_disabled.png);
 
 Nackdelen med detta är att slutanvändaren får flimmer eller fördröjt svar i användargränssnittet när elementet interagerar med det för första gången. Den här åtgärden inträffar eftersom bildgrafiken för det nya elementläget inte har hämtats ännu. Den här metoden kan också ha en liten negativ inverkan på prestanda på grund av ett ökat antal HTTP-anrop till servern.
 
-CSS-sprites är en annan metod där bilder för alla elementlägen kombineras till en enda PNG-fil som kallas&quot;sprite&quot;. En sådan&quot;sprite&quot; har alla visuella lägen för det angivna elementet placerade efter varandra. När du formaterar ett element i användargränssnittet med fragment refereras samma sprite-bild till för alla olika lägen i CSS. Dessutom `background-position` -egenskapen används för varje läge för att ange vilken del av&quot;sprite&quot;-bilden som ska användas. Du kan strukturera en&quot;sprite&quot;-bild på ett lämpligt sätt. Visningsprogram har normalt en lodrät stapling. Nedan visas ett&quot;sprite&quot;-baserat exempel på hur du formaterar samma helskärmsknapp från ovan:
+CSS-sprites är en annan metod där bilder för alla elementlägen kombineras till en enda PNG-fil som kallas&quot;sprite&quot;. En sådan&quot;sprite&quot; har alla visuella lägen för det angivna elementet placerade efter varandra. När du formaterar ett element i användargränssnittet med sprites refereras samma sprite-bild till för alla olika lägen i CSS. Dessutom `background-position` -egenskapen används för varje läge för att ange vilken del av&quot;sprite&quot;-bilden som ska användas. Du kan strukturera en&quot;sprite&quot;-bild på ett lämpligt sätt. Visningsprogram har normalt en lodrät stapling. Nedan visas ett&quot;sprite&quot;-baserat exempel på hur du formaterar samma helskärmsknapp från ovan:
 
 ```
 .s7smartcropvideoviewer .s7fullscreenbutton[state][selected]{ 
@@ -203,7 +203,7 @@ background-position: -0px -1120px;
 
 ## Allmän formatinformation och råd {#section-097418bd618740bba36352629e4d88e1}
 
-* Alla sökvägar till externa resurser i CSS matchas mot CSS-platsen och inte mot platsen för visningsprogrammets HTML-sida. Kom ihåg att ta hänsyn till den här regeln när du kopierar standard-CSS till en annan plats. Kopiera standardresurserna eller uppdateringssökvägarna i den anpassade CSS-koden.
+* Alla sökvägar till externa resurser i CSS matchas mot CSS-platsen och inte mot platsen för visningsprogrammets HTML-sida. Kom ihåg den här regeln när du kopierar standard-CSS till en annan plats. Kopiera standardresurserna eller uppdateringssökvägarna i den anpassade CSS-koden.
 * Det format du föredrar för bitmappsbilder är PNG.
 * Bitmappsgrafik tilldelas till element i användargränssnittet med hjälp av `background-image` -egenskap.
 * The `width` och `height` -egenskaperna för ett användargränssnittselement definierar dess logiska storlek. Storleken på bitmappen som skickas till `background-image` påverkar inte den logiska storleken.

@@ -1,13 +1,13 @@
 ---
+title: Kommandoreferens - Konfigurationsattribut
 description: Konfigurationsattributdokumentation för visningsprogrammet för Smart Crop Video.
 solution: Experience Manager
-title: Kommandoreferens - Konfigurationsattribut
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 5992e5cd-7783-408e-a23f-fdcc3a3d6b69
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Du kan prefix för vissa konfigurationskommandon med klassnamnet eller instansna
 [SmartCropVideoPlayer.|<containerId>_smartCropVideoPlayer].playback
 ```
 
-vilket innebär att det här kommandot används på följande sätt:
+Det innebär att det här kommandot används på följande sätt:
 
 * `playback` (kort syntax)
 * `SmartCropVideoPlayer.playback` (kvalificerad med komponentklassnamn)

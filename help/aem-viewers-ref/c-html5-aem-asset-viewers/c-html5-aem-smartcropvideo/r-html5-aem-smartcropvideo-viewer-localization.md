@@ -1,13 +1,13 @@
 ---
+title: Lokalisering av användargränssnittselement
 description: Viss information som visas i visningsprogrammet för smart beskärning kan lokaliseras. Innehållet innehåller funktionsbeskrivningar för användargränssnittselement och ett felmeddelande som visas när videon inte kan spelas upp.
 solution: Experience Manager
-title: Lokalisering av användargränssnittselement
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 4748d04e-7f9d-413f-9e9a-a0fad129c5fc
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Följande SYMBOL stöds:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Container.LABEL </span> </p> </td> 
-   <td colname="col2"> <p> ARIA-etikett för visningsprogramelementet på den översta nivån. </p> </td> 
+   <td colname="col2"> <p> ARIA-etikett för visningsprogramelement på den översta nivån. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_SELECTED </span> </p> </td> 

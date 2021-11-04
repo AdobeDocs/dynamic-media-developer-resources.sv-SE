@@ -1,11 +1,11 @@
 ---
+title: setParam
 description: JavaScript API-referens för visningsprogrammet för smart beskärning.
 solution: Experience Manager
-title: setParam
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: b28ffb51-1091-4f2e-b12d-904218daf117
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 0%

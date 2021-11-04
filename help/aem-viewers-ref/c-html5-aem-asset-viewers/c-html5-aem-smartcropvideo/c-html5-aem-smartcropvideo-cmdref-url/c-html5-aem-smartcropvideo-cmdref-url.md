@@ -1,13 +1,13 @@
 ---
+title: Kommandoreferens - URL
 description: Kommandoreferensdokumentation för visningsprogrammet för smart beskärning.
 solution: Experience Manager
-title: Kommandoreferens - URL
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 1ed78e0d-9b93-4c66-b558-fac15c51e944
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Du kan prefix för vissa konfigurationskommandon med klassnamnet eller instansna
 [SmartCropVideoPlayer.|<containerId>_smartCropVideoPlayer].playback
 ```
 
-vilket innebär att det här kommandot används på följande sätt:
+Det innebär att det här kommandot används på följande sätt:
 
 * `playback` (kort syntax)
 * `SmartCropVideoPlayer.playback` (kvalificerad med komponentklassnamn)

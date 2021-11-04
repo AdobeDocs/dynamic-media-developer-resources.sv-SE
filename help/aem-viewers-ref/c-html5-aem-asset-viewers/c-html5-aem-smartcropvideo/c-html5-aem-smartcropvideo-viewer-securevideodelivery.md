@@ -1,13 +1,13 @@
 ---
+title: HTTP-videoleverans
 description: HTTP-videoleverans
 solution: Experience Manager
-title: HTTP-videoleverans
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 33907e22-107b-4345-82bb-cad47cb7a839
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 >
 >Secure Video Delivery only applies to AEM 6.2 with the installation of [Feature Pack-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480) and to AEM 6.1 with installation of [Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011). -->
 
-Förutsatt att visningsprogrammet fungerar i den konfiguration som beskrivs i början av det här avsnittet, kan publicerad videoleverans ske både i HTTPS-läge (säkert) och HTTP-läge (osäkert). I en standardkonfiguration följer leveransprotokollet strikt leveransprotokollet för inbäddningswebbsidan. Det är dock möjligt att tvinga HTTPS-video att levereras utan hänsyn till det protokoll som används när webbsidan bäddas in med [SmartCropVideoPlayer.ssl](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-ssl.md#reference-df0a29aa8a584cebaaa1c7bb6fab362e) konfigurationsattribut. (Observera att förhandsgranskning av video i redigeringsläge alltid levereras säkert via HTTPS.)
+Om visningsprogrammet fungerar i den konfiguration som beskrivs i början av det här avsnittet, kan publicerad videoleverans ske både i HTTPS-läge (säkert) och HTTP-läge (osäkert). I en standardkonfiguration följer leveransprotokollet strikt leveransprotokollet för inbäddningswebbsidan. Det är dock möjligt att tvinga HTTPS-video att levereras utan hänsyn till det protokoll som används när webbsidan bäddas in med [SmartCropVideoPlayer.ssl](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-ssl.md#reference-df0a29aa8a584cebaaa1c7bb6fab362e) konfigurationsattribut. (Förhandsgranskning av video i redigeringsläge levereras alltid säkert via HTTPS.)
 
-Beroende på hur du publicerar Dynamic Media-video i AEM kan du `SmartCropVideoPlayer.ssl` konfigurationsattributet används på ett annat sätt, vilket visas i följande exempel:
+Beroende på hur du publicerar Dynamic Media-video i Adobe Experience Manager kan `SmartCropVideoPlayer.ssl` konfigurationsattributet används på ett annat sätt, vilket visas i följande exempel:
 
 * Om du publicerar en Dynamic Media-video med en URL-adress lägger du till `SmartCropVideoPlayer.ssl` till webbadressen. Om du till exempel vill framtvinga säker leverans av video lägger du till `&SmartCropVideoPlayer.ssl=on` till slutet av följande exempel på visningsprogramwebbadress:
 

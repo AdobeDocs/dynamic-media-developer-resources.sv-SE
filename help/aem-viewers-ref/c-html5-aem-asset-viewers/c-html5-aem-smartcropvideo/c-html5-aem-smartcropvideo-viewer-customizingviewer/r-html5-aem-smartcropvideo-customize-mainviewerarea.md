@@ -1,11 +1,11 @@
 ---
+title: Huvudvisningsområde
 description: Huvudvisningsområdet upptas av videon för smart beskärning. Den ställs vanligtvis in så att den passar den tillgängliga enhetsskärmen när ingen storlek har angetts.
 solution: Experience Manager
-title: Huvudvisningsområde
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 7d1379c1-7746-4f61-92df-e8ac4ab7d506
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%

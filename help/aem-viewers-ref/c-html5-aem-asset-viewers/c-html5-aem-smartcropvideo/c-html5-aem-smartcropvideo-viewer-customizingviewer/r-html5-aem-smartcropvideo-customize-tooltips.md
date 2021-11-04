@@ -1,20 +1,20 @@
 ---
-description: I skrivbordssystem har vissa element i användargränssnittet, som knappar, verktygstips som visas när du hovrar musen.
-solution: Experience Manager
 title: Verktygstips
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+description: På stationära datorer har vissa element i användargränssnittet, t.ex. knappar, verktygstips som visas när du hovrar musen.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 706b27a1-99e8-4596-8bd1-af4455501e29
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
 
 # Verktygstips{#tooltips}
 
-I skrivbordssystem har vissa element i användargränssnittet, som knappar, verktygstips som visas när du hovrar musen.
+På stationära datorer har vissa element i användargränssnittet, t.ex. knappar, verktygstips som visas när du hovrar musen.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -63,9 +63,9 @@ Utseendet på verktygstipsen styrs av följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Om verktygstipsen anpassas från webbsidan för inbäddning måste alla egenskaper innehålla `!IMPORTANT` regel. Detta är inte nödvändigt om verktygstipsen är anpassade i visningsprogrammets CSS-fil.
+>Om verktygstipsen anpassas från webbsidan för inbäddning måste alla egenskaper innehålla ett `!IMPORTANT` regel. Den här regeln är inte nödvändig om verktygstipsen är anpassade i visningsprogrammets CSS-fil.
 
-Exempel - för att skapa verktygstips med en grå kant med hörnradie på 3px, svart bakgrund och vit text skriven med Arial, 11 pixlar stor:
+Exempel - för att skapa verktygstips med en grå kant med hörnradie 3 pixlar, svart bakgrund och vit text skriven med Arial®, 11 pixlar:
 
 ```
 .s7tooltip { 
