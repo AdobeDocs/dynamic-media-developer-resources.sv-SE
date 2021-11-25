@@ -1,0 +1,47 @@
+---
+title: PanoramavyViewer
+description: Konstruktor, skapar en ny HTML5 Carousel Viewer-instans.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
+role: Developer,User
+exl-id: null
+source-git-commit: 13d15bd9483d939de8391d5cfe814c48fed30f22
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
+
+---
+
+# PanoramavyViewer{#panoramicviewer}
+
+`PanoramicViewer([config])`
+Konstruktor, skapar en ny HTML5-panoramavisningsinstans.
+
+## Parameter {#section-fa807db629ce43bab286b1e1dc96c492}
+
+config {Object} valfritt JSON-konfigurationsobjekt, gör att alla visningsprograminställningar kan skickas till konstruktorn och att enskilda set-metoder inte anropas. Innehåller följande egenskaper:
+* containerId - {String} ID för DOM-behållaren (vanligtvis en DIV) som visningsprogrammet infogas i. Du behöver inte ha behållarelementet som skapas när metoden anropas, men behållaren måste finnas när init() körs. Obligatoriskt
+* params - {Object} JSON-objekt med visarkonfigurationsparametrar där egenskapsnamnet antingen är visningsprogramsspecifikt konfigurationsalternativ eller SDK-modifierare, och värdet för den egenskapen är ett motsvarande inställningsvärde. Obligatoriskt
+* hanterare - {Object} JSON-objekt med återanrop för visningsprogramhändelser, där egenskapsnamnet är namnet på den visningsprogramhändelse som stöds och egenskapsvärdet är en JavaScript-funktionsreferens till rätt återanrop. Mer information om visningsprogramhändelser finns i avsnittet Händelseåteranrop. Valfritt
+
+
+## Returnerar {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+
+Ingen.
+
+## Exempel {#section-9e9332aa86b74a5fb321375c03fdc5b3}
+
+```
+var panoramicViewer = new s7viewers.PanoramicViewer({
+	"containerId":"s7viewer",
+"params":{
+	"asset":"Scene7SharedAssets/PanoramicImage-Sample",
+	"serverurl":"http://s7d1.scene7.com/is/image/"
+},
+"handlers":{
+	"initComplete":function() {
+		console.log("init complete");
+}
+}
+});
+```
