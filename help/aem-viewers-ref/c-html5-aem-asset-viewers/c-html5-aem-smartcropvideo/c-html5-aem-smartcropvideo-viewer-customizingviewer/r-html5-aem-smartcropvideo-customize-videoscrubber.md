@@ -4,8 +4,7 @@ description: Videonavigeringen är den vågräta skjutreglaget som gör att en a
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
-source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
+source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%
@@ -59,7 +58,7 @@ Följande CSS-klassväljare spårar indikatorerna för bakgrund, uppspelning och
 .s7smartcropvideoviewer .s7videoscrubber .s7trackplayed
 ```
 
-**CSS-egenskaper för spåret**
+**Spårets CSS-egenskaper**
 
 <table id="table_46903DCACF314426B67783167ADF7715"> 
  <tbody> 

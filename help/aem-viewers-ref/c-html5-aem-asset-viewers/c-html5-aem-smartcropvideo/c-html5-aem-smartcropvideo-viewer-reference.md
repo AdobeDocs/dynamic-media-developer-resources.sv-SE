@@ -1,25 +1,24 @@
 ---
 title: Visningsprogram för smart beskärning
-description: Smart Crop Video Viewer är en videospelare som spelar upp strömmande och progressiv video som är kodad i H.264-format med stöd för smart beskärning. Den levereras från Dynamic Media Classic eller Adobe Experience Manager med Dynamic Media.
+description: The Smart Crop Video Viewer is a video player that plays streaming and progressive video encoded in the H.264 format with the addition of smart crop support. Den levereras från Dynamic Media Classic eller Adobe Experience Manager med Dynamic Media.
 keywords: responsiv
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
-source-git-commit: bcd7f90ea2dbb77b300407adeb7725990d9c9a12
+source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
 workflow-type: tm+mt
 source-wordcount: '2413'
 ht-degree: 0%
 
 ---
 
-# Video för smart beskärning{#smart-crop-video}
+# Smart Crop Video{#smart-crop-video}
 
-Smart Crop Video Viewer är en videospelare som spelar upp strömmande och progressiv video som är kodad i H.264-format med stöd för smart beskärning. Den levereras från Dynamic Media Classic eller Experience Manager med Dynamic Media.
+Smart Crop Video Viewer är en videospelare som spelar upp strömmande och progressiv video som är kodad i H.264-format med stöd för smart beskärning. It is delivered from Dynamic Media Classic or Experience Manager with Dynamic Media.
 
 Se [Systemkrav och krav](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
-Både en video och adaptiva videouppsättningar stöds. Dessutom har visningsprogrammet stöd för arbete med progressiv video och HLS-strömmar på externa platser. Det är utformat för att fungera både på stationära och mobila webbläsare som stöder HTML5-video. Det här visningsprogrammet har även stöd för valfria undertexter som visas ovanpå videoinnehåll, videokapitelnavigering och verktyg för delning via sociala medier.
+Both single video and Adaptive Video Sets are supported. Dessutom har visningsprogrammet stöd för arbete med progressiv video och HLS-strömmar på externa platser. Det är utformat för att fungera både på stationära och mobila webbläsare som stöder HTML5-video. Det här visningsprogrammet har även stöd för valfria undertexter som visas ovanpå videoinnehåll, videokapitelnavigering och verktyg för delning via sociala medier.
 
 Visningsprogrammet för smart beskärning av video använder direktuppspelad HTML5-video i HLS-format i standardkonfigurationen när det underliggande systemet stöder det. På system som saknar stöd för direktuppspelning från HTML5 återgår visningsprogrammet till progressiv videoleverans i HTML5.
 
@@ -29,7 +28,7 @@ Visningstyp 518.
 
 [https://s7d9.scene7.com/s7viewers/html5/SmartCropVideoViewer.html?asset=html5automation/frisbee-AVS](https://s7d9.scene7.com/s7viewers/html5/SmartCropVideoViewer.html?asset=html5automation/frisbee-AVS)
 
-## Använda Smart Crop Video Viewer {#section-f21ac23d3f6449ad9765588d69584772}
+## Using Smart Crop Video Viewer {#section-f21ac23d3f6449ad9765588d69584772}
 
 Visningsprogrammet för smart beskärning av video representerar en JavaScript-huvudfil och en uppsättning hjälpfiler - en enda JavaScript-fil innehåller alla SDK-komponenter för visningsprogrammet som används av det här visningsprogrammet, resurser och CSS-hämtad av visningsprogrammet under körning.
 
@@ -56,9 +55,9 @@ På enheter med pekskärm döljs volymkontrollen från användargränssnittet ef
 
 När visningsprogrammet körs i popup-läge är knappen för helskärm inte tillgänglig i användargränssnittet.
 
-Det går att navigera snabbt i innehållet i en video när videokapitlet är aktiverat. Videokameror visas som markörer i videonavigeringsspåret och kapiteltiteln och tillhörande beskrivning visas när du för musen över eller med en enda tryckning på pekskärmssystem. Användarna kan söka efter ett visst kapitel genom att markera en kapitelmarkör eller välja kapitelbeskrivningsbubblan.
+It is possible to navigate the content of a video quickly when video chapter is activated. Video chapters are displayed as markers in the video scrubber track and show the chapter title and associated description on a mouse rollover or with a single tap on touch systems. Användarna kan söka efter ett visst kapitel genom att markera en kapitelmarkör eller välja kapitelbeskrivningsbubblan.
 
-Visningsprogrammet stöder både pekrörelser och musindata på Windows-enheter med pekskärm och mus. Detta stöd är dock begränsat till webbläsarna Chrome, Internet Explorer 11 och Edge.
+Visningsprogrammet stöder både pekrörelser och musindata på Windows-enheter med pekskärm och mus. This support, however, is limited to Chrome, Internet Explorer 11, and Edge web browsers only.
 
 Visningsprogrammet är fullt åtkomligt via tangentbordet.
 
@@ -70,11 +69,11 @@ Visningsprogrammet för smart beskärning stöder verktyg för delning av social
 
 Verktygsfältet för delning innehåller en ikon för varje typ av delningskanal som stöds, till exempel Facebook, Twitter, e-postdelning, inbäddning av koddelning och länkdelning. När verktygen för e-postdelning, inbäddning eller länkdelning är aktiverade visas en modal dialogruta med ett motsvarande inmatningsformulär. När Facebook eller Twitter anropas dirigeras användaren om till en standarddelningsdialogruta från en tjänst för sociala medier. När ett delningsverktyg aktiveras pausas videouppspelningen automatiskt.
 
-Delningsverktygen är inte tillgängliga i helskärmsläge på grund av säkerhetsbegränsningar i webbläsaren.
+Sharing tools are not available in full screen mode because of web browser security restrictions.
 
 ## Inbäddning av visningsprogram för smart beskärning {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Olika webbsidor har olika behov av visningsprogrammets beteende. Ibland innehåller en webbsida en länk som när den är markerad öppnar visningsprogrammet i ett separat webbläsarfönster. I andra fall måste du bädda in visningsprogrammet direkt på värdsidan. I det senare fallet kan webbsidan ha en statisk sidlayout, eller använda responsiv design som visas på olika enheter eller för olika webbläsarfönsterstorlekar. För att tillgodose dessa behov har visningsprogrammet stöd för tre primära åtgärdslägen: popup, inbäddning i fast storlek och responsiv designinbäddning.
+Olika webbsidor har olika behov av visningsprogrammets beteende. Ibland innehåller en webbsida en länk som när den är markerad öppnar visningsprogrammet i ett separat webbläsarfönster. I andra fall måste du bädda in visningsprogrammet direkt på värdsidan. In the latter case, the web page may have a static page layout, or use responsive design that displays differently on different devices or for different browser window sizes. För att tillgodose dessa behov har visningsprogrammet stöd för tre primära åtgärdslägen: popup, inbäddning i fast storlek och responsiv designinbäddning.
 
 Det går att bädda in flera videor på samma sida på både surfplattor och mobila enheter. Vanligtvis kan du bara spela upp en video i taget. När en användare börjar spela upp en video och sedan försöker spela upp en annan, pausas den första videon automatiskt. Videon som pausades automatiskt kommer ihåg den aktuella uppspelningstiden, så att användaren alltid kan återgå till den och återuppta uppspelningen. Det enda undantaget som den här regeln gäller är webbläsaren Chrome på Android™ 4.x-enheter, som kan spela upp videor parallellt.
 
@@ -98,19 +97,19 @@ Här följer ett exempel på HTML som öppnar visningsprogrammet i ett nytt fön
 
 **Om inbäddningsläge med fast storlek och responsivt inbäddningsläge**
 
-I det inbäddade läget läggs visningsprogrammet till på den befintliga webbsidan, som kanske redan har kundinnehåll som inte är relaterat till visningsprogrammet. Visningsprogrammet upptar normalt bara en del av webbsidans fastighet.
+In the embedded mode, the viewer is added to the existing web page, which may already have some customer content not related to the viewer. Visningsprogrammet upptar normalt bara en del av webbsidans fastighet.
 
-De viktigaste användningsområdena är webbsidor som är orienterade för datorer eller surfplattor, och även responsiva designsidor som automatiskt anpassar layouten beroende på enhetstyp.
+The primary use cases are web pages oriented for desktops or tablet devices, and also responsive design pages that adjust layout automatically depending on the device type.
 
 Inbäddning med fast storlek används när visningsprogrammet inte ändrar sin storlek efter den första inläsningen. Det här alternativet är bäst för webbsidor som har en statisk sidlayout.
 
-Inbäddning av responsiv design förutsätter att visningsprogrammet måste ändra storlek vid körning som svar på storleksändringen av behållaren `DIV`. Det vanligaste användningsområdet är att lägga till visningsprogrammet på en webbsida som använder en flexibel sidlayout.
+Responsive design embedding assumes that the viewer must resize in run-time in response to the size change of its container `DIV`. Det vanligaste användningsområdet är att lägga till visningsprogrammet på en webbsida som använder en flexibel sidlayout.
 
-I läget responsiv designinbäddning beter sig visningsprogrammet olika beroende på hur webbsidan ändrar storlek på sin behållare `DIV`. Om webbsidan bara anger behållarens bredd `DIV`, utan att begränsa höjden, väljer visningsprogrammet automatiskt höjden enligt proportionerna för den resurs som används. Den här metoden ser till att resursen passar perfekt in i vyn utan utfyllnad på sidorna. Det här användningsexemplet är det vanligaste för webbsidor som använder ett responsivt designlayoutramverk som Bootstrap eller Foundation.
+I läget responsiv designinbäddning beter sig visningsprogrammet olika beroende på hur webbsidan ändrar storlek på sin behållare `DIV`. If the web page sets only the width of the container `DIV`, leaving its height unrestricted, the viewer automatically chooses its height according to the aspect ratio of the asset that is used. Den här metoden ser till att resursen passar perfekt in i vyn utan utfyllnad på sidorna. Det här användningsexemplet är det vanligaste för webbsidor som använder ett responsivt designlayoutramverk som Bootstrap eller Foundation.
 
-Om webbsidan i annat fall anger både bredd och höjd för visningsprogrammets behållare `DIV`, fyller visningsprogrammet bara det området och följer den storlek som anges i webbsidans layout. Ett bra exempel är att bädda in visningsprogrammet i en modal övertäckning, där storleken på övertäckningen anpassas efter storleken på webbläsarfönstret.
+Otherwise, if the web page sets both the width and the height for the viewer&#39;s container `DIV`, the viewer fills just that area and follows the size provided by web page layout. A good example is embedding the viewer into a modal overlay, where the overlay is sized according to the size of the web browser window.
 
-**Inbäddning med fast storlek**
+**Fixed size embedding**
 
 Du lägger till visningsprogrammet på en webbsida genom att göra följande:
 
@@ -121,13 +120,13 @@ Du lägger till visningsprogrammet på en webbsida genom att göra följande:
 
 1. Lägga till JavaScript-filen för visningsprogrammet på webbsidan.
 
-   Om du vill skapa ett visningsprogram måste du lägga till en script-tagg i huvudet HTML. Innan du kan använda visningsprogrammets API måste du se till att du inkluderar [!DNL SmartCropVideoViewer.js]. The [!DNL SmartCropVideoViewer.js] filen finns under [!DNL html5/js/] undermapp till din standarddistribution av IS-Viewer:
+   Om du vill skapa ett visningsprogram måste du lägga till en script-tagg i huvudet HTML. Before you can use the viewer API, be sure that you include [!DNL SmartCropVideoViewer.js]. The [!DNL SmartCropVideoViewer.js] filen finns under [!DNL html5/js/] undermapp till din standarddistribution av IS-Viewer:
 
 [!DNL <s7viewers_root>/html5/js/SmartCropVideoViewer.js]
 
-Du kan använda en relativ sökväg om visningsprogrammet distribueras på någon av Adobe Dynamic Media Classic-servrarna och den hanteras från samma domän. Annars anger du en fullständig sökväg till en av Adobe Dynamic Media Classic-servrarna som har IS-Viewer installerat.
+You can use a relative path if the viewer is deployed on one of the Adobe Dynamic Media Classic servers and it is served from the same domain. Otherwise, you specify a full path to one of Adobe Dynamic Media Classic servers that have the IS-Viewers installed.
 
-Relativ sökväg ser ut så här:
+Relative path looks like the following:
 
 ```
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/SmartCropVideoViewer.js"></script>
@@ -158,11 +157,11 @@ Relativ sökväg ser ut så här:
 
    Du kan ange den statiska storleken för visningsprogrammet genom att deklarera det för `.s7videoviewer` CSS-klass på översta nivån i absoluta enheter, eller med modifieraren `stagesize`.
 
-   Du kan placera storleken i CSS direkt på HTML-sidan eller i en anpassad CSS-fil för visningsprogrammet. Den tilldelas senare till en post för visningsförinställningar i Dynamic Media Classic eller skickas explicit med ett formatkommando.
+   You can put sizing in CSS right on the HTML page, or in a custom viewer CSS file. It is later assigned to a viewer preset record in Dynamic Media Classic or passed explicitly using a style command.
 
    Se [Anpassa visningsprogrammet för video med smart beskärning](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e) om du vill ha mer information om hur du formaterar visningsprogrammet med CSS.
 
-   Följande är ett exempel på hur du definierar en statisk visningsstorlek på en HTML-sida:
+   The following is an example of defining a static viewer size in an HTML page:
 
    ```
    #s7viewer.s7videoviewer { 
@@ -234,7 +233,7 @@ Relativ sökväg ser ut så här:
 
 **Responsiv designinbäddning med obegränsad höjd**
 
-Med den responsiva designinbäddningen har webbsidan vanligtvis någon typ av flexibel layout på plats som bestämmer körningsstorleken för visningsprogrammets behållare `DIV`. I det här exemplet antar du att webbsidan tillåter visningsprogrammets behållare `DIV` för att ta 40 % av webbläsarens fönsterstorlek och låta dess höjd vara obegränsad. Webbsidans HTML-kod ser ut så här:
+Med den responsiva designinbäddningen har webbsidan vanligtvis någon typ av flexibel layout på plats som bestämmer körningsstorleken för visningsprogrammets behållare `DIV`. I det här exemplet antar du att webbsidan tillåter visningsprogrammets behållare `DIV` för att ta 40 % av webbläsarens fönsterstorlek och låta dess höjd vara obegränsad. The web page HTML code would look like the following:
 
 ```
 <!DOCTYPE html> 
@@ -293,7 +292,7 @@ Följande exempelsida visar hur responsiv designinbäddning med obegränsad höj
 
 [Direktdemonstrationer](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Alternativ demoplats](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 **Responsiv design embedding with width and height defined**
 
@@ -362,11 +361,11 @@ var smartCropVideoViewer = new s7viewers.SmartCropVideoViewer({
 </html> 
 ```
 
-**Bädda in med Setter-baserat API**
+**Embedding using Setter-based API**
 
 I stället för att använda JSON-baserad initiering kan du använda set-based API och no-args-konstruktor. Med detta API tar konstruktorn inga parametrar och konfigurationsparametrar anges med `setContainerId()`, `setParam()`och `setAsset()` API-metoder med separata JavaScript-anrop.
 
-I följande exempel visas inbäddning med fast storlek med set-based API:
+The following example illustrates fixed size embedding with setter-based API:
 
 ```
 <!DOCTYPE html> 

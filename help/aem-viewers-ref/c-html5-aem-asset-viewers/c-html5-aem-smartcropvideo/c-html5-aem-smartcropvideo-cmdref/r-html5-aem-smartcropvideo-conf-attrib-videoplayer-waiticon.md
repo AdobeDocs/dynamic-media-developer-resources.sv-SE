@@ -4,8 +4,7 @@ description: Konfigurationsattribut för visningsprogrammet för smart beskärni
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
-source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
+source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
 workflow-type: tm+mt
 source-wordcount: '29'
 ht-degree: 6%
@@ -31,11 +30,11 @@ Konfigurationsattribut för visningsprogrammet för smart beskärning.
 
 Valfritt.
 
-## Standard {#section-d016470e92a74f98a18c4ab3489410a5}
+## Default {#section-d016470e92a74f98a18c4ab3489410a5}
 
 `1`
 
-## Exempel {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
+## Example {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
 
 ```
 waiticon=0
