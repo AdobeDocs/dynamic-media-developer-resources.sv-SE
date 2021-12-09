@@ -1,13 +1,13 @@
 ---
+title: setContainerId
 description: JavaScript API-referens för eCatalog Viewer.
 solution: Experience Manager
-title: setContainerId
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 32e75d36-cc9a-42df-95e8-5b48456296e9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,15 @@ JavaScript API-referens för eCatalog Viewer.
 
 ` setContainerId( *`containerId`*)`
 
-Anger ID:t för `DOM`-behållaren (vanligtvis en `DIV`) som visningsprogrammet infogas i. Det är inte nödvändigt att ha behållarelementet skapat när metoden anropas. Behållaren måste dock finnas när `init()` körs. Den måste anropas före `init()`.
+Anger ID:t för `DOM` behållare (vanligtvis en `DIV`) som visningsprogrammet infogas i. Det är inte nödvändigt att ha behållarelementet skapat när metoden anropas. Behållaren måste dock finnas när `init()` körs. Den måste anropas före `init()`.
 
-Den här metoden är valfri om visningsprogrammets konfigurationsinformation skickas med JSON-objektet `config` till konstruktorn.
+Den här metoden är valfri om visningsprogrammets konfigurationsinformation skickas med `config` JSON-objekt till konstruktorn.
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}  </span> ID för behållare. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> ID för behållare. </p> </td> 
   </tr> 
  </tbody> 
 </table>

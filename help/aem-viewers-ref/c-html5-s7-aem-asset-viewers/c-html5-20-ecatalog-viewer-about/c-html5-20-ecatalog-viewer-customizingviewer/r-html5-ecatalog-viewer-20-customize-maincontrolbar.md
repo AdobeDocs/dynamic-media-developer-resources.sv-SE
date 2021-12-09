@@ -1,13 +1,13 @@
 ---
+title: Huvudkontrollfält
 description: Huvudkontrollfältet är det rektangulära området på stationära datorer och surfplattor som innehåller alla gränssnittskontroller (utom knapparna Stora sidor) som är tillgängliga för visningsprogrammet för eCatalog.
 solution: Experience Manager
-title: Huvudkontrollfält
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 4db16599-ede0-47ae-bb5a-840655d3620b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Huvudkontrollfältet är det rektangulära området på stationära datorer och surfplattor som innehåller alla gränssnittskontroller (utom knapparna Stora sidor) som är tillgängliga för visningsprogrammet för eCatalog.
 
-På mobiltelefoner behåller den fortfarande knapparna Miniatyrbilder, Innehållsförteckning, Hämta, Skriv ut, Favoriter, Delning för sociala medier, Helskärm och Stäng. Knapparna Första sidan och Sista sidan samt Sidindikatorn tas bort från huvudkontrollfältet och läggs till i det sekundära kontrollfältet i stället. Som standard visas huvudkontrollfältet längst upp i visningsområdet på datorer och mobiltelefoner, och flyttas längst ned i visningsområdet på surfplattor. Hela den tillgängliga visningsprogrambredden används alltid. Det går att ändra färgen, höjden och den lodräta positionen i CSS i förhållande till visningsprogrammets behållare.
+På mobiltelefoner behåller den fortfarande knapparna Miniatyrbilder, Innehållsförteckning, Hämta, Skriv ut, Favoriter, Delning för sociala medier, Helskärm och Stäng. Knapparna Första sidan och Sista sidan samt Sidindikatorn tas bort från huvudkontrollfältet och läggs till i det sekundära kontrollfältet i stället. Som standard visas huvudkontrollfältet längst upp i visningsområdet på datorer och mobiltelefoner, och flyttas längst ned i visningsområdet på surfplattor. Hela den tillgängliga visningsprogrambredden används alltid. Det går att ändra färgen, höjden och den lodräta positionen i CSS i förhållande till visningsbehållaren.
 
 Utseendet på huvudkontrollfältet styrs av följande CSS-klassväljare:
 
@@ -31,25 +31,25 @@ Utseendet på huvudkontrollfältet styrs av följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Placera högst upp i visningsprogrammet. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> nederkant  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> nederkant </span> </p> </td> 
    <td colname="col2"> <p>Placera längst ned i visningsprogrammet. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Huvudkontrollfältets höjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Huvudkontrollfältets bakgrundsfärg. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Exempel**  - för att ställa in ett grått huvudkontrollfält som är 36 pixlar högt och placerat högst upp i visningsbehållaren.
+**Exempel** - för att ställa in ett grått huvudkontrollfält som är 36 pixlar högt och placerat högst upp i visningsbehållaren.
 
 ```
 .s7ecatalogviewer .s7controlbar { 
@@ -75,12 +75,12 @@ Rullningsfunktionen är aktiverad för huvudkontrollfältet och inaktiverad för
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> position </span> </p> </td> 
-   <td colname="col2"> <p>När den är inställd på <span class="codeph"> static </span> är rullningsfunktionen inaktiverad. </p> <p>Ställ in den här egenskapen på <span class="codeph"> absolut </span> för att aktivera rullningsfunktionen. </p> </td> 
+   <td colname="col2"> <p>När inställt på <span class="codeph"> static </span> rullningsfunktionen är inaktiverad. </p> <p>Ange den här egenskapen som <span class="codeph"> absolut </span> för att aktivera rullningsfunktionen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Rullningsknappen läggs till i ett särskilt behållarelement som placerar knappen korrekt och där du kan formatera området runt knappen på ett annat sätt än resten av kontrollfältets bakgrund om rullningsknappens höjd är mindre än kontrollfältets höjd.
+Rullningsknappen läggs till i ett särskilt behållarelement som placerar knappen korrekt. Du kan formatera området runt knappen på ett annat sätt än resten av kontrollfältets bakgrund om rullningsknappens höjd är mindre än kontrollfältets höjd.
 
 Utseendet på den här rullningsknappbehållaren styrs av följande CSS-klassväljare:
 
@@ -99,7 +99,7 @@ Utseendet på den här rullningsknappbehållaren styrs av följande CSS-klassvä
    <td colname="col2"> <p>Normalt ska vara lika med eller större än bredden på själva rullningsknappen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Behållarens bakgrundsfärg. </p> </td> 
   </tr> 
  </tbody> 
@@ -120,19 +120,19 @@ Utseendet på den här knappen styrs av följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Knappens bredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Knappens höjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Bilden som visas för ett visst knappläge. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p>Placera inuti en teckningssprite, om CSS-sprites används. </p> <p>Se även <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-fragment </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -140,11 +140,11 @@ Utseendet på den här knappen styrs av följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen stöder attributväljarna `state` och `selected`, som kan användas för att tillämpa olika skal på olika knapplägen. `state="selected"` motsvarar i synnerhet det inledande rullningsknappläget när det är möjligt att rulla innehållet i kontrollfältet åt vänster, `state="default"` motsvarar läget när innehållet rullas hela vägen till vänster och rullningsknappen föreslår att det återgår till det ursprungliga läget.
+>Den här knappen har stöd för `state` och `selected` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen. I synnerhet `state="selected"` motsvarar det inledande rullningsknappläget när det är möjligt att rulla kontrollfältets innehåll åt vänster. Attributet `state="default"` motsvarar läget när innehållet rullas hela vägen till vänster och rullningsknappen föreslår att det återgår till det ursprungliga läget.
 
-Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av element i användargränssnittet](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
 
-**Exempel**  - för att aktivera rullningsfunktionen i huvudkontrollfältet för mobiltelefoner och ställa in en rullningsknapp som är 64 x 64 pixlar som visar olika bilder för de fyra olika knapplägena när de är markerade eller inte är markerade:
+**Exempel** - Aktivera rullningsfunktionen i huvudkontrollfältet för mobiltelefoner. Ställ in en rullningsknapp på 64 x 64 pixlar som visar en annan bild för vart och ett av de fyra olika knapplägena när de är markerade eller inte är markerade:
 
 ```
 .s7ecatalogviewer.s7size_small .s7controlbar .s7innercontrolbarcontainer { 

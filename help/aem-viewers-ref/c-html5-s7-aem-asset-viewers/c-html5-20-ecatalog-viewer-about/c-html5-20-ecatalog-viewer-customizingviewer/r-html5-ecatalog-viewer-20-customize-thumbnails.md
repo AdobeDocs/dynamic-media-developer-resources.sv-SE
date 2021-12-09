@@ -1,13 +1,13 @@
 ---
+title: Miniatyrbilder
 description: Miniatyrbilder består av ett rutnät med miniatyrbilder med en valfri rullningslist till höger för att tillåta lodrät rullning.
 solution: Experience Manager
-title: Miniatyrbilder
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: e3d3d33b-f6bb-4c5b-820c-028bfb6b2594
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '890'
 ht-degree: 0%
 
 ---
@@ -31,33 +31,33 @@ Utseendet på behållaren för miniatyrbilder styrs med följande CSS-klassvälj
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p> Den lodräta förskjutningen för miniatyrbehållaren från visningsprogrammets överkant. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal-top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal-top </span> </p> </td> 
    <td colname="col2"> <p>Den övre marginalen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal-vänster  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal-vänster </span> </p> </td> 
    <td colname="col2"> <p>Den vänstra marginalen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal-höger  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal-höger </span> </p> </td> 
    <td colname="col2"> <p>Rätt marginal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal-bottom  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal-bottom </span> </p> </td> 
    <td colname="col2"> <p>Den undre marginalen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Bakgrundsfärgen för miniatyrbildområdet. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exempel - för att ställa in att miniatyrbilder ska ha 32 pixlar förskjutning från överkanten, 5 pixlars marginaler till vänster och höger och 8 pixlars marginal längst ned, med `0xDDDDDD` bakgrund.
+Exempel - för att ställa in att miniatyrbilder ska ha 32 pixlar förskjutning från överkanten, 5 pixelmarginaler till vänster och höger och 8 pixlars marginal längst ned, med `0xDDDDDD` bakgrund.
 
 ```
 .s7ecatalogviewer .s7thumbnailgridview { 
@@ -82,8 +82,8 @@ Avståndet mellan miniatyrbilder styrs med följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal  </span> </p> </td> 
-   <td colname="col2"> <p> Storleken på den vågräta och lodräta marginalen runt varje miniatyrbild. Det faktiska vågräta mellanrummet för miniatyrbilder är lika med summan av den vänstra och högra marginalen som är inställd för <span class="codeph"> .s7miniatyrcell </span>. Lodrätt mellanrum för miniatyrbilder är lika med summan av den övre och den nedre marginalen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal </span> </p> </td> 
+   <td colname="col2"> <p> Storleken på den vågräta och lodräta marginalen runt varje miniatyrbild. Det faktiska vågräta mellanrummet för miniatyrbilder är lika med summan av den vänstra och högra marginalen som är inställd för <span class="codeph"> .s7thumbcell </span>. Lodrätt mellanrum för miniatyrbilder är lika med summan av den övre och den nedre marginalen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -113,15 +113,15 @@ Utseendet på enskilda miniatyrbilder styrs med följande CSS-klassväljare:
    <td colname="col2"> <p>Bredden på miniatyrbilden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Höjden på miniatyrbilden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Miniatyrens kantlinje. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Miniatyrbildens bakgrundsfärg. </p> </td> 
   </tr> 
  </tbody> 
@@ -131,7 +131,7 @@ När visningsprogrammet roterar till stående läge på pekenheter kan det ändr
 
 >[!NOTE]
 >
->Miniatyrbilden stöder attributväljaren `state`, som kan användas för att tillämpa olika skal på olika miniatyrlägen. `state="selected"` motsvarar i synnerhet miniatyrbilden för den bild som visas i huvudvyn, `state="default"` motsvarar resten av miniatyrbilderna och `state="over"` används vid hovring med musen.
+>Miniatyrbilden har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika miniatyrlägen. I synnerhet `state="selected"` motsvarar miniatyrbilden för den bild som visas i huvudvyn, `state="default"` motsvarar resten av miniatyrbilderna, och `state="over"` används vid hovring av musen.
 
 Exempel - Om du vill ställa in miniatyrbilder som är 120 x 85 pixlar har du en vit bakgrund, en ljusgrå standardkant och en mörkgrå markerad kant.
 
@@ -160,17 +160,17 @@ Utseendet på miniatyrbildetiketten styrs av följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Teckensnittsnamn. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Teckenstorlek. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exempel - om du vill ställa in etiketter så att Helvetica-teckensnittet har 14 pixlar.
+Exempel - för att ställa in etiketter så att de använder 14 pixlar Helvetica®-teckensnitt.
 
 ```
 .s7ecatalogviewer .s7thumbnailgridview .s7label { 
@@ -192,19 +192,19 @@ Om det finns fler miniatyrbilder än vad som får plats lodrätt i vyn återges 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Bredden på rullningslisten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p> Den lodräta rullningslistens förskjutning från miniatyrbildsområdets överkant. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> nederkant  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> nederkant </span> </p> </td> 
    <td colname="col2"> <p>Den lodräta rullningslistens förskjutning från miniatyrbildens nederkant. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> höger  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> höger </span> </p> </td> 
    <td colname="col2"> <p> Den vågräta rullningslistens förskjutning från miniatyrbildens högra kant. </p> </td> 
   </tr> 
  </tbody> 
@@ -234,11 +234,11 @@ Rullningslistens spår är området mellan den övre och den nedre rullningsknap
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Bredden på rullningslistens spår. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Bakgrundsfärgen för rullningslistens spår. </p> </td> 
   </tr> 
  </tbody> 
@@ -266,27 +266,27 @@ Rullningslistens reglage rör sig lodrätt inom rullningsspårets område. Dess 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Bredden på rullningslistens reglage. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Höjden på rullningslistens miniatyrbild. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-top </span> </p> </td> 
    <td colname="col2"> <p>Den lodräta utfyllnaden mellan rullningslistens överkant. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-bottom  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-bottom </span> </p> </td> 
    <td colname="col2"> <p>Den lodräta utfyllnaden mellan rullningslistens nederkant. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Bilden som visas för ett givet tumläge. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Placera inuti en teckningssprite, om CSS-sprites används. </p> <p>Se även <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-fragment </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -294,7 +294,7 @@ Rullningslistens reglage rör sig lodrätt inom rullningsspårets område. Dess 
 
 >[!NOTE]
 >
->Tummen har stöd för attributväljaren `state`, som kan användas för att tillämpa olika skal på tumlägena `up`, `down`, `over` och `disabled`.
+>Tummen har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på tumlägena `up`, `down`, `over`och `disabled`.
 
 Exempel - om du vill ställa in en rullningslist som är 28 x 45 pixlar, har 10 pixelmarginaler högst upp och längst ned och har olika teckningar för varje läge.
 
@@ -327,7 +327,7 @@ Utseendet på de övre och nedre rullningsknapparna styrs av följande CSS-klass
 
 `.s7ecatalogviewer .s7thumbnailgridview .s7scrollbar .s7scrolldownbutton`
 
-Det går inte att placera rullningsknapparna med CSS-egenskaperna `top`, `left`, `bottom` och `right`. I stället placerar visningsprogramlogiken dem automatiskt.
+Det går inte att placera rullningsknapparna med CSS `top`, `left`, `bottom`och `right` egenskaper. I stället placerar visningsprogramlogiken dem automatiskt.
 
 <table id="table_89E64A138ABF463F9650BB454F22D530"> 
  <thead> 
@@ -338,19 +338,19 @@ Det går inte att placera rullningsknapparna med CSS-egenskaperna `top`, `left`,
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Knappens bredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Knappens höjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Bilden som visas för ett givet tumläge. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Placera inuti en teckningssprite, om CSS-sprites används. </p> <p>Se även <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-fragment </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -358,9 +358,9 @@ Det går inte att placera rullningsknapparna med CSS-egenskaperna `top`, `left`,
 
 >[!NOTE]
 >
->Dessa knappar har stöd för attributväljaren `state`, som kan användas för att tillämpa olika skal på olika knapplägen `up`, `down`, `over` och `disabled`.
+>Dessa knappar har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen `up`, `down`, `over`och `disabled`.
 
-Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av element i användargränssnittet](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
 
 Exempel - för att ställa in rullningsknappar som är 28 x 32 pixlar och har olika teckningar för varje läge.
 

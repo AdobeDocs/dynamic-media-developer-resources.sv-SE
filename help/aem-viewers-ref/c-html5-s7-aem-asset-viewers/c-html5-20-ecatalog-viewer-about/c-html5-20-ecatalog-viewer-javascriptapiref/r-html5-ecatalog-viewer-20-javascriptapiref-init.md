@@ -1,13 +1,13 @@
 ---
+title: init
 description: JavaScript API-referens för eCatalog Viewer.
 solution: Experience Manager
-title: init
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: e7775a65-67bf-4ad6-8e51-1fdf141946bc
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ JavaScript API-referens för eCatalog Viewer.
 
 Startar initieringen av eCatalog Viewer. Vid den här tidpunkten måste behållarens DOM-element skapas så att visningsprogramkoden kan hitta det med dess ID.
 
-Om behållarelementet inte är en del av webbsideslayouten ännu (t.ex. kan det döljas med formatet `display:none` som tilldelats det), gör visningsprogrammet uppehåll i initieringsprocessen tills webbsidan återför behållarelementet till layouten. När detta inträffar återgår visningsprogrammet automatiskt.
+Om behållarelementet inte är en del av webbsideslayouten än, kan det till exempel döljas med `display:none` format som tilldelats det - visningsprogrammet avbryter sin initieringsprocess. Det gör det tills webbsidan återför behållarelementet till layouten. När den här åtgärden utförs återtas visningsprogrammet automatiskt.
 
 Anropa endast den här metoden en gång under visningsprogrammets livscykel. efterföljande anrop ignoreras.
 

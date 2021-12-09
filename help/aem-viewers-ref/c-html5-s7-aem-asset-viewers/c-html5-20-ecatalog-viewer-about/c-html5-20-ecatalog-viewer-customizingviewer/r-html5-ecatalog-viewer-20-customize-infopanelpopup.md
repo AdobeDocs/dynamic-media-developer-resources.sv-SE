@@ -1,11 +1,11 @@
 ---
-description: Popup-menyn i panelen Info visas mitt i visningsprogramområdet när en användare aktiverar ett bildschema som har en rollover_key-egenskap definierad i Dynamic Media Classic och om funktionen i informationspanelen är korrekt konfigurerad för visningsprogrammet.
+description: Panelpopup i panelen Info visas mitt i visningsområdet när en användare aktiverar ett bildschema som har en rollover_key-egenskap definierad i Dynamic Media Classic och om funktionen i informationspanelen är korrekt konfigurerad för visningsprogrammet.
 solution: Experience Manager
 title: Popup för panelen Info
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: c29f085e-8093-44d2-8f98-9341d780cca8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Popup för panelen Info{#info-panel-popup}
 
-Popup-menyn i panelen Info visas mitt i visningsprogramområdet när en användare aktiverar ett bildschema som har en rollover_key-egenskap definierad i Dynamic Media Classic och om funktionen i informationspanelen är korrekt konfigurerad för visningsprogrammet.
+Panelpopup i panelen Info visas mitt i visningsområdet när en användare aktiverar ett bildschema som har en rollover_key-egenskap definierad i Dynamic Media Classic och om funktionen i informationspanelen är korrekt konfigurerad för visningsprogrammet.
 
 Bakgrunden i informationspanelen täcker hela visningsprogramområdet och styrs med följande CSS-klassväljare:
 
@@ -29,11 +29,11 @@ Bakgrunden i informationspanelen täcker hela visningsprogramområdet och styrs 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p>Bakgrundsfyllning i panelen Info. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p>Fyllningsbakgrund för infopanelen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Placera inuti en teckningssprite, om CSS-sprites används. </p> <p>Se även <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-fragment </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -60,11 +60,11 @@ Informationspanelens dialogruta visas som standard i mitten av visningsprogramom
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vänster  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> vänster </span> </p> </td> 
    <td colname="col2"> <p>Den vågräta positionen för informationsdialogrutan i visningsområdets bakgrundsfyllning. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Den lodräta positionen för informationspanelens dialogruta i visningsområdet. </p> </td> 
   </tr> 
   <tr> 
@@ -72,37 +72,37 @@ Informationspanelens dialogruta visas som standard i mitten av visningsprogramom
    <td colname="col2"> <p>Dialogrutans bredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Dialogrutans höjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal-vänster  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal-vänster </span> </p> </td> 
    <td colname="col2"> <p>Vänstermarginalen i dialogrutan för informationspanelen kan användas för centrering. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal-top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal-top </span> </p> </td> 
    <td colname="col2"> <p>Den övre marginalen i informationsdialogrutan kan användas för centrering. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> utfyllnad  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> utfyllnad </span> </p> </td> 
    <td colname="col2"> <p>Intern utfyllnad av dialogrutor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Dialogrutans bakgrundsfärg. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
    <td colname="col2"> <p>Dialogrutans radie. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> box-shadow  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> box-shadow </span> </p> </td> 
    <td colname="col2"> <p>Dialogrutekugga. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exempel - ställ in en dialogruta med 300 x 200 pixlar i informationspanelen som är centrerad i visningsområdet. har utfyllnad på 40 pixlar längst upp och utfyllnad på 10 pixlar på alla andra sidor, en ljusgrå bakgrund och en radie och skugga på 10 pixlar.
+Exempel - Om du vill ställa in en dialogruta med 300 x 200 pixlar i informationspanelen som är centrerad i visningsområdet. Den har utfyllnad på 40 pixlar längst upp och utfyllnad på 10 pixlar på alla andra sidor, en ljusgrå bakgrund och en radie och skugga på 10 pixlar.
 
 ```
 .s7ecatalogviewer .s7infopanelpopup .s7overlay { 
@@ -137,35 +137,35 @@ Utseendet på den här knappen styrs av följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Placera från dialogrutans övre kant. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> höger  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> höger </span> </p> </td> 
    <td colname="col2"> <p>Placera från dialogrutans högra kant. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vänster  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> vänster </span> </p> </td> 
    <td colname="col2"> <p>Placera från dialogrutans vänstra kant. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> nederkant  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> nederkant </span> </p> </td> 
    <td colname="col2"> <p>Placera från dialogrutans nedre kant. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Knappbredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Knapphöjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Bilden som visas för ett visst knappläge. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Placera inuti en teckningssprite, om CSS-sprites används. </p> <p>Se även <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-fragment </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -173,11 +173,11 @@ Utseendet på den här knappen styrs av följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen stöder attributväljaren `state`, som du kan använda för att använda olika skal för olika knapplägen.
+>Den här knappen har stöd för `state` attributväljaren, som du kan använda för att använda olika skal på olika knapplägen.
 
-Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av element i användargränssnittet](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
 
-Exempel - om du vill ställa in en stängningsknapp i en dialogruta som är 28 x 28 pixlar, placerad 5 pixlar från den övre och högra kanten av dialogrutan för informationspanelen, och visa en bild för vart och ett av de fyra knapplägena.
+Exempel - Om du vill ställa in en dialogrutas stängningsknapp som är 28 x 28 pixlar och placerad 5 pixlar från den övre och högra kanten av dialogrutan för informationspanelen. Slutligen visas olika bilder för de fyra olika knapplägena.
 
 ```
 .s7ecatalogviewer .s7infopanelpopup .s7closebutton { 
