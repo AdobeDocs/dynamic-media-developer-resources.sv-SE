@@ -1,14 +1,14 @@
 ---
+title: Anpassa Basic Zoom Viewer
 description: All visuell anpassning och de flesta beteendeanpassningar för den grundläggande zoomningsvisningsprogrammet görs genom att en anpassad CSS skapas.
 keywords: responsiv
 solution: Experience Manager
-title: Anpassa Basic Zoom Viewer
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 9cbce980-83fd-40a7-8bcd-f9bc4dd477a8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 61e3a1fd0e21d336eaf5232096f5b1b54f2a6353
 workflow-type: tm+mt
-source-wordcount: '1338'
+source-wordcount: '1335'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 All visuell anpassning och de flesta beteendeanpassningar för den grundläggande zoomningsvisningsprogrammet görs genom att en anpassad CSS skapas.
 
-Det föreslagna arbetsflödet är att ta standard-CSS-filen för rätt visningsprogram, kopiera den till en annan plats, anpassa den och ange platsen för den anpassade filen i kommandot `style=`.
+Det föreslagna arbetsflödet är att ta standard-CSS-filen för rätt visningsprogram, kopiera den till en annan plats, anpassa den och ange platsen för den anpassade filen i `style=` -kommando.
 
 CSS-standardfiler finns på följande plats:
 
@@ -31,25 +31,25 @@ Anpassad CSS-fil måste innehålla samma klassdeklarationer som standardklassdek
 
 Ett annat sätt att tillhandahålla anpassade CSS-regler är att använda inbäddade format direkt på webbsidan eller i någon av de länkade externa CSS-reglerna.
 
-När du skapar anpassad CSS bör du tänka på att visningsprogrammet tilldelar klassen `.s7basiczoomviewer` till dess behållar-DOM-element. Om du använder en extern CSS-fil som skickas med kommandot `style=` ska du använda klassen `.s7basiczoomviewer` som överordnad klass i den underordnade väljaren för dina CSS-regler. Om du gör inbäddade format på webbsidan kan du även kvalificera den här väljaren med ett ID för behållar-DOM-elementet enligt följande:
+Tänk på att visningsprogrammet tilldelar `.s7basiczoomviewer` till behållar-DOM-elementet. Om du använder en extern CSS-fil som skickas med `style=` kommando, använda `.s7basiczoomviewer` som överordnad klass i underordnad väljare för dina CSS-regler. Om du gör inbäddade format på webbsidan kvalificerar du även den här väljaren med ett ID för behållar-DOM-elementet enligt följande:
 
 `#<containerId>.s7basiczoomviewer`
 
 ## Bygga CSS för responsiv design {#section-0bb49aca42d242d9b01879d5ba59d33b}
 
-Det är möjligt att rikta in sig på olika enheter och inbäddningsstorlekar i CSS så att innehållet visas på olika sätt beroende på användarens enhet eller en viss webbsideslayout. Detta omfattar, men är inte begränsat till, olika layouter, elementstorlekar i användargränssnittet och bildupplösning.
+Det är möjligt att rikta in sig på olika enheter och inbäddningsstorlekar i CSS så att innehållet visas på olika sätt beroende på användarens enhet eller en viss webbsideslayout. Den här målgruppen omfattar, men är inte begränsad till, olika layouter, elementstorlekar i användargränssnittet och bildupplösning.
 
-Visningsprogrammet har stöd för två sätt att skapa responsiv CSS: CSS-markörer och vanliga CSS-mediefrågor. Du kan använda dessa separat eller tillsammans.
+Visningsprogrammet har stöd för två sätt att skapa responsiv CSS: CSS-markörer och vanliga CSS-mediefrågor. Du kan använda dessa mekanismer oberoende av varandra eller tillsammans.
 
 **CSS-markörer**
 
-Visningsprogrammet har stöd för CSS-markörer, vilket är till hjälp när det gäller att skapa responsiv CSS-kod. Dessa är speciella CSS-klasser som dynamiskt tilldelas till visningsbehållarelementet på den översta nivån baserat på visningsprogrammets storlek vid körning och den indatatyp som används på den aktuella enheten.
+Visningsprogrammet har stöd för CSS-markörer, vilket är till hjälp när det gäller att skapa responsiv CSS-kod. Dessa markörer är speciella CSS-klasser. De tilldelas dynamiskt till visningsprogrambehållarelementet på den översta nivån baserat på visningsprogrammets storlek vid körning och den indatatyp som används på den aktuella enheten.
 
-Den första gruppen med CSS-markörer innehåller klasserna `.s7size_large`, `.s7size_medium` och `.s7size_small`. De tillämpas baserat på visningsbehållarens körningsområde. Om visningsområdet är lika stort eller större än storleken på en vanlig skrivbordsskärm används `.s7size_large`. om området ligger nära en gemensam surfplatta tilldelas `.s7size_medium`. För områden som liknar mobiltelefonskärmar ställs `.s7size_small` in. Det främsta syftet med dessa CSS-markörer är att skapa olika användargränssnittslayouter för olika skärmar och visningsstorlekar.
+Den första gruppen med CSS-markörer innehåller `.s7size_large`, `.s7size_medium`och `.s7size_small` klasser. De tillämpas baserat på visningsbehållarens körningsområde. Om visningsområdet är lika stort eller större än storleken på en vanlig skrivbordsskärm, ska du `.s7size_large` används, om området är nära en vanlig surfplatta, `.s7size_medium` är tilldelad. För områden som liknar mobiltelefonskärmar `.s7size_small` är inställt. Det främsta syftet med dessa CSS-markörer är att skapa olika användargränssnittslayouter för olika skärmar och visningsstorlekar.
 
-Den andra gruppen med CSS-markörer innehåller `.s7mouseinput` och `.s7touchinput`. `.s7touchinput` är inställt om den aktuella enheten har funktioner för pekrörelser, i annat fall  `.s7mouseinput` används. Dessa markörer är främst avsedda att skapa indataelement i användargränssnittet med olika skärmstorlekar för olika indatatyper, eftersom pekrörelser normalt kräver större element. Om enheten har både musindata- och pekfunktioner är `.s7touchinput` inställt och visningsprogrammet återger ett pekvänligt användargränssnitt.
+Den andra gruppen CSS-markörer innehåller `.s7mouseinput` och `.s7touchinput`. The `.s7touchinput` markör anges om den aktuella enheten har funktioner för pekrörelser, i annat fall, `.s7mouseinput` används. Dessa markörer är främst avsedda att skapa indataelement i användargränssnittet med olika skärmstorlekar för olika indatatyper, eftersom pekrörelser normalt kräver större element. Om enheten har både musingång och pekfunktioner `.s7touchinput` är inställt och visningsprogrammet återger ett pekvänligt användargränssnitt.
 
-Följande exempel på CSS anger storleken på inzoomningsknappen till 28 x 28 pixlar på system med musindata och till 56 x 56 pixlar på enheter med pekskärm. Dessutom döljs knappen helt om visningsprogrammets storlek blir mycket liten:
+Följande exempel på CSS anger storleken på inzoomningsknappen till 28 x 28 pixlar på system med musindata och till 56 x 56 pixlar på enheter med pekskärm. Dessutom döljs knappen helt om visningsprogrammets storlek blir liten:
 
 ```
 .s7basiczoomviewer.s7mouseinput .s7zoominbutton { 
@@ -65,7 +65,7 @@ Följande exempel på CSS anger storleken på inzoomningsknappen till 28 x 28 pi
 }
 ```
 
-Om du vill ange enheter med olika pixeldensitet som mål måste du använda CSS-mediefrågor. Följande mediefrågeblock skulle innehålla CSS som är specifikt för skärmar med hög densitet:
+Om du vill använda enheter med olika pixeldensitet måste du använda CSS-mediefrågor. Följande mediefrågeblock skulle innehålla CSS som är specifikt för skärmar med hög densitet:
 
 ```
 @media screen and (-webkit-min-device-pixel-ratio: 1.5) 
@@ -73,7 +73,7 @@ Om du vill ange enheter med olika pixeldensitet som mål måste du använda CSS-
 }
 ```
 
-Att använda CSS-markörer är det mest flexibla sättet att bygga CSS för responsiv design eftersom det gör att du inte bara kan ange enhetens skärmstorlek som mål, utan även den faktiska visningsstorleken, vilket är användbart för responsiva designade layouter.
+Att använda CSS-markörer är det mest flexibla sättet att bygga CSS för responsiv design. Orsaken är att den gör att du inte bara kan ange enhetens skärmstorlek som mål, utan även den faktiska visningsstorleken, vilket är användbart för layouter med responsiv design.
 
 Du kan använda CSS-standardfilen för visningsprogram som ett exempel på en CSS-markörmetod.
 
@@ -151,7 +151,7 @@ background-image:url(images/v2/ZoomInButton_dark_disabled.png);
 
 Nackdelen med detta är att slutanvändaren får flimmer eller fördröjt svar i användargränssnittet när elementet interagerar med det för första gången. Den här åtgärden inträffar eftersom bildgrafiken för det nya elementläget inte har hämtats ännu. Den här metoden kan också ha en liten negativ inverkan på prestanda på grund av ett ökat antal HTTP-anrop till servern.
 
-CSS-sprites är en annan metod där bilder för alla elementlägen kombineras till en enda PNG-fil som kallas&quot;sprite&quot;. En sådan&quot;sprite&quot; har alla visuella lägen för det angivna elementet placerade efter varandra. När du formaterar ett element i användargränssnittet med fragment refereras samma sprite-bild till för alla olika lägen i CSS. Dessutom används egenskapen `background-position` för varje läge för att ange vilken del av Sprite-bilden som ska användas. Du kan strukturera en&quot;sprite&quot;-bild på ett lämpligt sätt. Visningsprogram har normalt en lodrät stapling. Nedan visas ett&quot;sprite&quot;-baserat exempel på hur du formaterar samma inzoomningsknapp ovan:
+CSS-sprites är en annan metod där bilder för alla elementlägen kombineras till en enda PNG-fil som kallas&quot;sprite&quot;. En sådan&quot;sprite&quot; har alla visuella lägen för det angivna elementet placerade efter varandra. När du formaterar ett element i användargränssnittet med sprites refereras samma sprite-bild till för alla olika lägen i CSS. Dessutom `background-position` -egenskapen används för varje läge för att ange vilken del av&quot;sprite&quot;-bilden som ska användas. Du kan strukturera en&quot;sprite&quot;-bild på ett lämpligt sätt. Visningsprogram har normalt en lodrät stapling. Nedan visas ett&quot;sprite&quot;-baserat exempel på hur du formaterar samma inzoomningsknapp ovan:
 
 ```
 .s7basiczoomviewer .s7zoominbutton[state]  { 
@@ -173,14 +173,14 @@ background-position: -0px -560px;
 
 ## Allmän formatinformation och råd {#section-95855dccbbc444e79970f1aaa3260b7b}
 
-* När du anpassar visningsprogrammets användargränssnitt med CSS stöds inte användningen av regeln `!IMPORTANT` för att formatera visningsprogramelement. I synnerhet ska `!IMPORTANT`-regeln inte användas för att åsidosätta standardformat eller körningsformat som tillhandahålls av visningsprogrammet eller visaren-SDK:n. Orsaken är att det kan påverka beteendet för rätt komponenter. I stället bör du använda CSS-väljare med rätt specificitet för att ange CSS-egenskaper som dokumenteras i den här referenshandboken.
+* När du anpassar visningsprogrammets användargränssnitt med CSS används `!IMPORTANT` regeln stöds inte för att formatera visningsprogramelement. I synnerhet `!IMPORTANT` ska inte användas för att åsidosätta standardformat eller körningsformat som tillhandahålls av visningsprogrammet eller visaren-SDK. Orsaken är att det kan påverka beteendet för rätt komponenter. I stället bör du använda CSS-väljare med rätt specificitet för att ange CSS-egenskaper som dokumenteras i den här referenshandboken.
 * Alla sökvägar till externa resurser i CSS matchas mot CSS-platsen, inte mot visningsprogrammets HTML-sidplats. Tänk på den här regeln när du kopierar standard-CSS till en annan plats. Kopiera även standardresurserna eller uppdatera sökvägarna i den anpassade CSS-koden.
 * Det format du föredrar för bitmappsbilder är PNG.
-* Bitmappsgrafik tilldelas till element i användargränssnittet med egenskapen `background-image`.
-* Egenskaperna `width` och `height` för ett användargränssnittselement definierar dess logiska storlek. Storleken på bitmappen som skickas till `background-image` påverkar inte den logiska storleken.
-* Om du vill använda hög pixeldensitet för högupplösta skärmar som Retina anger du bitmappsbilder som är dubbelt så stora som elementstorleken för det logiska användargränssnittet. Använd sedan egenskapen `-webkit-background-size:contain` för att skala bakgrunden ned till elementstorleken för det logiska användargränssnittet.
-* Om du vill ta bort en knapp från användargränssnittet lägger du till `display:none` i CSS-klassen.
-* Du kan använda olika format för färgvärden som stöds i CSS. Använd formatet `rgba(R,G,B,A)` om du behöver genomskinlighet. Annars kan du använda formatet `#RRGGBB`.
+* Bitmappsgrafik tilldelas till element i användargränssnittet med hjälp av `background-image` -egenskap.
+* The `width` och `height` -egenskaperna för ett användargränssnittselement definierar dess logiska storlek. Storleken på bitmappen som skickas till `background-image` påverkar inte den logiska storleken.
+* Om du vill använda hög pixeldensitet för högupplösta skärmar som Retina anger du bitmappsbilder som är dubbelt så stora som elementstorleken för det logiska användargränssnittet. Använd sedan `-webkit-background-size:contain` om du vill skala bakgrunden ned till det logiska användargränssnittets elementstorlek.
+* Om du vill ta bort en knapp från användargränssnittet lägger du till `display:none` till CSS-klassen.
+* Du kan använda olika format för färgvärden som stöds i CSS. Använd formatet om du behöver genomskinlighet `rgba(R,G,B,A)`. I annat fall kan du använda formatet `#RRGGBB`.
 
 ## Element i gemensamt användargränssnitt {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
 

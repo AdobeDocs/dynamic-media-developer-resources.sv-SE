@@ -1,13 +1,13 @@
 ---
+title: ZoomView.enableHD
 description: ZoomView.enableHD
 solution: Experience Manager
-title: ZoomView.enableHD
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 321ca7e2-e3f9-4b0e-8bde-41d8478e1a0b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 61e3a1fd0e21d336eaf5232096f5b1b54f2a6353
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> always|never|limit</span> </p> </td> 
-   <td colname="col2"> <p> Aktivera, begränsa eller inaktivera optimering för enheter där <span class="codeph"> devicePixelRatio</span> är större än <span class="codeph"> 1</span>, det vill säga enheter med högdensitetsvisning som iPhone4 och liknande enheter. Om den är aktiv begränsar komponenten storleken på IS-bildbegäran som om enheten bara hade ett pixelförhållande på <span class="codeph"> 1</span> och på så sätt minskar bandbredden. </p> <p>Se exemplet nedan. </p> </td> 
+   <td colname="col2"> <p> Aktivera, begränsa eller inaktivera optimering för enheter där <span class="codeph"> devicePixelRatio</span> är större än <span class="codeph"> 1</span>, dvs. enheter med högdensitetsskärmar som iPhone4 och liknande enheter. Om den är aktiv begränsar komponenten storleken på IS-bildbegäran som om enheten bara hade pixelproportionen <span class="codeph"> 1</span> och på så sätt minska bandbredden. </p> <p>Se exemplet nedan. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> tal</span> </span> </p> </td> 
@@ -51,7 +51,7 @@ Nedan följer de förväntade resultaten när du använder det här konfiguratio
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> alltid</span> </p> </td> 
-   <td colname="col2"> <p>Bildskärmens/enhetens pixeldensitet beaktas alltid. </p> <p> 
+   <td colname="col2"> <p>Skärmens/enhetens pixeldensitet räknas alltid.</p> <p> 
      <ul id="ul_D8F31FDFCDB74B75A3B1BFBEE33AF2E2"> 
       <li id="li_8A1C6DCCE10545349C73029729211BB2"> <p>Om skärmens pixeldensitet = 1 är den begärda bilden 1 000 x 1 000. </p> </li> 
       <li id="li_884156A34AC64B4E9B3ACC4C25EB710F"> <p>Om skärmpixeldensiteten är 1,5 är den begärda bilden 1 500 x 1 500. </p> </li> 
@@ -68,7 +68,7 @@ Nedan följer de förväntade resultaten när du använder det här konfiguratio
      <ul id="ul_CEC06B2280164951BA1A0ADED99E8050"> 
       <li id="li_CA7A0980ACC54690A4F212DF53E2DC8A"> <p>Om gränsvärdet är 1600 och pixeldensiteten är 1,5 används bilden på 1500 x 1500. </p> </li> 
       <li id="li_A4AAD7FBFA0347B082789511CA6768A5"> <p>Om gränsvärdet är 1600 och pixeldensiteten är 2 används bilden på 1000 x 1000 eftersom bilden på 2000 x 2000 överskrider gränsvärdet. </p> </li> 
-     </ul> </p> <p> <b>God praxis</b>: Gränsvärdet måste fungera tillsammans med företagsinställningen för att bilden ska få maximal storlek. Ange därför gränsvärdet som lika med företagets inställning för maximal bildstorlek. </p> </td> 
+     </ul> </p> <p> <b>Bästa praxis</b>: Begränsningsnumret måste fungera med företagsinställningen för maximal bildstorlek. Ange därför gränsvärdet som lika med företagets inställning för maximal bildstorlek. </p> </td> 
   </tr> 
  </tbody> 
 </table>

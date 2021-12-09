@@ -1,20 +1,20 @@
 ---
-description: I skrivbordssystem har vissa element i användargränssnittet, som knappar, verktygstips som visas när du hovrar musen.
-solution: Experience Manager
 title: Verktygstips
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
+description: På stationära datorer har vissa element i användargränssnittet, t.ex. knappar, verktygstips som visas när du hovrar musen.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 6367245a-be55-4b7e-bf9e-da4a0ecb556b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 61e3a1fd0e21d336eaf5232096f5b1b54f2a6353
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
 
 # Verktygstips{#tooltips}
 
-I skrivbordssystem har vissa element i användargränssnittet, som knappar, verktygstips som visas när du hovrar musen.
+På stationära datorer har vissa element i användargränssnittet, t.ex. knappar, verktygstips som visas när du hovrar musen.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,27 +35,27 @@ Utseendet på verktygstipsen styrs av följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
    <td colname="col2"> <p> Kantradie för bakgrund. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-color </span> </p> </td> 
    <td colname="col2"> <p> Kantfärg för bakgrund. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Bakgrundsfärg. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> färg  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> färg </span> </p> </td> 
    <td colname="col2"> <p>Textfärg. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Textteckensnittsnamn. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Teckensnittsstorlek för text. </p> </td> 
   </tr> 
  </tbody> 
@@ -63,9 +63,9 @@ Utseendet på verktygstipsen styrs av följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Om verktygstipsen anpassas från webbsidan för inbäddning måste alla egenskaper innehålla regeln `!IMPORTANT`. Detta är inte nödvändigt om verktygstipsen är anpassade i visningsprogrammets CSS-fil.
+>Om verktygstipsen anpassas från webbsidan för inbäddning måste alla egenskaper innehålla `!IMPORTANT` regel. Den här regeln är inte nödvändig om verktygstipsen är anpassade i visningsprogrammets CSS-fil.
 
-Exempel - för att skapa verktygstips med en grå kant med hörnradie på 3px, svart bakgrund och vit text skriven med Arial, 11 pixlar stor:
+Exempel - för att skapa verktygstips som har en grå kant med tre pixlars hörnradie, svart bakgrund och vit text skriven med Arial®, 11 pixlars storlek:
 
 ```
 .s7tooltip { 

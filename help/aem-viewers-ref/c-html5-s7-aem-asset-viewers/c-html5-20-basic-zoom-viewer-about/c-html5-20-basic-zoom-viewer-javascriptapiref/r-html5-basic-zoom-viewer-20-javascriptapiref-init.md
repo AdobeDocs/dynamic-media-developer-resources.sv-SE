@@ -1,13 +1,13 @@
 ---
+title: init
 description: JavaScript API-referens för Basic Zoom Viewer.
 solution: Experience Manager
-title: init
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: cef585ae-44d7-406c-96f9-e03959a8e518
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 61e3a1fd0e21d336eaf5232096f5b1b54f2a6353
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ JavaScript API-referens för Basic Zoom Viewer.
 
 Startar initieringen av Basic Zoom Viewer. Vid den här tidpunkten måste behållar-DOM-elementet skapas så att visningsprogramkoden kan hitta det med dess ID.
 
-Om behållarelementet inte är en del av webbsideslayouten ännu (t.ex. kan det döljas med formatet `display:none` som tilldelats det), gör visningsprogrammet uppehåll i initieringsprocessen tills webbsidan återför behållarelementet till layouten. När detta inträffar återgår visningsprogrammet automatiskt.
+Om behållarelementet inte är en del av webbsideslayouten än (t.ex. kan det döljas med `display:none` format som tilldelats), kommer visningsprogrammet att avbryta sin initieringsprocess. Det gör det tills webbsidan återför behållarelementet till layouten. När den här åtgärden utförs återtas visningsprogrammet automatiskt.
 
 Anropa denna metod endast en gång under tittarens livscykel. efterföljande anrop ignoreras.
 

@@ -1,14 +1,14 @@
 ---
+title: Grundläggande zoom
 description: Visningsprogrammet för grundläggande zoomning är ett bildvisningsprogram som visar en enda zoombar bild. Den har zoomverktyg, helskärmsstöd och en valfri stängningsknapp. Det här visningsprogrammet är den enklaste. Den är utformad för att fungera på stationära datorer och mobila enheter.
 keywords: responsiv
 solution: Experience Manager
-title: Grundläggande zoom
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: ee15ce21-20c4-428b-9512-050115e4c322
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: d5f1f05c36c1cb8a57b5a4bb8a9d066c20e32e75
 workflow-type: tm+mt
-source-wordcount: '2034'
+source-wordcount: '2028'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Visningsprogrammet för grundläggande zoomning är ett bildvisningsprogram som 
 
 >[!NOTE]
 >
->Bilder som använder IR (Image Rendering) eller UGC (User Generated Content) stöds inte av det här visningsprogrammet.
+>Bilder som använder IR (Image Rendering) eller UGC (User-Generated Content) stöds inte av det här visningsprogrammet.
 
 Visningstyp 501.
 
@@ -31,7 +31,7 @@ Se [Systemkrav och krav](../../c-system-requirements-and-prerequisites.md#concep
 
 ## Använda Basic Zoom Viewer {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-Basic Zoom Viewer representerar en JavaScript-huvudfil och en uppsättning hjälpfiler (ett enda JavaScript-skript innehåller alla SDK-komponenter för visningsprogrammet som används av det här visningsprogrammet, resurser, CSS) som visningsprogrammen hämtar under körning.
+Visningsprogrammet för grundläggande zoom representerar en JavaScript-fil och en uppsättning hjälpfiler som hämtats under körning. I grund och botten är det en enda JavaScript-funktion som inkluderar alla SDK-komponenter för visningsprogrammet som används av just detta visningsprogram, resurser och CSS.
 
 Du kan använda Basic Zoom Viewer i popup-läge med en produktionsklar HTML-sida som finns i IS-Viewer eller i inbäddat läge, där den integreras med målwebbsidan med dokumenterat API.
 
@@ -43,7 +43,7 @@ Se [Kommandoreferens som är gemensam för alla visningsprogram - Konfigurations
 
 Det grundläggande zoomvisningsprogrammet har stöd för följande pekgester som är vanliga i andra mobilprogram.
 
-När visningsprogrammet inte kan bearbeta en användares dragningsgest vidarebefordrar det händelsen till webbläsaren för att utföra en inbyggd sidbläddring. Den här typen av funktioner gör att användaren kan navigera på sidan även om användaren upptar större delen av enhetens skärmområde.
+När visningsprogrammet inte kan bearbeta en användares svepningsgest vidarebefordrar det händelsen till webbläsaren för att utföra en inbyggd sidrullning. Den här typen av funktioner gör att användaren kan navigera på sidan även om användaren upptar större delen av enhetens skärmområde.
 
 <table id="table_ED747CC7178448919C34A4FCD18922D0"> 
  <thead> 
@@ -106,11 +106,11 @@ I det inbäddade läget läggs visningsprogrammet till på den befintliga webbsi
 
 De viktigaste användningsområdena är webbsidor som är orienterade för datorer eller surfplattor, och även responsiva designade sidor som automatiskt anpassar layouten beroende på enhetstyp.
 
-Inbäddning med fast storlek används när visningsprogrammet inte ändrar sin storlek efter den första inläsningen. Det här är det bästa alternativet för webbsidor som har en statisk layout.
+Inbäddning med fast storlek används när visningsprogrammet inte ändrar sin storlek efter den första inläsningen. Den här metoden är det bästa alternativet för webbsidor med en statisk layout.
 
-Inbäddning av responsiv design förutsätter att visningsprogrammet kan behöva ändra storlek vid körning som svar på storleksändringen av behållaren `DIV`. Det vanligaste användningsområdet är att lägga till ett visningsprogram på en webbsida som använder en flexibel sidlayout.
+Inbäddning av responsiv design förutsätter att visningsprogrammet måste ändra storlek vid körning som svar på storleksändringen av behållaren `DIV`. Det vanligaste användningsområdet är att lägga till ett visningsprogram på en webbsida som använder en flexibel sidlayout.
 
-I läget responsiv designinbäddning beter sig visningsprogrammet olika beroende på hur webbsidan ändrar storlek på sin behållare `DIV`. Om webbsidan bara anger behållarens bredd `DIV`, utan att begränsa höjden, väljer visningsprogrammet automatiskt höjden enligt proportionerna för den resurs som används. Med den här funktionen kan du vara säker på att resursen passar perfekt in i vyn utan utfyllnad på sidorna. Det här användningsexemplet är det vanligaste för webbsidor med flexibla ramverk för webbdesign som Bootstrap, Foundation och så vidare.
+I läget responsiv designinbäddning beter sig visningsprogrammet olika beroende på hur webbsidan ändrar storlek på sin behållare `DIV`. Om webbsidan bara anger behållarens bredd `DIV`, utan att begränsa höjden, väljer visningsprogrammet automatiskt höjden enligt proportionerna för den resurs som används. Med den här funktionen kan du vara säker på att resursen passar perfekt in i vyn utan utfyllnad på sidorna. Det här användningsexemplet är det vanligaste för webbsidor med flexibla ramverk för webbdesign som Bootstrap och Foundation.
 
 Om webbsidan i annat fall anger både bredd och höjd för visningsprogrammets behållare `DIV`, fyller visningsprogrammet bara det området och följer den storlek som webbsidans layout ger. Ett bra exempel är att bädda in visningsprogrammet i en modal övertäckning, där storleken på övertäckningen anpassas efter webbläsarens fönsterstorlek.
 
@@ -139,7 +139,7 @@ Den relativa sökvägen ser ut så här:
 
 >[!NOTE]
 >
->Du bör bara referera till JavaScript för huvudvisningsprogrammet `include` på sidan. Du bör inte referera till några ytterligare JavaScript-filer i webbsideskoden som kan hämtas av visningsprogrammets logik under körningen. Ange särskilt inte direkt HTML5 SDK `Utils.js` biblioteket som läses in av visningsprogrammet från `/s7viewers` kontextsökväg (s.k. konsoliderad SDK) `include`). Orsaken är att platsen för `Utils.js` eller liknande visningsprogrambibliotek för miljön hanteras helt av visningsprogrammets logik och platsen ändras mellan visningsprogramversionerna. Adobe har inte äldre versioner av sekundära visningsprogram `includes` på servern.
+>Referera endast till JavaScript för huvudvisningsprogrammet `include` på sidan. Referera inte till några ytterligare JavaScript-filer i webbsideskoden som kan hämtas av visningsprogrammets logik under körning. Ange särskilt inte direkt HTML5 SDK `Utils.js` biblioteket som läses in av visningsprogrammet från `/s7viewers` kontextsökväg (s.k. konsoliderad SDK) `include`). Orsaken är att platsen för `Utils.js` eller liknande visningsprogrambibliotek för miljön hanteras helt av visningsprogrammets logik och platsen ändras mellan visningsprogramversionerna. Adobe har inte äldre versioner av sekundära visningsprogram `includes` på servern.
 >
 >
 >Det innebär att du skickar en direkt referens till valfritt sekundärt JavaScript `include` som används av visningsprogrammet på sidan avbryter visningsprogrammets funktioner i framtiden när en ny produktversion distribueras.
@@ -160,7 +160,7 @@ Den relativa sökvägen ser ut så här:
 
    Du kan ange den statiska storleken för visningsprogrammet genom att deklarera det för `.s7basiczoomviewer` CSS-klass på översta nivån i absoluta enheter, eller med `stagesize` modifierare.
 
-   Du kan ange storlek i CSS direkt på HTML-sidan eller i en anpassad CSS-fil för visningsprogrammet, som sedan tilldelas en post för visningsförinställningar i Dynamic Media Classic, eller skickas explicit med ett formatkommando.
+   Ange storlek i CSS direkt på HTML-sidan eller i en anpassad CSS-fil för visningsprogrammet. Den tilldelas sedan senare till en post för visningsförinställningar i Dynamic Media Classic eller skickas explicit med ett formatkommando.
 
    Se [Anpassa Basic Zoom Viewer](../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/c-html5-20-basic-zoom-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) om du vill ha mer information om hur du formaterar visningsprogrammet med CSS.
 
@@ -173,7 +173,7 @@ Den relativa sökvägen ser ut så här:
    }
    ```
 
-   Du kan ange `stagesize` modifiera antingen i posten för visningsförinställning i Dynamic Media Classic, eller skicka den explicit med startkoden för visningsprogrammet med `params` samling, eller som ett API-anrop enligt beskrivningen i avsnittet Kommandoreferens, enligt följande:
+   Du kan ange `stagesize` modifierare i posten för visningsförinställning i Dynamic Media Classic. Eller så kan du skicka det explicit med visarens initieringskod med `params` -samling eller, som ett API-anrop enligt beskrivningen i avsnittet Kommandoreferens, enligt följande:
 
    ```
    basicZoomViewer.setParam("stagesize", "640,480");
@@ -187,7 +187,7 @@ Den relativa sökvägen ser ut så här:
 
    Det är viktigt att lägga till visningsprogrambehållaren i DOM så att visningsprogramkoden kan hitta behållarelementet med dess ID. I vissa webbläsare fördröjs skapandet av DOM tills webbsidan är slut. För maximal kompatibilitet, ring `init()` metod precis före stängning `BODY` eller på brödtexten `onload()` -händelse.
 
-   Samtidigt bör behållarelementet inte nödvändigtvis vara en del av webbsidans layout just nu. Den kan till exempel vara dold med `display:none` format som tilldelats det. I det här fallet skjuter visningsprogrammet upp initieringsprocessen tills webbsidan återför behållarelementet till layouten. När detta inträffar återgår visningsprogrammet automatiskt.
+   Samtidigt behöver behållarelementet inte nödvändigtvis vara en del av webbsidans layout ännu. Den kan till exempel vara dold med `display:none` format som tilldelats det. I det här fallet skjuter visningsprogrammet upp initieringsprocessen tills webbsidan återför behållarelementet till layouten. När den här händelsen inträffar återupptas visningsprogrammet automatiskt.
 
    Följande är ett exempel på hur du skapar en visningsprograminstans, skickar nödvändiga minimikonfigurationsalternativ till konstruktorn och anropar `init()` -metod. Exemplet förutsätter `basicZoomViewer` är visningsprograminstansen, `s7viewer` är namnet på platshållaren `DIV`; `http://s7d1.scene7.com/is/image/` är webbadressen för bildvisning, och `Scene7SharedAssets/Backpack_B` är tillgången:
 
@@ -294,7 +294,7 @@ Följande exempelsida visar mer verkliga användningsområden för responsiv des
 
 **Flexibel storlek för inbäddning med definierad bredd och höjd**
 
-Vid flexibel inbäddning med bredd och höjd är webbsidans format annorlunda. Det ger båda storlekarna till `"holder"` DIV och centrera det i webbläsarfönstret. Dessutom anger webbsidan storleken på `HTML` och `BODY` -element till 100 procent.
+Om det finns inbäddning i flexibel storlek med angiven bredd och höjd är webbsidans format annorlunda. Det ger båda storlekarna till `"holder"` DIV och centrera det i webbläsarfönstret. Dessutom anger webbsidan storleken på `HTML` och `BODY` -element till 100 procent.
 
 ```
 <!DOCTYPE html> 

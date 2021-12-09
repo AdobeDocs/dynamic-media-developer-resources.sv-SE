@@ -6,9 +6,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 3c451400-4f44-4887-a045-46b064570b01
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+source-git-commit: 6744aa987cd3d29ffd2e6959c0694c3561100fcf
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1289'
 ht-degree: 0%
 
 ---
@@ -33,15 +33,15 @@ Tänk på att visningsprogrammet tilldelar `.s7ecatalogviewer` till behållar-DO
 
 ## Skapa responsiv CSS {#section-c1e74f5114ad418884ca1c95f5ea5b63}
 
-Det är möjligt att rikta in sig på olika enheter och inbäddningsstorlekar i CSS så att innehållet visas på olika sätt, beroende på användarens enhet eller en viss webbsideslayout. Den här målgruppen omfattar, men är inte begränsad till, olika webbsideslayouter, elementstorlekar i användargränssnittet och bildupplösning.
+Det är möjligt att rikta in sig på olika enheter och inbäddningsstorlekar i CSS så att innehållet visas på olika sätt, beroende på användarens enhet eller en viss webbsideslayout. Detta mål omfattar, men är inte begränsat till, olika webbsideslayouter, elementstorlekar i användargränssnittet och bildupplösning.
 
 Visningsprogrammet har stöd för två metoder för att skapa responsiv CSS: CSS-markörer och vanliga CSS-mediefrågor. Du kan använda dessa metoder oberoende av varandra eller tillsammans.
 
 **CSS-markörer**
 
-För att det ska gå att skapa responsiv CSS-kod stöder visningsprogrammet CSS-markörer som har särskilda CSS-klasser som dynamiskt tilldelats till visningsprogrammets behållarelement på den översta nivån. Visningsbehållaren baseras på visningsprogrammets storlek vid körning och den indatatyp som används på den aktuella enheten.
+Visningsprogrammet har stöd för CSS-markörer, vilket är till hjälp när det gäller att skapa responsiv CSS-kod. Speciella CSS-klasser tilldelas dynamiskt till behållarelementet för visningsprogrammet på den översta nivån baserat på visningsprogrammets storlek vid körning och den indatatyp som används på den aktuella enheten.
 
-Den första gruppen med CSS-markörer innehåller `.s7size_large`, `.s7size_medium`och `.s7size_small` klasser. De tillämpas baserat på visningsprogrambehållarens körningsområde. Det vill säga om visningsområdet är lika med eller större än storleken på en vanlig skrivbordsskärm `.s7size_large` används, om området är nästan lika stort som en vanlig surfplatta `.s7size_medium` är tilldelad. För områden som liknar mobiltelefonskärmar är markören `.s7size_small` är inställt. Det främsta syftet med dessa CSS-markörer är att skapa olika användargränssnittslayouter för olika skärmar och visningsstorlekar.
+Den första gruppen med CSS-markörer innehåller `.s7size_large`, `.s7size_medium`och `.s7size_small` klasser. De tillämpas baserat på visningsprogrambehållarens körningsområde. Det vill säga om visningsområdet är lika med eller större än storleken på en vanlig skrivbordsskärm `.s7size_large` används, om området är nästan lika stort som en vanlig surfplatta `.s7size_medium` är tilldelad. För områden som liknar mobiltelefonskärmar `.s7size_small` är inställt. Det främsta syftet med dessa CSS-markörer är att skapa olika användargränssnittslayouter för olika skärmar och visningsstorlekar.
 
 Den andra gruppen med CSS-markörer innehåller `.s7mouseinput` och `.s7touchinput`. Markören `.s7touchinput` är inställt om den aktuella enheten har funktioner för pekrörelser, i annat fall, `.s7mouseinput` används. Dessa markörer är avsedda att skapa indataelement i användargränssnittet med olika skärmstorlekar för olika indatatyper, eftersom större element normalt krävs för pekrörelser. Om enheten har både musingång och pekfunktioner, `.s7touchinput` är inställt och visningsprogrammet återger ett pekvänligt användargränssnitt.
 
@@ -69,7 +69,7 @@ Om du vill använda enheter med en annan pixeldensitet som mål använder du CSS
 }
 ```
 
-Att använda CSS-markörer är det mest flexibla sättet att skapa responsiv CSS. Orsaken är att den gör att du inte bara kan ange enhetens skärmstorlek som mål, utan även den faktiska visningsstorleken, vilket kan vara användbart för responsiva designade sidlayouter.
+Att använda CSS-markörer är det mest flexibla sättet att skapa responsiv CSS. Det gör att du inte bara kan ange enhetens skärmstorlek som mål, utan även den faktiska visningsstorleken, vilket kan vara användbart för responsiva designade sidlayouter.
 
 Använd CSS-standardfilen för visningsprogrammet som ett exempel på en CSS-markörmetod.
 
