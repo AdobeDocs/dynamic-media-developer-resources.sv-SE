@@ -1,14 +1,14 @@
 ---
+title: Zooma
 description: Zoom Viewer är ett bildvisningsprogram som visar en zoombar bild. Visningsprogrammet fungerar med bilduppsättningar och navigeringen görs med hjälp av färgrutor. Den har zoomverktyg, helskärmsstöd, färgrutor och en valfri stängningsknapp. Den är utformad för att fungera på stationära datorer och mobila enheter.
 keywords: responsiv
 solution: Experience Manager
-title: Zooma
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 81a74026-fb15-4f57-a4c7-1ab005950245
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '2397'
+source-wordcount: '2395'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Zoom Viewer stöder följande pekgester som är vanliga i andra mobilprogram. N�
   </tr> 
   <tr> 
    <td colname="col1"> <p>Vågrät dragning eller snärtning </p> </td> 
-   <td colname="col2"> <p> Bläddrar igenom listan med färgrutor i färgrutefältet. </p> <p> Om bilden är i ett återställningsläge och <span class="codeph"> ramövergång </span> är inställd på att bildruta, resursen ändras med bildruteanimeringen. För andra <span class="codeph"> ramövergång </span> lägen där gesten utför intern sidbläddring. </p> <p> Om bilden zoomas in flyttas den vågrätt. Om bilden flyttas till vykanten och en svepning utförs i samma riktning, utför gesten intern sidbläddring. </p> </td> 
+   <td colname="col2"> <p> Bläddrar igenom listan med färgrutor i färgrutefältet. </p> <p> Om bilden är i ett återställningsläge och <span class="codeph"> ramövergång </span> är inställd på att bildruta, resursen ändras med bildruteanimeringen. För andra <span class="codeph"> ramövergång </span> används den inbyggda sidbläddringen. </p> <p> Om bilden zoomas in flyttas den vågrätt. Om bilden flyttas till vykanten och en svepning utförs i samma riktning, utför gesten intern sidbläddring. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Lodrät dragning </p> </td> 
@@ -96,7 +96,7 @@ Vi rekommenderar att du använder en färdig HTML-sida för popup-åtgärdsläge
 
 Använd anpassad CSS för att få ett anpassat utseende på sidan.
 
-Följande är ett exempel på HTML som öppnar visningsprogrammet i det nya fönstret:
+Här följer ett exempel på HTML som öppnar visningsprogrammet i det nya fönstret:
 
 ```
  <a 
@@ -114,7 +114,7 @@ Inbäddning med fast storlek används när visningsprogrammet inte ändrar sin s
 
 Inbäddningsläget för responsiv design förutsätter att det är nödvändigt att ändra storlek på visningsprogrammet under körningen på grund av storleksändringen för visningsprogrammets behållare `DIV`. Det vanligaste användningsområdet är att lägga till ett visningsprogram på en webbsida som använder en flexibel layout.
 
-I läget responsiv designinbäddning beter sig visningsprogrammet olika beroende på hur webbsidan ändrar storlek på sin behållare `DIV`. Om webbsidan bara anger behållarens bredd `DIV`, utan att begränsa höjden, väljer visningsprogrammet automatiskt höjden enligt proportionerna för den resurs som används. Den här logiken gör att resursen passar in perfekt i vyn utan utfyllnad på sidorna. Det här användningsexemplet är det vanligaste för webbsidor där responsiva layoutramverk som Bootstrap, Foundation och så vidare används.
+I läget responsiv designinbäddning beter sig visningsprogrammet olika beroende på hur webbsidan ändrar storlek på sin behållare `DIV`. Om webbsidan bara anger behållarens bredd `DIV`, utan att begränsa höjden, väljer visningsprogrammet automatiskt höjden enligt proportionerna för den resurs som används. Den här logiken gör att resursen passar in perfekt i vyn utan utfyllnad på sidorna. Det här användningsexemplet är det vanligaste för webbsidor som använder responsiva layoutramverk som Bootstrap och Foundation.
 
 Om webbsidan anger både bredd och höjd för visningsprogrammets behållare `DIV`, fyller visningsprogrammet det området och följer den storlek som webbsidan ger. Om du till exempel bäddar in visningsprogrammet i en modal övertäckning, där storleken på övertäckningen anpassas efter webbläsarens fönsterstorlek.
 
@@ -143,7 +143,7 @@ Den relativa sökvägen ser ut så här:
 
 >[!NOTE]
 >
->Du bör bara referera till JavaScript för huvudvisningsprogrammet `include` på sidan. Du bör inte referera till några ytterligare JavaScript-filer i webbsideskoden som kan hämtas av visningsprogrammets logik under körningen. Ange särskilt inte direkt HTML5 SDK `Utils.js` biblioteket som läses in av visningsprogrammet från `/s7viewers` kontextsökväg (s.k. konsoliderad SDK) `include`). Orsaken är att platsen för `Utils.js` eller liknande visningsprogrambibliotek för miljön hanteras helt av visningsprogrammets logik och platsen ändras mellan visningsprogramversionerna. Adobe har inte äldre versioner av sekundära visningsprogram `includes` på servern.
+>Referera endast till JavaScript för huvudvisningsprogrammet `include` på sidan. Referera inte till några ytterligare JavaScript-filer i webbsideskoden som kan hämtas av visningsprogrammets logik under körning. Ange särskilt inte direkt HTML5 SDK `Utils.js` biblioteket som läses in av visningsprogrammet från `/s7viewers` kontextsökväg (s.k. konsoliderad SDK) `include`). Orsaken är att platsen för `Utils.js` eller liknande visningsprogrambibliotek för miljön hanteras helt av visningsprogrammets logik och platsen ändras mellan visningsprogramversionerna. Adobe har inte äldre versioner av sekundära visningsprogram `includes` på servern.
 >
 >
 >Det innebär att du skickar en direkt referens till valfritt sekundärt JavaScript `include` som används av visningsprogrammet på sidan avbryter visningsprogrammets funktioner i framtiden när en ny produktversion distribueras.
@@ -164,7 +164,7 @@ Den relativa sökvägen ser ut så här:
 
    I det här visningsprogrammet visas miniatyrbilder när du arbetar med uppsättningar med flera objekt. Miniatyrbilder för skrivbordssystem placeras under huvudvyn. Samtidigt tillåter visningsprogrammet att huvudresursen byts ut under körning med `setAsset()` API. Som utvecklare har du kontroll över hur visningsprogrammet hanterar miniatyrbildsområdet längst ned när den nya resursen bara har ett objekt. Det går att behålla den yttre visningsstorleken intakt och låta huvudvyn öka höjden och ta upp miniatyrbildområdet. Eller så kan du hålla storleken på huvudvyn statisk och komprimera det yttre visningsområdet, låta webbsidans innehåll röra sig uppåt och använda friskärmsutrymme från miniatyrbilderna.
 
-   Om du vill behålla de yttre gränserna för visningsprogrammet definierar du storleken för `.s7zoomviewer` CSS-klass på översta nivån i absoluta enheter. Storleksändring i CSS kan placeras direkt på HTML-sidan eller i en anpassad CSS-fil för visningsprogrammet, som senare tilldelas en post för visningsförinställningar i Dynamic Media Classic eller skickas explicit med ett formatkommando.
+   Om du vill behålla de yttre gränserna för visningsprogrammet definierar du storleken för `.s7zoomviewer` CSS-klass på översta nivån i absoluta enheter. Storleksändring i CSS kan placeras direkt på HTML-sidan. Den kan också läggas i en anpassad CSS-fil för visningsprogrammet, som senare tilldelas en post för visningsförinställningar i Dynamic Media Classic eller skickas explicit med ett formatkommando.
 
    Se [Anpassa Zoom Viewer](../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/c-html5-20-zoom-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) om du vill ha mer information om hur du formaterar visningsprogrammet med CSS.
 
@@ -196,7 +196,7 @@ Den relativa sökvägen ser ut så här:
 
    [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html)
 
-   Du kan ange `stagesize` modifiera antingen i visningsprogrammets förinställningspost i Dynamic Media Classic, eller så kan du skicka den explicit med startkoden för visningsprogrammet med `params` samling eller som ett API-anrop enligt beskrivningen i kommandoreferensavsnittet i den här hjälpen, som i följande exempel:
+   Du kan ange `stagesize` modifierare i posten för visningsförinställning i Dynamic Media Classic. Eller så kan du skicka det explicit med visningsprogrammets initieringskod med `params` samling eller som ett API-anrop enligt beskrivningen i kommandoreferensavsnittet i den här hjälpen, som i följande exempel:
 
    ```
     zoomViewer.setParam("stagesize", 
@@ -213,7 +213,7 @@ Den relativa sökvägen ser ut så här:
 
    Det är viktigt att lägga till visningsprogrambehållaren i DOM så att visningsprogramkoden kan hitta behållarelementet med dess ID. I vissa webbläsare fördröjs skapandet av DOM tills webbsidan är slut. För maximal kompatibilitet, ring `init()` metod precis före stängning `BODY` eller på brödtexten `onload()` -händelse.
 
-   Samtidigt bör behållarelementet inte nödvändigtvis vara en del av webbsidans layout just nu. Den kan till exempel vara dold med `display:none` format som tilldelats det. I det här fallet skjuter visningsprogrammet upp initieringsprocessen tills webbsidan återför behållarelementet till layouten. När detta inträffar återgår visningsprogrammet automatiskt.
+   Samtidigt behöver behållarelementet inte nödvändigtvis vara en del av webbsidans layout ännu. Den kan till exempel vara dold med `display:none` format som tilldelats det. I det här fallet skjuter visningsprogrammet upp initieringsprocessen tills webbsidan återför behållarelementet till layouten. När den här åtgärden utförs återtas visningsprogrammet automatiskt.
 
    Följande är ett exempel på hur du skapar en visningsprograminstans, skickar de minsta nödvändiga konfigurationsalternativen till konstruktorn och anropar `init()` -metod. Det här exemplet förutsätter `zoomViewer` är visningsprograminstansen, `s7viewer` är namnet på platshållaren DIV, `http://s7d1.scene7.com/is/image/` är webbadressen för bildvisning, och `Scene7SharedAssets/ImageSet-Views-Sample` är tillgången.
 
@@ -320,7 +320,7 @@ Följande exempelsida visar mer verkliga användningsområden för responsiv des
 
 ## Bädda in i flexibel storlek med bredd och höjd definierad {#section-3674e6c032594441a6576b7fb1de6e64}
 
-Vid flexibel inbäddning med bredd och höjd är webbsidans format annorlunda. Det ger båda storlekarna till `"holder"` DIV och centrera det i webbläsarfönstret. Dessutom anger webbsidan storleken på `HTML` och `BODY` -element till 100 procent.
+Om det finns inbäddning i flexibel storlek med angiven bredd och höjd är webbsidans format annorlunda. Det ger båda storlekarna till `"holder"` DIV och centrera det i webbläsarfönstret. Dessutom anger webbsidan storleken på `HTML` och `BODY` -element till 100 procent.
 
 ```
 <!DOCTYPE html> 

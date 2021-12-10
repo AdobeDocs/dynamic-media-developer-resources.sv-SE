@@ -1,13 +1,13 @@
 ---
+title: Vyn Favoriter
 description: Vyn Favoriter består av en kolumn med miniatyrbilder.
 solution: Experience Manager
-title: Vyn Favoriter
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 8daf3d19-615b-4d62-a6f5-6a153d193b88
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Positionen och höjden på vyn Favoriter hanteras av vyn. i CSS är det bara mö
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Bakgrundsfärg i vyn Favoriter. </p> </td> 
   </tr> 
   <tr> 
@@ -61,13 +61,13 @@ Avståndet mellan Favoriter-miniatyrbilder styrs med följande CSS-klassväljare
 <table id="table_EED8CE63D805458196DE0E87C7E9945F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal  </span> </p> </td> 
-   <td colname="col2"> <p> Storleken på den lodräta marginalen runt varje miniatyrbild. Det faktiska mellanrummet för miniatyrbilder är lika med summan av den övre och nedre marginalen som är inställd för <span class="codeph"> .s7miniatyrcell </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal </span> </p> </td> 
+   <td colname="col2"> <p> Storleken på den lodräta marginalen runt varje miniatyrbild. Det faktiska mellanrummet för miniatyrbilder är lika med summan av den övre och nedre marginalen som är inställd för <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exempel - för att ställa in 10 pixelavstånd.
+Exempel - Om du vill ange tio pixelavstånd.
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview .s7thumbcell { 
@@ -86,15 +86,15 @@ Utseendet på enskilda miniatyrbilder styrs med följande CSS-klassväljare:
 <table id="table_6F5B1438CAFA49E9B33400C6970ABDA1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Miniatyrens bredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Höjden på miniatyrbilden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Miniatyrens kantlinje. </p> </td> 
   </tr> 
  </tbody> 
@@ -102,9 +102,9 @@ Utseendet på enskilda miniatyrbilder styrs med följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Miniatyrbilden stöder attributväljaren `state`, som kan användas för att tillämpa olika skal på olika miniatyrlägen. `state="selected"` motsvarar i synnerhet den miniatyrbild som nyligen valts av användaren. `state="default"` motsvarar resten av miniatyrbilderna. Och `state="over"` används vid mushovring.
+>Miniatyrbilden har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika miniatyrlägen. I synnerhet `state="selected"` motsvarar den miniatyrbild som användaren nyligen valt. while `state="default"` motsvarar resten av miniatyrbilderna. Och `state="over"` används vid hovring av musen.
 
-Exempel - Om du vill ställa in miniatyrbilder som är 75 x 75 pixlar har du en ljusgrå standardkant och en mörkgrå markerad kant.
+Exempel - Om du vill ställa in miniatyrbilder som är 75 x 75 pixlar har du en ljusgrå standardkantlinje och en mörkgrå markerad kantlinje.
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview .s7thumb { 
@@ -130,17 +130,17 @@ Utseendet på miniatyrbildetiketten styrs av följande CSS-klassväljare:
 <table id="table_B41339A16ACB46CB87D3EB1FD05FA2CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Teckensnittsnamn. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Teckenstorlek. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exempel - för att ställa in etiketter med ett Helvetica-teckensnitt med 14 pixlar.
+Exempel - för att ställa in etiketter med ett Helvetica®-teckensnitt med 14 pixlar.
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview .s7label { 

@@ -1,13 +1,13 @@
 ---
+title: Swatches.enabledragging
 description: Swatches.enabledragging
 solution: Experience Manager
-title: Swatches.enabledragging
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 6ae18f94-7a0f-429e-9684-eff43f523b1d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '75'
 ht-degree: 2%
 
 ---
@@ -19,12 +19,12 @@ ht-degree: 2%
 <table id="table_B1363BFD20204093AAB326A1AB503B93"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> 0|1  </span> </p> </td> 
+   <td> <p> <span class="codeph"> 0|1 </span> </p> </td> 
    <td> <p> Aktiverar eller inaktiverar en användares möjlighet att rulla i färgrutorna med en mus eller genom att använda pekgester </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> overdragvalue  </span> </span> </p> </td> 
-   <td> <p> Funktioner i <span class="codeph"> 0-1 </span>-intervallet. Det är ett <span class="codeph"> % </span>-värde för förflyttning i fel riktning av den faktiska hastigheten. Om den är inställd på <span class="codeph"> 1 </span> flyttas den med musen. Om det är inställt på <span class="codeph"> 0 </span> kan du inte gå i fel riktning alls. </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> overdragvalue </span> </span> </p> </td> 
+   <td> <p> Funktioner i <span class="codeph"> 0-1 </span> omfång. Det är en <span class="codeph"> % </span> värde för rörelse i fel riktning för den faktiska hastigheten. Om den är inställd på <span class="codeph"> 1 </span>flyttas den med musen. Om den är inställd på <span class="codeph"> 0 </span>kan du inte gå åt fel håll. </p> </td> 
   </tr> 
  </tbody> 
 </table>

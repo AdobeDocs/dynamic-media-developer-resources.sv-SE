@@ -1,20 +1,20 @@
 ---
-description: Beroende på värdet på parametern mode visar visningsprogrammet bildschemaikoner över huvudvyn på platser där kartor ursprungligen skapats i Dynamic Media Classic eller återger exakta områden som matchar formen på originalbildscheman.
-solution: Experience Manager
 title: Bildschemaeffekt
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+description: Beroende på värdet på parametern mode visar visningsprogrammet bildschemaikoner över huvudvyn på platser där kartor ursprungligen skapats i Dynamic Media Classic eller renderar exakta områden som matchar formen på originalbildscheman.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 873fc387-1d2a-4d74-b85e-fcbb13b691c5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
 
 # Bildschemaeffekt{#image-map-effect}
 
-Beroende på värdet på parametern mode visar visningsprogrammet bildschemaikoner över huvudvyn på platser där kartor ursprungligen skapats i Dynamic Media Classic eller återger exakta områden som matchar formen på originalbildscheman.
+Beroende på värdet på parametern mode visar visningsprogrammet bildschemaikoner över huvudvyn på platser där kartor ursprungligen skapats i Dynamic Media Classic eller renderar exakta områden som matchar formen på originalbildscheman.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -28,7 +28,7 @@ Utseendet på bildschemaikonen styrs av följande CSS-klassväljare:
 
 >[!NOTE]
 >
->CSS-klassen `s7mapoverlay` som tidigare användes för att formatera bildschemaikoner är nu föråldrad. använd `s7icon` i stället.
+>The `s7mapoverlay` Den CSS-klass som tidigare användes för att formatera bildschemaikoner är nu föråldrad. use `s7icon` i stället.
 
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
@@ -39,11 +39,11 @@ Utseendet på bildschemaikonen styrs av följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Bildschemaikoner </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Placera inuti en teckningssprite, om CSS-sprites används. </p> <p>Se även <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-fragment </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -51,7 +51,7 @@ Utseendet på bildschemaikonen styrs av följande CSS-klassväljare:
    <td colname="col2"> <p>Bildschemaikonens bredd i pixlar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Bildschemats ikonhöjd i pixlar. </p> </td> 
   </tr> 
  </tbody> 
@@ -59,7 +59,7 @@ Utseendet på bildschemaikonen styrs av följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Bildschemaikonen stöder attributväljaren `state`, som du kan använda för att tillämpa olika skal på ikonlägena `default` och `active`.
+>Bildschemaikonen har stöd för `state` attributväljaren, som du kan använda för att använda olika skal på ikonlägena för `default` och `active`.
 
 Exempel - ställ in en bildschemaikon på 28 x 28 pixlar som visar en annan bild för vart och ett av de två olika ikonlägena.
 
@@ -77,7 +77,7 @@ opacity: 1;
 }
 ```
 
-Se även [Stöd för bildschema](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-image-map-support.md#concept-28759efae5014a1fa8b0fb14dc26812a).
+Se även [Stöd för bildscheman](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-image-map-support.md#concept-28759efae5014a1fa8b0fb14dc26812a).
 
 Utseendet på bildschemaområdet styrs med följande CSS-klassväljare:
 
@@ -94,21 +94,21 @@ Utseendet på bildschemaområdet styrs med följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background </span> </p> </td> 
    <td colname="col2"> <p> Fyllningsfärg för bildschemaområde. </p> <p>Anges i formatet #RRGGBB, RGB(R,G,B) eller RGBA(R,G,B,A). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Fyllningsfärg för bildschemaområde. </p> <p>Anges i formatet #RRGGBB, RGB(R,G,B) eller RGBA(R,G,B,A). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
-   <td colname="col2"> <p> Områdesformat för bildschemat. </p> <p>Anges som <span class="codeph"> <span class="varname"> bredd </span> heldragen <span class="varname"> färg </span> </span>, där <span class="codeph"> bredd </span> </span> uttrycks i pixlar och <span class="codeph"> <span class="varname"> färg </span> </span> anges som #RRGGBB, RGB(R,G,B) eller RGBA(R,G,B,A).<span class="varname"> </span></p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col2"> <p> Områdesformat för bildschemat. </p> <p>Anges som <span class="codeph"> <span class="varname"> width </span> solid <span class="varname"> färg </span> </span>, där <span class="codeph"> <span class="varname"> width </span> </span> uttrycks i pixlar och <span class="codeph"> <span class="varname"> färg </span> </span> anges som #RRGGBB, RGB(R,G,B) eller RGBA(R,G,B,A). </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exempel - ställ in ett genomskinligt bildschemaområde med `1` pixelsvart kant:
+Exempel: ställa in ett genomskinligt bildschemaområde med `1` svart pixelkantlinje:
 
 ```
 .s7ecatalogsearchviewer .s7imagemapeffect .s7region { 

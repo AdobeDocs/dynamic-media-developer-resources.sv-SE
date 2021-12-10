@@ -1,14 +1,14 @@
 ---
+title: färgruteövertäckning
 description: färgruteövertäckning
 solution: Experience Manager
-title: färgruteövertäckning
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: a4e187d9-b920-4d0d-adaa-ea369c5694fe
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 2%
+source-wordcount: '60'
+ht-degree: 3%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 2%
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
-   <td colname="col2"> <p>Anger visningsprogrammets layout på enheter med pekskärm. När parametern är inställd på <span class="codeph"> 1 </span> visar visningsprogrammet färgrutor under huvudvyn på skrivbordet. på enheter med pekskärm är färgrutorna överlagrade i huvudvyn. </p> <p>När parametern är inställd på <span class="codeph"> 0 </span> återges färgrutor under huvudvyn på alla enhetstyper. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
+   <td colname="col2"> <p>Anger visningsprogrammets layout på enheter med pekskärm. När parametern är inställd på <span class="codeph"> 1 </span>visas färgrutorna under huvudvyn på skrivbordet. på enheter med pekskärm visas färgrutor ovanpå huvudvyn. </p> <p>När parametern är inställd på <span class="codeph"> 0 </span>, återges färgrutor under huvudvyn på alla enhetstyper. </p> </td> 
   </tr> 
  </tbody> 
 </table>

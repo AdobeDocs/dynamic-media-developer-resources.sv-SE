@@ -1,13 +1,13 @@
 ---
+title: Sökresultatpanel
 description: Sökresultatpanelen består av sökrutan högst upp och huvudområdet där informationsmeddelanden eller sökresultat visas.
 solution: Experience Manager
-title: Sökresultatpanel
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: ffbbc2ae-60da-4c3d-a350-6dbcb64e189d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '925'
 ht-degree: 0%
 
 ---
@@ -35,17 +35,17 @@ När panelen är aktiv visas visningsprogrammets användargränssnitt med en hal
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Övertäckningens färg. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opacitet  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opacitet </span> </p> </td> 
    <td colname="col2"> <p>Färgens opacitet. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Sökresultatpanelen upptar alltid alla tillgängliga höjder för visningsprogrammet. Du kan dock konfigurera bredden. Du kan ange bredden till ett absolut pixelvärde, vilket är standardinställningen för brytpunkter i mellanstorlek och stor storlek. Du kan också ange bredden till 100 % så att sökresultatpanelen upptar hela visningsområdet. Panelbredden styrs av följande CSS-klassväljare:
+Sökresultatpanelen upptar alltid alla tillgängliga höjder för visningsprogrammet. Du kan dock konfigurera bredden. Du kan ange bredden till ett absolut pixelvärde, vilket är standardinställningen för mellanstora och stora brytpunkter. Du kan också ange bredden till 100 % så att sökresultatpanelen upptar hela visningsområdet. Panelbredden styrs av följande CSS-klassväljare:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchresultspace
@@ -62,7 +62,7 @@ Sökresultatpanelen upptar alltid alla tillgängliga höjder för visningsprogra
  </tbody> 
 </table>
 
-Exempel - om du vill ställa in en 250 pixlar bred sökresultatpanel på stora och medelstora brytpunkter och använda en panel i full storlek på en liten brytpunkt:
+Exempel - om du vill ställa in en 250 pixelbred sökresultatpanel på stora och medelstora brytpunkter och använda en panel i full storlek på en brytpunkt i liten storlek:
 
 ```
 .s7ecatalogsearchviewer.s7size_large .s7searchpanel .s7searchresultspanel, .s7ecatalogsearchviewer.s7size_medium .s7searchpanel .s7searchresultspanel { 
@@ -84,7 +84,7 @@ Den övre delen av sökresultatpanelen är dedikerad till sökrutan. Utfyllnaden
 <table id="table_A1B96108542742DC8DCBCC9064F9E90B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> utfyllnad  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> utfyllnad </span> </p> </td> 
    <td colname="col2"> <p> Utfyllnad runt inmatningsrutan. </p> </td> 
   </tr> 
  </tbody> 
@@ -101,23 +101,23 @@ Sökindatafältet styrs av följande CSS-klassväljare:
 <table id="table_9FB5E89847BF4C889DC22AD7E842C0F7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Höjden på sökinmatningsfältet. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-left  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-left </span> </p> </td> 
    <td colname="col2"> <p> Den inre utfyllnaden mellan inmatningsfältets gränser och inmatningstexten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Kant för sökinmatningsfältet. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal </span> </p> </td> 
    <td colname="col2"> <p>Marginal för sökinmatningsfältet </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Storlek på textteckensnittet. </p> </td> 
   </tr> 
  </tbody> 
@@ -144,33 +144,33 @@ Sökknappen till vänster om sökinmatningsfältet i form av &quot;lookglass&quo
 <table id="table_CDD818B40BB1416CB47B7C52F799DE0C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Bredd på indataknappen för sökning. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Höjden på indataknappen för sökning. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>URL:en till ikonbilden för "lookglass". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-size </span> </p> </td> 
    <td colname="col2"> <p>Storleken på ikonen för "lookglass". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Kant på indataknappen för sökning. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal </span> </p> </td> 
    <td colname="col2"> <p>Marginal för sökknappen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exempel - för att ställa in en sökknapp med 26 x 26 pixlar &quot;look glass&quot;-ikon; 30 pixlar stor med en kant på 1 pixel:
+Exempel - Om du vill ställa in en sökknapp med 26 x 26 pixlar &quot;look glass&quot;-ikon, 30 pixlar stor med en kant på 1 pixel:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinputbutton { 
@@ -183,7 +183,7 @@ Exempel - för att ställa in en sökknapp med 26 x 26 pixlar &quot;look glass&q
 }
 ```
 
-Sökresultatpanelen kan visa en textfråga när funktionen anropas för första gången. Det visar också ett meddelande för användaren när sökningen inte gav några resultat. I samtliga fall visas texten i huvuddelen av sökresultatpanelen och styrs av följande CSS-klassväljare:
+Sökresultatpanelen kan visa en textfråga när funktionen anropas för första gången. Dessutom visas ett meddelande när en användares sökning inte gav några resultat. I samtliga fall visas texten i huvuddelen av sökresultatpanelen och styrs av följande CSS-klassväljare:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinfo
@@ -194,19 +194,19 @@ Sökresultatpanelen kan visa en textfråga när funktionen anropas för första 
 <table id="table_1DF5A12A21584FCC8C25F170078FEFE6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> färg  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> färg </span> </p> </td> 
    <td colname="col2"> <p> Textens färg. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Namn på textteckensnitt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-align  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-align </span> </p> </td> 
    <td colname="col2"> <p>Vågrät textjustering. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Storlek på teckensnittstext. </p> </td> 
   </tr> 
  </tbody> 
@@ -214,11 +214,11 @@ Sökresultatpanelen kan visa en textfråga när funktionen anropas för första 
 
 >[!NOTE]
 >
->Den här textpanelen har stöd för attributväljaren `state`, som kan användas för att tillämpa olika format på olika textmeddelanden. `state='prompt'` motsvarar i synnerhet den textprompt som visas när panelen anropas för första gången; `state='results'` motsvarar texten med information om sökträffar; och `state='no_results'` motsvarar den text som visas när sökfrågan inte returnerade några resultat.
+>Den här textpanelen har stöd för `state` attributväljare, som kan användas för att tillämpa olika format på olika textmeddelanden. I synnerhet `state='prompt'` motsvarar den textprompt som visas när panelen anropas för första gången. The `state='results'` motsvarar texten med information om sökträffar. Och slutligen `state='no_results'` motsvarar den text som visas när sökfrågan inte gav några resultat.
 
-Meddelandetexten kan lokaliseras. Mer information finns i [Lokalisering av element i användargränssnittet](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+Meddelandetexten kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
 
-Exempel - för att ställa in en textpanel som använder ett grått teckensnitt på 18 pixlar:
+Exempel - Så här ställer du in en textpanel som använder ett grått 18-pixelsteckensnitt:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinfo { 
@@ -238,13 +238,13 @@ Sökresultaten återges som en enda kolumn eller som en enda rad med miniatyrbil
 <table id="table_26974E509F6943BB98CBC1E4BAE62D68"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal  </span> </p> </td> 
-   <td colname="col2"> <p> Storleken på den lodräta marginalen runt varje miniatyrbild. Det faktiska mellanrummet för miniatyrbilder är lika med summan av de övre och nedre marginalerna som angetts för <span class="codeph"> .s7miniatyrcell </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal </span> </p> </td> 
+   <td colname="col2"> <p> Storleken på den lodräta marginalen runt varje miniatyrbild. Faktiskt avstånd för miniatyrbilder är lika med summan av de övre och nedre marginalerna som angetts för <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exempel - för att ställa in 10 pixelavstånd:
+Exempel - Så här ställer du in tio pixelavstånd:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7swatches .s7thumbcell { 
@@ -263,15 +263,15 @@ Utseendet på enskilda miniatyrbilder styrs med följande CSS-klassväljare:
 <table id="table_00829E44F75040A4B2AE19ACD550DA1E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Miniatyrens bredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Höjden på miniatyrbilden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Miniatyrens kantlinje. </p> </td> 
   </tr> 
  </tbody> 
@@ -298,21 +298,21 @@ Utseendet på miniatyrbildetiketten styrs av följande CSS-klassväljare:
 <table id="table_CA669F6AE7574FF389BF725B3F768E5E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> färg  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> färg </span> </p> </td> 
    <td colname="col2"> <p> Textfärg. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Namn på textteckensnitt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Storlek på textteckensnitt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exempel - för att ställa in etiketter som använder teckensnittet 12 pixlar, grå, Helvetica:
+Exempel - Så här ställer du in etiketter med 12 pixlar, grå, Helvetica®-teckensnitt:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7swatches .s7label { 
@@ -336,19 +336,19 @@ Det går inte att placera rullningsknappar med CSS-egenskaperna top, left, botto
 <table id="table_11063C7F428D4707A8138F17650F8F5F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Bredd på rullningsknappen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Höjden på rullningsknappen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> Bilden som visas för ett visst knappläge. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Placera inuti en teckningssprite, om CSS-sprites används. </p> <p>Se även <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-fragment </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -356,11 +356,11 @@ Det går inte att placera rullningsknappar med CSS-egenskaperna top, left, botto
 
 >[!NOTE]
 >
->Den här knappen stöder attributväljaren `state`, som kan användas för att tillämpa olika skal på knapplägena `"up"`, `"down"`, `"over"` och `"disabled"`.
+>Den här knappen har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på `"up"`, `"down"`, `"over"`och `"disabled"` knapplägen.
 
-Knappverktygstipsen kan lokaliseras. Mer information finns i [Lokalisering av element i användargränssnittet](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+Knappverktygstipsen kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
 
-Exempel - för att ställa in en rullningsknapp som är 125 x 35 pixlar och har olika teckningar för varje läge:
+Exempel - Så här ställer du in en rullningsknapp som är 125 x 35 pixlar och har olika teckningar för varje läge:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7scrollupbutton { 

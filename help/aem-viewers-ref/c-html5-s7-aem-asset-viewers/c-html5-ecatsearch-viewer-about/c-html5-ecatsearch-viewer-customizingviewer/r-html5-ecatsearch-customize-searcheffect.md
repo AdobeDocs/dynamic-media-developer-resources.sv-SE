@@ -1,13 +1,13 @@
 ---
+title: Sökeffekt
 description: Visningsprogrammet visar sökresultatområden över huvudvyn så att ord eller fraser som finns i katalogen markeras.
 solution: Experience Manager
-title: Sökeffekt
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 3591edb0-4b0a-4761-af87-c372132c5138
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Utseendet på sökresultatregioner styrs med följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background </span> </p> </td> 
    <td colname="col2"> <p>Bakgrund för sökresultatområdet. </p> </td> 
   </tr> 
  </tbody> 

@@ -1,13 +1,13 @@
 ---
+title: Favoriter, effekt
 description: Visningsprogrammet visar Favoriter-ikoner över huvudvyn på platser där det ursprungligen lades till av användaren.
 solution: Experience Manager
-title: Favoriter, effekt
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 7603c873-a2d1-4a24-85a6-8e56a1f207de
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -29,11 +29,11 @@ Utseendet på Favorit-ikonen styrs av följande CSS-klassväljare:
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> Bilden som visas för ikonen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Placera inuti en teckningssprite, om CSS-sprites används. </p> <p>Se även <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-fragment </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -41,7 +41,7 @@ Utseendet på Favorit-ikonen styrs av följande CSS-klassväljare:
    <td colname="col2"> <p>Ikonens bredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Ikonens höjd. </p> </td> 
   </tr> 
  </tbody> 
@@ -57,20 +57,20 @@ Exempel - ställ in en ikon med 36 x 36 pixlar för Favoriter.
 }
 ```
 
-På stationära datorer har komponenten stöd för attributväljaren `cursortype` som du kan använda för klassen `.s7favoriteseffect` och styr typen av markör baserat på den valda användaråtgärden. Följande `cursortype`-värden stöds:
+På datorer har komponenten stöd för `cursortype` attributväljaren som du kan använda för `.s7favoriteseffect` och styr typen av markör baserat på den valda användaråtgärden. Följande `cursortype` värden stöds:
 
 <table id="table_71F8F333909247E4ACFEBDE3A1370EAB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mode_add  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mode_add </span> </p> </td> 
    <td colname="col2"> <p>Den användare som visas lägger till en ny Favorit-ikon. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mode_remove  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mode_remove </span> </p> </td> 
    <td colname="col2"> <p>Den användare som visas tar bort en befintlig Favorit-ikon. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mode_view  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mode_view </span> </p> </td> 
    <td colname="col2"> <p>Visas i normalläge när favoritredigering inte är aktiv. </p> </td> 
   </tr> 
  </tbody> 

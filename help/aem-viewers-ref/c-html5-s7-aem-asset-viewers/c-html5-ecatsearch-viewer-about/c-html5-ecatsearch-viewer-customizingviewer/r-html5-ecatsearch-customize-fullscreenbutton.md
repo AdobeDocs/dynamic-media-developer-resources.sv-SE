@@ -1,13 +1,13 @@
 ---
+title: Helskärmsknapp
 description: Gör att visningsprogrammet går in i eller avslutar helskärmsläget när användaren väljer det. Den här knappen visas i huvudkontrollfältet. Den här knappen visas inte om visningsprogrammet fungerar i popup-läge och systemet inte stöder helskärmsläge. Du kan ändra storlek, skal och placera knappen efter CSS.
 solution: Experience Manager
-title: Helskärmsknapp
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: a4b6fdc0-1047-46c6-bf77-4536819b7fcd
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Knappens utseende styrs med följande CSS-klassväljare:
 
 Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
 
-Exempel - om du vill ställa in en helskärmsknapp som är 28 x 28 pixlar, placerad 4 pixlar från nederkanten och 5 pixlar från den högra kanten av huvudkontrollfältet, och visa en bild för var och en av de fyra olika knapplägena när den är markerad eller inte är markerad.
+Exempel - Om du vill ställa in en helskärmsknapp som är 28 x 28 pixlar och placerad 4 pixlar från nederkanten och 5 pixlar från den högra kanten av huvudkontrollfältet. Och slutligen, visar en annan bild för vart och ett av de fyra olika knapplägena när de är markerade eller inte markerade.
 
 ```
 .s7ecatalogsearchviewer .s7fullscreenbutton { 

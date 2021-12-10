@@ -1,13 +1,13 @@
 ---
+title: Stöd för Adobe Analytics tracking
 description: Stöd för Adobe Analytics tracking
 solution: Experience Manager
-title: Stöd för Adobe Analytics tracking
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 5f927a4b-b9c8-4750-9d1c-c252d87fd236
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 ## Spåra direkt {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-Videovisningsprogrammet har stöd för [!DNL Adobe Analytics]-spårning som är färdig. Om du vill aktivera spårning skickar du rätt namn på företagets förinställning som `config2`-parameter.
+Video Viewer har stöd för [!DNL Adobe Analytics] spårning direkt. Om du vill aktivera spårning skickar du rätt namn på företagets förinställning som `config2` parameter.
 
 Visningsprogrammet skickar även en enda HTTP-begäran för spårning till den konfigurerade Image Server med information om visningsprogramtyp och version.
 
 ## Anpassad spårning {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Om du vill integrera med analyssystem från tredje part måste du lyssna på `trackEvent`-återanropet för visningsprogrammet och bearbeta `eventInfo`-argumentet för återanropsfunktionen efter behov. Följande kod är ett exempel på en sådan hanterarfunktion:
+För att kunna integreras med analyssystem från tredje part måste man lyssna på `trackEvent` återanrop till visningsprogrammet och bearbeta `eventInfo` vid behov callback-funktionens argument. Följande kod är ett exempel på en sådan hanterarfunktion:
 
 ```
 var zoomViewer = new s7viewers.ZoomViewer({ 
@@ -57,23 +57,23 @@ Visningsprogrammet spårar följande SDK-användarhändelser:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LADDA  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LADDA </span> </p> </td> 
    <td colname="col2"> <p>visningsprogrammet läses in först. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SWAP  </span> </p> </td> 
-   <td colname="col2"> <p>en resurs byts ut i visningsprogrammet med hjälp av API:t <span class="codeph"> setAsset() </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
+   <td colname="col2"> <p>en resurs byts ut i visningsprogrammet med <span class="codeph"> setAsset() </span> API. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ZOOMA  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ZOOMA </span> </p> </td> 
    <td colname="col2"> <p> en bild zoomas in. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PAN  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PAN </span> </p> </td> 
    <td colname="col2"> <p>en bild är panorerad. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FÄRGRUTA  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FÄRGRUTA </span> </p> </td> 
    <td colname="col2"> <p> en bild ändras genom att man klickar eller trycker på en färgruta. </p> </td> 
   </tr> 
  </tbody> 
