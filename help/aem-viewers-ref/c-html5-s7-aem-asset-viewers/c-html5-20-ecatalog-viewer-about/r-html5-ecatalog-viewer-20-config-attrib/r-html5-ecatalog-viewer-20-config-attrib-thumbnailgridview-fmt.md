@@ -1,13 +1,13 @@
 ---
+title: ThumbnailGridView.fmt
 description: ThumbnailGridView.fmt
 solution: Experience Manager
-title: ThumbnailGridView.fmt
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 916ee5d1-e398-4923-9107-96f649033298
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '65'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td> <p>Anger det bildformat som komponenten använder för att läsa in bilder från Image Server. Det kan vara vilket värde som helst som Image Server och klientwebbläsaren stöder. Om det angivna formatet slutar med <span class="codeph"> -alpha</span> återges bilderna som genomskinligt innehåll av komponenten. För alla andra bildformat hanterar komponenten bilder som ogenomskinliga. </p> </td> 
+   <td> <p>Anger det bildformat som komponenten använder för att läsa in bilder från Image Server. Det kan vara vilket värde som helst som Image Server och klientwebbläsaren stöder. Om det angivna formatet slutar med <span class="codeph"> -alpha</span>återger komponenten bilder som genomskinligt innehåll. För alla andra bildformat hanterar komponenten bilder som ogenomskinliga. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,13 +1,13 @@
 ---
+title: Fokusmarkering
 description: Markering av indatafokus som visas runt gränssnittselementet för fokuserade visningsprogram styrs med CSS-klassväljaren.
 solution: Experience Manager
-title: Fokusmarkering
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 31fd8022-0072-4a4c-8947-57858a094f3c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Utseendet styrs med följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> kontur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kontur </span> </p> </td> 
    <td colname="col2"> <p>Fokusmarkeringsstil. </p> </td> 
   </tr> 
  </tbody> 

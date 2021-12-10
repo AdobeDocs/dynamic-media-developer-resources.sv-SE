@@ -1,13 +1,13 @@
 ---
+title: InfoPanelPopup.template
 description: InfoPanelPopup.template
 solution: Experience Manager
-title: InfoPanelPopup.template
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 20618017-2f73-4951-baa9-2063a0f4efcb
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
@@ -29,14 +29,14 @@ ht-degree: 0%
       ]&gt;</code> </p> <p>Syntaxen för innehållsmallen är följande: </p> <p> <code>&lt;info&gt;
       &lt;var&nbsp;name='VAR_NAME'&nbsp;rollover='ROLLOVER_KEY'&gt;&lt;!CDATA[&nbsp;VAR_VALUE&nbsp;]]&gt;
       &lt;![CDATA[&nbsp;TEMPLATE_CONTENT&nbsp;]]&gt;
-      &lt;/info&gt;</code> </p> <p>Det innebär att mallen måste börja med <span class="codeph"> &lt;info&gt;</span>-elementet som kan innehålla <span class="codeph"> &lt;var&gt;</span>-element (valfritt). Själva mallinnehållet <span class="codeph"> TEMPLATE_CONTENT</span> är HTML-text. Innehållsmallen kan dessutom innehålla variabelnamn omgivna av <span class="codeph"> $</span> tecken som ersätts med de variabelvärden som informationsservern returnerar eller med standardvärden. </p> <p>Standardvariabler som definieras i mallen kan antingen vara globala (om rollover-attributet inte har angetts) eller specifika för en viss rollover-nyckel (om rollover-attributet finns). </p> <p>Under mallbearbetningen har variabler som är specifika för rollover-nycklar företräde framför globala variabler. </p> </td> 
+      &lt;/info&gt;</code> </p> <p>Det innebär att mallen måste börja med <span class="codeph"> &lt;info&gt;</span> element som kan innehålla valfri standard <span class="codeph"> &lt;var&gt;</span> -element. själva mallinnehållet, <span class="codeph"> TEMPLATE_CONTENT</span> är HTML text. Innehållsmallen kan dessutom innehålla variabelnamn omgivna av <span class="codeph"> $</span> tecken som ersätts med de variabelvärden som infoservern returnerar eller med standardvärden. </p> <p>Standardvariabler som definieras i mallen kan antingen vara globala (om rollover-attributet inte har angetts) eller specifika för en viss rollover-nyckel (om rollover-attributet finns). </p> <p>Under mallbearbetningen har variabler som är specifika för rollover-nycklar företräde framför globala variabler. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Tänk på att när du konfigurerar Info Panel-popup körs den HTML-kod och JavaScript-kod som skickas till Info-panelen på klientens dator. Kontrollera därför att sådan HTML-kod och JavaScript-kod är säkra.
+>När du konfigurerar popup-rutan för panelen Info körs HTML-koden och JavaScript-koden som skickas till panelen Info på klientens dator. Se därför till att sådan HTML-kod och JavaScript-kod är skyddade.
 
 ## Egenskaper {#section-6dd7785357d740d095fa9f7fd0f67da4}
 
@@ -48,6 +48,6 @@ Ingen.
 
 ## Exempel {#section-16d184665c484964af9a22f79ff3f840}
 
-Om informationsserversvaret returnerar produktnamnet som variabel `$1$` och produktbild-URL returneras som variabel `$2$`.
+Anta att informationsserversvaret returnerar produktnamnet som variabel `$1$` och produktbild-URL returneras som variabel `$2$`.
 
 `template=<info><![CDATA[Product description:$1$<br>Product image:<img src="$2$">]]></info>`

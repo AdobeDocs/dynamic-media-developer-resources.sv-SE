@@ -1,13 +1,13 @@
 ---
+title: FavoritesView.align
 description: FavoritesView.align
 solution: Experience Manager
-title: FavoritesView.align
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 6d55634e-c09e-4278-a055-f7eb8cdead4e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '74'
 ht-degree: 1%
 
 ---

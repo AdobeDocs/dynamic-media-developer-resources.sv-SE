@@ -1,13 +1,13 @@
 ---
+title: Ange indikator
 description: Uppsättningsindikatorn är en serie punkter som återges ovanpå färgrutor när ett visningsprogram används på en pekenhet. Med punkter kan användarna navigera genom miniatyrsidor när rullningsknappar inte är tillgängliga.
 solution: Experience Manager
-title: Ange indikator
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: b1e6734e-a341-45d7-b771-daeb0527cd00
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -35,13 +35,13 @@ Utseendet på den angivna indikatorbehållaren styrs med följande CSS-klassväl
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Bakgrundsfärgen i hexadecimalt format för uppsättningsindikatorn. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exempel - för att ställa in en inställningsindikator med en vit bakgrund:
+Exempel - Så här skapar du en inställningsindikator med vit bakgrund:
 
 ```
 .s7zoomviewer .s7setindicator { 
@@ -66,31 +66,31 @@ Utseendet på en enskild set-indikatorpunkt styrs med CSS-klassväljaren:
    <td colname="col2"> <p>Bredden på den angivna indikatorpunkten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Höjden på den angivna indikatorpunkten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal-vänster  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal-vänster </span> </p> </td> 
    <td colname="col2"> <p>Vänstermarginal i pixlar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal-top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal-top </span> </p> </td> 
    <td colname="col2"> <p>Övre marginal i pixlar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal-höger  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal-höger </span> </p> </td> 
    <td colname="col2"> <p>Högermarginal i pixlar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal-bottom  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal-bottom </span> </p> </td> 
    <td colname="col2"> <p>Undre marginal i pixlar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
    <td colname="col2"> <p>Kantradie i pixlar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Bakgrundsfärg i hexadecimalt format. </p> </td> 
   </tr> 
  </tbody> 
@@ -98,9 +98,9 @@ Utseendet på en enskild set-indikatorpunkt styrs med CSS-klassväljaren:
 
 >[!NOTE]
 >
->Den angivna indikatorpunkten stöder attributväljaren `state`, som kan användas för att tillämpa olika skal på olika miniatyrlägen. `state="selected"` motsvarar den aktuella sidan med miniatyrbilder och `state="unselected"` motsvarar standardpunktläget.
+>Ange indikatorpunkt för `state` attributväljare, som kan användas för att tillämpa olika skal på olika miniatyrlägen. I synnerhet `state="selected"` motsvarar den aktuella sidan med miniatyrbilder, `state="unselected"` motsvarar standardpunktläget.
 
-Exempel - för att ställa in att indikatorpunkten ska vara 15 x 15 pixlar, med två pixlar i vågrät marginal, fem pixlar i övre marginal, en pixel i nedre marginal, tolv pixlars radie, #D5D3D3 standardfärg och #939393 aktiv färg:
+Exempel - Så här skapar du en angiven indikatorpunkt som ska vara 15 x 15 pixlar, med en vågrät marginal på 2 pixlar, en övre marginal på 5 pixlar, en nedre marginal på 12 pixlar, en radie på 12 pixlar, en standardfärg på #D5D3D3 och en aktiv färg på #9393:
 
 ```
 .s7zoomviewer .s7setindicator .s7dot { 

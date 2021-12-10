@@ -1,13 +1,13 @@
 ---
+title: Zoomvy
 description: Huvudvyn består av den zoombara bilden.
 solution: Experience Manager
-title: Zoomvy
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: ae6c7f6f-5d71-49b5-adbb-782520961acf
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -35,17 +35,17 @@ Visningsområdets utseende styrs av följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Bakgrundsfärg i hexadecimalt format för huvudvyn. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> markör  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> markör </span> </p> </td> 
    <td colname="col2"> <p>Markören visas över huvudvyn. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exempel - för att göra huvudvyn genomskinlig.
+Exempel - Gör huvudvyn genomskinlig.
 
 ```
 .s7zoomviewer .s7zoomview { 
@@ -53,7 +53,7 @@ Exempel - för att göra huvudvyn genomskinlig.
 }
 ```
 
-På stationära datorer har komponenten stöd för `cursortype`-attributväljare som kan tillämpas på klassen `.s7zoomview`. Den styr typen av markör baserat på komponentens tillstånd och användaråtgärder. Följande `cursortype`-värden stöds:
+På stationära datorer har komponenten stöd för `cursortype` attributväljare som kan användas på `.s7zoomview` klassen. Den styr typen av markör baserat på komponentens tillstånd och användaråtgärder. Följande `cursortype` värden stöds:
 
 * `default`
 

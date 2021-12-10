@@ -1,14 +1,14 @@
 ---
+title: ThumbnailGridView.enabledragging
 description: ThumbnailGridView.enabledragging
 solution: Experience Manager
-title: ThumbnailGridView.enabledragging
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: e3615e82-d8f0-427e-ab32-f7d0f2b6cbf3
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 2%
 <table id="table_B1363BFD20204093AAB326A1AB503B93"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> 0|1  </span> </p> </td> 
+   <td> <p> <span class="codeph"> 0|1 </span> </p> </td> 
    <td> <p> Aktiverar eller inaktiverar en användares möjlighet att rulla i färgrutorna med en mus eller genom att använda pekgester </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> overdragvalue  </span> </span> </p> </td> 
-   <td> <p> Funktioner i <span class="codeph"> 0-1 </span>-intervallet. Det är ett <span class="codeph"> % </span>-värde för förflyttning i fel riktning av den faktiska hastigheten. Om den är inställd på <span class="codeph"> 1 </span> flyttas den med musen. Om det är inställt på <span class="codeph"> 0 </span> kan du inte gå i fel riktning alls. </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> overdragvalue </span> </span> </p> </td> 
+   <td> <p> Funktioner i <span class="codeph"> 0-1 </span> omfång. Det är en <span class="codeph"> % </span> värde för rörelse i fel riktning för den faktiska hastigheten. Om den är inställd på <span class="codeph"> 1 </span>flyttas den med musen. Om den är inställd på <span class="codeph"> 0 </span>kan du inte gå åt fel håll. </p> </td> 
   </tr> 
  </tbody> 
 </table>
