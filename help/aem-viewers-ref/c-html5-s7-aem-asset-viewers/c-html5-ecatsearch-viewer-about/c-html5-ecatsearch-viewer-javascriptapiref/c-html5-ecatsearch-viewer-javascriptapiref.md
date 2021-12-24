@@ -1,22 +1,22 @@
 ---
+title: JavaScript API-referens för eCatalog Search Viewer
 description: Huvudklassen i eCatalog Search Viewer är eCatalogSearchViewer. Den deklareras i s7viewers namnutrymme. Detta JavaScript-API omfattar konstruktor, metoder och återanrop för just den här klassen.
 solution: Experience Manager
-title: Javascript API-referens för eCatalog Search Viewer
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 11436c4f-acd4-4328-a3de-cc00a80cae2b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 632b8255a60ad211d86443d883b724e19b137b47
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
 
-# Javascript API-referens för eCatalog Search Viewer{#javascript-api-reference-for-ecatalog-search-viewer}
+# JavaScript API-referens för eCatalog Search Viewer{#javascript-api-reference-for-ecatalog-search-viewer}
 
 Huvudklassen i eCatalog Search Viewer är eCatalogSearchViewer. Den deklareras i s7viewers namnutrymme. Detta JavaScript-API omfattar konstruktor, metoder och återanrop för just den här klassen.
 
-I alla följande exempel står `<instance>` för det faktiska namnet på JavaScript-visningsobjektet som har initierats från klassen `s7viewers.eCatalogSearchViewer`.
+I alla följande exempel `<instance>` står för det faktiska namnet på JavaScript-visningsobjektet som instansieras från `s7viewers.eCatalogSearchViewer` klassen.
 
 * [dispose](r-html5-ecatsearch-javascriptapiref-dispose.md)
 * [eCatalogSearchViewer](r-html5-ecatsearch-javascriptapiref-ecatalogsearchviewer.md)
