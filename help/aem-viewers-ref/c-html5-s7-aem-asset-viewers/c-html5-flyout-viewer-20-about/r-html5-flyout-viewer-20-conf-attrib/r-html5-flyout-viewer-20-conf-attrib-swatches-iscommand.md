@@ -1,13 +1,13 @@
 ---
+title: Swatches.iscommand
 description: Swatches.iscommand
 solution: Experience Manager
-title: Swatches.iscommand
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Flyout
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: ed587082-3306-4914-916f-db37a823e199
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '61'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span> </span> </p> </td> 
-   <td colname="col2"> <p> Kommandosträngen Bildrutehantering som används för alla färgrutor. Om den anges i URL:en måste du HTTP-koda alla förekomster av <span class="codeph"> &amp;</span> och <span class="codeph"> =</span> som <span class="codeph"> %26</span> respektive <span class="codeph"> %3D</span>. </p> <p> <p>Obs!  Kommandon för att ändra bildstorlek stöds inte. </p> </p> </td> 
+   <td colname="col2"> <p> Kommandosträngen Bildrutehantering som används för alla färgrutor. Om den anges i URL:en måste du se till att du kodar alla förekomster av <span class="codeph"> &amp;</span> och <span class="codeph"> =</span> as <span class="codeph"> %26</span> och <span class="codeph"> %3D</span>, respektive. </p> <p> <p>Obs! Kommandon för att ändra bildstorlek stöds inte. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,20 +1,20 @@
 ---
-description: Färgrutor består av en rad med miniatyrbilder med valfria rullningsknappar på vänster och höger sida.
-solution: Experience Manager
 title: Färgrutor
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Textbunden zoom
+description: Färgrutor består av en rad med miniatyrbilder med rullningsknappar till vänster och till höger.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: bd385b06-b8d6-4c6e-83fd-65a3d1c105c5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
 
 # Färgrutor{#swatches}
 
-Färgrutor består av en rad med miniatyrbilder med valfria rullningsknappar på vänster och höger sida.
+Färgrutor består av en rad med miniatyrbilder med rullningsknappar till vänster och till höger.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -41,11 +41,11 @@ Utseendet på färgrutebehållaren styrs med följande CSS-klassväljare:
    <td colname="col2"> <p> Bredden på färgrutorna. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Höjden på färgrutorna. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> nederkant  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> nederkant </span> </p> </td> 
    <td colname="col2"> <p> Den lodräta färgrutans förskjutning i förhållande till visningsprogrammets behållare. </p> </td> 
   </tr> 
  </tbody> 
@@ -77,13 +77,13 @@ Avståndet mellan miniatyrbilder av färgrutor styrs med CSS-klassväljaren:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal  </span> </p> </td> 
-   <td colname="col2"> <p> Storleken på den vågräta och lodräta marginalen runt varje miniatyrbild. Det faktiska mellanrummet för miniatyrbilder är lika med summan av vänster och höger marginaluppsättning för <span class="codeph"> .s7miniatyrcell </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal </span> </p> </td> 
+   <td colname="col2"> <p> Storleken på den vågräta och lodräta marginalen runt varje miniatyrbild. Det faktiska mellanrummet för miniatyrbilder är lika med summan av vänster och höger marginaluppsättning för <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exempel - för att ställa in mellanrummet så att det är 10 pixlar både lodrätt och vågrätt:
+Exempel - om du vill ange mellanrum som är tio pixlar både lodrätt och vågrätt:
 
 ```
 .s7flyoutviewer .s7swatches .s7thumbcell { 
@@ -108,15 +108,15 @@ Utseendet på enskilda miniatyrbilder styrs med följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p> Bredden på miniatyrfärgrutorna. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Höjden på miniatyrfärgrutorna. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Kanten på miniatyrfärgrutorna. </p> </td> 
   </tr> 
  </tbody> 
@@ -124,7 +124,7 @@ Utseendet på enskilda miniatyrbilder styrs med följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Miniatyrbilden stöder attributväljaren `state`, som används för att tillämpa olika skal på olika miniatyrlägen. `state="selected"` motsvarar i synnerhet miniatyrbilden för den bild som visas i huvudvyn, `state="default"` motsvarar resten av miniatyrbilderna och `state="over"` används vid hovring med musen.
+>Miniatyrbilden har stöd för `state` attributväljaren, som används för att tillämpa olika skal på olika miniatyrlägen. I synnerhet `state="selected"` motsvarar miniatyrbilden för den bild som visas i huvudvyn, `state="default"` motsvarar resten av miniatyrbilderna, och `state="over"` används vid hovring av musen.
 
 Exempel - Om du vill ställa in miniatyrbilder som är 56 x 56 pixlar har du en ljusgrå standardkant och en mörkgrå markerad kant:
 
@@ -150,7 +150,7 @@ Utseendet på vänster och höger rullningsknapp styrs av följande CSS-klassvä
 .s7flyoutviewer .s7swatches .s7scrollrightbutton
 ```
 
-Det går inte att placera rullningsknappar med CSS-egenskaperna `top`, `left`, `bottom` och `right`. I stället placerar visningsprogramlogiken dem automatiskt.
+Det går inte att placera rullningsknappar med CSS `top`, `left`, `bottom`och `right` egenskaper. I stället placerar visningsprogramlogiken dem automatiskt.
 
 <table id="table_F957367566C542829E2F6D296F9DAAC5"> 
  <thead> 
@@ -161,19 +161,19 @@ Det går inte att placera rullningsknappar med CSS-egenskaperna `top`, `left`, `
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p> Bredden på rullningsknappen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Höjden på rullningsknappen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Bilden som visas för ett visst knappläge. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Placera inuti en teckningssprite, om CSS-sprites används. </p> <p>Se <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/c-html5-inlinezoom-viewer-customizingviewer.md#section-b0af39db1af74561aea9fddcc8cdc2c7" format="dita" scope="local"> CSS-fragment </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -181,9 +181,9 @@ Det går inte att placera rullningsknappar med CSS-egenskaperna `top`, `left`, `
 
 >[!NOTE]
 >
->Den här knappen stöder attributväljaren `state`, som används för att tillämpa olika skal på knapplägena `up`, `down`, `over` och `disabled`.
+>Den här knappen har stöd för `state` attributväljare, som används för att tillämpa olika skal på knapplägen `up`, `down`, `over`och `disabled`.
 
-Knappverktygstipsen kan lokaliseras. Mer information finns i [Lokalisering av element i användargränssnittet](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27).
+Knappverktygstipsen kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) för mer information.
 
 Exempel - för att ställa in rullningsknappar som är 56 x 56 pixlar och har olika teckningar för varje läge:
 

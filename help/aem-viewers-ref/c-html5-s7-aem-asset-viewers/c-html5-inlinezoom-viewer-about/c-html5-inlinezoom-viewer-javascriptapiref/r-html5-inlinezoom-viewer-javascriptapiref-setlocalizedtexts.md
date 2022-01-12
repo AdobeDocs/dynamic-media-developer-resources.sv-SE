@@ -1,13 +1,13 @@
 ---
+title: setLocalizedTexter
 description: JavaScript API-referens för Inline Zoom Viewer.
 solution: Experience Manager
-title: setLocalizedTexter
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Textbunden zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: a0d602f5-e698-4dad-af95-70ef5ef88af6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,8 @@ JavaScript API-referens för Inline Zoom Viewer.
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo  </span> </span> </p> </td> 
-   <td colname="col2"> <p> { <span class="codeph"> Objektet </span>} JSON-objekt med lokaliseringsdata. </p> <p>Mer information finns i <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27" format="dita" scope="local"> Lokalisering av användargränssnittselement </a>. </p> <p>Mer information om objektets innehåll finns i <i>användarhandboken för SDK för visningsprogrammet</i> och exemplet. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo </span> </span> </p> </td> 
+   <td colname="col2"> <p> { <span class="codeph"> Objekt </span>} JSON-objekt med lokaliseringsdata. </p> <p>Se <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27" format="dita" scope="local"> Lokalisering av användargränssnittselement </a> för mer information. </p> <p>Se <i>Användarhandbok för Viewer SDK</i> och exemplet innehåller mer information om objektets innehåll. </p> </td> 
   </tr> 
  </tbody> 
 </table>

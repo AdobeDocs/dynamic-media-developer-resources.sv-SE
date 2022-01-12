@@ -1,29 +1,29 @@
 ---
+title: FlyoutZoomView.imagereload
 description: FlyoutZoomView.imagereload
 solution: Experience Manager
-title: FlyoutZoomView.imagereload
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Textbunden zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 84dd1e40-2ab8-4356-9eff-8766432b539b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '121'
 ht-degree: 1%
 
 ---
 
 # FlyoutZoomView.imagereload{#flyoutzoomview-imagereload}
 
-` [FlyoutZoomView.|<containerId>_flyout.]imagereload=0|1[,breakpoint, *``*[; *`bredd`*]]`
+` [FlyoutZoomView.|<containerId>_flyout.]imagereload=0|1[,breakpoint, *`width`*[; *`width`*]]`
 
 <table id="table_7DA232CB62134078B788B9AB1452F363"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
-   <td colname="col2"> <p> Konfigurerar hur komponenten hämtar nya bilder för huvud- och utfällningsvyn när storleken ändras. </p> <p>Ange <span class="codeph"> 0 </span>, komponenten läser inte in nya bilder vid storleksändring och bildupplösningen i den utfällbara vyn ändras inte. </p> <p>Om du anger <span class="codeph"> 1 </span> kan du ange en eller flera breddbrytpunkter för bilden som läses in i huvudvyn. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p> Konfigurerar hur komponenten hämtar nya bilder för huvud- och utfällningsvyn när storleken ändras. </p> <p>Ange till <span class="codeph"> 0 </span>läser komponenten inte in nya bilder när du ändrar storlek och bildupplösningen i den utfällbara vyn ändras inte. </p> <p>Ange till <span class="codeph"> 1 </span> I kan du ange en eller flera breddbrytpunkter för bilden som läses in i huvudvyn. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> brytpunkt,  <span class="varname"> bredd  </span>;  <span class="varname"> width  </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> brytpunkt, <span class="varname"> width </span>; <span class="varname"> width </span> </span> </p> </td> 
    <td colname="col2"> <p>Breddbrytpunkter för bilden som läses in i huvudvyn. </p> <p>Komponenten använder alltid den bästa passningsstorleken för den inledande inläsningen. När du har ändrat storlek hämtas alltid bilden i huvudvyn med den bredd som är lika med den närmaste större brytpunkten och som är nedskalad på klienten. </p> </td> 
   </tr> 
  </tbody> 

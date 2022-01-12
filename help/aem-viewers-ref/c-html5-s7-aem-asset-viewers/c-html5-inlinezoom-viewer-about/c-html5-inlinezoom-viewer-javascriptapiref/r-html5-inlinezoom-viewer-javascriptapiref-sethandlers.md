@@ -1,13 +1,13 @@
 ---
+title: setHandlers
 description: JavaScript API-referens för Inline Zoom Viewer.
 solution: Experience Manager
-title: setHandlers
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Textbunden zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 233fadf5-4b09-406d-959b-c2c9c4524021
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,8 @@ Anger noll eller flera callback-hanterare. Ett anrop till den här metoden skriv
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> hanterare  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {Object}  </span> JSON-objekt med återanrop för visningsprogramhändelser, där egenskapsnamnet är namnet på den visningsprogramhändelse som stöds och egenskapsvärdet är en JavaScript-funktionsreferens till ett lämpligt återanrop. </p> <p>Mer information om visningsprogramhändelser finns i <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-event-callbacks.md#concept-53eb01d28189437790268da4929f2a10" format="dita" scope="local"> Händelseåteranrop </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> hanterare </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {Object} </span> JSON-objekt med återanrop för visningsprogramhändelser, där egenskapsnamnet är namnet på den visningsprogramhändelse som stöds och egenskapsvärdet är en JavaScript-funktionsreferens till ett lämpligt återanrop. </p> <p>Se <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-event-callbacks.md#concept-53eb01d28189437790268da4929f2a10" format="dita" scope="local"> Händelseåteranrop </a> för mer information om visningsprogramhändelser. </p> </td> 
   </tr> 
  </tbody> 
 </table>

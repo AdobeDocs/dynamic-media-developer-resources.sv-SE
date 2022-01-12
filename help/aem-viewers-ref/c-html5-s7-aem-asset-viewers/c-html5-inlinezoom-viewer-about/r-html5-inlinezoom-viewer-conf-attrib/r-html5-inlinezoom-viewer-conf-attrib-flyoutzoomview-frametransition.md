@@ -1,13 +1,13 @@
 ---
+title: FlyoutZoomView.frametransition
 description: FlyoutZoomView.frametransition
 solution: Experience Manager
-title: FlyoutZoomView.frametransition
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Textbunden zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 39cb629a-3940-4206-91cd-fe9a9f4d9f75
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '60'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ingen|tona</span> </p> </td> 
-   <td colname="col2"> <p> </p> <p> Anger vilken typ av effekt som används i huvudvyn vid resursändring. </p> <p><span class="codeph"> Om du inte </span> vill ha någon övergång sker ändringen i huvudvyn omedelbart. </p> <p><span class="codeph"> tonar </span> ned tonad övergång där den gamla bilden tonas ut och den nya bilden tonas in </p> <p> </p> </td> 
+   <td colname="col2"> <p> </p> <p> Anger vilken typ av effekt som används i huvudvyn vid resursändring. </p> <p><span class="codeph"> ingen</span> står för ingen övergång, huvudvyändringen sker omedelbart. </p> <p><span class="codeph"> tona</span> aktiverar övertoningsövergång där den gamla bilden tonas ut och den nya bilden tonas in </p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> varaktighet</span></span> </p> </td> 

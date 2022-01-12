@@ -1,20 +1,20 @@
 ---
-description: Huvudvyn består av den statiska bilden, den zoomade bilden som visas i den utfällbara vyn, det markeringsnavigeringsområde som visas över den statiska bilden och det tips som visas ovanpå den statiska bilden.
-solution: Experience Manager
 title: Utfällbar zoomvy
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Flyout
+description: Huvudvyn består av den statiska bilden och den zoomade bilden som visas i den utfällbara vyn. Det består också av markeringsnavigeringsområdet som visas över den statiska bilden, och tipsmeddelandet som visas ovanpå den statiska bilden.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: c04c4b8f-4e63-4e84-98c0-aa0781608130
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
 
 # Utfällbar zoomvy{#flyout-zoom-view}
 
-Huvudvyn består av den statiska bilden, den zoomade bilden som visas i den utfällbara vyn, det markeringsnavigeringsområde som visas över den statiska bilden och det tips som visas ovanpå den statiska bilden.
+Huvudvyn består av den statiska bilden och den zoomade bilden som visas i den utfällbara vyn. Det består också av markeringsnavigeringsområdet som visas över den statiska bilden, och tipsmeddelandet som visas ovanpå den statiska bilden.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -37,7 +37,7 @@ Utseendet på huvudvyn styrs med följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Huvudvyns bakgrundsfärg. </p> </td> 
   </tr> 
  </tbody> 
@@ -68,11 +68,11 @@ Utseendet på den utfällbara vyn styrs av följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vänster  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> vänster </span> </p> </td> 
    <td colname="col2"> <p> Den utfällbara vyns vågräta position i förhållande till huvudvyns övre vänstra hörn. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p> Den utfällbara vyns lodräta position i förhållande till huvudvyns övre vänstra hörn. </p> </td> 
   </tr> 
   <tr> 
@@ -80,11 +80,11 @@ Utseendet på den utfällbara vyn styrs av följande CSS-klassväljare:
    <td colname="col2"> <p> Bredden på den utfällbara vyn. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Höjden på den utfällbara vyn. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Den utfällbara vyns kantlinje. </p> </td> 
   </tr> 
  </tbody> 
@@ -103,7 +103,7 @@ Exempel - om du vill ställa in en utfällbar vy till 600 x 400 pixlar, som visa
 
 **CSS-egenskaper för högdagern i huvudvyn**
 
-Utseendet på högdagern i huvudvyn styrs med följande CSS-klassväljare:
+Utseendet på högdagern i huvudvyn styrs av följande CSS-klassväljare:
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7highlight
@@ -120,15 +120,15 @@ Det går att styra attribut för bakgrund, kant, genomskinlighet och liknande me
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Färgen på högdagern. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opacitet  </span> </p> </td> 
-   <td colname="col2"> <p> Högdageropacitet. </p> <p>I Internet Explorer 8 använder du <span class="codeph"> filter:alpha(opacity-...) ); </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opacitet </span> </p> </td> 
+   <td colname="col2"> <p> Högdageropacitet. </p> <p>För Internet Explorer 8, använd <span class="codeph"> filter:alpha(opacity-...) ); </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Kantmarkeringen. </p> </td> 
   </tr> 
  </tbody> 
@@ -147,7 +147,7 @@ Exempel - för att ställa in grön högdager med 40 % genomskinlighet och en r�
 
 **CSS-egenskaper för markören**
 
-När parametern `highlightmode` är inställd på `cursor` ersätts markeringen i huvudvyn med en markörteckning med fast storlek, som styrs med CSS-klassväljaren:
+När `highlightmode` parametern är inställd på `cursor`, markeringen i huvudvyn ersätts med en markörteckning med fast storlek som styrs av CSS-klassväljaren:
 
 ```
  .s7flyoutviewer .s7flyoutzoomview 
@@ -167,15 +167,15 @@ Tillämpliga CSS-egenskaper är:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Markörgrafik. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Markörbredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Markörhöjd. </p> </td> 
   </tr> 
  </tbody> 
@@ -183,11 +183,11 @@ Tillämpliga CSS-egenskaper är:
 
 >[!NOTE]
 >
->Markören har stöd för attributväljaren `input`, som kan användas för att tillämpa olika markörteckningar och storlekar för olika enheter. `input="mouse"` motsvarar i synnerhet datorsystemen och `input="touch"` motsvarar pekenheterna.
+>Markören har stöd för `input` attributväljare, som kan användas för att använda olika markörteckningar och storlekar för olika enheter. I synnerhet `input="mouse"` motsvarar datorsystemen och `input="touch"` motsvarar touchenheterna.
 
 **CSS-egenskaper för övertäckningen**
 
-När parametern `overlay` är inställd på `1` styrs området runt markeringsramen eller markörbilden med CSS-klassväljaren:
+När `overlay` parametern är inställd på `1`, styrs området runt markeringsramen eller markörbilden med CSS-klassväljaren:
 
 ```
  .s7flyoutviewer .s7flyoutzoomview 
@@ -203,11 +203,11 @@ När parametern `overlay` är inställd på `1` styrs området runt markeringsra
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Övertäckningsfärg. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opacitet  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opacitet </span> </p> </td> 
    <td colname="col2"> <p>Övertäckningsopacitet. </p> </td> 
   </tr> 
  </tbody> 
@@ -221,7 +221,7 @@ Utseendet på tipsmeddelandet styrs av följande CSS-klassväljare:
 .s7flyoutviewer .s7flyoutzoomview .s7tip
 ```
 
-Det går att konfigurera teckensnittsstil, storlek och lodrät förskjutning via CSS. Den vågräta justeringen hanteras emellertid av visningsprogrammets logik. Det går inte att åsidosätta den via CSS med egenskaperna `left` eller `right`.
+Det går att konfigurera teckensnittsstil, storlek, utseende och lodrät förskjutning via CSS. Den vågräta justeringen hanteras emellertid av visningsprogrammets logik. Åsidosätta den via CSS med `left` eller `right` egenskaper stöds inte.
 
 <table id="table_DCF6B69A9D8C4DB7A10C4572F7484799"> 
  <thead> 
@@ -232,43 +232,43 @@ Det går att konfigurera teckensnittsstil, storlek och lodrät förskjutning via
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> nederkant  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> nederkant </span> </p> </td> 
    <td colname="col2"> <p>Förskjutning längst ned i huvudvyn. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> färg  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> färg </span> </p> </td> 
    <td colname="col2"> <p>Textfärg. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Teckensnittsnamn. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Teckenstorlek. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> utfyllnad  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> utfyllnad </span> </p> </td> 
    <td colname="col2"> <p>Utfyllnad runt meddelandetexten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Bakgrundsfyllningsfärg för meddelandetext. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
    <td colname="col2"> <p>Meddelandetextens kantradie i bakgrunden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opacitet  </span> </p> </td> 
-   <td colname="col2"> <p>Meddelandetextens bakgrundsopacitet. </p> <p>Använd <span class="codeph">-filter:alpha(opacity-...) ) </span> för Internet Explorer 8 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opacitet </span> </p> </td> 
+   <td colname="col2"> <p>Meddelandetextens bakgrundsopacitet. </p> <p>För Internet Explorer 8, använd <span class="codeph"> filter:alpha(opacity-..) ) </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Tipsmeddelandet kan lokaliseras. Mer information finns i [Lokalisering av element i användargränssnittet](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27).
+Tipsmeddelandet kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) för mer information.
 
-Exempel - om du vill ställa in ett halvgenomskinligt tips med vitt Arial 12px-teckensnitt, förskjuts 50 pixlar från huvudvyns nederkant, utfyllnad och en rundad kant:
+Exempel - Om du vill ställa in ett halvgenomskinligt tips med vitt Arial® 12-px-teckensnitt, förskjuts 50 pixlar från huvudvyns nederkant, utfyllnad och en rundad kant:
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7tip { 

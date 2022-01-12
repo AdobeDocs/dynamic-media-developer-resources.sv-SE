@@ -1,13 +1,13 @@
 ---
+title: FlyoutZoomView.overlay
 description: FlyoutZoomView.overlay
 solution: Experience Manager
-title: FlyoutZoomView.overlay
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Flyout
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 7fbf24c6-900f-4e94-b879-3a8f95dc5c08
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '104'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Styr högdagerutseendet för huvudvyn när den utfällbara menyn är aktiv. När det är inställt på <span class="codeph"> 0</span> markeras det område som är synligt i det utfällbara fönstret med format som finns i antingen <span class="codeph"> .s7highlight</span> eller <span class="codeph"> .s7cursor</span> CSS-klassnamn (beroende på värdet för <span class="codeph"> highlightmode</span> modifierare). Om <span class="codeph"> 1</span>-komponenten anges som  aktiveras inverterat läge där det område som visas för närvarande antingen är helt genomskinligt (om <span class="codeph"> markeringsläge</span> är inställt på <span class="codeph"> markera</span>) eller formaterat med <span class="codeph"> .s7cursor</span> CSS-klassnamn (i <span class="codeph"> markeringsläge</span> är inställt på <span class="codeph">-markören</span>), men det omgivande området fylls med format som tillhandahålls av <span class="codeph"> .s7overlay</span> CSS-klassnamn. </p> </td> 
+   <td colname="col2"> <p> Styr högdagerutseendet för huvudvyn när den utfällbara menyn är aktiv. När inställt på <span class="codeph"> 0</span>markerar det område som visas i det utfällbara fönstret med hjälp av format från <span class="codeph"> .s7highlight</span> eller av <span class="codeph"> .s7cursor</span> CSS-klassnamn (beroende på värdet på <span class="codeph"> highlightmode</span> modifierare). När inställt på <span class="codeph"> 1</span> -komponenten försätts i "omvänd" läge där det för närvarande visade området antingen är helt genomskinligt (om det är <span class="codeph"> highlightmode</span> är inställd på <span class="codeph"> markera</span>) eller formaterad med <span class="codeph"> .s7cursor</span> CSS-klassnamn (om det är <span class="codeph"> highlightmode</span> är inställd på <span class="codeph"> markör</span>), men det omgivande området fylls med hjälp av format från <span class="codeph"> .s7overlay</span> CSS-klassnamn. </p> </td> 
   </tr> 
  </tbody> 
 </table>

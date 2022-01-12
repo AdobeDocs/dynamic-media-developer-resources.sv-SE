@@ -1,14 +1,14 @@
 ---
+title: FlyoutZoomView.preloadtiles
 description: FlyoutZoomView.preloadtiles
 solution: Experience Manager
-title: FlyoutZoomView.preloadtiles
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Textbunden zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: f50ea45a-afd5-4e4f-967d-c45cecc5fb7b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 2%
+source-wordcount: '60'
+ht-degree: 3%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 2%
 <table id="table_8E44EC404A1A45C59EA1EF2766613930"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
-   <td colname="col2"> <p> Ange <span class="codeph"> 1</span> om du vill aktivera förinläsning av den zoomade bilden, eller ange <span class="codeph"> 0</span> om du vill läsa in zoombilden stegvis efter behov. </p> <p> <p>Obs!  Om du aktiverar det här alternativet kan det leda till betydligt högre bandbreddsanvändning. Den zoomade bilden läses in i sin helhet, även om användaren inte startar en zoomåtgärd. </p> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p> Ange till <span class="codeph"> 1</span> för att aktivera förinläsning av den zoomade bilden, eller inställd på <span class="codeph"> 0</span> om du vill läsa in zoombilden stegvis, efter behov. </p> <p> <p>Obs! Om du aktiverar det här alternativet kan det leda till betydligt högre bandbreddsanvändning. Den zoomade bilden läses in i sin helhet, även om användaren inte startar en zoomåtgärd. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

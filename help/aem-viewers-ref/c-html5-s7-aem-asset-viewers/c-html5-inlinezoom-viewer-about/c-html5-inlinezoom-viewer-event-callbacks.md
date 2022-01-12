@@ -1,13 +1,13 @@
 ---
+title: Händelseåteranrop
 description: Händelseåteranrop
 solution: Experience Manager
-title: Händelseåteranrop
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Textbunden zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: c54c54ae-f98f-4cd4-8c36-c7e2a9f3c6df
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Visningsprogrammet har stöd för JavaScript-händelseåteranrop som webbsidan använder för att spåra visningsprogrammets initieringsprocess eller körningsbeteende.
 
-Återanropshanterare tilldelas genom att händelsenamn och motsvarande hanterarfunktioner med egenskapen `handlers` skickas till JSON-objektet `config` i visningsprogrammets konstruktor. Du kan också använda API-metoden `setHandlers()`.
+Återanropshanterare tilldelas genom att händelsenamn och motsvarande hanterarfunktioner skickas med `handlers` egenskap till `config` JSON-objekt i visningsprogrammets konstruktor. Du kan också använda `setHandlers()` API-metod.
 
 Visningsprogramhändelser som stöds är bland annat följande:
 
-* `initComplete` - utlöses när visningsprograminitieringen är klar och alla interna komponenter skapas, så att det går att använda  `getComponent()` API. Callback-hanteraren tar inga argument.
+* `initComplete` - aktiveras när visningsprograminitieringen är klar och alla interna komponenter skapas, så att det går att använda `getComponent()` API. Callback-hanteraren tar inga argument.
 
 * `trackEvent` - utlöses varje gång en händelse inträffar i visningsprogrammet som kan hanteras av ett händelsespårningssystem, t.ex. Adobe Analytics. Callback-hanteraren har följande argument:
 

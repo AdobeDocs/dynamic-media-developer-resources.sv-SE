@@ -1,20 +1,20 @@
 ---
 title: Panoramavisningsprogram
-description: HTML5 Panoramavy Viewer är ett bildvisningsprogram som visar en panoramabild. Syftet med det här visningsprogrammet är att visa ett sfäriskt panorama, även kallat ekvirektangulär bild. Det har stöd för automatisk panorering och panorering med gyroskopisk rörelse.  Den är utformad för att fungera på stationära datorer och mobila enheter.  Visningsläget Virtuell verklighet är tillgängligt på mobila enheter som stöder det.
+description: HTML5 Panoramavy Viewer är ett bildvisningsprogram som visar en panoramabild. Syftet med det här visningsprogrammet är att visa ett sfäriskt panorama, även kallat ekvirektangulär bild. Det har stöd för automatisk panorering och panorering med gyroskopisk rörelse. Den är utformad för att fungera på stationära datorer och mobila enheter. Visningsläget Virtuell verklighet är tillgängligt på mobila enheter som stöder det.
 keywords: responsiv
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '1961'
+source-wordcount: '1953'
 ht-degree: 0%
 
 ---
 
 # Panorama{#panoramic}
 
-HTML5 Panoramavy Viewer är ett bildvisningsprogram som visar en panoramabild. Syftet med det här visningsprogrammet är att visa ett sfäriskt panorama, även kallat ekvirektangulär bild. Det har stöd för automatisk panorering och panorering med gyroskopisk rörelse.  Den är utformad för att fungera på stationära datorer och mobila enheter.  Visningsläget Virtuell verklighet är tillgängligt på mobila enheter som stöder det.
+HTML5 Panoramavy Viewer är ett bildvisningsprogram som visar en panoramabild. Syftet med det här visningsprogrammet är att visa ett sfäriskt panorama, även kallat ekvirektangulär bild. Det har stöd för automatisk panorering och panorering med gyroskopisk rörelse. Den är utformad för att fungera på stationära datorer och mobila enheter. Visningsläget Virtuell verklighet är tillgängligt på mobila enheter som stöder det.
 
 Se [Systemkrav och krav](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
@@ -27,7 +27,7 @@ Visningstyp 514.
 
 ## Använda panoramavisningsprogram {#section-f21ac23d3f6449ad9765588d69584772}
 
-HTML5 Panoramavy Viewer representerar en JavaScript-huvudfil och en uppsättning hjälpfiler (ett enda JavaScript-skript innehåller alla HTML5 Viewer SDK-komponenter som används av just detta visningsprogram, resurser, CSS) som hämtats av visningsprogrammet under körning.
+HTML5 Panoramavy Viewer representerar en JavaScript-huvudfil och en uppsättning hjälpfiler som hämtats av visningsprogrammet under körning. Uppsättningen med hjälpfiler är en enda JavaScript-uppsättning som inkluderar alla HTML5-visarens SDK-komponenter som används av det här visningsprogrammet, resurser och CSS.
 Panoramaviseringsprogrammet HTML5 kan användas både i popup-läge med en produktionsklar HTML-sida som finns i IS-Viewer eller i inbäddat läge, där det integreras med målwebbsidan med hjälp av dokumenterad API.
 Konfigurationen och skalningen liknar den för de andra visningsprogrammen i HTML5. All skalning kan göras via anpassad CSS.
 
@@ -58,17 +58,17 @@ HTML5 Panoramavy Viewer stöder automatisk panorering och navigering genom att d
 </table>
 
 Visningsprogrammet har stöd för både pekrörelser och musindata på Windows-enheter med pekskärm och mus. Detta stöd är dock begränsat till webbläsarna Chrome, Internet Explorer 11 och Edge.
-Panoramaviseringsprogrammet kan återge panoramabilder i VR-läge (Virtual Reality) genom att ange visningsmodifiering.  När återgivning är aktiverat visas en panoramabild i delade skärmar.  Ett vanligt användningsexempel är att placera bilden i en mobiltelefon som är monterad i ett virtuellt verklighetshuvud och ger separata bilder för varje öga.  Visningsprogrammet svarar på huvudets gyroskopiska rörelser och navigerar genom bilden.
+Panoramaviseringsprogrammet kan återge panoramabilder i VR-läge (Virtual Reality) genom att ange renderingsmodifieraren. När återgivning är aktiverat visas en panoramabild i delade skärmar. Ett vanligt användningsexempel är att placera bilden i en mobiltelefon som är monterad i ett virtuellt verklighetshuvud och ger separata bilder för varje öga. Visningsprogrammet svarar på huvudets gyroskopiska rörelser och navigerar genom bilden.
 
 ## Bädda in panoramavisare för HTML5 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Olika webbsidor har olika behov av visningsprogrammets beteende. Ibland innehåller en webbsida en länk, och om du klickar på länken öppnas visningsprogrammet i ett separat webbläsarfönster. I andra fall kan det vara nödvändigt att bädda in visningsprogrammet direkt på värdsidan. I det senare fallet kan webbsidan ha en statisk layout eller vara&quot;responsiv&quot; och visas på olika enheter eller för olika webbläsarfönsterstorlekar. För att tillgodose dessa behov har visningsprogrammet stöd för tre primära åtgärdslägen: popup-fönster, inbäddning i fast storlek och responsiv inbäddning.
+Olika webbsidor har olika behov av visningsprogrammets beteende. Ibland ger en webbsida en länk. Om du väljer den länken öppnas visningsprogrammet i ett separat webbläsarfönster. I andra fall kan det vara nödvändigt att bädda in visningsprogrammet på värdsidan. I det senare fallet kan webbsidan ha en statisk layout eller vara&quot;responsiv&quot; och visas på olika enheter eller för olika webbläsarfönsterstorlekar. För att tillgodose dessa behov har visningsprogrammet stöd för tre primära åtgärdslägen: popup, inbäddning i fast storlek och responsiv inbäddning.
 
 **Om popup-läge**
 
 I popup-läget öppnas visningsprogrammet i ett separat webbläsarfönster eller på en separat flik. Det tar hela webbläsarfönsterområdet och justeras om webbläsaren ändras eller om enhetens orientering ändras.
 
-Det här läget är det vanligaste för mobila enheter. Webbsidan läser in visningsprogrammet med JavaScript-anropet window.open(), ett korrekt konfigurerat A HTML-element eller något annat lämpligt sätt.
+Det här läget är det vanligaste för mobila enheter. Webbsidan läser in visningsprogrammet med `window.open()` JavaScript-anrop, korrekt konfigurerat A HTML-element eller något annat lämpligt sätt.
 
 Vi rekommenderar att du använder en HTML-sida som inte finns i kartongen för popup-åtgärder. Den kallas [!DNL PanoramicViewer.html] och den finns under [!DNL html5/] undermapp till din standarddistribution av IS-Viewer:
 
@@ -86,16 +86,15 @@ Här är ett exempel på HTML som öppnar visningsprogrammet i det nya fönstret
 
 I det inbäddade läget läggs visningsprogrammet till på den befintliga webbsidan, som kanske redan har kundinnehåll som inte är relaterat till visningsprogrammet. Visningsprogrammet upptar normalt bara en del av webbsidans fastigheter.
 
-Det primära användningsområdet är webbsidor som är orienterade för datorer eller surfplattor, och även responsiva webbsidor som automatiskt anpassar layouten beroende på enhetstyp.
+De viktigaste användningsområdena är webbsidor som är inriktade på datorer eller surfplattor, och även responsiva webbsidor som automatiskt anpassar layouten beroende på enhetstyp.
 
-Inbäddning med fast storlek används när visningsprogrammet inte ändrar sin storlek efter den första inläsningen. Det här är det bästa alternativet för webbsidor med statisk layout.
+Inbäddning med fast storlek används när visningsprogrammet inte ändrar sin storlek efter den första inläsningen. Den här metoden är det bästa alternativet för webbsidor med statisk layout.
 
-Responsiv inbäddning förutsätter att visningsprogrammet kan behöva ändra storlek vid körning som svar på storleksändringen för dess behållar-DIV. Det vanligaste användningsområdet är att lägga till visningsprogram på en webbsida som använder flexibel layout.
+Responsiv inbäddning förutsätter att visningsprogrammet måste ändra storlek vid körning som svar på storleksändringen för dess behållar-DIV. Det vanligaste användningsområdet är att lägga till visningsprogram på en webbsida som använder flexibel layout.
 
-I svarsläge beter sig visningsprogrammet olika beroende på hur DIV för behållaren på webbsidan anpassas. Om webbsidan endast anger bredden på behållar-DIV, och dess höjd inte begränsas, väljer visningsprogrammet automatiskt höjden enligt proportionerna för den resurs som används. På så sätt kan du säkerställa att resursen passar in perfekt i vyn utan utfyllnad på sidorna. Det här användningsexemplet är det vanligaste för webbsidor som använder responsiva layoutramverk som Bootstrap, Foundation och liknande.
+I svarsläge beter sig visningsprogrammet olika beroende på hur webbsidan ändrar dess behållar-DIV. Om webbsidan bara anger bredden på behållar-DIV, och dess höjd inte begränsas, väljer visningsprogrammet automatiskt höjden enligt proportionerna för den använda resursen. Den här metoden ser till att resursen passar in perfekt i vyn utan utfyllnad på sidorna. Det här användningsexemplet är det vanligaste för webbsidor som använder responsiva layoutramverk som Bootstrap, Foundation och liknande.
 
-Om webbsidan ställer in både bredd och höjd för visningsprogrammets behållar-DIV, fyller visningsprogrammet bara det området och följer den storlek som anges i webbsidans layout. Ett bra exempel kan vara att bädda in visningsprogrammet i en modal övertäckning, där storleken på övertäckningen anpassas efter webbläsarens fönsterstorlek.
-
+Om webbsidan ställer in både bredd och höjd för visningsprogrammets behållar-DIV fyller visningsprogrammet i området och följer den storlek som anges i webbsidans layout. Ett bra exempel är att bädda in visningsprogrammet i en modal övertäckning, där storleken på övertäckningen anpassas efter webbläsarens fönsterstorlek.
 
 **Inbäddning med fast storlek**
 
@@ -159,8 +158,7 @@ Relativ sökväg ser ut så här:
    panoramicViewer.setParam("stagesize", "512,256");
    ```
 
-   CSS-baserad metod rekommenderas och kommer att användas i det här exemplet.
-
+   CSS-baserad metod rekommenderas och används i det här exemplet.
 
 1. Skapa och initiera visningsprogrammet.
 
@@ -215,7 +213,7 @@ Relativ sökväg ser ut så här:
 
 **Responsiv designinbäddning med obegränsad höjd**
 
-Med responsiv inbäddning har webbsidan vanligtvis någon typ av flexibel layout som bestämmer körningsstorleken för visningsprogrammets behållar-DIV. I det här exemplet antar vi att webbsidan tillåter att visningsprogrammets behållare-DIV tar 80 % av webbläsarens fönsterstorlek och låter dess höjd vara obegränsad. Webbsidans HTML-kod kan se ut så här:
+Med den responsiva inbäddningen har webbsidan vanligtvis någon typ av flexibel layout som bestämmer körningsstorleken för visningsprogrammets behållar-DIV. I det här exemplet antar vi att webbsidan tillåter att visningsprogrammets behållare-DIV tar 80 % av webbläsarens fönsterstorlek och låter dess höjd vara obegränsad. Webbsidans HTML-kod kan se ut så här:
 
 ```
 <!DOCTYPE html> 
@@ -233,7 +231,7 @@ Med responsiv inbäddning har webbsidan vanligtvis någon typ av flexibel layout
 </html> 
 ```
 
-Att lägga till visningsprogrammet på en sådan sida liknar inbäddningen av fast storlek, men den enda skillnaden är att du inte behöver definiera visningsprogrammets storlek explicit:
+Att lägga till visningsprogrammet på en sådan sida liknar inbäddningen av fast storlek, med den enda skillnaden att du inte behöver definiera visningsprogrammets storlek explicit:
 
 1. Lägga till JavaScript-filen för visningsprogrammet på webbsidan.
 1. Definierar behållar-DIV.

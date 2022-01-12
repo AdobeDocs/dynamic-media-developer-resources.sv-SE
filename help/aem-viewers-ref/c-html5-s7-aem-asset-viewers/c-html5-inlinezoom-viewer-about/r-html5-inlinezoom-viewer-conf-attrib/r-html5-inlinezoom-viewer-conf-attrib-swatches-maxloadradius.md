@@ -1,14 +1,14 @@
 ---
+title: Swatches.maxloadradius
 description: Swatches.maxloadradius
 solution: Experience Manager
-title: Swatches.maxloadradius
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Textbunden zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 574cb37c-009a-43c7-ae55-8b26c0c096c5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 1%
+source-wordcount: '50'
+ht-degree: 2%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 1%
 <table id="table_4A27394B6B4347D69CAC5A59EE0FBC6F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> -1|0|<span class="varname"> förinläsare</span></span> </p> </td> 
-   <td colname="col2"> <p> Anger beteende för komponentförinläsning. När värdet är <span class="codeph"> -1</span> läses alla färgrutor in samtidigt när komponenten initieras eller resursen ändras. Om <span class="codeph"> 0</span> anges läses endast synliga färgrutor in. </p> <p><span class="codeph"> <span class="varname"> preloadnbr</span></span> definierar hur många osynliga rader/kolumner runt det synliga området som ska förinläsas. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> -1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
+   <td colname="col2"> <p> Anger beteende för komponentförinläsning. När inställt på <span class="codeph"> -1</span> alla färgrutor läses in samtidigt när komponenten initieras eller resursen ändras. När inställt på <span class="codeph"> 0</span> bara synliga färgrutor läses in. </p> <p><span class="codeph"> <span class="varname"> preloadnbr</span></span> definierar hur många osynliga rader/kolumner runt det synliga området som är förinlästa. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,13 +1,13 @@
 ---
+title: Huvudvisningsområde
 description: Huvudvisningsområdet är det område som upptas av den utfällbara vyn och färgrutorna.
 solution: Experience Manager
-title: Huvudvisningsområde
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Flyout
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: bf928c22-23e9-4df3-b2d7-0841c64baf19
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '92'
 ht-degree: 1%
 
 ---
@@ -39,17 +39,17 @@ Visningsområdets utseende styrs av följande CSS-klassväljare:
    <td colname="col2"> <p>Bredden på visningsprogrammet. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Visningsprogrammets höjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Bakgrundsfärg i hexadecimalt format. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exempel - om du vill ställa in ett utfällbart visningsprogram med vit bakgrund ( `#FFFFFF`) och göra dess storlek 260 x 500 pixlar.
+Exempel - för att konfigurera ett utfällbart visningsprogram med vit bakgrund ( `#FFFFFF`) och gör storleken 260 x 500 pixlar.
 
 ```
 .s7flyoutviewer { 

@@ -1,14 +1,14 @@
 ---
+title: Utfällbar
 description: Utfällbar visningsprogram är ett bildvisningsprogram. Den visar en statisk bild med den zoomade versionen som visas i den utfällbara vyn som en användare aktiverar. Visningsprogrammet fungerar med bilduppsättningar och navigeringen görs med hjälp av färgrutor. Den är utformad för att fungera på stationära datorer och mobila enheter.
 keywords: responsiv
 solution: Experience Manager
-title: Utfällbar
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Flyout
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 9b60330f-5348-431d-9682-cf97aace3679
-source-git-commit: f77dc0c1ac8305037bbb561451317c8e62209cec
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '2072'
+source-wordcount: '2065'
 ht-degree: 0%
 
 ---
@@ -80,24 +80,24 @@ Inbäddningsläget med fast storlek används när visningsprogrammet inte ändra
 
 Inbäddningsläget för responsiv design förutsätter att visningsprogrammet måste ändra storlek under körning som svar på storleksändringen för dess behållare `DIV`. Det vanligaste användningsområdet är att lägga till ett visningsprogram på en webbsida som använder en flexibel sidlayout.
 
-När du använder responsivt designinbäddningsläge med visningsprogrammet för utfällbara menyer måste du ange explicita brytpunkter för huvudvisningsbilden med parametern `imagereload`. Bäst är att du matchar brytpunkterna med brytpunkterna för visningsprogrammets bredd enligt CSS-reglerna för webbsidor.
+När du använder responsivt designinbäddningsläge med visningsprogrammet för utfällbara bilder måste du ange explicita brytpunkter för huvudvisningsbilden med `imagereload` parameter. Bäst är att du matchar brytpunkterna med brytpunkterna för visningsprogrammets bredd enligt CSS-reglerna för webbsidor.
 
-I läget responsiv designinbäddning beter sig visningsprogrammet olika beroende på hur webbsidans behållare `DIV` storleksändras. Om webbsidan bara anger bredden på behållaren `DIV`, och dess höjd inte begränsas, väljer visningsprogrammet automatiskt höjden enligt proportionerna för den resurs som används. Den här funktionen innebär att resursen passar in perfekt i vyn utan utfyllnad på sidorna. Det här användningsexemplet är det vanligaste för webbsidor som använder responsiva designlayoutramverk som Bootstrap och Foundation.
+I läget responsiv designinbäddning beter sig visningsprogrammet olika beroende på hur en webbsidbehållare fungerar `DIV` har samma storlek. Om webbsidan bara anger behållarens bredd `DIV`, utan att begränsa höjden väljer visningsprogrammet automatiskt höjden enligt proportionerna för den resurs som används. Den här funktionen innebär att resursen passar in perfekt i vyn utan utfyllnad på sidorna. Det här användningsexemplet är det vanligaste för webbsidor som använder responsiva designlayoutramverk som Bootstrap och Foundation.
 
-Om webbsidan ställer in både bredd och höjd för visningsprogrammets behållare `DIV` fyller visningsprogrammet bara det området och följer den storlek som anges i webbsidans layout. Ett bra exempel på hur du kan använda det här är att bädda in visningsprogrammet i en modal övertäckning, där storleken på övertäckningen anpassas efter webbläsarens fönsterstorlek.
+Om webbsidan i annat fall anger både bredd och höjd för visningsprogrammets behållare `DIV`, fyller visningsprogrammet bara det området och följer den storlek som anges i webbsidans layout. Ett bra exempel på hur du kan använda det här är att bädda in visningsprogrammet i en modal övertäckning, där storleken på övertäckningen anpassas efter webbläsarens fönsterstorlek.
 
 **Inbäddning med fast storlek**
 
 Du lägger till visningsprogrammet på en webbsida genom att göra följande:
 
 1. Lägga till JavaScript-filen för visningsprogrammet på webbsidan.
-1. Definierar behållaren `DIV`.
+1. Definiera behållaren `DIV`.
 1. Anger visningsprogrammets storlek.
 1. Skapa och initiera visningsprogrammet.
 
 1. Lägga till JavaScript-filen för visningsprogrammet på webbsidan.
 
-   Om du vill skapa ett visningsprogram måste du lägga till en script-tagg i HTML-huvudet. Innan du kan använda visningsprogrammets API måste du ta med `FlyoutViewer.js`. `FlyoutViewer.js` finns i följande  [!DNL html5/js/] undermapp i din standarddistribution av IS-Viewer:
+   Om du vill skapa ett visningsprogram måste du lägga till en script-tagg i huvudet HTML. Innan du kan använda visningsprogrammets API måste du se till att du inkluderar `FlyoutViewer.js`. `FlyoutViewer.js` finns i följande [!DNL html5/js/] undermapp till din standarddistribution av IS-Viewer:
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
@@ -111,16 +111,16 @@ En relativ sökväg ser ut så här:
 
 >[!NOTE]
 >
->Referera bara till JavaScript-filen `include` för huvudvisningsprogrammet på sidan. Referera inte till några ytterligare JavaScript-filer i webbsideskoden som kan hämtas av visningsprogrammets logik under körning. Referera inte direkt till HTML5 SDK `Utils.js`-biblioteket som läses in av visningsprogrammet från kontextsökvägen `/s7viewers` (s.k. konsoliderad SDK `include`). Orsaken är att platsen för `Utils.js` eller liknande visningsprogrambibliotek för miljön hanteras helt av visningsprogrammets logik och platsen ändras mellan visningsprogramversioner. Adobe sparar inte äldre versioner av sekundära visningsprogram `includes` på servern.
+>Referera endast till JavaScript för huvudvisningsprogrammet `include` på sidan. Referera inte till några ytterligare JavaScript-filer i webbsideskoden som kan hämtas av visningsprogrammets logik under körning. Ange särskilt inte direkt HTML5 SDK `Utils.js` biblioteket som läses in av visningsprogrammet från `/s7viewers` kontextsökväg (s.k. konsoliderad SDK) `include`). Orsaken är att platsen för `Utils.js` eller liknande visningsprogrambibliotek för miljön hanteras helt av visningsprogrammets logik och platsen ändras mellan visningsprogramversionerna. Adobe har inte äldre versioner av sekundära visningsprogram `includes` på servern.
 >
 >
->Det innebär att om du skickar en direkt referens till ett sekundärt JavaScript `include` som används av visningsprogrammet på sidan så bryts visningsprogrammets funktioner i framtiden när en ny produktversion distribueras.
+>Det innebär att du skickar en direkt referens till valfritt sekundärt JavaScript `include` som används av visningsprogrammet på sidan avbryter visningsprogrammets funktioner i framtiden när en ny produktversion distribueras.
 
 1. Definierar behållar-DIV.
 
    Lägg till ett tomt DIV-element på sidan där du vill att visningsprogrammet ska visas. DIV-elementet måste ha sitt ID definierat eftersom detta ID senare skickas till visningsprogrammets API.
 
-   Platshållarens DIV är ett positionerat element, vilket innebär att CSS-egenskapen `position` är inställd på `relative` eller `absolute`.
+   Platshållarens DIV är ett positionerat element, vilket innebär att `position` CSS-egenskapen är inställd på `relative` eller `absolute`.
 
    Det är webbsidans ansvar att ange rätt `z-index` för platshållarens DIV-element. Om du gör det ser du till att visningsprogrammets utfällbara del visas ovanpå de andra webbsidelementen.
 
@@ -132,11 +132,11 @@ En relativ sökväg ser ut så här:
 
 1. Anger visningsprogrammets storlek.
 
-   I det här visningsprogrammet visas miniatyrer när du arbetar med uppsättningar med flera objekt. På stationära datorer placeras miniatyrbilder under huvudvyn. Samtidigt tillåter visningsprogrammet växling av huvudresursen under körning med hjälp av API:t `setAsset()`. Som utvecklare har du kontroll över hur visningsprogrammet hanterar miniatyrbildsområdet i det nedre området när den nya resursen bara har ett objekt. Det går att behålla den yttre visningsstorleken intakt och låta huvudvyn öka höjden och uppta miniatyrområdet. Eller så kan du hålla storleken på huvudvyn statisk och komprimera det yttre visningsområdet så att webbsidans innehåll kan flyttas uppåt och sedan använda den lediga sidan från miniatyrbilderna.
+   I det här visningsprogrammet visas miniatyrer när du arbetar med uppsättningar med flera objekt. På stationära datorer placeras miniatyrbilder under huvudvyn. Samtidigt tillåter visningsprogrammet att huvudresursen byts ut under körning med `setAsset()` API. Som utvecklare har du kontroll över hur visningsprogrammet hanterar miniatyrbildsområdet i det nedre området när den nya resursen bara har ett objekt. Det går att behålla den yttre visningsstorleken intakt och låta huvudvyn öka höjden och uppta miniatyrområdet. Eller så kan du hålla storleken på huvudvyn statisk och komprimera det yttre visningsområdet så att webbsidans innehåll kan flyttas uppåt och sedan använda den lediga sidan från miniatyrbilderna.
 
-   Om du vill behålla de yttre visningsprogramgränserna intakta definierar du storleken för CSS-klassen på den översta nivån i absoluta enheter. `.s7flyoutviewer` Storleksändring i CSS kan placeras direkt på HTML-sidan eller i en anpassad CSS-fil för visningsprogrammet, senare tilldelas till en förinställningspost för visningsprogrammet i Dynamic Media Classic, eller skickas explicit med kommandot style.
+   Om du vill behålla de yttre gränserna för visningsprogrammet definierar du storleken för `.s7flyoutviewer` CSS-klass på översta nivån i absoluta enheter. Storleksändring i CSS kan placeras direkt på HTML-sidan eller i en CSS-fil för ett anpassat visningsprogram, senare tilldelas till en post för visningsförinställning i Dynamic Media Classic eller skickas explicit med kommandot style.
 
-   Mer information om hur du formaterar visningsprogrammet med CSS finns i [Anpassa visningsprogrammet för utfällbara användare](../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#concept-82f8c71adbe54680a0c2f83f81e5f451).
+   Se [Anpassa visningsprogram för utfällbar meny](../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#concept-82f8c71adbe54680a0c2f83f81e5f451) om du vill ha mer information om hur du formaterar visningsprogrammet med CSS.
 
    Följande är ett exempel på hur du definierar den statiska storleken på det yttre visningsprogrammet på en HTML-sida:
 
@@ -151,9 +151,9 @@ En relativ sökväg ser ut så här:
 
    [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html)
 
-   Om du vill göra huvudvyns dimensioner statiska definierar du visningsstorleken i absoluta enheter för den inre `Container` SDK-komponenten med hjälp av CSS-väljaren `.s7flyoutviewer .s7container`. Dessutom bör du åsidosätta den fasta storlek som är definierad för CSS-klassen `.s7flyoutviewer` på den översta nivån i standardvisningsprogrammets CSS genom att ange den till `auto`.
+   Om du vill göra huvudvyns dimensioner statiska definierar du visningsprogrammets storlek i absoluta enheter för den inre `Container` SDK-komponent använda `.s7flyoutviewer .s7container` CSS-väljare. Dessutom bör du åsidosätta den fasta storlek som är definierad för `.s7flyoutviewer` CSS-klassen på den översta nivån i standardvisningsprogrammets CSS genom att ställa in den på `auto`.
 
-   Följande är ett exempel på hur du definierar visningsstorleken för den inre SDK-komponenten `Container` så att huvudvisningsområdet inte ändrar dess storlek när du byter resurs:
+   Följande är ett exempel på hur du definierar visningsstorleken för den inre `Container` SDK-komponenten så att huvudvisningsområdet inte ändrar storlek när du byter resurs:
 
    ```
    #s7viewer.s7flyoutviewer { 
@@ -174,13 +174,13 @@ En relativ sökväg ser ut så här:
 
 1. Skapa och initiera visningsprogrammet.
 
-   När du har slutfört stegen ovan skapar du en instans av klassen `s7viewers.FlyoutViewer`, skickar all konfigurationsinformation till konstruktorn och anropar metoden `init()` för en visningsprograminstans. Konfigurationsinformation skickas till konstruktorn som ett JSON-objekt. Det här objektet ska åtminstone ha fältet `containerId` som innehåller namnet på visningsbehållar-ID och kapslat JSON-objekt `params` med konfigurationsparametrar som visningsprogrammet stöder. I det här fallet måste `params`-objektet ha minst den URL för bildservrar som skickas som `serverUrl`-egenskap och den ursprungliga resursen som `asset`-parameter. Med JSON-baserat initierings-API kan du skapa och starta visningsprogrammet med en enda kodrad.
+   När du har slutfört stegen ovan skapar du en instans av `s7viewers.FlyoutViewer` -klass, skicka all konfigurationsinformation till konstruktorn och anropa `init()` -metod i en visningsprograminstans. Konfigurationsinformation skickas till konstruktorn som ett JSON-objekt. Objektet bör åtminstone ha `containerId` fält som innehåller namnet på visningsprogrammets behållar-ID och kapslat `params` JSON-objekt med konfigurationsparametrar som visningsprogrammet stöder. I det här fallet `params` objektet måste ha minst URL för bildserver som skickas som `serverUrl` och den ursprungliga tillgången som `asset` parameter. Med JSON-baserat initierings-API kan du skapa och starta visningsprogrammet med en enda kodrad.
 
-   Det är viktigt att lägga till visningsprogrambehållaren i DOM så att visningsprogramkoden kan hitta behållarelementet med dess ID. I vissa webbläsare fördröjs skapandet av DOM tills webbsidan är slut. För maximal kompatibilitet anropar du metoden `init()` precis före den avslutande `BODY`-taggen eller på body-händelsen `onload()`.
+   Det är viktigt att visningsprogrambehållaren läggs till i DOM så att visningsprogramkoden kan hitta behållarelementet med dess ID. I vissa webbläsare fördröjs skapandet av DOM tills webbsidan är slut. För maximal kompatibilitet, ring `init()` metod precis före stängning `BODY` eller på brödtexten `onload()` -händelse.
 
-   Samtidigt behöver behållarelementet inte nödvändigtvis vara en del av webbsidans layout ännu. Det kan till exempel vara dolt med `display:none`-format som tilldelats det. I det här fallet skjuter visningsprogrammet upp initieringsprocessen tills webbsidan återför behållarelementet till layouten. När den här åtgärden utförs återtas visningsprogrammet automatiskt.
+   Samtidigt behöver behållarelementet inte nödvändigtvis vara en del av webbsidans layout ännu. Den kan till exempel vara dold med `display:none` format som tilldelats det. I det här fallet skjuter visningsprogrammet upp initieringsprocessen tills webbsidan återför behållarelementet till layouten. När den här åtgärden utförs återtas visningsprogrammet automatiskt.
 
-   Följande är ett exempel på hur du skapar en visningsprograminstans, skickar de minsta nödvändiga konfigurationsalternativen till konstruktorn och anropar metoden `init()`. Exemplet förutsätter att `flyoutViewer` är visningsprograminstansen; `s7viewer` är namnet på platshållaren `DIV`; `http://s7d1.scene7.com/is/image/` är webbadressen för bildservrar; och `Scene7SharedAssets/ImageSet-Views-Sample` är resursen:
+   Följande är ett exempel på hur du skapar en visningsprograminstans, skickar de minsta nödvändiga konfigurationsalternativen till konstruktorn och anropar `init()` -metod. Exemplet förutsätter `flyoutViewer` är visningsprograminstansen, `s7viewer` är namnet på platshållaren `DIV`; `http://s7d1.scene7.com/is/image/` är webbadressen till bildservern, och `Scene7SharedAssets/ImageSet-Views-Sample` är tillgången:
 
    ```
    <script type="text/javascript"> 
@@ -225,7 +225,7 @@ En relativ sökväg ser ut så här:
 
 ## Responsiv designinbäddning med obegränsad höjd {#section-056cb574713c4d07be6d07cf3c598839}
 
-Med responsiv designinbäddning har webbsidan normalt någon typ av flexibel layout som bestämmer visningsprogrammets körningsstorlek `DIV`. I följande exempel antar du att webbsidan tillåter att visningsprogrammets behållare `DIV` tar 40 % av webbläsarfönstrets storlek, och låter dess höjd vara obegränsad. HTML-koden för webbsidan ser ut så här:
+Med responsiv designinbäddning har webbsidan normalt någon typ av flexibel layout som bestämmer visningsprogrammets körningsstorlek `DIV`. I följande exempel antar du att webbsidan tillåter visningsprogrammets behållare `DIV` för att ta 40 % av webbläsarens fönsterstorlek och låta dess höjd vara obegränsad. Webbsidans HTML-kod ser ut så här:
 
 ```
 <!DOCTYPE html> 
@@ -246,14 +246,14 @@ Med responsiv designinbäddning har webbsidan normalt någon typ av flexibel lay
 Att lägga till visningsprogrammet på en sådan sida liknar stegen för inbäddning med fast storlek. Den enda skillnaden är att du måste åsidosätta den fasta storleken från CSS för standardvisningsprogrammet med den angivna storleken i relativa enheter.
 
 1. Lägga till JavaScript-filen för visningsprogrammet på webbsidan.
-1. Definierar behållaren `DIV`.
+1. Definiera behållaren `DIV`.
 1. Anger visningsprogrammets storlek.
 1. Skapa och initiera visningsprogrammet.
 
 Alla stegen ovan är desamma som med inbäddning med fast storlek med följande tre undantag:
 
-* lägg till behållaren `DIV` i den befintliga &quot;hållaren&quot; `DIV`;
-* lade till parametern `imagereload` med explicita brytpunkter;
+* lägg till behållaren `DIV` till den befintliga innehavaren `DIV`;
+* tillagd `imagereload` parameter med explicita brytpunkter,
 * I stället för att ange en fast visningsstorlek med absoluta enheter används CSS som anger visningsprogrammets bredd och höjd till 100 % enligt följande:
 
 ```
@@ -306,7 +306,7 @@ Följande exempelsida visar mer verkliga användningsområden för responsiv des
 
 ## Flexibel storleksinbäddning med definierad bredd och höjd {#section-0a329016f9414d199039776645c693de}
 
-Om det finns inbäddning i flexibel storlek med bredd och höjd definierad, är webbsidans format annorlunda. Den ger båda storlekarna till DIV:n `"holder"` och centrerar den i webbläsarfönstret. Dessutom anger webbsidan storleken på elementen `HTML` och `BODY` till 100 procent.
+Om det finns inbäddning i flexibel storlek med angiven bredd och höjd är webbsidans format annorlunda. Det ger båda storlekarna till `"holder"` DIV och centrerar det i webbläsarfönstret. Dessutom anger webbsidan storleken på `HTML` och `BODY` -element till 100 procent.
 
 ```
 <!DOCTYPE html> 
@@ -377,7 +377,7 @@ var flyoutViewer = new s7viewers.FlyoutViewer({
 
 ## Bädda in med Setter-baserat API {#section-af26f0cc2e5140e8a9bfd0c6a841a6d1}
 
-I stället för att använda JSON-baserad initiering kan du använda set-based API och no-args-konstruktor. Om du använder den här API-konstruktorn används inga parametrar och konfigurationsparametrar anges med API-metoderna `setContainerId()`, `setParam()` och `setAsset()` med separata JavaScript-anrop.
+I stället för att använda JSON-baserad initiering kan du använda set-based API och no-args-konstruktor. Den här API-konstruktorn tar inga parametrar och konfigurationsparametrar anges med `setContainerId()`, `setParam()`och `setAsset()` API-metoder, med separata JavaScript-anrop.
 
 I följande exempel visas hur du använder inbäddning med fast storlek med set-based API:
 

@@ -1,13 +1,13 @@
 ---
+title: getComponent
 description: JavaScript API-referens för visningsprogrammet
 solution: Experience Manager
-title: getComponent
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Flyout
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 618d34af-32d0-45bd-928d-7a4e084edbe6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ JavaScript API-referens för visningsprogrammet
 
 `getComponent(componentId)`
 
-Returnerar en referens till SDK-komponenten för visningsprogrammet som används av visningsprogrammet. Webbsidan kan använda den här metoden för att utöka eller anpassa beteendet för visningsprogrammet som inte är installerat. Anropa den här metoden först efter att återanropet för visningsprogrammet `initComplete` har körts. Annars kanske komponenten inte har skapats ännu av visningsprogramlogiken.
+Returnerar en referens till SDK-komponenten för visningsprogrammet som används av visningsprogrammet. Webbsidan kan använda den här metoden för att utöka eller anpassa beteendet för visningsprogrammet som inte är installerat. Anropa den här metoden först efter `initComplete` återanrop till visningsprogrammet har körts; Annars kanske komponenten inte har skapats ännu av visningsprogramlogiken.
 
 ## Parametrar {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`componentID`*`  -  `{String}` ett ID för SDK-komponenten för visningsprogrammet som används av visningsprogrammet. Detta visningsprogram stöder följande komponent-ID:
+`*`componentID`*` - `{String}` ett ID för SDK-komponenten för visningsprogrammet som används av visningsprogrammet. Detta visningsprogram stöder följande komponent-ID:
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
@@ -33,35 +33,35 @@ Returnerar en referens till SDK-komponenten för visningsprogrammet som används
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> parameterManager  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.ParameterManager  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> parameterManager </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.ParameterManager </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> container  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Container  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> container </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Container </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mediaSet  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.MediaSet  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mediaSet </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.MediaSet </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> utfällbar  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.image.FlyoutZoomView  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> utfällbar </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.image.FlyoutZoomView </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> färgrutor  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.Swatches  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> färgrutor </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.Swatches </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-När du arbetar med SDK API:er är det viktigt att du använder ett korrekt, fullständigt kvalificerat SDK-namnutrymme enligt beskrivningen i [Viewer SDK](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-namespace.md#concept-453501a601634dd1bca7b96878c22605).
+När du arbetar med SDK API:er är det viktigt att du använder ett korrekt, fullständigt kvalificerat SDK-namnutrymme enligt beskrivningen i [SDK för visningsprogram](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-namespace.md#concept-453501a601634dd1bca7b96878c22605).
 
 Mer information om en viss komponent finns i dokumentationen för SDK-API:t för visningsprogrammet.
 
 ## Returnerar {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` en referens till SDK-komponenten för visningsprogrammet. Metoden returnerar `null` om `componentId` inte är en visningsprogramkomponent som stöds eller om komponenten ännu inte har skapats av visningsprogramlogiken.
+`{Object}` En referens till SDK-komponenten för visningsprogrammet. Metoden returnerar `null` om `componentId` är inte en visningsprogramkomponent som stöds eller om komponenten ännu inte har skapats av visningsprogramlogiken.
 
 ## Exempel {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

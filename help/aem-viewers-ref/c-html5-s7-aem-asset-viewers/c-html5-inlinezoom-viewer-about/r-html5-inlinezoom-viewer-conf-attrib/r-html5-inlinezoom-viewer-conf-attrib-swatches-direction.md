@@ -1,13 +1,13 @@
 ---
+title: Swatches.direction
 description: Swatches.direction
 solution: Experience Manager
-title: Swatches.direction
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Textbunden zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 8294c9f0-4c4e-4095-beeb-94d8dcfc2cd7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '56'
 ht-degree: 1%
 
 ---
@@ -19,8 +19,8 @@ ht-degree: 1%
 <table id="table_8DA8AC17A6FB4EC09DC9384B812D841C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> auto|left|right  </span> </p> </td> 
-   <td colname="col2"> <p> Anger hur färgrutor fylls i vyn. </p> <p> <span class="codeph"> vänster  </span> anger fyllningsordningen från vänster till höger,  <span class="codeph"> Höger  </span> inverterar ordningen så att vyn fylls i höger-till-vänster, uppifrån och ned. När <span class="codeph"> auto </span> är inställt tillämpar komponenten det högra läget när locale är inställt på <span class="codeph"> "ja" </span>, och använder annars vänsterläge. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
+   <td colname="col2"> <p> Anger hur färgrutor fylls i vyn. </p> <p> <span class="codeph"> vänster </span> anger fyllningsordningen från vänster till höger, <span class="codeph"> höger </span> inverterar ordningen så att vyn fylls i från höger till vänster, uppifrån och ned. När <span class="codeph"> auto </span> är inställt används rätt läge för komponenten när språkområdet är inställt på <span class="codeph"> "ja" </span>och använder annars vänster. </p> </td> 
   </tr> 
  </tbody> 
 </table>

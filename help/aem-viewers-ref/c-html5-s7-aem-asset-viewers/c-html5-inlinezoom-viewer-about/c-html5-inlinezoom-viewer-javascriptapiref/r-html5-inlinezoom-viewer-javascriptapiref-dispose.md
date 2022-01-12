@@ -1,13 +1,13 @@
 ---
+title: dispose
 description: JavaScript API-referens för Inline Zoom Viewer.
 solution: Experience Manager
-title: dispose
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Textbunden zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 7e525bc1-6986-414c-acc0-e011dfd7b84b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ Disponerar den här visningsprograminstansen genom att frigöra alla resurser so
 
 Webbsideskoden bör även ta bort variabeln för visningsprograminstansen så att den helt tar bort visningsprogrammet från webbläsarminnet.
 
-Om webbsideskoden har registrerade händelseavlyssnare direkt i Viewer SDK-komponenter som används av visningsprogrammet eller lagrade externa referenser till sådana komponenter måste sådana avlyssnare uttryckligen avregistreras av webbsideskoden, och sådana externa komponentreferenser måste tas bort innan du anropar `dispose()`.
+Om webbsideskoden har registrerade händelseavlyssnare direkt i Viewer SDK-komponenter som används av visningsprogrammet - eller lagrade externa referenser till sådana komponenter - måste sådana avlyssnare uttryckligen avregistreras av webbsideskoden. Sådana externa komponentreferenser måste tas bort innan anrop görs `dispose()`.
 
-Åtkomst inte till visningsprogrammets API längre efter att `dispose()` har anropats.
+Åtkomst inte längre till visningsprogrammets API efter `dispose()` anropas.
 
 ## Parametrar {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 

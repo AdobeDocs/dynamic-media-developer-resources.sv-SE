@@ -1,13 +1,13 @@
 ---
+title: setAsset
 description: JavaScript API-referens för Inline Zoom Viewer.
 solution: Experience Manager
-title: setAsset
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Textbunden zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 62b46ad5-90b7-49e1-a426-87fbe956f07e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -22,12 +22,12 @@ JavaScript API-referens för Inline Zoom Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> resurs</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> Sträng</span>} nytt resurs-ID, explicit bilduppsättning eller explicit bilduppsättning med bildrutespecifika Image Serving-modifierare, med globala Image Serving-modifierare som tillval efter <span class="codeph"> ?</span>. </p> <p> Bilder som använder IR (Image Rendering) eller UGC (User-Generated Content) stöds inte av det här visningsprogrammet. </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> Sträng</span>} nytt resurs-ID, explicit bilduppsättning eller explicit bilduppsättning med bildrutespecifika Image Serving-modifierare, med tillvalsmodifierare för global Image Serving efter <span class="codeph"> ?</span>. </p> <p> Bilder som använder IR (Image Rendering) eller UGC (User-Generated Content) stöds inte av det här visningsprogrammet. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Anger den nya resursen. Du kan anropa den här parametern när som helst, antingen före eller efter `init()`. Om det anropas efter `init()` byter visningsprogrammet resursen under körning.
+Anger den nya resursen. Du kan anropa den här parametern när som helst, antingen före eller efter `init()`. Om den anropas efter `init()`byter visningsprogrammet ut resursen vid körning.
 
 Se även [init](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-init.md#reference-8651640683fc4a538bfb660709d1a463).
 
