@@ -1,20 +1,20 @@
 ---
-description: Uppspelningsikonen visas i visningsområdet. Den visas när videon pausas eller när slutet av videon nås, och den beror också på parametern iconeffect.
-solution: Experience Manager
 title: Ikoneffekt för videospelare
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,blandade medieuppsättningar
+description: Ikonen Spela upp visas på videovisningsområdet. Den visas när videon pausas eller när slutet av videon nås, och den beror också på parametern iconeffect.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 1e0bd97f-20e9-41e6-95fc-d693644152da
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
 
 # Ikoneffekt för videospelare{#video-player-icon-effect}
 
-Uppspelningsikonen visas i visningsområdet. Den visas när videon pausas eller när slutet av videon nås, och den beror också på parametern iconeffect.
+Ikonen Spela upp visas på videovisningsområdet. Den visas när videon pausas eller när slutet av videon nås, och den beror också på parametern iconeffect.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -29,11 +29,11 @@ Utseendet på uppspelningsikonen styrs med följande CSS-klassväljare:
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> Den bild som visas för uppspelningsikonen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Placera inuti en teckningssprite, om CSS-sprites används. </p> <p>Se <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS-fragment </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -41,17 +41,17 @@ Utseendet på uppspelningsikonen styrs med följande CSS-klassväljare:
    <td colname="col2"> <p> Uppspelningsikonens bredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Uppspelningsikonens höjd. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ikoneffekten stöder attributväljaren `state`. `state="play"` används när videon pausas mitt i uppspelningen och  `state="replay"` används när spelhuvudet är i slutet av direktuppspelningen.
+Ikoneffekten har stöd för `state` attributväljare. Väljaren `state="play"` används när videon pausas mitt under uppspelningen, och `state="replay"` används när spelhuvudet är i slutet av strömmen.
 
 ## Exempel {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Ställ in en 100 x 100 pixlar uppspelningsikon.
+Ställ in en 100 x 100 pixlar stor uppspelningsikon.
 
 ```
 .s7mixedmediaviewer .s7videoplayer .s7iconeffect { 

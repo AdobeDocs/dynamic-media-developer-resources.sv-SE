@@ -1,13 +1,13 @@
 ---
+title: Helskärmsknapp
 description: Med den här knappen aktiverar eller inaktiverar användaren helskärmsläget. Den används när visningsprogrammet visar bilder eller snurruppsättningar. Den här knappen visas inte om visningsprogrammet fungerar i popup-läge och systemet inte stöder helskärmsläge. Du kan ändra storlek, skal och position för knappen med hjälp av CSS.
 solution: Experience Manager
-title: Helskärmsknapp
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 1df99614-9493-4c8a-bc51-4426b8c5467a
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Knappens utseende styrs med följande CSS-klassväljare:
 
 Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) för mer information.
 
-Exempel - för att ställa in en helskärmsknapp som är 32 x 32 pixlar, placerad sex pixlar från den övre och högra kanten av visningsprogrammet och visa en bild för var och en av de fyra olika knapplägena när den är markerad eller inte är markerad:
+Exempel - För att ställa in en helskärmsknapp som är 32 x 32 pixlar och placerad sex pixlar från den övre och högra kanten av visningsprogrammet. Och slutligen, visar en annan bild för vart och ett av de fyra olika knapplägena när det är markerat eller inte markerat:
 
 ```
 .s7mixedmediaviewer .s7fullscreenbutton { 

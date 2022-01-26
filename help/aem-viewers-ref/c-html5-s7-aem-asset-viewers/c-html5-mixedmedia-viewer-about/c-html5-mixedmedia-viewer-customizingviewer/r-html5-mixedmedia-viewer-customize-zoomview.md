@@ -1,13 +1,13 @@
 ---
+title: Zoomvy
 description: I kontinuerligt zoomläge består huvudvyn av den zoombara bilden när den aktuella resursen är en enda bild.
 solution: Experience Manager
-title: Zoomvy
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,blandade medieuppsättningar
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 0252436b-ba96-4273-b796-d1772fc093b0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,11 @@ Visningsområdets utseende styrs av följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Bakgrundsfärg i hexadecimalt format för huvudvyn. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> markör  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> markör </span> </p> </td> 
    <td colname="col2"> <p>Markören visas över huvudvyn. </p> </td> 
   </tr> 
  </tbody> 
@@ -53,7 +53,7 @@ Exempel - för att göra zoomvyn genomskinlig.
 }
 ```
 
-På stationära datorer har komponenten stöd för `cursortype`-attributväljare som kan tillämpas på klassen `.s7zoomview`. Den styr typen av markör baserat på komponentens tillstånd och användaråtgärder. Följande `cursortype`-värden stöds:
+På datorer har komponenten stöd för `cursortype` attributväljare som kan användas på `.s7zoomview` klassen. Den styr typen av markör baserat på komponentens tillstånd och användaråtgärder. Följande `cursortype` värden stöds:
 
 * `default`
 

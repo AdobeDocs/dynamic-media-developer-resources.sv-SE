@@ -1,13 +1,13 @@
 ---
+title: setAsset
 description: JavaScript API-referens för blandad Media Viewer.
 solution: Experience Manager
-title: setAsset
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,blandade medieuppsättningar
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 3ad78de9-17a6-40c9-b389-a1f7eed11635
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '217'
 ht-degree: 0%
 
 ---
@@ -18,17 +18,17 @@ JavaScript API-referens för blandad Media Viewer.
 
 ` setAsset( *`resurs`*[,data]))`
 
-Anger den nya resursen och valfria ytterligare tillgångsdata. Du kan anropa den här parametern när som helst, antingen före eller efter `init()`. Om det anropas efter `init()` byter visningsprogrammet resursen under körning.
+Anger den nya resursen och valfria ytterligare tillgångsdata. Du kan anropa den här parametern när som helst, antingen före eller efter `init()`. Om den anropas efter `init()`byter visningsprogrammet ut resursen vid körning.
 
 Se även [init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae).
 
 ## Parametrar {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`resurs`*` - { `String`} nytt resurs-ID eller explicit blandad mediamängd, med tillvalsmodifierare för Image Serving tillagda efter  `?`.
+`*`resurs`*` - { `String`} nytt resurs-ID eller explicit blandad mediamängd, med tillvalsmodifierare för Image Serving efter `?`.
 
 Bilder som använder IR (Image Rendering) eller UGC (User-Generated Content) stöds inte av det här visningsprogrammet.
 
-`*`data`*` - platsen { `JSON`} för den nya bildtextfilen.
+`*`data`*` - { `JSON`} platsen för den nya bildtextfilen.
 
 Om inget anges visas inte bildtextknappen i användargränssnittet. De bildtexter som anges med den här parametern gäller för den video som kommer först i den blandade medieuppsättningen. efterföljande videofilmer spelas upp utan bildtexter. Detta visningsprogram stöder följande komponent-ID:
 
@@ -41,11 +41,11 @@ Om inget anges visas inte bildtextknappen i användargränssnittet. De bildtexte
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posterimage  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posterimage </span> </p> </td> 
    <td colname="col2"> <p>Bild som ska visas i den första bildrutan innan videon börjar spelas upp. </p> <p>Se <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-posterimage.md#reference-f424ad0f278b4d14b86ea55e3a73c52b" format="dita" scope="local"> VideoPlayer.posterimage </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bildtext  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bildtext </span> </p> </td> 
    <td colname="col2"> <p> Platsen för den nya bildtextfilen. </p> <p>Om inget anges visas inte bildtextknappen i användargränssnittet. Bildtexter som anges med den här parametern gäller för videon som kommer först i medieuppsättningen. Efterföljande videofilmer spelas upp utan bildtexter. </p> </td> 
   </tr> 
  </tbody> 

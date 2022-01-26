@@ -1,20 +1,20 @@
 ---
-description: I det textbundna zoomläget består huvudvyn av den statiska bilden, den zoomade bilden som visas i den utfällbara vyn över den statiska bilden och det tips som visas ovanpå den statiska bilden.
-solution: Experience Manager
 title: Utfällbar zoomvy
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,blandade medieuppsättningar
+description: I inline-zoomläget består huvudvyn av den statiska bilden. Den består också av den zoomade bilden som visas i den utfällbara vyn över den statiska bilden och det tips som visas ovanpå den statiska bilden.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 46c91d1f-5809-4270-a06d-5068d20a6341
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
 
 # Utfällbar zoomvy{#flyout-zoom-view}
 
-I det textbundna zoomläget består huvudvyn av den statiska bilden, den zoomade bilden som visas i den utfällbara vyn över den statiska bilden och det tips som visas ovanpå den statiska bilden.
+I inline-zoomläget består huvudvyn av den statiska bilden. Den består också av den zoomade bilden som visas i den utfällbara vyn över den statiska bilden och det tips som visas ovanpå den statiska bilden.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,7 +35,7 @@ Utseendet på huvudvyn styrs med följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Huvudvyns bakgrundsfärg. </p> </td> 
   </tr> 
  </tbody> 
@@ -57,7 +57,7 @@ Utseendet på tipsmeddelandet styrs av följande CSS-klassväljare:
 .s7mixedmediaviewer .s7flyoutzoomview .s7tip
 ```
 
-Det går att konfigurera teckensnittsstil, storlek och lodrät förskjutning via CSS. Den vågräta justeringen hanteras emellertid av visningsprogrammets logik. Det går inte att åsidosätta den via CSS med egenskaperna `left` eller `right`.
+Det går att konfigurera teckensnittsstil, storlek och lodrät förskjutning via CSS. Den vågräta justeringen hanteras emellertid av visningsprogrammets logik. Åsidosätta den via CSS med `left` eller `right` egenskaper stöds inte.
 
 **CSS-egenskaper för tipsmeddelandet**
 
@@ -70,43 +70,43 @@ Det går att konfigurera teckensnittsstil, storlek och lodrät förskjutning via
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Fyllningsfärg för meddelandebakgrund. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
    <td colname="col2"> <p> Kantradie för meddelandebakgrund. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> nederkant  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> nederkant </span> </p> </td> 
    <td colname="col2"> <p> Förskjutning längst ned i huvudvyn. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> färg  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> färg </span> </p> </td> 
    <td colname="col2"> <p>Tips för textfärg. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Teckenstorlek. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Teckensnittsfamilj. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opacitet  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opacitet </span> </p> </td> 
    <td colname="col2"> <p> Ogenomskinlighet för meddelandebakgrund. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> utfyllnad  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> utfyllnad </span> </p> </td> 
    <td colname="col2"> <p> Utfyllnad runt meddelandetexten. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Tipsmeddelandet kan lokaliseras. Mer information finns i [Lokalisering av element i användargränssnittet](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+Tipsmeddelandet kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) för mer information.
 
-Exempel - Om du vill ange ett halvgenomskinligt tips med vitt Arial 12px-teckensnitt, förskjuts 50 pixlar från huvudvyns nederkant, utfyllnad och en rundad kant:
+Exempel - Om du vill ange ett halvgenomskinligt tips med vitt Arial® 12-px-teckensnitt, förskjuts 50 pixlar från huvudvyns nederkant, utfyllnad och en rundad kant:
 
 ```
 .s7mixedmediaviewer .s7flyoutzoomview .s7tip { 
