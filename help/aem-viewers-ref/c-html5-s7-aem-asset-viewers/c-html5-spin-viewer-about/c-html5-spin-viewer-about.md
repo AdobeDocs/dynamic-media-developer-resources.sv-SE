@@ -1,12 +1,12 @@
 ---
+title: Snurra
 description: Snurra visningsprogram är ett bildvisningsprogram som ger en 360-gradersvy av bilden eller till och med flerdimensionell vy om rätt snurruppsättning används. Den har verktyg för zoomning och snurra, stöd för helskärmsläge och en valfri stängningsknapp. Den är utformad för att fungera på stationära datorer och mobila enheter.
 keywords: responsiv
 solution: Experience Manager
-title: Snurra
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 4c802d42-ea5b-4f28-b6ef-2689aa16839d
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '2130'
 ht-degree: 0%
@@ -104,7 +104,7 @@ target="_blank">Open popup viewer</a>
 
 **Om inbäddningsläge med fast storlek och responsivt designinbäddningsläge**
 
-I det inbäddade läget läggs visningsprogrammet till på den befintliga webbsidan, som kanske redan har kundinnehåll som inte är relaterat till visningsprogrammet. Visningsprogrammet tar normalt bara upp en del av en webbsidas fastighet.
+I det inbäddade läget läggs visningsprogrammet till på den befintliga webbsidan, som kanske redan har kundinnehåll som inte är relaterat till visningsprogrammet. Visningsprogrammet upptar normalt bara en del av en webbsidas fastighet.
 
 De viktigaste användningsområdena är webbsidor som är orienterade för datorer eller surfplattor, och även responsiva designsidor som automatiskt anpassar layouten beroende på enhetstyp.
 
@@ -299,7 +299,7 @@ Följande exempelsida visar mer verkliga användningsområden för responsiv des
 
 **Flexibel storleksinbäddning med definierad bredd och höjd**
 
-Om det finns inbäddning i flexibel storlek med bredd och höjd definierad, är webbsidans format annorlunda. Det innebär att båda storlekarna kan anges för &quot; hållaren&quot; `DIV` och centrerar det i webbläsarfönstret. Dessutom anger webbsidan storleken på `HTML` och `BODY` till 100 %:
+Om det finns inbäddning i flexibel storlek med angiven bredd och höjd är webbsidans format annorlunda. Det innebär att båda storlekarna kan anges för &quot; hållaren&quot; `DIV` och centrerar det i webbläsarfönstret. Dessutom anger webbsidan storleken på `HTML` och `BODY` till 100 %:
 
 ```
 <!DOCTYPE html> 

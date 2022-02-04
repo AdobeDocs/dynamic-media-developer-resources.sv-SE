@@ -1,30 +1,30 @@
 ---
+title: SpinView.iconeffect
 description: SpinView.iconeffect
 solution: Experience Manager
-title: SpinView.iconeffect
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,snurra uppsättningar
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: e84336da-7f33-4fa9-b881-93b9db4bae8b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '117'
 ht-degree: 1%
 
 ---
 
 # SpinView.iconeffect{#spinview-iconeffect}
 
-` [SpinView.|<containerId>_spinView.]iconeffect=0|1[, *`countfadeautoHide `*][, *``*][, *``*]`
+` [SpinView.|<containerId>_spinView.]iconeffect=0|1[, *`antal`*][, *`tona`*][, *`autoHide`*]`
 
 <table id="table_6CAA904E976A41BD994D8926F46F0BAF"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Gör att <span class="codeph">-ikoneffekten</span> kan visas högst upp i bilden när bilden är i ett återställningsläge och det är ett tecken på en tillgänglig åtgärd att interagera med bilden. </p> </td> 
+   <td colname="col2"> <p> Aktiverar <span class="codeph"> ikoneffekt</span> som visas högst upp i bilden när bilden är i ett återställningsläge och det är ett tecken på en tillgänglig åtgärd för att interagera med bilden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> antal</span></span> </p> </td> 
-   <td colname="col2"> <p> Anger det maximala antalet gånger som ikoneffekten <span class="codeph"></span> visas och visas igen. Värdet <span class="codeph"> -1</span> anger att ikonen alltid visas oändligt. </p> </td> 
+   <td colname="col2"> <p> Anger maximalt antal gånger <span class="codeph"> ikoneffekt</span> visas och visas igen. Värdet för <span class="codeph"> -1</span> anger att ikonen alltid visas oändligt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> tona</span></span> </p> </td> 
@@ -32,7 +32,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> autoHide</span></span> </p> </td> 
-   <td colname="col2"> <p>Anger antalet sekunder som ikoneffekten <span class="codeph"> ska vara helt synlig innan den döljs automatiskt. </span> Det vill säga, tiden efter att den intonade animeringen har slutförts men innan den uttonade animeringen börjar. Om du anger <span class="codeph"> 0</span> inaktiveras beteendet för att dölja automatiskt. </p> </td> 
+   <td colname="col2"> <p>Anger antalet sekunder som <span class="codeph"> ikoneffekt</span> förblir helt synlig innan den döljs automatiskt. Det vill säga, tiden efter att den intonade animeringen har slutförts men innan den uttonade animeringen börjar. En inställning för <span class="codeph"> 0</span> inaktiverar funktionen för att dölja automatiskt. </p> </td> 
   </tr> 
  </tbody> 
 </table>

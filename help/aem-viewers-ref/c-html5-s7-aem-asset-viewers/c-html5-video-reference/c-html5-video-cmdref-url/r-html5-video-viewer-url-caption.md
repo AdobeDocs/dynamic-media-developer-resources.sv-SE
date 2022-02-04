@@ -1,14 +1,14 @@
 ---
+title: bildtext
 description: URL-kommando för Video Viewer.
 solution: Experience Manager
-title: bildtext
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: a9af3335-ae18-4399-9014-47ec0306a087
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 1%
+source-wordcount: '196'
+ht-degree: 2%
 
 ---
 
@@ -34,7 +34,7 @@ Visningsprogrammet har stöd för undertextning via WebVTT-filer på webben. Öv
    <td colname="col1"> <p> A </p> </td> 
    <td colname="col2"> <p>textjustering </p> </td> 
    <td colname="col3"> <p><span class="codeph"> left|right|middle|start|end</span> </p> </td> 
-   <td colname="col4"> <p> Styr textjustering. </p> <p>Standardvärdet är <span class="codeph"> mitten</span>. </p> </td> 
+   <td colname="col4"> <p> Styr textjustering. </p> <p>Standard är <span class="codeph"> mitten</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>T </p> </td> 
@@ -67,7 +67,7 @@ Andra WebVTT-funktioner i WebVTT-filen stöds inte, men bör inte störa bildtex
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Anger standardbildtextläget (aktiverat är <span class="codeph"> 1</span>). </p> </td> 
+   <td colname="col2"> <p> Anger standardläget för bildtext (aktiverad är <span class="codeph"> 1</span>). </p> </td> 
   </tr> 
  </tbody> 
 </table>

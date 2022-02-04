@@ -1,14 +1,14 @@
 ---
+title: stängningsknapp
 description: stängningsknapp
 solution: Experience Manager
-title: stängningsknapp
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,snurra uppsättningar
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: a9219ccd-f645-4bdd-a400-8ed6b1e8feec
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '30'
-ht-degree: 6%
+source-wordcount: '22'
+ht-degree: 9%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 6%
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
-   <td colname="col2"> <p> Ange <span class="codeph"> 1</span> om du vill aktivera stängningsknappsvisning eller ange <span class="codeph"> 0</span> om du vill dölja stängningsknappen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
+   <td colname="col2"> <p> Ange till <span class="codeph"> 1</span> om du vill aktivera stängningsknappsvisning eller ange att <span class="codeph"> 0</span> om du vill dölja stängningsknappen. </p> </td> 
   </tr> 
  </tbody> 
 </table>

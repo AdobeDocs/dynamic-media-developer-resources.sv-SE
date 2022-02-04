@@ -1,13 +1,13 @@
 ---
+title: Helskärmsknapp
 description: Med den här knappen aktiverar eller inaktiverar användaren helskärmsläget. Den här knappen visas inte om visningsprogrammet fungerar i popup-läge och systemet inte stöder helskärmsläge. Du kan ändra storlek, skal och position för knappen med hjälp av CSS.
 solution: Experience Manager
-title: Helskärmsknapp
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: c57f42e1-93c0-44fa-9734-9599786ee246
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Knappens utseende styrs med följande CSS-klassväljare:
 
 Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-localization.md#concept-e35c15c9e82648328806cdc6aa255d98) för mer information.
 
-Exempel - för att ställa in en helskärmsknapp som är 32 x 32 pixlar, placerad sex pixlar från den övre och högra kanten av visningsprogrammet och visa en bild för var och en av de fyra olika knapplägena när den är markerad eller inte är markerad:
+Exempel - För att ställa in en helskärmsknapp som är 32 x 32 pixlar och placerad sex pixlar från den övre och högra kanten av visningsprogrammet. Och slutligen, visar en annan bild för vart och ett av de fyra olika knapplägena när det är markerat eller inte markerat:
 
 ```
 .s7spinviewer .s7fullscreenbutton { 

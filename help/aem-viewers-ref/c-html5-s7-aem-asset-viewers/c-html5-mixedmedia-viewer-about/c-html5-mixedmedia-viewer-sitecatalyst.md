@@ -1,13 +1,13 @@
 ---
+title: Stöd för Adobe Analytics tracking
 description: Mixed Media Viewer har stöd för Adobe Analytics tracking-out-of-the-box.
 solution: Experience Manager
-title: Stöd för Adobe Analytics tracking
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,blandade medieuppsättningar
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 3b28c853-3747-4805-a141-3cce1398d783
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ Mixed Media Viewer har stöd för Adobe Analytics tracking-out-of-the-box.
 
 ## Spåra direkt {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-Mixed Media Viewer har stöd för [!DNL Adobe Analytics]-spårning som är färdig. Om du vill aktivera spårning skickar du rätt namn på företagets förinställning som `config2`-parameter.
+Mixed Media Viewer har stöd för [!DNL Adobe Analytics] spårning direkt. Om du vill aktivera spårning skickar du rätt namn på företagets förinställning som `config2` parameter.
 
 Visningsprogrammet skickar även en enda HTTP-begäran för spårning till den konfigurerade Image Server med information om visningsprogramtyp och version.
 
 ## Anpassad spårning {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Om du vill integrera med analyssystem från tredje part måste du lyssna på `trackEvent`-återanropet för visningsprogrammet och bearbeta `eventInfo`-argumentet för återanropsfunktionen efter behov. Följande kod är ett exempel på en sådan hanterarfunktion:
+För att kunna integreras med analyssystem från tredje part måste man lyssna på `trackEvent` återanrop till visningsprogrammet och bearbeta `eventInfo` vid behov callback-funktionens argument. Följande kod är ett exempel på en sådan hanterarfunktion:
 
 ```
 var mixedMediaViewer = new s7viewers.MixedMediaViewer({ 
@@ -60,43 +60,43 @@ Visningsprogrammet spårar följande SDK-användarhändelser:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LADDA  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LADDA </span> </p> </td> 
    <td colname="col2"> <p>visningsprogrammet läses in först. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SWAP  </span> </p> </td> 
-   <td colname="col2"> <p>en resurs byts ut i visningsprogrammet med hjälp av API:t <span class="codeph"> setAsset() </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
+   <td colname="col2"> <p>en resurs byts ut i visningsprogrammet med <span class="codeph"> setAsset() </span> API. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ZOOMA  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ZOOMA </span> </p> </td> 
    <td colname="col2"> <p>en bild zoomas in. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PAN  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PAN </span> </p> </td> 
    <td colname="col2"> <p>en bild är panorerad. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FÄRGRUTA  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FÄRGRUTA </span> </p> </td> 
    <td colname="col2"> <p> en bild ändras genom att man klickar eller trycker på en färgruta. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SPELA  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> SPELA </span> </p> </td> 
    <td colname="col2"> <p>uppspelningen startas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PAUS  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PAUS </span> </p> </td> 
    <td colname="col2"> <p>uppspelningen är pausad. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> STOP  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> STOP </span> </p> </td> 
    <td colname="col2"> <p>uppspelningen stoppas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> MILESTON  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> MILESTON </span> </p> </td> 
    <td colname="col2"> <p>uppspelningen når en av följande millisekunder: 0 %, 25 %, 50 %, 75 % och 100 %. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SPIN  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> SPIN </span> </p> </td> 
    <td colname="col2"> <p>snurra utförs. </p> </td> 
   </tr> 
  </tbody> 

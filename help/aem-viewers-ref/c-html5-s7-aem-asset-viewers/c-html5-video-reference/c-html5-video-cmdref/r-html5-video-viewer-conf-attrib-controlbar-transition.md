@@ -1,13 +1,13 @@
 ---
+title: ControlBar.transition
 description: Konfigurationsattribut för Video Viewer.
 solution: Experience Manager
-title: ControlBar.transition
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 133717c7-38d9-47b6-86bb-e23ebd8f147a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
@@ -16,17 +16,17 @@ ht-degree: 0%
 
 Konfigurationsattribut för Video Viewer.
 
-` [ControlBar.|<containerId>_controls.]transition=none|fade[, *``*[, *`delaytohideduration`*]`
+` [ControlBar.|<containerId>_controls.]transition=none|fade[, *`delaytohide`*[, *`varaktighet`*]`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ingen|tona</span> </p> </td> 
-   <td colname="col2"> <p> Anger den effekttyp som används för att visa eller dölja kontrollfältet och dess innehåll. </p> <p>Använd <span class="codeph"> none</span> för att visa och dölja omedelbart. Använd <span class="codeph"> toning</span> för att få en gradvis toning in- och uttoningseffekt. </p> <p>Tona stöds inte i Internet Explorer 8. </p> </td> 
+   <td colname="col2"> <p> Anger den effekttyp som används för att visa eller dölja kontrollfältet och dess innehåll. </p> <p>Använd <span class="codeph"> ingen</span> för direktvisning och dölj. Använd <span class="codeph"> tona</span> för att skapa en gradvis toning in- och uttoningseffekt. </p> <p>Tona stöds inte i Internet Explorer 8. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delaytohide</span> </span> </p> </td> 
-   <td colname="col2"> <p>Anger tiden i sekunder mellan den senaste mus-/pekhändelsen som kontrollfältet registrerar och tidskontrollfältet döljs. </p> <p> Om den anges till <span class="codeph"> -1</span> utlöser komponenten aldrig sin auto-hide-effekt och förblir alltid synlig på skärmen. </p> </td> 
+   <td colname="col2"> <p>Anger tiden i sekunder mellan den senaste mus-/pekhändelsen som kontrollfältet registrerar och den tid som kontrollfältet döljs. </p> <p> Om inställt på <span class="codeph"> -1</span>, utlöser komponenten aldrig sin automatiska döljningseffekt och förblir alltid synlig på skärmen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> varaktighet</span> </span> </p> </td> 

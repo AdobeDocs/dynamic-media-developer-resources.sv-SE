@@ -1,14 +1,14 @@
 ---
+title: VideoPlayer.loop
 description: Konfigurationsattribut för Video Viewer.
 solution: Experience Manager
-title: VideoPlayer.loop
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 92d22f5d-0ba8-4ea2-bba6-2275efdd1fe0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 5%
+source-wordcount: '28'
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ Konfigurationsattribut för Video Viewer.
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
    <td colname="col2"> <p> Anger om videon ska spelas upp igen när uppspelningen är klar. </p> </td> 
   </tr> 
  </tbody> 

@@ -1,14 +1,14 @@
 ---
+title: ZoomView.reset
 description: ZoomView.reset
 solution: Experience Manager
-title: ZoomView.reset
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,blandade medieuppsättningar
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 95bf90d1-071e-467a-87aa-122911125233
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 4%
+source-wordcount: '40'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Återställer visningsporten när ramen (bilden) ändras. Om den anges till <span class="codeph"> 0</span> bevaras den aktuella visningsporten med bästa möjliga passform, samtidigt som bildens proportioner bevaras. </p> </td> 
+   <td colname="col2"> <p> Återställer visningsporten när ramen (bilden) ändras. Om inställt på <span class="codeph"> 0</span>bevarar den aktuella visningsporten med bästa möjliga passform samtidigt som bildens proportioner bevaras. </p> </td> 
   </tr> 
  </tbody> 
 </table>
