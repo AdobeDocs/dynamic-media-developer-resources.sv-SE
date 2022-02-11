@@ -1,13 +1,13 @@
 ---
+title: Videospelare
 description: Videospelaren är det rektangulära området där videoinnehållet visas i visningsprogrammet.
 solution: Experience Manager
-title: Videospelare
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 2741821f-78fe-44d4-8604-fee10086e0a0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -31,13 +31,13 @@ Följande CSS-klassväljare styr videospelarens utseende:
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Huvudvyns bakgrundsfärg. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Det felmeddelande som visas om systemet inte kan spela upp videon kan lokaliseras. Mer information finns i [Lokalisering av element i användargränssnittet](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad).
+Det felmeddelande som visas om systemet inte kan spela upp videon kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) för mer information.
 
 Exempel - Om du vill ställa in ett videovisningsprogram med videospelarens storlek inställd på 512 x 288 pixlar.
 
@@ -56,29 +56,29 @@ Undertexter placeras i en intern behållare inuti videospelaren. Placeringen av 
 <table id="table_960E0D4FB91748FF9FC73C925B81879C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Textbakgrund för dold text. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> färg  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> färg </span> </p> </td> 
    <td colname="col2"> <p>Stäng bildtextens färg. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p> Teckensnittsbredd för dold bildtext. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p> Teckensnittsstorlek för dold text. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Textningsteckensnitt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exempel - Så här ställer du in en textning som är 14 pixlar, ljusgrå, Arial, på en halvgenomskinlig svart bakgrund:
+Exempel - Så här ställer du in en textning som är 14 pixlar, ljusgrå Arial®, på en halvgenomskinlig svart bakgrund:
 
 ```
 .s7videoviewer .s7videoplayer .s7caption { 
@@ -111,19 +111,19 @@ Utseendet på buffringsanimeringen styrs med följande CSS-klassväljare:
    <td colname="col2"> <p> Animeringsikonens bredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p> Höjd på animeringsikonen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal-vänster  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal-vänster </span> </p> </td> 
    <td colname="col2"> <p> Animeringsikonens vänstermarginal, normalt minus halva ikonens bredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal-top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal-top </span> </p> </td> 
    <td colname="col2"> <p> Animeringsikonens övre marginal, normalt minus halva ikonens höjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> Knacka teckningar. </p> </td> 
   </tr> 
  </tbody> 

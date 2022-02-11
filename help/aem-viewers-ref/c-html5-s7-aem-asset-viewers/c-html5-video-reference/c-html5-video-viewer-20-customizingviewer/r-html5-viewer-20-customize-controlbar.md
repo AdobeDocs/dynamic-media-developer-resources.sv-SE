@@ -1,20 +1,20 @@
 ---
-description: Kontrollfältet är det rektangulära området som innehåller och sitter bakom alla UI-kontroller som är tillgängliga för videovisningsprogrammet, t.ex. uppspelnings-/pausknappen, volymkontroller osv.
-solution: Experience Manager
 title: Kontrollfält
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Video
+description: Kontrollfältet är det rektangulära området som innehåller och sitter bakom alla UI-kontroller som är tillgängliga för visningsprogrammet, till exempel uppspelnings-/pausknappen och volymkontrollerna.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 2239307a-4a05-4392-b35c-a64ea6c938ad
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
 
 # Kontrollfält{#control-bar}
 
-Kontrollfältet är det rektangulära området som innehåller och sitter bakom alla UI-kontroller som är tillgängliga för videovisningsprogrammet, t.ex. uppspelnings-/pausknappen, volymkontroller osv.
+Kontrollfältet är det rektangulära området som innehåller och sitter bakom alla UI-kontroller som är tillgängliga för visningsprogrammet, till exempel uppspelnings-/pausknappen och volymkontrollerna.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -31,19 +31,19 @@ Följande CSS-klassväljare styr kontrollfältets utseende:
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Placera från den övre kanten, inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> nederkant  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> nederkant </span> </p> </td> 
    <td colname="col2"> <p> Placera från den nedre kanten, inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Kontrollfältets höjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Kontrollfältets bakgrundsfärg. </p> </td> 
   </tr> 
  </tbody> 

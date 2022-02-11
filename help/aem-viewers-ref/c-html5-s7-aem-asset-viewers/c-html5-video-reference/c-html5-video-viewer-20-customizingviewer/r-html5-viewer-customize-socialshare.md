@@ -1,13 +1,13 @@
 ---
+title: Social andel
 description: Verktyget för delning via sociala medier visas som standard i det övre högra hörnet. Den består av en knapp och en panel som utökas när användaren klickar eller trycker på en knapp och innehåller enskilda delningsverktyg.
 solution: Experience Manager
-title: Social andel
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 82b482f9-b117-4529-a422-cdb0eead0031
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
@@ -29,11 +29,11 @@ Placeringen och storleken på verktyget för delning via sociala medier i visnin
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p> Det sociala delningsverktygets lodräta position i förhållande till visningsprogrambehållaren. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vänster  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> vänster </span> </p> </td> 
    <td colname="col2"> <p> Vågrät position för verktyget för delning via sociala medier i förhållande till visningsprogrambehållaren. </p> </td> 
   </tr> 
   <tr> 
@@ -41,7 +41,7 @@ Placeringen och storleken på verktyget för delning via sociala medier i visnin
    <td colname="col2"> <p> Bredden på verktyget för delning via sociala medier. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Höjden på verktyget för delning via sociala medier. </p> </td> 
   </tr> 
  </tbody> 
@@ -69,11 +69,11 @@ Utseendet på verktygsknappen för delning via sociala medier styrs av följande
 <table id="table_A18B6978EC304C378F5FE92DD44D138D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> Bilden som visas för ett visst knappläge. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Placera inuti en teckningssprite, om CSS-sprites används. </p> <p>Se <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-fragment </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -81,9 +81,9 @@ Utseendet på verktygsknappen för delning via sociala medier styrs av följande
 
 >[!NOTE]
 >
->Den här knappen stöder attributväljaren `state`, som kan användas för att tillämpa olika skal på olika knapplägen.
+>Den här knappen har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen.
 
-Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av element i användargränssnittet](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad).
+Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) för mer information.
 
 Exempel - Ställ in en knapp för verktyget för delning via sociala medier som visar olika bilder för de fyra olika knapplägena.
 
@@ -113,7 +113,7 @@ Utseendet på panelen som innehåller de enskilda ikonerna för social delning s
 <table id="table_86E777A5851F47D6A49D966E24A9A6CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Panelens bakgrundsfärg. </p> </td> 
   </tr> 
  </tbody> 
