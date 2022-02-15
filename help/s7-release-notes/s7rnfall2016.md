@@ -1,24 +1,24 @@
 ---
-description: '"Den senaste versionsinformationen om Adobe Scene7 hösten 2016, en del av Adobe Experience Manager-lösningen i Adobe Marketing Cloud."'
-solution: Experience Manager
 title: Scene7 hösten 2016
+description: '"Den senaste versionsinformationen om Adobe Scene7 hösten 2016, en del av Adobe Experience Manager-lösningen i Adobe Experience Cloud."'
+solution: Experience Manager
 feature: Dynamic Media Classic
 role: Developer,User
 exl-id: 23091ef7-750a-4ec2-9d03-1d713f436991
-source-git-commit: 06ea55bebbb16de643fec96147ec2b648bb5783b
+source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
 workflow-type: tm+mt
-source-wordcount: '2238'
+source-wordcount: '2209'
 ht-degree: 0%
 
 ---
 
 # Scene7 hösten 2016{#scene-fall-release}
 
-Den senaste versionsinformationen om Adobe Scene7 hösten 2016 ingår i Adobe Experience Manager-lösningen i Adobe Marketing Cloud.
+Den senaste versionsinformationen om Adobe Scene7 hösten 2016 ingår i Adobe Experience Manager-lösningen i Adobe Experience Cloud.
 
 ## Scene7 hösten 2016 {#topic-791cdf80f91e457fbb63bfedf79f5a94}
 
-Den senaste versionsinformationen för [!DNL Adobe Scene7] hösten 2016 som en del av [!DNL Adobe Experience Manager]-lösningen i [!DNL Adobe Marketing Cloud].
+Den senaste versionsinformationen för [!DNL Adobe Scene7] Versiondelen hösten 2016 [!DNL Adobe Experience Manager] lösningen i [!DNL Adobe Experience Cloud].
 
 * [Allmänt](s7rnfall2016.md#section-52afeb72ecb34c1585ea67a5051825a2)
 * [Scene7](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
@@ -40,10 +40,10 @@ Fullständig dokumentation finns i [https://experienceleague.adobe.com/docs/dyna
 
 **Nya funktioner, förbättringar och felkorrigeringar**
 
-* Funktionen för videoinspelning har tagits bort från användargränssnittet i [!DNL Adobe Scene7 Publishing System].
-* Autentisering har lagts till för alla Scene7-servrar där det är nödvändigt och möjligt.
+* Funktionen för videoinspelning har tagits bort från [!DNL Adobe Scene7 Publishing System] användargränssnitt.
+* Autentisering har lagts till för alla Scene7-servrar där det är nödvändigt och möjligt
 * Felkorrigering som involverar listvyn i papperskorgen.
-* **Användarfunktionen Skapa Dynamic Media Classic (Scene7) Admin** har tagits bort från användarhantering på grund av säkerhetsproblem.
+* Borttagen **Skapa Dynamic Media Classic-administratör (Scene7)** användarfunktionen från användarhantering på grund av säkerhetsproblem.
 * FTP WebAdmin har nu stöd för OKTA-autentisering.
 * Funktionen för standardlösenordet som skapades för nya Media Portal-användare har tagits bort.
 * Felkorrigering med det tillfälliga lösenord som skapades när en ny användare lades till. Lösenordet uppfyller inte de nödvändiga lösenordskraven.
@@ -53,7 +53,7 @@ Fullständig dokumentation finns i [https://experienceleague.adobe.com/docs/dyna
 * Felkorrigering med välkomstmeddelandet som skickades till nya Scene7-användare som inte innehöll autentisering för att kontrollera vissa inställningar.
 * Felkorrigering som innebär att det inte gick att hämta en FTP-mapplista om någon mapp hade specialtecken i namnet.
 * Konfigurera OKTA-tjänsteleverantörer för Scene7-miljöer.
-* Stöd för Marketing Cloud Org ID för Viewer Analytics har lagts till.
+* Stöd för Experience Cloud Org ID för Viewer Analytics har lagts till.
 * Implementerad Scene7 SAML-konsument.
 
 ## Visare (Image Serving 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
@@ -82,29 +82,29 @@ Fullständig dokumentation finns i [Referenshandbok för visningsprogram](https:
 **Nya funktioner, förbättringar och felkorrigeringar för Image Serving 5.5.1**
 
 * HTML5 eCatalog-visningsprogram med sökfunktion.
-* Lagt till HLS-direktuppspelad videouppspelning som standardmetod för leverans av video i de flesta datorsystem. Flash-baserad HDS-videoströmning är fortfarande tillgängligt som ett alternativt uppspelningsalternativ.
+* HLS-direktuppspelad videouppspelning har lagts till som standardmetod för videoleverans i de flesta datorsystem. Flash-baserad HDS-videoströmning är fortfarande tillgängligt som ett alternativt uppspelningsalternativ.
 * Stöd för enheter med både mus- och pekrörelser som kör Chrome-webbläsare har lagts till.
-* Stöd för Marketing Cloud Org ID har lagts till i Analytics-integreringen.
+* Stöd för Experience Cloud Org ID har lagts till i Analytics-integreringen.
 * Uppdatera AppMeasurement JavaScript-biblioteket till version 1.6.1.
 * Stöd för höger-till-vänster-orientering har lagts till i eCatalog-visningsprogrammet.
 * Korrigerat problem där `tip=0,-1,0` orsakade ett fel utanför intervallet.
 
 **Kompatibilitetsanteckningar**
 
-* Blackberry
+* BlackBerry®
 
-   * Inkompatibelt med äldre AVS-uppsättningar. Klienter kan behöva överföra AVS-uppsättningar igen för att tillåta uppspelning.
+   * Inkompatibelt med äldre AVS-uppsättningar. Klienter måste överföra AVS-uppsättningar igen för att tillåta uppspelning.
 
 * Allmänt
 
-   * Skalning på webbläsarsidan kan göra användargränssnittet och bilderna suddiga när användaren zoomar in på sidan. Gränssnittsformatering kan också visas felaktigt beroende på zoomning. Detta kommer att överföras till helskärm.
-   * På grund av storleksbegränsning på mobila enheter använder Mixed Media Viewer glidningsgest för att växla bildrutor i inbäddade bilduppsättningar i stället för att trycka på den inbäddade färgrutekomponenten. Komponenten finns där som en visuell indikator.
+   * Skalning på webbläsarsidan kan göra användargränssnittet och bilderna suddiga när användaren zoomar in på sidan. Gränssnittsformatering kan också visas felaktigt beroende på zoomning. Den här effekten överförs till helskärm.
+   * På grund av storleksbegränsningar på mobila enheter använder visningsprogrammet för blandade media gester för att växla bildrutor i inbäddade bilduppsättningar i stället för att trycka på den inbäddade färgrutekomponenten. Komponenten finns där som en visuell indikator.
    * I Internet Explorer-webbläsare och vissa touchenheter upptar helskärmsläget inte hela enhetsskärmen. I stället ändras programmets storlek till webbläsarfönstrets storlek.
-   * Knappen Stäng fungerar inte iOS 8.0 och 8.1, men finns inte längre i iOS 8.2
+   * Knappen Stäng fungerar inte i iOS 8.0 och 8.1, men finns inte längre i iOS 8.2
 
 * Galaxy SIII
 
-   * Minnesläcka som kan ses med Zoom- och eCatalog HTML5-visningsprogram. Upprepad navigering i bildrutor kan göra att webbläsaren kraschar.
+   * Minnesläcka som visas i visningsprogrammen Zoom och eCatalog HTML 5. Upprepad navigering i bildrutor kan göra att webbläsaren kraschar.
    * Dubbeltryck på visningsprogrammet kan göra att hela sidan zoomas i stället för bara visningsprogrammet med skalning på webbläsarsidan aktiverad.
 
 * Galaxy S4
@@ -121,27 +121,27 @@ Fullständig dokumentation finns i [Referenshandbok för visningsprogram](https:
 
 * HTML Mobile Devices
 
-   * HTC-mobilenheter visar våra upptäckter att det inte går att inaktivera inbyggd nyp-zoom är en funktion i HTC UI wrapper (HTC Sense). Det kan göra att hela sidan zoomas när du använder gesten &quot;nyp för att zooma&quot; i visningsprogrammet. Föreslå att dubbelknacka i stället.
+   * HTC-mobilenheter Adobe upptäcker att det inte går att inaktivera inbyggda nyp-zoom är en funktion i HTC UI-wrapper (HTC Sense). Det här problemet kan göra att hela sidan zoomas när du använder Nyp för att zooma i visningsprogrammet. Föreslå att dubbelknacka i stället.
    * Bildschemaikoner kan överlappa om bildscheman är små och nära varandra.
 
 * HTML5-video
 
    * Internet Explorer 9: anpassade förhandsgranskningsbilder visas inte.
    * `IntialBitRate` modifierare stöds bara med HLS- och Flash HDS-uppspelning. Det fungerar inte när uppspelningen använder den inbyggda spelaren.
-   * OGG- och WebM-progressiv uppspelning stöds inte just nu.
-   * Webbläsarskalning kan göra att videospelaren visas i fel storlek (inklusive visningsinställningar för Windows OS-kontrollpanelen)
-   * Videosökning med HLS-strömning på Safari kan vara inkonsekvent.
+   * OGG- och WebM-progressiv uppspelning stöds inte för närvarande.
+   * Webbläsarskalning kan göra att videospelaren visas i fel storlek (inklusive visningsinställningar för Windows OS-kontrollpanelen).
+   * Videosökning med HLS-direktuppspelning på Safari kan vara inkonsekvent.
 
 * Internet Explorer
 
-   * Quirks-läget stöds inte just nu.
+   * Quirks-läget stöds för närvarande inte.
    * Kompatibilitetsläget stöds för närvarande inte.
-   * Internet Explorer på mobilen stöds inte för närvarande.
+   * Internet Explorer på mobilen stöds för närvarande inte.
 
 * iOS
 
    * Stora e-kataloger kan få webbläsaren att krascha på iPad 2.
-   * iPhone 6+-telefoner kan identifieras som surfplattor av tittarna.
+   * iPhone 6+-telefoner kan av tittarna identifieras som surfplattor.
 
 * Safari
 
@@ -151,30 +151,30 @@ Fullständig dokumentation finns i [Referenshandbok för visningsprogram](https:
 
 **Kända fel och begränsningar**
 
-* Image Serving-modifierare från `iscommands` har inte lagts till i `req=set`-begäran. Modifierare som bara påverkar bildvisningen fungerar bra. Modifierare som påverkar storleken måste användas i en komplex resurs. Exempel:
+* Funktionsändringstecken för bildbehandling från `iscommands` läggs inte till i `req=set` förfrågan efter design. Modifierare som bara påverkar bildvisningen fungerar bra. Modifierare som påverkar storleken måste användas i en komplex resurs. Exempel:
 
    `https://s7d9.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset= {Scene7SharedAssets/Backpack_B?extendn=0.5%252C0.5%252C0.5%252C0.5}`
 
-* [Flyout ] IE9 kan ibland finnas kvar på skärmen när musen är avstängd.
+* [Utfällbar] IE9 finns ibland kvar på skärmen när musen är avstängd.
 * Webbläsarskalning leder till fel storleksändring.
-* iPad 2: Big eCatalog-resurs kommer att krascha Safari på iOS.
+* iPad 2: Stor eCatalog-resurs kraschar i Safari på iOS.
 * Alla visningsprogram
 
    * Vattenstämplar, förvrängning och låsning stöds inte.
    * Bildförinställningar stöds inte.
-   * Det går för närvarande inte att lägga till eller ta bort visningsprogrammet från DOM med `display:none` CSS eller genom att dynamiskt koppla loss det från den överordnade noden.
+   * Lägga till eller ta bort visningsprogram från DOM med `display:none` CSS eller genom att dynamiskt koppla loss den från den överordnade noden stöds inte för närvarande.
 
 * HTML5 Alla visningsprogram
 
    * Inbäddning av visningsprogram i tabell kan leda till felaktig storlek eller placering av visningsprogrammet i icke-ursprungligt helskärmsläge. Föreslå användning av DIV i stället.
    * Parametrar med explicita instansnamn i koden kräver att instansnamn i URL:en också skrivs över (till exempel `zoomView.iconfeffect=0`).
-   * Beskärning av bildserverkommandon stöds inte just nu.
+   * Beskärning av bildserverkommando stöds för närvarande inte.
    * Knappen Stäng fungerar bara om visningsprogrammet är öppet i det underordnade fönstret.
-   * Modifieraren `iscommands` stöder inte Image Serving-modifierare som påverkar bildstorleken.
+   * The `iscommands` modifieraren stöder inte Image Serving-modifierare som påverkar bildstorleken.
 
 * HTML5 eCatalog
 
-   * Om användaren navigerar till en annan HTML-sida och ibland återgår till den första sidan återställs visningsprogrammet.
+   * Om du navigerar till en annan HTML-sida och återgår till den första sidan återställs visningsprogrammet ibland.
    * Sidlayouten visas ibland felaktigt efter att iOS-enheten roterats. När du zoomar in på sidan korrigeras layouten.
    * Interna länkar endast till den vänstra sidan i flersidiga uppslag. Påverkar mobila enheter i stående läge.
    * InitalFrame länkar endast till den vänstra sidan i flersidiga uppslag. Påverkar mobila enheter i stående läge.
@@ -182,42 +182,42 @@ Fullständig dokumentation finns i [Referenshandbok för visningsprogram](https:
 
 * HTML5 MixedMedia
 
-   * Ljudspårets uppspelning stöds för närvarande inte.
+   * Ljudspårets uppspelning stöds inte.
 
 * HTML5 Social
 
-   * För att miniatyrerna ska kunna återges korrekt i utgående e-post måste modifieraren `serverurl` ha en absolut URL.
+   * Om du vill återge miniatyrbilder korrekt i utgående e-post väljer du `serverurl` modifierare måste ha en absolut URL.
 
 * HTML5-video
 
-   * Posterbilden kan ha felet &quot;max size&quot;. Företag kan behöva öka begränsningsinställningen för Image Serving Publish.
-   * Videoklipp kräver en företagsregeluppsättning om det är en extern server (inte en Scene7-server) som är värd för HTML-sidan. Kontakta supporten för Adobe om du behöver hjälp.
+   * Posterbilden kan ha felet &quot;max size&quot;. Företaget måste öka begränsningsinställningen för Image Serving Publish.
+   * Videoklipp kräver en företagsregeluppsättning om värdtjänsten för HTML-sidan hanteras från en extern server (inte en Scene7-server). Kontakta supporten för Adobe om du behöver hjälp.
    * Analysspårning kan rapportera felaktig uppspelningsprocent på grund av buffring
-   * Svart bildruta i stället för förhandsvisningsbild kan visas på iPad- eller Android-enheter.
-   * Svart bildruta kan blinka på skärmen när visningsprogrammet läses in på iPad- eller Android-enheter.
-   * Svarta kantlinjer visas på sidan om VideoPlayer-komponenten när bakgrunden är inställd på vit/genomskinlig på iPad-enheter.
-   * Den sista bildrutan i videon kan förvrängas på iPad med iOS 7.
+   * Svarta bildrutor i stället för förhandsvisningsbilder kan visas på iPad- eller Android™-enheter.
+   * Svart bildruta kan blinka på skärmen när visningsprogrammet läses in på iPad- eller Android™-enheter.
+   * Svarta kantlinjer visas bredvid VideoPlayer-komponenten när bakgrunden är inställd på vit/genomskinlig på iPad-enheter.
+   * Den sista videobildrutan kan förvrängas i iPad med iOS 7.
    * Ibland kan makroblockering förekomma under videosökning i HLS-direktuppspelningsläge i Chrome, Firefox och Internet Explorer.
-      * Förhandsvisningsbilden kanske inte visas i Microsoft Edge-webbläsaren för första gången.
-      * Filmminiatyrbilden kan döljas när videon har lästs in i Internet Explorer 9 när progressiv uppspelning används.
+      * Förhandsvisningsbilden kanske inte visas i Microsoft® Edge-webbläsaren för första gången.
+      * Posterbilden kan döljas efter att videon har lästs in i Internet Explorer 9 när progressiv uppspelning används.
 
-## Scene7 HTML5 Viewer SDK 3.0.2 {#section-30e2392859c442d1aab2766d0f1d1580}
+## Scene7 HTML 5 Viewer SDK 3.0.2 {#section-30e2392859c442d1aab2766d0f1d1580}
 
 Användarhandboken finns i Adobe HTML5 Viewer SDK-mappen för klientinstallationen. Komponent-API-dokumentationen finns i undermappen docs i klientinstallationen.
 
 **Felkorrigeringar för 3.0.2**
 
-* VideoPlayer - videon kunde inte spelas upp i Internet Explorer 11 i Windows 7
-* TableOfContents - `initialframe` påverkade inte stående läge på mobila enheter för HTML5 eCatalog-visningsprogrammet.
+* VideoPlayer - Det gick inte att spela upp video i Internet Explorer 11 i Windows 7.
+* Innehållsförteckning -  `initialframe` påverkade inte stående läge på mobila enheter för HTML5 eCatalog-visningsprogrammet.
 
 **Nya funktioner, förbättringar och felkorrigeringar för 3.0.1**
 
 * Allmänt
 
-   * Lagt till HLS-direktuppspelad videouppspelning som standardmetod för leverans av video i de flesta datorsystem. Flash-baserad HDS-videoströmning är fortfarande tillgängligt som ett alternativt uppspelningsalternativ.
+   * HLS-direktuppspelad videouppspelning har lagts till som standardmetod för videoleverans i de flesta datorsystem. Flash-baserad HDS-videoströmning är fortfarande tillgängligt som ett alternativt uppspelningsalternativ.
    * Komponenterna SearchManager, SearchPanel, SearchEffect och SearchButton har lagts till som stöd för den nya sökfunktionen i visningsprogram för eCatalog.
    * Stöd för enheter med både mus- och pekrörelser som körs i webbläsaren Chrome har lagts till.
-   * Avpassad versionsidentifiering av Android som stöd för framtida versioner av operativsystemet
+   * Refererad versionsidentifiering av Android™ som stöd för framtida versioner av operativsystemet.
    * Lägg till stöd för höger-till-vänster-orientering i eCatalog-specifika SDK-komponenter.
 
 * ControlBar
@@ -226,17 +226,17 @@ Användarhandboken finns i Adobe HTML5 Viewer SDK-mappen för klientinstallation
 
 * FlyoutzoomView
 
-   * Korrigerat fall där `tip=0,-1,0` orsakade ett fel utanför intervallet.
+   * Fast fall där `tip=0,-1,0` orsakade ett fel utanför intervallet.
 
 **Kompatibilitetsanteckningar**
 
-* Android 4.x
+* Android™ 4.x
 
    * Om du vill inaktivera standardinställningen måste följande CSS-regel läggas till för komponenten:
 
       `-webkit-tap-highlight-color: rgba(0,0,0,0);`
 
-* Blackberry
+* BlackBerry®
 
    * Videouppspelningen kan upphöra när bithastighetsströmmar ändras i AVS-uppsättningar.
 
@@ -247,17 +247,17 @@ Användarhandboken finns i Adobe HTML5 Viewer SDK-mappen för klientinstallation
 * Galaxy SIII
 
    * Visningsprogrammet kan ibland inte läsas in i helskärmsläge.
-   * Sidvyn har för närvarande en minnesläcka på enheten.
-   * Dubbeltryck på gest zoomar in visningsprogrammet och sidan när sidskalning på webbläsaren är aktiv.
+   * Sidvyn har för närvarande ett minnesläckage på enheten.
+   * Dubbeltryck på gest zoomar in visningsprogrammet och sidan när skalning på sidan av webbläsaren är aktiv.
 
 * Galaxy Nexus
 
    * Artefakter som visas över vissa vykomponenter.
-   * Dubbeltryck på gest zoomar in visningsprogrammet och sidan när sidskalning på webbläsaren är aktiv.
+   * Dubbeltryck på gest zoomar in visningsprogrammet och sidan när skalning på sidan av webbläsaren är aktiv.
 
 * iPad 3
 
-   * iPad 3 har en inbyggd upplösning på 2 048 x 1 536. Detta kan orsaka visningsproblem om företagets IS-publicering, bildstorleksgränsen är lägre än så.
+   * iPad 3 har en inbyggd upplösning på 2 048 x 1 536. Upplösningen kan orsaka visningsproblem om företagets IS-publicering, bildstorleksgränsen är lägre.
 
 * iPhone4
 
@@ -267,7 +267,7 @@ Användarhandboken finns i Adobe HTML5 Viewer SDK-mappen för klientinstallation
 
    * I IE 10 och äldre helskärmsläge upptar inte hela skärmen, utan ändrar bara storlek på programmet till webbläsarfönstrets storlek.
    * Renderingsläget Kickor stöds inte.
-   * Internet Explorer på mobilen stöds inte för närvarande.
+   * Internet Explorer på mobilen stöds för närvarande inte.
    * Util.js kanske inte kan läsas in om det inkluderas asynkront.
    * Ikonen IconEffect blockerar klickningshändelser i komponenterna SpinView och ZoomView.
 
@@ -281,20 +281,20 @@ Användarhandboken finns i Adobe HTML5 Viewer SDK-mappen för klientinstallation
 
    * Helskärmsläge upptar inte hela enhetsskärmen, utan ändrar bara storlek på programmet till webbläsarfönstrets storlek.
    * Anpassade markörer fungerar inte på pekenheter.
-   * Sidskalning på pekenheter stöds inte för närvarande. Om du vill bädda in HTML5-visningsprogram måste du ha en meta-tagg för visningsområdet med lämpliga inställningar.
+   * Sidskalning på pekenheter stöds inte för närvarande. Om du vill bädda in visningsprogram för HTML5 måste du ha en meta-tagg för visningsområdet med lämpliga inställningar.
 
 * Xoom
 
-   * Dubbeltryck på gest zoomar in visningsprogrammet och sidan när sidskalning på webbläsaren är aktiv.
+   * Dubbeltryck på gest zoomar in visningsprogrammet och sidan när skalning på sidan av webbläsaren är aktiv.
 
 **Kända fel och begränsningar**
 
 * Alla komponenter
 
-   * I version 2.7.2 och tidigare lades vissa komponenter till i DOM med hjälp av API:t `insertBefore()`. Det innebär att sådana komponenter placeras längst ned i staplingsordningen, oavsett när komponentinstansen skapas i förhållande till andra komponenter. I version 2.8.1 använder alla komponenter nu API:t `appendChild()`, vilket innebär att komponentens staplingsordning skulle matcha ordningen när instansen skapades.
+   * I version 2.7.2 och tidigare lades vissa komponenter till i DOM med `insertBefore()` API. Det innebär att sådana komponenter placeras längst ned i staplingsordningen, oavsett när komponentinstansen skapas i förhållande till andra komponenter. I version 2.8.1 används alla komponenter `appendChild()` API nu, vilket innebär att komponentens staplingsordning skulle matcha ordningen när instansen skapas.
 
-   * Det går inte att använda modifieraren `iscommand` för att ange bildens alfakanalformat. Använd parametern `FMT` i stället.
-   * CSS-transformationsegenskapen stöds inte just nu.
+   * Använda `iscommand` modifierare för att ange bildens alfakanalformat stöds inte. Använd komponent `FMT` i stället.
+   * CSS-transformationsegenskapen stöds för närvarande inte.
 
 * Pekskärmar
 
@@ -303,7 +303,7 @@ Användarhandboken finns i Adobe HTML5 Viewer SDK-mappen för klientinstallation
 * Behållare
 
    * Kantlinje, utfyllnad och marginaler i behållaren stöds inte. Adobe föreslår att du lägger till formatelement i överordnad DIV.
-   * Du måste ange behållarstorleken explicit, annars kan komponenterna ha rätt storlek.
+   * Du måste ange behållarstorleken explicit, annars kan komponenterna storleksändras korrekt.
 
 * Utskriftskomponent
 
@@ -311,7 +311,7 @@ Användarhandboken finns i Adobe HTML5 Viewer SDK-mappen för klientinstallation
 
 * IconEffect-komponent
 
-   * IconEffect genererar ett skriptfel i Internet Explorer om `autohide` är inaktiverat (inställt på `0`).
+   * IconEffect genererar ett skriptfel i Internet Explorer om `autohide` är inaktiverad (inställd på `0`).
 
 * ImageMapEffect-komponent
 
@@ -327,7 +327,7 @@ Användarhandboken finns i Adobe HTML5 Viewer SDK-mappen för klientinstallation
 
 * PageScrubber-komponent
 
-   * När PageScrubber-bubblan är inställd på text på iPhone 5 visas artefakter när knappen dras längs spåret. Det går att använda `-webkit-background-clip: content;` i formatet runt problemet.
+   * När PageScrubber-bubblan är inställd på text i iPhone 5 visas artefakter när knappen dras längs spåret. Använda `-webkit-background-clip: content;` i formatet fungerar runt problemet.
 
 * SpinView-komponent
 
@@ -335,17 +335,17 @@ Användarhandboken finns i Adobe HTML5 Viewer SDK-mappen för klientinstallation
 
 * Färgrutekomponent
 
-   * När du väljer en färgruta som ligger utanför intervallet visas 2 högdagrar.
-   * Automatisk rullning med metoden `selectSwatch()` fungerar felaktigt.
+   * När du markerar en färgruta som ligger utanför intervallet visas två högdagrar.
+   * Bläddra automatiskt med `selectSwatch()` metoden fungerar inte korrekt.
 
 * VideoPlayer
 
    * Videobildrutan uppdateras inte om sökningen är inställd på 100 procent med återställningen inställd på auto.
    * Ibland kan makroblockering inträffa vid videosökning i HLS-direktuppspelningsläge i Chrome, Firefox och Internet Explorer.
-   * Förhandsvisningsbilden kanske inte visas i Microsoft Edge-webbläsaren för första gången.
-   * Filmminiatyrbilden kan döljas när videon har lästs in i Internet Explorer 9 när progressiv uppspelning används.
+   * Förhandsvisningsbilden kanske inte visas i Microsoft® Edge-webbläsaren för första gången.
+   * Posterbilden kan döljas efter att videon har lästs in i Internet Explorer 9 när progressiv uppspelning används.
 
 ## Dynamic Media Image Serving 6.3.2 och Image Rendering 6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
 
-* IC-verktyg - flaggan `downsample2x2` stöds inte längre. Den här flaggan var en 2x2-nedsampling med låg kvalitet som inte längre används av IPS.
-* CORS-huvud - CORS-huvudet är för närvarande konfigurerat för `/is/content/`-begäranden.
+* Konc-verktyg - `downsample2x2` flagga stöds inte längre. Den här flaggan var en 2x2-nedsampling med låg kvalitet som inte längre används av IPS.
+* CORS-huvud - CORS-huvudet är för närvarande konfigurerat för `/is/content/` förfrågningar.

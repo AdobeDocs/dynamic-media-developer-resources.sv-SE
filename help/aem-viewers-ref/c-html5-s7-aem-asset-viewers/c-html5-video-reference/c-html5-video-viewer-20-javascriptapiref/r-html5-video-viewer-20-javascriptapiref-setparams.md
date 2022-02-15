@@ -1,13 +1,13 @@
 ---
+title: setParams
 description: JavaScript API-referens för Video Viewer.
 solution: Experience Manager
-title: setParams
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 76bad894-bfb8-4d79-b3ff-c2497c68e5e8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ JavaScript API-referens för Video Viewer.
 
 ` setParams( *`parametrar`*)`
 
-Anger en eller flera parametrar till ett givet värde. Metodargumentets syntax är identisk med en URL-frågesträng. Det betyder att det representerar namn=värde-par avgränsade med `&`. Samma som i en frågesträng är namn och värden procentuellt kodade med UTF8. Innan du anropar `init()` måste den här parametern anropas.
+Anger en eller flera parametrar till ett givet värde. Metodargumentets syntax är identisk med en URL-frågesträng. Det betyder att den representerar namn=värde-par avgränsade med `&`. Samma som i en frågesträng, namn och värden kodas i procent med UTF8. Innan du ringer `init()`måste den här parametern anropas.
 
-Den här metoden är valfri om visningsprogrammets konfigurationsinformation skickas med JSON-objektet `config` till konstruktorn.
+Den här metoden är valfri om visningsprogrammets konfigurationsinformation skickas med `config` JSON-objekt till konstruktorn.
 
 Se även [init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-init.md#reference-3b570ba8b35045d6b30fb178c21a66c6).
 
@@ -28,7 +28,7 @@ Se även [init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> parametrar</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value-parameterpar avgränsade med  <span class="codeph"> &amp;</span>. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value, parameterpar avgränsade med <span class="codeph"> &amp;</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

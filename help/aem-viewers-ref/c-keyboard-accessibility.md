@@ -1,13 +1,13 @@
 ---
+title: Tangentbordstillgänglighet och -navigering
 description: Alla funktioner som visas i vyerna Basic Zoom, eCatalog, eCatalog Search, Flyout, Inline Zoom, Mixed Media, Spin, Video, Zoom, Dimensional (3D), Carousel, Interactive Image, Interactive Video och Video360 är tillgängliga via tangentbordet.
 solution: Experience Manager
-title: Tangentbordstillgänglighet och -navigering
-feature: Dynamic Media Classic,visningsprogram,SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 0bdf172a-0bde-42d2-900f-f207538fe588
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ Alla funktioner som visas i vyerna Basic Zoom, eCatalog, eCatalog Search, Flyout
 
 Alla funktioner som visas i vyerna Basic Zoom, eCatalog, eCatalog Search, Flyout, Inline Zoom, Mixed Media, Spin, Video, Zoom, Carousel, Dimensional (3D), Interactive Image, Interactive Video och Video360 är tillgängliga via tangentbordet.
 
-En slutanvändare kan navigera mellan element i användargränssnittet i visningsprogrammet med hjälp av **[!UICONTROL Tab]** och **[!UICONTROL Shift+Tab]**-tangenttryckningar. Om du använder **[!UICONTROL Tab]** flyttas indatafokus till nästa element i användargränssnittet i tabbordningen; om du använder **[!UICONTROL Shift+Tab]** får indatafokus tillbaka till det föregående elementet i användargränssnittet. Fokusförflyttningen följer det naturliga elementet i användargränssnittet på skärmen och flyttas från vänster till höger och sedan uppifrån och ned.
+En slutanvändare kan navigera mellan element i användargränssnittet i visningsprogrammet med **[!UICONTROL Tab]** och **[!UICONTROL Shift+Tab]** tangenttryckningar. Använda **[!UICONTROL Tab]** flyttar indatafokus till nästa element i användargränssnittet i tabbordningen, använda **[!UICONTROL Shift+Tab]** återför indatafokus till föregående element i användargränssnittet. Fokusförflyttningen följer det naturliga elementet i användargränssnittet på skärmen och flyttas från vänster till höger och sedan uppifrån och ned.
 
 Beroende på inställningarna för operativsystem och webbläsare får det element i användargränssnittet som har indatafokus en visuell fokusindikation. Den visuella indikatorn kan till exempel vara en tunn kantlinje som återges runt elementet i användargränssnittet.
 
-Det går att inaktivera eller anpassa den här typen av fokusmarkering i visningsprogrammets CSS. I innehållsförteckningen i det här hjälpsystemet, under ett specifikt visningsprogramnamn (t.ex. Grundläggande zoom eller Interaktiv video), klickar du på **Anpassa *namnet på visningsprogrammet*** >** Fokusmarkering **.
+Det går att inaktivera eller anpassa den här typen av fokusmarkering i visningsprogrammets CSS. I innehållsförteckningen i det här hjälpsystemet, under ett specifikt visningsprogramnamn (till exempel Grundläggande zoom eller Interaktiv video), klickar du på **Anpassa *visningsprogrammets namn*** >** Fokusmarkering **.
 
 De tangenttryckningar som stöds av de enskilda elementen i visningsprogrammets användargränssnitt är i de flesta fall uppenbara och enkla att upptäcka.
 
@@ -44,7 +44,7 @@ De tangenttryckningar som stöds av de enskilda elementen i visningsprogrammets 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Zooma in eller ut </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> +  </span> respektive  <span class="uicontrol"> -  </span>. </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> + </span> eller <span class="uicontrol"> - </span>, respektive. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Zoomåterställning </p> </td> 

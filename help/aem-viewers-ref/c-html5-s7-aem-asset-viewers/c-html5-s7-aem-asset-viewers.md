@@ -1,20 +1,20 @@
 ---
-description: Visningsprogram för AEM Assets och Dynamic Media Classic
+title: Tittare för AEM Assets och Dynamic Media Classic
+description: Tittare för AEM Assets och Dynamic Media Classic
 solution: Experience Manager
-title: Visningsprogram för AEM Assets och Dynamic Media Classic
-feature: Dynamic Media Classic,visningsprogram,SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 553e9be6-2737-4d78-bbda-87e866003b2e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '52'
 ht-degree: 0%
 
 ---
 
-# Visningsprogram för AEM Assets och Dynamic Media Classic{#viewers-for-aem-assets-and-dynamic-media-classic}
+# Tittare för AEM Assets och Dynamic Media Classic{#viewers-for-aem-assets-and-dynamic-media-classic}
 
-Följande visningsprogram fungerar under Adobe Experience Manager Assets och under Dynamic Media Classic.
+Följande tittare arbetar under Adobe Experience Manager Assets och under Dynamic Media Classic.
 
 * [Grundläggande zoom](c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-about.md)
 * [eCatalog](c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-about.md)
@@ -25,5 +25,3 @@ Följande visningsprogram fungerar under Adobe Experience Manager Assets och und
 * [Snurra](c-html5-spin-viewer-about/c-html5-spin-viewer-about.md)
 * [Video](c-html5-video-reference/c-html5-video-reference.md)
 * [Zooma](c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-about.md)
-
-<!--Add others. The TOC levels in the viewers TOC doesn't seem quite right RB: FIXED-->

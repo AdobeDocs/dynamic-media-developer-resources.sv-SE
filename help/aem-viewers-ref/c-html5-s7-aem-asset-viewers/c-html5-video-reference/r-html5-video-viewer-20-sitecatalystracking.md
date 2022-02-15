@@ -1,13 +1,13 @@
 ---
+title: Stöd för Adobe Analytics tracking
 description: Video Viewer har stöd för körklar Adobe Analytics-spårning.
 solution: Experience Manager
-title: Stöd för Adobe Analytics tracking
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 2cc7087d-ed02-4560-b9ce-533af2b11a24
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ Video Viewer har stöd för körklar Adobe Analytics-spårning.
 
 Video Viewer har stöd för körklar Adobe Analytics-spårning.
 
-Om du vill aktivera spårning skickar du rätt namn på företagets förinställning som `config2`-parameter.
+Om du vill aktivera spårning skickar du rätt namn på företagets förinställning som `config2` parameter.
 
 Visningsprogrammet skickar även en enda HTTP-begäran för spårning till den konfigurerade Image Server med information om visningsprogramtyp och version.
 
 ## Anpassad spårning {#section-ab10bd7caf184721a366cf3953071934}
 
-Om du vill integrera med analyssystem från tredje part måste du avlyssna `trackEvent`-återanrop och bearbeta `eventInfo`-argumentet för återanropsfunktionen efter behov. Följande kod är ett exempel på en sådan hanterarfunktion:
+För att kunna integreras med analyssystem från tredje part måste man lyssna på `trackEvent` återanrop och process för visningsprogram `eventInfo` vid behov callback-funktionens argument. Följande kod är ett exempel på en sådan hanterarfunktion:
 
 ```
 var videoViewer = new s7viewers.VideoViewer({ 
@@ -62,27 +62,27 @@ Visningsprogrammet spårar följande SDK-användarhändelser:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LADDA  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LADDA </span> </p> </td> 
    <td colname="col2"> <p>visningsprogrammet läses in först. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SWAP  </span> </p> </td> 
-   <td colname="col2"> <p>en resurs byts ut i visningsprogrammet med hjälp av API:t <span class="codeph"> setAsset() </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
+   <td colname="col2"> <p>en resurs byts ut i visningsprogrammet med <span class="codeph"> setAsset() </span> API. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SPELA  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> SPELA </span> </p> </td> 
    <td colname="col2"> <p>uppspelningen startas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PAUS  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PAUS </span> </p> </td> 
    <td colname="col2"> <p>uppspelningen är pausad. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> STOP  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> STOP </span> </p> </td> 
    <td colname="col2"> <p>uppspelningen stoppas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> MILESTON  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> MILESTON </span> </p> </td> 
    <td colname="col2"> <p>uppspelningen når en av följande millisekunder: 0 %, 25 %, 50 %, 75 % och 100 %. </p> </td> 
   </tr> 
  </tbody> 

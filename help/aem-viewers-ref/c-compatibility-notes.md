@@ -1,11 +1,11 @@
 ---
+title: Kompatibilitetsanteckningar
 description: Kompatibilitetsinformation för operativsystem, webbläsare och mobila enheter.
 solution: Experience Manager
-title: Kompatibilitetsanteckningar
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 7ad499b1-7da6-483b-ab11-cff2eb9271da
-source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
+source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 0%
