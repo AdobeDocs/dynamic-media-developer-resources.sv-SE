@@ -1,18 +1,18 @@
 ---
+title: flaggor
 description: Använd flaggor. Anger ytterligare renderingsalternativ.
 solution: Experience Manager
-title: flaggor
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d0c3f65e-2dec-4c35-8df4-8d111e81f3f0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---
 
-# flaggor{#flags}
+# flaggor {#flags}
 
 Använd flaggor. Anger ytterligare renderingsalternativ.
 
@@ -27,9 +27,9 @@ Använd flaggor. Anger ytterligare renderingsalternativ.
 
 Används för närvarande endast för kabinettmaterial.
 
-`flags=0` (standard) återger övre skåp med fasta dörrar.
+`flags=0` (standard) Återger övre skåp med fasta dörrar.
 
-`flags=1` återger övre skåp med glasdörrar (om vinjetteringen har skapats med glasdörrar).
+`flags=1` Ritar upp övre skåp med glasdörrar (om vinjetteringen har skapats med glasdörrar).
 
 ## Egenskaper {#section-a2b00d7bb15e449ea85178acb92d8285}
 
@@ -37,4 +37,4 @@ Materialattribut. Ignoreras om det inte är ett kabinettmaterial eller om målka
 
 ## Standard {#section-4c134b02a1da4ffb9841233f98f6e97c}
 
-`flags=0` utan glasdörrar.
+`flags=0` För inga glasdörrar.

@@ -1,13 +1,13 @@
 ---
+title: visa
 description: Visa överlappningsobjekt. Gör alla tidigare dolda överlappningsobjekt (inklusive fönsteromslag) synliga i den aktuella markeringen.
 solution: Experience Manager
-title: visa
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4ab3dff7-c020-4088-9eb7-760f8e0a3f00
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '73'
 ht-degree: 0%
 
 ---

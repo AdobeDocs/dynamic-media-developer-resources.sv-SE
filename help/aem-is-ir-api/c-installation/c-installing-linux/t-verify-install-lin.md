@@ -1,22 +1,22 @@
 ---
-description: Kontrollera installationen när du har installerat Image Serving i Linux.
-solution: Experience Manager
 title: Verifierar installationen
+description: Kontrollera installationen när du har installerat Image Serving i Linux®.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 273478ab-f245-48ef-a125-fb738054484e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
 
 # Verifierar installationen{#verifying-the-installation}
 
-Kontrollera installationen när du har installerat Image Serving i Linux.
+Kontrollera installationen när du har installerat Image Serving i Linux®.
 
-Image Server är installerad som Linux-daemon.
+Image Server är installerad som Linux® daemon.
 
 **Verifiera installationen**
 
@@ -32,7 +32,8 @@ Image Server är installerad som Linux-daemon.
 
 [!DNL http:// *[!DNL server:port]*/is/image]
 
-[!DNL http:// *[!DNL server:port]*/ir/render]
+[!DNL  http:// *[!DNL server:port]*/ir/render]
 
-I svaren kontrollerar du om det finns objekt som börjar med &quot; `imageServer.`&quot;, vilket anger att plattformsservern kunde kommunicera med Image Server.
+I svaren kontrollerar du om det finns objekt som börjar med `imageServer`, vilket anger att plattformsservern kunde kommunicera med Image Server.
+
 >Ytterligare verifiering kan utföras med exempelsidorna i dokumentations- och demopaketen, om det är installerat.

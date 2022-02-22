@@ -1,13 +1,13 @@
 ---
+title: obj
 description: Markera objekt efter namn. Väljer den angivna vinjettgruppen efter namn och startar ett nytt MSS.
 solution: Experience Manager
-title: obj
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 17387203-f7a7-4876-a15b-2084894f981d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
@@ -20,14 +20,14 @@ Markera objekt efter namn. Väljer den angivna vinjettgruppen efter namn och sta
 
 <table id="simpletable_6E0DA6CBCDCF4CDDAFA5A4C38E0D5FC5"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> name  </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> name </span> </span> </p> </td> 
   <td class="stentry"> <p>Gruppnamn eller sökväg/namn. </p> </td> 
  </tr> 
 </table>
 
 Undergrupper eller enskilda objekt kan markeras med en fullständig gruppsökväg (d.v.s. genom att ange namnet på målgruppen eller objektet som föregås av alla överordnade grupper, avgränsade med / (snedstreck).
 
-Om ingen grupp/objekt med det angivna namnet hittas utförs åtgärden som anges i `attribute::OnObjFail`.
+Om ingen grupp/objekt med det angivna namnet hittas, anges åtgärden i `attribute::OnObjFail` tas.
 
 ## Egenskaper {#section-9463b36e8ff74c81a70c7c2b58927430}
 
@@ -41,4 +41,4 @@ Den första gruppen i vinjetteringen som innehåller återgivningsbara objekt ma
 
 ## Se även {#section-d9d2c92ef48548f48b9781e2a8a5fb5a}
 
-[sel=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-sel.md#reference-01322c58d414481385c29fcdd27a090b),  [attribut::OnFailObj](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-onfailobj.md#reference-4c6ba90418e84da5831f8573bbbf2c8d)
+[sel=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-sel.md#reference-01322c58d414481385c29fcdd27a090b), [attribute::OnFailObj](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-onfailobj.md#reference-4c6ba90418e84da5831f8573bbbf2c8d)

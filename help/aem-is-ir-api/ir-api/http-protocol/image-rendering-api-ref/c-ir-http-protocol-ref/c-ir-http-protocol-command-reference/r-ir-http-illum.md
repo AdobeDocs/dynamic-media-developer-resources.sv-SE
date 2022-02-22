@@ -1,13 +1,13 @@
 ---
+title: illum
 description: Väljare för illustrationsschema. Anger den belysningskarta som materialet ska återges med.
 solution: Experience Manager
-title: illum
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e1af2397-8eae-4b77-abb1-61ba8cb866f3
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Väljare för illustrationsschema. Anger den belysningskarta som materialet ska 
 
 Om den angivna belysningskartan inte är tillgänglig i målvinjetteringen används den närmaste tillgängliga kartan i stället.
 
-`illum=-1` anger att belysningskartan väljs automatiskt baserat på  `gloss=` värdet.
+`illum=-1` Anger att belysningskartan väljs automatiskt baserat på `gloss=` värde.
 
 ## Egenskaper {#section-aace8466566e4cf1a0c5a6c0167245c9}
 

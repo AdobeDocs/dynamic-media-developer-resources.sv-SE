@@ -1,20 +1,20 @@
 ---
-description: Delmarkering. Tillåter att olika material används på olika områden i det markerade objektet eller den markerade gruppen, samt att tidigare använt material tas bort.
-solution: Experience Manager
 title: sub
+description: Delmarkering. Tillåter att olika material används på olika områden i det markerade objektet eller den markerade gruppen och att tidigare använt material tas bort.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c9968fbb-c38b-4180-81be-19992fa8f347
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 3%
+source-wordcount: '149'
+ht-degree: 4%
 
 ---
 
 # sub{#sub}
 
-Delmarkering. Tillåter att olika material används på olika områden i det markerade objektet eller den markerade gruppen, samt att tidigare använt material tas bort.
+Delmarkering. Tillåter att olika material används på olika områden i det markerade objektet eller den markerade gruppen och att tidigare använt material tas bort.
 
 `sub=0|1|2|3|4|5`
 
@@ -24,7 +24,7 @@ Delmarkering. Tillåter att olika material används på olika områden i det mar
   <td class="stentry"> <p>Markera hela väggen. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p> </td> 
+  <td class="stentry"> <p>1 </p> </td> 
   <td class="stentry"> <p>Markera den övre halvan av väggen. </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -47,7 +47,7 @@ Delmarkering. Tillåter att olika material används på olika områden i det mar
 
 Stöds för närvarande endast för väggobjekt. Avslutar ett föregående MSS och startar ett nytt MSS för det material som ska användas i det angivna delurvalet.
 
-Ett material som är specificerat för den övre eller nedre väggen gäller för hela väggen, såvida inte ett annat material för den andra halvan av väggen också har specificerats.
+Ett material som anges för antingen den övre eller nedre väggen gäller hela väggen, såvida inte även ett annat material för den andra halvan av väggen har angetts.
 
 ## Egenskaper {#section-b202139d6d0847cc8d520a154104ab9d}
 

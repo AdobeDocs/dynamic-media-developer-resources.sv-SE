@@ -1,13 +1,13 @@
 ---
+title: r
 description: Avancerade renderingsinställningar. Anger avancerade renderingsinställningar som ska användas vid rendering av den aktuella markeringen.
 solution: Experience Manager
-title: r
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 419baeb7-e06e-4753-a487-a1f407845f6d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Avancerade renderingsinställningar. Anger avancerade renderingsinställningar s
  </tr> 
 </table>
 
-Används för finjustering av återgivningsutseende. Använd återgivningsfunktionen i utvecklingsverktyget (ingår i Dynamic Media Image Authoring package) för att skapa återgivningsinställningssträngar.
+Används för finjustering av återgivningsutseende. Om du vill skapa renderingsinställningssträngar använder du renderingsfunktionen i redigeringsverktyget för vinjett (ingår i Dynamic Media Image Authoring package).
 
 ## Egenskaper {#section-9a2b2228789046658cb80eddf343af75}
 
@@ -37,7 +37,7 @@ Materialattribut.
 
 ## Exempel {#section-47e4811882574441a4d517e42a35f352}
 
-Efter lite experimenterande med bildredigering är det fastställt att USM (Unsharp-masking) ger rätt skärpa för det angivna programmet och materialet. Strängen för renderingsinställningar som konfigurerar USM kopieras till kommandot `rs=` som ska användas med det här materialet:
+Efter lite experimenterande med bildredigering är det fastställt att USM (Unsharp-masking) ger rätt skärpa för det angivna programmet och materialet. Strängen för renderingsinställningar som konfigurerar USM kopieras till `rs=` kommando som ska användas med detta material:
 
 `…&rs=U2V20W50X2&…`
 

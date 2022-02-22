@@ -1,13 +1,13 @@
 ---
+title: rotera
 description: Materialrotationsvinkel. Definierar rotationsvinkeln för material.
 solution: Experience Manager
-title: rotera
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 355d9691-c04b-44a6-9563-5bef185cfa7e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
@@ -20,22 +20,22 @@ Materialrotationsvinkel. Definierar rotationsvinkeln för material.
 
 <table id="simpletable_F1A87ECD86E8429788825374A6882CB9"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> vinkel  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> vinkel </span> </p> </td> 
   <td class="stentry"> <p>Rotationsvinkel i grader (reell). </p> </td> 
  </tr> 
 </table>
 
-Rotera repeterbara texturmaterial (exklusive tapeter) i multipler av 45 grader när de används på platta objekt eller planobjekt.
+Rotera repeterbara texturmaterial (utom tapeter) i multipler av 45° när det används på platta objekt eller planobjekt.
 
 Rotera repeterbara texturmaterial i godtyckliga vinklar när de används på flödeslinje- och Sketch-objekt.
 
 Rotera material i olika vinklar.
 
-Positiva vinklar roterar medsols. Texturen eller den dekala formen roteras runt fästpunkten ( `anchor=`); fästpunkten förblir justerad mot målobjektets nollpunkt.
+Positiva vinklar roterar medsols. Texturen eller den dekala formen roteras runt fästpunkten ( `anchor=`). fästpunkten förblir justerad mot målobjektets nollpunkt.
 
 ## Egenskaper {#section-ad4d07897ca24f63af1a4062f8618e36}
 
-Materialattribut. Ignoreras av enfärgat, tapet, skåp och fönsterhanteringsmaterial. *`angle`* måste vara en multipel av 45 för repeterbara texturer, såvida det inte tillämpas på flödeslinje- eller Sketch-objekt.
+Materialattribut. Ignoreras av enfärgat, tapet, skåp och fönsterhanteringsmaterial. *`angle`* Måste vara en multipel av 45 för repeterbara texturer, såvida det inte tillämpas på flödeslinje- eller Sketch-objekt.
 
 ## Standard {#section-14c991e71b74449db8ff18a775949b28}
 

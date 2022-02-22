@@ -1,13 +1,13 @@
 ---
+title: src
 description: Materialfil. Anger materialdata, antingen i form av en enstaka materialkatalogreferens eller som en eller två bild- eller materialdatafiler avgränsade med kommatecken.
 solution: Experience Manager
-title: src
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: aff45f0f-e672-40da-9cc8-db83cf3922ff
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Materialfil. Anger materialdata, antingen i form av en enstaka materialkatalogreferens eller som en eller två bild- eller materialdatafiler avgränsade med kommatecken.
 
-`src = *``*|{{ *``*| *``*}[, *`catalogEntrymaterialFileembeddedRequestFile`*]`
+`src = *`catalogEntry`*|{{ *`materialFile`*| *`embeddedReq`*}[, *`materialFile`*]`
 
 `srcE= *`name`*`
 
@@ -33,15 +33,15 @@ Materialfil. Anger materialdata, antingen i form av en enstaka materialkatalogre
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> embeddedReq</span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph">&amp;klammerparentes;'<span class="varname"> isReq</span>'&amp;rbrace;'&amp;rbrace;|&amp;lbrace;'ir&amp;lbrace;'<span class="varname"> irReq</span>'&amp;rbrace;'|&amp;lbrace;'&amp;lbrace;'<span class="varname"> foreignReq</span>'&amp;rbrace;'</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&amp;klammerparentes;'klammerparentes;'<span class="varname"> isReq</span>&amp;Klammerparenteser;&amp;klammerparenteser;|&amp;klammerparenteser;<span class="varname"> irReq</span>&amp;Klammerparentes;|&amp;klammerparentes;'<span class="varname"> foreignReq</span>&amp;Rankning;</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p></td> 
-  <td class="stentry"> <p>ID för materialkatalog (<span class="codeph">-attribut::RootId</span>). </p></td> 
+  <td class="stentry"> <p>ID för materialkatalog (<span class="codeph"> attribute::RootId</span>). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> recId</span> </p></td> 
-  <td class="stentry"> <p>Materialkatalogpost (<span class="codeph"> katalog::Id</span>). </p></td> 
+  <td class="stentry"> <p>Materialkatalogpost (<span class="codeph"> katalog::ID</span>). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> styleFile</span> </p></td> 
@@ -77,29 +77,29 @@ Repeterbart textur-, dekal- och skrivbordsmaterial kräver en enda bild, som kan
 
 Kabinettmaterial kräver en kabinettformatfil ( [!DNL .vnc]) som inte kan anges som en kapslad begäran. En texturbildfil är valfri för skåp, och om den anges kan den vara antingen en fil eller en inbäddad begäran.
 
-Fönsteromslagsmaterial kräver en formatfil för fönsteromslutning ( [!DNL .vnw]), som inte kan anges som en kapslad begäran. En texturfil är valfri och om den anges kan den vara antingen en fil eller en inbäddad begäran.
+Fönsteromslagsmaterial kräver en formatfil för fönsteromslag ( [!DNL .vnw]) som inte kan anges som en kapslad begäran. En texturfil är valfri och om den anges kan den vara antingen en fil eller en inbäddad begäran.
 
-Vid bildåtergivning används samma regler som för bildservrar när du söker efter materialkataloger, katalogposter och datafiler. Mer information finns i beskrivningen av datatypen *`object`* i dokumentationen för bildservrar.
+Vid bildåtergivning används samma regler som för bildservrar när du söker efter materialkataloger, katalogposter och datafiler. Se beskrivningen av *`object`* Mer information finns i datatypen i dokumentationen för bildservrar.
 
-*`materialFile`* är en sökväg som är relativ till  `attribute::RootPath`.
+*`materialFile`* Är en sökväg relativ till `attribute::RootPath`.
 
-*`foreignReq`* kan antingen vara en relativ URL-adress  `attribute::RootUrl`eller en absolut URL-adress om  `attribute::AllowDirectUrls` är angiven.
+*`foreignReq`* Kan vara en URL-adress som är relativ till `attribute::RootUrl`eller en absolut URL om `attribute::AllowDirectUrls` är inställt.
 
-Om *`catId`* inte anges används sessionskatalogen.
+If *`catId`* anges inte, sessionskatalogen används.
 
-`srcE=` och  `srcN=` ger tillgång till material som är inbäddat i vinjetteringen.
+`srcE=` och `srcN=` ger tillgång till material som är inbäddat i vinjetteringen.
 
 ## Filformat som stöds {#section-f2186d3eef834fc8bbecb2bc68daacad}
 
 Bildåtergivning stöder samma källbildformat som Dynamic Media Image Serving.
 
-Program som kräver bilddata i flera olika upplösningar fungerar bäst när du använder multiupplösningsformatet Scene7 pyramid TIFF (PTIFF). Image Serving innehåller verktyget Image Converter (IC) som skapar PTIFF-bilder i alla format som stöds.
+Program som kräver bilddata i flera olika upplösningar fungerar bäst när du använder flerupplösningsformatet Scene7 pyramid TIFF (PTIFF). Image Serving innehåller verktyget Image Converter (IC) som skapar PTIFF-bilder i alla format som stöds.
 
 Se beskrivningen av verktyget IC i dokumentationen för Image Serving för en fullständig lista över filformat som stöds.
 
 ## Egenskaper {#section-e68d03788d534e2184147987d51dfd0f}
 
-Materialattribut. Krävs för alla material utom enfärgade (tillåts inte för enfärgade material). Alla strängar är skiftlägeskänsliga. *`index`* måste vara 0 eller större.
+Materialattribut. Krävs för alla material utom enfärgade (tillåts inte för enfärgade material). Alla strängar är skiftlägeskänsliga. *`index`* Måste vara 0 eller större.
 
 ## Standard {#section-dde549c1917540dc8f9555962202da3c}
 
@@ -111,7 +111,7 @@ En MSS för ett färgat skåp med en separat upprepningsbar textur:
 
 `…&obj=cabinets&src=cabs/maple02.vnc,cabs/maple.jpg&res=40&color=185,105,35&…`
 
-Samma material kunde finnas i en materialkatalog `'cat` i posten `12-3-2`:
+Samma material kan finnas i en materialkatalog `'cat`&#39; i posten &#39; `12-3-2`&#39;:
 
 `…&obj=cabinets&src=cat/12-3-2&…`
 
@@ -121,4 +121,4 @@ En kapslad begäran till Image Serving om att få en texturbild:
 
 ## Se även {#section-d01d25b8903e4f5ca6aef4a084fca6b7}
 
-[Materialkataloger](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-material-catalogs/c-ir-http-material-catalogs.md#concept-772742c1688f420a88a56f5136ad1db2),  [attribut::RootUrl](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402),  [attribut::AllowDirectUrls](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-allowdirecturls.md#reference-02000c0f3c494292bad8425d06268882)
+[Materialkataloger](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-material-catalogs/c-ir-http-material-catalogs.md#concept-772742c1688f420a88a56f5136ad1db2), [attribute::RootUrl](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402), [attribute::AllowDirectUrls](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-allowdirecturls.md#reference-02000c0f3c494292bad8425d06268882)
