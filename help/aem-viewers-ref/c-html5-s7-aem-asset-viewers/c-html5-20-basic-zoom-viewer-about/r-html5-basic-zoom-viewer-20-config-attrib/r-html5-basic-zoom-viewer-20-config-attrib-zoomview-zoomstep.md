@@ -1,30 +1,30 @@
 ---
+title: ZoomView.zoomstep
 description: ZoomView.zoomstep
 solution: Experience Manager
-title: ZoomView.zoomstep
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: ded8168e-08f7-4bc0-bb8a-624bac82759e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # ZoomView.zoomstep{#zoomview-zoomstep}
 
-` [ZoomView.|<containerId>_zoomView.]zoomstep= *``*[, *`steplimit`*]`
+` [ZoomView.|<containerId>_zoomView.]zoomstep= *`steg`*[, *`limit`*]`
 
 <table id="table_1D425B7685D448459CD3FE8D683C813C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> steg</span> </span> </p> </td> 
-   <td colname="col2"> <p> Konfigurerar antalet in- och utzoomningsåtgärder som krävs för att öka eller minska upplösningen med en faktor på två. Upplösningsändringen för varje zoomåtgärd är 2^1 per steg. Ange <span class="codeph"> 0</span> om du vill zooma till full upplösning med en enda zoomåtgärd. </p> </td> 
+   <td colname="col2"> <p> Konfigurerar antalet in- och utzoomningsåtgärder som krävs för att öka eller minska upplösningen med en faktor på två. Upplösningsändringen för varje zoomåtgärd är 2^1 per steg. Ange till <span class="codeph"> 0</span> för att zooma till full upplösning med en enda zoomåtgärd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> limit</span> </span> </p> </td> 
-   <td colname="col2"> <p> Anger den maximala zoomupplösningen i förhållande till den högupplösta bilden. Standardvärdet är <span class="codeph"> 1.0</span>, som inte tillåter zoomning utöver full upplösning. </p> </td> 
+   <td colname="col2"> <p> Anger den maximala zoomupplösningen i förhållande till den högupplösta bilden. Standardvärdet är <span class="codeph"> 1.0</span>som inte tillåter zoomning utöver full upplösning. </p> </td> 
   </tr> 
  </tbody> 
 </table>

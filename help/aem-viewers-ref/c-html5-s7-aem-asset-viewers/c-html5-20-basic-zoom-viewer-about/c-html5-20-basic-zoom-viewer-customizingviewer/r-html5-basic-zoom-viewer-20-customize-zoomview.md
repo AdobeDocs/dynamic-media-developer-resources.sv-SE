@@ -1,13 +1,13 @@
 ---
+title: Zoomvy
 description: Huvudvyn består av den zoombara bilden.
 solution: Experience Manager
-title: Zoomvy
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 286b9df4-88db-4e5d-aab4-9cbe01195e57
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,11 @@ Visningsområdets utseende styrs av följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Bakgrundsfärg i hexadecimalt format för huvudvyn. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> markör  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> markör </span> </p> </td> 
    <td colname="col2"> <p>Markören visas över huvudvyn. </p> </td> 
   </tr> 
  </tbody> 
@@ -53,7 +53,7 @@ Exempel - för att göra huvudvyn genomskinlig.
 }
 ```
 
-I skrivbordssystem stöder komponenten attributväljaren `cursortype` som kan tillämpas på klassen `.s7zoomview` och styr markörtypen baserat på komponentens tillstånd och användaråtgärd. Följande `cursortype`-värden stöds:
+På datorer har komponenten stöd för `cursortype` attributväljare som kan användas på `.s7zoomview` och styr markörtypen baserat på komponentens tillstånd och användaråtgärden. Följande `cursortype` värden stöds:
 
 <table id="table_BC9FC40DA27B4A85995F4E9431AABF33"> 
  <thead> 
@@ -64,19 +64,19 @@ I skrivbordssystem stöder komponenten attributväljaren `cursortype` som kan ti
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> standard  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> standard </span> </p> </td> 
    <td colname="col2"> <p>Visas när bilden inte kan zoomas på grund av en liten bildupplösning, eller komponentinställningar, eller båda. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomin  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoomin </span> </p> </td> 
    <td colname="col2"> <p>Visas när bilden kan zoomas in. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> återställ  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> återställ </span> </p> </td> 
    <td colname="col2"> <p>Visas när bilden har maximal zoomnivå och kan återställas till det ursprungliga läget. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> dra  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> dra </span> </p> </td> 
    <td colname="col2"> <p>Visas när en användare panorerar bilden som är i zoomläge. </p> </td> 
   </tr> 
  </tbody> 
