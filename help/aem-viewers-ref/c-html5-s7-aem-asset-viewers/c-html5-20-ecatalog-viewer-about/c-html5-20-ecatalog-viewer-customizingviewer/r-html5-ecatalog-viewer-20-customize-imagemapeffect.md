@@ -1,13 +1,13 @@
 ---
+title: Bildschemaeffekt
 description: Beroende på värdet på parametern mode visas bildschemaikoner över huvudvyn på de platser där kartor ursprungligen skapades i Dynamic Media Classic. Eller så återges exakta områden som matchar formen på originalbildscheman.
 solution: Experience Manager
-title: Bildschemaeffekt
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 3816118f-4eb7-4436-9f54-155dde077734
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+source-git-commit: 6087b48b898e93e605c3873cbd5132b74d04225f
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---

@@ -3,9 +3,9 @@ cloud: Experience Cloud
 user-guide-title: Referenshandbok för Dynamic Media Viewer
 feature-set: Experience Manager Assets
 user-guide-description: Anpassa Dynamic Media-visningsprogram för datorer och pekskärmar. Inkludera interaktiva bilder och videor, karuseller, snurr med mera.
-source-git-commit: a106c13770fcb342d7b12ca1593728072141e289
+source-git-commit: 6087b48b898e93e605c3873cbd5132b74d04225f
 workflow-type: tm+mt
-source-wordcount: '2074'
+source-wordcount: '2077'
 ht-degree: 1%
 
 ---
@@ -18,8 +18,9 @@ ht-degree: 1%
 + [Systemkrav](c-system-requirements-and-prerequisites.md)
 + [Installera flera visningsprogram på samma server](t-installing-the-viewers.md)
 + Versionsinformation för visningsprogram {#viewers-release-notes}
-   + [Versionsinformation för visningsprogram (5.16.1)](c-release-notes/c-rn-04-06-21.md)
+   + [Versionsinformation för visningsprogram (5.16.5)](c-release-notes/c-rn-03-02-22.md)
    + Arkiv {#archive}
+      + [Versionsinformation för visningsprogram (5.16.1)](c-release-notes/c-archive/c-rn-04-06-21.md)
       + [Versionsinformation för visningsprogram (5.15.3)](c-release-notes/c-archive/c-rn-01-13-21.md)
       + [Versionsinformation för visningsprogram (5.14.1)](c-release-notes/c-archive/c-rn-06-03-20.md)
       + [Versionsinformation för visningsprogram (5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
