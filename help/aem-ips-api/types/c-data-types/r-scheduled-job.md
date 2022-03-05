@@ -5,9 +5,9 @@ title: Schemalagt jobb
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c0084d10-ce38-4a01-9246-aaec44abc8eb
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -28,10 +28,10 @@ Syntax
 | `*`originalName`*` | `xsd:string` | Det schemalagda jobbets ursprungliga namn. |
 | `*`type`*` | `xsd:string` | Jobbtyp. |
 | `*`submitUserEmail`*` | `xsd:string` | E-postadressen till den användare som schemalagt jobbet. |
-| `*`locale`*` | `xsd:string` | Språkinställningen som ska användas för jobbloggsinformation och e-postlokalisering. Språk anges som `<language_code>[- <country_code>]`, där språkkoden är en gemen tvåbokstavskod enligt ISO-639, och den valfria landskoden är en gemen tvåbokstavskod enligt ISO-3166. Den nationella strängen för engelska (USA) skulle till exempel vara: `en-US`. |
-| `*`description`*` | `xsd:string` | En beskrivning av jobbet som ursprungligen angavs i `submitJob`. |
+| `*`locale`*` | `xsd:string` | Språkinställningen som ska användas för jobbloggsinformation och e-postlokalisering. Språk anges som `<language_code>[- <country_code>]`, där språkkoden är en gemen tvåbokstavskod enligt ISO-639 och den valfria landskoden är en versal tvåbokstavskod enligt ISO-3166. Den nationella strängen för engelska (USA) skulle till exempel vara: `en-US`. |
+| `*`description`*` | `xsd:string` | En beskrivning av jobbet som det ursprungligen angavs i `submitJob`. |
 | `*`execSchedule`*` | `xsd:string` | När jobbet är schemalagt att köras. |
-| `*`nextFireTime`*` | `xsd:dateTime` | Datum, tid och tidszon när jobbet ska utlösas. |
+| `*`nextFireTime`*` | `xsd:dateTime` | Datum, tid och tidszon när jobbet utlöses. |
 | `*`timeZone`*` | `xsd:dateTime` | Tidszonen för det schemalagda jobbet. |
 | `*`triggerState`*` | `xsd:int` | Val av utlösarläge för jobb. |
 | `*`imageServingPublishJob`*` | `types:ImageServingPublishJob` | Jobbinformation för en bild som visar publiceringsjobb. |
@@ -47,7 +47,7 @@ Syntax
 
 ## Anteckningar {#section-34ec157f281f412f9f0f6e861e6ed0cd}
 
-När du anger ett jobbtypsvärde i `submitJob` returneras ett jobb baserat på den typen. Följande jobb kan returneras:
+När du anger ett jobbtypsvärde i `submitJob`returnerar systemet ett jobb baserat på den typen. Följande jobb kan returneras:
 
 * `imageServingPublishJob`
 * `imageRenderingPublishJob`

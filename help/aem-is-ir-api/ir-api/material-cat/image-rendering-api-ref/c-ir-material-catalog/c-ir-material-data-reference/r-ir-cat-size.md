@@ -5,9 +5,9 @@ title: Storlek
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 964cb4c1-5256-40eb-94ea-761916174b79
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '211'
 ht-degree: 1%
 
 ---
@@ -20,13 +20,13 @@ Decal size. Bredd, höjd och tjocklek för ett dekalt materialobjekt.
 
 Tre reella tal avgränsade med kommatecken. Får inte vara negativ. Ange 0 för oanvända värden. Efterföljande nollor kan utelämnas.
 
-Ange bara både bredd och höjd om bilden ska sträckas ut för att passa den angivna storleken (proportionerna kan ändras). Ange antingen bredd eller höjd om du vill skalförändra bilden proportionellt. Ange både bredd och höjd till 0 om du vill använda `catalog::Resolution`för att bestämma objektstorleken.
+Ange bara både bredd och höjd om bilden ska sträckas ut för att passa den angivna storleken (proportionerna kan ändras). Ange antingen bredd eller höjd om du vill skalförändra bilden proportionellt. Ange 0 för både bredd och höjd `catalog::Resolution`för att bestämma objektstorleken.
 
 Ange ett tjockleksvärde för att lägga till en skugga till det dekala objektet. Valfritt för dekala material, ignorerat av alla andra material.
 
 ## Standard {#section-8029fe4dcbd1427db94a4fef1ccbbfd0}
 
-0,0,0. Detta anger att den dekala storleken ska bestämmas utifrån katalog::Upplösning och att objektet inte har någon tjocklek (vilket innebär att ingen skugga återges).
+0,0,0. Detta anger att den dekala storleken ska bestämmas utifrån katalog::Upplösning och att objektet inte har någon tjocklek (därför återges ingen skugga).
 
 ## Exempel {#section-7e7166ec9a1e4f4cb026de3342fcddc3}
 

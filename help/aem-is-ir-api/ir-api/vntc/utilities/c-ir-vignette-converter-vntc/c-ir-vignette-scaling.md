@@ -5,9 +5,9 @@ title: Skalning av vinjettering
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f9f92254-41d8-4d22-a168-78b49dd55478
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -31,9 +31,9 @@ Fyra allmänna typer av produktionsvinjettering stöds.
 
 I praktiken sparas varje upplösning i produktionsvinjetteringen som en oberoende vy med sin egen bildbredd och -höjd.
 
-Vystorleken för en enupplöst vinjett anges med antingen `-width` eller `-height` eller båda. Om båda värdena anges skalförändras vinjetteringen så att ingen dimension är större än den angivna storleken. Om inget av värdena anges får utdatavvinjetteringen samma storlek som indatavvinjetteringen. Ingen uppskalning kommer att tillämpas. Om den angivna storleken är större än storleken på indatavvinjetteringen får utdatavvinjetteringen samma storlek som indatavvinjetteringen.
+Vystorleken för en vinjett med enkel upplösning anges med antingen `-width` eller `-height` eller båda. Om båda värdena anges skalförändras vinjetteringen så att ingen dimension är större än den angivna storleken. Om inget av värdena anges får utdatavvinjetteringen samma storlek som indatavvinjetteringen. Ingen uppskalning tillämpas. Om den angivna storleken är större än storleken på indatavvinjetteringen får utdatavvinjetteringen samma storlek som indatavvinjetteringen.
 
-Samma regler gäller för flerupplösta vinjetter, där den första upplösningsnivån storleksändras precis som en vinjettering med en upplösning. Ytterligare upplösningar anges med ytterligare kommaavgränsade värden för antingen `-width` eller `-height`. Värden behöver inte sorteras. Om `-width` anger flera värden får `-height` bara ange ett enda värde, och vice versa, annars returneras ett fel.
+Samma regler gäller för flerupplösta vinjetter, där den första upplösningsnivån storleksändras precis som en vinjettering med en upplösning. Ytterligare upplösningar anges med ytterligare kommaavgränsade värden för antingen `-width` eller `-height`. Värden behöver inte sorteras. If `-width` anger flera värden, och sedan `-height` måste bara ange ett enda värde, och tvärtom, annars returneras ett fel.
 
 En pyramidvinjettering skapas genom att ange `-pyramid`. Den största upplösningsnivån för en sådan vinjett bestäms exakt som för en vinjett med en upplösning. De extra upplösningsnivåerna bestäms automatiskt genom att varje nivå skalas till 0,5 gånger föregående nivå, med den minsta nivån som inte överstiger 128 x 128 pixlar.
 

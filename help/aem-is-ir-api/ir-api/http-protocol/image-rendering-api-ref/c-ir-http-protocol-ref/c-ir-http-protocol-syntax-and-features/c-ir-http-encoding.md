@@ -1,13 +1,13 @@
 ---
+title: HTTP-kodning för bildåtergivning
 description: Kommandovärden måste vara http-kodade med %xx escape-sekvenser, så att värdesträngarna inte innehåller de reserverade tecknen '=', '&' och '%'.
 solution: Experience Manager
-title: HTTP-kodning för bildåtergivning
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a1efc4ce-a170-4bdb-8584-407e07113272
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Kommandovärden måste vara http-kodade med %xx escape-sekvenser, så att värdesträngarna inte innehåller de reserverade tecknen &#39;=&#39;, &#39;&amp;&#39; och &#39;%&#39;.
 
-Annars gäller standardreglerna för HTTP-kodning. HTTP-specifikationen kräver kodning av osäkra tecken som &#39; (blanksteg), &#39;&quot;&#39;(dubbelt citattecken), &#39;#&#39;, &#39;%&#39;, &#39;&lt;&#39; och &#39;>&#39;, liksom alla kontrolltecken som t.ex. `<return>` och `<tab>`.
+Annars gäller standardreglerna för HTTP-kodning. HTTP-specifikationen kräver kodning av osäkra tecken som &#39; (blanksteg), &#39;&quot;&#39;(dubbelt citattecken), &#39;#&#39;, &#39;%&#39;, &#39;&lt;&#39; och &#39;>&#39;, liksom alla kontrolltecken, som `<return>` och `<tab>`.
 
-**Varning:** Klammerparenteser {} som används som avgränsare för kapsling av begäran får inte kodas. Vissa e-postklienter kodar tyvärr klammerparenteser i inbäddad HTTP-begäran. Om detta är ett problem tillåter bildåtergivning att parenteser ( ) används i stället för klammerparenteser.
+**Varning:** Klammerparenteserna {} som används som avgränsare för kapsling av begäranden får inte kodas. Vissa e-postklienter kodar tyvärr klammerparenteser i inbäddad HTTP-begäran. Om det här problemet skulle vara ett problem tillåter bildåtergivning att parenteser ( ) används i stället för klammerparenteser.
 
 ## Exempel {#section-3edc5b8ee2354220a281b01722ad337a}
 

@@ -5,9 +5,9 @@ title: ClientAddressFilter
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 028cef35-2862-452c-872c-b953e8ccb195
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -16,18 +16,18 @@ ht-degree: 0%
 
 Klientens IP-adressfilter. Tillåter specifikation av en eller flera IP-adresser eller adressintervall.
 
-Om det anges kommer förfrågningar till den här bildkatalogen som kommer från en klient till en IP-adress som inte finns med i listan att avvisas.
+När det anges avvisas begäranden till den här bildkatalogen som kommer från en klient till en IP-adress som inte finns med i listan.
 
 ## Egenskaper {#section-d785265988324af68835410c9ba54147}
 
 Kommaavgränsad lista med IP-adresser med valfria netmasker (CIDR-notation används):
 
-`*`ipAddress`*` `[`/  *`netmask`*`]`*  `[`,*`ipAddress`*`[`/*`netmask`*`]]`
+`*`ipAddress`*` `[`/ *`netmask`*`]`* `[`,*`ipAddress`*`[`/*`netmask`*`]]`
 
 <table id="simpletable_9F82BB0D42A9434883F2F70A2A92898C"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> ipAddress</span> </p> </td> 
-  <td class="stentry"> <p>IP-adress i formatet <span class="varname"> ddd.ddd.ddd</span>. </p></td> 
+  <td class="stentry"> <p>IP-adress i <span class="varname"> ddd.ddd.ddd.ddd</span> format. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> netmask</span> </p></td> 
@@ -35,11 +35,11 @@ Kommaavgränsad lista med IP-adresser med valfria netmasker (CIDR-notation anvä
  </tr> 
 </table>
 
-Det här attributet ignoreras när en förbearbetningsregel med ett `<addressfilter>`-element används.
+Det här attributet ignoreras när en förbearbetningsregel med en `<addressfilter>` -element används.
 
 ## Standard {#section-de26e8c9225745e985e4beac1f03f4f6}
 
-Ärvs från `default::AddressFilter` om det inte är definierat eller om det är tomt.
+Ärvs från `default::AddressFilter` om den inte är definierad eller om den är tom.
 
 ## Exempel {#section-a955314d2b6a4213a16c12a8b18d8627}
 

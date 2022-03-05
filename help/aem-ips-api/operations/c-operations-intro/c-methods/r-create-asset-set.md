@@ -2,12 +2,12 @@
 description: Skapar en generisk resursuppsättning med en råuppsättningsdefinitionssträng som ska publiceras på en Image Server.
 solution: Experience Manager
 title: createAssetSet
-feature: Dynamic Media Classic,SDK/API,Resurshantering
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 4565eb4f-eeb7-4b98-bfef-1a59e9a931af
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -42,38 +42,38 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:sträng </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Handtaget till företaget som ska innehålla resursuppsättningen. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:sträng </span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Referensen till mappen där den nya resursuppsättningen ska skapas. </td> 
+   <td colname="col4"> Referensen till mappen där den nya resursuppsättningen skapas. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> name </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:sträng </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Resursnamn. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> subType  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> subType </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:sträng </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> En unik identifierare som skapats av klienten för resursuppsättningstypen. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:sträng </span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> Parametrarna i uppsättningsdefinitionssträngen. <p>Dessa måste matcha det format som anges av målvisningsprogrammet. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:sträng </span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> Hantera den resurs som fungerar som miniatyrbild för den nya bilduppsättningen. Om inget anges försöker IPS använda den första bildresursen som uppsättningen refererar till. </td> 
   </tr> 

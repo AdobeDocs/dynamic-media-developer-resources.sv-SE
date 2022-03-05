@@ -5,9 +5,9 @@ title: resMode
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 63c1c028-0378-4a38-8018-e358491786d8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -21,19 +21,19 @@ Omsamplingsläge. Väljer den omsamplings- och/eller interpoleringsalgoritm som 
 <table id="table_FD658AC521E24EB9ADBB87F98549BC3B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bilin  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bilin </span> </p> </td> 
    <td colname="col2"> <p>Väljer bilinjär standardinterpolation. Snabbaste omsamplingsmetod. vissa aliaseringsartefakter är märkbara. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bikub  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bikub </span> </p> </td> 
    <td colname="col2"> <p>Väljer bikubisk interpolation. Processorintensivare än bilinjär interpolation, men ger skarpare bilder med mindre framträdande aliasartefakter. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> skarp2  </span> </p> </td> 
-   <td colname="col2"> <p>Väljer en modifierad Lanczos Window-funktion som en interpoleringsalgoritm. Kan ge något tydligare resultat än bikubisk till en högre processorkostnad. <span class="codeph"> sharp  </span> har ersatts med  <span class="codeph"> sharp2  </span>som har en mindre sannolikhet att orsaka aliasing-artefakter (Moiré). </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> skarp2 </span> </p> </td> 
+   <td colname="col2"> <p>Väljer en modifierad Lanczos Window-funktion som en interpoleringsalgoritm. Kan ge något tydligare resultat än bikubisk till en högre processorkostnad. <span class="codeph"> skarp </span> har ersatts med <span class="codeph"> skarp2 </span>, vilket är mindre sannolikt att orsaka aliasing-artefakter (Moiré). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bisharp  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bisharp </span> </p> </td> 
    <td colname="col2"> <p>Väljer Photoshop standardomsampling för att minska bildstorleken, som kallas"bikubisk skarpare" i Adobe Photoshop. </p> </td> 
   </tr> 
  </tbody> 
@@ -41,7 +41,7 @@ Omsamplingsläge. Väljer den omsamplings- och/eller interpoleringsalgoritm som 
 
 >[!IMPORTANT]
 >
->Om du vill behålla bildens proportioner när du använder både `resMode=bisharp` och `fit=stretch` är det bäst att använda antingen parametern width eller parametern height. Om båda parametrarna måste definieras kan du kapsla in dem i ett annat lager, vilket visas i följande exempel:
+>Bevara bildens proportioner när du använder båda `resMode=bisharp` och `fit=stretch`är det bäst att använda parametern width eller height. Om båda parametrarna måste definieras kan du kapsla in dem i ett annat lager, vilket visas i följande exempel:
 >
 >`/is/image/is/image/companyname?layer=0&src=is(companyname/imagename?wid=30&hei=30&fit=stretch)&resmode=bisharp`
 

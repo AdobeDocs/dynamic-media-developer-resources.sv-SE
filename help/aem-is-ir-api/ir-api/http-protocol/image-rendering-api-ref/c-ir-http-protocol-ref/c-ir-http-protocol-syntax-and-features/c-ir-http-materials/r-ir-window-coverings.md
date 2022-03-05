@@ -1,13 +1,13 @@
 ---
+title: Fönsteromslag
 description: Fönsterbeläggning omfattar både mjuka fönsterbeläggningar (drapes, valances, café curtains) och hårda fönsterbeläggningar (shades and blinds).
 solution: Experience Manager
-title: Fönsteromslag
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ce6543a1-2438-4661-95bf-ff3d956013bc
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Fönsterbeläggning omfattar både mjuka fönsterbeläggningar (drapes, valances, café curtains) och hårda fönsterbeläggningar (shades and blinds).
 
-Fönsteromfattande material anger ett *fönster som omfattar formatfilen* ( [!DNL .vnw] filtillägg), en särskild datafil som liknar en vinjettering, som innehåller masker, belysning, layout och texturdata som definierar fönsteromslaget.
+Fönsteromslagsmaterial anger en *formatfil för fönsteromfattande* ( [!DNL .vnw] filtillägg), en särskild datafil som liknar en vinjett, som innehåller masker, belysning, layout och textureringsdata som definierar fönsteröverdraget.
 
 [!DNL vnw] -filer innehåller inte färg och struktur (struktur) för fönsteröverdraget. Denna information specificeras separat, på liknande sätt som repeterbara texturer.
 
@@ -32,32 +32,32 @@ Det går bara att använda fönsteromslagsmaterial på fönsterobjekt som är ö
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272" type="reference" format="dita" scope="local"> <span class="codeph"> src=  </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272" type="reference" format="dita" scope="local"> <span class="codeph"> src= </span> </a> </p> </td> 
    <td colname="col2"> <p>Fönsteromfattande formatfil. krävs. </p> </td> 
    <td colname="col3"> <p>Ingen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272" type="reference" format="dita" scope="local"> <span class="codeph"> src=  </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272" type="reference" format="dita" scope="local"> <span class="codeph"> src= </span> </a> </p> </td> 
    <td colname="col2"> <p>Strukturbildfil (andra värdet för <span class="codeph"> src= </span>). </p> </td> 
    <td colname="col3"> <p>Ingen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md#reference-0ad9de8887144c83a6db97b4994f7c04" type="reference" format="dita" scope="local"> <span class="codeph"> res=  </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md#reference-0ad9de8887144c83a6db97b4994f7c04" type="reference" format="dita" scope="local"> <span class="codeph"> res= </span> </a> </p> </td> 
    <td colname="col2"> <p>Texturupplösning. </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> attribute::Resolution  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> attribute::Resolution </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-repeat.md#reference-37749da8233f42599ecf4731055fb7d8" type="reference" format="dita" scope="local"> <span class="codeph"> repeat=  </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-repeat.md#reference-37749da8233f42599ecf4731055fb7d8" type="reference" format="dita" scope="local"> <span class="codeph"> repeat= </span> </a> </p> </td> 
    <td colname="col2"> <p>Upprepa läge. </p> </td> 
    <td colname="col3"> <p>0 (rak upprepning) </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa" type="reference" format="dita" scope="local"> <span class="codeph"> color=  </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa" type="reference" format="dita" scope="local"> <span class="codeph"> color= </span> </a> </p> </td> 
    <td colname="col2"> <p>Enfärgad (eller färglägger textur). </p> </td> 
    <td colname="col3"> <p>128 (neutralt grått) </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> sharp=  </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> sharp= </span> </a> </p> </td> 
    <td colname="col2"> <p>Skärpa. </p> </td> 
    <td colname="col3"> <p>0 (ingen skärpa) </p> </td> 
   </tr> 

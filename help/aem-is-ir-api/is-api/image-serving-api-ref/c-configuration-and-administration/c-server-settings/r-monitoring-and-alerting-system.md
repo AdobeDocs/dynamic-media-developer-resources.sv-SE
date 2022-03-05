@@ -5,9 +5,9 @@ title: Övervaknings- och varningssystem
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: fe672d1b-93e5-466a-a329-3032095c6ba8
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Använd de här serverinställningarna för att konfigurera övervaknings- och v
 
 ## AS::monitorAlertGenerator.enableGlobalAlerting - Aktivera varningssystemet {#section-612f8ea61794426ab205e22e5f665fa9}
 
-Aktivera e-postmeddelanden genom att ange true och konfigurera inställningarna för e-postmeddelanden. Om du anger `false` inaktiveras alla e-postaviseringar. Detta kan vara användbart när du gör en server offline för underhåll. Boolean.
+Aktivera e-postmeddelanden genom att ange true och konfigurera inställningarna för e-postmeddelanden. Inställning till `false` stänger av alla e-postaviseringar - det kan vara användbart när en server är offline för att underhållas. Boolean.
 
 ## AS::mailSender.host - SMTP Host {#section-151df07e7b44446581339bb7abeeba7a}
 
@@ -34,7 +34,7 @@ En eller flera e-postadresser dit aviseringar ska skickas. Använd semikolon som
 
 ## AS::monitorAlertGenerator.messageFrom - meddelandeavsändare {#section-db320cba4ac2438ca1cfe6abce4aed87}
 
-E-postadressen som ska användas i e-postfältet **[!UICONTROL From]**.
+E-postadressen som ska användas i **[!UICONTROL From]** e-postfält.
 
 ## AS::monitorAlertGenerator.alertInterval - övervakningsintervall {#section-99cb2e3380c1499e9d5aec3671ed73c7}
 
@@ -46,4 +46,4 @@ Minimitid efter att ett heap space-varningsmeddelande har skickats innan ett ann
 
 ## AS::monitorAlertGenerator.minTrafficForAlerts - Minsta trafik för att aktivera larm {#section-8b4db2d6f96642309ca35c49eb3ab230}
 
-Begäranden per sekund. Ingen svarstid och felmeddelanden kommer att utlösas om trafiken faller under detta tröskelvärde. Ange 0 om du vill skicka svarstid och felmeddelanden oavsett trafikvolym. Verkligt värde 0 eller större.
+Begäranden per sekund. Ingen svarstid och felmeddelanden skickas om trafiken faller under detta tröskelvärde. Ange 0 om du vill skicka svarstid och felmeddelanden oavsett trafikvolym. Verkligt värde 0 eller större.

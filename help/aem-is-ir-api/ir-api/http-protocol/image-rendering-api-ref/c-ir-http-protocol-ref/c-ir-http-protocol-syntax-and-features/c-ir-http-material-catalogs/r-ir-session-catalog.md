@@ -1,20 +1,20 @@
 ---
-description: Sessionskatalogen är den materialkatalog som innehåller sessionsattribut för begäran samt ett standard-catId-värde för alla kommandon src=, vignette= och icc=.
-solution: Experience Manager
 title: Sessionskatalog
+description: Sessionskatalogen är den materialkatalog som innehåller sessionsattribut för begäran och ett standard-catId-värde för alla kommandon src=, vignette= och icc=.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 36e0571e-7451-423f-a1df-540680381902
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
 
 # Sessionskatalog{#session-catalog}
 
-Sessionskatalogen är den materialkatalog som innehåller sessionsattribut för begäran samt ett standard-catId-värde för alla kommandon src=, vignette= och icc=.
+Sessionskatalogen är den materialkatalog som innehåller sessionsattribut för begäran och ett standard-catId-värde för alla `src=`, `vignette=`och `icc=` kommandon.
 
 Sessionskatalogen anges som det första sökvägselementet i sökvägen för HTTP-begäran (omedelbart efter servernamnet). Om det första sökvägselementet inte matchar attributet::RootId för någon katalog används standardkatalogen som sessionskatalog.
 
@@ -42,7 +42,7 @@ Sessionskatalogen innehåller följande standardvärden för sessioner:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::RootUrl</span> </p> </td> 
-   <td> <p> Rot-URL för relativa HTTP-filsökvägar i <span class="codeph"> src=</span>-kommandon </p> </td> 
+   <td> <p> Rot-URL för relativa HTTP-filsökvägar i <span class="codeph"> src=</span> kommandon </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::ShowOverlapObjs</span> </p> </td> 
@@ -78,11 +78,11 @@ Sessionskatalogen innehåller följande standardvärden för sessioner:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::OnFailSel</span> </p> </td> 
-   <td> <p> Anger beteende när ett <span class="codeph"> sel=</span>-kommando misslyckas </p> </td> 
+   <td> <p> Anger beteende när en <span class="codeph"> sel=</span> kommandot misslyckas </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::OnFailObj</span> </p> </td> 
-   <td> <p> Anger beteende när ett <span class="codeph"> obj=</span>-kommando misslyckas </p> </td> 
+   <td> <p> Anger beteende för en <span class="codeph"> obj=</span> kommandot misslyckas </p> </td> 
   </tr> 
  </tbody> 
 </table>

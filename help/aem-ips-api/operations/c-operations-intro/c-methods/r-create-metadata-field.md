@@ -5,9 +5,9 @@ title: createMetadataField
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: eac7fa54-ebe2-4f42-a478-d9a6fb54d1b6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Syntax
 
 ## Exempel {#section-ba66be30f36b4aeba1bc721b0b92fdfc}
 
-Detta kodexempel skapar ett metadatafält av strängtyp med namnet `createMetadataField`. Svaret returnerar referensen till det nya metadatafältet.
+Detta kodexempel skapar ett metadatafält för strängtyp med namnet `createMetadataField`. Svaret returnerar referensen till det nya metadatafältet.
 
 **Begäran**
 

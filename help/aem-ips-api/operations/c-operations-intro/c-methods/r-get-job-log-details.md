@@ -5,9 +5,9 @@ title: getJobLogDetails
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d2e4eea6-041b-4a80-beda-cbb8d74cd50b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Hämtar information om en företagsjobblogg.
 
-Svarsfältet `logMessage` är lokaliserat baserat på `authHeader` `locale`-fältet.
+The `logMessage` svarsfältet är lokaliserat baserat på `authHeader` `locale` fält.
 
 ## Auktoriserade användartyper {#section-6f720a7baad64eb3805868c88af9a960}
 
@@ -77,7 +77,7 @@ Svarsfältet `logMessage` är lokaliserat baserat på `authHeader` `locale`-fäl
    <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Nej </td> 
-   <td colname="col4">Sidnummer för <span class="codeph"> recordsPerPage</span>-results att returnera. Standardvärdet är 1. </td> 
+   <td colname="col4">Sidnummer för <span class="codeph"> recordsPerPage</span>-results to return. Standardvärdet är 1. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 

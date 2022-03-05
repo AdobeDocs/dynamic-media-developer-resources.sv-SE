@@ -1,18 +1,18 @@
 ---
+title: Kommandomakron
 description: Kommandomakron innehåller namngivna kortkommandon för kommandouppsättningar.
 solution: Experience Manager
-title: Kommandomakron *
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 00f6d27e-9f6b-4eea-8f42-833fbc0f1c38
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
 
-# Kommandomakron *{#command-macros}
+# Kommandomakron{#command-macros}
 
 Kommandomakron innehåller namngivna kortkommandon för kommandouppsättningar.
 
@@ -24,9 +24,9 @@ Makron definieras i separata makrodefinitionsfiler som kan bifogas till material
 
 *[!DNL name]* är inte skiftlägeskänsligt och kan bestå av en kombination av ASCII-bokstäver, siffror, &#39;-&#39;, &#39;_&#39; och &#39;.&#39; tecken.
 
-Anropa makron var som helst i en begäran efter &#39;?&#39;, eller var som helst i ett `vignette::Modifier`-fält. Makron kan bara representera ett eller flera fullständiga kommandon för bildåtergivning och måste separeras från andra kommandon med &quot;&amp;&quot;-avgränsare.
+Anropa makron var som helst i en begäran efter ?, eller var som helst i en `vignette::Modifier` fält. Makron kan bara representera ett eller flera kommandon för bildåtergivning och måste separeras från andra kommandon med &quot;&amp;&quot;-avgränsare.
 
-Makroanrop ersätts av motsvarande ersättningssträngar tidigt under tolkningen. Kommandon i makron åsidosätter samma kommandon i begäran om de inträffar före makroanropet i begäran. Detta skiljer sig från `vignette::Modifier`, där kommandon i begärandesträngen alltid åsidosätter kommandon i `vignette::Modifier`-strängen, oavsett positionen i begäran.
+Makroanrop ersätts av motsvarande ersättningssträngar tidigt under tolkningen. Kommandon i makron åsidosätter samma kommandon i begäran om de inträffar före makroanropet i begäran. Det här arbetsflödet skiljer sig från `vignette::Modifier`, där kommandon i strängen request åsidosätter kommandon i `vignette::Modifier` -sträng, oavsett positionen i begäran.
 
 Kommandomakron kan inte ha argumentvärden, men egna variabler kan användas för att skicka värden från begäran till makrot.
 
@@ -46,10 +46,10 @@ Makrot används enligt följande:
 
 `http://server/ir/render/cat/vig0?$mat=matc&$render$ http://server/ir/render/cat/vig0?$mat=matc&$render$ http://server/ir/render/cat/vig0?$mat=matc&$render$&qlt=95`
 
-Eftersom `qlt=` inte är samma för den tredje begäran åsidosätter vi bara värdet efter att makrot har anropats (att ange `qlt=`*innan* `$render$`skulle inte ha någon effekt).
+För `qlt=` skiljer sig åt för den tredje begäran, så åsidosätter programmet värdet efter att makrot har anropats (ange `qlt=` *före* `$render$`är ineffektivt).
 
 **Se även**
 
-`catalog::MacroFile`,  `catalog::Modifier`, makrodefinitionsreferens
+`catalog::MacroFile`, `catalog::Modifier`, makrodefinitionsreferens
 
 <!--<a id="section_297B7FCB285F4891AA76DF8393089931"></a>-->

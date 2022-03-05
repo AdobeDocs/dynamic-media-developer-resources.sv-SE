@@ -5,9 +5,9 @@ title: Bildserverproxy
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0389a4af-a412-42eb-b7b4-716e47d623a0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ En bildserverproxy kan användas för att ändra storlek på bilder för japansk
 
 ## URL-format {#section-2e8c40b0547c4f99874cdf502b338940}
 
-URL-formatet för IS-proxyn påminner mycket om vanliga IS-begäranden. Alla IS-modifierare som skickas till proxyn skickas till Image Server. Information om IS-modifierare finns i [HTTP Protocol Reference](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md#concept-dbbd5241bc6248ad9b9d7f6c635c311e).
+URL-formatet för IS-proxyn påminner mycket om vanliga IS-begäranden. Alla IS-modifierare som skickas till proxyn skickas till Image Server. Information om IS-modifierare finns i [HTTP-protokollreferens](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md#concept-dbbd5241bc6248ad9b9d7f6c635c311e).
 
 `http://<server>/is-proxy/image/<company><asset>?<modifiers>`
 
@@ -28,15 +28,15 @@ URL-formatet för IS-proxyn påminner mycket om vanliga IS-begäranden. Alla IS-
 
 <table id="simpletable_40C1DFB183B54A79BCF65D51ED480CE0"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> widpercent =  &lt;number&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> widpercent = &lt;number&gt;</span> </p></td> 
   <td class="stentry"> <p>Anger den procentandel av enhetens användbara bredd som ska användas som bildbredd. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> heipercent =  &lt;number&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> heipercent = &lt;number&gt;</span> </p></td> 
   <td class="stentry"> <p>Anger den procentandel av enhetens användbara höjd som ska användas som bildhöjd. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> sizepercent =  &lt;number&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> sizepercent = &lt;number&gt;</span> </p></td> 
   <td class="stentry"> <p>Anger procentandelen av enhetens inbäddade mediaegenskap för minnesbegränsning som svarsstorleken ska begränsas till. Detta gäller endast jpg-svar. Kvaliteten på bilden sänks tills svarsstorleken ligger inom den angivna procentandelen. </p></td> 
  </tr> 
 </table>

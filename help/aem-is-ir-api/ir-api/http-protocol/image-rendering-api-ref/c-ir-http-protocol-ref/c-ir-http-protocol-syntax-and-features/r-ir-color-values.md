@@ -1,20 +1,20 @@
 ---
+title: Färgvärden
 description: Färgvärden för attributen color= och bgc= kan anges med hjälp av en lista med decimalvärden, kommaavgränsade komponentvärden eller en hex-notation, som liknar HTML.
 solution: Experience Manager
-title: Färgvärden
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 608ff0f1-4fbd-4e32-af07-3a62569d14c7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 8%
+source-wordcount: '115'
+ht-degree: 9%
 
 ---
 
 # Färgvärden{#color-values}
 
-Färgvärden för attributen color= och bgc= kan anges med hjälp av en lista med decimalvärden, kommaavgränsade komponentvärden eller en hex-notation, som liknar HTML.
+Färgvärden för `color=` och `bgc=` attribut kan anges antingen med en lista med decimaler, kommaavgränsade komponentvärden eller en hex-notation, som liknar HTML.
 
 <table id="simpletable_9B3A231D5BB14A3DB2B42B341E198341"> 
  <tr class="strow"> 
@@ -60,4 +60,4 @@ Några exempel på giltiga färgspecifikationer och deras motsvarande RGB-färgv
 
 ## Se även {#section-207d5cb918a94736a27445faa58917d3}
 
-[color=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa),  [bgc=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-bgc.md#reference-3f5c78cea01c4a85aa582076d23aebb0),  [grout=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-grout.md#reference-73651cbbbc344adba2626ef950d3672a)
+[color=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa), [bgc=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-bgc.md#reference-3f5c78cea01c4a85aa582076d23aebb0), [grout=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-grout.md#reference-73651cbbbc344adba2626ef950d3672a)

@@ -1,13 +1,13 @@
 ---
+title: Reflektioner
 description: Vinjetter kan skapas för att innehålla data för nästan 3D-reflektion.
 solution: Experience Manager
-title: Reflektioner
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f67ede68-03c0-461f-a16d-a308f76fd24c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
@@ -33,12 +33,12 @@ Om så är fallet används följande materialattribut för att definiera materia
    <td> <p>Från vinjett </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-glossmap.md#reference-99940148ae6a401482b2d03c68530f3a" type="reference" format="dita" scope="local"> <span class="codeph"> glossmap=  </span> </a> </p> </td> 
+   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-glossmap.md#reference-99940148ae6a401482b2d03c68530f3a" type="reference" format="dita" scope="local"> <span class="codeph"> glossmap= </span> </a> </p> </td> 
    <td> <p>Glanvariation (gråskalebild) </p> </td> 
    <td> <p>Ingen </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180" type="reference" format="dita" scope="local"> <span class="codeph"> grov=  </span> </a> </p> </td> 
+   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180" type="reference" format="dita" scope="local"> <span class="codeph"> grov= </span> </a> </p> </td> 
    <td> <p>Ytojämnhet </p> </td> 
    <td> <p>40 % </p> </td> 
   </tr> 
@@ -50,6 +50,6 @@ Om så är fallet används följande materialattribut för att definiera materia
  </tbody> 
 </table>
 
-Renderaren justerar intervallet för attributen `gloss=` och `rough=` enligt `type=`. Vissa typer av material, t.ex. tyger, reflekterar i allmänhet mindre än materialtyper som sten eller metall, och samma mängd glans som anges för den ena ger en annan reflektionseffekt än den andra. `gloss=`och grovhet har ett tämligen brett färgomfång om  `type=` inte anges eller har värdet 0.
+Renderaren justerar omfånget för `gloss=` och `rough=` attribut enligt `type=`. Vissa typer av material, t.ex. vävnader, reflekterar mindre än materialtyper som sten eller metall. Dessutom ger samma mängd glans som anges för den ena ofta en annan reflektionseffekt än den andra. Attributet `gloss=` och grovhet har ett tämligen brett färgomfång om `type=` har inte angetts eller är inställd på `0`.
 
-`glossmap=` kan användas för att kontrollera glansigheten i ett material pixelvis.
+`glossmap=` Används för att kontrollera glansigheten i ett material pixelvis.
