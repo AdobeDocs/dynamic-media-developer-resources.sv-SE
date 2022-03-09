@@ -2,12 +2,12 @@
 description: Tar bort en resurs.
 solution: Experience Manager
 title: deleteAsset
-feature: Dynamic Media Classic,SDK/API,Resurshantering
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: dacea36e-3d40-4aaf-94fd-f0709830caf9
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,8 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Referensen till företaget som mappen tillhör. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Referensen till resursen som ska tas bort. |
+| companyHandle | `xsd:string` | Ja | Referensen till företaget som mappen tillhör. |
+| assetHandle | `xsd:string` | Ja | Referensen till resursen som ska tas bort. |
 
 **Utdata (deleteAssetParam)**
 

@@ -5,9 +5,9 @@ title: EmailConfirmation
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b4698637-a897-47fa-92d4-4ab400e56962
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
@@ -22,5 +22,5 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| `*`ccOriginator`*` | `xsd:boolean` | Om värdet är true inkluderar användarens webbtjänstkonto, som är en lista över e-postmeddelanden som ska ta emot en e-postbekräftelse från Dynamic Media CDN. |
-| `*`ccOthersArray`*` | `types:EmailArray` | En matris med e-postadresser (max 5) som ska ta emot bekräftelsemeddelanden från Dynamic Media CDN. |
+| ccOriginator | `xsd:boolean` | Om värdet är true inkluderar användarens webbtjänstkonto, som är en lista över e-postmeddelanden som ska ta emot en e-postbekräftelse från Dynamic Media CDN. |
+| ccOthersArray | `types:EmailArray` | En matris med e-postadresser (max 5) som ska ta emot bekräftelsemeddelanden från Dynamic Media CDN. |

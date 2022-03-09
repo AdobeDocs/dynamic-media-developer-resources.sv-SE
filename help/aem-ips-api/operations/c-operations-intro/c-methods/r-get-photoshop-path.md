@@ -5,9 +5,9 @@ title: getPhotoshopPath
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 46d88547-bb60-4370-9c79-bd281b40ba28
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
@@ -35,15 +35,15 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handla till företaget med den bild du vill arbeta med. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Hantera bildresursen. |
-| `*`pathName`*` | `xsd:string` | Ja | Namnet på den Photoshop-sökväg som du vill returnera. |
+| companyHandle | `xsd:string` | Ja | Handla till företaget med den bild du vill arbeta med. |
+| assetHandle | `xsd:string` | Ja | Hantera bildresursen. |
+| pathName | `xsd:string` | Ja | Namnet på den Photoshop-sökväg som du vill returnera. |
 
 **Utdata (getPhotoshopPathReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`perspectiveQuad`*` | `types:PerspectiveQuad` | Ja | Returnerar bildkoordinater baserat på sökvägen. Se [PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204). |
+| perspectiveQuad | `types:PerspectiveQuad` | Ja | Returnerar bildkoordinater baserat på sökvägen. Se [PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204). |
 
 ## Exempel {#section-1f0461cbdc184c8d8925336d5279db47}
 

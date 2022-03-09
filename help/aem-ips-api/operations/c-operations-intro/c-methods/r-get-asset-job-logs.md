@@ -2,12 +2,12 @@
 description: Hämtar jobbloggarna för en resurs. Objekt som returneras i arrayen innehåller detaljerad information om varje post i jobbloggen för den resursen. Svarsfältet logMessage är lokaliserat baserat på authHeader-fältet.
 solution: Experience Manager
 title: getAssetJobLogs
-feature: Dynamic Media Classic,SDK/API,Resurshantering
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 88ec5cab-7eb4-48aa-914f-21311593e463
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
@@ -36,14 +36,14 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Referensen till företaget som tillgången tillhör. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Referensen till resursen med de jobbloggar som ska hämtas. |
+| companyHandle | `xsd:string` | Ja | Referensen till företaget som tillgången tillhör. |
+| assetHandle | `xsd:string` | Ja | Referensen till resursen med de jobbloggar som ska hämtas. |
 
 **Utdata (getAssetJobLogsReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`jobLogArray`*` | `types:AssetJobLogArray` | Ja | Jobbloggmatris. |
+| jobLogArray | `types:AssetJobLogArray` | Ja | Jobbloggmatris. |
 
 ## Exempel {#section-f03d7f3ec5d043d38227f926fb7609f6}
 

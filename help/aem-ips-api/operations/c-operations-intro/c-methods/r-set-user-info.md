@@ -5,9 +5,9 @@ title: setUserInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d8f8fe53-a874-4b77-9084-9a369862a672
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
@@ -31,14 +31,14 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | Nej | Användarhandtag. |
-| `*`firstName`*` | `xsd:string` | Ja | Förnamn. |
-| `*`lastName`*` | `xsd:string` | Ja | Efternamn. |
-| `*`e-post`*` | `xsd:string` | Ja | E-post från användare. |
-| `*`defaultRole`*` | `xsd:string` | Ja | Anger rollen för en användare i varje företag de tillhör. Observera dock att `IpsAdmin`-rollen åsidosätter andra inställningar per företag. |
-| `*`passwordExpires`*` | `xsd:dateTime` | Nej | Ange förfallodatum för lösenord. |
-| `*`isValid`*` | `xsd:boolean` | Ja | Avgör om användaren är en giltig IPS-användare. |
-| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Ja | En array med företagshandtag. |
+| userHandle | `xsd:string` | Nej | Användarhandtag. |
+| firstName | `xsd:string` | Ja | Förnamn. |
+| lastName | `xsd:string` | Ja | Efternamn. |
+| e-post | `xsd:string` | Ja | E-post från användare. |
+| defaultRole | `xsd:string` | Ja | Anger rollen för en användare i varje företag de tillhör. Observera dock att `IpsAdmin` roll åsidosätter andra inställningar per företag. |
+| passwordExpires | `xsd:dateTime` | Nej | Ange förfallodatum för lösenord. |
+| isValid | `xsd:boolean` | Ja | Avgör om användaren är en giltig IPS-användare. |
+| membershipArray | `types:CompanyMembershipUpdateArray` | Ja | En array med företagshandtag. |
 
 **Utdata (setUserInfoReturn)**
 

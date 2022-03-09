@@ -5,9 +5,9 @@ title: createVignettePublishFormat
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d58e1290-8a79-4129-99ce-776b919dea13
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
@@ -49,67 +49,67 @@ Nya serverversioner för bildåtergivning har stöd för pyramidvinjettering, vi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Kodfras  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Kodfras </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Namn som identifierar vinjetteringens publiceringsformat. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> targetWidth</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Kodfras  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Kodfras </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> <p>Anger målbredden för den resulterande vinjetteringsvyn i pixlar. </p> <p>Använd noll så att utdatavärjningen har samma storlek som den primära vinjetteringen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> targetHeight</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Kodfras  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Kodfras </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Skapar en pyramidvinjettering som är optimerad för zoomning på servern för bildåtergivning. Med början från den maximala storleken, som anges av fälten Storlek på målvinjett, skapas vyer i flera storlekar i en enda vinjettutdatafil. Varje efterföljande visningsstorlek halveras tills bredden och höjden är inom 128 x 128 pixlar. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> createPyramid</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Kodfras  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Kodfras </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Anger bredden på varje miniatyrbild i pixlar. Den här inställningen är valfri. Använd noll om du inte har någon miniatyrfil. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbWidth</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Kodfras  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Kodfras </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Anger filformatet för de publicerade vinjetterna. Om du har en ny version av Image Authoring och en äldre version av Image Rendering Server måste du ange en vinjettversion som ImageRendering Server kan läsa. Om du anger en senare version kan inte servern för bildåtergivning läsa de publicerade vinjetterna. Ange noll om du vill publicera vinjetter i den senaste versionen. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> saveAsVersion</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Kodfras  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Kodfras </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Anger det tecken som avgränsar vinjettnamnet och suffixet som anger bredden. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sizeSuffixSeparator</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Kodfras  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Kodfras </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Anger det tecken som avgränsar vinjettnamnet och suffixet som anger bredden. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> skärpa</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Kodfras  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Kodfras </span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> Använder skärpa i huvudvisningsbilden för varje publik vinjettstorlek Skärpa kan kompensera för oskärpa när vinjetterarna skalas. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> usmAmount</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Kodfras  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Kodfras </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Digital oskarp maskning är ett flexibelt och kraftfullt sätt att öka skärpan, särskilt i skannade bilder. Detta styr storleken på varje överskjutande del (hur mycket mörkare och ljusare kanterna blir). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> usmRadius</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Kodfras  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Kodfras </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Påverkar storleken på kanterna som ska förbättras eller hur breda kanterna blir, så en mindre radie förbättrar detaljskärpan i mindre skala. Högre radievärden kan orsaka glorior vid kanterna. För fina detaljer krävs en mindre radie, eftersom små detaljer av samma storlek eller mindre än radien förloras. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> usmThreshold</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Kodfras  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Kodfras </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Styr den minsta intensitetsändring som ska göras skarpare eller hur långt ifrån intilliggande tonvärden måste vara innan filtret fungerar. Den här inställningen kan göra mer skarpa kanter skarpare samtidigt som mer subtila kanter lämnas orörda. Det tillåtna tröskelintervallet mellan 0 och 255. </td> 
   </tr> 
@@ -120,7 +120,7 @@ Nya serverversioner för bildåtergivning har stöd för pyramidvinjettering, vi
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`vinjetteringFormatHandtag`*` | `xsd:string` | Ja | Handtaget till det skapade vinjettformatet. |
+| vinjetteringFormatHandtag | `xsd:string` | Ja | Handtaget till det skapade vinjettformatet. |
 
 ## Exempel {#section-0564752d439642b9bb8de2903db6de1e}
 

@@ -5,9 +5,9 @@ title: removeGroupMembership
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 892ee01c-e07b-4321-b0b7-5bb606036340
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
@@ -33,8 +33,8 @@ Tar bort användare från en array med grupper.
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | Nej | Referensen till det företag vars gruppmedlemskap du vill ta bort. |
-| `*`groupHandleArray`*` | `types:HandleArray` | Ja | Arrayen med referenser till grupper från vilka du vill ta bort företaget. |
+| userHandle | `xsd:string` | Nej | Referensen till det företag vars gruppmedlemskap du vill ta bort. |
+| groupHandleArray | `types:HandleArray` | Ja | Arrayen med referenser till grupper från vilka du vill ta bort företaget. |
 
 **Utdata (removeGroupMembershipReturn)**
 

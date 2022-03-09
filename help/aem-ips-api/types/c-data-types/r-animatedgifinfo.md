@@ -1,20 +1,20 @@
 ---
-description: Egenskaper för en animerad GIF-filresurs.
-solution: Experience Manager
 title: AnimatedGifInfo
+description: Egenskaper för en Animated GIF-filresurs.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b50b39b4-3055-43e3-a8bb-50f8b2f0d1fc
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: '55'
 ht-degree: 0%
 
 ---
 
 # AnimatedGifInfo{#animatedgifinfo}
 
-Egenskaper för en animerad GIF-filresurs.
+Egenskaper för en Animated GIF-filresurs.
 
 Syntax
 
@@ -32,7 +32,7 @@ Syntax
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> originalPath</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:sträng</span> </p> </td> 
-   <td colname="col3"> <p>Sökväg till GIF-filen. </p> </td> 
+   <td colname="col3"> <p>Sökväg till filen GIF. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> originalFile</span> </span> </p> </td> 

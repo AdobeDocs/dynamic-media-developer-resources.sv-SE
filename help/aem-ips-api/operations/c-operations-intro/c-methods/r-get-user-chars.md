@@ -5,7 +5,7 @@ title: getUserChars
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d6b79c06-0e90-406f-bac8-3b8c2bae5480
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
@@ -31,19 +31,19 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`charField`*` | `xsd:string` | Ja | Anger vilket papperskorgsläge som ska sökas efter. |
-| `*`includeInactive`*` | `xsd:boolean` | Ja | Inkludera eller exkludera inaktiva användare. Användare av icke-IPS-administratörer måste vara en aktiv medlem i minst ett företag för att kunna auktoriseras att göra API-anrop. Ett auktoriseringsfel returneras om användaren inte har några aktiva företagsmedlemskap. |
-| `*`includeInvalid`*` | `xsd:boolean` | Nej | Inkludera eller exkludera ogiltiga användare. |
-| `*`companyHandleArray`*` | `types:HandleArray` | Nej | Filtrera resultat baserat på företag. |
-| `*`groupHandleArray`*` | `types:HandleArray` | Nej | Filtrerar resultat baserat på grupper. |
-| `*`userRoleArray`*` | `types:StringArray` | Nej | Filtrerar resultat baserat på användarroll. |
-| `*`numChars`*` | `xsd:int` | Nej | Aktivera >1 tecken. |
+| charField | `xsd:string` | Ja | Anger vilket papperskorgsläge som ska sökas efter. |
+| includeInactive | `xsd:boolean` | Ja | Inkludera eller exkludera inaktiva användare. Användare av icke-IPS-administratörer måste vara en aktiv medlem i minst ett företag för att kunna auktoriseras att göra API-anrop. Ett auktoriseringsfel returneras om användaren inte har några aktiva företagsmedlemskap. |
+| includeInvalid | `xsd:boolean` | Nej | Inkludera eller exkludera ogiltiga användare. |
+| companyHandleArray | `types:HandleArray` | Nej | Filtrera resultat baserat på företag. |
+| groupHandleArray | `types:HandleArray` | Nej | Filtrerar resultat baserat på grupper. |
+| userRoleArray | `types:StringArray` | Nej | Filtrerar resultat baserat på användarroll. |
+| numChars | `xsd:int` | Nej | Aktivera >1 tecken. |
 
 **Utdata (getUserCharsReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`userCharsArray`*` | `types:StringArray` | Ja | En array med teckenprefix. |
+| userCharsArray | `types:StringArray` | Ja | En array med teckenprefix. |
 
 ## Exempel {#section-3702f165e8b041139a6144f4a76ca25f}
 

@@ -1,13 +1,13 @@
 ---
+title: AssetContextStateUpdate
 description: Ange en ny uppsättning flaggor för publiceringsläge för den publiceringskontext som är kopplad till en resurs.
 solution: Experience Manager
-title: AssetContextStateUpdate
-feature: Dynamic Media Classic,SDK/API,Resurshantering
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: ecbadafc-e77d-4c7e-a3d5-31c2b2a9b2ea
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '63'
 ht-degree: 0%
 
 ---
@@ -20,5 +20,5 @@ Ange en ny uppsättning flaggor för publiceringsläge för den publiceringskont
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Hantera den resurs som du vill uppdatera. |
-| `*`contextStateUpdateArray`*` | `types:ContextStateUpdateArray` | En array med kontaktlägen för publicering för den resurs som du vill uppdatera. |
+| assetHandle | `xsd:string` | Hantera resursen som du vill uppdatera. |
+| contextStateUpdateArray | `types:ContextStateUpdateArray` | En array med kontaktlägen för publicering för resursen som du vill uppdatera. |

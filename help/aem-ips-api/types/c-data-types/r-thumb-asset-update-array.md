@@ -2,12 +2,12 @@
 description: En metadatauppdatering för tumresurser.
 solution: Experience Manager
 title: ThumbAssetUpdateArray
-feature: Dynamic Media Classic,SDK/API,Resurshantering
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 58893b74-9a32-47f6-9c97-80db67ae1739
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '33'
+source-wordcount: '26'
 ht-degree: 0%
 
 ---
@@ -22,4 +22,4 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| `*`objekt`*` | `types:ThumbAssetUpdates` | En array med uppdateringar av tumresurser. |
+| objekt | `types:ThumbAssetUpdates` | En array med uppdateringar av tumresurser. |

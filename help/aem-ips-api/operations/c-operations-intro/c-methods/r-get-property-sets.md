@@ -5,9 +5,9 @@ title: getPropertySets
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: da6923c3-9b86-4595-8205-645fb10e03b0
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
@@ -36,15 +36,15 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`typeHandle`*` | `xsd:string` | Ja | Referensen till egenskapsuppsättningstypen. |
-| `*`primaryOwnerHandle`*` | `xsd:string` | Ja | Den primära ägaren av data som är bundna till databasobjektet. |
-| `*`secondaryOwnerHandle`*` | `xsd:string` | Nej | En valfri sekundär dataägare. |
+| typeHandle | `xsd:string` | Ja | Referensen till egenskapsuppsättningstypen. |
+| primaryOwnerHandle | `xsd:string` | Ja | Den primära ägaren av data som är bundna till databasobjektet. |
+| secondaryOwnerHandle | `xsd:string` | Nej | En valfri sekundär dataägare. |
 
 **Utdata (getPropertySetsReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`setArray`*` | `types:PropertySetArray` | Ja | Array med egenskapsuppsättningar. |
+| setArray | `types:PropertySetArray` | Ja | Array med egenskapsuppsättningar. |
 
 ## Exempel {#section-1358af974eab4259864910337a6f0bd2}
 

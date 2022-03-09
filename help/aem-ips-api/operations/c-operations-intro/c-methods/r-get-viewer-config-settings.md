@@ -2,12 +2,12 @@
 description: Hämtar alla visningsprogramkonfigurationsinställningar som är associerade med den angivna resursen.
 solution: Experience Manager
 title: getViewerConfigSettings
-feature: Dynamic Media Classic,SDK/API,visningsförinställningar
+feature: Dynamic Media Classic,SDK/API,Viewer Presets
 role: Developer,Admin
 exl-id: c0438238-8aab-4478-926a-fc0e11732fc1
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '68'
 ht-degree: 0%
 
 ---
@@ -31,12 +31,12 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handla till företaget. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Hantera tillgången. |
+| companyHandle | `xsd:string` | Ja | Handla till företaget. |
+| assetHandle | `xsd:string` | Ja | Hantera tillgången. |
 
 **Utdata (getViewerConfigSettingsReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`type`*` | `xsd:string` | Ja | Visningstyp som konfigurationsinställningarna gäller för. |
-| `*`configSettingsArray`*` | `types:ConfigSettingsArray` | Ja | Array med visningsprogrammets konfigurationsinställningar. |
+| type | `xsd:string` | Ja | Visningstyp som konfigurationsinställningarna gäller för. |
+| configSettingsArray | `types:ConfigSettingsArray` | Ja | Array med visningsprogrammets konfigurationsinställningar. |

@@ -5,9 +5,9 @@ title: createProject
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: dd9c07df-9a8f-4b67-9838-31dd96fd127b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '76'
 ht-degree: 0%
 
 ---
@@ -33,18 +33,18 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handtaget för det företag som är associerat med det nya projektet. |
-| `*`projectName`*` | `xsd:string` | Ja | Nytt projektnamn. |
+| companyHandle | `xsd:string` | Ja | Handtaget för det företag som är associerat med det nya projektet. |
+| projectName | `xsd:string` | Ja | Nytt projektnamn. |
 
 **Utdata (createProjectParam)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`projectHandle`*` | `xsd:string` | Ja | Referensen till det nya projektet. |
+| projectHandle | `xsd:string` | Ja | Referensen till det nya projektet. |
 
 ## Exempel {#section-a0cd532b67e346d088fbec141231a0e5}
 
-Det här kodexemplet skapar ett projekt med namnet `ApiTestProject` i ett företag som anges av dess referens. Svaret returnerar referensen till projektet.
+Detta kodexempel skapar ett projekt som kallas `ApiTestProject` i ett företag som anges av dess referens. Svaret returnerar referensen till projektet.
 
 **Begäran**
 

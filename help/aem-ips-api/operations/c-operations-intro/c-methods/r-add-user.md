@@ -5,9 +5,9 @@ title: addUser
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: aed39e73-f528-4c26-8f62-c3d796e9101a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -31,20 +31,20 @@ När du lägger till en användare till flera företag anger du de företagen ef
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`firstName`*` | `xsd:string` | Ja | Användarens förnamn. |
-| `*`lastName`*` | `xsd:string` | Ja | Användarens efternamn. |
-| `*`e-post`*` | `xsd:string` | Ja | Användarens e-postadress. |
-| `*`defaultRole`*` | `xsd:string` | Ja | Anger rollen för en användare i varje företag de tillhör. Observera dock att `IpsAdmin`-rollen åsidosätter andra inställningar per företag. |
-| `*`lösenord`*` | `xsd:string` | Ja | Anger användarens lösenord |
-| `*`passwordExpires`*` | `xsd:dateTime` | Nej | Anger lösenordets förfalloperiod. Ange tidszonen när begäran skickas. Tidszoner justeras till Central Time. |
-| `*`isValid`*` | `xsd:boolean` | Ja | Anger om användaren är giltig. |
-| `*`membershipArray`*` | `xsd:CompanyMembershipUpdateArray` | Ja | En array med företagshandtag. |
+| firstName | `xsd:string` | Ja | Användarens förnamn. |
+| lastName | `xsd:string` | Ja | Användarens efternamn. |
+| e-post | `xsd:string` | Ja | Användarens e-postadress. |
+| defaultRole | `xsd:string` | Ja | Anger rollen för en användare i varje företag de tillhör. Observera dock att `IpsAdmin` roll åsidosätter andra inställningar per företag. |
+| lösenord | `xsd:string` | Ja | Anger användarens lösenord |
+| passwordExpires | `xsd:dateTime` | Nej | Anger lösenordets förfalloperiod. Ange tidszonen när begäran skickas. Tidszoner justeras till Central Time. |
+| isValid | `xsd:boolean` | Ja | Anger om användaren är giltig. |
+| membershipArray | `xsd:CompanyMembershipUpdateArray` | Ja | En array med företagshandtag. |
 
 **Utdata (addUserParam)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | Ja | Referensen till användaren. |
+| userHandle | `xsd:string` | Ja | Referensen till användaren. |
 
 ## Exempel {#section-2547cef622734b71919eef849960b5cb}
 

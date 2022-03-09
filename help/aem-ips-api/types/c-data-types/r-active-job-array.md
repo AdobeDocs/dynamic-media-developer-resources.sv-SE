@@ -1,13 +1,13 @@
 ---
+title: ActiveJobArray
 description: En array med aktiva jobb.
 solution: Experience Manager
-title: ActiveJobArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 8fccfc0e-f715-4d97-ac29-c88313c3e49f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '27'
+source-wordcount: '22'
 ht-degree: 0%
 
 ---
@@ -22,4 +22,4 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| `*`objekt`*` | `types:ActiveJob` | Matris med aktiva jobb. |
+| objekt | `types:ActiveJob` | Matris med aktiva jobb. |

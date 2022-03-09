@@ -5,9 +5,9 @@ title: JobLog
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 80ae6669-6fe7-45a6-9a1d-f8544dd4f878
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
@@ -22,25 +22,25 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Företagshandtag. |
-| `*`jobHandle`*` | `xsd:string` | Jobbreferens. |
-| `*`jobName`*` | `xsd:string` | Jobbnamn. |
-| `*`originalJobName`*` | `xsd:string` | Det ursprungliga namnet som skickades för jobbet med `submitJob`. |
-| `*`submitUserEmail`*` | `xsd:string` | E-postadressen till den användare som skickade jobbet. |
-| `*`logType`*` | `xsd:string` | Val av jobbloggtyper. |
-| `*`jobSubType`*` | `xsd:string` | Ytterligare jobbinformation. |
-| `*`startDate`*` | `xsd:dateTime` | Startdatum, tid och tidszon för jobbet. |
-| `*`endDate`*` | `xsd:dateTime` | Jobbets slutdatum, tid och tidszon. |
-| `*`description`*` | `xsd:string` | En beskrivning av jobbet som ursprungligen angavs i `submitJob`. |
-| `*`fileSuccessCount`*` | `xsd:int` | Antal filer som bearbetats. |
-| `*`fileErrorCount`*` | `xsd:int` | Antal filer som orsakade ett fel. |
-| `*`fileWarningCount`*` | `xsd:int` | Antal filer som genererade en varning. |
-| `*`fileDuplicateCount`*` | `xsd:int` | Antal duplicerade filer. |
-| `*`fileUpdateCount`*` | `xsd:int` | Antal uppdaterade filer. |
-| `*`totalFileCount`*` | `xsd:int` | Antal filer som bearbetats av det loggade jobbet. |
-| `*`transferSuccessCount`*` | `xsd:int` | Antal slutförda överföringar. |
-| `*`transferErrorCount`*` | `xsd:int` | Antal överföringsfel. |
-| `*`transferWarningCount`*` | `xsd:int` | Antal överföringsvarningar. |
-| `*`fatalError`*` | `xsd:boolean` | Anger om jobbet genererade ett allvarligt fel. |
-| `*`detailTotalRows`*` | `xsd:int` | Det totala antalet rader som matchar frågan, som kan vara större än storleken på `detailArray` på grund av sidstorleksbegränsningar. |
-| `*`detailArray`*` | `types:JobLogDetailArray` | Arrayen med information om det loggade jobbet. |
+| companyHandle | `xsd:string` | Företagshandtag. |
+| jobHandle | `xsd:string` | Jobbreferens. |
+| jobName | `xsd:string` | Jobbnamn. |
+| originalJobName | `xsd:string` | Det ursprungliga namnet som skickades för jobbet med `submitJob`. |
+| submitUserEmail | `xsd:string` | E-postadressen till den användare som skickade jobbet. |
+| logType | `xsd:string` | Val av jobbloggtyper. |
+| jobSubType | `xsd:string` | Ytterligare jobbinformation. |
+| startDate | `xsd:dateTime` | Startdatum, tid och tidszon för jobbet. |
+| endDate | `xsd:dateTime` | Jobbets slutdatum, tid och tidszon. |
+| description | `xsd:string` | En beskrivning av jobbet som det ursprungligen angavs i `submitJob`. |
+| fileSuccessCount | `xsd:int` | Antal filer som bearbetats. |
+| fileErrorCount | `xsd:int` | Antal filer som orsakade ett fel. |
+| fileWarningCount | `xsd:int` | Antal filer som genererade en varning. |
+| fileDuplicateCount | `xsd:int` | Antal duplicerade filer. |
+| fileUpdateCount | `xsd:int` | Antal uppdaterade filer. |
+| totalFileCount | `xsd:int` | Antal filer som bearbetats av det loggade jobbet. |
+| transferSuccessCount | `xsd:int` | Antal slutförda överföringar. |
+| transferErrorCount | `xsd:int` | Antal överföringsfel. |
+| transferWarningCount | `xsd:int` | Antal överföringsvarningar. |
+| fatalError | `xsd:boolean` | Anger om jobbet genererade ett allvarligt fel. |
+| detailTotalRows | `xsd:int` | Det totala antalet rader som matchar frågan, som kan vara större än storleken på `detailArray` på grund av sidstorleksbegränsningar. |
+| detailArray | `types:JobLogDetailArray` | Arrayen med information om det loggade jobbet. |

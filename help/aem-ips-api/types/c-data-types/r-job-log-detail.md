@@ -5,9 +5,9 @@ title: JobLogDetail
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fe41a48a-4671-4179-a128-aadc7bc0683b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '61'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| `*`logMessage`*` | `xsd:string` | Meddelanden i jobbloggen. |
-| `*`logType`*` | `xsd:string` | Filtyp för jobblogg. |
-| `*`assetName`*` | `xsd:string` | Namnet på resursen i jobbloggen (valfritt). |
-| `*`assetType`*` | `xsd:string` | Val av resurstyp. |
-| `*`assetHandle`*` | `xsd:string` | Resurshandtag som refereras i jobbloggen. |
-| `*`auxArray`*` | `types:JobLogDetailAuxArray` | Innehåller ytterligare detaljerad jobblogginformation utöver de fem jobbloggtyperna som beskrivs ovan. |
+| logMessage | `xsd:string` | Meddelanden i jobbloggen. |
+| logType | `xsd:string` | Filtyp för jobblogg. |
+| assetName | `xsd:string` | Namnet på resursen i jobbloggen (valfritt). |
+| assetType | `xsd:string` | Val av resurstyp. |
+| assetHandle | `xsd:string` | Resurshandtag som refereras i jobbloggen. |
+| auxArray | `types:JobLogDetailAuxArray` | Innehåller ytterligare detaljerad jobblogginformation utöver de fem jobbloggtyperna som beskrivs ovan. |

@@ -5,9 +5,9 @@ title: getXMPPacket
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 76e595bd-e598-40e8-aba3-b270fcf4d800
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '69'
 ht-degree: 0%
 
 ---
@@ -34,14 +34,14 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Företagshandtaget för det paket som du vill returnera (t.ex. `c|656`). |
-| `*`assetHandle`*` | `xsd:string` | Ja | Resursen som XMP ska hämtas för. |
+| companyHandle | `xsd:string` | Ja | Företagshandtaget för det paket som du vill returnera (t.ex. `c|656`). |
+| assetHandle | `xsd:string` | Ja | Resursen som XMP ska hämtas för. |
 
 **Utdata (getXMPPacketReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`compressedPacket`*` | `xsd:Base 64 binary` | Ja | [!DNL zlib-compressed] XMP. |
+| compressedPacket | `xsd:Base 64 binary` | Ja | [!DNL zlib-compressed] XMP. |
 
 ## Exempel {#section-d681af49122e4ca9bcd04110a2e98e6f}
 

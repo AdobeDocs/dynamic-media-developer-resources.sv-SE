@@ -1,13 +1,13 @@
 ---
+title: AssetOperationFault
 description: Innehåller information om varnings- eller felförhållanden som genererats under en batchresursåtgärd. Kod- och orsaksfälten motsvarar felmeddelandefälten som skulle ha utlösts för motsvarande icke-gruppåtgärd.
 solution: Experience Manager
-title: AssetOperationFault
-feature: Dynamic Media Classic,SDK/API,Resurshantering
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: c97fc35b-76f8-4ff7-a1ae-e5f9749f376c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,6 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Resurshandtag för den misslyckade åtgärden. |
-| `*`kod`*` | `xsd:int` | Felkod för åtgärd. |
-| `*`orsak`*` | `xsd:string` | Felbeskrivning eller orsak. |
+| assetHandle | `xsd:string` | Resurshandtag för den misslyckade åtgärden. |
+| kod | `xsd:int` | Felkod för åtgärd. |
+| orsak | `xsd:string` | Felbeskrivning eller orsak. |

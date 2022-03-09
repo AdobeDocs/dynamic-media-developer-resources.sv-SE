@@ -5,9 +5,9 @@ title: batchSetFontFields
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f38aa861-2a81-4663-967e-72611122f51b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
@@ -30,18 +30,18 @@ Anger metadatafält för teckensnitt.
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Hantera till företaget som innehåller teckensnitten. |
-| `*`updateArray`*` | `types:FontFieldUpdateArray` | Ja | Matris med uppdateringar av teckensnittsfält. |
+| companyHandle | `xsd:string` | Ja | Hantera till företaget som innehåller teckensnitten. |
+| updateArray | `types:FontFieldUpdateArray` | Ja | Matris med uppdateringar av teckensnittsfält. |
 
 **Utdata (batchSetFontFieldsParam)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Ja | Antalet korrekt angivna teckensnittsfält. |
-| `*`warningCount`*` | `xsd:int` | Ja | Antal varningar som genererades när åtgärden försökte ange teckensnittsfält. |
-| `*`errorCount`*` | `xsd:int` | Ja | Antal fel som genererades när åtgärden försökte ange teckensnittsfält. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nej | Arrayen med information som är associerad med resurserna som genererade varningar när åtgärden försökte tillämpa uppdateringarna. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nej | Arrayen med information som är associerad med resurserna som genererade fel när åtgärden försökte tillämpa uppdateringarna. |
+| successCount | `xsd:int` | Ja | Antalet korrekt angivna teckensnittsfält. |
+| warningCount | `xsd:int` | Ja | Antal varningar som genererades när åtgärden försökte ange teckensnittsfält. |
+| errorCount | `xsd:int` | Ja | Antal fel som genererades när åtgärden försökte ange teckensnittsfält. |
+| warningDetailArray | `types:AssetOperationFaultArray` | Nej | Arrayen med information som är associerad med resurserna som genererade varningar när åtgärden försökte tillämpa uppdateringarna. |
+| errorDetailArray | `types:AssetOperationFaultArray` | Nej | Arrayen med information som är associerad med resurserna som genererade fel när åtgärden försökte tillämpa uppdateringarna. |
 
 ## Exempel {#section-0449c2e4ec534f4b8ee849ec4fe12c4e}
 

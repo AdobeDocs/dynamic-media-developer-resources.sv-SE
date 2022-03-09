@@ -5,9 +5,9 @@ title: getPhotoshopPathNames
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 11d4c0d0-a3a3-4324-a4a6-1dd7b7e673da
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
@@ -34,14 +34,14 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Hantera till det företag som innehåller den bild du vill arbeta med. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Hantera bildresursen. |
+| companyHandle | `xsd:string` | Ja | Hantera till det företag som innehåller den bild du vill arbeta med. |
+| assetHandle | `xsd:string` | Ja | Hantera bildresursen. |
 
 **Utdata (getPhotoshopPathNamesReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`pathNameArray`*` | `types:StringArray` | Ja | En array med Photoshop sökvägsnamn i en bild. |
+| pathNameArray | `types:StringArray` | Ja | En array med Photoshop sökvägsnamn i en bild. |
 
 ## Exempel {#section-6d316f14b4184d42af4ca3f717b042dd}
 

@@ -5,9 +5,9 @@ title: deletePropertySetType
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 97ec0f41-794f-4340-b86d-ab07a742d447
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`typeHandle`*` | `xsd:string` | Ja | Referensen till egenskapsuppsättningstypen som ska tas bort. |
+| typeHandle | `xsd:string` | Ja | Referensen till egenskapsuppsättningstypen som ska tas bort. |
 
 **Utdata (deletePropertySetTypeParam)**
 
@@ -39,7 +39,7 @@ IPS API returnerar inget svar för den här åtgärden.
 
 ## Exempel {#section-85faa2e3411a4e23aa6489037f7ce078}
 
-I det här kodexemplet används typens referens som ett fält i `deletePropertySetTypeParam` som skickas till IPS Web services-servern för att ta bort egenskapsuppsättningstypen.
+I det här kodexemplet används typens handtag som ett fält i `deletePropertySetTypeParam` skickas till IPS-webbtjänstservern för att egenskapsuppsättningstypen ska kunna tas bort.
 
 **Begäran**
 

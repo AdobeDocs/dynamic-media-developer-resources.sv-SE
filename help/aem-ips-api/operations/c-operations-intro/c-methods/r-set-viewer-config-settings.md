@@ -2,12 +2,12 @@
 description: Kopplar visningsprogramkonfigurationsinställningar till en resurs. Dessa kan vara en visningsförinställning eller källresurs för visningsprogrammet.
 solution: Experience Manager
 title: setViewerConfigSettings
-feature: Dynamic Media Classic,SDK/API,visningsförinställningar
+feature: Dynamic Media Classic,SDK/API,Viewer Presets
 role: Developer,Admin
 exl-id: 6b70f2c3-c98b-455f-b453-bb797744dadc
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
@@ -31,11 +31,11 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handla till företaget. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Resurshandtag. |
-| `*`name`*` | `xsd:string` | Ja | Resursnamn. |
-| `*`type`*` | `xsd:string` | Ja | Den typ av resurs som du vill använda visningsprogramkonfigurationen på. |
-| `*`configSettingArray`*` | `types:ConfigSettingArray` | Ja | Arrayen `ConfigSettings` som används för resursen. |
+| companyHandle | `xsd:string` | Ja | Handla till företaget. |
+| assetHandle | `xsd:string` | Ja | Resurshandtag. |
+| name | `xsd:string` | Ja | Resursnamn. |
+| type | `xsd:string` | Ja | Den typ av resurs som du vill använda visningsprogramkonfigurationen på. |
+| configSettingArray | `types:ConfigSettingArray` | Ja | Arrayen med `ConfigSettings` används på tillgången. |
 
 **Utdata (setViewerConfigSettingsParam)**
 

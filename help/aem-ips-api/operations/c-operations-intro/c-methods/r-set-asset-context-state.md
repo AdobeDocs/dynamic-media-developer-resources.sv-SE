@@ -2,12 +2,12 @@
 description: Ange eller uppdatera publiceringsläget för en eller flera resurser. Du kan ange separata publiceringstillstånd för varje publiceringskontext i ett företag.
 solution: Experience Manager
 title: setAssetsContextState
-feature: Dynamic Media Classic,SDK/API,Resurshantering
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 28d0a67b-3e36-43fc-800d-17c841dca3a0
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
@@ -38,21 +38,21 @@ Ange eller uppdatera publiceringsläget för en eller flera resurser. Du kan ang
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handla till företaget. |
-| `*`assetsContextHandle`*` | `types:AssetsContextStateUpdateArray` | Ja | En array med resurser och deras nya publiceringstillstånd. |
+| companyHandle | `xsd:string` | Ja | Handla till företaget. |
+| assetsContextHandle | `types:AssetsContextStateUpdateArray` | Ja | En array med resurser och deras nya publiceringstillstånd. |
 
 **Utdata (setAssetsContexStateReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Ja | Antalet resurser har ändrats. |
-| `*`warningCount`*` | `xsd:int` | Ja | Antalet varningar som genereras när åtgärden försökte ändra resurser. |
-| `*`errorCount`*` | `xsd:int` | Ja | Antalet fel som genererades när åtgärden försökte ändra resurser. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nej | Array med fel som genereras av resurser när åtgärden försökte ändra dem. |
+| successCount | `xsd:int` | Ja | Antalet resurser har ändrats. |
+| warningCount | `xsd:int` | Ja | Antalet varningar som genereras när åtgärden försökte ändra resurser. |
+| errorCount | `xsd:int` | Ja | Antalet fel som genererades när åtgärden försökte ändra resurser. |
+| warningDetailArray | `types:AssetOperationFaultArray` | Nej | Array med fel som genereras av resurser när åtgärden försökte ändra dem. |
 
 ## Exempel {#section-283a073f3cb14bcda5abed863c538aa4}
 
-I det här kodexemplet anges publiceringsstatus för en resurs med `NotMarkedForPublish`.
+I det här kodexemplet anges publiceringsstatus för en resurs som använder `NotMarkedForPublish`.
 
 **Begäran**
 

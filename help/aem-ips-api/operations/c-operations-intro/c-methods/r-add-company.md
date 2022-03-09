@@ -5,9 +5,9 @@ title: addCompany
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2f834fe8-a621-4a41-9473-8ef53294b348
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Lägger till ett företag i systemet.
 
 Skickar namnet på det företag som ska läggas till i systemet och skickar om företaget ska förfalla eller inte.
 
-När den här åtgärden anropas får systemet en `*`companyInfo`*`-typ som innehåller en företagsreferens och beskrivande fält. Om det begärda företagsnamnet redan finns i systemet genereras ett `ipsApiFault`.
+När den här åtgärden anropas får systemet en companyInfo-typ som innehåller ett företagshandtag och beskrivande fält. Om det begärda företagsnamnet redan finns i systemet, genereras ett `ipsApiFault`.
 
 ## Auktoriserade användartyper {#section-ae926c7672984be79f6102748accab72}
 

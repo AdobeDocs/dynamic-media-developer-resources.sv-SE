@@ -5,9 +5,9 @@ title: deleteProject
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b42be3ef-c935-4548-8f92-4fc33af321b5
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -33,8 +33,8 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyName`*` | `xsd:string` | Ja | Namnet på det företag som är associerat med projektet. |
-| `*`projectHandle`*` | `xsd:string` | Ja | Referensen till det projekt som ska tas bort. |
+| companyName | `xsd:string` | Ja | Namnet på det företag som är associerat med projektet. |
+| projectHandle | `xsd:string` | Ja | Referensen till det projekt som ska tas bort. |
 
 **Utdata (deleteProjectReturn)**
 

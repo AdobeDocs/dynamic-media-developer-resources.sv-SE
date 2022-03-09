@@ -5,9 +5,9 @@ title: addGroupMembers
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c03525e3-6bc4-4c6a-bb5b-b0cb2e6f6d0d
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,9 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handtaget till företaget. |
-| `*`groupHandle`*` | `xsd:string` | Ja | Grupphandtaget. |
-| `*`userHandleArray`*` | `types:HandleArray` | Ja | En array med referenser till användare som du vill lägga till i en grupp. |
+| companyHandle | `xsd:string` | Ja | Handtaget till företaget. |
+| groupHandle | `xsd:string` | Ja | Grupphandtaget. |
+| userHandleArray | `types:HandleArray` | Ja | En array med referenser till användare som du vill lägga till i en grupp. |
 
 **Utdata (addGroupMembersParam)**
 
@@ -40,7 +40,7 @@ IPS API returnerar inget svar för den här åtgärden.
 
 ## Exempel {#section-8f168b528aef4c4fa8c3d41f7686842f}
 
-I det här exemplet används `*`addGroupMembersParam`*` för att lägga till en användare i ett enskilt företag. IPS API returnerar inget svar för den här åtgärden.
+I det här exemplet används addGroupMembersParam för att lägga till en användare i ett enskilt företag. IPS API returnerar inget svar för den här åtgärden.
 
 **Begäran**
 

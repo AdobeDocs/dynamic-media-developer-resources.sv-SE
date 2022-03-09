@@ -5,9 +5,9 @@ title: getDistinctMetadataValues
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 1987d8b0-64e4-49be-af45-98e4c6542e5f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '65'
 ht-degree: 0%
 
 ---
@@ -34,14 +34,14 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handtaget till företaget som du vill hämta data för. |
-| `*`metadataKey`*` | `xsd:string` | Ja | Metadatanyckel i punktnotation. |
+| companyHandle | `xsd:string` | Ja | Handtaget till företaget som du vill hämta data för. |
+| metadataKey | `xsd:string` | Ja | Metadatanyckel i punktnotation. |
 
 **Utdata (getDistinctMetadataValuesReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`valueArray`*` | `types:ValueArray` | Ja | Värden för det begärda metadatafältet. |
+| valueArray | `types:ValueArray` | Ja | Värden för det begärda metadatafältet. |
 
 ## Exempel {#section-0189fa6fb31646cda5ce1b0bc4fcdf46}
 

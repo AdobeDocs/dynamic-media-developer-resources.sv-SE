@@ -5,9 +5,9 @@ title: TaskItemProgress
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 568a5601-b928-447d-8297-01139f36cf73
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '38'
+source-wordcount: '33'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| `*`itemName`*` | `xsd:string` | Namnet på det objekt som bearbetas. |
-| `*`progress`*` | `xsd:double` | Förlopp slutfört %. |
-| `*`progressMessage`*` | `xsd:string` | Bearbeta meddelande. |
-| `*`lastProgressUpdate`*` | `xsd:dateTime` | Tid för senaste uppdatering. |
+| itemName | `xsd:string` | Namnet på det objekt som bearbetas. |
+| progress | `xsd:double` | Förlopp slutfört %. |
+| progressMessage | `xsd:string` | Bearbeta meddelande. |
+| lastProgressUpdate | `xsd:dateTime` | Tid för senaste uppdatering. |

@@ -5,9 +5,9 @@ title: Mask
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0e18096c-0666-400b-a562-b6d183bd3334
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '70'
 ht-degree: 1%
 
 ---
@@ -22,8 +22,8 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| `*`maskHandle`*` | `xsd:string` | Maskhandtag. |
-| `*`name`*` | `xsd:string` | Masknamn. |
-| `*`maskPath`*` | `xsd:string` | Relativ bana till masken. |
-| `*`maskFile`*` | `xsd:string` | Maskfil. |
-| `*`lastModified`*` | `types:dateTime` | Datum-, tids- och tidszon som masken senast ändrades. |
+| maskHandle | `xsd:string` | Maskhandtag. |
+| name | `xsd:string` | Masknamn. |
+| maskPath | `xsd:string` | Relativ bana till masken. |
+| maskFile | `xsd:string` | Maskfil. |
+| lastModified | `types:dateTime` | Datum-, tids- och tidszon som masken senast ändrades. |

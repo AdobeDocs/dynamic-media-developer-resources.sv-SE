@@ -5,9 +5,9 @@ title: AutoSetCreationOptions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e6e969be-0410-4be7-88d6-491d715fd137
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '64'
 ht-degree: 0%
 
 ---
@@ -22,4 +22,4 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| `*`autoSetsArray`*` | `types:HandleArray` | En matris med [!DNL PropertySet]-handtag som definierar de skript för automatisk set-generering som används vid överföring. |
+| autoSetsArray | `types:HandleArray` | Array med [!DNL PropertySet] -hanterare som definierar skript för automatisk set-generering som används vid överföring. |

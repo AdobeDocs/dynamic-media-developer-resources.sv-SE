@@ -5,9 +5,9 @@ title: submitJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b1dc7a0e-da9a-4086-822b-5274bd62eadf
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3"> Nej </td> 
-   <td colname="col4"> <p>Hantera till användaren som skickade jobbet. </p> <p> <p>Obs! Systemet skickar e-post till användaren som anges av <span class="codeph"> userHandle</span>. Om <span class="codeph"> userHandle</span> inte anges får personen som skickade jobbet e-postmeddelandena. </p> </p> </td> 
+   <td colname="col4"> <p>Hantera till användaren som skickade jobbet. </p> <p> <p>Obs! Systemet skickar e-post till användaren som anges av <span class="codeph"> userHandle</span>. If <span class="codeph"> userHandle</span> anges inte, den person som skickade jobbet får e-postmeddelandena. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> jobName</span> </span> </td> 
@@ -64,19 +64,19 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> locale</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3"> Nej </td> 
-   <td colname="col4"> <p>Språkinställningen som används för jobbloggsinformation och e-postlokalisering. </p> <p>Språk anges som <span class="codeph"> &lt;språkkod&gt;</span> och <span class="codeph"> [&lt;landskod&gt;]</span>, där språkkoden är en gemen, tvåbokstavskod enligt ISO-639, och den valfria landskoden är en versal, tvåbokstavskod enligt ISO-3166. Den nationella strängen för engelska (USA) skulle till exempel vara: en-US. </p> </td> 
+   <td colname="col4"> <p>Språkinställningen som används för jobbloggsinformation och e-postlokalisering. </p> <p>Språk anges som <span class="codeph"> &lt;language_code&gt;</span> och <span class="codeph"> [&lt;country_code&gt;]</span>, där språkkoden är en gemen tvåbokstavskod enligt ISO-639, och den valfria landskoden är en gemen tvåbokstavskod enligt ISO-3166. Den nationella strängen för engelska (USA) skulle till exempel vara: en-US. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> execTime</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
    <td colname="col3"> Nej </td> 
-   <td colname="col4"> <p>Datum och tid då jobbet ska köras. </p> <p>Obs!  Ange tidszonen med begäran. Tidszoner justeras till tidzonen för mål-IPS-servern. </p> </td> 
+   <td colname="col4"> <p>Datum och tid då jobbet ska köras. </p> <p>Obs! Ange tidszonen med begäran. Tidszoner justeras till tidzonen för mål-IPS-servern. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> execSchedule</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3"> Nej </td> 
-   <td colname="col4"> <p>Anger när jobbet ska köras. </p> <p> Kan vara en <span class="codeph"> cron</span>-sträng som kör jobbet med återkommande intervall. </p> <p>Schemat är alltid relativt serverns lokala tidszon. I IPS-dokumentationen finns information om det anpassade schemaformatet. </p> </td> 
+   <td colname="col4"> <p>Anger när jobbet ska köras. </p> <p> Kan vara en <span class="codeph"> cron</span> sträng som kör jobbet med återkommande intervall. </p> <p>Schemat är alltid relativt serverns lokala tidszon. I IPS-dokumentationen finns information om det anpassade schemaformatet. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> description</span> </span> </td> 
@@ -157,11 +157,11 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`jobHandle`*` | `xsd:string` | Ja | Jobbreferens. |
+| jobHandle | `xsd:string` | Ja | Jobbreferens. |
 
 ## Exempel {#section-40ac77d14adf4588ba2575be6879b2d2}
 
-Det här kodexemplet skickar en bild som visar publiceringsjobb till IPS och returnerar en jobbreferens. Välj bara en typ av jobb i förfrågan. Eftersom `userHandle` utelämnades skickas e-postmeddelanden till användaren som skickade jobbet. Det här exempeljobbet körs omedelbart eftersom `execTime` och `execSchedule` utelämnades.
+Det här kodexemplet skickar en bild som visar publiceringsjobb till IPS och returnerar en jobbreferens. Välj bara en typ av jobb i förfrågan. För `userHandle` utelämnades skickas e-postmeddelanden till användaren som skickade jobbet. Detta exempeljobb körs omedelbart eftersom `execTime` och `execSchedule` utelämnades.
 
 **Begäran**
 

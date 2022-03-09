@@ -5,9 +5,9 @@ title: batchSetIccProfileFields
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d10a30ca-afa7-4ef0-8cef-0329b0068bf3
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -33,18 +33,18 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Hantera till företaget som innehåller ICC-profilerna. |
-| `*`uppdateringsmatris`*` | `xsd:string` | Ja | Matris med ICC-profiluppdateringar. |
+| companyHandle | `xsd:string` | Ja | Hantera till företaget som innehåller ICC-profilerna. |
+| uppdateringsmatris | `xsd:string` | Ja | Matris med ICC-profiluppdateringar. |
 
 **Utdata (batchSetIccProfileFields)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Ja | Antalet ICC-profilfält som har angetts. |
-| `*`warningCount`*` | `xsd:int` | Ja | Antalet varningar som genererades när åtgärden försökte ange ICC-profilfälten. |
-| `*`errorCount`*` | `xsd:int` | Ja | Antalet fel som genererades när åtgärden försökte ange ICC-profilfält. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nej | Arrayen med information som är associerad med resurserna som genererade varningar när åtgärden försökte tillämpa uppdateringarna. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nej | Arrayen med information som är associerad med resurserna som genererade fel när åtgärden försökte tillämpa uppdateringarna. |
+| successCount | `xsd:int` | Ja | Antalet ICC-profilfält som har angetts. |
+| warningCount | `xsd:int` | Ja | Antalet varningar som genererades när åtgärden försökte ange ICC-profilfälten. |
+| errorCount | `xsd:int` | Ja | Antalet fel som genererades när åtgärden försökte ange ICC-profilfält. |
+| warningDetailArray | `types:AssetOperationFaultArray` | Nej | Arrayen med information som är associerad med resurserna som genererade varningar när åtgärden försökte tillämpa uppdateringarna. |
+| errorDetailArray | `types:AssetOperationFaultArray` | Nej | Arrayen med information som är associerad med resurserna som genererade fel när åtgärden försökte tillämpa uppdateringarna. |
 
 ## Exempel {#section-5dc90cfbd9b1411485b44859032f7cb9}
 

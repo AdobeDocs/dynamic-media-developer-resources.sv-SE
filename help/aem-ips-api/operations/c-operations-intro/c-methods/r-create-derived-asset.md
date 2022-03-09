@@ -5,7 +5,7 @@ title: createDerivedAsset
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: a3b20a8a-ed0d-40be-9a8c-41ba09b1d724
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
@@ -39,19 +39,19 @@ Till skillnad från en bildkopia (se [copyImage](../../../operations/c-operation
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handtaget till det företag som innehåller den tillgång som du kommer att hämta den nya tillgången från. |
-| `*`ownerHandle`*` | `xsd:string` | Ja | Handtaget till den primära bildresurs som den nya bilden kommer från. |
-| `*`folderHandle`*` | `xsd:string` | Ja | Referensen till mappen där den nya härledda resursen skapas. |
-| `*`name`*` | `xsd:string` | Ja | Namnet på den härledda tillgången. |
-| `*`type`*` | `xsd:string` | Ja | Tillgångstypen för den nya härledda tillgången: `AdjustedView` eller `LayerView`. |
-| `*`urlModifier`*` | `xsd:string` | Nej | Kommandon för bildvisning eller bildåtergivning används *före* begäran eller `urlPostApplyModifier` kommandon. |
-| `*`urlPostApplyModifier`*` | `xsd:string` | Nej | Kommandon för bildvisning eller bildåtergivning används *efter* på begäran eller `urlPostApplyModifier` kommandon. |
+| companyHandle | `xsd:string` | Ja | Handtaget till det företag som innehåller den tillgång som du kommer att hämta den nya tillgången från. |
+| ownerHandle | `xsd:string` | Ja | Handtaget till den primära bildresurs som den nya bilden kommer från. |
+| folderHandle | `xsd:string` | Ja | Referensen till mappen där den nya härledda resursen skapas. |
+| name | `xsd:string` | Ja | Namnet på den härledda tillgången. |
+| type | `xsd:string` | Ja | Tillgångstypen för den nya härledda tillgången: `AdjustedView` eller `LayerView`. |
+| urlModifier | `xsd:string` | Nej | Kommandon för bildvisning eller bildåtergivning används *före* begäran eller `urlPostApplyModifier` kommandon. |
+| urlPostApplyModifier | `xsd:string` | Nej | Kommandon för bildvisning eller bildåtergivning används *efter* på begäran eller `urlPostApplyModifier` kommandon. |
 
 **Utdata (createDerivedAssetParam)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Ja | Referensen till den härledda tillgången. |
+| assetHandle | `xsd:string` | Ja | Referensen till den härledda tillgången. |
 
 ## Exempel {#section-5d5ea893a1ef4edc8b3a396f1936e8c9}
 

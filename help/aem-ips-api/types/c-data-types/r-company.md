@@ -5,10 +5,10 @@ title: Företag
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e831a081-145a-4fb4-a617-7eecea8d40ed
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 2%
+source-wordcount: '32'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Företagshandtag. |
-| `*`name`*` | `xsd:string` | Företagsnamn. |
-| `*`rootPath`*` | `xsd:string` | Företagets rotsökväg. |
-| `*`förfaller`*` | `xsd:dateTime` | Datum och tid då företaget förfaller. |
+| companyHandle | `xsd:string` | Företagshandtag. |
+| name | `xsd:string` | Företagsnamn. |
+| rootPath | `xsd:string` | Företagets rotsökväg. |
+| förfaller | `xsd:dateTime` | Datum och tid då företaget förfaller. |

@@ -5,9 +5,9 @@ title: addCompanyMembership
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6efef4fb-f2e5-4c41-b739-a36ac2f17884
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,8 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | Nej | Referensen till den användare vars medlemskap du vill lägga till. |
-| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Ja | En array med företag som du lägger till användaren i. |
+| userHandle | `xsd:string` | Nej | Referensen till den användare vars medlemskap du vill lägga till. |
+| membershipArray | `types:CompanyMembershipUpdateArray` | Ja | En array med företag som du lägger till användaren i. |
 
 **Utdata (addCompanyMembershipReturn)**
 
@@ -40,7 +40,7 @@ IPS API returnerar inget svar för den här åtgärden.
 
 ## Exempel {#section-5469f88bac7047cca131faa6b021e437}
 
-I det här exemplet används `*`companyHandleArray`*` för att lägga till en användare i ett enskilt företag.
+I det här exemplet används companyHandleArray för att lägga till en användare i ett enskilt företag.
 
 **Begäran**
 

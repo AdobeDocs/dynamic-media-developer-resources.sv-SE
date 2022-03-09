@@ -5,9 +5,9 @@ title: getDiskUsage
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 06fdd9f5-5021-4f0b-b312-4465df9bda25
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
@@ -29,13 +29,13 @@ Returnerar information om ett företags struktur (antal filer osv.).
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Referensen till det företag vars diskanvändning du vill erhålla. |
+| companyHandle | `xsd:string` | Ja | Referensen till det företag vars diskanvändning du vill erhålla. |
 
 **Utdata (getDiskUsageReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`discUsageArray`*` | `types:DiskUsageArray` | Ja | Matris med företagsdiskanvändning. |
+| discUsageArray | `types:DiskUsageArray` | Ja | Matris med företagsdiskanvändning. |
 
 ## Exempel {#section-cb16a97badc94076ad5da277db5ed16a}
 

@@ -5,9 +5,9 @@ title: TemplateInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 90d7f116-936d-4e04-b54f-ec9ba37d5477
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '43'
+source-wordcount: '38'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,6 @@ Mallar är parametriserade lagerdefinitioner som skapar en bild med lager.
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| `*`url`*` | `xsd:string` | URL för bildserver som representerar mallen. |
-| `*`urlModifier`*` | `xsd:string` |  |
-| `*`urlPostApplyModifier`*` | `xsd:string` |  |
+| url | `xsd:string` | URL för bildserver som representerar mallen. |
+| urlModifier | `xsd:string` |  |
+| urlPostApplyModifier | `xsd:string` |  |

@@ -5,9 +5,9 @@ title: createTemplate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 228b4228-8c42-4e42-9fb1-d6aea61b9c4a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Skapar en bild med flera lager som kan ha flera text- och bildlager.
 
-Parametern `urlModifier` anger de Image Server-protokollkommandon som lagras i Image Server-katalogen som används före eventuella kommandon som användaren anger på URL:en. Parametern `urlPostApplyModifier` anger protokollkommandon som används efter URL-kommandon, som åsidosätter eventuella inställningar som användaren anger.
+The `urlModifier` parametern anger de Image Server-protokollkommandon som lagras i Image Server-katalogen som används före eventuella användardefinierade kommandon på URL:en. The `urlPostApplyModifier` -parametern anger protokollkommandon som används efter URL-kommandon, vilket åsidosätter eventuella inställningar som användaren anger.
 
 ## Auktoriserade användartyper {#section-9fb615d8e75f452eab2893cc3decfbe6}
 
@@ -32,22 +32,22 @@ Parametern `urlModifier` anger de Image Server-protokollkommandon som lagras i I
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Företaget som mallen tillhör. |
-| `*`folderHandle`*` | `xsd:string` | Ja | Mappreferensen som representerar mappen där mallen finns. |
-| `*`name`*` | `xsd:string` | Ja | Mallnamn. |
-| `*`type`*` | `xsd:string` | Ja | Malltyp. |
-| `*`urlModifier`*` | `xsd:string` | Ja | Anger de Image Server-kommandon som lagras i IS-katalogen och som används före användarkommandon på URL:en. |
-| `*`urlPostApplyModifier`*` | `xsd:string` | Nej | Anger protokollkommandon som används efter URL-kommandon, som åsidosätter eventuella inställningar som användaren anger. |
+| companyHandle | `xsd:string` | Ja | Företaget som mallen tillhör. |
+| folderHandle | `xsd:string` | Ja | Mappreferensen som representerar mappen där mallen finns. |
+| name | `xsd:string` | Ja | Mallnamn. |
+| type | `xsd:string` | Ja | Malltyp. |
+| urlModifier | `xsd:string` | Ja | Anger de Image Server-kommandon som lagras i IS-katalogen och som används före användarkommandon på URL:en. |
+| urlPostApplyModifier | `xsd:string` | Nej | Anger protokollkommandon som används efter URL-kommandon, som åsidosätter eventuella inställningar som användaren anger. |
 
 **Utdata (createTemplateParam)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Ja | Referensen till mallen. |
+| assetHandle | `xsd:string` | Ja | Referensen till mallen. |
 
 ## Exempel {#section-09adb4d2f0c944af875c4463a461f55d}
 
-I det här kodexemplet skapas en mall i en mapp som anges av en referens, med namnet `APIcreateTemplate`, `urlModifier` och `urlPostApplyModifier`. Svaret returnerar referensen till den nya mallen.
+I det här kodexemplet skapas en mall i en mapp som anges av ett handtag med namnet `APIcreateTemplate`, a `urlModifier`och en `urlPostApplyModifier`. Svaret returnerar referensen till den nya mallen.
 
 **Begäran**
 

@@ -5,9 +5,9 @@ title: stopJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 90e61cf1-11f1-4504-8007-126ba4fe436a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '54'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,8 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Företagshandtag. |
-| `*`jobHandle`*` | `xsd:string` | Ja | Hantera jobbet som du vill stoppa. |
+| companyHandle | `xsd:string` | Ja | Företagshandtag. |
+| jobHandle | `xsd:string` | Ja | Hantera jobbet som du vill stoppa. |
 
 **Utdata (stopJobReturn0**
 

@@ -5,9 +5,9 @@ title: getCompanySettings
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b9f41405-8a45-416c-acec-ef22c2ee119e
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '64'
 ht-degree: 0%
 
 ---
@@ -31,13 +31,13 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Referensen till det företag vars inställningar du vill hämta. |
+| companyHandle | `xsd:string` | Ja | Referensen till det företag vars inställningar du vill hämta. |
 
 **Utdata (getCompanySettingsReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`inställningar`*` | `types:CompanySettings` | Ja | Företagsinställningar. |
+| inställningar | `types:CompanySettings` | Ja | Företagsinställningar. |
 
 ## Exempel {#section-191f78995ecf473a95eadf7296204fd7}
 

@@ -5,9 +5,9 @@ title: setGroupMembership
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0a355a34-1c2d-48c1-ba12-7d07d1673d09
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '96'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,9 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | Nej | Referensen till användaren vars gruppmedlemskap du vill ange. |
-| `*`companyHandle`*` | `xsd:string` | Nej | Företagshandtag. |
-| `*`groupHandleArray`*` | `types:HandleArray` | Ja | Arrayen med referenser till grupper som användaren tillhör. |
+| userHandle | `xsd:string` | Nej | Referensen till användaren vars gruppmedlemskap du vill ange. |
+| companyHandle | `xsd:string` | Nej | Företagshandtag. |
+| groupHandleArray | `types:HandleArray` | Ja | Arrayen med referenser till grupper som användaren tillhör. |
 
 **Utdata (setGroupMembershipReturn)**
 

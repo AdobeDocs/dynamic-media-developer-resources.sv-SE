@@ -5,9 +5,9 @@ title: ImageFormat
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 570ada53-17d0-4c8a-8843-ace29de92bf3
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: '41'
 ht-degree: 2%
 
 ---
@@ -22,6 +22,6 @@ Inte en resurstyp.
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| `*`imageFormatHandle`*` | `xsd:string` | Bildformatshandtag. |
-| `*`name`*` | `xsd:string` | Bildformatsnamn. |
-| `*`urlModifier`*` | `xsd:string` | URL för bildserver som representerar bildformatet. |
+| imageFormatHandle | `xsd:string` | Bildformatshandtag. |
+| name | `xsd:string` | Bildformatsnamn. |
+| urlModifier | `xsd:string` | URL för bildserver som representerar bildformatet. |

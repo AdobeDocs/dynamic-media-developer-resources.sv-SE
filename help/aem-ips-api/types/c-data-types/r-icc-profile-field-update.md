@@ -5,9 +5,9 @@ title: IccProfileFieldUpdate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b988a430-8ed6-456b-b37b-b4185c5d3b32
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '54'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Hantering av ICC-profilresursen som ska uppdateras. |
-| `*`class`*` | `xsd:string` | Profilklasser (se&quot;Profilklasser&quot; för värden). |
-| `*`colorSpace`*` | `xsd:string` | Profilfärgrymd (se &quot;Färgrymder&quot; för värden). |
-| `*`pcsType`*` | `xsd:string` | Profilanslutningsrymd (se &quot;Färgrymder&quot; för värden). |
+| assetHandle | `xsd:string` | Hantering av ICC-profilresursen som ska uppdateras. |
+| class | `xsd:string` | Profilklasser (se&quot;Profilklasser&quot; för värden). |
+| colorSpace | `xsd:string` | Profilfärgrymd (se &quot;Färgrymder&quot; för värden). |
+| pcsType | `xsd:string` | Profilanslutningsrymd (se &quot;Färgrymder&quot; för värden). |

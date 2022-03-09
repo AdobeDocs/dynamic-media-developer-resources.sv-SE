@@ -2,12 +2,12 @@
 description: Hämtar tillgångarna och antalet tillgångar som är associerade med ett visst företag.
 solution: Experience Manager
 title: getAssetCount
-feature: Dynamic Media Classic,SDK/API,Resurshantering
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 21cb8023-d6fe-416a-b16f-636df8a37958
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Hämtar tillgångarna och antalet tillgångar som är associerade med ett visst företag.
 
-Det `countArray` som returneras består av en matris med `assetTypes` (datatypen `xsd:string`), där vart och ett har ett eget räkningsfält (datatypen `xsd:int`), som tillåter representationen av flera resurstyper per element i matrisen.
+The `countArray` returnerade består av en array med `assetTypes` (datatyp `xsd:string`), vart och ett med sitt eget räkningsfält (datatyp `xsd:int`), som tillåter representationen av flera resurstyper per element i arrayen.
 Syntax
 
 ## Auktoriserade användartyper {#section-6234754722184e828352f10eb18fbce9}
@@ -37,17 +37,17 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handtaget till företaget med resurser som du vill räkna. |
+| companyHandle | `xsd:string` | Ja | Handtaget till företaget med resurser som du vill räkna. |
 
 **Utdata (getAssetCountReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`countArray`*` | `types:AssetCountArray` | Nej | En array med resurstyper, var och en med ett eget räkningsfält, som tillåter representationen av flera resurstyper per element i arrayen. |
+| countArray | `types:AssetCountArray` | Nej | En array med resurstyper, var och en med ett eget räkningsfält, som tillåter representationen av flera resurstyper per element i arrayen. |
 
 ## Exempel {#section-6052a503eb3843f6adb99e200fdba280}
 
-I det här kodexemplet används företagets referens som ett fält i `getAssetCountsParam` som skickas till IPS Web services-servern för att få fram antalet mediefiler.
+I det här kodexemplet används företagets referens som ett fält i `getAssetCountsParam` skickas till IPS-webbtjänstservern för att få tillgång till antalet resurser.
 
 **Begäran**
 

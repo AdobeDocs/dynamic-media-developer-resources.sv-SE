@@ -5,9 +5,9 @@ title: getOriginalFilePaths
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 81d06a8c-55c1-47d5-adc9-928ab30199c6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
@@ -38,14 +38,14 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handtaget till företaget. |
-| `*`assetHandleArray`*` | `types:HandleArray` | Ja | En array med handtag till resurser vars ursprungliga filsökväg du vill hämta. |
+| companyHandle | `xsd:string` | Ja | Handtaget till företaget. |
+| assetHandleArray | `types:HandleArray` | Ja | En array med handtag till resurser vars ursprungliga filsökväg du vill hämta. |
 
 **Utdata (getOriginalFilePathsReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`originalFileArray`*` | `types:StringArray` | Ja | Arrayen med strängar som representerar de ursprungliga filsökvägarna. |
+| originalFileArray | `types:StringArray` | Ja | Arrayen med strängar som representerar de ursprungliga filsökvägarna. |
 
 ## Exempel {#section-a966e783a2ba49f5b6b0f961329ab2f8}
 

@@ -2,12 +2,12 @@
 description: Lägger till en eller flera resurser i ett projekt.
 solution: Experience Manager
 title: addProjectAssets
-feature: Dynamic Media Classic,SDK/API,Resurshantering
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 60aa2846-b41e-4131-b465-82aa832434f7
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
@@ -33,19 +33,19 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Hantera till det företag som är associerat med det aktuella projektet. |
-| `*`projectHandle`*` | `xsd:string` | Ja | Hantera det projekt du lägger till resurser i. |
-| `*`projectHandleArray`*` | `xsd:HandleArray` | Ja | Array med resurser som du lägger till i det aktuella projektet. |
+| companyHandle | `xsd:string` | Ja | Hantera till det företag som är associerat med det aktuella projektet. |
+| projectHandle | `xsd:string` | Ja | Hantera det projekt du lägger till resurser i. |
+| projectHandleArray | `xsd:HandleArray` | Ja | Array med resurser som du lägger till i det aktuella projektet. |
 
 **Utdata (addProjectAssetsParam)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Ja | Antalet resurser som lagts till. |
-| `*`warningCount`*` | `xsd:int` | Ja | Antalet varningar som genereras när åtgärden försökte lägga till resurser i ett projekt. |
-| `*`errorCount`*` | `xsd:int` | Ja | Antalet fel som genererades när åtgärden försökte lägga till resurser i ett projekt. |
-| `*`warningDetailHandle`*` | `xsd:AssetOperationFaultArray` | Nej | Array med varningar som genereras av resurser när åtgärden försökte lägga till dem i ett projekt. |
-| `*`companyHandle`*` | `xsd:AssetOperationFaultArray` | Nej | Array med fel som genereras av resurser när åtgärden försökte lägga till dem i ett projekt. |
+| successCount | `xsd:int` | Ja | Antalet resurser som lagts till. |
+| warningCount | `xsd:int` | Ja | Antalet varningar som genereras när åtgärden försökte lägga till resurser i ett projekt. |
+| errorCount | `xsd:int` | Ja | Antalet fel som genererades när åtgärden försökte lägga till resurser i ett projekt. |
+| warningDetailHandle | `xsd:AssetOperationFaultArray` | Nej | Array med varningar som genereras av resurser när åtgärden försökte lägga till dem i ett projekt. |
+| companyHandle | `xsd:AssetOperationFaultArray` | Nej | Array med fel som genereras av resurser när åtgärden försökte lägga till dem i ett projekt. |
 
 ## Exempel {#section-bee5be2402f54cb9a3a02cc07def4135}
 

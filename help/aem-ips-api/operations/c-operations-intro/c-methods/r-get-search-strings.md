@@ -5,9 +5,9 @@ title: getSearchStrings
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e94215b8-1121-4be6-a8a9-e9444c57495d
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
@@ -31,14 +31,14 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handla till företaget. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Hantera tillgången. |
+| companyHandle | `xsd:string` | Ja | Handla till företaget. |
+| assetHandle | `xsd:string` | Ja | Hantera tillgången. |
 
 **Utdata (getSearchStringsReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`searchStringArray`*` | `types:SearchStrings` | Ja | En array med resurssökningssträngar. |
+| searchStringArray | `types:SearchStrings` | Ja | En array med resurssökningssträngar. |
 
 ## Exempel {#section-e1f73bff6e4440c489d59cb9aa5384d8}
 

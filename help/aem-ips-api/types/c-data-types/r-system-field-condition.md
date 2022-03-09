@@ -5,9 +5,9 @@ title: SystemFieldCondition
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ebd12727-dbb3-40dc-b631-945415331be6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -16,25 +16,25 @@ ht-degree: 0%
 
 Ett sökvillkor för systemfält för åtgärden searchAssets.
 
-För unära jämförelser skickar du exakt ett värde ( `boolVal`, `longVal`, `doubleVal` eller `dateVal`) beroende på systemfältstypen. För sökintervall skickar du parametrarna `min<Type>` och `max<Type>` och skickar `op` värdet `Between` eller `NotBetween`.
+För unära jämförelser skickar du exakt ett värde ( `boolVal`, `longVal`, `doubleVal`, eller `dateVal`) beroende på systemfältstypen. Skicka för sökintervall `min<Type>` och `max<Type>` parametrar och skicka `op` värde för `Between` eller `NotBetween`.
 
 ## Parametrar {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| `*`fält`*` | `xsd:string` | Val av systemfält för resurssökning. |
-| `*`op`*` | `xsd:string` | Välj mellan operatorer för strängjämförelse. |
-| `*`value`*` | `xsd:string` | Värde att testa mot. |
-| `*`boolVal`*` | `xsd:boolean` | Booleskt jämförelsevärde. |
-| `*`longVal`*` | `xsd:long` | Långt jämförelsevärde. |
-| `*`minLong`*` | `xsd:long` | Nedre gräns för långt intervall. |
-| `*`maxLong`*` | `xsd:long` | Övre gräns för långt intervall. |
-| `*`doubleVal`*` | `xsd:double` | Dubbelt jämförelsevärde. |
-| `*`minDouble`*` | `xsd:double` | Nedre gräns för dubbelintervall. |
-| `*`maxDouble`*` | `xsd:double` | Övre gräns för dubbelintervall. |
-| `*`dateVal`*` | `xsd:dateTime` | Datumjämförelsevärde. |
-| `*`minDate`*` | `xsd:dateTime` | Minsta datumintervall. |
-| `*`maxDate`*` | `xsd:dateTime` | Högsta datumintervall. |
+| fält | `xsd:string` | Val av systemfält för resurssökning. |
+| op | `xsd:string` | Välj mellan operatorer för strängjämförelse. |
+| value | `xsd:string` | Värde att testa mot. |
+| boolVal | `xsd:boolean` | Booleskt jämförelsevärde. |
+| longVal | `xsd:long` | Långt jämförelsevärde. |
+| minLong | `xsd:long` | Nedre gräns för långt intervall. |
+| maxLong | `xsd:long` | Övre gräns för långt intervall. |
+| doubleVal | `xsd:double` | Dubbelt jämförelsevärde. |
+| minDouble | `xsd:double` | Nedre gräns för dubbelintervall. |
+| maxDouble | `xsd:double` | Övre gräns för dubbelintervall. |
+| dateVal | `xsd:dateTime` | Datumjämförelsevärde. |
+| minDate | `xsd:dateTime` | Minsta datumintervall. |
+| maxDate | `xsd:dateTime` | Högsta datumintervall. |
 
 ## Exempel {#section-347d4aabfff44530adba03d1dc0b9968}
 

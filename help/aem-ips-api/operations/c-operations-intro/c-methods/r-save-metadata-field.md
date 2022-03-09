@@ -5,9 +5,9 @@ title: saveMetadataField
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 56a45324-5027-4375-a790-c965f682e4b9
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '217'
 ht-degree: 0%
 
 ---
@@ -96,11 +96,11 @@ Skapa eller redigera ett metadatafält. Utelämna den valfria fältreferensen f�
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`fieldHandle`*` | `xsd:string` | Ja | Hantera det nya metadatafältet. |
+| fieldHandle | `xsd:string` | Ja | Hantera det nya metadatafältet. |
 
 ## Exempel {#section-4441c26d1f41466ba972b43dd5189e89}
 
-I det här kodexemplet skapas ett nytt metadatafält som begränsas av strängkonstanterna Resurstyp och Metadatafälttyper. Om `fieldHandle`-elementet har ett giltigt fältreferensvärde, ändras metadatavärdena och samma fältreferens som du angav i begäran hämtas.
+I det här kodexemplet skapas ett nytt metadatafält som begränsas av strängkonstanterna Resurstyp och Metadatafälttyper. Om `fieldHandle` -elementet har ett giltigt fältreferensvärde, ändrar metadatavärdena och får samma fältreferens som du angav i begäran.
 
 **Begäran**
 

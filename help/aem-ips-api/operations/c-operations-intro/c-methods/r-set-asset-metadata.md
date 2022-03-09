@@ -2,12 +2,12 @@
 description: Anger metadatavärden för en resurs. Fungerar med en array med metadatauppdateringar för att ange värden i en batch.
 solution: Experience Manager
 title: setAssetMetadata
-feature: Dynamic Media Classic,SDK/API,Metadata,Resurshantering
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: 811e44e1-774a-49bd-a2bd-a7504e5f7f5f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
@@ -37,9 +37,9 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Referensen till företaget med den tillgång som du vill uppdatera. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Referensen till resursen. |
-| `*`updateArray`*` | `types:MetadataUpdateArray` | Ja | Uppdateringar i en metadatauppdateringsmatris. |
+| companyHandle | `xsd:string` | Ja | Referensen till företaget med den tillgång som du vill uppdatera. |
+| assetHandle | `xsd:string` | Ja | Referensen till resursen. |
+| updateArray | `types:MetadataUpdateArray` | Ja | Uppdateringar i en metadatauppdateringsmatris. |
 
 **Utdata (setAssetMetadataReturn)**
 

@@ -2,12 +2,12 @@
 description: Uppdaterar en resursuppsättning.
 solution: Experience Manager
 title: updateAssetSet
-feature: Dynamic Media Classic,SDK/API,Resurshantering
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: af7899c4-a95f-42c8-858e-ed1592c6f5b6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
@@ -24,10 +24,10 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handtaget till företaget som innehåller den bilduppsättning som du vill ändra. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Handtaget till den bilduppsättning som du vill ändra. |
-| `*`setDefinition`*` | `xsd:string` | Nej | Återställer bilduppsättningsmedlemmar. |
-| `*`thumbAssetHandle`*` | `xsd:string` | Nej | Handtaget för resursen som fungerar som miniatyrbild för bilduppsättningen. |
+| companyHandle | `xsd:string` | Ja | Handtaget till företaget som innehåller den bilduppsättning som du vill ändra. |
+| assetHandle | `xsd:string` | Ja | Handtaget till den bilduppsättning som du vill ändra. |
+| setDefinition | `xsd:string` | Nej | Återställer bilduppsättningsmedlemmar. |
+| thumbAssetHandle | `xsd:string` | Nej | Handtaget för resursen som fungerar som miniatyrbild för bilduppsättningen. |
 
 **Utdata (updateAssetSetReturn)**
 

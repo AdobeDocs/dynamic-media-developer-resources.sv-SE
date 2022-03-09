@@ -2,12 +2,12 @@
 description: Uppdaterar en bilduppsättning.
 solution: Experience Manager
 title: updateImageSet
-feature: Dynamic Media Classic,SDK/API,Bilduppsättningar
+feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: d8d5fb80-17f1-424f-8a61-27189f87d603
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
@@ -24,16 +24,16 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handtaget till företaget som innehåller den bilduppsättning som du vill ändra. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Handtaget till den bilduppsättning som du vill ändra. |
-| `*`memberArray`*` | `types:ImageSetMemberUpdateArray` | Nej | Återställer bilduppsättningsmedlemmar. |
-| `*`thumbAssetHandle`*` | `xsd:string` | Nej | Handtaget för resursen som fungerar som miniatyrbild för bilduppsättningen. |
+| companyHandle | `xsd:string` | Ja | Handtaget till företaget som innehåller den bilduppsättning som du vill ändra. |
+| assetHandle | `xsd:string` | Ja | Handtaget till den bilduppsättning som du vill ändra. |
+| memberArray | `types:ImageSetMemberUpdateArray` | Nej | Återställer bilduppsättningsmedlemmar. |
+| thumbAssetHandle | `xsd:string` | Nej | Handtaget för resursen som fungerar som miniatyrbild för bilduppsättningen. |
 
 **Utdata (updateImageSetReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`sekvens`*` |  |  |  |
+| sekvens |  |  |  |
 
 ## Exempel {#section-ce47a4b6e062423fa55ed3a0fd26d7ff}
 

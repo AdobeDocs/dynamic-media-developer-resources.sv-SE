@@ -2,12 +2,12 @@
 description: Returnerar publiceringshistoriken för en resurs.
 solution: Experience Manager
 title: getAssetPublishHistory
-feature: Dynamic Media Classic,SDK/API,Resurshantering
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: f337e7f9-1af6-4164-b9bd-e697548e2850
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
@@ -36,14 +36,14 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Referensen till företaget med resursens publiceringshistorik. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Resursen med den publiceringshistorik som du vill granska. |
+| companyHandle | `xsd:string` | Ja | Referensen till företaget med resursens publiceringshistorik. |
+| assetHandle | `xsd:string` | Ja | Resursen med den publiceringshistorik som du vill granska. |
 
 **Utdata (getAssetPublishHistoryReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`pubHistoryArray`*` | `types:PublishHistoryArray` | Ja | Resursens publiceringshistorik. |
+| pubHistoryArray | `types:PublishHistoryArray` | Ja | Resursens publiceringshistorik. |
 
 ## Exempel {#section-53897c51e5a047c5bd5ea5a6efb2d114}
 

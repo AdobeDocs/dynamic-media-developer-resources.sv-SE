@@ -2,12 +2,12 @@
 description: Uppdaterar uppsättningsdefinitionen för en befintlig resursuppsättning.
 solution: Experience Manager
 title: setAssetSetDefinition
-feature: Dynamic Media Classic,SDK/API,Resurshantering
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: f3fbe13b-e650-4a5d-9c46-a492b11fa13e
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,9 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handtaget till företaget med tillgångsuppsättningen. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Resurshandtag |
-| `*`setDefinition`*` | `xsd:string` | Ja | Definitionssträng. Se nedan. |
+| companyHandle | `xsd:string` | Ja | Handtaget till företaget med tillgångsuppsättningen. |
+| assetHandle | `xsd:string` | Ja | Resurshandtag |
+| setDefinition | `xsd:string` | Ja | Definitionssträng. Se nedan. |
 
 **Utdata (setAssetSetDefinitionReturn)**
 
@@ -45,11 +45,11 @@ IPS API returnerar inget svar för den här åtgärden.
 
 **setDefinition-funktioner**
 
-Ange `setDefinition` ersättningsfunktioner i rad. De löses under en katalogsökning eller vid publicering. Ersättningssträngar har formatet `${<substitution_func>}` och inkluderar följande:
+Ange `setDefinition` textbundna ersättningsfunktioner. De löses under en katalogsökning eller vid publicering. Ersättningssträngar har formatet `${<substitution_func>}`och innehåller följande:
 
 >[!NOTE]
 >
->Referenshandböcker i parameterlistorna måste omges av hakparenteser `([])`. Texten utanför en ersättningssträng kopieras till utdatasträngen under upplösningen.
+>Handlitteraler i parameterlistorna måste omges av hakparenteser `([])`. Texten utanför en ersättningssträng kopieras till utdatasträngen under upplösningen.
 
 <table id="table_A93D2C273B694C289208AA926B2597CD"> 
  <thead> 
@@ -60,19 +60,19 @@ Ange `setDefinition` ersättningsfunktioner i rad. De löses under en katalogsö
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getFilePath([  <span class="varname"> asset_handle  </span>])  </span> </td> 
+   <td colname="col1"> <span class="codeph"> getFilePath([ <span class="varname"> asset_handle </span>]) </span> </td> 
    <td colname="col2"> Primär filsökväg. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getCatalog([  <span class="varname"> asset_handle  </span>])  </span> </td> 
+   <td colname="col1"> <span class="codeph"> getCatalogd([ <span class="varname"> asset_handle </span>]) </span> </td> 
    <td colname="col2"> Katalog-ID. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getMetaData([  <span class="varname"> asset_handle  </span>],[  <span class="varname"> metadata_field_handle  </span>])  </span> </td> 
+   <td colname="col1"> <span class="codeph"> getMetaData([ <span class="varname"> asset_handle </span>],[ <span class="varname"> metadata_field_handle </span>]) </span> </td> 
    <td colname="col2"> Metadatavärde. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getThumbCatalogId([  <span class="varname"> asset_handle  </span>])  </span> </td> 
+   <td colname="col1"> <span class="codeph"> getThumbCatalogId([ <span class="varname"> asset_handle </span>]) </span> </td> 
    <td colname="col2"> Katalog-ID. Gäller för bildbaserade resurser (Bild, Justerad vy, Lagervy). <p>För andra resurser returneras miniatyrresursens katalog-ID (om det finns något). Om ingen tumresurs är associerad med resursen returnerar funktionen en tom sträng. </p> </td> 
   </tr> 
  </tbody> 

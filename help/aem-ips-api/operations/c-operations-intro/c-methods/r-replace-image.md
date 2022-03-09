@@ -2,12 +2,12 @@
 description: Ersätter bilddata för en bildresurs.
 solution: Experience Manager
 title: replaceImage
-feature: Dynamic Media Classic,SDK/API,Resurshantering
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: bf8c1f5c-7829-4750-b5b7-b8b20d115d17
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
@@ -33,19 +33,19 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyName`*` | `xsd:string` | Ja | Handtaget till företaget med den bild som du vill ersätta. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Referensen till resursen som du vill ersätta. |
-| `*`urlModifier`*` | `xsd:string` | Ja | Image Server-kommandon som genererar nya bilddata. |
+| companyName | `xsd:string` | Ja | Handtaget till företaget med den bild som du vill ersätta. |
+| assetHandle | `xsd:string` | Ja | Referensen till resursen som du vill ersätta. |
+| urlModifier | `xsd:string` | Ja | Image Server-kommandon som genererar nya bilddata. |
 
 **Utdata (replaceImageReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Ja | Hantera den nya resursen. |
+| assetHandle | `xsd:string` | Ja | Hantera den nya resursen. |
 
 ## Exempel {#section-cebb93576bde4cb98cb27356ca66783b}
 
-Det här kodexemplet ersätter en bild och tillämpar ett `urlModifier`-värde med ett kommando som anger att bildservern inte kommer att vidta någon åtgärd vid ersättning.
+Det här kodexemplet ersätter en bild och tillämpar en `urlModifier` med ett kommando som anger att Image Server inte ska utföra någon åtgärd vid ersättning.
 
 **Begäran**
 

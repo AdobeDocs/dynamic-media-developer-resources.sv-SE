@@ -5,9 +5,9 @@ title: Färghanteringsalternativ
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 55535bb0-544d-4a93-9ff4-235f22b8d45a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '44'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,6 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| `*`colorManagement`*` | `xsd:string` | Alternativ för färghanteringsläge. |
-| `*`sourceProfileHandle`*` | `xsd:string` | Källprofilreferens. |
-| `*`outputProfileHandle`*` | `xsd:string` | Utdataprofilens referens. |
+| colorManagement | `xsd:string` | Alternativ för färghanteringsläge. |
+| sourceProfileHandle | `xsd:string` | Källprofilreferens. |
+| outputProfileHandle | `xsd:string` | Utdataprofilens referens. |

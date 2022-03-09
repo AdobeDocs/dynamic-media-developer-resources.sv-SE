@@ -2,12 +2,12 @@
 description: Skapar en förinställd vy som avgör vad en användare kan se. Visningsprogrammet kan vara av valfri typ i IPS. Förinställningsvyn används när resurserna publiceras.
 solution: Experience Manager
 title: createViewerPreset
-feature: Dynamic Media Classic,SDK/API,visningsförinställningar
+feature: Dynamic Media Classic,SDK/API,Viewer Presets
 role: Developer,Admin
 exl-id: b24536d9-df66-4c94-8467-6f46e66a1b36
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
@@ -31,17 +31,17 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handtaget för det företag som innehåller visningsprogrammets förinställningar och resurser. |
-| `*`folderHandle`*` | `xsd:string` | Ja | Hanteringen av mappen som innehåller resurserna. |
-| `*`name`*` | `xsd:string` | Ja | Namn på visningsprogram. |
-| `*`type`*` | `xsd:string` | Ja | Typ av visningsprogram. |
-| `*`configSettingArray`*` | `types:ConfigSettingArray` | Nej | En array som innehåller namn, värden och handtag för bilder som du använder förinställningar på. |
+| companyHandle | `xsd:string` | Ja | Handtaget för det företag som innehåller visningsprogrammets förinställningar och resurser. |
+| folderHandle | `xsd:string` | Ja | Hanteringen av mappen som innehåller resurserna. |
+| name | `xsd:string` | Ja | Namn på visningsprogram. |
+| type | `xsd:string` | Ja | Typ av visningsprogram. |
+| configSettingArray | `types:ConfigSettingArray` | Nej | En array som innehåller namn, värden och handtag för bilder som du använder förinställningar på. |
 
 **Utdata (createViewerPresetReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`viewerPresetHandle`*` | `xsd:string` | Ja | Handtag för förinställningen till användaren. |
+| viewerPresetHandle | `xsd:string` | Ja | Handtag för förinställningen till användaren. |
 
 ## Exempel {#section-c88ea63536f3461cbe4677ba53f875dd}
 

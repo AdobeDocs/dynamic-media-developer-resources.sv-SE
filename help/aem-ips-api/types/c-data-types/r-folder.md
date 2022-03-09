@@ -5,9 +5,9 @@ title: Mapp
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 74b44b1a-a92e-4c97-a93b-0cd4552f78ec
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---
@@ -22,10 +22,10 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| `*`folderHandle`*` | `xsd:string` | Mappreferens. |
-| `*`bana`*` | `xsd:string` | Mappsökväg. |
-| `*`lastModified`*` | `xsd:dateTime` | Senaste ändringsdatum. |
-| `*`childLastModified`*` | `xsd:dateTime` | Senaste ändringsdatum för undermappar och underordnade mappresurser. |
-| `*`permissionsSetHandle`*` | `xsd:string` | Mappbehörighetshantering. |
-| `*`hasSubfolder`*` | `types:Boolean` | Avgör om en mapp har undermappar. |
-| `*`subfolderArray`*` | `types:FolderArray` | En array med undermappar i en mapp. |
+| folderHandle | `xsd:string` | Mappreferens. |
+| bana | `xsd:string` | Mappsökväg. |
+| lastModified | `xsd:dateTime` | Senaste ändringsdatum. |
+| childLastModified | `xsd:dateTime` | Senaste ändringsdatum för undermappar och underordnade mappresurser. |
+| permissionsSetHandle | `xsd:string` | Mappbehörighetshantering. |
+| hasSubfolder | `types:Boolean` | Avgör om en mapp har undermappar. |
+| subfolderArray | `types:FolderArray` | En array med undermappar i en mapp. |

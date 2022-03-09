@@ -2,12 +2,12 @@
 description: Skapar en bilduppsättning.
 solution: Experience Manager
 title: createImageSet
-feature: Dynamic Media Classic,SDK/API,Bilduppsättningar
+feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: 01ccc705-97e4-4e75-a322-e24bb78cb496
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
@@ -37,17 +37,17 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Referensen till företaget som bilduppsättningen tillhör. |
-| `*`folderHandle`*` | `xsd:string` | Ja | Referensen till mappen. |
-| `*`name`*` | `xsd:string` | Ja | Namn på bilduppsättning. |
-| `*`type`*` | `xsd:string` | Ja | Bilduppsättningstyp. |
-| `*`thumbAssetHandle`*` | `xsd:string` | Nej | Hantera den resurs som fungerar som miniatyrbild för den nya bilduppsättningen. Om inget anges försöker IPS använda den första bildresursen som uppsättningen refererar till. |
+| companyHandle | `xsd:string` | Ja | Referensen till företaget som bilduppsättningen tillhör. |
+| folderHandle | `xsd:string` | Ja | Referensen till mappen. |
+| name | `xsd:string` | Ja | Namn på bilduppsättning. |
+| type | `xsd:string` | Ja | Bilduppsättningstyp. |
+| thumbAssetHandle | `xsd:string` | Nej | Hantera den resurs som fungerar som miniatyrbild för den nya bilduppsättningen. Om inget anges försöker IPS använda den första bildresursen som uppsättningen refererar till. |
 
 **Utdata**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Ja | Handtaget till den nya bilduppsättningen. |
+| assetHandle | `xsd:string` | Ja | Handtaget till den nya bilduppsättningen. |
 
 ## Exempel {#section-385fe3b0af8044b0a2451336ec137fc5}
 

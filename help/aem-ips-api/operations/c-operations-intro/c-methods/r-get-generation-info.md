@@ -5,9 +5,9 @@ title: getGenerationInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fa098e3c-8145-4238-a84c-c545f1c53341
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -36,18 +36,18 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`Kodfras`*` | `xsd:string` | Ja | Handtaget till företaget. |
-| `*`Kodfras`*` | `xsd:string` | Nej | Motorn som användes i generationen. Se Teckensnittsformat. |
-| `*`Kodfras`*` | `xsd:string` | Nej | Referensen för resursen som ska frågas efter genererade resurser. |
-| `*`Kodfras`*` | `xsd:string` | Nej | Handtaget för resursen som ska efterfrågas efter resurser och motorer som används i genereringen. |
-| `*`Kodfras`*` | `xsd:StringArray` | Nej | Egenskaper som ingår i åtgärden. |
-| `*`Kodfras`*` | `xsd:StringArray` | Nej | Egenskaper som är exkluderade från åtgärden. |
+| Kodfras | `xsd:string` | Ja | Handtaget till företaget. |
+| Kodfras | `xsd:string` | Nej | Motorn som användes i generationen. Se Teckensnittsformat. |
+| Kodfras | `xsd:string` | Nej | Referensen för resursen som ska frågas efter genererade resurser. |
+| Kodfras | `xsd:string` | Nej | Handtaget för resursen som ska efterfrågas efter resurser och motorer som används vid genereringen. |
+| Kodfras | `xsd:StringArray` | Nej | Egenskaper som ingår i åtgärden. |
+| Kodfras | `xsd:StringArray` | Nej | Egenskaper som är exkluderade från åtgärden. |
 
 **Utdata (getGenerationInfoReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`generationArray`*` | `types:GenerationInfoArray` | Ja | Array med genereringsinformation. |
+| generationArray | `types:GenerationInfoArray` | Ja | Array med genereringsinformation. |
 
 ## Exempel {#section-fdffe6ed82d94c7aa90e47f7ce889403}
 

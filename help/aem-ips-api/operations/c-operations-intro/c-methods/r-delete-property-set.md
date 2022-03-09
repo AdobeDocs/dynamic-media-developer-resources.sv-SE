@@ -5,9 +5,9 @@ title: deletePropertySet
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 72429030-200d-4e13-a537-10a728998a26
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`setHandle`*` | `xsd:string` | Ja | Referensen till egenskapsuppsättningen som ska tas bort. |
+| setHandle | `xsd:string` | Ja | Referensen till egenskapsuppsättningen som ska tas bort. |
 
 **Utdata (deletePropertySetParam)**
 
@@ -39,7 +39,7 @@ IPS API returnerar inget svar för den här åtgärden.
 
 ## Exempel {#section-cf319fc8f86a40ab9cbd838b031973fe}
 
-Det här kodexemplet använder uppsättningens referens som ett fält i `deletePropertySetParam` som skickas till IPS Web services-servern för att ta bort egenskapsuppsättningen.
+I det här kodexemplet används uppsättningens handtag som ett fält i `deletePropertySetParam` skickas till IPS-webbtjänstservern för att egenskapsuppsättningen ska kunna tas bort.
 
 **Begäran**
 

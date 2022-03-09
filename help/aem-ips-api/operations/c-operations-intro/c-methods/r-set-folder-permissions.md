@@ -5,9 +5,9 @@ title: setFolderPermissions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0da05679-207e-4dc8-9bfe-2cf09a8c3f17
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
@@ -30,10 +30,10 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Företagshandtag. |
-| `*`folderHandle`*` | `xsd:string` | Ja | Mappreferens. |
-| `*`setChildren`*` | `xsd:boolean` | Ja | Anger behörigheter för underordnade som tillhör mappen. |
-| `*`permissionArray`*` | `types:PermissionUpdateArray` | Ja | Behörighetsmatris. |
+| companyHandle | `xsd:string` | Ja | Företagshandtag. |
+| folderHandle | `xsd:string` | Ja | Mappreferens. |
+| setChildren | `xsd:boolean` | Ja | Anger behörigheter för underordnade som tillhör mappen. |
+| permissionArray | `types:PermissionUpdateArray` | Ja | Behörighetsmatris. |
 
 **Utdata (setFolderPermissionsReturn)**
 

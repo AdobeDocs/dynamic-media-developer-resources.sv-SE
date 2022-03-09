@@ -5,9 +5,9 @@ title: checkAssetNames
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0756c4fc-64ec-4022-a6aa-fcf1542b41b0
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
@@ -35,14 +35,14 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Nej | Referensen till företaget som innehåller användaren. |
-| `*`assetNamesArray`*` | `types:StringArray` | Ja | En array med resursnamn som ska kontrolleras. |
+| companyHandle | `xsd:string` | Nej | Referensen till företaget som innehåller användaren. |
+| assetNamesArray | `types:StringArray` | Ja | En array med resursnamn som ska kontrolleras. |
 
 **Utdata (checkAssetNamesReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`inUseNameArray`*` | `types:StringArray` | Ja | En array med resursnamn som används. |
+| inUseNameArray | `types:StringArray` | Ja | En array med resursnamn som används. |
 
 ## Exempel {#section-bc5d120d74614a63a425ca3acc337219}
 

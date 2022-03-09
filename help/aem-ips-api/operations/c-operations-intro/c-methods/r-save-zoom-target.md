@@ -5,10 +5,10 @@ title: saveZoomTarget
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 595fd5c8-4e98-4c1a-b396-c8e170aaf454
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 1%
+source-wordcount: '124'
+ht-degree: 0%
 
 ---
 
@@ -33,21 +33,21 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handtaget till företaget med det zoommål som du vill spara. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Handtaget till zoommålet. |
-| `*`zoomTargetHandle`*` | `xsd:string` | Nej | Redigerar eller skapar ett zoommål. |
-| `*`name`*` | `xsd:string` | Ja | Zoommålnamn. |
-| `*`xPosition`*` | `xsd:int` | Ja | Vänster pixelplacering. |
-| `*`yPosition`*` | `xsd:int` | Ja | Plats för övre pixel. |
-| `*`width`*` | `xsd:int` | Ja | Zooma målbredd. |
-| `*`height`*` | `xsd:int` | Ja | Zooma målhöjd. |
-| `*`userData`*` | `xsd:string` | Ja | För kundspecifik information. Kan innehålla alla typer av data. |
+| companyHandle | `xsd:string` | Ja | Handtaget till företaget med det zoommål som du vill spara. |
+| assetHandle | `xsd:string` | Ja | Handtaget till zoommålet. |
+| zoomTargetHandle | `xsd:string` | Nej | Redigerar eller skapar ett zoommål. |
+| name | `xsd:string` | Ja | Zoommålnamn. |
+| xPosition | `xsd:int` | Ja | Vänster pixelplacering. |
+| yPosition | `xsd:int` | Ja | Plats för övre pixel. |
+| width | `xsd:int` | Ja | Zooma målbredd. |
+| height | `xsd:int` | Ja | Zooma målhöjd. |
+| userData | `xsd:string` | Ja | För kundspecifik information. Kan innehålla alla typer av data. |
 
 **Utdata (saveZoomTargetReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`zoomTargetHandle`*` | `xsd:string` | Ja | Hantera det nyskapade zoommålet. |
+| zoomTargetHandle | `xsd:string` | Ja | Hantera det nyskapade zoommålet. |
 
 ## Exempel {#section-509c472c316549cdb228d7e1cfa8400a}
 

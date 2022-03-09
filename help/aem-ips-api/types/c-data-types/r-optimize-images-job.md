@@ -5,9 +5,9 @@ title: OptimeraBilderJobb
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 464c9b2e-3ae5-47f5-a5f2-9bc7047b8468
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '29'
+source-wordcount: '24'
 ht-degree: 0%
 
 ---
@@ -22,4 +22,4 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| `*`emailSetting`*` | `xsd:string` | Ett e-postinställningsfält. |
+| emailSetting | `xsd:string` | Ett e-postinställningsfält. |

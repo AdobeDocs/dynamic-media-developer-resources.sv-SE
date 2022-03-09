@@ -5,7 +5,7 @@ title: getUsers
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: dfdcbcdd-232f-4c73-9520-c7c958eedf54
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 0%
@@ -26,22 +26,22 @@ Hämtar en array med användare som anges av hanterare för företag, grupper oc
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`includeInactive`*` | `xsd:boolean` | Nej | Inkludera eller exkludera inaktiva användare. Användare av icke-IPS-administratörer måste vara en aktiv medlem i minst ett företag för att kunna auktoriseras att göra API-anrop. Ett auktoriseringsfel returneras om användaren inte har några aktiva företagsmedlemskap. |
-| `*`includeInvalid`*` | `xsd:boolean` | Nej | Gör att du kan inkludera/exkludera ogiltiga användare. |
-| `*`companyHandleArray`*` | `types:HandleArray` | Nej | Filtrera resultat efter företag. |
-| `*`groupHandleArray`*` | `types:HandleArray` | Nej | Filtrera resultat efter grupp. |
-| `*`userRoleArray`*` | `types:StringArray` | Nej | Filtrera resultat efter användarroll. |
-| `*`charFilterField`*` | `xsd:string` | Nej | Filtrera resultat efter fältets strängprefix (se [!DNL Trash State).] |
-| `*`charFilter`*` | `xsd:string` | Nej | Filtrera resultat efter ett visst tecken. |
-| `*`sortBy`*` | `xsd:string` | Nej | Val av användarsorteringsfält. |
-| `*`recordsPerPage`*` | `xsd:int` | Nej | Returnerar angivet antal poster per sida. |
-| `*`resultsPage`*` | `xsd:int` | Nej | Resultatsida. |
+| includeInactive | `xsd:boolean` | Nej | Inkludera eller exkludera inaktiva användare. Användare av icke-IPS-administratörer måste vara en aktiv medlem i minst ett företag för att kunna auktoriseras att göra API-anrop. Ett auktoriseringsfel returneras om användaren inte har några aktiva företagsmedlemskap. |
+| includeInvalid | `xsd:boolean` | Nej | Gör att du kan inkludera/exkludera ogiltiga användare. |
+| companyHandleArray | `types:HandleArray` | Nej | Filtrera resultat efter företag. |
+| groupHandleArray | `types:HandleArray` | Nej | Filtrera resultat efter grupp. |
+| userRoleArray | `types:StringArray` | Nej | Filtrera resultat efter användarroll. |
+| charFilterField | `xsd:string` | Nej | Filtrera resultat efter fältets strängprefix (se [!DNL Trash State).] |
+| charFilter | `xsd:string` | Nej | Filtrera resultat efter ett visst tecken. |
+| sortBy | `xsd:string` | Nej | Val av användarsorteringsfält. |
+| recordsPerPage | `xsd:int` | Nej | Returnerar angivet antal poster per sida. |
+| resultsPage | `xsd:int` | Nej | Resultatsida. |
 
 **Utdata (getUsersReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`userArray`*` | `types:UserArray` | Ja | En array med användare. |
+| userArray | `types:UserArray` | Ja | En array med användare. |
 
 ## Exempel {#section-bc43a5dd7b4c4f048d25fc881554dab2}
 

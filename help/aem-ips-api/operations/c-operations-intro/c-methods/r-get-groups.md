@@ -5,9 +5,9 @@ title: getGroups
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d98c08a6-4c20-4538-9598-c905078ab7de
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '61'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,13 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handtaget till företaget. |
+| companyHandle | `xsd:string` | Ja | Handtaget till företaget. |
 
 **Utdata (getGroupsReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`groupArray`*` | `types:GroupArray` | Ja | Matris med grupper. |
+| groupArray | `types:GroupArray` | Ja | Matris med grupper. |
 
 ## Exempel {#section-ed0708f611574354bf0c6ea83912b531}
 

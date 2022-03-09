@@ -5,9 +5,9 @@ title: getImageServingPublishSettings
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ab7b5df6-58fb-4111-be9c-76901534d167
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '80'
 ht-degree: 0%
 
 ---
@@ -31,11 +31,11 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handtaget till företaget med bilden som visar publiceringsinställningar. |
-| `*`contextHandle`*` | `xsd:string` | Ja | Hantera publiceringskontexten. |
+| companyHandle | `xsd:string` | Ja | Handtaget till företaget med bilden som visar publiceringsinställningar. |
+| contextHandle | `xsd:string` | Ja | Hantera publiceringskontexten. |
 
 **Utdata**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`publishSettingArray`*` | `xsd:string` | Ja | Array med bildserverns publiceringsinställningar. |
+| publishSettingArray | `xsd:string` | Ja | Array med bildserverns publiceringsinställningar. |

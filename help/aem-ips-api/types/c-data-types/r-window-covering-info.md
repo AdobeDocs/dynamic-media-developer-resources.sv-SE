@@ -5,9 +5,9 @@ title: WindowCoveringInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 43f7927d-6341-4d30-9a3c-de1d61b4d667
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '52'
 ht-degree: 0%
 
 ---
@@ -22,10 +22,10 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | Filsökväg. |
-| `*`originalFile`*` | `xsd:string` | Filnamn. |
-| `*`fileSize`*` | `xsd:int` | Filstorlek. |
-| `*`imagePath`*` | `xsd:string` | Relativ sökväg till bilden. |
-| `*`imageFile`*` | `xsd:string` | Filnamn för fönstret som täcker bilden. |
-| `*`optimizedPath`*` | `xsd:string` | Optimerad sökväg till filen. |
-| `*`optimizedFile`*` | `xsd:string` | Optimerat filnamn. |
+| originalPath | `xsd:string` | Filsökväg. |
+| originalFile | `xsd:string` | Filnamn. |
+| fileSize | `xsd:int` | Filstorlek. |
+| imagePath | `xsd:string` | Relativ sökväg till bilden. |
+| imageFile | `xsd:string` | Filnamn för fönstret som täcker bilden. |
+| optimizedPath | `xsd:string` | Optimerad sökväg till filen. |
+| optimizedFile | `xsd:string` | Optimerat filnamn. |

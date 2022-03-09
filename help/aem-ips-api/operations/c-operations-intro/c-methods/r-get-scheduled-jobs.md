@@ -5,9 +5,9 @@ title: getScheduledJobs
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7920637e-b289-410c-ae5c-e67cd7b21aba
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
@@ -35,15 +35,15 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handtaget till företaget. |
-| `*`jobHandle`*` | `xsd:string` | Nej | Jobbreferens. |
-| `*`originalName`*` | `xsd:string` | Nej | Namnet som anges av `submitJob`. |
+| companyHandle | `xsd:string` | Ja | Handtaget till företaget. |
+| jobHandle | `xsd:string` | Nej | Jobbreferens. |
+| originalName | `xsd:string` | Nej | Namnet som anges av `submitJob`. |
 
 **Utdata (getScheduledJobsReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`jobArray`*` | `types:ScheduledJobArray` | Ja | Matris med schemalagda jobb. |
+| jobArray | `types:ScheduledJobArray` | Ja | Matris med schemalagda jobb. |
 
 ## Exempel {#section-e79e7da86ba848fd9996aa36de462e6c}
 

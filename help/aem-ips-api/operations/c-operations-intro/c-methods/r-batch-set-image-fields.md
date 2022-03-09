@@ -5,9 +5,9 @@ title: batchSetImageFields
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 8ea6dbb8-4d32-43e5-961f-31110f983663
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -33,18 +33,18 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handtaget till företaget som innehåller bildresurserna. |
-| `*`updateArray`*` | `types:ImageFieldUpdateArray` | Ja | Arrayen med bildfält uppdateras. |
+| companyHandle | `xsd:string` | Ja | Handtaget till företaget som innehåller bildresurserna. |
+| updateArray | `types:ImageFieldUpdateArray` | Ja | Arrayen med bildfält uppdateras. |
 
 **Utdata (batchSetImageFields)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Ja | Antalet bildfält som har angetts. |
-| `*`warningCount`*` | `xsd:int` | Ja | Antalet varningar som genereras när åtgärden försökte ange bildfälten. |
-| `*`errorCount`*` | `xsd:int` | Ja | Antalet fel som genererades när åtgärden försökte ange bildfälten. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nej | Arrayen med information som är associerad med resurserna som genererade varningar när åtgärden försökte tillämpa uppdateringarna. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nej | Arrayen med information som är associerad med resurserna som genererade fel när åtgärden försökte tillämpa uppdateringarna. |
+| successCount | `xsd:int` | Ja | Antalet bildfält som har angetts. |
+| warningCount | `xsd:int` | Ja | Antalet varningar som genereras när åtgärden försökte ange bildfälten. |
+| errorCount | `xsd:int` | Ja | Antalet fel som genererades när åtgärden försökte ange bildfälten. |
+| warningDetailArray | `types:AssetOperationFaultArray` | Nej | Arrayen med information som är associerad med resurserna som genererade varningar när åtgärden försökte tillämpa uppdateringarna. |
+| errorDetailArray | `types:AssetOperationFaultArray` | Nej | Arrayen med information som är associerad med resurserna som genererade fel när åtgärden försökte tillämpa uppdateringarna. |
 
 ## Exempel {#section-0476e3d6516a4f8bbaac9de983bc6d1e}
 

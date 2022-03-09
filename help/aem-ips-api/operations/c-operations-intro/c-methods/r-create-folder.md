@@ -5,9 +5,9 @@ title: createFolder
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 569130ae-5515-4b14-a410-2bd6f9fc7638
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Skapar en mapp.
 
 >[!NOTE]
 >
->Den nya mappen är underordnad till mappen Images, även om du anger `/` för att ange företagets rot.
+>Den nya mappen är underordnad till mappen Bilder, även om du anger en `/` för att ange företagets rot.
 
 Syntax
 
@@ -41,14 +41,14 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handtaget till företaget |
-| `*`folderPath`*` | `xsd:string` | Ja | Rotmappen som används för att hämta mappar och alla undermappar till lövnivån. Om detta utelämnas används företagsroten. |
+| companyHandle | `xsd:string` | Ja | Handtaget till företaget |
+| folderPath | `xsd:string` | Ja | Rotmappen som används för att hämta mappar och alla undermappar till lövnivån. Om detta utelämnas används företagsroten. |
 
 **Utdata (createFolderParam)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`folderHandle`*` | `xsd:string` | Ja | Hantering av den nya mappen. |
+| folderHandle | `xsd:string` | Ja | Hantering av den nya mappen. |
 
 ## Exempel {#section-e596fbdb44fd43c8b30005cb2a2fdf26}
 

@@ -5,9 +5,9 @@ title: addGroupMembership
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c5b5e155-d285-4304-98bc-1d938793e2c0
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ IPS API returnerar inget svar för den här åtgärden.
 
 ## Exempel {#section-f7a1f40c3d7a40ea964b29056c734d81}
 
-I det här exemplet läggs en grupp till i ett företag med `*`groupHandleArray`*`. I det här exemplet används endast en grupp.
+I det här exemplet läggs en grupp till i ett företag med groupHandleArray. I det här exemplet används endast en grupp.
 
 **Begäran**
 

@@ -2,12 +2,12 @@
 description: Avgör om en grupp resurser är klara att publiceras.
 solution: Experience Manager
 title: setAssetsPublishState
-feature: Dynamic Media Classic,SDK/API,Resurshantering
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: dce324e4-cf86-4a65-ab00-8cd2bba20f8f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
@@ -37,18 +37,18 @@ Detta är batchversionen av [setAssetState](../../../operations/c-operations-int
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Företagshandtag. |
-| `*`publishStateUpdateArray`*` | `types:PublishStateUpdateArray` | Ja | Array med publiceringsstatusvärden för resurserna. |
+| companyHandle | `xsd:string` | Ja | Företagshandtag. |
+| publishStateUpdateArray | `types:PublishStateUpdateArray` | Ja | Array med publiceringsstatusvärden för resurserna. |
 
 **Utdata (setAssetsPublishStateParam)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Ja | Antalet resurser som har uppdaterats. |
-| `*`warningCount`*` | `xsd:int` | Ja | Antalet resurser som genererade en varning när åtgärden försökte uppdatera dem. |
-| `*`errorCount`*` | `xsd:int` | Ja | Antalet resurser som genererade ett fel när åtgärden försökte ta bort dem. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nej | Information som är associerad med tillgångsuppdateringarna som genererade en varning. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nej | Information som är associerad med resursuppdateringar som genererade ett fel. |
+| successCount | `xsd:int` | Ja | Antalet resurser som har uppdaterats. |
+| warningCount | `xsd:int` | Ja | Antalet resurser som genererade en varning när åtgärden försökte uppdatera dem. |
+| errorCount | `xsd:int` | Ja | Antalet resurser som genererade ett fel när åtgärden försökte ta bort dem. |
+| warningDetailArray | `types:AssetOperationFaultArray` | Nej | Information som är associerad med tillgångsuppdateringarna som genererade en varning. |
+| errorDetailArray | `types:AssetOperationFaultArray` | Nej | Information som är associerad med resursuppdateringar som genererade ett fel. |
 
 ## Exempel {#section-38cfdd3436214a06a1bae16875501d51}
 

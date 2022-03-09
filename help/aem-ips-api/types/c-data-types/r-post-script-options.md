@@ -5,9 +5,9 @@ title: PostScriptOptions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fd2093b5-9856-4f31-8853-1027194a71df
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '67'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,8 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| `*`process`*` | `xsd:string` | PostScript-processval. |
-| `*`upplösning`*` | `xsd:double` | Filupplösning. |
-| `*`färgrymd`*` | `xsd:string` | PostScript-färgmodell. |
-| `*`alpha`*` | `xsd:boolean` | Om filen ska rastreras till en bild. I så fall skapas en genomskinlig bakgrund om originalfilen har definierats på det här sättet. Används vanligtvis för att skapa överlagrade logotyper. |
-| `*`extractSearchWords`*` | `xsd:boolean` | Om sökord ska extraheras från PostScript-filen. |
+| process | `xsd:string` | PostScript-processval. |
+| upplösning | `xsd:double` | Filupplösning. |
+| färgrymd | `xsd:string` | PostScript-färgmodell. |
+| alpha | `xsd:boolean` | Om filen ska rastreras till en bild. I så fall skapas en genomskinlig bakgrund om originalfilen har definierats på det här sättet. Används vanligtvis för att skapa överlagrade logotyper. |
+| extractSearchWords | `xsd:boolean` | Om sökord ska extraheras från PostScript-filen. |

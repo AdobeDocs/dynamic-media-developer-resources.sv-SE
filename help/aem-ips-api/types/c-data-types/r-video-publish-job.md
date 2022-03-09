@@ -5,9 +5,9 @@ title: VideoPublishJob
 feature: Dynamic Media Classic,SDK/API,Video
 role: Developer,Admin
 exl-id: 4b295025-6e8d-4329-87c1-63633bf26129
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '41'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,6 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| `*`emailSetting`*` | `xsd:string` | Val av e-postinställningar. |
-| `*`httpCompletionUrl`*` | `xsd:string` | URL för att skicka ett meddelande om slutförande. |
-| `*`contextHandle`*` | `xsd:string` | Hantera publiceringskontexten. |
+| emailSetting | `xsd:string` | Val av e-postinställningar. |
+| httpCompletionUrl | `xsd:string` | URL för att skicka ett meddelande om slutförande. |
+| contextHandle | `xsd:string` | Hantera publiceringskontexten. |

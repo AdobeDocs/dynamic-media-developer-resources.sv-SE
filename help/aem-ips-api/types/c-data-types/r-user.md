@@ -5,9 +5,9 @@ title: Användare
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 5747f5bf-0175-4707-bfcb-1a9b97d7a24a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---
@@ -22,10 +22,10 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| `*`userHandle`*` | `xsd:string` | Användarhandtag. |
-| `*`firstName`*` | `xsd:string` | Användarens förnamn. |
-| `*`lastName`*` | `xsd:string` | Användarens efternamn. |
-| `*`e-post`*` | `xsd:string` | e-postadress. |
-| `*`defaultRole`*` | `xsd:string` | Anger rollen för en användare i varje företag de tillhör. Användarrollen `IpsAmin` åsidosätter dock andra användarroller. |
-| `*`isValid`*` | `xsd:boolean` | Anger om användaren är giltig. |
-| `*`passwordExpires`*` | `xsd:dateTime` | Anger förfallodatum för lösenord. |
+| userHandle | `xsd:string` | Användarhandtag. |
+| firstName | `xsd:string` | Användarens förnamn. |
+| lastName | `xsd:string` | Användarens efternamn. |
+| e-post | `xsd:string` | e-postadress. |
+| defaultRole | `xsd:string` | Anger rollen för en användare i varje företag de tillhör. Användarrollen `IpsAmin` åsidosätter andra användarroller. |
+| isValid | `xsd:boolean` | Anger om användaren är giltig. |
+| passwordExpires | `xsd:dateTime` | Anger förfallodatum för lösenord. |

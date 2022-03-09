@@ -2,12 +2,12 @@
 description: Flyttar flera resurser oberoende av varandra. Detta uppnås med hjälp av AssetMove-typen som finns i assetMoveArray. Varje AssetMove-fält innehåller en målmapp.
 solution: Experience Manager
 title: moveAssets
-feature: Dynamic Media Classic,SDK/API,Resurshantering
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: e5bb2188-d262-4324-9f71-68634b6af654
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -33,8 +33,8 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handtaget till företaget med resurser som ska flyttas. |
-| `*`assetMoveArray`*` | `types:AssetMoveArray` | Ja | En objektflyttningsarray. Den innehåller en resurs och en målmapp för resursen. |
+| companyHandle | `xsd:string` | Ja | Handtaget till företaget med resurser som ska flyttas. |
+| assetMoveArray | `types:AssetMoveArray` | Ja | En objektflyttningsarray. Den innehåller en resurs och en målmapp för resursen. |
 
 **Utdata (moveAssetsReturn)**
 
@@ -70,7 +70,7 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:AssetOperationFaultArray</span> </td> 
    <td colname="col3"> Nej </td> 
-   <td colname="col4"> <span class="codeph"> </span>AssetOperationFaultssom innehåller: 
+   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span>som innehåller 
     <ul id="ul_689F4A87A68140F18DFB43868226A409"> 
      <li id="li_274C8BF5932F4AF584AA92F25E0F33C6">Resurser som utlöste varningarna. </li> 
      <li id="li_5CC4A9120CA94F968CAF0D0135C49E0A">Varningskoder. </li> 
@@ -81,7 +81,7 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:AssetOperationFaultArray</span> </td> 
    <td colname="col3"> Nej </td> 
-   <td colname="col4"> <span class="codeph"> </span>AssetOperationFaultssom innehåller: 
+   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span>som innehåller 
     <ul id="ul_C397BC384A134F429D01ADA28DF2E097"> 
      <li id="li_EAEBB5F539164480BA9EAA7C8FFBF69A">Resurser som orsakade felen. </li> 
      <li id="li_F96D5FBB2F7A402AA36D8DFA3971391D">Felkoder. </li> 
@@ -93,7 +93,7 @@ Syntax
 
 ## Exempel {#section-c31ed4c004ab4b3fa42c96d26ceb5ce7}
 
-Det här kodexemplet flyttar resurser till en specifik plats som anges av `assetMoveArray`. Arrayen innehåller tillgångshandtaget och dess mappreferens. Svaret anger att resurserna flyttades.
+Detta kodexempel flyttar resurser till en specifik plats som anges av `assetMoveArray`. Arrayen innehåller tillgångshandtaget och dess mappreferens. Svaret anger att resurserna flyttades.
 
 **Begäran**
 

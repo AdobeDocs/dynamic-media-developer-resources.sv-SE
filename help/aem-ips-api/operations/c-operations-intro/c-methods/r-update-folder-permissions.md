@@ -5,9 +5,9 @@ title: updateFolderPermissions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 4e4f382e-4339-4b9d-a721-d33a4fa8be6b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---
@@ -30,10 +30,10 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Företagshandtag. |
-| `*`folderHandle`*` | `xsd:string` | Ja | Mappreferens. |
-| `*`updateChildren`*` | `xsd:boolean` | Ja | Avgör om underordnade med behörigheter för den översta mappen ska uppdateras. |
-| `*`updateArray`*` | `types:PermissionUpdateArray` | Ja | Arrayen med behörighetsuppdateringar som du vill tillämpa på mappen. |
+| companyHandle | `xsd:string` | Ja | Företagshandtag. |
+| folderHandle | `xsd:string` | Ja | Mappreferens. |
+| updateChildren | `xsd:boolean` | Ja | Avgör om underordnade med behörigheter för den översta mappen ska uppdateras. |
+| updateArray | `types:PermissionUpdateArray` | Ja | Arrayen med behörighetsuppdateringar som du vill tillämpa på mappen. |
 
 **Utdata (updateFolderPermissionsReturn)**
 

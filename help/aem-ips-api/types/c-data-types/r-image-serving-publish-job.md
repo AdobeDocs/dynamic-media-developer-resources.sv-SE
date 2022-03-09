@@ -5,9 +5,9 @@ title: ImageServingPublishJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: dad6ca6b-6bfe-4788-8ba7-f6cb2a734800
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '43'
+source-wordcount: '38'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,6 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| `*`publishType`*` | `xsd:string` | En av de tillgängliga publiceringstyperna. |
-| `*`emailSetting`*` | `xsd:string` | Val av e-postinställningar. |
-| `*`httpCompletionUrl`*` | `xsd:string` | URL för att skicka ett meddelande om slutförande. |
+| publishType | `xsd:string` | En av de tillgängliga publiceringstyperna. |
+| emailSetting | `xsd:string` | Val av e-postinställningar. |
+| httpCompletionUrl | `xsd:string` | URL för att skicka ett meddelande om slutförande. |

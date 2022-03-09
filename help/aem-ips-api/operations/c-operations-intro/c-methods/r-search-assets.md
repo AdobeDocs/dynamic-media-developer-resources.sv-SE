@@ -2,12 +2,12 @@
 description: Sök efter resurser baserat på dina angivna villkor.
 solution: Experience Manager
 title: searchAssets
-feature: Dynamic Media Classic,SDK/API,Resurshantering
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 58bd80e4-e9eb-43e4-8508-04e330f0ad26
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ Syntax
 
 **Svarsstorlek**
 
-`searchAssets` returnerar upp till 1 000 resurser i ett enda samtal. Om du vill returnera upp till 10 000 resurser per anrop begränsar du svarsdata till en delmängd av fälten `totalRows`, `name`, `handle`, `type` och `subType`. Om du vill returnera större uppsättningar ställer du in sidindelning med parametern `resultPage`.
+`searchAssets` returnerar upp till 1 000 resurser i ett enda samtal. Begränsa svarsdata till en delmängd av `totalRows`, `name`, `handle`, `type`och `subType` fält. Om du vill returnera större uppsättningar ställer du in sidindelning med `resultPage` parameter.
 
 **Begränsa resultatfilens storlek med responseFieldArray eller excludeFieldArray**
 
-Begränsa storleken på datauppsättningen med parametrarna `responseFieldArray` eller `excludFieldArray`. De här parametrarna minskar minnesanvändningen och bandbredden och kan förbättra svarstiderna på servern.
+Begränsa storleken på datauppsättningen med `responseFieldArray` eller `excludFieldArray` parametrar. De här parametrarna minskar minnesanvändningen och bandbredden och kan förbättra svarstiderna på servern.
 
 ## Auktoriserade användartyper {#section-9c4bc41bb8b4493982197eb13c7cdc55}
 
@@ -90,7 +90,7 @@ Begränsa storleken på datauppsättningen med parametrarna `responseFieldArray`
    <td colname="col1"> <span class="codeph"> <span class="varname"> includeSubfolders</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolesk</span> </td> 
    <td colname="col3"> Nej </td> 
-   <td colname="col4">Ange <span class="codeph"> true</span> om du vill söka efter undermappar. </td> 
+   <td colname="col4">Ange till <span class="codeph"> true</span> om du vill söka efter undermappar. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
@@ -102,25 +102,25 @@ Begränsa storleken på datauppsättningen med parametrarna `responseFieldArray`
    <td colname="col1"> <span class="codeph"> <span class="varname"> trashState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3"> Nej </td> 
-   <td colname="col4">Val av papperskorgsläge. Standardvärdet är <span class="codeph"> NotInTrash</span>. </td> 
+   <td colname="col4">Val av papperskorgsläge. Standard är <span class="codeph"> NotInTrash</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> conditionMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3"> Nej </td> 
-   <td colname="col4"> <p>Val av sökmatchningslägen för kombination av resultat av <span class="codeph"> nyckelordsarray</span>, </p> <p> <span class="codeph"> conditionMatchMode</span> </p> <p> <span class="codeph"> systemFieldConditionArray</span> och  <span class="codeph"> metadataConditionArray</span>. Standardvärdet är <span class="codeph"> MatchAll</span>. </p> </td> 
+   <td colname="col4"> <p>Val av sökmatchningslägen för kombination av resultat av <span class="codeph"> keywordArray</span>, </p> <p> <span class="codeph"> conditionMatchMode</span> </p> <p> <span class="codeph"> systemFieldConditionArray</span>och <span class="codeph"> metadataConditionArray</span>. Standard är <span class="codeph"> MatchaAlla</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> keywordArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:StringArray</span> </td> 
    <td colname="col3"> Nej </td> 
-   <td colname="col4"> <p> <p>Obs!  Inaktuell parameter. Det rekommenderas att du inte använder den. </p> </p> <p>En strängarray med nyckelord som ska matchas. </p> </td> 
+   <td colname="col4"> <p> <p>Obs! Inaktuell parameter. Det rekommenderas att du inte använder den. </p> </p> <p>En strängarray med nyckelord som ska matchas. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> systemFieldMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3"> Nej </td> 
-   <td colname="col4"> <p>Val av sökmatchningslägen för kombination av <span class="codeph"> systemFieldCondition</span>-matchningar. Standardvärdet är <span class="codeph"> MatchaAlla</span> </p>. </td> 
+   <td colname="col4"> <p>Val av sökmatchningslägen för kombination <span class="codeph"> systemFieldCondition</span> matchar. Standard är <span class="codeph"> MatchaAlla</span> </p>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> systemFieldConditionArray</span> </span> </p> </td> 
@@ -132,19 +132,19 @@ Begränsa storleken på datauppsättningen med parametrarna `responseFieldArray`
    <td colname="col1"> <span class="codeph"> <span class="varname"> tagMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3"> Nej </td> 
-   <td colname="col4">Sök efter strängkonstanter för Matcha lägen. Standardvärdet är <span class="codeph"> MatchAll</span>. </td> 
+   <td colname="col4">Sök efter strängkonstanter för Matcha lägen. Standardvärdet är <span class="codeph"> MatchaAlla</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> tagConditionArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:TagConditionArray</span> </td> 
    <td colname="col3"> Nej </td> 
-   <td colname="col4"> <p>En array med sökpredikat för taggfält. </p> <p>Predikaten kombineras enligt inställningen <span class="codeph"> tagMatchMode</span> och kombineras sedan med eventuella termer i <span class="codeph"> keywordArray</span>, <span class="codeph"> systemFieldConditionArray</span> och <span class="codeph"> metadataConditionArray</span> enligt <span class="codeph"> conditionMatch Läge</span> inställning. </p> </td> 
+   <td colname="col4"> <p>En array med sökpredikat för taggfält. </p> <p>Predikaten kombineras enligt <span class="codeph"> tagMatchMode</span> och sedan kombinerat med andra termer i <span class="codeph"> keywordArray</span>, <span class="codeph"> systemFieldConditionArray</span>och <span class="codeph"> metadataConditionArray</span> enligt <span class="codeph"> conditionMatchMode</span> inställning. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> metadataMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3"> Nej </td> 
-   <td colname="col4">Sök efter matchningslägen för att kombinera <span class="codeph"> metadataCondition</span>-matchningar. Standardvärdet är <span class="codeph"> MatchAll</span>. </td> 
+   <td colname="col4">Sök efter matchningslägen för kombination <span class="codeph"> metadataCondition</span> matchar. Standard är <span class="codeph"> MatchaAlla</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> metadataConditionArray</span> </span> </td> 
@@ -174,13 +174,13 @@ Begränsa storleken på datauppsättningen med parametrarna `responseFieldArray`
    <td colname="col1"> <span class="codeph"> <span class="varname"> strictSubTypeCheck</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolesk</span> </td> 
    <td colname="col3"> Nej </td> 
-   <td colname="col4">Om <span class="codeph"> true</span> och <span class="codeph"> assetSubTypeArray</span> inte är tomma returneras bara resurser vars undertyper är i <span class="codeph"> assetSubTypeArray</span>. Om <span class="codeph"> är false</span> (standard) returneras resurser utan definierad undertyp. </td> 
+   <td colname="col4">If <span class="codeph"> true</span> och <span class="codeph"> assetSubTypeArray</span> är inte tom, bara resurser vars undertyper finns i <span class="codeph"> assetSubTypeArray</span> returneras. If <span class="codeph"> false</span> (standard) returneras resurser utan definierad undertyp. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeByproducts</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolesk</span> </td> 
    <td colname="col3"> Nej </td> 
-   <td colname="col4"> Om värdet är true exkluderas de produktresurser som genereras vid inmatning av en primär resurs, t.ex. bilder på bortskurna PDF-sidor, från sökresultaten. Standardvärdet är false. </td> 
+   <td colname="col4"> Om värdet är true utesluts byproduktresurser som genereras vid förtäring av en primär resurs, t.ex. bilder på en rippad PDF-sida, från sökresultaten. Standardvärdet är false. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludByproductArray</span> </span> </td> 
@@ -204,7 +204,7 @@ Begränsa storleken på datauppsättningen med parametrarna `responseFieldArray`
    <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Nej </td> 
-   <td colname="col4">Anger vilken resultatsida som ska returneras baserat på sidstorleken <span class="codeph"> recordsPerPage</span>. </td> 
+   <td colname="col4">Anger vilken resultatsida som ska returneras, baserat på <span class="codeph"> recordsPerPage</span> sidstorlek. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 
@@ -237,8 +237,8 @@ Begränsa storleken på datauppsättningen med parametrarna `responseFieldArray`
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`totalRows`*` | `xsd:int` | Nej | Antal rader som en sökning returnerar när poster per sida inte är begränsade. |
-| `*`assetArray`*` | `types:AssetArray` | Nej | Resurser som sökningen returnerar. |
+| totalRows | `xsd:int` | Nej | Antal rader som en sökning returnerar när poster per sida inte är begränsade. |
+| assetArray | `types:AssetArray` | Nej | Resurser som sökningen returnerar. |
 
 ## Exempel {#section-725484cc09b54772a838ad2cc930b94b}
 

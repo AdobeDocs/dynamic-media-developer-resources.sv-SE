@@ -5,9 +5,9 @@ title: PermissionUpdate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a21b9d66-14bd-4983-9eb9-54ab1be1261e
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '39'
+source-wordcount: '34'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| `*`groupHandle`*` | `xsd:string` | Gruppreferens. |
-| `*`permissionType`*` | `xsd:string` | Behörighetstyp. |
-| `*`isAllowed`*` | `xsd:boolean` | Anger om behörighetsuppdateringen är tillåten. |
-| `*`isOverride`*` | `xsd:boolean` | Avgör om behörigheten åsidosätter en annan. |
+| groupHandle | `xsd:string` | Gruppreferens. |
+| permissionType | `xsd:string` | Behörighetstyp. |
+| isAllowed | `xsd:boolean` | Anger om behörighetsuppdateringen är tillåten. |
+| isOverride | `xsd:boolean` | Avgör om behörigheten åsidosätter en annan. |

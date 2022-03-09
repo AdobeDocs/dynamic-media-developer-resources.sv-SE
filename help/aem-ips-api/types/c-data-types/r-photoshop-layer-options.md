@@ -5,9 +5,9 @@ title: PhotoshopLayerOptions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fae60e86-6ec5-4f19-a76f-7d179dfb5dba
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: '55'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,8 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| `*`layerNaming`*` | `xsd:string` | Val av namngivningslägen för Photoshop-lager. |
-| `*`ankare`*` | `xsd:string` | Val av fästlägen för Photoshop. |
-| `*`createTemplate`*` | `xsd:boolean` | Om en mall ska skapas från Photoshop-lager. |
-| `*`extractText`*` | `xsd:boolean` | Om text ska extraheras som textlager. |
-| `*`extendLayers`*` | `xsd:boolean` | Anger om lager ska utökas till hela bakgrundens storlek. |
+| layerNaming | `xsd:string` | Val av namngivningslägen för Photoshop-lager. |
+| ankare | `xsd:string` | Val av fästlägen för Photoshop. |
+| createTemplate | `xsd:boolean` | Om en mall ska skapas från Photoshop-lager. |
+| extractText | `xsd:boolean` | Om text ska extraheras som textlager. |
+| extendLayers | `xsd:boolean` | Anger om lager ska utökas till hela bakgrundens storlek. |

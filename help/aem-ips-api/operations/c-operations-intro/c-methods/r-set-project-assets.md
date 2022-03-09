@@ -2,12 +2,12 @@
 description: Tilldela eller uppdatera resurser i ett projekt.
 solution: Experience Manager
 title: setProjectAssets
-feature: Dynamic Media Classic,SDK/API,Resurshantering
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: b6e6e9bd-5ee2-4750-9182-49e7a3e3486c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
@@ -33,15 +33,15 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyName`*` | `xsd:string` | Ja | Företagshandtag. |
-| `*`projectHandle`*` | `xsd:string` | Ja | Projektreferens. |
-| `*`assetHandleArray`*` | `types:HandleArray` | Ja | Arrayen med resurshandtag som du vill associera med projektet. |
+| companyName | `xsd:string` | Ja | Företagshandtag. |
+| projectHandle | `xsd:string` | Ja | Projektreferens. |
+| assetHandleArray | `types:HandleArray` | Ja | Arrayen med resurshandtag som du vill associera med projektet. |
 
 **Utdata (setProjectAssetsReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Ja | Antalet resurser som lagts till. |
+| successCount | `xsd:int` | Ja | Antalet resurser som lagts till. |
 
 ## Exempel {#section-33c1a909c3dc4aa98da474c23a036596}
 

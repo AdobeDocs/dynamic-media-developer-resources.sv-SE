@@ -5,9 +5,9 @@ title: getTagFieldValues
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 12836783-4f9d-41d3-9b42-6e25238d7ed5
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
@@ -36,14 +36,14 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handtaget för det företag som innehåller taggfältet. |
-| `*`fieldHandleArray`*` | `types:HandleArray` | Ja | En array med fältreferenser till taggvärden som du vill returnera. |
+| companyHandle | `xsd:string` | Ja | Handtaget för det företag som innehåller taggfältet. |
+| fieldHandleArray | `types:HandleArray` | Ja | En array med fältreferenser till taggvärden som du vill returnera. |
 
 **Utdata (getTagFieldValuesReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`fieldArray`*` | `types:TagFieldValuesArray` | Ja | En array med taggvärdena i ordlistan för varje begärt fält. |
+| fieldArray | `types:TagFieldValuesArray` | Ja | En array med taggvärdena i ordlistan för varje begärt fält. |
 
 ## Exempel {#section-4492742614e44bb191a7d397dc1a1407}
 

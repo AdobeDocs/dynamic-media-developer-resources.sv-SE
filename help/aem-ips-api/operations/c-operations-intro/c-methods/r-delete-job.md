@@ -5,9 +5,9 @@ title: deleteJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d38dd1e2-668e-4956-b854-54bf466d6d45
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,8 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Referensen till företaget som jobbet tillhör. |
-| `*`jobHandle`*` | `xsd:string` | Ja | Referensen till jobbet som ska tas bort. |
+| companyHandle | `xsd:string` | Ja | Referensen till företaget som jobbet tillhör. |
+| jobHandle | `xsd:string` | Ja | Referensen till jobbet som ska tas bort. |
 
 **Utdata**
 

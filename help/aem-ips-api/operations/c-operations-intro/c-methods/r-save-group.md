@@ -5,9 +5,9 @@ title: saveGroup
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1dd980e7-eb38-4c90-b4fc-83327d4a95f5
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '92'
 ht-degree: 1%
 
 ---
@@ -30,16 +30,16 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Referensen till företaget med gruppen som du vill spara. |
-| `*`groupHandle`*` | `xsd:string` | Nej | Referensen till gruppen. |
-| `*`name`*` | `xsd:string` | Ja | Gruppnamn. |
-| `*`isSystemDefined`*` | `xsd:boolean` | Ja | `false` är standard. |
+| companyHandle | `xsd:string` | Ja | Referensen till företaget med gruppen som du vill spara. |
+| groupHandle | `xsd:string` | Nej | Referensen till gruppen. |
+| name | `xsd:string` | Ja | Gruppnamn. |
+| isSystemDefined | `xsd:boolean` | Ja | `false` är standard. |
 
 **Utdata (saveGroupReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`groupHandle`*` | `xsd:string` | Ja | Gruppreferens. |
+| groupHandle | `xsd:string` | Ja | Gruppreferens. |
 
 ## Exempel {#section-26eee227ff1f4edabb7fa1240b4d9999}
 

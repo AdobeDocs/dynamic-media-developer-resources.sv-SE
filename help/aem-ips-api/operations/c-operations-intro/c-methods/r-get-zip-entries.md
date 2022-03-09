@@ -5,9 +5,9 @@ title: getZipEnentries
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: eb052685-b750-4a12-b00e-28e676340e98
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---
@@ -36,14 +36,14 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Referensen till företaget som innehåller ZIP-filen. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Hantera zip-filen. |
+| companyHandle | `xsd:string` | Ja | Referensen till företaget som innehåller ZIP-filen. |
+| assetHandle | `xsd:string` | Ja | Hantera zip-filen. |
 
 **Utdata (getZipEnentriesReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`zipArray`*` | `types:ZipEntryArray` | Ja | Array med poster i en ZIP-fil. |
+| zipArray | `types:ZipEntryArray` | Ja | Array med poster i en ZIP-fil. |
 
 ## Exempel {#section-1fc0ad8fa448492cb5a135d3e3d161ac}
 

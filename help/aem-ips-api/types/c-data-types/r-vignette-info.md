@@ -5,9 +5,9 @@ title: Vinjetteringsinformation
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f9142082-5f49-4133-aab4-c07a14f8a16b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '44'
 ht-degree: 0%
 
 ---
@@ -22,10 +22,10 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | Sökväg till filen. |
-| `*`originalFile`*` | `xsd:string` | Filnamn. |
-| `*`fileSize`*` | `xsd:int` | Filstorlek. |
-| `*`imagePath`*` | `xsd:string` | Sökväg till bilden. |
-| `*`imageFile`*` | `xsd:string` |  |
-| `*`optimizedPath`*` | `xsd:string` | Optimerad sökväg till filen. |
-| `*`optimizedFile`*` | `xsd:string` | Optimerat filnamn. |
+| originalPath | `xsd:string` | Sökväg till filen. |
+| originalFile | `xsd:string` | Filnamn. |
+| fileSize | `xsd:int` | Filstorlek. |
+| imagePath | `xsd:string` | Sökväg till bilden. |
+| imageFile | `xsd:string` |  |
+| optimizedPath | `xsd:string` | Optimerad sökväg till filen. |
+| optimizedFile | `xsd:string` | Optimerat filnamn. |

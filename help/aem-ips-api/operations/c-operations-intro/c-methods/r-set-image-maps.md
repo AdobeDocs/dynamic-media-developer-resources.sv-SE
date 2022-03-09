@@ -5,9 +5,9 @@ title: setImageMaps
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0c8e6536-0b9c-4fcc-b71f-511afc670089
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
@@ -33,15 +33,15 @@ Du måste ha skapat bildscheman. Bildscheman används i den ordning som de hämt
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Företagshandtag. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Resurshandtag. |
-| `*`imageMapArray`*` | `types:ImageMapDefinitionArray` | Ja | Array med fördefinierade bildscheman. |
+| companyHandle | `xsd:string` | Ja | Företagshandtag. |
+| assetHandle | `xsd:string` | Ja | Resurshandtag. |
+| imageMapArray | `types:ImageMapDefinitionArray` | Ja | Array med fördefinierade bildscheman. |
 
 **Utdata (setImageMapsReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`imageMapHandleArray`*` | `types:HandleArray` | Ja | En array med bildmappshandtag tillämpade på resursen. |
+| imageMapHandleArray | `types:HandleArray` | Ja | En array med bildmappshandtag tillämpade på resursen. |
 
 ## Exempel {#section-fe2e35662a6a4ee29cf250c9fd180371}
 

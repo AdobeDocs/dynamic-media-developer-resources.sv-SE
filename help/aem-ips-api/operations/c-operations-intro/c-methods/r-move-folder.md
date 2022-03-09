@@ -5,9 +5,9 @@ title: moveFolder
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fa31c2d8-912c-4965-8535-cae42f4fcfd9
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '60'
 ht-degree: 0%
 
 ---
@@ -33,15 +33,15 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handla till företaget. |
-| `*`folderHandle`*` | `xsd:string` | Ja | Mappreferens. |
-| `*`destFolderHandle`*` | `xsd:string` | Ja | Hantera målmappen. |
+| companyHandle | `xsd:string` | Ja | Handla till företaget. |
+| folderHandle | `xsd:string` | Ja | Mappreferens. |
+| destFolderHandle | `xsd:string` | Ja | Hantera målmappen. |
 
 **Utdata (moveFolderReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`folderHandle`*` | `xsd:string` | Ja | Hantera den flyttade mappen. |
+| folderHandle | `xsd:string` | Ja | Hantera den flyttade mappen. |
 
 ## Exempel {#section-6571c6ab89ce4cb9a139abdb29c6b279}
 

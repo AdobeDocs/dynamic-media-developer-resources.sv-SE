@@ -1,17 +1,21 @@
 ---
-description: Utesluter den primära videon från den adaptiva videouppsättningen.
 title: ExcludeMasterVideoFromAVS
+description: Utesluter den primära videon från den adaptiva videouppsättningen.
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e73eab03-fbda-435c-be3c-98781f8630a5
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '50'
 ht-degree: 0%
 
 ---
 
 # ExcludeMasterVideoFromAVS{#excludemastervideofromavs}
+
+>[!IMPORTANT]
+>
+>Adobe upphör med stödet för `ExcludeMasterVideoFromAVS` parameter september 2022.
 
 Utesluter den primära videon från den adaptiva videouppsättningen.
 

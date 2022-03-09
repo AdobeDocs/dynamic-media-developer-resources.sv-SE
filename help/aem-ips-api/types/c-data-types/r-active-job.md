@@ -1,13 +1,13 @@
 ---
+title: ActiveJob
 description: Ett jobb som körs på en server. Det är också en instans av ett schemalagt jobb.
 solution: Experience Manager
-title: ActiveJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 3d878207-99e4-4c75-ab12-b38a37c82fb7
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 Ett jobb som körs på en server. Det är också en instans av ett schemalagt jobb.
 
-Jobb finns i tre lägen:
+Det finns jobb i tre lägen:
 
 * Schemalagd att köras.
 * Körs.
 * Slutförd körning (och har redan skrivit information till en jobblogg).
 
-Ange ett jobbtypsvärde för att returnera jobbtypen. Du kan returnera följande jobb:
+Om du vill returnera jobbtypen anger du ett jobbtypsvärde. Du kan returnera följande jobb:
 
 * `imageServingPublishJob`
 * `imageRenderingPublishJob`
@@ -60,7 +60,7 @@ Ange ett jobbtypsvärde för att returnera jobbtypen. Du kan returnera följande
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
-   <td colname="col3">Ursprungligt namn på typen <span class="codeph"> ActiveJob</span> som skickades med jobbet. </td> 
+   <td colname="col3">Ursprungligt namn på <span class="codeph"> ActiveJob</span> typen som skickades med jobbet. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
@@ -80,7 +80,7 @@ Ange ett jobbtypsvärde för att returnera jobbtypen. Du kan returnera följande
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> locale</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
-   <td colname="col3">Språkinställningen för jobbloggsinformation och e-postlokalisering. <p>Ange språkinställningar som <span class="codeph"> &lt;språkkod&gt;[-&lt;landskod&gt;]</span>, där språkkoden är en gemen tvåbokstavskod enligt ISO-639, och den valfria landskoden är en gemen tvåbokstavskod enligt ISO-3166. Den nationella strängen för engelska (USA) skulle till exempel vara: <span class="codeph"> en-US</span>. </p></td> 
+   <td colname="col3">Språkinställningen för jobbloggsinformation och e-postlokalisering. <p>Ange nationella inställningar som <span class="codeph"> &lt;language_code&gt;[-&lt;country_code&gt;]</span>, där språkkoden är en gemen tvåbokstavskod enligt ISO-639 och den valfria landskoden är en versal tvåbokstavskod enligt ISO-3166. Den nationella strängen för engelska (USA) skulle till exempel vara: <span class="codeph"> en-US</span>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> description</span> </span> </td> 
@@ -165,7 +165,7 @@ Ange ett jobbtypsvärde för att returnera jobbtypen. Du kan returnera följande
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> uploadPostJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:UploadPostJob</span> </td> 
-   <td colname="col3"> Jobbdetaljspårning för överföring till skrivbordet. </td> 
+   <td colname="col3"> Jobbdetaljer, spåra överföring till skrivbordet. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 

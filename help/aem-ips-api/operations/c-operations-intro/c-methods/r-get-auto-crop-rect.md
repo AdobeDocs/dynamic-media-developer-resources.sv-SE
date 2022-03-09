@@ -5,9 +5,9 @@ title: getAutoCropRect
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e291597a-b863-42dd-88dc-13398b734410
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
@@ -34,23 +34,23 @@ Syntax
 
 >[!NOTE]
 >
->Ange antingen `*`autoColorCropOptions`*` eller `*`autoTransparentCropOptions`*` när du anropar den här metoden.
+>Ange antingen autoColorCropOptions eller autoTransparentCropOptions när du anropar den här metoden.
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handtaget till företaget med den resurs du vill arbeta med. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Referensen till resursen som du vill arbeta med. |
-| `*`autoColorCropOptions`*` | `types:AutoColorCropOptions` | Nej | Beräkna beskärningsrektangeln baserat på färg. Se [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6). |
-| `*`autoTransparentCropOptions`*` | `types:AutoTransparentCropOptions` | Nej | Beräkna beskärningsrektangeln baserat på genomskinlighet. Se [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b). |
+| companyHandle | `xsd:string` | Ja | Handtaget till företaget med den resurs du vill arbeta med. |
+| assetHandle | `xsd:string` | Ja | Referensen till resursen som du vill arbeta med. |
+| autoColorCropOptions | `types:AutoColorCropOptions` | Nej | Beräkna beskärningsrektangeln baserat på färg. Se [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6). |
+| autoTransparentCropOptions | `types:AutoTransparentCropOptions` | Nej | Beräkna beskärningsrektangeln baserat på genomskinlighet. Se [AutoTransparentBeskärningsalternativ](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b). |
 
 **Utdata (getAutoCropRectReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`xOffset`*` | `xsd:int` | Ja | Den inledande pixelkoordinaten för det beräknade beskärningsområdet. |
-| `*`yOffset`*` | `xsd:int` | Ja | Den inledande pixelkoordinaten för det beräknade beskärningsområdet. |
-| `*`width`*` | `xsd:int` | Ja | Bredden på det beräknade beskärningsområdet (i pixlar). |
-| `*`height`*` | `xsd:int` | Ja | Höjden på det beräknade beskärningsområdet (i pixlar). |
+| xOffset | `xsd:int` | Ja | Den inledande pixelkoordinaten för det beräknade beskärningsområdet. |
+| yOffset | `xsd:int` | Ja | Den inledande pixelkoordinaten för det beräknade beskärningsområdet. |
+| width | `xsd:int` | Ja | Bredden på det beräknade beskärningsområdet (i pixlar). |
+| height | `xsd:int` | Ja | Höjden på det beräknade beskärningsområdet (i pixlar). |
 
 ## Exempel {#section-ba65bd66086d491cad1cea535954ee1f}
 
@@ -81,5 +81,5 @@ Syntax
 >[!MORELIKETHIS]
 >
 >* [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6)
-* [AutoTransparentBeskärningsalternativ](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)
+>* [AutoTransparentBeskärningsalternativ](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)
 

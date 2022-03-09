@@ -2,12 +2,12 @@
 description: Söker i metadataindexarkivet efter de angivna söktermerna. Returnerar resursdata som metoden searchAssets.
 solution: Experience Manager
 title: searchAssetsByMetadata
-feature: Dynamic Media Classic,SDK/API,Metadata,Resurshantering
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: a0e01edb-c52b-436d-a166-e24cc6861c49
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Söker i metadataindexarkivet efter de angivna söktermerna. Returnerar resursdata som metoden searchAssets.
 
-Med `searchAssetsByMetadata` kan du söka efter användardefinierade metadatafält, men dessa fält returneras inte om de anges i `responseMetadataArray`. Följande kodexempel illustrerar detta:
+while `searchAssetsByMetadata` gör att du kan söka efter användardefinierade metadatafält. Dessa fält returneras inte om de anges i `responseMetadataArray`. Följande kodexempel illustrerar detta:
 
 ```java
 <ns:responseMetadataArray>
@@ -33,7 +33,7 @@ returnerar ett null-värde:
 </items>
 ```
 
-Du kan lösa det här problemet genom att använda `fieldHandles` för resurserna som returneras från sökningen för att köra `getAssets` (se även [getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)). Den här metoden hämtar värden för användardefinierade fält för resurserna i fråga. Använd följande syntaxexempel för att söka mot användardefinierade metadatafält:
+Du kan använda `fieldHandles` av de resurser som returneras från sökningen som ska köras `getAssets` (se även [getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)). Den här metoden hämtar värden för användardefinierade fält för resurserna i fråga. Använd följande syntaxexempel för att söka mot användardefinierade metadatafält:
 
 ```java
 <ns:metadataConditionArray>
@@ -103,7 +103,7 @@ Du kan lösa det här problemet genom att använda `fieldHandles` för resursern
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>Nej </p> </td> 
-   <td colname="col4"> <p>Anger vilken resultatsida som ska returneras baserat på sidstorleken <span class="codeph"> recordsPerPage</span>. </p> </td> 
+   <td colname="col4"> <p>Anger vilken resultatsida som ska returneras, baserat på <span class="codeph"> recordsPerPage</span> sidstorlek. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> sortBy</span> </span> </p> </td> 
@@ -124,8 +124,8 @@ Du kan lösa det här problemet genom att använda `fieldHandles` för resursern
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`totalRows`*` | `xsd:int` | Nej | Antal träffar. |
-| `*`assetArray`*` | `types:AssetArray` | Nej | Array med resurser som returneras av sökningen. |
+| totalRows | `xsd:int` | Nej | Antal träffar. |
+| assetArray | `types:AssetArray` | Nej | Array med resurser som returneras av sökningen. |
 
 ## metadataConditionArray - information {#section-1af4a4a22f82451eabdf6dfe13d9f27d}
 
@@ -156,13 +156,13 @@ Du kan lösa det här problemet genom att använda `fieldHandles` för resursern
 * `sku`
 * `modified_at`
 * `modified_by`
-* `created_at` (samma som  `modified_at` (datum i formuläret: fr.o.m. 25 juli 2014 22:13:45 GMT-0500 (CDT)
+* `created_at` (samma som `modified_at` (Datum i form av: fr.o.m. 25 juli 2014 22:13:45 GMT-0500 (CDT))
 
 * `created_by`
 
 **Tillåtna operatorer**
 
-[!DNL operator] definierar hur värdet ska jämföras och inkluderar:
+The [!DNL operator] definierar hur värdet ska jämföras och inkluderar:
 
 * `Equals`
 * `NotEquals`
@@ -171,15 +171,15 @@ Du kan lösa det här problemet genom att använda `fieldHandles` för resursern
 * `StartsWith`
 * `EndsWith`
 
-`comparison_value` är den term du ska söka efter.
+The `comparison_value` är den term du ska söka efter.
 
 ## Exempel {#section-53a12b9c023e4e629eddf5719c955ad4}
 
 Det här kodexemplet utför en sökning med följande metadatavillkor:
 
-* `name` fältet innehåller  `1000801`.
+* `name` fältet innehåller `1000801`.
 
-* `dc.rights` är lika med  `Per Jessen Schmidt`.
+* `dc.rights` fält är lika med `Per Jessen Schmidt`.
 
 **Begäran**
 

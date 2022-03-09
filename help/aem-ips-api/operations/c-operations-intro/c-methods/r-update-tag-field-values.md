@@ -5,9 +5,9 @@ title: updateTagFieldValues
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6de49217-2d15-49d9-9357-b058b2564686
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> updateArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:TagValueUpdateArray</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4">Array med taggfältsvärden som du vill uppdatera. <p>Obs!  Uppdaterar endast strängvärden för taggar. Påverkar inte resursassociationer. </p> </td> 
+   <td colname="col4">Array med taggfältsvärden som du vill uppdatera. <p>Obs! Uppdaterar endast strängvärden för taggar. Påverkar inte resursassociationer. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,11 +63,11 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Ja | Antalet uppdaterade taggfält. |
-| `*`warningCount`*` | `xsd:int` | Ja | Antalet varningar som genererades när åtgärden försökte uppdatera taggfält. |
-| `*`errorCount`*` | `xsd:int` | Ja | Antalet fel som genererades när åtgärden försökte uppdatera taggfält. |
-| `*`warningDetailArray`*` | `types:TagValueUpdateFaultArray` | Nej | Arrayen med information som är associerad med resurserna som genererade varningar när åtgärden försökte uppdatera taggfält. |
-| `*`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | Nej | Arrayen med information som är associerad med resurserna som genererade fel när åtgärden försökte uppdatera taggfält. |
+| successCount | `xsd:int` | Ja | Antalet uppdaterade taggfält. |
+| warningCount | `xsd:int` | Ja | Antalet varningar som genererades när åtgärden försökte uppdatera taggfält. |
+| errorCount | `xsd:int` | Ja | Antalet fel som genererades när åtgärden försökte uppdatera taggfält. |
+| warningDetailArray | `types:TagValueUpdateFaultArray` | Nej | Arrayen med information som är associerad med resurserna som genererade varningar när åtgärden försökte uppdatera taggfält. |
+| errorDetailArray | `types:TagValueUpdateFaultArray` | Nej | Arrayen med information som är associerad med resurserna som genererade fel när åtgärden försökte uppdatera taggfält. |
 
 ## Exempel {#section-bb4dcf97044c4675974c9b8d27674001}
 

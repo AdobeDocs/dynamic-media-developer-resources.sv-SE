@@ -5,9 +5,9 @@ title: MPEvent
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 642c82d1-aea1-4430-a599-b526fdbc8091
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '132'
 ht-degree: 10%
 
 ---
@@ -22,24 +22,24 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| `*`eventType`*` | `xsd:string` | Händelsetyp för Media Portal. |
-| `*`createDate`*` | `xsd:dateTime` | Datum när händelsen skapades. |
-| `*`ipsUser`*` | `xsd:string` | System eller användare som utlöser händelsen. |
-| `*`companyId`*` | `xsd:int` | Företags-ID. |
-| `*`companyName`*` | `xsd:string` | Företagsnamn. |
-| `*`jobName`*` | `xsd:string` | Ett unikt jobbnamn. |
-| `*`jobDescription`*` | `xsd:string` | En användbar beskrivning av jobbet. |
-| `*`string1`*` | `xsd:string` | Innehavare av stränginformation (valfritt). |
-| `*`string2`*` | `xsd:string` | Innehavare av stränginformation (valfritt). |
-| `*`string3`*` | `xsd:string` | Innehavare av stränginformation (valfritt). |
-| `*`string4`*` | `xsd:string` | Innehavare av stränginformation (valfritt). |
-| `*`string5`*` | `xsd:string` | Innehavare av stränginformation (valfritt). |
-| `*`int1`*` | `xsd:int` | Innehavare av heltalsinformation (valfritt). |
-| `*`int2`*` | `xsd:int` | Innehavare av heltalsinformation (valfritt). |
-| `*`int3`*` | `xsd:int` | Innehavare av heltalsinformation (valfritt). |
-| `*`int4`*` | `xsd:int` | Innehavare av heltalsinformation (valfritt). |
-| `*`int5`*` | `xsd:int` | Innehavare av heltalsinformation (valfritt). |
-| `*`float1`*` | `xsd:double` | Innehavare av flyttal (valfritt). |
-| `*`float2`*` | `xsd:double` | Innehavare av flyttal (valfritt). |
-| `*`float3`*` | `xsd:double` | Innehavare av flyttal (valfritt). |
-| `*`time1`*` | `xsd:dateTime` | Innehavare av datum-/tidsstämpelinformation (valfritt). |
+| eventType | `xsd:string` | Händelsetyp för Media Portal. |
+| createDate | `xsd:dateTime` | Datum när händelsen skapades. |
+| ipsUser | `xsd:string` | System eller användare som utlöser händelsen. |
+| companyId | `xsd:int` | Företags-ID. |
+| companyName | `xsd:string` | Företagsnamn. |
+| jobName | `xsd:string` | Ett unikt jobbnamn. |
+| jobDescription | `xsd:string` | En användbar beskrivning av jobbet. |
+| string1 | `xsd:string` | Innehavare av stränginformation (valfritt). |
+| string2 | `xsd:string` | Innehavare av stränginformation (valfritt). |
+| string3 | `xsd:string` | Innehavare av stränginformation (valfritt). |
+| string4 | `xsd:string` | Innehavare av stränginformation (valfritt). |
+| string5 | `xsd:string` | Innehavare av stränginformation (valfritt). |
+| int1 | `xsd:int` | Innehavare av heltalsinformation (valfritt). |
+| int2 | `xsd:int` | Innehavare av heltalsinformation (valfritt). |
+| int3 | `xsd:int` | Innehavare av heltalsinformation (valfritt). |
+| int4 | `xsd:int` | Innehavare av heltalsinformation (valfritt). |
+| int5 | `xsd:int` | Innehavare av heltalsinformation (valfritt). |
+| float1 | `xsd:double` | Innehavare av flyttal (valfritt). |
+| float2 | `xsd:double` | Innehavare av flyttal (valfritt). |
+| float3 | `xsd:double` | Innehavare av flyttal (valfritt). |
+| time1 | `xsd:dateTime` | Innehavare av datum-/tidsstämpelinformation (valfritt). |

@@ -5,9 +5,9 @@ title: getFolders
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 71fe3343-2560-4d74-8ec3-1229d83a62e1
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
@@ -43,20 +43,20 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handtaget till företaget. |
-| `*`accessUserHandle`*` | `xsd:string` | Nej | Används av administratörer för att personifiera en viss användare. |
-| `*`accessGroupHandle`*` | `xsd:string` | Nej | Filtrera efter en viss grupp. |
-| `*`folderPath`*` | `xsd:string` | Nej | Rotmappen som ska hämta mappar och alla undermappar till lövnivån. Om detta utelämnas används företagsroten. |
-| `*`assetTypeArray`*` | `types:StringArray` | Nej | Returnerar mappar som bara innehåller angivna resurstyper. |
-| `*`responseFieldArray`*` | `types:StringArray` | Nej | Innehåller en lista med fält som du vill inkludera i svaret. |
-| `*`excludeFieldArray`*` | `types:StringArray` | Nej | Innehåller en lista med fält som du vill utesluta från svaret. |
+| companyHandle | `xsd:string` | Ja | Handtaget till företaget. |
+| accessUserHandle | `xsd:string` | Nej | Används av administratörer för att personifiera en viss användare. |
+| accessGroupHandle | `xsd:string` | Nej | Filtrera efter en viss grupp. |
+| folderPath | `xsd:string` | Nej | Rotmappen som ska hämta mappar och alla undermappar till lövnivån. Om detta utelämnas används företagsroten. |
+| assetTypeArray | `types:StringArray` | Nej | Returnerar mappar som bara innehåller angivna resurstyper. |
+| responseFieldArray | `types:StringArray` | Nej | Innehåller en lista med fält som du vill inkludera i svaret. |
+| excludeFieldArray | `types:StringArray` | Nej | Innehåller en lista med fält som du vill utesluta från svaret. |
 
 **Utdata (getFoldersReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`folderArray`*` | `types:FolderArray` | Nej | En matris med mappar som matchar filtervillkoren. Svaret är begränsat till max 100 000 mappar. |
-| `*`permissionsSetArray`*` | `types:PermissionSetArray` |  |  |
+| folderArray | `types:FolderArray` | Nej | En matris med mappar som matchar filtervillkoren. Svaret är begränsat till max 100 000 mappar. |
+| permissionsSetArray | `types:PermissionSetArray` |  |  |
 
 ## Exempel {#section-b5cb06e9fb9945ad898dbdc3692b754e}
 

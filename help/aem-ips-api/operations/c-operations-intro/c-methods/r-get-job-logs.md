@@ -5,9 +5,9 @@ title: getJobLogs
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6239c3c4-bdbc-4e69-82d4-48a76f080eff
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '184'
 ht-degree: 0%
 
 ---
@@ -36,19 +36,19 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Nej | Företagets handtag. |
-| `*`userHandle`*` | `xsd:string` | Nej | Hämtar loggar för jobb som skickats av en viss användare. |
-| `*`sortBy`*` | `xsd:string` | Nej | Här kan du välja sorteringsfält. |
-| `*`sortDirection`*` | `xsd:string` | Nej | Sorteringsordning (stigande eller fallande). |
-| `*`startDate`*` | `xsd:dateTime` | Nej | Datum och tid då jobbloggen startades. Ange tidszonen med begäran för det här fältet. |
-| `*`endDate`*` | `xsd:dateTime` | Nej | Datum och tid för slutet av jobbloggen. Ange tidszonen med begäran för det här fältet. |
-| `*`numRows`*` | `xsd:int` | Nej | Maximalt antal rader att returnera. |
+| companyHandle | `xsd:string` | Nej | Företagets handtag. |
+| userHandle | `xsd:string` | Nej | Hämtar loggar för jobb som skickats av en viss användare. |
+| sortBy | `xsd:string` | Nej | Här kan du välja sorteringsfält. |
+| sortDirection | `xsd:string` | Nej | Sorteringsordning (stigande eller fallande). |
+| startDate | `xsd:dateTime` | Nej | Datum och tid då jobbloggen startades. Ange tidszonen med begäran för det här fältet. |
+| endDate | `xsd:dateTime` | Nej | Datum och tid för slutet av jobbloggen. Ange tidszonen med begäran för det här fältet. |
+| numRows | `xsd:int` | Nej | Maximalt antal rader att returnera. |
 
 **Utdata (getJobLogsReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`jobLogArray`*` | `types: JobLogArray` | Ja | Matris med jobbloggar. |
+| jobLogArray | `types: JobLogArray` | Ja | Matris med jobbloggar. |
 
 ## Exempel {#section-35871c94b4a44559912577efddbc46a6}
 

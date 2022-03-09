@@ -1,20 +1,20 @@
 ---
-description: Returnerar bildformat som PDF, EPS, SWF och andra.
+description: Returnerar bildformat som PDF, EPS, SWF med flera.
 solution: Experience Manager
 title: getImageFormats
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c2fa4cdd-fb4f-4e6a-8197-8f64c986c3a0
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '74'
 ht-degree: 0%
 
 ---
 
 # getImageFormats{#getimageformats}
 
-Returnerar bildformat som PDF, EPS, SWF och andra.
+Returnerar bildformat som PDF, EPS, SWF med flera.
 
 Syntax
 
@@ -34,13 +34,13 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handtaget till företaget med de bildformat som du vill ha. |
+| companyHandle | `xsd:string` | Ja | Handtaget till företaget med de bildformat som du vill ha. |
 
 **Utdata (getImageFormatsParam)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`imageFormatArray`*` | `types:ImageFormatArray` | Ja | Bildformatsmatrisen. |
+| imageFormatArray | `types:ImageFormatArray` | Ja | Bildformatsmatrisen. |
 
 ## Exempel {#section-73881e12839b4904bf3299b0920bdd0c}
 

@@ -5,9 +5,9 @@ title: setCompanySettings
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c6b72ceb-3c86-4b13-89e9-5f1bb9846b2c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
@@ -31,15 +31,15 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Företagshandtag. |
-| `*`overwriteMode`*` | `xsd:string` | Nej | Tillgångsöverskrivningsläge. |
-| `*`keepPublishState`*` | `xsd:boolean` | Nej | Ange `true` för att bevara publiceringstillståndet när en resurs överförs igen. |
-| `*`defaultSourceProfileHandle`*` | `xsd:string` | Nej | IccProfile-resurs som ska användas som standardkällfärgprofil. |
-| `*`defaultDisplayProfileHandle`*` | `xsd:string` | Nej | IccProfile-resurs som ska användas som standardprofil för visningsfärg. |
-| `*`iptcExifMappingXsltHandle`*` | `xsd:string` | Nej | XSL-resurs som används för att mappa IPTC- och EXIF-metadata till IPS-metadatafält. |
-| `*`xmpMappingXsltHandle`*` | `xsd:string` | Nej | XSL-resurs som används för att mappa XMP metadata till IPS-metadatafält. |
-| `*`discSpaceWarningMin`*` | `xsd:int` | Nej | Minsta lediga diskutrymme (i kB) som är tillgängligt innan ett varningsmeddelande skickas. |
-| `*`emailTrashCleanupWarning`*` | `xsd:boolean` | Nej | Ange `true` för att skicka ett meddelande till företagsadministratörer när resurser tömts från papperskorgen. |
+| companyHandle | `xsd:string` | Ja | Företagshandtag. |
+| overwriteMode | `xsd:string` | Nej | Tillgångsöverskrivningsläge. |
+| keepPublishState | `xsd:boolean` | Nej | Ange till `true` för att bevara publiceringstillståndet när en resurs överförs igen. |
+| defaultSourceProfileHandle | `xsd:string` | Nej | IccProfile-resurs som ska användas som standardkällfärgprofil. |
+| defaultDisplayProfileHandle | `xsd:string` | Nej | IccProfile-resurs som ska användas som standardprofil för visningsfärg. |
+| iptcExifMappingXsltHandle | `xsd:string` | Nej | XSL-resurs som används för att mappa IPTC- och EXIF-metadata till IPS-metadatafält. |
+| xmpMappingXsltHandle | `xsd:string` | Nej | XSL-resurs som används för att mappa XMP metadata till IPS-metadatafält. |
+| discSpaceWarningMin | `xsd:int` | Nej | Minsta lediga diskutrymme (i kB) som är tillgängligt innan ett varningsmeddelande skickas. |
+| emailTrashCleanupWarning | `xsd:boolean` | Nej | Ange till `true` för att skicka ett meddelande till företagsadministratörer när resurser tömts från papperskorgen. |
 
 **Utdata (setCompanySettingsReturn)**
 

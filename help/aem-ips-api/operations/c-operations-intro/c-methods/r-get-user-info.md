@@ -5,9 +5,9 @@ title: getUserInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1981f25f-779e-4434-ab6b-0debb40521fe
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
@@ -36,14 +36,14 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | Nej | Hantera användaren vars information du vill returnera. |
-| `*`e-post`*` | `xsd:string` | Nej | Användarens e-postadress. |
+| userHandle | `xsd:string` | Nej | Hantera användaren vars information du vill returnera. |
+| e-post | `xsd:string` | Nej | Användarens e-postadress. |
 
 **Utdata (getUserInfoReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`userInfo`*` | `types:User` | Ja | Användarens förnamn, efternamn, e-postadress och roll, samt om användaren är giltig och när användarens lösenord upphör att gälla. |
+| userInfo | `types:User` | Ja | Användarens förnamn, efternamn, e-postadress och roll, samt om användaren är giltig och när användarens lösenord upphör att gälla. |
 
 ## Exempel {#section-98d77a2e360a438dbe240099bea26a65}
 

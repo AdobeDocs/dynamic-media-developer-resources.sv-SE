@@ -5,9 +5,9 @@ title: PostScriptInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9d226927-3b00-4e11-b279-e866aa649477
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '22'
+source-wordcount: '17'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,6 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | Filsökväg. |
-| `*`originalFile`*` | `xsd:string` | Filnamn. |
-| `*`fileSize`*` | `xsd:int` | Filstorlek. |
+| originalPath | `xsd:string` | Filsökväg. |
+| originalFile | `xsd:string` | Filnamn. |
+| fileSize | `xsd:int` | Filstorlek. |

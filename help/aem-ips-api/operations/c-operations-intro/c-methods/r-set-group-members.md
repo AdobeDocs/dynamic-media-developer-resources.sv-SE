@@ -5,9 +5,9 @@ title: setGroupMembers
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 81348da7-6733-4da9-8a0a-376fccf791ea
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,9 @@ Anger gruppmedlemskap för användare som tillhör ett visst företag.
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Företagshandtag. |
-| `*`groupHandle`*` | `xsd:string` | Ja | Gruppreferens. |
-| `*`userHandleArray`*` | `types:HandleArray` | Ja | Array med referenser för användare vars gruppmedlemskap du vill ange. |
+| companyHandle | `xsd:string` | Ja | Företagshandtag. |
+| groupHandle | `xsd:string` | Ja | Gruppreferens. |
+| userHandleArray | `types:HandleArray` | Ja | Array med referenser för användare vars gruppmedlemskap du vill ange. |
 
 **Utdata (setGroupMembesReturn)**
 

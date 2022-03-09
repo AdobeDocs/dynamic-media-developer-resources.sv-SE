@@ -5,9 +5,9 @@ title: saveImageFormat
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: cafbd715-237b-4454-920e-643f0c84e208
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Skapar ett bildformat.
 
 >[!NOTE]
 >
->Fältvärdet `urlModifier` måste bestå av giltig XML. Ändra till exempel `&` till `&`. Hämta `urlModfier`-värdet från IPS-användargränssnittet.
+>The `urlModifier` fältvärdet måste bestå av giltig XML. Ändra till exempel `&` till `&`. Skaffa `urlModfier` från IPS-användargränssnittet.
 
 ## Auktoriserade användartyper {#section-12c9d8d5933f4692bafb194060b4f882}
 
@@ -33,20 +33,20 @@ Skapar ett bildformat.
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handtaget till företaget med det bildformat som du vill arbeta med. |
-| `*`imageFormatHandle`*` | `xsd:string` | Nej | Bildformatshandtag som du vill spara. |
-| `*`name`*` | `xsd:string` | Ja | Bildformatsnamn. |
-| `*`urlModifier`*` | `xsd:string` | Ja | Detta kan vara vilken frågesträng som helst för IPS-protokoll. Det enklaste sättet att generera en URL-modifierare är att skapa en med IPS-användargränssnittet och sedan klippa ut och klistra in frågesträngen. |
+| companyHandle | `xsd:string` | Ja | Handtaget till företaget med det bildformat som du vill arbeta med. |
+| imageFormatHandle | `xsd:string` | Nej | Bildformatshandtag som du vill spara. |
+| name | `xsd:string` | Ja | Bildformatsnamn. |
+| urlModifier | `xsd:string` | Ja | Detta kan vara vilken frågesträng som helst för IPS-protokoll. Det enklaste sättet att generera en URL-modifierare är att skapa en med IPS-användargränssnittet och sedan klippa ut och klistra in frågesträngen. |
 
 **Utdata (saveImageFormatReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`imageFormatHandle`*` | `xsd:string` | Ja | Hantera bildformatet. |
+| imageFormatHandle | `xsd:string` | Ja | Hantera bildformatet. |
 
 ## Exempel {#section-c7bd733212ef494297a97093f3af193f}
 
-I det här kodexemplet skapas ett bildformat. I det här exemplet bestämdes `urlModifier` av dess värde i IPS-användargränssnittet med ett giltigt HTML-format.
+I det här kodexemplet skapas ett bildformat. I det här exemplet `urlModifier` har bestämts av dess värde i IPS-användargränssnittet med ett giltigt HTML-format.
 
 **Begäran**
 

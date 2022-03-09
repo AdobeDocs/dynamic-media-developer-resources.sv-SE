@@ -1,20 +1,20 @@
 ---
-description: Alternativ för PDF-filer.
+description: Filalternativ för PDF.
 solution: Experience Manager
 title: PDFOptions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 140c9261-e590-4889-9be4-29afd19ffa86
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '68'
 ht-degree: 0%
 
 ---
 
 # PDFOptions{#pdfoptions}
 
-Alternativ för PDF-filer.
+Filalternativ för PDF.
 
 Syntax
 
@@ -22,9 +22,9 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| `*`process`*` | `xsd:string` | Val av&quot;PDF-processer&quot;. |
-| `*`upplösning`*` | `xsd:double` | Filupplösning. |
-| `*`färgrymd`*` | `xsd:string` | Färgrymdsval efter skript. |
-| `*`pdfCatalog`*` | `xsd:boolean` | Om en PDF-fil med flera sidor ska kombineras i en e-katalog efter återgivningen (standardvärdet är true). |
-| `*`extractSearchWords`*` | `xsd:boolean` | Om sökord ska extraheras från PDF-filen. |
-| `*`extractLinks`*` | `xsd:boolean` | Om PDF-länkar ska extraheras till bildscheman som tilldelats de rastrerade sidorna i IPS. |
+| process | `xsd:string` | Val av&quot;PDF-processer&quot;. |
+| upplösning | `xsd:double` | Filupplösning. |
+| färgrymd | `xsd:string` | Färgrymdsval efter skript. |
+| pdfCatalog | `xsd:boolean` | Om en sida med flera PDF ska kombineras i en e-katalog efter återgivningen (standardvärdet är true). |
+| extractSearchWords | `xsd:boolean` | Om sökord ska extraheras från filen PDF. |
+| extractLinks | `xsd:boolean` | Om PDF-länkar ska extraheras till bildscheman som tilldelats de rastrerade sidorna i IPS. |

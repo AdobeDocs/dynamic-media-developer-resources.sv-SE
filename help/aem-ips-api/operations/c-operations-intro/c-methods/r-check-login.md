@@ -5,9 +5,9 @@ title: checkLogin
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1f96f376-574c-464b-9c89-c215f6454b81
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
@@ -38,19 +38,19 @@ Kontrollerar om en användare med ett visst företag (identifieras av referens),
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Nej | Referensen till företaget som innehåller användaren. |
-| `*`e-post`*` | `xsd:string` | Ja | Användarens e-postadress. |
-| `*`lösenord`*` | `xsd:string` | Ja | Användarens lösenord. |
+| companyHandle | `xsd:string` | Nej | Referensen till företaget som innehåller användaren. |
+| e-post | `xsd:string` | Ja | Användarens e-postadress. |
+| lösenord | `xsd:string` | Ja | Användarens lösenord. |
 
 **Utdata (checkLoginParam)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`status`*` | `xsd:string` | Ja | Användarens inloggningsstatus. |
+| status | `xsd:string` | Ja | Användarens inloggningsstatus. |
 
 ## Exempel {#section-23f90100a9d94bc7b4045634cccd1b98}
 
-I den här exempelkoden används en företagshanteringsparameter, e-postadress och ett lösenord för att avgöra om en användare kan logga in på IPS. Om användaren *kan* logga in returnerar metoden strängen `ValidLogin`. Om användaren *inte kan* logga in returnerar metoden strängen `InvalidLogin`.
+I den här exempelkoden används en företagshanteringsparameter, e-postadress och ett lösenord för att avgöra om en användare kan logga in på IPS. Om användaren *kan* loggar in returnerar den här metoden strängen, `ValidLogin`. Om användaren *inte* loggar in returnerar den här metoden strängen, `InvalidLogin`.
 
 **Begäran**
 

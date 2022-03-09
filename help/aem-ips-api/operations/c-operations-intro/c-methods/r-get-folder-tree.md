@@ -5,9 +5,9 @@ title: getFolderTree
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1afe63ca-d11a-4fa5-a26b-90a23bee1b68
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -38,21 +38,21 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handtaget till företaget. |
-| `*`accessUserHandle`*` | `xsd:string` | Nej | Används endast av administratörer för att personifiera en viss användare. |
-| `*`accessGroupHandle`*` | `xsd:string` | Nej | Används för att filtrera efter en viss grupp, inklusive någon av dem som företaget tillhör. |
-| `*`folderPath`*` | `xsd:string` | Nej | Rotmappen som ska hämta mappar och alla undermappar till lövnivån. Om detta utelämnas används företagsroten. |
-| `*`djup`*` | `xsd:int` | Ja | Värdet noll hämtar mappen på den översta nivån. Alla andra värden anger djupet som ska nedbrytas i trädet. |
-| `*`assetTypeArray`*` | `types:StringArray` | Nej | Returnerar mappar som bara innehåller angivna resurstyper. |
-| `*`responseFieldArray`*` | `types:StringArray` | Nej | Innehåller en lista med fält som du vill inkludera i svaret. |
-| `*`excludeFieldArray`*` | `types:StringArray` | Nej | Innehåller en lista med fält som du vill utesluta i svaret. |
+| companyHandle | `xsd:string` | Ja | Handtaget till företaget. |
+| accessUserHandle | `xsd:string` | Nej | Används endast av administratörer för att personifiera en viss användare. |
+| accessGroupHandle | `xsd:string` | Nej | Används för att filtrera efter en viss grupp, inklusive någon av dem som företaget tillhör. |
+| folderPath | `xsd:string` | Nej | Rotmappen som ska hämta mappar och alla undermappar till lövnivån. Om detta utelämnas används företagsroten. |
+| djup | `xsd:int` | Ja | Värdet noll hämtar mappen på den översta nivån. Alla andra värden anger djupet som ska nedbrytas i trädet. |
+| assetTypeArray | `types:StringArray` | Nej | Returnerar mappar som bara innehåller angivna resurstyper. |
+| responseFieldArray | `types:StringArray` | Nej | Innehåller en lista med fält som du vill inkludera i svaret. |
+| excludeFieldArray | `types:StringArray` | Nej | Innehåller en lista med fält som du vill utesluta i svaret. |
 
 **Utdata (getFolderTreeReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `*`mappar`*` | `types:folders` | Nej | Hierarkin för mappar i en trädstruktur. Svaret är begränsat till högst 100 000 mappar. |
-| `*`permissionSetArray`*` | `types:PermissionSetArray` |  |  |
+| mappar | `types:folders` | Nej | Hierarkin för mappar i en trädstruktur. Svaret är begränsat till högst 100 000 mappar. |
+| permissionSetArray | `types:PermissionSetArray` |  |  |
 
 ## Exempel {#section-a9fd2edb56574dd9bf8b0f2fd89367e4}
 
