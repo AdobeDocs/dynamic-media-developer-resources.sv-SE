@@ -6,7 +6,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 937be8a2-307e-47bb-9fc8-d354f780a214
-source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2413'
 ht-degree: 0%
@@ -92,7 +92,7 @@ Du kan anpassa visuellt genom att använda anpassad CSS.
 
 Här följer ett exempel på HTML som öppnar visningsprogrammet i ett nytt fönster:
 
-```
+```html {.line-numbers}
 <a href="http://s7d1.scene7.com/s7viewers/html5/SmartCropVideoViewer.html?asset=html5automation/frisbee-AVS" target="_blank">Open popup viewer</a>
 ```
 
@@ -129,7 +129,7 @@ Du kan använda en relativ sökväg om visningsprogrammet distribueras på någo
 
 Relativ sökväg ser ut så här:
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/SmartCropVideoViewer.js"></script>
 ```
 
@@ -150,7 +150,7 @@ Relativ sökväg ser ut så här:
 
    Följande är ett exempel på ett definierat DIV-platshållarelement:
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative;width:640px;height:360px;"></div> 
    ```
 
@@ -164,7 +164,7 @@ Relativ sökväg ser ut så här:
 
    Följande är ett exempel på hur du definierar en statisk visningsstorlek på en HTML-sida:
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7videoviewer { 
     width: 640px; 
     height: 480px; 
@@ -173,7 +173,7 @@ Relativ sökväg ser ut så här:
 
    Du kan ange `stagesize` modifiera antingen i posten för visningsförinställning i Dynamic Media Classic, eller skicka den explicit med startkoden för visningsprogrammet med `params` samling. Eller som ett API-anrop enligt beskrivningen i kommandoreferensavsnittet, som i följande:
 
-   ```
+   ```html {.line-numbers}
    smartCropVideoViewer.setParam("stagesize", "640,480");
    ```
 
@@ -189,7 +189,7 @@ Relativ sökväg ser ut så här:
 
    Följande är ett exempel på hur du skapar en visningsprograminstans, skickar nödvändiga minimikonfigurationsalternativ till konstruktorn och anropar `init()` -metod. Det här exemplet förutsätter `smartCropVideoViewer` är visningsprograminstansen, `s7viewer` är namnet på platshållaren `DIV`, [!DNL http://s7d1.scene7.com/is/image/] är webbadressen till bildservern, [!DNL http://s7d1.scene7.com/is/content/] är webbadressen till videoservern, och [!DNL html5automation/frisbee-AVS] är tillgången.
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var smartCropVideoViewer = new s7viewers.SmartCropVideoViewer({ 
     "containerId":"s7viewer", 
@@ -204,7 +204,7 @@ Relativ sökväg ser ut så här:
 
    Följande kod är ett komplett exempel på en enkel webbsida som bäddar in visningsprogrammet för smart beskärning med en fast storlek:
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -236,7 +236,7 @@ Relativ sökväg ser ut så här:
 
 Med den responsiva designinbäddningen har webbsidan vanligtvis någon typ av flexibel layout på plats som bestämmer körningsstorleken för visningsprogrammets behållare `DIV`. I det här exemplet antar du att webbsidan tillåter visningsprogrammets behållare `DIV` för att ta 40 % av webbläsarens fönsterstorlek och låta dess höjd vara obegränsad. Webbsidans HTML-kod ser ut så här:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -260,7 +260,7 @@ Att lägga till visningsprogrammet på en sådan sida liknar inbäddningen av fa
 
 Alla steg ovan är desamma som med inbäddning med fast storlek. Lägg till behållare `DIV` till den befintliga &quot; innehavaren&quot; `DIV`. Följande kod är ett komplett exempel. Du kan se hur visningsprogrammets storlek ändras när webbläsarens storlek ändras och hur visningsprogrammets proportioner matchar resursen.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -299,7 +299,7 @@ Följande exempelsida visar hur responsiv designinbäddning med obegränsad höj
 
 Om det finns responsiv designinbäddning med definierad bredd och höjd är webbsidans format annorlunda. ger &quot; hållaren&quot; båda storlekar `DIV` och centrera det i webbläsarfönstret. Dessutom anger webbsidan storleken på `HTML` och `BODY` till 100 %:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -325,7 +325,7 @@ height: 60%;
 
 De återstående inbäddningsstegen är identiska med responsiv designinbäddning med obegränsad höjd. Följande exempel visas:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -368,7 +368,7 @@ I stället för att använda JSON-baserad initiering kan du använda set-based A
 
 I följande exempel visas inbäddning med fast storlek med set-based API:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

@@ -1,11 +1,11 @@
 ---
 title: Stöd för Adobe Analytics tracking
-description: HTML5 Video360 Viewer har stöd för körklar Adobe Analytics-spårning.
+description: Visningsprogrammet HTML5 Video360 har stöd för Adobe Analytics-spårning direkt.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 74a69d01-fa58-4d36-8598-992baf6ae11d
-source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 # Stöd för Adobe Analytics tracking{#support-for-adobe-analytics-tracking}
 
-HTML5 Video360 Viewer har stöd för körklar Adobe Analytics-spårning.
+Visningsprogrammet HTML5 Video360 har stöd för Adobe Analytics-spårning direkt.
 
-Om du vill aktivera spårning skickar du rätt namn på företagets förinställning som `config2`-parameter.
+Om du vill aktivera spårning skickar du rätt namn på företagets förinställning som `config2` parameter.
 
 Som standard skickar visningsprogrammet en enda HTTP-begäran för spårning till den konfigurerade Image-servern med information om visningsprogramtyp och version.
 
 ## Anpassad spårning {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Om du vill integrera med analyssystem från tredje part måste du lyssna på `trackEvent`-återanropet för visningsprogrammet och bearbeta `eventInfo`-argumentet för återanropsfunktionen efter behov. Följande kod är ett exempel på en sådan hanterarfunktion:
+För att kunna integreras med analyssystem från tredje part måste man lyssna på `trackEvent` återanrop till visningsprogrammet och bearbeta `eventInfo` vid behov callback-funktionens argument. Följande kod är ett exempel på en sådan hanterarfunktion:
 
-```
+```javascript {.line-numbers}
 var video360Viewer = new s7viewers.Video360Viewer({ 
  "containerId":"s7viewer", 
 "params":{ 
@@ -58,27 +58,27 @@ Visningsprogrammet spårar följande SDK-användarhändelser:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LADDA  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LADDA </span> </p> </td> 
    <td colname="col2"> <p>när visningsprogrammet läses in först. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SWAP  </span> </p> </td> 
-   <td colname="col2"> <p>när en resurs växlas i visningsprogrammet med hjälp av API:t <span class="codeph"> setAsset() </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
+   <td colname="col2"> <p>när en resurs byts ut i visningsprogrammet med <span class="codeph"> setAsset() </span> API. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SPELA  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> SPELA </span> </p> </td> 
    <td colname="col2"> <p>när uppspelningen startar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PAUS  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PAUS </span> </p> </td> 
    <td colname="col2"> <p>när uppspelningen pausas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> STOP  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> STOP </span> </p> </td> 
    <td colname="col2"> <p>när uppspelningen stoppas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> MILESTON  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> MILESTON </span> </p> </td> 
    <td colname="col2"> <p>när uppspelningen når någon av följande milstolpar: 0 %, 25 %, 50 %, 75 % eller 100 %. </p> </td> 
   </tr> 
  </tbody> 

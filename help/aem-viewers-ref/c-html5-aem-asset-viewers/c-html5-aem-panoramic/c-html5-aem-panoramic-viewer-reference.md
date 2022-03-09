@@ -5,7 +5,7 @@ keywords: responsiv
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '1953'
 ht-degree: 0%
@@ -78,7 +78,7 @@ Visuell anpassning kan uppnås genom att använda anpassad CSS.
 
 Här är ett exempel på HTML som öppnar visningsprogrammet i det nya fönstret:
 
-```
+```html {.line-numbers}
 <a href="http://s7d1.scene7.com/s7viewers/html5/PanoramicViewer.html?asset=Scene7SharedAssets/PanoramicImage-Sample" target="_blank">Open popup viewer</a>
 ```
 
@@ -115,7 +115,7 @@ Du kan använda en relativ sökväg om visningsprogrammet distribueras på någo
 
 Relativ sökväg ser ut så här:
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/PanoramicViewer.js"></script>
 ```
 
@@ -135,7 +135,7 @@ Relativ sökväg ser ut så här:
 
    Följande är ett exempel på ett definierat DIV-platshållarelement:
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div> 
    ```
 
@@ -145,7 +145,7 @@ Relativ sökväg ser ut så här:
 
    Storleksändring i CSS kan placeras direkt på HTML-sidan eller i en anpassad CSS-fil för visningsprogrammet, som senare tilldelas till en förinställningspost för visningsprogrammet i AOD eller skickas explicit med hjälp av formatkommandot. Mer information om hur du formaterar visningsprogrammet med CSS finns i Anpassa visningsprogrammet. Nedan visas ett exempel på hur du definierar storleken på det statiska visningsprogrammet på HTML-sidan:
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7panoramicviewer {
      width: 1024px;
      height: 512px;
@@ -154,7 +154,7 @@ Relativ sökväg ser ut så här:
 
    `stagesize` modifieraren kan skickas explicit med initieringskoden för visningsprogrammet med parametersamlingen eller som ett API-anrop enligt beskrivningen i avsnittet Command Reference, så här:
 
-   ```
+   ```html {.line-numbers}
    panoramicViewer.setParam("stagesize", "512,256");
    ```
 
@@ -170,7 +170,7 @@ Relativ sökväg ser ut så här:
 
    Följande är ett exempel på hur du skapar en visningsprograminstans, skickar nödvändiga minimikonfigurationsalternativ till konstruktorn och anropar `init()` -metod. Det här exemplet förutsätter `panoramicViewer` är visningsprograminstansen, `s7viewer` är namnet på platshållaren `DIV`, [!DNL http://s7d1.scene7.com/is/image/] är webbadressen för bildvisning, och [!DNL Scene7SharedAssets/PanoramicImage-Sample] är tillgången.
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var panoramicViewer = new s7viewers.PanoramicViewer({ 
     "containerId":"s7viewer", 
@@ -184,7 +184,7 @@ Relativ sökväg ser ut så här:
 
    Följande kod är ett komplett exempel på en enkel webbsida som bäddar in panoramavisningsprogrammet med fast storlek:
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
     <head>
@@ -215,7 +215,7 @@ Relativ sökväg ser ut så här:
 
 Med den responsiva inbäddningen har webbsidan vanligtvis någon typ av flexibel layout som bestämmer körningsstorleken för visningsprogrammets behållar-DIV. I det här exemplet antar vi att webbsidan tillåter att visningsprogrammets behållare-DIV tar 80 % av webbläsarens fönsterstorlek och låter dess höjd vara obegränsad. Webbsidans HTML-kod kan se ut så här:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -239,7 +239,7 @@ Att lägga till visningsprogrammet på en sådan sida liknar inbäddningen av fa
 
 Alla steg ovan är desamma som med inbäddning med fast storlek. Behållar-DIV bör läggas till i den befintliga DIV:n för &quot;hållare&quot;. Följande kod är ett fullständigt exempel på hur visningsprogrammets storlek ändras när webbläsarens storlek ändras och hur visningsprogrammets proportioner matchar resursen.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html>
 <html>
 <head>
@@ -277,7 +277,7 @@ Följande exempelsida visar hur responsiv designinbäddning med obegränsad höj
 
 Om det finns responsiv designinbäddning med definierad bredd och höjd är webbsidans format annorlunda. ger &quot; hållaren&quot; båda storlekar `DIV` och centrera det i webbläsarfönstret. Dessutom anger webbsidan storleken på `HTML` och `BODY` till 100 %:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -303,7 +303,7 @@ height: 60%;
 
 Resten av inbäddningsstegen är identiska med responsiv inbäddning med obegränsad höjd. Det resulterande exemplet är
 
-```
+```html {.line-numbers}
 <!DOCTYPE html>
 <html>
 <head>
@@ -345,7 +345,7 @@ I stället för att använda JSON-baserad initiering kan du använda set-based A
 
 I följande exempel visas inbäddning med fast storlek med set-based API:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html>
 <html>
 <head>

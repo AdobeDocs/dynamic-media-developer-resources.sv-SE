@@ -6,9 +6,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: ee15ce21-20c4-428b-9512-050115e4c322
-source-git-commit: d5f1f05c36c1cb8a57b5a4bb8a9d066c20e32e75
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2028'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,7 @@ Du kan anpassa visuellt genom att använda anpassad CSS.
 
 Här följer ett exempel på HTML som öppnar visningsprogrammet i ett nytt fönster:
 
-```
+```html {.line-numbers}
 <a href="http://s7d1.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset=Scene7SharedAssets/Backpack_B" target="_blank">Open popup viewer</a>
 ```
 
@@ -133,7 +133,7 @@ Du kan använda en relativ sökväg om visningsprogrammet distribueras på någo
 
 Den relativa sökvägen ser ut så här:
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/BasicZoomViewer.js"></script>
 ```
 
@@ -152,7 +152,7 @@ Den relativa sökvägen ser ut så här:
 
    Följande är ett exempel på ett definierat DIV-platshållarelement:
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div>
    ```
 
@@ -166,7 +166,7 @@ Den relativa sökvägen ser ut så här:
 
    Följande är ett exempel på hur du definierar en statisk visningsstorlek på HTML-sidan:
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7basiczoomviewer { 
     width: 640px; 
     height: 480px; 
@@ -175,7 +175,7 @@ Den relativa sökvägen ser ut så här:
 
    Du kan ange `stagesize` modifierare i posten för visningsförinställning i Dynamic Media Classic. Eller så kan du skicka det explicit med visarens initieringskod med `params` -samling eller, som ett API-anrop enligt beskrivningen i avsnittet Kommandoreferens, enligt följande:
 
-   ```
+   ```html {.line-numbers}
    basicZoomViewer.setParam("stagesize", "640,480");
    ```
 
@@ -191,7 +191,7 @@ Den relativa sökvägen ser ut så här:
 
    Följande är ett exempel på hur du skapar en visningsprograminstans, skickar nödvändiga minimikonfigurationsalternativ till konstruktorn och anropar `init()` -metod. Exemplet förutsätter `basicZoomViewer` är visningsprograminstansen, `s7viewer` är namnet på platshållaren `DIV`; `http://s7d1.scene7.com/is/image/` är webbadressen för bildvisning, och `Scene7SharedAssets/Backpack_B` är tillgången:
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var basicZoomViewer = new s7viewers.BasicZoomViewer({ 
     "containerId":"s7viewer", 
@@ -205,7 +205,7 @@ Den relativa sökvägen ser ut så här:
 
    Följande kod är ett komplett exempel på en enkel webbsida som bäddar in det grundläggande zoomvisningsprogrammet med fast storlek:
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -236,7 +236,7 @@ Den relativa sökvägen ser ut så här:
 
 Med responsiv designinbäddning har webbsidan normalt någon typ av flexibel layout som bestämmer visningsprogrammets körningsstorlek `DIV`. I följande exempel antar du att webbsidan tillåter visningsprogrammets behållare `DIV` för att ta 40 % av webbläsarens fönsterstorlek och låta dess höjd vara obegränsad. Webbsidans HTML-kod ser ut så här:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -260,7 +260,7 @@ Att lägga till visningsprogrammet på en sådan sida liknar stegen för inbädd
 
 Alla steg ovan är desamma som med inbäddning med fast storlek. Lägg till behållar-DIV till befintlig `"holder"` DIV. Följande kod är ett komplett exempel. Lägg märke till hur visningsprogrammets storlek ändras när webbläsarens storlek ändras och hur visningsprogrammets proportioner matchar resursen.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -296,7 +296,7 @@ Följande exempelsida visar mer verkliga användningsområden för responsiv des
 
 Om det finns inbäddning i flexibel storlek med angiven bredd och höjd är webbsidans format annorlunda. Det ger båda storlekarna till `"holder"` DIV och centrera det i webbläsarfönstret. Dessutom anger webbsidan storleken på `HTML` och `BODY` -element till 100 procent.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -322,7 +322,7 @@ height: 60%;
 
 Resten av inbäddningsstegen är identiska med stegen som används för responsiv inbäddning med obegränsad höjd. Följande exempel visas:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -364,7 +364,7 @@ I stället för att använda JSON-baserad initiering kan du använda set-based A
 
 I följande exempel visas hur du använder inbäddning med fast storlek med set-based API:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
