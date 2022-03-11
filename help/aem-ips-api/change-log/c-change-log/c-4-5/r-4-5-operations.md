@@ -1,13 +1,13 @@
 ---
 description: Beskriver nya och ändrade operationsmetoder för IPS API version 4.5.
 solution: Experience Manager
-title: Nya och ändrade åtgärder
+title: Åtgärder - nya och ändrade
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9033328a-d0ce-4ef2-b6ec-c6a81fbedf9d
-source-git-commit: d2e73ae5f92d9ba3471dc7207842753ccff94c28
+source-git-commit: 10eb6887663fe335be3abcc311b2d3eb4a241745
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,8 @@ Syntax
 
 ## Ändrade åtgärder {#section-1c022cc62d274c349837013f1c02ca51}
 
-* `Asset` innehåller  `animatedGifInfo`,  `swcInfo`,  `cssInfo`och  `javascriptInfo` parametrar.
-* `createMetadataField` innehåller en valfri  `isHidden` parameter.
-* `saveMetadataField` innehåller en valfri  `isHidden` parameter.
+* `Asset` inkluderar `animatedGifInfo`, `swcInfo`, `cssInfo`och `javascriptInfo` parametrar.
+* `createMetadataField` innehåller ett valfritt `isHidden` parameter.
+* `saveMetadataField` innehåller ett valfritt `isHidden` parameter.
 * `searchAssets`
-* Parametern `renameFiles` har tagits bort för tidigare versioner och tagits bort från åtgärden `renameAsset`. Sökvägen för den virtuella filen ändras så att den matchar det nya resursnamnet (med filtillägget bevarat), medan sökvägarna för fysiska filer inte påverkas. API-klienter måste ta bort referenser till den här parametern när de uppdaterar till den nya API-versionen.
+* The `renameFiles` parametern har tagits bort för tidigare versioner och tagits bort från `renameAsset` operation. Sökvägen för den virtuella filen ändras så att den matchar det nya resursnamnet (med filtillägget bevarat), medan sökvägarna för fysiska filer inte påverkas. API-klienter måste ta bort referenser till den här parametern när de uppdaterar till den nya API-versionen.
