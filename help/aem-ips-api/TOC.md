@@ -3,9 +3,9 @@ cloud: Experience Cloud
 user-guide-title: Dynamic Media Image Production System API
 feature-set: Experience Manager Assets
 user-guide-description: Med webbtjänstens API:t för IPS (Image Production System) kan externa program och tredjepartsutvecklare programmässigt komma åt IPS-resurser och -funktioner.
-source-git-commit: 6ec990016827895e136d41f3ae1e87ffd826647e
+source-git-commit: 72f9cd1b1de82cbeeb8d41fb0f1cf0b51744a8a3
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -234,7 +234,6 @@ ht-degree: 0%
    + [EmailArray](types/c-data-types/r-email-array.md)
    + [ExcludeByproductArray](types/c-data-types/r-exclude-byproduct-array.md)
    + [ExcludeByproductCondition](types/c-data-types/r-exclude-byproduct-condition.md)
-   + [ExcludeMasterVideoFromAVS](types/c-data-types/r-exclude-master-video-from-avs.md)<!-- Deprecated; remove May 2022 as per CQDOC-19165 and remove associated topic-->
    + [ExcelInfo](types/c-data-types/r-excel-info.md)
    + [ExportJob](types/c-data-types/r-exportjob.md)
    + [FlashInfo](types/c-data-types/r-flash-info.md)
@@ -356,7 +355,7 @@ ht-degree: 0%
    + [TaggCondition](types/c-data-types/r-tag-condition.md)
    + [TagConditionArray](types/c-data-types/r-tag-condition-array.md)
    + [TaggFieldValues](types/c-data-types/r-tag-field-values.md)
-   + [TagFieldValuesArray](types/c-data-types/r-tag-field-values-array.md)
+   + [TaggFieldValuesArray](types/c-data-types/r-tag-field-values-array.md)
    + [TagValueUpdate](types/c-data-types/r-tag-value-update.md)
    + [TagValueUpdateArray](types/c-data-types/r-tag-value-update-array.md)
    + [TagValueUpdateFault](types/c-data-types/r-tag-value-update-fault.md)
@@ -410,10 +409,10 @@ ht-degree: 0%
    + [Färgrymder](string-constants/c-string-constants/r-color-spaces.md)
    + [E-postinställningar](string-constants/c-string-constants/r-email-settings.md)
    + [Teckensnittsformat](string-constants/c-string-constants/r-font-styles.md)
-   + [Font Types](string-constants/c-string-constants/r-font-types.md)
-   + [Generation Info](string-constants/c-string-constants/r-generation-info.md)
+   + [Teckensnittstyper](string-constants/c-string-constants/r-font-types.md)
+   + [Genereringsinformation](string-constants/c-string-constants/r-generation-info.md)
    + [Illustrator Processes](string-constants/c-string-constants/r-illustrator-processes.md)
-   + [Job Log File Types](string-constants/c-string-constants/r-job-log-file-types.md)
+   + [Filtyper för jobbloggar](string-constants/c-string-constants/r-job-log-file-types.md)
    + [Sorteringsfält för jobbloggar](string-constants/c-string-constants/r-job-log-sort-fields.md)
    + [Jobbloggtyper](string-constants/c-string-constants/r-job-log-types.md)
    + [Utlösarlägen för jobb](string-constants/c-string-constants/r-job-trigger-states.md)
@@ -422,13 +421,13 @@ ht-degree: 0%
    + [Operatorer för numerisk jämförelse/datumjämförelse](string-constants/c-string-constants/r-numeric-date-comparison-operators.md)
    + [PDF-processer](string-constants/c-string-constants/r-pdf-processes.md)
    + [Behörighetstyper](string-constants/c-string-constants/r-permission-types.md)
-   + [Photoshop Anchor Modes](string-constants/c-string-constants/r-photoshop-anchor-modes.md)
+   + [Photoshop ankarlägen](string-constants/c-string-constants/r-photoshop-anchor-modes.md)
    + [Namngivningslägen för Photoshop-lager](string-constants/c-string-constants/r-photoshop-layer-naming-modes.md)
    + [PostScript-färgmodell](string-constants/c-string-constants/r-postscript-colorspace-modes.md)
-   + [Profile Classes](string-constants/c-string-constants/r-profile-classes.md)
-   + [Publish State](string-constants/c-string-constants/r-publish-state.md)
+   + [Profilklasser](string-constants/c-string-constants/r-profile-classes.md)
+   + [Publiceringsläge](string-constants/c-string-constants/r-publish-state.md)
    + [Egenskapsuppsättningstyper](string-constants/c-string-constants/r-property-set-types.md)
-   + [Publish Context](string-constants/c-string-constants/r-publish-context.md)
+   + [Publicera kontext](string-constants/c-string-constants/r-publish-context.md)
    + [Publiceringstyper](string-constants/c-string-constants/r-publish-types.md)
    + [Regionsform](string-constants/c-string-constants/r-region-shape.md)
    + [Sök efter matchningslägen](string-constants/c-string-constants/r-search-match-modes.md)
@@ -442,7 +441,7 @@ ht-degree: 0%
 + Fel {#faults}
    + [Översikt över fel](faults/c-faults/c-faults.md)
    + [authenticationFault](faults/c-faults/r-authentication-fault.md)
-   + [authorizationFault](faults/c-faults/r-authorization-fault.md)
+   + [permissionFault](faults/c-faults/r-authorization-fault.md)
    + [ipsApiFault](faults/c-faults/r-ips-api-fault.md)
 + Ändra logg {#change-log}
    + [Ändra logg](change-log/c-change-log.md)
@@ -470,10 +469,10 @@ ht-degree: 0%
       + [Version 3.8](change-log/c-change-log/c-3-8/c-3-8.md)
       + [Åtgärder: Nytt och ändrat](change-log/c-change-log/c-3-8/r-3-8-operations.md)
       + [Datatyper: Nytt och ändrat](change-log/c-change-log/c-3-8/r-3-8-types.md)
-      + [String Constants: New and Modified](change-log/c-change-log/c-3-8/r-3-8-string-constants.md)
+      + [Strängkonstanter: Nytt och ändrat](change-log/c-change-log/c-3-8/r-3-8-string-constants.md)
    + Version 3.7 {#version-3-7}
       + [Version 3.7](change-log/c-change-log/c-3-7/c-3-7.md)
-      + [Operations: New and Modified](change-log/c-change-log/c-3-7/r-3-7-operations.md)
+      + [Åtgärder: Nytt och ändrat](change-log/c-change-log/c-3-7/r-3-7-operations.md)
       + [Datatyper: Nytt och ändrat](change-log/c-change-log/c-3-7/r-3-7-types.md)
       + [Strängkonstanter: Nytt och ändrat](change-log/c-change-log/c-3-7/r-3-7-string-constants.md)
 + [Överför resurser via HTTP POST till UploadFile..](c-http-post.md)
