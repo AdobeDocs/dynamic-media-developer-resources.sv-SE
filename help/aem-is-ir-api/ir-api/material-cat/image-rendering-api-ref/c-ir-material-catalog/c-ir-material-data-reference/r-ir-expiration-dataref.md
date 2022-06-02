@@ -1,13 +1,13 @@
 ---
+title: Förfaller
 description: Klientens cachetid till livstid. Antal timmar till utgångsdatum. Används för att hantera klient- och proxyservercachning.
 solution: Experience Manager
-title: Förfaller
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e4f7e5a8-0021-4dd3-be1b-8cb656cabdac
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Förfallodatumet anges i första hand för bildsvarningar. Vissa typer av svar k
 
 ## Egenskaper {#section-e87e8f6b6d224c6ea2eeaad695c04be8}
 
-Reellt tal, -2, -1, 0 eller högre. Antal timmar till förfallodatum sedan svarsbilden genererades. Ange 0 om du alltid vill att svarsbilden ska upphöra att gälla omedelbart, vilket i praktiken inaktiverar klientcache-lagring. Ange -1 för att markera som `never expire`. I det här fallet returnerar servern alltid 304-status (inte ändrad) som svar på villkorliga `GET`-begäranden utan att kontrollera om filen faktiskt har ändrats. Ange -2 om du vill använda standardvärdet som anges av `attribute::Expiration`.
+Reellt tal, -2, -1, 0 eller högre. Antal timmar till förfallodatum sedan svarsbilden genererades. Ange 0 om du alltid vill att svarsbilden ska upphöra att gälla omedelbart, vilket i praktiken inaktiverar klientcache-lagring. Ange till -1 för att markera som `never expire`. I det här fallet returnerar servern alltid 304-status (inte ändrad) som svar på villkorlig `GET` utan att kontrollera om filen faktiskt har ändrats. Ange till -2 om du vill använda standardinställningen från `attribute::Expiration`.
 
 ## Standard {#section-79d71706e12a4493a69d7febc3a1f271}
 
@@ -34,4 +34,4 @@ Reellt tal, -2, -1, 0 eller högre. Antal timmar till förfallodatum sedan svars
 
 ## Se även {#section-9d46a9d346fe42f3911edb3bd79f4121}
 
-[attribute::Expiration](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-expiration.md#reference-0f68ad8199c64bd4bc8d27dd78b7d996) ,  [vignette::Expiration](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-expiration-vignette.md#reference-df80829da93e4c0ab3f97a1792d9c74c),  [req=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-req.md#reference-792b1a663fb64261bd2de2a209b847fb)
+[attribute::Expiration](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-expiration.md#reference-0f68ad8199c64bd4bc8d27dd78b7d996) , [vinjett::Förfallotid](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-expiration-vignette.md#reference-df80829da93e4c0ab3f97a1792d9c74c), [req=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-req.md#reference-792b1a663fb64261bd2de2a209b847fb)

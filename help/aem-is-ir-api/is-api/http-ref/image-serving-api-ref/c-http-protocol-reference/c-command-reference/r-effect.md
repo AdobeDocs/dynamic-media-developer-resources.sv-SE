@@ -1,13 +1,13 @@
 ---
+title: effekt
 description: Välj Effektlager. Markerar ett effektlager och startar ett nytt lagersegment i strängen för begäran, som är associerad med det aktuella lagret.
 solution: Experience Manager
-title: effekt
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d1eaa38d-cfd3-44d4-92b1-04d72333f867
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Välj Effektlager. Markerar ett effektlager och startar ett nytt lagersegment i 
  </tr> 
 </table>
 
-Alla kommandon i det nya segmentet används på det angivna effektlagret. Ett effektlagersegment avslutas av nästa `layer=`- eller `effect=`-kommando eller i slutet av begäran.
+Alla kommandon i det nya segmentet används på det angivna effektlagret. Ett effektlagersegment avslutas av nästa `layer=` eller `effect=` eller i slutet av begäran.
 
 *`n`* måste vara mindre än 0 för yttre lagereffekter (dvs. effekter bakom det överordnade lagret) och större än 0 för inre lagereffekter (dvs. effekter i det överordnade lagret). Effektlagrets nummer behöver inte följa på varandra.
 
@@ -47,4 +47,4 @@ Ingen.
 
 ## Se även {#section-573273e9e0e64103a5764075f5e50180}
 
-` [layer=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-layer.md#reference-0f8d7fbef64841dd855917bd8fc22e6d)`
+[layer=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-layer.md)

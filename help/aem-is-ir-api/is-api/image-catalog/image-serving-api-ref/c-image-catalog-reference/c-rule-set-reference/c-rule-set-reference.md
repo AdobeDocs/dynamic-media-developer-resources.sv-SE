@@ -1,20 +1,20 @@
 ---
-description: Image Serving har stöd för en enkel förbearbetningsmekanism för begäranden som baseras på regler för matchning och ersättning av reguljära uttryck.
+description: Image Serving har stöd för en enkel förbearbetningsmekanism för begäranden som baseras på matchnings- och ersättningsregler för reguljära uttryck.
 solution: Experience Manager
 title: Referens för regeluppsättning
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: dfbb5f5e-d75a-496a-8b97-f102ad1a34d5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
 
 # Referens för regeluppsättning{#rule-set-reference}
 
-Image Serving har stöd för en enkel förbearbetningsmekanism för begäranden som baseras på regler för matchning och ersättning av reguljära uttryck.
+Image Serving har stöd för en enkel förbearbetningsmekanism för begäranden som baseras på matchnings- och ersättningsregler för reguljära uttryck.
 
 Samlingar med förbearbetningsregler (*regeluppsättningar*) kan bifogas till bildkataloger eller standardkatalogen. Regler i standardkatalogen gäller bara om begäran inte identifierar en viss huvudbildkatalog.
 
@@ -48,29 +48,29 @@ Regeluppsättningar sparas som XML-dokumentfiler. Den relativa eller absoluta s�
 </ruleset>
 ```
 
-Elementen `<?xml>` och `<ruleset>` krävs alltid i en giltig XML-fil för regeluppsättningen, även om inga faktiska regler har definierats.
+The `<?xml>` och `<ruleset>` -element krävs alltid i en giltig XML-fil för regeluppsättningar, även om inga faktiska regler har definierats.
 
-Ett `<ruleset>`-element som innehåller valfritt antal `<rule>`-element tillåts.
+Ett `<ruleset>` element som innehåller valfritt antal `<rule>` -element tillåts.
 
 Innehållet i regelfiler för förbearbetning är skiftlägeskänsligt.
 
 ## Validering av regeluppsättning {#section-d8d101a0b4d74580835e37d128d05567}
 
-En kopia av [!DNL RuleSet.xsd] finns i katalogmappen och bör användas för att validera en regeluppsättningsfil innan den registreras i [!DNL catalog.ini]-filen. Observera att Image Serving använder en intern kopia av [!DNL RuleSet.xsd] för validering.
+En kopia av [!DNL RuleSet.xsd] finns i katalogmappen och bör användas för att validera en regeluppsättningsfil innan den registreras i [!DNL catalog.ini] -fil. Observera att Image Serving använder en intern kopia av [!DNL RuleSet.xsd] för validering.
 
 ## Förbehandling av URL {#section-2c09a2d79ada46b994857c6a7fb4c13a}
 
 Innan någon annan bearbetning utförs, analyseras en inkommande HTTP-begäran delvis för att avgöra vilken bildkatalog som ska användas. När katalogen har identifierats tillämpas regeluppsättningen för den valda katalogen (eller standardkatalogen, om ingen specifik katalog har identifierats).
 
-`<rule>`-elementen genomsöks i den ordning som anges för att matcha innehållet i `<expression>`-elementet ( *`expression`*).
+The `<rule>` -elementen söks igenom i den ordning som anges för att matcha innehållet i `<expression>` element ( *`expression`*).
 
-Om en `<rule>` matchas används den valfria *`substitution`* och den ändrade begärandesträngen skickas till serverns begärandeparser för normal bearbetning.
+Om en `<rule>` matchas, det valfria *`substitution`* används och den ändrade begärandesträngen skickas till serverns begärandeparser för normal bearbetning.
 
-Om ingen matchning görs när slutet av `<ruleset>` nås, skickas begäran till parsern utan ändring.
+Om ingen matchning görs när slutet av `<ruleset>` har nåtts, skickas begäran till tolken utan ändring.
 
 ## Attributet OnMatch {#section-ed952fa55d99422db0ee68a2b9d395d3}
 
-Standardbeteendet kan ändras med attributet `OnMatch` för `<rule>`-elementet. `OnMatch` kan anges till  `break` (standard),  `continue` eller  `error`.
+Standardbeteendet kan ändras med `OnMatch` attributet för `<rule>` -element. `OnMatch` kan anges till `break` (standard), `continue`, eller `error`.
 
 <table id="table_6680A81492B24CE593330DA7B0075E8F"> 
  <thead> 
@@ -97,7 +97,7 @@ Standardbeteendet kan ändras med attributet `OnMatch` för `<rule>`-elementet. 
 
 ## Åsidosätta katalogattribut {#section-3f1e33a65c5346d1b4a69958c61432f3}
 
-`<rule>` -element kan också definiera attribut som åsidosätter motsvarande katalogattribut när regeln matchas. Om flera matchade regler anger samma attribut gäller den sista. I beskrivningen av ` [<rule>](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-rule-rule.md#reference-af76c0e2b8be48dabb52b71fe7e51ee9)`-elementet finns en lista med attribut som kan kontrolleras med regler.
+The `rule` -elementet kan också definiera attribut som åsidosätter motsvarande katalogattribut när regeln matchas. Om flera matchade regler anger samma attribut gäller den sista. Se [regel](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-rule-rule.md) -element för en lista med attribut som kan styras med regler.
 
 ## Reguljära uttryck {#section-3f77bb9a265147b38c645f63ab1bad8b}
 
@@ -107,15 +107,15 @@ Enkel strängmatchning fungerar för mycket grundläggande program, men reguljä
 
 ## Infångade delsträngar {#section-066e659406d5403599cd26ae35e80d68}
 
-För att underlätta komplexa URL-ändringar kan delsträngar fångas in i uttrycket genom att omsluta delsträngen med parenteser (..). Infångade delsträngar numreras sekventiellt med början på 1 enligt positionen för den inledande parentesen. De hämtade delsträngarna kan infogas i ersättningen med ` $ *`n`*`, där *`n`* är sekvensnumret för den hämtade delsträngen.
+För att underlätta komplexa URL-ändringar kan delsträngar fångas in i uttrycket genom att omsluta delsträngen med parenteser (..). Infångade delsträngar numreras sekventiellt med början på 1 enligt positionen för den inledande parentesen. De hämtade delsträngarna kan infogas i substitutionen med ` $ *`n`*`, där *`n`* är sekvensnumret för den hämtade delsträngen.
 
 ## Hantera regeluppsättningsfiler {#section-0598a608e4044bb4805fe93ceebe10a9}
 
-En regeluppsättningsfil kan bifogas till varje bildkatalog med katalogattributet `attribute::RuleSetFile`. Du kan redigera regeluppsättningsfilen när som helst, men bildservern känner bara igen ändringarna när den associerade bildkatalogen läses in igen. Den här inläsningen sker när plattformsservern startas eller startas om och när den primära katalogfilen, som har ett [!DNL .ini]-filsuffix, ändras eller &quot;ändras&quot; för att ändra fildatumet.
+En regeluppsättningsfil kan bifogas till varje bildkatalog med katalogattributet `attribute::RuleSetFile`. Du kan redigera regeluppsättningsfilen när som helst, men bildservern känner bara igen ändringarna när den associerade bildkatalogen läses in igen. Den här inläsningen sker när plattformsservern startas eller startas om och när den primära katalogfilen, som har en [!DNL .ini] filsuffixet ändras eller &quot;ändras&quot; för att ändra fildatumet.
 
 ## Exempel {#section-aa769437d967459299b83a4bf34fe924}
 
-**Exempel A.** Definiera en regel som ökar bildkvalitetsinställningarna om bildnamnet har suffixet &quot;  [!DNL _hg]&quot;:
+**Exempel A.** Definiera en regel som ökar bildkvalitetsinställningarna om bildnamnet har suffixet &quot; [!DNL _hg]&quot;:
 
 ```
 <rule> 
@@ -124,7 +124,7 @@ En regeluppsättningsfil kan bifogas till varje bildkatalog med katalogattribute
 </rule>
 ```
 
-Regeluttrycket anger en skiftlägesokänslig matchning av [!DNL _hg] i slutet av URL-strängen. Suffixet ersätts med den angivna frågesträngen som ändrar bildkvalitetsinställningarna. Observera att tecknet `?` i ersättningssträngen escape-konverteras eftersom det är ett specialtecken i reguljära uttryck.
+Regeluttrycket anger en skiftlägesokänslig matchning av &quot; [!DNL _hg]&quot; i slutet av URL-strängen. Suffixet ersätts med den angivna frågesträngen som ändrar bildkvalitetsinställningarna. Observera att `?` -tecknet i ersättningssträngen escape-konverteras eftersom det är ett specialtecken i reguljära uttryck.
 
 >[!NOTE]
 >
@@ -132,7 +132,7 @@ Regeluttrycket anger en skiftlägesokänslig matchning av [!DNL _hg] i slutet av
 
 `<substitution><![CDATA[&qlt=95,1&resmode=bicub]]></substitution>`
 
-**Exempel B.** Ett visst webbprogram tillåter inte frågesträngar. Definiera en regel som översätter det efterföljande sökvägselementet `small`, `medium` eller `large` till en mall och använder resten av sökvägen som bildnamn. `myCat/myImage/small` skulle till exempel översätta till `myCat/smallTemplate?src=myCat/myImage`.
+**Exempel B.** Ett visst webbprogram tillåter inte frågesträngar. Definiera en regel som översätter det efterföljande banelementet `small`, `medium`, eller `large` till en mall, med resten av sökvägen som bildnamn. Till exempel: `myCat/myImage/small` skulle översätta till `myCat/smallTemplate?src=myCat/myImage`.
 
 Vi kan använda delsträngar för att strukturera om begäran:
 

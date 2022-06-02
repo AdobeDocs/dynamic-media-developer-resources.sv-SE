@@ -1,20 +1,20 @@
 ---
-description: Regelelement för begäran. En eller flera regler är valfria i <ruleset>-elementet.
-solution: Experience Manager
 title: regel
+description: Regelelement för begäran. En eller flera regler är valfria i <ruleset> -element.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4fabd469-c80c-422a-80b0-3d31ce191d58
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '297'
 ht-degree: 2%
 
 ---
 
 # regel{#rule}
 
-Regelelement för begäran. En eller flera regler är valfria i `<ruleset>`-elementet.
+Regelelement för begäran. En eller flera regler är valfria i `<ruleset>` -element.
 
 ## Attribut {#section-d4a3b0496c0c4aa5bd7da87203b9379b}
 
@@ -22,7 +22,7 @@ Regelelement för begäran. En eller flera regler är valfria i `<ruleset>`-elem
 
 `Replace = "first" | "all"`: Valfritt. Standardvärdet är &quot;first&quot;.
 
-`RequestType` =  *&quot;`types`&quot;*: Valfritt. Anger vilken indatakontext regeln gäller för. *`types`* är en kommaavgränsad lista, som kan innehålla en eller flera av de variabler som anges i följande tabell. Om `RequestType` inte anges gäller regeln för begäranden som tas emot i alla kontexter som stöds.
+`RequestType` = *&quot;`types`&quot;*: Valfritt. Anger vilken indatakontext regeln gäller för. *`types`* är en kommaavgränsad lista, som kan innehålla en eller flera av de variabler som anges i följande tabell. If `RequestType` har inte angetts, gäller regeln för begäranden som tas emot i alla kontexter som stöds.
 
 <table id="table_4935E1ED03624DA6AF3F8DC9AAA10237"> 
  <thead> 
@@ -51,14 +51,14 @@ Regelelement för begäran. En eller flera regler är valfria i `<ruleset>`-elem
  </tbody> 
 </table>
 
-**`Name = "text"`**: Valfritt. Används för att identifiera `<rule>`-elementet i felsökningsloggar och felmeddelanden.
+**`Name = "text"`**: Valfritt. Används för att identifiera `<rule>` -element i felsökningsloggar och felmeddelanden.
 
-`  *`Attribut`* ="value"`: Valfritt. `<rule>` -element kan definiera något av följande attribut i valfri kombination. Om den anges och regeln matchas kommer de att åsidosätta motsvarande katalogattribut för den här begäran. Standardvärdet är `RequestType="is"`.
+`  *`Attribut`* ="value"`: Valfritt. `<rule>` -element kan definiera något av följande attribut i valfri kombination. Om den anges och regeln matchas kommer de att åsidosätta motsvarande katalogattribut för den här begäran. Standard är `RequestType="is"`.
 
 <table id="table_67AED5BEADDF4DAC99B5EF46438C1ABC"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> <span class="varname"> Attribut  </span> </b> </th> 
+   <th class="entry"> <b> <span class="varname"> Attribut </span> </b> </th> 
    <th class="entry"> <p>Motsvarande bildkatalogsattribut </p> </th> 
   </tr> 
  </thead>
@@ -77,7 +77,7 @@ Regelelement för begäran. En eller flera regler är valfria i `<ruleset>`-elem
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> MaxPix</span> </p> </td> 
-   <td> <p><a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-maxpix.md#reference-e167d396ac794079ba8b5e6eb16eeda5" type="reference" format="dita" scope="local"> attribute::MaxPix  </a> </p> </td> 
+   <td> <p><a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-maxpix.md#reference-e167d396ac794079ba8b5e6eb16eeda5" type="reference" format="dita" scope="local"> attribute::MaxPix </a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> RequestLock</span> </p> </td> 
@@ -104,7 +104,7 @@ Regelelement för begäran. En eller flera regler är valfria i `<ruleset>`-elem
 
 Mer information finns i beskrivningen av motsvarande bildkatalogsattribut.
 
-Förfalloattributen åsidosätter bara standardattributvärdena. Åsidosättningen ignoreras om ett specifikt `catalog::Expiration`-värde gäller för begäran.
+Förfalloattributen åsidosätter bara standardattributvärdena. Åsidosättningen ignoreras om en specifik `catalog::Expiration` värdet gäller för begäran.
 
 ## Data {#section-8fce013a4c724da58af3fee4e7a90e72}
 
@@ -129,10 +129,10 @@ Förfalloattributen åsidosätter bara standardattributvärdena. Åsidosättning
 
 ## Anteckningar {#section-0c5fbc363070419d8c9800b0c02dc9f9}
 
-Om både `<expression>` och `<substitution>` anges och hämtade delsträngar inte används, ersätts den första matchade delsträngen med `<substitution>`.
+Om båda `<expression>` och `<substitution>` anges och hämtade delsträngar inte används, den första matchade delsträngen ersätts med `<substitution>`.
 
-Om `<expression>` inte anges läggs alla sökvägar till och `<substitution>` till i slutet av sökvägen.
+If `<expression>` har inte angetts, sökvägar matchar och `<substitution>` läggs till i slutet av banan.
 
-Om `<substitution>` inte har angetts sker ingen omformning av sökväg eller fråga, men alla angivna katalogattribut åsidosätts. Om `<substitution>` är tom tas den matchande delsträngen bort.
+If `<substitution>` har inte angetts, ingen sökväg eller frågeomformning sker, men alla angivna katalogattribut åsidosätts. If `<substitution>` är tom tas den matchande delsträngen bort.
 
-`<addressfilter>` används bara när en matchning inträffar och innan frågeregler tillämpas.
+The `<addressfilter>` används bara när en matchning inträffar och innan frågeregler tillämpas.

@@ -1,13 +1,13 @@
 ---
+title: lager
 description: Välj Lager. Markerar ett lager och startar ett nytt lagerdefinitionssegment i kommandosekvensen.
 solution: Experience Manager
-title: lager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f1200d86-d88c-4990-ae36-2ce96ae94343
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Välj Lager. Markerar ett lager och startar ett nytt lagerdefinitionssegment i kommandosekvensen.
 
-`layer= *``*|comp[, *`name`*]`
+`layer= *`n`*|comp[, *`name`*]`
 
 `layer= *`name`*`
 
@@ -35,15 +35,15 @@ Välj Lager. Markerar ett lager och startar ett nytt lagerdefinitionssegment i k
  </tr> 
 </table>
 
-Alla kommandon i lagersegmentet används på det angivna lagret. Ett lagersegment avslutas av nästa `layer=`- eller `effect=`-kommando eller slutet av begäran.
+Alla kommandon i lagersegmentet används på det angivna lagret. Ett lagersegment avslutas av nästa `layer=` eller `effect=` kommandot eller slutet av begäran.
 
-Ange `layer=comp` om du vill markera den sammansatta bilden (eller visa vissa kommandon).
+Ange `layer=comp` om du vill markera den sammansatta bilden (eller visa, för vissa kommandon).
 
 Lagernumret anger effektivt z-ordningen för lagret. Lager med högre nummer placeras ovanpå lager med lägre nummer.
 
 Lagernummer behöver inte vara i följd. Lager 0 krävs.
 
-Ett namn kan tilldelas ett lager med kommandovarianten `layer= *`n`*, *`name`*`. När ett namngivet lager har definierats kan det refereras till med ` layer= *`namn`*`, utan att behöva känna till lagrets nummer. Flera namn kan tilldelas till samma lager med flera `layer= *`n`*, *`name`*`-kommandon.
+Ett namn kan tilldelas ett lager med `layer= *`n`*, *`name`*` kommandovariant. När ett namngivet lager har definierats kan det refereras till med ` layer= *`name`*`utan att behöva känna till lagrets nummer. Flera namn kan tilldelas till samma lager, med flera `layer= *`n`*, *`name`*` kommandon.
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Ett namn kan tilldelas ett lager med kommandovarianten `layer= *`n`*, *`name`*`.
 
 Lager, kommando. Ersättningsvariabelreferenser stöds inte i `layer=`.
 
-`comp` tillåts inte som en  *`name`* sträng. Ett fel returneras om samma *`name`* har tilldelats till mer än ett lager, eller om *`name`* refererar till ett lager som inte har definierats tidigare.
+`comp` tillåts inte som *`name`* sträng. Ett fel returneras om samma *`name`* tilldelas till mer än ett lager, eller om ett lager refereras till av *`name`* som inte har definierats tidigare.
 
 ## Standard {#section-091859a03f8048c2b7092f0fec9c1006}
 
@@ -62,7 +62,7 @@ Lager, kommando. Ersättningsvariabelreferenser stöds inte i `layer=`.
 ## Specialfall {#section-e087cb2e3562473e8d391abfa3b9489f}
 
 * Om samma namn mappas till flera lager (till exempel: `layer=1,image&layer=2,image`) inträffar ett fel.
-* Om samma namn mappas till ett enda lager flera gånger (till exempel: `layer=1,image&layer=1,image`), omfånget anges som vanligt, utan fel.
+* Om samma namn mappas till ett enda lager flera gånger (till exempel: `layer=1,image&layer=1,image`) anges omfånget som vanligt, utan fel.
 * Flera namn för samma lager stöds.
 
    Båda namnen kan användas för att referera till lagret (till exempel: `layer=1,image&layer=1,picture`).
