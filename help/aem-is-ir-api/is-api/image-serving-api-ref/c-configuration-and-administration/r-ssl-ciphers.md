@@ -5,9 +5,9 @@ title: Definiera SSL-ciphers
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 7734ba02-4442-4a3d-acbf-e14d8ad66279
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: 370444b85cb2636d109df4e2681e3e078d6f1e1a
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Som standard är alla ciphers tillgängliga. Listan är kommaavgränsad och kan 
 
 `SSL_RSA_EXPORT_WITH_RC4_40_MD5`
 
-`SSL_RSA_WITH_3DES_EDE_CBC_SHA`
+<!-- WEAK CQDOC-19433 `SSL_RSA_WITH_3DES_EDE_CBC_SHA` -->
 
 `SSL_RSA_WITH_DES_CBC_SHA`
 
@@ -46,10 +46,10 @@ Som standard är alla ciphers tillgängliga. Listan är kommaavgränsad och kan 
 
 `TLS_DHE_RSA_WITH_AES_128_CBC_SHA`
 
-`TLS_RSA_WITH_AES_128_CBC_SHA`
+<!-- WEAK CQDOC-19433 `TLS_RSA_WITH_AES_128_CBC_SHA` -->
 
 Om något av värdena är fel aktiverar Tomcat alla klipp. Därför är det viktigt att du kontrollerar med ett externt verktyg efter konfigurationen för att se vilka utbildare som är aktiverade.
 
 Som ett exempel aktiverar följande konfiguration endast chiffersviterna &quot;128 bitar&quot; och högre:
 
-`ciphers="SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA,SSL_DHE_DSS_WITH_DES_CBC_SHA,SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA,SSL_RSA_WITH_3DES_EDE_CBC_SHA,TLS_DHE_DSS_WITH_AES_128_CBC_SHA,TLS_DHE_RSA_WITH_AES_128_CBC_SHA,TLS_RSA_WITH_AES_128_CBC_SHA"`
+`ciphers="SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA,SSL_DHE_DSS_WITH_DES_CBC_SHA,SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA,TLS_DHE_DSS_WITH_AES_128_CBC_SHA,TLS_DHE_RSA_WITH_AES_128_CBC_SHA"`
