@@ -1,13 +1,13 @@
 ---
+title: ErrorDetail
 description: Information om felmeddelande. Anger detaljnivån för felmeddelanden som returneras via HTTP som error.message-värde.
 solution: Experience Manager
-title: ErrorDetail
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 39d7fc44-7605-4f93-b2f9-0a6e8bc76ec7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '162'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ Följande värden är tillåtna:
   <td class="stentry"> <p>Endast titel. Returnerar en kort allmän beskrivning av felet. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p></td> 
+  <td class="stentry"> <p>1 </p></td> 
   <td class="stentry"> <p>Kort meddelande. Reserverad för framtida bruk. Returnerar för närvarande samma information som 0. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -35,7 +35,7 @@ Följande värden är tillåtna:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>Fullständig felsökningsinformation. Lägger till Java-stackspår när det är tillämpligt. Felbilder innehåller aldrig stackspår och returnerar i stället nivå 2-information i <span class="codeph"> $error.message</span>. </p></td> 
+  <td class="stentry"> <p>Fullständig felsökningsinformation. Lägger till Java™-stackspår när det är tillämpligt. Felbilder innehåller aldrig stackspår och returnerar i stället nivå 2-information i <span class="codeph"> $error.message</span>. </p></td> 
  </tr> 
 </table>
 
@@ -49,7 +49,7 @@ Uppräknat värde, måste vara 0, 1, 2 eller 3.
 
 ## Standard {#section-5e78d550050840cc9a1de811c581b94f}
 
-Ärvs från `default::ErrorDetail` om det inte anges eller om det är tomt.
+Ärvs från `default::ErrorDetail` om den inte anges eller om den är tom.
 
 ## Se även {#section-474e71922d194c7ca06f2aad3b30e025}
 

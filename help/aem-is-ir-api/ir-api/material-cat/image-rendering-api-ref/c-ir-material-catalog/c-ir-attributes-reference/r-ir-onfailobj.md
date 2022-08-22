@@ -1,11 +1,11 @@
 ---
+title: OnFailObj
 description: Felhantering av objektmarkeringsfel. Anger vilken åtgärd som ska vidtas om kommandot obj= misslyckas eftersom den angivna sökvägen inte kan matchas i vinjettobjektshierarkin.
 solution: Experience Manager
-title: OnFailObj
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0ed04daf-1797-4c12-ae6d-a9a008de9d1d
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 4%

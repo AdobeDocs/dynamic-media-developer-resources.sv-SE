@@ -1,13 +1,13 @@
 ---
+title: VisaÖverlappningsobjekt
 description: Visa överlappande objekt. Anger om överlappande objekt ska visas eller döljas från början.
 solution: Experience Manager
-title: VisaÖverlappningsobjekt
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7fdf1c2d-9db9-4f37-a6d0-b6692b51155c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '44'
+source-wordcount: '39'
 ht-degree: 0%
 
 ---
@@ -22,4 +22,4 @@ Flagga.
 
 ## Standard {#section-e6f7e33a629b4592979bab6d14700e8f}
 
-Ärvs från `default::ShowOverlapObjs` om det inte är definierat eller om det är tomt.
+Ärvs från `default::ShowOverlapObjs` om den inte är definierad eller om den är tom.

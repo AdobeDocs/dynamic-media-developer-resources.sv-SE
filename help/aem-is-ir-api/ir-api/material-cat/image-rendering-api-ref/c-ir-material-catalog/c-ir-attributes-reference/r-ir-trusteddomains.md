@@ -1,18 +1,18 @@
 ---
+title: Betrodda domäner
 description: Flash webbdomäner. Adobe Flash kan kräva åtkomst till egenskaper för bilder som levereras i swf-format. SWF-filen måste bevilja åtkomst uttryckligen genom att registrera namnet på de programdomäner som den litar på.
 solution: Experience Manager
-title: Betrodda domäner *
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 41794f62-6140-4e54-9de2-908b20c51b37
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
 
-# Betrodda domäner *{#trusteddomains}
+# Betrodda domäner{#trusteddomains}
 
 Flash webbdomäner. Adobe Flash kan kräva åtkomst till egenskaper för bilder som levereras i swf-format. SWF-filen måste bevilja åtkomst uttryckligen genom att registrera namnet på de programdomäner som den litar på.
 
@@ -22,8 +22,8 @@ Sträng som innehåller en kommaavgränsad lista med webbdomännamn. Om det är 
 
 ## Standard {#section-8fae0c896f7d46e7a61b0fd7e2b34dc3}
 
-Ärvs från `default::TrustedDomains` om det inte finns någon.
+Ärvs från `default::TrustedDomains` om de inte finns.
 
 ## Se även {#section-2f829671c385411d8e1a7525def5529f}
 
-[src=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272) ,  `mask=`,  [attribut::RootUrl](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402)
+[src=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272) , `mask=`, [attribute::RootUrl](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402)
