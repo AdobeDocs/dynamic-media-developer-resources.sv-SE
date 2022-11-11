@@ -5,14 +5,14 @@ title: MetadataCondition
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 9226fb81-b3ff-41e4-a3cd-d5a40f359be6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
 
-# MetadataCondition{#metadatacondition}
+# [!DNL MetadataCondition]{#metadatacondition}
 
 Lägger till en sökterm som ska användas med searchAssets.
 
@@ -97,7 +97,7 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> caseSensitive</span> </span> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> Fastställer skiftlägeskänslighet för metadataservern. Används i anropet <span class="codeph"> searchAssetsByMetadata</span>. </p> <p>Se <a href="../../operations/c-operations-intro/c-methods/r-search-assets-by-metadata.md#reference-609ec73944a34ce49b152389fbb40414" format="dita" scope="local"> searchAssetsByMetadata</a>. </p> </td> 
+   <td colname="col3"> <p> Fastställer skiftlägeskänslighet för metadataservern. Används i <span class="codeph"> searchAssetsByMetadata</span> ring. </p> <p>Se <a href="../../operations/c-operations-intro/c-methods/r-search-assets-by-metadata.md#reference-609ec73944a34ce49b152389fbb40414" format="dita" scope="local"> searchAssetsByMetadata</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

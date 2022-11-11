@@ -2,17 +2,17 @@
 description: Inställningar som förbättrar bildskärpan för optimerade TIF-pyramidfiler.
 solution: Experience Manager
 title: OskarpMaskOptions
-feature: Dynamic Media Classic,SDK/API,Resurshantering
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 7150b4a8-a44d-4858-96f2-6004d5f48e77
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
 
-# OskarpMaskOptions{#unsharpmaskoptions}
+# [!DNL UnsharpMaskOptions]{#unsharpmaskoptions}
 
 Inställningar som förbättrar bildskärpan för optimerade TIF-pyramidfiler.
 
@@ -20,7 +20,7 @@ Inställningar som förbättrar bildskärpan för optimerade TIF-pyramidfiler.
 
 ## Parametrar {#section-c3f0d03136ba4422819cb463bd393885}
 
-Ange ett värde för `unsharpMaskOptions`-alternativ med `minOccurs=" *`n`*".`
+Ange ett värde för `unsharpMaskOptions` alternativ med `minOccurs=" *`n`*".`
 
 <table id="table_D1392963C5694969A9D546F82DB6F45C">
  <thead>
@@ -62,7 +62,7 @@ Ange ett värde för `unsharpMaskOptions`-alternativ med `minOccurs=" *`n`*".`
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> monokrom</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:int</span></td>
-   <td colname="col3"><p>Värdena är endast <span class="codeph"> 0</span> eller <span class="codeph"> 1</span>. </p><p>Ange <span class="codeph"> 0</span> om du vill tillämpa på varje färgkomponent separat eller <span class="codeph"> 1</span> om du bara vill använda bildens intensitet (intensitet). Lagermasken eller den sammansatta masken blir också skarpare. </p><p><span class="codeph"><span class="varname"> Monokromeis </span></span> ignoreras för gråskalebilder. </p></td>
+   <td colname="col3"><p>Värdena inkluderar <span class="codeph"> 0</span> eller <span class="codeph"> 1</span> endast. </p><p>Ange till <span class="codeph"> 0</span> som ska användas på varje färgkomponent separat eller på <span class="codeph"> 1</span> används endast för bildens intensitet (intensitet). Lagermasken eller den sammansatta masken blir också skarpare. </p><p><span class="codeph"><span class="varname"> monokrom</span></span> ignoreras för gråskalebilder. </p></td>
   </tr>
  </tbody>
 </table>
@@ -83,7 +83,7 @@ Ange ett värde för `unsharpMaskOptions`-alternativ med `minOccurs=" *`n`*".`
 
 ## Används av {#section-db8124a5468b498694a780f8a56a4560}
 
-Typen `unsharpMaskOptions` används av:
+The `unsharpMaskOptions` type används av:
 
 * [ÅterbearbetaResurserJobb](../../types/c-data-types/r-reprocess-assets-job.md#reference-a303f7832ae44fdab1dca7cc8bef3fa3)
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)

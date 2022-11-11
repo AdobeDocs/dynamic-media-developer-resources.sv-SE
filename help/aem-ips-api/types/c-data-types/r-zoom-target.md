@@ -5,14 +5,14 @@ title: ZoomTarget
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 08125f45-38cb-45bb-bc29-c767f4d0aed9
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '75'
 ht-degree: 2%
 
 ---
 
-# ZoomTarget{#zoomtarget}
+# [!DNL ZoomTarget]{#zoomtarget}
 
 Egenskaper för ett zoommål.
 

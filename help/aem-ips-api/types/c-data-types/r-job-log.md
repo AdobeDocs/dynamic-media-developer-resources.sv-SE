@@ -5,14 +5,14 @@ title: JobLog
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 80ae6669-6fe7-45a6-9a1d-f8544dd4f878
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
 
-# JobLog{#joblog}
+# [!DNL JobLog]{#joblog}
 
 Jobbloggen när jobbet har körts.
 
@@ -31,7 +31,7 @@ Syntax
 | jobSubType | `xsd:string` | Ytterligare jobbinformation. |
 | startDate | `xsd:dateTime` | Startdatum, tid och tidszon för jobbet. |
 | endDate | `xsd:dateTime` | Jobbets slutdatum, tid och tidszon. |
-| description | `xsd:string` | En beskrivning av jobbet som det ursprungligen angavs i `submitJob`. |
+| [!DNL description] | `xsd:string` | En beskrivning av jobbet som det ursprungligen angavs i `submitJob`. |
 | fileSuccessCount | `xsd:int` | Antal filer som bearbetats. |
 | fileErrorCount | `xsd:int` | Antal filer som orsakade ett fel. |
 | fileWarningCount | `xsd:int` | Antal filer som genererade en varning. |

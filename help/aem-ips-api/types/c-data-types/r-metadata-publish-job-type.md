@@ -5,14 +5,14 @@ title: MetadataPublishJobType
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: b90d27c0-9398-4597-bcce-3c36a371df22
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '64'
 ht-degree: 0%
 
 ---
 
-# MetadataPublishJobType{#metadatapublishjobtype}
+# [!DNL MetadataPublishJobType]{#metadatapublishjobtype}
 
 Publicerar metadata på metadataservern.
 
@@ -32,7 +32,7 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> forcePublish</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolesk</span> </td> 
-   <td colname="col3">Ange <span class="codeph"> True</span> om du vill publicera <i>alla</i>-data till metadataservern igen. <p>Obs!  Beroende på mängden data kan detta ta flera minuter till några timmar. </p><p>Ange inte den här parametern om du bara vill publicera nya eller ändrade metadata. </p></td> 
+   <td colname="col3">Ange till <span class="codeph"> True</span> publicera <i>alla</i> data till metadataservern igen. <p>Obs! Beroende på mängden data kan detta ta flera minuter till några timmar. </p><p>Ange inte den här parametern om du bara vill publicera nya eller ändrade metadata. </p></td> 
   </tr> 
  </tbody> 
 </table>

@@ -5,14 +5,14 @@ title: GenerationInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9aac2973-bbcb-4914-9bf9-203f0357527c
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '45'
 ht-degree: 0%
 
 ---
 
-# GenerationInfo{#generationinfo}
+# [!DNL GenerationInfo]{#generationinfo}
 
 PostScript-filegenskaper.
 
@@ -22,7 +22,7 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| motor | `xsd:string` | Genereringsmotor som används (se&quot;Generationsinformation&quot; för värden). |
-| upphovsman | `types:Asset` | Tillgångspost för den primära tillgång som används i genereringen. |
-| genererad | `types:Asset` | Tillgångspost för den genererade resursen. |
+| [!DNL engine] | `xsd:string` | Genereringsmotor som används (se&quot;Generationsinformation&quot; för värden). |
+| [!DNL originator] | `types:Asset` | Tillgångspost för den primära tillgång som används i genereringen. |
+| [!DNL generated] | `types:Asset` | Tillgångspost för den genererade resursen. |
 | attributeArray | `types:GenerationAttributeArray` | Array med attribut som är associerade med genereringsprocessen. |

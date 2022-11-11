@@ -5,14 +5,14 @@ title: Mask
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0e18096c-0666-400b-a562-b6d183bd3334
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '69'
 ht-degree: 1%
 
 ---
 
-# Mask{#mask}
+# [!DNL Mask]{#mask}
 
 Maskerar en del av en bild. Masken är alltid kopplad till bilden. Hämta en mask från ImageInfo.
 

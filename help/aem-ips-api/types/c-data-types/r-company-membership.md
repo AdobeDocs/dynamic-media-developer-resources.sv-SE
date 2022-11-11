@@ -5,14 +5,14 @@ title: FöretagMedlemskap
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 10a1cd09-5cd8-48e6-93cf-da8d04d9941a
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '21'
+source-wordcount: '18'
 ht-degree: 0%
 
 ---
 
-# FöretagMedlemskap{#companymembership}
+# [!DNL CompanyMembership]{#companymembership}
 
 Syntax
 
@@ -20,6 +20,6 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| företag | `types:Company` |  |
-| roll | `xsd:string` |  |
+| [!DNL company] | `types:Company` |  |
+| [!DNL role] | `xsd:string` |  |
 | isActive | `xsd:boolean` | Anger användarens status för varje företag de tillhör. |

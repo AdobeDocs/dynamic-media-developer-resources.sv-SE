@@ -5,14 +5,14 @@ title: FontFieldUpdate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9e7b90d6-78da-48ff-8dff-9def3c32e3bc
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '53'
 ht-degree: 0%
 
 ---
 
-# FontFieldUpdate{#fontfieldupdate}
+# [!DNL FontFieldUpdate]{#fontfieldupdate}
 
 Uppdatera information för teckensnittsegenskaper.
 
@@ -26,7 +26,7 @@ Syntax
 | fontName | `xsd:string` | Teckensnittsnamn. |
 | postscriptName | `xsd:string` | PostScript-teckensnittsnamn. |
 | rtfName | `xsd:string` | Namn på RTF-teckensnitt. |
-| fontFamily | `xsd:string` | Teckensnittsfamilj. |
-| style | `xsd:string` | Teckensnittsformat (se Teckensnittsformat för värden). |
+| [!DNL fontFamily] | `xsd:string` | Teckensnittsfamilj. |
+| [!DNL style] | `xsd:string` | Teckensnittsformat (se Teckensnittsformat för värden). |
 | typeName | `xsd:string` | Typnamn för teckensnitt. |
-| type | `xsd:string` | Teckensnittstyp (se Teckensnittstyper för värden). |
+| [!DNL type] | `xsd:string` | Teckensnittstyp (se Teckensnittstyper för värden). |

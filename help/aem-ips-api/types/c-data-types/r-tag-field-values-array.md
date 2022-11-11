@@ -5,14 +5,14 @@ title: TaggFieldValuesArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 68762d4c-b006-4a1a-ab0b-dafde2ab0a80
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '26'
+source-wordcount: '25'
 ht-degree: 0%
 
 ---
 
-# TaggFieldValuesArray{#tagfieldvaluesarray}
+# [!DNL TagFieldValuesArray]{#tagfieldvaluesarray}
 
 En array med taggfältsvärden.
 

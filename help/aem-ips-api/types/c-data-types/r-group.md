@@ -5,14 +5,14 @@ title: Grupp
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 843b3fa5-93d3-43db-b6c7-194e7fa4d31a
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 2%
+source-wordcount: '38'
+ht-degree: 0%
 
 ---
 
-# Grupp{#group}
+# [!DNL Group]{#group}
 
 Namngiven uppsättning användare som används för att tilldela behörigheter.
 
@@ -24,5 +24,5 @@ Syntax
 |---|---|---|
 | groupHandle | `xsd:string` | Gruppreferens. |
 | companyHandle | `xsd:string` | Företagshandtag. |
-| name | `xsd:string` | Gruppnamn. |
-| är SystemDefined | `xsd:string` | Anger om gruppen definieras av systemet. |
+| [!DNL name] | `xsd:string` | Gruppnamn. |
+| [!DNL is SystemDefined] | `xsd:string` | Anger om gruppen definieras av systemet. |

@@ -5,14 +5,14 @@ title: AutomatedSetGenerationJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 44df6dfa-1485-40c2-8a14-bbf451b87641
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
 
-# AutomatedSetGenerationJob{#automatedsetgenerationjob}
+# [!DNL AutomatedSetGenerationJob]{#automatedsetgenerationjob}
 
 Gruppera filer i uppsättningar med hjälp av en listmatris för resurshandtag.
 
@@ -30,27 +30,27 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL assetHandleArray]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:HandleArray</span> </td> 
    <td colname="col3">En array med resurshandtag som används för att skapa uppsättningen. <p>Som standard är 1000 det maximala antalet resurser som du kan ha i arrayen. </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> destFolder</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL destFolder]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3"> Sökväg till den mapp där du vill spara uppsättningarna. Sparar som standard i företagets rotmapp. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> readyForPublish</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL readyForPublish]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolesk</span> </td> 
    <td colname="col3"> Anger en flagga som anger om resurserna ska publiceras eller inte. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> autoSetCreationOptions</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL autoSetCreationOptions]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:AutoSetCreationOptions</span> </td> 
    <td colname="col3">En array med angivna genereringsskript som du kan köra på de överförda filerna. Se <a href="../../types/c-data-types/r-auto-set-creation-options.md#reference-58b42b39e53345aeb87cd1adc864e7ff" format="dita" scope="local"> AutoSetCreationOptions</a></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> emailSetting</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL emailSetting]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3"> <p>Ställ in ett automatiskt e-postmeddelande för jobbet. </p> </td> 
   </tr> 
@@ -59,7 +59,7 @@ Syntax
 
 **emailSetting Options**
 
-Parametern `emailSetting` innehåller följande alternativ:
+The `emailSetting` -parametern innehåller följande alternativ:
 
 | Alternativ | Returnerar |
 |---|---|

@@ -5,14 +5,14 @@ title: Mapp
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 74b44b1a-a92e-4c97-a93b-0cd4552f78ec
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---
 
-# Mapp{#folder}
+# [!DNL Folder]{#folder}
 
 Hierarkiska fil- eller resurslagringsobjekt. Mappar kan innehålla en (eller flera) undermappar.
 
@@ -23,7 +23,7 @@ Syntax
 | Namn | Typ | Beskrivning |
 |---|---|---|
 | folderHandle | `xsd:string` | Mappreferens. |
-| bana | `xsd:string` | Mappsökväg. |
+| [!DNL path] | `xsd:string` | Mappsökväg. |
 | lastModified | `xsd:dateTime` | Senaste ändringsdatum. |
 | childLastModified | `xsd:dateTime` | Senaste ändringsdatum för undermappar och underordnade mappresurser. |
 | permissionsSetHandle | `xsd:string` | Mappbehörighetshantering. |

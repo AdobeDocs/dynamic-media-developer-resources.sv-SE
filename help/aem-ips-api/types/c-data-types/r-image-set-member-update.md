@@ -1,24 +1,24 @@
 ---
-description: 'I den här typen är fältet pageReset användbart för bildresurstyperna RenderSet och Catalog '
+description: I den här typen är fältet pageReset användbart för bildresurstyperna RenderSet och Catalog
 solution: Experience Manager
 title: ImageSetMemberUpdate
-feature: Dynamic Media Classic,SDK/API,Bilduppsättningar
+feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: 4c598afb-a80c-4fac-997f-ef1c7175430c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
 
-# ImageSetMemberUpdate{#imagesetmemberupdate}
+# [!DNL ImageSetMemberUpdate]{#imagesetmemberupdate}
 
 I den här typen är pageReset-fältet användbart för resurstyperna RenderSet och Catalog:
 
-* För `RenderSet` anger `pageReset` starten för en ny renderingsvy/färgrutegrupp.
+* För `RenderSet`, `pageReset` används för att ange början på en ny återgivningsvy/färgrutegrupp.
 
-* För Katalog anger `pageReset` början på en ny sidvy. Vanligtvis finns det två sidbilder per sidvy, men du kan ha fler eller färre.
+* För katalog `pageReset` används för att ange början på en ny sidvy. Vanligtvis finns det två sidbilder per sidvy, men du kan ha fler eller färre.
 
 ## Parametrar {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -39,7 +39,7 @@ I den här typen är pageReset-fältet användbart för resurstyperna RenderSet 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> pageReset</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolesk</span> </td> 
-   <td colname="col3">Återställer sidan. <p>Inställningen ignoreras och värdet tvingas till true för <span class="codeph"> ImageSet</span> och <span class="codeph"> SpinSet</span>. </p></td> 
+   <td colname="col3">Återställer sidan. <p>Inställningen ignoreras och värdet måste vara true för <span class="codeph"> ImageSet</span> och <span class="codeph"> SpinSet</span>. </p></td> 
   </tr> 
  </tbody> 
 </table>

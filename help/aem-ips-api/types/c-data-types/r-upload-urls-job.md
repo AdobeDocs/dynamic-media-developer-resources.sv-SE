@@ -5,14 +5,14 @@ title: UploadUrlsJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 28bca473-670f-4588-93fb-a6d6a692ce30
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
 
-# UploadUrlsJob{#uploadurlsjob}
+# [!DNL UploadUrlsJob]{#uploadurlsjob}
 
 Överför URL:er från den plats där du vill hämta filer.
 
@@ -72,7 +72,7 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:KnockoutBackgroundOptions</span> </td> 
-   <td colname="col3">Maskera bakgrunden för markerade bilder. På så sätt kan du täcka över dem i andra lager med en genomskinlighet utanför objektbilden. Valfritt. Se<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a>. </td> 
+   <td colname="col3">Maskera bakgrunden för markerade bilder. På så sätt kan du täcka över dem i andra lager med en genomskinlighet utanför objektbilden. Valfritt. Se<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> BlockeraBakgrundAlternativ</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </td> 
@@ -97,7 +97,7 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> pdfOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:PDFOptions</span> </td> 
-   <td colname="col3"> Alternativ för överföring av PDF-filer till bildservern. </td> 
+   <td colname="col3"> Alternativ för överföring av PDF-filer till Image Server. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> photoshopOptions</span> </span> </td> 
@@ -152,12 +152,12 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unCompressOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:UnCompressOptions</span> </td> 
-   <td colname="col3">Extrahera och bearbeta innehållet i överförda TAR/ZIP-filer med dessa valfria inställningar. Se <a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> UnCompressOptions</a>. </td> 
+   <td colname="col3">Extrahera och bearbeta innehållet i överförda TAR/ZIP-filer med dessa valfria inställningar. Se <a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> AvkomprimeraAlternativ</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:UnsharpMaskOptions</span> </td> 
-   <td colname="col3">Alternativ som gör att du kan styra inställningarna för oskarp mask när du skapar en optimerad TIF-pyramidfil. Använd de här inställningarna för att förbättra bildens skärpa. Se <a href="../../types/c-data-types/r-unsharp-mask-options.md#reference-b9a96244d7ee4424bc4ac3c23be3be3d" format="dita" scope="local"> UnsharpMaskOptions</a>. </td> 
+   <td colname="col3">Alternativ som gör att du kan styra inställningarna för oskarp mask när du skapar en optimerad TIF-pyramidfil. Använd de här inställningarna för att förbättra bildens skärpa. Se <a href="../../types/c-data-types/r-unsharp-mask-options.md#reference-b9a96244d7ee4424bc4ac3c23be3be3d" format="dita" scope="local"> OskarpMaskOptions</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> urlArray</span> </span> </td> 
@@ -174,13 +174,13 @@ Syntax
 
 ## Anteckningar {#section-637405ff7e0b4a71b83fd359b92fa0c2}
 
-För `CropOptions` kan du bara välja något av följande:
+För `CropOptions`kan du bara välja något av följande:
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-För `PublishJob` kan du bara välja något av följande:
+För `PublishJob`kan du bara välja något av följande:
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`

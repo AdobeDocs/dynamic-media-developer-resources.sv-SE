@@ -5,14 +5,14 @@ title: RipPdfsJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7a787b45-3cda-44f2-8357-8b6217b679e0
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
 
-# RipPdfsJob{#rippdfsjob}
+# [!DNL RipPdfsJob]{#rippdfsjob}
 
 En process som återtar en befintlig PDF-resurs.
 
@@ -34,7 +34,7 @@ En process som återtar en befintlig PDF-resurs.
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> pdfHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> typer:HandleArray</span> </p> </td> 
-   <td colname="col3"> <p>Hantera den array med PDF-filer som ska rensas. </p> </td> 
+   <td colname="col3"> <p>Hantera arrayen med PDF-filer som ska rensas. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> createMask</span> </span> </p> </td> 
@@ -114,20 +114,20 @@ En process som återtar en befintlig PDF-resurs.
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> typer:KnockoutBackgroundOptions</span> </p> </td> 
-   <td colname="col3"> <p>Maskera bakgrunden för markerade bilder. På så sätt kan du täcka över dem i andra lager med en genomskinlighet utanför objektbilden. </p> <p>Valfritt. </p> <p>Se<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> BlockeraBakgrundsalternativ</a> </p> </td> 
+   <td colname="col3"> <p>Maskera bakgrunden för markerade bilder. På så sätt kan du täcka över dem i andra lager med en genomskinlighet utanför objektbilden. </p> <p>Valfritt. </p> <p>Se<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> BlockeraBakgrundAlternativ</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Anteckningar {#section-0822e70fa4784131baa5ad0ba8c0fb3b}
 
-Du kan välja `*CropOptions`:
+Alternativ för `*CropOptions` inkludera:
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-Du kan välja `*PublishJob`:
+Alternativ för `*PublishJob` inkludera:
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`

@@ -5,14 +5,14 @@ title: TaggCondition
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ab1ac4b3-e91e-4c42-8b77-6e4c1d129b1a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
 
-# TaggCondition{#tagcondition}
+# [!DNL TagCondition]{#tagcondition}
 
 Definierar sökvillkor för taggfält.
 
@@ -39,9 +39,9 @@ Syntax
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3">Beroende på taggfältstypen och om värdet eller värdetArray-fältet används. 
     <ul id="ul_CC0926425B094B3BB7D70CB392DBDABD">
-     <li id="li_09AB923A9A8D4A71917CF59C150E4EF5">Om <span class="codeph">-värdet</span> skickas måste <span class="codeph"> op</span> vara strängkonstanten Matches. Villkoret matchar alla resurser som är associerade med taggvärdet. </li>
-     <li id="li_70F18494AB6C454EB611F51F16C19FAD">Om <span class="codeph"> valueArray</span> skickas kan det översta fältet vara konstanten <span class="codeph"> MatchesAny</span> för antingen enkla eller flervärdiga taggfält. Ett <span class="codeph"> MatcharAny</span>-villkor matchar alla resurser som är associerade med minst ett av taggvärdena i <span class="codeph"> valueArray</span>. </li>
-     <li id="li_0B25542D7E964B26B15591C45D5C66D0">För flervärdesfält kan det översta fältet anges till konstanten <span class="codeph"> MatchesAll</span> med fältet <span class="codeph"> valueArray</span>. I det här fallet matchar villkoret bara resurser som är associerade med alla taggvärden i <span class="codeph"> valueArray</span> (eventuellt utöver andra taggvärden). </li>
+     <li id="li_09AB923A9A8D4A71917CF59C150E4EF5">If <span class="codeph"> value</span> är passerad, <span class="codeph"> op</span> måste vara strängkonstanten Matches. Villkoret matchar alla resurser som är associerade med taggvärdet. </li>
+     <li id="li_70F18494AB6C454EB611F51F16C19FAD">If <span class="codeph"> valueArray</span> skickas kan det övre fältet vara konstanten <span class="codeph"> MatcharAny</span> för ett enskilt eller flervärdigt taggfält. A <span class="codeph"> MatcharAny</span> villkoret matchar alla resurser som är associerade med minst ett av taggvärdena i <span class="codeph"> valueArray</span>. </li>
+     <li id="li_0B25542D7E964B26B15591C45D5C66D0">För tagg-fält med flera värden kan det övre fältet ställas in på konstanten <span class="codeph"> MatcharAlla</span> med <span class="codeph"> valueArray</span> fält. I det här fallet matchar villkoret bara resurser som är associerade med alla taggvärden i <span class="codeph"> valueArray</span> (eventuellt utöver andra taggvärden). </li>
     </ul></td> 
   </tr> 
   <tr> 

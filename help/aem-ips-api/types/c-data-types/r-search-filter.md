@@ -5,14 +5,14 @@ title: SearchFilter
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b3a26966-33c9-48ca-b0ed-d05fc0e2050f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
 
-# SearchFilter{#searchfilter}
+# [!DNL SearchFilter]{#searchfilter}
 
 Filter som hjälper dig att definiera sökvillkor så att sökningen blir effektivare.
 
@@ -39,14 +39,14 @@ Syntax
    <td colname="col2"> <span class="codeph"> xsd:boolesk</span> </td> 
    <td colname="col3">Ange till: 
     <ul id="ul_BD8686943BD14D05A21C00192D4D70D3"> 
-     <li id="li_B6A6DE5AAEFF4A80A8413B4785A88222"><span class="codeph"> Sant</span>: Om du vill söka i den namngivna mappen och i alla undermappar. </li> 
+     <li id="li_B6A6DE5AAEFF4A80A8413B4785A88222"><span class="codeph"> True</span>: Om du vill söka i den namngivna mappen och i alla undermappar. </li> 
      <li id="li_10A581F98B4847ED8EBE4AECC3AD70A8"><span class="codeph"> Falskt</span>: Om du bara vill söka i den namngivna mappen. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> type:StringArray</span> </td> 
-   <td colname="col3">En lista med resurstyper som du vill returnera i en sökning. Exempel: <span class="codeph"> image</span>. </td> 
+   <td colname="col3">En lista med resurstyper som du vill returnera i en sökning. Till exempel: <span class="codeph"> image</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeAssetTypeArray</span> </span> </td> 
@@ -56,20 +56,20 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetSubTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> type:StringArray</span> </td> 
-   <td colname="col3">En lista med undertyper av resurser som du vill returnera i en sökning. För en <span class="codeph"> AssetSet</span> kan du till exempel söka efter undertypen <span class="codeph"> MediaType</span>. </td> 
+   <td colname="col3">En lista med undertyper av resurser som du vill returnera i en sökning. Till exempel för <span class="codeph"> AssetSet</span>kan du söka efter <span class="codeph"> MediaType</span> undertyp. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> strictSubTypeCheck</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolesk</span> </td> 
-   <td colname="col3"> <p>En valfri boolesk flagga som anger om resurser ska returneras utan undertyp när <span class="codeph"> assetSubTypeArray</span> skickas. </p> <p>Om true returneras bara resurser med en av de angivna undertyperna. </p> <p>Om värdet är false returneras även resurser utan undertyp. </p> <p>Standardvärdena är false. </p> </td> 
+   <td colname="col3"> <p>En valfri boolesk flagga som anger om resurser ska returneras utan undertyp när <span class="codeph"> assetSubTypeArray</span> har skickats. </p> <p>Om true returneras bara resurser med en av de angivna undertyperna. </p> <p>Om värdet är false returneras även resurser utan undertyp. </p> <p>Standardvärdena är false. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeByproducts</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolesk</span> </td> 
    <td colname="col3">Ange till: 
     <ul id="ul_8C164A5D9F0F43968C86A67FA6884F35"> 
-     <li id="li_D8009688FF2C439D98D6C1052C1A6CBE"><span class="codeph"> Sant</span>: Om du bara vill returnera ursprungliga resurser. </li> 
-     <li id="li_4970226BF0FF42388CAE4415FB63AF16"><span class="codeph"> Falskt</span>: Returnera genererat innehåll. Till exempel bilder från en överförd PDF-fil. </li> 
+     <li id="li_D8009688FF2C439D98D6C1052C1A6CBE"><span class="codeph"> True</span>: Om du bara vill returnera ursprungliga resurser. </li> 
+     <li id="li_4970226BF0FF42388CAE4415FB63AF16"><span class="codeph"> Falskt</span>: Returnera genererat innehåll. Exempel: bilder från ett överfört PDF. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -82,18 +82,18 @@ Syntax
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3">Ange: 
     <ul id="ul_96FFEE28F7624C1FB0356776B4C7CD53"> 
-     <li id="li_DCB07288E5F44E05A4D83D3F34B0E08E"><span class="codeph"> MarkedForPublishför </span> att endast returnera publicerade resurser. </li> 
-     <li id="li_9A9A852248DB490DB958AE986DF02672"><span class="codeph"> </span> NotMarkedForPublishför att endast returnera opublicerade resurser. </li> 
-    </ul> <p>Obs! Lämna tomt om du vill söka efter <i>alla</i> publicerade tillståndstyper. </p> </td> 
+     <li id="li_DCB07288E5F44E05A4D83D3F34B0E08E"><span class="codeph"> MarkedForPublish</span> bara returnera publicerade resurser. </li> 
+     <li id="li_9A9A852248DB490DB958AE986DF02672"><span class="codeph"> EjMarkeradFörPublicering</span> om du bara vill returnera opublicerade resurser. </li> 
+    </ul> <p>Obs! Lämna tomt för att söka efter <i>alla</i> publicerade tillståndstyper. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> trashState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3">Ange: 
     <ul id="ul_D31B903FA8DA4CFFABAFABA3D8DA91EC"> 
-     <li id="li_E4386C8260E64F0BAFE5BA57FF788E48"><span class="codeph"> </span> Anyto returnera mediefiler oavsett deras papperskorg. </li> 
-     <li id="li_0B8933FE18C643828075EC8CE8C0223C"><span class="codeph"> </span> NotInTrashför att returnera normala resurser. </li> 
-     <li id="li_A1F46A0762FA4D4BA9F7247338238DC6"><span class="codeph"> </span> InTrashför att returnera resurser från papperskorgen. </li> 
+     <li id="li_E4386C8260E64F0BAFE5BA57FF788E48"><span class="codeph"> Alla</span> för att returnera resurser oavsett deras papperskorg. </li> 
+     <li id="li_0B8933FE18C643828075EC8CE8C0223C"><span class="codeph"> NotInTrash</span> för att returnera"normala" tillgångar. </li> 
+     <li id="li_A1F46A0762FA4D4BA9F7247338238DC6"><span class="codeph"> InTrash</span> för att returnera resurser från papperskorgen. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

@@ -5,14 +5,14 @@ title: EmailConfirmation
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b4698637-a897-47fa-92d4-4ab400e56962
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
 
-# EmailConfirmation{#emailconfirmation}
+# [!DNL EmailConfirmation]{#emailconfirmation}
 
 Skickar ett e-postmeddelande till en angiven mottagare som svar på en cdnCacheInvalidation-åtgärd.
 
