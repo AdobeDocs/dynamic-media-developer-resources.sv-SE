@@ -5,9 +5,9 @@ title: Ta bort eller ersätta källdatafiler
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 9daf8534-a844-4f4a-8e99-8dc751acd550
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,6 @@ Tänk på att om du tar bort eller ersätter en källdatafil kommer återgivning
 
 Återgivningsservern måste stoppas för att andra datafiler ska kunna ersättas.
 
-Plattformsserverns cacheposter blir automatiskt ogiltiga när materialfiler eller vinjetter ersätts. Att ersätta ICC-profilfiler gör inte cacheminnen ogiltiga.
+[!DNL Platform Server] cacheposter blir automatiskt ogiltiga när materialfiler eller vinjetter ersätts. Att ersätta ICC-profilfiler gör inte cacheminnen ogiltiga.
 
 Du bör ge en ersättningsfil ett nytt namn och uppdatera motsvarande katalogposter för att undvika komplikationer med att ersätta filer. Detta gör att du kan ersätta en datafil medan servern är aktiv och gör att servercacheposter blir inaktuella automatiskt utan ytterligare åtgärder. Den här metoden kan användas för alla datafiler som hanteras av bildkataloger.

@@ -5,9 +5,9 @@ title: Innehållsdatamappar
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 9aa4121f-25f8-49d0-a304-7ae756c046f5
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -18,19 +18,19 @@ Använd de här serverinställningarna för innehållets datamappar.
 
 ## IS::RootPath - rotmappar för bilddata {#section-5c57569514bb4d00b19de31d2e137e3b}
 
-Platsen för alla källdata, inklusive bilder, teckensnitt och ICC-profiler. Det kan vara en eller flera absoluta filsökvägar eller sökvägar i förhållande till *[!DNL install_folder]*, avgränsade med semikolon. Om den är tom är *[!DNL install_folder]* standardroten. Flera värden kan anges för att distribuera bilddata i flera filsystem. Image Server kommer att försöka med rotsökvägarna i den ordning som anges tills den begärda filen hittas.
+Platsen för alla källdata, inklusive bilder, teckensnitt och ICC-profiler. Detta kan vara en eller flera absoluta filsökvägar eller sökvägar i förhållande till *[!DNL install_folder]*, avgränsade med semikolon. Om tom *[!DNL install_folder]* är standardroten. Flera värden kan anges för att distribuera bilddata i flera filsystem. Image Server kommer att försöka med rotsökvägarna i den ordning som anges tills den begärda filen hittas.
 
 ## PS::staticContent.rootPath - rotmappar för statiska innehållsdata {#section-a4f5b6942b7b4abdbf825b1f2e932cfe}
 
-Platsen för statiska innehållskälldata som ska levereras via [!DNL /is/static]-kontexten. Kan vara en eller flera absoluta filsökvägar eller sökvägar i förhållande till *[!DNL install_folder]*, avgränsade med semikolon. Om den är tom är *[!DNL install_folder]* standardroten.
+Platsen för statiska innehållskälldata som ska levereras via [!DNL /is/static] kontext. Kan vara en eller flera absoluta filsökvägar eller sökvägar i förhållande till *[!DNL install_folder]*, avgränsade med semikolon. Om tom *[!DNL install_folder]* är standardroten.
 
-Flera värden kan anges avgränsade med semikolon för att distribuera statiskt innehåll i flera filsystem. Använd vanligtvis samma värden som `IS::RootPath`.
+Flera värden kan anges avgränsade med semikolon för att distribuera statiskt innehåll i flera filsystem. Vanligtvis inställd på samma värden som `IS::RootPath`.
 
-Plattformsservern testar rotsökvägarna i den ordning som anges tills den begärda filen hittas.
+The [!DNL Platform Server] testar rotsökvägarna i den ordning som anges tills den begärda filen hittas.
 
 >[!NOTE]
 >
->Som standard är det här fältet avsiktligt inställt på en icke-befintlig plats ( [!DNL *[!DNL install_folder]*/static]), vilket inaktiverar den statiska innehållstjänsten.
+>Som standard är det här fältet avsiktligt inställt på en icke-befintlig plats ( [!DNL *[!DNL install_folder]*/static]), inaktiverar den statiska innehållstjänsten.
 
 ## IS::SaveDirectory - mappen Spara rotfil {#section-1c517f8d49ce4cb8b9013e520bf309c9}
 

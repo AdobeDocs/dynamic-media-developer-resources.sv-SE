@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8b5afb99-3201-4e43-93e7-e8998354204f
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Katalogattributfiler består av en uppsättning textposter, avgränsade med en e
 </table>
 
 * Tomt utrymme mellan variabler är valfritt.
-* Poster med okända attributnamn ignoreras av plattformsservern.
+* Poster med okända attributnamn ignoreras av [!DNL Platform Server].
 * Attributnamn kan bestå av vilken kombination som helst av ASCII-bokstäver, siffror och&quot;-&quot;,&quot;_&quot; och&quot;.&quot;
 * Om samma attributnamn förekommer mer än en gång i samma attributfil gäller det senast påträffade attributnamnet.
 * Använd &#39;#&#39; som första tecken för att markera en post som en kommentar som tolkaren ignorerar.

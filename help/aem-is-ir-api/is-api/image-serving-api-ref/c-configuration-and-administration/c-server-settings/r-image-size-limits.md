@@ -5,9 +5,9 @@ title: Bildstorleksbegränsningar
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 75ec58ee-8c98-46cb-96b2-79d1c32e576f
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Använd de här serverinställningarna för att ange bildstorleksbegränsningar.
 
 ## IS::MaxMessageSize - Gräns för svarsstorlek {#section-bd942385d4d144cd904003695d72c85e}
 
-Begränsar storleken på de data som Image Server får skicka till Platform Server. Detta begränsar i själva verket storleken på den kodade/komprimerade svarsbilden som Image Serving kan returnera till klienten via HTTP (Mbytes).
+Begränsar storleken på de data som Image Server får skicka till [!DNL Platform Server]. Detta begränsar i själva verket storleken på den kodade/komprimerade svarsbilden som Image Serving kan returnera till klienten via HTTP (Mbytes).
 
 ## IS::MaxRenderRgnPixels - Storleksgräns för utdatabild {#section-868ceb9764dd42dfb133ffeb72f9d3fb}
 
@@ -26,7 +26,7 @@ Begränsar storleken på de bilder som Image Server kan producera (exklusive bil
 
 ## IS::MaxSavePixels - storleksgräns för att spara till filer {#section-d1547c4afa88467080ab08356f775e06}
 
-Begränsar storleken på bilder som Image Server skriver till filer med kommandot `req=saveToFile`. Heltalsvärde som är större än 0 i miljoner pixlar. Ett fel returneras om filsparandet skulle överskrida gränsen. Standardvärdet är 100 miljoner pixlar.
+Begränsar storleken på bilder som Image Server skriver till filer med `req=saveToFile` -kommando. Heltalsvärde som är större än 0 i miljoner pixlar. Ett fel returneras om filsparandet skulle överskrida gränsen. Standardvärdet är 100 miljoner pixlar.
 
 ## IS::MaxNonDsfSize - storleksgräns för icke-PTIFF-indatabilder {#section-50de28a7158a436393cce5da0d1e4d46}
 

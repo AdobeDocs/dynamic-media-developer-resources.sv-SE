@@ -5,9 +5,9 @@ title: Debug_trace-loggning
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: fe1fc984-3c6b-4bd1-b5ba-630860ac7319
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Använd de här serverinställningarna för att felsöka spårningsloggning.
 
 ## SV::log - Sökväg till loggfil för serveradministratörens spårningslogg {#section-3697bc480ff646e79cacc2812c55ef26}
 
-Mapp- och basfilnamn för Server Supervisor-loggfiler. Sökvägen kan vara absolut eller relativ till *[!DNL install_folder]*. Serverhanteraren lägger till ett bindestreck och det aktuella datumet ( *[!DNL -yyyy-mm-dd]*) till filnamnet (före filsuffixet, om det finns något). Vi rekommenderar att du skickar alla loggfiler till samma mapp som loggfilerna för plattformsservern ( `PS::LogFolder`) för att utnyttja loggfilshanteringen som implementeras av plattformsservern ( `PS::LogDays`). Standardvärdet är [!DNL logs/Supervisor.log].
+Mapp- och basfilnamn för Server Supervisor-loggfiler. Sökvägen kan vara absolut eller relativ till *[!DNL install_folder]*. Serverhanteraren lägger till ett bindestreck och det aktuella datumet ( *[!DNL -yyyy-mm-dd]*) till filnamnet (före eventuella filsuffix). Vi rekommenderar att du skickar alla loggfiler till samma mapp som [!DNL Platform Server] loggfiler ( `PS::LogFolder`) för att utnyttja loggfilshanteringen som implementeras av [!DNL Platform Server] ( `PS::LogDays`). Standard är [!DNL logs/Supervisor.log].
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ Loggnivån kan vara 1, 2, 3 eller 4. Standardvärdet är 2.
 
 ## IS::Log - Felsökningsloggfilens sökväg för Image Server {#section-73a3f09b77f2446c9f82207b7d8aec39}
 
-Mapp- och basfilnamn för bildserverns spårningsloggfiler. Sökvägen kan vara absolut eller relativ till *[!DNL install_folder]*. ImageServer lägger till ett bindestreck och det aktuella datumet ( *[!DNL -yyyy-mm-dd]*) till filnamnet (före filsuffixet, om det finns något). Vi rekommenderar att du skickar loggfiler för Image Server till samma mapp som loggfilerna för Platform Server ( `PS::LogFolder`) för att utnyttja loggfilshanteringen som implementeras av Platform Server (se `PS::LogDays`).
+Mapp- och basfilnamn för bildserverns spårningsloggfiler. Sökvägen kan vara absolut eller relativ till *[!DNL install_folder]*. ImageServer lägger till ett bindestreck och det aktuella datumet ( *[!DNL -yyyy-mm-dd]*) till filnamnet (före eventuella filsuffix). Vi rekommenderar att du skickar loggfiler för Image Server till samma mapp som [!DNL Platform Server] loggfiler ( `PS::LogFolder`) för att utnyttja loggfilshanteringen som implementeras av [!DNL Platform Server] (se `PS::LogDays`).
 
 >[!NOTE]
 >
@@ -44,13 +44,13 @@ Mapp- och basfilnamn för bildserverns spårningsloggfiler. Sökvägen kan vara 
 
 Loggnivån kan vara 1, 2, 3 eller 4 (standard är 2)
 
-Nivå 1 loggar händelser relaterade till anslutningar för start, avstängning och plattformsserver.
+Level 1 loggar händelser som rör start, avstängning och [!DNL Platform Server] anslutningar.
 
 Nivå 2 loggar även anslutning till och frånkoppling från källbilder.
 
-Nivå 3 lägger till loggning av begäranden om pixeldata och leverans av dessa till plattformsservern.
+Nivå 3 lägger till loggning av begäranden om pixeldata och leverans av samma till [!DNL Platform Server].
 
-Nivå 4 registrerar alla meddelanden som tagits emot från plattformsservern.
+Nivå 4 registrerar alla meddelanden som tagits emot från [!DNL Platform Server].
 
 Nivå 3 och 4 bör endast användas i felsökningssyfte eftersom loggfilerna kan bli mycket stora.
 

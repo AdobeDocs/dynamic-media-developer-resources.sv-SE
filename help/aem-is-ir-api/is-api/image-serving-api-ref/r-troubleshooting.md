@@ -5,9 +5,9 @@ title: Felsökning
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b80d3c9a-a0c4-4944-9f91-e791a072cd5f
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Orsaken till det här felmeddelandet är att det inte gick att tilldela den män
 
 **Det faktiska diskutrymme som används av cachemappen överskrider ` *[!DNL cache.maxSize]*`anges i[!DNL PlatformServer.conf]**
 
-Detta tyder inte på något problem. Filsystemsrubriken ingår inte i plattformsserverns inställning för diskcache. Det totala belopp som rapporteras av systemet kan vara betydligt större än inställningen. Vi rekommenderar att du reserverar dubbelt så mycket diskutrymme som du anger i ` *[!DNL cache.maxSize]*`.
+Detta tyder inte på något problem. Filsystemets overhead ingår inte i [!DNL Platform Server]Inställningen för diskcache. Det totala belopp som rapporteras av systemet kan vara betydligt större än inställningen. Vi rekommenderar att du reserverar dubbelt så mycket diskutrymme som du anger i ` *[!DNL cache.maxSize]*`.
 
 **Brutna bilder i exemplen i is-docs**
 
@@ -43,11 +43,11 @@ Exemplen förutsätter också att vissa inställningar i [!DNL default.ini] är 
 
 **För många cachemissar efter omfattande drifttid**
 
-Beroende på serveranvändningen kan prestanda förbättras genom att storleken på plattformsserverns diskcache ökas om det finns tillgängligt diskutrymme. Du kan ändra inställningarna genom att redigera konfigurationsfiler manuellt. Se dokumentationen.
+Beroende på serveranvändningen kan prestandan förbättras genom att öka [!DNL Platform Server] diskcachens storlek om det finns ledigt diskutrymme. Du kan ändra inställningarna genom att redigera konfigurationsfiler manuellt. Se dokumentationen.
 
 **Loggfiler tar upp för mycket diskutrymme**
 
-Image Server och Platform Server startar en ny loggfil varje dag. Som standard placeras de i [!DNL *[!DNL install_root]*/ImageServing/logs]. Loggfilens storlek, antal lagrade loggar och logginnehåll kan konfigureras. Se dokumentationen.
+Image Server och [!DNL Platform Server] starta en ny loggfil varje dag. Som standard placeras de i [!DNL *[!DNL install_root]*/ImageServing/logs]. Loggfilens storlek, antal lagrade loggar och logginnehåll kan konfigureras. Se dokumentationen.
 
 **Om du har ett antivirusprogram installerat på servern**
 

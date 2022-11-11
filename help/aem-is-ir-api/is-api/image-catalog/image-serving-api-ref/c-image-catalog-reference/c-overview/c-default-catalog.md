@@ -5,9 +5,9 @@ title: Standardkatalog
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: db42fb67-aa6f-4217-bc69-45b01bbd0b10
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,8 @@ Om det inte går att hitta ett visst attribut i en viss bildkatalog använder se
 
 Dessutom innehåller standardkatalogen alla attribut och dataposter (makron, teckensnitt, ICC-profiler, begär förbearbetningsregler) när ingen specifik bildkatalog är inblandad i en åtgärd.
 
-För att plattformsservern ska fungera korrekt måste katalogattributfilen för standardkatalogen ha namnet [!DNL default.ini], måste alltid finnas i katalogmappen och måste vara fullt ifylld med alla nödvändiga attribut, förutom `attribute::RootId` och referenserna till de olika katalogdatafilerna, som alla är valfria.
+För att [!DNL Platform Server] katalogattributfilen för standardkatalogen måste ha ett namn [!DNL default.ini], måste alltid finnas i katalogmappen och måste vara fullt ifylld med alla nödvändiga attribut, förutom `attribute::RootId` och referenserna till de olika katalogdatafilerna, som alla är valfria.
 
 >[!NOTE]
 >
->Alla katalogattributfiler utom [!DNL default.ini] måste innehålla ett unikt `attribute::RootId`-värde. `attribute::RootId` måste  [!DNL default.ini] vara tom.
+>Alla katalogattributfiler utom [!DNL default.ini] måste innehålla ett unikt `attribute::RootId` värde. `attribute::RootId` in [!DNL default.ini] måste vara tom.

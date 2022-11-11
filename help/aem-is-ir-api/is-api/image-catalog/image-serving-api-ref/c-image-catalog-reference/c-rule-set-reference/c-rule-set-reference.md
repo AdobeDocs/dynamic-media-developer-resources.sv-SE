@@ -5,9 +5,9 @@ title: Referens för regeluppsättning
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: dfbb5f5e-d75a-496a-8b97-f102ad1a34d5
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Image Serving har stöd för en enkel förbearbetningsmekanism för begäranden 
 
 Samlingar med förbearbetningsregler (*regeluppsättningar*) kan bifogas till bildkataloger eller standardkatalogen. Regler i standardkatalogen gäller bara om begäran inte identifierar en viss huvudbildkatalog.
 
-Regler för förbehandling av begäranden kan ändra sökvägen och frågedelarna av begäranden innan de bearbetas av plattformsserverns parser, inklusive att ändra sökvägen, lägga till kommandon, ändra kommandovärden och använda mallar eller makron. Regler kan också användas för att konfigurera och åsidosätta vissa säkerhetsfunktioner som normalt bara styrs med katalogattribut, till exempel begärandeförfalskning, vattenmärkning, samt för att begränsa tjänsten till specifika IP-adresser för klienter.
+Regler för förbehandling av begäranden kan ändra sökväg och frågedelar av begäranden innan de bearbetas av [!DNL Platform Server]parser, som att ändra banan, lägga till kommandon, ändra kommandovärden och använda mallar eller makron. Regler kan också användas för att konfigurera och åsidosätta vissa säkerhetsfunktioner som normalt bara styrs med katalogattribut, till exempel begärandeförfalskning, vattenmärkning, samt för att begränsa tjänsten till specifika IP-adresser för klienter.
 
 Regeluppsättningar sparas som XML-dokumentfiler. Den relativa eller absoluta sökvägen för regeluppsättningsfilen måste anges i `attribute::RuleSetFile`.
 

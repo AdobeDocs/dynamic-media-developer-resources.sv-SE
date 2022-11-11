@@ -1,25 +1,25 @@
 ---
-description: Det här är den primära loggen som håller reda på alla HTTP-begäranden som görs till plattformsservern. Om Bildåtergivning är aktiverat skrivs dess åtkomstloggdata till samma fil.
+description: Det här är den primära loggen som håller reda på alla HTTP-begäranden som gjorts till [!DNL Platform Server]. Om Bildåtergivning är aktiverat skrivs dess åtkomstloggdata till samma fil.
 solution: Experience Manager
 title: Åtkomstlogg
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: e7f9d935-cb98-404c-8922-6420a4217733
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
 
 # Åtkomstlogg{#access-log}
 
-Det här är den primära loggen som håller reda på alla HTTP-begäranden som görs till plattformsservern. Om Bildåtergivning är aktiverat skrivs dess åtkomstloggdata till samma fil.
+Det här är den primära loggen som håller reda på alla HTTP-begäranden som gjorts till [!DNL Platform Server]. Om Bildåtergivning är aktiverat skrivs dess åtkomstloggdata till samma fil.
 
 Åtkomstloggen är konfigurerad i server.xml.
 
 >[!NOTE]
 >
->Utöver klienttrafik för Image Serving ( [!DNL /is/image/*]) och Image Rendering ( [!DNL /ir/render/*]) kan åtkomstloggen innehålla viss intern trafik: åtkomst till katalogsystemet för plattformsservern ( [!DNL /is-catalog/*]), cachedelning och begäran om omdirigering av fel ( [!DNL /is/cache/*]), åtkomst till andra paket som distribueras till plattformsservern, t.ex. Dynamic Media-visningsprogram ( [!DNL /is-viewers/*]), statisk trafik och statiska innehållsbegäranden som hanteras av plattformsservern (t.ex. [!DNL /is-docs/*]).
+>Utöver klienttrafik för Image Serving ( [!DNL /is/image/*]) och bildåtergivning ( [!DNL /ir/render/*]) kan åtkomstloggen innehålla viss intern trafik: åtkomst till [!DNL Platform Server] katalogsystem ( [!DNL /is-catalog/*]), cachedelning och omdirigeringsbegäranden för fel ( [!DNL /is/cache/*]), åtkomst till andra paket som distribueras till [!DNL Platform Server], till exempel Dynamic Media Viewer ( [!DNL /is-viewers/*]), statisk trafik och förfrågningar om statiskt innehåll från [!DNL Platform Server] (t.ex. [!DNL /is-docs/*]).
 
-Begäranden med rotsökvägarna [!DNL /is-catalog] och [!DNL /is/cache] ska alltid uteslutas från klienttrafikanalys.
+Förfrågningar med [!DNL /is-catalog] och [!DNL /is/cache] rotsökvägar ska alltid uteslutas vid klienttrafikanalys.

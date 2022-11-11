@@ -5,9 +5,9 @@ title: catalog-server.conf
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 55e55381-3828-4937-8746-a74e82d6ca38
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '111'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Innehåller inställningar för hantering av bildkataloger.
 
-Filen är en JAVA-egenskapsfil. Det är viktigt att följa tillämpliga konventioner. annars kan det hända att plattformsservern inte kan startas. Använd ett dubbelt omvänt snedstreck (\\) eller ett enkelt snedstreck (/) i stället för ett omvänt snedstreck (\) i Windows-filsökvägar. Det omvända snedstrecket används som ett escape-tecken i den här filtypen.
+Filen är en JAVA-egenskapsfil. Det är viktigt att följa tillämpliga konventioner. annars [!DNL Platform Server] kanske inte kan starta. Använd ett dubbelt omvänt snedstreck (\\) eller ett enkelt snedstreck (/) i stället för ett omvänt snedstreck (\) i Windows-filsökvägar. Det omvända snedstrecket används som ett escape-tecken i den här filtypen.
 
 Ändringarna i den här filen börjar gälla kort efter att filen har sparats.
 

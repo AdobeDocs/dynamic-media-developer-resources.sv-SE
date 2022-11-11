@@ -1,13 +1,13 @@
 ---
 title: Överföra resurser via HTTP POST till UploadFile-servern
-description: När du överför resurser till Dynamic Media Classic måste du ange en eller flera HTTP-POSTER som ställer in ett jobb för att koordinera all loggaktivitet som är kopplad till de överförda filerna.
+description: Överför resurser till [!DNL Dynamic Media] Klassisk innebär en eller flera HTTP-POST-begäranden som ställer in ett jobb för att koordinera all loggaktivitet som är associerad med de överförda filerna.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: e40293be-d00f-44c1-8ae7-521ce3312ca8
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '723'
 ht-degree: 0%
 
 ---

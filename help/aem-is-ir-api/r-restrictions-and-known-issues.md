@@ -5,9 +5,9 @@ title: Begränsningar och kända fel
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fd32456b-9d99-4e82-a61c-2fc4d7030630
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1222'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,9 @@ Det finns vissa begränsningar och kända fel som bör beaktas när du använder
 * Om den sista textraden inte får plats tas hela raden bort i stället för att visas som utfall.
 * `\slmult` och `\sl` fungerar annorlunda än MS Word och `text=`används de bara för de aktuella och efterföljande styckena.
 
-* `\sb` gäller för det första stycket för både MS Word och `text=`, Adobe InDesign och Photoshop gör inte detta.
+* `\sb` gäller för det första stycket för både MS Word och `text=`, Adobe InDesign och [!DNL Photoshop] gör inte detta.
 
-* `\sa` gäller för det sista stycket för både MS Word och `text=`, Adobe InDesign och Photoshop gör inte detta.
+* `\sa` gäller för det sista stycket för både MS Word och `text=`, Adobe InDesign och [!DNL Photoshop] gör inte detta.
 
 ## Bakåtkompatibilitet {#section-a76842f751944f4fb664af296d064122}
 
@@ -90,15 +90,15 @@ Digimarc-biblioteket vägrar att använda en Digimarc-vattenstämpel på en bild
 
    Öka egenskapsvärdet för Bildservning av icke-pyramidat TIFF för `MaxNonDsfSize` i [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] konfigurationsfil.
 
-* Adobe Photoshop CS3 sparar inte PSD-filer med lager som standard som en sammansatt bild.
+* Adobe [!DNL Photoshop] I CS3 sparas inte PSD-filer med lager som standard som en sammansatt bild.
 
    *Symtom*:
 
-   Adobe Photoshop CS3-filen PSD i lager visas som svart med texten &quot;Denna Photoshop-fil i lager har inte sparats med en sammansatt bild&quot;. för svarsbilden Image Serving eller i IPS.
+   Adobe [!DNL Photoshop] PSD-filen i CS3-lager visas som svart med texten &quot;Detta lager [!DNL Photoshop] filen sparades inte med en sammansatt bild.&quot; för svarsbilden Image Serving eller i IPS.
 
    *Tillfällig lösning*:
 
-   Spara Adobe Photoshop CS3-filen med maximal kompatibilitet aktiverat.
+   Spara Adobe [!DNL Photoshop] CS3-fil med maximal kompatibilitet aktiverat.
 
 * Om du tilldelar en ICC-profil till en CMYK/JPEG-svarsbild blir färgerna inverterade i vissa webbläsare.*Arbeta runt*:
 
@@ -116,7 +116,7 @@ Digimarc-biblioteket vägrar att använda en Digimarc-vattenstämpel på en bild
 * PNG-bilder med 16 bitar per kanal stöds inte för PhotoFont-text.
 * Färgkorrigeringar för PNG-bilder med inbäddade färgprofiler använder hårdkodade alternativ. Återgivningsmetoden är relativ kolorimetrisk och svartpunktskompensation är aktiverat för PhotoFont-text.
 * Filbaserad sökning stöds inte när språköversättning är aktiverat i företaget [!DNL ini] -fil.
-* Image Serving skriver inte oavslutade Photoshop-sökvägar korrekt.
+* Bildservern skriver inte ej stängda [!DNL Photoshop] sökvägar korrekt.
 * Image Serving stöder för närvarande inte bearbetning av TIFF-filer som exporterats med Adobe Media Encoder 4.0.1 eller tidigare. Adobe Media Encoder ingår i Premiere Pro CS4, After Effects CS4 och Creative Suite 4 Production Premium.
 * Använda `text=` med självskalande lager stöder inte RTF-strängar som använder mer än en inställning för linjejustering.
 

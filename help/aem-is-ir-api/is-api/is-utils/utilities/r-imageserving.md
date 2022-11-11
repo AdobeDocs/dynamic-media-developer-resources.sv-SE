@@ -1,20 +1,20 @@
 ---
-description: Image Serving control script. Skriptet används för att starta, stoppa eller starta om Image Serving Server Supervisor, som i sin tur startar, stoppar eller startar om alla andra Image Serving-komponenter.
+description: Skript för bildserverkontroll. Skriptet används för att starta, stoppa eller starta om Image Serving Server Supervisor, som i sin tur startar, stoppar eller startar om alla andra Image Serving-komponenter.
 solution: Experience Manager
 title: ImageServing
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 252e12d9-703e-4fbb-a156-8dcdc3bc4f2e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
 
 # ImageServing{#imageserving}
 
-Image Serving control script. Skriptet används för att starta, stoppa eller starta om Image Serving Server Supervisor, som i sin tur startar, stoppar eller startar om alla andra Image Serving-komponenter.
+Skript för bildserverkontroll. Skriptet används för att starta, stoppa eller starta om Image Serving Server Supervisor, som i sin tur startar, stoppar eller startar om alla andra Image Serving-komponenter.
 
 ## Användning {#section-6832b5b10404442a9d3a3eca92041002}
 
@@ -31,24 +31,24 @@ Image Serving control script. Skriptet används för att starta, stoppa eller st
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> start  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> start </span> </p> </td> 
    <td colname="col2"> <p> Starta Server Supervisor och alla andra Image Serving-komponenter. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> stop  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> stop </span> </p> </td> 
    <td colname="col2"> <p> Stoppa alla Image Serving-komponenter, inklusive Server Supervisor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> starta  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> starta </span> </p> </td> 
    <td colname="col2"> <p>Starta om alla Image Serving-komponenter, inklusive Server Supervisor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> starta om { ps | är | svg }  </span> </p> </td> 
-   <td colname="col2"> <p> Startar om Tomcat/Platform Server, Image Server eller SVG. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> starta om { ps | är | svg } </span> </p> </td> 
+   <td colname="col2"> <p> Startar om Tomcat/[!DNL Platform Server], bildservern eller SVG. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> status [ ps | är | svg ]  </span> </p> </td> 
-   <td colname="col2"> <p>Returnerar drifttid och aktuell minnesanvändningsinformation för Image Server, Tomcat/Platform Server och SVGserver, eller status för endast den angivna servern. Ett informationsmeddelande returneras i stället om Serverhanteraren inte körs. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> status [ ps | är | svg ] </span> </p> </td> 
+   <td colname="col2"> <p>Returnerar information om drifttid och aktuell minnesanvändning för Image Server, Tomcat/[!DNL Platform Server]och SVGserver, eller status för endast den angivna servern, Ett informationsmeddelande returneras i stället om Serverhanteraren inte körs. </p> </td> 
   </tr> 
  </tbody> 
 </table>

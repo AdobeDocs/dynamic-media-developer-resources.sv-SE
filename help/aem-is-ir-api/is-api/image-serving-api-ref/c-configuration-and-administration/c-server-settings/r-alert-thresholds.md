@@ -5,9 +5,9 @@ title: Varningströsklar
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 1ae76692-2688-4902-82a0-d0751408eee7
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ En minsta trafikvarning skickas när det genomsnittliga antalet begäranden per 
 
 ## AS::monitorAlertGenerator.minFreeHeapSpace -Free Heap Space Threshold {#section-ce6705045f6842769030ccb1894594cc}
 
-Anger det minsta lediga Java-heap-utrymmet. En prioritetsvarning skickas omedelbart efter en skräpinsamlingscykel för Java när det lediga stackutrymmet är under detta tröskelvärde. 50 MB rekommenderas för säker användning av plattformsservern. Om du behåller det kostnadsfria stackutrymmet ovanför det här värdet minskas frekvensen för skräpinsamlingscykler, vilket kan förbättra serverprestanda generellt. Heltalsvärde i byte, 0 eller större.
+Anger det minsta lediga Java-heap-utrymmet. En prioritetsvarning skickas omedelbart efter en skräpinsamlingscykel för Java när det lediga stackutrymmet är under detta tröskelvärde. 50 MB rekommenderas för säker användning av [!DNL Platform Server]. Om du behåller det kostnadsfria stackutrymmet ovanför det här värdet minskas frekvensen för skräpinsamlingscykler, vilket kan förbättra serverprestanda generellt. Heltalsvärde i byte, 0 eller större.
 
 ## AS::monitorAlertGenerator.maxOverlap - Maximalt antal samtidiga begäranden {#section-ddc6925bff944758ab19bcc9cf3f2589}
 

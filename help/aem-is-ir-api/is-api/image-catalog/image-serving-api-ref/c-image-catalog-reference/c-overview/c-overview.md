@@ -5,9 +5,9 @@ title: Översikt
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 36cdd833-6fcb-4be6-a4f8-ba8d20580f29
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Bildkataloger används för att ge servern information om bilder och stöddata (
 Varje bildkatalog består av en nödvändig katalogattributfil och en uppsättning valfria katalogdatafiler:
 
 * Bilddatafilen som specificerar bilder och mallar och tillhörande metadata.
-* SVG-datafilen som specificerar SVG-filer och tillhörande metadata.
+* Datafilen SVG, som specificerar SVG-filer och tillhörande metadata.
 * Makrodefinitionsfilen som innehåller definitioner för begärandemakron.
 * Teckensnittsmappningsfilen som håller reda på teckensnitt.
 * Profilmappningsfilen som specificerar ICC-färgprofiler.
@@ -29,7 +29,7 @@ Varje bildkatalog består av en nödvändig katalogattributfil och en uppsättni
 
 Katalogdatafiler associeras med bildkataloger utifrån filreferenser i katalogattributfilen. Samma katalogdatafil kan delas av flera bildkataloger.
 
-Katalogattributfiler måste ha ett [!DNL .ini]-filsuffix och måste finnas i plattformsserverns katalogmapp ( `PlatformServer::catalog.rootPath`). Katalogdatafiler kan finnas i samma mapp eller i en annan mapp som är tillgänglig för plattformsservern.
+Katalogattributfiler måste ha en [!DNL .ini] filsuffixet och måste finnas i [!DNL Platform Server]Katalogmapp ( `PlatformServer::catalog.rootPath`). Katalogdatafiler kan finnas i samma mapp eller i andra mappar som är tillgängliga för [!DNL Platform Server].
 
 Det här dokumentet beskriver bildkatalogsfilformatet för Dynamic Media Image Serving-systemet. Den avsedda målgruppen är erfarna programmerare och webbutvecklare som vill använda Dynamic Media Image Serving för en webb- eller anpassad applikation.
 

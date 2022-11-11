@@ -5,9 +5,9 @@ title: Referens för regeluppsättning
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 194600d0-72d9-47fb-8525-598beb2ce17d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
@@ -47,9 +47,9 @@ Regeluppsättningar sparas som XML-dokumentfiler. Den relativa eller absoluta s�
 </ruleset>
 ```
 
-Elementen `<?xml>`, `<!DOCTYPE>` och `<ruleset>` krävs alltid i en giltig XML-regeluppsättningsfil, även om inga faktiska regler har definierats.
+The `<?xml>`, `<!DOCTYPE>` och `<ruleset>` -element krävs alltid i en giltig XML-fil för regeluppsättningar, även om inga faktiska regler har definierats.
 
-Ett `<ruleset>`-element som innehåller valfritt antal `<rule>`-element tillåts.
+Ett `<ruleset>` element som innehåller valfritt antal `<rule>` -element tillåts.
 
 Innehållet i regelfiler för förbearbetning är skiftlägeskänsligt.
 
@@ -57,15 +57,15 @@ Innehållet i regelfiler för förbearbetning är skiftlägeskänsligt.
 
 Innan någon annan bearbetning utförs, analyseras en inkommande HTTP-begäran delvis för att avgöra vilken materialkatalog som ska användas. När katalogen har identifierats tillämpas regeluppsättningen för den valda katalogen (eller standardkatalogen, om ingen specifik katalog har identifierats).
 
-`<rule>`-elementen genomsöks i den ordning som anges för att matcha innehållet i `<expression>`-elementet ( *`expression`*).
+The `<rule>` -elementen söks igenom i den ordning som anges för att matcha innehållet i `<expression>` element ( *`expression`*).
 
-Om en `<rule>` matchas används den valfria *`substitution`* och den ändrade begärandesträngen skickas till serverns begärandeparser för normal bearbetning.
+Om en `<rule>` matchas, det valfria *`substitution`* används och den ändrade begärandesträngen skickas till serverns begärandeparser för normal bearbetning.
 
-Om ingen matchning görs när slutet av `<ruleset>` nås, skickas begäran till parsern utan ändring.
+Om ingen matchning görs när slutet av `<ruleset>` har nåtts, skickas begäran till tolken utan ändring.
 
 ## Attributet OnMatch {#section-7a8ad3597780486985af5e9a3b1c7b56}
 
-Standardbeteendet kan ändras med attributet `OnMatch` för `<rule>`-elementen. `OnMatch` kan anges till  `break` (standard),  `continue`eller  `error.`
+Standardbeteendet kan ändras med `OnMatch` attributet för `<rule>` -element. `OnMatch` kan anges till `break` (standard), `continue`, eller `error.`
 
 <table id="table_4CABF55B33854A128D5F326B31C6C397"> 
  <thead> 
@@ -92,21 +92,21 @@ Standardbeteendet kan ändras med attributet `OnMatch` för `<rule>`-elementen. 
 
 ## Åsidosätta katalogattribut {#section-1f59ce84234f4576ba8473b0e6ba22ee}
 
-`<rule>` -element kan eventuellt definiera attribut som åsidosätter motsvarande katalogattribut när regeln matchas och  `OnMatch="break"` ställs in. Inga attribut används om `OnMatch="continue"` har angetts. Se beskrivningen av `<rule>` för en lista över attribut som kan kontrolleras med regler.
+`<rule>` -element kan eventuellt definiera attribut som åsidosätter motsvarande katalogattribut när regeln matchas och `OnMatch="break"` är inställt. Inga attribut används om `OnMatch="continue"` är inställt. Se beskrivningen av `<rule>` för en lista med attribut som kan styras med regler.
 
 ## Reguljära uttryck {#section-4d326507b52544b0960a9a5f303e3fe6}
 
 Enkel strängmatchning fungerar för mycket grundläggande program, men reguljära uttryck krävs i de flesta fall. Medan reguljära uttryck är branschstandard varierar den specifika implementeringen från instans till instans.
 
-[package java.util.](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/) regexdescribes the specific regular expression implementation used by Image Serving.
+[package java.util.regex](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/) beskriver den specifika implementeringen av reguljära uttryck som används av Image Serving.
 
 ## Infångade delsträngar {#section-8057cd65d48949ffb6a50e929bd3688b}
 
-För att underlätta komplexa URL-ändringar kan delsträngar fångas in i uttrycket genom att omsluta delsträngen med parenteser (..). Infångade delsträngar numreras sekventiellt med början på 1 enligt positionen för den inledande parentesen. De hämtade delsträngarna kan infogas i ersättningen med *`$n`*, där *`n`* är sekvensnumret för den hämtade delsträngen.
+För att underlätta komplexa URL-ändringar kan delsträngar fångas in i uttrycket genom att omsluta delsträngen med parenteser (..). Infångade delsträngar numreras sekventiellt med början på 1 enligt positionen för den inledande parentesen. De hämtade delsträngarna kan infogas i substitutionen med *`$n`*, där *`n`* är sekvensnumret för den hämtade delsträngen.
 
 ## Hantera regeluppsättningsfiler {#section-e8ce976b56404c009496426fd334d23d}
 
-En regeluppsättningsfil kan bifogas till varje materialkatalog med katalogattributet `attribute::RuleSetFile`. Du kan redigera regeluppsättningsfilen när som helst, men bildservern känner bara igen ändringarna när den tillhörande materialkatalogen läses in igen. Detta inträffar när Platform Server startas eller startas om och när den primära katalogfilen (som har filsuffixet [!DNL .ini]) ändras eller &quot;ändras&quot; (för att ändra fildatumet).
+En regeluppsättningsfil kan bifogas till varje materialkatalog med katalogattributet `attribute::RuleSetFile`. Du kan redigera regeluppsättningsfilen när som helst, men bildservern känner bara igen ändringarna när den tillhörande materialkatalogen läses in igen. Detta händer när [!DNL Platform Server] startas eller startas om och när den primära katalogfilen (som har en [!DNL .ini] filsuffixet) ändras eller &quot;rörs&quot; (för att ändra fildatumet).
 
 ## Exempel {#section-c4142a41f5cd4ff799a72fbc130c3700}
 

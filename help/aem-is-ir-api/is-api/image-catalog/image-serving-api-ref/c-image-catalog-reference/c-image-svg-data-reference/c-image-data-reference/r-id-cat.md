@@ -5,16 +5,16 @@ title: ID
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 37945115-c93d-4f59-b3d3-a2c4ee7fc990
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
 
 # ID {#id}
 
-Indexnyckelvärde med vilket poster i bilddatafilen slås upp av plattformsservern.
+Indexnyckelvärdet som används för att söka efter poster i bilddatafilen av [!DNL Platform Server].
 
 Vanligtvis är det en kort och unik bildidentifierare, till exempel ett SKU-nummer, eventuellt med någon typ av bildsuffix, om en SKU har flera bilder. Kan också vara en mer komplex sträng som ser mer ut som en filsökväg, som har stöd för enkel återanpassning av webbplatser med Image Serving.
 

@@ -5,9 +5,9 @@ title: Servercacheminnen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 6a8d44d3-ecac-4fe0-9f81-28b1cd55e7e1
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Använd de här serverinställningarna för servercachen.
 
 ## PS::cache.rootPaths - Cache-datamappar {#section-f0aa808304d74ecdb0c3644f11906c53}
 
-Rotmappen för plattformsserverns diskcache. En eller flera absoluta filsökvägar eller sökvägar i förhållande till *[!DNL install_folder]*, avgränsade med semikolon (;). Data för HTTP-svarscachen fördelas jämnt över alla angivna mappar. Cacheminnen för hjälpcacheminnen (kompilerade bildkataloger och externa bilddata) finns i den primära cachemappen (den första mappen i listan).
+Rotmappen/rotmapparna för [!DNL Platform Server]Diskcache. En eller flera absoluta filsökvägar eller sökvägar i förhållande till *[!DNL install_folder]*, avgränsade med semikolon (;). Data för HTTP-svarscachen fördelas jämnt över alla angivna mappar. Cacheminnen för hjälpcacheminnen (kompilerade bildkataloger och externa bilddata) finns i den primära cachemappen (den första mappen i listan).
 
 ## PS::cache.maxSize - Cachestorlek för svarsdata {#section-ed2e1e7ba4bd4e13b77bb20c4cacddb4}
 

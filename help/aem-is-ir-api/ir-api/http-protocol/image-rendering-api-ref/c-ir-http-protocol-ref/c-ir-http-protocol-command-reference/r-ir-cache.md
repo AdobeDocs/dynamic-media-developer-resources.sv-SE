@@ -1,20 +1,20 @@
 ---
 title: cache
-description: Cachekontroll. Tillåter selektiv inaktivering av cachelagring på klientsidan (webbläsare, proxyservrar, nätverkscachningssystem) och cachelagring i den interna plattformsservercachen.
+description: Cachekontroll. Möjliggör selektiv inaktivering av cachelagring på klientsidan (webbläsare, proxyservrar, nätverkscachningssystem) och cachelagring på den interna [!DNL Platform Server] cache.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4745197a-9f2d-4e33-8c0e-0067fbd65254
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
 
 # cache {#cache}
 
-Cachekontroll. Gör att du kan inaktivera cachelagring på klientsidan selektivt (webbläsare, proxyservrar, nätverkscachningssystem) och cachelagring i den interna plattformsservercachen.
+Cachekontroll. Gör att du kan inaktivera cachelagring på klientsidan (webbläsare, proxyservrar, nätverkscachningssystem) och cachelagring på den interna [!DNL Platform Server] cache.
 
 `cache= *`cacheControl`*`
 

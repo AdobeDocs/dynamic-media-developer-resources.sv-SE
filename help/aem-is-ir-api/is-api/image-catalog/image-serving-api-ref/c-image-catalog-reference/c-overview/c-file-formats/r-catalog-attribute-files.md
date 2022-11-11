@@ -5,9 +5,9 @@ title: Katalogattributfiler
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 79d9439d-7749-4ae1-aa73-e88e01cf7555
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -16,14 +16,14 @@ ht-degree: 0%
 
 Katalogattributfiler kan ha vilket namn som helst, men måste ha ett .ini-filsuffix. De kan enkelt underhållas med valfri textredigerare.
 
-Katalogattributfiler består av en uppsättning textposter, avgränsade med en `<CR>` (ASCII-kod `0xD`), en enskild `<LF>` (ASCII-kod `0xA`) eller ett `<CR><LF>`-par. Varje post består av ett attributnamn och ett eller flera kommaavgränsade attributvärden:
+Katalogattributfiler består av en uppsättning textposter, avgränsade med en enda `<CR>` (ASCII-kod `0xD`), en `<LF>` (ASCII-kod `0xA`) eller en `<CR><LF>` par. Varje post består av ett attributnamn och ett eller flera kommaavgränsade attributvärden:
 
-`*``*= *`namvalues`*{<CR>|<LF>|<CR><LF }`
+`*`name`*= *`values`*{<CR>|<LF>|<CR><LF }`
 
 <table id="simpletable_0F879121670046AE9414298725961303"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> values</span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> val</span>[,<span class="varname"> värden</span>]</span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> val</span>[,<span class="varname"> values</span>]</span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> name</span> </p> </td> 
@@ -31,13 +31,13 @@ Katalogattributfiler består av en uppsättning textposter, avgränsade med en `
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> val</span> </p></td> 
-  <td class="stentry"> <p>Attributvärde. Får inte innehålla <span class="codeph"> &lt;CR&gt;</span> eller <span class="codeph"> &lt;LF&gt;</span> tecken, såvida det inte föregås av ett omvänt snedstreck. </p></td> 
+  <td class="stentry"> <p>Attributvärde. Får inte innehålla <span class="codeph"> &lt;cr&gt;</span> eller <span class="codeph"> &lt;lf&gt;</span> om det inte föregås av ett omvänt snedstreck precis före radmatningstecknet. </p></td> 
  </tr> 
 </table>
 
 Tomt utrymme mellan variabler är valfritt.
 
-Poster med okända attributnamn ignoreras av plattformsservern.
+Poster med okända attributnamn ignoreras av [!DNL Platform Server].
 
 Attributnamn kan bestå av vilken kombination som helst av ASCII-bokstäver, siffror samt &quot;-&quot;, &quot;_&quot; och &quot;.&quot;.
 
