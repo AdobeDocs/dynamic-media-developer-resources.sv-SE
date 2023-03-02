@@ -6,16 +6,16 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 937be8a2-307e-47bb-9fc8-d354f780a214
-source-git-commit: fbc7d7394614c0c22ab70207f2b55cd062bcd4e7
+source-git-commit: 96504ebdc86ff81e9ce69e2d708ede1d0a88d9b5
 workflow-type: tm+mt
-source-wordcount: '2408'
+source-wordcount: '2403'
 ht-degree: 0%
 
 ---
 
 # Video för smart beskärning{#smart-crop-video}
 
-Smart Crop Video Viewer är en videospelare som spelar upp strömmande och progressiv video som är kodad i H.264-format med stöd för smart beskärning. Den levereras från Dynamic Media Classic eller Experience Manager med Dynamic Media.
+Video Viewer för smart beskärning spelar upp strömmande och progressiv video som är kodad i H.264-format med stöd för smart beskärning. Den levereras från Dynamic Media Classic eller Experience Manager med Dynamic Media.
 
 Se [Systemkrav och krav](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
