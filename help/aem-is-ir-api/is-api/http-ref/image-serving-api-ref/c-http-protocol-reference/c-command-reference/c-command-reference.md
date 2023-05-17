@@ -1,13 +1,13 @@
 ---
+title: Kommandoreferens
 description: I det här avsnittet beskrivs HTTP-protokollkommandona.
 solution: Experience Manager
-title: Kommandoreferens
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 959cb193-d0b7-4aa9-a747-fa17484f80c7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 187de979d7d1f7ce92b7b4c8b7661a787ab6889f
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,19 @@ ht-degree: 0%
 
 I det här avsnittet beskrivs HTTP-protokollkommandona.
 
-**Endast** för Dynamic Media i AEM: Förutom de grundläggande bildinställningarna som är tillgängliga i användargränssnittet har  [!DNL Dynamic Media] i AEM (  [!DNL Adobe Experience Manager]) stöd för många avancerade bildändringar som du kan ange i fältet  **Image** Modifiers. Dessa parametrar definieras nedan. Tänk dock på att följande funktioner inte stöds i Dynamic Media i AEM.
+>[!TIP]
+>
+>Prova och upptäck fördelarna med Dynamic Media bildmodifierare och Smart Imaging med Dynamic Media [_Ögonblicksbild_](https://snapshot.scene7.com/).
+>
+> Ögonblicksbild är ett visuellt demonstrationsverktyg som är utformat för att illustrera styrkan hos Dynamic Media för optimerad och dynamisk bildleverans. Experimentera med testbilder eller Dynamic Media-URL:er för att visuellt se resultatet av olika bildmodifierare i Dynamic Media och optimera smarta bilder för följande:
+>* Filstorlek (med WebP- och AVIF-leverans)
+>* Nätverksbandbredd
+>* DPR (Device Pixel Ratio)
+>
+>Om du vill veta hur enkelt det är att använda Snapshot spelar du [Utbildningsvideo om ögonblicksbild](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) (3 minuter och 17 sekunder).
+
+
+**Endast för Dynamic Media i Adobe Experience Manager** - Utöver de grundläggande bildinställningarna som finns i användargränssnittet, [!DNL Dynamic Media] i AEM ( [!DNL Adobe Experience Manager]) har stöd för många avancerade bildändringar som du kan ange i **Bildmodifierare** fält. Dessa parametrar definieras nedan. Tänk dock på att följande funktioner inte stöds i Dynamic Media i AEM.
 
 * Färgkorrigeringskommandon: `icc=` och `iccEmbed=`.
 * Grundläggande kommandon för mallar och textåtergivning: `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` och `textPs=`.
@@ -26,11 +38,11 @@ I det här avsnittet beskrivs HTTP-protokollkommandona.
 * `req=saveToFile`
 * `req=targets`
 * `template=`
-* Icke-kärntjänster från Dynamic Media: SVG, bildåtergivning och web-to-Print.
+* Icke-kärntjänster från Dynamic Media: SVG, bildåtergivning och webb-till-utskrift.
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-Se även Dynamic Media [Image Preset Options](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) i dokumentationen till AEM 6.5.
+Se även Dynamic Media [Alternativ för bildförinställning](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) i AEM 6.5-dokumentationen.
 
 * [justera](r-align.md)
 * [ankare](r-anchor.md)
