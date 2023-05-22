@@ -29,7 +29,7 @@ URL-kommando för Video360 Viewer.
 
 ## Egenskaper {#section-f42369774e2740dcb399626a0e4e930e}
 
-Obligatoriskt. (Om inte parametern `asset` används. Se [Stöd för extern video](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760).)
+Obligatoriskt. (Om `asset` -parametern används. Se [Stöd för extern video](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760).)
 
 ## Standard {#section-d016470e92a74f98a18c4ab3489410a5}
 

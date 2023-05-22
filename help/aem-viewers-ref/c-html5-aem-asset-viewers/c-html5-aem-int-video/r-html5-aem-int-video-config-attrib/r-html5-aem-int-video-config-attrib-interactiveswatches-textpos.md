@@ -8,7 +8,7 @@ exl-id: 875d36cc-7372-454e-9a04-32492a2e558e
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '74'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Konfigurationsattribut för Interactive Video Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td colname="col2"> <p> Anger var etiketten ritas i förhållande till färgrutebilden. Det innebär att etiketten centreras på den angivna platsen i förhållande till miniatyrbilden. </p> <p>När <span class="codeph"> verktygstips</span> anges visas etikettexten som ett flytande verktygstips över miniatyrbilden. </p> <p>Ange <span class="codeph"> none</span> för att inaktivera etiketten. </p> </td> 
+   <td colname="col2"> <p> Anger var etiketten ritas i förhållande till färgrutebilden. Det innebär att etiketten centreras på den angivna platsen i förhållande till miniatyrbilden. </p> <p>När <span class="codeph"> knappbeskrivning</span> anges visas etikettexten som ett flytande verktygstips över miniatyrbilden. </p> <p>Ange till <span class="codeph"> ingen</span> för att stänga av etiketten. </p> </td> 
   </tr> 
  </tbody> 
 </table>

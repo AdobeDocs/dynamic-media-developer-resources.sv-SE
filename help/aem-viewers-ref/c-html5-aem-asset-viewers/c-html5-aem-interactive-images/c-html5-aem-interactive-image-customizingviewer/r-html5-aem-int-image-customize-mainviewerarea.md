@@ -39,17 +39,17 @@ Visningsområdets utseende styrs av följande CSS-klassväljare:
    <td colname="col2"> <p>Bredden på visningsprogrammet. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Visningsprogrammets höjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Bakgrundsfärg i hexadecimalt format. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exempel - om du vill ställa in ett visningsprogram med en vit bakgrund ( `#FFFFFF`) och göra dess storlek 1 174 x 500 pixlar.
+Exempel - för att konfigurera ett visningsprogram med en vit bakgrund ( `#FFFFFF`) och gör storleken 174 x 500 pixlar.
 
 ```
 .s7interactiveimage { 

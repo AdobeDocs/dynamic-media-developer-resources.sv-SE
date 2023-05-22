@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 925ac9d1-203c-4814-a701-71060bf47c20
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Sträng som innehåller en kommaavgränsad lista med webbdomännamn. Om det är 
 
 ## Standard {#section-5c52ed3c7310488380f5a6f9540bf981}
 
-Ärvs från `default::TrustedDomains` om det inte finns någon.
+Ärvs från `default::TrustedDomains` om de inte finns.
 
 ## Se även {#section-65d0846e41674882a4d0d56a8f6d524b}
 

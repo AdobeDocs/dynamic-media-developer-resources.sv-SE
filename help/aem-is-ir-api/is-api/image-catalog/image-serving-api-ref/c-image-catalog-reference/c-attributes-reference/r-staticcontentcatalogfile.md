@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: ff6f0ad8-189f-4172-89cb-f138d2df8fe4
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Sökvägar till datafiler för katalog med statiskt innehåll. Anger de filer som innehåller statiska innehållsdata för den här katalogen.
 
-Datafiler för katalog med statiskt innehåll läses in i den ordning som anges. Om samma `static::Id`-värde förekommer i mer än en post (antingen i samma eller olika katalogfiler) gäller den sista instansen.
+Datafiler för katalog med statiskt innehåll läses in i den ordning som anges. Om samma `static::Id` värdet finns i mer än en post (antingen i samma eller olika katalogfiler), gäller den sista instansen.
 
 ## Egenskaper {#section-3f8dc8d21fa84fbeb71db6ca1ecbdd8c}
 

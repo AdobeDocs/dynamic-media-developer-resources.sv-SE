@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: f93bc31e-c0ae-4375-bb6a-eba6f11945b2
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '57'
 ht-degree: 0%
 
 ---
@@ -18,12 +18,12 @@ Lägg till XML i ett s7:elementID.
 
 `appendElement.elementID=<XML>`
 
-Om ett FXG-nodelement har ett `s7:elementID`-definierat värde läggs `<XML>`-värdet till som ett underordnat element. `<XML>` måste kodas.
+Om ett FXG-nodelement har `s7:elementID` definierade, `<XML>` värdet läggs till som ett underordnat element. The `<XML>` måste kodas.
 
 ## Exempel {#section-4368570aa198485d91b73b4d0741478f}
 
-Anta att ett `s7:elementID="group1"`-attribut har definierats för en gruppnod, då gäller följande:
+Anta en `s7:elementID="group1"` -attributet är definierat för en gruppnod och följande är giltigt:
 
 `&appendElement.group1=<TextGraphic+fontFamily%3D"DefaultFont"+fontSize%3D"50"+x%3D"20"+y%3D"500" ><content><p><span>New+Text+Graphic+Tag+For+Demo<%2Fspan><%2Fp><%2Fcontent><%2FTextGraphic>`
 
-I det här exemplet läggs en underordnad textbild till `group1`.
+I det här exemplet läggs ett underordnat textgrafikobjekt till `group1`.

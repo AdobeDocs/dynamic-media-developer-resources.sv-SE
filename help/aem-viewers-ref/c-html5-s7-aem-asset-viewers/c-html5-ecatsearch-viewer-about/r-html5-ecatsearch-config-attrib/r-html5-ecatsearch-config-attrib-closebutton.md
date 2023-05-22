@@ -2,13 +2,13 @@
 description: Stängningsknapp
 solution: Experience Manager
 title: Stängningsknapp
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 4f5f84d0-1b5a-4fb3-91ab-44b4542c6ef1
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 4%
+source-wordcount: '41'
+ht-degree: 2%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 4%
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
-   <td colname="col2"> <p>Ange <span class="codeph"> 1 </span> för att aktivera visning av stängningsknappen. Du kan också ange <span class="codeph"> 0 </span> för att dölja stängningsknappen. </p> <p>Stängningsknappen stöds endast på pekenheter. den inte kan visas på stationära datorer. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
+   <td colname="col2"> <p>Ange till <span class="codeph"> 1 </span> för att aktivera visning av stängningsknappen. Eller, ange till <span class="codeph"> 0 </span> om du vill dölja stängningsknappen. </p> <p>Stängningsknappen stöds endast på pekenheter. den inte kan visas på stationära datorer. </p> </td> 
   </tr> 
  </tbody> 
 </table>

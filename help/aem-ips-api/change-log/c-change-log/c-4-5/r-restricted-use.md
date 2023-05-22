@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 6602c5bc-9f75-4885-ae14-cab14e6afa5e
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -52,57 +52,57 @@ Dessa åtgärder och typer kan inaktiveras, ändras eller tas bort vid efterföl
 
 **Ändrade typer**
 
-* Ändrad `ActiveJob` till att inkludera en `createVideoSitemapJob`-typ
+* Ändrad `ActiveJob` att inkludera `createVideoSitemapJob` type
 
-* Ändrad `ScheduledJob` till att inkludera en `createVideoSitemapJob`-typ
+* Ändrad `ScheduledJob` att inkludera `createVideoSitemapJob` type
 
-* Ändrad `ImageServingPublishJob` så att den innehåller ett valfritt `contextHandle`
+* Ändrad `ImageServingPublishJob` att inkludera `contextHandle`
 
-* Ändrad `ImageRenderingPublishJob` så att den innehåller ett valfritt `contextHandle`
+* Ändrad `ImageRenderingPublishJob` att inkludera `contextHandle`
 
-* Ändrad `MetadataField` så att den innehåller ett valfritt `initialTagField`
+* Ändrad `MetadataField` att inkludera `initialTagField`
 
-* Ändrad `MetadataCondition` till parametern include och optional `caseSensitive`
+* Ändrad `MetadataCondition` att inkludera och valfritt `caseSensitive` parameter
 
-* Ändrad `PropertySet` till att inkludera ett valfritt `PermissionArray` som `permissions`
+* Ändrad `PropertySet` att inkludera `PermissionArray` as `permissions`
 
-* Ändrad `UploadDirectoryJob` till att inkludera valfria `xmpKeywords`-, `xmpTemplateId`- och `xmpTemplateOverride`-parametrar
+* Ändrad `UploadDirectoryJob` inkluderar valfritt `xmpKeywords`, `xmpTemplateId` och `xmpTemplateOverride` parameters
 
-* Ändrad `VideoPublishJob` så att den innehåller ett valfritt `contextHandle`
+* Ändrad `VideoPublishJob` att inkludera `contextHandle`
 
 **Ändrade åtgärder**
 
-* Ändrad `createAssetSet` så att den innehåller ett valfritt `thumbAssetHandle`
+* Ändrad `createAssetSet` att inkludera `thumbAssetHandle`
 
-* Ändrad `createImageSet` så att den innehåller ett valfritt `thumbAssetHandle`
+* Ändrad `createImageSet` att inkludera `thumbAssetHandle`
 
-* Ändrad `createMetadataField` till att inkludera en valfri `initialTagValue`-parameter
+* Ändrad `createMetadataField` att inkludera `initialTagValue` parameter
 
-* Ändrad `createPropertySet` till att inkludera ett valfritt `PermissionUpdateArray` som `permissionArray`
+* Ändrad `createPropertySet` att inkludera `PermissionUpdateArray` as `permissionArray`
 
-* Ändrad `getImageServingPublishSettings` till att inkludera en valfri `contextHandle`-parameter
+* Ändrad `getImageServingPublishSettings` att inkludera `contextHandle` parameter
 
-* Ändrad `getImageRenderingPublishSettings` till att inkludera en valfri `contextHandle`-parameter
+* Ändrad `getImageRenderingPublishSettings` att inkludera `contextHandle` parameter
 
-* Ändrad `searchAssetsByFullText` så att den innehåller en serie valfria parametrar:
+* Ändrad `searchAssetsByFullText` att inkludera en serie valfria parametrar:
 
-   * `SearchFilter` som  `filters` parameter
+   * `SearchFilter` as `filters` parameter
 
    * `sortBy`
    * `sortDirection`
 
-* Ändrad `searchAssetsByMetadata` så att den innehåller en serie valfria parametrar:
+* Ändrad `searchAssetsByMetadata` att inkludera en serie valfria parametrar:
 
-   * `SearchFilter` som  `filters` parameter
+   * `SearchFilter` as `filters` parameter
 
    * `sortBy`
    * `sortDirection`
    * `haystackSearch` sekvens med sju parametrar
 
-* Ändrad `setAssetPublishState` till att inkludera ett valfritt `HandleArray` som `contextHandleArray`
+* Ändrad `setAssetPublishState` att inkludera `HandleArray` as `contextHandleArray`
 
-* Ändrad `setImageServingPublishSettings` till att inkludera en valfri `contextHandle`-parameter
+* Ändrad `setImageServingPublishSettings` att inkludera `contextHandle` parameter
 
-* Ändrad `setImageRenderingPublishSettings` till att inkludera en valfri `contextHandle`parameter
+* Ändrad `setImageRenderingPublishSettings` att inkludera `contextHandle`parameter
 
-* Ändrad `submitJob` till att inkludera en valfri `createVideoSitemap`-jobbtyp
+* Ändrad `submitJob` att inkludera `createVideoSitemap` jobbtyp

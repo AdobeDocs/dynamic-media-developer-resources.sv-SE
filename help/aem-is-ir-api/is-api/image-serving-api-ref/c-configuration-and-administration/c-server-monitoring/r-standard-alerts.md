@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: eb691988-9f03-463f-bed5-2c230431f537
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ I följande tabell beskrivs varje typ av standardvarning.
   <tr> 
    <td> <p>Hög samtidighet </p> </td> 
    <td> <p>Konc </p> </td> 
-   <td> Genereras när antalet begäranden som behandlas samtidigt (<i>överlappning</i>) överskrider det angivna tröskelvärdet. Kan vara en indikation på ett serveröverlagringsvillkor. </td> 
+   <td> Skickas när antalet begäranden som behandlas samtidigt ( <i>överlappa</i>) överskrider det angivna tröskelvärdet. Kan vara en indikation på ett serveröverlagringsvillkor. </td> 
   </tr> 
   <tr> 
    <td> <p>Minsta trafik </p> </td> 
@@ -50,7 +50,7 @@ I följande tabell beskrivs varje typ av standardvarning.
   <tr> 
    <td> <p>Svarstid </p> </td> 
    <td> <p>RTime </p> </td> 
-   <td> <p>Skickas när den genomsnittliga bearbetningstiden för begäranden under samplingsintervallet ökar över det angivna tröskelvärdet. Anger oftast ett tillfälligt eller beständigt överlagringstillstånd för servern eller serverdelens bildlagringssystem. </p> <p>Felsvar beaktas inte vid beräkning av den genomsnittliga svarstiden. </p> </td> 
+   <td> <p>Skickas när den genomsnittliga bearbetningstiden för begäranden under samplingsintervallet ökar över det angivna tröskelvärdet. Anger vanligtvis ett tillfälligt eller permanent överlagringstillstånd för servern eller serverdelens bildlagringssystem. </p> <p>Felsvar beaktas inte vid beräkning av den genomsnittliga svarstiden. </p> </td> 
   </tr> 
  </tbody> 
 </table>

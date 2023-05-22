@@ -25,11 +25,11 @@ Parametern är gemensam för alla visningsprogram.
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fil  </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fil </span> </span> </p> </td> 
    <td colname="col2"> <p> Anger en URL eller sökväg till WebVTT-bildtextinnehållet. Image Serving visar WebVTT-filen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
    <td colname="col2"> <p> Anger standardbildtextläget. Aktiverad är <span class="codeph"> 1 </span>. </p> </td> 
   </tr> 
  </tbody> 
@@ -48,28 +48,28 @@ Det här visningsprogrammet stöder undertextning via WebVTT-filer på webben. D
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> A  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> A </span> </p> </td> 
    <td colname="col2"> <p>testjustering </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> left|right|middle|start|end  </span> </p> </td> 
-   <td colname="col4"> <p> Styr textens justering. </p> <p>Standardvärdet är <span class="codeph"> mittersta </span>. </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> left|right|middle|start|end </span> </p> </td> 
+   <td colname="col4"> <p> Styr textens justering. </p> <p>Standard är <span class="codeph"> mitten </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> T  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> T </span> </p> </td> 
    <td colname="col2"> <p>textposition </p> </td> 
-   <td colname="col3"> <p> 0 %-100 % </p> </td> 
-   <td colname="col4"> <p> Procentandel indrag i VideoPlayer-komponenten för bildtextens början. </p> <p>Standardvärdet är <span class="codeph"> 0% </span>. </p> </td> 
+   <td colname="col3"> <p> 0%-100% </p> </td> 
+   <td colname="col4"> <p> Procentandel indrag i VideoPlayer-komponenten för bildtextens början. </p> <p>Standard är <span class="codeph"> 0 % </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> S  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> S </span> </p> </td> 
    <td colname="col2"> <p>radstorlek </p> </td> 
-   <td colname="col3"> <p> 0 %-100 % </p> </td> 
-   <td colname="col4"> <p> Procentandel av videobredden som används för bildtexter. </p> <p>Standardvärdet är <span class="codeph"> 100 % </span>. </p> </td> 
+   <td colname="col3"> <p> 0%-100% </p> </td> 
+   <td colname="col4"> <p> Procentandel av videobredden som används för bildtexter. </p> <p>Standard är <span class="codeph"> 100 % </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> L  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> L </span> </p> </td> 
    <td colname="col2"> <p>linjeposition </p> </td> 
    <td colname="col3"> <p> 0%-100%|heltal </p> </td> 
-   <td colname="col4"> <p> Anger linjens position på sidan. </p> <p>Om det uttrycks som ett heltal utan procenttecken är det antalet rader från den övre delen där texten visas. </p> <p>Om det uttrycks i procent - procenttecknet är det sista tecknet - visas bildtexten i procent nedåt i visningsområdet. </p> <p>Standardvärdet är <span class="codeph"> 100 % </span>. </p> </td> 
+   <td colname="col4"> <p> Anger linjens position på sidan. </p> <p>Om det uttrycks som ett heltal utan procenttecken är det antalet rader från den övre delen där texten visas. </p> <p>Om det uttrycks i procent - procenttecknet är det sista tecknet - visas bildtexten i procent nedåt i visningsområdet. </p> <p>Standard är <span class="codeph"> 100 % </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -79,11 +79,11 @@ Om det finns andra WebVTT-funktioner i WebVTT-filen stöds de inte. De stör doc
 <table id="table_CB7B4DFC6B654AECA1AF6594E3FD5C46"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fil  </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fil </span> </span> </p> </td> 
    <td colname="col2"> <p> Anger en URL eller sökväg till WebVTT-bildtextinnehåll. WebVTT-filen hanteras av Image Serving. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
    <td colname="col2"> <p> Anger standardbildtextläget. </p> <p>Aktiverad är <span class="codeph"> 1 </span>. </p> </td> 
   </tr> 
  </tbody> 

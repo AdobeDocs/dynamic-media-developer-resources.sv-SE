@@ -59,7 +59,7 @@ En skugga återges om det dekala materialet definierar en tjocklek och vinjetter
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-opac.md#reference-136b8563da714313a9e103f4ce179c5b" type="reference" format="dita" scope="local"> <span class="codeph"> opac= </span> </a> </p> </td> 
    <td colname="col2"> <p>Decal opacity. </p> </td> 
-   <td colname="col3"> <p>100 % </p> </td> 
+   <td colname="col3"> <p>100% </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> sharp= </span> </a> </td> 

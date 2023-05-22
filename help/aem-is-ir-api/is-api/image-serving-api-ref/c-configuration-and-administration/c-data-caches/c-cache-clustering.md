@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: d1bea565-ac4e-4717-a53f-cbe706664598
 source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,6 @@ Cacheklustret kan fungera i en av två grundläggande konfigurationer:
 
    Den här konfigurationen minskar trafiken mellan peer-servrarna. Den ger också de snabbaste svarstiderna på bekostnad av att alla cacheposter replikeras till alla servrar i klustret. Detta är den rekommenderade konfigurationen.
 
-* När `PS::cacheCluster.updateLocalCache` är inaktiverat kopieras inte data från andra servrar till det lokala cacheminnet.
+* När `PS::cacheCluster.updateLocalCache` är inaktiverat, data från andra servrar kopieras inte till det lokala cacheminnet.
 
    Detta multiplicerar det tillgängliga diskutrymmet för cachedata. Det ökar dock trafiken mellan peer-servrarna och minskar de totala svarstiderna. Använd bara den här konfigurationen när du ser låga träfffrekvenser för cacheminnet.

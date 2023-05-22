@@ -1,10 +1,11 @@
 ---
 title: VideoTime.timepattern
-description: Configuration attribute for Smart Crop Video Viewer.
+description: Konfigurationsattribut för visningsprogrammet för smart beskärning.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: b63818e2-8da0-4965-b7d6-5ecd7ab5cdca
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 0%

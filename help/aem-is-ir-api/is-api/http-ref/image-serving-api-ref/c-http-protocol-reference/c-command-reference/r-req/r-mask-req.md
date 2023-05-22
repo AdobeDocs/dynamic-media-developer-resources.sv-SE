@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 0e743fe5-a623-4f5f-bc61-536ed70532bf
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '76'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,6 @@ Bildmask. Begär maskdata (alfakanal).
 
 `req=mask`
 
-Stöder samma kommandon som `req=img`. Den bearbetas på samma sätt av servern, men i stället för att returnera RGB- eller RGBA-data tar servern bort färginformationen och returnerar bara maskdata (alfakanaler). MIME-typen för svarsdataformat och svar bestäms av `fmt=`.
+Stöder samma kommandon som `req=img`. Den bearbetas på samma sätt av servern, men i stället för att data från RGB eller RGBA returneras, ignoreras färginformationen och endast maskdata returneras. MIME-typen för svarsdata och MIME-typen för svar bestäms av `fmt=`.
 
 HTTP-svaret kan nås med TTL-värdet baserat på `catalog::Expiration`.

@@ -4,10 +4,11 @@ description: URL-kommando för visningsprogrammet för smart beskärning.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 0d7000d0-9181-4c6e-a94e-31ab5ad17fa4
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '200'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -38,13 +39,13 @@ Visningsprogrammet har stöd för undertextning via WebVTT-filer på webben. Öv
   <tr> 
    <td colname="col1"> <p>T </p> </td> 
    <td colname="col2"> <p>textposition </p> </td> 
-   <td colname="col3"> <p> 0 %-100 % </p> </td> 
+   <td colname="col3"> <p> 0%-100% </p> </td> 
    <td colname="col4"> <p> Procentandel indrag i VideoPlayer-komponenten för bildtextens början. </p> <p>Standardvärdet är 0 %. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>S </p> </td> 
    <td colname="col2"> <p>radstorlek </p> </td> 
-   <td colname="col3"> <p> 0 %-100 % </p> </td> 
+   <td colname="col3"> <p> 0%-100% </p> </td> 
    <td colname="col4"> <p> Procentandel av videobredden som används för bildtexter. </p> <p>Standardvärdet är 100 %. </p> </td> 
   </tr> 
   <tr> 

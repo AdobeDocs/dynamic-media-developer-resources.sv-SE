@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 9314782f-703b-4e9c-a026-62970d1c752f
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Om en begäran inte kan slutföras returnerar servern antingen en felbild eller en annan HTTP-svarsstatus än 200 tillsammans med ett felmeddelande.
 
-Svarsstatusvärdet beror på felets typ. för de vanligaste felen är det &quot;403&quot;. Felsvar för förfrågningstyper som inte är avbildningar följer det format som anges med `req=`. (Kan inte implementeras konsekvent just nu.)
+Svarsstatusvärdet beror på felets typ. för de vanligaste felen är det &quot;403&quot;. Felsvar för förfrågningstyper som inte är bilder följer det format som anges med `req=`. (Kan inte implementeras konsekvent just nu.)
 
 Detaljrikedomen i felmeddelandet kan konfigureras med `attribute::ErrorDetail`.
 
@@ -24,14 +24,14 @@ Detaljrikedomen i felmeddelandet kan konfigureras med `attribute::ErrorDetail`.
 
 Image Serving kan konfigureras för att returnera felmeddelanden som återges i en bild.
 
-Mer information finns i [attribute::ErrorImage](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errorimage.md#reference-c494d5d8b2584fe3800f35baabd0292c) i bildkatalogsreferensen.
+Se [attribute::ErrorImage](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errorimage.md#reference-c494d5d8b2584fe3800f35baabd0292c) i bildkatalogsreferensen för mer information.
 
 Om felbilden genereras utan fel är HTTP-svarsstatusen 200. Om ett fel inträffar när felbilden bearbetas returneras standardsvaret på HTTP-felet och textmeddelandet till klienten.
 
 ## Standardbild {#section-66bf25fe6b434081bfae96d38d9be25e}
 
-Image Serving kan konfigureras så att en bild som saknas ersätts med en standardbild. Standardbilden kan anges antingen med kommandot `attribute::DefaultImage` eller `defaultImage=`.
+Image Serving kan konfigureras så att en bild som saknas ersätts med en standardbild. Standardbilden kan anges med `attribute::DefaultImage` eller `defaultImage=` -kommando.
 
 ## Se även {#section-e261d7f224ca4546bb64bf8cb909db08}
 
-[attribute::ErrorDetail](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errordetail.md#reference-4987c8cddcba4c88960170e49cafc561) ,  [attribute::ErrorImage](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errorimage.md#reference-c494d5d8b2584fe3800f35baabd0292c),  [attribute::DefaultImage](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-defaultimage.md#reference-8e9900e129f54ed68462a3c2fc3bc433),  [defaultImage=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-defaultimage.md#reference-209aa6ce830f490483412eb26af67fd2)
+[attribute::ErrorDetail](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errordetail.md#reference-4987c8cddcba4c88960170e49cafc561) , [attribute::ErrorImage](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errorimage.md#reference-c494d5d8b2584fe3800f35baabd0292c), [attribute::DefaultImage](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-defaultimage.md#reference-8e9900e129f54ed68462a3c2fc3bc433), [defaultImage=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-defaultimage.md#reference-209aa6ce830f490483412eb26af67fd2)

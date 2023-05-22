@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 12b15969-c633-4593-9674-dbb9ef36ca60
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '40'
+ht-degree: 12%
 
 ---
 
@@ -21,7 +21,7 @@ Konfigurationsattribut för Video360 Viewer.
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
    <td colname="col2"> <p> Anger om tittaren börjar spela upp videon vid inläsningen. Vissa system, till exempel vissa mobila enheter, kanske inte har stöd för automatisk uppspelning. </p> </td> 
   </tr> 
  </tbody> 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: ba22c79b-da59-4993-aa1c-2c990a0c4be5
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -20,22 +20,22 @@ Visa bredd. Anger svarsbildens bredd (visningsbild) när fit= inte finns i begä
 
 <table id="simpletable_E217453246F5441C896C1F69EA4D4218"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> val  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> val </span> </p> </td> 
   <td class="stentry"> <p>Bildbredd i pixlar (int större än 0). </p> </td> 
  </tr> 
 </table>
 
-Om både `hei=` och `scl=` anges kan den sammansatta bilden beskäras enligt attributet `align=`. När `fit=` finns med anger `wid=` den exakta, minsta eller maximala svarsbildens bredd; Mer information finns i beskrivningen av `fit=`.
+Om båda `hei=` och `scl=` anges kan den sammansatta bilden beskäras enligt `align=` -attribut. När `fit=` finns, `wid=` anger den exakta, minsta eller maximala responsbildens bredd, hänvisar till beskrivningen av `fit=` för mer information.
 
-Om `scl=` inte anges skalas den sammansatta bilden så att den passar. Om både `wid=` och `hei=` har angetts och `scl=` inte har angetts, skalas bilden så att den får plats helt inom rektangeln bredd/hei, så att så lite bakgrundsområde som möjligt visas. I det här fallet placeras bilden inom visningsrektangeln enligt attributet `align=`.
+If `scl=` har inte angetts, skalas den sammansatta bilden så att den passar. Om båda `wid=` och `hei=` anges, och `scl=` anges inte, så skalas bilden så att den passar helt inom den breda/hei-rektangeln, så att så lite bakgrundsområde som möjligt visas. I det här fallet placeras bilden inom visningsrektangeln enligt `align=` -attribut.
 
 >[!NOTE]
 >
->Ett fel returneras om den beräknade eller standardinställda svarsbildstorleken är större än `attribute::MaxPix`.
+>Ett fel returneras om den beräknade eller standardinställda svarsbilden är större än `attribute::MaxPix`.
 
 ## Standard {#section-976d4c8554a34c899f85d172f6ac6f58}
 
-Om varken `wid=`, `hei=` eller `scl=` anges har svarsbilden antingen samma storlek som den sammansatta bilden eller `attribute::DefaultPix`, beroende på vilket värde som är lägst.
+Om ingen `wid=`, `hei=`, eller `scl=` anges kommer svarsbilden antingen att ha samma storlek som den sammansatta bilden eller `attribute::DefaultPix`, beroende på vad som är mindre.
 
 ## Egenskaper {#section-c93b7ce1b0d2475f80b06264b45d1285}
 
@@ -53,4 +53,4 @@ Samma bild, med en fast bredd på 200 pixlar, men med en variabel höjd för att
 
 ## Se även {#section-4e9659238d6545498378ca8b1f3ec4ae}
 
-[hei=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md#reference-6d6f556ccc0e4b98a815e8a5c1944a96) ,  [fit=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md#reference-f11bff6d93d143d6b135de3a923bc989),  [scl=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-scl.md#reference-b2a74e493d0d407e98fe350551ba3fcc),  [align=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-align.md#reference-b7d6b87c75124d78884f916dd6544bc7),  [attribut::DefaultPix](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultpix.md#reference-996b2c22b30f4fd9b970c84063306df1),  [attribut::MaxPix](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-maxpix.md#reference-e167d396ac794079ba8b5e6eb16eeda5)
+[hei=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md#reference-6d6f556ccc0e4b98a815e8a5c1944a96) , [fit=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md#reference-f11bff6d93d143d6b135de3a923bc989), [scl=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-scl.md#reference-b2a74e493d0d407e98fe350551ba3fcc), [align=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-align.md#reference-b7d6b87c75124d78884f916dd6544bc7), [attribute::DefaultPix](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultpix.md#reference-996b2c22b30f4fd9b970c84063306df1), [attribute::MaxPix](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-maxpix.md#reference-e167d396ac794079ba8b5e6eb16eeda5)

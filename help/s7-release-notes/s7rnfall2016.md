@@ -1,6 +1,6 @@
 ---
 title: Scene7 hösten 2016
-description: '"Den senaste versionsinformationen om Adobe Scene7 hösten 2016, en del av Adobe Experience Manager-lösningen i Adobe Experience Cloud."'
+description: "Den senaste versionsinformationen om Adobe Scene7 hösten 2016, en del av Adobe Experience Manager-lösningen i Adobe Experience Cloud."
 solution: Experience Manager
 feature: Dynamic Media Classic
 role: Developer,User
@@ -151,7 +151,7 @@ Fullständig dokumentation finns i [Referenshandbok för visningsprogram](https:
 
 **Kända fel och begränsningar**
 
-* Funktionsändringstecken för bildbehandling från `iscommands` läggs inte till i `req=set` förfrågan efter design. Modifierare som bara påverkar bildvisningen fungerar bra. Modifierare som påverkar storleken måste användas i en komplex resurs. Exempel:
+* Funktionsändringstecken för bildbehandling från `iscommands` läggs inte till i `req=set` förfrågan efter design. Modifierare som bara påverkar bildvisningen fungerar bra. Modifierare som påverkar storleken måste användas i en komplex resurs. Till exempel:
 
    `https://s7d9.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset= {Scene7SharedAssets/Backpack_B?extendn=0.5%252C0.5%252C0.5%252C0.5}`
 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 8ffb8960-187a-43ab-8081-7dfd95d4c75d
 source-git-commit: 96ac67e5645c2c55920cc971806ba2f14ae57044
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '69'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Anger SYMBOL-värden för lokalisering för en eller flera språkinställningar.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo</span> </span> </p> </td> 
-   <td colname="col2"> <p> {<span class="codeph"> Object</span>} JSON-objekt med lokaliseringsdata. </p> <p>Mer information finns i <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md" format="dita" scope="local"> Lokalisering av element i användargränssnittet</a>. </p> <p>Se även <i>Användarhandboken för visningsprogrammet SDK</i> och exemplet för mer information om objektets innehåll. </p> </td> 
+   <td colname="col2"> <p> {<span class="codeph"> Objekt</span>} JSON-objekt med lokaliseringsdata. </p> <p>Se <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md" format="dita" scope="local"> Lokalisering av användargränssnittselement</a> för mer information. </p> <p>Se även <i>Användarhandbok för Viewer SDK</i> och exemplet innehåller mer information om objektets innehåll. </p> </td> 
   </tr> 
  </tbody> 
 </table>

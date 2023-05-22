@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 45024d75-8058-40f8-b3e3-9b28b4cdc3f7
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '60'
 ht-degree: 0%
 
 ---
@@ -41,10 +41,10 @@ Syntax
 
 ## Ändrade typer {#section-6ecdf752cc1a4636a583b4c546a0fccf}
 
-* Resursen innehåller ett nytt `fileName`-fält som returnerar det virtuella filnamnet.
-* `AssetSummary` returnerar ett  `type` och  `name` fält
+* Resursen innehåller en ny `fileName` fält som returnerar det virtuella filnamnet.
+* `AssetSummary` returnerar `type` och `name` fält
 
-* `MetadataField` inkluderar  `isHidden`
+* `MetadataField` inkluderar `isHidden`
 
 * `MetadataUpdate`
-* `UploadUrlsJob` kräver ett  `urlArray` och lägger till ett valfritt  `numUrls` antal
+* `UploadUrlsJob` kräver `urlArray` och lägger till `numUrls` antal

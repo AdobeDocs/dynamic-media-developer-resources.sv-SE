@@ -4,7 +4,8 @@ description: Knappen play/pause gör att videospelaren för smart beskärning sp
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 03b819cc-a709-496a-9edb-29813b13e979
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%

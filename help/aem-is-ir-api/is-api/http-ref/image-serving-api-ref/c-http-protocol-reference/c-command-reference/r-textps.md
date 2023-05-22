@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 95f343ce-bea3-425e-9a25-d1d141a976d9
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
@@ -29,11 +29,11 @@ Alla inställningar för teckensnitt, teckenfärg och styckeformatering görs me
 
 Se [Textformatering](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md#concept-0d3136db7f6f49668274541cd4b6364c).
 
-`textPs=` har stöd för utökade funktioner, t.ex. justering, textflöde i icke-rektangulära områden som definieras med  `textFlowPath=` och/eller  `textFlowXPath=`samt återgivning av text längs godtyckliga banor som definieras med  `textPath=`.
+`textPs=` har stöd för utökade funktioner, t.ex. justering, som flödning av text till icke-rektangulära områden som definierats med `textFlowPath=` och/eller `textFlowXPath=`och återgivning av text längs godtyckliga banor som definierats med `textPath=`.
 
 ## Egenskaper {#section-a289dc26b6534b41998b1e241d5f2f92}
 
-Lagerattribut. Gäller för `layer=0` om `layer=comp`. Mutuellt exklusiv med `src=` och `text=` i samma lager. Den sista förekomsten av `text=`, `textPs=` och `src=` gäller och avgör om det här är en bild eller ett textlager. Ignoreras av effektlager.
+Lagerattribut. Gäller för `layer=0` if `layer=comp`. Ömsesidigt exklusiv med `src=` och `text=` i samma lager. Den sista förekomsten av `text=`, `textPs=`och `src=` styr och avgör om det här är en bild eller ett textlager. Ignoreras av effektlager.
 
 ## Standard {#section-11c2ae2c96d64a0a9c207252df663e4d}
 
@@ -41,4 +41,4 @@ Ingen.
 
 ## Se även {#section-5c2b25767d2b47b5be817271ab12e13c}
 
-[Textformatering](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md#concept-0d3136db7f6f49668274541cd4b6364c),  [src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1),  [textAttr=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textattr.md#reference-ff00484fa3244286abeff34911f7ec0d),  [text=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-text.md#reference-84634052e48548539a1ef63cbe41f22f),  [textFlowPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md#reference-0b8d9493d71342f0b6a64a6d221584ef),  [ ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowxpath.md#reference-c55d4e41a28f40aca6a24ca218c28542)  [ ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textpath.md#reference-b09cc0902dff4725bdb54d5da4076ccd)  [textFlowXPath=¥,¥textPath=¥,¥textAngle=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textangle.md#reference-447f624c0e764d0cb5c75846d1b44d15)
+[Textformatering](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md#concept-0d3136db7f6f49668274541cd4b6364c), [src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1), [textAttr=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textattr.md#reference-ff00484fa3244286abeff34911f7ec0d), [text=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-text.md#reference-84634052e48548539a1ef63cbe41f22f), [textFlowPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md#reference-0b8d9493d71342f0b6a64a6d221584ef), [textFlowXPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowxpath.md#reference-c55d4e41a28f40aca6a24ca218c28542), [textPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textpath.md#reference-b09cc0902dff4725bdb54d5da4076ccd), [textAngle=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textangle.md#reference-447f624c0e764d0cb5c75846d1b44d15)

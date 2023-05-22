@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 675031ab-21bb-49a5-abbc-eca8d2619e49
 source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ JavaScript API-referens för Interactive Image Viewer.
 
 Startar initieringen av Interactive Image Viewer. Vid den här tidpunkten måste behållar-DOM-elementet skapas så att visningsprogramkoden kan hitta det med dess ID.
 
-Om behållarelementet inte är en del av webbsideslayouten än - till exempel om det är dolt med formatet `display:none` som är tilldelat det - avbryter visningsprogrammet sin initieringsprocess. Det gör det tills webbsidan återför behållarelementet till layouten. När den här åtgärden utförs återtas visningsprogrammet automatiskt.
+Om behållarelementet inte är en del av webbsideslayouten än, kan det till exempel döljas med `display:none` format som tilldelats det - visningsprogrammet avbryter sin initieringsprocess. Det gör det tills webbsidan återför behållarelementet till layouten. När den här åtgärden utförs återtas visningsprogrammet automatiskt.
 
 Anropa denna metod endast en gång under tittarens livscykel. efterföljande anrop ignoreras.
 

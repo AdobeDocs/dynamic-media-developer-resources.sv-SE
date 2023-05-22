@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: eba88ff0-877d-432e-bbd6-9172f5b460e9
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '431'
 ht-degree: 12%
 
 ---
@@ -19,18 +19,18 @@ Färgvärden. Du kan ange färgvärden antingen hexadecimalt, med en kommaavgrä
 <table id="simpletable_9EBE66066E854ABE978F8F7ADC66BDE3"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> färg</span> </span> </p></td> 
-  <td class="stentry"> <p> <span class="codeph">{{<span class="varname"> gray</span>[,<span class="varname"> alpha</span>][g]}|</span> </p> <p> <span class="codeph"> {<span class="varname"> red</span>,<span class="varname"> green</span>,<span class="varname"> blue</span>[,<span class="varname"> rgbAlpha</span>][r]}|</span> </p> <p> <span class="codeph"> {<span class="varname"> cyan</span>,  <span class="varname"> magenta</span>,  <span class="varname"> gult</span>,  <span class="varname"> svart</span>[,alpha]k}|</span> </p> <p> <span class="codeph"> {0x{hex2|hex4}[g]}|</span> </p> <p> <span class="codeph">{[0x]{<span class="varname"> hex6</span>|<span class="varname"> hex8</span>}[r]}|</span> </p> <p> <span class="codeph"> {[0x]{<span class="varname"> hex8</span>|<span class="varname"> hex10</span>}k}}[s]</span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph">{{<span class="varname"> grå</span>[,<span class="varname"> alpha</span>][g]}|</span> </p> <p> <span class="codeph"> {<span class="varname"> röd</span>,<span class="varname"> grön</span>,<span class="varname"> blå</span>[,<span class="varname"> rgbAlpha</span>][r]}|</span> </p> <p> <span class="codeph"> {<span class="varname"> cyan</span>, <span class="varname"> magenta</span>, <span class="varname"> gul</span>, <span class="varname"> svart</span>[,alpha]k}|</span> </p> <p> <span class="codeph"> {0x{hex2|hex4}[g]}|</span> </p> <p> <span class="codeph">{[0x]{<span class="varname"> hex6</span>|<span class="varname"> hex8</span>}[r]}|</span> </p> <p> <span class="codeph"> {[0x]{<span class="varname"> hex8</span>|<span class="varname"> hex10</span>} k}[s]</span> </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> röd</span>,  <span class="varname"> grön</span>,  <span class="varname"> blå</span>,  <span class="varname"> rgbAlpha</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> röd</span>, <span class="varname"> grön</span>, <span class="varname"> blå</span>, <span class="varname"> rgbAlpha</span></span> </p> </td> 
   <td class="stentry"> <p>färgkomponentvärde (0...255, decimalint) </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> cyan</span>,  <span class="varname"> magenta</span>,  <span class="varname"> gult</span>,  <span class="varname"> svart</span>,  <span class="varname"> alfa</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> cyan</span>, <span class="varname"> magenta</span>, <span class="varname"> gul</span>, <span class="varname"> svart</span>, <span class="varname"> alpha</span></span> </p></td> 
   <td class="stentry"> <p>CMYK-färgkomponentvärde (0,100 %, decimalint) </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> grå</span>,  <span class="varname"> alfa</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> grå</span>, <span class="varname"> alpha</span></span> </p> </td> 
   <td class="stentry"> <p>grått färgkomponentvärde (0...100%, decimalint) </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -55,7 +55,7 @@ Färgvärden. Du kan ange färgvärden antingen hexadecimalt, med en kommaavgrä
  </tr> 
 </table>
 
-Decimalkomponentvärdena för RGB-färger ligger inom intervallet 0 till 255. Decimalkomponentvärdena för CMYK och grått ligger i intervallet 0,100 %. Alla hexadecimala komponentvärden ligger i intervallet 0...0xFF.
+Decimalkomponentvärdena för RGB är i intervallet 0 till 255. Decimalkomponentvärdena för CMYK och grått ligger i intervallet 0,100 %. Alla hexadecimala komponentvärden ligger i intervallet 0...0xFF.
 
 Färgkomponentvärdena antas vara oberoende av alfavärdet (inte förmultiplicerat).
 
@@ -65,7 +65,7 @@ Typsuffixet k krävs för CMYK-färgvärden. Ett typsuffix kan anges för RGB oc
 
 Prefixet 0x krävs för hexadecimala gråa färgvärden.
 
-Suffixet s anger att färgvärdet är associerat med den inmatningsfärgrymd (källfärgrymd) som motsvarar färgvärdets pixeltyp (definierad med `attribute::IccProfileSrc*`). Om det här suffixet inte finns är färgvärdet associerat med utdatafärgrymden (mål) (definierad med `icc=` eller `attribute::IccProfile*`).
+Suffixet s anger att färgvärdet är associerat med den inmatningsfärgrymd (källfärgrymd) som motsvarar färgvärdets pixeltyp (definierad med `attribute::IccProfileSrc*`). Om det här suffixet inte finns är färgvärdet associerat med utdatans (målets) färgmodell (definierad med `icc=` eller `attribute::IccProfile*`).
 
 ## Standard {#section-737082a7da544acca8092a48d88480e7}
 
@@ -82,7 +82,7 @@ Några exempel på giltiga färgspecifikationer och deras motsvarande pixeltyp, 
    <th class="entry"> <b>Pixeltyp</b> </th> 
    <th class="entry"> <b>Färgvärde</b> </th> 
    <th class="entry"> <b>Alfavärde</b> </th> 
-   <th class="entry"> <b>Standardfärgrymd  </b> </th> 
+   <th class="entry"> <b>Standardfärgrymd </b> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -110,67 +110,67 @@ Några exempel på giltiga färgspecifikationer och deras motsvarande pixeltyp, 
   <tr> 
    <td> <p>a0b1c2d3R </p> </td> 
    <td> <p>RGB </p> </td> 
-   <td> <p>160 177 194 </p> </td> 
+   <td> <p>160,177,194 </p> </td> 
    <td> <p>211 </p> </td> 
    <td> <p> <span class="codeph"> IccProfileRgb</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>100S </p> </td> 
    <td> <p>grå </p> </td> 
-   <td> <p>100 % </p> </td> 
-   <td> <p>100 % </p> </td> 
+   <td> <p>100% </p> </td> 
+   <td> <p>100% </p> </td> 
    <td> <p> <span class="codeph"> IccProfileSrcGray</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>50,75 g </p> </td> 
+   <td> <p>50,75g </p> </td> 
    <td> <p>grå </p> </td> 
-   <td> <p>50 % </p> </td> 
-   <td> <p>75 % </p> </td> 
+   <td> <p>50% </p> </td> 
+   <td> <p>75% </p> </td> 
    <td> <p> <span class="codeph"> IccProfileGray</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>0X70G </p> </td> 
    <td> <p>grå </p> </td> 
-   <td> <p>44 % </p> </td> 
-   <td> <p>44 % </p> </td> 
+   <td> <p>44% </p> </td> 
+   <td> <p>44% </p> </td> 
    <td> <p> <span class="codeph"> IccProfileGray</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>0xddeegs </p> </td> 
    <td> <p>grå </p> </td> 
-   <td> <p>87 % </p> </td> 
-   <td> <p>93 % </p> </td> 
-   <td> <p> <span class="codeph"> IccProfileSrcGray  </span> </p> </td> 
+   <td> <p>87% </p> </td> 
+   <td> <p>93% </p> </td> 
+   <td> <p> <span class="codeph"> IccProfileSrcGray </span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>94,11,50,33 kB </p> </td> 
+   <td> <p>94,11,50,33k </p> </td> 
    <td> <p>CMYK </p> </td> 
-   <td> <p>94-11-50-33 % </p> </td> 
-   <td> <p>100 % </p> </td> 
+   <td> <p>94-11-50-33% </p> </td> 
+   <td> <p>100% </p> </td> 
    <td> <p> <span class="codeph"> IccProfileCmyk</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>22,23,24,25,26 KS </p> </td> 
+   <td> <p>22,23,24,25,26KS </p> </td> 
    <td> <p>CMYK </p> </td> 
-   <td> <p>22-23-24-25 % </p> </td> 
-   <td> <p>26 % </p> </td> 
+   <td> <p>22-23-24-25% </p> </td> 
+   <td> <p>26% </p> </td> 
    <td> <p> <span class="codeph"> IccProfileSrcCmyk</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>38393A3bK </p> </td> 
    <td> <p>CMYK </p> </td> 
-   <td> <p>56-57-58-59 % </p> </td> 
-   <td> <p>100 % </p> </td> 
+   <td> <p>56-57-58-59% </p> </td> 
+   <td> <p>100% </p> </td> 
    <td> <p> <span class="codeph"> IccProfileCmyk</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>0x0a0b0C0d0eks </p> </td> 
    <td> <p>CMYK </p> </td> 
-   <td> <p>10-11-12-13 % </p> </td> 
-   <td> <p>14 % </p> </td> 
+   <td> <p>10-11-12-13% </p> </td> 
+   <td> <p>14% </p> </td> 
    <td> <p> <span class="codeph"> IccProfileSrcCmyk</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Den utdatafärgrymd som anges med `icc=` används i stället för standardfärgrymden när pixeltypen för en utdatafärg motsvarar pixeltypen för utdatabilden.
+Utdatafärgrymden som anges med `icc=` används i stället för standardfärgmodellen när pixeltypen för en utdatafärg motsvarar pixeltypen för utdatabilden.

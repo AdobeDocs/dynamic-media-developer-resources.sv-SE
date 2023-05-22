@@ -20,9 +20,9 @@ Förhandsladda bilder fungerar bra för den vanligaste inbäddningsmetoden för 
 
 Funktionen har dock vissa begränsningar när andra inbäddningsmetoder eller särskilda konfigurationsalternativ används. Förhandsladda bilder kan inte återges korrekt i följande fall:
 
-* När visningsprogrammet har en fast storlek och storleken definieras antingen med konfigurationsattributet `stagesize` i visningsprogrammets förinställningspost eller i den externa visningsprogrammets CSS-fil för visningsprogrammets behållarelement på den översta nivån.
-* När du använder den flexibla storleksinbäddningen med den bredd- och höjddefinierade metoden för visningsprograminbäddning. Se rubriken [Bädda in flexibel storlek med bredd och höjd definierad](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-images.md#section-6bb5d3c502544ad18a58eafe12a13435).
+* När visningsprogrammet är fast i storlek och storleken har definierats med `stagesize` konfigurationsattribut inuti visningsprogrammets förinställningspost eller, i den externa visningsprogrammets CSS-fil för visningsprogrammets behållarelement på den översta nivån.
+* När du använder den flexibla storleksinbäddningen med den bredd- och höjddefinierade metoden för visningsprograminbäddning. Se rubriken [Flexibel storleksinbäddning med definierad bredd och höjd](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-images.md#section-6bb5d3c502544ad18a58eafe12a13435).
 
-Om du använder visningsprogrammet i något av de åtgärdslägen som anges ovan kan du inaktivera funktionen för förhandsladda bilder med konfigurationsattributet `preloadImage`.
+Om du använder visningsprogrammet i något av de åtgärdslägen som anges ovan kan du inaktivera funktionen för förhandsladda bilder med `preloadImage` konfigurationsattribut.
 
-Dessutom används inte förinläsningsbilden - även om den är aktiverad i konfigurationen - om visningsprogrammet är inbäddat i DOM-elementet är dolt med CSS-inställningen `display:none` eller om det är frånkopplat från DOM-trädet.
+Dessutom används inte förinläsningsbilden, även om den är aktiverad i konfigurationen, om visningsprogrammet är inbäddat i DOM-elementet är dolt med `display:none` CSS-inställning eller frånkopplad från DOM-trädet.

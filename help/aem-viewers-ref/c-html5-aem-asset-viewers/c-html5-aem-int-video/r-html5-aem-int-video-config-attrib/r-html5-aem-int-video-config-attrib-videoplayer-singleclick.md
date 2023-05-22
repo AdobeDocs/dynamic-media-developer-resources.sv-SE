@@ -8,7 +8,7 @@ exl-id: 038640c7-ae8c-43e0-979b-6010bb5e40fb
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '70'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Konfigurationsattribut för Interactive Video Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|playPause</span> </p> </td> 
-   <td colname="col2"> <p> Konfigurerar mappningen av ett enda klick/tryck för att växla uppspelning/paus. Om du anger <span class="codeph"> none</span> inaktiveras enkelklickning/tryck för att spela upp/pausa. Om <span class="codeph"> playPause</span> är inställt på  växlar videon mellan att spela upp och pausa videon. På vissa enheter kan du använda inbyggda kontroller. I det här fallet är ett <span class="codeph">-beteende som innebär att användaren klickar på</span> inaktiverat. </p> </td> 
+   <td colname="col2"> <p> Konfigurerar mappningen av ett enda klick/tryck för att växla uppspelning/paus. Inställning till <span class="codeph"> ingen</span> inaktiverar enkelklickning/tryck för att spela upp/pausa. Om inställt på <span class="codeph"> playPause</span>väljer du sedan videon för att växla mellan att spela upp och pausa videon. På vissa enheter kan du använda inbyggda kontroller. I det här fallet <span class="codeph"> singleclick</span> beteendet är inaktiverat. </p> </td> 
   </tr> 
  </tbody> 
 </table>

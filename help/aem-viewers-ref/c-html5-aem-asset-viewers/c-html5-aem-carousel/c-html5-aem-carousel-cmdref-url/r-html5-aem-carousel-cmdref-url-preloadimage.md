@@ -8,7 +8,7 @@ exl-id: d4cfd11d-9bd3-4133-ae28-c375b6b3c2ab
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
 source-wordcount: '27'
-ht-degree: 7%
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ URL-kommando för Carousel Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Aktivera (<span class="codeph"> 1</span>) eller inaktivera funktionen för förinläsning (<span class="codeph"> 0</span>). </p> <p>Se <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-preload-image.md" format="dita" scope="local"> Förhandsladda bild</a>. </p> </td> 
+   <td colname="col2"> <p> Aktivera (<span class="codeph"> 1</span>) eller inaktivera (<span class="codeph"> 0</span>) funktionen för förhandsladda bilder. </p> <p>Se <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-preload-image.md" format="dita" scope="local"> Förhandsladda bild</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

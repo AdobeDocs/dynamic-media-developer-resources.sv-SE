@@ -2,12 +2,12 @@
 description: Hämtar resurser som är associerade med en angiven resurs och information om deras relation.
 solution: Experience Manager
 title: getAssociatedAssets
-feature: Dynamic Media Classic,SDK/API,Resurshantering
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: cf49719f-5d79-4e64-a785-bf3b2fe200c7
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -117,13 +117,13 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> generatorArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:GenerationInfoArray</span> </td> 
    <td colname="col3"> <p>Nej </p> </td> 
-   <td colname="col4"> <p><span class="codeph"> generatorArray</span> visar hur resursen skapades. Om till exempel <span class="codeph"> assetHandler</span> är en bildsida i en PDF innehåller detta PDF-processorverktyget och refererar till PDF-filresursen. </p> </td> 
+   <td colname="col4"> <p>The <span class="codeph"> generatorArray</span> visar hur resursen skapades. Om <span class="codeph"> assetHandler</span> var en bildsida i PDF, då skulle den innehålla PDF-processorverktyget och referera till PDF-filresursen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> generatedArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:GenerationInfoArray</span> </td> 
    <td colname="col3"> <p>Nej </p> </td> 
-   <td colname="col4"> <p><span class="codeph"> generatedArray</span> inverterar sättet som resursen skapades på. Till exempel kan <span class="codeph"> generatedArray</span> innehålla listan över bilder som genererats från denna <span class="codeph"> assetHandler</span> om detta var en PDF-filresurs. </p> </td> 
+   <td colname="col4"> <p>The <span class="codeph"> generatedArray</span> inverterar hur resursen skapades. Till exempel <span class="codeph"> generatedArray</span> kan innehålla en lista med bilder som genererats från detta <span class="codeph"> assetHandler</span> om detta var en PDFFile-resurs. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAsset</span> </span> </td> 
@@ -134,11 +134,11 @@ Syntax
  </tbody> 
 </table>
 
-Du kan använda parametrarna `responseFieldArray` eller `excludeFieldArray` för att begränsa svarsstorleken. Objekten `GenerationInfo` som returneras i `generatorArray` eller `generatedArray` är standard för att inkludera både den ursprungliga och den genererade resursposten. För en PDF-resurstyp resulterar det här beteendet i oönskade kopior av PDF-resursposten &quot;original&quot; i svaret. Du kan eliminera det här problemet genom att lägga till `generatedArray/items/originator` till `excludeFieldArray`. Du kan också ange en explicit lista med svarsfält som du vill inkludera i `responseFieldArray`.
+Du kan använda parametrarna `responseFieldArray` eller `excludeFieldArray` för att begränsa svarsstorleken. I synnerhet `GenerationInfo` objekt som returneras i `generatorArray` eller `generatedArray` standard för att inkludera både originator- och genererade tillgångsposter. För en resurstyp i PDF resulterar det här beteendet i oönskade kopior av resursposten &quot;original&quot; PDF i svaret. Du kan eliminera problemet genom att lägga till `generatedArray/items/originator` till `excludeFieldArray`. Du kan också ange en explicit lista med svarsfält som du vill inkludera i `responseFieldArray`.
 
 ## Exempel {#section-8946ea4b9cb94912a8408249c897f192}
 
-Följande grundläggande exempel är en begäran om referensen för generatorn för en bild som extraheras från en PDF-fil. Den innehåller en `containerArray`-längd på ett med ett objekt som innehåller `assetHandle` för PDF-filen.
+Följande grundläggande exempel är en begäran om referensen för generatorn för en bild som extraheras från PDF. Den innehåller `containerArray` Längd ett med ett objekt som innehåller `assetHandle` PDF.
 
 **Begäran**
 
@@ -253,7 +253,7 @@ I exemplet ovan finns följande:
 </soapenv:Envelope>
 ```
 
-I det här nästa exemplet läggs en grupp till i ett företag med `groupHandleArray`. I det här exemplet används endast en grupp.
+I nästa exempel läggs en grupp till i ett företag med `groupHandleArray`. I det här exemplet används endast en grupp.
 
 **Begäran**
 

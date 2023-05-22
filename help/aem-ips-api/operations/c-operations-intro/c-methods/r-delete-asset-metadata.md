@@ -2,12 +2,12 @@
 description: Tar bort metadatavärden för en resurs. Fungerar med en array med metadata delete för att ange värden i en grupp.
 solution: Experience Manager
 title: deleteAssetMetadata
-feature: Dynamic Media Classic,SDK/API,Metadata,Resurshantering
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: ce9b8dff-efc0-4427-9f50-10269647187f
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---

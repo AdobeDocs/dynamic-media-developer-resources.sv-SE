@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 322d97af-bb1b-44bb-90f1-cda9984b78b5
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Används främst för att förstora eller förminska en mask något för att und
 
 ## Egenskaper {#section-b1c66d65168d4ea695e8662ea690bd4e}
 
-Gäller för det aktuella lagret eller för lagret `0` om `layer=comp`.
+Används på det aktuella lagret eller på lagret `0` if `layer=comp`.
 
 ## Standard {#section-14c908bb87cb42acbea709effea2f964}
 

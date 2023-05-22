@@ -1,6 +1,6 @@
 ---
 title: Textplacering
-description: Med renderaren text= placeras text i grunden annorlunda än renderaren textPs= när den används på lager med redan storlek (dvs. när size= anges).
+description: Med renderaren text= placeras text i grunden annorlunda än renderaren textPs= när den används på lager med redan storleksanpassad storlek (dvs när size= även anges).
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,33 +14,33 @@ ht-degree: 0%
 
 # Textplacering{#text-positioning}
 
-Med `text=`-renderaren placeras text som skiljer sig väsentligt från renderaren textPs= när den används på lager med redan storlek (d.v.s. när size= även anges).
+The `text=` renderaren placerar text som är helt annorlunda än renderaren textPs= när den används på lager med redan storlek (d.v.s. när size= anges också).
 
-Självstorleksändring av `text=`och `textPs=` lager har liknande utseende och placering.
+Självstorleksändring `text=`och `textPs=` lager har liknande utseende och placering.
 
-Med `textPs=` justeras tecknets överkant mot textrutans överkant (om `\vertalt` används), även om det resulterar i delar av de återgivna texttecknen som delvis ligger utanför textrutans gränser. Återgivna specialtecken för vissa teckensnitt kan också skjuta ut något utanför textrutans vänstra och högra kant. För program där all återgiven text ska finnas i lagrets rektangel kan RTF-kommandona `\marg*` eller `textFlowPath=` användas för att justera textåtergivningsområdet.
+The `textPs=` justerar den övre delen av teckencellen mot textrutans övre del (förutsatt att `\vertalt`), även om det resulterar i delar av de återgivna texttecknen som delvis sträcker sig utanför textrutans gräns. Återgivna specialtecken för vissa teckensnitt kan också skjuta ut något utanför textrutans vänstra och högra kant. För program som kräver att all återgiven text ska finnas inuti lagerektangeln finns RTF-filen `\marg*` kommandon eller `textFlowPath=` kan användas för att justera textåtergivningsområdet.
 
-Med `text=` flyttas den återgivna texten efter behov och det garanteras att alla återgivna tecken får plats helt i den angivna textrutan.
+I motsats till `text=` Flyttar den återgivna texten efter behov och ser till att alla återgivna specialtecken passar in helt i den angivna textrutan.
 
-`text=` kan vara något enklare att använda för enkla program, men `textPs=` erbjuder exakt positionering oberoende av teckensnitt och texteffekter.
+while `text=` kan vara något enklare att använda för enkla program, `textPs=` ger exakt positionering oberoende av teckensnitt och texteffekter.
 
 ## Exempel {#section-1b6bdf2ea34447528188ae4e1430ee71}
 
 Följande exempel är för text i förstorlek. Beteendet för text som ändrar storlek automatiskt är annorlunda.
 
-** `Text=` har alltid en smal marginal överst:**
+** `Text=` ger alltid en smal marginal överst:**
 
 ![Exempel på textplacering - en bild](assets/tp01.png)
 
 `/is/image/?size=230,50&bgc=f0f0f0&fmt=png&text=\fs40Normal%20Normal%20Normal`
 
-** `textPs=` återger text som är tätt justerad mot textrutans överkant, vilket resulterar i en viss urklippning, även för vanliga teckensnitt som Arial®:**
+** `textPs=` återger text som är justerad mot textrutans överkant, vilket resulterar i en viss urklippning, även för vanliga teckensnitt som Arial®:**
 
 ![Exempel på textplacering är två bilder](assets/tp02.png)
 
 `/is/image/?size=230,50&bgc=f0f0f0&fmt=png&textPs=\fs40Normal%20Normal%20Normal`
 
-** `text=` förskjuter automatiskt återgiven text nedåt för att undvika urklipp:**
+** `text=` flyttar automatiskt återgiven text nedåt för att undvika urklipp:**
 
 ![Exempel på textplacering - tre bilder](assets/tp03.png)
 

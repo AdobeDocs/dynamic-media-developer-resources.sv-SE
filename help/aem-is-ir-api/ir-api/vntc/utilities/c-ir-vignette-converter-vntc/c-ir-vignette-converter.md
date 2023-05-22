@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 9e2ad2d4-9061-41d1-941b-8be4c17a6c43
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
@@ -16,18 +16,18 @@ ht-degree: 0%
 
 Vinjetteringskonverteraren (vntc) är ett kommandoradsverktyg som används för att förbereda innehåll som skapats med Image Authoring för distribution med Image Rendering.
 
-[!DNL vntc] finns i [!DNL  *[!DNL install_root]*\ImageServing\bin]. Den har följande funktioner:
+[!DNL vntc] finns i [!DNL *[!DNL install_root]*\ImageServing\bin]. Den har följande funktioner:
 
-* Konverterar primära vinjetteringar till en enda upplösning, flera upplösningar eller pyramidproduktionvinjetteringar (se [Vinjetteringsskalning](../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585)).
+* Konverterar primära vinjetteringar till produktionvinjetter med en upplösning, flera upplösningar eller pyramid (se [Vinjettskalförändring](../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585)).
 * Skapar ett produktionsskåp och ett fönster som täcker formatfiler (se `-resolution` och `-jpegquality`).
 
 * Kan producera olika filversioner av vinjetter, skåp och fönsteromslag för användning med äldre versioner av bildåtergivning.
 * Extraherar visningsbilder från vinjetter, antingen med full upplösning eller miniatyrbilder (se `-thumbwidth` och `-image`).
 * Extraherar relevanta egenskaper från källfilen (se `-info`) och skickar dem till `stdout` eller en valfri loggfil (se `-log`).
 
-Även om det är valfritt att använda [!DNL vntc] rekommenderas det starkt för bästa serverprestanda. [!DNL vntc] implementerar även omfattande felkontroll och kan förhindra allvarliga serverproblem, inklusive krascher, när de används flitigt.
+När användningen av [!DNL vntc] är valfritt, rekommenderas starkt för bästa serverprestanda. [!DNL vntc] implementerar även omfattande felkontroll och kan förhindra allvarliga serverproblem, inklusive krascher, när de används flitigt.
 
-När du genererar produktionsvinjetteringar läggs pixelbredden för utdatavvinjetteringen (eller 0 om det är en pyramid- eller flerupplösningsvinjettering) till efter namnet på den genererade utdatavvinjettfilen. När du bearbetar kabinettformatfiler läggs utdataupplösningen till i utdatafilens namn. Alla utdatafiler, inklusive miniatyr-, bild- och loggfiler samt produktionsvinjetterings- eller kabinettformatfilen, placeras i samma katalog där *[!DNL sourceFile]* finns (om inte `-destPath` har angetts).
+När du genererar produktionsvinjetteringar läggs pixelbredden för utdatavvinjetteringen (eller 0 om det är en pyramid- eller flerupplösningsvinjettering) till efter namnet på den genererade utdatavvinjettfilen. När du bearbetar kabinettformatfiler läggs utdataupplösningen till i utdatafilens namn. Alla utdatafiler, inklusive miniatyr-, bild- och loggfiler samt formatfilen för produktionsvinjettering och kabinettformat, placeras i samma katalog där *[!DNL sourceFile]* finns (om inte `-destPath` anges).
 
 [!DNL vntc] begränsar sig som standard till högst 3 GB minne. När Vntc når den här gränsen avbryts bearbetningen och ett fel genereras. Den här gränsen kan ändras med `-maxmem`.
 

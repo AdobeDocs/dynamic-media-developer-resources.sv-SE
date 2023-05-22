@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 62e7d91c-935f-410f-a971-ffb3cfff31d6
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
@@ -30,10 +30,10 @@ Lagerattribut eller vyattribut. Gäller det aktuella lagret eller den slutliga v
 
 ## Exempel {#section-3202122df5db4e14b358ecabfb6d8b85}
 
-Kompensera för den lilla oskärpa som orsakas av bildomsampling. Vi ökar också JPEG-kvaliteten för att undvika ytterligare JPEG-felaktigheter i kanterna med skärpa.
+Kompensera för den lilla oskärpa som orsakas av bildomsampling. Vi ökar också kvaliteten på JPEG för att undvika ytterligare JPEG-artefakter längs de skarpa kanterna.
 
 `http://server/myRootId/myImageId?qlt=90,1&op_sharpen=1&wid=500`
 
 ## Se även {#section-d659199fde0d4c9dadebf1f09802915d}
 
-[qlt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-qlt.md#reference-f69ed0758c784b0385d979820546d352) ,  [op_usm=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-sharpen.md#reference-c32573230c6140f883efdaa201ea8541)
+[qlt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-qlt.md#reference-f69ed0758c784b0385d979820546d352) , [op_usm=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-sharpen.md#reference-c32573230c6140f883efdaa201ea8541)

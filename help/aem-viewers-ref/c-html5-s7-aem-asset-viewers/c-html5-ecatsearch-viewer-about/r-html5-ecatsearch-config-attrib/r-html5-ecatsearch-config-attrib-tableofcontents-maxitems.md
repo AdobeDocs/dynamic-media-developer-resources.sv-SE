@@ -2,13 +2,13 @@
 description: TableOfContents.maxitems
 solution: Experience Manager
 title: TableOfContents.maxitems
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: c2e559d9-96c7-4d0f-8aa6-a60d9e42c7c4
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 1%
+source-wordcount: '59'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> maxitems</span></span> </p> </td> 
-   <td> <p>Det maximala antalet objekt i den nedrullningsbara innehållsförteckningen. </p> <p>Dessutom kan du minska antalet synliga objekt i listrutan om det beskärs av den yttre behållaren. </p> <p>När den är inställd på <span class="codeph"> 0</span> visar den komponenten så många objekt som möjligt med tanke på den behållare den läggs till i. </p> </td> 
+   <td> <p>Det maximala antalet objekt i den nedrullningsbara innehållsförteckningen. </p> <p>Dessutom kan du minska antalet synliga objekt i listrutan om det beskärs av den yttre behållaren. </p> <p>När inställt på <span class="codeph"> 0</span> den komponenten visar så många objekt som möjligt med tanke på den behållare som den läggs till i. </p> </td> 
   </tr> 
  </tbody> 
 </table>

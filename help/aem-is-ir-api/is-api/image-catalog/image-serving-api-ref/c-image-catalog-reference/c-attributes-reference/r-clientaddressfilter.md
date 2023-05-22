@@ -22,7 +22,7 @@ När det anges avvisas begäranden till den här bildkatalogen som kommer från 
 
 Kommaavgränsad lista med IP-adresser med valfria netmasker (CIDR-notation används):
 
-`*`ipAddress`*` `[`/ *`netmask`*`]`* `[`,*`ipAddress`*`[`/*`netmask`*`]]`
+`*`ipAddress`*` `[`/ *`netmask`*`]`&#42; `[`,*`ipAddress`*`[`/*`netmask`*`]]`
 
 <table id="simpletable_9F82BB0D42A9434883F2F70A2A92898C"> 
  <tr class="strow"> 

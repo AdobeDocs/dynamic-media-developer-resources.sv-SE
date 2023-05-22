@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Nedan följer en lista över nyckelord och kommandon som stöds av textmotorn Scene 7 Image Serving.
 
-Mer information om varje nyckelord eller kommando finns i den publicerade [RTF 1.6-specifikationen](https://msdn.microsoft.com/en-us/library/aa140277%28v=office.10%29.aspx).
+Se publicerade [RTF 1.6-specifikation](https://msdn.microsoft.com/en-us/library/aa140277%28v=office.10%29.aspx) om du vill ha information om varje nyckelord eller kommando.
 
 RTF-kommandon som inte visas nedan ignoreras av parsern.
 

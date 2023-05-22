@@ -40,7 +40,7 @@ Ange ett tjockleksvärde för att lägga till en skugga till det dekala objektet
   <td class="stentry"> <p>Dekalen är 5 tum bred, höjden bestäms av bildens proportioner och en skugga återges baserat på en tjocklek på 1 tum. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>0,0,,5 </p></td> 
+  <td class="stentry"> <p>0,0,.5 </p></td> 
   <td class="stentry"> <p>Dekalbredden och höjden bestäms av katalogen::Upplösning och att den är ½ tum tjock. </p></td> 
  </tr> 
 </table>

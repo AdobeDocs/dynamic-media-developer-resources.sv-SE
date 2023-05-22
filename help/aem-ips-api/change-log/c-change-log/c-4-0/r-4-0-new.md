@@ -27,7 +27,7 @@ Tillagd `VideoRootUrl` och `SwfRootUrl` egenskaper för `getProperty` operation.
 
 Tillagt som tillval `appName` och `appVersion` parametrar till `authHeader` för att spåra anropande program. Lagt till loggning till `ipsApiService.log`.
 
-Tillagda `serviceUrl` param med WSDL-genereringstjänsten. Den här parametern är användbar för felsökningsutkast. Exempel: `http://<server>/scene7/webservice/IpsApi-2008-01-15.wsdl?serviceUrl=http://localhost:8081`
+Tillagda `serviceUrl` param med WSDL-genereringstjänsten. Den här parametern är användbar för felsökningsutkast. Till exempel: `http://<server>/scene7/webservice/IpsApi-2008-01-15.wsdl?serviceUrl=http://localhost:8081`
 
 Implementerat `getZipEntries` operation.
 

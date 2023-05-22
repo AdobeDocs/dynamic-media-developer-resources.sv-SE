@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 5c0c8788-ffe5-4b42-86f6-6b4683dd7c21
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '96'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Vanligtvis en kort och unik identifierare, till exempel ett SKU-nummer. Kan ocks
 
 ## Egenskaper {#section-267bbf34677e4401abbaf6fdce52191b}
 
-Textsträng. Obligatoriskt. Primär indexnyckel för vinjettschematabellen. Varje `vignette::Id`-värde måste vara unikt i tabellen och får inte innehålla tecknen &#39;,&#39;.
+Textsträng. Obligatoriskt. Primär indexnyckel för vinjettschematabellen. Varje `vignette::Id` värdet måste vara unikt i tabellen och får inte innehålla tecknen &#39;,&#39;.
 
 ## Standard {#section-736d3419b19045efa00887cb595b0337}
 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 46575243-4472-44fe-89ce-30d9c875c7d2
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '44'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Italics-flagga.
 
-Anger om teckensnittsfilen som den här teckensnittskartan refererar till ska användas när det begärs av kommandot RTF kursiv ( `\i`).
+Anger om teckensnittsfilen som den här teckensnittskartan refererar till ska användas när den efterfrågas av kursiv RTF-text ( `\i`).
 
 ## Egenskaper {#section-607e76490e87418496d1c6763018a14f}
 

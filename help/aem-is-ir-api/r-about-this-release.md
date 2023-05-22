@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: f837191b-1151-4c29-8059-b4d3e09e304e
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,8 @@ Den här versionen - Image Serving 6.6.1 and Image Rendering 6.6.1 - ersätter I
 ## Kända fel och beteendeförändringar {#section-9dbc05206187477f926a78e8108a34e1}
 
 * Det går inte längre att använda frågetecknet i resurs-ID:n, även om tecknet är URL-kodat.
-* Dynamiska banderollförfrågningar `/xfl/flash/` stöds inte längre och returnerar nu en http 404-felkod.
-* W2P `/is/agm/`-begäranden stöds inte längre.
+* Dynamisk banderoll `/xfl/flash/` begäranden stöds inte längre och returnerar nu en http 404-felkod.
+* W2P `/is/agm/` begäranden stöds inte längre.
 * Vissa felmeddelanden visas inte längre i webbläsaren. Därför måste du granska spårningsloggen för att felsöka.
 
 ## Nya funktioner {#section-b1386e36cb4544ebb79766a06b16842d}
@@ -30,4 +30,4 @@ Den här versionen - Image Serving 6.6.1 and Image Rendering 6.6.1 - ersätter I
 
 ## Felkorrigering {#section-58dff74d56f64edeadf8f8b97b7a4161}
 
-* Ett problem har korrigerats där RTF-alternativet `\qc` följt av ett blanksteg orsakade att en begäran inte kunde återges.
+* Ett problem där `\qc` RTF-alternativet följt av ett mellanslag orsakade att en begäran inte kunde återges.

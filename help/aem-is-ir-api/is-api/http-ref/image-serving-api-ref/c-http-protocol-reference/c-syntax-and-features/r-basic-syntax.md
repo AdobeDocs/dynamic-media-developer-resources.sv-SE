@@ -22,7 +22,7 @@ Grundsyntaxen för HTTP-protokollet är följande:
   <td class="stentry"> <p> <span class="filepath">http://<span class="varname"> server</span>/is/image[/<span class="varname"> object</span>][?<span class="varname"> modifierare</span>]</span> </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> server  </span> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> server </span> </span> </p></td> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> server_address</span>[:<span class="varname"> port</span>]</span> </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -31,15 +31,15 @@ Grundsyntaxen för HTTP-protokollet är följande:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> modifierare</span> </span> </p></td> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> modifier</span>*[&amp;<span class="varname"> modifier</span>]</span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> modifierare</span>*[&amp;<span class="varname"> modifierare</span>]</span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> modifierare</span> </span> </p></td> 
-  <td class="stentry"> <p><span class="codeph">kommando|{$<span class="varname"> macro</span>$}|{.<span class="varname"> kommentar</span>}</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">kommando|{$<span class="varname"> makro</span>$}|{.<span class="varname"> kommentar</span>}</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> kommando</span> </span> </p> </td> 
-  <td class="stentry"> <p>{<span class="varname"> cmdName</span>|{$<span class="varname"> var</span>}}[=<span class="varname"> värde</span>] </p></td> 
+  <td class="stentry"> <p>{<span class="varname"> cmdName</span>|{$<span class="varname"> var</span>}}[=<span class="varname"> value</span>] </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> makro</span> </span> </p> </td> 
@@ -63,17 +63,17 @@ Grundsyntaxen för HTTP-protokollet är följande:
  </tr> 
 </table>
 
-*`server_address`*,  *`cmdName`*,  *`macro`* och  *`var`* är inte skiftlägeskänsliga. Servern bevarar skiftläget för alla andra strängvärden.
+*`server_address`*, *`cmdName`*, *`macro`* och *`var`* är skiftlägeskänsliga. Servern bevarar skiftläget för alla andra strängvärden.
 
 *`value`* är kommandospecifikt och kan bestå av ett eller flera värden avgränsade med kommatecken. Mer information finns i beskrivningen av de enskilda kommandona.
 
 ## Server-ID {#section-926ae55ddba14b8d952147a5fd701e14}
 
-Rotkontexten [!DNL /is/image] krävs för alla HTTP-begäranden till Image Serving.
+The [!DNL /is/image] rotkontext krävs för alla HTTP-begäranden till Image Serving.
 
 ## HTTP-avkodning {#section-20922baccd804d2d986b44ce9a183a7d}
 
-Image Serving först extraherar *`object`* och *`modifiers`* från den inkommande begäran. *`object`* separeras sedan till sökvägselement som är individuellt HTTP-avkodade. Strängen *`modifiers`* separeras till *`command`*= *`value`*-par och *`value`* HTTP-avkodas sedan före kommandospecifik bearbetning.
+Image Serving first extracts *`object`* och *`modifiers`* från den inkommande begäran. *`object`* separeras sedan till sökvägselement som är individuellt HTTP-avkodade. The *`modifiers`* sträng avgränsas till *`command`*= *`value`* par, och *`value`* HTTP-avkodas sedan före kommandospecifik bearbetning.
 
 >[!NOTE]
 >
@@ -85,4 +85,4 @@ Kommentarer kan bäddas in i begärandesträngar var som helst och identifieras 
 
 ## Se även {#section-d0b836568c31454b8dbeb136e6bbe0f0}
 
-[Datatyper](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/c-data-types.md#concept-49455c12df954bb5919cdd8d5ccc85fa),  [HTTP/1.1-specifikation](https://www.w3.org/Protocols/rfc2616/rfc2616.html)
+[Datatyper](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/c-data-types.md#concept-49455c12df954bb5919cdd8d5ccc85fa), [HTTP/1.1-specifikation](https://www.w3.org/Protocols/rfc2616/rfc2616.html)

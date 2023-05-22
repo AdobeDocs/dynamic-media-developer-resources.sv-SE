@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: bedd5dac-7577-4c8a-9dc3-43aa4438e53a
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
@@ -18,4 +18,4 @@ I URL:en eller katalogen::Modifier-kommandosekvensen startar en lagerdefinitions
 
 Alla kommandon i lagerdefinitionssekvensen är kopplade till lagret.
 
-Kommandot `layer=` anger ett lagernummer som måste vara ett heltal som är 0 eller större. Alla kommandon i lagerdefinitionssekvenser med samma lagernummer används på samma lager. Om samma kommando förekommer mer än en gång gäller den sista förekomsten.
+The `layer=` -kommandot anger ett lagernummer som måste vara ett heltal som är 0 eller större. Alla kommandon i lagerdefinitionssekvenser med samma lagernummer används på samma lager. Om samma kommando förekommer mer än en gång gäller den sista förekomsten.

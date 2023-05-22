@@ -1,5 +1,5 @@
 ---
-description: Färgkvantifiering. Anger färgkvantifieringsattribut för GIF-utdatakonvertering.
+description: Färgkvantifiering. Anger färgkvantifieringsattribut för konvertering av GIF-utdata.
 solution: Experience Manager
 title: kvantifiera
 feature: Dynamic Media Classic,SDK/API
@@ -7,33 +7,33 @@ role: Developer,User
 exl-id: 67247016-a038-4ed4-90ed-751eaf9c4881
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
 
 # kvantifiera{#quantize}
 
-Färgkvantifiering. Anger färgkvantifieringsattribut för GIF-utdatakonvertering.
+Färgkvantifiering. Anger färgkvantifieringsattribut för konvertering av GIF-utdata.
 
-` quantize= *``*[, *``*[, *``*[, *`typedithernumColorList`*]]]`
+` quantize= *`type`*[, *`gitter`*[, *`numColors`*[, *`colorList`*]]]`
 
 <table id="simpletable_6BF155FCB8224E7EBFC8D8375AD26A71"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> type  </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> {adaptive|web|mac}  </span> palettyp </p> <p>Välj <span class="codeph"> web </span> eller <span class="codeph"> mac </span> om du vill välja en fördefinierad palett, eller ange <span class="codeph"> adaptive </span> om du vill beräkna en optimal palett för bilden. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> type </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> {adaptive|web|mac} </span> paletttyp </p> <p>Välj ' <span class="codeph"> webb </span>' eller ' <span class="codeph"> mac </span>' för att välja en fördefinierad palett, eller inställd på ' <span class="codeph"> adaptiv </span>' för att beräkna en optimal palett för bilden. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> gitter  </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> {diffuse|off}  </span> gitteralternativ </p> <p>Välj 'diffuse' för Floyd-Steinberg-feldiffusion eller 'off' för att inaktivera gitter. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> gitter </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> {diffuse|off} </span> gitteralternativ </p> <p>Välj 'diffuse' för Floyd-Steinberg-feldiffusion eller 'off' för att inaktivera gitter. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> numColors  </span> </span> </p> </td> 
-  <td class="stentry"> <p>Antal utdatafärger (heltal) som ingår i paletten <span class="codeph"> adaptiv </span>. </p> <p> <span class="codeph"> <span class="varname"> numColors  </span> </span> måste vara mellan 2 och 256. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> numColors </span> </span> </p> </td> 
+  <td class="stentry"> <p>Antal utdatafärger (heltal) som ingår i <span class="codeph"> adaptiv </span>paletten. </p> <p> <span class="codeph"> <span class="varname"> numColors </span> </span> måste vara mellan 2 och 256. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> colorList  </span> </span> </p> </td> 
-  <td class="stentry"> <p>Kommaavgränsad lista med tvingade RGB-färger i hex6-format. Gör att du kan ange tvingade färger som ska inkluderas i en <span class="codeph"> adaptiv </span>-palett. Om antalet angivna färger är mindre än <span class="codeph"> numColors </span> beräknas ytterligare färger baserat på bildinnehållet. </p> <p>Används endast om <span class="codeph"> fmt=gif </span> eller <span class="codeph"> fmt=gif-alpha </span>. I annat fall ignoreras. Färgerna som anges med <span class="codeph"> <span class="varname"> colorList </span> </span> måste vara RGB-värden i hex6-format (se <span class="codeph"> color </span>); inga andra färgspecifikationer tillåts. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> colorList </span> </span> </p> </td> 
+  <td class="stentry"> <p>Kommaavgränsad lista med framtvingade RGB-färger i hex6-format. Gör att du kan ange tvingade färger som ska inkluderas i ett ' <span class="codeph"> adaptiv </span>paletten. Om antalet angivna färger är mindre än <span class="codeph"> numColors </span>, beräknas ytterligare färger baserat på bildinnehållet. </p> <p>Används endast om <span class="codeph"> fmt=gif </span> eller <span class="codeph"> fmt=gif-alpha </span>. I annat fall ignoreras. Färgerna som anges med <span class="codeph"> <span class="varname"> colorList </span> </span> måste vara RGB i hex6-format (se <span class="codeph"> färg </span>). inga andra färgspecifikationer tillåts. </p> </td> 
  </tr> 
 </table>
 
@@ -43,10 +43,10 @@ Färgkvantifiering. Anger färgkvantifieringsattribut för GIF-utdatakonverterin
 
 ## Exempel {#section-b3a979dc9ae3459baa093bf17310988f}
 
-Generera en GIF-miniatyrbild med paletten `web` utan gitter:
+Skapa en miniatyrbild för GIF med hjälp av `web`&#39; och inget gitter:
 
 [!DNL http://server/myRootId/myImageId?req=tmb&fmt=gif&quantize=web,off]
 
-Konvertera bilden till en GIF-bild med två toner och genomskinlighet och tvinga färger till svartvitt:
+Konvertera en bild till ett GIF med två toner med genomskinlighet för nyckelfärger och tvinga färgerna att bli svartvita:
 
 [!DNL http://server/is/agm/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff]

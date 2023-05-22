@@ -4,7 +4,8 @@ description: Kommandoreferensdokumentation för visningsprogrammet för smart be
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: d0797c10-2379-45f7-9e8d-a5eb56638db8
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%

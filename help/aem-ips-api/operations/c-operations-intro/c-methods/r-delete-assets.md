@@ -2,12 +2,12 @@
 description: Tar bort flera resurser.
 solution: Experience Manager
 title: deleteAssets
-feature: Dynamic Media Classic,SDK/API,Resurshantering
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 487f83e6-f713-40e9-a442-e1179b30012c
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ Syntax
 
 ## Exempel {#section-aaad1933bf86479eb6cb476cec7d4587}
 
-Det här kodexemplet skickar en referens till ett företag och en array med tillgångshandtag i en `deleteAssetsParam`-begäran till webbtjänstservern. `deleteAssetsReturn` returnerar ett antal lyckade åtgärder på 2, vilket anger att båda resurserna togs bort.
+Det här kodexemplet skickar en referens till ett företag och en array med resurshandtag i en `deleteAssetsParam` förfrågan till webbtjänstservern. `deleteAssetsReturn` returnerar ett antal lyckade åtgärder på 2, vilket anger att båda resurserna togs bort.
 
 **Begäran**
 

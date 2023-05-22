@@ -30,7 +30,7 @@ Beroende på publiceringsmetod [!DNL Dynamic Media] som du använder i Adobe Exp
 
    Se även [Länka URL:er till ditt webbprogram](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic)
 
-* Om du publicerar en [!DNL Dynamic Media] video med inbäddad kod, du lägger till `VideoPlayer.ssl` till listan över andra konfigurationsparametrar för visningsprogrammet i kodfragmentet för inbäddning. Om du till exempel vill tvinga fram HTTPS-video lägger du till `&VideoPlayer.ssl=on` som i följande exempel:
+* Om du publicerar en [!DNL Dynamic Media] video med inbäddad kod, du lägger till `VideoPlayer.ssl` till listan med andra konfigurationsparametrar för visningsprogrammet i kodfragmentet för inbäddning. Om du till exempel vill tvinga fram HTTPS-video lägger du till `&VideoPlayer.ssl=on` som i följande exempel:
 
    ```html {.line-numbers}
    <style type="text/css"> 

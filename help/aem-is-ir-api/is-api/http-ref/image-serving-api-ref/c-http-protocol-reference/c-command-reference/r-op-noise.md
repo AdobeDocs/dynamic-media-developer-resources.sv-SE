@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: eeadd3ab-80ff-4f9b-b5b7-4f3da6feebde
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Lägg till brus. Lägger till slumpmässigt brus i förgrundsbildens data eller i ett effektlagers förgrund.
 
-`op_noise= *``*[,uniform|gaussian[, *`valmonokrom`*]]`
+`op_noise= *`val`*[,uniform|gaussian[, *`monokrom`*]]`
 
 <table id="table_40675464E5824D52BF392ECCE2DDC03C"> 
  <tbody> 

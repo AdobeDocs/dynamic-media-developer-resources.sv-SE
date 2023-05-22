@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 8f95c01f-e634-4d6c-a22f-c2285ee969c8
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '55'
+ht-degree: 9%
 
 ---
 
@@ -21,8 +21,8 @@ Konfigurationsattribut för Video360 Viewer.
 <table id="table_2A4F898BBF88417DB0834B7F78637F5D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
-   <td colname="col2"> <p> Anger avstängt läge för videouppspelning vid första inläsningen. Om <span class="codeph"> 1 </span> är inställt på  är volymen avstängd; I annat fall spelas videon upp med ljud. På vissa enheter kan videouppspelningen även spelas upp automatiskt när videon stängs av vid inläsning. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p> Anger avstängt läge för videouppspelning vid första inläsningen. Om inställt på <span class="codeph"> 1 </span> volymen är avstängd, I annat fall spelas videon upp med ljud. På vissa enheter kan videouppspelningen även spelas upp automatiskt när videon stängs av vid inläsning. </p> </td> 
   </tr> 
  </tbody> 
 </table>

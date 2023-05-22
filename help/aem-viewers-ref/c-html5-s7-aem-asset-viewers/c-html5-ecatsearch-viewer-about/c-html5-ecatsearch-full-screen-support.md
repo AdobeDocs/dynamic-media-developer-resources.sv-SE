@@ -2,12 +2,12 @@
 description: Visningsprogrammet stöder helskärmsläge.
 solution: Experience Manager
 title: Helskärmsstöd
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: b4196444-10a9-4391-b3ac-d8f12deb173f
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,6 @@ Visningsprogrammet stöder helskärmsläge.
 
 I moderna webbläsare, förutom Internet Explorer 10 och tidigare, och på vissa enheter med pekskärm, använder visningsprogrammet helskärmsläget &quot;native&quot;. Det här läget innebär att hela enhetsskärmen upptas av visningsprograminnehållet.
 
-På iOS-enheter och i äldre Internet Explorer-webbläsare används helskärmsläget&quot;simulerat&quot; istället. I det här läget ändras visningsprogrammets storlek så att hela delen av webbläsarfönstret visas. Dessutom visas webbläsarens användargränssnitt och andra fönster fortfarande på skärmen.
+På iOS-enheter och i äldre Internet Explorer-webbläsare används helskärmsläget&quot;simulerad&quot; i stället. I det här läget ändras visningsprogrammets storlek så att hela delen av webbläsarfönstret visas. Dessutom visas webbläsarens användargränssnitt och andra fönster fortfarande på skärmen.
 
-Slutanvändaren aktiverar och avslutar helskärmsläget genom att trycka på knappen Helskärm i visningsprogrammets användargränssnitt. När helskärmsläget &quot;native&quot; används på skrivbordet kan du även avsluta det genom att trycka på **Esc**.
+Slutanvändaren aktiverar och avslutar helskärmsläget genom att trycka på knappen Helskärm i visningsprogrammets användargränssnitt. När det inbyggda helskärmsläget används på skrivbordet går det också att avsluta det genom att trycka på **Esc**.

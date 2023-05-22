@@ -4,7 +4,8 @@ description: Verktyget för e-postdelning består av en knapp som läggs till p�
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: f2685d59-6b92-49cf-9359-dda602af4297
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '2994'
 ht-degree: 0%

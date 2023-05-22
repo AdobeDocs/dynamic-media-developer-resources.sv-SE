@@ -8,7 +8,7 @@ exl-id: 84deb0d4-ac7e-4ba0-884f-675a0dcc827b
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '56'
-ht-degree: 3%
+ht-degree: 1%
 
 ---
 
@@ -21,8 +21,8 @@ Konfigurationsattribut för Interactive Video Viewer.
 <table id="table_2A4F898BBF88417DB0834B7F78637F5D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
-   <td colname="col2"> <p> Anger avstängt läge för videouppspelning vid första inläsningen. Om <span class="codeph"> 1 </span> är inställt på  är volymen avstängd; I annat fall spelas videon upp med ljud. På vissa enheter kan videon spelas upp automatiskt när videouppspelning stängs av vid inläsning. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p> Anger avstängt läge för videouppspelning vid första inläsningen. Om inställt på <span class="codeph"> 1 </span> volymen är avstängd, I annat fall spelas videon upp med ljud. På vissa enheter kan videon spelas upp automatiskt när videouppspelning stängs av vid inläsning. </p> </td> 
   </tr> 
  </tbody> 
 </table>

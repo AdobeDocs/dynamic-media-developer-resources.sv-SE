@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: b9c9d241-5a3d-4637-a90a-d8cdf29cc968
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1045'
 ht-degree: 0%
 
 ---
@@ -22,17 +22,17 @@ Image Serving har stöd för obegränsad kapsling av Image Serving-begäranden, 
 
 ## Begäranden om kapslad bildservering {#section-6954202119e0466f8ff27c79f4f039c8}
 
-En hel Image Serving-begäran kan användas som en lagerkälla genom att ange den i kommandot `src=` (eller `mask=`) med följande syntax:
+En hel bildserverbegäran kan användas som en lagerkälla genom att ange den i `src=` (eller `mask=`) med följande syntax:
 
 `…&src=is( nestedRequest)&…`
 
-Token `is` är skiftlägeskänslig.
+The `is` är skiftlägeskänslig.
 
 Den kapslade begäran får inte innehålla serverrotsökvägen (vanligtvis ` http:// *[!DNL server]*/is/image/'`).
 
 >[!NOTE]
 >
->De kapslade avgränsningstecknen för begäran ( `'(',')'`) och kommandoavgränsningstecknen ( `'?'`, `'&'`, `'='`) i kapslade begäranden får inte vara HTTP-kodade. I praktiken måste kapslade begäranden kodas på samma sätt som den yttre (kapslade) begäran.
+>Avgränsningstecken för kapslad begäran ( `'(',')'`) och kommandots avgränsningstecken ( `'?'`, `'&'`, `'='`) i kapslade begäranden får inte vara HTTP-kodade. I praktiken måste kapslade begäranden kodas på samma sätt som den yttre (kapslade) begäran.
 
 Förbearbetningsregler tillämpas på kapslade begäranden.
 
@@ -48,7 +48,7 @@ Följande kommandon ignoreras när de anges i kapslade begäranden (antingen i b
 
 Om den resulterande bilden av den kapslade begäran innehåller maskdata (alfavärden) skickas den till inbäddningslagret som lagermask.
 
-Även `attribute::MaxPix`och `attribute::DefaultPix` för bildkatalogen som gäller för den kapslade begäran ignoreras.
+Även ignorerade `attribute::MaxPix`och `attribute::DefaultPix` för den bildkatalog som gäller för den kapslade begäran.
 
 Bildresultatet av en kapslad IS-begäran kan cachelagras genom att inkludera `cache=on`. Som standard är cachelagring av mellanliggande data inaktiverad. Cachelagring bör endast aktiveras när den mellanliggande bilden förväntas återanvändas i en annan begäran inom en rimlig tidsperiod. Standardhantering av cache på serversidan gäller. Data cachelagras i ett icke-förstörande format.
 
@@ -58,13 +58,13 @@ När Dynamic Media Image Rendering är aktiverat på servern kan återgivningsbe
 
 ` …&src=ir( *[!DNL renderRequest]*)&…`
 
-Token `ir` är skiftlägeskänslig.
+The `ir` är skiftlägeskänslig.
 
-*[!DNL renderRequest]* är den vanliga begäran om bildåtergivning, exklusive HTTP-rotsökvägen  ` http:// *[!DNL server]*/ir/render/`.
+*[!DNL renderRequest]* är den vanliga begäran om bildåtergivning, exklusive HTTP-rotsökvägen ` http:// *[!DNL server]*/ir/render/`.
 
 >[!NOTE]
 >
->De kapslade avgränsningstecknen för begäran ( `'(',')'`) och kommandoavgränsningstecknen ( `'?'`, `'&'`, `'='`) i kapslade begäranden får inte vara HTTP-kodade. Inbäddade begäranden måste i själva verket kodas på samma sätt som den yttre (inbäddade) begäran.
+>Avgränsningstecken för kapslad begäran ( `'(',')'`) och kommandots avgränsningstecken ( `'?'`, `'&'`, `'='`) i kapslade begäranden får inte vara HTTP-kodade. Inbäddade begäranden måste i själva verket kodas på samma sätt som den yttre (inbäddade) begäran.
 
 Följande kommandon för bildåtergivning ignoreras när de anges i kapslade begäranden:
 
@@ -75,27 +75,27 @@ Följande kommandon för bildåtergivning ignoreras när de anges i kapslade beg
 * `printRes=`
 * `req=`
 
-Även `attribute::MaxPix` och `attribute::DefaultPix` ignoreras för materialkatalogen som gäller för den kapslade återgivningsbegäran.
+Även ignorerade `attribute::MaxPix` och `attribute::DefaultPix` för den materialkatalog som gäller för den kapslade återgivningsbegäran.
 
 Bildresultatet av en kapslad IR-begäran kan cachelagras genom att inkludera `cache=on`. Som standard är cachelagring av mellanliggande data inaktiverad. Cachelagring bör endast aktiveras när den mellanliggande bilden förväntas återanvändas i en annan begäran inom en rimlig tidsperiod. Standardhantering av cache på serversidan gäller. Data cachelagras i ett icke-förstörande format.
 
 ## Inbäddade FXG-renderingsbegäranden {#section-c817e4b4f7da414ea5a51252ca7e120a}
 
-När FXG-grafikåtergivaren (även [!DNL AGMServer]) är installerad och aktiverad med Image Serving, kan FXG-begäranden användas som lagerkällor genom att ange dem med kommandona `src=` (eller `mask=`). Använd följande syntax:
+När FXG-grafikåtergivaren (även [!DNL AGMServer]) är installerat och aktiverat med Image Serving, kan FXG-begäranden användas som lagerkällor genom att ange dem i `src=` (eller `mask=`). Använd följande syntax:
 
 `…&src=fxg( renderRequest)&…`
 
-Token `fxg` är skiftlägeskänslig.
+The `fxg` är skiftlägeskänslig.
 
 >[!NOTE]
 >
 >FXG-grafikåtergivning är endast tillgängligt i Dynamic Media värdmiljö och kan kräva ytterligare licensiering. Kontakta Dynamic Media tekniska support för mer information.
 
-*[!DNL renderRequest]* är den vanliga FXG-återgivningsbegäran, exklusive HTTP-rotsökvägen  ` http:// *[!DNL server]*/agm/render/`.
+*[!DNL renderRequest]* är den vanliga FXG-återgivningsbegäran, exklusive HTTP-rotsökvägen ` http:// *[!DNL server]*/agm/render/`.
 
 >[!NOTE]
 >
->Avgränsningstecknen ( `'(',')'`) och kommandoavgränsningstecknen ( `'?'`, `'&'`, `'='`) i kapslade begäranden får inte vara HTTP-kodade. Inbäddade begäranden måste i själva verket kodas på samma sätt som den yttre (inbäddade) begäran.
+>Avgränsningstecken ( `'(',')'`) och kommandots avgränsningstecken ( `'?'`, `'&'`, `'='`) i kapslade begäranden får inte vara HTTP-kodade. Inbäddade begäranden måste i själva verket kodas på samma sätt som den yttre (inbäddade) begäran.
 
 Följande FXG-kommandon ignoreras när de anges i kapslade begäranden:
 
@@ -113,17 +113,17 @@ Image Serving stöder åtkomst till källbilder på externa HTTP-servrar.
 >
 >Endast HTTP-protokollet stöds för fjärr-URL:er.
 
-Om du vill ange en extern URL för ett `src=`- eller `mask=`-kommando avgränsar du det externa URL- eller URL-fragmentet med parenteser:
+Ange en extern URL för en `src=` eller en `mask=` avgränsar du det externa URL- eller URL-fragmentet med parenteser:
 
 `…&src=( foreignUrl)&…`
 
-Viktigt! Avgränsartecken ( `'(',')'`) och kommandoavgränsartecken ( `'?'`, `'&'`, `'='`) i kapslade begäranden får inte vara HTTP-kodade. Inbäddade begäranden måste i själva verket kodas på samma sätt som den yttre (inbäddade) begäran.
+Viktigt! Avgränsningstecken ( `'(',')'`) och kommandots avgränsningstecken ( `'?'`, `'&'`, `'='`) i kapslade begäranden får inte vara HTTP-kodade. Inbäddade begäranden måste i själva verket kodas på samma sätt som den yttre (inbäddade) begäran.
 
-Fullständiga absoluta URL:er (om `attribute::AllowDirectUrls` har angetts) och URL:er i förhållande till `attribute::RootUrl` tillåts. Ett fel inträffar om en absolut URL är inbäddad och attributet: `AllowDirectUrls` är 0 eller om en relativ URL har angetts och `attribute::RootUrl` är tom.
+Fullständiga absoluta URL:er (om `attribute::AllowDirectUrls` är inställt) och URL:er i förhållande till `attribute::RootUrl` är tillåtna. Ett fel inträffar om en absolut URL är inbäddad och attributet: `AllowDirectUrls` är 0 eller om en relativ URL har angetts och `attribute::RootUrl` är tom.
 
 Även om externa URL:er inte kan anges direkt i sökvägskomponenten i den begärda URL:en, går det att ställa in en förbearbetningsregel som tillåter konvertering av relativa sökvägar till absoluta URL:er (se exemplet nedan).
 
-Externa bilder cachelagras av servern enligt de cachelagringsrubriker som ingår i HTTP-svaret. Om varken en `ETag` eller en Senast ändrad HTTP-svarshuvud finns, cachelagras inte svaret. Detta kan orsaka dålig prestanda vid upprepad åtkomst för samma externa bild, eftersom Image Serving måste hämta om och validera bilden vid varje åtkomst.
+Externa bilder cachelagras av servern enligt de cachelagringsrubriker som ingår i HTTP-svaret. Om ingen `ETag` Svaret cachelagras inte heller om det finns en senast ändrad HTTP-svarshuvud. Detta kan orsaka dålig prestanda vid upprepad åtkomst för samma externa bild, eftersom Image Serving måste hämta om och validera bilden vid varje åtkomst.
 
 Den här funktionen stöder samma bildfilsformat som stöds av verktyget Bildkonvertering (IC), med undantag för källbilder med 16 bitar per komponent.
 
@@ -159,4 +159,4 @@ Lägg märke till de kapslade klammerparenteserna. Begäran om bildåtergivning 
 
 ## Se även {#section-109a0a9a3b144158958351139c8b8e69}
 
-[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) ,  [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e),  [Request PreProcessing](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-preprocessing.md#reference-c27976436bf04194bfbe9adf40ea98e3), Image Rendering Reference,  [Templates](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e),  [Image Serving Utilities](../../../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f)
+[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) , [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [Begär förbearbetning](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-preprocessing.md#reference-c27976436bf04194bfbe9adf40ea98e3), bildåtergivningsreferens, [Mallar](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e), [Bildserververktyg](../../../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f)

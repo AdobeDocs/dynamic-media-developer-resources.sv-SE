@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 4c5bef4e-f80e-454d-8e93-30bf33d7ec9e
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Dilate/erode image. Använder en morfologisk dilat (radie > 0) eller erodera (ra
  </tr> 
 </table>
 
-`*`Radie `*` i pixlar i förhållande till den sammansatta bilden. Om bilden är färgad bearbetas varje komponent separat.
+`*`radie`*` är i pixlar i förhållande till den sammansatta bilden. Om bilden är färgad bearbetas varje komponent separat.
 
 Används främst för att ändra storlek på lagereffekter. Det är också användbart om du vill få specialeffekter på textlager eller enfärgade lager med masker.
 

@@ -8,7 +8,7 @@ exl-id: 0d275efc-58da-449f-a782-0ddc152ca821
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
 source-wordcount: '63'
-ht-degree: 3%
+ht-degree: 1%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> När du har aktiverat rullningsknapparna hoppar färgrutorna automatiskt över en hel sidlängd. </p> <p>Extra whitespace is shown on the last page if the swatches do not fit. Den sista sidan har samma antal celler som en föregående sida. </p> <p>Rullningssteget ignoreras och musens rullningsinställningar görs bara på hela sidor. </p> </td> 
+   <td colname="col2"> <p> När du har aktiverat rullningsknapparna hoppar färgrutorna automatiskt över en hel sidlängd. </p> <p>Extra tomt utrymme visas på den sista sidan om färgrutorna inte får plats. Den sista sidan har samma antal celler som en föregående sida. </p> <p>Rullningssteget ignoreras och musens rullningsinställningar görs bara på hela sidor. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Properties {#section-e6310c8c4e8547689a5b48ceddb3671d}
+## Egenskaper {#section-e6310c8c4e8547689a5b48ceddb3671d}
 
 Valfritt.
 

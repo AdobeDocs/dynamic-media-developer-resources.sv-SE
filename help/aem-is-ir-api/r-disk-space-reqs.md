@@ -1,5 +1,5 @@
 ---
-description: 'Utöver det utrymme som krävs för att installera programmet har Image Serving följande krav på diskutrymme '
+description: Utöver det utrymme som krävs för att installera programmet har Image Serving följande krav på diskutrymme
 solution: Experience Manager
 title: Krav och rekommendationer för diskutrymme
 feature: Dynamic Media Classic,SDK/API

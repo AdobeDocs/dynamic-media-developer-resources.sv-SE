@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
 source-git-commit: 9d86f2acad638cbbcb80b48ead73443c76c895a9
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '877'
 ht-degree: 0%
 
 ---
@@ -35,15 +35,15 @@ Svarsbildformat.
 | `jpegxr` | Förstörande och förlustfri JPEG XR. |
 | `jpg` | Förstörande JPG. |
 | `m3u8` | Manifestformat för Apple Streaming Server. |
-| `pdf` | Bild inbäddad i PDF-format. |
+| `pdf` | Bilden är inbäddad i PDF. |
 | `pjpeg` | Progressiv JPEG. |
 | `png-alpha` | 24-bitars förlustfri PNG med alfakanal. |
 | `png` | 24-bitars förlustfri PNG. |
 | `png8-alpha` | 8-bitars förlustfri PNG med alfakanal. |
 | `png8` | 8-bitars förlustfri PNG. |
-| `swf-alpha` | Förstörande JPEG och en dekomprimerad mask som är inbäddad i en Adobe AS2-swf-fil. |
+| `swf-alpha` | Förstörande JPEG och dekomprimerad mask inbäddad i en Adobe AS2-swf-fil. |
 | `swf` | Förstörande JPEG inbäddad i en Adobe AS2-swf-fil. |
-| `swf3-alpha` | Förstörande JPEG och en dekomprimerad mask som är inbäddad i en Adobe AS3-swf-fil. **Obs! Formaten** swf och swf-alpha används bäst för program i ActionScript 2 (Flash Player 8 och tidigare). Formaten swf3 och swf3-alpha rekommenderas för ActionScript3-program (Flash Player 9 och senare). |
+| `swf3-alpha` | Förstörande JPEG och dekomprimerad mask inbäddad i en Adobe AS3-swf-fil. **Obs!** swf- och swf-alpha-formaten passar bäst för program i ActionScript 2 (Flash Player 8 och tidigare). Formaten swf3 och swf3-alpha rekommenderas för ActionScript3-program (Flash Player 9 och senare). |
 | `swf3` | Förstörande JPEG inbäddad i en Adobe AS3-swf-fil. |
 | `tif-alpha` | TIFF med alfakanal. |
 | `tif` | TIFF. |
@@ -55,26 +55,26 @@ Svarsbildformat.
 |---|---|
 | `cmyk` | Returnera CMYK-bilddata. |
 | `gray` | Returnera gråskalebilddata. |
-| `rgb` | Returnera RGB-bilddata. |
+| `rgb` | Returnera bilddata för RGB. |
 
 | *`compression`* - ingen | lzw | zip | jpeg | förstörande | förlustfri |
 | *`compression`* | Beskrivning |
 |---|---|
 | `jpeg` | JPEG-komprimering (förstörande). |
-| `lossy` | WebP-, JPEG 2000- och JPEG XR-komprimering (förstörande). |
-| `lossless` | WebP-, JPEG 2000- och JPEG XR-komprimering (icke-förstörande). |
+| `lossy` | WebP, JPEG 2000 och JPEG XR-komprimering (förstörande). |
+| `lossless` | WebP, JPEG 2000 och JPEG XR-komprimering (icke-förstörande). |
 | `lzw` | LZW-komprimering (icke-förstörande) (Lempel-Ziv-Welch). |
 | `none` | Okomprimerad. |
 | `zip` | &quot;Deflate&quot;-komprimering (icke-förstörande). |
 
 * *`format`* anger bildkodningsformatet för bilddata som skickas till klienten och motsvarande MIME-svarstyp för HTTP-svarshuvudet.
-* *`pixelType`* kan användas för att påverka konvertering av färgrymd för utdata när  `icc=` inte har angetts.
+* *`pixelType`* kan användas för att påverka konvertering av färgmodell när `icc=` har inte angetts.
 
-   Standardfärgprofilen som motsvarar *`pixelType`* används. Om färghantering är inaktiverat används tidigare konvertering. *`pixelType`* ignoreras när  `icc=` anges, vilket anger utdatapixeltypen.
+   Standardfärgprofilen som motsvarar *`pixelType`* används. Om färghantering är inaktiverat används tidigare konvertering. *`pixelType`* ignoreras när `icc=` anges, vilket anger utdatapixeltypen.
 
-* *`compression`* är endast tillåtet om  `tif`,  `tif-alpha`,  `pdf`,  `webp`,  `webp-alpha`,  `jpeg2000`,  `jpeg2000-alpha`,  `jpegxr` eller  `jpegxr-alpha` anges som  *`format`*. I tabellen nedan finns information om vilka komprimeringsalternativ som stöds för dessa bildformat.
+* *`compression`* tillåts endast om `tif`, `tif-alpha`, `pdf`, `webp`, `webp-alpha`, `jpeg2000`, `jpeg2000-alpha`, `jpegxr`, eller `jpegxr-alpha` anges som *`format`*. I tabellen nedan finns information om vilka komprimeringsalternativ som stöds för dessa bildformat.
 
-Du kan använda `qlt=` för att ange JPEG-kodningsalternativ för dessa format: JPEG, TIFF med JPEG-komprimering, PDF med JPEG-komprimering och SWF. WebP, JPEG 2000 och JPEG XR använder också `qlt=`, men värdena ger olika kvaliteter för de olika formaten. Använd `quantize=` om `fmt=gif` eller `fmt=gif-alpha`. Mer information finns i kommandobeskrivningarna. De andra formaten har inga inställningsbara alternativ.
+Du kan använda `qlt=` om du vill ange kodningsalternativ för dessa format för JPEG: JPEG, TIFF med JPEG-komprimering, PDF med JPEG-komprimering och SWF. WebP, JPEG 2000 och JPEG XR använder också `qlt=` men värdena ger olika kvaliteter för de olika formaten. Använd `quantize=` if `fmt=gif` eller `fmt=gif-alpha`. Mer information finns i kommandobeskrivningarna. De andra formaten har inga inställningsbara alternativ.
 
 8 bitar per pixelkomponent returneras för alla *`formats`* och *`pixelTypes`* (8 bitar per pixel för GIF).
 
@@ -94,84 +94,84 @@ I följande tabell visas giltiga kombinationer av *`format`*och *`pixelType`*, m
   <tr valign="top"> 
    <td colname="col1"> <p> jpeg, jpg, pjpeg </p> </td> 
    <td colname="col2"> <p>rgb, gray, cmyk </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;image/jpeg&gt; </span> </p> </td> 
    <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <p> <span class="codeph"> pathEmbed=  </span>,  <span class="codeph"> pscan=  </span>,  <span class="codeph"> qlt=  </span>,  <span class="codeph"> xmpEmbed=  </span> </p> <p>Parametern <span class="codeph"> pscan= </span> gäller bara pjpeg-formatet. </p> </td> 
+   <td colname="col5"> <p> <span class="codeph"> pathEmbed= </span>, <span class="codeph"> pscan= </span>, <span class="codeph"> qlt= </span>, <span class="codeph"> xmpEmbed= </span> </p> <p>The <span class="codeph"> pscan= </span> parametern gäller bara för pjpeg-formatet. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> png, png-alpha </p> </td> 
    <td colname="col2"> <p>rgb, grå </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;image/png&gt; </span> </p> </td> 
    <td colname="col4"> <p>Ja </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>png8, png8-alpha </p> </td> 
    <td colname="col2"> <p>rgb </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;image/png&gt; </span> </p> </td> 
    <td colname="col4"> <p>Ja </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> tif, tif-alpha </p> </td> 
    <td colname="col2"> <p>rgb, gray, cmyk </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;image/tiff&gt; </span> </p> </td> 
    <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <span class="codeph"> <span class="varname"> komprimering  </span> </span> <p> ( <span class="codeph"> none|lzw|zip|jpeg </span>) </p> <p>endast tiff; tiff-alpha stöder inte jpeg-komprimering. </p> <p> <span class="codeph"> qlt=  </span> </p> <p> <span class="codeph"> qlt=  </span> ignoreras såvida inte  <span class="varname"> komprimeringen  </span> är inställd på  <span class="codeph"> jpeg  </span>. </p> <p>, pathEmbed=, xmpEmbed= </p> </td> 
+   <td colname="col5"> <span class="codeph"> <span class="varname"> komprimering </span> </span> <p> ( <span class="codeph"> none|lzw|zip|jpeg </span>) </p> <p>endast tiff; tiff-alpha stöder inte jpeg-komprimering. </p> <p> <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> ignoreras såvida inte <span class="varname"> komprimering </span> är inställd på <span class="codeph"> jpeg </span>. </p> <p>, pathEmbed=, xmpEmbed= </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> swf,swf3, swf-alpha, swf-alpha3 </p> </td> 
    <td colname="col2"> <p>rgb, grå </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;application&gt; </span> </p> </td> 
-   <td colname="col4"> <p>Nej </p> <p> <p>Obs!  Adobe Flash Player ignorerar inbäddade ICC-profiler. </p> </p> </td> 
-   <td colname="col5"> <p> <span class="codeph"> qlt=  </span>,  <span class="codeph"> attribut::TrustedDomains  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;application/x-shockwave-flash&gt; </span> </p> </td> 
+   <td colname="col4"> <p>Nej </p> <p> <p>Obs! Adobe Flash Player ignorerar inbäddade ICC-profiler. </p> </p> </td> 
+   <td colname="col5"> <p> <span class="codeph"> qlt= </span>, <span class="codeph"> attribute::TrustedDomain </span> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> pdf </p> </td> 
    <td colname="col2"> <p>rgb, gray, cmyk </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;application&gt; </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;application/pdf&gt; </span> </p> </td> 
    <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <span class="codeph"> <span class="varname"> komprimering  </span> </span> <p> ( <span class="codeph"> none|zip|jpeg </span>), <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt=  </span> ignoreras såvida inte  <span class="codeph"> <span class="varname"> komprimeringen  </span> </span> är inställd på  <span class="codeph"> jpeg  </span>. </p> </td> 
+   <td colname="col5"> <span class="codeph"> <span class="varname"> komprimering </span> </span> <p> ( <span class="codeph"> none|zip|jpeg </span>), <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> ignoreras såvida inte <span class="codeph"> <span class="varname"> komprimering </span> </span> är inställd på <span class="codeph"> jpeg </span>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> eps </p> </td> 
    <td colname="col2"> <p>rgb, gray, cmyk </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;image/eps&gt; </span> </p> </td> 
    <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <p> <span class="codeph"> pathEmbed=  </span> </p> </td> 
+   <td colname="col5"> <p> <span class="codeph"> pathEmbed= </span> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> gif, gif-alpha </p> </td> 
    <td colname="col2"> <p>rgb, grå </p> <p>Data konverteras till palett efter konvertering till grå eller rgb. </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;image/gif&gt; </span> </p> </td> 
    <td colname="col4"> <p>Nej </p> </td> 
-   <td colname="col5"> <p> <span class="codeph"> kvantifiera=  </span> </p> </td> 
+   <td colname="col5"> <p> <span class="codeph"> kvantifiera= </span> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p>webp, webp-alpha </p> </td> 
    <td> <p>rgb </p> </td> 
-   <td> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
+   <td> <p> <span class="codeph"> &lt;image/webp&gt; </span> </p> </td> 
    <td> <p>Nej </p> </td> 
-   <td> <p> <span class="codeph"> <span class="varname"> komprimering  </span> </span> ( <span class="codeph"> förstörande  </span>,  <span class="codeph"> icke-förstörande  </span>) </p> <p> <span class="codeph"> qlt=  </span> ignoreras för  <span class="codeph"> förlustfri  </span>. </p> <p>Eftersom det inte finns något koncept för krominanshämtning med WebP-formatet ignoreras det andra värdet (<span class="codeph"> qlt </span>) om du använder ett andra värde med <span class="codeph"> qlt=80,1 </span>).<span class="codeph"></span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> komprimering </span> </span> ( <span class="codeph"> förstörande </span>, <span class="codeph"> förlustfri </span>) </p> <p> <span class="codeph"> qlt= </span> ignoreras för <span class="codeph"> förlustfri </span>. </p> <p>Eftersom det inte finns något koncept för nedsampling av krominanser i WebP-formatet, om du använder ett andra värde med <span class="codeph"> qlt </span> (t.ex. <span class="codeph"> qlt=80,1 </span>) det andra värdet ( <span class="codeph"> 1 </span>) ignoreras. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p>jpeg2000, jpeg2000-alpha </p> </td> 
    <td> <p>rgb, grå </p> </td> 
-   <td> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
+   <td> <p> <span class="codeph"> &lt;image/jp2&gt; </span> </p> </td> 
    <td> <p>Nej </p> </td> 
    <td> <p>Samma som ovan. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p>jpegxr, jpegxr-alpha </p> </td> 
    <td> <p>rgb </p> </td> 
-   <td> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
+   <td> <p> <span class="codeph"> &lt;image/vnd.ms-photo&gt; </span> </p> </td> 
    <td> <p>Nej </p> </td> 
    <td> <p>Samma som ovan. </p> </td> 
   </tr>
   <tr valign="top"> 
    <td> <p> avif, avif-alpha </p> </td> 
    <td> <p>rgb</p> </td> 
-   <td> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
+   <td> <p> <span class="codeph"> &lt;image/avif&gt; </span> </p> </td> 
    <td> <p>Nej </p> </td> 
    <td> <p>Samma som ovan. </p> </td> 
   </tr> 
@@ -180,13 +180,13 @@ I följande tabell visas giltiga kombinationer av *`format`*och *`pixelType`*, m
 
 ## Egenskaper {#section-5f96b0ce7c5a4df1bf52e24ea78c3dae}
 
-Begär attribut. Tillämpas oavsett aktuell lagerinställning om `req=img` (standard) eller `req=mask`; i annat fall ignoreras.
+Begär attribut. Används oavsett aktuell lagerinställning om `req=img` (standard) eller `req=mask`; i annat fall ignoreras.
 
-*`type`* ignoreras om  `iccProfile=` anges.
+*`type`* ignoreras om `iccProfile=` har angetts.
 
 ## Standard {#section-f885a785b32c44fea347db15fdb2ab1f}
 
-` fmt=jpeg, *`defaultType`*,none`, där  *`defaultType`* hanteras enligt följande: Om  `icc=` anges  *`defaultType`* motsvarar pixeltypen för den angivna ICC-profilen. Om `icc=` inte anges är *`defaultType`* `gray` om `req=mask`, annars är det `rgb`.
+` fmt=jpeg, *`defaultType`*,none`, där *`defaultType`* hanteras enligt följande: If `icc=` anges, *`defaultType`* motsvarar pixeltypen för den angivna ICC-profilen. If `icc=` har inte angetts, *`defaultType`* är `gray` if `req=mask`, annars är det `rgb`.
 
 ## Exempel {#section-b93222e652df404a84c69025247f07df}
 
@@ -218,7 +218,7 @@ Begär attribut. Tillämpas oavsett aktuell lagerinställning om `req=img` (stan
 
 ` http:// *`server`*/myRootId/myImageId?fmt=tif,,jpeg&qlt=95&wid=300`
 
-**Konvertera bilden till en GIF-bild med två toner och genomskinlighet och tvinga färger till svartvitt:**
+**Konvertera en bild till ett GIF med två toner med genomskinlighet för nyckelfärger och tvinga färgerna att bli svartvita:**
 
 ` http:// *`server`*/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`
 
@@ -248,4 +248,4 @@ Begär attribut. Tillämpas oavsett aktuell lagerinställning om `req=img` (stan
 
 ## Se även {#section-fce8d69c74234bf48cf814d799409541}
 
-[qlt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-qlt.md#reference-f69ed0758c784b0385d979820546d352) ,  [Quantize=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-quantize.md#reference-b8069670fa474e4799ac29f0d693ca38),  [req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76),  [icc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517),  [iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e),  [ ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pathembed.md#reference-9ccf0771d6634cf68c1c9c33cd428301)  [ ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pscan.md#reference-b8101ed8e6c04dd28173f9597e52b135)pathEmbed=¥,¥pscan¥¥.
+[qlt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-qlt.md#reference-f69ed0758c784b0385d979820546d352) , [kvantifiera=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-quantize.md#reference-b8069670fa474e4799ac29f0d693ca38), [req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76), [icc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517), [iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e), [pathEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pathembed.md#reference-9ccf0771d6634cf68c1c9c33cd428301), [pscan](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pscan.md#reference-b8101ed8e6c04dd28173f9597e52b135).

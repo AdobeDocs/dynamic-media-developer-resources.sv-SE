@@ -4,7 +4,8 @@ description: JavaScript API-referens för visningsprogrammet för smart beskärn
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 2f9e0381-650d-4f13-b2ae-8d810c8488f4
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 0%

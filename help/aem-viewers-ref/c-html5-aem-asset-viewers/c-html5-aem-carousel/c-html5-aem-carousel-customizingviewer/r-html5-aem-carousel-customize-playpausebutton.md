@@ -1,6 +1,6 @@
 ---
 title: PlayPause, knapp
-description: Med knappen Spela upp/Paus kan användaren pausa eller återuppta automatisk uppspelning av karusellen.
+description: Med knappen Spela upp/Paus kan användaren pausa eller återuppta automatisk uppspelning.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # PlayPause, knapp{#playpause-button}
 
-Med knappen Spela upp/Paus kan användaren pausa eller återuppta automatisk uppspelning av karusellen.
+Med knappen Spela upp/Paus kan användaren pausa eller återuppta automatisk uppspelning.
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
-Knappen visas bara om parametern `CarouselViewer.autoplay` är inställd på `1`; annars är det dolt. Med CSS kan du ändra storlek på, skalförändra och placera den här knappen i förhållande till kontrollfältet som innehåller den.
+Knappen visas bara om `CarouselViewer.autoplay` parametern är inställd på `1`; annars är det dolt. Med CSS kan du ändra storlek på, skalförändra och placera den här knappen i förhållande till kontrollfältet som innehåller den.
 
 **CSS-egenskaper för huvudvisningsområdet**
 
@@ -35,19 +35,19 @@ Knappens utseende styrs med följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Placera högst upp i visningsprogrammets ram. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> höger  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> höger </span> </p> </td> 
    <td colname="col2"> <p>Placera till höger om visningsprogrammets ram. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vänster  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> vänster </span> </p> </td> 
    <td colname="col2"> <p>Position från vänster om visningsprogrammet. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> nederkant  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> nederkant </span> </p> </td> 
    <td colname="col2"> <p>Placera längst ned i visningsprogrammets ram. </p> </td> 
   </tr> 
   <tr> 
@@ -55,19 +55,19 @@ Knappens utseende styrs med följande CSS-klassväljare:
    <td colname="col2"> <p>Knappens bredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Knappens höjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Bilden som visas för ett visst knappläge. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Placera inuti en teckningssprite, om CSS-sprites används. </p> <p>Se även <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Placera inuti en teckningssprite, om CSS-sprites används. </p> <p>Se även <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-fragment </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> markör  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> markör </span> </p> </td> 
    <td colname="col2"> <p>Markörtyp. </p> </td> 
   </tr> 
  </tbody> 
@@ -75,9 +75,9 @@ Knappens utseende styrs med följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen stöder attributväljaren `state`, som kan användas för att tillämpa olika skal på olika knapplägen.
+>Den här knappen har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen.
 
-Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av element i användargränssnittet](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md).
+Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) för mer information.
 
 Anta till exempel att du vill ställa in en pausknapp för uppspelning som är 28 x 28 pixlar. Du vill att knappen ska placeras 17 pixlar från nederkanten och 12 pixlar från den vänstra kanten av visningsprogrammet. Och du vill att den ska visa olika bilder för vart och ett av de fyra olika knapplägena när den är markerad eller inte är markerad.
 

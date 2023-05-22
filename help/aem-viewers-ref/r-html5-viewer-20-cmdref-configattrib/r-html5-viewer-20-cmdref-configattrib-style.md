@@ -8,7 +8,7 @@ exl-id: a0547ada-3d8f-4ec2-a7e4-424fd1a78a28
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
 source-wordcount: '97'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Du kan använda följande kommando både från frågesträngen för URL och frå
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> cssPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> Relativ eller absolut CSS-plats. </p> <p>Anger platsen för den anpassade CSS-filen. Om <span class="codeph"><span class="varname"> cssPath</span></span> är relativ tolkas den mot visningsprogrammets HTML-sidplats och värdet för parametern <span class="codeph"> contentUrl=</span>. </p> </td> 
+   <td colname="col2"> <p> Relativ eller absolut CSS-plats. </p> <p>Anger platsen för den anpassade CSS-filen. Om <span class="codeph"><span class="varname"> cssPath</span></span> är relativ, den tolkas mot visningsprogrammets HTML-sidplats och värdet för <span class="codeph"> contentUrl=</span> parameter. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -2,12 +2,12 @@
 description: Anger listan med resurser som är associerade med en bilduppsättning.
 solution: Experience Manager
 title: setImageSetMembers
-feature: Dynamic Media Classic,SDK/API,Bilduppsättningar
+feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: c30df5fe-e355-45d4-8c06-e396caca0d58
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Anger listan med resurser som är associerade med en bilduppsättning.
 
-Den här åtgärden ignorerar parametern `pageReset` för `ImageSets` och `SpinSets` och tvingar värdet till true.
+Den här åtgärden ignorerar `pageReset` parameter för `ImageSets` och `SpinSets` och tvingar värdet till true.
 
 ## Auktoriserade användartyper {#section-8968d6a39a344cfc8521020d92ae8916}
 

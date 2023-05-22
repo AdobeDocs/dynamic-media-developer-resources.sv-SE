@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 3f794f46-e7f0-4899-90fa-898a698dd629
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,11 @@ Dessa kommandon gäller oavsett var i begäran de visas.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-qlt.md#reference-f69ed0758c784b0385d979820546d352" type="reference" format="dita" scope="local"> qlt</a> </p></td> 
-  <td class="stentry"> <p>Anger JPEG-kodningsattribut. </p></td> 
+  <td class="stentry"> <p>Anger kodningsattributen för JPEG. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-quantize.md#reference-b8069670fa474e4799ac29f0d693ca38" type="reference" format="dita" scope="local"> kvantifiera</a> </p> </td> 
-  <td class="stentry"> <p>Anger färgkvantifieringsattribut för GIF-utdata. </p></td> 
+  <td class="stentry"> <p>Anger färgkvantifieringsattribut för utdata från GIF. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76" type="reference" format="dita" scope="local"> req</a> </p></td> 

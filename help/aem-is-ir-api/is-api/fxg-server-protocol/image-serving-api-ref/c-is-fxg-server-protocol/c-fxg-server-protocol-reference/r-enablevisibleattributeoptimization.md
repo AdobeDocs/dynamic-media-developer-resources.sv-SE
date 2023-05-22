@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: a643694e-f6a2-424e-8f6e-3dbb4cdc41b3
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '94'
 ht-degree: 1%
 
 ---
@@ -23,6 +23,6 @@ Aktiverar optimering av FXG.
  </tr> 
 </table>
 
-Tar bort de element vars synlighet anges som false i FXG när denna FXG skickas, vilket i sin tur minskar bearbetningstiden för FXG. Även om det bara tar bort de element som visas med synlighet som false som inte påverkar något annat element i FXG. Om det till exempel finns text på `Path` och synligheten för `Path` är inställd på false tas den inte bort från FXG även om den här modifieraren är aktiverad eftersom texten måste ritas på den här sökvägen.
+Tar bort de element vars synlighet anges som false i FXG när denna FXG skickas, vilket i sin tur minskar bearbetningstiden för FXG. Även om det bara tar bort de element som visas med synlighet som false som inte påverkar något annat element i FXG. Om det till exempel finns text på `Path` och synlighet för `Path` anges som false, tas den inte bort från FXG även om den här modifieraren är aktiverad eftersom text måste ritas på den här sökvägen.
 
 Standardvärdet är 1.

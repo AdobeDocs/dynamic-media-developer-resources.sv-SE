@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 38e0e1dc-46c0-48a4-b676-f7e6d262392f
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Justera bildens opacitet. Gör att förgrundsopaciteten för en bild, text, enfärgat lager eller effektlager kan minskas.
 
-`opac= *``*[, *`opacitetOpacitet`*]`
+`opac= *`opacitet`*[, *`fillOpacity`*]`
 
 <table id="simpletable_DA4B5D86C496480886FADB284AD6047F"> 
  <tr class="strow"> 
@@ -29,13 +29,13 @@ Justera bildens opacitet. Gör att förgrundsopaciteten för en bild, text, enf�
  </tr> 
 </table>
 
-Förgrundsopaciteten för ett bildlager bestäms av lagermasken eller bildens alfakanal, eller om ingen av dem finns, är den 100 %. Förgrundsopaciteten för ett textlager är 100 % och för ett enfärgat lager är `color=`.
+Förgrundsopaciteten för ett bildlager bestäms av lagermasken eller bildens alfakanal, eller om ingen av dem finns, är den 100 %. Förgrundsopaciteten för ett textlager är 100 % och för ett enfärgat lager anges med `color=`.
 
-`opac=` ändrar aldrig opaciteten för områden som är fyllda med  `color=` eller  `bgColor=`med undantag för förgrundsområden för enfärgade lager och effektlager (angivna med  `color=`).
+`opac=` ändrar aldrig opaciteten för ytor som fylls med `color=` eller `bgColor=`, förutom förgrundsområdena för enfärgade lager och effektlager (anges med `color=`).
 
-När *`opacity`* anges i en bild, text eller enfärgat färglager används hela lagret, inklusive alla associerade effektlager, medan *`fillOpacity`* endast gäller innehållet i det primära lagret. När *`opacity`* anges i ett effektlager används det på effektlagret, medan *`fillOpacity`* ignoreras.
+När det anges i en bild, text eller enfärgat lager, *`opacity`* använder hela lagret, inklusive alla associerade effektlager, medan *`fillOpacity`* används bara på det primära lagrets innehåll. När det anges i ett effektlager, *`opacity`* används på effektlagret, medan *`fillOpacity`* ignoreras.
 
-Den effektiva opaciteten för innehållet i huvudlagret är ( *`opacity`* * *`fillOpacity`* / 100). Effektiv opacitet för effektlager är (huvudvärde *`opacity`* * effekt *`opacity`* / 100).
+Den effektiva opaciteten för innehållet i huvudlagret är ( *`opacity`* &#42; *`fillOpacity`* / 100). Effektiv opacitet för effektlager är (huvudvärde) *`opacity`* &#42; effekt *`opacity`* / 100).
 
 ## Egenskaper {#section-ac3f136ff1584a2eab87500b7164f7fa}
 
@@ -49,8 +49,8 @@ Lagerattribut. Gäller det aktuella lagret eller den sammansatta bilden om `laye
 
 … `&layer=1&text=variable%20opacity&opac=90,70&effect=-1&opac=50&`…
 
-Textopaciteten i det här exemplet är 90*70/100=63 % och opaciteten för effektlagret är 90*50/100=45 %.
+Textopaciteten i det här exemplet är 90&#42;70/100=63 % och effektlagrets opacitet är 90&#42;50/100=45 %.
 
 ## Se även {#section-dbdad35ccd544590b4b11d31a9ab062e}
 
-[color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md) ,  [bgColor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab)
+[color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md) , [bgColor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab)

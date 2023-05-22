@@ -4,7 +4,8 @@ description: HTTP-videoleverans
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: b809a11f-3c2d-4abd-b317-fabb36245b1b
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 0%
@@ -29,7 +30,7 @@ Beroende på hur du publicerar Dynamic Media-video i Adobe Experience Manager ka
 
    Se även [Länka URL:er till ditt webbprogram](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic).
 
-* Om du publicerar en Dynamic Media-video med inbäddad kod lägger du till `SmartCropVideoPlayer.ssl` till listan med andra konfigurationsparametrar för visningsprogrammet i kodfragmentet för inbäddning. Om du till exempel vill tvinga fram HTTPS-video lägger du till `&SmartCropVideoPlayer.ssl=on` som i följande exempel:
+* Om du publicerar en Dynamic Media-video med inbäddad kod lägger du till `SmartCropVideoPlayer.ssl` till listan över andra konfigurationsparametrar för visningsprogrammet i kodfragmentet för inbäddning. Om du till exempel vill tvinga fram HTTPS-video lägger du till `&SmartCropVideoPlayer.ssl=on` som i följande exempel:
 
    ```
    <style type="text/css"> 

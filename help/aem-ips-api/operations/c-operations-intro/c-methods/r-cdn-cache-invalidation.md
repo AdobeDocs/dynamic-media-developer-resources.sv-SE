@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 65b758f2-b49a-4616-b657-a64808c9202a
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Reglerna för hur ofta den här funktionen används regleras av Dynamic Medias C
 
 **Bekräftelsemejl**
 
-Bekräftelsemeddelanden från Dynamic Media CDN-partnern kan skickas till den som skapat listan eller upp till fem andra e-postadresser. API:t skickar en bekräftelse när hela CDN-nätverket har underrättats om att URL:erna som refereras i e-postmeddelandet har rensats. Ett enda anrop till `cdnCacheInvalidation` kan skicka flera e-postmeddelanden om antalet URL:er som anges överstiger det antal som Dynamic Media kan leverera till CDN-partnern i ett enda meddelande. Detta skulle för närvarande vara om begäran överskrider 100 URL:er, men kan ändras på begäran av CDN-partnern.
+Bekräftelsemeddelanden från Dynamic Media CDN-partnern kan skickas till den som skapat listan eller upp till fem andra e-postadresser. API:t skickar en bekräftelse när hela CDN-nätverket har underrättats om att URL:erna som refereras i e-postmeddelandet har rensats. Ett samtal till `cdnCacheInvalidation` kan skicka flera e-postmeddelanden om antalet URL:er som anges överstiger det antal som Dynamic Media kan leverera till CDN-partnern i ett enda meddelande. Detta skulle för närvarande vara om begäran överskrider 100 URL:er, men kan ändras på begäran av CDN-partnern.
 
 **Stöds sedan**
 
@@ -39,7 +39,7 @@ Bekräftelsemeddelanden från Dynamic Media CDN-partnern kan skickas till den so
 
 ## Parametrar {#section-bd1ed2b7419945d19a2ebd5668499f72}
 
-**Input** (  `cdnCacheInvalidationParam`)
+**Indata** ( `cdnCacheInvalidationParam`)
 
 <table id="table_EDD1875264C846BE951869D528A90D73"> 
  <thead> 
@@ -66,7 +66,7 @@ Bekräftelsemeddelanden från Dynamic Media CDN-partnern kan skickas till den so
  </tbody> 
 </table>
 
-**Output**(  `cdnCacheInvalidationReturn`)
+**Utdata**( `cdnCacheInvalidationReturn`)
 
 <table id="table_1D947C1BF8864820AD7BA0CDC0F076F9"> 
  <thead> 
@@ -82,7 +82,7 @@ Bekräftelsemeddelanden från Dynamic Media CDN-partnern kan skickas till den so
    <td colname="col1"> <p><span class="codeph"><span class="varname"> invalidationHandle</span></span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:sträng</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>En referens som refererar till rensningsbegäran. </p> <p>API:t <span class="codeph"> cdnCacheInvalidation</span> gör nu cacheminnet nästan omedelbart ogiltigt (~5 sekunder). Därför behövs vanligtvis inte längre avsökning för ogiltigförklaring. </p> 
+   <td colname="col4"> <p>En referens som refererar till rensningsbegäran. </p> <p>The <span class="codeph"> cdnCacheInvalidation</span> API gör nu cacheminnet nästan omedelbart ogiltigt (~5 sekunder). Därför behövs vanligtvis inte längre avsökning för ogiltigförklaring. </p> 
     <!--<p>The next three paragraphs were added as per CQDOC-13840 With the migration from Akamai v2 API's to fast purge, purging time is now approximately 5 seconds. You are no longer required to poll on the purge URL to find out the status of the purge request.</p>--> 
     <!--<p>The cache invalidation handle used to contained the company ID, the user account type used (small or large), and the purge url. With the release of 2019R1, <codeph>invalidationHandle</codeph> now contains just the company ID and the purge ID. </p>--> 
     <!--<p>Prior to 2019R1, two different Akamai users were being used for each geography (for example, <codeph>cdninvalidatesmallemea</codeph> and <codeph>cdninvalidatelargeemea</codeph>) to invalidate requests, depending on the number of URLs in each request. This functionality was done so that a small request was not blocked because of a large request. Now, with fast purge in 2019R1, the purge is nearly instantaneous, two users are no longer needed, and only one account is used. </p>--> </td> 

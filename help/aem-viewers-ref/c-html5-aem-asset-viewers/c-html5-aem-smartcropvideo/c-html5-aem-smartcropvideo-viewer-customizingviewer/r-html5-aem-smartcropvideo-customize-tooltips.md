@@ -4,7 +4,8 @@ description: På stationära datorer har vissa element i användargränssnittet,
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 78cc0f11-bec2-495e-b3c9-a91b6bd1b1f0
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%

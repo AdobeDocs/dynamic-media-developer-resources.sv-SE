@@ -8,7 +8,7 @@ exl-id: c9da3d5b-492d-4e1f-8fdc-3255b2b40fc6
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
 source-wordcount: '100'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Parametern är gemensam för alla visningsprogram.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p>Rotsökväg för relativ eller absolut bildserver. </p> <p> Anger en relativ eller absolut sökväg till Image Serving, från vilken visningsprogrammet hämtar bilder. Om sökvägen inte har något inledande <span class="filepath"> /</span> är det relativt till platsen för visningsprogrammets HTML-sida. Om sökvägen har en inledande <span class="filepath"> /</span> anger den en absolut sökväg på samma server. </p> <p> Använd bara en absolut sökväg om e-postdelningsmodulen är aktiverad i visningsprogrammet. </p> </td> 
+   <td colname="col2"> <p>Rotsökväg för relativ eller absolut bildserver. </p> <p> Anger en relativ eller absolut sökväg till Image Serving, från vilken visningsprogrammet hämtar bilder. Om banan inte har något radavstånd <span class="filepath"> /</span>är den relativ till visningsprogrammets HTML-sida. Om banan har ett radavstånd <span class="filepath"> /</span>anger den en absolut sökväg på samma server. </p> <p> Använd bara en absolut sökväg om e-postdelningsmodulen är aktiverad i visningsprogrammet. </p> </td> 
   </tr> 
  </tbody> 
 </table>

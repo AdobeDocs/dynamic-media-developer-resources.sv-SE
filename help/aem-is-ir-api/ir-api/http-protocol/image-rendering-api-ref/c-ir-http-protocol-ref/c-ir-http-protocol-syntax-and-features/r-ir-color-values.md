@@ -46,7 +46,7 @@ Några exempel på giltiga färgspecifikationer och deras motsvarande RGB-färgv
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>128 </p></td> 
-  <td class="stentry"> <p>(128 128 128) </p></td> 
+  <td class="stentry"> <p>(128,128,128) </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>0x010203 </p></td> 

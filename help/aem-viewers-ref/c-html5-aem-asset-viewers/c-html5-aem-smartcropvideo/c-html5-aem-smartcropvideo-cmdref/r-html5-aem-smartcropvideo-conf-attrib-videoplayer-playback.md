@@ -4,7 +4,8 @@ description: Konfigurationsattribut för visningsprogrammet för smart beskärni
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: dfd80e5727a128f272855f1f28e1bc89cb2436bf
+exl-id: 6df94fe7-30ea-42f1-a39e-50219259a098
+source-git-commit: 8c49595fe0efb684b59601fb268bd8bf97fae555
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 0%

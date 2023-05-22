@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 10830980-d504-4610-96c9-730937453256
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
@@ -54,10 +54,10 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> updateChildren</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolesk</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> <p>När <span class="codeph"> är true</span>: 
+   <td colname="col4"> <p>När <span class="codeph"> true</span>: 
      <ul id="ul_1305D060E0F34A61AA3C827E43F296E6"> 
       <li id="li_AB8705F3CEAD4B8A8F1C28291A6F7EC8">Borttagning av behörigheter sprids genom alla mappbehörighetsåtgärder. </li> 
-     </ul> </p> <p>När <span class="codeph"> är false</span>: 
+     </ul> </p> <p>När <span class="codeph"> false</span>: 
      <ul id="ul_19AEE80F1FC84B64AD623E050C12A0CD"> 
       <li id="li_B8B78851004C43DB8CB7958E380AF510">Åtgärden påverkar endast den angivna mappen. </li> 
      </ul> </p> </td> 

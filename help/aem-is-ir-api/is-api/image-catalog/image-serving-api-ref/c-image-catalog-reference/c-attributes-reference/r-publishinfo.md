@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 32bd12cf-f149-489f-ae74-f1da051d0730
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '66'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Textsträng.
 
 ## Standard {#section-82e5a885e142414f996c609efbb962b1}
 
-Ärvs från `default::PublishInfo` om det inte är definierat eller om det är tomt.
+Ärvs från `default::PublishInfo` om den inte är definierad eller om den är tom.
 
 ## Se även {#section-d61c31afb3dd4ae2abc6285db80c4f8a}
 

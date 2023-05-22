@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: c2cd37de-f81e-4b08-9a3e-ff05a72c363c
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
@@ -29,12 +29,12 @@ Ingen skalförändring används när `scale=1`. *`factor`* är mindre än 1.0 ne
 
 ## Egenskaper {#section-3c7eb45527394fe79b1ddba6c1fcca09}
 
-Källbild/maskattribut. Ignoreras om `size=` har angetts för det aktuella lagret. Åsidosätter `res=`. Gäller för lager 0 om det anges för `layer=comp`. Ignoreras om lagret inte är associerat med en bild eller mask.
+Källbild/maskattribut. Ignoreras om `size=` anges också för det aktuella lagret. Åsidosättningar `res=`. Gäller för lager 0 om det anges för `layer=comp`. Ignoreras om lagret inte är associerat med en bild eller mask.
 
 ## Standard {#section-26e64904362342a5a62c5f6598f330c4}
 
-Om inget anges används `res=`. Om `res=` inte anges används bilden utan skalning.
+Om inget anges `res=` används. If `res=` anges inte används bilden utan skalning.
 
 ## Se även {#section-61a11f30d37341d58c10df759bfff951}
 
-[res=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-res.md#reference-3d6fe416801148dea0f786f2b5169e55) ,  [size=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-size.md#reference-04d383f32c7b4003bed9978cb854747b)
+[res=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-res.md#reference-3d6fe416801148dea0f786f2b5169e55) , [size=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-size.md#reference-04d383f32c7b4003bed9978cb854747b)

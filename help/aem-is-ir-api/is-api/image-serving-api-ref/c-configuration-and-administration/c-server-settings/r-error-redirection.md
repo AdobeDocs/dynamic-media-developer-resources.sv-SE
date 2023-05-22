@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: a184e113-9708-412f-9b71-d75a35629adf
 source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Använd de här serverinställningarna för att omdirigera fel.
 
 ## PS::errorRedirect.rootUrl - Omdirigeringsserver {#section-85f22e48d68842a490b0e1191543b558}
 
-Rotwebbadressen ( [!DNL HTTP:// *[!DNL domain]*[: *[!DNL port]*]) för den sekundära Image Serving-distributionen som begäranden som misslyckas lokalt ska omdirigeras till. Omdirigering av fel är inaktiverat (standard) när den här inställningen är tom eller inte definierad.
+Rot-URL ( [!DNL HTTP:// *[!DNL domain]*[: *[!DNL port]*]]) för den sekundära Image Serving-distributionen som begäranden som misslyckas lokalt ska omdirigeras till. Omdirigering av fel är inaktiverat (standard) när den här inställningen är tom eller inte definierad.
 
 ## PS::errorRedirect.connectTimeout - Timeout för omdirigering av anslutning {#section-3971be8f720d4b32a2cc7860b4085971}
 

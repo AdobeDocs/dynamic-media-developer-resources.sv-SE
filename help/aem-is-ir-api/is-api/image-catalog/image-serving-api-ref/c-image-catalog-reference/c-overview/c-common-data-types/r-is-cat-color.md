@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: b47f772e-a15c-4277-b0d4-9147efb70156
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '32'
+source-wordcount: '27'
 ht-degree: 0%
 
 ---
@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Färgdatatyp.
 
-Färgvärde. Hexadecimalt, packat RGB-värde, eventuellt föregånget av `0x`. RGB-värdet `128,255,0` kan till exempel anges som `0x80ff00` eller `80ff00`.
+Färgvärde. Hexadecimal, packad RGB, eventuellt föregånget av `0x`. Värdet RGB `128,255,0` kan anges som `0x80ff00` eller `80ff00` .

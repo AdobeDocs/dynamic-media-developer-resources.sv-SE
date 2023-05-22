@@ -20,7 +20,7 @@ JavaScript API-referens för Interactive Video Viewer.
 
 Startar initieringen av Interactive Video Viewer. Vid den här tidpunkten måste behållar-DOM-elementet skapas så att visningsprogramkoden kan hitta det med dess ID.
 
-Om behållarelementet inte är en del av webbsideslayouten än - till exempel om det är dolt med formatet `display:none` som är tilldelat det - avbryter visningsprogrammet sin initieringsprocess. Det gör det tills webbsidan återför behållarelementet till layouten. När den här händelsen inträffar återtas visningsprogrammet automatiskt.
+Om behållarelementet inte är en del av webbsideslayouten än, kan det till exempel döljas med `display:none` format som tilldelats det - visningsprogrammet avbryter sin initieringsprocess. Det gör det tills webbsidan återför behållarelementet till layouten. När den här händelsen inträffar återtas visningsprogrammet automatiskt.
 
 Anropa denna metod endast en gång under tittarens livscykel. efterföljande anrop ignoreras.
 

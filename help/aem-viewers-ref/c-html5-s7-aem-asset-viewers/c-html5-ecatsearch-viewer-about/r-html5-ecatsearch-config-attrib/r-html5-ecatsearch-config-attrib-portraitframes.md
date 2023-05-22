@@ -2,13 +2,13 @@
 description: portraitFrames
 solution: Experience Manager
 title: portraitFrames
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 83822d1f-c19e-43ce-bec3-05ac4d4a027b
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 1%
+source-wordcount: '46'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> dela|heldragen</span> </p> </td> 
-   <td colname="col2"> <p>Ange <span class="codeph"> dela</span> så att visningsprogrammet kan visa dubbelsidiga uppslag som en separat sida när det används på en mobil enhet i stående orientering. Ange <span class="codeph"> heldragen</span> om du alltid vill visa dubbelsidiga uppslag som heldragen bild, oavsett enhetens orientering. </p> </td> 
+   <td colname="col2"> <p>Ange till <span class="codeph"> dela</span> så att visningsprogrammet kan visa uppslag med dubbla sidor som en separat sida när de används på en mobil enhet i stående orientering. Ange till <span class="codeph"> solid</span> om du alltid vill visa dubbelsidiga uppslag som heldragna bilder, oavsett enhetens orientering. </p> </td> 
   </tr> 
  </tbody> 
 </table>

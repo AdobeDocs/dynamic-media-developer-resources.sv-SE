@@ -2,13 +2,13 @@
 description: Print.printquality
 solution: Experience Manager
 title: Print.printquality
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: fa6f074a-f0c4-455a-88ab-593f8dc3c68b
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '26'
-ht-degree: 3%
+source-wordcount: '18'
+ht-degree: 0%
 
 ---
 

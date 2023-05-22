@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 91e252dd-22e2-4c4e-bc92-67762114c2ce
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ XMP metadata. Returnerar de XMP metadata som är associerade med bilden som ange
 
 `req=xmp`
 
-Andra kommandon ignoreras. UTF-8-kodning gäller. Svaret formateras som XML med MIME-typen `text/xml`.
+Andra kommandon ignoreras. UTF-8-kodning gäller. Svaret formateras som XML med MIME-typ `text/xml`.
 
 HTTP-svaret kan nås med TTL-värdet baserat på `catalog::Expiration`.
 
@@ -36,7 +36,7 @@ Om URL:en inte innehåller någon bildsökväg eller modifierare:
 copyright=Copyright (c) 1995-2014 Adobe Systems Incorporated. All rights reserved.
 ```
 
-Annars `req=img`
+I annat fall `req=img`
 
 ## Exempel {#section-34213692deab4a0f9037d5844132ee14}
 
@@ -83,4 +83,4 @@ Skicka ett textmeddelande till serverloggarna:
 
 ## Se även {#section-80cb0892c9174681b640985a1a26e590}
 
-[fmt=](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) ,  [katalog::Target](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-targets-cat.md),  [katalog::UserData](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md),  [Thumbnail Scaling](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-thumbnail-scaling.md#reference-0f71817f721d4913b34816758d69b07f),  [Properties](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9),  [Image Maps](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab)
+[fmt=](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) , [katalog::mål](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-targets-cat.md), [katalog::UserData](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md), [Skalning av miniatyrbilder](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-thumbnail-scaling.md#reference-0f71817f721d4913b34816758d69b07f), [Egenskaper](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9), [Bildscheman](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab)

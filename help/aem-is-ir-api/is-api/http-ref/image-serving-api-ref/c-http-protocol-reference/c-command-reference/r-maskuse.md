@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: e99101a1-1747-454c-b0c0-3af3335c0497
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -31,19 +31,19 @@ I följande tabell visas effekten av `maskUse=` beroende på tillgänglighet och
  </thead>
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> av  </span> </p> </td> 
+   <td> <p> <span class="codeph"> av </span> </p> </td> 
    <td> <p> Ogenomskinlig bildram </p> </td> 
    <td> <p> Ogenomskinlig bildram </p> </td> 
    <td> <p> Förgrundsområde för en bild över en rektangel fylld med helsvart </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> norm  </span> </p> </td> 
+   <td> <p> <span class="codeph"> norm </span> </p> </td> 
    <td> <p> Ogenomskinlig bildram </p> </td> 
    <td> <p> Bildens förgrundsområde </p> </td> 
    <td> <p> Förgrundsområde för bild eller lager </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> invertera  </span> </p> </td> 
+   <td> <p> <span class="codeph"> invertera </span> </p> </td> 
    <td> <p> Dolt lager </p> </td> 
    <td> <p> Bildens bakgrundsområde </p> </td> 
    <td> <p> Bakgrundsområde i bild eller lager fyllt med solid svart </p> </td> 
@@ -55,7 +55,7 @@ I följande tabell visas effekten av `maskUse=` beroende på tillgänglighet och
 
 Bild- eller lagerattribut. Gäller för lager 0 om `layer=comp`. Om det anges i ett effektlager ändrar kommandot den mask som ärvs från det överordnade lagret.
 
-Beteendet för `maskUse=` är odefinierat och stöds inte när det anges med text eller enfärgade lager när ingen bildmask kan användas (anges med `mask=` eller `catalog::Mask`).
+Beteendet för `maskUse=` är odefinierad och stöds inte när den anges med text eller enfärgslager när ingen bildmask används (anges med `mask=` eller `catalog::Mask`).
 
 ## Standard {#section-982dd8174641437786dcb3729ace6428}
 
@@ -69,4 +69,4 @@ Färga en bilds bakgrundsområde. bildens förgrund definieras av en separat mas
 
 ## Se även {#section-f239d8f4ce70434f8d30e482ed60ee5e}
 
-[color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md) ,  [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e)
+[color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md) , [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e)

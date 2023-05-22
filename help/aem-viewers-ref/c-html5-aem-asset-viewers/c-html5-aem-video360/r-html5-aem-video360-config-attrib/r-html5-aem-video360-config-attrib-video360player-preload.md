@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 33c28ed3-cdb3-4b14-8cc7-90f77ec9a3bb
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '118'
+ht-degree: 4%
 
 ---
 
@@ -21,8 +21,8 @@ Anger om visningsprogrammet börjar läsa in videoinnehåll innan uppspelningen 
 <table id="table_AE7AAFA9B4374E31B51D06511EB96401"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
-   <td colname="col2"> <p> Om värdet är <span class="codeph"> 1 </span> börjar videon att laddas ned direkt efter att resursen har ställts in. I annat fall startar förinläsningen endast efter att uppspelningen initierats av slutanvändaren eller ett API-anrop. </p> <p>Om <span class="codeph"> 0 </span> anges kommer vissa funktioner inte att fungera förrän uppspelningen startar. Sökåtgärden uppdaterar inte videobildrutan. Om förhandsvisningsbilden är inaktiverad visas den som ett tomt område i stället för som den första videobildrutan. </p> <p>Inaktivering av förinläsning av video kan ignoreras i vissa versioner av webbläsarna Internet Explorer 11 och Edge. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p> Om inställt på <span class="codeph"> 1 </span>börjar videon att laddas ned direkt efter att resursen har ställts in. I annat fall startar förinläsningen endast efter att uppspelningen initierats av slutanvändaren eller ett API-anrop. </p> <p>Om inställt på <span class="codeph"> 0 </span>vissa funktioner fungerar kanske inte förrän uppspelningen startar. Sökåtgärden uppdaterar inte videobildrutan. Om förhandsvisningsbilden är inaktiverad visas den som ett tomt område i stället för som den första videobildrutan. </p> <p>Inaktivering av förinläsning av video kan ignoreras i vissa versioner av webbläsarna Internet Explorer 11 och Edge. </p> </td> 
   </tr> 
  </tbody> 
 </table>

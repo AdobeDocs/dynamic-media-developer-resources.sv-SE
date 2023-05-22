@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: b706595d-8c3a-438a-8806-e3d85b1bdadb
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '67'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Katalogattributfiler känner igen dessa standardattribut för begäran.
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-jpegquality.md#reference-4a879e7c46024c8a898a9fd226f9eb09" format="dita" scope="local"> JpegQuality</a></span> </p> </td> 
-   <td colname="col2"> <p> Standardinställningar för JPEG-kodning. </p> </td> 
+   <td colname="col2"> <p> Standardinställningar för JPEG-kodaren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-resmode.md#reference-609095ef568743a086f28d87c54dafa2" format="dita" scope="local"> ResMode</a></span> </p> </td> 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: eb739d2d-7512-49e2-be13-10f05e2fcc1e
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ JavaScript API-referens för Video360 Viewer.
 
 Ställer in visningsparametern på ett angivet värde. Parametern är antingen ett visningsprogramspecifikt konfigurationsalternativ eller en programvaruutvecklingsmodifierare. Den här parametern anropas före `init()`.
 
-Den här metoden är valfri om visningsprogrammets konfigurationsinformation skickades med JSON-objektet `config` till konstruktorn.
+Den här metoden är valfri om visningsprogrammets konfigurationsinformation skickades med `config` JSON-objekt till konstruktor.
 
 Se även [init](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
@@ -29,12 +29,12 @@ Se även [init](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> name  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}  </span> parameternamn. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> name </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> parameternamn. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}  </span> parametervärde. Värdet kan inte vara procentkodat. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> parametervärdet. Värdet kan inte vara procentkodat. </p> </td> 
   </tr> 
  </tbody> 
 </table>

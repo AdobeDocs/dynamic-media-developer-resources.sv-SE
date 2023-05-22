@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 2c120ed1-b556-4caf-a30e-63ae48cc2104
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Image Serving innehåller flera alternativ för att återge text, som du kan anv
 
 >[!NOTE]
 >
->Förutom de skillnader som anges på andra ställen skapar `text=` subtila skillnader i den återgivna texten när den jämförs med `textPs=`. Understrykningar har till exempel inte samma tjocklek och position och syntetiserad kursiv återgivning visas i en något annorlunda vinkel. Om texten inte får plats i det tillgängliga utrymmet kan `text=` delvis beskära den sista raden, medan `textPs=` bara återger hela rader.
+>Förutom de skillnader som anges på andra ställen `text=` skapar små skillnader i den återgivna texten när den jämförs med `textPs=`. Understrykningar har till exempel inte samma tjocklek och position och syntetiserad kursiv återgivning visas i en något annorlunda vinkel. Om texten inte får plats i det tillgängliga utrymmet `text=` kan beskära den sista raden delvis, medan `textPs=` återger bara hela rader.
 
 Alla textkommandon accepterar formaterad text som är baserad på en delmängd av RTF-specifikationen (Rich Text Format). Varje textlager kan ange ett eget textkommando.
 
@@ -153,7 +153,7 @@ Vissa ordbehandlare genererar ganska stora filer, som innehåller viktiga preamu
 
 Språkkodning som bygger på UTF-8 och ISO-standarder stöds i RTF-strängar som ett alternativ till de vanliga RTF-teckenkodningsmekanismerna. Detta gör att program kan skicka icke-engelsk text till servern utan att känna till RTF-kodning.
 
-Alla tecken som inte är HTTP-kompatibla måste escape-konverteras om strängen ska skickas via http. Endast &#39;=&#39;, &#39;&amp;&#39; och &#39;%&#39; behöver escape-konverteras om strängen är inkluderad i fältet `catalog::Modifiers` i en bildkatalogspost. Kontrolltecken som `<CR>`, `<LF>` och `<TAB>` ska alltid tas bort.
+Alla tecken som inte är HTTP-kompatibla måste escape-konverteras om strängen ska skickas via http. Endast &#39;=&#39;, &#39;&amp;&#39; och &#39;%&#39; behöver escape-konverteras om strängen är inkluderad i `catalog::Modifiers` fält för en bildkatalogpost. Kontrolltecken, inklusive `<CR>`, `<LF>`och `<TAB>` ska alltid tas bort.
 
 Textmotorerna i Image Serving tolkar en deluppsättning kommandon som definieras av RTF-specifikationen (Rich Text Format), version 1.6. Den här delmängden fokuserar på teckensnitt-/teckenformatering, enkel styckeformatering och stöd för internationella teckensnitt och teckenuppsättningar. Mer avancerade formateringskonstruktioner, som formatmallar och tabeller, stöds inte för närvarande.
 

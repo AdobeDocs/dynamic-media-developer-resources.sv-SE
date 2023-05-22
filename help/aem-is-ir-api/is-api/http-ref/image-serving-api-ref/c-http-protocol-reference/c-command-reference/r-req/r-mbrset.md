@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 0568a4a1-7d6a-453e-83bc-05c0cde0c0f8
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Multibithastighetsdata.
 
-`req=mbrSet[,text|xml[, *``*]][&fmt= *`encodingFmtType`*]`
+`req=mbrSet[,text|xml[, *`kodning`*]][&fmt= *`fmtType`*]`
 
 <table id="simpletable_D2B8704E09B34337870A257CD7CB5C56"> 
  <tr class="strow"> 
@@ -31,14 +31,14 @@ Multibithastighetsdata.
 
 Returnerar ett text- eller xml-svar som innehåller en lista med URL:er (och motsvarande bithastighet) som motsvarar giltiga videoposter i en videouppsättning som är kopplad till nätsökvägs-ID.
 
-Det tidigare kravet på att en giltig videopost innehåller ett värde för `catalog::VideoBitRate` har nu förenklats. Posten kan innehålla ett värde för `catalog::VideoBitRate`*eller* `catalog::AudioBitRate`*eller* `catalog::TotalStreamBitRate`. Endast ett av dessa måste definieras för att videoposten ska vara giltig. Observera att kraven för `catalog::Path` och ett giltigt videofiltillägg inte har ändrats.
+Föregående krav på att en giltig videopost innehåller ett värde för `catalog::VideoBitRate` har nu kopplats av. Posten kan innehålla ett värde för `catalog::VideoBitRate`*eller* `catalog::AudioBitRate`*eller* `catalog::TotalStreamBitRate`. Endast ett av dessa måste definieras för att videoposten ska vara giltig. Observera att kraven för `catalog::Path` och inget giltigt videofiltillägg har ändrats.
 
-Svaren är avsedda att användas av Apple- och Flash Streaming Servers och uppfyller därför strukturellt dessa specifikationer. URL:er genereras med prefix `attribute::HttpAppleStreamingContext` och `attribute::HttpFlashStreamingContext`.
+Svaren är avsedda att användas av Apple och Flash Streaming Servers och överensstämmer därmed strukturellt med dessa specifikationer. URL:er genereras med prefix `attribute::HttpAppleStreamingContext` och `attribute::HttpFlashStreamingContext`.
 
 m3u8-svar innehåller bara mp4-filer om det finns några i videouppsättningen. Om det inte finns några mp4-filer innehåller svaren bara f4v-filer. Om det inte finns några mp4-filer eller f4v-filer är svaret tomt.
 
 f4m-svar innehåller bara f4v-filer om det finns några i videouppsättningen. Om det inte finns några f4v-filer innehåller svaren bara mp4-filer. Om det inte finns några f4v-filer eller mp4-filer är svaret tomt.
 
-Bithastigheter som visas i f4m/m3u8-svar motsvarar värdena i `catalog::TotalStreamBitRate` (konverteras till lämpliga enheter). Om `catalog::TotalStreamBitRate` inte har definierats används summeringen av `catalog::VideoBitRate` och `catalog::AudioBitRate`.
+Bithastigheter som visas i f4m/m3u8-svar motsvarar värdena i `catalog::TotalStreamBitRate` (konverteras till lämpliga enheter). If `catalog::TotalStreamBitRate` är inte definierad, summeringen av `catalog::VideoBitRate` och `catalog::AudioBitRate` används.
 
 HTTP-svaret kan nås med TTL-värdet baserat på `catalog::NonImgExpiration`.

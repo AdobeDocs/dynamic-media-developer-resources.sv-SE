@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: e1894d96-6f37-4e34-a709-5b0121bd0696
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '55'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ JavaScript API-referens för Video360 Viewer
 
 `setVideo(videoUrl)`
 
-Anger ny extern video. Kan anropas när som helst, både före och efter `init()`. Om det anropas efter `init()` byter visningsprogrammet ut videon under körning.
+Anger ny extern video. Kan anropas när som helst, både före och efter `init()`. Om anropas efter `init()`byter visningsprogrammet ut videon under körning.
 
 Se även [init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-init.md#reference-3b570ba8b35045d6b30fb178c21a66c6).
 
@@ -27,7 +27,7 @@ Se även [init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> videoUrl  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> videoUrl </span> </p> </td> 
    <td colname="col2"> <p>{<span class="codeph"> Sträng</span>} en absolut URL till den nya videon. </p> </td> 
   </tr> 
  </tbody> 

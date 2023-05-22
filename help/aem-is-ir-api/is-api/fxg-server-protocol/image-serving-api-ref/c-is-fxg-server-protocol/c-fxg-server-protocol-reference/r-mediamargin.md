@@ -1,5 +1,5 @@
 ---
-description: Ange mediemarginal. Anger den mediemarginal som anges i PDF-filen.
+description: Ange mediemarginal. Anger den mediemarginal som anges i filen PDF.
 solution: Experience Manager
 title: mediaMargin
 feature: Dynamic Media Classic,SDK/API
@@ -7,15 +7,15 @@ role: Developer,User
 exl-id: 5bba0dc2-a496-4380-9def-12f9e683eafb
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '57'
 ht-degree: 0%
 
 ---
 
 # mediaMargin{#mediamargin}
 
-Ange mediemarginal. Anger den mediemarginal som anges i PDF-filen.
+Ange mediemarginal. Anger den mediemarginal som anges i filen PDF.
 
 ` mediaMargin=[ *[!DNL top]*[, *[!DNL left]*= *[!DNL top]*[, *[!DNL bottom]*= *[!DNL top]*[, *[!DNL right]*= *[!DNL left]*]]]]` i punkter
 
-Som standard är `mediaMargin` inställt på den fullständiga dokumentstorleken som definieras av `viewWidth` och `viewHeight`. Värdena *[!DNL left]*, *[!DNL bottom]* och *[!DNL right]* är som standard *[!DNL top]* om de inte anges.
+Som standard är `mediaMargin` är inställt på full storlek för dokumentet som definieras av `viewWidth` och `viewHeight`. The *[!DNL left]*, *[!DNL bottom]* och *[!DNL right]* värden är som standard *[!DNL top]* om inget annat anges.

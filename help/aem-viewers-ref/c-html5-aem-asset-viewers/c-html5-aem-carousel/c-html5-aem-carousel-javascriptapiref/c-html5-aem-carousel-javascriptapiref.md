@@ -1,6 +1,6 @@
 ---
 title: JavaScript API-referens för Carousel Viewer
-description: CarouselViewer är huvudklass. Den deklareras i s7viewers namnutrymme. Detta JavaScript-API omfattar konstruktor, metoder och återanrop för just den här klassen.
+description: CarouselViewer-huvudklassen är CarouselViewer. Den deklareras i s7viewers namnutrymme. Detta JavaScript-API omfattar konstruktor, metoder och återanrop för just den här klassen.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # JavaScript API-referens för Carousel Viewer{#javascript-api-reference-for-carousel-viewer}
 
-CarouselViewer är huvudklass. Den deklareras i s7viewers namnutrymme. Detta JavaScript-API omfattar konstruktor, metoder och återanrop för just den här klassen.
+CarouselViewer-huvudklassen är CarouselViewer. Den deklareras i s7viewers namnutrymme. Detta JavaScript-API omfattar konstruktor, metoder och återanrop för just den här klassen.
 
-I alla följande exempel står `<instance>` för det faktiska namnet på JavaScript-visningsobjektet som har initierats från klassen `s7viewers.CarouselViewer`.
+I alla följande exempel `<instance>` står för det faktiska namnet på JavaScript-visningsobjektet som instansieras från `s7viewers.CarouselViewer` klassen.

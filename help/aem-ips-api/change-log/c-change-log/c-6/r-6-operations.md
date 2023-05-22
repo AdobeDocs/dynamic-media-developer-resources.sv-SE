@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: fc7af77e-17fc-453a-8949-78c9c5c33b34
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
@@ -31,25 +31,25 @@ Syntax
 
 **Tillagd**
 
-* `isHidden` och `initialTagValue` har lagts till i:
+* Tillagd `isHidden` och `initialTagValue` till:
 
    * `saveMetadataField`
    * ` `updateMetadataField&quot;
    * `createMetadataField`
 
-* `thumbAssetHandle` har lagts till i:
+* Tillagd `thumbAssetHandle` till:
 
    * `createImageSet`
    * `createAssetSet`
 
-   `companyHandle` har lagts till i:
+   Tillagd `companyHandle` till:
 
    * `getViewerConfigSettings`
    * `setViewerConfigSettings`
    * `updateViewerConfigSettings`
    * `getSearchStrings`
 
-   `contextHandle` har lagts till i:
+   Tillagd `contextHandle` till:
 
    * `getImageServingPublishSettings`
    * `getImageRenderingPublishSettings`
@@ -63,27 +63,27 @@ Syntax
    * `getUsers`.
    * `getUserChars`.
 
-* `permissionArray` har lagts till i `createPropertySet`.
+* Tillagd `permissionArray` till `createPropertySet`.
 
-* `exportJob` har lagts till i `submitJob`.
+* Tillagd `exportJob` till `submitJob`.
 
 **Ändrad**
 
-* I `addUser` och `setUser` ändrades `role` till `defaultRole`.
+* I `addUser` och `setUser`, ändrat `role` till `defaultRole`.
 
-* I `getCompanyMembers` har `userArray` ändrats till `memberArray`.
+* I `getCompanyMembers`, ändrat `userArray` till `memberArray`.
 
-* I `getCompanyMembership` har `companyArray` ändrats till `membershipArray`.
+* I `getCompanyMembership`, ändrat `companyArray` till `membershipArray`.
 
-* I `addUser`, `setCompanyMembership` och `addCompanyMembership` ändrades `membershipArray` till `companyHandleArray`.
+* I `addUser`, `setCompanyMembership`och `addCompanyMembership`, ändrat `membershipArray` till `companyHandleArray`.
 
-* I `getCompanyMembership` har `companyArray` ändrats till `membershipArray`.
+* I `getCompanyMembership`, ändrat `companyArray` till `membershipArray`.
 
-* I `getUserChars` är `includeInvalid` nu valfritt.
+* I `getUserChars`, `includeInvalid` är nu valfritt.
 
 **Borttagen**
 
-* Tog bort `renameFiles` från `renameAsset`.
+* Borttagen `renameFiles` från `renameAsset`.
 
 * Borttagen `getXMPPanelViewDefinition`.
 * Borttagen `searchAssetsByFulltext` och `searchAssetsBySimilarity`.

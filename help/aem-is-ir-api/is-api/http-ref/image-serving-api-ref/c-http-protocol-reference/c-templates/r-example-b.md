@@ -27,9 +27,9 @@ Liknande krav som exempel A, men använd en enfärgad bakgrund och låt höjden 
  </tr> 
 </table>
 
-Bilden placeras i lager 0 och höjdvärdet `size=` anges till 0. Den här inställningen gör att den faktiska höjden bestäms av bildens höjd efter att den skalats till 800 pixlar bred.
+Bilden placeras i lager 0 och höjdvärdet för `size=` är inställd på 0. Den här inställningen gör att den faktiska höjden bestäms av bildens höjd efter att den skalats till 800 pixlar bred.
 
-Variabeln `extend=` lägger till 100 pixlar i över- och underkanten och 200 pixlar till höger.
+Variabeln `extend=` lägger till 100 pixlar i över- och underkant och 200 pixlar till höger.
 
 Ursprunget för både lager 0 och lager 1 placeras i mitten till höger i sammansättningsområdet för att uppnå önskad textposition.
 

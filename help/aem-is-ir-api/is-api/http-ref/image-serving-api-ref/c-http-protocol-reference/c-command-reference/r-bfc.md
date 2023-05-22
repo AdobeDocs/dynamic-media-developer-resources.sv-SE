@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: d3fa2a11-339f-4c8e-9735-439c5464ab84
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,8 @@ Konvertering av webbläsarformat. Anger om konverteringsfunktionen för webbläs
 
 <table id="simpletable_2D23B1B282CD4216AB5BE7E7430D1B3F"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> on|off  </span> </p> </td> 
-  <td class="stentry"> <p>Anger om konverteringsfunktionen för webbläsarformat - konvertering av JPEG- eller PNG-bilder till mindre webbläsarspecifika filformat - är true ( <span class="codeph"> på </span>) eller false ( <span class="codeph"> på </span> för ingen webbläsarspecifik formatkonvertering). </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> on|off </span> </p> </td> 
+  <td class="stentry"> <p>Anger om konverteringsfunktionen för webbläsarformat - konvertering av JPEG- eller PNG-bilder till mindre webbläsarspecifika filformat - är true ( <span class="codeph"> på </span>) eller false ( <span class="codeph"> av </span> utan webbläsarspecifik formatkonvertering). </p> </td> 
  </tr> 
 </table>
 

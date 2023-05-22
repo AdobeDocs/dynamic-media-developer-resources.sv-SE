@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: f61c7311-a2e9-4eb7-ae05-276a4eec980b
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '115'
 ht-degree: 6%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 6%
 
 Visa skrivarmärken. Anger hur skrivarmärkena ska visas.
 
-` printerMark= *`trimma `*, *`markörutfallsmärken `*, *`passmärkes`*, *`färgstrecksspage `*, *`information`*, *``*, *`formatlinjebreddlager `*, *`bädda in`*`
+` printerMark= *`ytmärken`*, *`utfallsmärken`*, *`passmärken`*, *`färgremsor`*, *`sidinformation`*, *`style`*, *`linjebredd`*, *`inbäddning av lager`*`
 
 De olika märkena kan stängas av eller slås på. Du kan också styra skrivarmärkenas format.
 

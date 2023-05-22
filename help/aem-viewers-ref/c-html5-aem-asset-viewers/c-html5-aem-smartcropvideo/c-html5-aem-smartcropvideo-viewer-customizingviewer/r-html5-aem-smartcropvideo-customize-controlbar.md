@@ -4,7 +4,8 @@ description: Kontrollfältet är det rektangulära området som innehåller och 
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 8ea06e0a-705d-436a-9393-75a36381cba6
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 0%

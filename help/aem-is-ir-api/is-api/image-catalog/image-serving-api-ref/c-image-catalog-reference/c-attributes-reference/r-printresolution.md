@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: b61c63c4-09ca-43fe-b711-8b06d766aefb
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '69'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Heltal, större än 0. Uttryckt i punkter per tum.
 
 ## Standard {#section-b5d70865fe8d40229d8d91404fdf3244}
 
-Ärvs från `default::Resolution` om det inte är definierat eller om det är tomt.
+Ärvs från `default::Resolution` om den inte är definierad eller om den är tom.
 
 ## Se även {#section-54f8797a2b694d91a316f0d7414fac32}
 

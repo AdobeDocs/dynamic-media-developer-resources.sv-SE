@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: 4483c5e8-5123-4d0f-bf9a-4ef8d8cec5a9
 source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ För att ändringarna ska börja gälla startar du om Image Server när du har r
 
 >[!NOTE]
 >
->Ändra inte strukturen för `<imageserverregistry>`, inklusive ordningen för element. Var försiktig när du redigerar den här filen, annars kanske inte Image Server kan startas.
+>Ändra inte strukturen för `<imageserverregistry>`, inklusive elementens ordning. Var försiktig när du redigerar den här filen, annars kanske inte Image Server kan startas.
 
 Följande visar vilka element som kan ändras. Det finns andra element som inte får ändras. Ordningen på elementen nedan återspeglar inte den ordning i vilken de måste finnas i filen.
 
@@ -52,4 +52,4 @@ Följande visar vilka element som kan ändras. Det finns andra element som inte 
 
 ## Anteckningar {#section-7217f011f69f41e7af4f3983d7776d6f}
 
-Det kan finnas flera `<RootPath>`-element (ett för varje källdatamapp). Image Server söker igenom rotsökvägarna i den ordning som anges för att hitta en viss källfil.
+Flera `<RootPath>` -element kan finnas (ett för varje källdatamapp). Image Server söker igenom rotsökvägarna i den ordning som anges för att hitta en viss källfil.

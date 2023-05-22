@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 912cb4b3-6409-48ed-9b9c-968b63718a1b
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
@@ -39,11 +39,11 @@ Visningsområdets utseende styrs av följande CSS-klassväljare:
    <td colname="col2"> <p>Bredden på visningsprogrammet. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Visningsprogrammets höjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Bakgrundsfärg i hexadecimalt format. </p> </td> 
   </tr> 
  </tbody> 
@@ -51,7 +51,7 @@ Visningsområdets utseende styrs av följande CSS-klassväljare:
 
 ## Exempel {#section-ee18025b182a42dc98052de5f133ddfe}
 
-Om du vill ställa in ett visningsprogram med en vit bakgrund ( `#FFFFFF`) och göra storleken 512 x 288 pixlar.
+Ställa in ett visningsprogram med vit bakgrund ( `#FFFFFF`) och gör storleken 512 x 288 pixlar.
 
 ```
 .s7video360viewer { 

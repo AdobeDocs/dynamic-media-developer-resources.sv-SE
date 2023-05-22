@@ -8,7 +8,7 @@ exl-id: f228cf05-8b74-4f85-a02e-3bc084581529
 source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
 source-wordcount: '64'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> numeric|prickad</span> </p> </td> 
-   <td colname="col2"> <p> Konfigurerar återgivningsformatet för den angivna indikatorn. </p> <p>När den är inställd på <span class="codeph"> prickad </span> återges identiska indikatorer för alla sidor. </p> <p>Om <span class="codeph"> är inställt på numeric</span>, infogas ett 1-baserat sidnummer inuti varje indikatorelement. </p> <p>Åtgärdsläget <span class="codeph"> numerisk</span> stöds inte på enheter som har pekrörelser. I stället använder komponenten <span class="codeph"> prickade</span> på sådana enheter. </p> </td> 
+   <td colname="col2"> <p> Konfigurerar återgivningsformatet för den angivna indikatorn. </p> <p>När inställt på <span class="codeph"> prickad </span>återger komponenten identiska indikatorer för alla sidor. </p> <p>När inställt på <span class="codeph"> numeric</span> Ett 1-baserat sidnummer placeras inuti varje indikatorelement. </p> <p>The <span class="codeph"> numeric</span> Funktionsläget stöds inte på enheter med pekrörelser. I stället använder komponenten <span class="codeph"> prickad</span> på sådana enheter. </p> </td> 
   </tr> 
  </tbody> 
 </table>

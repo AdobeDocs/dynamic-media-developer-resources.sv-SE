@@ -8,7 +8,7 @@ exl-id: 16c9c70a-352d-4a21-bb14-2f9e266a83e8
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '67'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -21,8 +21,8 @@ Konfigurationsattribut för Interactive Video Viewer.
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph">1|0|<span class="varname"> förinläsare</span></span> </p> </td> 
-   <td colname="col2"> <p> Anger beteende för komponentförinläsning. </p> <p>När värdet är <span class="codeph"> -1</span> läses alla färgrutor in samtidigt när komponenten initieras eller resursen ändras. </p> <p>Om <span class="codeph"> 0</span> anges läses endast synliga färgrutor in. </p> <p>Ange <span class="codeph"><span class="varname"> som förinläsare</span></span> för att definiera hur många osynliga rader/kolumner runt det synliga området som ska förinläsas. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
+   <td colname="col2"> <p> Anger beteende för komponentförinläsning. </p> <p>När inställt på <span class="codeph"> -1</span> alla färgrutor läses in samtidigt när komponenten initieras eller resursen ändras. </p> <p>När inställt på <span class="codeph"> 0</span> bara synliga färgrutor läses in. </p> <p>Ange till <span class="codeph"><span class="varname"> preloadnbr</span></span> om du vill definiera hur många osynliga rader/kolumner runt det synliga området som är förinlästa. </p> </td> 
   </tr> 
  </tbody> 
 </table>

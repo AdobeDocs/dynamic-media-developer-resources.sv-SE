@@ -2,12 +2,12 @@
 description: Visningsprogrammet för eCatalog-sökning stöder återgivning av bildschemaikoner ovanför huvudvyn.
 solution: Experience Manager
 title: Stöd för bildscheman
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 58e7523f-1615-4da4-bb09-a995bf427bfc
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -22,36 +22,36 @@ Bildscheman utför någon av följande tre åtgärder: omdirigera till en extern
 
 ## Omdirigera till en extern webbsida {#section-32ebe3c3a7f74892a428c5d48801de4d}
 
-Attributet `href` för bildschemat har en URL till den externa resursen, antingen explicit specificerad eller inkapslad i en av de JavaScript-mallfunktioner som stöds: `loadProduct()`, `loadProductCW()` och `loadProductPW()`.
+The `href` bildschemats attribut har en URL till den externa resursen, antingen explicit specificerad eller inkapslad i en av JavaScript-mallfunktionerna som stöds: `loadProduct()`, `loadProductCW()`och `loadProductPW()`.
 
 Följande är ett exempel på en enkel URL-omdirigering:
 
 `href=http://www.adobe.com`
 
-I det här exemplet är samma URL omsluten med funktionen `loadProduct()`:
+I det här exemplet är samma URL omsluten med `loadProduct()` funktion:
 
 `href=javascript:loadProduct("http://www.adobe.com");void(0);`
 
-Tänk på att koden körs på klientens dator när du lägger till JavaScript-koden i `HREF`-attributet för bildschemat. Kontrollera därför att JavaScript-koden är säker.
+Tänk på att när du lägger till JavaScript-koden i `HREF` -attribut för din bildschema körs koden på klientens dator. Kontrollera därför att JavaScript-koden är säker.
 
 ## Aktivering av popup-meny i panelen Info {#section-7aa036420af646d1ad8cdc388add0b57}
 
-Om du vill arbeta med panelen Info har ett bildschema attributuppsättningen `ROLLOVER_KEY`. Ställ också in attributet `href` samtidigt, annars stör den externa URL-bearbetningen aktiveringen av panelen Info.
+Om du vill arbeta med panelen Info har ett bildschema `ROLLOVER_KEY` attributuppsättning. Ange även `href` i annat fall stör den externa URL-bearbetningen popup-aktiveringen i panelen Info.
 
-Kontrollera slutligen att visningsprogrammets konfiguration innehåller rätt värden för parametrarna `InfoPanelPopup.template` och, om så önskas, `InfoPanelPopup.infoServerUrl`.
+Kontrollera slutligen att visningsprogrammets konfiguration innehåller rätt värden för `InfoPanelPopup.template` och, om så önskas, `InfoPanelPopup.infoServerUrl` parametrar.
 
 >[!NOTE]
 >
->Tänk på att när du konfigurerar Info Panel-popup körs den HTML-kod och JavaScript-kod som skickas till Info-panelen på klientens dator. Kontrollera därför att sådan HTML-kod och JavaScript-kod är säkra.
+>Tänk på att när du konfigurerar Info Panel-popup körs den HTML-kod och JavaScript-kod som skickas till Info-panelen på klientens dator. Se därför till att sådan HTML-kod och JavaScript-kod är skyddade.
 
 ## Interna hyperlänkar {#section-6afa4fb2fe564c429e0201f019a95849}
 
-När du klickar på ett bildschema sker en intern sidväxling inuti visningsprogrammet. Om du vill använda den funktionen har ett `href`-attribut i bildschemat följande specialformat:
+När du klickar på ett bildschema sker en intern sidväxling inuti visningsprogrammet. Om du vill använda den funktionen kan du `href` -attributet i bildschemat har följande specialformat:
 
 ` href=target: *`idx`*`
 
 där `*`idx`*` är ett nollbaserat index för kataloguppslaget.
 
-Följande är ett exempel på ett `href`-attribut för ett bildschema som pekar på 3D-uppslaget i eCatalog:
+Följande är ett exempel på en `href` för ett bildschema som pekar på 3D-uppslaget i eCatalog:
 
 `href=target:2`

@@ -8,7 +8,7 @@ exl-id: db77edf0-e223-4f44-b83b-b6dbe5c1abd6
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
 source-wordcount: '97'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ Parametern är gemensam för alla visningsprogram.
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> pageIdx</span></span> </p> </td> 
-   <td colname="col2"> <p>Ett nollbaserat index för sidan i uppslaget när enheten är stående. För en"vänster-till-höger"-miljö betyder <span class="codeph"> 0</span>"vänster sida" och <span class="codeph"> 1</span>"höger sida". För en"höger till vänster"-miljö är det motsatt: <span class="codeph"> 0</span> betyder "högersida" och <span class="codeph"> 1</span> betyder "vänstersida". </p> <p>Om inget anges används <span class="codeph"> 0</span> som standard. Ignoreras när enheten är i liggande orientering. </p> </td> 
+   <td colname="col2"> <p>Ett nollbaserat index för sidan i uppslaget när enheten är stående. För en"vänster-till-höger"-miljö <span class="codeph"> 0</span> betyder "vänster sida" och <span class="codeph"> 1</span> betyder "höger sida". För en"höger till vänster"-miljö är det motsatt: <span class="codeph"> 0</span> betyder "höger sida" och <span class="codeph"> 1</span> betyder "vänster sida". </p> <p>Om inget anges <span class="codeph"> 0</span> antas som standard. Ignoreras när enheten är i liggande orientering. </p> </td> 
   </tr> 
  </tbody> 
 </table>

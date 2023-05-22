@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 86278720-ece0-4e67-8fb1-443355f878b7
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Egenskapsdata består av en textsträng som representerar en eller flera egenska
 
 En egenskap består av ett egenskapsnamn och ett egenskapsvärde, avgränsade med =.
 
-Flera egenskaper avgränsas med radavgränsare, som kan vara antingen `??` eller `<CR><LF>`. Om hela egenskapsdatasträngen inte omsluts av citattecken ersätter servern varje förekomst av `??` med `<CR><LF>` innan data skickas till klienten. Egenskapsnamn kan bestå av bokstäver, siffror, &#39;.&#39;, &#39;-&#39; och &#39;_&#39;. Egenskapsnamn är inte skiftlägeskänsliga.
+Flera egenskaper avgränsas med radavgränsare, som antingen `??` eller `<CR><LF>`. Om hela egenskapsdatasträngen inte omsluts av citattecken ersätter servern varje förekomst av `??` med `<CR><LF>` innan data skickas till klienten. Egenskapsnamn kan bestå av bokstäver, siffror, &#39;.&#39;, &#39;-&#39; och &#39;_&#39;. Egenskapsnamn är inte skiftlägeskänsliga.
 
 Egenskapsvärden får inte innehålla radavgränsare.
 

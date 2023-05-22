@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 46f06cbb-d70f-4334-966c-624b49c3bb9b
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Om det här värdet anges används det i Image Serving för att undvika att bild
 
 >[!NOTE]
 >
->Om `catalog::Size`anges och inte är samma som den faktiska bildstorleken med full upplösning, kan det leda till ett odefinierat beteende.
+>If `catalog::Size`anges och är inte detsamma som den faktiska bildstorleken med full upplösning, vilket kan leda till ett odefinierat beteende.
 
 ## Egenskaper {#section-5c914ec8b1444a8e99d811b647cd42a3}
 
@@ -32,4 +32,4 @@ Om fältet inte finns, eller om fältet är tomt, används bildens faktiska stor
 
 ## Se även {#section-e63797357d5a4119a10db1e6e088f6e9}
 
-[katalog::Path](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md#reference-306afcaff172440ca81b85da8d78213c) ,  [res=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-res.md)
+[katalog::Path](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md#reference-306afcaff172440ca81b85da8d78213c) , [res=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-res.md)

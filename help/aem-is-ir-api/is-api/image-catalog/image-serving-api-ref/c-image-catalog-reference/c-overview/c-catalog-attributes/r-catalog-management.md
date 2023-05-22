@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: c29858a7-6695-4c40-a818-4161a2e97ff5
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Katalogattributfiler känner igen dessa kataloghanteringsattribut.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-svgcatalogfile.md#reference-cd61769073f145e1ac37aa4fd53ae58d" type="reference" format="dita" scope="local"> SvgCatalogFile</a> </span> </p></td> 
-  <td class="stentry"> <p>Namn på associerade SVG-datafiler. </p></td> 
+  <td class="stentry"> <p>Namn på associerade datafiler i SVG. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-staticcontentcatalogfile.md#reference-1d5505d9d1b74fe5ba63fbdf7893eb0d" type="reference" format="dita" scope="local"> StaticContentCatalogFile</a> </span> </p></td> 

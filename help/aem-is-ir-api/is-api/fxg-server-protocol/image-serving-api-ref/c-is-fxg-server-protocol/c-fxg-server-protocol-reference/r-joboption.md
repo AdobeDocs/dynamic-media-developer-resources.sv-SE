@@ -1,5 +1,5 @@
 ---
-description: Använd PDF-jobbalternativ. En jobbalternativfil eller PDF-förinställning är en fil som skapas av Illustrator i dialogrutan Spara som PDF-alternativ eller PDF-förinställningar i InDesign.
+description: Använd jobbalternativ för PDF. En jobbalternativfil eller förinställning för PDF är en fil som skapas av Illustrator i dialogrutan Spara som PDF eller PDF i InDesign.
 solution: Experience Manager
 title: joboption
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: 8e7224e7-d801-4550-b95e-24d15734043a
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
 
 # joboption{#joboption}
 
-Använd PDF-jobbalternativ. En jobbalternativfil eller PDF-förinställning är en fil som skapas av Illustrator i dialogrutan Spara som PDF-alternativ eller PDF-förinställningar i InDesign.
+Använd jobbalternativ för PDF. En jobbalternativfil eller förinställning för PDF är en fil som skapas av Illustrator i dialogrutan Spara som PDF eller PDF i InDesign.
 
 ` joboption= *`value`*`
 
@@ -25,7 +25,7 @@ Använd PDF-jobbalternativ. En jobbalternativfil eller PDF-förinställning är 
  </tr> 
 </table>
 
-Jobbalternativfilen kan laddas upp och publiceras av IPS/Dynamic Media Classic. PDF-alternativen i jobbalternativsfilen används när PDF-filen genereras.
+Jobbalternativfilen kan laddas upp och publiceras av IPS/Dynamic Media Classic. Alternativen för PDF i jobbalternativfilen används när PDF skapas.
 
 Följande alternativ stöds för närvarande:
 

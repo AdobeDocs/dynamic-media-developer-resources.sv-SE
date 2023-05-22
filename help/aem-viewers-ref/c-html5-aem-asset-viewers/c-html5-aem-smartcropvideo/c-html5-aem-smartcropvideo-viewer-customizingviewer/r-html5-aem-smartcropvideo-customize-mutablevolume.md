@@ -4,7 +4,8 @@ description: Inledningsvis visas den ändringsbara volymkontrollen som en knapp 
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: e0a3e849-842b-4137-acc2-34301e89518f
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 0%

@@ -114,7 +114,7 @@ Här följer ett exempel på HTML som öppnar visningsprogrammet i ett nytt fön
 
 **Om inbäddningsläge med fast storlek och responsivt designinbäddningsläge**
 
-I det inbäddade läget läggs visningsprogrammet till på den befintliga webbsidan, som kanske redan har kundinnehåll som inte är relaterat till visningsprogrammet. Visningsprogrammet tar normalt bara upp en del av en webbsidas fastighet.
+I det inbäddade läget läggs visningsprogrammet till på den befintliga webbsidan, som kanske redan har kundinnehåll som inte är relaterat till visningsprogrammet. Visningsprogrammet upptar normalt bara en del av en webbsidas fastighet.
 
 De viktigaste användningsområdena är webbsidor som är orienterade för datorer eller surfplattor, och även responsiva designade sidor som automatiskt anpassar layouten beroende på enhetstyp.
 

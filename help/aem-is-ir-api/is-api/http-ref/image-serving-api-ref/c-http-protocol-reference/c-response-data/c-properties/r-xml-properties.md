@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 84cae0cd-d13b-409e-bd65-71c7e973d4b8
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
@@ -38,8 +38,8 @@ Ett typiskt egenskapssvarsdokument har följande allmänna struktur:
 </prop-group>
 ```
 
-`<prop-group>`-elementet används som den yttersta behållaren och för grupperingsegenskaper. Om en grupp har namnet motsvarar namnet Java-/JavaScript-objektnamnet.
+The `<prop-group>` -elementet används som den yttersta behållaren och för grupperingsegenskaper. Om en grupp har namnet motsvarar namnet Java-/JavaScript-objektnamnet.
 
 >[!NOTE]
 >
->Teckenkodning kan anges för vissa `req=`-typer. Mer information finns i beskrivningen av det specifika `req=`kommandot.
+>Teckenkodning kan anges för vissa `req=` typer. Se beskrivningen av den specifika `req=`om du vill ha mer information.

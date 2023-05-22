@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 9f1b2d6f-4e67-4530-9ec6-870b97687ce0
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ Rotera bild. Roterar bild-, text- eller enfärgslagret med den angivna vinkeln.
  </tr> 
 </table>
 
-Positiva vinklar roterar medsols. Lagerankarpunkten ( `anchor=` eller `catalog::Anchor`) fungerar som centrum för rotationen. Lagerrektangeln förstoras och monteras runt roterade data för att undvika beskärning. Rotationen används när lagrets bakgrundsområde har fyllts med `color=`. `bgColor=` kan användas för att lägga till bakgrundsfärg i markeringsramen efter rotation.
+Positiva vinklar roterar medsols. Lagerfästpunkten ( `anchor=` eller `catalog::Anchor`) fungerar som centrum för rotation. Lagerrektangeln förstoras och monteras runt roterade data för att undvika beskärning. Rotationen används när lagrets bakgrundsområde fylls med `color=`. `bgColor=` kan användas för att lägga till bakgrundsfärg i markeringsramen efter rotation.
 
 ## Egenskaper {#section-8b5a9bb9062f48dbb8d4e9953ff39e39}
 
-Lager, kommando. Gäller för det aktuella lagret eller för lagret 0 om `layer=comp`. Ignoreras av effektlager.
+Lager, kommando. Gäller det aktuella lagret eller lagret 0 om `layer=comp`. Ignoreras av effektlager.
 
 ## Standard {#section-69475db636124a8a85f132b6d49bd592}
 
@@ -41,12 +41,12 @@ Placera etiketten&quot;Vid försäljning&quot; i det övre vänstra hörnet av b
 
 `http:// *`server`*/myRootId/myImageId?scl=1&size=300,300&origin=-0.5,-0.5 &layer=1&src=labelImage&origin=-0.5,-0.5&rotate=-30&color=ffffff40`
 
-Vi använder `size=` på lager 0 för att ange visningsstorlek, i stället för att använda `wid=` och `hei=`. Det gör att storleken på `myImageId` kan ändras utan att den slutliga storleken på `labelImage` ändras. Vi måste också ange `scl=1`, annars kan den sammansatta bilden skalas till `attribute::DefaultPix` (om inte värdet är 0,0). `color=` lägger till den halvgenomskinliga bakgrundsfärgen i textrutan före rotering.
+Vi tillämpar `size=` till lager 0 för att ange visningsstorlek, i stället för att använda `wid=` och `hei=`. Detta gör att `myImageId` som ska storleksändras utan att den slutliga storleken på `labelImage`. Vi måste också specificera `scl=1`, annars kan den sammansatta bilden skalas till `attribute::DefaultPix` (om inte värdet är 0,0). `color=` lägger till den halvgenomskinliga bakgrundsfärgen i textrutan före rotering.
 
-Nollpunkten för båda lagren ställs in på det övre vänstra hörnet för att uppnå den önskade justeringen. Observera att ursprungspunkten för lager 1 gäller `labelImage`efter att den har roterats.
+Nollpunkten för båda lagren ställs in på det övre vänstra hörnet för att uppnå den önskade justeringen. Observera att ursprungspunkten för lager 1 gäller för `labelImage`efter att den har roterats.
 
-Se [Exempel A](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac) i [Mallar](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e) för ett exempel på roterad text.
+Se [Exempel A](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac) in [Mallar](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e) för ett exempel på roterad text.
 
 ## Se även {#section-c371ee0845994b7382c02e782d1bc595}
 
-[anchor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c) ,  [bgColor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab),  [color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)
+[anchor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c) , [bgColor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab), [color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)

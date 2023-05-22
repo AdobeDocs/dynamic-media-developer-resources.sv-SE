@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 3fb48c39-b15a-45b7-9aca-ed33f9c46c93
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '49'
 ht-degree: 0%
 
 ---
@@ -20,14 +20,14 @@ Den här parametern:
 
 <table id="simpletable_D8AA325968AD4FAEA7B214F0CBBF3F08"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> jobid  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> jobid </span> </p> </td> 
   <td class="stentry"> <p>Jobb-ID som hämtades vid tidpunkten för överföringen. </p> </td> 
  </tr> 
 </table>
 
 Returnerar:
 
-PDF-utdata från jobbet direktuppspelas som svar på detta, fel om `jobid` är ogiltigt eller om jobbet har tagits bort.
+PDF i utdata från arbetet strömmas som svar på detta, fel om `jobid` är ogiltigt eller så har jobbet tagits bort.
 
 ## Exempel {#section-0319e615fa254132a9dab59351b4c252}
 

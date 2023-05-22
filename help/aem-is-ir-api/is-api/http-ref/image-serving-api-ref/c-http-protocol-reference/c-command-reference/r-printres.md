@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 81c4c3b8-946d-401b-a279-ba3f426ea5a4
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Utskriftsupplösning. Åsidosätter utskriftsupplösningsvärdet som är inbädd
  </tr> 
 </table>
 
-Utskriftsupplösningen definieras vanligtvis av `catalog::PrintResolution` för en kataloginmatning, i annat fall av utskriftsupplösningsvärdet som är inbäddat i källbilden. När det gäller en mallbild eller sammansatt bild med flera lager är standardutskriftsupplösningen som är inbäddad i svarsfilen utskriftsupplösningen för lagerbilden med det lägsta lagernumret.
+Utskriftsupplösningen definieras normalt av `catalog::PrintResolution` om det är en katalogpost, annars med utskriftsupplösningsvärdet som är inbäddat i källbilden. När det gäller en mallbild eller sammansatt bild med flera lager är standardutskriftsupplösningen som är inbäddad i svarsfilen utskriftsupplösningen för lagerbilden med det lägsta lagernumret.
 
 Om du anger utskriftsupplösningen ändras inte svarsbildens pixelstorlek.
 

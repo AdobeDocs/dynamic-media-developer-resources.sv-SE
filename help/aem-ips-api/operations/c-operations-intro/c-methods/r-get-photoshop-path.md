@@ -27,7 +27,7 @@ Syntax
 * `ImagePortalUser`
 * `ImagePortalContrib`
 * `ImagePortalContribUser`
-* &quot;
+* ``
 
 ## Parametrar {#section-ebffe496284c4ced9f329f78127be199}
 

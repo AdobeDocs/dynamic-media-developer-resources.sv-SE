@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Huvudklassen i Interactive Image Viewer är InteractiveImage. Den deklareras i s7viewers namnutrymme. Detta JavaScript-API omfattar konstruktor, metoder och återanrop för just den här klassen.
 
-I alla följande exempel står `<instance>` för det faktiska namnet på JavaScript-visningsobjektet som har initierats från klassen `s7viewers.InteractiveImage`.
+I alla följande exempel `<instance>` står för det faktiska namnet på JavaScript-visningsobjektet som instansieras från `s7viewers.InteractiveImage` klassen.

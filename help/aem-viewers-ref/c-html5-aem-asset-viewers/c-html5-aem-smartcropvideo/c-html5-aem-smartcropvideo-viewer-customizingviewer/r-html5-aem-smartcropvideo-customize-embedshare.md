@@ -4,7 +4,8 @@ description: Verktyget Bädda in delning består av en knapp som läggs till på
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: d5f8db82-f1f9-45be-990d-ebfef97507b6
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '2590'
 ht-degree: 0%

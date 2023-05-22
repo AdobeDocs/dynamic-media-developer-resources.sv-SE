@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 2430ab43-c032-4c2f-93c3-225e8116f100
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '76'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ Exkluderingsområde för textflöde. Anger ett eller flera områden som ska utes
  </tr> 
 </table>
 
-Se [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) om du vill ha mer information, inklusive en beskrivning av *`pathDefinition`*. Om ingen sökvägsdefinition anges ignoreras `textFlowXPath=`.
+Se [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) ytterligare information, inklusive en beskrivning av *`pathDefinition`*. Om ingen sökvägsdefinition har angetts, `textFlowXPath=` ignoreras.
 
 ## Egenskaper {#section-cd1ebb151d4a405fbfc508d46522d686}
 
-Textlagerattribut ( `textPs=` endast). Ignoreras av andra lager eller när det anges utan `textFlowPath=`. Gäller för `layer=0` om det anges för `layer=comp`.
+Textlagerattribut ( `textPs=` endast). Ignoreras av andra lager eller när den anges utan `textFlowPath=`. Gäller för `layer=0` om angivet för `layer=comp`.
 
 ## Standard {#section-9405cda904684d829ed12a9e40a4dc46}
 
@@ -37,4 +37,4 @@ Ingen.
 
 ## Se även {#section-855228e744c7437a921d5db5b24bcd95}
 
-[textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767) ,  [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d),  [textFlowPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md#reference-0b8d9493d71342f0b6a64a6d221584ef)
+[textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767) , [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d), [textFlowPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md#reference-0b8d9493d71342f0b6a64a6d221584ef)

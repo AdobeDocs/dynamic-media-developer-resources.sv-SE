@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Viss information som visas i Interactive Image Viewer kan lokaliseras. Det här innehållet innehåller funktionsbeskrivningar för användargränssnittselement och ett informationsmeddelande som visas i den utfällbara zoomvyn vid inläsningen.
 
-Varje textinnehåll i visningsprogrammet som kan lokaliseras representeras av den speciella SDK-identifieraren för visningsprogrammet som kallas SYMBOL. Alla SYMBOL har ett associerat standardtextvärde för en engelsk språkinställning ( `"en"`) som levereras med visningsprogrammet som inte är installerat och kan ha användardefinierade värden för så många språkinställningar som behövs.
+Varje textinnehåll i visningsprogrammet som kan lokaliseras representeras av den speciella SDK-identifieraren för visningsprogrammet som kallas SYMBOL. Alla SYMBOL har ett associerat standardtextvärde för en engelsk språkinställning ( `"en"`) som medföljer visningsprogrammet som inte är installerat och kan ha användardefinierade värden för så många språk som behövs.
 
 När visningsprogrammet startas kontrolleras det aktuella språkområdet för att se om det finns ett användardefinierat värde för varje SYMBOL som stöds för sådana språkområden. I så fall används det användardefinierade värdet. i annat fall återställs den till standardtexten som inte finns i kartongen.
 
@@ -35,9 +35,9 @@ defaultLocale:"en"
 }
 ```
 
-I exemplet ovan definierar lokaliseringsobjektet två språkområden ( `"en"` och `"fr"`) och tillhandahåller lokalisering för två element i användargränssnittet i varje språkområde.
+I exemplet ovan definierar lokaliseringsobjektet två språkinställningar ( `"en"` och `"fr"`) och tillhandahåller lokalisering för två element i användargränssnittet i varje språkområde.
 
-Webbsideskoden ska skicka lokaliseringsobjektet till visarkonstruktorn, som ett värde i fältet `localizedTexts` för konfigurationsobjektet. Ett annat alternativ är att skicka lokaliseringsobjektet genom att anropa metoden `setLocalizedTexts(localizationInfo)`.
+Webbsideskoden ska skicka lokaliseringsobjektet till visningsprogramkonstruktorn, som värdet `localizedTexts` konfigurationsobjektets fält. Ett annat alternativ är att skicka lokaliseringsobjektet genom att anropa `setLocalizedTexts(localizationInfo)` -metod.
 
 Följande SYMBOL stöds:
 
@@ -50,15 +50,15 @@ Följande SYMBOL stöds:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Container.LABEL  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Container.LABEL </span> </p> </td> 
    <td colname="col2"> <p>ARIA-etikett för visningsprogramelement på den översta nivån. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ZoomView.ROLE_DESCRIPTION  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ZoomView.ROLE_DESCRIPTION </span> </p> </td> 
    <td colname="col2"> <p>ARIA-rollbeskrivning för huvudvykomponent. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ZoomView.USAGE_HINT  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ZoomView.USAGE_HINT </span> </p> </td> 
    <td colname="col2"> <p>ARIA-användningstips för tangentbordsanvändare. </p> </td> 
   </tr> 
  </tbody> 

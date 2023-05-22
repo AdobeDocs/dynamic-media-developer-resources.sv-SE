@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 08a363d0-918d-48e9-aef0-5a8554c2708a
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '157'
 ht-degree: 2%
 
 ---
@@ -43,7 +43,7 @@ Uppräknat värde, måste vara 0, 1, 2 eller 3.
 
 ## Standard {#section-8f27098e509945a18676aca0675c8f41}
 
-Ärvs från `default::ErrorDetail` om det inte anges eller om det är tomt.
+Ärvs från `default::ErrorDetail` om den inte anges eller om den är tom.
 
 ## Se även {#section-5451b0525ed74121950bfc34726c3970}
 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: c2e9a1f3-7216-4ab0-9c37-57f083119cef
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -31,9 +31,9 @@ posN= *`coordN`*
  </tr> 
 </table>
 
-När det gäller bild-, text- och enfärgslager anger `pos=` positionen för en lagerankarpunkt i förhållande till lagrets ankarpunkt 0. `posN=` Koordinatvärden normaliseras i förhållande till den faktiska storleken på lagret 0 rect.
+För bild-, text- och enfärgslager gäller följande: `pos=` anger positionen för ett lagerankare i förhållande till ankarpunkten för lager 0. `posN=` Koordinatvärden normaliseras i förhållande till den faktiska storleken på lagret 0 rect.
 
-När det gäller effektlager flyttar `pos=` effektlagret i förhållande till det överordnade lagret.
+Vid effektlager, `pos=` Flyttar effektlagret i förhållande till det överordnade lagret.
 
 Positiva värden flyttar lagret åt höger/nedåt, negativa åt vänster/uppåt. `posN=0.5,0.5` flyttar lagret halva lagrets bredd 0 och höjd nedåt och åt höger.
 
@@ -47,7 +47,7 @@ Lagerattribut. Ignoreras om `layer=0` eller `layer=comp`.
 
 ## Exempel {#section-a89a02c22f6b4260bfcf7c842cd6069d}
 
-Se Exempel A i [Mallar](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e).
+Se exempel A i [Mallar](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e).
 
 ## Se även {#section-812d95575ba542808e8387d0a8650606}
 

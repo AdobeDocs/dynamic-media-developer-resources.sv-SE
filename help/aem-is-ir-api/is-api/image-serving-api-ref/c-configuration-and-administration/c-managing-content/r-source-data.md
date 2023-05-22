@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: d7e9c101-8d34-4241-b03c-131f31c25933
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Image Serving source data files include image and mask files, fonts, and ICC pro
 
 Alla källdatafiler måste vara tillgängliga för Image Server. Image Serving innehåller ett antal alternativ för att ange platsen för datafiler:
 
-`*`install_`*/ *``*/ *`folderrootPathfilePath`*`
+`*`install_folder`*/ *`rootPath`*/ *`filePath`*`
 
 <table id="simpletable_26686444C7EF46D6BC4C0490C8010BF9"> 
  <tr class="strow"> 
@@ -26,7 +26,7 @@ Alla källdatafiler måste vara tillgängliga för Image Server. Image Serving i
   <td class="stentry"> <p><span class="codeph"> IS::RootPath/attribute::RootPath</span> </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> filePath  </span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> filePath </span></span> </p></td> 
   <td class="stentry"> <p><span class="codeph"> catalogPath|requestPath</span> </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -41,9 +41,9 @@ Alla källdatafiler måste vara tillgängliga för Image Server. Image Serving i
 
 Servern kombinerar sökvägssegment från höger till vänster tills en absolut filsökväg har upprättats.
 
-Alla `*`rootPath`*`-segment kan vara tomma, relativa eller absoluta sökvägssegment.
+Alla `*`rootPath`*` segment kan vara tomma, relativa eller absoluta bansegment.
 
-`*``*` catalogSöker antingen en absolut eller relativ sökväg/namn. `*`request`*` Path måste vara en relativ sökväg/namn.
+`*`catalogPath`*` är antingen en absolut eller relativ sökväg/filnamn. `*`requestPath`*` måste vara en relativ sökväg/ett relativt filnamn.
 
 `Multiple IS::RootPath` värden kan definieras i ImageServerRegistry.xml (eller via administratörsgränssnittet). Detta gör att källdatafiler kan distribueras över flera filsystem. Image Server kommer att försöka med alternativa sökvägar i den ordning som anges tills datafilen hittas.
 

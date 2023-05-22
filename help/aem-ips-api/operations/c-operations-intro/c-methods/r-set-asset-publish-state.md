@@ -2,12 +2,12 @@
 description: Avgör om en resurs är klar att publiceras.
 solution: Experience Manager
 title: setAssetPublishState
-feature: Dynamic Media Classic,SDK/API,Resurshantering
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 0dc195ee-9229-40a3-ad8b-8f00c2c9ff97
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Syntax
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> contextHandleArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Kodfras  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Kodfras </span> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 
   </tr> 
@@ -81,7 +81,7 @@ IPS API returnerar inget svar för den här åtgärden.
 
 ## Exempel {#section-c31ead6d0e594317a12c120509527792}
 
-I det här kodexemplet anges publiceringsstatus för en resurs med `NotMarkedForPublish`.
+I det här kodexemplet anges publiceringsstatus för en resurs som använder `NotMarkedForPublish`.
 
 **Begäran**
 

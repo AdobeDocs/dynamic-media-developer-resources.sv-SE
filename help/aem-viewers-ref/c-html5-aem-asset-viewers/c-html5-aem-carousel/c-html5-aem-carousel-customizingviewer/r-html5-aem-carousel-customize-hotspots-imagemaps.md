@@ -35,19 +35,19 @@ Utseendet på hotspot-ikonen styrs med följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Ikoner med aktiveringspunkt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p>Placera inuti teckningsspriten, om CSS-sprites används. </p> <p>Se <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p>Placera inuti teckningsspriten, om CSS-sprites används. </p> <p>Se <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-fragment </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Aktiveringspunktsikonens bredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Höjd på hotspot-ikon. </p> </td> 
   </tr> 
  </tbody> 
@@ -83,16 +83,16 @@ Utseendet på bildschemaområdet styrs med följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background  </span> </p> </td> 
-   <td colname="col2"> <p>Fyllningsfärg för bildschemaområde. </p> <p>Ange den här färgen i formaten <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> eller <span class="codeph"> RGBA(R,G,B,A) </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background </span> </p> </td> 
+   <td colname="col2"> <p>Fyllningsfärg för bildschemaområde. </p> <p>Ange den här färgen i <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span>, eller <span class="codeph"> RGBA(R,G,B,A) </span> format. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p>Fyllningsfärg för bildschemaområde. </p> <p>Ange den här färgen i formaten <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> eller <span class="codeph"> RGBA(R,G,B,A) </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>Fyllningsfärg för bildschemaområde. </p> <p>Ange den här färgen i <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span>, eller <span class="codeph"> RGBA(R,G,B,A) </span> format. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
-   <td colname="col2"> <p> Områdesformat för bildschemat. Ska anges som <span class="codeph"> width </span> <span class="codeph"> solid color </span>, där <span class="codeph"> width </span> uttrycks i pixlar, och <span class="codeph"> color </span> anges som <span class="codeph"> #RGGBB </span>, <span class="codeph"> RGB(R,G,B) &lt;a 11/&gt;, eller <span class="codeph"> RGBA(R,G,B,A) </span>.</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col2"> <p> Områdesformat för bildschemat. Ska anges som <span class="codeph"> width </span> <span class="codeph"> enfärgad </span>", var <span class="codeph"> width </span> uttrycks i pixlar, och <span class="codeph"> färg </span> anges som <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span>, eller <span class="codeph"> RGBA(R,G,B,A) </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

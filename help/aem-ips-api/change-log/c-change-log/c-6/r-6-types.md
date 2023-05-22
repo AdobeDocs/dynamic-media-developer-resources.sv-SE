@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: d3bcd718-cf27-4d31-850f-a3205564be60
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '69'
 ht-degree: 0%
 
 ---
@@ -40,19 +40,19 @@ Syntax
 
 **Tillagd**
 
-* `numUrls` har lagts till i `UploadUrlsJob`.
+* Tillagd `numUrls` till `UploadUrlsJob`.
 
-* `fileName` har lagts till i `Asset.`
+* Tillagd `fileName` till `Asset.`
 
-* `isHidden` har lagts till i `MetadataField`.
+* Tillagd `isHidden` till `MetadataField`.
 
-* `taskState` har lagts till i `TaskProgress`.
+* Tillagd `taskState` till `TaskProgress`.
 
-* `exportJob` har lagts till i `ActiveJob` och `ScheduledJob`.
+* Tillagd `exportJob` till `ActiveJob` och `ScheduledJob`.
 
-* `optmizedPath` och `optimizedFile` har lagts till i `PsdInfo`.
+* Tillagd `optmizedPath` och `optimizedFile` till `PsdInfo`.
 
-* `contextHandle` har lagts till i:
+* Tillagd `contextHandle` till:
 
    * `ImageRenderingPublishJob`
    * `VideoPublishJob`
@@ -66,8 +66,8 @@ Syntax
 
 **Ändrad**
 
-* I `User` har `role` ändrats till `defaultRole`.
+* I `User`, ändrat `role` till `defaultRole`.
 
-* I `Folder` har `permissions` ändrats till `permissionsSetHandle`.
+* I `Folder`, ändrat `permissions` till `permissionsSetHandle`.
 
-* I `AssetSummary` är `type` och `name` nu valfria.
+* I `AssetSummary`, `type` och `name` är nu valfria.

@@ -35,7 +35,7 @@ Utseendet styrs med följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> kontur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kontur </span> </p> </td> 
    <td colname="col2"> <p>Fokusmarkeringsstil. </p> </td> 
   </tr> 
  </tbody> 

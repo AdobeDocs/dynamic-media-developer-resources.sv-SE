@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 54c27ea0-e87f-41ce-ae8d-71c9fabe412e
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Vattenstämpelväljare. Anger katalogen::Id för den katalogpost som ska användas som vattenstämpelbild eller mall.
 
-Om det anges använder servern vattenstämpeln på de begärda bilddata för alla bildbegäranden ( `req=img`).
+Om det här alternativet anges används vattenstämpeln på den begärda bildinformationen för alla bildbegäranden ( `req=img`).
 
 ## Egenskaper {#section-fad6ffff4c5f4b5c8010281bc1377055}
 
-Textsträng. Om det anges måste det vara ett giltigt `Catalog::Id`-värde i den här bildkatalogen (eller i standardkatalogen, om det anges i [!DNL default.ini]).
+Textsträng. Om det anges måste det vara ett giltigt `Catalog::Id` i den här bildkatalogen (eller i standardkatalogen, om det anges i [!DNL default.ini]).
 
 ## Standard {#section-f8a2029b5b8740b2af149bdbfa28fbae}
 

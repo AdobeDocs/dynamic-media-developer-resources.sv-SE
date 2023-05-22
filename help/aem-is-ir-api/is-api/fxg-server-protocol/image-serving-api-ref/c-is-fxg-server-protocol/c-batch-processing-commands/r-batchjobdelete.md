@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 9aca6693-32ac-4abd-9595-95bce60050ec
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Den här parametern:
 
 Returnerar:
 
-Status för jobbet när borttagningsbegäran togs emot, fel om `jobid` är ogiltigt eller om jobbet redan hade tagits bort.
+Status för jobbet när borttagningsbegäran togs emot, felmeddelande om `jobid` är ogiltigt eller så har jobbet redan tagits bort.
 
 ## Exempel {#section-e0df8fc8e6554ba58e1fa937b8241ecf}
 

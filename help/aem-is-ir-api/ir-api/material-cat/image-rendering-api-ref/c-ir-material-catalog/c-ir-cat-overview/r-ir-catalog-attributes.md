@@ -94,7 +94,7 @@ Följande attribut känns igen i katalogattributfiler.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-expiration.md#reference-0f68ad8199c64bd4bc8d27dd78b7d996" type="reference" format="dita" scope="local"> Förfaller </a> </p></td> 
-  <td class="stentry"> <p>Standardvärde för time-to-live för klientcache. </p></td> 
+  <td class="stentry"> <p>Standardvärde för time-to-live-klientcache. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-uselastmodified.md#reference-d2ab628c9e004fedbd38324866dbca1d" type="reference" format="dita" scope="local"> UseLastModified </a> </p></td> 

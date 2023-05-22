@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 818ea14b-4dab-4447-9645-46f2ba82547b
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '127'
+ht-degree: 3%
 
 ---
 
@@ -16,17 +16,17 @@ ht-degree: 0%
 
 Konfigurationsattribut för Video360 Viewer.
 
-` [Video360Player.|<containerId>_video360Player.]iconeffect=0|1[, *``*][, *``*][, *`countfadeautoHide`*]`
+` [Video360Player.|<containerId>_video360Player.]iconeffect=0|1[, *`antal`*][, *`tona`*][, *`autoHide`*]`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Gör att IconEffect kan visas ovanpå videon när videon är i pausat läge. På vissa enheter används inbyggda kontroller. I sådana fall ignoreras modifieraren <span class="codeph">iconeffect</span>. </p> </td> 
+   <td colname="col2"> <p> Gör att IconEffect kan visas ovanpå videon när videon är i pausat läge. På vissa enheter används inbyggda kontroller. I sådana fall <span class="codeph">ikoneffekt</span> modifierare ignoreras. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> antal</span></span> </p> </td> 
-   <td colname="col2"> <p> Anger det maximala antalet gånger som IconEffect visas och visas igen. Värdet <span class="codeph"> -1</span> anger att ikonen visas oändligt. </p> </td> 
+   <td colname="col2"> <p> Anger det maximala antalet gånger som IconEffect visas och visas igen. Värdet för <span class="codeph"> -1</span> anger att ikonen visas oändligt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> tona</span></span> </p> </td> 
@@ -34,7 +34,7 @@ Konfigurationsattribut för Video360 Viewer.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> autoHide</span></span> </p> </td> 
-   <td colname="col2"> <p> Anger antalet sekunder som IconEffect ska vara helt synlig innan den döljs automatiskt. Det vill säga, tiden efter att animeringen har tonats in och innan animeringen börjar tonas ut. Ange <span class="codeph"> 0</span> om du vill inaktivera funktionen för att dölja automatiskt. </p> </td> 
+   <td colname="col2"> <p> Anger antalet sekunder som IconEffect ska vara helt synlig innan den döljs automatiskt. Det vill säga, tiden efter att animeringen har tonats in och innan animeringen börjar tonas ut. Ange till <span class="codeph"> 0</span> om du vill inaktivera funktionen för att dölja automatiskt. </p> </td> 
   </tr> 
  </tbody> 
 </table>

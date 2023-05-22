@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 44981754-017b-4293-9d44-7611b7a470c4
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 Ämnen i det här avsnittet beskriver syntaxen och funktionerna i HTTP-protokollen.
 
 * [Grundläggande syntax för Image Serving HTTP-protokoll](r-basic-syntax.md)
-* [HTTP-protokollkommandot Image Serving   översikt](c-command-overview/c-command-overview.md)
+* [Översikt över kommandot Image Serving HTTP protocol](c-command-overview/c-command-overview.md)
 * [Översikt över lager](c-layering-overview/c-layering-overview.md)
 * [Lageråtgärder](c-layering-overview/c-layer-operations.md)
 * [Lagereffekter](r-layer-effects.md)
@@ -27,7 +27,7 @@ ht-degree: 0%
 * [Bildkataloger](r-image-catalogs.md)
 * [Översättning av objekt-ID](r-object-id-translation.md)
 * [Textsträngslokalisering](r-text-string-localization.md)
-* [SVG-stöd](r-svg-support.md)
+* [Stöd för SVG](r-svg-support.md)
 * [Förbehandling av begäran](r-request-preprocessing.md)
 * [Bildscheman](r-image-maps.md)
 * [Färghantering för bildhantering](r-color-management.md)

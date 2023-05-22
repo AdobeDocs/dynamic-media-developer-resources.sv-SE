@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Kommandoreferensdokumentation för Interactive Video Viewer.
 
-Du kan ange valfritt konfigurationskommando i URL:en. Du kan också använda API-metoderna `setParam()`, `setParams()` eller båda för att ange ett konfigurationskommando. Du kan också ange valfritt config-attribut i konfigurationsposten på serversidan.
+Du kan ange valfritt konfigurationskommando i URL:en. Du kan också använda API-metoderna `setParam()`, eller `setParams()`eller båda för att ange ett konfigurationskommando. Du kan också ange valfritt config-attribut i konfigurationsposten på serversidan.
 
-Du kan prefix för vissa konfigurationskommandon med klassnamnet eller instansnamnet för motsvarande Viewer SDK-komponent. Ett instansnamn för komponenten är dynamiskt och beror på ID:t för visningsbehållarens DOM-element som skickas till API-metoden `setContainerId()`. Dokumentationen innehåller valfria prefix för sådana kommandon. `playback` dokumenteras till exempel enligt följande:
+Du kan prefix för vissa konfigurationskommandon med klassnamnet eller instansnamnet för motsvarande Viewer SDK-komponent. Ett instansnamn för komponenten är dynamiskt och beror på ID:t för visningsbehållarens DOM-element som skickas till `setContainerId()` API-metod. Dokumentationen innehåller valfria prefix för sådana kommandon. Till exempel: `playback` dokumenteras enligt följande:
 
 ```
 [VideoPlayer.|<containerId>_videoPlayer].playback
@@ -28,7 +28,7 @@ Det innebär att det här kommandot används på följande sätt
 
 * `playback` (kort syntax)
 * `VideoPlayer.playback` (kvalificerad med komponentklassnamn)
-* `cont_videoPlayer.playback` (kvalificerad med komponent-ID, förutsatt att det  `cont` är behållarelementets ID)
+* `cont_videoPlayer.playback` (kvalificerad med komponent-ID, förutsatt att `cont` är behållarelementets ID)
 
 Se även [Kommandoreferens som är gemensam för alla visningsprogram - Konfigurationsattribut](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd).
 

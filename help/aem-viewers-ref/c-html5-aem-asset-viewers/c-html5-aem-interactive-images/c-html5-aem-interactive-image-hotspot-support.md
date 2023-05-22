@@ -22,8 +22,8 @@ Aktiveringspunkter kan antingen aktivera en snabbvyfunktion på värdwebbsidan g
 
 ## Snabbvisa hotspot-områden {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Dessa typer av hotspot-områden bör skapas med åtgärdstypen&quot;QuickView&quot; i Dynamic Media, Adobe Experience Manager Assets - On-demand. När en användare aktiverar en sådan hotspot kör visningsprogrammet JavaScript-återanropet `quickViewActivate` och skickar hotspot-data till den. Inbäddningswebbsidan förväntas lyssna efter det här återanropet. När sidan utlöses öppnas en egen snabbvyimplementering.
+Dessa typer av hotspot-områden bör skapas med åtgärdstypen&quot;QuickView&quot; i Dynamic Media, Adobe Experience Manager Assets - On-demand. När en användare aktiverar en sådan aktiveringspunkt kör visningsprogrammet `quickViewActivate` JavaScript-återanrop och skickar hotspot-data till det. Inbäddningswebbsidan förväntas lyssna efter det här återanropet. När sidan utlöses öppnas en egen snabbvyimplementering.
 
 ## Omdirigera till extern webbsida {#section-ef820c71251e4215800bb99c0c9ebe16}
 
-Aktiveringspunkter som har skapats för åtgärdstypen&quot;Snabbvy&quot; i Dynamic Media för Experience Manager-resurser - Används vid behov omdirigeras användaren till en extern URL. Beroende på inställningarna under utvecklingen öppnas URL-adressen i en ny webbläsarflik, i samma fönster eller i det namngivna webbläsarfönstret.
+Aktiveringspunkter som skapats för åtgärdstypen&quot;Snabbvy&quot; i Dynamic Media för Experience Manager Assets - Används vid behov omdirigeras användaren till en extern URL. Beroende på inställningarna under utvecklingen öppnas URL-adressen i en ny webbläsarflik, i samma fönster eller i det namngivna webbläsarfönstret.

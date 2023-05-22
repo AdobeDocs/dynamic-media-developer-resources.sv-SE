@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: b1d85ea6-0e12-49a8-b1dc-4c64a672770b
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Användardata från bildkatalog. Returnerar användardata för bildkatalogposten
  </tr> 
 </table>
 
-Innehållet i `catalog::UserData` returneras. När formatet &quot;text&quot; anges ersätts alla instanser av `??` i `catalog::UserData`med radavslutare, och en radslutstecken (CR/LF) läggs till i slutet. Om URL-sökvägen inte kan tolkas som en giltig katalogpost består svaret endast av en radslutstecken. Lämplig formatering används när formatet &#39;xml&#39; eller &#39;json&#39; begärs.
+Innehållet i `catalog::UserData` returneras. När formatet &#39;text&#39; anges, alla förekomster av `??` in `catalog::UserData`ersätts med radslutstecken och en enda radslutstecken (CR/LF) läggs till i slutet. Om URL-sökvägen inte kan tolkas som en giltig katalogpost består svaret endast av en radslutstecken. Lämplig formatering används när formatet &#39;xml&#39; eller &#39;json&#39; begärs.
 
 Andra kommandon i begärandesträngen ignoreras.
 
@@ -35,8 +35,8 @@ HTTP-svaret kan nås med TTL-värdet baserat på `catalog::Expiration`.
 >
 >Kolontecknet tillåts inte i nyckelnamn för användardataegenskaper.
 
-Begäranden som stöder JSONP-svarsformatet gör att du kan ange namnet på JS-callback-hanteraren med den utökade syntaxen för parametern `req=`:
+Begäranden som stöder JSONP-svarsformatet gör att du kan ange namnet på JS-callback-hanteraren med den utökade syntaxen för `req=` parameter:
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` är namnet på JS-hanteraren som finns i JSONP-svaret. Endast tecknen a-z, A-Z och 0-9 tillåts. Valfritt. Standardvärdet är `s7jsonResponse`.
+`<reqHandler>` är namnet på JS-hanteraren som finns i JSONP-svaret. Endast tecknen a-z, A-Z och 0-9 tillåts. Valfritt. Standard är `s7jsonResponse`.

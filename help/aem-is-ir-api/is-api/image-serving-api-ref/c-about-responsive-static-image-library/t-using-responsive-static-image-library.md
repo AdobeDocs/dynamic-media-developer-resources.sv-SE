@@ -90,7 +90,7 @@ Det finns två smarta beskärningslägen i AEM 6.4 och Dynamic Media Viewer 5.9:
 * **Manuell** - användardefinierade brytpunkter och motsvarande Image Service-kommandon definieras i ett attribut i image-elementet.
 * **Smart beskärning** - beräknade renderingar av smarta beskärningar hämtas automatiskt från leveransservern. Den bästa återgivningen väljs med bildelementets körningsstorlek.
 
-Om du vill använda läget Smart beskärning anger du `data-mode` attribut till `smart crop`. Exempel:
+Om du vill använda läget Smart beskärning anger du `data-mode` attribut till `smart crop`. Till exempel:
 
 ```html {.line-numbers}
 <img 

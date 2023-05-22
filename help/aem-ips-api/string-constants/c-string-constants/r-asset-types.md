@@ -2,12 +2,12 @@
 description: Beskriver värden som används av olika indataparametrar. Mer information finns i listan i den här artikeln.
 solution: Experience Manager
 title: Tillgångstyper
-feature: Dynamic Media Classic,SDK/API,Resurshantering
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: efbdf214-403e-4dc8-90c1-97e6fd113265
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '38'
 ht-degree: 0%
 
 ---

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 28bf68e8-d424-418e-99a7-5298a1d83341
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,13 @@ Egenskaper för bildkatalog. Returnerar gemensamma attribut för den bildkatalog
  </tr> 
 </table>
 
-Om du vill hämta standardkatalogegenskaperna ( [!DNL default.ini]) utelämnar du katalog-ID:t. HTTP-svaret kan nås med TTL-värdet baserat på `attribute::NonImgExpiration`.
+Så här hämtar du standardkatalogegenskaperna ( [!DNL default.ini]) utelämnar du katalog-ID:t. HTTP-svaret kan nås med TTL-värdet baserat på `attribute::NonImgExpiration`.
 
-Begäranden som stöder JSONP-svarsformatet gör att du kan ange namnet på JS-callback-hanteraren med den utökade syntaxen för parametern `req=`:
+Begäranden som stöder JSONP-svarsformatet gör att du kan ange namnet på JS-callback-hanteraren med den utökade syntaxen för `req=` parameter:
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` är namnet på JS-hanteraren som finns i JSONP-svaret. Endast tecknen a-z, A-Z och 0-9 tillåts. Valfritt. Standardvärdet är `s7jsonResponse`.
+`<reqHandler>` är namnet på JS-hanteraren som finns i JSONP-svaret. Endast tecknen a-z, A-Z och 0-9 tillåts. Valfritt. Standard är `s7jsonResponse`.
 
 Följande egenskapsvärden returneras:
 
@@ -80,7 +80,7 @@ Följande egenskapsvärden returneras:
   <tr valign="top"> 
    <td> <p> <span class="codeph"> catalog.fileTime</span> </p> </td> 
    <td> <p> string </p> </td> 
-   <td> <p> <span class="codeph"> attribute::LastModified</span>, eller, om sådan inte finns, den senaste ändringstiden för  <span class="varname"> catalog</span><span class="filepath"> .</span> inifile </p> </td> 
+   <td> <p> <span class="codeph"> attribute::LastModified</span>eller, om den inte finns, den senaste ändrade tiden för <span class="varname"> katalog</span><span class="filepath"> .ini</span> fil </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.jpegQuality</span> </p> </td> 

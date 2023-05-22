@@ -4,7 +4,8 @@ description: Videonavigeringen är den vågräta skjutreglaget som gör att en a
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 9f7e3fec-8303-4114-86b2-fb75d041701d
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%

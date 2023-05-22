@@ -2,19 +2,19 @@
 description: PageView.transition
 solution: Experience Manager
 title: PageView.transition
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: e9db5c83-e6cf-4847-99b3-a1cf6a1fbe9f
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
 
 # PageView.transition{#pageview-transition}
 
-[!DNL `[PageView.|<containerId>_pageView.]transition= *``*[, *`tidsövergång`*]`]
+[!DNL `[PageView.|<containerId>_pageView.]transition= *`tid`*[, *`övergång`*]`]
 
 <table id="table_E314540D347D47699C04EB80D20C0721"> 
  <tbody> 

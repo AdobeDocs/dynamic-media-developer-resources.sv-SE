@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 46f5dbc8-fbdc-4204-a6a0-60f34378c3e1
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
@@ -35,4 +35,4 @@ Ett typiskt svar på textegenskaper har följande allmänna struktur:
 
 *`propertyValue`* kan vara tom. Tomt utrymme är valfritt i början och slutet av varje rad och före och efter avgränsaren =. Enkla eller dubbla citattecken kan användas för att omsluta strängvärden, men är inte obligatoriska.
 
-Strängvärden kan innehålla escape-tecken i JAVA-format, t.ex. `\n`, `\t`, `\:` eller `\\`.
+Strängvärden kan innehålla escape-tecken i JAVA-format, t.ex. `\n`, `\t`, `\:`, eller `\\`.

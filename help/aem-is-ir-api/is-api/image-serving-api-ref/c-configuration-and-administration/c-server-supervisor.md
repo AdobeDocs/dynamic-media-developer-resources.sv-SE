@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: 83b6a63f-6bb8-4a14-b8d5-389d23fae57c
 source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '140'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Förutom att starta och stoppa andra Image Serving-komponenter ansvarar Server S
 
 ## Starta och stoppa {#section-061d28d74e034a30adc39ea3e2031cd0}
 
-Serverhanteraren startas, stoppas och startas om med Image Serving-verktygsskriptet. Mer information finns i [Verktygsdokumentationen](../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f).
+Serverhanteraren startas, stoppas och startas om med Image Serving-verktygsskriptet. Se [Verktygsdokumentation](../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f) för mer information.
 
 När du startar och stoppar Server Supervisor startas och stoppas alla andra Image Serving-komponenter automatiskt.
 

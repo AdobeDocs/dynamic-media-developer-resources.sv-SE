@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 3a97a520-5049-4b26-826e-ae913f0ac511
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
@@ -19,10 +19,10 @@ Normaliserade koordinater. Används för att ange relativa positioner inom en bi
 <table id="simpletable_EFA3111DC4B94BAF94715500DB4DD8FB"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> coordN</span> </span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> nx</span> </span>,  <span class="codeph"><span class="varname"> ny</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> nx</span> </span>, <span class="codeph"><span class="varname"> ny</span></span> </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> nx</span> </span>,  <span class="codeph"><span class="varname"> ny</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> nx</span> </span>, <span class="codeph"><span class="varname"> ny</span></span> </p></td> 
   <td class="stentry"> <p>koordinatförskjutning som normaliserats till en bilds storlek (verklig, verklig) </p></td> 
  </tr> 
 </table>

@@ -4,7 +4,8 @@ description: Uppspelningsikonen visas i huvudvisningsområdet. Den visas när vi
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 2d8d60e8-9ab6-44fa-af50-b96910a87dee
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%

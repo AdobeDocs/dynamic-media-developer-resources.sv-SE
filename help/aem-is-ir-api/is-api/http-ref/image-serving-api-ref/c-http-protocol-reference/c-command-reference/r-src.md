@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 88b89e70-59cf-4fb9-bbe7-0ac5eff792f1
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
@@ -16,15 +16,15 @@ ht-degree: 0%
 
 Lagerbild.
 
-` src= *``*|{[is|ir|fxg]'{' *`objectnestedRequest`*'}'}`
+` src= *`object`*|{[is|ir|fxg]'{' *`nestedRequest`*'}'}`
 
 <table id="simpletable_59104309B8284B21ABCE7DC95BF5A273"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> object  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> object </span> </p> </td> 
   <td class="stentry"> <p>Bildobjekt. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> nestedRequest  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> nestedRequest </span> </p> </td> 
   <td class="stentry"> <p>Kapslad bildhantering, bildåtergivning eller extern begäran. </p> </td> 
  </tr> 
 </table>
@@ -33,26 +33,26 @@ Lagerbild.
 
 Anger källbilden för ett bildlager.
 
-*`object`* kan antingen vara en katalogpost eller en bild-/SVG-fil.
+*`object`* kan vara antingen en katalogpost eller en bild/SVG-fil.
 
-Se [objekt](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0).
+Se [object](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0).
 
-Kapslade eller inbäddade begäranden omsluts av klammerparenteser. Lägg till en inbäddad begäran om bildservering med `is`, en inbäddad begäran om bildåtergivning med `ir` och en begäran om FXG-grafikåtergivning med `fxg`. En begäran till en extern server antas om inget prefix anges.
+Kapslade eller inbäddade begäranden omsluts av klammerparenteser. Förutse en inbäddad bildserverbegäran med `is`, en inbäddad begäran om bildåtergivning med `ir`och en begäran om en FXG-grafikåtergivning med `fxg`. En begäran till en extern server antas om inget prefix anges.
 
 Se [Begär kapsling och inbäddning](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b).
 
 ## Egenskaper {#section-2c22bb89a35d470f833df8ba898efd93}
 
-Lagerattribut. Gäller för `layer=0` om `layer=comp`. Mutuellt exklusiv med `text=` och `textPs=` i samma lager; den sista förekomsten av antingen `text=`, `textPs=` eller `src=` gäller och avgör om det här är en bild eller ett textlager. Ignoreras av effektlager.
+Lagerattribut. Gäller för `layer=0` if `layer=comp`. Ömsesidigt exklusiv med `text=` och `textPs=` i samma lager, den sista förekomsten av `text=`, `textPs=`, eller `src=` styr och avgör om det här är en bild eller ett textlager. Ignoreras av effektlager.
 
-*`object`*kan inte matchas till en annan katalogpost som innehåller kommandot `src=` eller `mask=` i `catalog::Modifier`. (Använd kapsling av begäranden för att uppnå en liknande effekt.)
+*`object`*kan inte matcha en annan katalogpost som innehåller en `src=` eller `mask=` kommando i sin `catalog::Modifier`. (Använd kapsling av begäranden för att uppnå en liknande effekt.)
 
-Prefixen `is`, `ir` och `fxg` är skiftlägeskänsliga.
+The `is`, `ir`och `fxg` är skiftlägeskänsliga.
 
 ## Standard {#section-a92f3882041b4d43ae2caf014647165f}
 
-För lager 0 används objektet från bankomponenten i URL:en om `src=` inte anges. Inget standardvärde för andra lager.
+För lager 0 används objektet från bankomponenten i URL:en om `src=` har inte angetts. Inget standardvärde för andra lager.
 
 ## Se även {#section-e467e03330564796932ac081f1c9c1d0}
 
-[katalog::Path](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md) ,  [attribut::RootPath](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md#reference-17d57e5967be403b8408fa7214017494),  [text=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-text.md#reference-84634052e48548539a1ef63cbe41f22f),  [textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767),  [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e),  [ ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0)  [ ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e)  [object¥,¥Templates¥,¥Request Nesting and Embedding](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b)
+[katalog::Path](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md) , [attribute::RootPath](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md#reference-17d57e5967be403b8408fa7214017494), [text=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-text.md#reference-84634052e48548539a1ef63cbe41f22f), [textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767), [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [object](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0), [Mallar](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e), [Begär kapsling och inbäddning](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b)

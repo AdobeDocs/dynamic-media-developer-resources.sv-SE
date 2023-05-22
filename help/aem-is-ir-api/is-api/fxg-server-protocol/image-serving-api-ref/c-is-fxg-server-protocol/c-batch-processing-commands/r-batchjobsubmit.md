@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 4ab2f6e4-cd68-4f1e-ab54-6f5e9bfc87cb
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '43'
+source-wordcount: '38'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Den här parametern:
 
 <table id="simpletable_11A94D630A21426F9A1CEF5EB3B9E789"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> jobbdata  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> jobbdata </span> </p> </td> 
   <td class="stentry"> <p>XML-kodfragment med fullständiga jobbdata. </p> </td> 
  </tr> 
 </table>

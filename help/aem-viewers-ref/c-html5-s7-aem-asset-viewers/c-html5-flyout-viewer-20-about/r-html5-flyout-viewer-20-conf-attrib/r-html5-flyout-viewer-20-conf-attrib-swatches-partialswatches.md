@@ -8,7 +8,7 @@ exl-id: c689102d-360f-4529-9f17-27835dd4e21e
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
 source-wordcount: '34'
-ht-degree: 5%
+ht-degree: 2%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 5%
  </tbody> 
 </table>
 
-## Properties {#section-5526a5d19e7e4ee2a35b1c4816ed4202}
+## Egenskaper {#section-5526a5d19e7e4ee2a35b1c4816ed4202}
 
 Valfritt.
 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 644659a7-8f34-4de0-aa94-bc33909ff361
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '54'
 ht-degree: 0%
 
 ---
@@ -27,4 +27,4 @@ Pixelstorlek. Används för att ange bildstorlekar eller rektangelstorlekar i pi
  </tr> 
 </table>
 
-Både *`px`* och *`py`* måste vara större än 0. `0,0` kan ange att ett visst standardvärde ska användas.
+Båda *`px`* och *`py`* måste vara större än 0. `0,0` kan ange att ett visst standardvärde ska användas.

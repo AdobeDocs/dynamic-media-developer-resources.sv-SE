@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: f62ae048-0dcc-4e93-a9f1-2e4db6bef51f
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '208'
 ht-degree: 0%
 
 ---
@@ -31,19 +31,19 @@ Bildankarpunkt. Definierar fästpunkten för rektangeln för bilden, den heltäc
  </tr> 
 </table>
 
-Fästpunkten omformas med bilden och blir lagerstartpunkten (om inte `origin=` också anges, och i så fall används `anchor=` bara som rotationscenter för `rotate=`).
+Fästpunkten omformas med bilden och blir lagerstartpunkten (om inte `origin=` anges också, i vilket fall `anchor=` används endast som rotationscenter för `rotate=`).
 
-`anchorN=0,0` placerar bildankarpunkten i mitten av källbilden. `anchorN=-0.5,-0.5` eller  `anchor=0,0` finns i det övre vänstra hörnet och  `anchorN=0.5,0.5` finns i det nedre högra hörnet av källbilden.
+`anchorN=0,0` placerar bildankarpunkten i mitten av källbilden. `anchorN=-0.5,-0.5` eller `anchor=0,0` finns i det övre vänstra hörnet, och `anchorN=0.5,0.5` finns längst ned till höger i källbilden.
 
 ## Egenskaper {#section-f08942bc6aae46a8b5d341faaff80640}
 
-Källbildattribut. Gäller för det aktuella lagret eller för lagret 0 om `layer=comp`.
+Källbildattribut. Gäller det aktuella lagret eller lagret 0 om `layer=comp`.
 
 ## Standard {#section-35d369fab1254f1a9b91684a6e169ad1}
 
-Om `anchor=` inte anges används katalogen::Anchor. Om `catalog::Anchor` inte har definierats används bildrektangelns mitt (samma som att ange `anchorN=0,0`).
+If `anchor=` har inte angetts, catalog::Anchor används. If `catalog::Anchor` är inte definierad, bildrektangelns mitt används (samma som att ange `anchorN=0,0`).
 
-Textlager som innehåller `textPs=` och lager som innehåller `clipPath=` kan ha olika standardankarpunkter.
+Textlager som innehåller `textPs=` och lager som `clipPath=` kan ha olika standardankarpunkter.
 
 ## Exempel {#section-cc127e6b1ea94524900b5c0dd8b4c7ec}
 
@@ -51,4 +51,4 @@ Se&quot;Exempel C&quot; i [Mallar](../../../../../is-api/http-ref/image-serving-
 
 ## Se även {#section-9877ea3a0743492aaa4fa1dfc9510b07}
 
-[katalog::Anchor](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-anchor-cat.md) ,  [origin=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md#reference-e11c7ac06e2240cc884c3fec98f05138),  [rotate=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096),  [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d),  [textlager](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-text-layers.md#reference-47e78cfb18134db5ab09e17af14a6a8f)
+[katalog::Ankarpunkt](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-anchor-cat.md) , [origin=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md#reference-e11c7ac06e2240cc884c3fec98f05138), [rotate=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096), [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d), [Textlager](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-text-layers.md#reference-47e78cfb18134db5ab09e17af14a6a8f)

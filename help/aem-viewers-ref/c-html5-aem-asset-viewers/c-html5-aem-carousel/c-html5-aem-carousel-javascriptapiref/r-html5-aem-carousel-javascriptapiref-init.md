@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 00e09e26-1380-487c-9512-34d805f1330d
 source-git-commit: 96ac67e5645c2c55920cc971806ba2f14ae57044
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ JavaScript API-referens för Carousel Viewer.
 
 Startar initieringen av Carousel Viewer. Vid den här tidpunkten måste behållar-DOM-elementet skapas så att visningsprogramkoden kan hitta det med dess ID.
 
-Om behållarelementet inte är en del av webbsideslayouten än - till exempel om det är dolt med formatet `display:none` - avbryts visningsprogrammets initieringsprocess. Den pausas tills webbsidan återför behållarelementet till layouten, då visningsprogrammet automatiskt laddas igen.
+Om behållarelementet inte är en del av webbsideslayouten än, kan det till exempel döljas med `display:none` style - visningsprogrammet avbryter initieringsprocessen. Den pausas tills webbsidan återför behållarelementet till layouten, då visningsprogrammet automatiskt laddas igen.
 
 Anropa denna metod endast en gång under tittarens livscykel. efterföljande anrop ignoreras.
 

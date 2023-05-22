@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: bc69f094-ff21-4dd7-9e10-daddb3de0c65
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,8 @@ HTTP-svaret kan nås med TTL-värdet baserat på `catalog::NonImgExpiration`.
 >
 >Kolontecknet tillåts inte i req=set-begäranden.
 
-Begäranden som stöder JSON-svarsformatet gör att du kan ange namnet på JS-callback-hanteraren med den utökade syntaxen för parametern `req=`:
+Begäranden som stöder JSON-svarsformatet gör att du kan ange namnet på JS-callback-hanteraren med den utökade syntaxen för `req=` parameter:
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` är namnet på JS-hanteraren som finns i JSONP-svaret. Endast tecknen a-z, A-Z och 0-9 tillåts. Valfritt. Standardvärdet är `s7jsonResponse`.
+`<reqHandler>` är namnet på JS-hanteraren som finns i JSONP-svaret. Endast tecknen a-z, A-Z och 0-9 tillåts. Valfritt. Standard är `s7jsonResponse`.

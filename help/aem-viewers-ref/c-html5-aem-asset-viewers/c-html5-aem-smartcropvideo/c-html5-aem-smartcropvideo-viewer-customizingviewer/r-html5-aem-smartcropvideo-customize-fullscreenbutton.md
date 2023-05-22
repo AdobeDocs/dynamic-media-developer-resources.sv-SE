@@ -4,7 +4,8 @@ description: Helskärmsknappen gör att videospelaren för smart beskärning gå
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 79b57f6d-17d2-48af-9414-b0ab9d24fbdc
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 0%

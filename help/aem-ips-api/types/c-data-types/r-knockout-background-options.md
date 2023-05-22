@@ -8,7 +8,7 @@ exl-id: aed8cf2e-5a09-43ff-9420-0d0d54059515
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '188'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ Den här datatypen är valfri och inaktiverad som standard.
 >* `kbTolerance`
 >* `kbFillMethod`
 >
->Exempel: `kbCorner=UpperLeft&kbTolerance=0.2&kbFillMethod=MatchPixel`
+>Till exempel: `kbCorner=UpperLeft&kbTolerance=0.2&kbFillMethod=MatchPixel`
 
 <table id="table_68131DE0A3C84908A43C6F7777F20973"> 
  <thead> 

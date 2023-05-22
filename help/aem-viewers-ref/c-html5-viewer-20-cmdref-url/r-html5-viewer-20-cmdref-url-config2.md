@@ -8,7 +8,7 @@ exl-id: dbbec03a-077d-46b0-bfc6-e09436fa850a
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
 source-wordcount: '35'
-ht-degree: 8%
+ht-degree: 5%
 
 ---
 
@@ -26,7 +26,7 @@ Parametern är gemensam för alla visningsprogram.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> företagsförinställning</span> </span> </p> </td> 
-   <td colname="col2"> <p> Namn på <span class="keyword"> Adobe Analytics</span>-konfigurationsförinställningen. </p> </td> 
+   <td colname="col2"> <p> Namn på <span class="keyword"> Adobe Analytics</span> konfigurationsförinställning. </p> </td> 
   </tr> 
  </tbody> 
 </table>

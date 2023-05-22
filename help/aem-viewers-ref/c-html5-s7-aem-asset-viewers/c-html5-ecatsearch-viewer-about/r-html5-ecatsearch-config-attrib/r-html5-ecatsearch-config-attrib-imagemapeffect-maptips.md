@@ -2,13 +2,13 @@
 description: ImageMapEffect.mapTips
 solution: Experience Manager
 title: ImageMapEffect.mapTips
-feature: Dynamic Media Classic,Visningsprogram,SDK/API,eCatalog-sökning
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 922649e9-865a-4b53-8507-a21611a6d0ac
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 5%
+source-wordcount: '27'
+ht-degree: 3%
 
 ---
 
