@@ -1,13 +1,13 @@
 ---
-description: ID
-solution: Experience Manager
 title: ID
+description: Vanligtvis är det en kort och unik identifierare, till exempel ett SKU-nummer, som kanske har något slags suffix, till exempel om en SKU har flera bilder eller har språkspecifika variationer.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 818649dd-bcb7-4ff5-9308-6b5dc06f66e1
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c1a4dad7888d31e0b78f0fc5091700ad8104e685
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
