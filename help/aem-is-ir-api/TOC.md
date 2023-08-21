@@ -4,9 +4,9 @@ user-guide-title: Dynamic Media Image Serving and Rendering API
 breadcrumb-title: Dynamic Media Image Serving and Rendering API
 feature-set: Experience Manager Assets
 user-guide-description: Visa dokumentation om API:er för IS (Image Serving) och IR (Image Rendering) och relaterade tekniker.
-source-git-commit: f64229a72bef887f356b118a1da4ba5177c28bbc
+source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1468'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 0%
       + [Omdirigering vid fel](is-api/image-serving-api-ref/c-configuration-and-administration/c-redirect-on-error.md)
       + [Konfigurerar SVG](is-api/image-serving-api-ref/c-configuration-and-administration/c-configuring-svg.md)
       + [Serverkonfiguration](is-api/image-serving-api-ref/c-configuration-and-administration/c-manual-server-configuration.md)
-      + [Definiera SSL-ciphers](is-api/image-serving-api-ref/c-configuration-and-administration/r-ssl-ciphers.md)
+      + [Definiera SSL-skrivare](is-api/image-serving-api-ref/c-configuration-and-administration/r-ssl-ciphers.md)
       + [Serveransvarig](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-supervisor.md)
       + Serverloggning {#server-logging}
          + [Serverloggning](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-logging/c-server-logging.md)
@@ -143,10 +143,10 @@ ht-degree: 0%
          + [Begäranlåsning](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-locking.md)
          + [Förfrågan om obehörig](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md)
          + [Vattenstämplar](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-watermarks.md)
-         + [Serverar statiskt innehåll (inte bildinnehåll)](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-serving-static-non-image-content.md)
+         + [Serverar statiskt (icke-bildinnehåll) innehåll](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-serving-static-non-image-content.md)
          + [Medieuppsättningsbegäranden](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-media-set-requests.md)
       + Textformatering {#text-formatting}
-         + [Översikt över textformatering](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md)
+         + [Textformateringsöversikt](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md)
          + [Teckensnittshantering](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-font-handling.md)
          + [Färghantering](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-color-handling.md)
          + [Kopia](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-copy-fitting.md)
@@ -185,6 +185,7 @@ ht-degree: 0%
          + [beskära](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md)
          + [cropPathE](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-croppath.md)
          + [defaultImage](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-defaultimage.md)
+         + [dpr](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md)
          + [effekt](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-effect.md)
          + [effectMask](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-effectmask.md)
          + [utöka](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md)
@@ -203,6 +204,7 @@ ht-degree: 0%
          + [map](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-map.md)
          + [mask](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md)
          + [maskUse](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-maskuse.md)
+         + [nätverk](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md)
          + [op_blur](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-blur.md)
          + [op_brightness](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-brightness.md)
          + [op_colorbalance](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-colorbalance.md)
@@ -342,7 +344,7 @@ ht-degree: 0%
             + [jobid](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-batch-processing-commands/r-jobid.md)
    + Referens för bildkatalog {#image-catalog-reference}
       + [Referens för bildkatalog](is-api/image-serving-api-ref/c-image-catalog-reference/c-image-catalog-reference.md)
-      + [Översikt](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md)
+      + [Ökning](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md)
       + [Uppdaterar bildkataloger](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-updating-image-catalogs.md)
       + [Standardkatalog](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-default-catalog.md)
       + Katalogattribut {#catalog-attributes}
@@ -399,7 +401,7 @@ ht-degree: 0%
       + [DigimarcInfo](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcinfo.md)
       + [ErrorImage](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errorimage.md)
       + [ErrorDetail](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errordetail.md)
-      + [Förfaller](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-expiration.md)
+      + [Förfallotid](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-expiration.md)
       + [FontMapFile](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-fontmapfile.md)
       + [FullMatch](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-fullmatch.md)
       + [HttpAppleStreamingContext](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-httpapplestreamingcontext.md)
@@ -428,7 +430,7 @@ ht-degree: 0%
       + [Upplösning](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-resolution.md)
       + [RootId](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootid.md)
       + [RootPath](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md)
-      + [RootUrl](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rooturl.md)
+      + [RootURL](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rooturl.md)
       + [RuleSetFile](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rulesetfile.md)
       + [SavePath](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-savepath.md)
       + [StaticContentCatalogFile](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-staticcontentcatalogfile.md)
@@ -454,7 +456,7 @@ ht-degree: 0%
          + [Ankarpunkt](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-anchor-cat.md)
          + [AssetType](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-assettype-cat.md)
          + [DigimarcInfo](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-digimarcinfo-cat.md)
-         + [Förfaller](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-expiration-cat.md)
+         + [Förfallotid](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-expiration-cat.md)
          + [ID](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-id-cat.md)
          + [ImageSet](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md)
          + [Karta](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-map-cat.md)
@@ -473,13 +475,13 @@ ht-degree: 0%
          + [UserType](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-usertype-cat.md)
       + SVG datareferens {#svg-data-reference}
          + [SVG datareferens](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-svg-data-reference/c-svg-data-reference.md)
-         + [Förfaller](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-svg-data-reference/r-expiration-svg.md)
+         + [Förfallotid](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-svg-data-reference/r-expiration-svg.md)
          + [ID](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-svg-data-reference/r-id-svg.md)
          + [Bana](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-svg-data-reference/r-path-svg.md)
          + [TimeStamp](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-svg-data-reference/r-timestamp-svg.md)
       + Statiska innehållsdata {#static-content-data}
          + [Referens för statiska innehållsdata](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-static-content-data-reference/c-static-content-data-reference.md)
-         + [Förfaller](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-static-content-data-reference/r-expiration-static.md)
+         + [Förfallotid](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-static-content-data-reference/r-expiration-static.md)
          + [ID](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-static-content-data-reference/r-id-static.md)
          + [Bana](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-static-content-data-reference/r-path-static.md)
          + [TimeStamp](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-static-content-data-reference/r-timestamp-static.md)
@@ -506,7 +508,7 @@ ht-degree: 0%
       + [header](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-header-rule.md)
       + [regel](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-rule-rule.md)
       + [linjaluppsättning](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-ruleset-rule.md)
-      + [ersättning](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-substitution-rule.md)
+      + [substitutioner](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-substitution-rule.md)
    + [Bildserverproxy](is-api/image-serving-api-ref/r-image-server-proxy.md)
    + [Exempel på bildserver](is-api/image-serving-api-ref/r-examples-is.md)
    + Responsiv statisk bildbibliotek {#responsive-static-image-library}
@@ -533,7 +535,7 @@ ht-degree: 0%
          + [Konfigurationsfiler](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-config-files.md)
          + [Starta och stoppa servern](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-starting-and-stopping-the-server.md)
          + [Serverloggning](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-server-logging.md)
-         + [Datacachelagring](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-data-caching.md)
+         + [Cachelagring av data](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-data-caching.md)
          + [Minnesöverväganden](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-memory-considerations.md)
          + [Tänk på dynamiskt diskutrymme](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-dynamic-disk-space-considerations.md)
          + [Storleksbegränsning för vinjett](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-vignette-size-limitation.md)
@@ -574,7 +576,7 @@ ht-degree: 0%
          + Avancerade renderingseffekter {#advanced-render-effects}
             + [Avancerade renderingseffekter](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-advanced-render-effects.md)
             + [Använda flera belysningskartor](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-use-multiple-illumination-maps.md)
-            + [Färga material](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-colorizing-materials.md)
+            + [Färglägga material](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-colorizing-materials.md)
             + [Varierande materialopacitet](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-varying-material-opacity.md)
             + [Reflektioner](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/r-ir-reflections.md)
             + [Glanseffekter](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-gloss-effects.md)
@@ -669,7 +671,7 @@ ht-degree: 0%
          + [DefaultPix](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-defaultpix.md)
          + [ErrorDetail](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errordetail.md)
          + [ErrorImage](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errorimage.md)
-         + [Förfaller](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-expiration.md)
+         + [Förfallotid](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-expiration.md)
          + [Format](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-format.md)
          + [IccBlackPointCompensation](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccblackpointcompensation.md)
          + [IccDither](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccdither.md)
@@ -708,7 +710,7 @@ ht-degree: 0%
          + [AuxPath](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-auxpath.md)
          + [BaseColor](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-basecolor.md)
          + [Färg](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-color.md)
-         + [Förfaller](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-expiration-dataref.md)
+         + [Förfallotid](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-expiration-dataref.md)
          + [Glans](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-gloss.md)
          + [ID](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-id.md)
          + [Illum](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-illum.md)
@@ -723,7 +725,7 @@ ht-degree: 0%
          + [Typ](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-type.md)
       + Referens för vinjetteringskarta {#vignette-map-reference}
          + [Referens för vinjetteringskarta](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/c-ir-vignette-map-reference.md)
-         + [Förfaller](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-expiration-vignette.md)
+         + [Förfallotid](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-expiration-vignette.md)
          + [ID](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-id-vignette.md)
          + [Modifierare](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-modifier.md)
          + [Bana](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-path-vignette.md)
@@ -743,10 +745,10 @@ ht-degree: 0%
          + [uttryck](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/r-ir-expression.md)
          + [regel](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/r-ir-rule.md)
          + [linjaluppsättning](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/r-ir-ruleset.md)
-         + [ersättning](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/r-ir-substitution.md)
+         + [substitutioner](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/r-ir-substitution.md)
 + Verktyg {#utilites}
    + [Översikt över verktyg](utilities/utilities.md)
-   + Bildserververktyg {#image-serving-utilities}
+   + Bilderingsverktyg {#image-serving-utilities}
       + [Image Serving utilities](is-api/is-utils/utilities/c-utils-home.md)
       + [Plats för verktygen](is-api/is-utils/utilities/c-location-of-utilities.md)
       + [ic](is-api/is-utils/utilities/r-ic.md)

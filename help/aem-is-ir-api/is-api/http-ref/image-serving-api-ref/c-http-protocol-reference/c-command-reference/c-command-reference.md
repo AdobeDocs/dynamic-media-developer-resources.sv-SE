@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 959cb193-d0b7-4aa9-a747-fa17484f80c7
-source-git-commit: 187de979d7d1f7ce92b7b4c8b7661a787ab6889f
+source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -32,13 +32,13 @@ I det här avsnittet beskrivs HTTP-protokollkommandona.
 
 * Färgkorrigeringskommandon: `icc=` och `iccEmbed=`.
 * Grundläggande kommandon för mallar och textåtergivning: `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` och `textPs=`.
-* Lokaliseringskommandon: `locale=` och `req=xlate`.
+* Localization commands: `locale=` och `req=xlate`.
 * `req=set` är inte tillgängligt för allmän användning.
 * `req=mbrset`
 * `req=saveToFile`
 * `req=targets`
 * `template=`
-* Icke-kärntjänster från Dynamic Media: SVG, bildåtergivning och webb-till-utskrift.
+* Icke-kärnbaserade Dynamic Media-tjänster: SVG, bildåtergivning och web-to-Print.
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
@@ -57,6 +57,7 @@ Se även Dynamic Media [Alternativ för bildförinställning](https://experience
 * [beskära](r-crop.md)
 * [cropPathE](r-croppath.md)
 * [defaultImage](r-is-http-defaultimage.md)
+* [dpr](r-dpr.md)
 * [effekt](r-effect.md)
 * [effectMask](r-effectmask.md)
 * [utöka](r-extend.md)
@@ -75,6 +76,7 @@ Se även Dynamic Media [Alternativ för bildförinställning](https://experience
 * [map](r-map.md)
 * [mask](r-mask.md)
 * [maskUse](r-maskuse.md)
+* [nätverk](r-network.md)
 * [op_blur](r-op-blur.md)
 * [op_brightness](r-op-brightness.md)
 * [op_colorbalance](r-op-colorbalance.md)
