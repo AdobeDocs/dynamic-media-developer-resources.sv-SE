@@ -1,11 +1,11 @@
 ---
+title: res
 description: Upplösningsbaserad bildskalning. Skalar bilden till den önskade upplösningen.
 solution: Experience Manager
-title: res
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e8ed7b00-7bb3-463e-9aaa-47f77bd4b45e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Upplösningsbaserad bildskalning. Skalar bilden till den önskade upplösningen.
 <table id="simpletable_E69F3709266749C4A165C90FF18FF5AA"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> val </span> </p> </td> 
-  <td class="stentry"> <p>Upplösning. normalt i pixlar per tum (reellt). </p> </td> 
+  <td class="stentry"> <p>Målupplösning, vanligtvis i pixlar per tum (reell). </p> </td> 
  </tr> 
 </table>
 
@@ -41,7 +41,7 @@ Källbild/maskattribut. Ignoreras av lager som inte är kopplade till en källbi
 
 ## Standard {#section-c5f1ba6fe53d46eca32e7d0588dcdf3d}
 
-Om inget anges `scale=` eller `size=` bestämmer skalningsfaktorn, eller om inget av dem anges, används bilden utan skalning.
+Om inget anges, `scale=` eller `size=` bestämmer skalningsfaktorn, eller om inget av dem anges, används bilden utan skalning.
 
 ## Exempel {#section-eb06f333e08e4247971fb1b18922597b}
 

@@ -1,11 +1,11 @@
 ---
+title: beskära
 description: Beskär bild. Anger ett rektangulärt beskärningsområde, uttryckt antingen i pixlar eller normaliserat i förhållande till den högupplösta källbilden eller maskbilden.
 solution: Experience Manager
-title: beskära
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d1ea63c1-95f0-4a4e-b65d-eb535eef0205
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 0%

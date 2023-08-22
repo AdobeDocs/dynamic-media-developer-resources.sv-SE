@@ -1,11 +1,11 @@
 ---
+title: textFlowPath
 description: Textflödesområde. Anger ett eller flera områden i vilka text som anges med textPs= ska flödas.
 solution: Experience Manager
-title: textFlowPath
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b5575d17-150b-421c-b298-077b577eb95c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Textflödesområde. Anger ett eller flera områden i vilka text som anges med te
 
 Se [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) ytterligare information, inklusive en beskrivning av *`pathDefinition`*.
 
-RTF-marginalkommandon `\margl`, `\margr`, `\margt`och `\margb` ignoreras när `textFlowPath=` är närvarande. Om ingen sökvägsdefinition har angetts, `textFlowPath=` ignoreras.
+RTF-marginalkommandon `\margl`, `\margr`, `\margt`och `\margb` ignoreras när `textFlowPath=` är närvarande. Om ingen sökvägsdefinition har angetts `textFlowPath=` ignoreras.
 
 ## Egenskaper {#section-b68dc887c6534ce8982cad740b3aeaa4}
 
@@ -35,7 +35,7 @@ Textlagerattribut ( `textPs=` endast). Ignoreras av andra lager. Gäller för `l
 
 ## Standard {#section-68c4559b9e8242059b82e5a39a455dfc}
 
-Samma som lagerrektangeln, text fyller hela lagrets rektangel.
+Samma som lagerrektangeln. Texten fyller hela lagrets rektangel.
 
 ## Se även {#section-592b0039cf99471188db6a7df44b450a}
 

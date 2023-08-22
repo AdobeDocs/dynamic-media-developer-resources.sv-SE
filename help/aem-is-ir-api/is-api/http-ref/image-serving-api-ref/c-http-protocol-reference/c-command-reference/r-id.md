@@ -1,11 +1,11 @@
 ---
+title: id
 description: Bild-/metadataversion. När du arbetar med innehåll som ändras ofta kan servrar i cachningsnätverk som Akamai, webbläsarcacher och cacheminnen för företagsproxyservrar lagra Image Serving-svar som kan vara inaktuella under tidsperioder.
 solution: Experience Manager
-title: id
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3cdd27e4-14d2-42ef-aedb-9c1f7c39b4c6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 0%
@@ -70,7 +70,7 @@ I följande tabell visas de versionsidentifierarsträngar som ska användas för
  </tbody> 
 </table>
 
-`req=` typer som inte anges ovan har en kort TTL ( `attribute::NonImgExpiration`) eller deras svar inte är tillgängliga alls, det finns ingen fördel med att `id=` med sådana förfrågningar.
+`req=` typer som inte anges ovan har en kort TTL ( `attribute::NonImgExpiration`) eller deras svar inte alls är tillgängliga; det finns ingen fördel med att inkludera `id=` med sådana förfrågningar.
 
 ## Egenskaper {#section-62e973d0d5884abebbb0679f9278ae2c}
 

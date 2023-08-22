@@ -1,11 +1,11 @@
 ---
+title: justera
 description: Justera bild med Visa. Justerar den sammansatta bilden (eventuellt efter skalning, om scl= även anges) inom visningsrektangeln som definieras av wid= och hei=.
 solution: Experience Manager
-title: justera
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 01001cc6-1a60-4d6b-a27f-ea5822be6d11
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Följande begäran passar `myImage` till en 200 x 200 pixlar stor visningsrektan
 
 `http://server/myRootId/myImageId?wid=200&hei=200&align=0,-1`
 
-If `myImage` är exakt fyrkantig, fyller hela visningsrektangeln. If `myImage` har stående proportioner, skalas till 200 pixlar hög och centreras vågrätt i vyn. If `myImage` har liggande proportioner, skalas till 200 pixlar bred och justeras mot vyns överkant. I samtliga fall är den returnerade bilden exakt 200 × 200 pixlar stor. allt utrymme som inte täcks av den skalade `myImage` fylls med `attribute::BkgColor` (ange bgc= om du vill styra bakgrundsfärgen dynamiskt).
+If `myImage` är exakt fyrkantig, fyller hela visningsrektangeln. If `myImage` har stående proportioner, skalas till 200 pixlar hög och centreras vågrätt i vyn. If `myImage` har liggande proportioner, skalas till 200 pixlar bred och justeras mot vyns överkant. I samtliga fall är den returnerade bilden exakt 200 x 200 pixlar stor, och det utrymme som inte täcks av den skalförändrade bilden `myImage` fylls med `attribute::BkgColor` (ange bgc= om du vill styra bakgrundsfärgen dynamiskt).
 
 ## Se även {#section-28b42c6db199456a800c8407faa26a99}
 

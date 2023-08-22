@@ -1,11 +1,11 @@
 ---
+title: op_usm
 description: Oskarp mask. Oskarp maskerar lagret eller den slutliga visningsbilden, efter all skalning, om layer=comp.
 solution: Experience Manager
-title: op_usm
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a83d6326-9029-4c5c-a069-92bc81120866
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Lagerattribut eller vyattribut. Gäller det aktuella lagret eller den slutliga v
 
 ## Standard {#section-2bedc99866ff473e90e5ea36596d8362}
 
-`op_usm=0,0,0,0` utan oskarp maskningseffekt.
+`op_usm=0,0,0,0` utan oskarp maskning.
 
 ## Se även {#section-63f186b8a1b34ec4bb895230838502a4}
 

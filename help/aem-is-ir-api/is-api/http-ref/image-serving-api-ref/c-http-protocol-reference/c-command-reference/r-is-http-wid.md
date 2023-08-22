@@ -1,11 +1,11 @@
 ---
+title: wid
 description: Visa bredd. Anger svarsbildens bredd (visningsbild) när fit= inte finns i begäran.
 solution: Experience Manager
-title: wid
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ba22c79b-da59-4993-aa1c-2c990a0c4be5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 0%
@@ -25,9 +25,9 @@ Visa bredd. Anger svarsbildens bredd (visningsbild) när fit= inte finns i begä
  </tr> 
 </table>
 
-Om båda `hei=` och `scl=` anges kan den sammansatta bilden beskäras enligt `align=` -attribut. När `fit=` finns, `wid=` anger den exakta, minsta eller maximala responsbildens bredd, hänvisar till beskrivningen av `fit=` för mer information.
+Om båda `hei=` och `scl=` anges kan den sammansatta bilden beskäras enligt `align=` -attribut. När `fit=` är närvarande, `wid=` anger den exakta, minimala eller maximala bildbredden för svar; se beskrivningen av `fit=` för mer information.
 
-If `scl=` har inte angetts, skalas den sammansatta bilden så att den passar. Om båda `wid=` och `hei=` anges, och `scl=` anges inte, så skalas bilden så att den passar helt inom den breda/hei-rektangeln, så att så lite bakgrundsområde som möjligt visas. I det här fallet placeras bilden inom visningsrektangeln enligt `align=` -attribut.
+If `scl=` om inget anges skalas den sammansatta bilden så att den passar. Om båda `wid=` och `hei=` anges, och `scl=` anges inte, så skalas bilden så att den passar helt inom den breda/hei-rektangeln, så att så lite bakgrundsområde som möjligt visas. I det här fallet placeras bilden inom visningsrektangeln enligt `align=` -attribut.
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ If `scl=` har inte angetts, skalas den sammansatta bilden så att den passar. Om
 
 ## Standard {#section-976d4c8554a34c899f85d172f6ac6f58}
 
-Om ingen `wid=`, `hei=`, eller `scl=` anges kommer svarsbilden antingen att ha samma storlek som den sammansatta bilden eller `attribute::DefaultPix`, beroende på vad som är mindre.
+Om ingen `wid=`, `hei=`, eller `scl=` anges kommer svarsbilden antingen att ha samma storlek som den sammansatta bilden, eller `attribute::DefaultPix`, beroende på vad som är mindre.
 
 ## Egenskaper {#section-c93b7ce1b0d2475f80b06264b45d1285}
 
@@ -43,7 +43,7 @@ Visa attribut. Används oavsett den aktuella lagerinställningen.
 
 ## Exempel {#section-82bc98b7c15a451bbe9b915d414c0470}
 
-Begär att en bild ska få plats i en 200x200-rektangel. justera bilden uppåt åt höger om den inte är fyrkantig. Alla bakgrundsområden fylls med `attribute::BkgColor`.
+Begär att en bild ska få plats i en 200x200-rektangel. Bilden justeras uppåt till höger om den inte är fyrkantig. Alla bakgrundsområden fylls med `attribute::BkgColor`.
 
 ` http:// *`server`*/myRootId/myImageId?wid=200&hei=200&align=1,-1`
 

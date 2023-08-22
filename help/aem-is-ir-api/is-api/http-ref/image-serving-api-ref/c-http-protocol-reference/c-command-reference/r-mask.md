@@ -1,11 +1,11 @@
 ---
+title: mask
 description: Bildmask. Anger en separat maskbild som ska användas som en oassocierad mask.
 solution: Experience Manager
-title: mask
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5785844b-945b-4dd0-ac59-efbf1360b7cd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%
@@ -31,13 +31,13 @@ Bildmask. Anger en separat maskbild som ska användas som en oassocierad mask.
 
 *`object`* kan vara antingen en katalogpost eller en bild/SVG-fil. Kan anges för bildlager och enfärgade lager.
 
-If *`object`* matchar en bildkatalogspost, `catalog::MaskPath` används, eller `catalog::MaskPath` är inte definierad, sedan `catalog::Path` används. If *`object`* tolkar inte en katalogpost, utan som en filsökväg.
+If *`object`* matchar en bildkatalogspost, `catalog::MaskPath` används eller, om `catalog::MaskPath` är inte definierad, sedan `catalog::Path` används. If *`object`* kan inte tolkas som en katalogpost, utan tolkas som en filsökväg.
 
 Om källbilden har en alfakanal används den alltid. I annat fall konverteras bilden till gråskala, om det behövs, innan den används som en lagermask.
 
 Om en mask är kopplad till ett enfärgat lager kan den beskäras och skalas med samma regler som används för bilder i bildlager. `size=`, `scale=`, eller `res=` kan användas för att skala masken.
 
-Lagermasker kan också anges i form av en *`nestedRequest`*. Kapslade eller inbäddade begäranden omsluts av klammerparenteser. Förutse en inbäddad bildserverbegäran med `is` och en inbäddad begäran om bildåtergivning med `ir`. En begäran till en extern server antas om inget prefix anges. Se [Begär kapsling och inbäddning](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b) för mer information.
+Lagermasker kan också anges som en *`nestedRequest`*. Kapslade eller inbäddade begäranden omsluts av klammerparenteser. Förutse en inbäddad bildserverbegäran med `is` och en inbäddad begäran om bildåtergivning med `ir`. En begäran till en extern server antas om inget prefix anges. Se [Begär kapsling och inbäddning](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b) för mer information.
 
 ## Egenskaper {#section-a093043dc249423b8ae322cefb0d545d}
 

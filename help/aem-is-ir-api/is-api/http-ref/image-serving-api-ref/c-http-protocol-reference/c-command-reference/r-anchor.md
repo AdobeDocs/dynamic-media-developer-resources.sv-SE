@@ -1,11 +1,11 @@
 ---
+title: ankare
 description: Bildankarpunkt. Definierar fästpunkten för rektangeln för bilden, den heltäckande färgen eller textrutan innan du använder omformningar (crop=, scale=, rotate=, flip=). Fungerar även som centrum för rotation för rotate=.
 solution: Experience Manager
-title: ankare
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f62ae048-0dcc-4e93-a9f1-2e4db6bef51f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Fästpunkten omformas med bilden och blir lagerstartpunkten (om inte `origin=` a
 
 ## Egenskaper {#section-f08942bc6aae46a8b5d341faaff80640}
 
-Källbildattribut. Gäller det aktuella lagret eller lagret 0 om `layer=comp`.
+Källbildattribut. Gäller för det aktuella lagret eller för lagret 0 om `layer=comp`.
 
 ## Standard {#section-35d369fab1254f1a9b91684a6e169ad1}
 

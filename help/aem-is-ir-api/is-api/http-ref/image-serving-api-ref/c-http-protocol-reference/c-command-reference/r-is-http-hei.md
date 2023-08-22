@@ -1,11 +1,11 @@
 ---
+title: hei
 description: Visa höjd. Anger svarsbildens höjd (visningsbild) när det inte finns någon passning i begäran.
 solution: Experience Manager
-title: hei
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c812c7f0-4ac1-42cb-be47-7baebd8caf60
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 0%
@@ -25,9 +25,9 @@ Visa höjd. Anger svarsbildens höjd (visningsbild) när det inte finns någon p
  </tr> 
 </table>
 
-Om båda `wid=` och `scl=` anges kan den sammansatta bilden beskäras enligt `align=`-attribut. När `fit=` finns, `hei=` anger den exakta, minsta eller högsta bildhöjden för respons, hänvisar till beskrivningen av [fit=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md) för mer information.
+Om båda `wid=` och `scl=` anges kan den sammansatta bilden beskäras enligt `align=`-attribut. När `fit=` är närvarande, `hei=` anger den exakta, minsta eller maximala svarshöjden i bilden. Se beskrivningen av [fit=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md) för mer information.
 
-If `scl=` har inte angetts, skalas den sammansatta bilden så att den passar. Om båda `wid=` och `hei=` anges, och `scl=` är inte specificerat, skalas bilden så att den passar helt inom den breda/hei-rektangeln, så att så lite bakgrundsområde som möjligt visas, i det här fallet är bilden placerad inom visningsrektangeln enligt `align=` -attribut. Bakgrundsområdet fylls med `bgc=`eller, om det inte anges med `attribute::BkgColor`.
+If `scl=` om inget anges skalas den sammansatta bilden så att den passar. Om båda `wid=` och `hei=` anges, och `scl=` är inte specificerat, skalas bilden så att den passar helt inom den breda/hei-rektangeln, så att så lite bakgrundsområde som möjligt visas. I det här fallet placeras bilden inom visningsrektangeln enligt `align=` -attribut. Bakgrundsområdet fylls med `bgc=`eller, om det inte anges med `attribute::BkgColor`.
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ Om ingen `wid=`, `hei=`, eller `scl=` anges har svarsbilden antingen samma storl
 
 ## Exempel {#section-eb10df7cd67e4733984810aaffd0b9e2}
 
-Begär att en bild ska få plats i en 200x200-rektangel. justera bilden uppåt åt vänster om den inte är fyrkantig. Alla bakgrundsområden fylls med `attribute::BkgColor`.
+Begär att en bild ska få plats i en 200x200-rektangel. Bilden justeras uppåt åt vänster om den inte är fyrkantig. Alla bakgrundsområden fylls med `attribute::BkgColor`.
 
 `http://server/myRootId/myImageId?wid=200&hei=200&align=-1,-1`
 

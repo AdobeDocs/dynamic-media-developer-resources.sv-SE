@@ -1,11 +1,11 @@
 ---
+title: op_colorbalance
 description: Justera färgbalansen. Justerar värdet för varje RGB-färgkomponent separat.
 solution: Experience Manager
-title: op_colorbalance
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 93476778-97b0-4ad5-b22a-093239e845f0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 0%
@@ -33,11 +33,11 @@ Justera färgbalansen. Justerar värdet för varje RGB-färgkomponent separat.
  </tr> 
 </table>
 
-Grå- och CMYK-indata konverteras till RGB med hjälp av inbyggd konvertering som inte är korrekt när färghantering är aktiverat.
+Grå- och CMYK-indata konverteras till RGB med inbyggd konvertering som inte är korrekt när färghantering är aktiverat.
 
 ## Egenskaper {#section-dff9c934f7c1442bbd02379b688d82e2}
 
-Lager, kommando. Gäller det aktuella lagret eller den sammansatta bilden om `layer=comp`. Ignoreras av effektlager. CMYK-bilder och -lager konverteras till RGB innan åtgärden tillämpas.
+kommandot Lager. Gäller det aktuella lagret eller den sammansatta bilden om `layer=comp`. Ignoreras av effektlager. CMYK-bilder och -lager konverteras till RGB innan åtgärden tillämpas.
 
 ## Standard {#section-08d84ef715964f7daea86f5ef237d199}
 

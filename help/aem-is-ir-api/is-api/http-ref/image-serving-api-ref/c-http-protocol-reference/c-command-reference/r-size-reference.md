@@ -1,11 +1,11 @@
 ---
+title: size
 description: Lagerstorlek. Anger storleken eller den maximala lagerstorleken för ett lager, innan rotate=, perspective= och extend= används på lagret.
 solution: Experience Manager
-title: size
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 55feeb32-b69d-4b95-80fb-c77f2612d255
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 0%
@@ -31,15 +31,15 @@ Lagerstorlek. Anger storleken eller den maximala lagerstorleken för ett lager, 
  </tr> 
 </table>
 
-När det anges för ett bildlager, bibehåller size= lagerbildens bredd, höjd eller både och. Bilden skalas så att den inte är större än `size=`. Om en normaliserad storlek anges är den relativ till storleken på lagret 0. Om båda *`width`* och *`height`* anges skalas källbilden (efter `crop=` används) så att ingen dimension överskrider den angivna storleken. Källrektangelns proportioner bevaras i alla fall. Antingen *`width`* eller *`height`* kan anges till 0, I det här fallet beräknas värdet av servern baserat på bildens proportioner.
+När det anges för ett bildlager, bibehåller size= lagerbildens bredd, höjd eller både och. Bilden skalas så att den inte är större än `size=`. Om en normaliserad storlek anges är den relativ till storleken på lagret 0. Om båda *`width`* och *`height`* anges skalas källbilden (efter `crop=` används) så att ingen dimension överskrider den angivna storleken. Källrektangelns proportioner bevaras i alla fall. Antingen *`width`* eller *`height`* kan anges till 0. I det här fallet beräknas värdet av servern baserat på bildens proportioner.
 
-När det anges för ett textlager `size=` anger textrutans storlek. *`width`* krävs, *`height`* kan anges till 0, i vilket fall layouttextens höjd används som lagerhöjd. Som standard infogar textlayoutmotorer radbrytningar för att säkerställa att texten alltid passar in vågrätt i det tillgängliga utrymmet. If *`height`* har angetts beskärs rader som inte får plats i det tillgängliga utrymmet ( `text=`) eller utelämnad ( `textPs=`). `text=` stöder ytterligare passningssätt, referera till `textAttr=` för mer information.
+När det anges för ett textlager, `size=` anger textrutans storlek. *`width`* krävs, *`height`* kan anges till 0, i vilket fall layouttextens höjd används som lagerhöjd. Som standard infogar textlayoutmotorer radbrytningar för att säkerställa att texten alltid passar in vågrätt i det tillgängliga utrymmet. If *`height`* har angetts beskärs rader som inte får plats i det tillgängliga utrymmet ( `text=`) eller utelämnad ( `textPs=`). `text=` har stöd för ytterligare anpassningslägen, se `textAttr=` för mer information.
 
-När det anges för ett enfärgat lager, `size=` definierar den exakta lagerstorleken, Båda värdena måste anges (om ingen mask anges). If `mask=` anges också, så att maskbilden anpassas `size=` på samma sätt som bilder skalas i bildlager.
+När det anges för ett enfärgat lager, `size=` definierar den exakta lagerstorleken. Båda värdena måste anges (om ingen mask anges). If `mask=` anges också, så att maskbilden anpassas `size=` på samma sätt som bilder skalas i bildlager.
 
 ## Egenskaper {#section-5f254b66fcba49bcb63f9c9ea40b230c}
 
-Lagerattribut. Gäller för lager 0 om `layer=comp`. `sizeN=` tillåts inte för `layer=0` eller `layer=comp`. `sizeN=` är tillåtet för `layer=0` och `layer=comp` endast i katalogposter som definierar vattenstämpelbilder. I detta fall `sizeN` definierar skalningen av vattenstämpelbilden i förhållande till den sammansatta bild som vattenstämpeln används på. If `size=` anges, `res=` och `scale=` ignoreras för det här lagret. Ignoreras av effektlager.
+Lagerattribut. Gäller för lager 0 om `layer=comp`. `sizeN=` tillåts inte för `layer=0` eller `layer=comp`. `sizeN=` är tillåtet för `layer=0` och `layer=comp` endast i katalogposter som definierar vattenstämpelbilder. I detta fall `sizeN` definierar skalningen av vattenstämpelbilden i förhållande till den sammansatta bild som vattenstämpeln används på. If `size=` anges, `res=` och `scale=` ignoreras för detta lager. Ignoreras av effektlager.
 
 ## Standard {#section-43d129deba6a441da66a1fdb63d1c85c}
 

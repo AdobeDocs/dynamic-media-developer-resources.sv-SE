@@ -1,11 +1,11 @@
 ---
+title: icc
 description: Utdatafärgprofil.
 solution: Experience Manager
-title: icc
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8be7be8c-a23d-4a5b-93e4-44231155616b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Utdatafärgprofil.
  </tr> 
 </table>
 
-*`object`* Anger den utdatafärgrymdsprofil som bilden ska konverteras till om den inte är samma som arbetsprofilen. *`profile`* måste vara antingen giltig `icc::Name` som definieras i ICC-profilmappningen för en bildkatalog eller standardkatalog, eller en relativ sökväg till en profilfil (vanligtvis med [!DNL .icc] eller [!DNL .icm] suffix). Se [ *`object`*](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0)för ytterligare information.
+*`object`* Anger den utdatafärgrymdsprofil som bilden ska konverteras till om den inte är samma som arbetsprofilen. *`profile`* måste vara antingen giltig `icc::Name` som definieras i ICC-profilmappningen för en bildkatalog eller standardkatalog, eller en relativ sökväg till en profilfil (vanligtvis med [!DNL .icc] eller [!DNL .icm] suffix). Se [*`object`*](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0) om du vill ha mer information.
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ Utdatafärgprofil.
 
 >[!NOTE]
 >
->Alla färgkonverteringar har inte stöd för alla *`renderIntent`* och *`blackpointComp`* val. Normalt gäller de här inställningarna bara när ICC-utdataprofilen karakteriserar en utdataenhet som en skrivare eller bildskärm. Vissa ICC-utdataprofiler stöder inte alla *`renderIntent`* val.
+>Alla färgkonverteringar har inte stöd för alla *`renderIntent`* och *`blackpointComp`* valmöjligheter. Normalt gäller de här inställningarna bara när ICC-utdataprofilen karakteriserar en utdataenhet som en skrivare eller bildskärm. Vissa ICC-utdataprofiler stöder inte alla *`renderIntent`* valmöjligheter.
 
 Anteckning
 
@@ -65,7 +65,7 @@ Begär attribut. Servern returnerar ett fel om en bildtyp anges med `fmt=` som i
 
 Om färghantering är aktiverat och `icc=` anges inte, kommer servern att leverera bilden konverterad till utdataprofilen ( `attribute::IccProfile*`) som matchar den bildtyp som anges med `fmt=`.
 
-Om inget anges *`renderIntent`* ärvs från `attribute::IccRenderIntent`, *`blackpointComp`* ärvs från `attribute::IccBlackPointCompensation`och *`dither`* ärvs från `attribute::IccDither`.
+Om inget anges, *`renderIntent`* ärvs från `attribute::IccRenderIntent`, *`blackpointComp`* ärvs från `attribute::IccBlackPointCompensation`och *`dither`* ärvs från `attribute::IccDither`.
 
 ## Se även {#section-37f16b0c2c4b48f3a39dcde2a350f91e}
 

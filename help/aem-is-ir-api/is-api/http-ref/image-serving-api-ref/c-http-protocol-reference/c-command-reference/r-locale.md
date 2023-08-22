@@ -1,11 +1,11 @@
 ---
-description: Språk-ID för översättning. Anger språk-ID för begäran.
-solution: Experience Manager
 title: locale
+description: Översättningsspråk-ID. Anger språk-ID för begäran.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d937dfa5-95dd-49fd-ac23-e77e07b0642c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # locale{#locale}
 
-Språk-ID för översättning. Anger språk-ID för begäran.
+Översättningsspråk-ID. Anger språk-ID för begäran.
 
 `locale=[ *`locId`*]`
 

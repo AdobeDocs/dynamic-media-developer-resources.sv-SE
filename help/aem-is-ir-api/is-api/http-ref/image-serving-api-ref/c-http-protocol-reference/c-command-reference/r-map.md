@@ -1,11 +1,11 @@
 ---
+title: map
 description: Bildschemadata. Innehåller data för bildschema för det här lagret. Åsidosätter alla data från katalogkartan för det här lagret.
 solution: Experience Manager
-title: map
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7c1fbb50-98ec-4d9a-b608-93d60d687069
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Bildschemadata. Innehåller data för bildschema för det här lagret. Åsidosä
 <table id="simpletable_2E32B25D5F6246A18A8AF817903877ED"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> string</span></span> </p></td> 
-  <td class="stentry"> <p>Bildschemadata för det här lagret i lagerkoordinater. </p></td> 
+  <td class="stentry"> <p>Bildschemadata för detta lager i lagerkoordinater. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> stringA</span></span> </p></td> 

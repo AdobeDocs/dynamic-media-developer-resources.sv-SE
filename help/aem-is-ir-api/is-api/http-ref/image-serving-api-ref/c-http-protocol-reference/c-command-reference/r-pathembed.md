@@ -1,11 +1,11 @@
 ---
+title: pathEmbed
 description: Bädda in bandata. Anger om Photoshop-banor från källbildfilen för lager 0 ska inkluderas i svarsbilden.
 solution: Experience Manager
-title: pathEmbed
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a3b305eb-0313-4c58-bd47-4f87e09d0e0b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Bädda in bandata. Anger om Photoshop-banor från källbildfilen för lager 0 sk
 
 ## Egenskaper {#section-26eb1c9e13574a0eae39f6d5b92c8995}
 
-Begär attribut. Ignoreras om källbilden inte innehåller sökvägsdata. Banans data skalas och roteras på samma sätt som bilddata. Endast banor från källbilden i `layer=0` bearbetas, banor från andra lagerbilder ignoreras.
+Begär attribut. Ignoreras om källbilden inte innehåller sökvägsdata. Banans data skalas och roteras på samma sätt som bilddata. Endast banor från källbilden i `layer=0` bearbetas. Banor från andra lagerbilder ignoreras.
 
 Ignoreras om utdatabildformatet inte stöder baninbäddning. Se beskrivningen av `fmt=` för en lista över utdataformat som stöder baninbäddning.
 

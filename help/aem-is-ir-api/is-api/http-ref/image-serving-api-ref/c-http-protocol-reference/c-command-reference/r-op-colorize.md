@@ -1,11 +1,11 @@
 ---
+title: op_colorize
 description: Färga bilden. Färglägger bilddata samtidigt som skuggor och högdagrar bevaras.
 solution: Experience Manager
-title: op_colorize
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1abbde32-867a-4596-a46b-12ec50d59170
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 0%
@@ -25,21 +25,21 @@ Färga bilden. Färglägger bilddata samtidigt som skuggor och högdagrar bevara
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> av </span> </p> </td> 
-  <td class="stentry"> <p>Inaktivera automatisk intensitetskompensation. </p> </td> 
+  <td class="stentry"> <p>Inaktivera automatisk ljusstyrkekompensation. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> norm </span> </p> </td> 
-  <td class="stentry"> <p>Aktivera automatisk intensitetskompensation (standard). </p> </td> 
+  <td class="stentry"> <p>Aktivera automatisk ljusstyrkekompensation (standard). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> kontrast </span> </p> </td> 
-  <td class="stentry"> <p>Kontrastintervall (reellt 0.100). anges till 0 för att bevara indatakontrasten. </p> </td> 
+  <td class="stentry"> <p>Kontrastintervall (reellt 0,100); angett till 0 för att bevara indatakontrasten. </p> </td> 
  </tr> 
 </table>
 
 Det andra argumentet anger om källbildens intensitet ska justeras före färgläggning. Ange `off` för att inaktivera automatisk ljusstyrkekompensation eller `norm` om du vill justera intensiteten automatiskt så att medianvärdet har intensiteten 50 %.
 
-Ange *`contrast`* värdet 0 om du vill bevara kontrastintervallet för indatabilden eller ange ett önskat kontrastintervall med ett värde som är större än 0. Värdet 100 maximerar kontrasten. Normala värden kan vara mellan 30 och 70.
+Ange *`contrast`* värdet 0 om du vill bevara kontrastintervallet för indatabilden eller ange ett önskat kontrastintervall med ett värde som är större än 0. Värdet 100 maximerar kontrasten. Standardvärdena kan vara mellan 30 och 70.
 
 Förutom de inbyggda justeringarna för ljusstyrka och kontrast `op_brightness=` och `op_contrast=` kan användas för att ytterligare finjustera färgeffekten.
 
@@ -49,9 +49,9 @@ Förutom de inbyggda justeringarna för ljusstyrka och kontrast `op_brightness=`
 
 ## Egenskaper {#section-c0f8bd424b864153a1108f384939f55b}
 
-Lager, kommando. Gäller det aktuella lagret eller den sammansatta bilden om `layer=comp`. Ignoreras av effektlager.
+kommandot Lager. Gäller det aktuella lagret eller den sammansatta bilden om `layer=comp`. Ignoreras av effektlager.
 
-*`color`* måste vara ett RGB-värde, grå eller CMYK *`color`* värden stöds inte.
+*`color`* måste vara ett RGB-värde; grått eller CMYK *`color`* värden stöds inte.
 
 The *`contrast`* värdet ignoreras om intensitetskompensation är inaktiverad.
 

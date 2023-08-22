@@ -1,11 +1,11 @@
 ---
+title: pos
 description: Lagerposition.
 solution: Experience Manager
-title: pos
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c2e9a1f3-7216-4ab0-9c37-57f083119cef
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%
@@ -33,7 +33,7 @@ posN= *`coordN`*
 
 För bild-, text- och enfärgslager gäller följande: `pos=` anger positionen för ett lagerankare i förhållande till ankarpunkten för lager 0. `posN=` Koordinatvärden normaliseras i förhållande till den faktiska storleken på lagret 0 rect.
 
-Vid effektlager, `pos=` Flyttar effektlagret i förhållande till det överordnade lagret.
+Om det gäller effektlager, `pos=` flyttar effektlagret i förhållande till det överordnade lagret.
 
 Positiva värden flyttar lagret åt höger/nedåt, negativa åt vänster/uppåt. `posN=0.5,0.5` flyttar lagret halva lagrets bredd 0 och höjd nedåt och åt höger.
 

@@ -1,11 +1,11 @@
 ---
+title: rotera
 description: Rotera bild. Roterar bild-, text- eller enfärgslagret med den angivna vinkeln.
 solution: Experience Manager
-title: rotera
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9f1b2d6f-4e67-4530-9ec6-870b97687ce0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Positiva vinklar roterar medsols. Lagerfästpunkten ( `anchor=` eller `catalog::
 
 ## Egenskaper {#section-8b5a9bb9062f48dbb8d4e9953ff39e39}
 
-Lager, kommando. Gäller det aktuella lagret eller lagret 0 om `layer=comp`. Ignoreras av effektlager.
+kommandot Lager. Gäller för det aktuella lagret eller för lagret 0 om `layer=comp`. Ignoreras av effektlager.
 
 ## Standard {#section-69475db636124a8a85f132b6d49bd592}
 

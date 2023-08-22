@@ -1,11 +1,11 @@
 ---
+title: scl
 description: Skalvyn. Skalar den sammansatta bilden med inverterad invFactor.
 solution: Experience Manager
-title: scl
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 297d187c-3a52-45ff-b73d-0b0e4b956080
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Skalvyn. Skalar den sammansatta bilden med inverterad invFactor.
 
 Ingen skalförändring används när `scl=1`. *`invFactor`* större än 1,0 nedskalningar och mindre än 1,0 förstorar den sammansatta bilden.
 
-If `scl=` anges, och `wid=` och/eller `hei=` finns också, bilden beskärs till `wid=` och/eller `hei=` efter skalförändring.
+If `scl=` har angetts, och `wid=` och/eller `hei=` finns också, bilden beskärs till `wid=` och/eller `hei=` efter skalförändring.
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ Visa attribut. Används oavsett aktuell lagerinställning.
 
 ## Standard {#section-32502fa218a24e1f9c65f41c0260b56a}
 
-Om ingen `wid=`, `hei=`, eller `scl=` anges kommer svarsbilden antingen att ha samma storlek som den sammansatta bilden eller `attribute::DefaultPix`, beroende på vad som är mindre.
+Om ingen `wid=`, `hei=`, eller `scl=` anges kommer svarsbilden antingen att ha samma storlek som den sammansatta bilden, eller `attribute::DefaultPix`, beroende på vad som är mindre.
 
 ## Exempel {#section-a33f6239476a4b438d939656ad99aa76}
 

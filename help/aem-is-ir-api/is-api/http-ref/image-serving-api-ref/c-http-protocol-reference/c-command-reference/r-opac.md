@@ -1,11 +1,11 @@
 ---
+title: opac
 description: Justera bildens opacitet. Gör att förgrundsopaciteten för en bild, text, enfärgat lager eller effektlager kan minskas.
 solution: Experience Manager
-title: opac
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 38e0e1dc-46c0-48a4-b676-f7e6d262392f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Lagerattribut. Gäller det aktuella lagret eller den sammansatta bilden om `laye
 
 … `&layer=1&text=variable%20opacity&opac=90,70&effect=-1&opac=50&`…
 
-Textopaciteten i det här exemplet är 90&#42;70/100=63 % och effektlagrets opacitet är 90&#42;50/100=45 %.
+Textopaciteten i detta exempel är 90&#42;70/100=63 % och effektlagrets opacitet är 90&#42;50/100=45 %.
 
 ## Se även {#section-dbdad35ccd544590b4b11d31a9ab062e}
 

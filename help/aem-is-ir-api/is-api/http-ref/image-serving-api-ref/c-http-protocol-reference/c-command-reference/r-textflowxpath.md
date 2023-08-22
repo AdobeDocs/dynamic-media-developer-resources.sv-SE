@@ -1,11 +1,11 @@
 ---
+title: textFlowXPath
 description: Exkluderingsområde för textflöde. Anger ett eller flera områden som ska uteslutas från textflödet.
 solution: Experience Manager
-title: textFlowXPath
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2430ab43-c032-4c2f-93c3-225e8116f100
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Exkluderingsområde för textflöde. Anger ett eller flera områden som ska utes
  </tr> 
 </table>
 
-Se [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) ytterligare information, inklusive en beskrivning av *`pathDefinition`*. Om ingen sökvägsdefinition har angetts, `textFlowXPath=` ignoreras.
+Se [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) ytterligare information, inklusive en beskrivning av *`pathDefinition`*. Om ingen sökvägsdefinition har angetts `textFlowXPath=` ignoreras.
 
 ## Egenskaper {#section-cd1ebb151d4a405fbfc508d46522d686}
 

@@ -1,13 +1,13 @@
 ---
-description: Progressiv JPEG-skanning. Med Progressiv JPEG visas en bild på ett sådant sätt att den först visar ett oskarpt/lågkvalitativt foto i sin helhet. När skanningen fortsätter blir den tydligare när bildens data hämtas mer fullständigt. Med den här parametern kan du ange hur många inläsningar det tar (3, 4 eller 5) för att hela bilden ska visas.
-solution: Experience Manager
 title: pscan
+description: Progressiv JPEG-skanning. Med Progressiv JPEG visas en bild på ett sådant sätt att den först visar ett oskarpt/lågkvalitativt foto i sin helhet.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1afd3a60-e0b6-47d1-b7e4-98a3145782a2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---

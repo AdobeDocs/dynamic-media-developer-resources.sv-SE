@@ -1,11 +1,11 @@
 ---
+title: ursprung
 description: Lagerursprung.
 solution: Experience Manager
-title: ursprung
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5ea8eb18-d169-4255-b4b1-dda849246485
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Definierar justeringspunkten för lagerrektangeln, som används för att placera
 
 ## Egenskaper {#section-60f639e36ada43d1abc6bfc100afc925}
 
-Lagerattribut. Gäller det aktuella lagret eller lagret 0 om `layer=comp`. Påverkas inte av lageromformningar ( `crop=`, `scale=`, `rotate=`, `flip=`) som används på lagerkällan. Åsidosättningar `anchor=`. Ignoreras av effektlager.
+Lagerattribut. Gäller för det aktuella lagret eller för lagret 0 om `layer=comp`. Påverkar inte lageromformningar ( `crop=`, `scale=`, `rotate=`, `flip=`) som används på lagerkällan. Åsidosättningar `anchor=`. Ignoreras av effektlager.
 
 ## Standard {#section-b7209e5c2ad6491fb0c2353cc3f1f703}
 

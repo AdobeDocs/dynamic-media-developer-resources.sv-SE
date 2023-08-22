@@ -1,11 +1,11 @@
 ---
+title: textAttr
 description: Textlagerattribut. Anger ytterligare attribut för textlager som inte är tillgängliga som rtf-kommandon.
 solution: Experience Manager
-title: textAttr
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0c8a3d2a-2524-436a-8bc7-60241af0fd17
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Textlagerattribut. Anger ytterligare attribut för textlager som inte är tillg�
 <table id="simpletable_0072BF7DF52B4959A14EDEF60A6EBDEE"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> res </span> </span> </p> </td> 
-  <td class="stentry"> <p>Ett sätt att skala textlagret utan att ändra teckensnittsstorlek. Högre upplösningsvärden ökar storleken på den återgivna texten i förhållande till arbetsytans storlek. mindre värden minskar textstorleken. Textupplösning i punkter per tum (int större än 0). </p> </td> 
+  <td class="stentry"> <p>Ett sätt att skala textlagret utan att ändra teckensnittsstorlek. Högre upplösningsvärden ökar storleken på den återgivna texten i förhållande till arbetsytans storlek, medan lägre värden minskar textstorleken. Textupplösning i punkter per tum (int större än 0). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> kantutjämning </span> </span> </p> </td> 
@@ -63,7 +63,7 @@ Textlagerattribut. Anger ytterligare attribut för textlager som inte är tillg�
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> maxRes </span> </p> </td> 
-      <td class="stentry"> <p>Använd angiven upplösning. minska den om det behövs för att förhindra att texten trunkeras till lagerrektangeln. </p> <p>Används för att återge text med exakt angiven upplösning, så länge som inget urklipp inträffar. Vid bortfall minskas upplösningen automatiskt så att all text finns helt inuti textrutan. Om automatisk radbrytning är aktiverat kan texten radbrytas med den slutliga upplösningen. Stöds inte av <span class="codeph"> textPs= </span>. </p> </td> 
+      <td class="stentry"> <p>Använd den angivna upplösningen och minska den om det behövs för att förhindra att text trunkeras till lagerrektangeln. </p> <p>Används för att återge text med exakt angiven upplösning, så länge som inget urklipp inträffar. Vid bortfall minskas upplösningen automatiskt så att all text finns helt inuti textrutan. Om automatisk radbrytning är aktiverat kan texten radbrytas med den slutliga upplösningen. Stöds inte av <span class="codeph"> textPs= </span>. </p> </td> 
      </tr> 
     </table> </p> <p>Om textlagrets storlek inte anges med size= eller om bara bredden anges, ignoreras inställningarna autoRes och maxRes och den angivna upplösningen används för att återge texten. </p> </td> 
  </tr> 

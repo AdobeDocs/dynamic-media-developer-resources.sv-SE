@@ -1,11 +1,11 @@
 ---
+title: mall
 description: Sammansättningsmall. Gör att du kan ange en sammansättningsmall som finns i en annan katalog än huvudkatalogen.
 solution: Experience Manager
-title: mall
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 56ebf2a1-f2c3-4b3f-8d0a-9383f1411440
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Sammansättningsmall. Här kan du ange en sammansättningsmall i en annan katalo
 
 *`template`* måste vara en bildkatalogspost med malltexten i `catalog::Modifier`.
 
-När `template=` finns, det objekt som anges i begärandesökvägen används inte som källa för lager 0. Det kan dock kallas en `src=` eller `mask=` var som helst i mallen genom att använda den fördefinierade sökvägsvariabeln `$object$` som `src=` värde. `catalog::Modifier` för objektet som anges i begärandesökvägen tillämpas bara om `$object$` i mallen, när `catalog::PostModifier` används alltid.
+När `template=` finns, det objekt som anges i begärandesökvägen används inte som källa för lager 0. Det kan dock kallas en `src=` eller `mask=` var som helst i mallen genom att använda den fördefinierade variabeln path `$object$` som `src=` värde. `catalog::Modifier` för objektet som anges i begärandesökvägen tillämpas bara om `$object$` i mallen, när `catalog::PostModifier` används alltid.
 
 Lager 0 definieras i mallbrödtexten och kan vara ett bild-, enfärgat, textbaserat eller kapslat eller inbäddat begärandolager.
 

@@ -1,11 +1,11 @@
 ---
-description: Lagerklippsbana. Anger en klippbana för det aktuella lagret.
-solution: Experience Manager
 title: clipPath
+description: Lagerklippsbana. Anger en klippbana för aktuellt lager.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 86c87cd1-6e08-40cb-80e6-35a9f49b6572
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # clipPath{#clippath}
 
-Lagerklippsbana. Anger en klippbana för det aktuella lagret.
+Lagerklippsbana. Anger en klippbana för aktuellt lager.
 
 `clipPath= *`pathDefinition`*`
 
@@ -41,7 +41,7 @@ De delar av lagret som ligger utanför det område som definieras av `clipPath=`
 
 `*`pathDefinition`*` I kan du ange explicita bandata i pixelkoordinater för lager.
 
-If `size=` är angivet och inte 0,0, lagret är förstorleksändrat. I det här fallet är bankoordinaterna relativa till lagrets övre vänstra hörn och lagret placeras baserat på `origin=` eller dess standardvärde. Alla områden i banan utanför lagrets rektangel förblir genomskinliga.
+If `size=` är angivet och inte 0,0, lagret är förstorleksdefinierat. I det här fallet är bankoordinaterna relativa till lagrets övre vänstra hörn och lagret placeras baserat på `origin=` eller dess standardvärde. Alla områden i banan utanför lagrets rektangel förblir genomskinliga.
 
 If `size=` är inte angivet för en enfärgad färg eller ett textlager, anses lagret vara självanpassat i den utsträckning som banan bestämmer dess storlek. If `origin=` har inte angetts, används som standard (0,0) för bankoordinatmodellen. På så sätt kan bankoordinater anges i förhållande till origo för lager 0.
 
@@ -49,7 +49,7 @@ If `size=` är inte angivet för en enfärgad färg eller ett textlager, anses l
 >
 >`scale=`, `rotate=`och `anchor=` -kommandon tillåts inte för självstorleksändring av enfärgade lager.
 
-`*`pathDefinition`*` accepterar en sträng som liknar värdet för `d=` SVG attribut `<path>` -element, förutom att kommatecken används i stället för mellanslag för att separera värden. `*`pathDefinition`*` kan innehålla en eller flera underbanor med slutna slingor.
+`*`pathDefinition`*` accepterar en sträng som liknar värdet för `d=` SVG-attribut `<path>` -element, förutom att kommatecken används i stället för mellanslag för att separera värden. `*`pathDefinition`*` kan innehålla en eller flera underbanor med slutna slingor.
 
 Följande sökvägskommandon stöds i `*`pathDefinition`*`:
 

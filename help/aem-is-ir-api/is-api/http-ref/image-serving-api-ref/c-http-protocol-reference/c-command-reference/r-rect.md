@@ -1,11 +1,11 @@
 ---
+title: rect
 description: Rektangel i slutvyn. Gör att den slutliga visningsbilden kan delas upp i flera remsor eller plattor, som kan levereras separat och rekonstrueras av klienten utan att några artefakter uppstår längs kanterna.
 solution: Experience Manager
-title: rect
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1870001b-7904-470f-9582-984d453509ca
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Rektangel i slutvyn. Gör att den slutliga visningsbilden kan delas upp i flera 
  </tr> 
 </table>
 
-Med det här kommandot kan Image Serving leverera stora bilder via HTTP som annars skulle överskrida den storleksgräns som konfigurerats med `attribute::MaxPix`.
+Med det här kommandot kan Image Serving leverera stora bilder via HTTP som annars skulle överskrida storleksgränsen som konfigurerats med `attribute::MaxPix`.
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ Textsvaret innehåller följande egenskaper:
 
 Baserat på den här informationen bestämmer vi att vi vill ha fyra 600x2000-pixelremmar. The `rect=` -kommandot används för att beskriva bandstorlekar och -positioner.
 
-Eftersom den här bilden ändras ofta kommer `id=` för att minimera risken att vi får ett eller flera remsor från en äldre version av bilden som kan ha cachelagrats i ett CDN- eller proxyserver. Värdet för `image.version` -egenskapen används för detta ändamål.
+Eftersom den här bilden ändras ofta kommer vi att inkludera `id=` för att minimera risken att vi får ett eller flera remsor från en äldre version av bilden som kan ha cachelagrats i ett CDN- eller proxyserver. Värdet för `image.version` -egenskapen används för detta ändamål.
 
 `http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,0,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,600,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,1200,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,1800,2000,600`
 

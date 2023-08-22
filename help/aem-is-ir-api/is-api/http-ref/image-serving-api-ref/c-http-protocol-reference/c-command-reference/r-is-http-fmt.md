@@ -1,11 +1,11 @@
 ---
+title: fmt
 description: Svarsbildformat.
 solution: Experience Manager
-title: fmt
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 9d86f2acad638cbbcb80b48ead73443c76c895a9
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Svarsbildformat.
 | `avif-alpha` | Förstörande och förlustfri AVIF med alfakanal. |
 | `avif` | Förstörande och förlustfri AVIF. |
 | `eps` | Okomprimerad binär Encapsulated PostScript. |
-| `f4m` | Manifestformat för Flash Streaming Server. |
+| `f4m` | Flash Streaming Server-manifestformat. |
 | `gif-alpha` | GIF med 2 till 255 färger plus genomskinlighet för nyckelfärger. |
 | `gif` | GIF med 2 till 256 färger. |
 | `jpeg` | Förstörande JPEG. |
@@ -34,7 +34,7 @@ Svarsbildformat.
 | `jpegxr-alpha` | Förstörande och förlustfri JPEG XR med alfakanal. |
 | `jpegxr` | Förstörande och förlustfri JPEG XR. |
 | `jpg` | Förstörande JPG. |
-| `m3u8` | Manifestformat för Apple Streaming Server. |
+| `m3u8` | Apple Streaming Server, manifestformat. |
 | `pdf` | Bilden är inbäddad i PDF. |
 | `pjpeg` | Progressiv JPEG. |
 | `png-alpha` | 24-bitars förlustfri PNG med alfakanal. |
@@ -43,8 +43,8 @@ Svarsbildformat.
 | `png8` | 8-bitars förlustfri PNG. |
 | `swf-alpha` | Förstörande JPEG och dekomprimerad mask inbäddad i en Adobe AS2-swf-fil. |
 | `swf` | Förstörande JPEG inbäddad i en Adobe AS2-swf-fil. |
-| `swf3-alpha` | Förstörande JPEG och dekomprimerad mask inbäddad i en Adobe AS3-swf-fil. **Obs!** swf- och swf-alpha-formaten passar bäst för program i ActionScript 2 (Flash Player 8 och tidigare). Formaten swf3 och swf3-alpha rekommenderas för ActionScript3-program (Flash Player 9 och senare). |
-| `swf3` | Förstörande JPEG inbäddad i en Adobe AS3-swf-fil. |
+| `swf3-alpha` | Förstörande JPEG och dekomprimerad mask inbäddad i en Adobe AS3-swf-fil. **Obs!** swf- och swf-alpha-formaten passar bäst för ActionScript 2-program (Flash Player 8 och tidigare). Formaten swf3 och swf3-alpha rekommenderas för ActionScript3-program (Flash Player 9 och senare). |
+| `swf3` | Förstörande JPEG inbäddad i en SWF-fil i Adobe. |
 | `tif-alpha` | TIFF med alfakanal. |
 | `tif` | TIFF. |
 | `webp-alpha` | Förstörande och förlustfri WebP med alfakanal. |
@@ -65,16 +65,16 @@ Svarsbildformat.
 | `lossless` | WebP, JPEG 2000 och JPEG XR-komprimering (icke-förstörande). |
 | `lzw` | LZW-komprimering (icke-förstörande) (Lempel-Ziv-Welch). |
 | `none` | Okomprimerad. |
-| `zip` | &quot;Deflate&quot;-komprimering (icke-förstörande). |
+| `zip` | Deflate-komprimering (icke-förstörande). |
 
 * *`format`* anger bildkodningsformatet för bilddata som skickas till klienten och motsvarande MIME-svarstyp för HTTP-svarshuvudet.
 * *`pixelType`* kan användas för att påverka konvertering av färgmodell när `icc=` har inte angetts.
 
-   Standardfärgprofilen som motsvarar *`pixelType`* används. Om färghantering är inaktiverat används tidigare konvertering. *`pixelType`* ignoreras när `icc=` anges, vilket anger utdatapixeltypen.
+  Standardfärgprofilen som motsvarar *`pixelType`* används. Om färghantering är inaktiverat används tidigare konvertering. *`pixelType`* ignoreras när `icc=` anges, vilket anger utdatapixeltypen.
 
 * *`compression`* tillåts endast om `tif`, `tif-alpha`, `pdf`, `webp`, `webp-alpha`, `jpeg2000`, `jpeg2000-alpha`, `jpegxr`, eller `jpegxr-alpha` anges som *`format`*. I tabellen nedan finns information om vilka komprimeringsalternativ som stöds för dessa bildformat.
 
-Du kan använda `qlt=` om du vill ange kodningsalternativ för dessa format för JPEG: JPEG, TIFF med JPEG-komprimering, PDF med JPEG-komprimering och SWF. WebP, JPEG 2000 och JPEG XR använder också `qlt=` men värdena ger olika kvaliteter för de olika formaten. Använd `quantize=` if `fmt=gif` eller `fmt=gif-alpha`. Mer information finns i kommandobeskrivningarna. De andra formaten har inga inställningsbara alternativ.
+Du kan använda `qlt=` för att ange kodningsalternativ för JPEG för följande format: JPEG, TIFF med JPEG-komprimering, PDF med JPEG-komprimering och SWF. WebP, JPEG 2000 och JPEG XR använder också `qlt=` men värdena ger olika kvaliteter för olika format. Använd `quantize=` if `fmt=gif` eller `fmt=gif-alpha`. Mer information finns i kommandobeskrivningarna. De andra formaten har inga inställningsbara alternativ.
 
 8 bitar per pixelkomponent returneras för alla *`formats`* och *`pixelTypes`* (8 bitar per pixel för GIF).
 
@@ -117,17 +117,17 @@ I följande tabell visas giltiga kombinationer av *`format`*och *`pixelType`*, m
    <td colname="col2"> <p>rgb, gray, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;image/tiff&gt; </span> </p> </td> 
    <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <span class="codeph"> <span class="varname"> komprimering </span> </span> <p> ( <span class="codeph"> none|lzw|zip|jpeg </span>) </p> <p>endast tiff; tiff-alpha stöder inte jpeg-komprimering. </p> <p> <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> ignoreras såvida inte <span class="varname"> komprimering </span> är inställd på <span class="codeph"> jpeg </span>. </p> <p>, pathEmbed=, xmpEmbed= </p> </td> 
+   <td colname="col5"> <span class="codeph"> <span class="varname"> komprimering </span> </span> <p> ( <span class="codeph"> none|lzw|zip|jpeg </span>) </p> <p>Endast tiff; tiff-alpha stöder inte jpeg-komprimering. </p> <p> <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> ignoreras såvida inte <span class="varname"> komprimering </span> är inställd på <span class="codeph"> jpeg </span>. </p> <p>, pathEmbed=, xmpEmbed= </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> swf,swf3, swf-alpha, swf-alpha3 </p> </td> 
    <td colname="col2"> <p>rgb, grå </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/x-shockwave-flash&gt; </span> </p> </td> 
-   <td colname="col4"> <p>Nej </p> <p> <p>Obs! Adobe Flash Player ignorerar inbäddade ICC-profiler. </p> </p> </td> 
+   <td colname="col4"> <p>Nej </p> <p> <p>Obs! Flashen Player Adobe ignorerar inbäddade ICC-profiler. </p> </p> </td> 
    <td colname="col5"> <p> <span class="codeph"> qlt= </span>, <span class="codeph"> attribute::TrustedDomain </span> </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> pdf </p> </td> 
+   <td colname="col1"> <p> PDF </p> </td> 
    <td colname="col2"> <p>rgb, gray, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/pdf&gt; </span> </p> </td> 
    <td colname="col4"> <p>Ja </p> </td> 
@@ -141,7 +141,7 @@ I följande tabell visas giltiga kombinationer av *`format`*och *`pixelType`*, m
    <td colname="col5"> <p> <span class="codeph"> pathEmbed= </span> </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> gif, gif-alpha </p> </td> 
+   <td colname="col1"> <p> gif-alfa </p> </td> 
    <td colname="col2"> <p>rgb, grå </p> <p>Data konverteras till palett efter konvertering till grå eller rgb. </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;image/gif&gt; </span> </p> </td> 
    <td colname="col4"> <p>Nej </p> </td> 
@@ -152,7 +152,7 @@ I följande tabell visas giltiga kombinationer av *`format`*och *`pixelType`*, m
    <td> <p>rgb </p> </td> 
    <td> <p> <span class="codeph"> &lt;image/webp&gt; </span> </p> </td> 
    <td> <p>Nej </p> </td> 
-   <td> <p> <span class="codeph"> <span class="varname"> komprimering </span> </span> ( <span class="codeph"> förstörande </span>, <span class="codeph"> förlustfri </span>) </p> <p> <span class="codeph"> qlt= </span> ignoreras för <span class="codeph"> förlustfri </span>. </p> <p>Eftersom det inte finns något koncept för nedsampling av krominanser i WebP-formatet, om du använder ett andra värde med <span class="codeph"> qlt </span> (t.ex. <span class="codeph"> qlt=80,1 </span>) det andra värdet ( <span class="codeph"> 1 </span>) ignoreras. </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> komprimering </span> </span> ( <span class="codeph"> förstörande </span>, <span class="codeph"> förlustfri </span>) </p> <p> <span class="codeph"> qlt= </span> ignoreras för <span class="codeph"> förlustfri </span>. </p> <p>Eftersom det inte finns något koncept för nedsampling av krominanser i WebP-formatet, om du använder ett andra värde med <span class="codeph"> qlt </span> (till exempel <span class="codeph"> qlt=80,1 </span>) det andra värdet ( <span class="codeph"> 1 </span>) ignoreras. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p>jpeg2000, jpeg2000-alpha </p> </td> 
@@ -180,13 +180,13 @@ I följande tabell visas giltiga kombinationer av *`format`*och *`pixelType`*, m
 
 ## Egenskaper {#section-5f96b0ce7c5a4df1bf52e24ea78c3dae}
 
-Begär attribut. Används oavsett aktuell lagerinställning om `req=img` (standard) eller `req=mask`; i annat fall ignoreras.
+Begär attribut. Används oavsett aktuell lagerinställning om `req=img` (standard) eller `req=mask`; ignoreras annars.
 
 *`type`* ignoreras om `iccProfile=` har angetts.
 
 ## Standard {#section-f885a785b32c44fea347db15fdb2ab1f}
 
-` fmt=jpeg, *`defaultType`*,none`, där *`defaultType`* hanteras enligt följande: If `icc=` anges, *`defaultType`* motsvarar pixeltypen för den angivna ICC-profilen. If `icc=` har inte angetts, *`defaultType`* är `gray` if `req=mask`, annars är det `rgb`.
+` fmt=jpeg, *`defaultType`*,none`, där *`defaultType`* hanteras enligt följande: Om `icc=` anges, *`defaultType`* motsvarar pixeltypen för den angivna ICC-profilen. If `icc=` har inte angetts, *`defaultType`* är `gray` if `req=mask`, annars är det `rgb`.
 
 ## Exempel {#section-b93222e652df404a84c69025247f07df}
 
@@ -218,7 +218,7 @@ Begär attribut. Används oavsett aktuell lagerinställning om `req=img` (standa
 
 ` http:// *`server`*/myRootId/myImageId?fmt=tif,,jpeg&qlt=95&wid=300`
 
-**Konvertera en bild till ett GIF med två toner med genomskinlighet för nyckelfärger och tvinga färgerna att bli svartvita:**
+**Konvertera en bild till ett GIF med två toner med genomskinlighet för nyckelfärger och tvinga färgerna att bli svarta och vita:**
 
 ` http:// *`server`*/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`
 

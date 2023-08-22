@@ -1,11 +1,11 @@
 ---
+title: text
 description: Lagertext. Anger text och formatering för ett textlager.
 solution: Experience Manager
-title: text
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3966b180-bef1-4fad-af71-ba42bbdffd59
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 0%
@@ -25,13 +25,13 @@ Lagertext. Anger text och formatering för ett textlager.
  </tr> 
 </table>
 
-Alla inställningar för teckensnitt, teckenfärg och styckeformatering görs med RTF-kommandon. Se [Textformatering](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md#concept-0d3136db7f6f49668274541cd4b6364c) för ytterligare information.
+Alla inställningar för teckensnitt, teckenfärg och styckeformatering görs med RTF-kommandon. Se [Textformatering](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md#concept-0d3136db7f6f49668274541cd4b6364c) om du vill ha mer information.
 
 `text=` stöder automatisk skalning av texten för att fylla lagerektangeln som anges med `size=`.
 
 Se [textAttr=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textattr.md#reference-ff00484fa3244286abeff34911f7ec0d).
 
-`text=` stöder automatisk storleksanpassning av textlagret så att det passar den återgivna texten (när `size=` har inte angetts eller endast när bredden har angetts). Observera att i det här fallet bara ett av RTF-justeringskommandona `\ql`, `\qr`och `\qc` kan tillämpas, annars returneras ett fel.
+`text=` har stöd för automatisk storleksanpassning av textlagret så att det passar den återgivna texten (när `size=` har inte angetts eller endast när bredden har angetts). Observera att i det här fallet bara ett av RTF-justeringskommandona `\ql`, `\qr`och `\qc` kan tillämpas, annars returneras ett fel.
 
 ## Egenskaper {#section-8c0f020094a44c6b858454ef91ab4edf}
 

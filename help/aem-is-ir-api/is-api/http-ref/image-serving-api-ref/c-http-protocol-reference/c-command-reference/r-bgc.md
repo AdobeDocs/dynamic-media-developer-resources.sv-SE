@@ -1,11 +1,11 @@
 ---
+title: bgc
 description: Visa bakgrundsfärg. Anger bakgrundsfärgen för den sammansatta bilden (visningsbild).
 solution: Experience Manager
-title: bgc
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 39ca0d63-55c6-40be-88b6-cf73828cc355
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Anger en ogenomskinlig fyllningsfärg som ska användas för visningsbakgrunden.
 
 >[!NOTE]
 >
->Färgsuffixet &#39;s&#39; ignoreras av `bgc=`. Färgvärden som anges med `bgc=` är alltid kopplade till respektive utdatafärgrymd.
+>Färgsuffixet s ignoreras av `bgc=`. Färgvärden som anges med `bgc=` är alltid kopplade till respektive utdatafärgrymd.
 
 ## Egenskaper {#section-b729b50b1ea7433b82ba34ecd61839cd}
 

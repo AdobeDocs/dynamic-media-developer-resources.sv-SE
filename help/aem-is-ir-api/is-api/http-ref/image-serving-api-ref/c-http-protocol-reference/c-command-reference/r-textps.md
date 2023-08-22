@@ -1,11 +1,11 @@
 ---
+title: textPs
 description: Lagertext (Adobe Photoshop-kompatibel). Anger textinnehållet för ett textlager.
 solution: Experience Manager
-title: textPs
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 95f343ce-bea3-425e-9a25-d1d141a976d9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Lagertext (Adobe Photoshop-kompatibel). Anger textinnehållet för ett textlager
 <table id="simpletable_4E2D08FD4EEC4EDC9EFE9F6F2E22DB0C"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> string</span> </span> </p> </td> 
-  <td class="stentry"> <p>RTF-sträng (Rich-text-formatted). </p></td> 
+  <td class="stentry"> <p>RTF-sträng (Rich-text formatted). </p></td> 
  </tr> 
 </table>
 

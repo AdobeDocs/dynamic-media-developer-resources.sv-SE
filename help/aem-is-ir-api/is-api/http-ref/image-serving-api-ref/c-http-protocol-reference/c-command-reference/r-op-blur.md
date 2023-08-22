@@ -1,11 +1,11 @@
 ---
+title: op_blur
 description: Oskärpebild. Använder ett oskärpefilter på bilddata.
 solution: Experience Manager
-title: op_blur
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: cd68c109-ee99-4ef7-aac0-7d2e6d408cc0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Oskärpebild. Använder ett oskärpefilter på bilddata.
 
 ## Egenskaper {#section-92573fe2c07746a7bab93a81fc3d208d}
 
-Lager, kommando. Gäller det aktuella lagret eller den sammansatta bilden om `layer=comp`.
+kommandot Lager. Gäller det aktuella lagret eller den sammansatta bilden om `layer=comp`.
 
 ## Standard {#section-a976cb86620d489085a8fc9bae2626c0}
 

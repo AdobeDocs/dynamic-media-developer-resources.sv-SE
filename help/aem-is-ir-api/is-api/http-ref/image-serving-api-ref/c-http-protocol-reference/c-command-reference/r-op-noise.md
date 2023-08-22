@@ -1,11 +1,11 @@
 ---
+title: op_noise
 description: Lägg till brus. Lägger till slumpmässigt brus i förgrundsbildens data eller i ett effektlagers förgrund.
 solution: Experience Manager
-title: op_noise
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: eeadd3ab-80ff-4f9b-b5b7-4f3da6feebde
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Lägg till brus. Lägger till slumpmässigt brus i förgrundsbildens data eller 
 
 ## Egenskaper {#section-1f1a64c791f545a3bf1abd0b0e575d87}
 
-Lager, kommando. Gäller det aktuella lagret eller den sammansatta bilden om `layer=comp`.
+kommandot Lager. Gäller det aktuella lagret eller den sammansatta bilden om `layer=comp`.
 
 ## Standard {#section-d548868fa4b64a60bcb481cad1f8113e}
 

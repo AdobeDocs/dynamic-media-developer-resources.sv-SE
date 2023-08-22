@@ -1,11 +1,11 @@
 ---
+title: perspektiv
 description: Perspektivomformning. Använd en perspektivomformning på lagerkällbilden för att fylla det område som anges med den fyrsidiga bilden. Andra områden i lagret förblir genomskinliga.
 solution: Experience Manager
-title: perspektiv
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2e0297b0-c9a4-4bbd-9f06-368f722288d4
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Perspektivomformning. Använd en perspektivomformning på lagerkällbilden för 
 
 *`perspQuad`* består av fyra pixelkoordinatvärden i den sammansatta (eller lager 0) koordinatmodellen, som kommer från det övre vänstra hörnet i den sammansatta bilden.
 
-`perspQuadN` består av fyra normaliserade koordinatvärden, där `0.0,0.0` motsvarar det övre vänstra hörnet av bilden för det sammansatta lagret/lagret 0 och `1.0,1.0` till det nedre högra hörnet.
+`perspQuadN` består av fyra normaliserade koordinatvärden, där `0.0,0.0` motsvarar det övre vänstra hörnet av bilden för det sammansatta lagret/lagret 0 och `1.0,1.0` längst ned till höger.
 
 Indatabilden omformas så att indatabildens övre vänstra hörn mappas till det första koordinatvärdet för `perspQuad[N]`, det övre högra hörnet till den andra koordinaten, det nedre högra hörnet till den tredje koordinaten och det nedre vänstra hörnet till den fjärde koordinaten.
 
@@ -86,7 +86,7 @@ Om källan är en bild använder du `scale=` om du vill välja en annan upplösn
 
 ## Egenskaper {#section-818e57df0a1b4449888543bc6af77751}
 
-Lager, kommando. Gäller det aktuella lagret eller lagret 0 om `layer=comp`. Ignoreras av effektlager.
+kommandot Lager. Gäller för det aktuella lagret eller för lagret 0 om `layer=comp`. Ignoreras av effektlager.
 
 `res=` ignoreras alltid när det finns perspektiv i samma lager. `size=` ignoreras när det anges för bildlager. `size=` och `res=` i lager med `perspective=` är reserverade för framtida bruk.
 

@@ -1,11 +1,11 @@
 ---
+title: maskUse
 description: Användning av bildmask. Anger hur masken eller alfakanalen i bilden används för åtgärder i bilden (till exempel color=). När det anges i ett effektlager kan effekten användas på bakgrundsområdet i det överordnade lagret eller på hela rektangeln för det överordnade lagret.
 solution: Experience Manager
-title: maskUse
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e99101a1-1747-454c-b0c0-3af3335c0497
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -63,7 +63,7 @@ Beteendet för `maskUse=` är odefinierad och stöds inte när den anges med tex
 
 ## Exempel {#section-daa371e9be5547368ff6772342acba0a}
 
-Färga en bilds bakgrundsområde. bildens förgrund definieras av en separat maskbild. Detta uppnås genom att den färgade bildbakgrunden läggs i lager ovanpå om den oförändrade bilden:
+Färga bakgrundsområdet i en bild. Bildens förgrund definieras av en separat maskbild. Detta uppnås genom att den färgade bildbakgrunden läggs i lager ovanpå om den oförändrade bilden:
 
 `http://server/myRootId/myImageId?layer=1&src=myImageId&mask=myImgMask&maskUse=invert&colorize=0x306090`
 
