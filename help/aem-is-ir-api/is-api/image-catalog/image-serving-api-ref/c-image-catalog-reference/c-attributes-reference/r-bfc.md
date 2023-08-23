@@ -1,13 +1,13 @@
 ---
+title: Bfc
 description: Konvertering av webbläsarformat. Anger om konverteringsfunktionen för webbläsarformat är aktiverad eller inte.
 solution: Experience Manager
-title: Bfc
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 407d36ae-ea45-4580-9ca2-16d073d1edad
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 21d6aed6baee24922732461fe680f6cc93bd0d06
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '71'
 ht-degree: 0%
 
 ---
@@ -30,3 +30,7 @@ Konvertering av webbläsarformat. Anger om konverteringsfunktionen för webbläs
 ## Standard {#section-9c2c5794b82a4ef89a09551f08d03dbc}
 
 `Bfc=false`
+
+## Se även
+
+[bfc](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-bfc.md), [dpr](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md), [nätverk](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md), [Smart bildbehandling](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=en)
