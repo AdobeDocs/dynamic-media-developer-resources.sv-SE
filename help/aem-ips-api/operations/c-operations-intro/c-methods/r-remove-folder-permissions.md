@@ -1,13 +1,13 @@
 ---
+title: removeFolderPermissions
 description: Tar bort mappbehörigheter.
 solution: Experience Manager
-title: removeFolderPermissions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 10830980-d504-4610-96c9-730937453256
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ IPS API returnerar inget svar för den här åtgärden.
 
 ## Exempel {#section-04390f0ec7cc460cb5d34d518e33e7a5}
 
-Det här kodexemplet tar bort behörigheter från en mapp och dess undermappar. Ange `updateChildren` till `false` om du bara behöver ta bort behörigheter från den överordnade mappen.
+Det här kodexemplet tar bort behörigheter från en mapp och dess undermappar. Ange `updateChildren` till `false` om du bara vill ta bort behörigheter från den överordnade mappen.
 
 **Begäran**
 

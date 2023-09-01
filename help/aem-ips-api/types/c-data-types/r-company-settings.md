@@ -5,9 +5,9 @@ title: CompanySettings
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 82e6362d-beab-47ff-bb20-11047f0d8787
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -29,5 +29,5 @@ Syntax
 | iptcExifMappingXslt | `types:Asset` | Extraheringen av IPTC- och EXIF-bildrubriksdata till IPS kräver konvertering från interna fältnamn till användardefinierade fältnamn för företaget. Avgör en XSL-översättningstabell (standard är &quot;Extrahera inte IPTC- eller EXIF-fält&quot;) för överförda bilder. |
 | xmpMappingXslt | `types:Asset` | Extraheringen av XMP bildrubriksdata till IPS kräver konvertering från interna fältnamn till användardefinierade fältnamn för företaget. Avgör en XSL-översättningstabell (standard är &quot;Extrahera inte några XMP fält&quot;) för överförda bilder. |
 | discSpaceWarningMin | `xsd:int` | Minsta mängd ledigt utrymme i bildkatalogen innan en varning skickas ut. |
-| emailTrashCleanupWarning | `xsd:boolean` | Avgör om e-post ska skickas innan objekt som placeras i papperskorgen kan tas bort automatiskt. |
-| javascriptUploadEnabled | `types:Asset` | Avgör om JavaScript-filer ska överföras. Detta är en potentiell säkerhetsrisk, så använd detta alternativ med försiktighet. |
+| emailTrashCleanupWarning | `xsd:boolean` | Avgör om e-postmeddelanden ska skickas innan papperskorgen tas bort automatiskt. |
+| javascriptUploadEnabled | `types:Asset` | Avgör om JavaScript-filer ska överföras. Det här alternativet utgör en potentiell säkerhetsrisk, så använd det försiktigt. |

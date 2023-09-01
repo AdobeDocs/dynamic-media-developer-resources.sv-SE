@@ -1,13 +1,13 @@
 ---
+title: AvkomprimeraAlternativ
 description: Överföringsinställning för att bearbeta ZIP- och TAR-filer som primära resurser (ingen) eller för att extrahera och överföra deras innehåll (UnCompress).
 solution: Experience Manager
-title: AvkomprimeraAlternativ
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 89222959-3701-4ea6-bcae-98ceec93764f
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->`None` är standard.
+>Inställningen `None` är standard.
 
 ## Parametrar {#section-10e49e27f60743da970a4ff1c4587eab}
 
@@ -34,11 +34,11 @@ ht-degree: 0%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> process</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
-   <td colname="col3"> <p>Kontrollerar arkiveringsfilbearbetning för ZIP och TAR. Tillhandahåller två alternativ: 
+   <td colname="col3"> <p>Kontrollerar arkiveringsfilbearbetning för ZIP och TAR. Det finns två alternativ: 
      <ul id="ul_F34E2F3B9B74450CA7E76BD9FD7137C2">
       <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> Ingen:</span> Bearbeta som primära resurser. </li>
-      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> Avkomprimera:</span> Extrahera och bearbeta innehåll. </li>
-     </ul><p>Obs! Strängkonstanter är skiftlägeskänsliga. Använd <span class="codeph"> Avkomprimera</span>, inte <span class="codeph"> dekomprimera</span> eller <span class="codeph"> unCompress</span>. </p></p> </td> 
+      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> Avkomprimera:</span> Extrahera och bearbeta innehållet. </li>
+     </ul><p>Obs! Strängkonstanter är skiftlägeskänsliga. Använd <span class="codeph"> Avkomprimera</span>, inte <span class="codeph"> dekomprimera</span>, eller <span class="codeph"> unCompress</span>. </p></p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,20 +1,20 @@
 ---
 title: perspektiv
-description: Perspektivomformning. Använd en perspektivomformning på lagerkällbilden för att fylla det område som anges med den fyrsidiga bilden. Andra områden i lagret förblir genomskinliga.
+description: Perspektivomformning. Använd en perspektivomformning på lagerkällbilden så att den fyller det område som anges med den fyrsidiga bilden. Andra områden i lagret förblir genomskinliga.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2e0297b0-c9a4-4bbd-9f06-368f722288d4
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
 
 # perspektiv{#perspective}
 
-Perspektivomformning. Använd en perspektivomformning på lagerkällbilden för att fylla det område som anges med den fyrsidiga bilden. Andra områden i lagret förblir genomskinliga.
+Perspektivomformning. Använd en perspektivomformning på lagerkällbilden så att den fyller det område som anges med den fyrsidiga bilden. Andra områden i lagret förblir genomskinliga.
 
 `perspective= *`perspQuad`*[, *`resOptions`*]`
 
@@ -35,27 +35,27 @@ Perspektivomformning. Använd en perspektivomformning på lagerkällbilden för 
  </tr> 
 </table>
 
-*`perspQuad`* består av fyra pixelkoordinatvärden i den sammansatta (eller lager 0) koordinatmodellen, som kommer från det övre vänstra hörnet i den sammansatta bilden.
+Modifieraren *`perspQuad`* består av fyra pixelkoordinatvärden i den sammansatta (eller lager 0) koordinatmodellen, som kommer från det övre vänstra hörnet i den sammansatta bilden.
 
-`perspQuadN` består av fyra normaliserade koordinatvärden, där `0.0,0.0` motsvarar det övre vänstra hörnet av bilden för det sammansatta lagret/lagret 0 och `1.0,1.0` längst ned till höger.
+Modifieraren `perspQuadN` består av fyra normaliserade koordinatvärden, där `0.0,0.0` motsvarar det övre vänstra hörnet av bilden för det sammansatta lagret/lagret 0 och `1.0,1.0` längst ned till höger.
 
 Indatabilden omformas så att indatabildens övre vänstra hörn mappas till det första koordinatvärdet för `perspQuad[N]`, det övre högra hörnet till den andra koordinaten, det nedre högra hörnet till den tredje koordinaten och det nedre vänstra hörnet till den fjärde koordinaten.
 
 >[!NOTE]
 >
->`pos=` kan användas för att ytterligare placera det omformade lagret i den sammansatta bilden.
+>Modifieraren `pos=` kan användas för att ytterligare placera det omformade lagret i den sammansatta bilden.
 
 De fyra perspektivkoordinaterna kan placeras utanför den sammansatta bilden.
 
-Beteendet är odefinierat om den kvadrilaterala formen inte är lämplig för en perspektivomformning (t.ex. om två eller flera hörn sammanfaller, om tre eller alla hörn är på samma linje eller om den kvadrilaterala är självkorsande eller konkav).
+Beteendet är odefinierat om den kvadrilaterala inte är lämplig för en perspektivomformning. Om till exempel två eller flera hörn sammanfaller, om tre eller alla hörn finns på samma rad, eller om den fyrsidiga är självkorsande eller konkav.
 
 ## Kvalitetsaspekter {#section-7cc9056afa614300a9b8844d39739fc3}
 
-Standardimplementeringen skapar en rimlig kompromiss mellan kvalitet och prestanda, men ibland kan det vara nödvändigt att öka upplösningen för källbilden för att förbättra skärpan eller minska den för att minska aliaseringsartefakter.
+Standardimplementeringen skapar en rimlig kompromiss mellan kvalitet och prestanda, men det kan vara nödvändigt att öka upplösningen för källbilden för att förbättra skärpan eller minska den för att minska alibreringsartefakter.
 
-Om källan är en bild använder du `scale=` om du vill välja en annan upplösning (i förhållande till bildens fullständiga upplösning). Angiven `scale=` värdet avrundas till nästa högre PTIF-upplösningsnivå. Om det gäller en kapslad begärankälla kan storleken på bilden som skapas av den kapslade begäran justeras för att uppnå önskad skärpa. För textlager justeras upplösningen för indatabilden (den återgivna texten) genom att ett större värde än= väljs samtidigt som upplösningen som anges med `textAttr=`.
+Om källan är en bild använder du `scale=` om du vill välja en annan upplösning (i förhållande till bildens fullständiga upplösning). Angiven `scale=` värdet avrundas till nästa högre PTIF-upplösningsnivå. Om det finns en kapslad begärandekälla kan storleken på bilden som skapas av den kapslade begäran justeras för att uppnå önskad skärpa. För textlager justeras upplösningen för indatabilden (den återgivna texten) genom att ett större värde än= väljs och upplösningen som anges med ökas `textAttr=`.
 
-*`resOptions`* gör att du kan välja en alternativ omsamplingsalgoritm. Följande värden stöds (skiftlägeskänsliga):
+Modifieraren *`resOptions`* Med kan du välja en alternativ omsamplingsalgoritm. Följande värden stöds (skiftlägeskänsliga):
 
 <table id="table_0F20007986324E228096888ED37219C0"> 
  <thead> 
@@ -88,7 +88,7 @@ Om källan är en bild använder du `scale=` om du vill välja en annan upplösn
 
 kommandot Lager. Gäller för det aktuella lagret eller för lagret 0 om `layer=comp`. Ignoreras av effektlager.
 
-`res=` ignoreras alltid när det finns perspektiv i samma lager. `size=` ignoreras när det anges för bildlager. `size=` och `res=` i lager med `perspective=` är reserverade för framtida bruk.
+Modifieraren `res=` ignoreras alltid när det finns perspektiv i samma lager. Modifieraren `size=` ignoreras när det anges för bildlager. Modifierare `size=` och `res=` i lager med `perspective=` är reserverade för framtida bruk.
 
 ## Standard {#section-e35683395d514d4eb6b32924e1bf8f2f}
 

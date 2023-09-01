@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d1eaa38d-cfd3-44d4-92b1-04d72333f867
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Välj Effektlager. Markerar ett effektlager och startar ett nytt lagersegment i 
 
 Alla kommandon i det nya segmentet används på det angivna effektlagret. Ett effektlagersegment avslutas av nästa `layer=` eller `effect=` eller i slutet av begäran.
 
-*`n`* måste vara mindre än 0 för yttre lagereffekter (dvs. effekter bakom det överordnade lagret) och större än 0 för inre lagereffekter (dvs. effekter i det överordnade lagret). Effektlagrets nummer behöver inte följa på varandra.
+Värdet *`n`* måste vara mindre än 0 för yttre lagereffekter (det vill säga effekter bakom det överordnade lagret) och större än 0 för inre lagereffekter (det vill säga effekter i det överordnade lagret). Effektlagrets nummer behöver inte följa på varandra.
 
 Effektlagrets nummer anger z-ordningen, om det finns flera effektlager för samma överordnade lager. Lager med högre nummer placeras ovanpå lager med lägre nummer.
 
@@ -35,7 +35,7 @@ Effektlager kan kopplas till `layer=comp`.
 
 ## Egenskaper {#section-e11f795deff345779ce280a82cf221ca}
 
-Effektlager, kommando. *`n`* får inte vara 0.
+Effektlager, kommando. Värdet *`n`* får inte vara 0.
 
 ## Standard {#section-84bbe1cfe7a94040827c994323ac59d4}
 

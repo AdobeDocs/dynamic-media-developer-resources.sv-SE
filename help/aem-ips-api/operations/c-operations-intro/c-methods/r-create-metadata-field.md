@@ -1,20 +1,20 @@
 ---
-description: Gör att administratörer kan skapa nya metadatafält som kan koordineras med content management-system eller för mallåtgärder. Exempel på skapade metadatafält är nyckelord, information om författaren till bilden eller information om upphovsrättsinnehavare.
-solution: Experience Manager
 title: createMetadataField
+description: Det gör att administratörer kan skapa metadatafält som kan koordineras med content management-system eller för mallåtgärder. Exempel på skapade metadatafält är nyckelord, information om författaren till bilden eller information om upphovsrättsinnehavare.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: eac7fa54-ebe2-4f42-a478-d9a6fb54d1b6
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
 
 # createMetadataField{#createmetadatafield}
 
-Gör att administratörer kan skapa nya metadatafält som kan koordineras med content management-system eller för mallåtgärder. Exempel på skapade metadatafält är nyckelord, information om författaren till bilden eller information om upphovsrättsinnehavare.
+Det gör att administratörer kan skapa metadatafält som kan koordineras med content management-system eller för mallåtgärder. Exempel på skapade metadatafält är nyckelord, information om författaren till bilden eller information om upphovsrättsinnehavare.
 
 Syntax
 
@@ -58,7 +58,7 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4">Typ av metadatafält. <p>Metadatafältstyperna definierar de tillgängliga typerna. </p> </td> 
+   <td colname="col4">Fälttyp för metadata. <p>Metadatafältstyperna definierar de tillgängliga typerna. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
@@ -82,7 +82,7 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
    <td colname="col3"> Nej </td> 
-   <td colname="col4"> Gör att du kan skapa en uppsättning delade uppräknade värden som markerade taggar kan peka på. </td> 
+   <td colname="col4"> Du kan skapa en uppsättning delade specifika värden som markerade taggar kan peka på. </td> 
   </tr> 
  </tbody> 
 </table>

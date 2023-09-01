@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c2e9a1f3-7216-4ab0-9c37-57f083119cef
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
@@ -31,11 +31,11 @@ posN= *`coordN`*
  </tr> 
 </table>
 
-För bild-, text- och enfärgslager gäller följande: `pos=` anger positionen för ett lagerankare i förhållande till ankarpunkten för lager 0. `posN=` Koordinatvärden normaliseras i förhållande till den faktiska storleken på lagret 0 rect.
+Om det finns en bild, text och enfärgslager, `pos=` anger positionen för ett lagerankare i förhållande till ankarpunkten för lager 0. The `posN=` Koordinatvärden normaliseras i förhållande till den faktiska storleken på lagret 0 rect.
 
-Om det gäller effektlager, `pos=` flyttar effektlagret i förhållande till det överordnade lagret.
+Om det finns effektlager, `pos=` flyttar effektlagret i förhållande till det överordnade lagret.
 
-Positiva värden flyttar lagret åt höger/nedåt, negativa åt vänster/uppåt. `posN=0.5,0.5` flyttar lagret halva lagrets bredd 0 och höjd nedåt och åt höger.
+Positiva värden flyttar lagret åt höger/nedåt och negativa åt vänster/uppåt. I `posN=0.5,0.5`flyttas lagret halva lagrets bredd 0 och höjd nedåt och åt höger.
 
 ## Egenskaper {#section-51a60cdc52d040538fef378ace7c2e7d}
 
@@ -43,7 +43,7 @@ Lagerattribut. Ignoreras om `layer=0` eller `layer=comp`.
 
 ## Standard {#section-70a6bc71ded5494e843194dfb6bf5a6c}
 
-`posN=0,0`. Då placeras lagerankarpunkten på samma plats som ankarpunkten för lager 0 om det är en bild, text eller ett enfärgat färglager. Placerar ett effektlager direkt över eller under det överordnade lagret.
+`posN=0,0`. Med den här koordinaten placeras lagerankarpunkten på samma plats som ankarpunkten för lager 0 om det är ett bild-, text- eller enfärgslager. Placerar ett effektlager direkt över eller under det överordnade lagret.
 
 ## Exempel {#section-a89a02c22f6b4260bfcf7c842cd6069d}
 

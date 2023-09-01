@@ -1,24 +1,24 @@
 ---
-description: Skapa eller redigera ett metadatafält. Utelämna den valfria fältreferensen för att skapa ett nytt metadatafält.
-solution: Experience Manager
 title: saveMetadataField
+description: Skapa eller redigera ett metadatafält. Utelämna den valfria fältreferensen för att skapa ett metadatafält.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 56a45324-5027-4375-a790-c965f682e4b9
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
 
 # saveMetadataField{#savemetadatafield}
 
-Skapa eller redigera ett metadatafält. Utelämna den valfria fältreferensen för att skapa ett nytt metadatafält.
+Skapa eller redigera ett metadatafält. Utelämna den valfria fältreferensen för att skapa ett metadatafält.
 
 >[!NOTE]
 >
->Den här metoden är inaktuell.
+>Den här metoden är föråldrad.
 
 ## Auktoriserade användartyper {#section-0c1cbde0863346f8a31b32fd06ab2926}
 
@@ -100,7 +100,7 @@ Skapa eller redigera ett metadatafält. Utelämna den valfria fältreferensen f�
 
 ## Exempel {#section-4441c26d1f41466ba972b43dd5189e89}
 
-I det här kodexemplet skapas ett nytt metadatafält som begränsas av strängkonstanterna Resurstyp och Metadatafälttyper. Om `fieldHandle` -elementet har ett giltigt fältreferensvärde, ändrar metadatavärdena och får samma fältreferens som du angav i begäran.
+I det här kodexemplet skapas ett metadatafält som begränsas av strängkonstanterna Resurstyp och Metadatafälttyper. Om `fieldHandle` -elementet har ett giltigt fältreferensvärde, ändrar metadatavärdena och får samma fältreferens som du angav i begäran.
 
 **Begäran**
 

@@ -1,11 +1,11 @@
 ---
+title: kvantifiera
 description: Färgkvantifiering. Anger färgkvantifieringsattribut för konvertering av GIF-utdata.
 solution: Experience Manager
-title: kvantifiera
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67247016-a038-4ed4-90ed-751eaf9c4881
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Färgkvantifiering. Anger färgkvantifieringsattribut för konvertering av GIF-u
 <table id="simpletable_6BF155FCB8224E7EBFC8D8375AD26A71"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> type </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> {adaptive|web|mac} </span> paletttyp </p> <p>Välj ' <span class="codeph"> webb </span>' eller ' <span class="codeph"> mac </span>' för att välja en fördefinierad palett, eller inställd på ' <span class="codeph"> adaptiv </span>' för att beräkna en optimal palett för bilden. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> {adaptive|web|mac} </span> paletttyp </p> <p>Välj ' <span class="codeph"> webb </span>eller <span class="codeph"> mac </span>' för att välja en fördefinierad palett, eller inställd på ' <span class="codeph"> adaptiv </span>' för att beräkna en optimal palett för bilden. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> gitter </span> </span> </p> </td> 
@@ -33,7 +33,7 @@ Färgkvantifiering. Anger färgkvantifieringsattribut för konvertering av GIF-u
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> colorList </span> </span> </p> </td> 
-  <td class="stentry"> <p>Kommaavgränsad lista med framtvingade RGB-färger i hex6-format. Gör att du kan ange tvingade färger som ska inkluderas i ett ' <span class="codeph"> adaptiv </span>paletten. Om antalet angivna färger är mindre än <span class="codeph"> numColors </span>, beräknas ytterligare färger baserat på bildinnehållet. </p> <p>Används endast om <span class="codeph"> fmt=gif </span> eller <span class="codeph"> fmt=gif-alpha </span>. I annat fall ignoreras. Färgerna som anges med <span class="codeph"> <span class="varname"> colorList </span> </span> måste vara RGB i hex6-format (se <span class="codeph"> färg </span>). inga andra färgspecifikationer tillåts. </p> </td> 
+  <td class="stentry"> <p>Kommaavgränsad lista med framtvingade RGB-färger i hex6-format. Gör att du kan ange tvingade färger som ska inkluderas i en <span class="codeph"> adaptiv </span>paletten. Om antalet angivna färger är mindre än <span class="codeph"> numColors </span>, beräknas ytterligare färger baserat på bildinnehållet. </p> <p>Används endast om <span class="codeph"> fmt=gif </span> eller <span class="codeph"> fmt=gif-alpha </span>. I annat fall ignoreras. Färgerna som anges med <span class="codeph"> <span class="varname"> colorList </span> </span> måste vara RGB-värden i hex6-format (se <span class="codeph"> färg </span>); inga andra färgspecifikationer tillåts. </p> </td> 
  </tr> 
 </table>
 
@@ -45,8 +45,8 @@ Färgkvantifiering. Anger färgkvantifieringsattribut för konvertering av GIF-u
 
 Skapa en miniatyrbild för GIF med hjälp av `web`&#39; och inget gitter:
 
-[!DNL http://server/myRootId/myImageId?req=tmb&fmt=gif&quantize=web,off]
+[!DNL `http://server/myRootId/myImageId?req=tmb&fmt=gif&quantize=web,off`]
 
-Konvertera en bild till ett GIF med två toner med genomskinlighet för nyckelfärger och tvinga färgerna att bli svartvita:
+Konvertera bilden till ett GIF med två toner med transparens och tvinga färgerna till svartvitt:
 
-[!DNL http://server/is/agm/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff]
+[!DNL `http://server/is/agm/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`]

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 71d59961-848e-4d78-875e-066e842ac1bf
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Färgkvantifiering. Anger färgkvantifieringsattribut för konvertering av GIF-u
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> type </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {adaptive|web|mac} </span> </p> <p>Anger paletttyp. </p> <p>Ange till <span class="codeph"> adaptiv </span> för att beräkna en optimal palett för bilden. </p> <p>Ange till <span class="codeph"> webb </span> eller <span class="codeph"> mac </span> för att välja en fördefinierad palett. </p> <p> <p>Obs! The <span class="codeph"> mac </span> Lastpallstyp stöds bara för formaten GIF och PNG8, men inte för formaten GIF-Alpha och PNG8-Alpha. </p> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {adaptive|web|mac} </span> </p> <p>Anger paletttyp. </p> <p>Ange till <span class="codeph"> adaptiv </span> för att beräkna en optimal palett för bilden. </p> <p>Ange till <span class="codeph"> webb </span> eller <span class="codeph"> mac </span> för att välja en fördefinierad palett. </p> <p> <p>Obs! <span class="codeph"> mac </span> Lastpallstyp stöds bara för formaten GIF och PNG8, men inte för formaten GIF-Alpha och PNG8-Alpha. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> gitter </span> </span> </p> </td> 
@@ -34,16 +34,16 @@ Färgkvantifiering. Anger färgkvantifieringsattribut för konvertering av GIF-u
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> colorList </span> </span> </p> </td> 
-   <td colname="col2"> <p>En kommaavgränsad lista med RGB-färger som framtvingas i hex6-format </p> <p>Här kan du ange färger som ska ingå i en <span class="codeph"> adaptiv </span> palett. Om antalet angivna färger är mindre än <span class="codeph"> <span class="varname"> numColors </span> </span>, beräknas ytterligare färger baserat på bildinnehållet. </p> </td> 
+   <td colname="col2"> <p>En kommaavgränsad lista med RGB-färger som framtvingas i hex6-format </p> <p>Här kan du ange vilka färger som ska ingå i en <span class="codeph"> adaptiv </span> palett. Om antalet angivna färger är mindre än <span class="codeph"> <span class="varname"> numColors </span> </span>, beräknas ytterligare färger baserat på bildinnehållet. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Egenskaper {#section-8ab5035055b24b858270d260912a7f3d}
 
-Begär attribut. Används oavsett aktuell lagerinställning. Används endast om `fmt=gif`, `fmt=gif-alpha`, `fmt=png8`, eller `fmt=png8-alpha`. I annat fall ignoreras.
+Begär attribut. Det används oavsett den aktuella lagerinställningen. Används endast om `fmt=gif`, `fmt=gif-alpha`, `fmt=png8`, eller `fmt=png8-alpha`. I annat fall ignoreras.
 
-Färgerna som anges med *`colorList`* måste bestå av RGB-värden i hex6-format (se [färg](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md) utan `0x` prefix. Inga andra färgspecifikationer tillåts. *`numColors`* måste vara mellan 2 och 256.
+Färgerna som anges med *`colorList`* måste bestå av RGB-värden i hex6-format (se [färg](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md) utan `0x` prefix. Inga andra färgspecifikationer tillåts. Modifieraren *`numColors`* måste vara 2-256.
 
 ## Standard {#section-ca3e817617244e8798ccff67b2023a32}
 
@@ -51,13 +51,13 @@ Färgerna som anges med *`colorList`* måste bestå av RGB-värden i hex6-format
 
 ## Exempel {#section-e34aca7587d548a7ae9d4266b80c9451}
 
-Skapa en miniatyrbild för GIF med `web` och inget gitter:
+Skapa en miniatyrbild för GIF med `web` palett och inget gitter:
 
-` http:// *`server`*/myRootId/myImageId?req=tmb&fmt=gif&quantize=web,off`
+`http:// *`*Server*`*/myRootId/myImageId?req=tmb&fmt=gif&quantize=web,off`
 
-Konvertera en bild till ett GIF med två toner med genomskinlighet för nyckelfärger och tvinga färgerna att bli svartvita:
+Konvertera bilden till ett GIF med två toner med transparens och tvinga färgerna till svartvitt:
 
-` http:// *`server`*/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`
+`http:// *`*Server*`*/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`
 
 ## Se även {#section-ea5e8de6084540cf86010370a4d0f01f}
 

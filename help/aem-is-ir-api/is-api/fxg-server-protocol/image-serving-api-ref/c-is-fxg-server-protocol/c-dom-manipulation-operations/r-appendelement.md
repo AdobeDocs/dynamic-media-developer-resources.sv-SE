@@ -1,11 +1,11 @@
 ---
+title: appendElement
 description: Lägg till XML i ett s7 elementID.
 solution: Experience Manager
-title: appendElement
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f93bc31e-c0ae-4375-bb6a-eba6f11945b2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Lägg till XML i ett s7:elementID.
 
 `appendElement.elementID=<XML>`
 
-Om ett FXG-nodelement har `s7:elementID` definierade, `<XML>` värdet läggs till som ett underordnat element. The `<XML>` måste kodas.
+Om ett FXG-nodelement har en `s7:elementID` definierade, `<XML>` värdet läggs till som ett underordnat element. The `<XML>` måste kodas.
 
 ## Exempel {#section-4368570aa198485d91b73b4d0741478f}
 

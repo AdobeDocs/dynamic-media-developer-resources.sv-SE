@@ -1,22 +1,22 @@
 ---
-description: Om JavaScript™ anges som svarsformat formateras svarsdata så att de tolkas som en JavaScript™-inkluderingsfil.
+title: JavaScript-egenskaper
+description: Om JavaScript anges som svarsformat formateras svarsdata så att de tolkas som en JavaScript-&fil, inklusive-fil.
 solution: Experience Manager
-title: JavaScript™-egenskaper
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 12e69221-4a2c-4ec6-b38b-0a8d98d3c4a6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
 
-# JavaScript™-egenskaper{#javascript-properties}
+# JavaScript-egenskaper{#javascript-properties}
 
-Om JavaScript™ anges som svarsformat formateras svarsdata så att de tolkas som en JavaScript™-inkluderingsfil.
+Om JavaScript anges som svarsformat formateras svarsdata så att de tolkas som en JavaScript-inkluderingsfil.
 
-Ett typiskt JavaScript™-egenskapssvar har följande allmänna struktur:
+Ett typiskt JavaScript-egenskapssvar har följande allmänna struktur:
 
 ```
            
@@ -29,9 +29,9 @@ Ett typiskt JavaScript™-egenskapssvar har följande allmänna struktur:
 ...
 ```
 
-*`propertyValue`* kan vara tom. Tomt utrymme är valfritt i början och slutet av varje rad och före och efter avgränsaren =. Alla värden omges av enkla citattecken. Enkla citattecken i strängar escape-konverteras med två på varandra följande enkla citattecken.
+The *`propertyValue`* kan vara tom. Tomt utrymme är valfritt i början och slutet av varje rad och före och efter avgränsaren =. Alla värden omges av enkla citattecken. Enkla citattecken i strängar föregås av två på varandra följande enkla citattecken.
 
-Om du vill analysera ett JavaScript™-egenskapssvar måste alla objekt eller objekt som svaret refererar till skapas innan egenskapsfilen läses in. Följande är ett exempel på hur du använder `req=props` för att få fram svarsbildens storlek i JavaScript™:
+Om du vill analysera ett JavaScript-egenskapssvar måste alla objekt eller objekt som svaret refererar till skapas innan egenskapsfilen läses in. Följande är ett exempel på hur du använder `req=props` för att få svarsbildens storlek i JavaScript:
 
 ```
 <script> image = new Object; </script> 

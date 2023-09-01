@@ -1,13 +1,13 @@
 ---
-description: Standardtidsstämpel för bildändring. Anger ett standardvärde för katalogen TimeStamp.
-solution: Experience Manager
 title: TimeStamp
+description: Standardtidsstämpel för bildändring. Det innehåller ett standardvärde för katalogen TimeStamp.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e137f795-e0f7-4b72-b7e8-188e254bbb45
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
@@ -16,21 +16,21 @@ ht-degree: 0%
 
 Standardtidsstämpel för bildändring. Tillhandahåller ett standardvärde för katalogen::TimeStamp.
 
-Om inget anges kommer servern att använda ändringsdatumet/tiden för detta [!DNL *`catalog`*.ini] -fil.
+Om inget anges används ändringsdatumet/tiden för den här [!DNL *`catalog`*.ini] -fil.
 
 ## Egenskaper {#section-647066e62ce44a84b627fdd0b2f7cfec}
 
-Datum/tid-värde. Kan vara antingen heltal i millisekunder sedan midnatt, 1 januari 1970 UTC/GMT eller ett datum/tid-strängvärde med något av följande format:
+Datum/tid-värde. Det kan vara antingen heltal i millisekunder sedan midnatt, 1 januari 1970 UTC/GMT eller ett datum/tid-strängvärde med något av följande format:
 
-*`mm`*/ *`dd`*/ *`yyyy`* *`hh`*: *`mm`*: *`ss zzz`*
+Datum/tid-värdet *`mm`*/ *`dd`*/ *`yyyy`* *`hh`*: *`mm`*: *`ss zzz`*
 
-*`mm`*/ *`dd`*/ *`yyyy`* *`hh`*: *`mm`*: *`ss`* GMT *`offset`*
+Datum/tid-värdet *`mm`*/ *`dd`*/ *`yyyy`* *`hh`*: *`mm`*: *`ss`* GMT *`offset`*
 
-*`hh`* ligger mellan 0 och 23.
+Tidsvärdet *`hh`* ligger i intervallet 0-23.
 
-*`zzz`* är en tidszonskod på 3 eller 4 tecken som `GMT` eller `PST`. Besparingstiden för dagsljus måste anges i tidszonskoden (t.ex. `PST` för Stillahavsområdet, normaltid `PDT` för Pacific Daylight Savings Time).
+Tidsvärdet *`zzz`* är en tidszonskod på tre eller fyra tecken som `GMT` eller `PST`. Besparingstiden för dagsljus måste räknas med i tidszonskoden (till exempel `PST` för Stillahavsområdet, normaltid `PDT` för Pacific, sommartid).
 
-*`offset`* är en tidszonsförskjutning i timmar eller timmar:minuter, i förhållande till GMT. Till exempel: `PDT` motsvarar `GMT -7`.
+Tidsvärdet *`offset`* är en tidszonsförskjutning i timmar eller timmar:minuter, i förhållande till GMT. Till exempel: `PDT` motsvarar `GMT -7`.
 
 Alla element i strängformaterade datum/tid-värden måste finnas. Om datum/tid-värdet inte är korrekt formaterat ignoreras det och ändringstiden för [!DNL *`catalog`*.ini] filen används i stället.
 

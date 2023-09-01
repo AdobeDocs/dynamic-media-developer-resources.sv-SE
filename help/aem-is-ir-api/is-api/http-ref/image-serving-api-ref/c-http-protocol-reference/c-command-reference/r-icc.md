@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8be7be8c-a23d-4a5b-93e4-44231155616b
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
@@ -37,15 +37,15 @@ Utdatafärgprofil.
  </tr> 
 </table>
 
-*`object`* Anger den utdatafärgrymdsprofil som bilden ska konverteras till om den inte är samma som arbetsprofilen. *`profile`* måste vara antingen giltig `icc::Name` som definieras i ICC-profilmappningen för en bildkatalog eller standardkatalog, eller en relativ sökväg till en profilfil (vanligtvis med [!DNL .icc] eller [!DNL .icm] suffix). Se [*`object`*](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0) om du vill ha mer information.
+Värdet *`object`* Anger den utdatafärgrymdsprofil som bilden ska konverteras till om den skiljer sig från arbetsprofilen. Värdet *`profile`* måste vara antingen giltig `icc::Name` som definieras i ICC-profilmappningen för en bildkatalog eller standardkatalog, eller en relativ sökväg till en profilfil (vanligtvis med [!DNL .icc] eller [!DNL .icm] suffix). Se [*`object`*](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0) om du vill ha mer information.
 
 >[!NOTE]
 >
->*`object`* får inte innehålla &quot;,&quot;-tecken, även om det är HTTP-kodat.
+>Värdet *`object`* får inte innehålla &quot;,&quot;-tecken, även om det är HTTP-kodat.
 
-*`renderIntent`* tillåter att standardåtergivningsmetoden åsidosätts.
+Värdet *`renderIntent`* tillåter att standardåtergivningsmetoden åsidosätts.
 
-*`blackpointComp`* aktiverar svartpunktskompensation om utdataprofilen har stöd för den här funktionen.
+Värdet *`blackpointComp`* aktiverar svartpunktskompensation om utdataprofilen har stöd för den här funktionen.
 
 >[!NOTE]
 >
@@ -53,17 +53,17 @@ Utdatafärgprofil.
 
 Anteckning
 
-*`dither`* aktiverar gitter (faktiskt felspridning), vilket kan leda till att färgreducering undviks eller minskas.
+Modifieraren *`dither`* aktiverar gitter (faktiskt felspridning), vilket kan leda till att färgreducering undviks eller minskas.
 
 ## Egenskaper {#section-9fcd3e7bd1fd43c887b0f18a2f3c7259}
 
 Begär attribut. Servern returnerar ett fel om en bildtyp anges med `fmt=` som inte matchar *`profile`*.
 
-*`renderIntent`* och *`blackpointComp`* ignoreras om de inte är kompatibla med den angivna ICC-profilen. Det är mer sannolikt att profiler för CMYK-utdataenheter har stöd för olika återgivningsmetoder.
+Modifierare *`renderIntent`* och *`blackpointComp`* ignoreras om de inte är kompatibla med den angivna ICC-profilen. Det är mer sannolikt att profiler för CMYK-utdataenheter har stöd för olika återgivningsmetoder.
 
 ## Standard {#section-0b9fe2eb428447df8ae9948f11ab5aae}
 
-Om färghantering är aktiverat och `icc=` anges inte, kommer servern att leverera bilden konverterad till utdataprofilen ( `attribute::IccProfile*`) som matchar den bildtyp som anges med `fmt=`.
+Om färghantering är aktiverat och `icc=` anges inte, servern levererar bilden konverterad till utdataprofilen ( `attribute::IccProfile*`) som matchar den bildtyp som anges med `fmt=`.
 
 Om inget anges, *`renderIntent`* ärvs från `attribute::IccRenderIntent`, *`blackpointComp`* ärvs från `attribute::IccBlackPointCompensation`och *`dither`* ärvs från `attribute::IccDither`.
 

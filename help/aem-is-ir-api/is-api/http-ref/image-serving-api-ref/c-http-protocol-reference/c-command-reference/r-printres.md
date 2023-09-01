@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 81c4c3b8-946d-401b-a279-ba3f426ea5a4
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
@@ -25,17 +25,18 @@ Utskriftsupplösning Åsidosätter utskriftsupplösningsvärdet som är inbädda
  </tr> 
 </table>
 
-Utskriftsupplösningen definieras normalt av `catalog::PrintResolution` om det är en katalogpost, annars med utskriftsupplösningsvärdet som är inbäddat i källbilden. När det gäller en mallbild eller sammansatt bild med flera lager är standardutskriftsupplösningen som är inbäddad i svarsfilen utskriftsupplösningen för lagerbilden med det lägsta lagernumret.
+Utskriftsupplösningen definieras normalt av `catalog::PrintResolution` om det är en katalogpost, i annat fall av utskriftsupplösningsvärdet som är inbäddat i källbilden. Om det finns en sammansatt bild i mallar eller lager är standardutskriftsupplösningen som är inbäddad i svarsfilen utskriftsupplösningen för lagerbilden med det lägsta lagernumret.
 
 Om du anger utskriftsupplösningen ändras inte svarsbildens pixelstorlek.
 
 ## Egenskaper {#section-03c7910ebe234804a319e5d0d8ef3a74}
 
-Begär attribut. Används oavsett den aktuella lagerinställningen.
+Begär attribut. Det används oavsett den aktuella lagerinställningen.
 
 ## Standard {#section-d7d89fd235cc418fb381014612530f00}
 
-`catalog::PrintResolution` eller den utskriftsupplösning som är inbäddad i källbilden.
+`catalog::PrintResolution`
+Eller den utskriftsupplösning som är inbäddad i källbilden.
 
 ## Se även {#section-4c479b6d6ccd41fc9ce8b239a28e726d}
 

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b937e699-8e1e-4211-86a6-fdc155a0e3ed
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -25,21 +25,21 @@ Lagerfärg. Anger förgrundsfärgen och opaciteten för heltäckande färg- och 
  </tr> 
 </table>
 
-När det gäller bild- och textlager `color=` fyller genomskinliga och halvgenomskinliga områden inom lagrets begränsningsram med den angivna färgen* före* `rotate=` och `extend=` används.
+Om det finns bild- och textlager `color=` fyller genomskinliga och halvgenomskinliga områden inom lagrets begränsningsram med den angivna färgen* före* `rotate=` och `extend=` används.
 
 ## Egenskaper {#section-d6e74c36a49547849212e4db8927e678}
 
 Lagerattribut. Gäller för aktuellt lager eller för lager 0 om `layer=comp`.
 
-*`color`* antas finnas i den arbetsfärgrymd som motsvarar pixeltypen för *`color`*. *`color`* konverteras korrekt om lagerbilden har en annan pixeltyp vid tidpunkten för sammanslagningen.
+Modifieraren *`color`* antas finnas i den arbetsfärgrymd som motsvarar pixeltypen för *`color`*. Och *`color`* konverteras korrekt om lagerbilden har en annan pixeltyp vid tidpunkten för sammanslagningen.
 
 ## Standard {#section-60611c72876b4c45b5c85ce35608e5ec}
 
-Ingen standard för enfärgade lager och effektlager. en färg måste anges. Standardvärdet är 0,0,0,0 (helt genomskinlig) för bild- och textlager.
+Ingen standard för enfärgade lager och effektlager. En färg måste anges. Standardvärdet är 0,0,0,0 (helt genomskinlig) för bild- och textlager.
 
 ## Exempel {#section-2d090493f4ec4e188bbc5565aa151a05}
 
-I följande mallfragment ställer vi in textbakgrunden till en 50 % ogenomskinlig färg och använder samma färg för att lägga till en halvgenomskinlig kant på 10 pixlar runt bilden i lager 2:
+I följande mallfragment är textbakgrunden inställd på en 50 % ogenomskinlig färg och använder samma färg för att lägga till en halvgenomskinlig kant på 10 pixlar runt bilden i lager 2:
 
 `…&$color=214,245,130,128& layer=1&text=my-text-string&color=$color$&… layer=2&src=myRootId/myImageId&extend=10,10,10,10&bgColor=$color$&…`
 

@@ -1,13 +1,13 @@
 ---
+title: SearchFilter
 description: Filter som hjälper dig att definiera sökvillkor så att sökningen blir effektivare.
 solution: Experience Manager
-title: SearchFilter
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b3a26966-33c9-48ca-b0ed-d05fc0e2050f
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -46,22 +46,22 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> type:StringArray</span> </td> 
-   <td colname="col3">En lista med resurstyper som du vill returnera i en sökning. Till exempel: <span class="codeph"> image</span>. </td> 
+   <td colname="col3">En lista med resurstyper som du vill returnera i en sökning. Till exempel <span class="codeph"> image</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeAssetTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> type:StringArray</span> </td> 
-   <td colname="col3"> Ange en resurstyp som ska uteslutas från sökningen. Exempel: bild. </td> 
+   <td colname="col3"> Ange en resurstyp som ska uteslutas från sökningen. Till exempel bilden. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetSubTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> type:StringArray</span> </td> 
-   <td colname="col3">En lista med undertyper av resurser som du vill returnera i en sökning. Till exempel för <span class="codeph"> AssetSet</span>kan du söka efter <span class="codeph"> MediaType</span> undertyp. </td> 
+   <td colname="col3">En lista med resursundertyper som du vill returnera i en sökning. Till exempel för <span class="codeph"> AssetSet</span>kan du söka efter <span class="codeph"> MediaType</span> undertyp. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> strictSubTypeCheck</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolesk</span> </td> 
-   <td colname="col3"> <p>En valfri boolesk flagga som anger om resurser ska returneras utan undertyp när <span class="codeph"> assetSubTypeArray</span> har skickats. </p> <p>Om true returneras bara resurser med en av de angivna undertyperna. </p> <p>Om värdet är false returneras även resurser utan undertyp. </p> <p>Standardvärdena är false. </p> </td> 
+   <td colname="col3"> <p>En valfri boolesk flagga som anger om resurser ska returneras utan undertyp när <span class="codeph"> assetSubTypeArray</span> har skickats. </p> <p>Om true returneras bara resurser med en av de angivna undertyperna. </p> <p>Om värdet är false returneras även resurser utan undertyp. </p> <p>Standardvärdet är false. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeByproducts</span> </span> </td> 
@@ -75,7 +75,7 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> projectHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
-   <td colname="col3"> Hantera det projekt som du vill söka i. </td> 
+   <td colname="col3"> Hantera projektet som du vill söka i. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
@@ -84,7 +84,7 @@ Syntax
     <ul id="ul_96FFEE28F7624C1FB0356776B4C7CD53"> 
      <li id="li_DCB07288E5F44E05A4D83D3F34B0E08E"><span class="codeph"> MarkedForPublish</span> bara returnera publicerade resurser. </li> 
      <li id="li_9A9A852248DB490DB958AE986DF02672"><span class="codeph"> EjMarkeradFörPublicering</span> om du bara vill returnera opublicerade resurser. </li> 
-    </ul> <p>Obs! Lämna tomt för att söka efter <i>alla</i> publicerade tillståndstyper. </p> </td> 
+    </ul> <p>Obs! Lämna tomt om du vill söka efter <i>alla</i> publicerade tillståndstyper. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> trashState</span> </span> </td> 

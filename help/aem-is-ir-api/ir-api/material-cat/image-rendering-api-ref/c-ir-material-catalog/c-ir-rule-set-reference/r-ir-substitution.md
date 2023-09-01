@@ -1,18 +1,18 @@
 ---
+title: substitutioner
 description: Ersättningssträngselement. Valfritt i <rule> -element.
 solution: Experience Manager
-title: ersättning
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ea44d940-e8dd-4a25-a082-3ed3c0f57e45
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 0%
 
 ---
 
-# ersättning{#substitution}
+# substitutioner{#substitution}
 
 Ersättningssträngselement. Valfritt i `<rule>` -element.
 
@@ -28,7 +28,7 @@ Ersättningssträng.
 
 Definierar en ersättningssträng för den matchande strängen eller delsträngen i sökvägen eller frågan.
 
-Om mönsteruttrycket innehåller deluttryck (avgränsade med parenteser) ersätts den första matchande delsträngen med ersättningssträngen. Om mönsteruttrycket inte innehåller underuttryck ersätts hela den matchade strängen.
+Om mönsteruttrycket innehåller deluttryck (avgränsade med parenteser) ersätts den första matchade delsträngen med ersättningssträngen. Om mönsteruttrycket inte innehåller underuttryck ersätts hela den matchade strängen.
 
 If `<expression>` är tom eller saknas läggs ersättningssträngen till i sökvägen eller frågan.
 

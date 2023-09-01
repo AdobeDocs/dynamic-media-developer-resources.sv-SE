@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 86c87cd1-6e08-40cb-80e6-35a9f49b6572
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -43,13 +43,13 @@ De delar av lagret som ligger utanför det område som definieras av `clipPath=`
 
 If `size=` är angivet och inte 0,0, lagret är förstorleksdefinierat. I det här fallet är bankoordinaterna relativa till lagrets övre vänstra hörn och lagret placeras baserat på `origin=` eller dess standardvärde. Alla områden i banan utanför lagrets rektangel förblir genomskinliga.
 
-If `size=` är inte angivet för en enfärgad färg eller ett textlager, anses lagret vara självanpassat i den utsträckning som banan bestämmer dess storlek. If `origin=` har inte angetts, används som standard (0,0) för bankoordinatmodellen. På så sätt kan bankoordinater anges i förhållande till origo för lager 0.
+If `size=` är inte angivet för en enfärgad färg eller ett textlager, anses lagret vara självanpassat i den utsträckning som banan bestämmer dess storlek. If `origin=` har inte angetts, används som standard (0,0) för bankoordinatmodellen. Med den här arbetsflödesprocessen kan du ange bankoordinater i förhållande till origo för lager 0.
 
 >[!NOTE]
 >
 >`scale=`, `rotate=`och `anchor=` -kommandon tillåts inte för självstorleksändring av enfärgade lager.
 
-`*`pathDefinition`*` accepterar en sträng som liknar värdet för `d=` SVG-attribut `<path>` -element, förutom att kommatecken används i stället för mellanslag för att separera värden. `*`pathDefinition`*` kan innehålla en eller flera underbanor med slutna slingor.
+`*`pathDefinition`*` accepterar en sträng som liknar värdet för `d=` SVG-attribut `<path>` -element, förutom att kommatecken används i stället för mellanslag för att separera värden. `*`pathDefinition`*` kan innehålla en eller flera underbanor med sluten slinga.
 
 Följande sökvägskommandon stöds i `*`pathDefinition`*`:
 
@@ -105,13 +105,13 @@ Om en underbana börjar med en relativ rörelse (&#39;m&#39;) är den relativ ti
 
 * Startpunkten för den föregående delbanan, om den stängdes med &quot;z&quot; eller &quot;Z&quot;.
 * Slutpunkten för den tidigare delbanan, om den inte stängdes explicit.
-* 0,0, om detta är den första delbanan.
+* 0,0, om det är den första delbanan.
 
 ## Egenskaper {#section-d4127db0dac54e3cbd44f7ea1e001960}
 
 Lagerattribut. Gäller det aktuella lagret eller den sammansatta bilden om `layer=comp`. Effektlager ignorerar det.
 
-`clipPathE=` ignoreras om det inte finns någon bana med det angivna namnet i lagerkällbilden eller om lagerkällan inte är en bild.
+Modifieraren `clipPathE=` ignoreras om det inte finns någon bana med det angivna namnet i lagerkällbilden eller om lagerkällan inte är en bild.
 
 ## Standard {#section-076c35ea37fa4a44ada253b4c2dec1dd}
 

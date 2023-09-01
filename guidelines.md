@@ -1,13 +1,15 @@
 ---
-source-git-commit: 70fe30f1fc89a52be8984832a4ba184fda8e7380
-translation-type: tm+mt
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+workflow-type: tm+mt
+source-wordcount: '683'
+ht-degree: 0%
 
 ---
-# Riktlinjer för att bidra till Adobe Dynamic Media Developer Resources Documentation
+# Riktlinjer för att bidra till Adobe Dynamic Media dokumentation om utvecklingsresurser
 
 ## Dokumentationsfilosofi
 
-Vi vet att användare av Adobe Dynamic Media arbetar i mycket konkurrensutsatta miljöer och strävar efter att skapa digitala upplevelser som skiljer dem från konkurrenterna. Därför är det viktigt att när Adobe levererar avancerade nya verktyg kompletteras dessa med korrekt och tydlig dokumentation som gör det möjligt för kunden att omedelbart utnyttja sin investering i Dynamic Media och maximera avkastningen.
+Adobe vet att användare av Adobe Dynamic Media arbetar i mycket konkurrensutsatta miljöer och strävar efter att skapa digitala upplevelser som skiljer dem från deras konkurrenter. Därför är det viktigt att Adobe när de levererar avancerade nya verktyg kompletteras med korrekt och tydlig dokumentation som gör det möjligt för kunden att omedelbart utnyttja sin investering i Dynamic Media och maximera avkastningen på investeringen.
 
 Syftet med dokumentationen är att användarna ska få tillgång till aktuell dokumentation så snart som möjligt. Därför prioriterar vi korrekt, användbar dokumentation och strävar efter att kontinuerligt uppdatera och förbättra den.
 
@@ -23,27 +25,27 @@ Bidrag som inte uppfyller dessa standarder kan avvisas.
 
 ### Vi dokumenterar standardanvändningsexempel.
 
-Dokumentationen innehåller standardanvändningsexempel. Användningsfall som inte omfattas av standardinstallation och -användning ingår inte i dokumentationen.
+Dokumentationen innehåller standardanvändningsexempel. Användningsfall som inte omfattas av standardinstallation och standardanvändning av produkten ingår inte i dokumentationen.
 
 ### Vi dokumenterar vanligtvis inte buggar eller deras tillfälliga lösningar.
 
-Dokumentationen innehåller standardanvändningsexempel. Av den anledningen är buggar, effekter orsakade av buggar och tillfälliga lösningar för buggar i allmänhet inte dokumenterade.
+Dokumentationen innehåller standardanvändningsexempel. Av den anledningen dokumenteras inte buggar, effekter orsakade av buggar och tillfälliga lösningar för buggar.
 
 Undantag från den här regeln gäller versionsinformationen där kända problem kan listas med möjliga lösningar som har godkänts av Product Management.
 
 ### Dokumentationsbidragen är inte till för att besvara tekniska frågor.
 
-Alla idéer du kan behöva förbättra dokumentationen är välkomna som bidrag. Kommentarer, frågor och förfrågningar är dock endast avsedda för *bidrag* . De är inte avsedda att användas för att besvara dina frågor om hur du använder Dynamic Media, implementerar projektet eller löser tekniska problem.
+Alla idéer du kan behöva förbättra dokumentationen är välkomna som bidrag. Kommentarer, problem och förfrågningar är dock avsedda för *avgifter* endast. De är inte avsedda att användas för att besvara frågor om hur du använder Dynamic Media, implementerar projektet eller löser tekniska problem.
 
-Alla frågor om användningen av dynamiska media eller tekniska fel som du kan ha rapporteras via [Experience Cloud Enterprise Support-portalen](https://helpx.adobe.com/contact/enterprise-support.ec.html) eller diskuteras i [Experience Manager-communityn.](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager)
+Om du har frågor om hur du använder Dynamic Media eller om tekniska fel ska du rapportera dem via [Experience Cloud Enterprise Support Portal](https://experienceleague.adobe.com/?support-solution=General&amp;support-tab=home#support) eller diskuteras i [Experience Manager community.](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
 
-***Dokumentationsbidragen ersätter inte Adobes kundtjänst*** och eventuella bidrag som söker svar på supportrelaterade frågor kommer att refuseras.
+***Dokumentationsavgifter ersätter inte Adobe kundtjänst*** och alla sådana bidrag som söker svar på frågor som rör stöd avvisas.
 
 ### Bidragen ska tydligt hänvisa till berörda dokumentationssidor.
 
-Om du skapar ett problem som kan föreslå förbättringar av dokumentationen måste du inkludera länkar till de sidor som påverkas. Om du skapar ett ärende genom att använda länken **Redigera den här sidan** på en dokumentationssida skapas ärendet automatiskt med en länk till sidan.
+Om du skapar ett problem som kan föreslå förbättringar av dokumentationen måste du inkludera länkar till de sidor som påverkas. Om du skapar ett problem med hjälp av **Redigera den här sidan** på en dokumentationssida skapas problemet automatiskt med en länk till sidan.
 
-Detta gäller inte för pull-begäranden eftersom pull-begäranden till sin natur refererar till den eller de berörda sidorna.
+Den här processen gäller inte för pull-begäranden eftersom pull-begäranden till sin natur refererar till de berörda sidorna.
 
 ## Riktlinjer för dokumentation
 
@@ -59,11 +61,11 @@ Genom att följa dessa riktlinjer blir det enklare att granska ditt bidrag och d
 * Håll meningar så enkla som möjligt.
 * Se till att språket är klart och koncist.
 
-Kom ihåg att läsarna av dokumentationen är från hela världen och inte kan förväntas vara inbyggda eller flytande engelska. Undvik kollokvialism och håll språket så tydligt och enkelt som möjligt.
+Kom ihåg att läsarna av dokumentationen är från hela världen och att de inte kan förväntas vara inbyggda eller flytande engelska. Undvik kollokvialism och håll språket så tydligt och enkelt som möjligt.
 
-#### Följ Microsoft-formathandboken
+#### Följ Microsoft®-formathandboken
 
-[Microsoft Manual of Style](https://docs.microsoft.com/en-us/style-guide/welcome/) är en kostnadsfri handbok för dokumentationsformat som fokuserar på programvarudokumentation och Dynamic Media-dokumentation följer den här handboken när det är möjligt.
+[The Microsoft® Manual of Style](https://learn.microsoft.com/en-us/style-guide/welcome/) är en kostnadsfri handbok för dokumentationsformat som fokuserar på programvarudokumentation och Dynamic Media-dokumentation följer den här handboken när det är möjligt.
 
 ### Formatering
 
@@ -77,7 +79,7 @@ Kom ihåg att läsarna av dokumentationen är från hela världen och inte kan f
 
 Skärmbilder ska användas med omdöme och endast när en textbeskrivning är otillräcklig.
 
-Markörer eller andra anteckningar i skärmbilder (som röda ramar, pilar eller text) bör inte användas. På så sätt är skärmbilderna enklare att återanvända eller att replikera i lokaliserade versioner av dokumentationen.
+Markörer eller andra anteckningar i skärmbilder (som röda ramar, pilar eller text) ska inte användas. Orsaken är att skärmbilder är enklare att återanvända eller replikera i lokaliserade versioner av dokumentationen.
 
 ### Versionsspecifika referenser
 

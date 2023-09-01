@@ -1,13 +1,13 @@
 ---
+title: MetadataField
 description: Användardefinierade fältdefinitioner för specifika resurser.
 solution: Experience Manager
-title: MetadataField
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 97175076-9078-4bc4-b3ea-73c3ea772f6a
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Hämta taggfältdefinitioner med `getMetadataFields` eller `getAssetMetadataFiel
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
-   <td colname="col3"> Typ av metadatafält. </td> 
+   <td colname="col3"> Fälttyp för metadata. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
@@ -72,7 +72,7 @@ Hämta taggfältdefinitioner med `getMetadataFields` eller `getAssetMetadataFiel
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
-   <td colname="col3"> Gör att du kan skapa en uppsättning delade uppräknade värden som markerade taggar kan peka på. </td> 
+   <td colname="col3"> Du kan skapa en uppsättning delade angivna värden som markerade taggar kan peka på. </td> 
   </tr> 
  </tbody> 
 </table>

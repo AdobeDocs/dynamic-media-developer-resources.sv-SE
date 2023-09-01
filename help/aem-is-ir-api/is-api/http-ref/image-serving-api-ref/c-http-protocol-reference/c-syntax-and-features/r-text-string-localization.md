@@ -1,13 +1,13 @@
 ---
+title: Textsträngslokalisering
 description: Textsträngslokalisering gör att bildkataloger kan innehålla flera språkspecifika representationer för samma strängvärde.
 solution: Experience Manager
-title: Textsträngslokalisering
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f105c7f2-b544-4c08-bb91-4916e485572d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '669'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Textsträngslokalisering gör att bildkataloger kan innehålla flera språkspecifika representationer för samma strängvärde.
 
-Servern returnerar till klienten den representation som matchar det språk som har angetts med `locale=`och därmed undvika lokalisering på klientsidan och låta applikationerna helt enkelt byta språkområde genom att skicka lämpliga `locale=` med IS-textbegäranden.
+Servern returnerar till klienten den representation som matchar det språk som har angetts med `locale=`, undvika lokalisering på klientsidan och låta applikationerna helt enkelt byta språkområde genom att skicka lämpliga `locale=` med IS-textbegäranden.
 
 ## Omfång {#section-a03f48e3bc0e4ab281909a2bd441a3c2}
 
@@ -32,7 +32,7 @@ Textsträngslokalisering används för alla strängelement som innehåller lokal
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> katalog::ImageSet </span> </p> </td> 
-   <td> <p>Alla underelement som innehåller en översättningsbar sträng (avgränsas av en kombination av avgränsare ',' ';' ':' och/eller fältets start/slut). </p> <p> A <span class="codeph"> 0xrrggbb </span> färgvärdet i början av ett lokaliserbart fält är exkluderat från lokaliseringen och skickas vidare utan ändring. </p> </td> 
+   <td> <p>Alla delelement som innehåller en översättningsbar sträng (avgränsas av en kombination av avgränsarna ',' ';' ':' och/eller fältets start/slut). </p> <p> A <span class="codeph"> 0xrrggbb </span> färgvärdet i början av ett lokaliserbart fält är exkluderat från lokaliseringen och skickas vidare utan ändring. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> katalog::Map </span> </p> </td> 
@@ -79,11 +79,11 @@ Lokalisering är aktiverat *`string`* -element i bildkatalogen består av en ell
  </tr> 
 </table>
 
-*`locId`* måste vara ASCII och får inte innehålla &#39;^&#39;.
+The *`locId`* måste vara ASCII och får inte innehålla &#39;^&#39;.
 
 &#39;^&#39; kan förekomma var som helst i delsträngar med eller utan HTTP-kodning. Servern matchar hela *`localizationToken`* `^loc=locId^` mönster för att separera delsträngar.
 
-*`stringElements`* som inte innehåller minst en *`localizationToken`* inte används för lokalisering.
+The *`stringElements`*, som inte innehåller minst en *`localizationToken`*, tas inte med i lokaliseringen.
 
 ## Översättningskartan {#section-f7ce3df91b724adf95cee44eac4915d4}
 
@@ -103,7 +103,7 @@ Låt oss säga `catalog::UserData` for `myCat/myItem` innehåller följande (rad
 
 `val1=111?? str1=Default1^loc=N^Dutch1^loc=D^German1?? val2=value2?? str2=^loc=E^English2^loc=N^Dutch2^loc=D^German2?? str3=Default3^loc=N^Dutch3^loc=D^German3`
 
-Servern returnerar följande som svar på vår exempelbegäran:
+Servern returnerar följande som svar på exempelbegäran:
 
 `val1=111 str1=Dutch1 val2=value2 str2=Dutch2 str3=Dutch3`
 
@@ -111,7 +111,7 @@ Servern returnerar följande som svar på vår exempelbegäran:
 
 I exemplet ovan `attribute::LocaleStrMap` har en post med en tom *`locale`* värde. Servern använder den här posten för att hantera alla `locale=` värden som inte uttryckligen anges på annat sätt i översättningskartan.
 
-Exempelöversättningskartan anger att i så fall *`defaultString`* returneras om möjligt. Följande skulle alltså returneras om översättningskartan tillämpades på begäran `/is/image/myCat/myItem?req=&locale=ja`:
+Exempelöversättningskartan anger att i så fall *`defaultString`* returneras om möjligt. Därför returneras följande om översättningskartan används på begäran `/is/image/myCat/myItem?req=&locale=ja`:
 
 `val1=111 str1=Default1 val2=value2 str2= str3=Default3`
 
@@ -119,11 +119,11 @@ Exempelöversättningskartan anger att i så fall *`defaultString`* returneras o
 
 **Språkfamiljer**
 
-Flera *`locId`* värden kan associeras med varje *`locale`* i översättningskartan. Detta möjliggör stöd för landsspecifika eller regionspecifika variationer (t.ex. amerikansk engelska jämfört med brittisk engelska) för utvalda *`stringElements`* vid hantering av det mesta innehållet med vanliga basspråk (t.ex. internationell engelska).
+Flera *`locId`* värden kan associeras med varje *`locale`* i översättningskartan. Orsaken är att den tillåter stöd för landsspecifika eller regionspecifika variationer (till exempel amerikansk engelska jämfört med brittisk engelska) för vissa *`stringElements`* vid hantering av det mesta innehållet med vanliga basspråk (till exempel internationell engelska).
 
-Vi vill till exempel lägga till stöd för amerikansk-specifik engelska ( `*`locId`* EUS`) och brittisk-specifik engelska ( `*`locId`* EUK`) för att stödja tillfällig alternativ stavning. Om EUK eller EUS inte finns, skulle vi återgå till E. På samma sätt, österrikiska-specifika tyska varianter ( `DAT`) skulle kunna göras tillgänglig där det behövs medan man återgår till Tyskland *`localizedStrings`* (markerat med `D`) oftast.
+Stöd för t.ex. amerikansk-specifik engelska ( `*`locId`* EUS`) och brittisk specifik engelska ( `*`locId`* EUK`) för att stödja tillfällig alternativ stavning. Om EUK eller EUS inte finns, återgår det till E. På liknande sätt, österrikiska-specifika tyska varianter ( `DAT`) skulle kunna göras tillgänglig där det behövs medan man återgår till Tyskland *`localizedStrings`* (markerat med `D`) oftast.
 
-`attribute::LocaleStrMap` ser ut så här:
+The `attribute::LocaleStrMap` skulle se ut så här:
 
 `en,E|en_us,EUS,E|en_uk,EUK,E|de,D|de_at,DAT,D|de_de,D`
 
@@ -146,10 +146,10 @@ Följande tabell beskriver utdata för en viss representant *`stringElement`* oc
   <tr valign="top"> 
    <td> <p> <span class="codeph"> ^loc=E^English^loc=UKE^UK-English^loc=D^German^loc=DAT^Austria </span> </p> </td> 
    <td> <p> en, en_us </p> <p> en_uk </p> <p> de, de_de </p> <p>de_at </p> <p>alla andra </p> </td> 
-   <td> <p>Engelska </p> <p>Engelska - Storbritannien </p> <p>Tyska </p> <p>Österrike </p> <p>- </p> </td> 
+   <td> <p>Engelska </p> <p>Engelska (Storbritannien) </p> <p>Tyska </p> <p>Österrikiska </p> <p>- </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> ^ loc=en^English^loc=USE^US-English^loc=D^German^loc=DDE^Deutsch </span> </p> <p> Observera att i det här exemplet är <span class="varname"> locId </span> DDE finns inte i <span class="codeph"> attribute::LocaleStrMap </span>och därmed den delsträng som är kopplad till detta <span class="varname"> locId </span> får aldrig tillbaka. </p> </td> 
+   <td> <p> <span class="codeph"> ^ loc=en^English^loc=USE^US-English^loc=D^German^loc=DDE^Deutsch </span> </p> <p> I det här exemplet <span class="varname"> locId </span> DDE finns inte i <span class="codeph"> attribute::LocaleStrMap </span>och därmed den delsträng som är associerad med detta <span class="varname"> locId </span> får aldrig tillbaka. </p> </td> 
    <td> <p> en, en_uk </p> <p> en_us </p> <p> de, de_at, de_de </p> <p>alla andra </p> </td> 
    <td> <p>Engelska </p> <p>Engelska (USA) </p> <p>Tyska </p> <p>- </p> </td> 
   </tr> 

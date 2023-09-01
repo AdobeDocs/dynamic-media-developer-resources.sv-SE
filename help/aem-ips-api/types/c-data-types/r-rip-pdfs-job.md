@@ -1,20 +1,20 @@
 ---
-description: En process som återtar en befintlig PDF-resurs.
-solution: Experience Manager
 title: RipPdfsJob
+description: En process som återger en befintlig PDF-resurs.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7a787b45-3cda-44f2-8357-8b6217b679e0
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
 
 # [!DNL RipPdfsJob]{#rippdfsjob}
 
-En process som återtar en befintlig PDF-resurs.
+En process som återger en befintlig PDF-resurs.
 
 >[!NOTE]
 >
@@ -114,7 +114,7 @@ En process som återtar en befintlig PDF-resurs.
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> typer:KnockoutBackgroundOptions</span> </p> </td> 
-   <td colname="col3"> <p>Maskera bakgrunden för markerade bilder. På så sätt kan du täcka över dem i andra lager med en genomskinlighet utanför objektbilden. </p> <p>Valfritt. </p> <p>Se<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> BlockeraBakgrundAlternativ</a> </p> </td> 
+   <td colname="col3"> <p>Maskera bakgrunden för markerade bilder. Med den här funktionen kan du täcka över dem i andra lager med en genomskinlighet utanför objektbilden. </p> <p>Valfritt. </p> <p>Se<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> BlockeraBakgrundAlternativ</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>

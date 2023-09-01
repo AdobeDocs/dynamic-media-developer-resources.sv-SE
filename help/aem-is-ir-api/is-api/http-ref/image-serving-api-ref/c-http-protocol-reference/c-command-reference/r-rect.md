@@ -1,20 +1,20 @@
 ---
 title: rect
-description: Rektangel i slutvyn. Gör att den slutliga visningsbilden kan delas upp i flera remsor eller plattor, som kan levereras separat och rekonstrueras av klienten utan att några artefakter uppstår längs kanterna.
+description: Rektangel i slutvyn. Det gör att den slutliga visningsbilden kan delas upp i flera remsor eller plattor, som kan levereras separat och rekonstrueras av klienten utan skarvar, utan några artefakter längs kanterna.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1870001b-7904-470f-9582-984d453509ca
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
 
 # rect{#rect}
 
-Rektangel i slutvyn. Gör att den slutliga visningsbilden kan delas upp i flera remsor eller plattor, som kan levereras separat och rekonstrueras av klienten utan att några artefakter uppstår längs kanterna.
+Rektangel i slutvyn. Det gör att den slutliga visningsbilden kan delas upp i flera remsor eller plattor, som kan levereras separat och rekonstrueras av klienten utan skarvar, utan några artefakter längs kanterna.
 
 `rect= *`coord`*, *`size`*[, *`scale`*]`
 
@@ -37,11 +37,11 @@ Med det här kommandot kan Image Serving leverera stora bilder via HTTP som anna
 
 >[!NOTE]
 >
->För bästa resultat när du använder JPEG-komprimering bör remsan eller plattstorleken vara en multipel av JPEG-kodningsrutans storlek (16 x 16 pixlar).
+>För bästa resultat bör storleken på remsa eller plattor vara en multipel av JPEG-kodningsrutans storlek (16 x 16 pixlar) när du använder JPEG-komprimering.
 
 ## Exempel {#section-932fcfcb41d74a29bc929e4430c49601}
 
-Dela upp en utskrivbar CMYK-bild i flera remsor med full upplösning för att minska filstorleken för nedladdningen. Om vi begär en sammanhängande bild:
+Dela upp en utskrivbar CMYK-bild i flera remsor med full upplösning för att minska filstorleken för nedladdningen. Om du begärde en sammanhängande bild:
 
 `http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&fmt=tif&icc=WebCoated`
 
@@ -53,15 +53,15 @@ Textsvaret innehåller följande egenskaper:
 
 `image.width=2000 image.height=2400 image.version=37JK6NTvpvC42F5gOuLEVY`
 
-Baserat på den här informationen bestämmer vi att vi vill ha fyra 600x2000-pixelremmar. The `rect=` -kommandot används för att beskriva bandstorlekar och -positioner.
+Baserat på den här informationen är fyra 600x2000-pixelremsor önskade. The `rect=` -kommandot används för att beskriva bandstorlekar och -positioner.
 
-Eftersom den här bilden ändras ofta kommer vi att inkludera `id=` för att minimera risken att vi får ett eller flera remsor från en äldre version av bilden som kan ha cachelagrats i ett CDN- eller proxyserver. Värdet för `image.version` -egenskapen används för detta ändamål.
+Eftersom den här bilden ändras ofta `id=` -kommandot ingår. Om du gör det minimeras risken för att få ett eller flera remsor från en äldre version av bilden som kan ha cachelagrats i ett CDN- eller proxyserver. Värdet för `image.version` -egenskapen används för detta ändamål.
 
 `http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,0,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,600,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,1200,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,1800,2000,600`
 
 ## Egenskaper {#section-aae223cee13e46d38b74680c048d945b}
 
-Visa attribut. Används oavsett den aktuella lagerinställningen.
+Visa attribut. Det används oavsett den aktuella lagerinställningen.
 
 Alla områden i avkastningen som sträcker sig utanför visningsbilden läggs till med `bgc=`.
 

@@ -1,11 +1,11 @@
 ---
+title: setElement
 description: Ange XML som ett s7 elementID.
 solution: Experience Manager
-title: setElement
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 979e6070-6e24-4caf-9d87-2c80b734c996
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Ange XML som ett s7:elementID.
 
 `setElement.elementID=<XML>`
 
-Om ett FXG-nodelement har `s7:elementID` definierade, `<XML>` värdet ersätts som ett underordnat element. The `<XML>` måste kodas.
+Om ett FXG-nodelement har en `s7:elementID` definierade, `<XML>` värdet ersätts som ett underordnat element. The `<XML>` måste kodas.
 
 ## Exempel {#section-f23a998b18994dd3b5d4e1965718db9f}
 
