@@ -1,11 +1,11 @@
 ---
+title: HttpAppleStreamingContext
 description: URL-prefix för Apple direktuppspelningsserver. URL-prefixet för Apple Streaming Server som används vid generering av m3u8-svar med flerbithastighet med req=mbrSet.
 solution: Experience Manager
-title: HttpAppleStreamingContext
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 339dada7-064b-4cdc-bd34-76b6053b9965
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
 source-wordcount: '59'
 ht-degree: 0%
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # HttpAppleStreamingContext{#httpapplestreamingcontext}
 
-URL-prefix för Apple direktuppspelningsserver. URL-prefixet för Apple Streaming Server som används vid generering av m3u8-svar med flerbithastighet med req=mbrSet.
+URL-prefix för Apple direktuppspelningsserver. URL-prefixet för Apple Streaming Server som används vid generering av m3u8-svar med flerbithastighet `req=mbrSet`.
 
 ## Egenskaper {#properties}
 
-Sträng som representerar URL-prefix. (t.ex. `http://my.server.com/apple/streaming`)
+Sträng som representerar URL-prefixet. Till exempel: `http://my.server.com/apple/streaming`.
 
 ## Standard {#section-bdd70081d50844c295f0de0154c1d738}
 
-Ingen
+Ingen.
 
 ## Se även {#section-94e53b2735dd41219739674b0d3392ce}
 

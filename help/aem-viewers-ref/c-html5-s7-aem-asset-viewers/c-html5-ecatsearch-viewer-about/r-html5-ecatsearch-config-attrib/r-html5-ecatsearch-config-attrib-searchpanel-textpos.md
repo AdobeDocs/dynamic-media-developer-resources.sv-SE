@@ -1,13 +1,13 @@
 ---
+title: SearchPanel.textpos
 description: SearchPanel.textpos
 solution: Experience Manager
-title: SearchPanel.textpos
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 5422763c-68cd-4662-b2aa-9f45275ced6a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '66'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td colname="col2"> <p> Anger var etiketten ritas i förhållande till miniatyrbilden. Det innebär att etiketten centreras på den angivna platsen i förhållande till miniatyrbilden. </p> <p>När <span class="codeph"> knappbeskrivning</span> anges visas etikettexten som ett flytande verktygstips över miniatyrbilden. </p> <p>När inställt på <span class="codeph"> ingen</span>stänger det av etikettvisningen. </p> </td> 
+   <td colname="col2"> <p> Anger var etiketten ritas i förhållande till miniatyrbilden. Det innebär att etiketten centreras på den angivna platsen i förhållande till miniatyrbilden. </p> <p>När en <span class="codeph"> knappbeskrivning</span> anges visas etikettexten som ett flytande verktygstips över miniatyrbilden. </p> <p>När inställt på <span class="codeph"> ingen</span>ändras etikettvisningen. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -4,7 +4,7 @@ description: Anger det bildformat som används av komponenten för att läsa in 
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # PanoramicView.fmt{#panoramicview-fmt}
 
-Anger det bildformat som används av komponenten för att läsa in bilder från Image Server. Om det angivna formatet slutar med&quot;-alpha&quot; återges bilderna som genomskinliga av komponenten. För alla andra bildformat hanterar komponenten bilder som ogenomskinliga. Observera att komponenten som standard har en genomskinlig bakgrund. För att göra den ogenomskinlig anger du `background-color` CSS-egenskap till `desired_color`
+Anger det bildformat som används av komponenten för att läsa in bilder från Image Server. Om det angivna formatet slutar med&quot;-alfa&quot; återges bilderna som genomskinliga av komponenten. För alla andra bildformat hanterar komponenten bilder som ogenomskinliga. Komponenten har som standard en genomskinlig bakgrund. För att göra den ogenomskinlig anger du `background-color` CSS-egenskap till `desired_color`
 
 `[PanoramicView.|<containerId>_panoramicView.]fmt=jpg|jpeg|png|png-alpha|gif|gif-alpha`
 
@@ -21,7 +21,7 @@ Anger det bildformat som används av komponenten för att läsa in bilder från 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha </span> </p> </td> 
-   <td colname="col2"> <p> Anger det bildformat som ska användas av komponenten för att läsa in bilder från Image Server. Om det angivna formatet slutar med"-alfa" återges bilderna som genomskinligt innehåll av komponenten. för alla andra bildformat hanterar komponenten bilder som ogenomskinliga. Observera att komponenten har genomskinlig bakgrund som standard, så om du vill använda ogenomskinlig anger du CSS-egenskapen background-color till önskad färg. </p> </td> 
+   <td colname="col2"> <p> Anger det bildformat som ska användas av komponenten för att läsa in bilder från Image Server. Om det angivna formatet slutar med"-alfa" återges bilderna som genomskinligt innehåll av komponenten. För alla andra bildformat behandlas bilderna som ogenomskinliga av komponenten. Komponenten har som standard en genomskinlig bakgrund. Om du vill göra färgen ogenomskinlig anger du CSS-egenskapen för bakgrundsfärgen till önskad färg. </p> </td> 
   </tr> 
  </tbody> 
 </table>

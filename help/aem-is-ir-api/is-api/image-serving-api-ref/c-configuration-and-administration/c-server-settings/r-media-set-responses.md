@@ -1,11 +1,11 @@
 ---
-description: Inställningarna i det här avsnittet gäller för mediesvaren som hämtas av req=set modifier.
-solution: Experience Manager
 title: Medieuppsättningssvar
+description: Inställningarna i det här avsnittet gäller för mediesvaren som hämtas av modifieraren req=set.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: e3833726-d345-4741-8096-d74f299ac9fc
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Medieuppsättningssvar{#media-set-responses}
 
-Inställningarna i det här avsnittet gäller för mediesvaren som hämtas av req=set modifier.
+Inställningarna i det här avsnittet gäller för mediesvaren som hämtas av `req=set` modifierare.
 
 ## PS::fvctx.useCatalogRecordValidation - Caching Policy {#section-9accb087d16548a988993bb30395a6f6}
 
-Den här egenskapen styr cachelagringsprincipen när du avgör om ett svar som hämtas från cache måste genereras om eller inte. Om egenskapen är inaktiverad är tidsstämpeln för [!DNL catalog.ini] filen används för validering. Om egenskapen är aktiverad är den senaste `catalog::LastModified` tidsstämpel från alla refererade poster används för validering.
+Den här egenskapen styr cachelagringsprincipen när du avgör om ett inställningssvar som hämtas från en cache måste genereras om. Om egenskapen är inaktiverad är tidsstämpeln för [!DNL catalog.ini] filen används för validering. Om egenskapen är aktiverad är den senaste `catalog::LastModified` tidsstämpel från alla refererade poster används för validering.
 
 ## PS::fvctx.nestingLimit - kapslingsgräns {#section-280210341f1647fea02590e7069934d2}
 

@@ -1,22 +1,22 @@
 ---
-description: PostScript-teckensnittsnamn. Teckensnittets namn i Postscript.
-solution: Experience Manager
 title: PsName
+description: Namnet på PostScript-teckensnittets namn.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8d48dead-e544-4fd1-8e8a-70933389b668
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '59'
 ht-degree: 0%
 
 ---
 
 # PsName{#psname}
 
-PostScript-teckensnittsnamn. Teckensnittets namn i Postscript.
+Namnet på PostScript-teckensnittet.
 
-Just nu kan bara FXG-återgivaren referera till teckensnitt med sina PostScript-namn.
+För närvarande är det bara FXG-återgivaren som kan referera till teckensnitt efter deras PostScript-namn.
 
 ## Egenskaper {#section-a560f8bfc69a4d88aeb0b53c1625153b}
 

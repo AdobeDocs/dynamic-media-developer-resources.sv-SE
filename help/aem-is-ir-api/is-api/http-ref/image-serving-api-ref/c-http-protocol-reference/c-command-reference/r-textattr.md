@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0c8a3d2a-2524-436a-8bc7-60241af0fd17
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Textlagerattribut. Anger ytterligare attribut för textlager som inte är tillg�
 <table id="simpletable_0072BF7DF52B4959A14EDEF60A6EBDEE"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> res </span> </span> </p> </td> 
-  <td class="stentry"> <p>Ett sätt att skala textlagret utan att ändra teckensnittsstorlek. Högre upplösningsvärden ökar storleken på den återgivna texten i förhållande till arbetsytans storlek, medan lägre värden minskar textstorleken. Textupplösning i punkter per tum (int större än 0). </p> </td> 
+  <td class="stentry"> <p>Det är ett sätt att skala textlagret utan att ändra teckensnittsstorleken. Högre upplösningsvärden ökar storleken på den återgivna texten i förhållande till arbetsytans storlek, medan lägre värden minskar textstorleken. Textupplösning i punkter per tum (int större än 0). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> kantutjämning </span> </span> </p> </td> 
@@ -59,13 +59,13 @@ Textlagerattribut. Anger ytterligare attribut för textlager som inte är tillg�
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> autoRes </span> </p> </td> 
-      <td class="stentry"> <p>Justera upplösningen automatiskt så att lagerrektangeln bäst fylls med texten. </p> <p>Använd för att automatiskt justera textstorleken så att textrutan fylls så mycket som möjligt, utan risk för trunkering. Om automatisk radbrytning är aktiverat kan texten radbrytas med den slutliga upplösningen. <span class="varname"> res </span> ignoreras om <span class="codeph"> autoRes </span> är markerat. Stöds inte av <span class="codeph"> textPs= </span>. </p> </td> 
+      <td class="stentry"> <p>Justera upplösningen automatiskt så att lagerrektangeln bäst fylls med texten. </p> <p>Använd för att automatiskt justera textstorleken så att textrutan fylls så mycket som möjligt, utan risk för trunkering. Om automatisk radbrytning är aktiverat kan texten radbrytas med den slutliga upplösningen. The <span class="varname"> res </span> ignoreras om <span class="codeph"> autoRes </span> är markerat. Stöds inte av <span class="codeph"> textPs= </span>. </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> maxRes </span> </p> </td> 
-      <td class="stentry"> <p>Använd den angivna upplösningen och minska den om det behövs för att förhindra att text trunkeras till lagerrektangeln. </p> <p>Används för att återge text med exakt angiven upplösning, så länge som inget urklipp inträffar. Vid bortfall minskas upplösningen automatiskt så att all text finns helt inuti textrutan. Om automatisk radbrytning är aktiverat kan texten radbrytas med den slutliga upplösningen. Stöds inte av <span class="codeph"> textPs= </span>. </p> </td> 
+      <td class="stentry"> <p>Använd den angivna upplösningen och minska den om det behövs för att förhindra att text trunkeras till lagerrektangeln. </p> <p>Används för att återge text med den angivna upplösningen, så länge som inget urklipp inträffar. Om det finns urklipp minskas upplösningen automatiskt så att all text finns helt inuti textrutan. Om automatisk radbrytning är aktiverat kan texten radbrytas med den slutliga upplösningen. Stöds inte av <span class="codeph"> textPs= </span>. </p> </td> 
      </tr> 
-    </table> </p> <p>Om textlagrets storlek inte anges med size= eller om bara bredden anges, ignoreras inställningarna autoRes och maxRes och den angivna upplösningen används för att återge texten. </p> </td> 
+    </table> </p> <p>Om textlagrets storlek inte anges med size= eller om bara bredden anges ignoreras inställningarna autoRes och maxRes. I sådana fall används den angivna upplösningen för att återge texten. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> wordWrap </span> </span> </p> </td> 
@@ -77,11 +77,11 @@ Textlagerattribut. Anger ytterligare attribut för textlager som inte är tillg�
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> bryt </span> </p> </td> 
-      <td class="stentry"> <p>Aktivera automatisk radbrytning. </p> <p>Bryter vid behov långa ord. <span class="codeph"> textPs= </span> endast stöder <span class="codeph"> bryt </span>. </p> </td> 
+      <td class="stentry"> <p>Aktivera automatisk radbrytning. </p> <p>Det bryter vid behov långa ord. <span class="codeph"> textPs= </span> endast stöder <span class="codeph"> bryt </span>. </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> nbWrap </span> </p> </td> 
-      <td class="stentry"> <p>Aktivera fast radbrytning. </p> <p>Bryter aldrig ett ord, även om det kortas av i slutet. Används vanligtvis tillsammans med <span class="codeph"> autoRes </span> eller <span class="codeph"> maxRes </span> för att säkerställa att långa ord aldrig bryts. </p> </td> 
+      <td class="stentry"> <p>Aktivera fast radbrytning. </p> <p>Bryter aldrig ett ord, även om det kortas av i slutet. Används vanligtvis med <span class="codeph"> autoRes </span> eller <span class="codeph"> maxRes </span> för att säkerställa att långa ord aldrig bryts. </p> </td> 
      </tr> 
     </table> </p> <p>Båda <span class="codeph"> bryt </span> och <span class="codeph"> nbwrap </span> automatisk radbrytning vid ordgränser och bindestreck. </p> </td> 
  </tr> 

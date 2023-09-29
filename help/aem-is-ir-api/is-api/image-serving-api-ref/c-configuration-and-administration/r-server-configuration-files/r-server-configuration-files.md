@@ -1,24 +1,24 @@
 ---
-description: Alla konfigurationsfiler finns i install_folder/conf och kan redigeras med de flesta textredigerare. Servern kan behöva startas om för att ändringarna ska börja gälla.
-solution: Experience Manager
 title: Serverkonfigurationsfiler
+description: Alla konfigurationsfiler finns i install_folder/conf och kan redigeras med de flesta textredigerare. Starta om servern för att ändringarna ska börja gälla.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 6261844c-b63d-477b-8a48-963be868aa22
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
 
 # Serverkonfigurationsfiler{#server-configuration-files}
 
-Alla konfigurationsfiler finns i install_folder/conf och kan redigeras med de flesta textredigerare. Servern kan behöva startas om för att ändringarna ska börja gälla.
+Alla konfigurationsfiler finns i `install_folder/conf` och kan redigeras med de flesta textredigerare. Starta om servern för att ändringarna ska börja gälla.
 
 >[!NOTE]
 >
->De flesta serverkonfigurationsfiler innehåller ytterligare egenskaper och värden som inte beskrivs i det här dokumentet. Sådana egenskaper är avsedda för intern serveranvändning och får inte ändras såvida inte Dynamic Media tekniska support särskilt anger det.
+>De flesta serverkonfigurationsfiler innehåller ytterligare egenskaper och värden som inte beskrivs i det här dokumentet. Sådana egenskaper är avsedda för intern serveranvändning och får inte ändras om inte Dynamic Media tekniska support ger anvisningar om det.
 
 I det här dokumentet behandlas inställningar för följande konfigurationsfiler:
 

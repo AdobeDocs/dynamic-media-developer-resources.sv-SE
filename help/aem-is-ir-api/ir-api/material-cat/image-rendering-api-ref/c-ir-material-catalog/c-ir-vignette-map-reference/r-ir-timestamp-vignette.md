@@ -1,13 +1,13 @@
 ---
+title: TimeStamp
 description: Tidsstämpel för ändring. Anger datum/tid då denna vinjettering senast ändrades.
 solution: Experience Manager
-title: TimeStamp
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6a163727-9ac6-43ca-9afd-169ac6306124
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
@@ -22,25 +22,25 @@ If `attribute::UseLastModified` är inställd, den senaste `vignette::TimeStamp`
 >
 >Den faktiska filtiden för vinjettfilen används aldrig för detta ändamål.
 
-`catalog::TimeStamp` används också för katalogbaserad cachevalidering (se [attribute::CacheValidationPolicy](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cachevalidationpolicy.md).
+The `catalog::TimeStamp` används också för katalogbaserad cachevalidering. Se [attribute::CacheValidationPolicy](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cachevalidationpolicy.md).
 
 ## Egenskaper {#section-c4a42c64e44d49238ef2ec31ebd82ac1}
 
-Datum-/tidsvärde i Java-format. Kan vara antingen heltal i millisekunder sedan midnatt, 1 januari 1970 UTC/GMT eller ett datum/tid-strängvärde med något av följande format:
+Datum-/tidsvärde i Java™-format. Det kan vara antingen heltal i millisekunder sedan midnatt, 1 januari 1970 UTC/GMT eller ett datum/tid-strängvärde med något av följande format:
 
 *[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]* *[!DNL zzz]*
 
 *[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]*GMT *[!DNL offset]*
 
-* *[!DNL hh]* ligger mellan 0 och 23.
-* *[!DNL zzz]* är en tidszonskod på 3 eller 4 tecken, till exempel &quot;GMT&quot; eller &quot;PST&quot;. Sommartid måste anges i tidszonskoden (t.ex. PST för Pacific Standard Time och PDT för Pacific Daylight Savings Time).
+* *[!DNL hh]* ligger i intervallet 0-23.
+* *[!DNL zzz]* är en tidszonskod på tre eller fyra tecken, till exempel &quot;GMT&quot; eller &quot;PST&quot;. Sommartid måste anges i tidszonskoden (t.ex. PST för Pacific Standard Time och PDT för Pacific Daylight Savings Time).
 * *[!DNL offset]* är en tidszonsförskjutning i timmar eller timmar:minuter, i förhållande till GMT. &quot;PDT&quot; motsvarar till exempel &quot;GMT -7&quot;.
 
 Alla element i strängformaterade datum/tid-värden måste finnas. Om datum/tid-värdet inte är korrekt formaterat ignoreras det och ändringstiden för [!DNL *[!DNL catalog]*.ini]-filen används i stället.
 
 ## Standard {#section-562c221d2e8b4a97ab5e9a3605f22140}
 
-`attribute::TimeStamp` är fältet tomt eller saknas.
+The `attribute::TimeStamp` är fältet som är tomt eller inte finns.
 
 ## Se även {#section-ffa82b202be04dd9b87cba3c61d1ee24}
 

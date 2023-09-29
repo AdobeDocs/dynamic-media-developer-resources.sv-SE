@@ -1,13 +1,13 @@
 ---
+title: Begär kommandon
 description: Dessa kommandon gäller oavsett var i begäran de visas.
 solution: Experience Manager
-title: Begär kommandon
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3f794f46-e7f0-4899-90fa-898a698dd629
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---

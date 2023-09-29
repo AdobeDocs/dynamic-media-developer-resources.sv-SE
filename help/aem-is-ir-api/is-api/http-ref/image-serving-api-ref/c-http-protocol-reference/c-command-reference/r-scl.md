@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 297d187c-3a52-45ff-b73d-0b0e4b956080
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Skalvyn. Skalar den sammansatta bilden med inverterad invFactor.
  </tr> 
 </table>
 
-Ingen skalförändring används när `scl=1`. *`invFactor`* större än 1,0 nedskalningar och mindre än 1,0 förstorar den sammansatta bilden.
+Ingen skalförändring används när `scl=1`. An *`invFactor`* ett värde som är större än 1,0 nedskalningar och mindre än 1,0 förstorar den sammansatta bilden.
 
 If `scl=` har angetts, och `wid=` och/eller `hei=` finns också, bilden beskärs till `wid=` och/eller `hei=` efter skalförändring.
 
@@ -35,11 +35,11 @@ If `scl=` har angetts, och `wid=` och/eller `hei=` finns också, bilden beskärs
 
 ## Egenskaper {#section-60af012719db477db4a4703e9a6da5f5}
 
-Visa attribut. Används oavsett aktuell lagerinställning.
+Visa attribut. Det används oavsett den aktuella lagerinställningen.
 
 ## Standard {#section-32502fa218a24e1f9c65f41c0260b56a}
 
-Om ingen `wid=`, `hei=`, eller `scl=` anges kommer svarsbilden antingen att ha samma storlek som den sammansatta bilden, eller `attribute::DefaultPix`, beroende på vad som är mindre.
+Om ingen `wid=`, `hei=`, eller `scl=` anges har svarsbilden antingen samma storlek som den sammansatta bilden, eller `attribute::DefaultPix`, beroende på vad som är mindre.
 
 ## Exempel {#section-a33f6239476a4b438d939656ad99aa76}
 

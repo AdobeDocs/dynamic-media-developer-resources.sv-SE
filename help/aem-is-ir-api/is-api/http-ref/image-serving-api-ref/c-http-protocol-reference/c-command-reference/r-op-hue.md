@@ -1,20 +1,20 @@
 ---
 title: op_hue
-description: Justera nyans. Ändrar nyansen för varje synlig pixel i lagret eller den sammansatta bilden med den angivna mängden.
+description: Justerar bildens nyans. Ändrar nyansen för varje synlig pixel i lagret eller den sammansatta bilden med den angivna mängden.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b436bd31-12a9-42ed-9ad3-5ff91e3ccce9
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '96'
 ht-degree: 0%
 
 ---
 
 # op_hue{#op-hue}
 
-Justera nyans. Ändrar nyansen för varje synlig pixel i lagret eller den sammansatta bilden med den angivna mängden.
+Justerar bildens nyans. Ändrar nyansen för varje synlig pixel i lagret eller den sammansatta bilden med den angivna mängden.
 
 `op_hue= *`adj`*`
 

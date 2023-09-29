@@ -1,13 +1,13 @@
 ---
+title: TimeStamp
 description: Tidsstämpel för filändring. Anger datum/tid då bilden och/eller datafilerna som bifogats till den här katalogposten senast ändrades.
 solution: Experience Manager
-title: TimeStamp
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ecc7617c-c390-4f82-905d-45b825d0176d
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -22,25 +22,25 @@ If `attribute::UseLastModified` är inställd, den senaste av `catalog::TimeStam
 >
 >De faktiska filtiderna för den bild eller de datafiler som är kopplade till den här katalogposten används aldrig för detta ändamål.
 
-`catalog::TimeStamp` används också för katalogbaserad cachevalidering (se [attribute::CacheValidationPolicy](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cachevalidationpolicy.md)).
+The `catalog::TimeStamp` används också för katalogbaserad cachevalidering (se [attribute::CacheValidationPolicy](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cachevalidationpolicy.md)).
 
 ## Egenskaper {#section-42f09e375e72492b87a3a486da7df808}
 
-Datum-/tidsvärde i Java-format. Kan vara antingen heltal i millisekunder sedan midnatt, 1 januari 1970 UTC/GMT eller ett datum/tid-strängvärde med något av följande format:
+Datum-/tidsvärde i Java™-format. Det kan vara antingen heltal i millisekunder sedan midnatt, 1 januari 1970 UTC/GMT eller ett datum/tid-strängvärde med något av följande format:
 
 *[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]* *[!DNL zzz]*
 
 *[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]* GMT *[!DNL offset]*
 
-* *[!DNL hh]* ligger mellan 0 och 23.
-* *[!DNL zzz]* är en tidszonskod på 3 eller 4 tecken, till exempel &quot;GMT&quot; eller &quot;PST&quot;. Sommartid måste anges i tidszonskoden (t.ex. PST för Pacific Standard Time och PDT för Pacific Daylight Savings Time).
+* *[!DNL hh]* ligger i intervallet 0-23.
+* *[!DNL zzz]* är en tidszonskod på tre eller fyra tecken, till exempel &quot;GMT&quot; eller &quot;PST&quot;. Sommartid för sommartid måste räknas med i tidszonskoden. Till exempel PST för Pacific Standard Time och PDT för Pacific Daylight Savings Time.
 * *[!DNL offset]* är en tidszonsförskjutning i timmar eller timmar:minuter, i förhållande till GMT. &quot;PDT&quot; motsvarar till exempel &quot;GMT -7&quot;.
 
 Alla element i strängformaterade datum/tid-värden måste finnas. Om datum/tid-värdet inte är korrekt formaterat ignoreras det och ändringstiden för *katalog* INI-filen används i stället.
 
 ## Standard {#section-e2c126c9e7294662b23944ab8d14866b}
 
-`attribute::TimeStamp` är fältet tomt eller saknas.
+The `attribute::TimeStamp` är fältet som är tomt eller inte finns.
 
 ## Se även {#section-876f1d1b50dc4501b605820015a29451}
 

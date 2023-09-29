@@ -1,13 +1,13 @@
 ---
+title: Systemkrav och krav
 description: Kontrollera att datorn uppfyller systemkraven innan du använder Dynamic Media Image Serving.
 solution: Experience Manager
-title: Systemkrav och krav
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ea2dfec9-0a42-4ccb-8442-6f7c4a39eda1
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
@@ -22,33 +22,33 @@ Servern bör uppfylla följande maskinvarukrav.
 
 >[!NOTE]
 >
->System med processorer med AMD64 och Intel® EM64T är vanligtvis konfigurerade som NUMA-plattformar (Non-Uniform Memory Architecture). Detta innebär att kärnan konstruerar flera minnesnoder vid start i stället för att konstruera en enda minnesnod. Konstruktionen för flera noder kan resultera i minnesöverbelastning på en eller flera av noderna innan andra noder töms. När minnesöverbelastning inträffar kan kärnan bestämma sig för att avsluta processer (till exempel Image Server eller [!DNL Platform Server]) trots att det finns tillgängligt minne. Därför rekommenderar Adobe Systems att du stänger av NUMA om du kör ett sådant system. Använd `numa=off` startalternativ för att undvika att kärnan stoppar dessa processer.
+>System med processorer med AMD64 och Intel® EM64T är vanligtvis konfigurerade som NUMA-plattformar (Non-Uniform Memory Architecture). Detta innebär att kärnan konstruerar flera minnesnoder vid start i stället för att konstruera en enda minnesnod. Konstruktionen för flera noder kan resultera i minnesöverbelastning på en eller flera av noderna innan andra noder töms. När minnesöverbelastning inträffar kan kärnan bestämma sig för att avsluta processer (till exempel Image Server eller [!DNL Platform Server]) trots att det finns tillgängligt minne. Därför rekommenderar Adobe att du stänger av NUMA om du kör ett sådant system. Använd `numa=off` startalternativ för att undvika att kärnan stoppar dessa processer.
 
 **Windows**
 
 * Intel Xeon®- eller AMD® Opteron-processor med minst fyra kärnor.
-* Minst 16 GB RAM-minne.
-* Växla utrymme motsvarande minst dubbelt så mycket fysiskt minne (RAM).
-* 2 GB ledigt hårddiskutrymme för installation och grundläggande åtgärder. Ytterligare diskutrymme krävs för källbilder, loggar, datacache och manifestfiler.
+* Minst 1 GB RAM-minne.
+* Växlingsutrymmet är minst dubbelt så stort som mängden fysiskt minne (RAM).
+* 2 GB ledigt hårddiskutrymme för installation och grundläggande funktioner. Ytterligare diskutrymme krävs för källbilder, loggar, datacache och manifestfiler.
 * Fast Ethernet-nätverkskort.
 
-**Linux**
+**Linux®**
 
 * Intel Xeon®- eller AMD® Opteron-processor med minst fyra kärnor.
 * Minst 16 GB RAM-minne.
 * Växling är inaktiverat (rekommenderas).
-* 2 GB ledigt hårddiskutrymme för installation och grundläggande åtgärder. Ytterligare diskutrymme krävs för källbilder, loggar, datacache och manifestfiler.
+* 2 GB ledigt hårddiskutrymme för installation och grundläggande funktioner. Ytterligare diskutrymme krävs för källbilder, loggar, datacache och manifestfiler.
 * Fast Ethernet-nätverkskort.
 
-**Obs! (Linux):** Image Serving fungerar inte med SELinux aktiverat. Det här alternativet är aktiverat som standard. Om du vill inaktivera SELinux redigerar du [!DNL /etc/selinux/config] och ändra SELinux-värdet från:
+**Obs! (Linux®):** Image Serving fungerar inte med SELinux aktiverat. Det här alternativet är aktiverat som standard. Om du vill inaktivera SELinux redigerar du [!DNL /etc/selinux/config] och ändra SELinux-värdet från:
 
 `SELINUX=enforcing`
 
-till
+Till
 
 `SELINUX=disabled`
 
-**Obs! (Linux):** Kontrollera att värdnamnet för servern kan matchas till en IP-adress. Om det inte är möjligt lägger du till det fullständiga, kvalificerade värdnamnet och IP-adressen i [!DNL /etc/hosts] som i följande exempel.
+**Obs! (Linux®):** Kontrollera att värdnamnet för servern kan matchas till en IP-adress. Om det inte är möjligt lägger du till det fullständiga, kvalificerade värdnamnet och IP-adressen i [!DNL /etc/hosts] som i följande exempel.
 
 `<ip address> <fully qualified hostname>`
 
@@ -58,12 +58,12 @@ Dynamic Media Image Serving kräver följande serverprogramvara.
 
 **Windows**
 
-* Microsoft® Windows 2008 Server.
+* Microsoft® Windows Server 2008.
 * 64-bitars operativsystem.
 
-**Linux**
+**Linux®**
 
-* Red Hat® Enterprise 5 eller CentOS 5.5 och senare, med de senaste korrigeringsfilerna.
+* Red Hat® Enterprise 5 eller CentOS 5.5 och senare med de senaste korrigeringsfilerna.
 * 64-bitars operativsystem.
 
-**Obs!** Om du vill använda Image Serving i Windows måste du installera Microsoft Visual Studio 2010 som kan återdistribueras.
+**Obs!** Om du vill använda Image Serving i Windows måste du installera Microsoft® Visual Studio 2010.

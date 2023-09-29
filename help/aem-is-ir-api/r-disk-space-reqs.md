@@ -1,34 +1,34 @@
 ---
-description: Utöver det utrymme som krävs för att installera programmet har Image Serving följande krav på diskutrymme
-solution: Experience Manager
 title: Krav och rekommendationer för diskutrymme
+description: Förutom det utrymme som krävs för att installera programmet har Image Serving följande krav på diskutrymme.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 35486f3f-f0aa-4b69-a1d2-4bc6b5e41c43
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
 
 # Krav och rekommendationer för diskutrymme{#disk-space-requirements-and-recommendations}
 
-Utöver det utrymme som krävs för att installera programmet har Image Serving följande krav på diskutrymme:
+Förutom det utrymme som krävs för att installera programmet har Image Serving följande krav på diskutrymme:
 
 <table id="table_0AE363AB76304F258A19E43500FE8423"> 
  <thead> 
   <tr> 
    <th class="entry"> <b>Beskrivning/standardplats/ Ange med</b> </th> 
    <th class="entry"> <b>Beräkning/rekommendation</b> </th> 
-   <th class="entry"> <b>Kommentarer</b> </th> 
+   <th class="entry"> <b>Kommentar</b> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td> <p><b>Källbilder, teckensnitt, ICC-profiler</b> </p> <p> <span class="filepath"> <span class="varname"> install_folder </span>/images </span> <span class="codeph"></span> </p> <p> <span class="codeph"> IS::RootPaths </span> </p> </td> 
-   <td> <p>Varianter; se kommentarerna nedan. </p> </td> 
-   <td> <p>Endast behöver vara tillgänglig för Image Server. servrarna aldrig ändrar data. </p> </td> 
+   <td> <p>Varierar; se kommentarerna nedan. </p> </td> 
+   <td> <p>Endast måste vara tillgänglig för Image Server; servrarna ändrar aldrig data. </p> </td> 
   </tr> 
   <tr> 
    <td> <p><b>Cache för HTTP-svarsdata</b> </p> <p> <span class="filepath"> <span class="varname"> install_folder </span>/cache/is-response </span> </p> <p> <span class="codeph"> PS::ResponseCacheFolders </span> </p> </td> 
@@ -42,27 +42,27 @@ Utöver det utrymme som krävs för att installera programmet har Image Serving 
   </tr> 
   <tr> 
    <td> <p><b>Loggdata</b> </p> <p> <span class="filepath"> <span class="varname"> install_folder </span>/logs </span> </p> <p> <span class="codeph"> PS::LogFolder </span> </p> <p> <span class="codeph"> IS::LogFile </span> </p> <p> <span class="codeph"> SV::LogFile </span> </p> </td> 
-   <td> <p>minst 100 MB. </p> </td> 
-   <td> <p>Varierar beroende på loggningskonfiguration och serveranvändning. </p> </td> 
+   <td> <p>100 MB eller mer. </p> </td> 
+   <td> <p>Det varierar beroende på loggningskonfigurationen och serveranvändningen. </p> </td> 
   </tr> 
   <tr> 
    <td> <p><b>Tillfälliga filer för Image Server</b> </p> <p> <span class="filepath"> <span class="varname"> install_folder </span>/temp </span> </p> <p> <span class="codeph"> IS::TempDirectory </span> </p> <p> <span class="codeph"> SV::TempDirectory </span> </p> </td> 
-   <td> <p>100 MBytes räcker för de flesta användningsområden. </p> </td> 
-   <td> <p>Kortlivade uppgifter. kan behövas för andra källbilder än PTIFF och vissa svarsbildformat. </p> </td> 
+   <td> <p>100 MB räcker för de flesta användningsområden. </p> </td> 
+   <td> <p>Kortlivade data; kan behövas för andra källbilder än PTIFF och vissa svarsbildformat. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Krav på diskutrymme för källbilder {#section-317da75099ad480d9a461c7e706d4f1c}
 
-Du bör konvertera alla källbilder till PTIFF-format (pyramid TIFF) med kommandoradsverktyget Bildkonverterare. Den här konverteringen ger optimala prestanda vid körning av Image Serving för alla program. Även om Image Server kan bearbeta alla källfilsformat som godkänts av IC har Dynamic Media inte stöd för sådana användningsområden.
+Adobe rekommenderar att du konverterar alla källbilder till PTIFF-formatet (pyramid TIFF) med kommandoradsverktyget Bildkonverterare (IC). Den här konverteringen ger optimala prestanda vid körning av Image Serving för alla program. Även om Image Server kan bearbeta alla källfilsformat som godkänts av IC, stöder inte Dynamic Media sådan användning.
 
 När du använder PTIFF-filer kan följande reglage hjälpa dig att fastställa utrymmeskrav.
 
-*`total_space`* (byte) = *`number_of_images`* x(2000 + *`avg_pixel_count`* x *`avg_num_components`* x *`p_factor`*)
+*`total_space`* (byte) = *`number_of_images`*  × (2000 + *`avg_pixel_count`* x *`avg_num_components`*  x  *`p_factor`*)
 
-* *`avg_pixel_count`* Den genomsnittliga pixelstorleken (bredd x höjd) för alla ursprungliga källbilder. Om originalbilderna till exempel är ungefär 2 000 × 2 000 pixlar blir detta 4 MB.
-* *`avg_num_components`* Beroende på vilken typ av bilder det är. För bilder i RGB är den 3, för de flesta CMYK- och RGBA-bilder är den 4. Använd 3.5 om hälften av bilderna är RGB och den andra hälften är RGBA.
+* *`avg_pixel_count`* Den genomsnittliga pixelstorleken (bredd x höjd) för alla ursprungliga källbilder. Om originalbilderna till exempel är ungefär 2 000 × 2 000 pixlar är det 4 megapixlar.
+* *`avg_num_components`* Beroende på vilken typ av bilder det är. För bilder i RGB är det 3 och för de flesta CMYK- och RGBA-bilder är det 4. Använd 3.5 om halva bilden är RGB och den andra hälften är RGBA.
 * *`p_factor`* Beroende på den komprimeringstyp och kvalitet som anges när bilderna konverteras med IC.
 
 <table id="table_89995BECF30243569954819D07DA2A2F"> 
@@ -90,12 +90,12 @@ När du använder PTIFF-filer kan följande reglage hjälpa dig att fastställa 
 
 >[!NOTE]
 >
->Denna uppskattning tar inte hänsyn till filsystemets belastning. Det faktiska diskutrymmet kan vara betydligt större.
+>Denna uppskattning tar inte hänsyn till filsystemets belastning. Det faktiska utrymmet på disken kan vara betydligt större.
 
 **Exempel**
 
-Vid en driftsättning av Image Serving förväntas 30 000 äldre bilder med låg upplösning och en genomsnittlig storlek på 500 x 500 RGB användas. Nya bilddata med utskriftskvalitet förväntas läggas till med en hastighet på 10 000 per år. Den typiska CMYK-bildstorleken är 4k x 6k byte. Alla data komprimeras JPEG med hög kvalitet. Den totala mängden diskutrymme efter 3 års användning beräknas enligt följande:
+Vid en driftsättning av Image Serving förväntas 30 000 lågupplösta äldre bilder användas, med en genomsnittlig storlek på 500 × 500 RGB. Nya bilddata med utskriftskvalitet läggs till med en hastighet på 10 000 per år. Den typiska CMYK-bildstorleken är 4k × 6k byte. Alla data komprimeras JPEG med hög kvalitet. Den totala mängden diskutrymme efter tre års användning beräknas enligt följande:
 
-*`total_space`* = 30 000 x (2 kB + 0,5 kB x 0,5 kB x 3 x 0,1) + 3 x 10 000 x (2 kB + 4 k x 6 kB x 4 x 0,1) = 2,2 G + 268 GB = ungefär 270 GB
+*`total_space`* = 30 000 × (2k + 0,5k × 0,5k × 3 × 0,1) + 3 × 10 000 × (2k + 4k × 6k × 4 × 0,1) = 2,2 G + 268 GB = cirka 270 GB
 
-För garanterad bästa kvalitet kan dekomprimering (zip) användas. Anta en *`p_factor`* av 0,4 är den totala mängden diskutrymme som krävs ungefär fyra gånger större. I detta fall något mer än 1 TB.
+För bästa möjliga kvalitet kan komprimering som zip användas. Anta en *`p_factor`* av 0,4 är den totala mängden diskutrymme som krävs ungefär fyra gånger större. I det här fallet, något mer än 1 terabyte.

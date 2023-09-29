@@ -1,13 +1,13 @@
 ---
-description: JavaScript API-referens för visningsprogrammet för utfällbara bilder.
-solution: Experience Manager
 title: init
+description: JavaScript API-referens för initiering av visningsprogrammet för utfällbara bilder.
+solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: e86f8c0f-c130-43c5-8c3a-07c6bc49e2f7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ JavaScript API-referens för visningsprogrammet för utfällbara bilder.
 
 Startar initieringen av visningsprogrammet. Vid den här tidpunkten måste behållar-DOM-elementet skapas så att visningsprogramkoden kan hitta det med dess ID.
 
-Om behållarelementet inte är en del av webbsideslayouten ännu (t.ex. kan det döljas med `display:none` det format som har tilldelats) gör visningsprogrammet uppehåll i initieringsprocessen tills webbsidan återför behållarelementet till layouten. När detta inträffar återgår visningsprogrammet automatiskt.
+Om behållarelementet ännu inte är en del av webbsidans layout kan det t.ex. döljas med `display:none` format som tilldelats det - visningsprogrammet avbryter sin initieringsprocess. Det gör det tills webbsidan återför behållarelementet till layouten. När detta inträffar återgår visningsprogrammet automatiskt.
 
 Den här metoden ska bara anropas en gång under visningsprogrammets livscykel, efterföljande anrop ignoreras.
 

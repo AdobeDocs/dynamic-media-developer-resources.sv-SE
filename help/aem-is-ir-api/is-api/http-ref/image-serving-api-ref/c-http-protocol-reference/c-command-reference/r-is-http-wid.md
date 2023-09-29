@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ba22c79b-da59-4993-aa1c-2c990a0c4be5
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Visa bredd. Anger svarsbildens bredd (visningsbild) när fit= inte finns i begäran.
 
-` wid= *`val`*`
+`wid= *`val`*`
 
 <table id="simpletable_E217453246F5441C896C1F69EA4D4218"> 
  <tr class="strow"> 
@@ -35,21 +35,21 @@ If `scl=` om inget anges skalas den sammansatta bilden så att den passar. Om b�
 
 ## Standard {#section-976d4c8554a34c899f85d172f6ac6f58}
 
-Om ingen `wid=`, `hei=`, eller `scl=` anges kommer svarsbilden antingen att ha samma storlek som den sammansatta bilden, eller `attribute::DefaultPix`, beroende på vad som är mindre.
+Om ingen `wid=`, `hei=`, eller `scl=` anges har svarsbilden antingen samma storlek som den sammansatta bilden, eller `attribute::DefaultPix`, beroende på vad som är mindre.
 
 ## Egenskaper {#section-c93b7ce1b0d2475f80b06264b45d1285}
 
-Visa attribut. Används oavsett den aktuella lagerinställningen.
+Visa attribut. Det används oavsett den aktuella lagerinställningen.
 
 ## Exempel {#section-82bc98b7c15a451bbe9b915d414c0470}
 
-Begär att en bild ska få plats i en 200x200-rektangel. Bilden justeras uppåt till höger om den inte är fyrkantig. Alla bakgrundsområden fylls med `attribute::BkgColor`.
+Begär en bild så att den får plats i en 200x200-rektangel. I det övre högra hörnet justeras bilden om den inte är fyrkantig. Alla bakgrundsområden fylls med `attribute::BkgColor`.
 
-` http:// *`server`*/myRootId/myImageId?wid=200&hei=200&align=1,-1`
+` http:// *`Server`*/myRootId/myImageId?wid=200&hei=200&align=1,-1`
 
-Samma bild, med en fast bredd på 200 pixlar, men med en variabel höjd för att bibehålla bildens proportioner. I det här fallet har den returnerade bilden aldrig några bakgrundsfyllningsområden. Observera att align= i det här fallet inte har någon effekt alls.
+Samma bild, med en fast bredd på 200 pixlar, men med en variabel höjd för att bibehålla bildens proportioner. I det här fallet har den returnerade bilden aldrig några bakgrundsfyllningsområden. I detta fall `align=` skulle inte ha någon effekt alls.
 
-` http:// *`server`*/myRootId/myImageId?wid=200`
+` http:// *`Server`*/myRootId/myImageId?wid=200`
 
 ## Se även {#section-4e9659238d6545498378ca8b1f3ec4ae}
 

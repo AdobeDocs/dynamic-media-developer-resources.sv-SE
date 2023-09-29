@@ -1,11 +1,11 @@
 ---
+title: TableOfContents.showdefault
 description: TableOfContents.showdefault
 solution: Experience Manager
-title: TableOfContents.showdefault
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: cc494d35-8d9b-44f8-874b-dfc88b65f547
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 2%
@@ -20,7 +20,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td> <p> När inställt på <span class="codeph"> 1</span> komponenten fyller i den nedrullningsbara panelen med element för alla sidor, även för de som inte har någon etikett definierad. </p> <p>När inställt på <span class="codeph"> 0</span> endast objekt med explicita etiketter visas i den nedrullningsbara panelen. </p> </td> 
+   <td> <p> När inställt på <span class="codeph"> 1</span>fyller komponenten i den nedrullningsbara panelen med element för alla sidor, även för de som inte har några definierade etiketter. </p> <p>När inställt på <span class="codeph"> 0</span> endast objekt med explicita etiketter visas i den nedrullningsbara panelen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
