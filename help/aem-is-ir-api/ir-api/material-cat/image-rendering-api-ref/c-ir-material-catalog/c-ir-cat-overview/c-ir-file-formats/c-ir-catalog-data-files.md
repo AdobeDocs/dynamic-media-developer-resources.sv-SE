@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1fb91795-f699-40b4-a6bc-6eab3e1ecd1d
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Katalogdatafiler kan ha vilket namn och filsuffix som helst (förutom `.ini`).
 
 Katalogdatafiler kan enkelt underhållas med program som stöder tabbavgränsade textdatafiler som Microsoft® Excel och Access.
 
-En katalogdatafil är i princip en tvådimensionell tabell och består av en rubrikpost som identifierar datakolumner och ett valfritt antal dataposter (rader). Fält i både rubrik- och dataposter avgränsas med en `<TAB>` tecken. Posterna avgränsas av en enda `<CR>` (ASCII-kod `0xD`), en `<LF>` (ASCII-kod `0xA`) eller en `<CR><LF>` par.
+En katalogdatafil är i princip en tvådimensionell tabell och består av en rubrikpost som identifierar datakolumner och ett valfritt antal dataposter (rader). Fält i både rubrik- och dataposter avgränsas med en `<TAB>` tecken. Posterna avgränsas av en enda `<CR>` (ASCII-kod `0xD`), en `<LF>` (ASCII-kod `0xA`), eller en `<CR><LF>` par.
 
 Rubrikposten måste innehålla de exakta namnen för varje datafält. Tomma fält tillåts inte i rubrikraden. Datafältnamn är inte skiftlägeskänsliga. Alla fältnamn måste vara unika.
 
@@ -30,7 +30,7 @@ Datafälten får inte innehålla `<CR>`, `<LF>`, eller `<TAB>` om inte datavärd
 
 Flera datavärden i samma fält avgränsas med kommatecken (&#39;,&#39;), om inget annat anges.
 
-Kolumner vars namn börjar med &#39;.&#39; ignoreras, Detta gör det möjligt att lagra data i materialkataloger som inte är av intresse för bildåtergivning. Kolumner med okända rubriknamn ignoreras och en varning skrivs till loggfilen.
+Kolumner vars namn börjar med &#39;.&#39; ignoreras; detta tillåter lagring av data i materialkataloger som inte är av intresse för bildåtergivning. Kolumner med okända rubriknamn ignoreras och en varning skrivs till loggfilen.
 
 Fältnamn kan bestå av vilken kombination som helst av ASCII-bokstäver, siffror och&quot;-&quot; och&quot;_&quot;.
 

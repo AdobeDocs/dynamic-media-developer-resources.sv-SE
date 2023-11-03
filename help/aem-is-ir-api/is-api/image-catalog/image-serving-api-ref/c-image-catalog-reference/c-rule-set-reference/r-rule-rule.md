@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4fabd469-c80c-422a-80b0-3d31ce191d58
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Regelelement för begäran. En eller flera regler är valfria i `<ruleset>` -ele
 
 **`Name = "text"`**: Valfritt. Används för att identifiera `<rule>` -element i felsökningsloggar och felmeddelanden.
 
-`  *`Attribut`* ="value"`: Valfritt. `<rule>` -element kan definiera något av följande attribut i valfri kombination. Om den anges och regeln matchas kommer de att åsidosätta motsvarande katalogattribut för den här begäran. Standard är `RequestType="is"`.
+`  *`Attribut`* ="value"`: Valfritt. `<rule>` -element kan definiera något av följande attribut i valfri kombination. Om den anges och regeln matchas utan fel åsidosätter de motsvarande katalogattributen för den här begäran. Standard är `RequestType="is"`.
 
 <table id="table_67AED5BEADDF4DAC99B5EF46438C1ABC"> 
  <thead> 
@@ -72,7 +72,7 @@ Regelelement för begäran. En eller flera regler är valfria i `<ruleset>` -ele
    <td> <p><a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errorimage.md#reference-c494d5d8b2584fe3800f35baabd0292c" type="reference" format="dita" scope="local"> attribute::ErrorImage</a> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> Förfaller</span> </p> </td> 
+   <td> <p> <span class="codeph"> Förfallotid</span> </p> </td> 
    <td> <p> <a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-expiration.md#reference-a0bf4686425d4e00b8014c4950fb62b7" type="reference" format="dita" scope="local"> attribute::Expiration</a> </p> </td> 
   </tr> 
   <tr> 
@@ -88,7 +88,7 @@ Regelelement för begäran. En eller flera regler är valfria i `<ruleset>` -ele
    <td> <p> <a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-requestobfuscation.md#reference-730a3330253343f893419ebd52baf0bd" type="reference" format="dita" scope="local"> attribute::RequestObfuscation</a> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> RootUrl</span> </p> </td> 
+   <td> <p> <span class="codeph"> RootURL</span> </p> </td> 
    <td> <p> <a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rooturl.md#reference-3b0e43881020409cbe642366913cf137" type="reference" format="dita" scope="local"> attribute::RootUrl</a> </p> </td> 
   </tr> 
   <tr> 

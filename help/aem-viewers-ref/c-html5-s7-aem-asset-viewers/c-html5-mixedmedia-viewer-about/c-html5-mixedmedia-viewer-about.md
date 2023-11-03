@@ -6,9 +6,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 65a54308-f9db-4458-a9c3-ccb1433af43c
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2645'
+source-wordcount: '2642'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Mixed Media Viewer är ett visningsprogram för media. Det har stöd för mediauppsättningar som innehåller bilder, färgruteuppsättningar, snurruppsättningar, videor och adaptiva videouppsättningar.
 
-En miniatyrbild längst ned i visningsprogrammet representerar varje medieuppsättningselement tillsammans med resurstypsindikatorn. När ett element i färgruteuppsättningen är markerat visas en andra rad med färgrutor så att du kan välja färgvariation i färgruteuppsättningen. Bilder och element för färgruteuppsättning har stöd för zoomning i löpande läge eller infogat läge. snurruppsättningar har stöd för både zoomning och snurrning. Videofilmer och adaptiva videouppsättningar har stöd för alla grundläggande uppspelningskontroller så länge som valfria undertexter visas ovanpå videoinnehållet. Användaren kan när som helst växla till helskärm genom att klicka på helskärmsknappen. Visningsprogrammet har en valfri stängningsknapp. Den är utformad för att fungera på stationära datorer och mobila enheter.
+En miniatyrbild längst ned i visningsprogrammet representerar varje medieuppsättningselement tillsammans med resurstypsindikatorn. När ett element i färgruteuppsättningen är markerat visas en andra rad med färgrutor så att du kan välja färgvariation i färgruteuppsättningen. Bilder och element för färgruteuppsättning har stöd för zoomning i löpande läge eller textbundet läge. Rotationsuppsättningar har stöd för både zoomning och snurrning. Videofilmer och adaptiva videouppsättningar har stöd för alla grundläggande uppspelningskontroller så länge som valfria undertexter visas ovanpå videoinnehållet. Användaren kan när som helst växla till helskärm genom att klicka på helskärmsknappen. Visningsprogrammet har en valfri stängningsknapp. Den är utformad för att fungera på stationära datorer och mobila enheter.
 
 I Mixed Media Viewer används HTML5-direktuppspelad videouppspelning i HLS-format i standardkonfigurationen när det underliggande systemet stöder det. På system som saknar stöd för direktuppspelning från HTML5 återgår visningsprogrammet till progressiv videoleverans i HTML5.
 
@@ -64,7 +64,7 @@ Mixed Media Viewer har stöd för enkelberörings- och flerberöringsgester som 
    <td colname="col2"> <p>När <span class="codeph"> kontinuerlig </span> zoomläge, zoomar in en nivå tills maximal förstoring nås, nästa dubbelknackningsgest återställs till ursprungsläget. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Tryck och håll </p> </td> 
+   <td colname="col1"> <p>Peka och håll </p> </td> 
    <td colname="col2"> <p> När <span class="codeph"> inline </span> zoomläge, aktiverar zoomad bild. </p> </td> 
   </tr> 
   <tr> 
@@ -90,7 +90,7 @@ Se [Tangentbordstillgänglighet och -navigering](../../c-keyboard-accessibility.
 
 ## Bädda in blandad Media Viewer {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Olika webbsidor har olika behov av visningsprogrammets beteende. Ibland innehåller en webbsida en länk som, när den är markerad, öppnar visningsprogrammet i ett separat webbläsarfönster. I andra fall är det nödvändigt att bädda in visningsprogrammet direkt på värdsidan. I det senare fallet kan webbsidan ha en statisk sidlayout, eller använda responsiv design som visas på olika enheter eller för olika webbläsarfönsterstorlekar. För att tillgodose dessa behov har visningsprogrammet stöd för tre primära åtgärdslägen: popup-fönster, inbäddning i fast storlek och responsiv designinbäddning.
+Olika webbsidor har olika behov av visningsprogrammets beteende. Ibland innehåller en webbsida en länk som, när den är markerad, öppnar visningsprogrammet i ett separat webbläsarfönster. I andra fall är det nödvändigt att bädda in visningsprogrammet direkt på värdsidan. I det senare fallet kan webbsidan ha en statisk sidlayout, eller använda responsiv design som visas på olika enheter eller för olika webbläsarfönsterstorlekar. För att tillgodose dessa behov har visningsprogrammet stöd för tre primära åtgärdslägen: popup-fönster, inbäddning med fast storlek och responsiv designinbäddning.
 
 ## Om popup-läge {#section-77d5aa03b8b94566958a179b1a2cd474}
 
@@ -112,7 +112,7 @@ Här följer ett exempel på HTML som öppnar visningsprogrammet i ett nytt fön
 
 ## Om inbäddning av fast storlek och responsiv design {#section-ec86b100ba5943d0b16694268520bbde}
 
-I det inbäddade läget läggs visningsprogrammet till på den befintliga webbsidan, som kanske redan har kundinnehåll som inte är relaterat till visningsprogrammet. Visningsprogrammet upptar normalt bara en del av en webbsidas fastighet.
+I det inbäddade läget läggs visningsprogrammet till på den befintliga webbsidan, som kanske redan har kundinnehåll som inte är relaterat till visningsprogrammet. Visningsprogrammet tar normalt bara upp en del av en webbsidas fastighet.
 
 De viktigaste användningsområdena är webbsidor som är orienterade för datorer eller surfplattor, och även responsiva designsidor som automatiskt anpassar layouten beroende på enhetstyp.
 
@@ -122,7 +122,7 @@ Inbäddning av responsiv design förutsätter att visningsprogrammet måste änd
 
 I läget responsiv designinbäddning beter sig visningsprogrammet olika beroende på hur webbsidan ändrar storlek på sin behållare `DIV`. Om webbsidan bara anger behållarens bredd `DIV`, utan att begränsa höjden, väljer visningsprogrammet automatiskt höjden enligt proportionerna för den resurs som används. Med den här funktionen kan du vara säker på att resursen passar perfekt in i vyn utan utfyllnad på sidorna. Det här användningsexemplet är det vanligaste för webbsidor som använder responsiva designlayoutramverk som Bootstrap eller Foundation.
 
-Om webbsidan i annat fall anger både bredd och höjd för visningsprogrammets behållare `DIV`, fyller visningsprogrammet bara det området och följer den storlek som webbsidans layout ger. Ett bra exempel är att bädda in visningsprogrammet i en modal övertäckning, där storleken på övertäckningen anpassas efter webbläsarens fönsterstorlek.
+I annat fall, om webbsidan anger både bredd och höjd för visningsprogrammets behållare `DIV`, fyller visningsprogrammet bara det området och följer den storlek som webbsidans layout ger. Ett bra exempel är att bädda in visningsprogrammet i en modal övertäckning, där storleken på övertäckningen anpassas efter webbläsarens fönsterstorlek.
 
 ## Inbäddning med fast storlek {#section-17d162f76ffa4804b27928f51e7bea1d}
 
@@ -149,7 +149,7 @@ Den relativa sökvägen ser ut så här:
 
 >[!NOTE]
 >
->Referera endast till JavaScript för huvudvisningsprogrammet `include` på sidan. Referera inte till några ytterligare JavaScript-filer i webbsideskoden som kan hämtas av visningsprogrammets logik under körning. Ange särskilt inte direkt HTML5 SDK `Utils.js` biblioteket som läses in av visningsprogrammet från `/s7viewers` kontextsökväg (s.k. konsoliderad SDK) `include`). Orsaken är att platsen för `Utils.js` eller liknande visningsprogrambibliotek för miljön hanteras helt av visningsprogrammets logik och platsen ändras mellan visningsprogramversionerna. Adobe har inte äldre versioner av sekundära visningsprogram `includes` på servern.
+>Referera endast till JavaScript för huvudvisningsprogrammet `include` på sidan. Referera inte till några ytterligare JavaScript-filer i webbsideskoden som kan hämtas av visningsprogrammets logik under körning. Ange särskilt inte direkt HTML5 SDK `Utils.js` biblioteket som läses in av visningsprogrammet från `/s7viewers` kontextsökväg (så kallad konsoliderad SDK) `include`). Orsaken är att platsen för `Utils.js` eller liknande visningsprogrambibliotek för miljön hanteras helt av visningsprogrammets logik och platsen ändras mellan visningsprogramversionerna. Adobe har inte äldre versioner av sekundära visningsprogram `includes` på servern.
 >
 >
 >Det innebär att du skickar en direkt referens till valfritt sekundärt JavaScript `include` som används av visningsprogrammet på sidan avbryter visningsprogrammets funktioner i framtiden när en ny produktversion distribueras.

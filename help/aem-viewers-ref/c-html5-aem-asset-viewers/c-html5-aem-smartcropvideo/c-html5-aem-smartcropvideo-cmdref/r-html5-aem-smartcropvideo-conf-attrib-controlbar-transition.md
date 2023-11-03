@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 7b4db11b-e9ac-4a52-9206-083989128bc6
-source-git-commit: 8c49595fe0efb684b59601fb268bd8bf97fae555
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Konfigurationsattribut för visningsprogrammet för smart beskärning.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> varaktighet</span> </span> </p> </td> 
-   <td colname="col2"> <p>Anger längden på in- och uttoningsanimeringen i sekunder. </p> </td> 
+   <td colname="col2"> <p>Anger längden på in- och uttoningsanimeringen, i sekunder. </p> </td> 
   </tr> 
  </tbody> 
 </table>

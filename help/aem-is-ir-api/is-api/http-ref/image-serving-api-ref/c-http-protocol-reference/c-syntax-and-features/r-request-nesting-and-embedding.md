@@ -5,9 +5,9 @@ title: Begär kapsling och inbäddning
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b9c9d241-5a3d-4637-a90a-d8cdf29cc968
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1044'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Om den resulterande bilden av den kapslade begäran innehåller maskdata (alfav�
 
 Även ignorerade `attribute::MaxPix`och `attribute::DefaultPix` för den bildkatalog som gäller för den kapslade begäran.
 
-Bildresultatet av en kapslad IS-begäran kan cachelagras genom att inkludera `cache=on`. Som standard är cachelagring av mellanliggande data inaktiverad. Cachelagring bör endast aktiveras när den mellanliggande bilden förväntas återanvändas i en annan begäran inom en rimlig tidsperiod. Standardhantering av cache på serversidan gäller. Data cachelagras i ett icke-förstörande format.
+Bildresultatet av en kapslad IS-begäran kan cachelagras genom att inkludera `cache=on`. Som standard är cachelagring av mellanliggande data inaktiverad. Cachelagring bör endast aktiveras när den mellanliggande bilden förväntas återanvändas i en annan begäran inom en rimlig tidsperiod. Standardhantering av cacheminnet på serversidan gäller. Data cachelagras i ett förlustfritt format.
 
 ## Begäranden om inbäddad bildåtergivning {#section-69c5548db930412b9b90d9b2951a6969}
 
@@ -77,7 +77,7 @@ Följande kommandon för bildåtergivning ignoreras när de anges i kapslade beg
 
 Även ignorerade `attribute::MaxPix` och `attribute::DefaultPix` för den materialkatalog som gäller för den kapslade återgivningsbegäran.
 
-Bildresultatet av en kapslad IR-begäran kan cachelagras genom att inkludera `cache=on`. Som standard är cachelagring av mellanliggande data inaktiverad. Cachelagring bör endast aktiveras när den mellanliggande bilden förväntas återanvändas i en annan begäran inom en rimlig tidsperiod. Standardhantering av cache på serversidan gäller. Data cachelagras i ett icke-förstörande format.
+Bildresultatet av en kapslad IR-begäran kan cachelagras genom att inkludera `cache=on`. Som standard är cachelagring av mellanliggande data inaktiverad. Cachelagring bör endast aktiveras när den mellanliggande bilden förväntas återanvändas i en annan begäran inom en rimlig tidsperiod. Standardhantering av cacheminnet på serversidan gäller. Data cachelagras i ett förlustfritt format.
 
 ## Inbäddade FXG-renderingsbegäranden {#section-c817e4b4f7da414ea5a51252ca7e120a}
 
@@ -119,7 +119,7 @@ Ange en extern URL för en `src=` eller en `mask=` avgränsar du det externa URL
 
 Viktigt! Avgränsningstecken ( `'(',')'`) och kommandots avgränsningstecken ( `'?'`, `'&'`, `'='`) i kapslade begäranden får inte vara HTTP-kodade. Inbäddade begäranden måste i själva verket kodas på samma sätt som den yttre (inbäddade) begäran.
 
-Fullständiga absoluta URL:er (om `attribute::AllowDirectUrls` är inställt) och URL:er i förhållande till `attribute::RootUrl` är tillåtna. Ett fel inträffar om en absolut URL är inbäddad och attributet: `AllowDirectUrls` är 0 eller om en relativ URL har angetts och `attribute::RootUrl` är tom.
+Fullständig absolut URL (om `attribute::AllowDirectUrls` är inställt) och URL:er i förhållande till `attribute::RootUrl` är tillåtna. Ett fel inträffar om en absolut URL är inbäddad och attributet: `AllowDirectUrls` är 0 eller om en relativ URL har angetts och `attribute::RootUrl` är tom.
 
 Även om externa URL:er inte kan anges direkt i sökvägskomponenten i den begärda URL:en, går det att ställa in en förbearbetningsregel som tillåter konvertering av relativa sökvägar till absoluta URL:er (se exemplet nedan).
 
@@ -151,7 +151,7 @@ Med mindre ändringar kan vi förskala bilden för lager 0 och cachelagra den pe
 
 **Bädda in begäranden om Dynamic Media bildåtergivning**
 
-Använda en mall som lagras i [!DNL myCatalog/myTemplate]; generera bilden för lager2 i mallen med Dynamic Media Image Rendering:
+Använda en mall som lagras i [!DNL myCatalog/myTemplate]; generera bilden för lager2 av mallen med Dynamic Media Image Rendering:
 
 `http://server/is/image/myCatalog/myTemplate?layer=2&src=ir(myRenderCatalog/myRenderObject?id=myIdValue&sel=group&src=is(myCatalog/myTexture1?res=30)&res=30)&wid=300`
 
@@ -159,4 +159,4 @@ Lägg märke till de kapslade klammerparenteserna. Begäran om bildåtergivning 
 
 ## Se även {#section-109a0a9a3b144158958351139c8b8e69}
 
-[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) , [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [Begär förbearbetning](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-preprocessing.md#reference-c27976436bf04194bfbe9adf40ea98e3), bildåtergivningsreferens, [Mallar](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e), [Bildserververktyg](../../../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f)
+[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) , [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [Begär förbearbetning](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-preprocessing.md#reference-c27976436bf04194bfbe9adf40ea98e3), bildåtergivningsreferens, [Mallar](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e), [Bilderingsverktyg](../../../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f)

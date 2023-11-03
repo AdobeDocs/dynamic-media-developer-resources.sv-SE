@@ -1,18 +1,18 @@
 ---
-title: Helskärmsknapp
-description: Helskärmsknappen gör att videospelaren övergår till eller avslutar helskärmsläget när en användare klickar på den.
+title: helskärmsknapp
+description: Helskärmsknappen gör att videospelaren övergår till eller avslutar helskärmsläget när användaren klickar på den.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 120f0ee9-e76b-48d5-8ea7-8be5a8f52edc
-source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
 
-# Helskärmsknapp{#full-screen-button}
+# helskärmsknapp{#full-screen-button}
 
 Helskärmsknappen gör att videospelaren övergår till eller avslutar helskärmsläget när en användare väljer det.
 
@@ -48,11 +48,11 @@ Utseendet på helskärmsknappen styrs av CSS-klassväljaren:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> Bredden på helskärmsknappen. </p> </td> 
+   <td colname="col2"> <p> Helskärmsknappens bredd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Höjden på helskärmsknappen. </p> </td> 
+   <td colname="col2"> <p>Helskärmsknappens höjd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
@@ -67,7 +67,7 @@ Utseendet på helskärmsknappen styrs av CSS-klassväljaren:
 
 >[!NOTE]
 >
->Den här knappen har stöd för båda `state` och `selected` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen. I synnerhet `selected='true'` motsvarar helskärmsläget och `selected='false'` motsvarar läget &quot;normal&quot;.
+>Den här knappen har stöd för båda `state` och `selected` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen. Särskilt gäller följande: `selected='true'` motsvarar läget&quot;helskärm&quot; och `selected='false'` motsvarar läget &quot;normal&quot;.
 
 Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) för mer information.
 

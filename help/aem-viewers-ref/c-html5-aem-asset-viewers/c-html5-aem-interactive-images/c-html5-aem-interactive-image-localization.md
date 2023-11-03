@@ -4,9 +4,9 @@ description: Viss information som visas i Interactive Image Viewer kan lokaliser
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 19749c74-5c31-4dcf-ab07-0e7f10176a86
-source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 Viss information som visas i Interactive Image Viewer kan lokaliseras. Det här innehållet innehåller funktionsbeskrivningar för användargränssnittselement och ett informationsmeddelande som visas i den utfällbara zoomvyn vid inläsningen.
 
-Varje textinnehåll i visningsprogrammet som kan lokaliseras representeras av den speciella SDK-identifieraren för visningsprogrammet som kallas SYMBOL. Alla SYMBOL har ett associerat standardtextvärde för en engelsk språkinställning ( `"en"`) som medföljer visningsprogrammet som inte är installerat och kan ha användardefinierade värden för så många språk som behövs.
+Varje textinnehåll i visningsprogrammet som kan lokaliseras representeras av den speciella SDK-identifieraren för visningsprogrammet som kallas SYMBOL. Alla SYMBOL har ett standardassocierat textvärde för engelska ( `"en"`) som medföljer visningsprogrammet som inte är installerat och kan ha användardefinierade värden för så många språk som behövs.
 
-När visningsprogrammet startas kontrolleras det aktuella språkområdet för att se om det finns ett användardefinierat värde för varje SYMBOL som stöds för sådana språkområden. I så fall används det användardefinierade värdet. i annat fall återställs den till standardtexten som inte finns i kartongen.
+När visningsprogrammet startas kontrolleras det aktuella språkområdet för att se om det finns ett användardefinierat värde för varje SYMBOL som stöds för sådana språkområden. Om det finns något används det användardefinierade värdet, i annat fall används standardtexten som inte finns.
 
 Användardefinierade lokaliseringsdata kan skickas till visningsprogrammet som ett JSON-lokaliseringsobjekt. Det här objektet innehåller en lista med språkområden som stöds, SYMBOL-textvärden för varje språkområde samt standardspråkområdet.
 
@@ -59,7 +59,7 @@ Följande SYMBOL stöds:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZoomView.USAGE_HINT </span> </p> </td> 
-   <td colname="col2"> <p>ARIA-användningstips för tangentbordsanvändare. </p> </td> 
+   <td colname="col2"> <p>ARIA-användningstips för kortanvändare. </p> </td> 
   </tr> 
  </tbody> 
 </table>

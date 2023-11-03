@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 9eb2ef38-9b86-4c60-90a2-6609cb3fcc39
-source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '1385'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Det går att ta bort knappen från panelen Dela via inställningen `display:none
 
 Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-Exempel - om du vill ställa in en knapp för länkdelning som är 28 x 28 pixlar och visar en annan bild för vart och ett av de fyra olika knapplägena:
+Exempel - om du vill ställa in en knapp för länkdelning som är 28 x 28 pixlar och visar olika bilder för de fyra olika knapplägena:
 
 ```
 .s7video360viewer .s7linkshare { 
@@ -126,11 +126,11 @@ Som standard visas den modala dialogrutan centrerat på skärmen på stationära
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Ska antingen vara unset eller inställd på 100 %, vilket innebär att dialogrutan tar hela webbläsarfönstret (det här läget rekommenderas på enheter med pekskärm). </p> </td> 
+   <td colname="col2"> <p>Ska antingen vara unset eller inställd på 100 %, vilket innebär att dialogrutan tar hela webbläsarfönstret (det här läget rekommenderas på pekenheter). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Ska antingen vara unset eller inställd på 100 %, vilket innebär att dialogrutan tar hela webbläsarfönstret (det här läget rekommenderas på enheter med pekskärm). </p> </td> 
+   <td colname="col2"> <p>Ska antingen vara unset eller inställd på 100 %, vilket innebär att dialogrutan tar hela webbläsarfönstret (det här läget rekommenderas på pekenheter). </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -324,7 +324,7 @@ Knappbeskrivningen Stäng och dialogrutans titel kan lokaliseras. Se [Lokaliseri
 }
 ```
 
-Dialogrutans sidfot består av en Avbryt-knapp. Sidfotsbehållaren styrs med följande CSS-klassväljare:
+Sidfoten i dialogrutan består av en Avbryt-knapp. Sidfotsbehållaren styrs med följande CSS-klassväljare:
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogfooter
@@ -463,7 +463,7 @@ Båda knapparna har dessutom en gemensam CSS-klass som kan innehålla CSS-instä
  </tbody> 
 </table>
 
-Knappverktygstipsen kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+Knappens tips kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
 **Exempel** - om du vill ställa in en sidfot i en dialogruta med en Avbryt-knapp på 64 x 34, där textfärgen och bakgrundsfärgerna är olika för varje knappläge:
 

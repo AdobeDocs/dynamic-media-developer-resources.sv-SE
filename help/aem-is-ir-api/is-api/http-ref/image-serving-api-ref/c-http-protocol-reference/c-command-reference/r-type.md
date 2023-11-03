@@ -1,20 +1,20 @@
 ---
 title: type
-description: Statiskt innehållstypfilter. Anger en filtersträng för statiskt innehåll som levereras via /is/content.
+description: Statiskt innehållstypfilter. Anger en filtersträng för statiskt innehåll som levereras med /is/content.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9015d5f4-e42c-43e0-af85-fc9c278448e7
-source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '111'
 ht-degree: 0%
 
 ---
 
 # type{#type}
 
-Statiskt innehållstypfilter. Anger en filtersträng för statiskt innehåll som levereras via /is/content.
+Statiskt innehållstypfilter. Anger en filtersträng för statiskt innehåll som levereras med /is/content.
 
 `type= *`val`*`
 

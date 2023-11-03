@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 430809d8-3d51-49b7-b6bf-c3c3c77501ff
-source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Utseendet på verktygstipsen styrs av följande CSS-klassväljare:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> Bakgrundsfärg. </p> </td> 
+   <td colname="col2"> <p> Bakgrundsfärg </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> färg </span> </p> </td> 
@@ -56,7 +56,7 @@ Utseendet på verktygstipsen styrs av följande CSS-klassväljare:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
-   <td colname="col2"> <p>Teckensnittsstorlek för text. </p> </td> 
+   <td colname="col2"> <p>Teckenstorlek för text. </p> </td> 
   </tr> 
  </tbody> 
 </table>

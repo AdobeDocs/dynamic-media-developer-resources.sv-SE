@@ -5,9 +5,9 @@ title: Textlager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6793eb7d-6c10-4136-b6d4-186a698a8e52
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -29,13 +29,13 @@ Gemensamma regler och definitioner är följande:
 * If `anchor=` eller `origin=` är specificerat för textlager som ändrar storlek automatiskt, och textlagrets position påverkas av textinnehållet.
 
 * När `size=` anges kan delar av tecken återges utanför lagrets rektangel.
-* `pos=` kan användas i alla fall för att flytta ett textlager.
+* `pos=` kan användas för att flytta ett textlager.
 
 ## Punkttext (självstorleksändring) {#section-db99ec98eb114458b2dbc9911a58f74a}
 
 Punkttext i Photoshop-format simuleras när `textPs=` anges utan `size=`, `textPath=`, eller `textFlowPath=`. Lagerstorleken bestäms vågrätt av den återgivna textens bredd och lodrätt av radavståndet. Texten radbryts aldrig automatiskt.
 
-Om ingen `anchor=` eller `origin=` anges, den första textraden placeras omedelbart ovanför lagerorigo, stycken markerade med `\ql` placeras till höger om lagerorigo, stycken som innehåller `\qr` återges till vänster om origo och stycken med `\qc` centreras vågrätt runt origo. Standardplaceringsregler för lager gäller om `anchor=` eller `origin=` anges.
+Om ingen `anchor=` eller `origin=` anges placeras den första textraden omedelbart ovanför lagerorigo; stycken markerade med `\ql` placeras till höger om lagerorigo, stycken som innehåller `\qr` återges till vänster om origo och stycken med `\qc` centreras vågrätt runt origo. Standardplaceringsregler för lager gäller om `anchor=` eller `origin=` anges.
 
 If `color=` anges fylls begränsningsramen för den faktiska texten.
 
@@ -89,7 +89,7 @@ Följande RTF-kommandon ignoreras för `textFlowPath=`:
 
 `textPath=` definierar en eller flera banor på vilka text anges med `textPs=` bör återges. När `size=` om inget anges, blir det resulterande textlagret självanpassat. Lagerstorleken bestäms av begränsningsramen för den faktiska texten som återges.
 
-Om ingen `origin=` eller `anchor=` är specificerade blir lagerankarpunkten (0,0) av pixelkoordinatmodellen som används för att definiera banan, placeringen av den återgivna texten är fast oavsett hur mycket text som återges. If `anchor=` eller `origin=` anges placeras lagret i förhållande till (och anpassar till) begränsningsramen för det faktiska innehållet.
+Om ingen `origin=` eller `anchor=` anges används som standard (0,0) av pixelkoordinatmodellen som används för att definiera banan. Positionen för den återgivna texten är fast oavsett hur mycket text som återges. If `anchor=` eller `origin=` anges placeras lagret i förhållande till (och anpassar till) begränsningsramen för det faktiska innehållet.
 
 `color=` fyller markeringsramen för den faktiska återgivna texten.
 

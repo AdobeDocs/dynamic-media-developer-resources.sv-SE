@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 3a798595-6c65-4a12-983d-3cdc53830d28
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 0%
@@ -115,7 +115,7 @@ Den här självstudiekursen innehåller följande åtgärder som du kan använda
 
 1. Spara filen som en tom mall. Du kan använda vilket filnamn du vill.
 
-   Du kommer att använda den här tomma mallfilen som referens när du skapar visningsprogram i framtiden. Den här mallen fungerar lokalt och när den används från en webbserver.
+   Du kan använda den här tomma mallfilen som referens när du skapar visningsprogram i framtiden. Den här mallen fungerar lokalt och när den används från en webbserver.
 
 Nu kan du lägga till stil i visningsprogrammet.
 
@@ -178,8 +178,8 @@ Nu med komponenterna `Container` och `ZoomView`.
    
    /* Create a viewer container as a parent component for other user interface components that  
       are part of the viewer application and associate event handlers for resize and  
-      full screen notification. The advantage of using Container as the parent is the  
-      component's ability to resize and bring itself and its children to full screen. */ 
+      full-screen notification. The advantage of using Container as the parent is the  
+      component's ability to resize and bring itself and its children to full-screen. */ 
    container = new s7sdk.common.Container(null, params, "s7container"); 
    container.addEventListener(s7sdk.event.ResizeEvent.COMPONENT_RESIZE, containerResize, false); 
    
@@ -228,7 +228,7 @@ Lägg till komponenterna `MediaSet` och `Swatches` till ditt visningsprogram.
    var mediaSet, container, zoomView, swatches;
    ```
 
-1. Instansiera `MediaSet` och `Swatches` komponenterna i `initViewer` funktion.
+1. Skapa `MediaSet` och `Swatches` komponenterna i `initViewer` funktion.
 
    Se till att instansiera `Swatches` instansen efter `ZoomView` och `Container` -komponenter, annars döljs `Swatches`:
 

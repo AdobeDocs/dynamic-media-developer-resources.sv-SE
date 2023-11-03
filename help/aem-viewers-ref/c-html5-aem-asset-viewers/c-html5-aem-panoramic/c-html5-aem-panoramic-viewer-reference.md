@@ -1,20 +1,20 @@
 ---
 title: Panoramavisningsprogram
-description: HTML5 Panoramavy Viewer är ett bildvisningsprogram som visar en panoramabild. Syftet med det här visningsprogrammet är att visa ett sfäriskt panorama, även kallat ekvirektangulär bild. Det har stöd för automatisk panorering och panorering med gyroskopisk rörelse. Den är utformad för att fungera på stationära datorer och mobila enheter. Visningsläget Virtuell verklighet är tillgängligt på mobila enheter som stöder det.
+description: HTML5 Panoramavy Viewer är ett bildvisningsprogram som visar en panoramabild. Syftet med det här visningsprogrammet är att visa ett sfäriskt panorama, även kallat ekvirektangulär bild. Det har stöd för automatisk panorering och panorering med gyroskopisk rörelse. Den är utformad för att fungera på stationära datorer och mobila enheter. Visningsläget Virtuell verklighet är tillgängligt på mobila enheter med stöd för detta.
 keywords: responsiv
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '1955'
 ht-degree: 0%
 
 ---
 
 # Panorama{#panoramic}
 
-HTML5 Panoramavy Viewer är ett bildvisningsprogram som visar en panoramabild. Syftet med det här visningsprogrammet är att visa ett sfäriskt panorama, även kallat ekvirektangulär bild. Det har stöd för automatisk panorering och panorering med gyroskopisk rörelse. Den är utformad för att fungera på stationära datorer och mobila enheter. Visningsläget Virtuell verklighet är tillgängligt på mobila enheter som stöder det.
+HTML5 Panoramavy Viewer är ett bildvisningsprogram som visar en panoramabild. Syftet med det här visningsprogrammet är att visa ett sfäriskt panorama, även kallat ekvirektangulär bild. Det har stöd för automatisk panorering och panorering med gyroskopisk rörelse. Den är utformad för att fungera på stationära datorer och mobila enheter. Visningsläget Virtuell verklighet är tillgängligt på mobila enheter med stöd för detta.
 
 Se [Systemkrav och krav](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
@@ -29,7 +29,7 @@ Visningstyp 514.
 
 HTML5 Panoramavy Viewer representerar en JavaScript-huvudfil och en uppsättning hjälpfiler som hämtats av visningsprogrammet under körning. Uppsättningen med hjälpfiler är en enda JavaScript-uppsättning som inkluderar alla HTML5-visarens SDK-komponenter som används av det här visningsprogrammet, resurser och CSS.
 Panoramaviseringsprogrammet HTML5 kan användas både i popup-läge med en produktionsklar HTML-sida som finns i IS-Viewer eller i inbäddat läge, där det integreras med målwebbsidan med hjälp av dokumenterad API.
-Konfigurationen och skalningen liknar den för de andra visningsprogrammen i HTML5. All skalning kan göras via anpassad CSS.
+Konfigurationen och skalningen liknar den för de andra visningsprogrammen i HTML5. All skalning kan göras med anpassad CSS.
 
 Se [Kommandoreferens som är gemensam för alla visningsprogram - Konfigurationsattribut](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) och [Kommandoreferens som är gemensam för alla visningsprogram - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
@@ -62,7 +62,7 @@ Panoramaviseringsprogrammet kan återge panoramabilder i VR-läge (Virtual Reali
 
 ## Bädda in panoramavisare för HTML5 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Olika webbsidor har olika behov av visningsprogrammets beteende. Ibland ger en webbsida en länk. Om du väljer den länken öppnas visningsprogrammet i ett separat webbläsarfönster. I andra fall kan det vara nödvändigt att bädda in visningsprogrammet på värdsidan. I det senare fallet kan webbsidan ha en statisk layout eller vara&quot;responsiv&quot; och visas på olika enheter eller för olika webbläsarfönsterstorlekar. För att tillgodose dessa behov har visningsprogrammet stöd för tre primära åtgärdslägen: popup, inbäddning i fast storlek och responsiv inbäddning.
+Olika webbsidor har olika behov av visningsprogrammets beteende. Ibland ger en webbsida en länk. Om du väljer den länken öppnas visningsprogrammet i ett separat webbläsarfönster. I andra fall kan det vara nödvändigt att bädda in visningsprogrammet på värdsidan. I det senare fallet kan webbsidan ha en statisk layout eller vara&quot;responsiv&quot; och visas på olika enheter eller för olika webbläsarfönsterstorlekar. För att tillgodose dessa behov har visningsprogrammet stöd för tre primära åtgärdslägen: popup, inbäddning med fast storlek och responsiv inbäddning.
 
 **Om popup-läge**
 
@@ -121,7 +121,7 @@ Relativ sökväg ser ut så här:
 
 >[!NOTE]
 >
->Referera endast till JavaScript för huvudvisningsprogrammet `include` på sidan. Referera inte till några ytterligare JavaScript-filer i webbsideskoden som kan hämtas av visningsprogrammets logik under körning. Ange särskilt inte direkt HTML5 SDK `Utils.js` biblioteket som läses in av visningsprogrammet från `/s7viewers` kontextsökväg (s.k. konsoliderad SDK) `include`). Orsaken är att platsen för `Utils.js` eller liknande visningsprogrambibliotek för miljön hanteras helt av visningsprogrammets logik och platsen ändras mellan visningsprogramversionerna. Adobe har inte äldre versioner av sekundära visningsprogram `includes` på servern.
+>Referera endast till JavaScript för huvudvisningsprogrammet `include` på sidan. Referera inte till några ytterligare JavaScript-filer i webbsideskoden som kan hämtas av visningsprogrammets logik under körning. Ange särskilt inte direkt HTML5 SDK `Utils.js` biblioteket som läses in av visningsprogrammet från `/s7viewers` kontextsökväg (så kallad konsoliderad SDK) `include`). Orsaken är att platsen för `Utils.js` eller liknande visningsprogrambibliotek för miljön hanteras helt av visningsprogrammets logik och platsen ändras mellan visningsprogramversionerna. Adobe har inte äldre versioner av sekundära visningsprogram `includes` på servern.
 >
 >
 >Det innebär att du skickar en direkt referens till valfritt sekundärt JavaScript `include` som används av visningsprogrammet på sidan avbryter visningsprogrammets funktioner i framtiden när en ny produktversion distribueras.
@@ -275,7 +275,7 @@ Följande exempelsida visar hur responsiv designinbäddning med obegränsad höj
 
 **Responsiv design embedding with width and height defined**
 
-Om det finns responsiv designinbäddning med definierad bredd och höjd är webbsidans format annorlunda. ger &quot; hållaren&quot; båda storlekar `DIV` och centrera det i webbläsarfönstret. Dessutom anger webbsidan storleken på `HTML` och `BODY` till 100 %:
+Om det finns responsiv designinbäddning med definierad bredd och höjd är webbsidans format annorlunda. Det ger &quot; hållaren&quot; båda storlekar `DIV` och centrera det i webbläsarfönstret. Dessutom anger webbsidan storleken på `HTML` och `BODY` till 100 %:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -301,7 +301,7 @@ height: 60%;
 </html> 
 ```
 
-Resten av inbäddningsstegen är identiska med responsiv inbäddning med obegränsad höjd. Det resulterande exemplet är
+Resten av inbäddningsstegen är identiska med responsiv inbäddning med obegränsad höjd. Resultatet är
 
 ```html {.line-numbers}
 <!DOCTYPE html>

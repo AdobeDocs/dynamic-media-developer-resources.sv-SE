@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: cdb3ed5e-c396-483d-aea0-2b3f24efe56e
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Kabinettmaterial anger en kabinettformatfil (.vnc-filtillägg), en särskild datafil som innehåller fotografiska representationer av skåp tillsammans med parameterlayoutdefinitioner och annan information som krävs för återgivning av skåftets framsidor.
 
-[!DNL vnc] filerna kan innehålla en repeterbar kornstextur, eller så kan texturen ges externt via ett andra argument till `src=`. Vissa [!DNL vnc] filer kan användas för att färgsätta eller texturera valda områden i skåpsrutor (används vanligtvis för att laminera skåpsstilar).
+[!DNL vnc] filerna kan innehålla en repeterbar kornstextur, eller så kan texturen ges externt med hjälp av ett andra argument till `src=`. Vissa [!DNL vnc] filer kan användas för att färgsätta eller texturera valda områden i skåpsrutor (används vanligtvis för att laminera skåpsstilar).
 
 Kabinettmaterial kan bara användas på kabinettobjekt.
 

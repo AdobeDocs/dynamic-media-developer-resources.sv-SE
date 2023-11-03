@@ -1,20 +1,20 @@
 ---
-description: ID-översättningskarta. Anger reglerna som används för översättning av generiska bild-ID:n till språkområdesspecifika ID:n.
+description: ID-översättningskarta. Anger reglerna som används för översättning av generiska bild-ID:n till språkspecifika ID:n.
 solution: Experience Manager
 title: LocaleMap
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c1d74154-721b-46cc-9f0b-8dae5647b179
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '208'
 ht-degree: 0%
 
 ---
 
 # LocaleMap{#localemap}
 
-ID-översättningskarta. Anger reglerna som används för översättning av generiska bild-ID:n till språkområdesspecifika ID:n.
+ID-översättningskarta. Anger reglerna som används för översättning av generiska bild-ID:n till språkspecifika ID:n.
 
 `*`artikel`*&#42;['|' *`artikel`*]`
 
@@ -45,7 +45,7 @@ När detta är aktiverat används ID-översättning på alla id som refererar ti
 
 ## Egenskaper {#section-f4c6f058bc5348ee9a3fb19e394b37e3}
 
-Ett eller flera objekt, avgränsade med |, där varje objekt består av två eller flera, kommaavgränsade strängvärden. *`locId`* och `locale=` jämförs. Inte skiftlägeskänsligt.
+Ett eller flera objekt, avgränsade med |, där varje objekt består av två eller flera, kommaavgränsade strängvärden. *`locId`* och `locale=` jämförs. Inte skiftlägeskänslig.
 
 ## Se även {#section-19fba6d5be59439c8bf8ec7513c1a6da}
 

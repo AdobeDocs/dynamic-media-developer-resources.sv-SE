@@ -5,9 +5,9 @@ title: Textformatering
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2c120ed1-b556-4caf-a30e-63ae48cc2104
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -147,7 +147,7 @@ I följande tabell visas de viktigaste funktionerna för varje textkommando:
  </tbody> 
 </table>
 
-RTF-kompatibla strängar kan sättas samman manuellt eller genom att formatera texten i en textredigerare eller ordbehandlare som kan spara RTF-filer. RTF-filen kan sedan öppnas i en vanlig textredigerare och det aktuella RTF-råinnehållet i filen kopieras till begärande-URL:en.
+RTF-kompatibla strängar kan sättas samman manuellt eller genom att formatera texten i en textredigerare eller ordbehandlare som kan spara RTF-filer. RTF-filen kan sedan öppnas i en vanlig textredigerare och det aktuella RTF-innehållet i filen kopieras till begärande-URL:en.
 
 Vissa ordbehandlare genererar ganska stora filer, som innehåller viktiga preamultiplikationer som inte används av Dynamic Media Image Serving. Vi rekommenderar att du tar bort oanvända RTF-element från strängen innan du skickar strängen till textkommandona.
 

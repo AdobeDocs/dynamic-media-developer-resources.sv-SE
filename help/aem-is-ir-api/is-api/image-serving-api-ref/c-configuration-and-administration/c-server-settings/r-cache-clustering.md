@@ -5,9 +5,9 @@ title: Cacheklustring
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: bd0267e7-ebf5-4995-b55e-89cb1a58de6d
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ Använd de här serverinställningarna för cacheklustring.
 
 ## PS::cacheCluster.hosts - värdar {#section-319d2ba2915e40ac8b5ea9b4fe26a88b}
 
-Lista med IP-adresser, avgränsade med semikolon. Inkludera IP-adresserna för alla peer-servrar som den här värden ska hämta cachedata från. Den lokala värddatorns IP-adress kan inkluderas av praktiska skäl. Detta tillåter samma konfigurationsinställningar för alla servrar i klustret.
+Lista med IP-adresser, avgränsade med semikolon. Inkludera IP-adresserna för alla peer-servrar som den här värden ska hämta cachedata från. IP-adressen för den lokala värden kan inkluderas av praktiska skäl. Detta gör att samma konfigurationsinställningar kan användas för alla servrar i klustret.
 
-## PS::cacheCluster.updateLocalCache - Uppdatera lokalt cacheminne {#section-154c2c0af4544200a3499232bb130dde}
+## PS::cacheCluster.updateLocalCache - Uppdatera lokal cache {#section-154c2c0af4544200a3499232bb130dde}
 
 Ange Ja om en cachepost från en peer-server ska kopieras till den lokala svarscachen.
 

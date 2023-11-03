@@ -5,7 +5,7 @@ title: req
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 546b8b3f-9e37-4e8d-bf0c-db8c12696b2b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Typ av begäran. Anger typen av begäran.
 * [xlate](r-xlate.md)
 * [xmp](r-xmp.md)
 
-Om inget annat anges i de detaljerade beskrivningarna returneras servern `text` svar med MIME-typ `text/plain`. I många typer av förfrågningar kan du ange en svarstyp, som `text`, som vanligtvis är standard, `javascript`, `xml`, eller `json`. De associerade MIME-svarstyperna är `text/plain`, `text/javascript`, `text/xml`och `text/javascript`, respektive.
+Om inget annat anges i de detaljerade beskrivningarna returneras servern `text` svar med MIME-typ `text/plain`. I många typer av förfrågningar kan du ange en svarstyp, som `text` som vanligtvis är standard, `javascript`, `xml`, eller `json`. De associerade MIME-svarstyperna är `text/plain`, `text/javascript`, `text/xml`och `text/javascript`, respektive
 
 Om inget annat anges formaterar svaren svaret som en uppsättning `name=value` par.
 

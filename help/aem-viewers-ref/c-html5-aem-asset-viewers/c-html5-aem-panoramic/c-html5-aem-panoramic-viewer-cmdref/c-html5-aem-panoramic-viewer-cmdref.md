@@ -4,9 +4,9 @@ description: Konfigurationsattributdokumentation för panoramavisningsprogrammet
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '148'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Konfigurationsattributdokumentation för panoramavisningsprogrammet.
 
 Alla konfigurationskommandon kan anges i URL eller med `setParam()` och/eller `setParams()` API-metoder. Alla config-attribut kan också anges i konfigurationsposten på serversidan.
 
-Vissa konfigurationskommandon kan ha prefixet med klassnamnet eller instansnamnet för motsvarande HTML5 SDK-komponent. Ett instansnamn för komponenten är dynamiskt och beror på ID:t för visningsbehållarens DOM-element som skickas till `setContainerId()` API-metod. Dokumentationen innehåller valfritt prefix för sådana kommandon. Till exempel: `vrrender` kommandot dokumenteras enligt följande:
+Vissa konfigurationskommandon kan ha prefixet med klassnamnet eller instansnamnet för motsvarande HTML5 SDK-komponent. Ett instansnamn för komponenten är dynamiskt och beror på ID:t för visningsbehållarens DOM-element som skickas till `setContainerId()` API-metod. Dokumentationen innehåller ett valfritt prefix för sådana kommandon. Till exempel: `vrrender` kommandot dokumenteras enligt följande:
 
 ```
 [PanoramicView.|<containerId>_panoramicView].vrrender

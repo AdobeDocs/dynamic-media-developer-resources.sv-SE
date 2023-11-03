@@ -5,9 +5,9 @@ title: Färghantering för bildåtergivning *
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fa772ab2-8a32-4c1a-9ee3-c1cf4a0b3095
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Kabinettformatfiler (.vnc) och fönsteromslagsformatfiler ( [!DNL .vnw]) är int
 
 **Se även**
 
-[International Color Consortium](https://www.color.org/index.xalter) , [ `icc=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-icc.md#reference-86a2fff3cef24982ad2063d977a16e06) , [ `iccEmbed=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f) , `attribute::IccProfile*` , `attribute::IccProfileSrc*`, `attribute::IccRenderIntent` , `attribute::IccBlackPointCompensation` , `attribute::IccDither` , ICC-profilkartor
+[International Color Consortium](https://www.color.org/index.xalter) , [`icc=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-icc.md#reference-86a2fff3cef24982ad2063d977a16e06) , [`iccEmbed=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f) , `attribute::IccProfile*` , `attribute::IccProfileSrc*`, `attribute::IccRenderIntent` , `attribute::IccBlackPointCompensation` , `attribute::IccDither` , ICC-profilkartor
 
 ## Standardfärgrymder {#section-8ce27edf42e746febe4654f8f19b9c0c}
 
@@ -42,7 +42,7 @@ Vanligtvis definieras arbetsfärgrymden av ICC-färgprofilen som är inbäddad i
 
 Alla återgivningsåtgärder utförs i arbetsfärgrymden.
 
-**Viktigt:** ICC-profilen för arbetsfärgrymden måste ha stöd för in- och utdataomformningar. Om en profil med enbart utdata används som arbetsfärgrymd kan IR inte konvertera material till den. En sådan färgprofil kan fortfarande användas om materialet finns i samma arbetsfärgrymd. Försök att använda material i andra färgrymder kommer att misslyckas.
+**Viktigt:** ICC-profilen för arbetsfärgrymden måste ha stöd för in- och utdataomformningar. Om en profil med enbart utdata används som arbetsfärgrymd kan IR inte konvertera material till den. En sådan färgprofil kan fortfarande användas om materialet finns i samma arbetsfärgrymd. Försök att använda material i andra färgrymder misslyckas.
 
 ## Explicit färgvärden {#section-31727bf1b23e477ca92572fbbf422d2f}
 

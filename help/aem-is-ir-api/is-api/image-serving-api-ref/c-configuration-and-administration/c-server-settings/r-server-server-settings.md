@@ -5,9 +5,9 @@ title: Server
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 10970ca8-b209-4adf-b027-6eb8d7a15db6
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Anger porten som används för kommunikation mellan [!DNL Platform Server] och I
 
 Den ungefärliga gränsen för bilddata i minnet, uttryckt i procent av det fysiska minnet. Giltigt intervall är 10 till 90 %. Image Server försöker begränsa användningen av bildminne till den angivna mängden om möjligt. Gränsen får överskridas tillfälligt under omfattande bearbetning.
 
-## IS::WorkerThreads - Antal arbetstrådar för Image Server {#section-e2946063b13c4f728cdf5dba3d8b4de1}
+## IS::WorkerThreads - Antal Image Server Worker Threads {#section-e2946063b13c4f728cdf5dba3d8b4de1}
 
 Det maximala antalet trådar som Image Server använder för bearbetning av bilddata. Standardvärdet är 0, vilket gör att Image Server automatiskt kan optimera antalet trådar.
 

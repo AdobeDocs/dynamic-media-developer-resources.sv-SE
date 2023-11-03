@@ -5,9 +5,9 @@ title: MetricsPath
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0f1f98a5-b53b-4e20-b4c8-e70482b01a04
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Sökväg till teckensnittsmått. Sökväg till och namn på en teckensnittsmåttsfil, inklusive filsuffix.
 
-Används för Adobe Type 1-teckensnitt. Om det inte anges försöker servern hitta en teckensnittsmåttsfil i samma mapp som huvudteckensnittsfilen finns i. Ett fel uppstår om en nödvändig teckensnittsmåttsfil inte kan hittas vid återgivningen.
+Används för Adobe Type 1-teckensnitt. Om det inte anges försöker servern hitta en teckensnittsmåttsfil i samma mapp som huvudteckensnittsfilen finns i. Ett fel inträffar om en nödvändig teckensnittsmåttsfil inte kan hittas vid återgivningen.
 
 ## Egenskaper {#section-955268c581574875b05253d9e14544f3}
 

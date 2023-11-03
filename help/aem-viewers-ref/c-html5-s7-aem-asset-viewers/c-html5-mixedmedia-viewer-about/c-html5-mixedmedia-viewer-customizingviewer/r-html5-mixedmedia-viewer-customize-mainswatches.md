@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: e6ff32bf-f85a-4288-a0e5-34487229a9d9
-source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Utseendet på färgrutebehållaren styrs med CSS-klassväljaren:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Höjden på färgrutorna. </p> </td> 
+   <td colname="col2"> <p>Färgrutornas höjd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> nederkant </span> </p> </td> 
@@ -90,7 +90,7 @@ Utseendet på den enskilda miniatyrbilden styrs av följande CSS-klassväljare:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Miniatyrens bredd. </p> </td> 
+   <td colname="col2"> <p>Miniatyrbildens bredd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
@@ -105,7 +105,7 @@ Utseendet på den enskilda miniatyrbilden styrs av följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Miniatyrbilden har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika miniatyrlägen. I synnerhet `state="selected"` motsvarar miniatyrbilden för den bild som visas i huvudvyn, `state="default"` motsvarar resten av miniatyrbilderna, och `state="over"` används vid hovring av musen.
+>Miniatyrbilden har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika miniatyrlägen. Särskilt gäller följande: `state="selected"` motsvarar miniatyrbilden för den bild som visas i huvudvyn, `state="default"` motsvarar resten av miniatyrbilderna, och `state="over"` används vid hovring av musen.
 
 Exempel - Om du vill ställa in miniatyrbilder som är 56 x 56 pixlar har du en ljusgrå standardkant och en mörkgrå markerad kant.
 
@@ -145,7 +145,7 @@ Resurstypen visas som en ikon ovanpå miniatyrbilden och styrs med följande CSS
  </tbody> 
 </table>
 
-Övertäckningen har stöd för `type` attributväljare med följande möjliga värden: `image` (för enstaka bilder), `swatchset` (för uppsättningar av färgrutor), `spinset` (för snurruppsättningar), och `video` (för enstaka videor eller adaptiva videouppsättningar).
+Övertäckningen stöder `type` attributväljare med följande möjliga värden: `image` (för enstaka bilder), `swatchset` (för uppsättningar av färgrutor), `spinset` (för snurruppsättningar), och `video` (för enstaka videor eller adaptiva videouppsättningar).
 
 Exempel - om du vill ställa in ikonövertäckningar för snurruppsättningar, färgruteuppsättningar och videoklipp:
 
@@ -200,7 +200,7 @@ Det går inte att placera rullningsknappar med CSS `top`, `left`, `bottom`och `r
 >
 >Den här knappen har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen: `up`, `down`, `over`och `disabled`.
 
-Knappverktygstipsen kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) för mer information.
+Knappens tips kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) för mer information.
 
 Exempel - för att ställa in rullningsknappar som är 56 x 56 pixlar och har olika teckningar för varje läge.
 

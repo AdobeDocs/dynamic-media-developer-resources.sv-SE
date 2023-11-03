@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1b4a78a1-4f03-47ce-b523-10975e83f0ea
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '947'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ Returnerar markerade egenskaper för den vinjettfil eller katalogpost som anges 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> image.embedded PhotoshopPaths </span> </p> </td> 
    <td colname="col2"> <p>Boolean </p> </td> 
-   <td colname="col3"> <p>1 om vinjetteringen bäddar in bandata. </p> </td> 
+   <td colname="col3"> <p>1 om vinjetteringen bäddar in sökvägsdata. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> image.modifier </span> </p> </td> 
@@ -113,7 +113,7 @@ Returnerar markerade egenskaper för den vinjettfil eller katalogpost som anges 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> image.pixType </span> </p> </td> 
    <td colname="col2"> <p>Enum </p> </td> 
-   <td colname="col3"> <p>Svarsbildens pixeltyp. kan vara CMYK, RGB eller BW (för gråskalebilder). </p> </td> 
+   <td colname="col3"> <p>Svarsbildens pixeltyp; kan vara CMYK, RGB eller BW (för gråskalebilder). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> image.printRes </span> </p> </td> 
@@ -180,7 +180,7 @@ Kör de angivna kommandona och returnerar den återgivna bilden som är maskerad
 
 `props`
 
-Kör de angivna kommandona och returnerar vinjettegenskaper och grupp- eller objektegenskaper i stället för den återgivna bilden. Se [Egenskaper](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a) för en beskrivning av svarssyntaxen och MIME-svarstypen. Standardmarkeringen gäller såvida inte `obj=` eller `sel=` även anges (se [ `obj=` ](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-obj.md#reference-31e7dac7931b4e0eb3c7589f120a1e6a)).
+Kör de angivna kommandona och returnerar vinjettegenskaper och grupp- eller objektegenskaper i stället för den återgivna bilden. Se [Egenskaper](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a) om du vill ha en beskrivning av svarssyntaxen och MIME-svarstypen. Standardmarkeringen gäller såvida inte `obj=` eller `sel=` även anges (se [`obj=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-obj.md#reference-31e7dac7931b4e0eb3c7589f120a1e6a)).
 
 Följande egenskaper kan ingå i svaret:
 
@@ -216,7 +216,7 @@ Följande egenskaper kan ingå i svaret:
   <tr> 
    <td> <p> <span class="codeph"> image.mask </span> </p> </td> 
    <td> <p> Boolean </p> </td> 
-   <td> <p> True om svarsbilden innehåller alfa. </p> </td> 
+   <td> <p> True if the reply image includes alpha. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.pathEmbed </span> </p> </td> 

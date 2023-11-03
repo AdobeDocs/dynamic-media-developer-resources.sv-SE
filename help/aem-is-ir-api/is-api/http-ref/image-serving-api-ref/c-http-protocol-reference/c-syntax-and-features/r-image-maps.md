@@ -5,9 +5,9 @@ title: Bildscheman
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9a685f9d-205d-43b3-b5fe-3ae324fe153e
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,15 @@ IS innehåller mekanismer för att förenkla användningen av bildscheman för H
 
 Källbildscheman tillhandahålls till IS antingen via `catalog::Map` eller med `map=` och bearbetade kartor hämtas med `req=map` -kommando.
 
-Ett bildschema består av ett eller flera HTML AREA-element, som är rätt avgränsade med &#39;&lt;&#39; och &#39;>&#39;. Om det anges via katalog::Map antas alla pixelkoordinatvärden vara i den ursprungliga bildupplösningen och i förhållande till det övre vänstra hörnet i (oförändrad) källbilden. När det tillhandahålls via en `map=` -kommandot antas koordinatvärdena vara lagerkoordinater i förhållande till lagrets övre vänstra hörn (efter `rotate=` och `extend=`).
+Ett bildschema består av ett eller flera HTML AREA-element, som är rätt avgränsade med &#39;&lt;&#39; och &#39;>&#39;. Om det anges via katalog::Map antas alla pixelkoordinatvärden vara i den ursprungliga bildupplösningen och i förhållande till det övre vänstra hörnet i källbilden (inte ändrad). När det tillhandahålls via en `map=` -kommandot antas koordinatvärdena vara lagerkoordinater i förhållande till lagrets övre vänstra hörn (efter `rotate=` och `extend=`).
 
 >[!NOTE]
 >
->% koordinater tillåts inte för närvarande och kan behandlas felaktigt.
+>% koordinater är inte tillåtna just nu och kan behandlas felaktigt.
 
 IS genererar ett sammansatt bildschema från källbildscheman för varje ingående lager genom att tillämpa de spatiala omformningarna (t.ex. skalning och rotation) på kartkoordinaterna och sedan sätta ihop de bearbetade lagermappningarna i lämplig z-ordning (framsida till baksida) och med lämplig placering.
 
-Följande kommandon används för bearbetning av bildscheman när de finns tillsammans med `req=map` (antingen direkt i begäran, via katalogmallar eller i `catalog::Modifier` strängar):
+Följande kommandon används för bearbetning av bildscheman när de finns tillsammans med `req=map` (antingen direkt i begäran, via katalogmallar, eller i `catalog::Modifier` strängar):
 
 * `align=`
 * `wid=`

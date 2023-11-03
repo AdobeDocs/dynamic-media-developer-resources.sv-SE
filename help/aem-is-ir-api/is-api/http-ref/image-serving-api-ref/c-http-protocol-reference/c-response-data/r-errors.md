@@ -5,9 +5,9 @@ title: Fel
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9314782f-703b-4e9c-a026-62970d1c752f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Om en begäran inte kan slutföras returnerar servern antingen en felbild eller en annan HTTP-svarsstatus än 200 tillsammans med ett felmeddelande.
 
-Svarsstatusvärdet beror på felets typ. för de vanligaste felen är det &quot;403&quot;. Felsvar för förfrågningstyper som inte är bilder följer det format som anges med `req=`. (Kan inte implementeras konsekvent just nu.)
+Svarsstatusvärdet beror på felets typ. För de vanligaste felen är det &quot;403&quot;. Felsvar för förfrågningstyper som inte är bilder följer det format som anges med `req=`. (Kan inte implementeras konsekvent just nu.)
 
 Detaljrikedomen i felmeddelandet kan konfigureras med `attribute::ErrorDetail`.
 

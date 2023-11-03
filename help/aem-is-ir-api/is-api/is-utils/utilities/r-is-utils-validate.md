@@ -1,20 +1,20 @@
 ---
-description: Verktyg för bildvalidering. Detta kommandoradsverktyg verifierar bildfilerna för att säkerställa att de är giltiga och kan läsas utan problem med Image Serving.
+description: Bildvalideringsverktyg. Detta kommandoradsverktyg verifierar bildfilerna för att säkerställa att de är giltiga och kan läsas utan problem med Image Serving.
 solution: Experience Manager
 title: validera
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 78d50fe9-95c6-4335-98d8-3322839ee02d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
 
 # validera{#validate}
 
-Verktyg för bildvalidering. Detta kommandoradsverktyg verifierar bildfilerna för att säkerställa att de är giltiga och kan läsas utan problem med Image Serving.
+Bildvalideringsverktyg. Detta kommandoradsverktyg verifierar bildfilerna för att säkerställa att de är giltiga och kan läsas utan problem med Image Serving.
 
 Alla icke-PTIFF-bildfiler måste valideras innan filen blir tillgänglig för Image Serving som källbild. PTIFF-bilder bör valideras efter potentiellt otillförlitliga kopieringsåtgärder.
 
@@ -25,7 +25,7 @@ Alla icke-PTIFF-bildfiler måste valideras innan filen blir tillgänglig för Im
 <table id="simpletable_D2C6B20E1007433AB4184A73046A44F0"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> fileType </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> -jpeg | -ptif | -any </span> </p> <p>Källfiltyp; minst en måste anges (-any tillåter samma bildfiltyper som stöds av IC). </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -jpeg | -ptif | -any </span> </p> <p>Källfiltyp. Minst en måste anges (-any tillåter samma bildfiltyper som stöds av IC). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> alternativ </span> </span> </p> </td> 

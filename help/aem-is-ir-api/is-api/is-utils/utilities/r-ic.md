@@ -5,9 +5,9 @@ title: ic
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ab653aae-532b-4f3d-8541-f6296fbf9172
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1204'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ Om du inte konverterar stora bilder behöver du inte ange parametrar som styr hu
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -dpi &lt; <span class="varname"> dpi </span>&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Utskriftsupplösning (dpi) för <span class="codeph"> <span class="varname"> destFile </span> </span>; om inget anges, utskriftsupplösningen för <span class="codeph"> srcFile </span> kopieras till <span class="codeph"> <span class="varname"> destFile </span> </span>. </p> </td> 
+   <td colname="col2"> <p>Upplösning (dpi) för <span class="codeph"> <span class="varname"> destFile </span> </span>, om inget anges, utskriftsupplösningen för <span class="codeph"> srcFile </span> kopieras till <span class="codeph"> <span class="varname"> destFile </span> </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -autocrop &lt; <span class="varname"> hörn </span>&gt; &lt; <span class="varname"> läge </span>&gt; &lt; <span class="varname"> tolerans </span>&gt; &lt; <span class="varname"> infoFile </span>&gt; </span> </p> </td> 
@@ -106,9 +106,9 @@ Om du inte konverterar stora bilder behöver du inte ange parametrar som styr hu
 <p><i><b>hörn</b></i> - ul | ur | alla | lr </p>
    <p> Anger vilket hörn i bilden som en startpunkt ska användas för. Ignoreras om läget är 1.</p>
    <p><i><b>läge</b></i> - 0 | 1</p>
-   <p>Ange 0 för beskärning baserat på färgen på den angivna hörnpixeln. fungerar på förmultiplicerade färgdata om alfadata är associerade med källbilden.</p>
-   <p>Ange 1 för beskärning baserad på alfavärden. hörnet ignoreras och 0 är alltid startvärdet, ingen beskärning används om inga alfavärden är kopplade till källbilden.</p> 
-   <p><i><b>tolerans</b></i> - Matcha tolerans. Verkligt värde 0,0 till 1,0. Anger toleransen för att matcha pixelkomponentvärden. Ange 0 för exakta träffar.</p>
+   <p>Ange 0 om du vill beskära baserat på färgen på den angivna hörnpixeln. Fungerar på förmultiplicerade färgdata om alfadata är kopplade till källbilden.</p>
+   <p>Ange 1 om du vill beskära baserat på alfavärden. Hörnet ignoreras och 0 är alltid startvärdet. Ingen beskärning används om inga alfavärden är associerade med källbilden.</p> 
+   <p><i><b>tolerans</b></i> - Matcha tolerans. Verkligt värde 0,0 till 1,0. Anger toleransen för att matcha pixelkomponentvärden. Ange 0 om du vill ha exakta träffar.</p>
    <p><i><b>infoFile</b></i> - Sökväg till och namn på den XML-utdatafil som beskärningsinformationen skrivs till.</p>
 
 <p>  
@@ -163,7 +163,7 @@ Om du inte konverterar stora bilder behöver du inte ange parametrar som styr hu
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -downsample2x2 </span> </p> </td> 
-   <td colname="col2"> <p>Använd standardfiltret för omsampling av kvalitet (bilinjär). </p> </td> 
+   <td colname="col2"> <p>Använd standardfilter för omsampling av kvalitet (bilinjär). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -downsample8x8 </span> </p> </td> 
@@ -175,7 +175,7 @@ Om du inte konverterar stora bilder behöver du inte ange parametrar som styr hu
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -downsample8x8BikubiskSharp </span> </p> </td> 
-   <td colname="col2"> <p>Nedsampla med Photoshop 8x8 bikubisk-skarp filter. </p> </td> 
+   <td colname="col2"> <p>Nedsampla med Photoshop-format 8x8 bikubisk-skarp filter. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -nousage </span> </p> </td> 
@@ -201,7 +201,7 @@ Om du inte konverterar stora bilder behöver du inte ange parametrar som styr hu
    <td colname="col1"> <p> <span class="codeph"> -loglevel &lt; <span class="varname"> nivå </span>&gt; </span> </p> </td> 
    <td colname="col2"> <p>Loggnivå. </p> 
    <p>&lt; 0 - Loggning inaktiverad.</p>
-   <p>0 - Visa en lista över filer som ska bearbetas.</p>
+   <p>0 - Lista filer som ska bearbetas.</p>
    <p>1 - Lägg till rapportering för filer som inte behövs.</p>
    <p>2 - Lägg till förloppsrapportering.</p>
    <p>3 - Lägg till rapportering för varje fil som påträffas.</p>
@@ -290,14 +290,14 @@ I följande tabell visas de bildfilformat och formatalternativ som stöds av IC.
    <td> <p> CMYK | CMYKA | RGB | RGBA | grå | grayA </p> </td> 
    <td> <p> 1 | 8 | 16 </p> </td> 
    <td> <p> okomprimerad | komprimerad </p> </td> 
-   <td> <p> Endast sammanfogad bild; lager och extra kanaler ignoreras. </p> </td> 
+   <td> <p> Endast sammanslagna bilder. Lager och extra kanaler ignoreras. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Macintosh </p> <b>PICT</b> </td> 
    <td> <p> RGB </p> </td> 
    <td> <p> 8 </p> </td> 
    <td> <p> RLE </p> </td> 
-   <td> <p> Endast bitmappsdata. vektordata ignoreras. </p> </td> 
+   <td> <p> Endast bitmappsdata. Vektordata ignoreras. </p> </td> 
   </tr> 
   <tr> 
    <td> <b> PNG</b> </td> 
@@ -318,7 +318,7 @@ I följande tabell visas de bildfilformat och formatalternativ som stöds av IC.
 
 Inbäddade ICC-profiler känns igen i EPS-, JPG, PSD, PNG- och TIFF.
 
-Inbäddade sökvägar och XMP metadata känns igen i EPS-, JPG, PSD och TIFF.
+Inbäddade sökvägar och XMP metadata känns igen i EPS-, JPG-, PSD- och TIFF-filer.
 
 ## Exempel {#section-3c1986b30315431989bd76b1ee5bef6d}
 
@@ -330,6 +330,6 @@ Konvertera alla bilder i *`srcFolder`* till JPEG-kodad pyramid TIFF och placera 
 
 `ic -convert -jpegcompress -jpegquality 90 -overwrite -continueOnError srcFolder destFolder`
 
-Konvertera alla bilder i *`srcFolder`*. Den kodade bildinformationen för JPG-filer används för den förlustfria LZW-komprimeringen med full upplösning för resten av bildpyramidbilden för dessa bilder samt för hela utdatamilden för alla indatafiler som inte är JPG. Pixeltyper, inbäddade färgprofiler, XMP metadata osv. upprätthålls.
+Konvertera alla bilder i *`srcFolder`*. Den kodade bildinformationen för JPG-filer används för den förlustfria LZW-komprimeringen med full upplösning för resten av bildpyramidbilden för dessa bilder samt för hela utdatamilden för alla indatafiler som inte är JPG. Pixeltyper, inbäddade färgprofiler, XMP metadata och så vidare. upprätthålls.
 
 `ic -convert -lzwcompress -embedXmpData -embedColorProfile -maintainpixeltype -overwrite -continueOnError srcFolder destFolder`

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ef49cf8a-4621-4114-aae5-5178f6a5160d
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ Mallar kan användas för att minska längden och komplexiteten hos förfrågnin
 
 Anpassade variabler kan användas för att ytterligare förenkla mallanvändningen. Mallar är ofta inställda så att det blir enkelt att växla bilder eller text eller ange andra alternativ vid körning.
 
-Mallar lagras som poster i bildkataloger, med malltexten i `catalog::Modifier` och `catalog::Path` fältet är tomt eller anger en statisk bakgrundsbild som inte kan ändras dynamiskt.
+Mallar lagras som poster i bildkataloger, med malltexten i `catalog::Modifier` -fält och `catalog::Path` fältet är tomt eller anger en statisk bakgrundsbild som inte kan ändras dynamiskt.
 
-Mallar anges med `template=` eller i sökvägskomponenten för den begärda URL:en. För de flesta program bör du använda `template=` om du vill ange mallar. The `template=`-kommandot får inte finnas i `catalog::PostModifier` och kan bara förekomma i `catalog::Modifier` i en kapslad IS-begäran (dvs i en `src=is{...}` construct). Mallposter kan inte refereras i `src=` eller `mask=`kommandon.
+Mallar anges med `template=` eller i sökvägskomponenten för den begärda URL:en. För de flesta program bör du använda `template=` om du vill ange mallar. The `template=`-kommandot får inte finnas i `catalog::PostModifier` och kan bara förekomma i `catalog::Modifier` i en kapslad IS-begäran (det vill säga i en `src=is{...}` construct). Mallposter kan inte refereras i `src=` eller `mask=`kommandon.
 
 Alla `src=` eller `mask=`kommandon som är inbäddade i mallen kan gå till huvudkatalogen för begäran eller till en annan bildkatalog. Om nej `rootId` anges explicit antas huvudkatalogen. Den mall som anges med `template=` kan också finnas i huvudkatalogen eller en annan bildkatalog.
 

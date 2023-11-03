@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1870001b-7904-470f-9582-984d453509ca
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Rektangel i slutvyn. Det gör att den slutliga visningsbilden kan delas upp i fl
  </tr> 
 </table>
 
-Med det här kommandot kan Image Serving leverera stora bilder via HTTP som annars skulle överskrida storleksgränsen som konfigurerats med `attribute::MaxPix`.
+Med det här kommandot kan Image Serving leverera stora bilder via HTTP som annars skulle överskrida den storleksgräns som konfigurerats med `attribute::MaxPix`.
 
 >[!NOTE]
 >

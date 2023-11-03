@@ -5,9 +5,9 @@ title: Ersättningsvariabler
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9fd73d16-e8bd-4fdb-a4e6-e86e5d219114
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '730'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Ersättningsvariabler används för att överföra värden från begärande-URL:
 
 Variabeldefinitioner och referenser kan förekomma i frågedelen av begäran i `catalog::Modifier`och in `catalog::PostModifier`.
 
-Variabler definieras enligt ovan, på samma sätt som andra IS-kommandon. radavståndet &#39;$&#39; identifierar kommandot som en variabeldefinition. Variabler måste definieras innan de refereras.
+Variabler definieras enligt ovan, ungefär som andra IS-kommandon. Med radavståndet &#39;$&#39; identifieras kommandot som en variabeldefinition. Variabler måste definieras innan de refereras.
 
 Variabelnamnet *`var`* är inte skiftlägeskänsligt och kan bestå av en kombination av ASCII-bokstäver, siffror, &#39;-&#39;, &#39;_&#39; och &#39;.&#39;.
 
@@ -39,7 +39,7 @@ Variabelnamnet *`var`* är inte skiftlägeskänsligt och kan bestå av en kombin
 >
 >*`value`* måste vara URL-kodad med ett-pass för säker HTTP-överföring. Dubbel kodning krävs om *`value`* överförs på nytt via HTTP. Detta är fallet när *`value`* ersätts i en kapslad utländsk begäran eller i href-attributet för en SVG `<image>` -element.
 
-Variabelreferenser består av variabelnamnet som avgränsas av radavståndet och efterföljande &#39;$&#39; ($)*var*$). Referenser kan förekomma var som helst i värdedelen av ett IS-kommando (d.v.s. mellan &#39;=&#39; efter kommandonamnet och efterföljande &#39;&amp;&#39; eller slutet av begäran). Det går inte att använda anpassade variabler på `layer=` och `effect=` kommandon. Flera variabler tillåts i samma kommandovärde. Servern ersätter varje förekomst av ` $ *`var`*$` med *`value`*.
+Variabelreferenser består av variabelnamnet som avgränsas av radavståndet och efterföljande &#39;$&#39; ($)*var*$). Referenser kan förekomma var som helst i värdedelen av ett IS-kommando (det vill säga mellan &#39;=&#39; efter kommandonamnet och efterföljande &#39;&amp;&#39; eller slutet av begäran). Det går inte att använda anpassade variabler på `layer=` och `effect=` kommandon. Flera variabler tillåts i samma kommandovärde. Servern ersätter varje förekomst av ` $ *`var`*$` med *`value`*.
 
 Variabelreferenser får inte kapslas. Eventuella förekomster av ` $ *`var`*$` inom *`value`* ersätts inte.
 
@@ -53,11 +53,11 @@ matchar:
 
 >[!NOTE]
 >
->&#39;$&#39; är inte ett reserverat tecken; det kan inträffa på annat sätt i begäran. Till exempel: `src=my$image$file.tif` är ett giltigt kommando (förutsatt att en katalogpost eller bildfil med namnet `my$image$file.tif` finns), while `wid=$number$` inte, eftersom `wid` kräver ett numeriskt argument.
+>&#39;$&#39; är inte ett reserverat tecken. Det kan annars inträffa i begäran. Till exempel: `src=my$image$file.tif` är ett giltigt kommando (förutsatt att en katalogpost eller bildfil med namnet `my$image$file.tif` finns), while `wid=$number$` inte, eftersom `wid` kräver ett numeriskt argument.
 
 ## Variabel bearbetning i kapslade begäranden {#section-26d63adc446c4fa0808e11e8082abdfa}
 
-` $ *`var`*$` referenser kan förekomma var som helst inom klammerparenteserna för en kapslad bildserver eller begäran om bildåtergivning, inklusive till vänster om &#39;?&#39; avgränsar sökvägen från frågan. Servern ersätter dessa referenser med värden (antingen från url eller från `catalog::Modifier` av huvudbildkatalogen) innan den kapslade begäran analyseras och bearbetas ytterligare.
+` $ *`var`*$` referenser kan förekomma var som helst inom klammerparenteserna för en kapslad bildserver eller begäran om bildåtergivning, inklusive till vänster om ? avgränsar sökvägen från frågan. Servern ersätter dessa referenser med värden (antingen från url eller från `catalog::Modifier` av huvudbildkatalogen) innan den kapslade begäran analyseras och bearbetas ytterligare.
 
 Dessutom innehåller alla ` $ *`var`*=` definitioner från webbadressen eller `catalog::Modifier` vidarebefordras till alla kapslade begäranden om bildservrar och bildåtergivning. Detta garanterar att alla variabeldefinitioner är tillgängliga för alla mallar, oavsett kapslingsnivå.
 
@@ -75,7 +75,7 @@ Variabelvärden som ska ersättas i externa begäranden måste vanligtvis dubbel
 
 >[!NOTE]
 >
->Alla variabelvärden som ska ersättas med ett `href` Attributvärdet måste vara dubbel URL-kodad; alla andra måste kodas separat.
+>Alla variabelvärden som ska ersättas med ett `href` Attributvärdet måste vara dubbel URL-kodat. Alla andra måste vara enskilt kodade.
 
 ## Fördefinierad sökvägsvariabel {#section-930d0dd12e8f49499becc9fe8df24092}
 

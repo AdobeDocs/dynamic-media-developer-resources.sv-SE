@@ -5,9 +5,9 @@ title: UserData *
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e8ec11af-9448-4796-a43d-0fb9841469dd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '63'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Användardata. Servern returnerar innehållet i det här fältet till klienten som svar på req=userdata.
 
-Nya rader kan undantas med &#39;?&#39;. Servern ersätter ? med `<cr><lf>` innan innehållet i det här fältet returneras.
+Nya rader kan rymmas med &#39;?&#39;. Servern ersätter ? med `<cr><lf>` innan innehållet i det här fältet returneras.
 
 ## Egenskaper {#section-4e3904e047a84cc790ce77c56d3e0b21}
 

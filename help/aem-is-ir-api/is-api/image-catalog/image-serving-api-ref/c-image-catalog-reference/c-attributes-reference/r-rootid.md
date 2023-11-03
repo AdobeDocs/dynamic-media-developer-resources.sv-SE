@@ -1,20 +1,20 @@
 ---
-description: Katalogidentifierare. Det HTTP-sökvägselement som ska användas för att identifiera den här katalogen i en begärans bildobjektspecificerare.
+description: Katalogidentifierare. Det HTTP-sökvägselement som används för att identifiera den här katalogen i en begärans bildobjektsspecifikation.
 solution: Experience Manager
 title: RootId
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9224f06d-28a9-4a23-9a3a-735b2b9f87ff
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '68'
 ht-degree: 0%
 
 ---
 
 # RootId{#rootid}
 
-Katalogidentifierare. Det HTTP-sökvägselement som ska användas för att identifiera den här katalogen i en begärans bildobjektspecificerare.
+Katalogidentifierare. Det HTTP-sökvägselement som används för att identifiera den här katalogen i en begärans bildobjektsspecifikation.
 
 ## Egenskaper {#section-9a49da71de634378a06d2347790898a0}
 

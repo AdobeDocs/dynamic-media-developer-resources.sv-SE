@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8419d68d-7579-4e62-abbd-7dc0a736ae23
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Vinjettfil. Anger vilken vinjett som ska användas för begäran.
 
 Kan antingen ange en post för en vinjetteringskarta eller en vinjettfil. Fjärr-URL:er tillåts inte.
 
-`vignette=` Kan användas som ett alternativ till att ange vinjett i URL-sökvägen för begäran. Används för att ange vinjetter via variabler i mallar.
+`vignette=` Kan användas som ett alternativ till att ange vinjett i URL-sökvägen för begäran. Används för att ange vinjetter med hjälp av variabler i mallar.
 
 If *`catId`* anges inte, sessionskatalogen används.
 

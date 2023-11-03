@@ -1,20 +1,20 @@
 ---
-title: Helskärmsknapp
-description: Helskärmsknappen gör att videospelaren övergår till eller avslutar helskärmsläget när en användare klickar på den.
+title: helskärmsknapp
+description: Helskärmsknappen gör att videospelaren övergår till eller avslutar helskärmsläget när användaren klickar på den.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: ed9c9d37-f871-4094-9c6e-931d0f6edff1
-source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
 
-# Helskärmsknapp{#full-screen-button}
+# helskärmsknapp{#full-screen-button}
 
-Helskärmsknappen gör att videospelaren övergår till eller avslutar helskärmsläget när en användare klickar på den.
+Helskärmsknappen gör att videospelaren övergår till eller avslutar helskärmsläget när användaren klickar på den.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -48,11 +48,11 @@ Utseendet på helskärmsknappen styrs av CSS-klassväljaren:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> Bredden på helskärmsknappen. </p> </td> 
+   <td colname="col2"> <p> Helskärmsknappens bredd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Höjden på helskärmsknappen. </p> </td> 
+   <td colname="col2"> <p>Helskärmsknappens höjd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
@@ -67,7 +67,7 @@ Utseendet på helskärmsknappen styrs av CSS-klassväljaren:
 
 >[!NOTE]
 >
->Den här knappen har stöd för båda `state` och `selected` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen. I synnerhet `selected='true'` motsvarar helskärmsläget och `selected='false'` motsvarar läget &quot;normal&quot;.
+>Den här knappen har stöd för båda `state` och `selected` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen. Särskilt gäller följande: `selected='true'` motsvarar läget&quot;helskärm&quot; och `selected='false'` motsvarar läget &quot;normal&quot;.
 
 Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
 

@@ -5,9 +5,9 @@ title: mål
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 58f7b1ad-8762-4d23-b320-6f69e75ecf63
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Zoomningen anger data från bildkatalogen som mål. Returnerar zoommåldata för
  </tr> 
 </table>
 
-Innehållet i `catalog::Targets` returneras. När formatet &quot;text&quot; begärs, alla förekomster av `??` in `catalog::Targets` ersätts med radslutstecken och en enda radslutstecken ( `CR/LF`) läggs till i slutet. Om URL-sökvägen inte kan tolkas som en giltig katalogpost består svaret endast av en radslutstecken. Lämplig formatering används när formatet &#39;xml&#39; eller &#39;json&#39; begärs.
+Innehållet i `catalog::Targets` returneras. När formatet &quot;text&quot; begärs, alla förekomster av `??` in `catalog::Targets` ersätts med radslutstecken och en enkelradsslutstecken ( `CR/LF`) läggs till i slutet. Om URL-sökvägen inte kan tolkas som en giltig katalogpost består svaret endast av en radslutstecken. Lämplig formatering används när formatet &#39;xml&#39; eller &#39;json&#39; begärs.
 
 Andra kommandon i begärandesträngen ignoreras.
 

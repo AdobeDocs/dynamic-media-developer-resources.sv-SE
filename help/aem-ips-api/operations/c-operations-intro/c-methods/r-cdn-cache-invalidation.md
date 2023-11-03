@@ -5,9 +5,9 @@ title: cdnCacheInvalidation
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 65b758f2-b49a-4616-b657-a64808c9202a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ Vidarebefordrar den angivna listan med URL:er till Dynamic Media CDN-leverantör
 
 ## cdnCacheInvalidation: Om {#section-4f70d2bc79d64288b961836ab17e9690}
 
-Cacheogiltigförklaring av CDN tvingar alla HTTP-begäranden för dessa URL:er att valideras mot aktuella publicerade data i Dynamic Media-nätverket efter att denna invalideringsbegäran har bearbetats via CDN-nätverket. Alla URL:er som inte är anslutna till Dynamic Media tjänst-URL-struktur och som direkt matchar Dynamic Media företags rot-ID som tilldelats när företaget skapas, resulterar i ett API-fel för hela begäran. Om det finns ogiltiga URL:er som CDN inte stöder och som den anser vara ogiltiga resulterar detta även i ett API-fel för hela begäran.
+Cacheogiltigförklaring av CDN tvingar alla HTTP-begäranden för dessa URL:er att valideras mot aktuella publicerade data i Dynamic Media-nätverket efter att denna invalideringsbegäran har bearbetats via CDN-nätverket. Alla URL:er som inte är anslutna till Dynamic Media tjänst-URL-struktur och som direkt matchar Dynamic Media företags rot-ID som tilldelats när företaget skapas resulterar i ett API-fel för hela begäran. Om det finns ogiltiga URL:er som CDN inte stöder och som den anser vara ogiltiga resulterar det också i ett API-fel för hela begäran.
 
 **Användningsfrekvens: Regler**
 
-Reglerna för hur ofta den här funktionen används regleras av Dynamic Medias CDN-partners. CDN behåller sin frihet att försämra svarstiden för dessa ogiltigförklaringar för att behålla optimala prestanda för tjänsten för användarna. Om Dynamic Media får ett meddelande om överanvändning av funktionen måste vi ta till vara att inaktivera funktionen antingen per företag eller helt i tjänsten.
+Reglerna för hur ofta denna funktion ska användas regleras av Dynamic Media CDN-partners. CDN behåller sin frihet att försämra svarstiden för dessa ogiltigförklaringar för att behålla optimala prestanda för tjänsten för användarna. Om Dynamic Media får ett meddelande om överanvändning av funktionen måste Adobe gå till att inaktivera funktionen antingen per företag eller helt i tjänsten.
 
 **Bekräftelsemejl**
 
@@ -82,7 +82,7 @@ Bekräftelsemeddelanden från Dynamic Media CDN-partnern kan skickas till den so
    <td colname="col1"> <p><span class="codeph"><span class="varname"> invalidationHandle</span></span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:sträng</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>En referens som refererar till rensningsbegäran. </p> <p>The <span class="codeph"> cdnCacheInvalidation</span> API gör nu cacheminnet nästan omedelbart ogiltigt (~5 sekunder). Därför behövs vanligtvis inte längre avsökning för ogiltigförklaring. </p> 
+   <td colname="col4"> <p>En referens som refererar till rensningsbegäran. </p> <p>The <span class="codeph"> cdnCacheInvalidation</span> API gör nu cachen nästan omedelbart ogiltig (~5 sekunder). Därför behövs vanligtvis inte längre avsökning för ogiltigförklaringsstatus. </p> 
     <!--<p>The next three paragraphs were added as per CQDOC-13840 With the migration from Akamai v2 API's to fast purge, purging time is now approximately 5 seconds. You are no longer required to poll on the purge URL to find out the status of the purge request.</p>--> 
     <!--<p>The cache invalidation handle used to contained the company ID, the user account type used (small or large), and the purge url. With the release of 2019R1, <codeph>invalidationHandle</codeph> now contains just the company ID and the purge ID. </p>--> 
     <!--<p>Prior to 2019R1, two different Akamai users were being used for each geography (for example, <codeph>cdninvalidatesmallemea</codeph> and <codeph>cdninvalidatelargeemea</codeph>) to invalidate requests, depending on the number of URLs in each request. This functionality was done so that a small request was not blocked because of a large request. Now, with fast purge in 2019R1, the purge is nearly instantaneous, two users are no longer needed, and only one account is used. </p>--> </td> 

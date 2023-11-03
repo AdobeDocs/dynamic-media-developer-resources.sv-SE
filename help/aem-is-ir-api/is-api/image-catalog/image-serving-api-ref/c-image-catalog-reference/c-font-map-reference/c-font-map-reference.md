@@ -5,9 +5,9 @@ title: Referens för teckensnittskarta
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b04e89ee-ae69-41c0-bd62-0929d21980c0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Om en teckensnittsmappning krävs för en bildkatalog måste den relativa eller absoluta sökvägen till teckensnittsmappningsfilen anges i attributet::FontMapFile.
 
-Poster i teckensnittskartan i en viss bildkatalog åsidosätter poster i teckensnittskartan i standardkatalogen.
+Poster i teckensnittskartan för en viss bildkatalog åsidosätter poster i teckensnittskartan för standardkatalogen.
 
 Image Serving har stöd för Adobe Type 1, OpenType och TrueType-teckensnitt.
 

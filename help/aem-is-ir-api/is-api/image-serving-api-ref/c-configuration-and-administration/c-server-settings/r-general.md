@@ -5,9 +5,9 @@ title: Allmänt
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 3e4079e7-6def-4938-bb5b-c8122502712d
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Anger HTTP-rotsökvägen som tillåter att Image Server får åtkomst till cache
 
 ## IS::RemoteUrlDefaultExpiration - standard-TTL för fjärr-Image Source {#section-e4c31228b459492cacd2f482d9575f71}
 
-TTL för cachelagrade bilder som hämtas via HTTP från en fjärrkälla med `src={…}` konstruera. Används endast när fjärrservern inte har något förfallohuvud i HTTP-svaret. Heltalsvärde i sekunder.
+TTL för cachelagrade bilder som hämtats via HTTP från en fjärrkälla med hjälp av `src={…}` konstruera. Används endast när fjärrservern inte har något förfallohuvud i HTTP-svaret. Heltalsvärde i sekunder.
 
 ## IS::RemoteUrlTimeout - fjärrtimeout för Image Source {#section-437646c479cc4bea81dae42100a3c50a}
 

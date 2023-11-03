@@ -5,9 +5,9 @@ title: Stöd för SVG
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 60e40195-710f-4f03-b152-52eaa10c5b21
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Image Serving stöder Scalable Vector Graphics-filer (SVG) som källdata. Överensstämmelse med SVG 1.1 krävs.
 
-Image Serving känner bara igen statiskt SVG-innehåll; animeringar, skript och annat interaktivt innehåll stöds inte.
+Image Serving känner bara igen statiskt SVG-innehåll. Animeringar, skript och annat interaktivt innehåll stöds inte.
 
 SVG kan anges där bildfiler tillåts (URL-sökväg, `src=`och `mask=`). När innehållet i filen SVG har rastrerats hanteras det precis som en bild.
 
@@ -28,7 +28,7 @@ På samma sätt som bilder kan du ange SVG-filer som bildkatalogposter eller som
 
 Viktiga variabler i frågedelen i inbäddade Image Serving-begäranden ersätts inte direkt. I stället läggs alla tillgängliga variabeldefinitioner till i begäran, vilket gör att Image Serving kan ersätta variabler när begäran analyseras.
 
-Se [Ersättningsvariabler](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-substitution-variables.md#reference-90dc01aba44940e4acdd0c6476e7aa5a) för ytterligare information.
+Se [Ersättningsvariabler](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-substitution-variables.md#reference-90dc01aba44940e4acdd0c6476e7aa5a) om du vill ha mer information.
 
 ## Bildreferenser {#section-a7680f9e6aca4b1a83560637cc9fac66}
 
@@ -42,11 +42,11 @@ Ange antingen en fullständig begäran om bildbehandling, med början `http://`e
 
 >[!NOTE]
 >
->Bilder som är inbäddade i SVG ändrar för närvarande inte automatiskt storlek. Kontrollera att alla bildreferenser innehåller de bildserverskommandon som behövs för att ställa in önskad bildstorlek (t.ex. `wid=`). Om bildstorleken inte anges explicit `attribute::DefaultPix` används.
+>Bilder som är inbäddade i SVG ändrar för närvarande inte automatiskt storlek. Kontrollera att alla bildreferenser innehåller de bildserverkommandon som behövs för att ställa in önskad bildstorlek (till exempel `wid=`). Om bildstorleken inte anges explicit `attribute::DefaultPix` används.
 
 ## Färghantering {#section-ea76e2bc4e1842638aa97a2d470c8a68}
 
-Alla färgvärden som är inbäddade i SVG-filer och skickas till SVG-mallar via ersättningsvariabler antas finnas i `sRgb` färgrymd.
+Alla färgvärden som är inbäddade i SVG-filer och skickas till SVG-mallar som ersättningsvariabler antas finnas i `sRgb` färgrymd.
 
 Ingen färgkonvertering utförs när bilder bäddas in i SVG. Se till att du anger färgåtergivning `icc=sRgb` för alla inbäddade bildbegäranden.
 
@@ -66,7 +66,7 @@ Den här SVG-mallen kan användas på följande sätt:
 
 SVG-filer måste vara fristående och får inte referera till några sekundära filer eller resurser, med undantag för externa bilder som refereras till med Image Serving- eller Image Rendering-begäranden (se ovan).
 
-Endast statiskt innehåll återges. Animering, interaktiva funktioner som knappar osv. kan finnas men kan inte återges som förväntat.
+Endast statiskt innehåll återges. Animering, interaktiva funktioner som knappar och så vidare. kan finnas men kan inte återges som förväntat.
 
 ICC-profilbaserade färgspecifikationer stöds för närvarande inte.
 

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: adc3d972-b02d-40db-992e-acaa06b848ff
-source-git-commit: d1df6e943747f9db12c08003647aee840fdfcc0a
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -98,15 +98,15 @@ Kataloger med statiskt innehåll liknar bildkataloger, men har stöd för färre
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> katalog::TimeStamp </span> </p> </td> 
-   <td colname="col2"> <p>Tidsstämpel för ändring av fil. krävs när katalogbaserad validering är aktiverad med <span class="codeph"> attribute::CacheValidationPolicy </span>. </p> </td> 
+   <td colname="col2"> <p>Tidsstämpel för filändring; krävs när katalogbaserad validering har aktiverats med <span class="codeph"> attribute::CacheValidationPolicy </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> katalog::UserData </span> </p> </td> 
-   <td colname="col2"> <p>Valfria metadata som är kopplade till detta statiska innehållsobjekt. som är tillgängliga för klienten med <span class="codeph"> req=userdata </span>. </p> </td> 
+   <td colname="col2"> <p>Valfria metadata associerade med det statiska innehållsobjektet som är tillgängliga för klienten med <span class="codeph"> req=userdata </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> katalog::UserType </span> </p> </td> 
-   <td colname="col2"> <p>Valfri datatyp. kan användas för att filtrera begäranden om statiskt innehåll med <span class="codeph"> type=, kommando </span>. </p> </td> 
+   <td colname="col2"> <p>Valfri datatyp; kan användas för att filtrera förfrågningar om statiskt innehåll med <span class="codeph"> type=, kommando </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

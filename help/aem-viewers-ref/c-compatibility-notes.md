@@ -1,18 +1,18 @@
 ---
-title: Kompatibilitetsanteckningar
+title: Kompatibilitetsinformation
 description: Kompatibilitetsinformation för operativsystem, webbläsare och mobila enheter.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 7ad499b1-7da6-483b-ab11-cff2eb9271da
-source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
 
-# Kompatibilitetsanteckningar{#compatibility-notes}
+# Kompatibilitetsinformation{#compatibility-notes}
 
 <!-- Updated April 06, 2021 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
@@ -36,13 +36,13 @@ Kompatibilitetsinformation för operativsystem, webbläsare och mobila enheter.
 
 ## Galaxy S4 {#section-7effabfea75b488399e0f71cab4ce76b}
 
-* Enheten identifieras som en surfplatta i stående läge med helskärm markerat i webbläsarinställningarna.
+* Enheten har identifierats som en surfplatta i stående läge med helskärm incheckad i webbläsarinställningarna.
 
 ## Galaxy Nexus {#section-9340b0b026bd48e8a8a6b837b59c6dc5}
 
 * Om användaren dubbelknackar på ett visningsprogram zoomas hela sidan i stället för bara användaren, och skalningen på webbläsarsidan aktiveras.
 
-## Galaxy Nexus 10 och Galaxy Tablet {#section-ef52bd1249fe4f358c11838f7a557a00}
+## Galaxy Nexus 10 och Galaxy {#section-ef52bd1249fe4f358c11838f7a557a00}
 
 * I eCatalog visas felaktigt uppslag med stående och liggande orientering.
 
@@ -53,7 +53,7 @@ Kompatibilitetsinformation för operativsystem, webbläsare och mobila enheter.
 
 ## HTML5 Video Viewer {#section-3c2dd1220dea4093b17ca2dd0a688307}
 
-* `IntialBitRate` modifierare stöds bara med HLS- och Flash HDS-uppspelning. Det fungerar inte när uppspelningen använder den inbyggda spelaren.
+* `IntialBitRate` modifierare stöds bara med HLS- och HDS-uppspelning av programvara. Det fungerar inte när uppspelningen använder den inbyggda spelaren.
 * OGG- och WebM-progressiv uppspelning stöds inte.
 * Webbläsarskalning gör att videospelaren visas i fel storlek (inklusive visningsinställningar för Kontrollpanelen i Windows®).
 * Videosökningar med HLS-strömning på Safari är inkonsekventa.
@@ -70,6 +70,6 @@ Kompatibilitetsinformation för operativsystem, webbläsare och mobila enheter.
 
 ## Safari {#section-f8de598293d349188aa02c82cd3af8b6}
 
-* Safari 6.1 eller senare: Inställningarna för Internetplugin-program förhindrar uppspelning av Flash-video.
+* Safari 6.1 eller senare: Inställningarna för Internetplugin-program förhindrar videouppspelning i Flash.
 * Videosökningar med HLS-strömning på Safari är inkonsekventa.
 * Det går inte att söka till slutet av videon på Safari 6 med HLS-direktuppspelning.

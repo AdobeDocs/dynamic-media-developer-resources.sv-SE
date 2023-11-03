@@ -5,9 +5,9 @@ title: Begäranlåsning
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7ac727ef-3775-4884-b9db-bfae171a0f9d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 För att minska risken för manipulering av förfrågningar finns det en enkel låsfunktion.
 
-Om attribute::RequestLock är inställt måste ett låsvärde läggas till i begäran i form av `&xxxx`, där xxxx är ett fyrsiffrigt hexvärde. Det här hexadecimala värdet genereras med en enkel hash-algoritm som tillämpas på *modifierare* del av begäran (efter &#39;?&#39; som skiljer URL-sökvägen från *modifierare*). Detta måste göras efter att begäran är fullständigt http-kodad, men innan den (valfritt) är okomplicerad. När begäran har avfaltats kommer servern att använda samma algoritm för modifieringssträngen (förutom de sista 5 tecknen, som innehåller låsvärdet). Om den genererade nyckeln inte matchar låset avvisas begäran.
+Om attribute::RequestLock anges måste ett låsvärde läggas till i begäran i form av `&xxxx`, där xxxx är ett fyrsiffrigt hexvärde. Det här hexadecimala värdet genereras med en enkel hash-algoritm som tillämpas på *modifierare* del av begäran (efter ? som skiljer URL-sökvägen från *modifierare*). Detta måste göras efter att begäran är fullständigt http-kodad, men innan den (valfritt) är okomplicerad. Efter att begäran har avfokuserats används samma algoritm för modifieringssträngen (förutom de fem sista tecknen som innehåller låsvärdet). Om den genererade nyckeln inte matchar låset avvisas begäran.
 
 >[!IMPORTANT]
 >

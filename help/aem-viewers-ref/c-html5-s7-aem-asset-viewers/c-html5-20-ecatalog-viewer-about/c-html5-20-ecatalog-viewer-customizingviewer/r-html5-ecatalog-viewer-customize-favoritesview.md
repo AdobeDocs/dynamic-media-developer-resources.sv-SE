@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 10536242-1015-49ff-ae27-59671f30d886
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Utseendet på behållaren för vyn Favoriter styrs av följande CSS-klassväljar
 .s7ecatalogviewer .s7favoritesview
 ```
 
-Positionen och höjden på vyn Favoriter hanteras av vyn. i CSS är det bara möjligt att definiera bredden.
+Positionen och höjden på vyn Favoriter hanteras av vyn. I CSS går det bara att definiera bredden.
 
 **CSS-egenskaper för vyn Favoriter**
 
@@ -32,7 +32,7 @@ Positionen och höjden på vyn Favoriter hanteras av vyn. i CSS är det bara mö
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> Bakgrundsfärg i vyn Favoriter. </p> </td> 
+   <td colname="col2"> <p> Bakgrundsfärg i favoritvyn. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -87,7 +87,7 @@ Utseendet på enskilda miniatyrbilder styrs med följande CSS-klassväljare:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Miniatyrens bredd. </p> </td> 
+   <td colname="col2"> <p>Miniatyrbildens bredd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
@@ -102,7 +102,7 @@ Utseendet på enskilda miniatyrbilder styrs med följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Miniatyrbilden har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika miniatyrlägen. I synnerhet `state="selected"` motsvarar den miniatyrbild som användaren nyligen valt. Attributet `state="default"` motsvarar resten av miniatyrbilderna. Och attributet `state="over"` används vid hovring av musen.
+>Miniatyrbilden har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika miniatyrlägen. Särskilt gäller följande: `state="selected"` motsvarar den miniatyrbild som användaren nyligen valt. Attributet `state="default"` motsvarar resten av miniatyrbilderna. Och attributet `state="over"` används vid hovring av musen.
 
 Exempel - Om du vill ställa in miniatyrbilder som är 75 x 75 pixlar har du en ljusgrå standardkantlinje och en mörkgrå markerad kantlinje:
 
@@ -131,7 +131,7 @@ Utseendet på miniatyrbildetiketten styrs av följande CSS-klassväljare:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>Teckensnittsnamn. </p> </td> 
+   <td colname="col2"> <p>Typsnittsnamn. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 

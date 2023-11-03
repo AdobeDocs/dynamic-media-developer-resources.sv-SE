@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f1200d86-d88c-4990-ae36-2ce96ae94343
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Ett namn kan tilldelas ett lager med `layer= *`n`*, *`name`*` kommandovariant. N
 
 ## Egenskaper {#section-499963ee52c14f2898f0d0f90c1d01be}
 
-Lager, kommando. Ersättningsvariabelreferenser stöds inte i `layer=`.
+kommandot Lager. Ersättningsvariabelreferenser stöds inte i `layer=`.
 
 `comp` tillåts inte som *`name`* sträng. Ett fel returneras om samma *`name`* tilldelas till mer än ett lager, eller om ett lager refereras till av *`name`* som inte har definierats tidigare.
 
@@ -65,13 +65,13 @@ Lager, kommando. Ersättningsvariabelreferenser stöds inte i `layer=`.
 * Om samma namn mappas till ett enda lager flera gånger (till exempel: `layer=1,image&layer=1,image`) anges omfånget som vanligt, utan fel.
 * Flera namn för samma lager stöds.
 
-   Båda namnen kan användas för att referera till lagret (till exempel: `layer=1,image&layer=1,picture`).
+  Båda namnen kan användas som referens för lagret (till exempel: `layer=1,image&layer=1,picture`).
 * Om ett refererat namn aldrig mappas till ett lagernummer (till exempel: `layer=1,image&layer=picture`) inträffar ett fel.
 * Ersättningsvariabler stöds inte i lagermodifierare (till exempel: `layer=$image$`).
 
-   Detta gäller för alla permutationer, inte bara lagernamn utan för lagermodifierare i allmänhet.
+  Detta gäller för alla permutationer, inte bara lagernamn utan för lagermodifierare i allmänhet.
 
-* Alla regler för att sammanfoga och åsidosätta ska fungera exakt som när samma lager refereras i flera källor (begäranden, före eller efter katalogobjekt för modifiering, makron osv.).
+* Alla sammanfognings- och åsidosättningsregler ska fungera exakt som när samma lager refereras i flera källor (begärande, före eller efter modifieringskatalogobjekt, makron osv.).
 
 ## Exempel {#section-cc40de6a0a754178aa752601539c815b}
 

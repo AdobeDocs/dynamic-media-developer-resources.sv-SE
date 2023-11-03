@@ -5,9 +5,9 @@ title: UseLastModified
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4908da5d-636e-44d2-bd49-40e01c8b5f79
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -26,10 +26,9 @@ Bör bara aktiveras om ett distribuerat cachningsnätverk eller ett annat cachni
 >
 >* Ingendera `catalog::TimeStamp` eller `attribute::TimeStamp`så att ändringstiden för [!DNL catalog.ini] används som standard för `catalog::TimeStamp`.
 >
->* I stället för att dela bildkatalogfilerna via ett nätverk har varje server en egen instans av katalogfilerna på ett lokalt filsystem.
+>* I stället för att dela bildkatalogfilerna via en nätverksmontering har varje server en egen instans av katalogfilerna på ett lokalt filsystem.
 >* Två eller flera instanser av samma [!DNL catalog.ini] filen har olika ändringsdatum, vilket kan bero på felaktig kopiering av filerna.
 >
-
 
 ## Egenskaper {#section-7e26009b7d0a4a3ab234bf2a37f599e0}
 

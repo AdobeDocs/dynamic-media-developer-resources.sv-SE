@@ -1,26 +1,26 @@
 ---
 title: Textplacering
-description: Med renderaren text= placeras text i grunden annorlunda än renderaren textPs= när den används på lager med redan storleksanpassad storlek (dvs när size= även anges).
+description: renderaren text= placerar text som skiljer sig i grunden från renderaren textPs= när den används på lager med redan storlek (d.v.s. när size= även anges).
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 092444bf-9964-4d97-b06e-3add033da284
-source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
 
 # Textplacering{#text-positioning}
 
-The `text=` renderaren placerar text som är helt annorlunda än renderaren textPs= när den används på lager med redan storlek (d.v.s. när size= anges också).
+The `text=` renderaren placerar text som i grunden skiljer sig från renderaren textPs= när den används på lager med redan storlek (d.v.s. när size= anges också).
 
 Självstorleksändring `text=`och `textPs=` lager har liknande utseende och placering.
 
-The `textPs=` justerar den övre delen av teckencellen mot textrutans övre del (förutsatt att `\vertalt`), även om det resulterar i delar av de återgivna texttecknen som delvis sträcker sig utanför textrutans gräns. Återgivna specialtecken för vissa teckensnitt kan också skjuta ut något utanför textrutans vänstra och högra kant. För program som kräver att all återgiven text ska finnas inuti lagerektangeln finns RTF-filen `\marg*` kommandon eller `textFlowPath=` kan användas för att justera textåtergivningsområdet.
+The `textPs=` justerar tecknets överkant mot textrutans överkant (under `\vertalt`), även om det resulterar i delar av de återgivna texttecknen som delvis sträcker sig utanför textrutans gräns. Återgivna specialtecken för vissa teckensnitt kan också skjuta ut något utanför textrutans vänstra och högra kant. För program som kräver att all återgiven text ska finnas inuti lagerektangeln finns RTF-filen `\marg*` kommandon `textFlowPath=` kan användas för att justera textåtergivningsområdet.
 
-I motsats till `text=` Flyttar den återgivna texten efter behov och ser till att alla återgivna specialtecken passar in helt i den angivna textrutan.
+I motsats till `text=` Flyttar den återgivna texten efter behov och ser till att alla återgivna tecken passar in helt i den angivna textrutan.
 
 while `text=` kan vara något enklare att använda för enkla program, `textPs=` ger exakt positionering oberoende av teckensnitt och texteffekter.
 
@@ -34,7 +34,7 @@ Följande exempel är för text i förstorlek. Beteendet för text som ändrar s
 
 `/is/image/?size=230,50&bgc=f0f0f0&fmt=png&text=\fs40Normal%20Normal%20Normal`
 
-** `textPs=` återger text som är justerad mot textrutans överkant, vilket resulterar i en viss urklippning, även för vanliga teckensnitt som Arial®:**
+** `textPs=` återger text som är justerad mot textrutans överkant, vilket resulterar i mindre urklippningar även för vanliga teckensnitt som Arial®:**
 
 ![Exempel på textplacering är två bilder](assets/tp02.png)
 

@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: d5f8db82-f1f9-45be-990d-ebfef97507b6
-source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '2590'
 ht-degree: 0%
@@ -126,11 +126,11 @@ Som standard visas den modala dialogrutan centrerat på skärmen på stationära
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Ska antingen vara unset eller inställd på 100 %, vilket innebär att dialogrutan tar hela webbläsarfönstret (det här läget rekommenderas på enheter med pekskärm). </p> </td> 
+   <td colname="col2"> <p>Ska antingen vara unset eller inställd på 100 %, vilket innebär att dialogrutan tar hela webbläsarfönstret (det här läget rekommenderas på pekenheter). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Ska antingen vara unset eller inställd på 100 %, vilket innebär att dialogrutan tar hela webbläsarfönstret (det här läget rekommenderas på enheter med pekskärm). </p> </td> 
+   <td colname="col2"> <p>Ska antingen vara unset eller inställd på 100 %, vilket innebär att dialogrutan tar hela webbläsarfönstret (det här läget rekommenderas på pekenheter). </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -463,7 +463,7 @@ Båda knapparna har dessutom en gemensam CSS-klass som kan innehålla CSS-instä
  </tbody> 
 </table>
 
-Knappverktygstipsen kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) för mer information.
+Knappens tips kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) för mer information.
 
 Exempel - om du vill ställa in en dialogruteslut med knappen Avbryt (64 x 34), där textfärgen och bakgrundsfärgen är olika för varje knappläge:
 
@@ -1243,7 +1243,7 @@ Det går inte att placera rullningsknappar med CSS-egenskaperna top, left, botto
 >
 >Dessa knappar har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen: `up`, `down`, `over`och `disabled`.
 
-Knappverktygstipsen kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) för mer information.
+Knappens tips kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) för mer information.
 
 Exempel - för att ställa in rullningsknappar som är 28 x 32 pixlar och har olika teckningar för varje läge:
 

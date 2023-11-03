@@ -6,9 +6,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 32b55fb1-1408-4264-92fa-b3a73f31df1d
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1395'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ CSS-standardfiler finns på följande plats:
 
 `<s7_viewers_root>/html5/eCatalogSearchViewer_dark.css`
 
-Den anpassade CSS-filen måste innehålla samma klassdeklarationer som standardklassdeklarationerna. Om en klassdeklaration utelämnas fungerar visningsprogrammet inte korrekt eftersom det inte innehåller inbyggda standardformat för elementen i användargränssnittet.
+Den anpassade CSS-filen måste innehålla samma klassdeklarationer som standard. Om en klassdeklaration utelämnas fungerar visningsprogrammet inte korrekt eftersom det inte innehåller inbyggda standardformat för elementen i användargränssnittet.
 
 Ett annat sätt att tillhandahålla anpassade CSS-regler är att använda inbäddade format direkt på webbsidan eller i någon av de länkade externa CSS-reglerna.
 
@@ -41,9 +41,9 @@ Visningsprogrammet har stöd för två metoder för att skapa responsiv CSS: CSS
 
 För att kunna skapa responsiv designad CSS stöder visningsprogrammet CSS-markörer som har särskilda CSS-klasser som dynamiskt tilldelats till visningsprogrambehållarelementet på den översta nivån baserat på visningsprogrammets storlek vid körning och indatatypen på den aktuella enheten.
 
-Den första gruppen med CSS-markörer innehåller `.s7size_large`, `.s7size_medium`och `.s7size_small` klasser. De tillämpas baserat på visningsprogrambehållarens körningsområde. Det vill säga om visningsområdet är lika med eller större än storleken på en vanlig skrivbordsskärm `.s7size_large` används, om området är nästan lika stort som en vanlig surfplatta `.s7size_medium` är tilldelad. För områden som liknar mobiltelefonskärmar. Markören `.s7size_small` är inställt. Det främsta syftet med dessa CSS-markörer är att skapa olika användargränssnittslayouter för olika skärmar och visningsstorlekar.
+Den första gruppen med CSS-markörer innehåller `.s7size_large`, `.s7size_medium`och `.s7size_small` -klasser. De tillämpas baserat på visningsprogrambehållarens körningsområde. Det vill säga om visningsområdet är lika med eller större än storleken på en vanlig skrivbordsskärm `.s7size_large` används, om området är nära en vanlig surfplatta `.s7size_medium` är tilldelad. För områden som liknar mobiltelefonskärmar. Markören `.s7size_small` är inställt. Det främsta syftet med dessa CSS-markörer är att skapa olika användargränssnittslayouter för olika skärmar och visningsstorlekar.
 
-Den andra gruppen med CSS-markörer innehåller `.s7mouseinput` och `.s7touchinput`. Markören `.s7touchinput` är inställt om den aktuella enheten har funktioner för pekrörelser, i annat fall, `.s7mouseinput` används. Dessa markörer är avsedda att skapa indataelement i användargränssnittet med olika skärmstorlekar för olika indatatyper, eftersom större element normalt krävs för pekrörelser. Om enheten har både musingång och pekfunktioner, `.s7touchinput` är inställt och visningsprogrammet återger ett pekvänligt användargränssnitt.
+Den andra gruppen med CSS-markörer innehåller `.s7mouseinput` och `.s7touchinput`. Markören `.s7touchinput` anges om den aktuella enheten har funktioner för pekrörelser, annars `.s7mouseinput` används. Dessa markörer är avsedda att skapa indataelement i användargränssnittet med olika skärmstorlekar för olika indatatyper, eftersom större element normalt krävs för pekrörelser. Om enheten har både musingång och pekfunktioner, `.s7touchinput` är inställt och visningsprogrammet återger ett pekvänligt användargränssnitt.
 
 Följande exempel på CSS anger storleken på inzoomningsknappen till 28 x 28 pixlar på system med musindata och 56 x 56 pixlar på enheter med pekskärm. Dessutom döljs knappen helt om visningsprogrammets storlek blir för liten:
 
@@ -69,7 +69,7 @@ Om du vill använda enheter med en annan pixeldensitet som mål använder du CSS
 }
 ```
 
-Att använda CSS-markörer är det mest flexibla sättet att skapa responsiv CSS. Det gör att du inte bara kan ange enhetens skärmstorlek som mål, utan även den faktiska visningsstorleken, vilket är användbart för responsiva sidlayouter.
+Att använda CSS-markörer är det mest flexibla sättet att bygga responsiv CSS. Det gör att du inte bara kan ange enhetens skärmstorlek som mål, utan även den faktiska visningsstorleken, vilket är användbart för responsiva designade sidlayouter.
 
 Använd CSS-standardfilen för visningsprogrammet som ett exempel på en CSS-markörmetod.
 
@@ -124,7 +124,7 @@ Du behöver inte duplicera hela CSS för visningsprogram i varje mediefråga. En
 
 ## CSS-fragment {#section-9d570f95eb2443aca74c1b02f6e89aff}
 
-Många visningsgränssnittselement är formaterade med bitmappsbilder och har mer än ett tydligt visuellt läge. Ett bra exempel är en knapp som normalt har minst tre olika lägen: &quot;up&quot;, &quot;over&quot; och &quot;down&quot;. För varje läge krävs en egen bitmappsbild.
+Många visningsgränssnittselement är formaterade med bitmappsbilder och har mer än ett tydligt visuellt läge. Ett bra exempel är en knapp som normalt har minst tre olika lägen: &quot;upp&quot;, &quot;över&quot; och &quot;ned&quot;. För varje läge krävs en egen bitmappsbild.
 
 Med en klassisk metod för formatering skulle CSS ha en separat referens till enskilda bildfiler på servern för varje läge i användargränssnittselementet. Här följer ett exempel på CSS för att formatera en inzoomningsknapp:
 
@@ -145,7 +145,7 @@ background-image:url(images/v2/ZoomInButton_dark_disabled.png);
 
 Nackdelen med detta är att slutanvändaren får flimmer eller fördröjt svar i användargränssnittet när elementet interagerar med det för första gången. Den här åtgärden inträffar eftersom bildgrafiken för det nya elementläget inte har hämtats ännu. Den här metoden kan också ha en liten negativ inverkan på prestanda på grund av ett ökat antal HTTP-anrop till servern.
 
-CSS-sprites är en annan metod där bilder för alla elementlägen kombineras till en enda PNG-fil som kallas&quot;sprite&quot;. En sådan&quot;sprite&quot; har alla visuella lägen för det angivna elementet placerade efter varandra. När du formaterar ett element i användargränssnittet med sprites refereras samma sprite-bild till för alla olika lägen i CSS. Dessutom `background-position` -egenskapen används för varje läge för att ange vilken del av&quot;sprite&quot;-bilden som ska användas. Du kan strukturera en&quot;sprite&quot;-bild på ett lämpligt sätt. Visningsprogram har normalt en lodrät stapling. Nedan visas ett&quot;sprite&quot;-baserat exempel på hur du formaterar samma inzoomningsknapp ovan:
+CSS-sprites är en annan metod där bilder för alla elementlägen kombineras till en enda PNG-fil som kallas&quot;sprite&quot;. En sådan&quot;sprite&quot; har alla visuella lägen för det angivna elementet placerade efter varandra. När du formaterar ett element i användargränssnittet med sprites refereras samma sprite-bild till för alla olika lägen i CSS. Dessutom finns `background-position` -egenskapen används för varje läge för att ange vilken del av&quot;sprite&quot;-bilden som ska användas. Du kan strukturera en&quot;sprite&quot;-bild på ett lämpligt sätt. Visningsprogram har normalt en lodrät stapling. Nedan visas ett&quot;sprite&quot;-baserat exempel på hur du formaterar samma inzoomningsknapp ovan:
 
 ```
 .s7ecatalogsearchviewer .s7zoominbutton[state]  { 
@@ -167,14 +167,14 @@ background-position: -0px -560px;
 
 ## Allmän formatinformation och råd {#section-95855dccbbc444e79970f1aaa3260b7b}
 
-* När du anpassar visningsprogrammets användargränssnitt med CSS används `!IMPORTANT` regeln stöds inte för att formatera visningsprogramelement. I synnerhet `!IMPORTANT` ska inte användas för att åsidosätta standardformat eller körningsformat som tillhandahålls av visningsprogrammet eller visaren-SDK. Orsaken är att det kan påverka beteendet för rätt komponenter. I stället bör du använda CSS-väljare med rätt specificitet för att ange CSS-egenskaper som dokumenteras i den här referenshandboken.
+* När du anpassar visningsprogrammets användargränssnitt med CSS används `!IMPORTANT` regeln stöds inte för att formatera visningsprogramelement. Särskilt gäller följande: `!IMPORTANT` ska inte användas för att åsidosätta standardformat eller körningsformat som tillhandahålls av visningsprogrammet eller visaren-SDK. Orsaken är att det kan påverka beteendet för rätt komponenter. I stället bör du använda CSS-väljare med rätt specificitet för att ange CSS-egenskaper som dokumenteras i den här referenshandboken.
 * Alla sökvägar till externa resurser i CSS matchas mot CSS-platsen, inte mot visningsprogrammets HTML-sidplats. Tänk på den här regeln när du kopierar standard-CSS till en annan plats. Kopiera även standardresurserna eller uppdatera sökvägarna i den anpassade CSS-koden.
 * Det format du föredrar för bitmappsbilder är PNG.
-* Bitmappsgrafik tilldelas till element i användargränssnittet med hjälp av `background-image` -egenskap.
+* Bitmappsgrafik tilldelas till element i användargränssnittet med `background-image` -egenskap.
 * The `width` och `height` -egenskaperna för ett användargränssnittselement definierar dess logiska storlek. Storleken på bitmappen som skickas till `background-image` påverkar inte den logiska storleken.
 * Om du vill använda hög pixeldensitet för högupplösta skärmar som Retina anger du bitmappsbilder som är dubbelt så stora som elementstorleken för det logiska användargränssnittet. Använd sedan `-webkit-background-size:contain` om du vill skala bakgrunden ned till det logiska användargränssnittets elementstorlek.
 * Om du vill ta bort en knapp från användargränssnittet lägger du till `display:none` till CSS-klassen.
-* Du kan använda olika format för färgvärden som stöds i CSS. Använd formatet om du behöver genomskinlighet `rgba(R,G,B,A)`. I annat fall kan du använda formatet `#RRGGBB`.
+* Du kan använda olika format för färgvärden som stöds i CSS. Använd formatet om du behöver genomskinlighet `rgba(R,G,B,A)`. Annars kan du använda formatet `#RRGGBB`.
 
 ## Element i gemensamt användargränssnitt {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
 
@@ -182,7 +182,7 @@ Nedan följer referensdokumentation för användargränssnittselement som gälle
 
 * [Knappen Lägg till favorit](r-html5-ecatsearch-customize-addfavorite.md)
 * [Knappen Stäng](r-html5-ecatsearch-customize-closebutton.md)
-* [Hämta](r-html5-ecatsearch-customize-download.md)
+* [Ladda ned](r-html5-ecatsearch-customize-download.md)
 * [E-postresurs](r-html5-ecatsearch-customize-emailshare.md)
 * [Bädda in resurs](r-html5-ecatsearch-customize-embedshare.md)
 * [Facebook](r-html5-ecatsearch-customize-facebookshare.md)
@@ -191,7 +191,7 @@ Nedan följer referensdokumentation för användargränssnittselement som gälle
 * [Vyn Favoriter](r-html5-ecatsearch-customize-favoritesview.md)
 * [Knappen Första sidan](r-html5-ecatsearch-customize-firstpagebutton.md)
 * [Fokusmarkering](r-html5-ecatsearch-customize-focushighlight.md)
-* [Helskärmsknapp](r-html5-ecatsearch-customize-fullscreenbutton.md)
+* [helskärmsknapp](r-html5-ecatsearch-customize-fullscreenbutton.md)
 * [Ikoneffekt](r-html5-ecatsearch-customize-iconeffect.md)
 * [Popup för panelen Info](r-html5-ecatsearch-customize-infopanelpopup.md)
 * [Bildschemaeffekt](r-html5-ecatsearch-customize-imagemapeffect.md)

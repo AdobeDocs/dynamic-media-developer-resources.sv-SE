@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 31dfbc55-0efd-417b-be4a-67c878772388
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,15 @@ Aktivera senaste ändrade svarshuvuden. Aktiverar eller inaktiverar inkludering 
 
 Servern använder den senaste `vignette::TimeStamp` och `catalog::TimeStamp` värdet för alla vinjett- och materialkataloger/katalogposter som ingår i ett svar som rubrikvärdet Senaste ändring.
 
-Bör bara aktiveras om ett distribuerat cachelagringsnätverk, t.ex. Akamai, används som inte har stöd för tagghuvuden.
+Bör bara aktiveras om ett distribuerat cachelagringsnätverk, t.ex. Akamai, används som inte har stöd för taggrubriker.
 
 >[!NOTE]
 >
->Försiktighet måste iakttas när du använder de senast ändrade rubrikerna i en belastningsutjämnad miljö som innefattar flera Image Serving/Rendering-värdar. Klientcachning kan besegras och serverbelastningen ökar om servrarna av någon anledning har olika tidsstämplar för samma katalogposter. En sådan situation kan uppstå på följande sätt:
+>Försiktighet måste iakttas när du använder de senast ändrade rubrikerna i en belastningsutjämnad miljö som omfattar flera Image Serving/Rendering-värdar. Klientcachning kan besegras och serverbelastningen ökar om servrarna av någon anledning har olika tidsstämplar för samma katalogposter. En sådan situation kan uppstå på följande sätt:
 
 * `catalog::TimeStamp`, `vignette::TimeStamp`, eller `attribute::TimeStamp` är inte definierad så att ändringstiden för [!DNL catalog.ini] används som standard för `catalog::TimeStamp`.
 
-* I stället för att dela materialkatalogfilerna via ett nätverk har varje server en egen instans av katalogfilerna på ett lokalt filsystem.
+* I stället för att dela materialkatalogfilerna via en nätverksmontering har varje server en egen instans av katalogfilerna på ett lokalt filsystem.
 * Två eller flera instanser av samma [!DNL catalog.ini] filen har olika ändringsdatum, vilket kan bero på felaktig kopiering av filerna.
 
 ## Egenskaper {#section-453952244193452caccfaf7f601007c1}

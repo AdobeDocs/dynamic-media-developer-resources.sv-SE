@@ -5,9 +5,9 @@ title: Typ
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 912e2535-9980-4174-bca7-f44789eb39b4
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '132'
 ht-degree: 15%
 
 ---
@@ -55,7 +55,7 @@ Enum. Valfritt för alla material. Ignoreras om vinjetteringen inte har någon �
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>8 </p> </td> 
-  <td class="stentry"> <p>Skrivbordsunderlägg. </p> </td> 
+  <td class="stentry"> <p>Skrivbord. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>9 </p> </td> 
@@ -105,7 +105,7 @@ Enum. Valfritt för alla material. Ignoreras om vinjetteringen inte har någon �
 
 ## Standard {#section-247f73b22cb846b7b7d7cc6e8af949ca}
 
-0; servern kommer att fastställa en lämplig standard baserat på andra materialattribut.
+0; servern fastställer en lämplig standard baserat på andra materialattribut.
 
 ## Se även {#section-a51850093b7140e683a0f8b07845843c}
 

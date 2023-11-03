@@ -5,9 +5,9 @@ title: Åtkomstloggning
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: e677a617-115d-4f6e-9eb5-bdc14ad7ff24
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '673'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Mappen som [!DNL Platform Server] skriver loggfiler. Detta kan vara en absolut s
 
 ## TC::maxDays - Antal dagar som loggfiler ska sparas {#section-45cbecffc5694c87b7d5c176a44a4885}
 
-Antalet dagar som loggfiler ska bevaras. Nya loggfiler skapas varje dag vid midnatt. Nu tar servern bort alla filer i loggfilsmappen som är äldre än det angivna antalet dagar, inklusive de som skrivits av Image Server eller Render Server. Standardvärdet är 10.
+Antalet dagar som loggfiler ska bevaras. Nya loggfiler skapas varje dag vid midnatt. För närvarande tar servern bort alla filer i loggfilsmappen som är äldre än det angivna antalet dagar, inklusive de som skrivits av Image Server eller Render Server. Standardvärdet är 10.
 
 ## TC::prefix - Access Log File Name {#section-1003856323b844049632710a5a056aa7}
 
@@ -38,7 +38,7 @@ Namnprefix för filen som åtkomstloggdata skrivs till. Datum och filsuffix ( [!
 
 Anger datamönstret för [!DNL Platform Server] loggposter för åtkomst. Mönstersträngen anger variabler som ersätts med motsvarande värden. Alla andra tecken i mönstersträngen överförs bokstavligen till loggposten.
 
-Om du vill använda cacheuppvärmningsverktyget måste blanksteg användas som fältavgränsare. The [!DNL Platform Server] ersätter alla blanksteg och &#39;%&#39;-tecken i fältvärden med `%20` och `%25`, respektive.
+Om du vill använda cacheuppvärmningsverktyget måste blanksteg användas som fältavgränsare. The [!DNL Platform Server] ersätter alla blanksteg och &#39;%&#39;-tecken i fältvärden med `%20` och `%25`, respektive
 
 Följande mönstervariabler stöds:
 
@@ -76,7 +76,7 @@ Följande mönstervariabler stöds:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %G </span> </p> </td> 
-   <td> <p>datum och tid, formaterat som <span class="codeph"> <span class="varname"> yyyy </span>- <span class="varname"> MM </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>: <span class="varname"> mm </span>: <span class="varname"> ss </span>. <span class="varname"> SSS </span> offset </span> </p> <p> ( <span class="varname"> SSS </span> är msec, <span class="varname"> offset </span> är GMT-tidsförskjutningen), tidsvärdet hämtas när svaret skickas till klienten. </p> </td> 
+   <td> <p>datum och tid, formaterat som <span class="codeph"> <span class="varname"> yyyy </span>- <span class="varname"> MM </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>: <span class="varname"> mm </span>: <span class="varname"> ss </span>. <span class="varname"> SSS </span> offset </span> </p> <p> ( <span class="varname"> SSS </span> är msec, <span class="varname"> offset </span> är GMT-tidsförskjutningen); tidsvärdet hämtas när svaret skickas till klienten. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %m </span> </p> </td> 
@@ -178,12 +178,12 @@ Följande mönstervariabler stöds:
       <li id="li_CCEE27F75BD34195895428188B2C30AA"> <p>1=bild(er) hittades inte på servern. </p> </li> 
       <li id="li_315BBCC7B4C1443495C9C2B3F9800C1F"> <p> 2=IS-protokollanvändningsfel eller ett annat innehållsfel än 1. </p> </li> 
       <li id="li_E028FFF165BD4535875F8684FCAF1859"> <p>3=annat serverfel. </p> </li> 
-      <li id="li_5AFFB0EE80484885BCDACD9DF3EF58F7"> <p>4=begäran nekades på grund av tillfällig serveröverbelastning. </p> </li> 
+      <li id="li_5AFFB0EE80484885BCDACD9DF3EF58F7"> <p>4=begäran nekades på grund av temporär serveröverbelastning. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{ReqType}r </span> </p> </td> 
-   <td> <p>Det övre värdet för <span class="codeph"> req= </span>. </p> </td> 
+   <td> <p>Det övre basvärdet för <span class="codeph"> req= </span>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{RootId}r </span> </p> </td> 

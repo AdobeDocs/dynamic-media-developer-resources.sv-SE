@@ -5,9 +5,9 @@ title: Begränsningar och kända fel
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fd32456b-9d99-4e82-a61c-2fc4d7030630
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1221'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Det finns vissa begränsningar och kända fel som bör beaktas när du använder
 
 ## Dokumentationsfel {#section-b1579410b11e41e488c7de9ecc7e8d5c}
 
-* Antalet rader kommer inte att överskrida maxvärdet för `\copyfitmaxlines` inställning och antalet explicita rader i textinmatningen.
+* Antalet rader överstiger inte maxvärdet för `\copyfitmaxlines` inställning och antalet explicita rader i textinmatningen.
 * Matchande klammerparenteser och parenteser krävs i bilduppsättningar. Om klammerparenteser och parenteser inte matchar varandra måste de vara URL-kodade.
 * Varningen för global svarstid på serversidan innehåller felsvar.
 * The `id=` -kommandot är för närvarande obligatoriskt när du använder `rect=` med en bild- eller maskbegäran.
@@ -32,7 +32,7 @@ Det finns vissa begränsningar och kända fel som bör beaktas när du använder
 * `\charscaley` skalförändras annorlunda än när du använder `text=` men påverkar inte radhöjden.
 
 * Om den sista textraden inte får plats tas hela raden bort i stället för att visas som utfall.
-* `\slmult` och `\sl` fungerar annorlunda än MS Word och `text=`används de bara för de aktuella och efterföljande styckena.
+* `\slmult` och `\sl` beter sig annorlunda än MS Word och `text=`används de bara för de aktuella och efterföljande styckena.
 
 * `\sb` gäller för det första stycket för både MS Word och `text=`, Adobe InDesign och [!DNL Photoshop] gör inte detta.
 
@@ -48,7 +48,7 @@ Det finns vissa begränsningar och kända fel som bör beaktas när du använder
 * `posN=`, `anchor=`, `anchorN=`, `origin=`och `originN=` returnerar nu ett tolkningsfel om något av modifieringsvärdena är större än 2147483648.
 
 * Kodning av kapslade begäranden stöds inte. Övergång till det nya beteendet och avkoda eventuella kapslade begärandavärden som hittas i URL-begäranden på din webbplats och i företagets kataloger.
-* DefaultImage använder nu miniatyrattribut när du använder `req=tmb`.
+* DefaultImage använder nu miniatyrbildsattribut när du använder `req=tmb`.
 * I tidigare versioner med `flip=`placerades bilden aldrig om oavsett vad ankarpunkten var.
 
 ## Begränsningar för bibliotek från tredje part {#section-79768b96bf634e44ab672c5b893f343d}
@@ -61,48 +61,48 @@ Digimarc-biblioteket vägrar att använda en Digimarc-vattenstämpel på en bild
 * Fjärr-URL:er som returnerar en omdirigering (HTTP-status 301, 302 eller 303) nekas.
 * Vid konfigurering `errorRedirect.rootUrl` IP-adressen som definieras i den här egenskapen måste inkluderas i regeluppsättningen `<addressfilter>` på den servern.
 
-   *Exempel*:
+  *Exempel*:
 
-   Server A har definierats `errorRedirect.rootUrl=10.10.10.10` .
+  Server A har definierats `errorRedirect.rootUrl=10.10.10.10` .
 
-   Server B, som har IP-adressen 10.10.10.10, anger `<addressfilter>` i regeluppsättningsfilen så att den innehåller IP-adressen (10.10.10.10).
+  Server B som har IP-adressen 10.10.10.10 anger `<addressfilter>` i regeluppsättningsfilen så att den innehåller IP-adressen (10.10.10.10).
 
 * Punkttext och textbana med positionering kan visa urklipp.
 * `text=` gäller endast `\sa` och `\sb` till hela textblocket och inte per stycke.
 
 * När du använder ett företag som definierats i URL:en och ett annat företag som definierats för `src=` eller `mask=` modifierare, du måste prefix a forward slash to the company defined for `src=` eller `mask=` för den här typen av begäran.
 
-   *Exempel*:
+  *Exempel*:
 
-   `/is/image/MyCompany?src=/YourCompany/MyImage` .
+  `/is/image/MyCompany?src=/YourCompany/MyImage` .
 
-   I stället för: `/is/image/MyCompany?src=YourCompany/MyImage` .
+  I stället för: `/is/image/MyCompany?src=YourCompany/MyImage` .
 
 * Tiff- eller vinjettbegäranden som inte är Pyramided skapar ett liknande felmeddelande som
 
-   *&quot;Bild `C:\Program Files\Scene7\ImageRendering\resources\MyVignette.vnt` har ingen giltig DSF, och området 2,25MPixel överskrider maxvärdet för 2MPixel&quot;* .
+  *&quot;Bild `C:\Program Files\Scene7\ImageRendering\resources\MyVignette.vnt` har ingen giltig DSF, och området 2,25MPixel överskrider maxvärdet för 2MPixel&quot;* .
 
-   Bästa sättet är att använda pyramiderade slipsar och vinjetteringar. Om du behöver använda icke-pyramidade vinjetter eller vinjetter följer du instruktionerna nedan för att öka storleksgränsen.
+  Bästa sättet är att använda pyramiderade slipsar och vinjetteringar. Om du behöver använda icke-pyramidade vinjetter eller vinjetter följer du instruktionerna nedan för att öka storleksgränsen.
 
-   *Arbeta runt*:
+  *Arbeta runt*:
 
-   För bildåtergivning av icke-pyramidade vinjetter ökar du egenskapsvärdet för IrMaxNonPyrVignetteSize i dialogrutan [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] konfigurationsfil.
+  För bildåtergivning av icke-pyramidade vinjetter ökar du egenskapsvärdet för IrMaxNonPyrVignetteSize i dialogrutan [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] konfigurationsfil.
 
-   Öka egenskapsvärdet för Bildservning av icke-pyramidat TIFF för `MaxNonDsfSize` i [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] konfigurationsfil.
+  Öka egenskapsvärdet för Bildservning av icke-pyramidat TIFF för `MaxNonDsfSize` i [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] konfigurationsfil.
 
 * Adobe [!DNL Photoshop] I CS3 sparas inte PSD-filer med lager som standard som en sammansatt bild.
 
-   *Symtom*:
+  *Symtom*:
 
-   Adobe [!DNL Photoshop] PSD-filen i CS3-lager visas som svart med texten &quot;Detta lager [!DNL Photoshop] filen sparades inte med en sammansatt bild.&quot; för svarsbilden Image Serving eller i IPS.
+  Adobe [!DNL Photoshop] PSD-filen i CS3-lager visas som svart med texten &quot;Detta lager [!DNL Photoshop] filen sparades inte med en sammansatt bild.&quot; för svarsbilden Image Serving eller i IPS.
 
-   *Tillfällig lösning*:
+  *Tillfällig lösning*:
 
-   Spara Adobe [!DNL Photoshop] CS3-fil med maximal kompatibilitet aktiverat.
+  Spara Adobe [!DNL Photoshop] CS3-fil med maximal kompatibilitet aktiverat.
 
 * Om du tilldelar en ICC-profil till en CMYK/JPEG-svarsbild blir färgerna inverterade i vissa webbläsare.*Arbeta runt*:
 
-   Ändra svarsbildens format med `fmt=`
+  Ändra svarsbildens format med `fmt=`
 
 * Storleken på HTTP-svarsbildens data-after-komprimering, inklusive filhuvudet, är begränsad till 16 MB.
 * &quot; ..&quot; tillåts inte i något sökvägselement i HTTP-begäranden.
@@ -120,19 +120,19 @@ Digimarc-biblioteket vägrar att använda en Digimarc-vattenstämpel på en bild
 * Image Serving stöder för närvarande inte bearbetning av TIFF-filer som exporterats med Adobe Media Encoder 4.0.1 eller tidigare. Adobe Media Encoder ingår i Premiere Pro CS4, After Effects CS4 och Creative Suite 4 Production Premium.
 * Använda `text=` med självskalande lager stöder inte RTF-strängar som använder mer än en inställning för linjejustering.
 
-   *Exempel*
+  *Exempel*
 
-   RTF-strängen kan inte använda både vänster och höger radjustering för ett textlager som ändrar storlek automatiskt.
+  RTF-strängen kan inte använda både vänster och höger radjustering för ett textlager som ändrar storlek automatiskt.
 
 * SVG har en egen egenskap för teckensnittssökvägen för refererade teckensnitt som inte är inbäddade i SVG-filen.
 
-   *Symtom*
+  *Symtom*
 
-   Återgivna SVG-bilder som innehåller teckensnittsdefinitioner använder fel teckensnitt.
+  Återgivna SVG-bilder som innehåller teckensnittsdefinitioner använder fel teckensnitt.
 
-   *Tillfällig lösning*
+  *Tillfällig lösning*
 
-   Ange egenskapen `svgProvider.fontRoot=` in [!DNL install_root/ImageServing/conf/PlatformServer.conf] .
+  Ange egenskapen `svgProvider.fontRoot=` in [!DNL install_root/ImageServing/conf/PlatformServer.conf] .
 
 * Beskärning använder för närvarande `bgColor=` i stället för `color=` för att fylla i nya utökade områden.
 
@@ -146,9 +146,9 @@ Digimarc-biblioteket vägrar att använda en Digimarc-vattenstämpel på en bild
 
 * JavaScript-motorer i Netscape och Opera cache-svarsdata även om nocache-huvudet är inställt. Detta stör en korrekt funktion för tillståndskänsliga begäranden.
 
-   *Tillfällig lösning*
+  *Tillfällig lösning*
 
-   Lägg till en tidsstämpel eller annan unik identifierare i begärandesträngen, till exempel `"&.ts=currentTime`.
+  Lägg till en tidsstämpel eller annan unik identifierare i begärandesträngen, till exempel `"&.ts=currentTime`.
 
 ## Begränsningar som endast gäller för allmännyttiga tjänster {#section-906a6b2378154b3da122b2332983f7a5}
 

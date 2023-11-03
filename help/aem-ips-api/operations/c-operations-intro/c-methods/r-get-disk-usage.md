@@ -1,20 +1,20 @@
 ---
-description: Returnerar information om ett företags struktur (antal filer osv.).
+description: Returnerar information om ett företags struktur (antal filer och så vidare).
 solution: Experience Manager
 title: getDiskUsage
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 06fdd9f5-5021-4f0b-b312-4465df9bda25
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
 
 # getDiskUsage{#getdiskusage}
 
-Returnerar information om ett företags struktur (antal filer osv.).
+Returnerar information om ett företags struktur (antal filer och så vidare).
 
 ## Auktoriserade användartyper {#authorized-user-types}
 

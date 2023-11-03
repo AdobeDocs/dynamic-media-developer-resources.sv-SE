@@ -5,9 +5,9 @@ title: Katalogattributfiler
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 79d9439d-7749-4ae1-aa73-e88e01cf7555
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Katalogattributfiler kan ha vilket namn som helst, men måste ha ett .ini-filsuffix. De kan enkelt underhållas med valfri textredigerare.
 
-Katalogattributfiler består av en uppsättning textposter, avgränsade med en enda `<CR>` (ASCII-kod `0xD`), en `<LF>` (ASCII-kod `0xA`) eller en `<CR><LF>` par. Varje post består av ett attributnamn och ett eller flera kommaavgränsade attributvärden:
+Katalogattributfiler består av en uppsättning textposter, avgränsade med en enda `<CR>` (ASCII-kod `0xD`), en `<LF>` (ASCII-kod `0xA`), eller en `<CR><LF>` par. Varje post består av ett attributnamn och ett eller flera kommaavgränsade attributvärden:
 
 `*`name`*= *`values`*{<CR>|<LF>|<CR><LF }`
 
@@ -27,7 +27,7 @@ Katalogattributfiler består av en uppsättning textposter, avgränsade med en e
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> name</span> </p> </td> 
-  <td class="stentry"> <p>Attributnamn. Kan bestå av en eller flera bokstäver, siffror, - och _. Inte skiftlägeskänsligt. </p></td> 
+  <td class="stentry"> <p>Attributnamn. Kan bestå av en eller flera bokstäver, siffror, - och _. Inte skiftlägeskänslig. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> val</span> </p></td> 

@@ -1,28 +1,28 @@
 ---
-title: Förfaller
+title: Förfallotid
 description: Klientens cachetid till livstid. Antal timmar till utgångsdatum. Används för att hantera klient- och proxyservercachning.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e4f7e5a8-0021-4dd3-be1b-8cb656cabdac
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
 
-# Förfaller{#expiration}
+# Förfallotid{#expiration}
 
 Klientens cachetid till livstid. Antal timmar till utgångsdatum. Används för att hantera klient- och proxyservercachning.
 
 Servern beräknar förfallotid/datum för NTTP-svarsdata genom att lägga till det här värdet till tid/datum för överföringen.
 
-Webbläsare hanterar cacheminnen med hjälp av filernas förfallotider. Innan webbläsaren skickar en begäran till servern kontrollerar den om filen redan har laddats ned. Om så är fallet, och om filen ännu inte har gått ut, skickar webbläsaren en villkorlig GET-begäran (till exempel med rubriken If-Modified-Since HTTP-begäran) i stället för en vanlig GET-begäran. Servern kan svara med statusen 304 och inte skicka bilden. Webbläsaren läser då bara in filen från cachen. Detta kan avsevärt öka den övergripande prestandan för data som används ofta.
+Webbläsare hanterar cacheminnen med hjälp av filernas förfallotider. Innan webbläsaren skickar en begäran till servern kontrollerar den om filen redan har laddats ned. Om så är fallet och om filen ännu inte har gått ut, skickar webbläsaren en villkorlig GET-begäran (till exempel med rubriken If-Modified-Since HTTP-begäran) i stället för en vanlig GET-begäran. Servern kan svara med statusen 304 och inte skicka bilden. Webbläsaren läser sedan bara in filen från cachen. Detta kan avsevärt öka den övergripande prestandan för data som används ofta.
 
 Servern ställer in rubriken för utgående HTTP-svar på aktuellt datum/tid plus det minsta av vinjettering::Förfallotid och alla kataloger::Förfallovärden för vinjetteringen och allt material som ingår i återgivningsåtgärden.
 
-Förfallodatumet anges i första hand för bildsvarningar. Vissa typer av svar kommer alltid att markeras för omedelbar förfallotid (eller taggas som icke-cacheable), inklusive alla felsvar eller egenskapssvar.
+Förfallodatumet anges i första hand för bildsvarningar. Vissa typer av svar markeras alltid för omedelbar förfallotid (eller taggas som ej åtkomliga), inklusive alla felsvar eller egenskapssvar.
 
 ## Egenskaper {#section-e87e8f6b6d224c6ea2eeaad695c04be8}
 

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 4db16599-ede0-47ae-bb5a-840655d3620b
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Huvudkontrollfältet är det rektangulära området på stationära datorer och surfplattor som innehåller alla gränssnittskontroller (utom knapparna Stora sidor) som är tillgängliga för visningsprogrammet för eCatalog.
 
-På mobiltelefoner behåller den fortfarande knapparna Miniatyrbilder, Innehållsförteckning, Hämta, Skriv ut, Favoriter, Delning för sociala medier, Helskärm och Stäng. Knapparna Första sidan och Sista sidan samt Sidindikatorn tas bort från huvudkontrollfältet och läggs till i det sekundära kontrollfältet i stället. Som standard visas huvudkontrollfältet längst upp i visningsområdet på datorer och mobiltelefoner, och flyttas längst ned i visningsområdet på surfplattor. Hela den tillgängliga visningsprogrambredden används alltid. Det går att ändra färgen, höjden och den lodräta positionen i CSS i förhållande till visningsbehållaren.
+På mobiltelefoner behåller den fortfarande knapparna Miniatyrbilder, Innehållsförteckning, Hämta, Skriv ut, Favoriter, Dela socialt, Helskärm och Stäng. Knapparna Första sidan och Sista sidan samt Sidindikatorn tas bort från huvudkontrollfältet och läggs till i det sekundära kontrollfältet i stället. Som standard visas huvudkontrollfältet längst upp i visningsområdet på datorer och mobiltelefoner, och flyttas längst ned i visningsområdet på surfplattor. Hela den tillgängliga visningsprogrambredden används alltid. Det går att ändra färgen, höjden och den lodräta positionen i CSS i förhållande till visningsbehållaren.
 
 Utseendet på huvudkontrollfältet styrs av följande CSS-klassväljare:
 
@@ -96,7 +96,7 @@ Utseendet på den här rullningsknappbehållaren styrs av följande CSS-klassvä
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Normalt ska vara lika med eller större än bredden på själva rullningsknappen. </p> </td> 
+   <td colname="col2"> <p>Normalt ska vara lika med eller större än rullningsknappens bredd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
@@ -140,7 +140,7 @@ Utseendet på den här knappen styrs av följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen har stöd för `state` och `selected` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen. I synnerhet `state="selected"` motsvarar det inledande rullningsknappläget när det är möjligt att rulla kontrollfältets innehåll åt vänster. Attributet `state="default"` motsvarar läget när innehållet rullas hela vägen till vänster och rullningsknappen föreslår att det återgår till det ursprungliga läget.
+>Den här knappen har stöd för `state` och `selected` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen. Särskilt gäller följande: `state="selected"` motsvarar det inledande rullningsknappläget när det är möjligt att rulla kontrollfältets innehåll åt vänster. Attributet `state="default"` motsvarar läget när innehållet rullas hela vägen till vänster och rullningsknappen föreslår att det återgår till det ursprungliga läget.
 
 Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
 

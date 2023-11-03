@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 05f5abe0-1124-4114-864d-440699bcdc39
-source-git-commit: 4aaa77b1fb58b30b02ee15f6080169fa354d5907
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Visst innehåll som visas i Carousel Viewer kan lokaliseras. Innehållet innehåller navigeringsknappar för bildrutor.
 
-Varje textinnehåll i visningsprogrammet som kan lokaliseras representeras av den speciella SDK-identifieraren för visningsprogrammet som kallas SYMBOL. Alla SYMBOL har ett associerat standardtextvärde för en engelsk språkinställning ( `"en"`) som medföljer det färdiga visningsprogrammet och kan även ha användardefinierade värden för så många språk som behövs.
+Varje textinnehåll i visningsprogrammet som kan lokaliseras representeras av den speciella SDK-identifieraren för visningsprogrammet som kallas SYMBOL. Alla SYMBOL har ett standardassocierat textvärde för engelska ( `"en"`) som medföljer det färdiga visningsprogrammet och kan även ha användardefinierade värden för så många språk som behövs.
 
-När visningsprogrammet startas kontrolleras det aktuella språkområdet för att se om det finns ett användardefinierat värde för varje SYMBOL som stöds för sådana språkområden. I så fall används det användardefinierade värdet. i annat fall återställs den till standardtexten som inte finns i kartongen.
+När visningsprogrammet startas kontrolleras det aktuella språkområdet för att se om det finns ett användardefinierat värde för varje SYMBOL som stöds för sådana språkområden. Om det finns något används det användardefinierade värdet, i annat fall används standardtexten som inte finns.
 
 Användardefinierade lokaliseringsdata kan skickas till visningsprogrammet som ett JSON-lokaliseringsobjekt. Det här objektet innehåller en lista med språkområden som stöds, SYMBOL-textvärden för varje språkområde samt standardspråkområdet.
 
@@ -62,7 +62,7 @@ Följande SYMBOL stöds:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> CAROUSELVIEWER_TOOLTIP_GOTO </span> </p> </td> 
-   <td colname="col2"> <p> Verktygstips och ARIA-etikett för föregående och nästa bildknappar. </p> <p>Accepterar två ersättningstoken: <span class="codeph"> $CURRENT_FRAME$ </span> för aktuellt bildindex och <span class="codeph"> $TOTAL_FRAMES$ </span> för det totala antalet bilder. </p> </td> 
+   <td colname="col2"> <p> Verktygstips och ARIA-etikett för föregående och nästa bildknappar. </p> <p>Accepterar två ersättningstoken: <span class="codeph"> $CURRENT_FRAME$ </span> för det aktuella bildindexet och <span class="codeph"> $TOTAL_FRAMES$ </span> för det totala antalet bilder. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Container.LABEL </span> </p> </td> 
@@ -74,7 +74,7 @@ Följande SYMBOL stöds:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> CarouselView.USAGE_HINT </span> </p> </td> 
-   <td colname="col2"> <p> ARIA-användningstips för tangentbordsanvändare. </p> </td> 
+   <td colname="col2"> <p> ARIA-användningstips för kortanvändare. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,18 +1,18 @@
 ---
-description: Förfaller
+description: Förfallotid
 solution: Experience Manager
-title: Förfaller
+title: Förfallotid
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 62d2368b-ea56-4964-ab9c-07454e19540c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
 
-# Förfaller{#expiration}
+# Förfallotid{#expiration}
 
 Används för att hantera klient- och proxyservercachning. Servern beräknar förfallotid/datum för HTTP-svarsdata genom att lägga till det här värdet till tid/datum för överföring.
 
@@ -26,7 +26,7 @@ Förfallotid används för följande svarstyper:
 * `req=userdata`
 * `req=map`
 
-Vissa typer av svar (t.ex. felsvar) markeras alltid för omedelbar förfallotid (eller taggas som ej åtkomliga), medan andra (t.ex. egenskaps- eller standardbildsvar) använder speciella förfalloinställningar ( `attribute::NonImgExpiration` och `attribute::DefaultExpiration`).
+Vissa typer av svar (till exempel felsvar) är alltid markerade för omedelbar förfallotid (eller taggade som icke-cacheable), medan andra (till exempel egenskaps- eller standardbildsvar) använder speciella förfalloinställningar ( `attribute::NonImgExpiration` och `attribute::DefaultExpiration`).
 
 ## Egenskaper {#section-7f5173d090cf48df8fa1a2c72b8c8c60}
 

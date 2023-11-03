@@ -5,9 +5,9 @@ title: Skalning av vinjettering
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f9f92254-41d8-4d22-a168-78b49dd55478
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -18,20 +18,20 @@ Fyra allmänna typer av produktionsvinjettering stöds.
 
 * Enkelupplösning
 
-   Rekommenderas endast när det är säkert att endast en renderingsbildstorlek krävs.
+  Rekommenderas endast när det är säkert att endast en renderingsbildstorlek krävs.
 * Flera upplösningar
 
-   Rekommenderas när alla önskade bildstorlekar för återgivning är kända. Ger bättre kvalitet och snabbare återgivning än enupplösning- och pyramidvinjettering eftersom bilden inte behöver skalas efter återgivningen.
+  Rekommenderas när alla önskade bildstorlekar för återgivning är kända. Ger bättre kvalitet och snabbare återgivning än enupplösning- och pyramidvinjettering eftersom bilden inte behöver skalas efter återgivningen.
 * Pyramid
 
-   Bäst för alla syften, som rekommenderas när flera bildstorlekar behövs och de exakta storlekarna inte är förbestämda och när visningsprogrammet för Dynamic Media Zoom används.
+  Bäst för alla syften, som rekommenderas när flera bildstorlekar behövs och de exakta storlekarna inte är förbestämda och när visningsprogrammet för Dynamic Media Zoom används.
 * Pyramid med en eller flera upplösningar
 
-   Ger hög kvalitet för specifika storlekar samtidigt som stöd för visningsprogram för zoomning och flexibilitet bibehålls.
+  Ger hög kvalitet för specifika storlekar samtidigt som stöd för visningsprogram för zoomning och flexibilitet bibehålls.
 
 I praktiken sparas varje upplösning i produktionsvinjetteringen som en oberoende vy med sin egen bildbredd och -höjd.
 
-Vystorleken för en vinjett med enkel upplösning anges med antingen `-width` eller `-height` eller båda. Om båda värdena anges skalförändras vinjetteringen så att ingen dimension är större än den angivna storleken. Om inget av värdena anges får utdatavvinjetteringen samma storlek som indatavvinjetteringen. Ingen uppskalning tillämpas. Om den angivna storleken är större än storleken på indatavvinjetteringen får utdatavvinjetteringen samma storlek som indatavvinjetteringen.
+Vystorleken för en vinjett med enkel upplösning anges med antingen `-width` eller `-height` eller båda. Om båda värdena anges skalförändras vinjetteringen så att ingen dimension är större än den angivna storleken. Om inget av värdena anges har utdatavvinjetteringen samma storlek som indatavvinjetteringen. Ingen skalförändring används. Om den angivna storleken är större än storleken på indatavvinjetteringen har utdatavvinjetteringen samma storlek som indatavvinjetteringen.
 
 Samma regler gäller för flerupplösta vinjetter, där den första upplösningsnivån storleksändras precis som en vinjettering med en upplösning. Ytterligare upplösningar anges med ytterligare kommaavgränsade värden för antingen `-width` eller `-height`. Värden behöver inte sorteras. If `-width` anger flera värden, och sedan `-height` måste bara ange ett enda värde, och tvärtom, annars returneras ett fel.
 

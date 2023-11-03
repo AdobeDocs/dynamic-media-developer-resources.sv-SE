@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6647b459-11d2-47e4-9033-3a740f01a623
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
@@ -25,13 +25,13 @@ grout= *`color`*[,*`width`*]
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> width </span> </span> </p> </td>
-  <td class="stentry"> <p>Grovtjocklek. scenkoordinatenheter (vanligtvis tum) (verkliga). </p> </td>
+  <td class="stentry"> <p>Grouttjocklek; scenkoordinatenheter (vanligen tum) (reella). </p> </td>
  </tr> 
 </table>
 
 För maximal kontroll av jordningens utseende gäller följande krav:
 
-* Plattan ska vara kvadratisk eller rektangulär. inga andra former stöds för närvarande.
+* Rutan måste vara kvadratisk eller rektangulär. Inga andra former stöds för närvarande.
 * Bilden får endast innehålla en platta.
 * Standardutfallet i bilden (om sådan finns) måste ha samma tjocklek på alla fyra kanterna.
 * Standardjordningens tjocklek måste anges i materialkatalogen ( `catalog::GroutWidth`).

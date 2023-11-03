@@ -5,9 +5,9 @@ title: regel
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8f56012c-d01c-489c-9d18-91e256f72012
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Dessutom `<rule>` -element kan definiera något av följande attribut i valfri k
    <td colname="col2"> <p> <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errorimage.md#reference-b58bdaba96074c52802ca8dc54bfe2f0" type="reference" format="dita" scope="local"> attribute::ErrorImage </a> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Förfaller </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Förfallotid </span> </p> </td> 
    <td colname="col2"> <p> <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-expiration.md#reference-0f68ad8199c64bd4bc8d27dd78b7d996" type="reference" format="dita" scope="local"> attribute::Expiration </a> </p> </td> 
   </tr> 
   <tr> 
@@ -49,7 +49,7 @@ Dessutom `<rule>` -element kan definiera något av följande attribut i valfri k
    <td colname="col2"> <p> <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-maxpix.md#reference-569f186bbc2840a6bd3cffa8ff3e7657" type="reference" format="dita" scope="local"> attribute::MaxPix </a> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> RootUrl </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> RootURL </span> </p> </td> 
    <td colname="col2"> <p> <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402" type="reference" format="dita" scope="local"> attribute::RootUrl </a> </p> </td> 
   </tr> 
  </tbody> 
@@ -57,7 +57,7 @@ Dessutom `<rule>` -element kan definiera något av följande attribut i valfri k
 
 Mer information finns i beskrivningen av motsvarande bildkatalogsattribut.
 
-Förfalloattributet åsidosätter bara standardattributvärdet. det ignoreras om en specifik `catalog::Expiration` värdet gäller för begäran.
+Förfalloattributet åsidosätter bara standardattributvärdet. Det ignoreras om ett specifikt `catalog::Expiration` värdet gäller för begäran.
 
 ## Data {#section-401b6dfce082490f81229a19b73f2562}
 
@@ -80,7 +80,7 @@ Förfalloattributet åsidosätter bara standardattributvärdet. det ignoreras om
 
 Om båda `<expression>` och `<substitution>` anges och hämtade delsträngar inte används, den första matchande delsträngen ersätts med `<substitution>`.
 
-If `<expression>` har inte angetts, alla sökvägar matchar och `<substitution>` läggs till i slutet av banan.
+If `<expression>` har inte angetts, sökvägar matchar och `<substitution>` läggs till i slutet av banan.
 
 If `<substitution>` har inte angetts tas den matchande delsträngen bort.
 

@@ -5,9 +5,9 @@ title: Vattenstämplar
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e744be3f-9753-4513-8f37-055fa03077cc
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -16,21 +16,21 @@ ht-degree: 0%
 
 Image Serving implementerar en enkel funktion för visuell vattenstämpel.
 
-En vattenstämpel är vanligtvis en halvgenomskinlig bild, men det kan vara text eller en mer komplex sammansatt bild i flera lager. Servern lägger vattenstämpeln över svarsbilden efter alla visningsattribut ( `wid=`, `hei=`, `align=`, `scl=`, `bgc=`) har tillämpats.
+En vattenstämpel är vanligtvis en halvgenomskinlig bild, men det kan vara text eller en mer komplex sammansatt bild i flera lager. Servern lagrar vattenstämpeln över svarsbilden efter alla visningsattribut ( `wid=`, `hei=`, `align=`, `scl=`, `bgc=`) har tillämpats.
 
-Vattenstämplar aktiveras genom inställning `attribute::Watermark` till en giltig katalogpost som skulle innehålla vattenstämpelbilden eller mallen. If `attribute::Watermark` anges i en namngiven katalog, kommer servern att lägga till vattenstämpeln i alla bildbegäranden som refererar till katalog-ID:t i URL:en för begäran. If `default::Watermark` är inställt (i standardkatalogen, [!DNL default.ini]) används vattenstämpeln på alla bildbegäranden oavsett om de refererar till en katalog eller inte.
+Vattenstämplar aktiveras genom inställning `attribute::Watermark` till en giltig katalogpost som skulle innehålla vattenstämpelbilden eller mallen. If `attribute::Watermark` anges i en namngiven katalog lägger servern till vattenstämpeln i alla bildbegäranden som refererar till katalog-ID:t i URL:en för begäran. If `default::Watermark` är inställt (i standardkatalogen, [!DNL default.ini]) används vattenstämpeln på alla bildbegäranden oavsett om de refererar till en katalog eller inte.
 
 Vattenstämplar används inte på bilder som returneras som svar på miniatyrbildsförfrågningar ( `req=tmb`) och vissa önskemål från Dynamic Media.
 
 ## Skalning och justering {#section-89ef9e5926ae438abbd8e70332749b76}
 
-När en vattenstämpel har angetts genereras den sammansatta bilden först av servern (den *målbild*) som vattenstämpeln ska användas på (innan vyomformningarna tillämpas). Servern genererar sedan den sammansatta bilden för vattenstämpeln precis som andra bilder (den *vattenstämpelbild*).
+När en vattenstämpel anges genererar servern först den sammansatta bilden (den *målbild*) som vattenstämpeln ska användas på (innan vyomformningarna tillämpas). Servern genererar sedan den sammansatta bilden för vattenstämpeln precis som andra bilder (den *vattenstämpelbild*).
 
 Till skillnad från standardbilder `sizeN=` kan anges för layer=0 eller layer=comp för vattenstämpelbilden. Det gör att vattenstämpelbilden kan skalas i förhållande till målbilden. If `sizeN=` om inget anges behåller vattenstämpelbilden sin pixelstorlek när den sammanfogas med målbilden.
 
-Begär kommandon (t.ex. `fmt=`) och visa kommandon (t.ex. `wid=`) ignoreras i vattenstämpelposter, med undantag för `align=`. `align=` kan användas för att placera vattenstämpelbilden i förhållande till vattenstämpelbilden i förhållande till målbilden. Det gör att vattenstämpeln kan placeras i förhållande till ett hörn eller en kant på målbilden.
+Begär kommandon (t.ex. `fmt=`) och visa kommandon (som `wid=`) ignoreras i vattenstämpelposter, med undantag för `align=`. `align=` kan användas för att placera vattenstämpelbilden i förhållande till vattenstämpelbilden i förhållande till målbilden. Det gör att vattenstämpeln kan placeras i förhållande till ett hörn eller en kant på målbilden.
 
-Efter skalning och justering kommer servern att placera vattenstämpelbilden över målbilden med `blendMode=` och `opac=` värden angivna för `layer=0` eller `layer=comp` av vattenstämpelbilden. Slutligen används kommandona för att begära och visa som angetts för målbilden för att skapa svarsbilden.
+Efter skalning och justering lagrar servern vattenstämpelbilden över målbilden med `blendMode=` och `opac=` värden som anges för `layer=0` eller `layer=comp` av vattenstämpelbilden. Slutligen används kommandona för att begära och visa som angetts för målbilden för att skapa svarsbilden.
 
 Observera att vattenstämpelbilden aldrig sträcker sig över ett tomt utrymme som läggs till i svarsbilden av `wid=` och `hei=` kommandon.
 

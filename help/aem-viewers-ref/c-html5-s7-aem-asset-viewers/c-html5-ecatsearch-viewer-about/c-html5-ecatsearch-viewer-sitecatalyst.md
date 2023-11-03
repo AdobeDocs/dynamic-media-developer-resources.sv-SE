@@ -5,7 +5,7 @@ title: Stöd för Adobe Analytics tracking
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User,Data Engineer,Data Architect
 exl-id: b35e52f5-fa08-4945-aa52-9fdf41a6081a
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Visningsprogrammet för eCatalog-sökning stöder Adobe Analytics-spårning dire
 
 ## Spåra direkt {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-eCatalog Search Viewer har stöd för [!DNL Adobe Analytics] spårning direkt. Om du vill aktivera spårning skickar du rätt namn på företagets förinställning som `config2` parameter.
+eCatalog Search Viewer stöder [!DNL Adobe Analytics] spårning direkt. Om du vill aktivera spårning skickar du rätt namn på företagets förinställning som `config2` parameter.
 
 Visningsprogrammet skickar även en enda HTTP-begäran för spårning till den konfigurerade Image Server med information om visningsprogramtyp och version.
 

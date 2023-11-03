@@ -5,9 +5,9 @@ title: Bildkataloger
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 54c83ad2-a932-4df2-92ff-ab34d4a5b1a7
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ Bildkataloger har följande funktioner:
 
 * Tillåt beständig koppling av bilder med vissa metadata- och modifieringskommandon.
 
-   Poster i bildkataloger refereras med en genvägsnotation `*`rootId/objId`*`, där `*`rootId`*` identifierar bildkatalogen och `*`objId`*` identifierar en datapost i katalogen.
+  Poster i bildkataloger refereras med en genvägsnotation `*`rootId/objId`*`, där `*`rootId`*` identifierar bildkatalogen och `*`objId`*` identifierar en datapost i katalogen.
 * Ange standardvärden för vissa attribut, t.ex. JPEG-kvalitet eller om en vattenstämpel ska användas.
 * Hantera teckensnitt, ICC-profiler, makrodefinitioner och frågemallar
 
-Även om inga specifika bildkataloger är definierade är alla funktioner i bildkataloger tillgängliga via standardkatalogen ( [!DNL default.ini]).
+Även om inga specifika bildkataloger är definierade är alla funktioner i bildkataloger tillgängliga som standardkatalog ( [!DNL default.ini]).
 
 If `*`rootId`*` i begärans URL-sökväg matchar `attribute::RootId` för en viss bildkatalog blir den katalogen huvudkatalog för denna begäran. Huvudkatalogen innehåller standardattribut och standardinställningar för hela begäran. Om ingen matchning hittas används standardkatalogen i stället.
 
@@ -40,7 +40,7 @@ En katalog som identifieras i en `src=` eller `mask=` -kommandot innehåller fö
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::DefaultExt</span> </p> </td> 
-   <td> <p> standardtillägget för alla bildfilsbanor i det aktuella lagret </p> </td> 
+   <td> <p> standardtillägget för alla bildfilsbanor i aktuellt lager </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::Expiration</span> </p> </td> 
@@ -68,7 +68,7 @@ En katalog som identifieras i en `src=` eller `mask=` -kommandot innehåller fö
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> katalog::IccProfile</span> </p> </td> 
-   <td> <p> källbildens färgprofil för det aktuella lagret </p> </td> 
+   <td> <p> källbildens färgprofil för aktuellt lager </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> katalog::Map</span> </p> </td> 
@@ -84,7 +84,7 @@ En katalog som identifieras i en `src=` eller `mask=` -kommandot innehåller fö
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> katalog::Path</span> </p> </td> 
-   <td> <p> källbildfilen för det aktuella lagret </p> </td> 
+   <td> <p> källbildfilen för aktuellt lager </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> katalog::PostModifier</span> </p> </td> 
@@ -101,7 +101,7 @@ Inom samma lager `src=` och `mask=` måste referera till samma bildkatalog (om s
 
 En katalog som identifieras i en `icc=` -kommandot används bara för att söka efter en post från katalogens ICC-profiltabell. Inga andra katalogattribut eller data berörs.
 
-If, `*`rootId`*` matchar en katalog, och `*`objId`*` matchas med en `catalog::Id` i den här katalogen `*`rootId/objId`*` ersätts med katalogposten ungefär så här:
+If, `*`rootId`*` matchar en katalog, och `*`objId`*` matchas med `catalog::Id` i den här katalogen `*`rootId/objId`*` ersätts med katalogposten ungefär så här:
 
 `src=attribute::RootPath/catalog::Path& mask=attribute::RootPath/catalog::MaskPath& anchor=catalog::Anchor& catalog::Modifier& catalog::PostModifier`
 

@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 82117b6e-c0be-4538-90ab-8def7521b49c
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '2606'
 ht-degree: 0%
@@ -126,11 +126,11 @@ Som standard visas den modala dialogrutan centrerat på skärmen på stationära
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Ska antingen vara unset eller inställd på 100 %, vilket innebär att dialogrutan tar hela webbläsarfönstret (det här läget rekommenderas på enheter med pekskärm). </p> </td> 
+   <td colname="col2"> <p>Ska antingen vara unset eller inställd på 100 %, vilket innebär att dialogrutan tar hela webbläsarfönstret (det här läget rekommenderas på pekenheter). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Ska antingen vara unset eller inställd på 100 %, vilket innebär att dialogrutan tar hela webbläsarfönstret (det här läget rekommenderas på enheter med pekskärm). </p> </td> 
+   <td colname="col2"> <p>Ska antingen vara unset eller inställd på 100 %, vilket innebär att dialogrutan tar hela webbläsarfönstret (det här läget rekommenderas på pekenheter). </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -579,7 +579,7 @@ Om höjden på den här behållaren verkar vara större än huvudområdet i dial
  </tbody> 
 </table>
 
-Exempel - om du vill ställa in formulärinnehåll så att det har utfyllnad på tio pixlar:
+Exempel - om du vill ställa in formulärinnehåll så att det har en utfyllnad på tio pixlar:
 
 ```
 .s7ecatalogsearchviewer .s7embeddialog .s7dialogbody { 
@@ -1249,7 +1249,7 @@ Det går inte att placera rullningsknappar med CSS `top`, `left`, `bottom`och `r
 >
 >Dessa knappar har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen: `up`, `down`, `over`och `disabled`.
 
-Knappverktygstipsen kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
+Knappens tips kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
 
 Exempel - för att ställa in rullningsknappar som är 28 x 32 pixlar och har olika teckningar för varje läge:
 

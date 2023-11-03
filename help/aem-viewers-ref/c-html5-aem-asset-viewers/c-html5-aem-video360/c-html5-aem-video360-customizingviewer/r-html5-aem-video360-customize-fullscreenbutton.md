@@ -1,20 +1,20 @@
 ---
-title: Helskärmsknapp
-description: Helskärmsknappen gör att videospelaren övergår till eller avslutar helskärmsläget när en användare klickar på den.
+title: helskärmsknapp
+description: Helskärmsknappen gör att videospelaren övergår till eller avslutar helskärmsläget när användaren klickar på den.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 0cb2b1bd-154e-41d8-bd9f-69a1cfc72902
-source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
 
-# Helskärmsknapp{#full-screen-button}
+# helskärmsknapp{#full-screen-button}
 
-Helskärmsknappen gör att videospelaren övergår till eller avslutar helskärmsläget när en användare klickar på den.
+Helskärmsknappen gör att videospelaren övergår till eller avslutar helskärmsläget när användaren klickar på den.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -48,11 +48,11 @@ Utseendet på helskärmsknappen styrs av CSS-klassväljaren:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> Bredden på helskärmsknappen. </p> </td> 
+   <td colname="col2"> <p> Helskärmsknappens bredd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Höjden på helskärmsknappen. </p> </td> 
+   <td colname="col2"> <p>Helskärmsknappens höjd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
@@ -67,11 +67,11 @@ Utseendet på helskärmsknappen styrs av CSS-klassväljaren:
 
 >[!NOTE]
 >
->Den här knappen har stöd för båda `state` och `selected` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen. I synnerhet `selected='true'` motsvarar helskärmsläget och `selected='false'` motsvarar läget &quot;normal&quot;.
+>Den här knappen har stöd för båda `state` och `selected` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen. Särskilt gäller följande: `selected='true'` motsvarar läget&quot;helskärm&quot; och `selected='false'` motsvarar läget &quot;normal&quot;.
 
 Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) för mer information.
 
-**Exempel** - Om du vill ställa in en helskärmsknapp som är 32 x 32 pixlar och placerad 6 pixlar från kontrollfältets övre och högra kant. Du kan även visa olika bilder för vart och ett av de fyra olika knapplägena när du markerar dem eller inte markerar dem.
+**Exempel** - För att ställa in en helskärmsknapp som är 32 x 32 pixlar och placerad 6 pixlar från kontrollfältets övre och högra kant. Du kan även visa olika bilder för vart och ett av de fyra olika knapplägena när du markerar dem eller inte markerar dem.
 
 ```
 .s7video360viewer . s7fullscreenbutton { 

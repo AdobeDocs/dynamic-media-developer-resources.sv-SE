@@ -5,9 +5,9 @@ title: LocaleStrMap
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 48a1c71c-78a9-43db-8b1a-4189d34b0982
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Strängöversättningskarta. Avser ett locId som kan mappas till valfritt antal 
 
 En tom *`locale`* värdet matchar tomt och okänt `locale=` strängar. Detta gör att du kan definiera en standardregel för okända språk.
 
-Tom *`locId`* värden tillåts och väljer *`defaultString`* ( *`defaultString`* har ingen identifierare för språkområde). *`locId`* värden söks igenom i den angivna ordningen. Den första matchningen returneras.
+Tom *`locId`* värden tillåts och väljer *`defaultString`* (på *`defaultString`* har ingen identifierare för språkområde). *`locId`* värden söks igenom i den angivna ordningen. Den första matchningen returneras.
 
 Strängöversättning, när den är aktiverad, används för textsträngar i följande bildkatalogsfält:
 

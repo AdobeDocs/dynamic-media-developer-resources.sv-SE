@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: eeb5b2c7-688e-42a1-bfe6-3f29e509baed
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '1384'
 ht-degree: 0%
@@ -126,11 +126,11 @@ Som standard visas den modala dialogrutan centrerat på skärmen på stationära
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Ska antingen vara unset eller inställd på 100 %, vilket innebär att dialogrutan tar hela webbläsarfönstret (det här läget rekommenderas på enheter med pekskärm). </p> </td> 
+   <td colname="col2"> <p>Ska antingen vara unset eller inställd på 100 %, vilket innebär att dialogrutan tar hela webbläsarfönstret (det här läget rekommenderas på pekenheter). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Ska antingen vara unset eller inställd på 100 %, vilket innebär att dialogrutan tar hela webbläsarfönstret (det här läget rekommenderas på enheter med pekskärm). </p> </td> 
+   <td colname="col2"> <p>Ska antingen vara unset eller inställd på 100 %, vilket innebär att dialogrutan tar hela webbläsarfönstret (det här läget rekommenderas på pekenheter). </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -463,7 +463,7 @@ Båda knapparna har dessutom en gemensam CSS-klass som kan innehålla CSS-instä
  </tbody> 
 </table>
 
-Knappverktygstipsen kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
+Knappens tips kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
 
 Exempel - om du vill ställa in en dialogruteslut med knappen Avbryt (64 x 34), där textfärgen och bakgrundsfärgen är olika för varje knappläge:
 
@@ -577,7 +577,7 @@ Allt formulärinnehåll (som etiketter och inmatningsfält) finns i en behållar
  </tbody> 
 </table>
 
-Exempel - om du vill ställa in formulärinnehåll så att det har utfyllnad på tio pixlar:
+Exempel - om du vill ställa in formulärinnehåll så att det har en utfyllnad på tio pixlar:
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialogbody { 

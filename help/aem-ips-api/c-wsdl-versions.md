@@ -5,9 +5,9 @@ title: WSDL-versioner för IPS-webbtjänst
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d7a6079e-286e-4e62-b2ff-551ef4a5815c
-source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '956'
 ht-degree: 0%
 
 ---
@@ -300,7 +300,7 @@ xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
 
 **SOAP-fel**
 
-När en åtgärd påträffar ett undantagsvillkor returneras ett SOAP-fel som texten i SOAP-meddelandet i stället för det normala svaret. Om en icke-admin-användare till exempel försöker skicka föregående `addCompany` begäran returneras följande svar:
+När en åtgärd påträffar ett undantagsvillkor, returneras ett SOAP-fel som texten i SOAP-meddelandet i stället för det normala svaret. Om en icke-admin-användare till exempel försöker skicka föregående `addCompany` begäran returneras följande svar:
 
 ```
 HTTP/1.1 500 Internal Server Error 

@@ -5,9 +5,9 @@ title: Medieuppsättningsbegäranden
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 71efed33-6248-4d23-ab4e-2caec3449171
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '956'
 ht-degree: 0%
 
 ---
@@ -33,14 +33,14 @@ Mekanismen set har stöd för följande typer av svar:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>enkla videoklipp </p></td> 
-  <td class="stentry"> <p>En videopost i den statiska innehållskatalogen. </p></td> 
+  <td class="stentry"> <p>En videopost i katalogen med statiskt innehåll. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>färgruteuppsättningar </p></td> 
   <td class="stentry"> <p>En uppsättning objekt som består av en referens till en bildpost och en valfri separat referens till en bildpost som används som en färgruta. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>hierarkiska färgruteuppsättningar </p></td> 
+  <td class="stentry"> <p>hierarkiska färgrutor </p></td> 
   <td class="stentry"> <p>En uppsättning objekt som består av ett grundläggande färgruteobjekt eller en referens till en post för färgruteuppsättning. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -96,7 +96,7 @@ När en `req=set` begäran tas emot, vilken typ av svar som ska genereras bestä
    * Anta filbaserad video om filtillägget finns i följande uppsättning: mp3, mp4, flv, f4v, swf, xml
    * Anta annars filbaserad bild
 
-I samtliga fall kommer det resulterande xml-svaret att överensstämma med det angivna XML-dokumentet med den angivna rotnoden som motsvarar den identifierade typen.
+I samtliga fall överensstämmer det resulterande xml-svaret med det angivna XML-dokumentet med den angivna rotnoden som motsvarar den identifierade typen.
 
 ## Identifiering av intern set-typ {#section-8f46490e467247e69ce284704def06f3}
 
@@ -126,7 +126,7 @@ Det returnerade xml-svaret uppfyller följande specifikation:
 
 ## LabelKey {#section-bf565de6f7294cf89620343c9071f415}
 
-The `labelkey=` modifieraren används tillsammans med `catalog::UserData`om du vill generera etiketter för bilder och färgrutor. The `catalog:UserData` fältet tolkas som en uppsättning nyckel/värde-par och etikettnyckelindexen i den här uppsättningen för att hämta värdet för den angivna nyckeln. Värdet returneras sedan i *`l`* attribut för *`s`* och *`i`*.
+The `labelkey=` modifieraren används tillsammans med `catalog::UserData`om du vill generera etiketter för bilder och färgrutor. The `catalog:UserData` fältet tolkas som en uppsättning nyckel/värde-par och etikettnyckelindexen i den här uppsättningen för att hämta värdet för den angivna nyckeln. Värdet returneras sedan i *`l`* attributet för *`s`* och *`i`*.
 
 ## Tvingade begränsningar {#section-b9f042873bee45a5ae11b69fd42f2bca}
 

@@ -1,18 +1,18 @@
 ---
-description: Serverar statiskt innehåll (inte bildinnehåll)
+description: Serverar statiskt (icke-bildinnehåll) innehåll
 solution: Experience Manager
-title: Serverar statiskt innehåll (inte bildinnehåll)
+title: Serverar statiskt (icke-bildinnehåll) innehåll
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e2c79bdc-5d70-46d9-85f4-ffebd7621944
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
 
-# Serverar statiskt innehåll (inte bildinnehåll){#serving-static-non-image-content}
+# Serverar statiskt (icke-bildinnehåll) innehåll{#serving-static-non-image-content}
 
 Image Serving är ett sätt att hantera innehåll som inte finns i bilder i kataloger och hantera det via en separat `context /is/content`. Mekanismen gör det möjligt att konfigurera TTL för varje objekt separat.
 
@@ -94,26 +94,26 @@ Kataloger med statiskt innehåll liknar bildkataloger, men har stöd för färre
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> katalog::Förfallotid </span> </p> </td> 
-   <td> <p> TTL för detta innehållsobjekt; attribute::Expiration is used if not specified or if empty </p> </td> 
+   <td> <p> TTL för det här innehållsobjektet; attribute::Expiration används om inget anges eller om det är tomt </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> katalog::TimeStamp </span> </p> </td> 
-   <td> <p> Tidsstämpel för ändring av fil. krävs när katalogbaserad validering är aktiverad med attributet::CacheValidationPolicy </p> </td> 
+   <td> <p> Tidsstämpel för filändring; krävs när katalogbaserad validering har aktiverats med attributet::CacheValidationPolicy </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> katalog::UserData </span> </p> </td> 
-   <td> <p> Valfria metadata som är kopplade till detta statiska innehållsobjekt. tillgänglig för klienten med req=userdata </p> </td> 
+   <td> <p> Valfria metadata associerade med det här statiska innehållsobjektet, tillgängliga för klienten med req=userdata </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> katalog::UserType </span> </p> </td> 
-   <td> <p> Valfri datatyp. kan användas för att filtrera begäranden om statiskt innehåll med kommandot type= </p> </td> 
+   <td> <p> Valfri datatyp; kan användas för att filtrera begäranden om statiskt innehåll med kommandot type= </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Filtrera statiskt innehåll {#section-896c37cf68bc446eb0766fb378898262}
 
-Den här mekanismen kan hjälpa till att säkerställa att klienter endast får det innehåll som passar deras behov. Anta att det statiska innehållet är taggat med lämpligt `catalog::UserType`värden kan klienten lägga till `type=` till begäran. Image Serving kommer att jämföra värdet som anges med `type=` till värdet av `catalog::UserType` och returnera ett fel i stället för potentiellt olämpligt innehåll om det inte matchar.
+Den här mekanismen kan hjälpa till att säkerställa att klienter endast får det innehåll som passar deras behov. Anta att det statiska innehållet är taggat med lämpligt `catalog::UserType`värden kan klienten lägga till `type=` till begäran. Image Serving jämför värdet som anges med `type=` till värdet av `catalog::UserType` och returnera ett fel i stället för potentiellt olämpligt innehåll om det inte matchar.
 
 ## Se även {#section-91c7b686aacf4d3ca974f35a3fe3d6ec}
 

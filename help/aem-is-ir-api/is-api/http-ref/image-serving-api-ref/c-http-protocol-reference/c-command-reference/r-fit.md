@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d2939f86-5dab-471d-ba59-70d91ae1e4fd
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ I följande beskrivning av lägesalternativen antas att *`xScale`* är förhåll
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> anpassa </span> </p> </td> 
-   <td colname="col2"> <p>Skalar den sammansatta bilden så att den passar in i det utrymme som tilldelats med <span class="codeph"> wid= </span> och <span class="codeph"> hei= </span>, med minimalt mellanrum och utan beskärning. Svarsbilden får exakt den storlek som anges med <span class="codeph"> wid= </span> och <span class="codeph"> hei= </span>. Den mindre av <span class="varname"> xScale </span> och <span class="varname"> yScale </span> används. </p> </td> 
+   <td colname="col2"> <p>Skalar den sammansatta bilden så att den passar in i det utrymme som tilldelats med <span class="codeph"> wid= </span> och <span class="codeph"> hei= </span>, med minimalt mellanrum och utan beskärning. Svarsbilden har exakt den storlek som anges med <span class="codeph"> wid= </span> och <span class="codeph"> hei= </span>. Den mindre av <span class="varname"> xScale </span> och <span class="varname"> yScale </span> används. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> begränsa </span> </p> </td> 
@@ -61,7 +61,7 @@ I följande beskrivning av lägesalternativen antas att *`xScale`* är förhåll
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> hfit </span> </p> </td> 
-   <td colname="col2"> <p>Gäller <span class="varname"> xScale </span> om du vill att bilden ska passas in vågrätt, med trolig beskärning eller tomt utrymme längst upp och/eller längst ned. Användbart för specialprogram. </p> </td> 
+   <td colname="col2"> <p>Gäller <span class="varname"> xScale </span> om du vill att bilden ska passas in vågrätt, med trolig beskärning eller tomt utrymme högst upp och/eller längst ned. Användbart för specialprogram. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> vinst </span> </p> </td> 
@@ -72,11 +72,11 @@ I följande beskrivning av lägesalternativen antas att *`xScale`* är förhåll
 
 Ange *`upscale`* till &#39;1&#39; för att tillåta uppskalning eller till &#39;0&#39; för att begränsa *`xScale`*och *`yScale`* begränsas till 1:1. Om uppskalning är inaktiverat kan det finnas ytterligare tomt utrymme om den sammansatta bilden är mindre än svarsbilden.
 
-Beskärning och tomt utrymme centreras som standard. deras position kan styras med `align=`. Färgen och opaciteten för blankstegsfyllningen bestäms av `bgc=`.
+Beskärning och tomt utrymme centreras som standard. Dess placering kan styras med `align=`. Färgen och opaciteten för blankstegsfyllningen bestäms av `bgc=`.
 
 ## Egenskaper {#section-6d7a5a7e18434bca9bc2fdb236af8909}
 
-Visa attribut. Används oavsett den aktuella lagerinställningen. Minst en av `wid=` eller `hei=` måste också anges, annars returneras ett fel. båda `wid=` och `hei=` måste anges för att passningslägena ska fungera enligt beskrivningen. Ett fel returneras när `req=tmb` anges också.
+Visa attribut. Används oavsett den aktuella lagerinställningen. Minst en av `wid=` eller `hei=` måste också anges, annars returneras ett fel. `wid=` och `hei=` måste anges för att passningslägena ska fungera enligt beskrivningen. Ett fel returneras när `req=tmb` anges också.
 
 ## Standard {#section-3a553b4b29ef447a8331d6954f3f06da}
 

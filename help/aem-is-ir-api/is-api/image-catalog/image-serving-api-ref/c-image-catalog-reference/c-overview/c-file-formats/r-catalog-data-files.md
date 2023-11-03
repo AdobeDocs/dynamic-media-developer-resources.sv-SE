@@ -5,9 +5,9 @@ title: Katalogdatafiler
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4aa20abe-4f84-470b-b5a1-3d9246ab1792
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Katalogdatafiler kan ha vilket namn och filsuffix som helst (förutom .ini). De kan enkelt underhållas med program som stöder tabbavgränsade textdatafiler som Microsoft Excel och Access.
 
-En katalogdatafil är i princip en tvådimensionell tabell och består av en rubrikpost som identifierar datakolumner och ett valfritt antal dataposter (rader). Fält i både rubrik- och dataposter avgränsas med en `<TAB>` tecken. Posterna avgränsas av en enda `<CR>` (ASCII-kod `0xD`), en `<LF>` (ASCII-kod `0xA`) eller en `<CR><LF>` par.
+En katalogdatafil är i princip en tvådimensionell tabell och består av en rubrikpost som identifierar datakolumner och ett valfritt antal dataposter (rader). Fält i både rubrik- och dataposter avgränsas med en `<TAB>` tecken. Posterna avgränsas av en enda `<CR>` (ASCII-kod `0xD`), en `<LF>` (ASCII-kod `0xA`), eller en `<CR><LF>` par.
 
 Rubrikposten måste innehålla de exakta namnen för varje datafält. Tomma fält tillåts inte i rubrikraden. Datafältnamn är inte skiftlägeskänsliga. Alla fältnamn måste vara unika.
 
-Det går inte att använda blankstegstecken som fältavgränsare. Inga mellanslag tillåts i rubrikposten. I dataposter räknas alla blanksteg i början eller slutet av ett datafält som en del av datafältet.
+Det går inte att använda blankstegstecken som fältavgränsare. Inga mellanslag tillåts i rubrikposten. I dataposter räknas alla blanksteg i början eller slutet av ett datafält som en del av det datafältet.
 
 I dataposterna finns två intilliggande `<TAB>` tecken anger ett tomt fält. Tomma fält kan ärva standardvärden från antingen katalogattributen eller från serverns standardvärden.
 

@@ -5,9 +5,9 @@ title: AllowDirectAccess
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b4000bdf-c21a-4976-82a7-70b2261dee0b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Tillåt direkt åtkomst till sökvägsbaserade resurser.
 
-När det här attributet är definierat tillåts eller begränsas sökvägsbaserad åtkomst för de angivna objekttyperna, beroende på om `include` eller `exclude` nyckelord används.
+När det här attributet definieras tillåts eller begränsas sökvägsbaserad åtkomst för de angivna objekttyperna, beroende på om `include` eller `exclude` nyckelord används.
 
 >[!NOTE]
 >
@@ -41,24 +41,24 @@ Följande typer kan kontrolleras:
 
 * Tillåt endast direktåtkomst för `IS` och `STATIC` objekttyper
 
-   `AllowDirectAccess=include:IS,STATIC`
+  `AllowDirectAccess=include:IS,STATIC`
 
 * Tillåt direktåtkomst för alla objekttyper utom `IS` och `STATIC``AllowDirectAccess=exclude:IS,STATIC`
 
 * Tillåt direktåtkomst för *no* objekttyper (d.v.s. include none)
 
-   `AllowDirectAccess=include:`
+  `AllowDirectAccess=include:`
 
 * Tillåt direktåtkomst för *alla* objekttyper (d.v.s. exkludera ingen)
 
-   `AllowDirectAccess=exclude:`
+  `AllowDirectAccess=exclude:`
 
 * Motsvarar `include:IS,STATIC` (om `include`/ `exclude` inte finns, `include` antas)
 
-   `AllowDirectAccess=IS,STATIC`
+  `AllowDirectAccess=IS,STATIC`
 
-   Observera att det är standardvärdet som används om `AllowDirectAccess` inget attribut har angetts för det här företaget.
+  Observera att det är standardvärdet som används om `AllowDirectAccess` inget attribut har angetts för det här företaget.
 
 * Inkludera ingen, motsvarar `include:` (om `include`/ `exclude` inte finns, `include` antas)
 
-   `AllowDirectAccess=`
+  `AllowDirectAccess=`

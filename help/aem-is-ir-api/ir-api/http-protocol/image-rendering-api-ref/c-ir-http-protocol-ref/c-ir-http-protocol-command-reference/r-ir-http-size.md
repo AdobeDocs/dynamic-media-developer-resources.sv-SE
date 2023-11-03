@@ -1,11 +1,11 @@
 ---
 title: size
-description: Decal size. Anger storleken på ett dekalt material.
+description: Decal size. Anger storleken på ett rent material.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 756d8b9f-076a-48d6-95c9-e0d6caeed3dd
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # size{#size}
 
-Decal size. Anger storleken på ett dekalt material.
+Decal size. Anger storleken på ett rent material.
 
 ` size= *`bredd,höjd`*[ *`,tjocklek`*]`
 
@@ -35,11 +35,11 @@ If *`thickness`* anges återges en skugga om vinjetteringsobjektet definierar en
 
 ## Egenskaper {#section-818e01e91fed4015951189c818ef28d8}
 
-Materialattribut. Används endast av dekortecken. ignoreras av alla andra material. `res=` ignoreras om bredden eller höjden är större än 0. Värden får inte vara negativa.
+Materialattribut. Används endast av dekortecken; ignoreras av alla andra material. `res=` ignoreras om bredden eller höjden är större än 0. Värden får inte vara negativa.
 
 ## Standard {#section-f91f516c6af54f0eb4d8c964b923cae0}
 
-`catalog::Size` om det dekala materialet är baserat på en katalogpost, annars `size=0,0,0`. Den dekala storleken beräknas från `res=` if *`wid`* och *`hei`* är inte angivna eller har värdet 0. Ingen skugga återges om *`thickness`* har inte angetts eller angetts till 0.
+`catalog::Size` om det dekala materialet är baserat på en katalogpost, annars `size=0,0,0`. Den dekala storleken beräknas från `res=` if *`wid`* och *`hei`* är inte angivna eller har värdet 0. Ingen skugga återges om *`thickness`* har inte angetts eller har angetts till 0.
 
 ## Exempel {#section-04fdc2b60b9e4071b672bf6a913738ad}
 

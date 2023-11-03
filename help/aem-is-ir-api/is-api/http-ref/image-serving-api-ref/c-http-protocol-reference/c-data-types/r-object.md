@@ -5,9 +5,9 @@ title: object
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 64846f8f-ebc6-446c-8277-04c45111dc24
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -37,17 +37,17 @@ Källobjektsspecificerare. Bild-, SVG- och ICC-profilobjekt kan anges som bildka
  </tr> 
 </table>
 
-*`rootId`* används för att identifiera en bildkatalog. (Se [Bildkatalog](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) för mer information.) If *`rootId`* anges i URL-sökvägen, blir den katalogen *huvudkatalog* för denna begäran. I annat fall används standardkatalogen som huvudkatalog. Flera olika bildkataloger kan användas i samma begäran.
+*`rootId`* används för att identifiera en bildkatalog. (Se [Bildkatalog](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) för mer information.) If *`rootId`* anges i URL-sökvägen, blir den katalogen *huvudkatalog* för denna begäran. Annars används standardkatalogen som huvudkatalog. Flera olika bildkataloger kan användas i samma begäran.
 
-Servern antar inledningsvis att *`rootId`* utelämnas i `src=`, `mask=`och `icc=` och försöker hitta en katalogpost i huvudkatalogen. I praktiken försöker servern att använda hela *`object`* sträng som *`objId.`*
+Servern antar inledningsvis att *`rootId`* utelämnas i `src=`, `mask=`och `icc=` kommandon och försöker hitta en katalogpost i huvudkatalogen. I praktiken försöker servern att använda hela *`object`* sträng som *`objId.`*
 
-Om en katalogpost hittas används den. i annat fall försöker servern sedan matcha *`rootId`* för en bildkatalog. Om en katalog identifieras söks den efter *`objId`*. Om och post hittas används den.
+Om en katalogpost hittas används den. Annars försöker servern att matcha *`rootId`* för en bildkatalog. Om en katalog identifieras söks den efter *`objId`*. Om och post hittas används den.
 
 I annat fall *`object`* antas vara en explicit filsökväg. I det här fallet `attribute::FullMatch` anges i huvudkatalogen, ignoreras katalogen för det här objektet och standardkatalogen används i stället. If `attribute::FullMatch` är inte inställd används huvudkatalogen för vidare bearbetning.
 
-Båda *`rootId`* och *`objId`* är skiftlägeskänsliga. *`path`* är endast skiftlägeskänsligt på UNIX.
+Båda *`rootId`* och *`objId`* är versalkänsliga. *`path`* är endast skiftlägeskänsligt på UNIX.
 
-Om ett radavstånd `/` anges söks standardkatalogen i stället för huvudkatalogen. Detta är i första hand användbart när en explicit sökväg kräver `default::RootPath` i stället för huvudkatalogens `attribute::RootPath`, men kan också användas för att få åtkomst till poster i standardkatalogen som annars skulle åsidosättas av poster i huvudkatalogen.
+Om ett radavstånd `/` anges söks standardkatalogen igenom i stället för huvudkatalogen. Detta är i första hand användbart när en explicit sökväg kräver `default::RootPath` i stället för huvudkatalogens `attribute::RootPath`, men kan också användas för att få åtkomst till poster i standardkatalogen som annars skulle åsidosättas av poster i huvudkatalogen.
 
 Se *Hantera innehåll* i *Konfigurationshandbok för server* för mer information om hur *`path`* översätts till en fysisk filsökväg.
 
@@ -65,7 +65,7 @@ Program som kräver bilddata i flera olika upplösningar fungerar bäst när du 
 
 **Åtkomst till en bild och en ICC-profil i två olika bildkataloger**
 
-Hämta bilden [!DNL myImage]&#39; i bildkatalogen som identifieras som &#39; [!DNL myCatalog]&#39; och bifoga ICC-profilen &#39; [!DNL sRGB]&#39; finns i bildkatalogen med namnet &#39; [!DNL myProfiles]&#39;:
+Hämta bilden &#39; [!DNL myImage]i bildkatalogen som identifieras som [!DNL myCatalog]och bifoga ICC-profilen [!DNL sRGB]&#39; finns i bildkatalogen med namnet &#39; [!DNL myProfiles]&#39;:
 
 ` http:// *`server`*/myCatalog/myImage?icc=myProfiles/sRGB&iccEmbed=true`
 

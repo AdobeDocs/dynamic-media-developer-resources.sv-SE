@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 25032917-237c-4227-92bd-ce66a6d003a0
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '890'
 ht-degree: 0%
@@ -110,11 +110,11 @@ Utseendet på enskilda miniatyrbilder styrs med följande CSS-klassväljare:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Bredden på miniatyrbilden. </p> </td> 
+   <td colname="col2"> <p>Miniatyrbildens bredd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Höjden på miniatyrbilden. </p> </td> 
+   <td colname="col2"> <p>Miniatyrbildens höjd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
@@ -131,7 +131,7 @@ När visningsprogrammet roterar till stående läge på pekenheter kan det ändr
 
 >[!NOTE]
 >
->Miniatyrbilden har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika miniatyrlägen. I synnerhet `state="selected"` motsvarar miniatyrbilden för den bild som visas i huvudvyn, `state="default"` motsvarar resten av miniatyrbilderna, och `state="over"` används vid hovring av musen.
+>Miniatyrbilden har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika miniatyrlägen. Särskilt gäller följande: `state="selected"` motsvarar miniatyrbilden för den bild som visas i huvudvyn, `state="default"` motsvarar resten av miniatyrbilderna, och `state="over"` används vid hovring av musen.
 
 Exempel - Om du vill ställa in miniatyrbilder som är 120 x 85 pixlar har du en vit bakgrund, en ljusgrå standardkant och en mörkgrå markerad kant.
 
@@ -161,7 +161,7 @@ Utseendet på miniatyrbildetiketten styrs av följande CSS-klassväljare:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>Teckensnittsnamn. </p> </td> 
+   <td colname="col2"> <p>Typsnittsnamn. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
@@ -201,7 +201,7 @@ Om det finns fler miniatyrbilder än vad som får plats lodrätt i vyn återges 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> nederkant </span> </p> </td> 
-   <td colname="col2"> <p>Den lodräta rullningslistens förskjutning från miniatyrbildens nederkant. </p> </td> 
+   <td colname="col2"> <p>Den lodräta rullningslistens förskjutning från miniatyrbildsområdets nederkant. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> höger </span> </p> </td> 

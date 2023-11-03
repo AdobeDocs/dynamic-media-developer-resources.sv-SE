@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: aff45f0f-e672-40da-9cc8-db83cf3922ff
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Materialfil. Anger materialdata, antingen i form av en enstaka materialkatalogre
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> embeddedReq</span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph">&amp;klammerparentes;'klammerparentes;'<span class="varname"> isReq</span>&amp;Klammerparenteser;&amp;klammerparenteser;|&amp;klammerparenteser;<span class="varname"> irReq</span>&amp;Klammerparentes;|&amp;klammerparentes;'<span class="varname"> foreignReq</span>&amp;Rankning;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&amp;klammerparentes;'klammerparentes;'<span class="varname"> isReq</span>&amp;Klammerparenteser;&amp;klammerparenteser;|&amp;klammerparenteser;<span class="varname"> irReq</span>'&amp;rbrace;'|&amp;lbrace;'&amp;lbrace;'<span class="varname"> foreignReq</span>&amp;Klammerparentes;</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p></td> 
@@ -99,7 +99,7 @@ Se beskrivningen av verktyget IC i dokumentationen för Image Serving för en fu
 
 ## Egenskaper {#section-e68d03788d534e2184147987d51dfd0f}
 
-Materialattribut. Krävs för alla material utom enfärgade (tillåts inte för enfärgade material). Alla strängar är skiftlägeskänsliga. *`index`* Måste vara 0 eller större.
+Materialattribut. Krävs för alla material utom enfärgade (tillåts inte för enfärgade material). Alla strängar är versalkänsliga. *`index`* Måste vara 0 eller större.
 
 ## Standard {#section-dde549c1917540dc8f9555962202da3c}
 

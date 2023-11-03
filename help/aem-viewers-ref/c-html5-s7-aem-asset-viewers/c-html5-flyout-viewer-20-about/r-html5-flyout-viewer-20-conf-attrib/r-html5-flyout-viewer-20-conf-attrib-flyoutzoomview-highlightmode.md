@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: b35285a2-7319-4ed7-9681-12a6acda8fa5
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> markera|markör </span> </p> </td> 
-   <td colname="col2"> <p> Anger vilken typ av navigeringsram som ska användas. När inställt på <span class="codeph"> markör </span>använder komponenten en referensmarkör med fast storlek. Det går att ha olika markörgrafik för datorer och pekenheter. Denna förmåga är kontrollerad med <span class="codeph"> .s7cursor </span> CSS-klass och <span class="codeph"> input=mouse|touch </span> attributväljare. På stationära datorer ställs en fästpunkt in mitt i markörområdet, medan fästpunkten finns längst ned i mitten av markören på pekenheter. När inställt på <span class="codeph"> markera </span>, komponenten använder en navigeringsram i variabel storlek, ramens storlek och form beror på zoomfaktorn och den utfällbara vyns storlek. </p> </td> 
+   <td colname="col2"> <p> Anger vilken typ av navigeringsram som ska användas. När inställt på <span class="codeph"> markör </span>använder komponenten en referensmarkör med fast storlek. Det går att ha olika markörgrafik för datorer och pekenheter. Denna förmåga är kontrollerad med <span class="codeph"> .s7cursor </span> CSS-klass och <span class="codeph"> input=mouse|touch </span> attributväljare. På stationära datorer ställs en fästpunkt in mitt i markörområdet, medan fästpunkten finns längst ned i mitten av markören på pekenheter. När inställt på <span class="codeph"> markera </span>används en navigeringsram med variabel storlek. Bildrutans storlek och form beror på zoomfaktorn och storleken på den utfällbara vyn. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showtime </span> </span> </p> </td> 
-   <td colname="col2"> <p> Anger den tid (i sekunder) det tar för markören att tonas in efter att den har aktiverats av användaren. Tona in används endast på pekenheter. på datorsystem ignoreras det av komponenten. </p> <p>Tona in gäller för följande gränssnittselement: markeringsram, fast markör, övertäckning (om det är <span class="codeph"> övertäckning </span> parametern är inställd på <span class="codeph"> 1 </span>). Animeringen i den utfällbara vyn börjar först när markeringen/markören har tonats in i animeringen. Det finns ingen tonad animering. När användaren inaktiverar den utfällbara menyn döljs motsvarande gränssnittselement (markör, högdager och övertäckning) omedelbart. </p> </td> 
+   <td colname="col2"> <p> Anger den tid (i sekunder) det tar för markören att tonas in efter att den har aktiverats av användaren. Tona in används bara på pekenheter. På skrivbordssystem ignoreras det av komponenten. </p> <p>Tona in gäller för följande gränssnittselement: markeringsram, fast markör, övertäckning (om det är <span class="codeph"> övertäckning </span> parametern är inställd på <span class="codeph"> 1 </span>). Animeringen i den utfällbara vyn börjar först när markeringen/markören har tonats in i animeringen. Det finns ingen uttonad animering. När användaren inaktiverar den utfällbara menyn döljs motsvarande gränssnittselement (markör, högdager och övertäckning) omedelbart. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> onimage|free </span> </p> </td> 

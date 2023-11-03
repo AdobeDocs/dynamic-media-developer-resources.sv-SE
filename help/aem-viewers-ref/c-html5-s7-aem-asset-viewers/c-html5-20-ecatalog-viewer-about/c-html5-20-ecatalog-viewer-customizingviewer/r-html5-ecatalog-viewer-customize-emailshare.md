@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 4c72500b-9750-4fae-9447-96cf600b31c7
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '3045'
 ht-degree: 0%
@@ -130,7 +130,7 @@ Som standard visas den modala dialogrutan centrerat på skärmen på stationära
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p> Ska antingen vara unset eller inställd på 100 %, vilket innebär att dialogrutan visas i hela webbläsarfönstret (det här läget rekommenderas på enheter med pekskärm). </p> </td> 
+   <td colname="col2"> <p> Ska antingen vara unset eller inställd på 100 %, vilket innebär att dialogrutan visas i hela webbläsarfönstret (det här läget rekommenderas på pekenheter). </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -284,7 +284,7 @@ Stängningsknappen styrs med följande CSS-klassväljare:
 
 Knappbeskrivningen Stäng och dialogrutans titel kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
 
-Exempel - Om du vill ställa in en dialogrutas sidhuvud med utfyllnad, en ikon med storleken 24 x 17 pixlar och en rubrik med 16 punkter i fet stil. Slutligen en stängningsknapp på 28 x 28 pixlar som placeras två pixlar uppifrån och två pixlar från höger om dialogrutans behållare:
+Exempel - Om du vill ställa in en dialogrutarubrik med utfyllnad, en 24 x 17 pixlar-ikon och en 16 punkters fetstil. Slutligen en stängningsknapp på 28 x 28 pixlar som placeras två pixlar uppifrån och två pixlar från höger om dialogrutans behållare:
 
 ```
 .s7ecatalogviewer .s7emaildialog .s7dialogheader { 
@@ -550,7 +550,7 @@ Huvuddialogrutan (mellan sidhuvudet och sidfoten) innehåller rullningsbart dial
 
 >[!NOTE]
 >
->Huvudområdet i dialogrutan har stöd för det valfria `state` attributväljare. Den är inställd på `sendsuccess` när e-postformuläret skickas och dialogrutan innehåller ett bekräftelsemeddelande. Så länge bekräftelsemeddelandet är litet kan den här attributväljaren användas för att minska dialogrutans höjd när ett sådant bekräftelsemeddelande visas.
+>Huvuddialogrutan har stöd för det valfria `state` attributväljare. Den är inställd på `sendsuccess` när e-postformuläret skickas och dialogrutan innehåller ett bekräftelsemeddelande. Så länge bekräftelsemeddelandet är litet kan den här attributväljaren användas för att minska dialogrutans höjd när ett sådant bekräftelsemeddelande visas.
 
 Exempel - Om du vill ställa in att huvudområdet i dialogrutan ska vara 300 pixlar högt från början och 100 pixlar högt när bekräftelsemeddelandet visas, har du en marginal på tio pixlar och använder en vit bakgrund:
 
@@ -584,7 +584,7 @@ Om höjden på den här behållaren verkar vara större än huvudområdet i dial
  </tbody> 
 </table>
 
-Exempel - om du vill ställa in formulärinnehåll så att det har utfyllnad på tio pixlar:
+Exempel - om du vill ställa in formulärinnehåll så att det har en utfyllnad på tio pixlar:
 
 ```
 .s7ecatalogviewer .s7emaildialog .s7dialogbody { 
@@ -676,7 +676,7 @@ Alla statiska etiketter som visas till vänster om formulärinmatningsfälten st
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> textjustering </span> </p> </td> 
-   <td colname="col2"> <p>Den vågräta textjusteringen. </p> </td> 
+   <td colname="col2"> <p>Vågrät textjustering. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> marginal </span> </p> </td> 
@@ -712,7 +712,7 @@ Varje formulärindatafält placeras i behållaren så att du kan använda en anp
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
-   <td colname="col2"> <p>Kant runt inmatningsfältbehållaren. </p> </td> 
+   <td colname="col2"> <p>Kantlinje runt inmatningsfältbehållaren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> utfyllnad </span> </p> </td> 
@@ -849,7 +849,7 @@ Med knappen Lägg till en annan e-postadress kan en användare lägga till fler 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
-   <td colname="col2"> <p>Texthöjd inuti knappen. Påverkar den lodräta justeringen. </p> </td> 
+   <td colname="col2"> <p>Texthöjd inuti knappen. Påverkar lodrät justering. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> textjustering </span> </p> </td> 
@@ -1212,7 +1212,7 @@ När en användare anger felaktiga indata och intern validering misslyckas. Elle
 
 >[!NOTE]
 >
->Det här meddelandet har stöd för `state` attributväljare med följande möjliga värden: `verifyerror`, `senderror`och `sendsuccess`. Värdet `verifyerror` anges när ett meddelande visas på grund av ett internt indatavalideringsfel. Värdet `senderror` anges när en backend-e-posttjänst rapporterar ett fel. Värdet  `sendsuccess` anges när e-post skickas. På det här sättet kan du formatera meddelandet på olika sätt beroende på hur dialogrutan ser ut.
+>Det här meddelandet stöder `state` attributväljare med följande möjliga värden: `verifyerror`, `senderror`och `sendsuccess`. Värdet `verifyerror` anges när ett meddelande visas på grund av ett internt indatavalideringsfel. Värdet `senderror` anges när en backend-e-posttjänst rapporterar ett fel. Värdet  `sendsuccess` anges när e-post har skickats. På det här sättet kan du formatera meddelandet på olika sätt beroende på hur dialogrutan ser ut.
 
 Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
 
@@ -1321,7 +1321,7 @@ Rullningslistens spår är området mellan den övre och den nedre rullningsknap
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>Bakgrundsfärgen för spåret. </p> </td> 
+   <td colname="col2"> <p>Bakgrundsfärg för spår. </p> </td> 
   </tr> 
  </tbody> 
 </table>

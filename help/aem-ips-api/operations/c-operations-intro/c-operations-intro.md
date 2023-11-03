@@ -1,13 +1,13 @@
 ---
-description: Beskriver de vanliga åtgärdsparametrarna som hanteras av IPS Web Service API.
+description: Beskriver de vanliga åtgärdsparametrarna som hanteras av API:t för IPS-webbtjänsten.
 solution: Experience Manager
 title: Operationsmetoder
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 020c8e63-ad4e-4c0d-8da6-b51efb2b89a5
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ I det här avsnittet beskrivs de vanliga åtgärdsparametrarna som hanteras av A
 
 En fullständig beskrivning av varje åtgärdsparameter finns i [Operationsparametrar](/help/aem-ips-api/operations/c-operations-intro/c-methods/c-methods.md).
 
-## Handtag: Om {#section-094ce1afa6244fa5b2c762f44ffdca1c}
+## Handtag: om {#section-094ce1afa6244fa5b2c762f44ffdca1c}
 
 Hanterar refererande IPS-objekt som returneras av vissa API-åtgärder. Du kan också skicka handtag som parametrar till efterföljande åtgärdsanrop. Handtag är strängdatatyper ( `xsd:string`).
 
@@ -55,7 +55,7 @@ De flesta åtgärder kräver att du anger ett företagskontext genom att skicka 
 
 **userHandle**
 
-The `userHandle` parameter är en valfri parameter för åtgärder som riktar sig till en viss användare. Som standard riktar dessa åtgärder sig till den anropande användaren (den användare vars inloggningsuppgifter skickas för autentisering). Administratörsanvändare med rätt behörighet kan dock ange en annan användare. Till exempel `setPassword` anger vanligtvis lösenordet för den autentiserade användaren, men en administratör kan använda `userHandle` parameter för att ange lösenordet för en annan användare.
+The `userHandle` parameter är en valfri parameter för åtgärder som riktar sig till en viss användare. Som standard riktar dessa åtgärder sig till den anropande användaren (den användare vars inloggningsuppgifter skickas för autentisering). Administratörsanvändare med rätt behörighet kan dock ange en annan användare. Till exempel `setPassword` anger vanligtvis lösenordet för den autentiserade användaren, men en administratör kan använda `userHandle` -parameter för att ange lösenordet för en annan användare.
 
 För åtgärder som kräver en företagskontext (med `companyHandle` parameter) måste både autentiserade användare och målanvändare vara medlemmar i det angivna företaget. För åtgärder som inte kräver någon företagskontext måste både den autentiserade användaren och målanvändaren vara medlemmar i minst ett gemensamt företag.
 
@@ -102,7 +102,7 @@ Om du inte inkluderar `responseFieldArray` eller `excludeFieldArray` i en begär
 
 Sedan IPS 4.0 har IPS API:t stöd för att ställa in språkkontexten för en åtgärd genom att skicka `authHeader` locale-parameter. Om parametern locale inte finns, HTTP-huvudet `Accept-Language` används. Om den här rubriken inte finns används standardspråket för IPS-servern.
 
-Vissa åtgärder tar också explicita språkområdesparametrar, som kan skilja sig från åtgärdssammanhanget. Till exempel `submitJob` operationen tar `locale` parameter som anger språkområdet som används för jobbloggning och e-postmeddelanden.
+Vissa åtgärder tar också explicita språkparametrar, som kan skilja sig från åtgärdssammanhanget. Till exempel `submitJob` operationen tar `locale` parameter som anger språkområdet som används för jobbloggning och e-postmeddelanden.
 
 Språkparametrar använder formatet `<language_code>[-<country_code>]`
 

@@ -1,23 +1,23 @@
 ---
-title: Helskärmsstöd
+title: helskärmsstöd
 description: Visningsprogrammet stöder helskärmsläge.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: fbf2b9cb-9187-4ce9-99d5-07ca20b7fa7d
-source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
 
-# Helskärmsstöd{#full-screen-support}
+# helskärmsstöd{#full-screen-support}
 
 Visningsprogrammet stöder helskärmsläge.
 
-I moderna webbläsare, förutom Internet Explorer 10 och tidigare, och på vissa enheter med pekskärm, använder visningsprogrammet helskärmsläget &quot;native&quot;. Det här läget innebär att hela enhetsskärmen upptas av visningsprograminnehållet.
+I moderna webbläsare, förutom Internet Explorer 10 och tidigare, och på vissa enheter med pekskärm, använder visningsprogrammet helskärmsläge. Det här läget innebär att hela enhetsskärmen upptas av visningsprograminnehållet.
 
-På iOS-enheter och i äldre Internet Explorer-webbläsare används helskärmsläget&quot;simulerad&quot; i stället. I det här läget ändras visningsprogrammets storlek så att hela delen av webbläsarfönstret visas. Dessutom visas webbläsarens användargränssnitt och andra fönster fortfarande på skärmen.
+På iOS-enheter och i äldre Internet Explorer-webbläsare används helskärmsläget&quot;simulerad&quot; istället. I det här läget ändras visningsprogrammets storlek så att hela delen av webbläsarfönstret visas. Dessutom visas webbläsarens användargränssnitt och andra fönster fortfarande på skärmen.
 
-Slutanvändaren aktiverar och avslutar helskärmsläget genom att trycka på knappen Helskärm i visningsprogrammets användargränssnitt. När det inbyggda helskärmsläget används på skrivbordet går det också att avsluta det genom att trycka på **Esc**.
+Slutanvändaren aktiverar och avslutar helskärmsläget genom att trycka på helskärmsknappen i visningsprogrammets användargränssnitt. När det inbyggda helskärmsläget används på skrivbordet går det också att avsluta det genom att trycka på **Esc**.

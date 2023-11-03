@@ -5,16 +5,16 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: ad68dd09-d8df-4fc8-952a-ef82d9662de9
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
 
 # Namnutrymme för visningsprogramsDK{#viewer-sdk-namespace}
 
-Visningsprogrammet är byggt av många SDK-komponenter för visningsprogrammet. Normalt behöver webbsidan inte interagera direkt med SDK-komponenternas API. alla vanliga behov behandlas i visningsprogrammets API.
+Visningsprogrammet är byggt av många SDK-komponenter för visningsprogrammet. Vanligtvis behöver webbsidan inte interagera direkt med SDK-komponenternas API. Alla vanliga behov behandlas i själva visningsprogrammets API.
 
 Vissa avancerade användningsfall kräver dock att webbsidan refererar till en intern SDK-komponent med `getComponent()` API för visningsprogrammet och använd sedan SDK:ernas egna API:er på ett flexibelt sätt.
 
@@ -33,7 +33,7 @@ Om du till exempel tänker lyssna på `StatusEvent.NOTF_VIEW_READY` -händelsen 
   }, false); 
 } 
 }); 
-The same code for viewer served from Dynamic Media Classic will look like this: 
+The same code for viewer served from Dynamic Media Classic looks like this: 
 <instance>.setHandlers({ 
  "initComplete":function() { 
   var zoomView = <instance>.getComponent("zoomView"); 

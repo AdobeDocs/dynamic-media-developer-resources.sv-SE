@@ -1,20 +1,20 @@
 ---
-description: textPs= implementerar en egen kopieringsalgoritm som automatiskt justerar teckensnittsstorleken för att fylla textområdet optimalt med text, vilket minimerar det extra utrymmet längst ned samtidigt som spill undviks.
+description: textPs= implementerar en egen kopieringsalgoritm som automatiskt anpassar teckensnittsstorlekarna så att textområdet fylls optimalt med text, vilket minimerar det extra utrymmet längst ned samtidigt som spill undviks.
 solution: Experience Manager
 title: Kopia
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d1a560f3-f92c-4143-b80a-e1674c8a4207
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
 
 # Kopia{#copy-fitting}
 
-textPs= implementerar en egen kopieringsalgoritm som automatiskt justerar teckensnittsstorleken för att fylla textområdet optimalt med text, vilket minimerar det extra utrymmet längst ned samtidigt som spill undviks.
+textPs= implementerar en egen kopieringsalgoritm som automatiskt anpassar teckensnittsstorlekarna så att textområdet fylls optimalt med text, vilket minimerar det extra utrymmet längst ned samtidigt som spill undviks.
 
 Textpassning kan aktiveras och kontrolleras gemensamt för hela textlagret, på styckebasis, även för ett enskilt textintervall.
 
@@ -26,11 +26,11 @@ Textpassning är inaktiverat genom att ange `\copyfit` med en storlek som är li
 
 ## Begränsa antalet rader {#section-e5aee0f039e04842afc3d6884ed681ac}
 
-Förutom att ange intervall för teckensnittsstorlekar kan funktionen för kopieringspassningsalgoritmen kontrolleras ytterligare med `\copyfitlines` eller `\copyfitmaxlines` -kommandon, som begränsar antalet rader som algoritmen ska generera. Båda kommandona accepterar en radräkningsparameter eller 0, för att inte begränsa antalet rader i det kopierade området.
+Förutom att ange intervall för teckensnittsstorlekar kan funktionen för kopieringspassningsalgoritmen kontrolleras ytterligare med `\copyfitlines` eller `\copyfitmaxlines` -kommandon, som begränsar antalet rader som algoritmen genererar. Båda kommandona accepterar en radräkningsparameter eller 0, för att inte begränsa antalet rader i det kopierade området.
 
 `\copyfitlines` tillåter att text flödar över till ytterligare rader när den inte får plats i det angivna antalet rader. Uttryckliga radbrytningar i det textsegment som ska kopieras respekteras alltid.
 
-`\copyfitmaxlines` trunkerar alltid extra utdatarader som överskrider den angivna gränsen. Det angivna antalet rader kommer aldrig att överskridas, även om det finns explicita radbrytningar. I den här versionen av Image Serving får inte mer än N-1 `\line` markörer kan finnas i det kopieringsanpassade textomfånget. Beteendet är odefinierat om den här gränsen överskrids.
+`\copyfitmaxlines` trunkerar alltid extra utdatarader som överskrider den angivna gränsen. Det angivna antalet rader överskrids aldrig, även om det finns explicita radbrytningar. I den här versionen av Image Serving får inte mer än N-1 `\line` markörer kan finnas i det kopieringsanpassade textomfånget. Beteendet är odefinierat om den här gränsen överskrids.
 
 ## Exempel {#section-f4ddbbfade444560be30a813d90c2c1b}
 
@@ -40,7 +40,7 @@ I följande exempel antas att textens brödtext innehåller variabler med namnet
 
 `{\fs10\copyfit100 $A${\fs20\copyfit200 $B$}$C$}`
 
-*[!DNL $B$]* återges alltid dubbelt så stort som resten av texten. När mycket text anges, *[!DNL $A$]* och *[!DNL $C$]* återges med `\fs10` och *[!DNL $B$]* med `\fs20`. Med lite text *[!DNL $A$]* och *[!DNL $C$]* kommer att använda `\fs100` och *[!DNL $B$]* `\fs200`.
+*[!DNL $B$]* renderas alltid dubbelt så stort som resten av texten. När mycket text anges, *[!DNL $A$]* och *[!DNL $C$]* återges med `\fs10` och *[!DNL $B$]* med `\fs20`. Med lite text *[!DNL $A$]* och *[!DNL $C$]* use `\fs100` och *[!DNL $B$]* `\fs200`.
 
 **Konvertera till en vanlig stor teckenstorlek om bara en liten del av texten ritas:**
 

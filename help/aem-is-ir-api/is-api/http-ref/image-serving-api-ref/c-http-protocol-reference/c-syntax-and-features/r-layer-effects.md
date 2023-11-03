@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8f99bb3d-c5d6-4215-a76b-58ba7689ff02
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ Du kan lägga till valfritt antal lagereffekter i ett enda överordnat lager.
 
 ## Inre och yttre effekter {#section-2dade7ee98e041d1b4d1725e6f98a515}
 
-*Inre effekter* återges ovanpå det överordnade lagret och visas bara i ogenomskinliga områden i det överordnade lagret. *Yttre effekter* återges bakom det överordnade lagret (så de kommer aldrig att synas inom ogenomskinliga områden i det överordnade lagret) och kan placeras var som helst inom arbetsytan. En inre eller yttre effekt väljs genom att ett positivt eller negativt effektlagernummer tilldelas med `effect=` -kommando. The `effect=` kommandot styr också z-ordningen för flera effektlager som är kopplade till samma överordnade lager.
+*Inre effekter* återges ovanpå det överordnade lagret och visas bara i ogenomskinliga områden i det överordnade lagret. *Yttre effekter* renderas bakom det överordnade lagret (de syns alltså aldrig i ogenomskinliga områden i det överordnade lagret) och kan placeras var som helst på arbetsytan. En inre eller yttre effekt väljs genom att ett positivt eller negativt effektlagernummer tilldelas med `effect=` -kommando. The `effect=` kommandot styr också z-ordningen för flera effektlager som är kopplade till samma överordnade lager.
 
 ## Relation till överordnat lager {#section-eb8bfc4f754a42fc973b562821d6f2d3}
 
-Effektlagren storleksanpassas automatiskt och placeras så att de sammanfaller med det överordnade lagret (dvs. effektlagret ärver det `size=` och `origin=` värden för det överordnade lagret). `pos=` kan användas för att flytta effektlagret bort från det överordnade lagret, vilket vanligtvis krävs för effekter med skugga och inre skugga. När för standardlager `pos=` anger en förskjutning mellan det här lagrets ursprung och lagret 0 för effektlager `pos=` anger förskjutningen mellan originalen för effektlagret och det överordnade lagret.
+Effektlagren storleksanpassas automatiskt och placeras så att de sammanfaller med det överordnade lagret (det vill säga effektlagret ärver det `size=` och `origin=` värden för det överordnade lagret). `pos=` kan användas för att flytta effektlagret bort från det överordnade lagret, vilket vanligtvis krävs för effekter med skugga och inre skugga. När för standardlager `pos=` anger en förskjutning mellan det här lagrets ursprung och lagret 0 för effektlager `pos=` anger förskjutningen mellan originalen för effektlagret och det överordnade lagret.
 
 ## Kommandon och attribut som stöds {#section-035fc6bcba7d4e7ab4bd46687c1d8879}
 

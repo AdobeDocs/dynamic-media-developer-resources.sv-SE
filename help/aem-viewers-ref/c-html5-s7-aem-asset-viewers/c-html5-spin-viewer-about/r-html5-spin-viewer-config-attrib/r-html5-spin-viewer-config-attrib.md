@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 60615258-4d20-4452-a4a3-94fb88a943d7
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Vissa konfigurationskommandon kan ha prefixet med klassnamnet eller instansnamne
 
 `[SpinView.|<containerId>_spinView].zoomstep`
 
-Det innebär att du kan använda det här kommandot på följande sätt:
+Det innebär att du kan använda kommandot på följande sätt:
 
 * `zoomstep` (kort syntax)
 * `SpinView.zoomstep` (kvalificerad med komponentklassnamn)

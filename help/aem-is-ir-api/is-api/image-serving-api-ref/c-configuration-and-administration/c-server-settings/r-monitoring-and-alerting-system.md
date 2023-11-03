@@ -5,9 +5,9 @@ title: Övervaknings- och varningssystem
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: fe672d1b-93e5-466a-a329-3032095c6ba8
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -38,11 +38,11 @@ E-postadressen som ska användas i **[!UICONTROL From]** e-postfält.
 
 ## AS::monitorAlertGenerator.alertInterval - övervakningsintervall {#section-99cb2e3380c1499e9d5aec3671ed73c7}
 
-Övervakningssystemet kommer att samla in aviseringsvillkor under aviseringsintervallet och skicka ett e-postmeddelande med alla ackumulerade aviseringar i slutet av varje intervall. Millisekunder, heltalsvärde, 60000 eller mer. Vanligtvis inställt på 5 eller 10 minuter.
+Övervakningssystemet samlar in aviseringsvillkor under aviseringsintervallet och skickar ett e-postmeddelande med alla ackumulerade aviseringar i slutet av varje intervall. Millisekunder, heltalsvärde, 60000 eller mer. Vanligtvis inställt på 5 eller 10 minuter.
 
 ## AS::monitorAlertGenerator.heapSpaceResetInterval - Varningsintervall för heap-space {#section-fd5a2bf04ed44fdcaef20f77084151a8}
 
-Minimitid efter att ett heap space-varningsmeddelande har skickats innan ett annat skickas. Intervalltid i msek. Heltalsvärde, 0 eller större.
+Minimitid efter att ett heap space-varningsmeddelande har skickats innan ett annat skickas. Intervalltid i ms. Heltalsvärde, 0 eller större.
 
 ## AS::monitorAlertGenerator.minTrafficForAlerts - Minsta trafik för att aktivera larm {#section-8b4db2d6f96642309ca35c49eb3ab230}
 

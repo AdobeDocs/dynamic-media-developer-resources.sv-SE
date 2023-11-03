@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 17387203-f7a7-4876-a15b-2084894f981d
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '140'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,13 @@ Markera objekt efter namn. Väljer den angivna vinjettgruppen efter namn och sta
  </tr> 
 </table>
 
-Undergrupper eller enskilda objekt kan markeras med en fullständig gruppsökväg (d.v.s. genom att ange namnet på målgruppen eller objektet som föregås av alla överordnade grupper, avgränsade med / (snedstreck).
+Undergrupper eller enskilda objekt kan markeras med en fullständig gruppsökväg (det vill säga genom att ange namnet på målgruppen eller objektet som föregås av alla överordnade grupper, avgränsade med / (snedstreck).
 
 Om ingen grupp/objekt med det angivna namnet hittas, anges åtgärden i `attribute::OnObjFail` tas.
 
 ## Egenskaper {#section-9463b36e8ff74c81a70c7c2b58927430}
 
-Markeringskommando; MSS-avgränsare. Objektmarkeringen är beständig tills ett annat objekt markeras, antingen med `obj=` eller `sel=`.
+Markeringskommando; MSS-avgränsare. Objektmarkeringen bevaras tills ett annat objekt markeras, antingen med `obj=` eller `sel=`.
 
 Grupp-/objektsökvägar och namn är inte skiftlägeskänsliga.
 

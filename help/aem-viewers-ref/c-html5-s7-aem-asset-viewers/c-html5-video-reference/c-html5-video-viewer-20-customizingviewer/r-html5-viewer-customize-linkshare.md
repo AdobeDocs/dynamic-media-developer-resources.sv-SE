@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: a80b47fd-0399-4d0a-8c11-cfa4acc5a713
-source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '1374'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Det går att ta bort knappen från panelen Dela via inställningen `display:none
 
 Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) för mer information.
 
-Exempel - om du vill ställa in en knapp för länkdelning som är 28 x 28 pixlar och visar en annan bild för vart och ett av de fyra olika knapplägena:
+Exempel - om du vill ställa in en knapp för länkdelning som är 28 x 28 pixlar och visar olika bilder för de fyra olika knapplägena:
 
 ```
 .s7videoviewer .s7linkshare { 
@@ -126,11 +126,11 @@ Som standard visas den modala dialogrutan centrerat på skärmen på stationära
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Ska antingen vara unset eller inställd på 100 %, vilket innebär att dialogrutan tar hela webbläsarfönstret (det här läget rekommenderas på enheter med pekskärm). </p> </td> 
+   <td colname="col2"> <p>Ska antingen vara unset eller inställd på 100 %, vilket innebär att dialogrutan tar hela webbläsarfönstret (det här läget rekommenderas på pekenheter). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Ska antingen vara unset eller inställd på 100 %, vilket innebär att dialogrutan tar hela webbläsarfönstret (det här läget rekommenderas på enheter med pekskärm). </p> </td> 
+   <td colname="col2"> <p>Ska antingen vara unset eller inställd på 100 %, vilket innebär att dialogrutan tar hela webbläsarfönstret (det här läget rekommenderas på pekenheter). </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -284,7 +284,7 @@ Stängningsknappen styrs med följande CSS-klassväljare:
 
 Knappbeskrivningen Stäng och dialogrutans titel kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) för mer information.
 
-Exempel - Om du vill ställa in en dialogruterubrik med utfyllnad, en ikon med storleken 22 x 12 pixlar och en rubrik med 16 punkter i fet stil. Slutligen en stängningsknapp på 28 x 28 pixlar som placeras två pixlar uppifrån och två pixlar från höger om dialogrutan:
+Exempel - Om du vill ställa in en dialogruterubrik med utfyllnad, en 22 x 12 pixlar ikon och en 16 punkters fetstil. Slutligen en stängningsknapp på 28 x 28 pixlar som placeras två pixlar uppifrån och två pixlar från höger om dialogrutan:
 
 ```
 .s7videoviewer .s7linkdialog .s7dialogheader { 
@@ -463,7 +463,7 @@ Båda knapparna har dessutom en gemensam CSS-klass som kan innehålla CSS-instä
  </tbody> 
 </table>
 
-Knappverktygstipsen kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) för mer information.
+Knappens tips kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) för mer information.
 
 Exempel - om du vill ställa in en dialogruteslut med knappen Avbryt (64 x 34), där textfärgen och bakgrundsfärgen är olika för varje knappläge:
 
@@ -577,7 +577,7 @@ Allt formulärinnehåll (som etiketter och inmatningsfält) finns inuti en behå
  </tbody> 
 </table>
 
-Exempel - om du vill ställa in formulärinnehåll så att det har utfyllnad på tio pixlar:
+Exempel - om du vill ställa in formulärinnehåll så att det har en utfyllnad på tio pixlar:
 
 ```
 .s7videoviewer .s7linkdialog .s7dialogbody { 

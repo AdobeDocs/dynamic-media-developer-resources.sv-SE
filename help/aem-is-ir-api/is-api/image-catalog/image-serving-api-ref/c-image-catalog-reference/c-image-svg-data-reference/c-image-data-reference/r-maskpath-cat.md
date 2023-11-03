@@ -5,9 +5,9 @@ title: MaskPath
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b67e0b62-d2cc-4b05-bd09-65b206466df5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ Servern använder reglerna för sökvägsupplösning som beskrivs i [Hantera kä
 
 Textsträngsvärde. Valfritt. Om det anges måste det vara en giltig relativ eller absolut sökväg till Image Server-filen. `attribute::DefaultExt` läggs till om det inte finns något filsuffix.
 
-Om både en huvudbild ( `catalog::Path`) och en maskbild ( `catalog::MaskPath`) definieras i en katalogpost och båda måste ha exakt samma pixelstorlek. Maskbilder måste vara 8-bitars gråskalebilder.
+Om båda är en huvudbild ( `catalog::Path`) och en maskbild ( `catalog::MaskPath`) definieras i en katalogpost och båda måste ha exakt samma pixelstorlek. Maskbilder måste vara 8-bitars gråskalebilder.
 
 `mask=` i begäran åsidosätter `catalog::MaskPath`.
 
-`catalog::MaskPath` åsidosätter alfakanalen i huvudbilden ( `catalog::Path`), om sådan finns, och om alfakanalen inte är associerad (dvs. inte förmultiplicerad). Om bildens alfa är förmultiplicerat, `catalog::MaskPath` ignoreras och alfakanalen används alltid.
+`catalog::MaskPath` åsidosätter alfakanalen i huvudbilden ( `catalog::Path`), om sådan finns, och om alfakanalen inte är associerad (d.v.s. inte förmultiplicerad). Om bildens alfa är förmultiplicerat, `catalog::MaskPath` ignoreras och alfakanalen används alltid.
 
 ## Standard {#section-78533e35bfec469ba087cb68a35bb81b}
 

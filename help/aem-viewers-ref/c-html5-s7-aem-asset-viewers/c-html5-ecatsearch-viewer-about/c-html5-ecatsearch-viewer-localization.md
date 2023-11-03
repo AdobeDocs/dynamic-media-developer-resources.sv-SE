@@ -5,9 +5,9 @@ title: Lokalisering av användargränssnittselement
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: c44bfb38-a523-4399-8dbd-936830bb7cac
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1121'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Visst innehåll som visas i eCatalog Viewer kan lokaliseras, t.ex. zoomknappar, sidändringsknappar, miniatyrknappar, helskärmsknappar, stängningsknappar och rullningslistknappar.
 
-Varje textinnehåll i visningsprogrammet som kan lokaliseras representeras av en SDK-identifierare för visningsprogrammet som kallas SYMBOL. Alla SYMBOL har ett associerat standardtextvärde för engelska ( `"en"`) som medföljer det färdiga visningsprogrammet och kan även ha användardefinierade värden för så många språk som behövs.
+Varje textinnehåll i visningsprogrammet som kan lokaliseras representeras av en SDK-identifierare för visningsprogrammet som kallas SYMBOL. Alla SYMBOL har ett standardassocierat textvärde för engelska ( `"en"`) som medföljer det färdiga visningsprogrammet och kan även ha användardefinierade värden för så många språk som behövs.
 
-När visningsprogrammet startas kontrolleras det aktuella språkområdet för att se om det finns ett användardefinierat värde för varje SYMBOL som stöds i språkområdet. I så fall används det användardefinierade värdet. i annat fall återställs den till standardtexten som inte finns i kartongen.
+När visningsprogrammet startas kontrolleras det aktuella språkområdet för att se om det finns ett användardefinierat värde för varje SYMBOL som stöds i språkområdet. Om det finns något används det användardefinierade värdet, i annat fall används standardtexten som inte finns.
 
 Användardefinierade lokaliseringsdata kan skickas till visningsprogrammet som ett JSON-lokaliseringsobjekt. Ett sådant objekt innehåller en lista med språkområden som stöds, SYMBOL-textvärden för varje språkområde samt standardspråkområdet.
 
@@ -62,15 +62,15 @@ Följande SYMBOL stöds (under förutsättning att containerId är visningsbehå
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PageView.USAGE_HINT </span> </p> </td> 
-   <td colname="col2"> <p>ARIA-användningstips för tangentbordsanvändare. </p> </td> 
+   <td colname="col2"> <p>ARIA-användningstips för kortanvändare. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> CloseButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Stängningsknapp. </p> </td> 
+   <td colname="col2"> <p>Stäng-knappen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZoomInButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Knappen Zooma in. </p> </td> 
+   <td colname="col2"> <p>Zooma in. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZoomOutButton.TOOLTIP </span> </p> </td> 
@@ -82,15 +82,15 @@ Följande SYMBOL stöds (under förutsättning att containerId är visningsbehå
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED </span> </p> </td> 
-   <td colname="col2"> <p>Helskärmsknapp i normalt läge. </p> </td> 
+   <td colname="col2"> <p>helskärmsknapp i normalt läge. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECTED </span> </p> </td> 
-   <td colname="col2"> <p>Helskärmsknapp i helskärmsläge. </p> </td> 
+   <td colname="col2"> <p>helskärmsknapp i helskärmsläge. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollUpButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Knappen Bläddra uppåt. </p> </td> 
+   <td colname="col2"> <p>Rulla uppåt-knappen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollDownButton.TOOLTIP </span> </p> </td> 
@@ -134,11 +134,11 @@ Följande SYMBOL stöds (under förutsättning att containerId är visningsbehå
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ThumbnailPageButton.TOOLTIP_UNSELECTED </span> </p> </td> 
-   <td colname="col2"> <p>Knappen Miniatyrbilder i normalläge. </p> </td> 
+   <td colname="col2"> <p>Knappen Miniatyrbilder i normalt läge. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> CloseButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Stängningsknapp. </p> </td> 
+   <td colname="col2"> <p>Stäng-knappen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> InfoPanelPopup.TOOLTIP_CLOSE </span> </p> </td> 
@@ -166,7 +166,7 @@ Följande SYMBOL stöds (under förutsättning att containerId är visningsbehå
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TO </span> </p> </td> 
-   <td colname="col2"> <p>Etikett för To-inmatningsfältet. </p> </td> 
+   <td colname="col2"> <p>Etikett för To-indatafältet. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_ADD </span> </p> </td> 
@@ -181,7 +181,7 @@ Följande SYMBOL stöds (under förutsättning att containerId är visningsbehå
    <td colname="col2"> <p>Från indatafält. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmailShare.MESSAGE </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmailShare.MessageGE </span> </p> </td> 
    <td colname="col2"> <p>Inmatningsfält för meddelanden. </p> </td> 
   </tr> 
   <tr> 
@@ -298,7 +298,7 @@ Följande SYMBOL stöds (under förutsättning att containerId är visningsbehå
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Twitter delningsknapp. </p> </td> 
+   <td colname="col2"> <p>Knappen Dela twitter. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.TOOLTIP </span> </p> </td> 
@@ -306,7 +306,7 @@ Följande SYMBOL stöds (under förutsättning att containerId är visningsbehå
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.HEADER </span> </p> </td> 
-   <td colname="col2"> <p>Skriv ut dialogrutans huvud. </p> </td> 
+   <td colname="col2"> <p>Skriv ut dialogrutans rubrik. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.TOOLTIP_HEADER_CLOSE </span> </p> </td> 
@@ -318,7 +318,7 @@ Följande SYMBOL stöds (under förutsättning att containerId är visningsbehå
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.PRINT_RANGE_CURRENT </span> </p> </td> 
-   <td colname="col2"> <p>Bildtext för alternativknappen"Aktuella sidor". </p> </td> 
+   <td colname="col2"> <p>Bildtext för alternativknappen Aktuella sidor. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.PRINT_RANGE_FROM </span> </p> </td> 
@@ -370,7 +370,7 @@ Följande SYMBOL stöds (under förutsättning att containerId är visningsbehå
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> AddFavoriteButton.TOOLTIP_UNSELECTED </span> </p> </td> 
-   <td colname="col2"> <p>Knappen Lägg till favorit i normalläge. </p> </td> 
+   <td colname="col2"> <p>Lägg till favorit i normalläge. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> RemoveFavoriteButton.TOOLTIP_SELECTED </span> </p> </td> 
@@ -378,7 +378,7 @@ Följande SYMBOL stöds (under förutsättning att containerId är visningsbehå
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> RemoveFavoriteButton.TOOLTIP_UNSELECTED </span> </p> </td> 
-   <td colname="col2"> <p>Ta bort favoriter i normalläge. </p> </td> 
+   <td colname="col2"> <p>Ta bort favoriter i normalt läge. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ViewAllFavoriteButton.TOOLTIP_SELECTED </span> </p> </td> 
@@ -394,7 +394,7 @@ Följande SYMBOL stöds (under förutsättning att containerId är visningsbehå
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_XX[_YY] </span> </p> </td> 
-   <td colname="col2"> <p>Sidetikett som genereras av visningsprogrammet vid inläsningen. </p> <p>Symbolens namn är en mall, där <span class="codeph"> XX </span> är ett nollbaserat uppslagsindex i liggande orientering, och valfritt <span class="codeph"> YY </span> är ett nollbaserat sidindex inuti uppslaget som <span class="codeph"> XX </span>. </p> <p>Gäller endast den ursprungligen inlästa tillgången. ignoreras om en resurs ändras med <span class="codeph"> setAsset() </span> API-anrop. </p> </td> 
+   <td colname="col2"> <p>Sidetikett som genereras av visningsprogrammet vid inläsningen. </p> <p>Symbolens namn är en mall, där <span class="codeph"> XX </span> är ett nollbaserat uppslagsindex i liggande orientering, och valfritt <span class="codeph"> YY </span> är ett nollbaserat sidindex inuti uppslaget som <span class="codeph"> XX </span>. </p> <p>Gäller endast för den initialt inlästa resursen, ignoreras om en resurs ändras med <span class="codeph"> setAsset() </span> API-anrop. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_DELIM </span> </p> </td> 

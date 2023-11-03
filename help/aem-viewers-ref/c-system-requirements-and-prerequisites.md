@@ -6,7 +6,7 @@ contentOwner: Rick Brough
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
-source-git-commit: 7793e9befcf3050b9f4e12deeffa018d7c91aaf7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Systemkrav för visningsprogram i Dynamic Media HTML 5.
    * Android™ OS 4.x
    * BlackBerry® 10 i webbläsare. Endast videouppspelning stöds.
    * Krom 82
-   * Edge
+   * Kant
    * Firefox 77
    * Internet Explorer 11
    * iOS6
@@ -53,7 +53,7 @@ Systemkrav för visningsprogram i Dynamic Media HTML 5.
 * *PanoramavyViewer* stöds i följande webbläsar-/plattformsversioner eller senare:
    * Android™ 4.4 (endast telefonenheter)
    * Krom 82
-   * Edge
+   * Kant
    * Firefox 77
    * Internet Explorer 11
    * iOS 10
@@ -61,14 +61,14 @@ Systemkrav för visningsprogram i Dynamic Media HTML 5.
 * *Video360Viewer* och *DimensionalViewer* stöds i följande webbläsar-/plattformsversioner eller senare:
    * Android™ 5 (endast telefonenheter)
    * Krom 82
-   * Edge
+   * Kant
    * Firefox 77
    * iOS 12
    * Safari 12
 * *ZoomVerticalViewer* stöds i följande webbläsar-/plattformsversioner eller senare:
    * Android™ 4.x
    * Krom 82
-   * Edge
+   * Kant
    * Firefox 77
    * Internet Explorer 11
    * iOS 10
@@ -78,7 +78,7 @@ Systemkrav för visningsprogram i Dynamic Media HTML 5.
 
 <!-- CQDOC-19433 -->
 
-Från och med 30 september 2022 upphör stödet för Dynamic Media-visningsprogram för Adobe att
+Från och med den 30 september 2022 har Dynamic Media-visningsprogram för Adobe upphört med stödet för följande:
 
 * TLS (Transport Layer Security) 1.0 och 1.1
 * Följande svaga lärare i TLS 1.2:
@@ -119,19 +119,19 @@ Adobe Dynamic Media Viewer stöder inte följande kombinationer av webbläsare o
 NOTE
 Effective September 30, 2018, Adobe Dynamic Media Classic Viewers ended support of Transport Layer Security 1.0 (TLS 1.0). As such, Dynamic Media Classic no longer supports viewers on the following browsers/platforms that support TLS 1.0 (Adobe recommends using TLS 1.2 or later):
 
-* Android™ 2.3.7
-* Android™ 4.0.4
-* Android™ 4.1.1
-* Android™ 4.2.2
-* Android™ 4.3
-* Internet Explorer 7 on Window Vista®
-* Internet Explorer 8 on Windows® XP
-* Internet Explorer 8-10 on Windows® 7
-* Internet Explorer 10 on Windows® Phone 8.0
+* Android&trade; 2.3.7
+* Android&trade; 4.0.4
+* Android&trade; 4.1.1
+* Android&trade; 4.2.2
+* Android&trade; 4.3
+* Internet Explorer 7 on Window Vista&reg;
+* Internet Explorer 8 on Windows&reg; XP
+* Internet Explorer 8-10 on Windows&reg; 7
+* Internet Explorer 10 on Windows&reg; Phone 8.0
 * Safari 5.1.9 on Apple OS X 10.6.8
 * Safari 6.0.4 on Apple OS X 10.8.4
-* Java™ 6u45
-* Java™ 7u25
+* Java&trade; 6u45
+* Java&trade; 7u25
 * OpenSSL 0.9.8y
 * Baidu January 2015
 
