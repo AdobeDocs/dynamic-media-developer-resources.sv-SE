@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 9ed415c5ab4444a2d404782bfd96ded3c47c26cd
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Svarsbildformat.
 
 `fmt=format[,` `[`*`pixelType`*`]`,`[`*`compression`*`]]`
 
-*`format`* - avif-alpha | avif | eps | f4m | gif-alpha | gif | jpeg | jpeg2000-alpha | jpeg2000 | jpegxr-alpha | jpegxr | jpg | m3u8 | pdf | pjpeg | png-alpha | png | png8-alpha | png8 | swf-alpha | swf | swf3-alpha | swf3 | tif-alpha | tif | web-alpha | webp
+*`format`* - avif-alpha | avif | eps | f4m | gif-alpha | gif | heic | jpeg | jpeg2000-alpha | jpeg2000 | jpegxr-alpha | jpegxr | jpg | m3u8 | PDF | pjpeg | png-alpha | png | png8-alpha | png8 | swf-alpha | swf | swf3-alpha | swf3 | tif-alpha | tif | web-alpha | webp
 
 | *`format`* | Beskrivning |
 |---|---|
@@ -28,6 +28,7 @@ Svarsbildformat.
 | `f4m` | Flash Streaming Server-manifestformat. |
 | `gif-alpha` | GIF med 2 till 255 färger plus genomskinlighet för nyckelfärger. |
 | `gif` | GIF med 2 till 256 färger. |
+| `heic` | Förlustfri HEIC. Det här formatet hämtas som standard från webbläsaren om det inte stöds. |
 | `jpeg` | Förstörande JPEG. |
 | `jpeg2000-alpha` | Förstörande och förlustfri JPEG 2000 med alfakanal. |
 | `jpeg2000` | Förstörande och förlustfri JPEG 2000. |
@@ -57,7 +58,7 @@ Svarsbildformat.
 | `gray` | Returnera gråskalebilddata. |
 | `rgb` | Returnera bilddata för RGB. |
 
-| *`compression`* - ingen | lzw | zip | jpeg | förstörande | förlustfri |
+| *`compression`* - jpeg | förstörande | förlustfri | lzw | ingen | zip |
 | *`compression`* | Beskrivning |
 |---|---|
 | `jpeg` | JPEG-komprimering (förstörande). |
