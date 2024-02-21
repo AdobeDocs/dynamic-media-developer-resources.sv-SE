@@ -3,7 +3,7 @@ cloud: Experience Cloud
 user-guide-title: Referenshandbok för Dynamic Media Viewer
 feature-set: Experience Manager Assets
 user-guide-description: Anpassa Dynamic Media-visningsprogram för datorer och pekskärmar. Inkludera interaktiva bilder och videor, karuseller, snurr med mera.
-source-git-commit: f970421ccc482b698343aa18e7dfde7bea4c2a89
+source-git-commit: 8d5dbc2d2b5e228f8496fd71633bf1cb96218226
 workflow-type: tm+mt
 source-wordcount: '2066'
 ht-degree: 0%
@@ -738,7 +738,7 @@ ht-degree: 0%
       + [Stöd för Adobe Analytics tracking](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-analytics.md)
       + [Stöd för hjälpmedel](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-assistive.md)
       + [Lokalisering av användargränssnittselement](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md)
-      + [Stöd för hotspot- och bildscheman](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-hotspot--image-support.md)
+      + [Stöd för hotspot- och bildscheman](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-hotspot-image-support.md)
       + [Förhandsladda bild](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-preload-image.md)
       + [Namnutrymme för visningsprogramsDK](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-namespace.md)
    + Interaktiv bild {#interactive-images}
