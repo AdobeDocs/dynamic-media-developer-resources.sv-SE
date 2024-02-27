@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 17ccca8fcf75eaa902527837d83b03776c1386b9
+source-git-commit: b861d383d0a1af63ae18eb1e73231758c3352a55
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '1017'
 ht-degree: 0%
 
 ---
@@ -93,18 +93,60 @@ I följande tabell visas giltiga kombinationer av *`format`*och *`pixelType`*, m
  </thead>
  <tbody> 
   <tr valign="top"> 
+   <td> <p> avif, avif-alpha </p> </td> 
+   <td> <p>rgb</p> </td> 
+   <td> <p> <span class="codeph"> &lt;image/avif&gt; </span> </p> </td> 
+   <td> <p>Nej </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> komprimering </span> </span> ( <span class="codeph"> förstörande </span>, <span class="codeph"> förlustfri </span>) </p> <p> <span class="codeph"> qlt= </span> ignoreras för <span class="codeph"> förlustfri </span>. </p> <p>Eftersom det inte finns något koncept för nedsampling av krominanser i WebP-formatet, om du använder ett andra värde med <span class="codeph"> qlt </span> (till exempel <span class="codeph"> qlt=80,1 </span>) det andra värdet ( <span class="codeph"> 1 </span>) ignoreras. </p> </td> 
+  </tr>
+  <tr valign="top"> 
+   <td colname="col1"> <p> eps </p> </td> 
+   <td colname="col2"> <p>rgb, gray, cmyk </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;image/eps&gt; </span> </p> </td> 
+   <td colname="col4"> <p>Ja </p> </td> 
+   <td colname="col5"> <p> <span class="codeph"> pathEmbed= </span> </p> </td> 
+  </tr>
+  <tr valign="top"> 
+   <td colname="col1"> <p> gif-alfa </p> </td> 
+   <td colname="col2"> <p>rgb, grå </p> <p>Data konverteras till palett efter konvertering till grå eller rgb. </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;image/gif&gt; </span> </p> </td> 
+   <td colname="col4"> <p>Nej </p> </td> 
+   <td colname="col5"> <p> <span class="codeph"> kvantifiera= </span> </p> </td> 
+  </tr>
+  <tr valign="top"> 
+   <td colname="col1"> <p> heic </p> </td> 
+   <td colname="col2"> <p>rgb </p> <p> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;image/heic&gt; </span> </p> </td> 
+   <td colname="col4"> <p>Nej </p> </td> 
+   <td colname="col5"> <p> </p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td> <p>jpeg2000, jpeg2000-alpha </p> </td> 
+   <td> <p>rgb, grå </p> </td> 
+   <td> <p> <span class="codeph"> &lt;image/jp2&gt; </span> </p> </td> 
+   <td> <p>Nej </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> komprimering </span> </span> ( <span class="codeph"> förstörande </span>, <span class="codeph"> förlustfri </span>) </p> <p> <span class="codeph"> qlt= </span> ignoreras för <span class="codeph"> förlustfri </span>. </p> <p>Eftersom det inte finns något koncept för nedsampling av krominanser i WebP-formatet, om du använder ett andra värde med <span class="codeph"> qlt </span> (till exempel <span class="codeph"> qlt=80,1 </span>) det andra värdet ( <span class="codeph"> 1 </span>) ignoreras. </p> </td> 
+  </tr>
+  <tr valign="top"> 
    <td colname="col1"> <p> jpeg, jpg, pjpeg </p> </td> 
    <td colname="col2"> <p>rgb, gray, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;image/jpeg&gt; </span> </p> </td> 
    <td colname="col4"> <p>Ja </p> </td> 
    <td colname="col5"> <p> <span class="codeph"> pathEmbed= </span>, <span class="codeph"> pscan= </span>, <span class="codeph"> qlt= </span>, <span class="codeph"> xmpEmbed= </span> </p> <p>The <span class="codeph"> pscan= </span> parametern gäller bara för pjpeg-formatet. </p> </td> 
-  </tr> 
+  </tr>
   <tr valign="top"> 
-   <td colname="col1"> <p> png, png-alpha </p> </td> 
-   <td colname="col2"> <p>rgb, grå </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;image/png&gt; </span> </p> </td> 
+   <td> <p>jpegxr, jpegxr-alpha </p> </td> 
+   <td> <p>rgb </p> </td> 
+   <td> <p> <span class="codeph"> &lt;image/vnd.ms-photo&gt; </span> </p> </td> 
+   <td> <p>Nej </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> komprimering </span> </span> ( <span class="codeph"> förstörande </span>, <span class="codeph"> förlustfri </span>) </p> <p> <span class="codeph"> qlt= </span> ignoreras för <span class="codeph"> förlustfri </span>. </p> <p>Eftersom det inte finns något koncept för nedsampling av krominanser i WebP-formatet, om du använder ett andra värde med <span class="codeph"> qlt </span> (till exempel <span class="codeph"> qlt=80,1 </span>) det andra värdet ( <span class="codeph"> 1 </span>) ignoreras. </p> </td> 
+  </tr>
+  <tr valign="top"> 
+   <td colname="col1"> <p> PDF </p> </td> 
+   <td colname="col2"> <p>rgb, gray, cmyk </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;application/pdf&gt; </span> </p> </td> 
    <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <p> </p> </td> 
+   <td colname="col5"> <span class="codeph"> <span class="varname"> komprimering </span> </span> <p> ( <span class="codeph"> none|zip|jpeg </span>), <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> ignoreras såvida inte <span class="codeph"> <span class="varname"> komprimering </span> </span> är inställd på <span class="codeph"> jpeg </span>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>png8, png8-alpha </p> </td> 
@@ -114,6 +156,20 @@ I följande tabell visas giltiga kombinationer av *`format`*och *`pixelType`*, m
    <td colname="col5"> <p> </p> </td> 
   </tr> 
   <tr valign="top"> 
+   <td colname="col1"> <p> png, png-alpha </p> </td> 
+   <td colname="col2"> <p>rgb, grå </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;image/png&gt; </span> </p> </td> 
+   <td colname="col4"> <p>Ja </p> </td> 
+   <td colname="col5"> <p> </p> </td> 
+  </tr>
+  <tr valign="top"> 
+   <td colname="col1"> <p> swf,swf3, swf-alpha, swf-alpha3 </p> </td> 
+   <td colname="col2"> <p>rgb, grå </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;application/x-shockwave-flash&gt; </span> </p> </td> 
+   <td colname="col4"> <p>Nej </p> <p> <p>Obs! Flashen Player Adobe ignorerar inbäddade ICC-profiler. </p> </p> </td> 
+   <td colname="col5"> <p> <span class="codeph"> qlt= </span>, <span class="codeph"> attribute::TrustedDomain </span> </p> </td> 
+  </tr>
+  <tr valign="top"> 
    <td colname="col1"> <p> tif, tif-alpha </p> </td> 
    <td colname="col2"> <p>rgb, gray, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;image/tiff&gt; </span> </p> </td> 
@@ -121,60 +177,11 @@ I följande tabell visas giltiga kombinationer av *`format`*och *`pixelType`*, m
    <td colname="col5"> <span class="codeph"> <span class="varname"> komprimering </span> </span> <p> ( <span class="codeph"> none|lzw|zip|jpeg </span>) </p> <p>Endast tiff; tiff-alpha stöder inte jpeg-komprimering. </p> <p> <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> ignoreras såvida inte <span class="varname"> komprimering </span> är inställd på <span class="codeph"> jpeg </span>. </p> <p>, pathEmbed=, xmpEmbed= </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> swf,swf3, swf-alpha, swf-alpha3 </p> </td> 
-   <td colname="col2"> <p>rgb, grå </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;application/x-shockwave-flash&gt; </span> </p> </td> 
-   <td colname="col4"> <p>Nej </p> <p> <p>Obs! Flashen Player Adobe ignorerar inbäddade ICC-profiler. </p> </p> </td> 
-   <td colname="col5"> <p> <span class="codeph"> qlt= </span>, <span class="codeph"> attribute::TrustedDomain </span> </p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td colname="col1"> <p> PDF </p> </td> 
-   <td colname="col2"> <p>rgb, gray, cmyk </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;application/pdf&gt; </span> </p> </td> 
-   <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <span class="codeph"> <span class="varname"> komprimering </span> </span> <p> ( <span class="codeph"> none|zip|jpeg </span>), <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> ignoreras såvida inte <span class="codeph"> <span class="varname"> komprimering </span> </span> är inställd på <span class="codeph"> jpeg </span>. </p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td colname="col1"> <p> eps </p> </td> 
-   <td colname="col2"> <p>rgb, gray, cmyk </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;image/eps&gt; </span> </p> </td> 
-   <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <p> <span class="codeph"> pathEmbed= </span> </p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td colname="col1"> <p> gif-alfa </p> </td> 
-   <td colname="col2"> <p>rgb, grå </p> <p>Data konverteras till palett efter konvertering till grå eller rgb. </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;image/gif&gt; </span> </p> </td> 
-   <td colname="col4"> <p>Nej </p> </td> 
-   <td colname="col5"> <p> <span class="codeph"> kvantifiera= </span> </p> </td> 
-  </tr> 
-  <tr valign="top"> 
    <td> <p>webp, webp-alpha </p> </td> 
    <td> <p>rgb </p> </td> 
    <td> <p> <span class="codeph"> &lt;image/webp&gt; </span> </p> </td> 
    <td> <p>Nej </p> </td> 
    <td> <p> <span class="codeph"> <span class="varname"> komprimering </span> </span> ( <span class="codeph"> förstörande </span>, <span class="codeph"> förlustfri </span>) </p> <p> <span class="codeph"> qlt= </span> ignoreras för <span class="codeph"> förlustfri </span>. </p> <p>Eftersom det inte finns något koncept för nedsampling av krominanser i WebP-formatet, om du använder ett andra värde med <span class="codeph"> qlt </span> (till exempel <span class="codeph"> qlt=80,1 </span>) det andra värdet ( <span class="codeph"> 1 </span>) ignoreras. </p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td> <p>jpeg2000, jpeg2000-alpha </p> </td> 
-   <td> <p>rgb, grå </p> </td> 
-   <td> <p> <span class="codeph"> &lt;image/jp2&gt; </span> </p> </td> 
-   <td> <p>Nej </p> </td> 
-   <td> <p>Samma som ovan. </p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td> <p>jpegxr, jpegxr-alpha </p> </td> 
-   <td> <p>rgb </p> </td> 
-   <td> <p> <span class="codeph"> &lt;image/vnd.ms-photo&gt; </span> </p> </td> 
-   <td> <p>Nej </p> </td> 
-   <td> <p>Samma som ovan. </p> </td> 
-  </tr>
-  <tr valign="top"> 
-   <td> <p> avif, avif-alpha </p> </td> 
-   <td> <p>rgb</p> </td> 
-   <td> <p> <span class="codeph"> &lt;image/avif&gt; </span> </p> </td> 
-   <td> <p>Nej </p> </td> 
-   <td> <p>Samma som ovan. </p> </td> 
   </tr> 
  </tbody> 
 </table>
