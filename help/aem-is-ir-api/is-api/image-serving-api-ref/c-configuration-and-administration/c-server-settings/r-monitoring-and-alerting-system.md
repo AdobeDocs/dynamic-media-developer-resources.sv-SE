@@ -5,9 +5,9 @@ title: Övervaknings- och varningssystem
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: fe672d1b-93e5-466a-a329-3032095c6ba8
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---

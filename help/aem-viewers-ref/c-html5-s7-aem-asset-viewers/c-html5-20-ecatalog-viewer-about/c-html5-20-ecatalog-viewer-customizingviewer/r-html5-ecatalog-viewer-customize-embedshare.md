@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 2ed2db55-824c-40b6-8747-6b9b8792f5db
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '2606'
+source-wordcount: '2640'
 ht-degree: 0%
 
 ---
@@ -525,7 +525,7 @@ Exempel - Om du vill ställa in en sidfot i en dialogruta med en Avbryt-knapp p�
 }
 ```
 
-Huvuddialogrutan (mellan sidhuvudet och sidfoten) innehåller rullningsbart dialogruteinnehåll och rullningspanelen till höger. I samtliga fall hanterar komponenten bredden på det här området, det går inte att ange den i CSS. Huvudområdet i dialogrutan styrs med följande CSS-klassväljare:
+Huvuddialogrutan, mellan sidhuvudet och sidfoten, innehåller rullningsbart dialogruteinnehåll och rullningspanelen till höger. I samtliga fall hanterar komponenten bredden på det här området, det går inte att ange den i CSS. Huvudområdet i dialogrutan styrs med följande CSS-klassväljare:
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7dialogviewarea

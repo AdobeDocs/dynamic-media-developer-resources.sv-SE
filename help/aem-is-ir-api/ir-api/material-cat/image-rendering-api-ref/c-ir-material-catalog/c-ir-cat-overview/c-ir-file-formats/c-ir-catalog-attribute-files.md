@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8b5afb99-3201-4e43-93e7-e8998354204f
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Katalogattributfiler består av en uppsättning textposter, avgränsade med en e
 <table id="simpletable_8454AD549FDA421BA1469CDA44132773"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> name </span> </span> </p> </td> 
-  <td class="stentry"> <p>Attributnamn; kan bestå av en eller flera bokstäver, siffror, '-' och '_', inte skiftlägeskänsliga. </p> </td> 
+  <td class="stentry"> <p>Attributnamn; kan bestå av en eller flera bokstäver, siffror, - (bindestreck) och _ (understreck), inte skiftlägeskänsliga.</p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> value </span> </span> </p> </td> 
@@ -32,7 +32,7 @@ Katalogattributfiler består av en uppsättning textposter, avgränsade med en e
 </table>
 
 * Tomt utrymme mellan variabler är valfritt.
-* Poster med okända attributnamn ignoreras av [!DNL Platform Server].
-* Attributnamn kan bestå av vilken kombination som helst av ASCII-bokstäver, siffror och&quot;-&quot;,&quot;_&quot; och&quot;.&quot;
+* The [!DNL Platform Server] ignorerar poster med okända attributnamn.
+* Attributnamn kan bestå av en valfri kombination av ASCII-bokstäver, siffror och `-`, `_`och `.` tecken.
 * Om samma attributnamn förekommer mer än en gång i samma attributfil gäller det senast påträffade attributnamnet.
-* Använd &#39;#&#39; som första tecken för att markera en post som en kommentar som tolkaren ignorerar.
+* Använd `#` som det första tecknet för att markera en post som en kommentar som parsern ignorerar.

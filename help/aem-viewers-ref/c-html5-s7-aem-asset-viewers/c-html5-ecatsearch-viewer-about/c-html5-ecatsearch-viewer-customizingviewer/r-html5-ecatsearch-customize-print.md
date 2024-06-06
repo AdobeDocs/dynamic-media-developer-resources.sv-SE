@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: c5939cdc-fa4e-4f19-b2a9-21b389492c4f
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1488'
 ht-degree: 0%
 
 ---
@@ -521,7 +521,7 @@ Exempel - Om du vill ställa in en dialogruteslut med knappen Avbryt 64 x 34 och
 }
 ```
 
-Dialogrutans huvudområde (mellan sidhuvudet och sidfoten) innehåller dialogruteinnehåll. I samtliga fall hanterar komponenten bredden på det här området, det går inte att ange den i CSS. Huvudområdet i dialogrutan styrs med följande CSS-klassväljare:
+Huvudområdet i dialogrutan, mellan sidhuvudet och sidfoten, innehåller dialoginnehåll. I samtliga fall hanterar komponenten bredden på det här området, det går inte att ange den i CSS. Huvudområdet i dialogrutan styrs med följande CSS-klassväljare:
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogviewarea

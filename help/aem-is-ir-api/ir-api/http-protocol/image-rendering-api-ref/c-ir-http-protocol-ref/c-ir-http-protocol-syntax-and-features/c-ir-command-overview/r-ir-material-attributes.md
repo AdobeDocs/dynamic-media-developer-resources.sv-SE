@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 77801376-5bc5-4fd4-95d6-8c80b31c779d
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Dessa attribut definierar det material som ska användas på det markerade objek
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-bgc.md#reference-3f5c78cea01c4a85aa582076d23aebb0" type="reference" format="dita" scope="local"> bgc</a></span> </p></td> 
-  <td class="stentry"> <p>Subtraktionsfärg för ett färgämne. </p></td> 
+  <td class="stentry"> <p>Subtraktionsfärg för ett färglagt material. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26" type="reference" format="dita" scope="local"> ankare</a></span> </p></td> 
@@ -75,7 +75,7 @@ Dessa attribut definierar det material som ska användas på det markerade objek
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-opac.md#reference-136b8563da714313a9e103f4ce179c5b" type="reference" format="dita" scope="local"> opac</a></span> </p></td> 
-  <td class="stentry"> <p>Materialopacitet. </p></td> 
+  <td class="stentry"> <p>Materialopacitet </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-pos.md#reference-22c10904a0ce4c8bb41c2c78104221b8" type="reference" format="dita" scope="local"> pos</a></span> </p></td> 
@@ -91,7 +91,7 @@ Dessa attribut definierar det material som ska användas på det markerade objek
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-flags.md#reference-3a4844f0f21346d79e6508aaad9a9ac9" type="reference" format="dita" scope="local"> flaggor</a></span> </p></td> 
-  <td class="stentry"> <p>Specialinställningar. </p></td> 
+  <td class="stentry"> <p>Specialinställningar som ska användas. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rs.md#reference-d20cefaaa6cd4f449d1591c87959b4cf" type="reference" format="dita" scope="local"> r</a></span> </p></td> 

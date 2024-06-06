@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 638ca6c2-375c-4162-b640-68aed6a8a9c6
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '1385'
+source-wordcount: '1402'
 ht-degree: 0%
 
 ---
@@ -525,7 +525,7 @@ Knappens tips kan lokaliseras. Se [Lokalisering av användargränssnittselement]
 }
 ```
 
-Dialogrutans huvudområde (mellan sidhuvudet och sidfoten) innehåller dialogruteinnehåll. I samtliga fall hanterar komponenten bredden på det här området - det går inte att ange den i CSS. Huvudområdet i dialogrutan styrs med följande CSS-klassväljare:
+Huvudområdet i dialogrutan, mellan sidhuvudet och sidfoten, innehåller dialoginnehåll. I samtliga fall hanterar komponenten bredden på det här området - det går inte att ange den i CSS. Huvudområdet i dialogrutan styrs med följande CSS-klassväljare:
 
 ```css{.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialogviewarea

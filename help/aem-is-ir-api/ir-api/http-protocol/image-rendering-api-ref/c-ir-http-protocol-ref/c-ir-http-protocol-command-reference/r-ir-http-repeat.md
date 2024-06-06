@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6cc82742-4ba0-4524-a87b-586539d7fe38
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '156'
 ht-degree: 12%
 
 ---
@@ -41,19 +41,19 @@ Upprepningsläge för textur. Anger upprepningsläget för repeterbara texturmat
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p> </td> 
-  <td class="stentry"> <p>Fallpappret hänger på. </p> </td> 
+  <td class="stentry"> <p>Fallpapper med tredje droppen hänger. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>6 </p> </td> 
-  <td class="stentry"> <p>Halvdrop tapet hängde. </p> </td> 
+  <td class="stentry"> <p>Halvdrop tapet hänger. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>7 </p> </td> 
-  <td class="stentry"> <p>Femte-dropps tapet hänger. </p> </td> 
+  <td class="stentry"> <p>Femte dropptapeten hänger. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>8 </p> </td> 
-  <td class="stentry"> <p>Bakåtvänt tapet hänger. </p> </td> 
+  <td class="stentry"> <p>Omvänd tapet hänger. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>9 </p> </td> 
@@ -85,7 +85,7 @@ Upprepningsläge för textur. Anger upprepningsläget för repeterbara texturmat
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>16 </p> </td> 
-  <td class="stentry"> <p>Slumpmässig lågfrekvenskontroll. </p> </td> 
+  <td class="stentry"> <p>Slumpmässig lågfrekvenskslumpgenerator. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>17 </p> </td> 
@@ -101,7 +101,7 @@ Upprepningsläge för textur. Anger upprepningsläget för repeterbara texturmat
  </tr> 
 </table>
 
-De slumpmässiga vridlägen (14...18) kan användas för att syntetisera texturer från bilder som inte är lätt repeterbara. algoritmen skapar helt slumpmässiga eller delvis slumpmässiga texturer baserat på originalbilden.
+De slumpmässiga vridlägena (14...18) kan användas för att syntetisera texturer från bilder som inte är upprepningsbara. Algoritmen skapar helt slumpmässiga eller delvis slumpmässiga texturer baserat på originalbilden.
 
 ## Egenskaper {#section-262bf540930d4890b678ea00cefe1909}
 
@@ -109,7 +109,7 @@ Materialattribut. Ignoreras av heltäckande färg-, dekal- och kabinettmaterial.
 
 ## Standard {#section-e5bbd7d9fbb74852849e605d20f550bb}
 
-`catalog::Repeat`, om materialet är baserat på en katalogpost, i annat fall `0` (rak upprepning).
+`catalog::Repeat`, om materialet är baserat på en katalogpost, annars `0` (rak upprepning).
 
 ## Se även {#section-ac99113b64654d75a3a86e41db546269}
 

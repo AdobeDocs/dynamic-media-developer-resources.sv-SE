@@ -5,9 +5,9 @@ title: Alternativ för vinjetter
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7f9c2b43-9264-46a4-9519-64148aebf258
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Följande alternativ styr bearbetningen av vinjettfiler. De ignoreras om sourceF
 <table id="simpletable_6D0C967EB84947FBAC34B46C4BB23AF0"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> -contents</span> </p></td> 
-  <td class="stentry"> <p>Skapar en XML-fil som representerar objekthierarkin och inkluderar valda objektattribut. Innehållet i filen är detsamma som det returneras av <span class="codeph"> req=contents</span> -kommando. Filen har samma namn som källfilen, men med en <span class="filepath"> .xml</span> suffix. </p></td> 
+  <td class="stentry"> <p>Skapar en XML-fil som representerar objekthierarkin och inkluderar valda objektattribut. Innehållet i filen är detsamma som det som returneras av <span class="codeph"> req=contents</span> -kommando. Filen har samma namn som källfilen, men med en <span class="filepath"> XML</span> suffix. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">-crop <span class="varname"> x</span><span class="varname"> y</span><span class="varname"> wid</span><span class="varname"> hei</span></span> </p></td> 
@@ -47,7 +47,7 @@ Följande alternativ styr bearbetningen av vinjettfiler. De ignoreras om sourceF
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> -pyramid</span> </p></td> 
-  <td class="stentry"> <p>Skapar en pyramidvinjettering. Krävs när återgivna bilder ska visas med Dynamic Media zoomningsvisningsprogram. Se <a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585" type="concept" format="dita" scope="local"> Vinjettskalförändring</a> för ytterligare information. </p></td> 
+  <td class="stentry"> <p>Skapar en pyramidvinjettering. Krävs när återgivna bilder ska visas med Dynamic Media zoomningsvisningsprogram. Se <a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585" type="concept" format="dita" scope="local"> Vinjettskalförändring</a> om du vill ha mer information. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">-thumbwidth <span class="varname"> ival</span></span> </p></td> 

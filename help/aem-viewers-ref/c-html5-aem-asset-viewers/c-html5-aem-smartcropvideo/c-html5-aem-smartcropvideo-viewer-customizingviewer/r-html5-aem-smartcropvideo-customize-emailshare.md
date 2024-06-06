@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: f2685d59-6b92-49cf-9359-dda602af4297
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '2994'
+source-wordcount: '3029'
 ht-degree: 0%
 
 ---
@@ -521,7 +521,7 @@ Exempel - Om du vill ställa in en dialogruteslut med knappen Avbryt 64 x 34 och
 }
 ```
 
-Huvuddialogrutan (mellan sidhuvudet och sidfoten) innehåller rullningsbart dialogruteinnehåll och rullningspanelen till höger. I samtliga fall hanterar komponenten bredden på det här området, det går inte att ange den i CSS. Huvudområdet i dialogrutan styrs med följande CSS-klassväljare:
+Huvuddialogrutan, mellan sidhuvudet och sidfoten, innehåller rullningsbart dialogruteinnehåll och rullningspanelen till höger. I samtliga fall hanterar komponenten bredden på det här området, det går inte att ange den i CSS. Huvudområdet i dialogrutan styrs med följande CSS-klassväljare:
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogviewarea

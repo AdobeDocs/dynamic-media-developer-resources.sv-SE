@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 4c72500b-9750-4fae-9447-96cf600b31c7
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '3045'
+source-wordcount: '3081'
 ht-degree: 0%
 
 ---
@@ -523,7 +523,7 @@ Exempel - Om du vill ställa in en dialogruteslut med knappen Avbryt (64 x 34) o
 }
 ```
 
-Huvuddialogrutan (mellan sidhuvudet och sidfoten) innehåller rullningsbart dialogruteinnehåll och rullningspanelen till höger. I samtliga fall hanterar komponenten bredden på det här området, det går inte att ange den i CSS. Huvudområdet i dialogrutan styrs med följande CSS-klassväljare:
+Huvuddialogrutan, mellan sidhuvudet och sidfoten, innehåller rullningsbart dialogruteinnehåll och rullningspanelen till höger. I samtliga fall hanterar komponenten bredden på det här området, det går inte att ange den i CSS. Huvudområdet i dialogrutan styrs med följande CSS-klassväljare:
 
 ```
 .s7ecatalogviewer .s7emaildialog .s7dialogviewarea

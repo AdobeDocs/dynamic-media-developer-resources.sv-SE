@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 6f2b832f-e627-428a-8673-129bfa58c7e2
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '1374'
+source-wordcount: '1388'
 ht-degree: 0%
 
 ---
@@ -525,7 +525,7 @@ Exempel - om du vill ställa in en dialogruteslut med knappen Avbryt (64 x 34), 
 }
 ```
 
-Dialogrutans huvudområde (mellan sidhuvudet och sidfoten) innehåller dialogruteinnehåll. I samtliga fall hanterar komponenten bredden på det här området - det går inte att ange den i CSS. Huvudområdet i dialogrutan styrs med följande CSS-klassväljare:
+Huvudområdet i dialogrutan, mellan sidhuvudet och sidfoten, innehåller dialoginnehåll. I samtliga fall hanterar komponenten bredden på det här området - det går inte att ange den i CSS. Huvudområdet i dialogrutan styrs med följande CSS-klassväljare:
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7dialogviewarea

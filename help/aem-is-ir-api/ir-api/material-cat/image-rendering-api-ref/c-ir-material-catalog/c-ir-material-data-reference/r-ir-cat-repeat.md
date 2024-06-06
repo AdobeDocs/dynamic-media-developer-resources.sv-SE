@@ -5,9 +5,9 @@ title: Upprepa
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6d6946b0-a827-4ee6-963b-84529ad35ee9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '128'
 ht-degree: 15%
 
 ---
@@ -45,15 +45,15 @@ Följande värden är tillåtna för repeterbara texturmaterial:
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>5 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Fallpappret hänger på. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Fallpapper med tredje droppen hänger. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>6 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Halvdrop tapet hängde. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Halvdrop tapet hänger. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>7 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Femte-dropps tapet hänger. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Femte dropptapeten hänger. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>8 </p></td> 
@@ -89,7 +89,7 @@ Följande värden är tillåtna för repeterbara texturmaterial:
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>16 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Slumpmässig lågfrekvenskontroll. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Slumpmässig lågfrekvenskslumpgenerator. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>17 </p></td> 

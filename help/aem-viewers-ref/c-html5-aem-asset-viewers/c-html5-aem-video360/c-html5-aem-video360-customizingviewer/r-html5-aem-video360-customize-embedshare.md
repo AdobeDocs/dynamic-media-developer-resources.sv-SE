@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 08ba7a29-8b17-4167-a9f3-82aa4cf65556
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '2599'
+source-wordcount: '2631'
 ht-degree: 0%
 
 ---
@@ -525,7 +525,7 @@ Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargrä
 } 
 ```
 
-Huvuddialogrutan (mellan sidhuvudet och sidfoten) innehåller rullningsbart dialogruteinnehåll och rullningspanelen till höger. I samtliga fall hanterar komponenten bredden på det här området, det går inte att ange den i CSS. Huvudområdet i dialogrutan styrs med följande CSS-klassväljare:
+Huvuddialogrutan, mellan sidhuvudet och sidfoten, innehåller rullningsbart dialogruteinnehåll och rullningspanelen till höger. I samtliga fall hanterar komponenten bredden på det här området, det går inte att ange den i CSS. Huvudområdet i dialogrutan styrs med följande CSS-klassväljare:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogviewarea

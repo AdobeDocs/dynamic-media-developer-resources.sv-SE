@@ -1,20 +1,20 @@
 ---
-description: Bildvalideringsverktyg. Detta kommandoradsverktyg verifierar bildfilerna för att säkerställa att de är giltiga och kan läsas utan problem med Image Serving.
+description: Bildvalideringsverktyg. Detta kommandoradsverktyg verifierar bildfilerna för att säkerställa att de är giltiga och att Image Serving kan läsa dem utan problem.
 solution: Experience Manager
 title: validera
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 78d50fe9-95c6-4335-98d8-3322839ee02d
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
 
 # validera{#validate}
 
-Bildvalideringsverktyg. Detta kommandoradsverktyg verifierar bildfilerna för att säkerställa att de är giltiga och kan läsas utan problem med Image Serving.
+Bildvalideringsverktyg. Detta kommandoradsverktyg verifierar bildfilerna för att säkerställa att de är giltiga och kan läsas av Image Serving utan problem.
 
 Alla icke-PTIFF-bildfiler måste valideras innan filen blir tillgänglig för Image Serving som källbild. PTIFF-bilder bör valideras efter potentiellt otillförlitliga kopieringsåtgärder.
 
@@ -54,7 +54,7 @@ Alla icke-PTIFF-bildfiler måste valideras innan filen blir tillgänglig för Im
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -validatecolorprofile </span> </p> </td> 
-  <td class="stentry"> <p>Verifierar att den inbäddade färgprofilen är giltig. Som standard är inte profibrödtexten markerad. </p> </td> 
+  <td class="stentry"> <p>Verifierar att den inbäddade färgprofilen är giltig. Standardinställningen är att innehållsprofilen inte är markerad. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -reject16BitPerComponent </span> </p> </td> 
