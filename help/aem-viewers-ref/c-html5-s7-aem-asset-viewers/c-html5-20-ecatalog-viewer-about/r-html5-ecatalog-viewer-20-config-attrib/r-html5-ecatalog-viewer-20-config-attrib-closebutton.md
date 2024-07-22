@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 253dad70-c46c-4d37-8d0c-2a97a5f53f13
 source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 2%
+source-wordcount: '46'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p>Ange till <span class="codeph"> 1 </span> för att aktivera visning av stängningsknappen. Eller, ange till <span class="codeph"> 0 </span> om du vill dölja stängningsknappen. </p> <p>Knappen Stäng stöds bara på pekenheter. den inte kan visas på stationära datorer. </p> </td> 
+   <td colname="col2"> <p>Ange <span class="codeph"> 1 </span> för att aktivera visning av stängningsknappen. Du kan också ange <span class="codeph"> 0 </span> för att dölja stängningsknappen. </p> <p>Knappen Stäng stöds bara på enheter med pekskärm. Den kan inte visas på stationära datorer. </p> </td> 
   </tr> 
  </tbody> 
 </table>

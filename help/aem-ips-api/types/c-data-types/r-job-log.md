@@ -27,12 +27,12 @@ Syntax
 | jobName | `xsd:string` | Jobbnamn. |
 | originalJobName | `xsd:string` | Det ursprungliga namnet som skickades för jobbet med `submitJob`. |
 | submitUserEmail | `xsd:string` | E-postadressen till den användare som skickade jobbet. |
-| logType | `xsd:string` | Val av jobbloggtyper. |
+| logType | `xsd:string` | Val av jobbloggstyper. |
 | jobSubType | `xsd:string` | Ytterligare jobbinformation. |
 | startDate | `xsd:dateTime` | Startdatum, tid och tidszon för jobbet. |
 | endDate | `xsd:dateTime` | Jobbets slutdatum, tid och tidszon. |
-| [!DNL description] | `xsd:string` | En beskrivning av jobbet som det ursprungligen angavs i `submitJob`. |
-| fileSuccessCount | `xsd:int` | Antal filer som bearbetats. |
+| [!DNL description] | `xsd:string` | En beskrivning av jobbet som ursprungligen angavs i `submitJob`. |
+| fileSuccessCount | `xsd:int` | Antal filer som har bearbetats. |
 | fileErrorCount | `xsd:int` | Antal filer som orsakade ett fel. |
 | fileWarningCount | `xsd:int` | Antal filer som genererade en varning. |
 | fileDuplicateCount | `xsd:int` | Antal duplicerade filer. |

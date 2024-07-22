@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: ad544a12-d2a4-45c9-9e76-e0bf96901725
 source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -29,11 +29,11 @@ Placeringen och storleken på verktyget för delning via sociala medier i visnin
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p> Det sociala delningsverktygets lodräta position i förhållande till visningsprogrambehållaren. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vänster </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kvar </span> </p> </td> 
    <td colname="col2"> <p> Vågrät position för verktyget för delning via sociala medier i förhållande till visningsprogrambehållaren. </p> </td> 
   </tr> 
   <tr> 
@@ -66,7 +66,7 @@ Utseendet på verktygsknappen för delning via sociala medier styrs av följande
 .s7interactivevideoviewer .s7socialshare .s7socialbutton
 ```
 
-**CSS-egenskaper för verktygsknappen för delning via sociala medier**
+**CSS-egenskaper för knappen för verktyget för social delning**
 
 <table id="table_A18B6978EC304C378F5FE92DD44D138D"> 
  <tbody> 
@@ -83,9 +83,9 @@ Utseendet på verktygsknappen för delning via sociala medier styrs av följande
 
 >[!NOTE]
 >
->Den här knappen har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen.
+>Den här knappen stöder attributväljaren `state` som kan användas för att tillämpa olika skal på olika knapplägen.
 
-Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av element i användargränssnittet](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 ## Exempel {#example-1}
 
@@ -112,7 +112,7 @@ Utseendet på panelen som innehåller de enskilda ikonerna för social delning s
 .s7interactivevideoviewer .s7socialshare .s7socialsharepanel
 ```
 
-**CSS-egenskaper för panelen för sociala medier**
+**CSS-egenskaper för panelen för social delning**
 
 <table id="table_86E777A5851F47D6A49D966E24A9A6CD"> 
  <tbody> 

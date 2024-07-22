@@ -39,44 +39,44 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Företagshandtag. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Fältreferens för metadata. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> Namn på metadatafält. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> Värde för metadatafält. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolesk</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> Dölj eller visa systemspecifika IPS-metadata. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"><span class="varname"> isEnced</span></span> </td> 
+   <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolesk</span> </td> 
    <td colname="col3"> <p>Nej </p> </td> 
-   <td colname="col4"> <p>En boolesk flagga som anger om metadatafältet används (valideras) när värdet ställs in. </p> <p>Om värdet är true genereras ett fel om ett ogiltigt värde anges i <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
+   <td colname="col4"> <p>En boolesk flagga som anger om metadatafältet används (valideras) när värdet ställs in. </p> <p>Om värdet är true genereras ett fel om ett ogiltigt värde anges i <span class="codeph"> setAssetMetadata </span> /<span class="codeph"> batchSetAssetMetadata </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> Gör att du kan skapa en uppsättning delade uppräknade värden som markerade taggar kan peka på. </td> 
   </tr> 

@@ -1,6 +1,6 @@
 ---
 title: setHandlers
-description: JavaScript API-referens för visningsprogrammet för utfällbara bilder.
+description: JavaScript API-referens för visningsprogrammet.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # setHandlers{#sethandlers}
 
-JavaScript API-referens för visningsprogrammet för utfällbara bilder.
+JavaScript API-referens för visningsprogrammet.
 
 `setHandlers(handlers)`
 
@@ -26,7 +26,7 @@ Anger noll eller flera callback-hanterare. Ett anrop till den här metoden skriv
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> hanterare </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {Object} </span> JSON-objekt med återanrop för visningsprogramhändelser, där egenskapsnamnet är namnet på den visningsprogramhändelse som stöds och egenskapsvärdet är en JavaScript-funktionsreferens till ett lämpligt återanrop. </p> <p>Se <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-event-callbacks.md#concept-53eb01d28189437790268da4929f2a10" format="dita" scope="local"> Händelseåteranrop </a> för mer information om visningsprogramhändelser. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {Object} </span> JSON-objekt med återkopplingar för visningsprogramhändelser, där egenskapsnamnet är namnet på den visningsprogramhändelse som stöds och egenskapsvärdet är en JavaScript-funktionsreferens till ett lämpligt återanrop. </p> <p>Mer information om visningsprogramhändelser finns i <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-event-callbacks.md#concept-53eb01d28189437790268da4929f2a10" format="dita" scope="local"> Händelseåteranrop </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

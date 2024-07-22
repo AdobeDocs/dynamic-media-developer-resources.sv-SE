@@ -18,13 +18,13 @@ Standardbildformat för svar. Anger standardformatet för svarsbilder.
 
 ## Egenskaper {#section-3cbea775a174443aaf14e9e58a3c2300}
 
-Textsträng. Måste vara en av de formatvariabler som stöds av `fmt=` kommando:
+Textsträng. Måste vara en av de formattoken som stöds av kommandot `fmt=`:
 
 `jpg | jpeg | png | png-alpha | tif | tif-alpha | swf | swf-alpha | pdf | eps | gif | gif-alpha`
 
 ## Standard {#section-256b0f8afdd846eaac68ec2019258708}
 
-Ärvs från `default::Format` om den inte är definierad eller om den är tom.
+Ärvs från `default::Format` om inte definierad eller om tom.
 
 ## Se även {#section-d6dc53ae28ab4133a9f8f9ec0bc159a6}
 

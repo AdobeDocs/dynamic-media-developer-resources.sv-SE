@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 9654ee6c-3b47-4a96-b6f0-87a0facf4523
 source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -49,9 +49,9 @@ Utseendet på knappen Ta bort favorit styrs av följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen har stöd för båda `state` och `selected` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen. I synnerhet `selected='true'` motsvarar läget när en användare kan lägga till en ny Favorit-ikon genom att klicka eller trycka på. Attributet `selected='false'` motsvarar det normala driftsläget när en användare kan zooma, panorera och byta sidor.
+>Den här knappen stöder både attributväljarna `state` och `selected` som kan användas för att tillämpa olika skal på olika knapplägen. I synnerhet motsvarar `selected='true'` läget när en användare kan lägga till en ny Favorit-ikon genom att klicka eller trycka. Attributet `selected='false'` motsvarar normalläget när en användare kan zooma, panorera och byta sidor.
 
-Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - om du vill ställa in en Ta bort favorit-knapp som är 28 x 28 pixlar och visar en annan bild för var och en av de fyra olika knapplägena när den är markerad eller inte markerad.
 

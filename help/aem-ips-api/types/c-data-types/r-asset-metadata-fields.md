@@ -23,4 +23,4 @@ Syntax
 | Namn | Typ | Beskrivning |
 |---|---|---|
 | assetType | `xsd:string` | Resurstyp som är associerad med fältdefinitioner (se &quot;Tillgångstyper&quot; för värden). |
-| fieldArray | `types:MetadataFieldArray` | Array med metadatafältdefinitioner som är associerade med resurstypen som anges i `assetType`. |
+| fieldArray | `types:MetadataFieldArray` | Matris med metadatafältdefinitioner som är associerade med resurstypen som anges i `assetType`. |

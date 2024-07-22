@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 78657fd2-e805-4047-be0a-592143025986
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Utseendet på videotiden styrs av följande CSS-klassväljare:
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p>Placera från den övre kanten, inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
@@ -57,7 +57,7 @@ Utseendet på videotiden styrs av följande CSS-klassväljare:
  </tbody> 
 </table>
 
-**Exempel** - Ställ in videotiden till ljusgrå (hexadecimal) `#BBBBBB`), storleksanpassat till 12 pixlar, placerat 15 pixlar från kontrollfältets överkant och 80 pixlar från kontrollfältets övre och högra kant.
+**Exempel** - Ställ in videotiden på ljusgrå (hexadecimal `#BBBBBB`), storleksändrad på 12 pixlar, placerad 15 pixlar från kontrollfältets överkant och 80 pixlar från kontrollfältets övre och högra kanter.
 
 ```
 .s7video360viewer .s7videotime { 

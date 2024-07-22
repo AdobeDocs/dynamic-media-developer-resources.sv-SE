@@ -41,7 +41,7 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| projectHandle | `xsd:string` | Ja | Referensen för det omdöpta projektet. |
+| projectHandle | `xsd:string` | Ja | Referensen för det namnändrade projektet. |
 
 ## Exempel {#section-a0a06d9244774795b695a10b92b2a5e7}
 

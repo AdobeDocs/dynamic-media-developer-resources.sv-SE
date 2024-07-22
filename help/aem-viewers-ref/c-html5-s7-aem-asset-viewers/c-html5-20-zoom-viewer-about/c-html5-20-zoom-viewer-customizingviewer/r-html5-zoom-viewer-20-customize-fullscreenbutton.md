@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: bbbf32db-15ce-4273-acc0-b6725b5405fb
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Knappens utseende styrs med följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p>Placera från den övre kanten, inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
@@ -43,7 +43,7 @@ Knappens utseende styrs med följande CSS-klassväljare:
    <td colname="col2"> <p>Placera från den högra kanten, inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vänster </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kvar </span> </p> </td> 
    <td colname="col2"> <p>Placera från den vänstra kanten, inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
@@ -71,9 +71,9 @@ Knappens utseende styrs med följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen har stöd för båda `state` och `selected` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen. Särskilt gäller följande: `selected='true'` motsvarar läget&quot;helskärm&quot; och `selected='false'` motsvarar läget &quot;normal&quot;.
+>Den här knappen stöder både attributväljarna `state` och `selected` som kan användas för att tillämpa olika skal på olika knapplägen. `selected='true'` motsvarar i synnerhet helskärmsläget och `selected='false'` motsvarar normalläget.
 
-Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av element i användargränssnittet](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - För att ställa in en helskärmsknapp som är 32 x 32 pixlar och placerad sex pixlar från den övre och högra kanten av visningsprogrammet. Och slutligen, visar en annan bild för vart och ett av de fyra olika knapplägena när det är markerat eller inte markerat:
 

@@ -16,15 +16,15 @@ ht-degree: 0%
 
 Strängöversättningskarta. Avser ett locId som kan mappas till valfritt antal internalLocId.
 
-`*`artikel`*&#42;['|' *`artikel`*]`
+`*`objekt`*&#42;['|' *`objekt`*]`
 
 <table id="simpletable_26A9A6904C85459F89DCDD98C14139CA"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> artikel </span> </p> </td> 
-  <td class="stentry"> <p> <span class="varname"> locale </span>, <span class="varname"> locId </span>*[',' <span class="varname"> locId </span>] </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> objekt </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> språk </span>, <span class="varname"> locId </span>*[',' <span class="varname"> locId </span>] </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> locale </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> språk </span> </p> </td> 
   <td class="stentry"> <p>Språk (ej skiftlägeskänsligt). </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -33,11 +33,11 @@ Strängöversättningskarta. Avser ett locId som kan mappas till valfritt antal 
  </tr> 
 </table>
 
-`LocaleStrMap` refererar till `locId` som kan mappas till valfritt antal `internalLocId`.
+`LocaleStrMap` refererar till en `locId` som kan mappas till valfritt antal `internalLocId`.
 
-En tom *`locale`* värdet matchar tomt och okänt `locale=` strängar. Detta gör att du kan definiera en standardregel för okända språk.
+Ett tomt *`locale`*-värde matchar tomma och okända `locale=`-strängar. Detta gör att du kan definiera en standardregel för okända språk.
 
-Tom *`locId`* värden tillåts och väljer *`defaultString`* (på *`defaultString`* har ingen identifierare för språkområde). *`locId`* värden söks igenom i den angivna ordningen. Den första matchningen returneras.
+Tomma *`locId`*-värden tillåts och välj *`defaultString`* (*`defaultString`* har ingen språkområdesidentifierare). *`locId`* värden söks igenom i den angivna ordningen. Den första matchningen returneras.
 
 Strängöversättning, när den är aktiverad, används för textsträngar i följande bildkatalogsfält:
 
@@ -48,19 +48,19 @@ Strängöversättning, när den är aktiverad, används för textsträngar i fö
    <td> <b>Strängelement i fält</b> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> katalog::ImageSet </span> </p> </td> 
-   <td> <p>Alla underelement som innehåller en översättningsbar sträng (avgränsas av en kombination av avgränsare ',' ';' ':' och/eller fältets start/slut). </p> <p>A <span class="codeph"> 0xrrggbb </span> färgvärdet i början av ett lokaliserbart fält är exkluderat från lokaliseringen och skickas vidare utan ändring. </p> </td> 
+   <td> <p> <span class="codeph">-katalog::ImageSet </span> </p> </td> 
+   <td> <p>Alla underelement som innehåller en översättningsbar sträng (avgränsas av en kombination av avgränsare ',' ';' ':' och/eller fältets start/slut). </p> <p>Ett <span class="codeph"> 0xrrggbb </span> -färgvärde i början av ett lokaliseringsbart fält undantas från lokalisering och skickas vidare utan ändring. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> katalog::Map </span> </p> </td> 
-   <td> <p>Ett attributvärde med enkla eller dubbla citattecken, förutom värdena för <span class="codeph"> coords= </span> och <span class="codeph"> shape= </span> attribut. </p> </td> 
+   <td> <p> <span class="codeph">-katalog::Map </span> </p> </td> 
+   <td> <p>Ett attributvärde med enkla eller dubbla citattecken, förutom värdena för attributen <span class="codeph"> coords= </span> och <span class="codeph"> shape= </span> . </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> katalog::mål </span> </p> </td> 
-   <td> <p>Värdet för <span class="filepath"> mål.*.label </span> och <span class="filepath"> mål.*.userdata </span> -egenskap. </p> </td> 
+   <td> <p> <span class="codeph">-katalog::mål </span> </p> </td> 
+   <td> <p>Värdet för något <span class="filepath">-mål.*.label </span> och <span class="filepath"> target.*.userdata </span>-egenskap. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> katalog::UserData </span> </p> </td> 
+   <td> <p> <span class="codeph">-katalog::UserData </span> </p> </td> 
    <td> <p>Värdet för en egenskap. </p> </td> 
   </tr> 
  </tbody> 
@@ -72,4 +72,4 @@ Ett eller flera objekt, avgränsade med |, där varje objekt består av två ell
 
 ## Se även {#section-0c0516e4f83d42d38247308cab9b6708}
 
-Lokaliseringsstöd, [locale=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-locale.md#reference-8a846b2fbc004a12821b956ed3b25cfb), [attribute::LocaleMap](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-localemap.md#reference-49bbf598f8ea47c3a563755cef306318), [katalog::ImageSet](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md), [katalog::Map](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-map-cat.md), [katalog::mål](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-targets-cat.md), [katalog::UserData](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md)
+Lokaliseringsstöd, [locale=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-locale.md#reference-8a846b2fbc004a12821b956ed3b25cfb), [attribute::LocaleMap](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-localemap.md#reference-49bbf598f8ea47c3a563755cef306318), [catalog::ImageSet](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md), [catalog::Map](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-map-cat.md), [catalog::Target](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-targets-cat.md), [catalog::UserData](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md)

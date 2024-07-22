@@ -1,32 +1,32 @@
 ---
 title: Stöd för Adobe Analytics tracking
-description: Videovisningsprogrammet för Smart Crop har stöd för Adobe Analytics-spårning direkt.
+description: Videovisningsprogrammet för Smart Crop har stöd för Adobe Analytics-spårning som är färdig att användas.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 0d91ca94-79fc-40de-8095-0252688ebe76
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
 
 # Stöd för Adobe Analytics tracking{#support-for-adobe-analytics-tracking}
 
-Videovisningsprogrammet för Smart Crop har stöd för Adobe Analytics-spårning direkt.
+Videovisningsprogrammet för Smart Crop har stöd för Adobe Analytics-spårning som är färdig att användas.
 
 ## Spåra direkt {#section-3b101fe30be943c1b679fd5c273569ca}
 
-Videovisningsprogrammet för Smart Crop har stöd för Adobe Analytics-spårning direkt.
+Videovisningsprogrammet för Smart Crop har stöd för Adobe Analytics-spårning som är färdig att användas.
 
-Om du vill aktivera spårning skickar du rätt namn på företagets förinställning som `config2` parameter.
+Om du vill aktivera spårning skickar du rätt namn på företagets förinställning som `config2`-parameter.
 
 Visningsprogrammet skickar även en enda HTTP-begäran för spårning till den konfigurerade Image Server med information om visningsprogramtyp och version.
 
 ## Anpassad spårning {#section-ab10bd7caf184721a366cf3953071934}
 
-För att kunna integreras med analyssystem från tredje part måste man lyssna på `trackEvent` återanrop och process för visningsprogram `eventInfo` vid behov callback-funktionens argument. Följande kod är ett exempel på en sådan hanterarfunktion:
+Om du vill integrera med analyssystem från tredje part måste du lyssna på `trackEvent`-visningsprogrammets callback-argument och bearbeta `eventInfo`-argumentet för callback-funktionen efter behov. Följande kod är ett exempel på en sådan hanterarfunktion:
 
 ```javascript {.line-numbers}
 var smartCropVideoViewer = new s7viewers.SmartCropVideoViewer({ 
@@ -62,7 +62,7 @@ Visningsprogrammet spårar följande SDK-användarhändelser:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LADDA </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LÄS IN </span> </p> </td> 
    <td colname="col2"> <p>visningsprogrammet läses in först. </p> </td> 
   </tr> 
   <tr> 
@@ -70,11 +70,11 @@ Visningsprogrammet spårar följande SDK-användarhändelser:
    <td colname="col2"> <p>en resurs byts ut i visningsprogrammet med <span class="codeph"> setAsset() </span> API. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SPELA </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> SPELA UPP </span> </p> </td> 
    <td colname="col2"> <p>uppspelningen startas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PAUS </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PAUSE </span> </p> </td> 
    <td colname="col2"> <p>uppspelningen är pausad. </p> </td> 
   </tr> 
   <tr> 
@@ -82,7 +82,7 @@ Visningsprogrammet spårar följande SDK-användarhändelser:
    <td colname="col2"> <p>uppspelningen stoppas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> MILESTON </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> MILESTONE </span> </p> </td> 
    <td colname="col2"> <p>uppspelningen når en av följande millisekunder: 0 %, 25 %, 50 %, 75 % och 100 %. </p> </td> 
   </tr> 
  </tbody> 

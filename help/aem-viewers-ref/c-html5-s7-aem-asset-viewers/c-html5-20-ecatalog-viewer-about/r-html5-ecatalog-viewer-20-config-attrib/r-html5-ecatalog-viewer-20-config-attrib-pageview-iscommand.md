@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: d1b05fe7-901b-4030-9b71-e4e0e5191abf
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '58'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,8 @@ ht-degree: 0%
 <table id="table_9E7BB12BF371419F88DD4D24EF04632C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> isCommand</span></span> </p> </td> 
-   <td colname="col2"> <p> Kommandosträngen Bildrutevisning som används på sidbilden. Om det anges i URL:en, alla förekomster av <span class="codeph"> &amp;</span> och <span class="codeph"> =</span> måste vara HTTP-kodad som <span class="codeph"> %26</span> och <span class="codeph"> %3D</span>, respektive. </p> <p> <p>Obs! Kommandon för att ändra bildstorlek stöds inte. </p> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> isCommand </span></span> </p> </td> 
+   <td colname="col2"> <p> Kommandosträngen Bildrutevisning som används på sidbilden. Om det anges i URL:en måste alla förekomster av <span class="codeph"> &amp;</span> och <span class="codeph"> =</span> vara HTTP-kodade som <span class="codeph"> %26</span> respektive <span class="codeph"> %3D</span>. </p> <p> <p>Obs! Kommandon för att ändra bildstorlek stöds inte. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -16,8 +16,8 @@ ht-degree: 0%
 
 Bildåtergivning tillämpar en storleksbegränsning på två megapixlar för vinjetter som inte är pyramidbaserade.
 
-Ändra värdet för `IrMaxNonPyrVignetteSize` i [!DNL *[!DNL install_root]* /ImageServing/conf /ImageServerRegistry.conf] om ditt program kräver stöd för vinjetter som inte är pyramidbaserade och där bildområdet (bredd x höjd) är större än denna gräns.
+Ändra värdet för `IrMaxNonPyrVignetteSize` i [!DNL *[!DNL install_root]* /ImageServing/conf /ImageServerRegistry.conf] om ditt program kräver stöd för icke-pyramidvinjettering med ett bildområde (bredd x höjd) som är större än denna gräns.
 
 >[!NOTE]
 >
->Justera attributen `attribute::MaxPix` och `IS::MaxMessageSize` för att ge ett ovanligt stort svar på bildstorlekar. Mer information finns i dokumentationen om bildservning.
+>Justera attributen `attribute::MaxPix` och `IS::MaxMessageSize` för att tillåta ovanligt stora svarsbilder. Mer information finns i dokumentationen om bildservning.

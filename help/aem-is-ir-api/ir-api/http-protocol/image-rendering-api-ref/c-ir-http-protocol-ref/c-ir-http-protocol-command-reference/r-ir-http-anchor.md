@@ -31,20 +31,20 @@ Bildankarpunkt (hotspot). Anger texturankarpunkten (hotspot) för den repeterbar
  </tr> 
 </table>
 
-En upprepningsbar textur används på ett vinjetteringsobjekt så att texturens fästpunkt ( `anchor=`) finns vid objektets texturorigo.
+En upprepningsbar textur används på ett vinjetteringsobjekt så att texturankarpunkten ( `anchor=`) finns vid objektets texturstartpunkt.
 
-En dekal bild används på ett vinjetteringsobjekt så att den dekala fästpunkten finns vid objektets dekala utgångspunkt. Det dekala läget kan justeras ytterligare med `pos=` -kommando.
+En dekal bild används på ett vinjetteringsobjekt så att den dekala ankarpunkten finns vid objektets dekala utgångspunkt. Det går att ytterligare justera den dolda positionen med kommandot `pos=`.
 
-`anchorN=0,0` Placerar bildankarpunkten i mitten av källbilden. `anchorN=-0.5,-0.5` eller `anchor=0,0` finns i det övre vänstra hörnet, och `anchorN=0.5,0.5` finns längst ned till höger i källbilden.
+`anchorN=0,0` placerar bildankarpunkten i mitten av källbilden. `anchorN=-0.5,-0.5` eller `anchor=0,0` finns i det övre vänstra hörnet och `anchorN=0.5,0.5` finns i det nedre högra hörnet av källbilden.
 
 ## Egenskaper {#section-91f929d35cd745ab9e1eeecf45fcedae}
 
-**Materialattribut**. Ignoreras om `align=2`, eller om materialet inte är en upprepningsbar textur, ett tapet eller en dekal.
+**Materialattribut**. Ignoreras om `align=2`, eller om materialet inte är en repeterbar textur, ett skrivbordsunderlägg eller en dekalförinställning.
 
 ## Standard {#section-b06d728c2f664c29bacf810eefcbde69}
 
-`catalog::Anchor`, om materialet är baserat på en katalogpost. I annat fall `anchor=0,0` (bildens övre vänstra hörn) för repeterbara texturer och tapeter, och `anchorN=0,0` (bildens mitt) för decimaler.
+`catalog::Anchor`, om materialet är baserat på en katalogpost. Annars `anchor=0,0` (bildens övre vänstra hörn) för repeterbara texturer och skrivbordsunderlägg och `anchorN=0,0` (bildens mitt) för dekorationer.
 
 ## Se även {#section-b18bf0b035644ca5aedebbc64373718e}
 
-[katalog::Ankarpunkt](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-anchor.md#reference-d9b1d49db1fc440686f64b84453297ab) , [align=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-align.md#reference-4d63baa522ce42f9b15167ba34c5c6a7)
+[katalog::Anchor](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-anchor.md#reference-d9b1d49db1fc440686f64b84453297ab), [align=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-align.md#reference-4d63baa522ce42f9b15167ba34c5c6a7)

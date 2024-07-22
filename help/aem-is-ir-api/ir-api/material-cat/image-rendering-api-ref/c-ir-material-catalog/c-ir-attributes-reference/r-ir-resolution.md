@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Upplösning{#resolution}
 
-Standardupplösning. Anger en standardupplösning om en viss katalogpost inte innehåller en giltig `catalog::Resolution` värde.
+Standardupplösning. Tillhandahåller en standardupplösning om en viss katalogpost inte innehåller ett giltigt `catalog::Resolution`-värde.
 
 ## Egenskaper {#section-06d519158b9f479896f945747c670736}
 
@@ -22,8 +22,8 @@ Reellt tal, större än `0`. Uttrycks vanligtvis som pixlar per tum, men kan ock
 
 ## Standard {#section-eea922c37c224e1dbcab3bc53ee13aca}
 
-Ärvs från `default::Resolution` om den inte är definierad eller om den är tom.
+Ärvs från `default::Resolution` om inte definierad eller om tom.
 
 ## Se även {#section-fa286e5440f04d0aa07c7326cc0d72f1}
 
-[katalog::Upplösning](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-resolution-dataref.md#reference-6a2d64c2d72b438fade58a3391569da7) , [res=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md#reference-0ad9de8887144c83a6db97b4994f7c04)
+[katalog::Upplösning](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-resolution-dataref.md#reference-6a2d64c2d72b438fade58a3391569da7), [res=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md#reference-0ad9de8887144c83a6db97b4994f7c04)

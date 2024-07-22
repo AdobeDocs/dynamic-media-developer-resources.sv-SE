@@ -19,8 +19,8 @@ ht-degree: 0%
 <table id="table_5151E6EA076C4AAD8D952A09E1F17C44"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> fit-ateral|fit-vertikal</span> </p> </td> 
-   <td> <p> Styr riktningen på den nedrullningsbara panelens utseende. </p> <p>När inställt på <span class="codeph"> anpassa lodrätt</span>flyttar komponenten först baspanelens position till nederkanten av dess knapp och försöker att rulla ut panelen antingen till höger eller till vänster från basplatsen. För varje försök kontrollerar komponenten om panelen har klippts av en extern behållare. Om alla försök misslyckas försöker komponenten att flytta baspanelens position uppåt och upprepa utrullningsförsök i höger och vänster riktning. </p> <p>När inställt på <span class="codeph"> anpassa-lateralt</span>, använder komponenten en liknande logik, men flyttar basen först till höger och försöker sedan rulla upp och ned. Sedan flyttas basen åt vänster och leder nedåt och uppåt. </p> </td> 
+   <td> <p> <span class="codeph"> fit-ateral|fit-vertical</span> </p> </td> 
+   <td> <p> Styr riktningen på den nedrullningsbara panelens utseende. </p> <p>När den är inställd på <span class="codeph"> fit-vertical</span> flyttar komponenten först baspanelens position till nederkanten av dess knapp och försöker att rulla ut panelen antingen till höger eller till vänster från basplatsen. För varje försök kontrollerar komponenten om panelen har klippts av en extern behållare. Om alla försök misslyckas försöker komponenten att flytta baspanelens position uppåt och upprepa utrullningsförsök i höger och vänster riktning. </p> <p>När den är inställd på <span class="codeph"> fit-ateral</span> använder komponenten en liknande logik, men flyttar basen till höger först, och försöker upp och ned i riktningar. Sedan flyttas basen åt vänster och leder nedåt och uppåt. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> autoHideDelay</span></span> </p> </td> 

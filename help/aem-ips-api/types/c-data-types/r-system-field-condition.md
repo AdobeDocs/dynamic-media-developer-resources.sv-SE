@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Ett sökvillkor för systemfält för åtgärden searchAssets.
 
-För unära jämförelser skickar du exakt ett värde ( `boolVal`, `longVal`, `doubleVal`, eller `dateVal`) beroende på systemfältstypen. Skicka för sökintervall `min<Type>` och `max<Type>` parametrar och skicka `op` värde för `Between` eller `NotBetween`.
+För unära jämförelser skickar du exakt ett värde ( `boolVal`, `longVal`, `doubleVal` eller `dateVal`) beroende på systemfältstypen. För sökintervall skickar du parametrarna `min<Type>` och `max<Type>` och skickar värdet `op` `Between` eller `NotBetween`.
 
 ## Parametrar {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -25,16 +25,16 @@ För unära jämförelser skickar du exakt ett värde ( `boolVal`, `longVal`, `d
 | fält | `xsd:string` | Val av systemfält för resurssökning. |
 | op | `xsd:string` | Välj mellan operatorer för strängjämförelse. |
 | value | `xsd:string` | Värde att testa mot. |
-| boolVal | `xsd:boolean` | Booleskt jämförelsevärde. |
-| longVal | `xsd:long` | Långt jämförelsevärde. |
+| boolVal | `xsd:boolean` | Boolesk jämförelse. |
+| longVal | `xsd:long` | Long comparison value. |
 | minLong | `xsd:long` | Nedre gräns för långt intervall. |
 | maxLong | `xsd:long` | Övre gräns för långt intervall. |
-| doubleVal | `xsd:double` | Dubbelt jämförelsevärde. |
+| doubleVal | `xsd:double` | Dubbel jämförelse. |
 | minDouble | `xsd:double` | Nedre gräns för dubbelintervall. |
 | maxDouble | `xsd:double` | Övre gräns för dubbelintervall. |
-| dateVal | `xsd:dateTime` | Datumjämförelsevärde. |
+| dateVal | `xsd:dateTime` | Datumjämförelse. |
 | minDate | `xsd:dateTime` | Minsta datumintervall. |
-| maxDate | `xsd:dateTime` | Högsta datumintervall. |
+| maxDate | `xsd:dateTime` | Maximalt datumintervall. |
 
 ## Exempel {#section-347d4aabfff44530adba03d1dc0b9968}
 

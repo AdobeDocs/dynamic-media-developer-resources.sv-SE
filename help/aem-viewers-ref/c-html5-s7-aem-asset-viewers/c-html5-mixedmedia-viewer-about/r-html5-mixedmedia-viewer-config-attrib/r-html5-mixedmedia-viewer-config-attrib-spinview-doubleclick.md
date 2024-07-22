@@ -20,7 +20,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ingen|zoom|reset|zoomReset </span> </p> </td> 
-   <td colname="col2"> <p> Konfigurerar mappningen av åtgärder för att snurra genom att dubbelklicka/peka. Inställning till <span class="codeph"> ingen </span> inaktiverar rotation mellan dubbelklick och knackning. Om inställt på <span class="codeph"> zooma </span>, klickar du på att bilden snurrar i ett steg, CTRL+Click snurrar ut ett steg. Inställning till <span class="codeph"> återställ </span> gör att ett enda klick på bilden återställer rotationen till den ursprungliga rotationsnivån. För <span class="codeph"> zoomReset </span>, återställs om den aktuella rotationsfaktorn ligger på eller över den angivna gränsen, i annat fall används rotation. </p> </td> 
+   <td colname="col2"> <p> Konfigurerar mappningen av åtgärder för att snurra genom att dubbelklicka/peka. Om du anger <span class="codeph"> none </span> inaktiveras rotationsfunktionen för dubbelklick/tryck. Om värdet är <span class="codeph"> zoom </span> snurras bilden i ett steg. CTRL+Click snurrar ut ett steg. Om du anger <span class="codeph"> reset </span> återställs rotationsnivån till den ursprungliga rotationsnivån med ett enda klick på bilden. För <span class="codeph"> zoomReset </span> används reset om den aktuella rotationsfaktorn är på eller över den angivna gränsen, i annat fall används rotation. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -31,7 +31,7 @@ Valfritt.
 
 ## Standard {#section-bd374ffc5182484faa77a7a3c8fa70f2}
 
-`reset` på stationära datorer, `zoomReset` på pekenheter.
+`reset` På stationära datorer; `zoomReset` på touchenheter.
 
 ## Exempel {#section-bd6c4249bccf44aab13fee8552f5a8b3}
 

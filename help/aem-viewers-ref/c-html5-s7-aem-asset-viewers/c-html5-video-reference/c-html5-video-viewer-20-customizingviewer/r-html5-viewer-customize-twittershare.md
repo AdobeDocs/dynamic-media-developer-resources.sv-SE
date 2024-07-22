@@ -1,30 +1,30 @@
 ---
 title: Twitter
-description: Twitter delningsverktyg består av en knapp som läggs till på panelen Dela via sociala medier. När knappen är markerad dirigeras användaren om till en delningsdialogruta som tillhandahålls av en social tjänst. Knappens position hanteras helt av verktyget för social delning.
+description: Verktyget för delning av twitter består av en knapp som har lagts till på panelen Delning för sociala medier. När knappen är markerad dirigeras användaren om till en delningsdialogruta som tillhandahålls av en social tjänst. Knappens position hanteras helt av verktyget för social delning.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 1db2600d-d13f-4563-b40a-098485e0ddf9
 source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
 
 # Twitter{#twitter-share}
 
-Twitter delningsverktyg består av en knapp som läggs till på panelen Dela via sociala medier. När knappen är markerad dirigeras användaren om till en delningsdialogruta som tillhandahålls av en social tjänst. Knappens position hanteras helt av verktyget för social delning.
+Verktyget för delning av twitter består av en knapp som har lagts till på panelen Delning för sociala medier. När knappen är markerad dirigeras användaren om till en delningsdialogruta som tillhandahålls av en social tjänst. Knappens position hanteras helt av verktyget för social delning.
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
-Utseendet på Twitter-delningsknappen styrs av följande CSS-klassväljare:
+Utseendet på Twitternas delningsknapp styrs av följande CSS-klassväljare:
 
 ```
 .s7videoviewer .s7twittershare
 ```
 
-**CSS-egenskaper för delningsverktyget i Twitter**
+**CSS-egenskaper för verktyget Dela Twitter**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -49,13 +49,13 @@ Utseendet på Twitter-delningsknappen styrs av följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen.
+>Den här knappen stöder attributväljaren `state` som kan användas för att tillämpa olika skal på olika knapplägen.
 
-Det går att ta bort knappen från panelen Dela via inställningen `display:none` CSS-egenskap i dess CSS-klass.
+Det går att ta bort knappen från panelen Dela via CSS-egenskapen `display:none` i CSS-klassen.
 
-Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) för mer information.
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad).
 
-Exempel - för att ställa in en delningsknapp på Twitter som är 28 x 28 pixlar och visar en annan bild för vart och ett av de fyra olika knapplägena:
+Exempel - för att ställa in en knapp för att dela Twitter som är 28 x 28 pixlar och som visar en annan bild för vart och ett av de fyra olika knapplägena:
 
 ```
 .s7videoviewer .s7twittershare { 

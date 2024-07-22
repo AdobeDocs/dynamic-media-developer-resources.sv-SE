@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 9a37936b-ee3d-4ea0-9a86-ea14d0ef8be9
 source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Visningsområdets utseende styrs av följande CSS-klassväljare:
  </tbody> 
 </table>
 
-Exempel - för att konfigurera ett visningsprogram med en vit bakgrund ( `#FFFFFF`) och gör storleken 512 x 288 pixlar.
+Exempel - om du vill konfigurera ett visningsprogram med en vit bakgrund ( `#FFFFFF`) och göra storleken 512 x 288 pixlar.
 
 ```
 .s7ecatalogviewer { 

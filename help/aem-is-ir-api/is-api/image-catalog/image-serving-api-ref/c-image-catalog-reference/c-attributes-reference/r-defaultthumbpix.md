@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: c1413da0-a68d-4345-928f-b532991966a8
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Standardstorlek för miniatyrbild. Används i stället för attribut::DefaultPix för miniatyrbegäranden (req=tmb).
 
-Servern begränsar svarsbilderna till att inte vara större än den här bredden och höjden om en miniatyrbildsbegäran ( `req=tmb`) anger inte storleken explicit och inte visningsstorleken explicit med `wid=`, `hei=`, eller `scl=`.
+Servern begränsar svarsbilder till att inte vara större än den här bredden och höjden om en miniatyrbegäran ( `req=tmb`) inte uttryckligen anger storleken utan att uttryckligen ange visningsstorleken med `wid=`, `hei=` eller `scl=`.
 
 ## Egenskaper {#section-650d9b1194fb4c47a03c6809e6b4af0e}
 
@@ -26,7 +26,7 @@ Gäller inte kapslade/inbäddade begäranden.
 
 ## Standard {#section-2c4a4f14540449638822913513170ff1}
 
-Ärvs från `default::DefaultThumbPix` om den inte är definierad eller om den är tom.
+Ärvs från `default::DefaultThumbPix` om inte definierad eller om tom.
 
 ## Se även {#section-4ad00963ffa049fcb17ad63e6bbe7ac4}
 

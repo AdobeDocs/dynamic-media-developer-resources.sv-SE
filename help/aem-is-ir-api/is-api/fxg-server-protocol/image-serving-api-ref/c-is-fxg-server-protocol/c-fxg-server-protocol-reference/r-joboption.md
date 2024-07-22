@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 8e7224e7-d801-4550-b95e-24d15734043a
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -16,16 +16,16 @@ ht-degree: 0%
 
 Använd jobbalternativ för PDF. En jobbalternativfil eller förinställning för PDF är en fil som skapas av Illustrator i dialogrutan Spara som PDF eller PDF i InDesign.
 
-` joboption= *`value`*`
+` joboption= *`värde`*`
 
 <table id="simpletable_BA7B58BE0B0740298D45DDEBE7832D93"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> value</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> värde </span></span> </p> </td> 
   <td class="stentry"> <p>IPSID för jobbalternativsfilen. </p></td> 
  </tr> 
 </table>
 
-Jobbalternativfilen kan laddas upp och publiceras av IPS/Dynamic Media Classic. Alternativen för PDF i jobbalternativfilen används när PDF skapas.
+Jobbalternativfilen kan överföras och publiceras av IPS/Dynamic Media Classic. Alternativen för PDF i jobbalternativfilen används när PDF skapas.
 
 Följande alternativ stöds för närvarande:
 
@@ -39,7 +39,7 @@ Följande alternativ stöds för närvarande:
   <td class="stentry"> <p> Nedsampla, Upplösning, Tröskelvärde och Komprimering för färg, grått och mono </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>Teckensnitt </p></td> 
+  <td class="stentry"> <p>Typsnitt </p></td> 
   <td class="stentry"> <p> Bädda in alla teckensnitt </p> <p> Bädda in teckensnitt för OpenType </p> <p> Skapa delmängder av inbäddade teckensnitt när andelen tecken som används är mindre än: </p> <p> Inkludera alltid lista </p> <p> Inkludera aldrig lista </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -77,6 +77,6 @@ Följande alternativ stöds för närvarande:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Standarder </p></td> 
-  <td class="stentry"> <p>Kompatibilitetsstandard. </p></td> 
+  <td class="stentry"> <p>Regelefterlevnad. </p></td> 
  </tr> 
 </table>

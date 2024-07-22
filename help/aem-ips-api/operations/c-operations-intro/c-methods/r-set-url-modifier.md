@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Ställer in kommandona för Image Serving eller Image Rendering för den angivna resursen. Dessa kommandon ändrar representationen av resursen utan att förstöra den.
 
-För bildvisning finns kommandona i `urlModifier` -parametern publiceras i fältet Modifierarkatalog och tillämpas före eventuella kommandon som anges på begärans URL. Kommandon i `urlPostApplyModifier` publiceras på `PostModifier` katalogfält och åsidosätt kommandon på begärande URL eller i `urlModifier`. För bildåtergivning finns kommandona i `urlModifier` och `urlPostApplyModifier` är sammanfogade och publicerade i fältet Modifierarkatalog.
+För Bildserver publiceras kommandon i parametern `urlModifier` i katalogfältet Modifierare och används före kommandon som anges på begärans URL. Kommandon i `urlPostApplyModifier` publiceras i katalogfältet `PostModifier` och åsidosätter kommandon i begärande-URL:en eller i `urlModifier`. För bildåtergivning sammanfogas kommandona i `urlModifier` och `urlPostApplyModifier` och publiceras i fältet Modifierarkatalog.
 
 ## Auktoriserade användartyper {#section-fefcd732ccf64c78956606538f96c73d}
 
@@ -35,8 +35,8 @@ För bildvisning finns kommandona i `urlModifier` -parametern publiceras i fält
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Företagshandtag. |
 | assetHandle | `xsd:string` | Ja | Resurshandtag. |
-| urlModifier | `xsd:string` | Nej | Protokollkommandon för bildserver eller bildåtergivning som ska användas före begäran eller `urlPostApplyModifier` kommandon. |
-| urlPostApplyModifier | `xsd:string` | Nej | Protokollkommandon för bildserver eller bildåtergivning som ska användas efter `urlModifier` och begär kommandon. |
+| urlModifier | `xsd:string` | Nej | Image Serving- eller Image Rendering-protokollkommandon som ska användas före begäran eller `urlPostApplyModifier`-kommandon. |
+| urlPostApplyModifier | `xsd:string` | Nej | Protokollkommandon för bildserver eller bildåtergivning som ska användas efter `urlModifier` och begära kommandon. |
 
 **Utdata (setUrlModifierReturn)**
 

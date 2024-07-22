@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 2542b9f3-c398-4dbf-afa3-1671fc4fe72a
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -16,33 +16,33 @@ ht-degree: 0%
 
 Om du vill lägga till ett responsivt bildbibliotek på en webbsida och hantera befintliga bilder med biblioteket utför du följande steg.
 
-**Använda bibliotek för responsiv bild**
+**Använd bibliotek för responsiv bild**
 
-1. I Dynamic Media Classic [skapa en bildförinställning](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing) om du planerar att använda ett responsivt bildbibliotek med förinställningar.
+1. I Dynamic Media Classic [skapar du en bildförinställning](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing) om du tänker använda ett responsivt bildbibliotek med förinställningar.
 
-   När du definierar bildförinställningar som används med responsiva bildbibliotek ska du inte använda några inställningar som påverkar bildstorleken, till exempel `wid=`, `hei=`, eller `scl=`. Ange inga storleksfält i bildförinställningen. Lämna dem som tomma värden.
+   När du definierar bildförinställningar som används med responsiva bildbibliotek ska du inte använda några inställningar som påverkar bildstorleken, till exempel `wid=`, `hei=` eller `scl=`. Ange inga storleksfält i bildförinställningen. Lämna dem som tomma värden.
 1. Lägg till JavaScript-biblioteksfilen på webbsidan.
 
-   Innan du kan använda biblioteks-API måste du ta med `responsive_image.js`. Den här JavaScript-filen finns i `libs/` undermapp till din standarddistribution av IS-Viewer:
+   Innan du kan använda biblioteks-API måste du ta med `responsive_image.js`. Den här JavaScript-filen finns i undermappen `libs/` i din standarddistribution av IS-Viewer:
 
    `<s7viewers_root>/libs/responsive_image.js`
 1. Konfigurera befintliga bilder.
 
-   Biblioteket läser vissa konfigurationsattribut från en bildinstans som det arbetar med. Definiera attribut före `s7responsiveImage` API-funktionen anropas för en sådan bild.
+   Biblioteket läser vissa konfigurationsattribut från en bildinstans som det arbetar med. Definiera attribut innan API-funktionen `s7responsiveImage` anropas för en sådan bild.
 
-   Du bör också placera den befintliga bild-URL:en i `data-src` -attribut. Konfigurera sedan den befintliga `src` som ska ha en 1x1 GIF-avbildning kodad som Data URI. Om du gör det minskar antalet HTTP-begäranden som skickas av webbsidan vid inläsningen. Observera dock att om SEO (sökmotoroptimering) behövs är det bättre att ställa in en `title` på bildinstansen.
+   Du bör också placera den befintliga bild-URL:en i attributet `data-src`. Ange sedan att det befintliga `src`-attributet ska ha en 1x1 GIF-avbildning kodad som Data URI. Om du gör det minskar antalet HTTP-begäranden som skickas av webbsidan vid inläsningen. Observera dock att om SEO (sökmotoroptimering) behövs är det bättre att ställa in ett `title`-attribut för bildinstansen.
 
-   Följande är ett exempel på definition `data-breakpoints` för bilden och som använder en 1x1 GIF kodad som Data URI:
+   Följande är ett exempel på hur du definierar attributet `data-breakpoints` för bilden och använder ett 1x1-GIF som är kodat som Data URI:
 
    ```
    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
    ```
 
-1. Ring `s7responsiveImage` API-funktion för varje bildinstans som biblioteket hanterar.
+1. Anropa API-funktionen `s7responsiveImage` för varje bildinstans som hanteras i biblioteket.
 
-   Ring `s7responsiveImage` API-funktion för varje bildinstans som biblioteket hanterar. Efter ett sådant anrop ersätter biblioteket den ursprungliga bilden med bilden som hämtas från Image Serving enligt körningsstorleken för `IMG` -element i webbsidans layout och skärmens densitet.
+   Anropa API-funktionen `s7responsiveImage` för varje bildinstans som hanteras i biblioteket. Efter ett sådant anrop ersätter biblioteket den ursprungliga bilden med bilden som hämtas från Image Serving enligt körningsstorleken för elementet `IMG` i webbsideslayouten och enhetsskärmens densitet.
 
-   Följande kod är ett exempel på anrop `s7responsiveImage` API-funktion för en bild, förutsatt att `responsiveImage` är ett ID för den bilden:
+   Följande kod är ett exempel på hur API-funktionen `s7responsiveImage` anropas i en bild, förutsatt att `responsiveImage` är ett ID för den bilden:
 
    ```
    <script type="text/javascript"> 
@@ -90,7 +90,7 @@ Det finns två smarta beskärningslägen i AEM 6.4 och Dynamic Media Viewer 5.9:
 * **Manuell** - användardefinierade brytpunkter och motsvarande Image Service-kommandon definieras i ett attribut i image-elementet.
 * **Smart beskärning** - beräknade renderingar av smarta beskärningar hämtas automatiskt från leveransservern. Den bästa återgivningen väljs med bildelementets körningsstorlek.
 
-Om du vill använda läget Smart beskärning anger du `data-mode` attribut till `smart crop`. Till exempel:
+Om du vill använda läget för smart beskärning anger du attributet `data-mode` till `smart crop`. Till exempel:
 
 ```html {.line-numbers}
 <img 
@@ -99,7 +99,7 @@ data-src="https://imageserver.com/is/image/ExampleCo/SmartCropAsset"
 data-mode="smartcrop">
 ```
 
-Det associerade bildelementet skickar en `s7responsiveViewer` -händelsen under körning när brytpunkten ändras.
+Det associerade bildelementet skickar en `s7responsiveViewer`-händelse under körningen när brytpunkten ändras.
 
 ```javascript {.line-numbers}
          responsiveImage.addEventListener("s7responsiveViewer", function (event) { 

@@ -1,6 +1,6 @@
 ---
 title: printRes
-description: Utskriftsupplösning. Åsidosätter utskriftsupplösningsvärdet som är inbäddat i svarsbilden.
+description: Utskriftsupplösning Åsidosätter utskriftsupplösningsvärdet som är inbäddat i svarsbilden.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # printRes{#printres}
 
-Utskriftsupplösning. Åsidosätter utskriftsupplösningsvärdet som är inbäddat i svarsbilden.
+Utskriftsupplösning Åsidosätter utskriftsupplösningsvärdet som är inbäddat i svarsbilden.
 
 `printRes= *`val`*`
 
@@ -25,7 +25,7 @@ Utskriftsupplösning. Åsidosätter utskriftsupplösningsvärdet som är inbädd
  </tr> 
 </table>
 
-Utskriftsupplösningen definieras vanligtvis av det utskriftsupplösningsvärde som är inbäddat i vinjetteringen.
+Utskriftsupplösningen definieras normalt av det utskriftsupplösningsvärde som är inbäddat i vinjetteringen.
 
 Om du anger utskriftsupplösningen ändras inte svarsbildens pixelstorlek.
 

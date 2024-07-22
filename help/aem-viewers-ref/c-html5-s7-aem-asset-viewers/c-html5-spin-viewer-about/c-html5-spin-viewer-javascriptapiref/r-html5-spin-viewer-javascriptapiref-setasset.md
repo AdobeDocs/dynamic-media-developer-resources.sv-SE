@@ -21,13 +21,13 @@ JavaScript API-referens för Spin Viewer.
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> resurs</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> Sträng</span>} nytt resurs-ID, en eller flerdimensionell snurrfunktion med tillvalsmodifierare för bildservering som läggs till efter <span class="codeph"> ?</span>. </p> <p> Bilder som använder IR (Image Rendering) eller UGC (User-Generated Content) stöds inte av det här visningsprogrammet. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> resurs </span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> String </span> nytt resurs-ID, en- eller flerdimensionell snurra med tillvalsmodifierare för Image Serving som lagts till efter <span class="codeph"> ?</span>. </p> <p> Bilder som använder IR (Image Rendering) eller UGC (User-Generated Content) stöds inte av det här visningsprogrammet. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Anger den nya resursen. Du kan anropa den här parametern när som helst, antingen före eller efter `init()`. Om den anropas efter `init()`byter visningsprogrammet ut resursen vid körning.
+Anger den nya resursen. Du kan anropa parametern när som helst, antingen före eller efter `init()`. Om den anropas efter `init()` byter visningsprogrammet ut resursen under körning.
 
 Se även [init](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae).
 
@@ -43,7 +43,7 @@ En referens till en snurrfunktion som definieras i en katalog:
 <instance>.setAsset("Scene7SharedAssets/SpinSet_Sample")
 ```
 
-Explicit rotationsuppsättning:
+Explicit snin:
 
 ```
 <instance>.setAsset("Scene7SharedAssets/Frame-1,Scene7SharedAssets/Frame-2,Scene7SharedAssets/Frame-3,Scene7SharedAssets/Frame-4,Scene7SharedAssets/Frame-5,Scene7SharedAssets/Frame-6,Scene7SharedAssets/Frame-7,Scene7SharedAssets/Frame-8")

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 959cb193-d0b7-4aa9-a747-fa17484f80c7
 source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -18,21 +18,21 @@ I det här avsnittet beskrivs HTTP-protokollkommandona.
 
 >[!TIP]
 >
->Prova och upptäck fördelarna med Dynamic Media bildmodifierare och Smart Imaging med Dynamic Media [_Ögonblicksbild_](https://snapshot.scene7.com/).
+>Prova och upptäck fördelarna med Dynamic Media bildmodifierare och Smart Imaging med Dynamic Media [_Snapshot_](https://snapshot.scene7.com/).
 >
 > Ögonblicksbild är ett visuellt demonstrationsverktyg som är utformat för att illustrera styrkan hos Dynamic Media för optimerad och dynamisk bildleverans. Experimentera med testbilder eller Dynamic Media-URL:er för att visuellt se resultatet av olika bildmodifierare i Dynamic Media och optimera smarta bilder för följande:
 >* Filstorlek (med WebP- och AVIF-leverans)
 >* Nätverksbandbredd
 >* DPR (Device Pixel Ratio)
 >
->Om du vill veta hur enkelt det är att använda Snapshot spelar du [Utbildningsvideo om ögonblicksbild](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) (3 minuter och 17 sekunder).
+>Om du vill lära dig hur enkelt det är att använda ögonblicksbild kan du spela upp utbildningsvideon [för ögonblicksbild](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) (3 minuter och 17 sekunder).
 
 
-**Endast för Dynamic Media i Adobe Experience Manager** - Utöver de grundläggande bildinställningarna som finns i användargränssnittet, [!DNL Dynamic Media] i AEM ( [!DNL Adobe Experience Manager]) har stöd för många avancerade bildändringar som du kan ange i **Bildmodifierare** fält. Dessa parametrar definieras nedan. Tänk dock på att följande funktioner inte stöds i Dynamic Media i AEM.
+**Endast för Dynamic Media i Adobe Experience Manager** - Förutom de grundläggande bildinställningarna som är tillgängliga i användargränssnittet har [!DNL Dynamic Media] i AEM ( [!DNL Adobe Experience Manager]) stöd för många avancerade bildändringar som du kan ange i fältet **Bildmodifierare** . Dessa parametrar definieras nedan. Tänk dock på att följande funktioner inte stöds i Dynamic Media i AEM.
 
 * Färgkorrigeringskommandon: `icc=` och `iccEmbed=`.
-* Grundläggande kommandon för mallar och textåtergivning: `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` och `textPs=`.
-* Localization commands: `locale=` och `req=xlate`.
+* Grundläggande mallnings- och textrenderingskommandon: `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` och `textPs=`.
+* Localization commands: `locale=` and `req=xlate`.
 * `req=set` är inte tillgängligt för allmän användning.
 * `req=mbrset`
 * `req=saveToFile`
@@ -42,7 +42,7 @@ I det här avsnittet beskrivs HTTP-protokollkommandona.
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-Se även Dynamic Media [Alternativ för bildförinställning](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) i AEM 6.5-dokumentationen.
+Se även Dynamic Media [Alternativ för bildförinställningar](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) i dokumentationen till AEM 6.5.
 
 * [justera](r-align.md)
 * [ankare](r-anchor.md)

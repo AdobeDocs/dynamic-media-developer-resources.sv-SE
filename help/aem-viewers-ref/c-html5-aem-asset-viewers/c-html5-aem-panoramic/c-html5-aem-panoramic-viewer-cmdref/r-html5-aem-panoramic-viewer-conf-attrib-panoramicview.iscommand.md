@@ -6,7 +6,7 @@ feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
 source-git-commit: dfd80e5727a128f272855f1f28e1bc89cb2436bf
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '63'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,8 @@ Konfigurationsattribut för panoramavisningsprogram.
 <table id="table_43A84C1044574A6FAB8CE67D71AAD5EC"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span> </span> </p> </td> 
-   <td colname="col2"> <p> Kommandosträngen Bildrutevisning som används på bilden.  Om den anges i URL:en måste du se till att du kodar alla förekomster av <span class="codeph"> &amp;</span> och <span class="codeph"> =</span> as <span class="codeph"> %26</span> och <span class="codeph"> %3D</span>, respektive. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand </span> </span> </p> </td> 
+   <td colname="col2"> <p> Kommandosträngen Bildrutevisning som används på bilden.  Om den anges i URL:en måste du HTTP-koda alla förekomster av <span class="codeph"> &amp;</span> och <span class="codeph"> =</span> som <span class="codeph"> %26</span> respektive <span class="codeph"> %3D</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

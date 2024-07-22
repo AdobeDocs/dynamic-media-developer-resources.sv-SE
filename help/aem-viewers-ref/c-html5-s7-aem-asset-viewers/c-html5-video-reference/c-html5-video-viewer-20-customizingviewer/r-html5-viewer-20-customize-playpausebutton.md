@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 174ddf15-e6be-4a65-8c82-5c9edf061a6c
 source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Följande CSS-klassväljare styr knappens utseende:
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p>Placera från den övre kanten, inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
@@ -39,7 +39,7 @@ Följande CSS-klassväljare styr knappens utseende:
    <td colname="col2"> <p>Placera från den högra kanten, inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vänster </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kvar </span> </p> </td> 
    <td colname="col2"> <p>Placera från den vänstra kanten, inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
@@ -67,11 +67,11 @@ Följande CSS-klassväljare styr knappens utseende:
 
 >[!NOTE]
 >
->Den här knappen har stöd för båda `state`, `selected`och `replay` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen. I synnerhet `selected='true'` motsvarar&quot;play&quot;-läget och `selected='false'` motsvarar läget &quot;paus&quot;,
+>Den här knappen stöder både attributväljarna `state`, `selected` och `replay` som kan användas för att tillämpa olika skal på olika knapplägen. `selected='true'` motsvarar i synnerhet uppspelningsläget och `selected='false'` motsvarar pausläget.
 >
->Attributväljaren `replay='true'` anges när videon har nått slutet och knappen startar om uppspelningen från början.
+>Attributväljaren `replay='true'` anges när videon har nått slutet och om du väljer knappen startas uppspelningen om från början.
 
-Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) för mer information.
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad).
 
 ## Exempel {#section-e8caea0a303c425a8a637c2a47c06355}
 

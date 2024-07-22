@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Skärpa. Skärpeattribut, anger när materialet ska göras skarpare under återgivningen.
 
-Typ och mängd av skärpa styrs av vinjetteringen via en standardmaterialmall eller med `catalog::RenderSettings`.
+Skärpetypen och mängden skärpa styrs av vinjetteringen via en standardmaterialmall eller med `catalog::RenderSettings`.
 
 ## Egenskaper {#section-aac81b1a611b4bca90b8544eae7896df}
 
@@ -49,4 +49,4 @@ Ignoreras av heltäckande färgmaterial, valfritt för alla andra material.
 
 ## Se även {#section-b462f9ad9ae347e1a1993abf2f2daa8e}
 
-[attribute::Sharpening](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharp.md#reference-c706450cf95347f98f86c696f9167297) , [katalog::RenderSettings](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rendersettings.md#reference-f3ae5e18095d40b2a8edef957dd82fbd), [sharp=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a)
+[attribute::Sharpening](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharp.md#reference-c706450cf95347f98f86c696f9167297) , [catalog::RenderSettings](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rendersettings.md#reference-f3ae5e18095d40b2a8edef957dd82fbd), [sharp=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a)

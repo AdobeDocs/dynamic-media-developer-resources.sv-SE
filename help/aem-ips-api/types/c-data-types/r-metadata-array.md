@@ -30,8 +30,8 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> objekt</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> text:metadata</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> objekt </span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> type:Metadata</span> </p> </td> 
    <td colname="col3"> <p>En array med metadata. </p> </td> 
   </tr> 
  </tbody> 

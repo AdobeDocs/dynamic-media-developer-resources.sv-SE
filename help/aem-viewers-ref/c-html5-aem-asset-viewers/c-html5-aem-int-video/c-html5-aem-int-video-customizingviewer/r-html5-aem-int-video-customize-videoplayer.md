@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 9cfeceff-f6bd-42d9-9b85-456bbaa278fd
 source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Följande CSS-klassväljare styr videospelarens utseende:
 
 Du kan lokalisera felmeddelandet som visas om systemet inte kan spela upp videon.
 
-Se [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+Se [Lokalisering av element i användargränssnittet](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - Om du vill ställa in ett videovisningsprogram med videospelarens storlek inställd på 512 x 288 pixlar.
 

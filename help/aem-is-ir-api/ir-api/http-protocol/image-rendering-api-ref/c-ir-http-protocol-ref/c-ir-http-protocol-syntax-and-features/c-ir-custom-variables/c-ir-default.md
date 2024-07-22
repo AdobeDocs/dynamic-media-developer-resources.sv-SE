@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Det finns inget standardvärde.
 
-Endast definierade variabler ersätts av servern. Eventuella förekomster av `$ *[!DNL name]*$` som inte matchar någon definierad anpassad variabel förblir literal.
+Endast definierade variabler ersätts av servern. Alla förekomster av `$ *[!DNL name]*$` som inte matchar någon definierad anpassad variabel förblir literala.

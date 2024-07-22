@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: 75ec58ee-8c98-46cb-96b2-79d1c32e576f
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Begränsar storleken på de bilder som Image Server kan producera (exklusive bil
 
 ## IS::MaxSavePixels - storleksgräns för att spara till filer {#section-d1547c4afa88467080ab08356f775e06}
 
-Begränsar storleken på bilder som Image Server skriver till filer med `req=saveToFile` -kommando. Heltalsvärde som är större än 0 i miljoner pixlar. Ett fel returneras om filsparandet skulle överskrida gränsen. Standardvärdet är 100 miljoner pixlar.
+Begränsar storleken på bilder som Image Server skriver till filer med kommandot `req=saveToFile`. Heltalsvärde som är större än 0 i miljoner pixlar. Ett fel returneras om filsparandet skulle överskrida gränsen. Standardvärdet är 100 miljoner pixlar.
 
 ## IS::MaxNonDsfSize - storleksgräns för icke-PTIFF-indatabilder {#section-50de28a7158a436393cce5da0d1e4d46}
 

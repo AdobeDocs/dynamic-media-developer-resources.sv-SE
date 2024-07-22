@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 44efa378-c911-4449-8a10-61212d4392c6
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 3%
+source-wordcount: '121'
+ht-degree: 0%
 
 ---
 
@@ -25,8 +25,8 @@ Konfigurationsattribut för Video360 Viewer.
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> auto|on</span> </p> </td> 
-   <td colname="col2"> <p> Kontrollerar om videon levereras via en säker SSL-anslutning (HTTPS) eller en osäker anslutning (HTTP). </p> <p>När inställt på <span class="codeph"> auto</span> videoleveransprotokollet ärvs från inbäddningswebbsidans protokoll. Om webbsidan läses in via HTTPS levereras videon också via HTTPS, och omvänt. Om webbsidan finns på HTTP, levereras videon via HTTP. </p> <p>När inställt på <span class="codeph"> på</span>, levereras video alltid via en säker anslutning utan hänsyn till webbsidans protokoll. </p> <p>Påverkar endast publicerad videoleverans och ignoreras för videoförhandsgranskning i redigeringsläge. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> auto|på</span> </p> </td> 
+   <td colname="col2"> <p> Kontrollerar om videon levereras via en säker SSL-anslutning (HTTPS) eller en osäker anslutning (HTTP). </p> <p>När värdet är <span class="codeph"> auto</span> ärvs videoleveransprotokollet från inbäddningswebbsidans protokoll. Om webbsidan läses in via HTTPS levereras videon också via HTTPS, och omvänt. Om webbsidan finns på HTTP, levereras videon via HTTP. </p> <p>När värdet är <span class="codeph"> </span> inträffar alltid videoleveransen över en säker anslutning utan hänsyn till webbsidans protokoll. </p> <p>Påverkar endast publicerad videoleverans och ignoreras för videoförhandsgranskning i redigeringsläge. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,4 +47,4 @@ ssl=on
 
 <!--<a id="section_5943AC73316749C68761FF7F74DA7547"></a>-->
 
-Se även [Säker leverans av video](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-securevideodelivery.md#concept-13f66fdd4a52494aa516cd0f36fdac27).
+Se även [Säker videoleverans](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-securevideodelivery.md#concept-13f66fdd4a52494aa516cd0f36fdac27).

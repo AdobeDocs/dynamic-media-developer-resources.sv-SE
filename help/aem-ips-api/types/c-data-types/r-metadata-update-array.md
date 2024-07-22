@@ -1,7 +1,7 @@
 ---
 description: En array med metadatauppdateringar.
 solution: Experience Manager
-title: MetadataUpdateArray
+title: metadataUpdateArray
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: d6ff2ae9-0924-4155-81fb-282f808cc54f

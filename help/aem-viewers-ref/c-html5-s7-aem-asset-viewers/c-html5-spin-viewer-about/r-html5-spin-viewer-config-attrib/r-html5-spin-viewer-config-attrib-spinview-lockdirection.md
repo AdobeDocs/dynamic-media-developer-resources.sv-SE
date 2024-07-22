@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: e29ba926-9e0e-4ddd-9f76-408f8ab3b4ca
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Anger om en ändring av rotationsriktning ska tillåtas om det finns en tvådimensionell rotationsuppsättning. </p> <p>När inställt på <span class="codeph"> 1 </span>identifierar komponenten den primära dra- eller dragriktningen (vågrät eller lodrät) i början av gesten. Därefter behåller den riktningen tills gesten avslutas. Om användaren till exempel startar ett vågrätt snurra och sedan bestämmer sig för att fortsätta dra-gesten lodrätt, utförs ingen lodrät snurra i komponenten. I stället beaktas endast musens eller dragningens horisontella rörelse. </p> <p>Värdet för <span class="codeph"> 0 </span> gör att användaren kan ändra rotationsriktning när som helst under gestförloppet. Inställningen har ingen effekt om rotationsuppsättningen är 1D. </p> </td> 
+   <td colname="col2"> <p> Anger om en ändring av rotationsriktning ska tillåtas om det finns en tvådimensionell rotationsuppsättning. </p> <p>När den är inställd på <span class="codeph"> 1 </span> identifierar komponenten den primära dragnings- eller dragriktningen (vågrät eller lodrät) i början av gesten. Därefter behåller den riktningen tills gesten avslutas. Om användaren till exempel startar ett vågrätt snurra och sedan bestämmer sig för att fortsätta dra-gesten lodrätt, utförs ingen lodrät snurra i komponenten. I stället beaktas endast musens eller dragningens horisontella rörelse. </p> <p>Med värdet <span class="codeph"> 0 </span> kan användaren ändra rotationsriktning när som helst under gestförloppet. Inställningen har ingen effekt om rotationsuppsättningen är 1D. </p> </td> 
   </tr> 
  </tbody> 
 </table>

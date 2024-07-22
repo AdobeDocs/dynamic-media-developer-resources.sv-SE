@@ -1,5 +1,5 @@
 ---
-description: CMYK-standardprofil för utdatafärg. Anger namnet på ICC-färgprofilen som ska användas för CMYK-svarsbilder när ingen utdatafärgrymd har angetts med icc= och för vissa CMYK-färgvärden som har angetts med olika bildserverkommandon, till exempel color=.
+description: Standardprofil för CMYK-utdata. Anger namnet på ICC-färgprofilen som ska användas för CMYK-svarsbilder när ingen utdatafärgrymd har angetts med icc= och för vissa CMYK-färgvärden som har angetts med olika bildserverkommandon, till exempel color=.
 solution: Experience Manager
 title: IccProfileCmyk
 feature: Dynamic Media Classic,SDK/API
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # IccProfileCmyk{#iccprofilecmyk}
 
-CMYK-standardprofil för utdatafärg. Anger namnet på ICC-färgprofilen som ska användas för CMYK-svarsbilder när ingen utdatafärgrymd har angetts med icc= och för vissa CMYK-färgvärden som har angetts med olika bildserverkommandon, till exempel color=.
+Standardprofil för CMYK-utdata. Anger namnet på ICC-färgprofilen som ska användas för CMYK-svarsbilder när ingen utdatafärgrymd har angetts med icc= och för vissa CMYK-färgvärden som har angetts med olika bildserverkommandon, till exempel color=.
 
 ## Egenskaper {#section-d8b6102cc1c744d482f99808ccfcaa24}
 
-Textsträng. Om det anges måste det vara ett giltigt `icc::Name` värde från ICC-profilmappningen för antingen den här bildkatalogen eller standardkatalogen, eller en filsökväg som är relativ till `attribute::RootPath`. Den ICC-profil som det hänvisas till måste vara en CMYK-profil.
+Textsträng. Om det anges måste det vara ett giltigt `icc::Name`-värde från ICC-profilmappningen för antingen den här bildkatalogen eller standardkatalogen, eller en filsökväg som är relativ till `attribute::RootPath`. Den ICC-profil som det hänvisas till måste vara en CMYK-profil.
 
 ## Standard {#section-62442df09a724950bfbdd0640b3e6678}
 
-Ärvs från `default::IccProfileCmyk` om den inte är definierad eller om den är tom.
+Ärvs från `default::IccProfileCmyk` om inte definierad eller om tom.
 
 ## Se även {#section-17071d1ed5ad469490fd715ba8f4d30d}
 

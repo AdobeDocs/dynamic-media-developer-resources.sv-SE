@@ -1,6 +1,6 @@
 ---
 title: header
-description: HTTP-svarsrubrikelement. Valfritt i <rule> -element.
+description: HTTP-svarsrubrikelement. Valfritt i <rule>-element.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # header{#header}
 
-HTTP-svarsrubrikelement. Valfritt i `<rule>` -element.
+HTTP-svarsrubrikelement. Valfritt i `<rule>`-element.
 
 ## Attribut {#section-6e903ab4c64f4b1488b8ae74274f50a6}
 
-**`Name`= &quot;*text*&quot;** : Obligatoriskt. Anger namnet på HTTP-huvudet.
+**`Name`= *text*** : Obligatoriskt. Anger namnet på HTTP-huvudet.
 
-**`Action`= &quot;set&quot; |`"add"`**: Valfritt. Standard är `"set"`, som ersätter alla aktuella rubrikvärden. Ange `"add"` så att du kan lägga till rubrikvärdet, avgränsat med kommatecken.
+**`Action`= &quot;set&quot; |`"add"`**: Valfritt. Standardvärdet är `"set"`, vilket ersätter alla aktuella rubrikvärden. Ange `"add"` så att du kan lägga till rubrikvärdet, avgränsat med kommatecken.
 
 ## Data {#section-a387f541396c49d99c29692a38032914}
 
@@ -43,6 +43,6 @@ I följande regel används en anpassad rubrik när rubrikvärdet anges som en va
 </rule>
 ```
 
-Den här regeln aktiveras av följande begäran, och HTTP-svarshuvudet anges `Edge-Control::no-store`:
+Den här regeln aktiveras av följande begäran och HTTP-svarshuvudet `Edge-Control::no-store` anges:
 
 `http://server/is/image/cat/id?$Edge-Control=no-store`

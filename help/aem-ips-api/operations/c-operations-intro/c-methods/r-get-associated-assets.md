@@ -45,25 +45,25 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:sträng</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle </span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Hantera till företaget som äger tillgången. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:sträng</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle </span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Resurshandtag. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> responseFieldArray </span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> typer:StringArray</span> </p> </td> 
    <td colname="col3"> <p>Nej </p> </td> 
    <td colname="col4"> <p>Arrayen med önskade svarsfält. Se response- FieldArray/excludeFieldArray i introduktionen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> excludeFieldArray </span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> typer:StringArray</span> </p> </td> 
    <td colname="col3"> <p>Nej </p> </td> 
    <td colname="col4"> <p>Arrayen med exkluderade svarsfält. Se response- FieldArray/excludeFieldArray i introduktionen. </p> </td> 
@@ -84,49 +84,49 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> containerArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> containerArray </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:AssetArray</span> </td> 
    <td colname="col3"> <p>Nej </p> </td> 
    <td colname="col4"> <p>Array med set- och mallresurser som innehåller den angivna resursen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:AssetArray</span> </td> 
    <td colname="col3"> <p>Nej </p> </td> 
    <td colname="col4"> <p>Array med resurser som finns i den angivna uppsättningen eller mallresursen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> layerReferenceArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> layerReferenceArray </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:AssetArray</span> </td> 
    <td colname="col3"> <p>Nej </p> </td> 
    <td colname="col4"> <p>Array med resurser som refereras i ett lager eller en mall-URL. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> ownerArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> ownerArray </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:AssetArray</span> </td> 
    <td colname="col3"> <p>Nej </p> </td> 
    <td colname="col4"> <p>Array med resurser som äger den angivna resursen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> derivedArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> derivedArray </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:AssetArray</span> </td> 
    <td colname="col3"> <p>Nej </p> </td> 
    <td colname="col4"> <p>Array med resurser som användes för att generera den angivna resursen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> generatorArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> generatorArray </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:GenerationInfoArray</span> </td> 
    <td colname="col3"> <p>Nej </p> </td> 
-   <td colname="col4"> <p>The <span class="codeph"> generatorArray</span> visar hur resursen skapades. Om <span class="codeph"> assetHandler</span> var en bildsida i PDF, då skulle den innehålla PDF-processorverktyget och referera till PDF-filresursen. </p> </td> 
+   <td colname="col4"> <p><span class="codeph"> generatorArray </span> visar hur resursen skapades. Om <span class="codeph"> assetHandler</span> till exempel är en bildsida för PDF innehåller detta processorverktyget PDF och refererar till PDF-filresursen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> generatedArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> generatedArray </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:GenerationInfoArray</span> </td> 
    <td colname="col3"> <p>Nej </p> </td> 
-   <td colname="col4"> <p>The <span class="codeph"> generatedArray</span> inverterar hur resursen skapades. Till exempel <span class="codeph"> generatedArray</span> kan innehålla en lista med bilder som genererats från detta <span class="codeph"> assetHandler</span> om detta var en PDFFile-resurs. </p> </td> 
+   <td colname="col4"> <p><span class="codeph"> generatedArray </span> inverterar sättet som resursen skapades på. <span class="codeph"> generatedArray </span> kan till exempel innehålla en lista med bilder som genererats från denna <span class="codeph"> assetHandler </span> om det här var en PDFFile-resurs. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAsset</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAsset </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:resurs</span> </td> 
    <td colname="col3"> <p>Nej </p> </td> 
    <td colname="col4"> <p>Information om tumresurs som är associerad med den begärda resursen. Om ingen tumresurs har tilldelats utelämnas fältet i svaret. </p> </td> 
@@ -134,11 +134,11 @@ Syntax
  </tbody> 
 </table>
 
-Du kan använda parametrarna `responseFieldArray` eller `excludeFieldArray` för att begränsa svarsstorleken. I synnerhet `GenerationInfo` objekt som returneras i `generatorArray` eller `generatedArray` standard för att inkludera både originator- och genererade tillgångsposter. För en resurstyp i PDF resulterar det här beteendet i oönskade kopior av resursposten &quot;original&quot; PDF i svaret. Du kan eliminera problemet genom att lägga till `generatedArray/items/originator` till `excludeFieldArray`. Du kan också ange en explicit lista med svarsfält som du vill inkludera i `responseFieldArray`.
+Du kan använda parametrarna `responseFieldArray` eller `excludeFieldArray` för att begränsa svarsstorleken. I synnerhet är de `GenerationInfo` objekt som returneras i `generatorArray` eller `generatedArray` standard att inkludera både den som är upphovsman och de genererade resursposterna. För en resurstyp i PDF resulterar det här beteendet i oönskade kopior av posten&quot;original&quot; i PDF i svaret. Du kan ta bort det här problemet genom att lägga till `generatedArray/items/originator` i `excludeFieldArray`. Du kan också ange en explicit lista med svarsfält som du vill inkludera i `responseFieldArray`.
 
 ## Exempel {#section-8946ea4b9cb94912a8408249c897f192}
 
-Följande grundläggande exempel är en begäran om referensen för generatorn för en bild som extraheras från PDF. Den innehåller `containerArray` Längd ett med ett objekt som innehåller `assetHandle` PDF.
+Följande grundläggande exempel är en begäran om referensen för generatorn för en bild som extraheras från PDF. Den innehåller `containerArray` längd ett med ett objekt inklusive `assetHandle` för PDF.
 
 **Begäran**
 

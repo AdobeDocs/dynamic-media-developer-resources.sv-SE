@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: b5b0acab-4e11-4f6a-8cb1-be6d683d7384
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '62'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,8 @@ ht-degree: 0%
 <table id="table_43A84C1044574A6FAB8CE67D71AAD5EC"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span> </span> </p> </td> 
-   <td colname="col2"> <p> Kommandosträngen Bildrutehantering som används för alla färgrutor. Om den anges i URL:en måste du se till att du kodar alla förekomster av <span class="codeph"> &amp;</span> och <span class="codeph"> =</span> as <span class="codeph"> %26</span> och <span class="codeph"> %3D</span>, respektive. </p> <p> <p>Obs! Kommandon för att ändra bildstorlek stöds inte. </p> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand </span> </span> </p> </td> 
+   <td colname="col2"> <p> Kommandosträngen Bildrutehantering som används för alla färgrutor. Om den anges i URL:en måste du HTTP-koda alla förekomster av <span class="codeph"> &amp;</span> och <span class="codeph"> =</span> som <span class="codeph"> %26</span> respektive <span class="codeph"> %3D</span>. </p> <p> <p>Obs! Kommandon för att ändra bildstorlek stöds inte. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

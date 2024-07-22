@@ -22,6 +22,6 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| url | `xsd:string` | URL för bildserver som representerar mallen. Kombinationer `urlModifier` och `urlPostAp- plyModifier` fält. |
-| urlModifier | `xsd:string` | Protokollkommandon för bildvisning som ska användas före begäran eller `urlPostApplyModifier` kommandon. |
-| urlPostApplyModifier | `xsd:string` | Protokollkommandon för bildservning som ska användas efter `urlModifier` och begär kommandon. |
+| url | `xsd:string` | URL för bildserver som representerar mallen. Kombinerar fälten `urlModifier` och `urlPostAp- plyModifier`. |
+| urlModifier | `xsd:string` | Protokollkommandon som ska användas för bildvisning före begäran eller `urlPostApplyModifier` kommandon. |
+| urlPostApplyModifier | `xsd:string` | Protokollkommandon för bildvisning som ska användas efter `urlModifier` och begära kommandon. |

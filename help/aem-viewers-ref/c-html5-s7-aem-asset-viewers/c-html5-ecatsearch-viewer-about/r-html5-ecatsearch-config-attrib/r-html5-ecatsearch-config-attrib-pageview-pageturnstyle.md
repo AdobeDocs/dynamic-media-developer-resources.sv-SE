@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 2669c8e2-c942-420f-8262-9d76d5c499a2
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
@@ -16,12 +16,12 @@ ht-degree: 0%
 
 [!DNL `[PageView.|<containerId>_pageView.]pageturnstyle= *`dividerWidth`*, *`dividerColor`*, *`dividerOpacity`*, *`borderOnOff`*, *`borderColor`*, *`fillColor`*`]
 
-Styr komponentens utseende när en [!DNL `PageView.frametransition`] är inställd på [!DNL `turn`] eller till [!DNL `auto`] på persondatorer.
+Styr komponentutseendet när [!DNL `PageView.frametransition`] är inställt på [!DNL `turn`] eller [!DNL `auto`] på skrivbordssystem.
 
 <table id="table_A8CDA1AE2680402A99BCD5DD371B225F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> dividerWidth</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> dividerWidth </span></span> </p> </td> 
    <td colname="col2"> <p> Bredden i pixlar på skuggan för sidavgränsaren som skiljer de vänstra och högra sidorna på uppslaget åt. Den styr också bredden på den skugga som körs bredvid den vändande sidan. </p> </td> 
   </tr> 
   <tr> 
@@ -37,11 +37,11 @@ Styr komponentens utseende när en [!DNL `PageView.frametransition`] är instäl
    <td colname="col2"> <p> Flagga (antingen <span class="codeph"> 0</span> eller <span class="codeph"> 1</span>) som aktiverar och inaktiverar kanten runt den vänstra sidan. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> borderColor</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> borderColor </span></span> </p> </td> 
    <td colname="col2"> <p> Kantfärgen i RRGGBB-format. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> fillColor</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> fillColor </span></span> </p> </td> 
    <td colname="col2"> <p> Färgen på den heltäckande fyllningen i komponentområdet som används vid sidvändningsanimering, i RRGGBB-format. </p> </td> 
   </tr> 
  </tbody> 

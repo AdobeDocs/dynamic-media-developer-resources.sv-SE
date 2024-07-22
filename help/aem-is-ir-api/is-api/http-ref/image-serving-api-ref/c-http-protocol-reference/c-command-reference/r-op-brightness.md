@@ -31,7 +31,7 @@ kommandot Lager. Gäller det aktuella lagret eller den sammansatta bilden om `la
 
 ## Standard {#section-be56be0759634c79b4f264f194a94dbc}
 
-`op_brightness=0`, utan ändring av ljusstyrkan.
+`op_brightness=0`, om du inte vill ändra intensiteten.
 
 ## Exempel {#section-c25f952f1b77409abb9ccf885862d75c}
 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 8bf5920a-7ada-4db5-9796-05c5a17532c8
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
@@ -25,12 +25,12 @@ I det här avsnittet beskrivs den grundläggande syntaxen för HTTP-protokollet 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="varname"> förfrågan</span> </p> </td> 
-   <td colname="col2"> <p>http://<span class="varname"> server</span>/ir/render[/<span class="varname"> vinjettering</span> ] [ ?<span class="varname"> modifierare</span> ] </p> </td> 
+   <td colname="col1"> <p><span class="varname"> begäran</span> </p> </td> 
+   <td colname="col2"> <p>http://<span class="varname"> server</span>/ir/render[/<span class="varname"> vignette</span> ] [ ?<span class="varname"> modifiers</span> ] </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> server </span> </p> </td> 
-   <td colname="col2"> <p><span class="varname"> server_address</span> [:<span class="varname"> port</span> ] </p> </td> 
+   <td colname="col2"> <p><span class="varname"> server_address</span> [ :<span class="varname"> port</span> ] </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> vinjettering </span> </p> </td> 
@@ -38,15 +38,15 @@ I det här avsnittet beskrivs den grundläggande syntaxen för HTTP-protokollet 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> modifierare </span> </p> </td> 
-   <td colname="col2"> <p><span class="varname"> modifierare</span> *[ &amp; <span class="varname"> modifierare</span> ] </p> </td> 
+   <td colname="col2"> <p><span class="varname"> modifier</span> *[ &amp; <span class="varname"> modifier</span> ] </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="varname"> modifierare </span> </p> </td> 
-   <td colname="col2"> <p><span class="varname"> kommando</span> | { $ <span class="varname"> makro</span> $ } | { .<span class="varname"> kommentar</span> } </p> </td> 
+   <td colname="col1"> <p><span class="varname"> modifier </span> </p> </td> 
+   <td colname="col2"> <p><span class="varname">-kommando</span> | { $ <span class="varname"> macro</span> $ } | { .<span class="varname"> kommentar </span> } </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="varname"> kommando </span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="varname"> cmdName</span> | { $<span class="varname"> var</span> } [ = <span class="varname"> value</span> ] </p> </td> 
+   <td colname="col1"> <p><span class="varname">-kommando </span> </p> </td> 
+   <td colname="col2"> <p><span class="varname"> cmdName</span> | { $<span class="varname"> var</span> } } [ = <span class="varname"> value</span> ] </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> makro </span> </p> </td> 
@@ -65,7 +65,7 @@ I det här avsnittet beskrivs den grundläggande syntaxen för HTTP-protokollet 
    <td colname="col2"> <p>Namnet på en anpassad variabel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="varname"> value </span> </p> </td> 
+   <td colname="col1"> <p><span class="varname"> värde </span> </p> </td> 
    <td colname="col2"> <p>Kommando eller variabelvärde. </p> </td> 
   </tr> 
  </tbody> 
@@ -75,7 +75,7 @@ I det här avsnittet beskrivs den grundläggande syntaxen för HTTP-protokollet 
 
 **Server-ID**
 
-The `/ir/render`Rotkontext krävs för alla HTTP-begäranden till bildåtergivning.
+Rotkontexten `/ir/render` krävs för alla HTTP-begäranden till bildåtergivning.
 
 **Kommentarer**
 
@@ -83,4 +83,4 @@ Kommentarer kan bäddas in i begärandesträngar var som helst och identifieras 
 
 **HTTP-avkodning**
 
-Bildrendering - första extraheringen *`object`* och *`modifiers`* från den inkommande begäran. The *`object`* separeras sedan till sökvägselement som är individuellt HTTP-avkodade. The *`modifiers`* sträng avgränsas till *`command`*= *`value`* par, och *`value`* HTTP-avkodas sedan före kommandospecifik bearbetning.
+Bildåtergivning extraherar först *`object`* och *`modifiers`* från den inkommande begäran. *`object`* separeras sedan till sökvägselement som är individuellt HTTP-avkodade. Strängen *`modifiers`* separeras till *`command`*= *`value`* par och *`value`* HTTP-avkodas sedan före kommandospecifik bearbetning.

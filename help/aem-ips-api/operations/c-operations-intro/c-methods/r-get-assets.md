@@ -49,37 +49,37 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:sträng</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle </span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Företagets handtag. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> accessUserHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:sträng</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> accessUserHandle </span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Nej </p> </td> 
    <td colname="col4"> <p>Personifiera en specifik användare. Används endast av administratörer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> accessGroupHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:sträng</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> accessGroupHandle </span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Nej </p> </td> 
    <td colname="col4"> <p>Filtrera efter grupp. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray </span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:HandleArray</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Rotmappen som ska hämta mappar och alla undermappar till lövnivån. Om detta utelämnas används företagsroten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> responseFieldArray </span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> typer:StringArray</span> </p> </td> 
    <td colname="col3"> <p>Nej </p> </td> 
    <td colname="col4"> <p>Fält och delfält som ingår i svaret. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> excludeFieldArray </span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> typer:StringArray</span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
    <td colname="col4"> <p>Fält och delfält som är exkluderade från svaret. </p> </td> 
@@ -100,7 +100,7 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetArray</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetArray </span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> typer:AssetArray</span> </p> </td> 
    <td colname="col3"> <p>Nej </p> </td> 
    <td colname="col4"> <p>En array med resurser som matchar filtervillkoren. </p> </td> 

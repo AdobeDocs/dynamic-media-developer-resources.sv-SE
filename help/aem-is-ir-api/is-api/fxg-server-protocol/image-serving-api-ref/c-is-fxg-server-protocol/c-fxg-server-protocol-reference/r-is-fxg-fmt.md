@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: e179fc51-0461-4000-99eb-4390c35d5606
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -20,20 +20,20 @@ Svarsbildens format.
 
 <table id="simpletable_66FAABB7BD7A4BBB815A570BEA4C1AE8"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> format</span> </span> </p></td> 
-  <td class="stentry"> <p><span class="codeph"> jpeg | png | png-alpha | tif | tif-alpha | swf | pdf | gif | gif-alpha | fxg | fxgraw</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> format </span> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> jpeg | png | png-alpha | tif | tif-alpha | swf | PDF | gif | gif-alpha | fxg | fxgraw </span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"></td> 
-  <td class="stentry"> <p> Anger bildkodningsformatet för bilddata som skickas till klienten och motsvarande MIME-svarstyp för HTTP-svarshuvudet. </p> <p> <span class="codeph">  jpeg </span>: förstörande JPEG </p> <p> <span class="codeph"> png </span>: förlustfri PNG </p> <p> <span class="codeph"> png-alpha </span>: förlustfri PNG med alfakanal </p> <p> <span class="codeph">  tif </span>: TIFF </p> <p> <span class="codeph"> tif-alpha </span>: TIFF med alfakanal </p> <p> <span class="codeph">  swf </span>: förstörande JPEG inbäddad i en Adobe-swf-fil </p> <p> <span class="codeph"> pdf </span>: bild inbäddad i PDF </p> <p> <span class="codeph"> gif </span>: GIF med 2 till 256 färger </p> <p> <span class="codeph"> gif-alpha </span>: GIF med 2 till 255 färger plus genomskinlighet för nyckelfärger </p> <p> <span class="codeph"> fxg </span>: FXG med variabler och DOM-manipulering används </p> <p> <span class="codeph">  fxgraw </span>: ursprunglig FXG sparad på servern </p> </td> 
+  <td class="stentry"> <p> Anger bildkodningsformatet för bilddata som skickas till klienten och motsvarande MIME-svarstyp för HTTP-svarshuvudet. </p> <p> <span class="codeph"> jpeg </span>: förstörande JPEG </p> <p> <span class="codeph"> png </span>: förlustfri PNG </p> <p> <span class="codeph"> png-alpha </span>: förlustfri PNG med alfakanal </p> <p> <span class="codeph"> tif </span>: TIFF </p> <p> <span class="codeph"> tif-alpha </span>: TIFF med alfakanal </p> <p> <span class="codeph"> swf </span>: förstörande JPEG inbäddad i en Adobe-swf-fil </p> <p> <span class="codeph"> pdf </span>: bild inbäddad i PDF </p> <p> <span class="codeph"> gif </span>: GIF med 2 till 256 färger </p> <p> <span class="codeph"> gif-alpha </span>: GIF med 2 till 255 färger plus genomskinlighet för nyckelfärg </p> <p> <span class="codeph"> fxg </span>: FXG med variabler och DOM-manipulering används </p> <p> <span class="codeph"> fxgraw </span>: ursprunglig FXG sparad på servern </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> pixelType</span> </span> </p></td> 
-  <td class="stentry"> <p><span class="codeph"> rgb | grå | cmyk</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> pixelType </span> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> rgb | grå | cmyk </span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"></td> 
-  <td class="stentry"> <p> Kan användas för att påverka färgrymden för utdata. </p> <p> <span class="codeph">  rgb </span>: returnera RGB bilddata </p> <p> <span class="codeph"> grå </span>: returnera gråskalebilddata </p> <p> <span class="codeph"> cmyk </span>: returnera CMYK-bilddata </p> </td> 
+  <td class="stentry"> <p> Kan användas för att påverka färgrymden för utdata. </p> <p> <span class="codeph"> rgb </span>: returnera RGB-bilddata </p> <p> <span class="codeph"> grå </span>: returnera gråskalebilddata </p> <p> <span class="codeph"> cmyk </span>: returnera CMYK-bilddata </p> </td> 
  </tr> 
 </table>
 
@@ -49,7 +49,7 @@ I följande tabell visas giltiga kombinationer av format och `pixelType`, motsva
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p><span class="varname"> format</span> </p> </th> 
-   <th colname="col2" class="entry"> <p><span class="varname"> pixelType</span> </p> </th> 
+   <th colname="col2" class="entry"> <p><span class="varname"> pixelType </span> </p> </th> 
    <th colname="col3" class="entry"> <p>MIME-typ för svar </p> </th> 
    <th colname="col4" class="entry"> <p>Bädda in ICC-profil </p> </th> 
    <th colname="col5" class="entry"> <p>Alternativ </p> </th> 
@@ -75,7 +75,7 @@ I följande tabell visas giltiga kombinationer av format och `pixelType`, motsva
    <td> <p>rgb, gray, cmyk </p> </td> 
    <td> <p>&lt;image/tiff&gt; </p> </td> 
    <td> <p>ja </p> </td> 
-   <td> <p><span class="codeph"> <span class="varname"> tiffCompression</span> ( ingen | lzw | zip | jpeg), qlt=</span> </p> </td> 
+   <td> <p><span class="codeph"> <span class="varname"> tiffCompression </span> (ingen) | lzw | zip | jpeg), qlt=</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>swf, swf-alpha </p> </td> 
@@ -85,18 +85,18 @@ I följande tabell visas giltiga kombinationer av format och `pixelType`, motsva
    <td> <p><span class="codeph"> qlt= </span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>pdf </p> </td> 
+   <td> <p>PDF </p> </td> 
    <td> <p>rgb, gray, cmyk </p> </td> 
    <td> <p>&lt;application/pdf&gt; </p> </td> 
    <td> <p>ja </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>gif, gif-alpha </p> </td> 
+   <td> <p>gif-alfa </p> </td> 
    <td> <p>rgb, grå </p> </td> 
    <td> <p>&lt;image/gif&gt; </p> </td> 
    <td> <p>no </p> </td> 
-   <td> <p><span class="codeph"> kvantifiera=</span> </p> </td> 
+   <td> <p><span class="codeph"> kvantisera=</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>

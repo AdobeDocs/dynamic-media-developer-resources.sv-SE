@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Plats för materialkatalogmappen (där alla catalog.ini-filer måste finnas).
 
-Kan antingen vara en absolut sökväg eller en relativ sökväg till [!DNL *[!DNL install_folder]*]. Standard är [!DNL ./catalog], vilket motsvarar [!DNL] *[!DNL install_folder]*/catalog].
+Kan antingen vara en absolut sökväg eller en relativ sökväg till [!DNL *[!DNL install_folder]*]. Standardvärdet är [!DNL ./catalog], vilket motsvarar [!DNL *[!DNL install_folder]*/katalog].

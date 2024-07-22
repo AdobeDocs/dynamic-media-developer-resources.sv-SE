@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: c8005e7e-dff6-4f40-a94c-6fb6640e827f
 source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Visningsområdets utseende styrs av följande CSS-klassväljare:
  </tbody> 
 </table>
 
-Exempel - för att konfigurera ett visningsprogram med en vit bakgrund ( `#FFFFFF`) och gör storleken 174 x 500 pixlar.
+Exempel - för att konfigurera ett visningsprogram med en vit bakgrund ( `#FFFFFF`) och göra storleken 174 x 500 pixlar.
 
 ```
 .s7interactiveimage { 

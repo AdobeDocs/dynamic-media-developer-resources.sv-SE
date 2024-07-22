@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: e52577ba-d085-41f5-ad15-48e5a319e344
 source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Verifieringsprincip för servercache. Anger när cacheposter på serversidan valideras.
 
-Med utgångsbaserad validering kontrolleras källmaterial och vinjetter regelbundet för att se om de har ändrats. Med katalogbaserad validering kontrolleras källbilderna endast efter `catalog::TimeStamp` värdet har ändrats.
+Med utgångsbaserad validering kontrolleras källmaterial och vinjetter regelbundet för att se om de har ändrats. Med katalogbaserad validering kontrolleras källbilderna endast efter att värdet `catalog::TimeStamp` har ändrats.
 
 Katalogbaserad validering rekommenderas när både material- och vinjettkataloger används. Förfallobaserad validering bör användas när vinjetter refereras i begäranden om bildåtergivning direkt via sökväg.
 
@@ -26,7 +26,7 @@ Enum. 0 för att välja förfallobaserad validering. 1 för att välja katalogba
 
 ## Standard {#section-e09f3af8b6b3497d963199988dc5345d}
 
-Ärvs från `default::CacheValidationPolicy` om den inte är definierad eller om den är tom.
+Ärvs från `default::CacheValidationPolicy` om inte definierad eller om tom.
 
 ## Se även {#section-b374e4d908e24af8995b2b376ca1be8b}
 

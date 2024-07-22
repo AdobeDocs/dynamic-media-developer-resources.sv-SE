@@ -19,12 +19,12 @@ ht-degree: 0%
 <table id="table_AB421835D2454ECD8AA40DBFADBAC65F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ingen|bild|tona </span> </span> </p> </td> 
-   <td colname="col2"> <p> Anger vilken typ av effekt som används när den utfällbara vyn visas eller döljs. Med <span class="codeph"> ingen </span>visas den utfällbara bilden omedelbart när den är aktiverad och klar, <span class="codeph"> bild </span> gör att bildruteanimeringen spelas upp från vänster till höger. <span class="codeph"> tona </span> använder en alfablandning på den utfällbara bilden. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> none|slide|fade </span> </span> </p> </td> 
+   <td colname="col2"> <p> Anger vilken typ av effekt som används när den utfällbara vyn visas eller döljs. Med <span class="codeph"> ingen </span> visas den utfällbara bilden direkt när den är aktiverad och klar. Med <span class="codeph"> bild </span> spelas bildruteanimeringen upp från vänster till höger. Med <span class="codeph"> tonad </span> tillämpas en alfablandning på den utfällbara bilden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showtime </span> </span> </p> </td> 
-   <td colname="col2"> <p> Antal sekunder som det tar att slutföra animeringen av bildspelet. </p> </td> 
+   <td colname="col2"> <p> Antal sekunder som det tar att slutföra animeringen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showdelay </span> </span> </p> </td> 

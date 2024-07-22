@@ -22,4 +22,4 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| objekt | `types:AssetCount` | Lista över inventerade tillgångar. |
+| objekt | `types:AssetCount` | Array med inventering av tillgångar. |

@@ -20,7 +20,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ingen|zoom|reset|zoomReset </span> </p> </td> 
-   <td colname="col2"> <p> Konfigurerar mappningen av dubbelklicka/peka för att zooma åtgärder. Inställning till <span class="codeph"> ingen </span> inaktiverar dubbelklickning/knackning i zoomning. Om inställt på <span class="codeph"> zooma </span> klicka på bilden zoomas in ett zoomsteg, CTRL+Click zoomar ut ett zoomsteg. Inställning till <span class="codeph"> återställ </span> gör att ett enda klick på bilden återställer zoomningen till den ursprungliga zoomnivån. För <span class="codeph"> zoomReset </span>återställs om den aktuella zoomfaktorn är på eller utanför den angivna gränsen. I annat fall används zoomning. </p> </td> 
+   <td colname="col2"> <p> Konfigurerar mappningen av dubbelklicka/peka för att zooma åtgärder. Om du anger <span class="codeph"> none </span> inaktiveras zoomning med dubbelklick/tryck. Om inställningen är <span class="codeph"> zoomning </span>, zoomas bilden in i ett zoomsteg, om du klickar på bilden zoomas Ctrl+klickar du ett zoomsteg. Om du anger <span class="codeph"> reset </span> återställs zoomningen till den ursprungliga zoomnivån med ett enda klick på bilden. För <span class="codeph"> zoomReset </span> används reset om den aktuella zoomfaktorn är vid eller över den angivna gränsen, i annat fall används zoomning. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -31,7 +31,7 @@ Valfritt.
 
 ## Standard {#section-71fb773f814649b2885aefee68073641}
 
-`reset` - på stationära datorer, `zoomReset` på pekenheter.
+`reset` - På stationära datorer; `zoomReset` på touchenheter.
 
 ## Exempel {#section-bce98c31f08a4a0ab262fab7f95ba020}
 

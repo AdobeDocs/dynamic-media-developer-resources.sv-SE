@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 9b69f6d7-b7a1-42c6-98d7-80952b7f8b31
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 1%
+source-wordcount: '80'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> <span class="varname"> overdragvalue </span> </span> </p> </td> 
-   <td> <p> Funktioner i <span class="codeph"> 0-1 </span> omfång. Det är en <span class="codeph"> % </span> värde för rörelse i fel riktning för den faktiska hastigheten. Om den är inställd på <span class="codeph"> 1 </span>flyttas den med musen. Om den är inställd på <span class="codeph"> 0 </span>kan du inte gå åt fel håll. </p> </td> 
+   <td> <p> Funktioner i intervallet <span class="codeph"> 0-1 </span>. Det är ett <span class="codeph"> % </span>-värde för rörelse i fel riktning av den faktiska hastigheten. Om den är inställd på <span class="codeph"> 1 </span> flyttas den med musen. Om värdet är <span class="codeph"> 0 </span> kan du inte gå i fel riktning alls. </p> </td> 
   </tr> 
  </tbody> 
 </table>

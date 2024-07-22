@@ -7,28 +7,28 @@ role: Developer,User
 exl-id: 590ed0f1-8d78-4afc-ac9e-c28272cd24a6
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
 
 # Färghantering{#color-handling}
 
-RTF-specifikationen tillåter färgvärden för RGB som anges med `\colortbl`. Varje komponent levereras separat med `\red`, `\green`och `\blue` kommandon.
+RTF-specifikationen tillåter färgvärden för RGB som anges med `\colortbl`. Varje komponent tillhandahålls separat med kommandona `\red`, `\green` och `\blue`.
 
-Det egna RTF-kommandot `\cmykcolortbl` gör att du kan ange CMYK-färger, där varje färgkomponent som ingår i `\cyan`, `\magenta`, `\yellow`och `\black` kommandon.
+Det egna RTF-tilläggskommandot `\cmykcolortbl` gör det möjligt att ange CMYK-färger, där varje färgkomponent finns i kommandona `\cyan`, `\magenta`, `\yellow` och `\black`.
 
-Färgkomponentvärden för `\colortbl` ligger i intervallet 0-255. Komponentvärden för `\cmykcolortbl` ligger i intervallet 0-100.
+Färgkomponentvärdena för `\colortbl` ligger i intervallet 0-255. Komponentvärdena för `\cmykcolortbl` ligger i intervallet 0-100.
 
-RTF-kommandot `\*\iscolortbl`, stöds av `textPs=`I finns ett sätt att ange en färgtabell med standardvärden för bildservrar, med stöd för RGB, grått, CMYK och alfa. Den har följande syntax:
+RTF-tilläggskommandot `\*\iscolortbl`, som stöds av `textPs=`, erbjuder ett sätt att ange en färgtabell med standardfärgvärden för bildservrar, med stöd för RGB, grått, CMYK och alfa. Den har följande syntax:
 
 ` {\&#42;\iscolortbl; *[!DNL colors]*;}`
 
 *[!DNL colors]* ett eller flera IS-färgvärden, separerade med &#39;;&#39;
 
-Fler än en typ av färgtabell kan anges i samma `text=` eller `textPs=` RTF-sträng Varje färgtabell kan ha olika antal poster. Image Serving försöker hitta färger i den här ordningen: `\iscolortbl` före `\cmykcolortbl` (endast om pixeltypen för textlagret är CMYK) före `\colortbl`. För `textPs=` bara färger konverteras korrekt mellan CMYK och RGB, om det behövs (t.ex. när RGB-färger anges men CMYK-utdata krävs). Om det inte finns någon färg för ett visst indexvärde används standardfärgen (svart).
+Mer än en typ av färgtabell kan anges i samma `text=`- eller `textPs=` RTF-sträng. Varje färgtabell kan ha olika antal poster. Bildservning försöker hitta färger i den här ordningen: `\iscolortbl` före `\cmykcolortbl` (endast om pixeltypen för textlagret är CMYK) före `\colortbl`. Endast för `textPs=` konverteras färger korrekt mellan CMYK och RGB, om det behövs (t.ex. när RGB-färger har angetts men CMYK-utdata krävs). Om det inte finns någon färg för ett visst indexvärde används standardfärgen (svart).
 
-Se [färg](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md) om du vill ha en beskrivning av syntaxen för IS-färgvärden.
+I [color](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md) finns en beskrivning av syntaxen för IS-färgvärden.
 
 ## Begränsningar {#section-c5173e672d854e4aa9656844f7fc4d0e}
 

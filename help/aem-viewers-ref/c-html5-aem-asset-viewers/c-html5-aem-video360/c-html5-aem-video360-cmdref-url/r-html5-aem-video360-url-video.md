@@ -21,7 +21,7 @@ URL-kommando för Video360 Viewer.
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoURL</span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoURL </span> </span> </p> </td> 
    <td colname="col2"> <p> Den absoluta URL:en till en extern video. </p> </td> 
   </tr> 
  </tbody> 
@@ -29,7 +29,7 @@ URL-kommando för Video360 Viewer.
 
 ## Egenskaper {#section-f42369774e2740dcb399626a0e4e930e}
 
-Obligatoriskt. (Om `asset` -parametern används. Se [Stöd för extern video](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760).)
+Obligatoriskt. (Om inte parametern `asset` används. Se [Stöd för extern video](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760).)
 
 ## Standard {#section-d016470e92a74f98a18c4ab3489410a5}
 

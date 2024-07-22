@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Namn på kommandomakro.
 
-`&$ *`name`*$`
+`&$ *`namn`*$`
 
 <table id="simpletable_A07C4682275F461BA1F3B7752CE3FAE1"> 
  <tr class="strow"> 
@@ -25,4 +25,4 @@ Namn på kommandomakro.
  </tr> 
 </table>
 
-Kommandot *`name`* är inte skiftlägeskänsligt och kan bestå av en kombination av bokstäver, siffror, `-` (bindestreck) `_` (understreck), och `.` (punkt).
+Kommandot *`name`* är inte skiftlägeskänsligt och kan bestå av en kombination av bokstäver, siffror, `-` (bindestreck), `_` (understreck) och `.` (punkt) tecken.

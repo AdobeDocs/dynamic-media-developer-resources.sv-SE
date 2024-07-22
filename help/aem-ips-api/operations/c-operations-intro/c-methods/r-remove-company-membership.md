@@ -31,7 +31,7 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| userHandle | `xsd:string` | Nej | Referensen till användaren med det medlemskap du vill ta bort. |
+| userHandle | `xsd:string` | Nej | Referensen till användaren med det medlemskap som du vill ta bort. |
 | companyHandleArray | `types:HandleArray` | Ja | Referensen till företaget som du tar bort användaren från. |
 
 **Utdata (removeCompanyMembershipReturn)**
@@ -40,7 +40,7 @@ IPS API returnerar inget svar för den här åtgärden.
 
 ## Exempel {#section-6b7903195e8647a1bd0502f87387ca62}
 
-Det här kodexemplet tar bort en användare från ett företag. Utelämna den valfria användarreferensen för att ta bort alla användare från de företag som anges i företagsreferensarrayen.
+Det här kodexemplet tar bort en användare från ett företag. Utelämna den valfria användarreferensen för att ta bort alla användare från de företag som anges i företagsreferensmatrisen.
 
 **Begäran**
 

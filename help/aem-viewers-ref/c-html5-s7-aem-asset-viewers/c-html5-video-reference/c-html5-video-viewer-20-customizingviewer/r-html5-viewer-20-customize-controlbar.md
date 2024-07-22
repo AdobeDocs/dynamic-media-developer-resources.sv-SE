@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 2239307a-4a05-4392-b35c-a64ea6c938ad
 source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Följande CSS-klassväljare styr kontrollfältets utseende:
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p>Placera från den övre kanten, inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 

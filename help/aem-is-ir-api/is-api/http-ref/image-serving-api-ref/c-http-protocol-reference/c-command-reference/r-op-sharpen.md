@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 62e7d91c-935f-410f-a971-ffb3cfff31d6
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Lagerattribut eller vyattribut. Gäller det aktuella lagret eller den slutliga v
 
 ## Standard {#section-665709700fff458e9dbbf8a78e8ecf71}
 
-`op_sharpen=0`, utan skärpeeffekt.
+`op_sharpen=0`, om du inte vill ha någon skärpeeffekt.
 
 ## Exempel {#section-3202122df5db4e14b358ecabfb6d8b85}
 

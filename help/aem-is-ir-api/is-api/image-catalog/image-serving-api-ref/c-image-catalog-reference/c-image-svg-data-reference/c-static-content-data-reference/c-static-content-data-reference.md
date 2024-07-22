@@ -16,7 +16,7 @@ ht-degree: 0%
 
 I det här avsnittet beskrivs attributen för statiska innehållsdata.
 
-* [Förfaller](r-expiration-static.md)
+* [Förfallotid](r-expiration-static.md)
 * [ID](r-id-static.md)
 * [Bana](r-path-static.md)
 * [TimeStamp](r-timestamp-static.md)

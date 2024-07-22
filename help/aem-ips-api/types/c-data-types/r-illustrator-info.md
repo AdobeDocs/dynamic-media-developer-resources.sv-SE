@@ -1,5 +1,5 @@
 ---
-description: Egenskaper för en Adobe Illustrator-fil.
+description: Adobe Illustrator-filens egenskaper.
 solution: Experience Manager
 title: IllustratorInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL IllustratorInfo]{#illustratorinfo}
 
-Egenskaper för en Adobe Illustrator-fil.
+Adobe Illustrator-filens egenskaper.
 
 Syntax
 

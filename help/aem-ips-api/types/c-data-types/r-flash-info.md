@@ -1,5 +1,5 @@
 ---
-description: Egenskaper för en Flash-fil.
+description: Egenskaper för en Flash.
 solution: Experience Manager
 title: FlashInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL FlashInfo]{#flashinfo}
 
-Egenskaper för en Flash-fil.
+Egenskaper för en Flash.
 
 Syntax
 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 62809036-f158-402d-a8b2-2b9335e8c079
 source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Knappens utseende styrs med följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p>Placera från den övre kanten, inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
@@ -43,7 +43,7 @@ Knappens utseende styrs med följande CSS-klassväljare:
    <td colname="col2"> <p>Placera från den högra kanten, inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vänster </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kvar </span> </p> </td> 
    <td colname="col2"> <p>Placera från den vänstra kanten, inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
@@ -71,9 +71,9 @@ Knappens utseende styrs med följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen har stöd för `state` attributväljare och valda attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen. I synnerhet `selected='true'` motsvarar läget när bildtexter är synliga och `selected='false'` används när bildtexter är dolda.
+>Den här knappen stöder attributväljaren `state` och valda attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen. I synnerhet motsvarar `selected='true'` läget när bildtexter är synliga och `selected='false'` används när bildtexter är dolda.
 
-Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) för mer information.
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
 Exempel - Om du vill ställa in en knapp för undertexter som är 28 x 28 pixlar, placerad fyra pixlar uppifrån och 68 pixlar från kontrollfältets högra kant. Och slutligen, visar en annan bild för vart och ett av de fyra olika knapplägena när de är markerade eller inte markerade.
 

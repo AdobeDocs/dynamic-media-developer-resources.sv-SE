@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: fe8b748c-5318-4fcd-9f3a-d50523bb3f8f
 source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Visningsområdets utseende styrs av följande CSS-klassväljare:
  </tbody> 
 </table>
 
-Exempel - Ställa in ett visningsprogram med vit bakgrund ( `#FFFFFF`) och gör storleken 512 x 288 pixlar.
+Exempel - Om du vill ställa in ett visningsprogram med en vit bakgrund ( `#FFFFFF`) och göra dess storlek 512 x 288 pixlar.
 
 ```
 .s7mixedmediaviewer { 

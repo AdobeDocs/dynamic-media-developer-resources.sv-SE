@@ -22,7 +22,7 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| name | `xsd:string` | Metadatanamn. |
+| name | `xsd:string` | Namn på metadata. |
 | value | `xsd:string` | Metadatavärde. |
 | boolVal | `xsd:boolean` | Booleskt metadatavärde (endast för fält av typen Boolean). |
 | longVal | `xsd:long` | Långt metadatavärde (endast för fält av typen int). |

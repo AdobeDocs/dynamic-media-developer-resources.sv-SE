@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: c8ea6698-e425-491f-8413-2260ddf40c33
 source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
 
 # Huvudvisningsområde{#main-viewer-area}
 
-Huvudvisningsområdet upptas av videon. Den ställs vanligtvis in så att den passar den tillgängliga enhetsskärmen när ingen storlek har angetts.
+Huvudvisningsområdet är upptaget av videon. Den ställs vanligtvis in så att den passar den tillgängliga enhetsskärmen när ingen storlek har angetts.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

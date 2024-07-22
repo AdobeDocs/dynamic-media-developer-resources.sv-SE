@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 5f8741a4-d286-4b2d-8a11-23bce119209a
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Följande CSS-klassväljare styr knappens utseende:
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p>Placera från den övre kanten, inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
@@ -39,7 +39,7 @@ Följande CSS-klassväljare styr knappens utseende:
    <td colname="col2"> <p>Placera från den högra kanten, inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vänster </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kvar </span> </p> </td> 
    <td colname="col2"> <p>Placera från den vänstra kanten, inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
@@ -67,13 +67,13 @@ Följande CSS-klassväljare styr knappens utseende:
 
 >[!NOTE]
 >
->Den här knappen har stöd för båda `state`, `selected`och `replay` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen. I synnerhet `selected='true'` motsvarar&quot;play&quot;-läget och `selected='false'` motsvarar läget &quot;paus&quot;,
+>Den här knappen stöder både attributväljarna `state`, `selected` och `replay` som kan användas för att tillämpa olika skal på olika knapplägen. `selected='true'` motsvarar i synnerhet uppspelningsläget och `selected='false'` motsvarar pausläget.
 >
->Attributväljaren `replay='true'` anges när videon har nått slutet och knappen startar om uppspelningen från början.
+>Attributväljaren `replay='true'` anges när videon har nått slutet och om du väljer knappen startas uppspelningen om från början.
 
-Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) för mer information.
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Exempel** - För att ställa in en uppspelnings-/pausknapp som är 32 x 32 pixlar. Placera sex pixlar från kontrollfältets övre och vänstra kant. Och slutligen, visar en annan bild för vart och ett av de fyra olika knapplägena när de är markerade eller inte markerade.
+**Exempel** - Om du vill ställa in en uppspelnings-/pausknapp som är 32 x 32 pixlar. Placera sex pixlar från kontrollfältets övre och vänstra kant. Och slutligen, visar en annan bild för vart och ett av de fyra olika knapplägena när de är markerade eller inte markerade.
 
 ```
 .s7video360viewer .s7playpausebutton { 

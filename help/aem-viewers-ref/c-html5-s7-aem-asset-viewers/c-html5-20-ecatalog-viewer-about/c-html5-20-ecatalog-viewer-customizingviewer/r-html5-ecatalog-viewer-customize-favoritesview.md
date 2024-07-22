@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 10536242-1015-49ff-ae27-59671f30d886
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Avståndet mellan Favoriter-miniatyrbilder styrs med följande CSS-klassväljare
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> marginal </span> </p> </td> 
-   <td colname="col2"> <p> Storleken på den lodräta marginalen runt varje miniatyrbild. Det faktiska mellanrummet för miniatyrbilder är lika med summan av den övre och nedre marginalen som är inställd för <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col2"> <p> Storleken på den lodräta marginalen runt varje miniatyrbild. Det faktiska mellanrummet för miniatyrbilder är lika med summan av den övre och nedre marginalen som är inställd för <span class="codeph"> .s7miniatyrcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,7 +94,7 @@ Utseendet på enskilda miniatyrbilder styrs med följande CSS-klassväljare:
    <td colname="col2"> <p>Höjden på miniatyrbilden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kant </span> </p> </td> 
    <td colname="col2"> <p>Miniatyrens kantlinje. </p> </td> 
   </tr> 
  </tbody> 
@@ -102,7 +102,7 @@ Utseendet på enskilda miniatyrbilder styrs med följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Miniatyrbilden har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika miniatyrlägen. Särskilt gäller följande: `state="selected"` motsvarar den miniatyrbild som användaren nyligen valt. Attributet `state="default"` motsvarar resten av miniatyrbilderna. Och attributet `state="over"` används vid hovring av musen.
+>Miniatyrbilden stöder attributväljaren `state` som kan användas för att tillämpa olika skal på olika miniatyrlägen. I synnerhet motsvarar `state="selected"` den miniatyrbild som nyligen valts av användaren. Attributet `state="default"` motsvarar resten av miniatyrbilderna. Och attributet `state="over"` används vid hovring med musen.
 
 Exempel - Om du vill ställa in miniatyrbilder som är 75 x 75 pixlar har du en ljusgrå standardkantlinje och en mörkgrå markerad kantlinje:
 

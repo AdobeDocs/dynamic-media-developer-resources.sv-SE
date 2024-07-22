@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Innehåller inställningar för plattformsserver.
 
-När du ändrar den här XML-filen måste du se till att du upprätthåller giltig XML-syntax, annars måste du [!DNL Platform Server] kanske inte kan starta.
+När du ändrar den här XML-filen måste du se till att behålla giltig XML-syntax, annars kanske [!DNL Platform Server] inte kan startas.
 
-För att ändringarna ska börja gälla [!DNL Platform Server] måste startas om efter att filen har redigerats.
+För att ändringarna ska börja gälla måste [!DNL Platform Server] startas om efter att filen har redigerats.
 
 Följande diagram visar vilka inställningar som kan ändras i den här filen. I motsvarande avsnitt tidigare i det här dokumentet finns en beskrivning av de här inställningarna. Observera att det här diagrammet inte är en fullständig representation av [!DNL server.xml].
 

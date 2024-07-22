@@ -7,7 +7,7 @@ role: Developer,User,Data Engineer,Data Architect
 exl-id: fb58a388-e4da-475d-b726-d5a32e99cce0
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Som standard skickar visningsprogrammet en enda HTTP-begäran för spårning til
 
 ## Anpassad spårning {#section-cda48fc9730142d0bb3326bac7df3271}
 
-För att kunna integreras med analyssystem från tredje part måste man lyssna på `trackEvent` återanrop till visningsprogrammet och bearbeta `eventInfo` vid behov callback-funktionens argument. Följande kod är ett exempel på en sådan hanterarfunktion:
+Om du vill integrera med analyssystem från tredje part måste du lyssna på `trackEvent`-visningsåteranropet och bearbeta `eventInfo`-argumentet för återanropsfunktionen efter behov. Följande kod är ett exempel på en sådan hanterarfunktion:
 
 ```javascript {.line-numbers}
 var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({ 
@@ -60,19 +60,19 @@ Visningsprogrammet spårar följande SDK-användarhändelser:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LADDA </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LÄS IN </span> </p> </td> 
    <td colname="col2"> <p>när visningsprogrammet läses in först. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>när en resurs byts ut i visningsprogrammet med <span class="codeph"> setAsset() </span> API. </p> </td> 
+   <td colname="col2"> <p>när en resurs byts ut i visningsprogrammet med API:t <span class="codeph"> setAsset() </span> . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SPELA </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> SPELA UPP </span> </p> </td> 
    <td colname="col2"> <p>när uppspelningen startar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PAUS </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PAUSE </span> </p> </td> 
    <td colname="col2"> <p>när uppspelningen pausas. </p> </td> 
   </tr> 
   <tr> 
@@ -80,8 +80,8 @@ Visningsprogrammet spårar följande SDK-användarhändelser:
    <td colname="col2"> <p>när uppspelningen stoppas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> MILESTON </span> </p> </td> 
-   <td colname="col2"> <p>när uppspelningen når någon av följande milstolpar: 0 %, 25 %, 50 %, 75 % eller 100 %. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> MILESTONE </span> </p> </td> 
+   <td colname="col2"> <p>när uppspelningen når en av följande milstolpar: 0 %, 25 %, 50 %, 75 % eller 100 %. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> INTERACTIVE_SWATCH </span> </p> </td> 

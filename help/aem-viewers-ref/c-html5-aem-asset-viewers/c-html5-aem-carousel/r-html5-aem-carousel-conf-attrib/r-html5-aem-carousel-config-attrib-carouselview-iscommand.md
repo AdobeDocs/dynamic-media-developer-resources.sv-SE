@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 848eaed7-c150-4537-96a4-f2614162d58f
 source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '51'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> iscommand </span></span> </p> </td> 
-   <td colname="col2"> <p> Kommandosträngen Bildrutevisning som används på banderollbilden. Om det anges i URL:en, alla förekomster av <span class="codeph"> &amp;</span> och <span class="codeph"> =</span> måste vara HTTP-kodad som <span class="codeph"> %26</span> och <span class="codeph"> %3D</span>, respektive. </p> </td> 
+   <td colname="col2"> <p> Kommandosträngen Bildrutevisning som används på banderollbilden. Om det anges i URL:en måste alla förekomster av <span class="codeph"> &amp;</span> och <span class="codeph"> =</span> vara HTTP-kodade som <span class="codeph"> %26</span> respektive <span class="codeph"> %3D</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

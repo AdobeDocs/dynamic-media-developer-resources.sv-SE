@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 0216f22e-a3b3-4dda-89c2-9c6c2c81cab3
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
@@ -31,12 +31,12 @@ kommandot Lager. Gäller det aktuella lagret eller den sammansatta bilden om `la
 
 ## Standard {#section-896d1b1f7f084e929355a4684f3e833b}
 
-`op_contrast=0`, utan att kontrasten förändras. CMYK-bilder eller -lager konverteras till RGB innan åtgärden tillämpas.
+`op_contrast=0`, om kontrasten inte ändras. CMYK-bilder eller -lager konverteras till RGB innan åtgärden tillämpas.
 
 ## Exempel {#section-94bc4348b4bc4f0e9768ea1c45ca8340}
 
 Minska kontrasten och skärpan i ett bildlager med högre kvalitet för att visuellt matcha det mot ett bakgrundsfoto med låg kvalitet:
 
-… `&op_blur=3&op_contrast=-12&`
+... `&op_blur=3&op_contrast=-12&`
 
 I en framtida version kan bildens medianljusstyrka användas i stället för en fast intensitet på 50 %.

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 907b7bd5-3f87-4918-ad62-8a28249ea023
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -60,12 +60,12 @@ Informationspanelens dialogruta visas som standard i mitten av visningsprogramom
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vänster </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kvar </span> </p> </td> 
    <td colname="col2"> <p>Den vågräta positionen för informationsdialogrutan i visningsområdets bakgrundsfyllning. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
-   <td colname="col2"> <p>Den lodräta positionen för informationspanelens dialogruta i visningsområdet. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
+   <td colname="col2"> <p>Den lodräta positionen för informationspanelens dialogruta i visningsprogramområdet. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -97,12 +97,12 @@ Informationspanelens dialogruta visas som standard i mitten av visningsprogramom
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> box-shadow </span> </p> </td> 
-   <td colname="col2"> <p>Dialogrutekugga. </p> </td> 
+   <td colname="col2"> <p>Dialogskugga. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exempel - ställ in en dialogruta med 300 x 200 pixlar i informationspanelen som är centrerad i visningsområdet; har utfyllnad på 40 pixlar längst upp och utfyllnad på 10 pixlar på alla andra sidor, en ljusgrå bakgrund och en radie och skugga på 10 pixlar.
+Exempel - ställ in en informationsdialogruta på 300 x 200 pixlar som är centrerad i visningsområdet. Den har utfyllnad på 40 pixlar överst och utfyllnad på 10 pixlar på alla andra sidor, en ljusgrå bakgrund och en kantradie på 10 pixlar och skugga.
 
 ```
 .s7ecatalogsearchviewer .s7infopanelpopup .s7overlay { 
@@ -137,7 +137,7 @@ Utseendet på den här knappen styrs av följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p>Placera från dialogrutans övre kant. </p> </td> 
   </tr> 
   <tr> 
@@ -145,7 +145,7 @@ Utseendet på den här knappen styrs av följande CSS-klassväljare:
    <td colname="col2"> <p>Placera från dialogrutans högra kant. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vänster </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kvar </span> </p> </td> 
    <td colname="col2"> <p>Placera från dialogrutans vänstra kant. </p> </td> 
   </tr> 
   <tr> 
@@ -173,11 +173,11 @@ Utseendet på den här knappen styrs av följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen har stöd för `state` attributväljaren, som du kan använda för att använda olika skal på olika knapplägen.
+>Den här knappen har stöd för attributväljaren `state` som du kan använda för att använda olika skal för olika knapplägen.
 
-Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
-Exempel - om du vill ställa in en stängningsknapp i en dialogruta som är 28 x 28 pixlar, placerad 5 pixlar från den övre och högra kanten av dialogrutan för informationspanelen, och visa en bild för vart och ett av de fyra knapplägena.
+Exempel - om du vill ställa in en stängningsknapp i en dialogruta som är 28 x 28 pixlar, placerad 5 pixlar från den övre och högra kanten av dialogrutan för informationspanelen, och visa en bild för vart och ett av de fyra olika knapplägena.
 
 ```
 .s7ecatalogsearchviewer .s7infopanelpopup .s7closebutton { 

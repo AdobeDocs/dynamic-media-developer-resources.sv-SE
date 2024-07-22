@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 114cc5b7-32b9-4d16-ab93-a66f3ec666e0
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '60'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,8 @@ Kommandosträngen Bildrutevisning som används på alla miniatyrbilder.
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> isCommand</span></span> </p> </td> 
-   <td colname="col2"> <p> Om det anges i URL:en, alla förekomster av <span class="codeph"> &amp;</span> och <span class="codeph"> =</span> måste vara HTTP-kodad som <span class="codeph"> %26</span> och <span class="codeph"> %3D</span>, respektive. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> isCommand </span></span> </p> </td> 
+   <td colname="col2"> <p> Om det anges i URL:en måste alla förekomster av <span class="codeph"> &amp;</span> och <span class="codeph"> =</span> HTTP-kodas som <span class="codeph"> %26</span> respektive <span class="codeph"> %3D</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

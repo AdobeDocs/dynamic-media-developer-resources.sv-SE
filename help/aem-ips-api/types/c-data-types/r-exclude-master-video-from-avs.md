@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Adobe upphör med stödet för `ExcludeMasterVideoFromAVS` parameter 1 september 2022. Se även [Inaktuella anrop](/help/aem-ips-api/c-deprecated-calls.md).
+>Adobe upphör med stödet för parametern `ExcludeMasterVideoFromAVS` 1 september 2022. Se även [Inaktuella anrop](/help/aem-ips-api/c-deprecated-calls.md).
 
 Utesluter den primära videon från den adaptiva videouppsättningen.
 

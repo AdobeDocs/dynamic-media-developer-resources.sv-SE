@@ -1,6 +1,6 @@
 ---
 title: setLocalizedTexter
-description: JavaScript API-referens för visningsprogrammet för utfällbara bilder.
+description: JavaScript API-referens för visningsprogrammet.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # setLocalizedTexter{#setlocalizedtexts}
 
-JavaScript API-referens för visningsprogrammet för utfällbara bilder.
+JavaScript API-referens för visningsprogrammet.
 
 ` setLocalizedTexts( *`localizationInfo`*)`
 
@@ -22,7 +22,7 @@ JavaScript API-referens för visningsprogrammet för utfällbara bilder.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo </span> </span> </p> </td> 
-   <td colname="col2"> <p> { <span class="codeph"> Objekt </span>} JSON-objekt med lokaliseringsdata. </p> <p>Se <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27" format="dita" scope="local"> Lokalisering av användargränssnittselement </a> för mer information. </p> <p>Se <i>Användarhandbok för Viewer SDK</i> och exemplet innehåller mer information om objektets innehåll. </p> </td> 
+   <td colname="col2"> <p> JSON-objektet <span class="codeph"> Object </span> med lokaliseringsdata. </p> <p>Mer information finns i <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27" format="dita" scope="local"> Lokalisering av användargränssnittselement </a>. </p> <p>Mer information om objektets innehåll finns i <i>användarhandboken för SDK för visningsprogrammet</i> och i exemplet. </p> </td> 
   </tr> 
  </tbody> 
 </table>

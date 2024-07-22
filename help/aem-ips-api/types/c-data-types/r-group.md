@@ -22,7 +22,7 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| groupHandle | `xsd:string` | Gruppreferens. |
+| groupHandle | `xsd:string` | Grupphandtag. |
 | companyHandle | `xsd:string` | Företagshandtag. |
 | [!DNL name] | `xsd:string` | Gruppnamn. |
 | [!DNL is SystemDefined] | `xsd:string` | Anger om gruppen definieras av systemet. |

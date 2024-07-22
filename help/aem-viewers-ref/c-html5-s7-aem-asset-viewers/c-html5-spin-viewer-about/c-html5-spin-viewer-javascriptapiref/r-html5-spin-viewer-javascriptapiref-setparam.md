@@ -26,14 +26,14 @@ JavaScript API-referens för Spin Viewer.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> parametervärdet. Värdet kan inte vara procentkodat. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> parametervärde. Värdet kan inte vara procentkodat. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 Ställer in visningsparametern på ett angivet värde. Parametern är antingen ett visningsprogramspecifikt konfigurationsalternativ eller en programvaruutvecklingsmodifierare. Den här parametern anropas före `init()`.
 
-Den här metoden är valfri om visningsprogrammets konfigurationsinformation skickas med `config` JSON-objekt till konstruktorn.
+Den här metoden är valfri om visningsprogrammets konfigurationsinformation skickas med JSON-objektet `config` till konstruktorn.
 
 Se även [init](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae).
 

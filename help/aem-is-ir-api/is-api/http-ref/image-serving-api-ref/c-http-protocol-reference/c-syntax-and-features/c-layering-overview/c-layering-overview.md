@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Översikt över lager{#layering-overview}
 
-Med Image Serving kan du kombinera valfritt antal bild-, text- och heltäckande färglager till en sammansatt bild.
+Med Image Serving kan du kombinera valfritt antal bild-, text- och enfärgslager till en sammansatt bild.
 
 ## Se även {#section-9d47587692d94637af61de851f3d118f}
 

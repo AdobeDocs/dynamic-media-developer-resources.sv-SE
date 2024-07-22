@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 2f92d76e-3104-4ad8-9426-662275492251
 source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Följande CSS-klassväljare styr videospelarens utseende:
  </tbody> 
 </table>
 
-Det felmeddelande som visas om systemet inte kan spela upp videon kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) för mer information.
+Det felmeddelande som visas om systemet inte kan spela upp videon kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
 Exempel - Gör videospelaren genomskinlig:
 
@@ -47,7 +47,7 @@ Exempel - Gör videospelaren genomskinlig:
 }
 ```
 
-Bildtexter placeras i en intern behållare inuti videospelaren. Placeringen av behållaren styrs av WebVTT-positioneringsoperatorer som stöds. Själva bildtexten är inuti behållaren. stilen kontrolleras med följande CSS-klassväljare:
+Bildtexter placeras i en intern behållare inuti videospelaren. Placeringen av behållaren styrs av WebVTT-positioneringsoperatorer som stöds. Bildtexten finns inuti den behållaren. Formatet styrs med följande CSS-klassväljare:
 
 ```
 .s7mixedmediaviewer .s7videoplayer .s7caption

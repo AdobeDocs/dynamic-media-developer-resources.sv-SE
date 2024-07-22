@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Total strömbithastighet. Långt värde som representerar den totala strömbithastigheten för videoresursen.
 
-Används av `req=set` och `req=mbrSet`begäranden om att exportera bithastighetsdata.
+Används av `req=set`- och `req=mbrSet`-begäranden om att exportera bithastighetsdata.
 
 Gäller endast den statiska innehållskatalogen.
 

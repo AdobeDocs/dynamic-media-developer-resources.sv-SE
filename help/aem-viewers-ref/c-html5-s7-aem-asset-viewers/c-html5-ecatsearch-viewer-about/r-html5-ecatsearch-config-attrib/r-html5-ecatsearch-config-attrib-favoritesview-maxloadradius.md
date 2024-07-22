@@ -7,20 +7,20 @@ role: Developer,User
 exl-id: 440f147e-865c-4615-8d83-ea6431271612
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '58'
 ht-degree: 0%
 
 ---
 
 # FavoritesView.maxloadradius{#favoritesview-maxloadradius}
 
-[!DNL `[FavoritesView.|<containerId>_favoritesView.]maxloadradius=-1|0| *`preloadnbr`*`]
+[!DNL `[FavoritesView.|<containerId>_favoritesView.]maxloadradius=-1|0| *`förinläsare`*`]
 
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p> Anger beteende för komponentförinläsning. </p> <p>När inställt på <span class="codeph"> -1</span>, läses alla miniatyrbilder in samtidigt när komponenten initieras eller resursen ändras. </p> <p>När inställt på <span class="codeph"> 0</span>, läses bara synliga miniatyrbilder in. </p> <p> När inställt på <span class="codeph"><span class="varname"> preloadnbr</span></span>kan du ange hur många osynliga rader runt det synliga området som är förinlästa. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> förinläsare</span></span> </p> </td> 
+   <td colname="col2"> <p> Anger beteende för komponentförinläsning. </p> <p>När värdet är <span class="codeph"> -1</span> läses alla miniatyrbilder in samtidigt när komponenten initieras eller resursen ändras. </p> <p>Om värdet är <span class="codeph"> 0</span> läses endast synliga miniatyrbilder in. </p> <p> Om du anger <span class="codeph"><span class="varname"> förinläsare </span></span> kan du ange hur många osynliga rader runt det synliga området som ska förinläsas. </p> </td> 
   </tr> 
  </tbody> 
 </table>

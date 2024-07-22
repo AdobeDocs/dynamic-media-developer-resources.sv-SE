@@ -20,7 +20,7 @@ JavaScript API-referens för panoramavisningsprogrammet.
 
 Startar initieringen av panoramavisningsprogrammet. Vid den här tidpunkten måste behållar-DOM-elementet skapas så att visningsprogramkoden kan hitta det med dess ID.
 
-Om behållarelementet inte är en del av webbsideslayouten än (t.ex. kan det döljas med `display:none` format som tilldelats), kommer visningsprogrammet att avbryta sin initieringsprocess. Det gör det tills webbsidan återför behållarelementet till layouten. När den här händelsen inträffar återtas visningsprogrammet automatiskt.
+Om behållarelementet inte är en del av webbsideslayouten än (t.ex. kan det döljas med formatet `display:none` som tilldelats det) gör visningsprogrammet uppehåll i initieringsprocessen. Det gör det tills webbsidan återför behållarelementet till layouten. När den här händelsen inträffar återtas visningsprogrammet automatiskt.
 
 Den här metoden ska bara anropas en gång under visningsprogrammets livscykel, efterföljande anrop ignoreras.
 

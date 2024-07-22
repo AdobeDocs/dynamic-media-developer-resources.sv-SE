@@ -41,7 +41,7 @@ Syntax
 | companyHandle | `xsd:string` | Ja | Handtaget till företaget med den resurs du vill arbeta med. |
 | assetHandle | `xsd:string` | Ja | Referensen till resursen som du vill arbeta med. |
 | autoColorCropOptions | `types:AutoColorCropOptions` | Nej | Beräkna beskärningsrektangeln baserat på färg. Se [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6). |
-| autoTransparentCropOptions | `types:AutoTransparentCropOptions` | Nej | Beräkna beskärningsrektangeln baserat på genomskinlighet. Se [AutoTransparentBeskärningsalternativ](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b). |
+| autoTransparentCropOptions | `types:AutoTransparentCropOptions` | Nej | Beräkna beskärningsrektangeln baserat på genomskinlighet. Se [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b). |
 
 **Utdata (getAutoCropRectReturn)**
 
@@ -81,5 +81,4 @@ Syntax
 >[!MORELIKETHIS]
 >
 >* [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6)
->* [AutoTransparentBeskärningsalternativ](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)
-
+>* [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)

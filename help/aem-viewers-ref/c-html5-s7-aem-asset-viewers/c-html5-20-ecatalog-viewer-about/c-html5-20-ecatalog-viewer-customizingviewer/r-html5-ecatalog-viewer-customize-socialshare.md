@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: b65b8846-3287-47ae-bdb6-6cac768cece0
 source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Placeringen och storleken på verktyget för delning via sociala medier i visnin
    <td colname="col2"> <p> Förskjutningen från kontrollfältets överkant. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin=left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal=vänster </span> </p> </td> 
    <td colname="col2"> <p> Avståndet till nästa knapp till vänster eller till vänster om kontrollfältet om det är den första knappen på en rad. </p> </td> 
   </tr> 
   <tr> 
@@ -80,9 +80,9 @@ Utseendet på verktygsknappen för delning via sociala medier styrs av följande
 
 >[!NOTE]
 >
->Den här knappen har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen.
+>Den här knappen stöder attributväljaren `state` som kan användas för att tillämpa olika skal på olika knapplägen.
 
-Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - Så här ställer du in en knapp för verktyget för delning via sociala medier som visar olika bilder för de fyra olika knapplägena:
 
@@ -107,7 +107,7 @@ Utseendet på panelen som innehåller de enskilda ikonerna för social delning s
 .s7ecatalogviewer .s7socialshare .s7socialsharepanel
 ```
 
-**CSS-egenskaper för panelen för sociala medier**
+**CSS-egenskaper för panelen för social delning**
 
 <table id="table_86E777A5851F47D6A49D966E24A9A6CD"> 
  <tbody> 

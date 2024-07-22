@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: d1e2a3d4-ef1f-4d5e-be9c-eeec36f46603
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,6 @@ Visa dolda textramar med plustecken. En indikator för textspill visar när text
  </tr> 
 </table>
 
-Ange modifierare `markOverflowingTextFrames=1` via ett URL-anrop markerar alla textramar där texten är dold med ett plustecken. I Dynamic Media Classic-förhandsgranskning är dessutom indikatorn för dold text inställd på `TRUE`&quot; som standard.
+Om modifieraren `markOverflowingTextFrames=1` anges via ett URL-anrop markeras alla textramar där texten är dold med ett plustecken. I Dynamic Media Classic-förhandsgranskning är dessutom indikatorn för överskjutande text inställd på `TRUE` som standard.
 
 Standardvärdet är 0.

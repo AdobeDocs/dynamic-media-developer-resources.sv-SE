@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: d60f2b8c-5213-42ad-8ec9-7e7797d74e09
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Gäller inte kapslade/inbäddade begäranden.
 
 ## Standard {#section-1935781c561e4679aa87a5bcced8df90}
 
-Ärvs från `default::DefaultPix` om den inte är definierad eller om den är tom.
+Ärvs från `default::DefaultPix` om inte definierad eller om tom.
 
 ## Se även {#section-d28f18d29ef14692b8706ca08e754f54}
 

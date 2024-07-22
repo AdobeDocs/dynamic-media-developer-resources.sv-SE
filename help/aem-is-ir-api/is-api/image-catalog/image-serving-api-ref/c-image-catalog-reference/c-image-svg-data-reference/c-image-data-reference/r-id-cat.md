@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # ID {#id}
 
-Indexnyckelvärdet som används för att söka efter poster i bilddatafilen av [!DNL Platform Server].
+Indexnyckelvärde som poster i bilddatafilen slås upp med [!DNL Platform Server].
 
 Vanligtvis är det en kort och unik bildidentifierare, till exempel ett SKU-nummer, eventuellt med någon typ av bildsuffix, om en SKU har flera bilder. Kan också vara en mer komplex sträng som ser mer ut som en filsökväg, som har stöd för enkel återanpassning av webbplatser med Image Serving.
 

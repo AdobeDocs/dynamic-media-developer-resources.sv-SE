@@ -1,5 +1,5 @@
 ---
-description: Bildschemadata. Ingen eller mer fullständig HTML <area> -element, sorterade framifrån och bakåt.
+description: Bildschemadata. Inget eller flera fullständiga HTML <AREA>-element, sorterade framifrån och bakåt.
 solution: Experience Manager
 title: Karta
 feature: Dynamic Media Classic,SDK/API
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # Karta{#map}
 
-Bildschemadata. Ingen eller mer fullständig HTML `<AREA>` -element, sorterade framifrån och bakåt.
+Bildschemadata. Inga eller fler fullständiga `<AREA>`-element i HTML, sorterade framifrån och bakåt.
 
-Servern tolkar och kan ändra attributen SHAPE och COORDS (SHAPE=CIRCLE stöds inte i den här versionen). Alla andra attribut för `<AREA>` skickas igenom utan ändringar. Koordinatvärden som anges med COORDS-attributet måste vara pixelförskjutningar från det övre vänstra hörnet i den oförändrade källbilden. (`%` koordinaterna stöds inte i den här versionen och kan inte behandlas korrekt.)
+Servern tolkar och kan ändra attributen SHAPE och COORDS (SHAPE=CIRCLE stöds inte i den här versionen). Alla andra attribut för `<AREA>` skickas igenom utan ändring. Koordinatvärden som anges med COORDS-attributet måste vara pixelförskjutningar från det övre vänstra hörnet i den oförändrade källbilden. (`%` koordinater stöds inte i den här versionen och kanske inte bearbetas korrekt.)
 
 ## Egenskaper {#section-f52d89fd399b4356ac05277e6c12f956}
 
-Textsträngsvärde. Om det anges måste det vara ett eller flera fullständiga HTML `<AREA>` -element.
+Textsträngsvärde. Om det anges måste det vara ett eller flera fullständiga HTML `<AREA>`-element.
 
-Det här fältet deltar i textsträngslokalisering. Se [Lokalisering av textsträng](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) i *HTTP-protokollreferens* för mer information.
+Det här fältet deltar i textsträngslokalisering. Mer information finns i [Lokalisering av textsträng](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) i *HTTP-protokollreferens*.
 
 ## Standard {#section-30c7f88929f54f7ba852c5c6c5e2c70b}
 

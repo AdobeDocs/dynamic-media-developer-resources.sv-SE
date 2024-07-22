@@ -18,7 +18,7 @@ Skapar ett bildformat.
 
 >[!NOTE]
 >
->The `urlModifier` fältvärdet måste bestå av giltig XML. Ändra till exempel `&` till `&`. Skaffa `urlModfier` från IPS-användargränssnittet.
+>Fältvärdet `urlModifier` måste bestå av giltig XML. Ändra till exempel `&` till `&`. Hämta värdet `urlModfier` från IPS-användargränssnittet.
 
 ## Auktoriserade användartyper {#section-12c9d8d5933f4692bafb194060b4f882}
 
@@ -46,7 +46,7 @@ Skapar ett bildformat.
 
 ## Exempel {#section-c7bd733212ef494297a97093f3af193f}
 
-I det här kodexemplet skapas ett bildformat. I det här exemplet `urlModifier` har bestämts av dess värde i IPS-användargränssnittet med ett giltigt HTML-format.
+I det här kodexemplet skapas ett bildformat. I det här exemplet bestämdes `urlModifier` av dess värde i IPS-användargränssnittet med ett giltigt HTML-format.
 
 **Begäran**
 

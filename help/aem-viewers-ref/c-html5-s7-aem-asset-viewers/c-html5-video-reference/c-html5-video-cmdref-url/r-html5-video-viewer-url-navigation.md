@@ -23,7 +23,7 @@ Visningsprogrammet har stöd för kapitelnavigering via WebVTT-filer på webben.
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fil</span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fil </span> </span> </p> </td> 
    <td colname="col2"> <p> Anger en URL eller sökväg till WebVTT-navigeringsinnehåll. Image Serving bör vara värd för WebVTT-filen. </p> </td> 
   </tr> 
  </tbody> 

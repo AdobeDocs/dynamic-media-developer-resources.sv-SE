@@ -34,27 +34,27 @@ Värdena är:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> typeHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> typeHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Typhandtag. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3">Företagshandtag. <p>Obs! Typen är global om företagsreferensen inte finns. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Typnamn. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> propertyType</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
-   <td colname="col3">En av egenskapsuppsättningstyperna. Se indata (<span class="codeph"> createPropertySetTypeParam</span>). </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> propertyType </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3">En egenskapsuppsättningstyp. Se Indata (<span class="codeph"> createPropertySetTypeParam</span>). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> allowMultiple</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> allowMultiple </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolesk</span> </td> 
    <td colname="col3"> Anger om flera egenskapsuppsättningsinstanser ska kunna kopplas till ett objekt för den här typen. </td> 
   </tr> 

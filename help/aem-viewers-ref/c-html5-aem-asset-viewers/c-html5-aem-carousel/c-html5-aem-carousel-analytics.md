@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Som standard skickar visningsprogrammet en enda HTTP-begäran för spårning till konfigurerad Image Server med information om visningsprogramtyp och version.
 
-För att kunna integreras med analyssystem från tredje part måste man lyssna på `trackEvent` återanrop till visningsprogrammet och bearbeta `eventInfo` vid behov callback-funktionens argument. Följande kod är ett exempel på en sådan hanterarfunktion:
+Om du vill integrera med analyssystem från tredje part måste du lyssna på `trackEvent`-visningsåteranropet och bearbeta `eventInfo`-argumentet för återanropsfunktionen efter behov. Följande kod är ett exempel på en sådan hanterarfunktion:
 
 ```java {.line-numbers}
 var carouselViewer = new s7viewers.CarouselViewer({ 
@@ -53,7 +53,7 @@ Visningsprogrammet spårar följande SDK-användarhändelser:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LADDA </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LÄS IN </span> </p> </td> 
    <td colname="col2"> <p>visningsprogrammet först läses in. </p> </td> 
   </tr> 
   <tr> 

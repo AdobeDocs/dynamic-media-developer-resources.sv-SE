@@ -39,19 +39,19 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Företagshandtag. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Fälthandtag för tagg. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> updateArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> updateArray </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:TagValueUpdateArray</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4">Array med taggfältsvärden som du vill uppdatera. <p>Obs! Uppdaterar endast strängvärden för taggar. Påverkar inte resursassociationer. </p> </td> 

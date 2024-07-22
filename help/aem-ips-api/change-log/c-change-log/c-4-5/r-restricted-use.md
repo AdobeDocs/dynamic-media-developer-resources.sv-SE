@@ -35,7 +35,7 @@ Dessa åtgärder och typer kan inaktiveras, ändras eller tas bort vid efterföl
 * applyMetadataTemplate
 * batchGetAssetPublishConTexts
 * createCompanyMetadata
-* deleteCompanyMetadata
+* deleteCompanymetadata
 * getCompanyMetadata
 * getPublishConTexts
 * listCompanyMetadata
@@ -52,57 +52,57 @@ Dessa åtgärder och typer kan inaktiveras, ändras eller tas bort vid efterföl
 
 **Ändrade typer**
 
-* Ändrad `ActiveJob` att inkludera `createVideoSitemapJob` type
+* `ActiveJob` har ändrats så att den innehåller en `createVideoSitemapJob`-typ
 
-* Ändrad `ScheduledJob` att inkludera `createVideoSitemapJob` type
+* `ScheduledJob` har ändrats så att den innehåller en `createVideoSitemapJob`-typ
 
-* Ändrad `ImageServingPublishJob` att inkludera `contextHandle`
+* `ImageServingPublishJob` har ändrats så att den innehåller ett valfritt `contextHandle`
 
-* Ändrad `ImageRenderingPublishJob` att inkludera `contextHandle`
+* `ImageRenderingPublishJob` har ändrats så att den innehåller ett valfritt `contextHandle`
 
-* Ändrad `MetadataField` att inkludera `initialTagField`
+* `MetadataField` har ändrats så att den innehåller ett valfritt `initialTagField`
 
-* Ändrad `MetadataCondition` att inkludera och valfritt `caseSensitive` parameter
+* `MetadataCondition` har ändrats till inkluderings- och valfri `caseSensitive`-parameter
 
-* Ändrad `PropertySet` att inkludera `PermissionArray` as `permissions`
+* `PropertySet` har ändrats så att den innehåller ett valfritt `PermissionArray` som `permissions`
 
-* Ändrad `UploadDirectoryJob` inkluderar valfritt `xmpKeywords`, `xmpTemplateId` och `xmpTemplateOverride` parameters
+* `UploadDirectoryJob` har ändrats så att den innehåller valfria parametrar för `xmpKeywords`, `xmpTemplateId` och `xmpTemplateOverride`
 
-* Ändrad `VideoPublishJob` att inkludera `contextHandle`
+* `VideoPublishJob` har ändrats så att den innehåller ett valfritt `contextHandle`
 
 **Ändrade åtgärder**
 
-* Ändrad `createAssetSet` att inkludera `thumbAssetHandle`
+* `createAssetSet` har ändrats så att den innehåller ett valfritt `thumbAssetHandle`
 
-* Ändrad `createImageSet` att inkludera `thumbAssetHandle`
+* `createImageSet` har ändrats så att den innehåller ett valfritt `thumbAssetHandle`
 
-* Ändrad `createMetadataField` att inkludera `initialTagValue` parameter
+* `createMetadataField` har ändrats så att den innehåller en valfri `initialTagValue`-parameter
 
-* Ändrad `createPropertySet` att inkludera `PermissionUpdateArray` as `permissionArray`
+* `createPropertySet` har ändrats så att den innehåller ett valfritt `PermissionUpdateArray` som `permissionArray`
 
-* Ändrad `getImageServingPublishSettings` att inkludera `contextHandle` parameter
+* `getImageServingPublishSettings` har ändrats så att den innehåller en valfri `contextHandle`-parameter
 
-* Ändrad `getImageRenderingPublishSettings` att inkludera `contextHandle` parameter
+* `getImageRenderingPublishSettings` har ändrats så att den innehåller en valfri `contextHandle`-parameter
 
-* Ändrad `searchAssetsByFullText` att inkludera en serie valfria parametrar:
+* `searchAssetsByFullText` har ändrats så att den innehåller en serie valfria parametrar:
 
-   * `SearchFilter` as `filters` parameter
-
-   * `sortBy`
-   * `sortDirection`
-
-* Ändrad `searchAssetsByMetadata` att inkludera en serie valfria parametrar:
-
-   * `SearchFilter` as `filters` parameter
+   * `SearchFilter` som `filters`-parameter
 
    * `sortBy`
    * `sortDirection`
-   * `haystackSearch` sekvens med sju parametrar
 
-* Ändrad `setAssetPublishState` att inkludera `HandleArray` as `contextHandleArray`
+* `searchAssetsByMetadata` har ändrats så att den innehåller en serie valfria parametrar:
 
-* Ändrad `setImageServingPublishSettings` att inkludera `contextHandle` parameter
+   * `SearchFilter` som `filters`-parameter
 
-* Ändrad `setImageRenderingPublishSettings` att inkludera `contextHandle`parameter
+   * `sortBy`
+   * `sortDirection`
+   * `haystackSearch` sekvens av sju parametrar
 
-* Ändrad `submitJob` att inkludera `createVideoSitemap` jobbtyp
+* `setAssetPublishState` har ändrats så att den innehåller ett valfritt `HandleArray` som `contextHandleArray`
+
+* `setImageServingPublishSettings` har ändrats så att den innehåller en valfri `contextHandle`-parameter
+
+* `setImageRenderingPublishSettings` har ändrats så att den innehåller en valfri `contextHandle`parameter
+
+* `submitJob` har ändrats så att den innehåller en valfri jobbtyp för `createVideoSitemap`

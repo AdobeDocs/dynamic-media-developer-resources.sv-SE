@@ -1,6 +1,6 @@
 ---
 title: dispose
-description: JavaScript API-referens för blandad Media Viewer.
+description: JavaScript API-referens för visningsprogrammet för blandade media.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # dispose{#dispose}
 
-JavaScript API-referens för blandad Media Viewer.
+JavaScript API-referens för visningsprogrammet för blandade media.
 
 `dispose()`
 
@@ -22,9 +22,9 @@ Disponerar den här visningsprograminstansen genom att frigöra alla resurser so
 
 Webbsideskoden bör även ta bort variabeln för visningsprograminstansen så att den helt tar bort visningsprogrammet från webbläsarminnet.
 
-Om webbsideskoden har registrerade händelseavlyssnare direkt i Viewer SDK-komponenter som används av visningsprogrammet - eller lagrade externa referenser till sådana komponenter - måste sådana avlyssnare uttryckligen avregistreras av webbsideskoden. Sådana externa komponentreferenser måste tas bort innan anrop görs `dispose()`.
+Om webbsideskoden har registrerade händelseavlyssnare direkt i Viewer SDK-komponenter som används av visningsprogrammet - eller lagrade externa referenser till sådana komponenter - måste sådana avlyssnare uttryckligen avregistreras av webbsideskoden. Sådana externa komponentreferenser måste tas bort innan `dispose()` anropas.
 
-Åtkomst inte längre till visningsprogrammets API efter `dispose()` anropas.
+Åtkomst inte längre till visningsprogrammets API efter att `dispose()` har anropats.
 
 ## Parametrar {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 

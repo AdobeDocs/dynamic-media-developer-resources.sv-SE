@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Lagertext (Adobe Photoshop-kompatibel). Anger textinnehållet för ett textlager.
 
-`textPs= *`string`*`
+`textPs= *`sträng`*`
 
 <table id="simpletable_4E2D08FD4EEC4EDC9EFE9F6F2E22DB0C"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"><span class="varname"> string</span> </span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"><span class="varname"> sträng </span> </span> </p> </td> 
   <td class="stentry"> <p>RTF-sträng (Rich-text formatted). </p></td> 
  </tr> 
 </table>
@@ -29,11 +29,11 @@ Alla inställningar för teckensnitt, teckenfärg och styckeformatering görs me
 
 Se [Textformatering](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md#concept-0d3136db7f6f49668274541cd4b6364c).
 
-`textPs=` har stöd för utökade funktioner, t.ex. justering, som flödning av text till icke-rektangulära områden som definierats med `textFlowPath=` och/eller `textFlowXPath=`och återgivning av text längs godtyckliga banor som definierats med `textPath=`.
+`textPs=` har stöd för utökade funktioner, till exempel justering, textflöde till icke-rektangulära områden som definierats med `textFlowPath=` och/eller `textFlowXPath=` samt återgivning av text längs godtyckliga banor som definierats med `textPath=`.
 
 ## Egenskaper {#section-a289dc26b6534b41998b1e241d5f2f92}
 
-Lagerattribut. Gäller för `layer=0` if `layer=comp`. Ömsesidigt exklusiv med `src=` och `text=` i samma lager. Den sista förekomsten av `text=`, `textPs=`och `src=` styr och avgör om det här är en bild eller ett textlager. Ignoreras av effektlager.
+Lagerattribut. Gäller för `layer=0` om `layer=comp`. Mutuellt exklusiv för `src=` och `text=` i samma lager. Den sista förekomsten av `text=`, `textPs=` och `src=` gäller och avgör om det här är en bild eller ett textlager. Ignoreras av effektlager.
 
 ## Standard {#section-11c2ae2c96d64a0a9c207252df663e4d}
 

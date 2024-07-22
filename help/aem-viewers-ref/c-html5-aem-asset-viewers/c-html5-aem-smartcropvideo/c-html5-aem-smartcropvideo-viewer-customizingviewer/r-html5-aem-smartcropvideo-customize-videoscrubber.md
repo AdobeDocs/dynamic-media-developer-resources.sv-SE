@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 9f7e3fec-8303-4114-86b2-fb75d041701d
 source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
@@ -28,12 +28,12 @@ Videonavigeringens allmänna utseende styrs med följande CSS-klassväljare:
 .s7smartcropvideoviewer .s7videoscrubber .s7knob
 ```
 
-**CSS-egenskaper för videonavigeringslisten**
+**CSS-egenskaper för videonavigeringsprogrammet**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p>Placera från den övre kanten, inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
@@ -59,7 +59,7 @@ Följande CSS-klassväljare spårar indikatorerna för bakgrund, uppspelning och
 .s7smartcropvideoviewer .s7videoscrubber .s7trackplayed
 ```
 
-**Spårets CSS-egenskaper**
+**CSS-egenskaper för spåret**
 
 <table id="table_46903DCACF314426B67783167ADF7715"> 
  <tbody> 
@@ -85,7 +85,7 @@ Följande CSS-klassväljare styr ratten:
 <table id="table_966826FB81114362A8D81D1EED38D512"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p>Lodrät rattförskjutning. </p> </td> 
   </tr> 
   <tr> 
@@ -113,7 +113,7 @@ Följande CSS-klassväljare styr den tid som spelas upp:
 .s7smartcropvideoviewer .s7videoscrubber .s7videotime
 ```
 
-**CSS-egenskaper för den tid som spelas upp**
+**CSS-egenskaper för bubblan för uppspelning**
 
 <table id="table_21E9AD3FBC8C4437BA02E5CD1BF7E831"> 
  <tbody> 
@@ -156,7 +156,7 @@ Följande CSS-klassväljare styr den tid som spelas upp:
  </tbody> 
 </table>
 
-Verktygstipset för videospolning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) för mer information.
+Verktygstipset för videospolning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad).
 
 **Exempel** - Om du vill ställa in ett videovisningsprogram med en videonavigeringsruta med anpassade spårfärger som är tio pixlar höga. Och slutligen, ha den placerad 10 och 35 pixlar från kontrollfältets övre och vänstra kant.
 

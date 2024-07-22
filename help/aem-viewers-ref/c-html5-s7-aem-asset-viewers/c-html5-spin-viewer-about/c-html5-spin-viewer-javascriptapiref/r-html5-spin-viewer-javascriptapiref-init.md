@@ -18,11 +18,11 @@ JavaScript API-referens för Spin Viewer.
 
 `init()`
 
-Startar initieringen av Spin Viewer. Vid den här tidpunkten `DOM` måste skapas så att visningsprogramkoden kan hitta det med dess ID.
+Startar initieringen av Spin Viewer. Behållarelementet `DOM` måste skapas nu så att visningsprogramkoden kan hitta det med dess ID.
 
-Om behållarelementet inte är en del av webbsideslayouten än, kan det till exempel döljas med `display:none` style - visningsprogrammet avbryter initieringsprocessen. Den pausas tills webbsidan återför behållarelementet till layouten, då visningsprogrammet automatiskt laddas igen.
+Om behållarelementet inte är en del av webbsideslayouten än - till exempel kan det vara dolt med formatet `display:none` - gör visningsprogrammet uppehåll i initieringsprocessen. Den pausas tills webbsidan återför behållarelementet till layouten, då visningsprogrammet automatiskt laddas igen.
 
-Anropa denna metod endast en gång under tittarens livscykel. efterföljande anrop ignoreras.
+Anropa den här metoden endast en gång under visningsprogrammets livscykel. Efterföljande anrop ignoreras.
 
 ## Parametrar {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 

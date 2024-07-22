@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 89701a15-a0b6-460d-b0c1-5e25f3305380
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '42'
+source-wordcount: '43'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Skalförändra bilden. Skalar en bild utifrån faktor i förhållande till den h
 
 <table id="simpletable_AC0974B79E064BA99C1F76461BDE808A"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> faktor</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> faktor </span></span> </p> </td> 
   <td class="stentry"> <p>Skalfaktor (verklig, &gt;0). </p></td> 
  </tr> 
 </table>

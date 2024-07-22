@@ -1,5 +1,5 @@
 ---
-description: Cachekontroll. Möjliggör selektiv inaktivering av cachelagring på klientsidan (webbläsare, proxyservrar, nätverkscachningssystem) och cachelagring på den interna [!DNL Platform Server] cache.
+description: Cachekontroll. Tillåter selektiv inaktivering av cachelagring på klientsidan (webbläsare, proxyservrar, nätverkscachningssystem) och cachelagring i det interna  [!DNL Platform Server] cacheminnet.
 solution: Experience Manager
 title: cache
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # cache{#cache}
 
-Cachekontroll. Möjliggör selektiv inaktivering av cachelagring på klientsidan (webbläsare, proxyservrar, nätverkscachningssystem) och cachelagring på den interna [!DNL Platform Server] cache.
+Cachekontroll. Tillåter selektiv inaktivering av cachelagring på klientsidan (webbläsare, proxyservrar, nätverkscachningssystem) och cachelagring i det interna [!DNL Platform Server]-cachen.
 
 `&cache= *`cacheControl`*`
 
@@ -22,20 +22,20 @@ Cachekontroll. Möjliggör selektiv inaktivering av cachelagring på klientsidan
 
 <table id="simpletable_DA4D92F0AEF84FD49953876796058B7F"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> cacheControl</span></span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph"> on|off</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> cacheControl </span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> på|av</span> </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> clientControl</span></span> </p></td> 
-  <td class="stentry"> <p><span class="codeph"> on|off</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> clientControl </span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> på|av</span> </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> serverControl</span></span> </p></td> 
-  <td class="stentry"> <p><span class="codeph"> on|off</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> serverControl </span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> på|av</span> </p></td> 
  </tr> 
 </table>
 
-Om bara en *`cacheControl`* -värdet anges, det används både på klient- och servercacheminnen.
+Om bara ett *`cacheControl`*-värde anges används det på både klient- och servercachen.
 
 Begär attribut. Ignoreras när begäran inte returnerar en svarsbild. *`clientControl`* ignoreras när cachelagring på klientsidan inaktiveras av bildkatalogen (om `catalog::Expiration` har ett negativt värde).
 

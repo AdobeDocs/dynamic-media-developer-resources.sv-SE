@@ -1,6 +1,6 @@
 ---
 title: OnFailObj
-description: Felhantering av objektmarkeringsfel. Anger vilken åtgärd som ska vidtas om kommandot obj= misslyckas eftersom den angivna sökvägen inte kan matchas i vinjettobjektshierarkin.
+description: Felhantering av objektval. Anger vilken åtgärd som ska vidtas om kommandot obj= misslyckas eftersom den angivna sökvägen inte kan matchas i vinjettobjektshierarkin.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # OnFailObj{#onfailobj}
 
-Felhantering av objektmarkeringsfel. Anger vilken åtgärd som ska vidtas om kommandot obj= misslyckas eftersom den angivna sökvägen inte kan matchas i vinjettobjektshierarkin.
+Felhantering av objektval. Anger vilken åtgärd som ska vidtas om kommandot obj= misslyckas eftersom den angivna sökvägen inte kan matchas i vinjettobjektshierarkin.
 
 ## Egenskaper {#section-2c779d9c133a443d9f0aed9fde7b703c}
 
@@ -23,7 +23,7 @@ Enum.
 <table id="simpletable_538B76AB784D4DEE9B8021A6BDCE06AB"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p> </td> 
-  <td class="stentry"> <p>Ärv från <span class="codeph"> default::OnFailObj </span>. </p> </td> 
+  <td class="stentry"> <p>Ärv från <span class="codeph"> som standard::OnFailObj </span>. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p> </td> 
@@ -31,7 +31,7 @@ Enum.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
-  <td class="stentry"> <p>Avmarkera; Alla försök att använda material eller visa/dölja objekt ignoreras. </p> </td> 
+  <td class="stentry"> <p>Avmarkera. Alla försök att använda material eller visa/dölja objekt ignoreras. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 

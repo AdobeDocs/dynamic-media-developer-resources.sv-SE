@@ -33,4 +33,4 @@ kommandot Lager. Gäller det aktuella lagret eller den sammansatta bilden om `la
 
 ## Standard {#section-7314580251f5456fa1f381ec9e99e0bb}
 
-`op_hue=0`, utan att nyansen ändras.
+`op_hue=0`, om du inte vill ändra nyansen.

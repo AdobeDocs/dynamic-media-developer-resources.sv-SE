@@ -20,16 +20,16 @@ Bilduppsättning. Anger ett bilduppsättningsvärde som ska användas när req=s
 
 <table id="simpletable_F697691D166C407D82233664814F4663"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> val</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> val </span></span> </p> </td> 
   <td class="stentry"> <p>Bilduppsättningssträng. </p></td> 
  </tr> 
 </table>
 
-Om du vill undvika värdet och se till att inkluderade modifierare inte tolkas som en del av URL-frågesträngen, ska hela värdet omslutas av klammerparenteser. Om katalogposten anges i nätsökvägen åsidosätts det här modifieringsvärdet `catalog::ImageSet` från huvudposten. En beskrivning av giltig bilduppsättningssyntax finns i `catalog::ImageSet` dokumentation.
+Om du vill undvika värdet och se till att inkluderade modifierare inte tolkas som en del av URL-frågesträngen, ska hela värdet omslutas av klammerparenteser. Om katalogposten anges i nätsökvägen åsidosätter det här modifieringsvärdet `catalog::ImageSet` från huvudposten. En beskrivning av giltig syntax för bilduppsättning finns i dokumentationen för `catalog::ImageSet`.
 
 ## Egenskaper {#section-66e7bb7bf4664cbcac6f7ebb2f0d3a4f}
 
-Begär attribut. Valfritt. Åsidosättningar `catalog::ImageSet` från huvudposten.
+Begär attribut. Valfritt. Åsidosätter `catalog::ImageSet` från huvudposten.
 
 ## Standard {#section-e8622ff40408450fb79d028f8d37fa6b}
 
@@ -37,7 +37,7 @@ Ingen.
 
 ## Exempel {#section-68513d3c601f477399602a0741dab390}
 
-Ange bilduppsättning som ska användas med `req=set` begäran:
+Ange bilduppsättning som ska användas med `req=set`-begäran:
 
 `http://server/myRootId?imageSet={asset1,asset2,asset3}&req=set`
 

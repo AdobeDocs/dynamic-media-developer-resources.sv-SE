@@ -38,7 +38,7 @@ Detta är batchversionen av [setAssetState](../../../operations/c-operations-int
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Företagshandtag. |
-| publishStateUpdateArray | `types:PublishStateUpdateArray` | Ja | Array med publiceringsstatusvärden för resurserna. |
+| publishStateUpdateArray | `types:PublishStateUpdateArray` | Ja | Array med publiceringslägesvärden för resurserna. |
 
 **Utdata (setAssetsPublishStateParam)**
 

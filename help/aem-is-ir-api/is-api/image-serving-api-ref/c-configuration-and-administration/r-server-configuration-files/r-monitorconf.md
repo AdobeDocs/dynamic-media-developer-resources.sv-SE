@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: 09c30680-dd9f-4744-b5ec-105721058883
 source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Innehåller inställningar för övervaknings-/varningssystemet.
 
-Filen är en JAVA-egenskapsfil. Det är viktigt att följa tillämpliga konventioner. annars [!DNL Platform Server] kanske inte kan starta. Observera särskilt att ett dubbelt omvänt snedstreck (\\) eller ett enkelt snedstreck (/) måste användas i stället för ett omvänt snedstreck (\) i Windows-filsökvägar, eftersom det omvända snedstrecket används som ett escape-tecken i den här filtypen.
+Filen är en JAVA-egenskapsfil. Du måste iaktta försiktighet för att följa lämpliga konventioner. Annars kanske [!DNL Platform Server] inte kan startas. Observera särskilt att ett dubbelt omvänt snedstreck (\\) eller ett enkelt snedstreck (/) måste användas i stället för ett omvänt snedstreck (\) i Windows-filsökvägar, eftersom det omvända snedstrecket används som ett escape-tecken i den här filtypen.
 
 Ändringarna i den här filen börjar gälla kort efter att filen har sparats.
 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: a77b71c3-8600-4d7a-ba52-e158cf9668eb
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -25,23 +25,23 @@ Svarets bildbredd. Anger skalningen av den återgivna bilden så att svarsbilden
  </tr> 
 </table>
 
-Bilden läggs inte till om båda `wid=` och `hei=` anges och `wid`/ `hei` skiljer sig från bildens proportioner.
+Bilden läggs inte till om både `wid=` och `hei=` har angetts och `wid`/ `hei` skiljer sig från bildens proportioner.
 
-`wid=` och `hei=` arbeta tillsammans för att definiera storleken på bilden som returneras av servern. If `scl=` kommer efter `wid=` eller `hei=` i URL:en avbryts dessa kommandon och `scl=` definierar storleken på bilden som returneras av servern.
+`wid=` och `hei=` fungerar tillsammans för att definiera storleken på bilden som returneras av servern. Om `scl=` kommer efter `wid=` eller `hei=` i URL:en avbryts dessa kommandon och storleken på bilden som returneras av servern definieras i `scl=` .
 
-Om `wid=` eller `hei=` kommer efter `scl=` i URL:en avbryts de `scl=` och `wid=`/ `hei=` Definiera storleken på den bild som servern returnerar.
+Men om `wid=` eller `hei=` kommer efter `scl=` i URL:en avbryts `scl=` och `wid=`/ `hei=` definierar storleken på bilden som returneras av servern.
 
 >[!NOTE]
 >
->Ett fel returneras om den beräknade eller standardinställda svarsbilden är större än `attribute::MaxPix`.
+>Ett fel returneras om den beräknade eller standardinställda svarsbildstorleken är större än `attribute::MaxPix`.
 
 ## Egenskaper {#section-2d067c6d371748e19cb157684700a49d}
 
-Kan inträffa var som helst i begäran. Ändra storlek på bilden med `wid=`, `hei=`, eller `scl=` ändrar inte utskriftsupplösningsvärdet som är inbäddat i svarsbilden. Ignoreras om `scl=` inträffar efter `wid=` eller `hei=` i kommandosekvensen.
+Kan inträffa var som helst i begäran. Om du ändrar storlek på bilden med `wid=`, `hei=` eller `scl=` ändras inte utskriftsupplösningsvärdet som är inbäddat i svarsbilden. Ignoreras om `scl=` inträffar efter `wid=` eller `hei=` i kommandosekvensen.
 
 ## Standard {#section-c7c6efa03d864592a3398b6f1de5a0b0}
 
-If `wid=`, `hei=`, eller `scl=` har inte angetts, skalas svarsbilden så att den passar i den storlek som definieras av `attribute::DefaultPix`. If `attribute::DefaultPix` är tom har svarsbilden samma storlek som vinjettens visningsbild.
+Om `wid=`, `hei=` eller `scl=` inte anges skalas svarsbilden så att den passar i den storlek som definieras av `attribute::DefaultPix`. Om `attribute::DefaultPix` är tom har svarsbilden samma storlek som vinjettens visningsbild.
 
 ## Se även {#section-450dfc12b1d440e2a3172a69d91db51f}
 

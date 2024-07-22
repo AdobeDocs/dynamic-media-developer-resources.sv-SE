@@ -23,7 +23,7 @@ Interaktiva data associerar vissa tidsregioner i videoinnehållet med produktdat
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fil</span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fil </span> </span> </p> </td> 
    <td colname="col2"> <p> Anger en URL eller sökväg till interaktivt WebVTT-datainnehåll. WebVTT-filen måste hanteras av Image Serving. </p> </td> 
   </tr> 
  </tbody> 

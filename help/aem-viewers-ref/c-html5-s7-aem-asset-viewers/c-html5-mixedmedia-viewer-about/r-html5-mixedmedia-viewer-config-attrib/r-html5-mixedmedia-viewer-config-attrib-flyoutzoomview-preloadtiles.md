@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 041df5c7-9391-4dde-8988-a83272c7c438
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 1%
+source-wordcount: '63'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Ange till <span class="codeph"> 1</span> för att aktivera förinläsning av den zoomade bilden. </p> <p>Ange till <span class="codeph"> 0</span> om du vill läsa in zoombilden stegvis, efter behov. </p> <p> <p>Om du aktiverar det här alternativet kan det leda till betydligt högre bandbreddsanvändning eftersom den zoomade bilden måste läsas in i sin helhet, även om användaren inte gör något för att zooma. </p> </p> </td> 
+   <td colname="col2"> <p> Ange <span class="codeph"> 1</span> om du vill aktivera förinläsning av den zoomade bilden. </p> <p>Ange <span class="codeph"> 0</span> om du vill läsa in zoombilden stegvis efter behov. </p> <p> <p>Om du aktiverar det här alternativet kan det leda till betydligt högre bandbreddsanvändning eftersom den zoomade bilden måste läsas in i sin helhet, även om användaren inte gör något för att zooma. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

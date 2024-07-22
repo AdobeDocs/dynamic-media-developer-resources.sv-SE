@@ -22,4 +22,4 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| objekt | `types:MetadataCondition` | Arrayen med metadatavillkor. |
+| objekt | `types:MetadataCondition` | Matrisen med metadatavillkor. |

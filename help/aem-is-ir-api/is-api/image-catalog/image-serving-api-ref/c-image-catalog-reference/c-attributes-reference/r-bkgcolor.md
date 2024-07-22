@@ -22,7 +22,7 @@ Färg.
 
 ## Standard {#section-9c2c5794b82a4ef89a09551f08d03dbc}
 
-Ärvs från `default::BkgColor` om den inte är definierad eller om den är tom.
+Ärvs från `default::BkgColor` om inte definierad eller om tom.
 
 ## Se även {#section-90967e515a0d46bd8a9361fd49fc43cf}
 

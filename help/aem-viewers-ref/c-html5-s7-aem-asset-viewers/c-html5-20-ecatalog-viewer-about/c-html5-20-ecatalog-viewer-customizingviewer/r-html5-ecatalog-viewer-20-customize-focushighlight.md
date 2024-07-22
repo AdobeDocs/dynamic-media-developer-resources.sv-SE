@@ -24,7 +24,7 @@ Fokusmarkeringens utseende styrs med följande CSS-klassväljare:
 .s7ecatalogviewer *:focus
 ```
 
-**CSS-egenskaper för fokusmarkeringen**
+**CSS-egenskaper för fokus**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 

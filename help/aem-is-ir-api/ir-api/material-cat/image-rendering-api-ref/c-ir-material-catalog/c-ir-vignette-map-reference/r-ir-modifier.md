@@ -1,5 +1,5 @@
 ---
-description: Begär modifieringssträng. Inga eller flera kommandon för bildåtergivning avgränsade med "&"-tecken. Används för att lagra mallar och modifierare som ska användas varje gång en begäran om den här vinjettmappningsposten görs.
+description: Begäranmodifieringssträng. Inga eller flera kommandon för bildåtergivning avgränsade med "&"-tecken. Används för att lagra mallar och modifierare som ska användas varje gång en begäran om den här vinjettmappningsposten görs.
 solution: Experience Manager
 title: Modifierare
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Modifierare{#modifier}
 
-Begär modifieringssträng. Inga eller flera kommandon för bildåtergivning avgränsade med &quot;&amp;&quot;-tecken. Används för att lagra mallar och modifierare som ska användas varje gång en begäran om den här vinjettmappningsposten görs.
+Begäranmodifieringssträng. Inga eller flera kommandon för bildåtergivning avgränsade med &quot;&amp;&quot;-tecken. Används för att lagra mallar och modifierare som ska användas varje gång en begäran om den här vinjettmappningsposten görs.
 
 Kommandon i det här fältet åsidosätts av samma kommandon i den begäran eller mall som posten refereras till från.
 

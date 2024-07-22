@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 1052e14d-2906-4be5-a13c-f5f34cd46d89
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '57'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ URL-prefix för Flash Streaming Server. URL-prefix för Flash Streaming Server s
 
 ## Egenskaper {#section-e7ae7d96a7cb40829de7e784fcbbad33}
 
-Sträng som representerar URL-prefixet. Till exempel: `http://my.server.com/flash/streaming`.
+Sträng som representerar URL-prefixet. Exempel: `http://my.server.com/flash/streaming`.
 
 ## Standard {#section-ee332f7842d24155a91ac18fbfb6fc0c}
 

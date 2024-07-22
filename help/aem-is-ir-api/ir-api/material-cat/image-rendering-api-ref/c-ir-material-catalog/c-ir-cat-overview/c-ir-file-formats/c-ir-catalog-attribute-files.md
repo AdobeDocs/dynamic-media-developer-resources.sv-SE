@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Katalogattributfiler{#catalog-attribute-files}
 
-Katalogattributfiler kan ha vilket namn som helst, men måste ha ett `.ini` filsuffix. De kan enkelt underhållas med valfri textredigerare.
+Katalogattributfiler kan ha vilket namn som helst, men måste ha filsuffixet `.ini`. De kan enkelt underhållas med valfri textredigerare.
 
-Katalogattributfiler består av en uppsättning textposter, avgränsade med en enda `<CR>` (ASCII-kod 0xD), en `<LF>` (ASCII-kod 0xA), eller `<CR><LF>` par. Varje post består av ett attributnamn och ett eller flera kommaavgränsade attributvärden:
+Katalogattributfiler består av en uppsättning textposter, avgränsade med en `<CR>` (ASCII-kod 0xD), en enskild `<LF>` (ASCII-kod 0xA) eller ett `<CR><LF>` -par. Varje post består av ett attributnamn och ett eller flera kommaavgränsade attributvärden:
 
 `*`name`*= *`value`*&#42;[, *`value`*]{<CR>|<LF>|<CR><LF>}`
 
@@ -27,12 +27,12 @@ Katalogattributfiler består av en uppsättning textposter, avgränsade med en e
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> value </span> </span> </p> </td> 
-  <td class="stentry"> <p>Attributvärde; får inte innehålla <span class="codeph"> &lt;cr&gt; </span>, eller <span class="codeph"> &lt;lf&gt; </span> om det inte föregås av ett omvänt snedstreck precis före radmatningstecknet. </p> </td> 
+  <td class="stentry"> <p>Attributvärdet; får inte innehålla <span class="codeph"> &lt;CR&gt; </span> eller <span class="codeph"> &lt;LF&gt; </span> tecken, såvida det inte föregås av ett omvänt snedstreck precis före radmatningstecknet. </p> </td> 
  </tr> 
 </table>
 
 * Tomt utrymme mellan variabler är valfritt.
-* The [!DNL Platform Server] ignorerar poster med okända attributnamn.
-* Attributnamn kan bestå av en valfri kombination av ASCII-bokstäver, siffror och `-`, `_`och `.` tecken.
+* [!DNL Platform Server] ignorerar poster med okända attributnamn.
+* Attributnamn kan bestå av en valfri kombination av ASCII-bokstäver, siffror och `-`, `_` och `.` tecken.
 * Om samma attributnamn förekommer mer än en gång i samma attributfil gäller det senast påträffade attributnamnet.
-* Använd `#` som det första tecknet för att markera en post som en kommentar som parsern ignorerar.
+* Använd `#` som första tecken för att markera en post som en kommentar som tolkaren ignorerar.

@@ -42,7 +42,7 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| framgång | `xsd:boolean` | Ja | Returnerar `true` om paketet uppdaterades. |
+| framgång | `xsd:boolean` | Ja | Returnerar `true` om paketet har uppdaterats. |
 
 ## Exempel {#section-38b556b94e5044bf97a954519ff6c212}
 

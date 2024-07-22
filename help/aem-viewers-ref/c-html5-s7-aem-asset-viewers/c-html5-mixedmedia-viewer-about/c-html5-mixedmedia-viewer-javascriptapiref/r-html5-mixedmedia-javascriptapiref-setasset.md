@@ -1,6 +1,6 @@
 ---
 title: setAsset
-description: JavaScript API-referens för blandad Media Viewer.
+description: JavaScript API-referens för visningsprogrammet för blandade media.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -14,23 +14,23 @@ ht-degree: 0%
 
 # setAsset{#setasset}
 
-JavaScript API-referens för blandad Media Viewer.
+JavaScript API-referens för visningsprogrammet för blandade media.
 
 ` setAsset( *`resurs`*[,data]))`
 
-Anger den nya resursen och valfria ytterligare tillgångsdata. Du kan anropa den här parametern när som helst, antingen före eller efter `init()`. Om den anropas efter `init()`byter visningsprogrammet ut resursen vid körning.
+Anger den nya resursen och valfria ytterligare tillgångsdata. Du kan anropa parametern när som helst, antingen före eller efter `init()`. Om den anropas efter `init()` byter visningsprogrammet ut resursen under körning.
 
 Se även [init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae).
 
 ## Parametrar {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`resurs`*` - { `String`} nytt resurs-ID eller explicit blandad mediamängd, med tillvalsmodifierare för Image Serving efter `?`.
+`*`resurs`*` - `String` nytt resurs-ID eller explicit blandad mediauppsättning, med tillvalsmodifierare för Image Serving efter `?`.
 
 Bilder som använder IR (Image Rendering) eller UGC (User-Generated Content) stöds inte av det här visningsprogrammet.
 
-`*`data`*` - { `JSON`} platsen för den nya bildtextfilen.
+`*`data`*` - `JSON` plats för den nya bildtextfilen.
 
-Om inget anges visas inte bildtextknappen i användargränssnittet. De bildtexter som anges med den här parametern gäller för den video som kommer först i den blandade medieuppsättningen. efterföljande videofilmer spelas upp utan bildtexter. Detta visningsprogram stöder följande komponent-ID:
+Om inget anges visas inte bildtextknappen i användargränssnittet. Bildtexter som anges med den här parametern gäller för den video som kommer först i den blandade medieuppsättningen. Efterföljande videor spelas upp utan bildtexter. Detta visningsprogram stöder följande komponent-ID:
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 

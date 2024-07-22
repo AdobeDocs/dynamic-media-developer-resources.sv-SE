@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Även om bild- och SVG-data är mycket lika bevaras de i separata tabeller i bildkatalogen.
 
-Om bilddata krävs måste den relativa eller absoluta sökvägen till bilddatafilerna som specificerar bilderna anges i `attribute::CatalogFile`. Om data från SVG krävs måste den relativa eller absoluta sökvägen för datafilerna från SVG anges i `attribute::SvgCatalogFile`.
+Om bilddata krävs måste den relativa eller absoluta sökvägen till bilddatafilerna som specificerar bilderna anges i `attribute::CatalogFile`. Om data från SVG krävs måste den relativa eller absoluta sökvägen för datafilerna i SVG anges i `attribute::SvgCatalogFile`.
 
 * [Bilddatareferens](c-image-data-reference/c-image-data-reference.md)
 * [SVG datareferens](c-svg-data-reference/c-svg-data-reference.md)

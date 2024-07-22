@@ -18,4 +18,4 @@ Image Server skriver poster i den här loggfilen för att registrera varningar o
 
 Dessutom kan loggen för Image Server konfigureras så att den håller reda på ytterligare detaljer, som åtkomst till bildfiler, för att hjälpa till att felsöka serverproblem.
 
-Image Server-loggen är konfigurerad i [!DNL ImageServerRegistry.xml].
+Image Server-loggen har konfigurerats i [!DNL ImageServerRegistry.xml].

@@ -18,6 +18,6 @@ Bildmask. Begär maskdata (alfakanal).
 
 `req=mask`
 
-Stöder samma kommandon som `req=img`. Den bearbetas på samma sätt av servern, men i stället för att data från RGB eller RGBA returneras, ignoreras färginformationen och endast maskdata returneras. MIME-typen för svarsdata och MIME-typen för svar bestäms av `fmt=`.
+Stöder samma kommandon som `req=img`. Den bearbetas på samma sätt av servern, men i stället för att data från RGB eller RGBA returneras, ignoreras färginformationen och endast maskdata returneras. MIME-typen för svarsdataformat och svar bestäms av `fmt=`.
 
 HTTP-svaret kan nås med TTL-värdet baserat på `catalog::Expiration`.

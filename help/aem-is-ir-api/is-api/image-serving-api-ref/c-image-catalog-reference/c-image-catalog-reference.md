@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Bildkataloger innehåller information om bilder och stöddata som teckensnitt och ICC-profiler till servern.
 
-* [Översikt](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md)
+* [Ökning](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md)
 * [Uppdaterar bildkataloger](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-updating-image-catalogs.md)
 * [Standardkatalog](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-default-catalog.md)
 * [Katalogattribut](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-attributes/c-catalog-attributes.md)

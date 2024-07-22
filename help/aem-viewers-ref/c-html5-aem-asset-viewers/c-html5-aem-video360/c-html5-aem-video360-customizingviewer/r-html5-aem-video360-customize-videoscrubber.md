@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: a0b89b4b-5f66-41d5-88b9-a01fddec437e
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -28,12 +28,12 @@ Videonavigeringens allmänna utseende styrs med följande CSS-klassväljare:
 .s7video360viewer .s7videoscrubber .s7knob
 ```
 
-**CSS-egenskaper för videonavigeringslisten**
+**CSS-egenskaper för videonavigeringsprogrammet**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p>Placera från den övre kanten, inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
@@ -59,7 +59,7 @@ Följande CSS-klassväljare spårar indikatorerna för bakgrund, uppspelning och
 .s7video360viewer .s7videoscrubber .s7trackplayed
 ```
 
-**Spårets CSS-egenskaper**
+**CSS-egenskaper för spåret**
 
 <table id="table_46903DCACF314426B67783167ADF7715"> 
  <tbody> 
@@ -85,7 +85,7 @@ Följande CSS-klassväljare styr ratten:
 <table id="table_966826FB81114362A8D81D1EED38D512"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p>Lodrät rattförskjutning. </p> </td> 
   </tr> 
   <tr> 
@@ -113,7 +113,7 @@ Följande CSS-klassväljare styr den tid som spelas upp:
 .s7video360viewer .s7videoscrubber .s7videotime
 ```
 
-**CSS-egenskaper för den tid som spelas upp**
+**CSS-egenskaper för bubblan för uppspelning**
 
 <table id="table_21E9AD3FBC8C4437BA02E5CD1BF7E831"> 
  <tbody> 
@@ -156,7 +156,7 @@ Följande CSS-klassväljare styr den tid som spelas upp:
  </tbody> 
 </table>
 
-Verktygstipset för videospolning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) för mer information.
+Verktygstipset för videospolning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
 **Exempel** - Om du vill ställa in ett videovisningsprogram med en videonavigeringsruta med anpassade spårfärger som är tio pixlar höga. Placera den tio och 35 pixlar från kontrollfältets övre och vänstra kant.
 

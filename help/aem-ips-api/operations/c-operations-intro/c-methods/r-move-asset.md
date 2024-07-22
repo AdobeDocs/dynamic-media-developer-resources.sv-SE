@@ -34,8 +34,8 @@ Syntax
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Handla till företaget. |
-| assetHandle | `xsd:string` | Ja | Hantera den resurs du vill flytta. |
-| folderHandle | `xsd:string` | Ja | Hantera målmappen. |
+| assetHandle | `xsd:string` | Ja | Hantera resursen som du vill flytta. |
+| folderHandle | `xsd:string` | Ja | Handtag till målmappen. |
 
 **Utdata (moveAssetReturn)**
 

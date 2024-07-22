@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: e5d6abe8-0ae9-4ccd-b311-5895e09310b2
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Utseendet på det sekundära kontrollfältet styrs med följande CSS-klassvälja
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p>Placera högst upp i visningsprogrammet. </p> </td> 
   </tr> 
   <tr> 
@@ -49,7 +49,7 @@ Utseendet på det sekundära kontrollfältet styrs med följande CSS-klassvälja
  </tbody> 
 </table>
 
-Exempel - om du vill ställa in ett grått sekundärt kontrollfält som är 72 pixlar högt och som är placerat längst ned i visningsbehållaren.
+Exempel - om du vill ställa in ett grått sekundärt kontrollfält som är 72 pixlar högt och placerat längst ned i visningsbehållaren.
 
 ```
 .s7ecatalogsearchviewer .s7secondarycontrols .s7controlbar {  

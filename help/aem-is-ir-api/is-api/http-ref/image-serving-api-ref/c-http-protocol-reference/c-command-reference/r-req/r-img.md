@@ -18,6 +18,6 @@ Bild (standard). Begär standardbilddata.
 
 `req=img`
 
-MIME-typen för svarsdata och MIME-typen för svar bestäms av `fmt=`. Modifieraren `req=img` är standardbegärandetypen och behövs inte explicit. HTTP-svaret kan nås med TTL-värdet baserat på `catalog::Expiration`.
+MIME-typen för svarsdataformat och svar bestäms av `fmt=`. Modifieraren `req=img` är standardbegärandetypen och behövs inte explicit. HTTP-svaret kan nås med TTL-värdet baserat på `catalog::Expiration`.
 
 Andra begärandekommandon används som dokumenterat.

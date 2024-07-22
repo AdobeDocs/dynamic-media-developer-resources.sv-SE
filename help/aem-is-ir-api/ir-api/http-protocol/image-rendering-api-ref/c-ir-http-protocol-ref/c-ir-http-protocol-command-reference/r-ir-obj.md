@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Markera objekt efter namn. Väljer den angivna vinjettgruppen efter namn och startar ett nytt MSS.
 
-` obj= *`name`*`
+` obj= *`namn`*`
 
 <table id="simpletable_6E0DA6CBCDCF4CDDAFA5A4C38E0D5FC5"> 
  <tr class="strow"> 
@@ -27,11 +27,11 @@ Markera objekt efter namn. Väljer den angivna vinjettgruppen efter namn och sta
 
 Undergrupper eller enskilda objekt kan markeras med en fullständig gruppsökväg (det vill säga genom att ange namnet på målgruppen eller objektet som föregås av alla överordnade grupper, avgränsade med / (snedstreck).
 
-Om ingen grupp/objekt med det angivna namnet hittas, anges åtgärden i `attribute::OnObjFail` tas.
+Om ingen grupp/objekt med det angivna namnet hittas utförs åtgärden som anges i `attribute::OnObjFail`.
 
 ## Egenskaper {#section-9463b36e8ff74c81a70c7c2b58927430}
 
-Markeringskommando; MSS-avgränsare. Objektmarkeringen bevaras tills ett annat objekt markeras, antingen med `obj=` eller `sel=`.
+Markeringskommando; MSS-avgränsare. Objektmarkeringen är beständig tills ett annat objekt markeras, antingen med `obj=` eller `sel=`.
 
 Grupp-/objektsökvägar och namn är inte skiftlägeskänsliga.
 

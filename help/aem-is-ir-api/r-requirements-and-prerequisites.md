@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: ea2dfec9-0a42-4ccb-8442-6f7c4a39eda1
 source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Servern bör uppfylla följande maskinvarukrav.
 
 >[!NOTE]
 >
->System med processorer med AMD64 och Intel® EM64T är vanligtvis konfigurerade som NUMA-plattformar (Non-Uniform Memory Architecture). Detta innebär att kärnan konstruerar flera minnesnoder vid start i stället för att konstruera en enda minnesnod. Konstruktionen för flera noder kan resultera i minnesöverbelastning på en eller flera av noderna innan andra noder töms. När minnesöverbelastning inträffar kan kärnan bestämma sig för att avsluta processer (till exempel Image Server eller [!DNL Platform Server]) trots att det finns tillgängligt minne. Därför rekommenderar Adobe att du stänger av NUMA om du kör ett sådant system. Använd `numa=off` startalternativ för att undvika att kärnan stoppar dessa processer.
+>System med processorer med AMD64 och Intel® EM64T är vanligtvis konfigurerade som NUMA-plattformar (Non-Uniform Memory Architecture). Detta innebär att kärnan konstruerar flera minnesnoder vid start i stället för att konstruera en enda minnesnod. Konstruktionen för flera noder kan resultera i minnesöverbelastning på en eller flera av noderna innan andra noder töms. När minnesöverbelastning inträffar kan kärnan bestämma sig för att avsluta processer (till exempel Image Server eller [!DNL Platform Server]) trots att det finns tillgängligt minne. Därför rekommenderar Adobe att du stänger av NUMA om du kör ett sådant system. Använd startalternativet `numa=off` för att undvika att kärnan stoppar dessa processer.
 
 **Windows**
 
@@ -40,7 +40,7 @@ Servern bör uppfylla följande maskinvarukrav.
 * 2 GB ledigt hårddiskutrymme för installation och grundläggande funktioner. Ytterligare diskutrymme krävs för källbilder, loggar, datacache och manifestfiler.
 * Fast Ethernet-nätverkskort.
 
-**Obs! (Linux®):** Image Serving fungerar inte med SELinux aktiverat. Det här alternativet är aktiverat som standard. Om du vill inaktivera SELinux redigerar du [!DNL /etc/selinux/config] och ändra SELinux-värdet från:
+**Obs! (Linux®):** Bildservern fungerar inte med SELinux aktiverat. Det här alternativet är aktiverat som standard. Om du vill inaktivera SELinux redigerar du filen [!DNL /etc/selinux/config] och ändrar SELinux-värdet från:
 
 `SELINUX=enforcing`
 
@@ -48,7 +48,7 @@ Till
 
 `SELINUX=disabled`
 
-**Obs! (Linux®):** Kontrollera att värdnamnet för servern kan matchas till en IP-adress. Om det inte är möjligt lägger du till det fullständiga, kvalificerade värdnamnet och IP-adressen i [!DNL /etc/hosts] som i följande exempel.
+**Obs! (Linux®):** Kontrollera att serverns värdnamn kan matchas till en IP-adress. Om det inte är möjligt lägger du till det fullständiga, kvalificerade värdnamnet och IP-adressen till [!DNL /etc/hosts] som i följande exempel.
 
 `<ip address> <fully qualified hostname>`
 

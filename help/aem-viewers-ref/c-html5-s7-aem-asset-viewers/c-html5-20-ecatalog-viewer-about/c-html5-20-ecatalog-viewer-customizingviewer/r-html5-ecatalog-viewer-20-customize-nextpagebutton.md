@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 70051b97-cdc2-4006-b792-4b96a065dbb7
 source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Knappens utseende styrs med följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p>Placera från huvudkontrollfältets övre kant, inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
@@ -41,7 +41,7 @@ Knappens utseende styrs med följande CSS-klassväljare:
    <td colname="col2"> <p>Placera från den högra kanten av huvudkontrollfältet, inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vänster </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kvar </span> </p> </td> 
    <td colname="col2"> <p>Placera från vänster kant på huvudkontrollfältet, inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
@@ -69,11 +69,11 @@ Knappens utseende styrs med följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen.
+>Den här knappen stöder attributväljaren `state` som kan användas för att tillämpa olika skal på olika knapplägen.
 
-Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
-Exempel - Om du vill ställa in en knapp för nästa sida som är 28 x 28 pixlar och placerad 4 pixlar från nederkanten och 250 pixlar från den högra kanten av huvudkontrollfältet. Och slutligen, och visar en annan bild för vart och ett av de fyra knapplägena.
+Exempel - Om du vill ställa in en knapp för nästa sida som är 28 x 28 pixlar och placerad 4 pixlar från nederkanten och 250 pixlar från den högra kanten av huvudkontrollfältet. Och slutligen, och visar en annan bild för vart och ett av de fyra olika knapplägena.
 
 ```
 .s7ecatalogviewer .s7toolbarrightbutton .s7panrightbutton { 

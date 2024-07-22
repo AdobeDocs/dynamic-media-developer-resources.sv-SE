@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 8e5a44fa-422f-46f3-bd85-86bd2ce03899
 source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Visningsområdets utseende styrs av följande CSS-klassväljare:
 
 ## Exempel {#section-ee18025b182a42dc98052de5f133ddfe}
 
-Ställa in ett visningsprogram med vit bakgrund ( `#FFFFFF`) och gör storleken 512 x 288 pixlar.
+Om du vill konfigurera ett visningsprogram med en vit bakgrund ( `#FFFFFF`) och göra storleken 512 x 288 pixlar.
 
 ```
 .s7interactivevideoviewer { 

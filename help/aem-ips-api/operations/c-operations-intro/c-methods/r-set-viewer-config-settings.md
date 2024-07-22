@@ -35,7 +35,7 @@ Syntax
 | assetHandle | `xsd:string` | Ja | Resurshandtag. |
 | name | `xsd:string` | Ja | Resursnamn. |
 | type | `xsd:string` | Ja | Den typ av resurs som du vill använda visningsprogramkonfigurationen på. |
-| configSettingArray | `types:ConfigSettingArray` | Ja | Arrayen med `ConfigSettings` används på tillgången. |
+| configSettingArray | `types:ConfigSettingArray` | Ja | Arrayen med `ConfigSettings` som används för resursen. |
 
 **Utdata (setViewerConfigSettingsParam)**
 

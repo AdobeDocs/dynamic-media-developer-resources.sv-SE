@@ -1,6 +1,6 @@
 ---
 title: setLocalizedTexter
-description: JavaScript API-referens för blandad Media Viewer.
+description: JavaScript API-referens för visningsprogrammet för blandade media.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # setLocalizedTexter{#setlocalizedtexts}
 
-JavaScript API-referens för blandad Media Viewer.
+JavaScript API-referens för visningsprogrammet för blandade media.
 
 ` setLocalizedTexts( *`localizationInfo`*)`
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo</span> </span> </p> </td> 
-   <td colname="col2"> <p> {<span class="codeph"> Objekt</span>} JSON-objekt med lokaliseringsdata. </p> <p>Se <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1" format="dita" scope="local"> Lokalisering av användargränssnittselement</a> för mer information. </p> <p>Se även <i>Användarhandbok för Viewer SDK</i> och exemplet innehåller mer information om objektets innehåll. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo </span> </span> </p> </td> 
+   <td colname="col2"> <p> {<span class="codeph"> Object</span>} JSON-objekt med lokaliseringsdata. </p> <p>Mer information finns i <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1" format="dita" scope="local"> Lokalisering av användargränssnittselement </a>. </p> <p>Mer information om objektets innehåll finns även i <i>användarhandboken för visningsprogrammet för SDK</i> och i exemplet. </p> </td> 
   </tr> 
  </tbody> 
 </table>

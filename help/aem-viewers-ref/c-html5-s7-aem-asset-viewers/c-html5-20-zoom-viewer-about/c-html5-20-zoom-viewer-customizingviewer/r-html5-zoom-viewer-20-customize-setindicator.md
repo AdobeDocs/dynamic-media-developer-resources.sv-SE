@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: b1e6734e-a341-45d7-b771-daeb0527cd00
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '256'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Utseendet på en enskild set-indikatorpunkt styrs med CSS-klassväljaren:
    <td colname="col2"> <p>Övre marginal i pixlar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal-höger </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal-right </span> </p> </td> 
    <td colname="col2"> <p>Högermarginal i pixlar. </p> </td> 
   </tr> 
   <tr> 
@@ -98,7 +98,7 @@ Utseendet på en enskild set-indikatorpunkt styrs med CSS-klassväljaren:
 
 >[!NOTE]
 >
->Ange indikatorpunkt för `state` attributväljare, som kan användas för att tillämpa olika skal på olika miniatyrlägen. I synnerhet `state="selected"` motsvarar den aktuella sidan med miniatyrbilder, `state="unselected"` motsvarar standardpunktläget.
+>Den angivna indikatorpunkten stöder attributväljaren `state` som kan användas för att tillämpa olika skal på olika miniatyrlägen. I synnerhet motsvarar `state="selected"` den aktuella sidan med miniatyrbilder, och `state="unselected"` motsvarar standardpunktläget.
 
 Exempel - Så här skapar du en angiven indikatorpunkt som ska vara 15 x 15 pixlar, med en vågrät marginal på 2 pixlar, en övre marginal på 5 pixlar, en nedre marginal på 12 pixlar, en radie på 12 pixlar, en standardfärg på #D5D3D3 och en aktiv färg på #9393:
 

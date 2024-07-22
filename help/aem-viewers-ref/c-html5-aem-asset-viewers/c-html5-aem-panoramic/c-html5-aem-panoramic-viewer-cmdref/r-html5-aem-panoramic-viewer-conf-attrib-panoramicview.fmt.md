@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # PanoramicView.fmt{#panoramicview-fmt}
 
-Anger det bildformat som används av komponenten för att läsa in bilder från Image Server. Om det angivna formatet slutar med&quot;-alfa&quot; återges bilderna som genomskinliga av komponenten. För alla andra bildformat hanterar komponenten bilder som ogenomskinliga. Komponenten har som standard en genomskinlig bakgrund. För att göra den ogenomskinlig anger du `background-color` CSS-egenskap till `desired_color`
+Anger det bildformat som används av komponenten för att läsa in bilder från Image Server. Om det angivna formatet slutar med&quot;-alfa&quot; återges bilderna som genomskinliga av komponenten. För alla andra bildformat hanterar komponenten bilder som ogenomskinliga. Komponenten har som standard en genomskinlig bakgrund. Därför anger du CSS-egenskapen `background-color` till `desired_color` för att göra den ogenomskinlig
 
 `[PanoramicView.|<containerId>_panoramicView.]fmt=jpg|jpeg|png|png-alpha|gif|gif-alpha`
 

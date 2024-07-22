@@ -1,5 +1,5 @@
 ---
-description: Bildåtergivning är inbäddat i Image Serving Image Server och [!DNL Platform Server] -komponenter.
+description: Bildåtergivning är inbäddat i Image Serving-komponenterna Image Server och  [!DNL Platform Server] .
 solution: Experience Manager
 title: Starta och stoppa servern
 feature: Dynamic Media Classic,SDK/API
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # Starta och stoppa servern{#starting-and-stopping-the-server}
 
-Bildåtergivning är inbäddat i Image Serving Image Server och [!DNL Platform Server] -komponenter.
+Bildåtergivning är inbäddat i Image Serving-komponenterna Image Server och [!DNL Platform Server].
 
 Mer information finns i dokumentationen om bildservering.

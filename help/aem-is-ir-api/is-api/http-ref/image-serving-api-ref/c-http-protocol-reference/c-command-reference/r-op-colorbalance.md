@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 93476778-97b0-4ad5-b22a-093239e845f0
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
@@ -41,10 +41,10 @@ kommandot Lager. Gäller det aktuella lagret eller den sammansatta bilden om `la
 
 ## Standard {#section-08d84ef715964f7daea86f5ef237d199}
 
-`op_colorbalance=0,0,0` utan färgändringar.
+`op_colorbalance=0,0,0` om du inte vill ändra färger.
 
 ## Exempel {#section-7e97fa36e01d4af8ab03fc9d493da1a1}
 
 Justera färgbalansen mot rött:
 
-… `&op_colorBalance=100,0,0&`…
+... `&op_colorBalance=100,0,0&`...

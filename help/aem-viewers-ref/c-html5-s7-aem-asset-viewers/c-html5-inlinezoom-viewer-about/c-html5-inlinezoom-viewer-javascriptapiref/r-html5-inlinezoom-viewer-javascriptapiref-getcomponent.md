@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 72ae83e4-b879-4b3b-a5d9-38ed0fc2969d
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ JavaScript API-referens för Inline Zoom Viewer
 
 `getComponent(componentId)`
 
-Returnerar en referens till SDK-komponenten för visningsprogrammet som används av visningsprogrammet. Webbsidan kan använda den här metoden för att utöka eller anpassa beteendet för visningsprogrammet som inte är installerat. Anropa den här metoden först efter `initComplete` återanrop till visningsprogrammet har körts; Annars kanske komponenten inte har skapats ännu av visningsprogramlogiken.
+Returnerar en referens till SDK-komponenten för visningsprogrammet som används av visningsprogrammet. Webbsidan kan använda den här metoden för att utöka eller anpassa beteendet för visningsprogrammet som inte är installerat. Anropa den här metoden först efter att återanropet för visningsprogrammet `initComplete` har körts. Annars kanske komponenten inte har skapats ännu av visningsprogramlogiken.
 
 ## Parametrar {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
@@ -45,7 +45,7 @@ Returnerar en referens till SDK-komponenten för visningsprogrammet som används
    <td colname="col2"> <p> <span class="codeph"> s7sdk.set.MediaSet </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> utfällbar </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> flyout </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.image.FlyoutZoomView </span> </p> </td> 
   </tr> 
   <tr> 
@@ -55,13 +55,13 @@ Returnerar en referens till SDK-komponenten för visningsprogrammet som används
  </tbody> 
 </table>
 
-När du arbetar med SDK API:er är det viktigt att du använder det fullständiga, kvalificerade SDK-namnutrymmet enligt beskrivningen i [SDK för visningsprogram](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-namespace.md#concept-5af3b472b320496d87735ea612edda80).
+När du arbetar med SDK API:er är det viktigt att du använder ett fullständigt kvalificerat SDK-namnutrymme enligt beskrivningen i [Viewer SDK](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-namespace.md#concept-5af3b472b320496d87735ea612edda80).
 
 Mer information om en viss komponent finns i dokumentationen för Viewer SDK.
 
 ## Returnerar {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` En referens till SDK-komponenten för visningsprogrammet. Metoden returnerar `null` om `componentId` är inte en visningsprogramkomponent som stöds eller om komponenten ännu inte har skapats av visningsprogramlogiken.
+`{Object}` En referens till SDK-komponenten för visningsprogrammet. Metoden returnerar `null` om `componentId` inte är en visningsprogramkomponent som stöds eller om komponenten ännu inte har skapats av visningsprogramlogiken.
 
 ## Exempel {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

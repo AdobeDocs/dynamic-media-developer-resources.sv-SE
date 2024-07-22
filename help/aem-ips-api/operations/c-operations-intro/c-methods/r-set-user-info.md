@@ -35,7 +35,7 @@ Syntax
 | firstName | `xsd:string` | Ja | Förnamn. |
 | lastName | `xsd:string` | Ja | Efternamn. |
 | e-post | `xsd:string` | Ja | E-post från användare. |
-| defaultRole | `xsd:string` | Ja | Anger rollen för en användare i varje företag de tillhör. Observera dock att `IpsAdmin` roll åsidosätter andra inställningar per företag. |
+| defaultRole | `xsd:string` | Ja | Anger rollen för en användare i varje företag de tillhör. Observera dock att rollen `IpsAdmin` åsidosätter andra inställningar per företag. |
 | passwordExpires | `xsd:dateTime` | Nej | Ange förfallodatum för lösenord. |
 | isValid | `xsd:boolean` | Ja | Avgör om användaren är en giltig IPS-användare. |
 | membershipArray | `types:CompanyMembershipUpdateArray` | Ja | En array med företagshandtag. |

@@ -16,10 +16,10 @@ ht-degree: 0%
 
 I det här avsnittet visas tecken som är reserverade för särskilda ändamål.
 
-RTF använder klammerparenteser &#39; `{`och `}`som gruppavgränsare. De måste förekomma i par och kan kapslas. Använd &#39; `\{`och `\}`&#39;.
+RTF använder klammerparenteserna `{` och `}` som gruppavgränsare. De måste förekomma i par och kan kapslas. Om du vill visa klammerparenteser i textsträngar använder du `\{` respektive `\}`.
 
 >[!NOTE]
 >
 >Du måste URL-koda alla klammerparenteser som används i RTF.
 
-Bakåtsnedstreck &#39;\&#39; används för att infoga RTF-kommandon och nyckelord. Om du vill visa ett omvänt snedstreck använder du `'\\'`.
+Bakåtsnedstreck &#39;\&#39; används för att infoga RTF-kommandon och nyckelord. Använd `'\\'` om du vill visa ett omvänt snedstreck.

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 3a798595-6c65-4a12-983d-3cdc53830d28
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '971'
 ht-degree: 0%
 
 ---
@@ -18,23 +18,23 @@ Viewer SDK innehåller en uppsättning JavaScript-baserade komponenter för anpa
 
 SDK innehåller till exempel interaktiv zoomning och panorering. Den innehåller även 360-gradersvisning och videouppspelning av resurser som överförts till Adobe Dynamic Media via serverdelsprogrammet Dynamic Media Classic.
 
-Även om komponenterna bygger på HTML 5-funktionalitet är de utformade för att fungera på Android™- och Apple iOS-enheter samt stationära datorer, inklusive Internet Explorer och senare. Den här typen av upplevelser innebär att du kan skapa ett enda arbetsflöde för alla plattformar som stöds.
+Även om komponenterna bygger på HTML5-funktionalitet är de utformade för att fungera på Android™- och Apple iOS-enheter samt stationära datorer, inklusive Internet Explorer och senare. Den här typen av upplevelser innebär att du kan skapa ett enda arbetsflöde för alla plattformar som stöds.
 
-SDK består av UI-komponenter som utgör visningsprograminnehåll. Du kan formatera de här komponenterna med CSS och andra komponenter än användargränssnittskomponenter som har någon stödroll, som hämtning, tolkning och spårning av uppsättningar. Alla komponentbeteenden kan anpassas med modifieringar som du kan ange på olika sätt, till exempel som `name=value` par i URL:en.
+SDK består av UI-komponenter som utgör visningsprograminnehåll. Du kan formatera de här komponenterna med CSS och andra komponenter än användargränssnittskomponenter som har någon stödroll, som hämtning, tolkning och spårning av uppsättningar. Alla komponentbeteenden kan anpassas med modifierare som du kan ange på olika sätt, till exempel som `name=value` par i URL:en.
 
 Den här självstudiekursen innehåller följande åtgärder som du kan använda för att skapa ett enkelt zoomningsvisningsprogram:
 
 * [Hämta den senaste SDK-versionen av visningsprogrammet från Adobe Developer Connection](c-tutorial.md#section-84dc74c9d8e24a2380b6cf8fc28d7127)
 * [Läs in SDK för visningsprogrammet](c-tutorial.md#section-98596c276faf4cf79ccf558a9f4432c6)
-* [Lägga till format i visningsprogrammet](c-tutorial.md#section-3783125360a1425eae5a5a334867cc32)
-* [Inklusive Container och ZoomView](c-tutorial.md#section-1a01730663154a508b88cc40c6f35539)
-* [Lägga till MediaSet- och Swatches-komponenter i visningsprogrammet](c-tutorial.md#section-02b8c21dd842400e83eae2a48ec265b7)
-* [Lägga till knappar i visningsprogrammet](c-tutorial.md#section-1fc334fa0d2b47eb9cdad461725c07be)
+* [Lägger till format i visningsprogrammet](c-tutorial.md#section-3783125360a1425eae5a5a334867cc32)
+* [Inkluderar behållare och zoomvy](c-tutorial.md#section-1a01730663154a508b88cc40c6f35539)
+* [Lägger till MediaSet- och Swatches-komponenter i visningsprogrammet](c-tutorial.md#section-02b8c21dd842400e83eae2a48ec265b7)
+* [Lägger till knappar i visningsprogrammet](c-tutorial.md#section-1fc334fa0d2b47eb9cdad461725c07be)
 * [Konfigurera färgrutorna lodrätt](c-tutorial.md#section-91a8829d5b5a4d45a35b7faeb097fcc9)
 
 ## Hämta den senaste SDK-versionen av visningsprogrammet från Adobe Developer Connection {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
 
-1. Hämta den senaste SDK-versionen av visningsprogrammet från Adobe Developer Connection <!-- SDK NO LONGER AVAILABLE TO DOWNLOAD;DOUBLE CHECK WITH AMIT. THIS ENTIRE TOPIC IS LIKELY OBSOLETE. [here](https://marketing.adobe.com/developer/devcenter/scene7/show) -->.
+1. Hämta den senaste SDK:n för visningsprogram från Adobe Developer Connection <!-- SDK NO LONGER AVAILABLE TO DOWNLOAD;DOUBLE CHECK WITH AMIT. THIS ENTIRE TOPIC IS LIKELY OBSOLETE. [here](https://marketing.adobe.com/developer/devcenter/scene7/show) -->.
 
    >[!NOTE]
    >
@@ -79,7 +79,7 @@ Den här självstudiekursen innehåller följande åtgärder som du kan använda
    </html>
    ```
 
-   Lägg till följande JavaScript-kod i `script` så att den initierar `ParameterManager`. Om du gör det kan du förbereda dig för att skapa och instansiera SDK-komponenter inuti `initViewer` funktion:
+   Lägg till följande JavaScript-kod i taggen `script` så att den initierar `ParameterManager`. Om du gör det kan du förbereda dig för att skapa och instansiera SDK-komponenter i funktionen `initViewer`:
 
    ```javascript {.line-numbers}
    /* We create a self-running anonymous function to encapsulate variable scope. Placing code inside such 
@@ -123,7 +123,7 @@ Nu kan du lägga till stil i visningsprogrammet.
 
 1. Du kan lägga till några grundläggande format för det här helsidesvisningsprogrammet som du skapar.
 
-   Lägg till följande `style` -block längst ned i `head`:
+   Lägg till följande `style`-block längst ned i `head`:
 
    ```html {.line-numbers}
    <style> 
@@ -142,13 +142,13 @@ Nu kan du lägga till stil i visningsprogrammet.
    </style>
    ```
 
-Nu med komponenterna `Container` och `ZoomView`.
+Inkludera komponenterna `Container` och `ZoomView`.
 
 ## Inklusive Container och ZoomView {#section-1a01730663154a508b88cc40c6f35539}
 
 1. Skapa ett faktiskt visningsprogram genom att inkludera komponenterna `Container` och `ZoomView`.
 
-   Infoga följande `include` -programsatser längst ned i `<head>` -element - efter [!DNL Utils.js] skript läses in:
+   Infoga följande `include`-satser längst ned i elementet `<head>` - efter att skriptet [!DNL Utils.js] har lästs in:
 
    ```javascript {.line-numbers}
    <!-- 
@@ -169,7 +169,7 @@ Nu med komponenterna `Container` och `ZoomView`.
    var container, zoomView;
    ```
 
-1. Infoga följande inuti `initViewer` så att du kan definiera vissa modifierare och instansiera respektive komponenter:
+1. Infoga följande inuti funktionen `initViewer` så att du kan definiera vissa modifierare och instansiera respektive komponenter:
 
    ```javascript {.line-numbers}
    /* Modifiers can be added directly to ParameterManager instance */ 
@@ -190,7 +190,7 @@ Nu med komponenterna `Container` och `ZoomView`.
    resizeViewer(container.getWidth(), container.getHeight());
    ```
 
-1. För att ovanstående kod ska fungera korrekt lägger du till en `containerResize` händelsehanterare och en hjälpfunktion:
+1. För att ovanstående kod ska fungera korrekt lägger du till en `containerResize`-händelsehanterare och en hjälpfunktion:
 
    ```javascript {.line-numbers}
    /* Event handler for s7sdk.event.ResizeEvent.COMPONENT_RESIZE events dispatched by Container to resize 
@@ -207,9 +207,9 @@ Nu med komponenterna `Container` och `ZoomView`.
 
 1. Förhandsgranska sidan så att du ser vad du har skapat. Sidan ska se ut så här:
 
-   ![Exempel på en bild i visningsprogrammet](assets/viewer-1.jpg)
+   ![Exempel på visningsprogram - en bild](assets/viewer-1.jpg)
 
-Lägg till komponenterna `MediaSet` och `Swatches` till ditt visningsprogram.
+Lägg till komponenterna `MediaSet` och `Swatches` i visningsprogrammet.
 
 ## Lägga till MediaSet- och Swatches-komponenter i visningsprogrammet {#section-02b8c21dd842400e83eae2a48ec265b7}
 
@@ -228,9 +228,9 @@ Lägg till komponenterna `MediaSet` och `Swatches` till ditt visningsprogram.
    var mediaSet, container, zoomView, swatches;
    ```
 
-1. Skapa `MediaSet` och `Swatches` komponenterna i `initViewer` funktion.
+1. Instansiera `MediaSet`- och `Swatches`-komponenter inuti funktionen `initViewer`.
 
-   Se till att instansiera `Swatches` instansen efter `ZoomView` och `Container` -komponenter, annars döljs `Swatches`:
+   Se till att instansiera `Swatches`-instansen efter komponenterna `ZoomView` och `Container`, annars döljs `Swatches` i staplingsordningen:
 
    ```javascript {.line-numbers}
    // Create MediaSet to manage assets and add event listener to the NOTF_SET_PARSED event 
@@ -266,7 +266,7 @@ Lägg till komponenterna `MediaSet` och `Swatches` till ditt visningsprogram.
    }
    ```
 
-1. Placera färgrutorna längst ned i visningsprogrammet genom att lägga till följande CSS i dialogrutan `style` element:
+1. Placera färgrutorna längst ned i visningsprogrammet genom att lägga till följande CSS till elementet `style`:
 
    ```CSS {.line-numbers}
    /* Align swatches to bottom of viewer */ 
@@ -280,7 +280,7 @@ Lägg till komponenterna `MediaSet` och `Swatches` till ditt visningsprogram.
 
 1. Förhandsgranska ditt visningsprogram.
 
-   Observera att färgrutorna finns i det nedre vänstra hörnet i visningsprogrammet. Om du vill att färgrutorna ska ha hela visningsprogrammets bredd lägger du till ett anrop om att manuellt ändra storlek på färgrutorna när användaren ändrar storlek på webbläsaren. Lägg till följande i `resizeViewer` funktion:
+   Observera att färgrutorna finns i det nedre vänstra hörnet i visningsprogrammet. Om du vill att färgrutorna ska ha hela visningsprogrammets bredd lägger du till ett anrop om att manuellt ändra storlek på färgrutorna när användaren ändrar storlek på webbläsaren. Lägg till följande i funktionen `resizeViewer`:
 
    ```javascript {.line-numbers}
    swatches.resize(width, swatches.getHeight());
@@ -288,7 +288,7 @@ Lägg till komponenterna `MediaSet` och `Swatches` till ditt visningsprogram.
 
    Visningsprogrammet ser nu ut som följande bild. Prova att ändra storlek på webbläsarfönstret i visningsprogrammet och observera det resulterande beteendet.
 
-   ![Exempel på två bilder i visningsprogrammet](assets/viewer-2.jpg)
+   ![Exempel på visningsprogram med två bilder](assets/viewer-2.jpg)
 
 Nu kan du lägga till knapparna för att zooma in, zooma ut och zooma in i visningsprogrammet.
 
@@ -308,7 +308,7 @@ Nu kan du lägga till knapparna för att zooma in, zooma ut och zooma in i visni
    var mediaSet, container, zoomView, swatches, zoomInButton, zoomOutButton, zoomResetButton;
    ```
 
-1. Instansiera knappar längst ned i `initViewer` funktion.
+1. Skapa knappar längst ned i funktionen `initViewer`.
 
    Kom ihåg att ordningen är viktig, såvida du inte anger `z-index` i CSS:
 
@@ -324,7 +324,7 @@ Nu kan du lägga till knapparna för att zooma in, zooma ut och zooma in i visni
    zoomResetButton.addEventListener("click", function() { zoomView.zoomReset(); });
    ```
 
-1. Definiera några grundläggande format för knapparna genom att lägga till följande i `style` -block överst i filen:
+1. Definiera några grundläggande stilar för knapparna genom att lägga till följande i `style`-blocket högst upp i filen:
 
    ```CSS {.line-numbers}
    /* define styles common to all button components and their sub-classes */ 
@@ -352,27 +352,27 @@ Nu kan du lägga till knapparna för att zooma in, zooma ut och zooma in i visni
 
 1. Förhandsgranska ditt visningsprogram. Det ska se ut så här:
 
-   ![Exempel på tre bilder i visningsprogrammet](assets/viewer-3.jpg)
+   ![Exempel på visningsprogram med tre bilder](assets/viewer-3.jpg)
 
    Konfigurera nu färgrutorna så att de justeras lodrätt till höger.
 
 ## Konfigurera färgrutorna lodrätt {#section-91a8829d5b5a4d45a35b7faeb097fcc9}
 
-1. Du kan konfigurera modifierare direkt på `ParameterManager` -instans.
+1. Du kan konfigurera modifierare direkt på instansen `ParameterManager`.
 
-   Lägg till följande högst upp i `initViewer` så att du kan konfigurera `Swatches` tumlayout som en rad:
+   Lägg till följande längst upp i funktionen `initViewer` så att du kan konfigurera `Swatches`-tumslayouten som en enda rad:
 
    ```javascript {.line-numbers}
    params.push("Swatches.tmblayout", "1,0");
    ```
 
-1. Uppdatera följande resize-anrop inuti `resizeViewer`:
+1. Uppdatera följande resize-anrop i `resizeViewer`:
 
    ```javascript {.line-numbers}
    swatches.resize(swatches.getWidth(), height);
    ```
 
-1. Redigera följande `s7swatches` styckelinje `ZoomViewer.css`:
+1. Redigera följande `s7swatches`-regel i `ZoomViewer.css`:
 
    ```CSS {.line-numbers}
    .s7swatches { 
@@ -385,7 +385,7 @@ Nu kan du lägga till knapparna för att zooma in, zooma ut och zooma in i visni
 
 1. Förhandsgranska ditt visningsprogram. Det ser ut så här:
 
-   ![Exempel på fyra bilder i visningsprogrammet](assets/viewer-4.jpg)
+   ![Exempel på visningsprogram: fyra bilder](assets/viewer-4.jpg)
 
    Ditt grundläggande zoomvisningsprogram är nu klart.
 

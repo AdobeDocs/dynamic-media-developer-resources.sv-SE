@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 06078310-8aeb-449f-919a-ce88ddc8c4b3
 source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Följande CSS-klassväljare styr kontrollfältets utseende:
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p>Placera från den övre kanten, inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
@@ -49,7 +49,7 @@ Följande CSS-klassväljare styr kontrollfältets utseende:
  </tbody> 
 </table>
 
-**Exempel** - Om du vill ställa in ett videovisningsprogram med ett grått kontrollfält som är 30 pixlar högt och som visas högst upp i visningsprogrammets videobehållare.
+**Exempel** - Om du vill ställa in ett videovisningsprogram med ett grått kontrollfält som är 30 pixlar högt och som visas högst upp i visningsprogrammets behållare.
 
 ```
 .s7video360viewer .s7controlbar {  

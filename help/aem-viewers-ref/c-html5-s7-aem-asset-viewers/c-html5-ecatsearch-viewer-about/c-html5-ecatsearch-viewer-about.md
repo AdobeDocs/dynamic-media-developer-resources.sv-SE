@@ -8,7 +8,7 @@ role: Developer,User
 exl-id: 915e628e-65e7-44c6-a2aa-d4ae7ed03b8e
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2178'
+source-wordcount: '2078'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Se [Systemkrav och krav](../../c-system-requirements-and-prerequisites.md#concep
 
 ## Använda eCatalog Viewer {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-eCatalog Search Viewer representerar en JavaScript-huvudfil och en uppsättning hjälpfiler (en enda JavaScript-fil innehåller alla Viewer SDK-komponenter som används av det här visningsprogrammet, resurser, CSS) som hämtats av visningsprogrammet under körning
+eCatalog Search Viewer representerar en JavaScript-huvudfil och en uppsättning hjälpfiler (en enda JavaScript-komponent med alla SDK-komponenter för visningsprogrammet som används av det här visningsprogrammet, resurser, CSS) som hämtats av visningsprogrammet under körning
 
 Du kan använda eCatalog Search Viewer i popup-läge med en produktionsklar HTML-sida som finns i IS-Viewer eller i inbäddat läge, där den integreras med målwebbsidan med dokumenterat API.
 
@@ -100,7 +100,7 @@ I popup-läge öppnas visningsprogrammet i ett separat webbläsarfönster eller 
 
 Popup-läget är det vanligaste för mobila enheter. Webbsidan läser in visningsprogrammet med `window.open()` JavaScript-anrop, korrekt konfigurerat `A` HTML-element eller någon annan lämplig metod.
 
-Vi rekommenderar att du använder en färdig HTML-sida för popup-läge. I det här fallet anropas den [!DNL eCatalogSearchViewer.html] och finns i [!DNL html5/] undermapp till din standarddistribution av IS-Viewer:
+Vi rekommenderar att du använder en färdig HTML-sida för popup-läge. I det här fallet kallas den [!DNL eCatalogSearchViewer.html] och finns i undermappen [!DNL html5/] i din standarddistribution av IS-Viewer:
 
 [!DNL <s7viewers_root>/html5/eCatalogSearchViewer.html]
 
@@ -112,7 +112,7 @@ Här följer ett exempel på HTML som öppnar visningsprogrammet i ett nytt fön
 <a href="https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&serverUrl=https://s7d9.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&contenturl=https://s7d9.scene7.com/skins/&asset=Viewers/Pluralist&searchserverurl=https://s7search1.scene7.com/s7search/" target="_blank">Open pop-up viewer</a>
 ```
 
-**Om inbäddningsläge med fast storlek och responsivt designinbäddningsläge**
+**Om inbäddningsläge med fast storlek och inbäddningsläge för responsiv design**
 
 I det inbäddade läget läggs visningsprogrammet till på den befintliga webbsidan, som kanske redan har kundinnehåll som inte är relaterat till visningsprogrammet. Visningsprogrammet tar normalt bara upp en del av en webbsidas fastighet.
 
@@ -120,24 +120,24 @@ De viktigaste användningsområdena är webbsidor som är orienterade för dator
 
 Inbäddning med fast storlek används när visningsprogrammet inte ändrar sin storlek efter den första inläsningen. Det här är det bästa alternativet för webbsidor som har en statisk layout.
 
-Inbäddning av responsiv design förutsätter att visningsprogrammet kan behöva ändra storlek vid körning som svar på storleksändringen av behållaren `DIV`. Det vanligaste användningsområdet är att lägga till ett visningsprogram på en webbsida som använder en flexibel sidlayout.
+Inbäddning av responsiv design förutsätter att visningsprogrammet kan behöva ändra storlek vid körning som svar på storleksändringen för behållaren `DIV`. Det vanligaste användningsområdet är att lägga till ett visningsprogram på en webbsida som använder en flexibel sidlayout.
 
-I läget responsiv designinbäddning beter sig visningsprogrammet olika beroende på hur webbsidan ändrar storlek på sin behållare `DIV`. Om webbsidan bara anger behållarens bredd `DIV`, utan att begränsa höjden, väljer visningsprogrammet automatiskt höjden enligt proportionerna för den resurs som används. Med den här funktionen kan du vara säker på att resursen passar perfekt in i vyn utan utfyllnad på sidorna. Det här användningsexemplet är det vanligaste för webbsidor som använder responsiva layoutramverk som Bootstrap, Foundation och så vidare.
+I läget responsiv designinbäddning beter sig visningsprogrammet olika beroende på hur webbsidan ändrar storleken på behållaren `DIV`. Om webbsidan bara anger bredden på behållaren `DIV`, och dess höjd inte begränsas, väljer visningsprogrammet automatiskt höjden enligt proportionerna för resursen som används. Med den här funktionen kan du vara säker på att resursen passar perfekt in i vyn utan utfyllnad på sidorna. Det här användningsexemplet är det vanligaste för webbsidor som använder responsiva layoutramverk som Bootstrap, Foundation och så vidare.
 
-I annat fall, om webbsidan anger både bredd och höjd för visningsprogrammets behållare `DIV`, fyller visningsprogrammet bara det området och följer den storlek som webbsidans layout ger. Ett bra exempel är att bädda in visningsprogrammet i en modal övertäckning, där storleken på övertäckningen anpassas efter webbläsarens fönsterstorlek.
+Om webbsidan ställer in både bredd och höjd för visningsprogrammets behållare `DIV` fyller visningsprogrammet bara det området och följer den storlek som anges i webbsidans layout. Ett bra exempel är att bädda in visningsprogrammet i en modal övertäckning, där storleken på övertäckningen anpassas efter webbläsarens fönsterstorlek.
 
 **Inbäddning med fast storlek**
 
 Du lägger till visningsprogrammet på en webbsida genom att göra följande:
 
-1. Lägga till JavaScript-filen för visningsprogrammet på webbsidan.
+1. Lägga till visningsprogrammets JavaScript-fil på webbsidan.
 1. Definierar behållar-DIV.
 1. Anger visningsprogrammets storlek.
 1. Skapa och initiera visningsprogrammet.
 
-1. Lägga till JavaScript-filen för visningsprogrammet på webbsidan.
+1. Lägga till visningsprogrammets JavaScript-fil på webbsidan.
 
-   Om du vill skapa ett visningsprogram måste du lägga till en script-tagg i huvudet HTML. Innan du kan använda visningsprogrammets API måste du se till att du inkluderar [!DNL eCatalogSearchViewer.js]. The [!DNL eCatalogSearchViewer.js] filen finns under [!DNL html5/js/] undermapp till din standarddistribution av IS-Viewer:
+   Om du vill skapa ett visningsprogram måste du lägga till en script-tagg i huvudet HTML. Innan du kan använda visningsprogrammets API måste du ta med [!DNL eCatalogSearchViewer.js]. Filen [!DNL eCatalogSearchViewer.js] finns under undermappen [!DNL html5/js/] i din standarddistribution av IS-Viewer:
 
 [!DNL <s7viewers_root>/html5/js/eCatalogSearchViewer.js]
 
@@ -153,7 +153,7 @@ Den relativa sökvägen ser ut så här:
 
    Lägg till ett tomt DIV-element på sidan där du vill att visningsprogrammet ska visas. DIV-elementet måste ha sitt ID definierat eftersom detta ID skickas senare till visningsprogrammets API.
 
-   Platshållarens DIV är ett positionerat element, vilket innebär att `position` CSS-egenskapen är inställd på `relative` eller `absolute`.
+   Platshållarens DIV är ett placerat element, vilket innebär att CSS-egenskapen `position` är inställd på `relative` eller `absolute`.
 
    Följande är ett exempel på ett definierat DIV-platshållarelement:
 
@@ -163,11 +163,11 @@ Den relativa sökvägen ser ut så här:
 
 1. Ange visningsprogrammets storlek
 
-   Du kan ange den statiska storleken för visningsprogrammet genom att deklarera det för `.s7ecatalogsearchviewer` CSS-klass på översta nivån i absoluta enheter, eller med `stagesize` modifierare.
+   Du kan ange den statiska storleken för visningsprogrammet genom att antingen deklarera den för CSS-klassen `.s7ecatalogsearchviewer` på den översta nivån i absoluta enheter eller genom att använda modifieraren `stagesize`.
 
    Du kan ange storlek i CSS direkt på HTML-sidan eller i en anpassad CSS-fil för visningsprogrammet, som sedan tilldelas en post för visningsförinställningar i Dynamic Media Classic, eller skickas explicit med ett formatkommando.
 
-   Se [Anpassa eCatalog Viewer](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) om du vill ha mer information om hur du formaterar visningsprogrammet med CSS.
+   Mer information om hur du formaterar visningsprogrammet med CSS finns i [Anpassa visningsprogrammet för eCatalog](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0).
 
    Följande är ett exempel på hur du definierar en statisk visningsstorlek på HTML-sidan:
 
@@ -178,7 +178,7 @@ Den relativa sökvägen ser ut så här:
    }
    ```
 
-   Du kan ange `stagesize` modifiera antingen i posten för visningsförinställning i Dynamic Media Classic, eller skicka den explicit med startkoden för visningsprogrammet med `params` samling, eller som ett API-anrop enligt beskrivningen i avsnittet Kommandoreferens, enligt följande:
+   Du kan ställa in modifieraren `stagesize` antingen i visningsprogrammets förinställningspost i Dynamic Media Classic, eller skicka den explicit med initieringskoden för visningsprogrammet med samlingen `params`, eller som ett API-anrop enligt beskrivningen i avsnittet Kommandoreferens, enligt följande:
 
    ```html {.line-numbers}
    eCatalogSearchViewer.setParam("stagesize", 
@@ -187,13 +187,13 @@ Den relativa sökvägen ser ut så här:
 
 1. Initierar visningsprogrammet.
 
-   När du har slutfört stegen ovan skapar du en instans av `s7viewers.eCatalogSearchViewer` -klass, skicka all konfigurationsinformation till konstruktorn och anropa `init()` -metod i en visningsprograminstans. Konfigurationsinformation skickas till konstruktorn som ett JSON-objekt. Det här objektet har minst `containerId` fält som innehåller namnet på visningsprogrammets behållar-ID och kapslat `params` JSON-objekt med konfigurationsparametrar som stöds av visningsprogrammet. I det här fallet `params` objektet måste ha minst URL för bildserver som skickas som `serverUrl` och den ursprungliga tillgången som `asset` parameter. Med JSON-baserat initierings-API kan du skapa och starta visningsprogrammet med en enda kodrad.
+   När du har slutfört stegen ovan skapar du en instans av klassen `s7viewers.eCatalogSearchViewer`, skickar all konfigurationsinformation till konstruktorn och anropar metoden `init()` för en visningsprograminstans. Konfigurationsinformation skickas till konstruktorn som ett JSON-objekt. Det här objektet har åtminstone fältet `containerId` som innehåller namnet på visningsbehållar-ID och det kapslade JSON-objektet `params` med konfigurationsparametrar som stöds av visningsprogrammet. I det här fallet måste objektet `params` ha minst URL:en för bildservrar som skickas som egenskapen `serverUrl` och den ursprungliga resursen som parametern `asset`. Med JSON-baserat initierings-API kan du skapa och starta visningsprogrammet med en enda kodrad.
 
-   Det är viktigt att lägga till visningsprogrambehållaren i DOM så att visningsprogramkoden kan hitta behållarelementet med dess ID. I vissa webbläsare fördröjs skapandet av DOM tills webbsidan är slut. För maximal kompatibilitet kan du dock anropa `init()` metod precis före stängning `BODY` eller på brödtexten `onload()` -händelse.
+   Det är viktigt att lägga till visningsprogrambehållaren i DOM så att visningsprogramkoden kan hitta behållarelementet med dess ID. I vissa webbläsare fördröjs skapandet av DOM tills webbsidan är slut. För maximal kompatibilitet anropar du emellertid metoden `init()` precis före den avslutande `BODY` -taggen eller på body `onload()` -händelsen.
 
-   På samma sätt bör behållarelementet inte nödvändigtvis vara en del av webbsidans layout just nu. Den kan till exempel vara dold med `display:none` format som tilldelats det. I det här fallet skjuter visningsprogrammet upp initieringsprocessen tills webbsidan återför behållarelementet till layouten. När detta inträffar återgår visningsprogrammet automatiskt.
+   På samma sätt bör behållarelementet inte nödvändigtvis vara en del av webbsidans layout just nu. Den kan till exempel vara dold med formatet `display:none` som tilldelats den. I det här fallet skjuter visningsprogrammet upp initieringsprocessen tills webbsidan återför behållarelementet till layouten. När detta inträffar återgår visningsprogrammet automatiskt.
 
-   Följande är ett exempel på hur du skapar en visningsprograminstans, skickar de minsta nödvändiga konfigurationsalternativen till konstruktorn och anropar `init()` -metod. Exemplet förutsätter `eCatalogSearchViewer` är visningsprograminstansen, `s7viewer` är namnet på platshållaren `DIV`; `https://s7d1.scene7.com/is/image/` är webbadressen för bildvisning, och `Viewers/Pluralist` är tillgången:
+   Följande är ett exempel på hur du skapar en visningsprograminstans, skickar de minsta nödvändiga konfigurationsalternativen till konstruktorn och anropar metoden `init()`. Exemplet förutsätter att `eCatalogSearchViewer` är visningsprograminstansen; `s7viewer` är namnet på platshållaren `DIV`; `https://s7d1.scene7.com/is/image/` är URL:en för bildhantering och `Viewers/Pluralist` är resursen:
 
    ```html {.line-numbers}
    <script type="text/javascript"> 
@@ -240,7 +240,7 @@ Den relativa sökvägen ser ut så här:
 
 **Responsiv designinbäddning med obegränsad höjd**
 
-Med responsiv designinbäddning har webbsidan normalt någon typ av flexibel layout som bestämmer visningsprogrammets körningsstorlek `DIV`. I det här exemplet antar du att webbsidan tillåter visningsprogrammets behållare `DIV` för att ta 40 % av webbläsarens fönsterstorlek och låta dess höjd vara obegränsad. Den resulterande webbsidans HTML-kod ser ut så här:
+Med responsiv designinbäddning har webbsidan vanligtvis någon typ av flexibel layout på plats som bestämmer körningsstorleken för visningsprogrammets behållare `DIV`. I det här exemplet antar du att webbsidan tillåter att visningsprogrammets behållare `DIV` tar 40 % av webbläsarens fönsterstorlek, och lämnar dess höjd obegränsad. Den resulterande webbsidans HTML-kod ser ut så här:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -260,11 +260,11 @@ Med responsiv designinbäddning har webbsidan normalt någon typ av flexibel lay
 
 Att lägga till visningsprogrammet på en sådan sida liknar inbäddning med fast storlek, men den enda skillnaden är att du inte behöver definiera visningsprogrammets storlek explicit.
 
-1. Lägga till JavaScript-filen för visningsprogrammet på webbsidan.
+1. Lägga till visningsprogrammets JavaScript-fil på webbsidan.
 1. Definierar behållar-DIV.
 1. Skapa och initiera visningsprogrammet.
 
-Alla stegen ovan är desamma som vid inbäddning med fast storlek. Lägg till behållaren `DIV` till den befintliga &quot; innehavaren&quot; `DIV`. Följande kod är ett komplett exempel. Du kan se hur visningsprogrammets storlek ändras när webbläsarens storlek ändras och hur visningsprogrammets proportioner matchar resursen.
+Alla stegen ovan är desamma som vid inbäddning med fast storlek. Lägg till behållaren `DIV` i den befintliga &quot;-hållaren&quot; `DIV`. Följande kod är ett komplett exempel. Du kan se hur visningsprogrammets storlek ändras när webbläsarens storlek ändras och hur visningsprogrammets proportioner matchar resursen.
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -297,11 +297,11 @@ var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({
 
 Följande exempelsida visar mer verkliga användningsområden för responsiv designinbäddning med obegränsad höjd:
 
-[Live Demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+[Livedemonstrationer](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-**Flexibel storleksinbäddning med definierad bredd och höjd**
+**Bädda in flexibel storlek med angiven bredd och höjd**
 
-Vid flexibel inbäddning med bredd och höjd är webbsidans format annorlunda. Det innebär att båda storlekarna kan anges för &quot; hållaren&quot; `DIV` och centrerar det i webbläsarfönstret. Dessutom anger webbsidan storleken på `HTML` och `BODY` till 100 %:
+Vid flexibel inbäddning med bredd och höjd är webbsidans format annorlunda. Det innebär att den ger både storlekar för &quot; hållaren&quot; `DIV` och centrerar den i webbläsarfönstret. Webbsidan anger också storleken på elementen `HTML` och `BODY` till 100 %:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -368,7 +368,7 @@ var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({
 
 **Bädda in med Setter-baserat API**
 
-I stället för att använda JSON-baserad initiering är det möjligt att använda set-based API och no-args-konstruktor. Med denna API-konstruktor tar inga parametrar och konfigurationsparametrar anges med `setContainerId()`, `setParam()`och `setAsset()` API-metoder med separata JavaScript-anrop.
+I stället för att använda JSON-baserad initiering är det möjligt att använda set-based API och no-args-konstruktor. Med den API-konstruktorn tar inga parametrar och konfigurationsparametrar anges med API-metoderna `setContainerId()`, `setParam()` och `setAsset()` med separata JavaScript-anrop.
 
 I följande exempel visas inbäddning med fast storlek med set-based API:
 

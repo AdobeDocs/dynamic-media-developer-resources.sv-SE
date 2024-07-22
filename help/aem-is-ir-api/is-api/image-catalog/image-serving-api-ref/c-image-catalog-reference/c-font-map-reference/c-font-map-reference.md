@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: b04e89ee-ae69-41c0-bd62-0929d21980c0
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Poster i teckensnittskartan för en viss bildkatalog åsidosätter poster i teck
 
 Image Serving har stöd för Adobe Type 1, OpenType och TrueType-teckensnitt.
 
-`textPs=` stöder även CID-, ATC- och bitmappsteckensnitt.
+`textPs=` har även stöd för CID-, ATC- och bitmappsteckensnitt.
 
 * [Fet](r-bold-font.md)
 * [FontPath](r-fontpath-font.md)

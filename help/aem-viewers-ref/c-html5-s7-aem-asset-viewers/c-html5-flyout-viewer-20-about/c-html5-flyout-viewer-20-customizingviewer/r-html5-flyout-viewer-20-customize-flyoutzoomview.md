@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: c04c4b8f-4e63-4e84-98c0-aa0781608130
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -68,11 +68,11 @@ Utseendet på den utfällbara vyn styrs av följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vänster </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kvar </span> </p> </td> 
    <td colname="col2"> <p> Den utfällbara vyns vågräta position i förhållande till huvudvyns övre vänstra hörn. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p> Den utfällbara vyns lodräta position i förhållande till huvudvyns övre vänstra hörn. </p> </td> 
   </tr> 
   <tr> 
@@ -84,7 +84,7 @@ Utseendet på den utfällbara vyn styrs av följande CSS-klassväljare:
    <td colname="col2"> <p>Höjden på den utfällbara vyn. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kant </span> </p> </td> 
    <td colname="col2"> <p>Den utfällbara vyns kantlinje. </p> </td> 
   </tr> 
  </tbody> 
@@ -125,10 +125,10 @@ Det går att styra attribut för bakgrund, kant, genomskinlighet och liknande me
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> opacitet </span> </p> </td> 
-   <td colname="col2"> <p> Högdageropacitet. </p> <p>För Internet Explorer 8, använd <span class="codeph"> filter:alpha(opacity-...) ); </span> </p> </td> 
+   <td colname="col2"> <p> Markera opacitet. </p> <p>Använd <span class="codeph"> filter:alpha(opacity-...) ); </span> för Internet Explorer 8. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kant </span> </p> </td> 
    <td colname="col2"> <p>Kantmarkeringen. </p> </td> 
   </tr> 
  </tbody> 
@@ -147,7 +147,7 @@ Exempel - för att ställa in grön högdager med 40 % genomskinlighet och en r�
 
 **CSS-egenskaper för markören**
 
-När `highlightmode` parametern är inställd på `cursor`, markeringen i huvudvyn ersätts med en markörteckning med fast storlek som styrs av CSS-klassväljaren:
+När parametern `highlightmode` är inställd på `cursor` ersätts markeringen i huvudvyn med en markörteckning med fast storlek, som styrs av CSS-klassväljaren:
 
 ```
  .s7flyoutviewer .s7flyoutzoomview 
@@ -172,22 +172,22 @@ Tillämpliga CSS-egenskaper är:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Markörbredd. </p> </td> 
+   <td colname="col2"> <p>Markörens bredd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Markörhöjd. </p> </td> 
+   <td colname="col2"> <p>Markörens höjd. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Markören har stöd för `input` attributväljare, som kan användas för att använda olika markörteckningar och storlekar för olika enheter. I synnerhet `input="mouse"` motsvarar datorsystemen och `input="touch"` motsvarar touchenheterna.
+>Markören stöder attributväljaren `input` som kan användas för att tillämpa olika markörteckningar och storlekar för olika enheter. `input="mouse"` motsvarar i synnerhet datorsystemen och `input="touch"` motsvarar touchenheterna.
 
 **CSS-egenskaper för övertäckningen**
 
-När `overlay` parametern är inställd på `1`, styrs området runt markeringsramen eller markörbilden med CSS-klassväljaren:
+När parametern `overlay` är inställd på `1` styrs området runt markeringsramen eller markörbilden med CSS-klassväljaren:
 
 ```
  .s7flyoutviewer .s7flyoutzoomview 
@@ -221,7 +221,7 @@ Utseendet på tipsmeddelandet styrs av följande CSS-klassväljare:
 .s7flyoutviewer .s7flyoutzoomview .s7tip
 ```
 
-Det går att konfigurera teckensnittsstil, storlek, utseende och lodrät förskjutning via CSS. Den vågräta justeringen hanteras emellertid av visningsprogrammets logik. Åsidosätta den via CSS med `left` eller `right` egenskaper stöds inte.
+Det går att konfigurera teckensnittsstil, storlek, utseende och lodrät förskjutning via CSS. Den vågräta justeringen hanteras emellertid av visningsprogrammets logik. Det går inte att åsidosätta den via CSS med egenskaperna `left` eller `right`.
 
 <table id="table_DCF6B69A9D8C4DB7A10C4572F7484799"> 
  <thead> 
@@ -241,7 +241,7 @@ Det går att konfigurera teckensnittsstil, storlek, utseende och lodrät förskj
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>Teckensnittsnamn. </p> </td> 
+   <td colname="col2"> <p>Typsnittsnamn. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
@@ -257,16 +257,16 @@ Det går att konfigurera teckensnittsstil, storlek, utseende och lodrät förskj
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
-   <td colname="col2"> <p>Meddelandetextens kantradie i bakgrunden. </p> </td> 
+   <td colname="col2"> <p>Meddelandetextens bakgrundskantradie. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> opacitet </span> </p> </td> 
-   <td colname="col2"> <p>Meddelandetextens bakgrundsopacitet. </p> <p>För Internet Explorer 8, använd <span class="codeph"> filter:alpha(opacity-..) ) </span> </p> </td> 
+   <td colname="col2"> <p>Meddelandetextens bakgrundsopacitet. </p> <p>Använd <span class="codeph"> filter:alpha(opacity-..) </span> för Internet Explorer 8. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Tipsmeddelandet kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) för mer information.
+Tipsmeddelandet kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27).
 
 Exempel - Om du vill ställa in ett halvgenomskinligt tips med vitt Arial® 12-px-teckensnitt, förskjuts 50 pixlar från huvudvyns nederkant, utfyllnad och en rundad kant:
 

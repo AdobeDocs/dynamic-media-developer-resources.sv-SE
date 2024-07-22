@@ -1,5 +1,5 @@
 ---
-description: Det här avsnittet innehåller information om hantering av materialkataloger och källdata.
+description: Det här avsnittet innehåller information om hur du hanterar materialkataloger och källdata.
 solution: Experience Manager
 title: Hantera innehåll
 feature: Dynamic Media Classic,SDK/API
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # Hantera innehåll{#managing-content}
 
-Det här avsnittet innehåller information om hantering av materialkataloger och källdata.
+Det här avsnittet innehåller information om hur du hanterar materialkataloger och källdata.

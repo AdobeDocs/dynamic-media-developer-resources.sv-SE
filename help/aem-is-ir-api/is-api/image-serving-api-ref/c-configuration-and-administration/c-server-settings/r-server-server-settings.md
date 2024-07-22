@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: 10970ca8-b209-4adf-b027-6eb8d7a15db6
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ Både en 32- och en 64-bitarsversion av Image Server finns för Linux. Ange Imag
 >
 >64-bitarsläge stöds inte i Windows. Endast `ImageServer32` kan anges. I annat fall startar inte Image Serving.
 
-## SV::PSHeapSize - [!DNL Platform Server] Heap-storlek {#section-fd83715948764aeda58d6b3a9f9f8be9}
+## SV::PSHeapSize - [!DNL Platform Server] stackstorlek {#section-fd83715948764aeda58d6b3a9f9f8be9}
 
-Java-stackstorleken för [!DNL Platform Server]. Standardvärdet är `512m`&quot; (512 MB).
+Java-stackstorleken för [!DNL Platform Server]. Standardvärdet är `512m` (512 MB).
 
 ## IS::TcpPort, PS::isConnection.port - Image Server Listening Port {#section-5421bfd2ca2a4a979faf812b6fdb2887}
 

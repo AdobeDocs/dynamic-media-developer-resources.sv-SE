@@ -18,7 +18,7 @@ Använd de här serverinställningarna för att konfigurera övervaknings- och v
 
 ## AS::monitorAlertGenerator.enableGlobalAlerting - Aktivera varningssystemet {#section-612f8ea61794426ab205e22e5f665fa9}
 
-Aktivera e-postmeddelanden genom att ange true och konfigurera inställningarna för e-postmeddelanden. Inställning till `false` stänger av alla e-postaviseringar - det kan vara användbart när en server är offline för att underhållas. Boolean.
+Aktivera e-postmeddelanden genom att ange true och konfigurera inställningarna för e-postmeddelanden. Om du anger `false` inaktiveras alla e-postaviseringar. Det kan vara användbart om du tar en server offline för underhåll. Boolean.
 
 ## AS::mailSender.host - SMTP Host {#section-151df07e7b44446581339bb7abeeba7a}
 
@@ -34,7 +34,7 @@ En eller flera e-postadresser dit aviseringar ska skickas. Använd semikolon som
 
 ## AS::monitorAlertGenerator.messageFrom - meddelandeavsändare {#section-db320cba4ac2438ca1cfe6abce4aed87}
 
-E-postadressen som ska användas i **[!UICONTROL From]** e-postfält.
+E-postadressen som ska användas i e-postfältet **[!UICONTROL From]**.
 
 ## AS::monitorAlertGenerator.alertInterval - övervakningsintervall {#section-99cb2e3380c1499e9d5aec3671ed73c7}
 

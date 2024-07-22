@@ -1,5 +1,5 @@
 ---
-description: Dessa kommandon gäller för bild-, text- och enfärgslager. De är också användbara för sammansatta bilder och enkla, icke-lageruppbyggda bildförfrågningar.
+description: Dessa kommandon gäller för bild, text och enfärgade lager. De är också användbara för sammansatta bilder och enkla, icke-lageruppbyggda bildförfrågningar.
 solution: Experience Manager
 title: Vanliga åtgärder
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: f30a9653-7aed-4233-8361-18ca6561d420
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
 
 # Vanliga åtgärder{#common-operations}
 
-Dessa kommandon gäller för bild-, text- och enfärgslager. De är också användbara för sammansatta bilder och enkla, icke-lageruppbyggda bildförfrågningar.
+Dessa kommandon gäller för bild, text och enfärgade lager. De är också användbara för sammansatta bilder och enkla, icke-lageruppbyggda bildförfrågningar.
 
 <table id="simpletable_996969D618C94BE8B81FAED512B5B7BA"> 
  <tr class="strow"> 
@@ -62,8 +62,8 @@ Dessa kommandon gäller för bild-, text- och enfärgslager. De är också anvä
   <td class="stentry"> <p>Använder oskarp maskering. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-flip.md#reference-f8568a61b77c41569d382a3147964ce3" type="reference" format="dita" scope="local"> vända</a> </p></td> 
-  <td class="stentry"> <p>Vänder lagret vågrätt och/eller lodrätt. </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-flip.md#reference-f8568a61b77c41569d382a3147964ce3" type="reference" format="dita" scope="local"> vänd </a> </p></td> 
+  <td class="stentry"> <p>Vänder lagret horisontellt och/eller vertikalt. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096" type="reference" format="dita" scope="local"> rotera</a> </p></td> 
@@ -78,7 +78,7 @@ Dessa kommandon gäller för bild-, text- och enfärgslager. De är också anvä
   <td class="stentry"> <p>Anger klippformer för lagret. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clipxpath.md#reference-17e5e4da3e044943af8f963f58a45f53" type="reference" format="dita" scope="local"> clipXPath</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clipxpath.md#reference-17e5e4da3e044943af8f963f58a45f53" type="reference" format="dita" scope="local"> clipXPath </a> </p></td> 
   <td class="stentry"> <p>Anger inverterade klippformer för lagret. </p></td> 
  </tr> 
 </table>

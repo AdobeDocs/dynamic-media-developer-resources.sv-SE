@@ -26,4 +26,4 @@ Syntax
 | [!DNL resolution] | `xsd:double` | Bildupplösning i pixlar per tum. |
 | [!DNL anchorX] | `xsd:int` | Bildankarpunkt för X-axel. |
 | [!DNL anchorY] | `xsd:int` | Bildankarpunkt för Y-axel. |
-| [!DNL userData] | `xsd:string` | Värdet för `userData` metadatafält, som publiceras till den bild som används i katalogfältet för användardata. |
+| [!DNL userData] | `xsd:string` | Värdet för metadatafältet `userData`, som publiceras till avbildningen som används i katalogfältet för användardata. |

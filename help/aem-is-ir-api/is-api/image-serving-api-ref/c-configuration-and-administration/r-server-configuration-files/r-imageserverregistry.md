@@ -52,4 +52,4 @@ Följande visar vilka element som kan ändras. Det finns andra element som inte 
 
 ## Anteckningar {#section-7217f011f69f41e7af4f3983d7776d6f}
 
-Flera `<RootPath>` -element kan finnas (ett för varje källdatamapp). Image Server söker igenom rotsökvägarna i den ordning som anges för att hitta en viss källfil.
+Flera `<RootPath>` element kan finnas (ett för varje källdatamapp). Image Server söker igenom rotsökvägarna i den ordning som anges för att hitta en viss källfil.

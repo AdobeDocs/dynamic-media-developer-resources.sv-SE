@@ -16,13 +16,13 @@ ht-degree: 0%
 
 För avancerade program är det möjligt att använda resultatet av en återgivningsåtgärd som en materialbild, precis som en bild som hämtats från bildservern.
 
-En renderingsbegäran kan användas som en materialbild genom att ange den i `src=` enligt följande:
+En återgivningsbegäran kan användas som en materialbild genom att ange den i kommandot `src=` enligt följande:
 
 ` …&src=ir{ *[!DNL renderRequest]*}&…`
 
-The `ir` är skiftlägeskänslig.
+Token `ir` är skiftlägeskänslig.
 
-Den kapslade begäran får inte innehålla rotsökvägen för bildåtergivning (vanligtvis `http:// *[!DNL server]*/ir/render/'`), men kan inkludera förbearbetningsregeltoken.
+Den kapslade begäran får inte innehålla rotsökvägen för bildåtergivning (vanligtvis `http:// *[!DNL server]*/ir/render/'`), men kan innehålla förbearbetningsregeltoken.
 
 Följande kommandon ignoreras när de anges i kapslade begäranden (antingen i begäran-URL:en eller i `catalog::Modifier` eller `catalog::PostModifier`):
 
@@ -34,6 +34,6 @@ Följande kommandon ignoreras när de anges i kapslade begäranden (antingen i b
 * `req=`
 * `bgc=`
 
-Även ignorerade `attribute::MaxPix` och `attribute::DefaultPix` för den materialkatalog som gäller för den kapslade återgivningsbegäran.
+`attribute::MaxPix` och `attribute::DefaultPix` av materialkatalogen som gäller för den kapslade återgivningsbegäran ignoreras också.
 
-Bildresultatet av en kapslad IR-begäran kan cachelagras genom att inkludera `cache=on`. Som standard är cachelagring av mellanliggande data inaktiverad. Cachelagring bör endast aktiveras när den mellanliggande bilden återanvänds i en annan begäran inom en rimlig tidsperiod. Standardhantering av cache på serversidan gäller. Data cachelagras i ett icke-förstörande format.
+Bildresultatet av en kapslad IR-begäran kan cachelagras genom att inkludera `cache=on`. Som standard är cachelagring av mellanliggande data inaktiverad. Cachelagring bör endast aktiveras när den mellanliggande bilden återanvänds i en annan begäran inom en rimlig tidsperiod. Standardhantering av cacheminnet på serversidan gäller. Data cachelagras i ett förlustfritt format.

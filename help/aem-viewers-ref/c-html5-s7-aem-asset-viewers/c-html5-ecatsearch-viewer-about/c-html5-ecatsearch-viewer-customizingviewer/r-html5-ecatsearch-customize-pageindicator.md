@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 38241e96-ee7f-4dc1-a2a6-4a76e25b00dc
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '256'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Indikatorn för utseendesidan styrs med följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p>Placera från huvudkontrollfältets övre kant (på stationära datorer och surfplattor) eller sekundära kontrollfält (på mobiltelefoner), inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
@@ -37,7 +37,7 @@ Indikatorn för utseendesidan styrs med följande CSS-klassväljare:
    <td colname="col2"> <p>Placera från höger kant på huvudkontrollfältet (på stationära datorer och surfplattor) eller sekundärt kontrollfält (på mobiltelefoner), inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vänster </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kvar </span> </p> </td> 
    <td colname="col2"> <p>Placera från vänster kant på huvudkontrollfältet (på stationära datorer och surfplattor) eller sekundärt kontrollfält (på mobiltelefoner), inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
@@ -58,7 +58,7 @@ Indikatorn för utseendesidan styrs med följande CSS-klassväljare:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>Teckensnittsnamn. </p> </td> 
+   <td colname="col2"> <p>Typsnittsnamn. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 

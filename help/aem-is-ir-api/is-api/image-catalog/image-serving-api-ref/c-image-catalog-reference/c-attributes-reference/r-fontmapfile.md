@@ -1,5 +1,5 @@
 ---
-description: Sökväg till fil för teckensnittskarta. Anger filen som innehåller teckensnittskartan för den här bildkatalogen.
+description: Sökväg till teckensnittskarta. Anger filen som innehåller teckensnittskartan för den här bildkatalogen.
 solution: Experience Manager
 title: FontMapFile
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # FontMapFile{#fontmapfile}
 
-Sökväg till fil för teckensnittskarta. Anger filen som innehåller teckensnittskartan för den här bildkatalogen.
+Sökväg till teckensnittskarta. Anger filen som innehåller teckensnittskartan för den här bildkatalogen.
 
 ## Egenskaper {#section-e88a0caab57542c598f57fa0e88dd254}
 

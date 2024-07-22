@@ -39,7 +39,7 @@ IPS API returnerar inget svar för den här åtgärden.
 
 ## Exempel {#section-cf319fc8f86a40ab9cbd838b031973fe}
 
-I det här kodexemplet används uppsättningens handtag som ett fält i `deletePropertySetParam` skickas till IPS-webbtjänstservern för att egenskapsuppsättningen ska kunna tas bort.
+Det här kodexemplet använder uppsättningens referens som ett fält i `deletePropertySetParam` som skickas till IPS Web services-servern för att ta bort egenskapsuppsättningen.
 
 **Begäran**
 

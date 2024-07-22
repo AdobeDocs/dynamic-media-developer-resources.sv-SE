@@ -24,84 +24,84 @@ Bildkataloger har följande funktioner:
 * Ange standardvärden för vissa attribut, t.ex. JPEG-kvalitet eller om en vattenstämpel ska användas.
 * Hantera teckensnitt, ICC-profiler, makrodefinitioner och frågemallar
 
-Även om inga specifika bildkataloger är definierade är alla funktioner i bildkataloger tillgängliga som standardkatalog ( [!DNL default.ini]).
+Även om inga specifika bildkataloger har definierats är alla funktioner i bildkataloger tillgängliga som standardkatalog ( [!DNL default.ini]).
 
-If `*`rootId`*` i begärans URL-sökväg matchar `attribute::RootId` för en viss bildkatalog blir den katalogen huvudkatalog för denna begäran. Huvudkatalogen innehåller standardattribut och standardinställningar för hela begäran. Om ingen matchning hittas används standardkatalogen i stället.
+Om `*`rootId`*` i URL-sökvägen för begäran matchar `attribute::RootId` för en viss bildkatalog blir den katalogen huvudkatalog för den här begäran. Huvudkatalogen innehåller standardattribut och standardinställningar för hela begäran. Om ingen matchning hittas används standardkatalogen i stället.
 
-En katalog som identifieras i en `src=` eller `mask=` -kommandot innehåller följande katalogattribut och data till det aktuella lagret:
+En katalog som identifieras i ett `src=`- eller `mask=`-kommando innehåller följande katalogattribut och data till det aktuella lagret:
 
 <table id="table_D3FA66EA5D054745900DE5A120885AA8"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> Attribut/data</b> </th> 
-   <th class="entry"> <b> Anteckningar</b> </th> 
+   <th class="entry"> <b> Attribut/data </b> </th> 
+   <th class="entry"> <b> anteckningar</b> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> attribute::DefaultExt</span> </p> </td> 
+   <td> <p> <span class="codeph">-attribut::DefaultExt</span> </p> </td> 
    <td> <p> standardtillägget för alla bildfilsbanor i aktuellt lager </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> attribute::Expiration</span> </p> </td> 
-   <td> <p> standard för <span class="codeph"> katalog::Förfallotid</span> eller utgångsdatum för aktuellt lager om ingen katalogpost är inblandad </p> </td> 
+   <td> <p> <span class="codeph">-attribut::Förfallotid</span> </p> </td> 
+   <td> <p> standard för <span class="codeph">-katalog::Förfallodatum</span> eller utgångsdatum för det aktuella lagret om ingen katalogpost är inblandad </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> attribute::Icc*</span> </p> </td> 
+   <td> <p> <span class="codeph">-attribut::Icc*</span> </p> </td> 
    <td> <p> den aktuella ICC-färgprofilen, återgivningsmetoden och svartpunktskompensationsflaggan för begäran och/eller det aktuella lagret </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> attribute::RootPath</span> </p> </td> 
+   <td> <p> <span class="codeph">-attribut::RootPath</span> </p> </td> 
    <td> <p> används för alla källfilssökvägar i det aktuella lagret </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> attribute::Resolution</span> </p> </td> 
-   <td> <p> standard för <span class="codeph"> katalog::Upplösning</span> endast </p> </td> 
+   <td> <p> <span class="codeph">-attribut::Upplösning</span> </p> </td> 
+   <td> <p> standard för katalogen <span class="codeph">::Endast upplösning</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> katalog::Ankarpunkt</span> </p> </td> 
-   <td> <p> standard för <span class="codeph"> anchor=</span> det aktuella lagrets värde </p> </td> 
+   <td> <p> <span class="codeph">-katalog::Anchor</span> </p> </td> 
+   <td> <p> standard för värdet <span class="codeph"> anchor=</span> för det aktuella lagret </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> katalog::Förfallotid</span> </p> </td> 
+   <td> <p> <span class="codeph">-katalog::Förfaller</span> </p> </td> 
    <td> <p> det minsta utgångsvärdet för alla lager används som svarsbildens time-to-live-värde </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> katalog::IccProfile</span> </p> </td> 
+   <td> <p> <span class="codeph">-katalog::IccProfile</span> </p> </td> 
    <td> <p> källbildens färgprofil för aktuellt lager </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> katalog::Map</span> </p> </td> 
+   <td> <p> <span class="codeph">-katalog::Map</span> </p> </td> 
    <td> <p> bildmappningsdata för det aktuella lagret </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> katalog::MaskPath</span> </p> </td> 
+   <td> <p> <span class="codeph">-katalog::MaskPath</span> </p> </td> 
    <td> <p> standard för <span class="codeph"> mask=</span> för aktuellt lager </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> katalog::Modifier</span> </p> </td> 
-   <td> <p> prefixkommandon för det aktuella lagret (varje kommando i <span class="codeph"> katalog::Modifier</span> kan åsidosättas av samma kommando i URL:en, om det anges för samma lager) </p> </td> 
+   <td> <p> <span class="codeph">-katalog::Modifier</span> </p> </td> 
+   <td> <p> prefixkommandon för det aktuella lagret (varje kommando i <span class="codeph">-katalogen::Modifier</span> kan åsidosättas av samma kommando i URL:en, om det anges för samma lager) </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> katalog::Path</span> </p> </td> 
+   <td> <p> <span class="codeph">-katalog::Path</span> </p> </td> 
    <td> <p> källbildfilen för aktuellt lager </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> katalog::PostModifier</span> </p> </td> 
-   <td> <p> postfix-kommandon för det aktuella lagret (liknar <span class="codeph"> katalog::Modifier</span>, men kommandon i <span class="codeph"> katalog::PostModifier</span> åsidosätta samma kommandon som anges i URL:en eller i <span class="codeph"> katalog::Modifier</span>) </p> </td> 
+   <td> <p> <span class="codeph">-katalog::PostModifier</span> </p> </td> 
+   <td> <p> postfix-kommandon för det aktuella lagret (liknar <span class="codeph">-katalog::Modifier</span>, men kommandon i <span class="codeph">-katalog::PostModifier</span> åsidosätter samma kommandon som anges i URL:en eller i <span class="codeph">-katalog::Modifier</span>) </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> katalog::Upplösning</span> </p> </td> 
+   <td> <p> <span class="codeph">-katalog::Upplösning</span> </p> </td> 
    <td> <p> objektupplösningen för det aktuella lagret </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Inom samma lager `src=` och `mask=` måste referera till samma bildkatalog (om sådan finns).
+I samma lager måste `src=` och `mask=` referera till samma bildkatalog (om någon).
 
-En katalog som identifieras i en `icc=` -kommandot används bara för att söka efter en post från katalogens ICC-profiltabell. Inga andra katalogattribut eller data berörs.
+En katalog som identifieras i ett `icc=`-kommando används bara för att leta upp en post från katalogens ICC-profiltabell. Inga andra katalogattribut eller data berörs.
 
-If, `*`rootId`*` matchar en katalog, och `*`objId`*` matchas med `catalog::Id` i den här katalogen `*`rootId/objId`*` ersätts med katalogposten ungefär så här:
+Om `*`rootId`*` matchar en katalog och `*`objId`*` matchas med `catalog::Id` i den här katalogen ersätts `*`rootId/objId`*` av katalogposten på något av följande sätt:
 
 `src=attribute::RootPath/catalog::Path& mask=attribute::RootPath/catalog::MaskPath& anchor=catalog::Anchor& catalog::Modifier& catalog::PostModifier`
 

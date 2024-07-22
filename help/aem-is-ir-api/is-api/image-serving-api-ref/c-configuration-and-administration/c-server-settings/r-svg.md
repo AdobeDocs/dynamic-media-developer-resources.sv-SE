@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: 2863cc86-1f79-4db3-bd6f-a42839ef3439
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -32,15 +32,15 @@ Största filstorlek för källfilen SVG i kBytes. Servern returnerar ett fel nä
 
 Det begränsar storleken på bilder som SVGRender kan producera. Heltalsvärde som är större än 0 i miljoner pixlar. Ett fel returneras om en återgivningsåtgärd skulle överskrida storleksgränsen. Standardvärdet är 4.
 
-## PS::svgProvider.port - [!DNL Platform Server] Lyssnarport {#section-f7e42a96c2dd4523b46f0557c239e659}
+## PS::svgProvider.port - [!DNL Platform Server] lyssningsport {#section-f7e42a96c2dd4523b46f0557c239e659}
 
-Porten som används för SvgRender för att hämta bilder från [!DNL Platform Server] som ska bäddas in i SVG-renderingar.
+Porten som används för SVgRender för att hämta bilder från [!DNL Platform Server] som ska bäddas in i SVG-återgivningar.
 
 Viktigt! För att SVGRender-komponenten ska fungera korrekt måste det här konfigurationsalternativet anges till samma värde som `TC::PsPort`.
 
 ## PS::svgProvider.fontRoot - SVG-teckensnittsmapp {#section-a8d45b0d68504945b8780f5eac351b0d}
 
-Anger var SVgRender hittar de teckensnittsfiler som behövs för att återge SVG-text, vanligtvis en av sökvägarna som anges i `IS::RootPaths`. Standardvärdet är [!DNL  *[!DNL install_folder]*/images].
+Anger var SVgRender hittar de teckensnittsfiler som behövs för att återge SVG-text, vanligtvis en av sökvägarna som anges i `IS::RootPaths`. Standardvärdet är [!DNL *[!DNL install_folder]*/images].
 
 ## SVG::SVGRender.port, IS::SVGTcpPort - SVG Communications Port {#section-608687123aa644b7b58fe42385d71b79}
 

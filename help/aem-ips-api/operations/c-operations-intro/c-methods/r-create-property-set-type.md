@@ -31,7 +31,7 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Nej | Referensen till företaget som äger egenskapsuppsättningstypen. If `companyHandle` skickas inte och anroparen är en `IpsAdmin`, skapas en global egenskapsuppsättningstyp. |
+| companyHandle | `xsd:string` | Nej | Referensen till företaget som äger egenskapsuppsättningstypen. Om `companyHandle` inte skickas och anroparen är `IpsAdmin` skapas en global egenskapsuppsättningstyp. |
 | name | `xsd:string` | Ja | Namnet på egenskapsuppsättningstypen. |
 | propertyType | `xsd:string` | Ja | Val av egenskapsuppsättningstyper. |
 | allowMultiple | `xsd:boolean` | Ja | Avgör om ditt program kan ha flera egenskapsuppsättningar. |
@@ -44,7 +44,7 @@ Syntax
 
 ## Exempel {#section-13396c9639a6475190e622eae3cdb534}
 
-I det här kodexemplet skapas en egenskapsuppsättning med ett namn och en typ som anges av `PropertySet Types` konstant. Referensen till företaget som äger egenskapsuppsättningstypen. Om companyHandle inte skickas och anroparen är en IpsAdmin skapas en global egenskapsuppsättningstyp.
+I det här kodexemplet skapas en egenskapsuppsättning med ett namn och en typ som anges av konstanten `PropertySet Types`. Referensen till företaget som äger egenskapsuppsättningstypen. Om companyHandle inte skickas och anroparen är en IpsAdmin skapas en global egenskapsuppsättningstyp.
 
 **Begäran**
 

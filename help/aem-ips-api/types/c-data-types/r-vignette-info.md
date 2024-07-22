@@ -26,6 +26,6 @@ Syntax
 | originalFile | `xsd:string` | Filnamn. |
 | fileSize | `xsd:int` | Filstorlek. |
 | imagePath | `xsd:string` | Sökväg till bilden. |
-| imageFile | `xsd:string` |  |
+| imageFile | `xsd:string` | |
 | optimizedPath | `xsd:string` | Optimerad sökväg till filen. |
 | optimizedFile | `xsd:string` | Optimerat filnamn. |

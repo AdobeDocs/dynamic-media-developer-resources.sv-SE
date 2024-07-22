@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # resMode{#resmode}
 
-Omsamplingsläge. Väljer den omsampling- och/eller interpoleringsalgoritm som ska användas för att skala den återgivna bilden till den storlek som anges med `wid=`, `hei=`, eller `scl=`.
+Omsamplingsläge. Väljer den omsamplings- och/eller interpoleringsalgoritm som ska användas för att skala den återgivna bilden till den storlek som anges med `wid=`, `hei=` eller `scl=`.
 
 ` `resMode=bilin|bicub|sharp2|bisharp&quot;
 
@@ -22,19 +22,19 @@ Omsamplingsläge. Väljer den omsampling- och/eller interpoleringsalgoritm som s
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> bilin </span> </p> </td> 
-   <td colname="col2"> <p>Väljer standardbilinjär interpolation. Snabbaste omsamplingsmetod. vissa aliaseringsartefakter kan bli märkbara. </p> </td> 
+   <td colname="col2"> <p>Väljer standardbilinjär interpolation. Den snabbaste omsamplingsmetoden. Vissa aliasing-artefakter kan bli märkbara. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> bikub </span> </p> </td> 
+   <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> bicub </span> </p> </td> 
    <td colname="col2"> <p>Väljer bikubisk interpolation. Processorintensivare än bilinjär interpolation, men ger skarpare bilder med mindre framträdande aliasartefakter. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> skarp2 </span> </p> </td> 
-   <td colname="col2"> <p>Väljer en modifierad Lanczos Window-funktion som en interpoleringsalgoritm. Kan ge något tydligare resultat än bikubisk till en högre CPU-kostnad. </p> <p> <span class="codeph"> skarp </span> har ersatts med <span class="codeph"> skarp2 </span>, vilket är mindre sannolikt att orsaka aliasing-artefakter, även kallat Moiré. </p> </td> 
+   <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> sharp2 </span> </p> </td> 
+   <td colname="col2"> <p>Väljer en modifierad Lanczos Window-funktion som en interpoleringsalgoritm. Kan ge något tydligare resultat än bikubisk till en högre CPU-kostnad. </p> <p> <span class="codeph"> sharp </span> har ersatts med <span class="codeph"> sharp2 </span> som har en mindre sannolikhet att orsaka aliasartefakter, även kallat Moiré. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bisharp </span> </p> </td> 
-   <td colname="col2"> <p>Markerar <span class="keyword"> Adobe Photoshop </span> standardomsampling för att minska bildstorleken, som kallas"bikubisk skarpare" i <span class="keyword"> Adobe Photoshop </span>. </p> </td> 
+   <td colname="col2"> <p>Väljer standardomsamplingen <span class="keyword"> Adobe Photoshop </span> för att minska bildstorleken, som kallas"bikubisk skarpare" i <span class="keyword"> Adobe Photoshop </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

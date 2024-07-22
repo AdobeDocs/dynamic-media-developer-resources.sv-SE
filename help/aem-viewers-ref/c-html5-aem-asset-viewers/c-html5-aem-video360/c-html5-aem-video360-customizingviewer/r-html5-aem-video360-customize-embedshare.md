@@ -24,7 +24,7 @@ Utseendet på knappen för att bädda in delning styrs med följande CSS-klassv�
 .s7video360viewer .s7embedshare
 ```
 
-**CSS-egenskaper för verktyget för inbäddningsdelning**
+**CSS-egenskaper för det inbäddade delningsverktyget**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -49,13 +49,13 @@ Utseendet på knappen för att bädda in delning styrs med följande CSS-klassv�
 
 >[!NOTE]
 >
->Den här knappen har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen.
+>Den här knappen stöder attributväljaren `state` som kan användas för att tillämpa olika skal på olika knapplägen.
 
-Det går att ta bort knappen från panelen Dela via inställningen `display:none` CSS-egenskap i dess CSS-klass.
+Det går att ta bort knappen från panelen Dela via CSS-egenskapen `display:none` i CSS-klassen.
 
-Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) för mer information.
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Exempel** - Så här ställer du in en knapp för inbäddningsdelning som är 28 x 28 pixlar och visar olika bilder för vart och ett av de fyra olika knapplägena:
+**Exempel** - Om du vill ställa in en inbäddad delningsknapp som är 28 x 28 pixlar och visar en bild för vart och ett av de fyra knapplägena:
 
 ```
 .s7video360viewer .s7embedshare { 
@@ -112,7 +112,7 @@ Som standard visas den modala dialogrutan centrerat på skärmen på stationära
 .s7video360viewer .s7embeddialog .s7dialog
 ```
 
-**CSS-egenskaper i dialogrutan**
+**CSS-egenskaper för dialogrutan**
 
 <table id="table_E31711ADF4C7446182549244362199A3"> 
  <tbody> 
@@ -135,7 +135,7 @@ Som standard visas den modala dialogrutan centrerat på skärmen på stationära
  </tbody> 
 </table>
 
-**Exempel** - för att ställa in dialogrutan så att den använder hela webbläsarfönstret och har en vit bakgrund på enheter med pekskärm:
+**Exempel** - för att konfigurera dialogrutan så att den använder hela webbläsarfönstret och har en vit bakgrund på beröringsenheter:
 
 ```
 .s7video360viewer .s7touchinput .s7embeddialog .s7dialog { 
@@ -214,7 +214,7 @@ Rubriken styrs med följande CSS-klassväljare:
 .s7video360viewer .s7embeddialog .s7dialogheadertext
 ```
 
-**CSS-egenskaper för rubriktexten i dialogrutan**
+**CSS-egenskaper för dialogrutans rubriktext**
 
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
@@ -248,7 +248,7 @@ Stängningsknappen styrs med följande CSS-klassväljare:
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p> Lodrät knappposition i förhållande till rubrikbehållare. </p> </td> 
   </tr> 
   <tr> 
@@ -280,11 +280,11 @@ Stängningsknappen styrs med följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen.
+>Den här knappen stöder attributväljaren `state` som kan användas för att tillämpa olika skal på olika knapplägen.
 
-Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) för mer information.
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Exempel** - Om du vill ställa in ett dialoghuvud med utfyllnad, en 24 x 14 pixlar ikon och en fet, 16 punkter. Slutligen en stängningsknapp på 28 x 28 pixlar, placerad två pixlar uppifrån och två pixlar från höger i dialogrutan:
+**Exempel** - Om du vill ställa in en dialogruterubrik med utfyllnad, en 24 x 14 pixlars ikon och en 16 punkters rubrik i fet stil. Slutligen en stängningsknapp på 28 x 28 pixlar, placerad två pixlar uppifrån och två pixlar från höger i dialogrutan:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogheader { 
@@ -335,7 +335,7 @@ Sidfoten i dialogrutan består av knappen &quot;Avbryt&quot;. Sidfotsbehållaren
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kant </span> </p> </td> 
    <td colname="col2"> <p> Kant som du kan använda för att visuellt separera sidfoten från resten av dialogrutan. </p> </td> 
   </tr> 
  </tbody> 
@@ -347,7 +347,7 @@ Sidfoten har en inre behållare som behåller knappen. Den styrs med följande C
 .s7video360viewer .s7embeddialog .s7dialogbuttoncontainer
 ```
 
-**CSS-egenskaper för behållaren för dialogruteknappen**
+**CSS-egenskaper för dialogruteknappbehållaren**
 
 <table id="table_C34906888A8145C7A61E503DFC6B08A9"> 
  <tbody> 
@@ -366,7 +366,7 @@ Knappen Markera allt styrs med följande CSS-klassväljare:
 
 Knappen är bara tillgänglig på stationära datorer.
 
-**CSS-egenskaper för knappen Markera alla**
+**CSS-egenskaper för knappen Markera allt**
 
 <table id="table_021D0467632F49FEBFDF4CF96D2D67C7"> 
  <tbody> 
@@ -391,7 +391,7 @@ Knappen är bara tillgänglig på stationära datorer.
 
 >[!NOTE]
 >
->Knappen Markera allt har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen.
+>Knappen Markera allt har stöd för attributväljaren `state` som kan användas för att tillämpa olika skal på olika knapplägen.
 
 Knappen Avbryt styrs med följande CSS-klassväljare:
 
@@ -424,7 +424,7 @@ Knappen Avbryt styrs med följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen.
+>Den här knappen stöder attributväljaren `state` som kan användas för att tillämpa olika skal på olika knapplägen.
 
 Båda knapparna har dessutom en gemensam CSS-klass som kan innehålla CSS-inställningar som är desamma för andra dialogruteknappar:
 
@@ -457,15 +457,15 @@ Båda knapparna har dessutom en gemensam CSS-klass som kan innehålla CSS-instä
    <td colname="col2"> <p>Skugga. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal-höger </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal-right </span> </p> </td> 
    <td colname="col2"> <p>Högerknappsmarginal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) för mer information.
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Exempel** - om du vill ställa in en sidfot i en dialogruta med en Avbryt-knapp på 64 x 34, med en textfärg och bakgrundsfärg som är olika för varje knappläge:
+**Exempel** - om du vill ställa in en dialogrutefot med en Avbryt-knapp på 64 x 34, med en textfärg och bakgrundsfärg som är olika för varje knappläge:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogfooter { 
@@ -550,7 +550,7 @@ Huvuddialogrutan, mellan sidhuvudet och sidfoten, innehåller rullningsbart dial
  </tbody> 
 </table>
 
-**Exempel** - om du vill ställa in ett huvudområde i dialogrutan till 300 pixlars höjd, har en marginal på tio pixlar och använder en vit bakgrund:
+**Exempel** - Om du vill ställa in ett huvuddialogruteområde till 300 pixlars höjd har du en marginal på tio pixlar och använder en vit bakgrund:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogviewarea { 
@@ -579,7 +579,7 @@ Om höjden på den här behållaren verkar vara större än huvudområdet i dial
  </tbody> 
 </table>
 
-**Exempel** - för att ställa in formulärinnehåll så att det har utfyllnad på tio pixlar:
+**Exempel** - för att ställa in formulärinnehåll så att det får utfyllnad på tio pixlar:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogbody { 
@@ -618,9 +618,9 @@ Den här klassen är inte lämplig för att styra etikettens storlek eller place
  </tbody> 
 </table>
 
-Dialogruteetiketter kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) för mer information.
+Dialogruteetiketter kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Exempel** - för att ställa in alla etiketter så att de är grå, fet med ett teckensnitt på nio pixlar:
+**Exempel** - Om du vill ställa in alla etiketter till grått, fet med ett teckensnitt på nio pixlar:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialoglabel { 
@@ -675,7 +675,7 @@ Inbäddningskoden kapslas i behållaren och styrs med följande CSS-klassväljar
    <td colname="col2"> <p>Bredden på behållaren för inbäddningskoden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kant </span> </p> </td> 
    <td colname="col2"> <p>Kant runt behållaren för inbäddningskoden. </p> </td> 
   </tr> 
   <tr> 
@@ -685,7 +685,7 @@ Inbäddningskoden kapslas i behållaren och styrs med följande CSS-klassväljar
  </tbody> 
 </table>
 
-**Exempel** - om du vill ange en grå kant på en pixel runt inbäddad kodtext, gör den 430 pixlar bred och har en utfyllnad på tio pixlar:
+**Exempel** - Om du vill ange en grå kant på en pixel runt inbäddad kodtext, gör du den 430 pixlar bred och har en utfyllnad på tio pixlar:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialoginputcontainer { 
@@ -706,13 +706,13 @@ Den faktiska inbäddningskodtexten styrs med följande CSS-klassväljare:
 <table id="table_FEEF66150C69489BB42A2408EBFCE928"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> word-wrap </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> automatisk radbrytning </span> </p> </td> 
    <td colname="col2"> <p>Radbrytningsformat. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Exempel** - Så här konfigurerar du inbäddningskod att använda `break-word` automatisk radbrytning:
+**Exempel** - Så här konfigurerar du inbäddningskod så att `break-word` ordomslutning används:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogmessage { 
@@ -726,7 +726,7 @@ Etiketten och listrutan för inbäddningsstorlek finns längst ned i dialogrutan
 .s7video360viewer .s7embeddialog .s7dialogembedsizepanel
 ```
 
-**CSS-egenskaper för panelen Bädda in storlek i dialogrutan**
+**CSS-egenskaper i dialogrutan, bädda in storlekspanelen**
 
 <table id="table_6BA2769361BA4EC4AB7D250EC9486CB2"> 
  <tbody> 
@@ -751,7 +751,7 @@ Storleken och justeringen för etiketten för inbäddningsstorlek styrs av följ
 .s7video360viewer .s7embeddialog .s7dialogembedsizepanel
 ```
 
-**CSS-egenskaper för panelen Bädda in storlek i dialogrutan**
+**CSS-egenskaper i dialogrutan, bädda in storlekspanelen**
 
 <table id="table_8E50C63C9B1349999251CDB5E5AD3D1D"> 
  <tbody> 
@@ -766,7 +766,7 @@ Storleken och justeringen för etiketten för inbäddningsstorlek styrs av följ
  </tbody> 
 </table>
 
-**Exempel** - för att ange att etiketten för inbäddningsstorlek ska vara justerad uppåt och 80 pixlar bred:
+**Exempel** - för att ange att etiketten för inbäddningsstorlek ska vara justerad mot överkanten och 80 pixlar bred:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogembedsizelabel { 
@@ -794,7 +794,7 @@ Bredden på kombinationsrutan för inbäddningsstorlek styrs med följande CSS-k
 
 >[!NOTE]
 >
->Kombinationsrutan har stöd för `expanded` attributväljare med möjliga värden för `true` och `false`. The `true` Värdet används när kombinationsrutan visar en fördefinierad inbäddningsstorlek, vilket innebär att all tillgänglig bredd används. The `false` värdet används när alternativet för anpassad storlek väljs i kombinationsrutan, så det bör krympa för att tillåta utrymme för anpassade indatafält för bredd och höjd.
+>Kombinationsrutan stöder attributväljaren `expanded` med möjliga värden `true` och `false`. Värdet `true` används när kombinationsrutan visar en av fördefinierade inbäddningsstorlekar, vilket innebär att all tillgänglig bredd bör användas. Värdet `false` används när alternativet för anpassad storlek väljs i kombinationsrutan, så det bör krympa för att tillåta utrymme för anpassade indatafält för bredd och höjd.
 
 **Exempel** - om du vill att kombinationsrutan för inbäddningsstorlek ska vara 300 pixlar bred när ett fördefinierat objekt visas och 110 pixlar bred när en anpassad storlek visas:
 
@@ -813,7 +813,7 @@ Höjden på kombinationsrutetexten definieras av ett särskilt inre element och 
 .s7video360viewer .s7embeddialog .s7combobox .s7comboboxtext
 ```
 
-**CSS-egenskaper för kombinationsrutetexten**
+**CSS-egenskaper för kombinationsruttexten**
 
 <table id="table_AB60032BF337433F8455DE20AFBA29AB"> 
  <tbody> 
@@ -824,7 +824,7 @@ Höjden på kombinationsrutetexten definieras av ett särskilt inre element och 
  </tbody> 
 </table>
 
-**Exempel** - om du vill ställa in kombinationsrutans inbäddningsstorlek på 40 pixlar:
+**Exempel** - för att ange kombinationsrutans texthöjd för inbäddningsstorlek till 40 pixlar:
 
 ```
 .s7video360viewer .s7embeddialog .s7combobox .s7comboboxtext { 
@@ -843,7 +843,7 @@ Kombinationsrutan har en nedrullningsknapp till höger och den styrs med följan
 <table id="table_70E127FA21264366AD5DBBD7DF40EBAA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p>Lodrät knappposition inuti kombinationsrutan. </p> </td> 
   </tr> 
   <tr> 
@@ -871,7 +871,7 @@ Kombinationsrutan har en nedrullningsknapp till höger och den styrs med följan
 
 >[!NOTE]
 >
->Den här knappen har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen.
+>Den här knappen stöder attributväljaren `state` som kan användas för att tillämpa olika skal på olika knapplägen.
 
 **Exempel** - om du vill ställa in en nedrullningsknapp på 28 x 28 pixlar och ha en separat bild för varje läge:
 
@@ -907,13 +907,13 @@ Panelens storlek och position styrs av komponenten. Det går inte att ändra den
 <table id="table_FA7345321C6A4E63B4B78ECF81CE18DB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kant </span> </p> </td> 
    <td colname="col2"> <p>Panelkant. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Exempel** - om du vill ange att kombinationsrutepanelen ska ha en grå kant på en pixel:
+**Exempel** - för att ange att kombinationsrutepanelen ska ha en grå kant på en pixel:
 
 ```
 .s7video360viewer .s7embeddialog .s7comboboxdropdown { 
@@ -991,18 +991,18 @@ När alternativet Anpassad storlek är markerat i kombinationsrutan för inbädd
 .s7video360viewer .s7embeddialog .s7dialogcustomsizepanel
 ```
 
-**CSS-egenskaper för den anpassade storlekspanelen i dialogrutan**
+**CSS-egenskaper för dialogrutans panel för anpassad storlek**
 
 <table id="table_B00829EA550F4E5E8F51B1C6ADACCD34"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vänster </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kvar </span> </p> </td> 
    <td colname="col2"> <p> Avstånd från kombinationsrutan för inbäddningsstorlek. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Exempel** - om du vill ange att fältpanelen för anpassade indatastorlekar ska vara 20 pixlar till höger om kombinationsrutan:
+**Exempel** - om du vill ange en anpassad storlek för indatafältpanelen till 20 pixlar till höger om kombinationsrutan:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogcustomsizepanel { 
@@ -1021,7 +1021,7 @@ Varje indatafält med anpassad storlek kapslas i en behållare som återger en k
 <table id="table_A8A04BE1988641618D0A412B8AEEE1C5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kant </span> </p> </td> 
    <td colname="col2"> <p>Kant runt inmatningsfältet. </p> </td> 
   </tr> 
   <tr> 
@@ -1039,7 +1039,7 @@ Varje indatafält med anpassad storlek kapslas i en behållare som återger en k
  </tbody> 
 </table>
 
-**Exempel** - Så här anger du att indatafälten med en pixelgrå kant, marginal, utfyllnad och ska vara 70 pixlar breda:
+**Exempel** - Om du vill ange att inmatningsfält med anpassad storlek ska ha en pixelgrå kant, marginal, utfyllnad och vara 70 pixlar breda:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogcustomsize { 
@@ -1068,7 +1068,7 @@ Om du behöver rulla lodrätt återges rullningslisten i panelen nära den högr
  </tbody> 
 </table>
 
-**Exempel** - för att ställa in en rullningspanel så att den är 44 pixlar bred
+**Exempel** - för att ställa in en rullningspanel på 44 pixlar bred
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogscrollpanel { 
@@ -1091,7 +1091,7 @@ Utseendet på rullningslistområdet styrs med följande CSS-klassväljare:
    <td colname="col2"> <p>Bredd på rullningslist. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p> Den lodräta rullningslistens förskjutning från rullningspanelens överkant. </p> </td> 
   </tr> 
   <tr> 
@@ -1122,7 +1122,7 @@ Rullningslistens spår är området mellan den övre och den nedre rullningsknap
 .s7video360viewer .s7embeddialog .s7scrollbar .s7scrolltrack
 ```
 
-**CSS-egenskaper för rullningslistens spår**
+**CSS-egenskaper för rullningslistspåret**
 
 <table id="table_19CF5503C1D34ED9998D4F4A6DA7D5D5"> 
  <tbody> 
@@ -1165,11 +1165,11 @@ Rullningslistens reglage rör sig lodrätt inom ett rullningsspårsområde. Dess
    <td colname="col2"> <p>Höjd på tummen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-utfyllnadspunkt </span> </p> </td> 
    <td colname="col2"> <p>Den lodräta utfyllnaden mellan spårets överkant. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> utfyllnad-nederkant </span> </p> </td> 
    <td colname="col2"> <p> Den lodräta utfyllnaden mellan spårets nederkant. </p> </td> 
   </tr> 
   <tr> 
@@ -1185,7 +1185,7 @@ Rullningslistens reglage rör sig lodrätt inom ett rullningsspårsområde. Dess
 
 >[!NOTE]
 >
->Tummen har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika tumlägen: `up`, `down`, `over`och `disabled`.
+>Tummen stöder attributväljaren `state`, som kan användas för att tillämpa olika skal på olika tumlägen: `up`, `down`, `over` och `disabled`.
 
 **Exempel** - om du vill ställa in en rullningslist som är 28 x 45 pixlar, har en marginal på tio pixlar över och under och har olika teckningar för varje läge:
 
@@ -1220,9 +1220,9 @@ Utseendet på de övre och nedre rullningsknapparna styrs av följande CSS-klass
 .s7video360viewer .s7embeddialog .s7scrollbar .s7scrolldownbutton
 ```
 
-Det går inte att placera rullningsknappar med CSS `top`, `left`, `bottom`och `right` egenskaper. I stället placerar visningsprogramlogiken dem automatiskt.
+Det går inte att placera rullningsknappar med CSS-egenskaperna `top`, `left`, `bottom` och `right`. I stället placerar visningsprogramlogiken dem automatiskt.
 
-**CSS-egenskaper för de övre och nedre rullningsknapparna**
+**CSS-egenskaper för den övre och undre rullningsknappen**
 
 <table id="table_554BFCFEAF4F43A9AE5F741DC126F833"> 
  <tbody> 
@@ -1247,9 +1247,9 @@ Det går inte att placera rullningsknappar med CSS `top`, `left`, `bottom`och `r
 
 >[!NOTE]
 >
->Dessa knappar har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen: `up`, `down`, `over`och `disabled`.
+>Dessa knappar har stöd för attributväljaren `state`, som kan användas för att tillämpa olika skal på olika knapplägen: `up`, `down`, `over` och `disabled`.
 
-Knappens tips kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) för mer information.
+Knappens tips kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
 **Exempel** - för att ställa in rullningsknappar som är 28 x 32 pixlar och har olika teckningar för varje läge:
 

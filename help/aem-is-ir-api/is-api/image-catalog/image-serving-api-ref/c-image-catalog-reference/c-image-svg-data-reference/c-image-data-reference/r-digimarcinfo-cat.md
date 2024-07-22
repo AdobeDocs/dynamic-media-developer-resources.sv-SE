@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 87f4d8f0-02b9-4511-9151-89c58116c78d
 source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 7%
+source-wordcount: '243'
+ht-degree: 0%
 
 ---
 
@@ -20,9 +20,9 @@ Information om Digimarc-bilder. Aktiverar Digimarc-inbäddning och anger typ av 
 
 Fyra heltalsvärden, avgränsade med kommatecken.
 
-`*`type`*, *`flaggor`*, *`val1`*, *`val2`*`
+`*`type`*, *`flags`*, *`val1`*, *`val2`*`
 
-`*`type`*` aktiverar Digimarc-inbäddning och anger vattenstämpeltyp:
+`*`type`*` aktiverar Digimarc-inbäddning och anger vattenstämpeltypen:
 
 <table id="table_3648951F14D94C5BAD097CFB783F1EE7"> 
  <thead> 
@@ -60,7 +60,7 @@ Fyra heltalsvärden, avgränsade med kommatecken.
 <table id="table_00F218515FBE484F9D05CBAF14F9D045"> 
  <thead> 
   <tr> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> flaggor</span> </span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname"> flaggor </span> </span> </p> </th> 
    <th class="entry"> <p><b>Beskrivning</b> </p> </th> 
   </tr> 
  </thead>
@@ -95,12 +95,12 @@ Fyra heltalsvärden, avgränsade med kommatecken.
   </tr> 
   <tr> 
    <td> <p><b>7</b> </p> </td> 
-   <td> <p>Kopieringsskyddat, begränsat, moget innehåll. </p> </td> 
+   <td> <p>Kopieringsskyddat, begränsat och moget innehåll. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Tolkningen av `*`val1`*` och `*`val2`*` beroende av `*`type`*`:
+Tolkningen av `*`val1`*` och `*`val2`*` beror på `*`typ`*`:
 
 <table id="table_6B29F76BC1974C12AB7124BF84B29EC2"> 
  <thead> 
@@ -134,7 +134,7 @@ Tolkningen av `*`val1`*` och `*`val2`*` beroende av `*`type`*`:
   <tr> 
    <td> <p><b>4</b> </p> </td> 
    <td> <p>Första copyrightåret. </p> </td> 
-   <td> <p>Andra copyrightåret. </p> </td> 
+   <td> <p>Andra copyright-året. </p> </td> 
   </tr> 
  </tbody> 
 </table>

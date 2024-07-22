@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 297d187c-3a52-45ff-b73d-0b0e4b956080
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -20,18 +20,18 @@ Skalvyn. Skalar den sammansatta bilden med inverterad invFactor.
 
 <table id="simpletable_A09F5EECAC2B4E0F8633D71C6AD36D8D"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> invFactor</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname"> invFactor </span> </p> </td> 
   <td class="stentry"> <p>Inverterad skalfaktor (verklig större än 0,0). </p></td> 
  </tr> 
 </table>
 
-Ingen skalförändring används när `scl=1`. An *`invFactor`* ett värde som är större än 1,0 nedskalningar och mindre än 1,0 förstorar den sammansatta bilden.
+Ingen skalförändring används när `scl=1`. Ett *`invFactor`*-värde som är större än 1,0 nedskalningar och mindre än 1,0 förstorar den sammansatta bilden.
 
-If `scl=` har angetts, och `wid=` och/eller `hei=` finns också, bilden beskärs till `wid=` och/eller `hei=` efter skalförändring.
+Om `scl=` anges och `wid=` och/eller `hei=` också finns, beskärs bilden till `wid=` och/eller `hei=` efter skalning.
 
 >[!NOTE]
 >
->Ett fel returneras om den beräknade eller standardinställda svarsbilden är större än `attribute::MaxPix`.
+>Ett fel returneras om den beräknade eller standardinställda svarsbildstorleken är större än `attribute::MaxPix`.
 
 ## Egenskaper {#section-60af012719db477db4a4703e9a6da5f5}
 
@@ -39,11 +39,11 @@ Visa attribut. Det används oavsett den aktuella lagerinställningen.
 
 ## Standard {#section-32502fa218a24e1f9c65f41c0260b56a}
 
-Om ingen `wid=`, `hei=`, eller `scl=` anges har svarsbilden antingen samma storlek som den sammansatta bilden, eller `attribute::DefaultPix`, beroende på vad som är mindre.
+Om varken `wid=`, `hei=` eller `scl=` anges har svarsbilden antingen samma storlek som den sammansatta bilden eller `attribute::DefaultPix`, beroende på vilken som är minst.
 
 ## Exempel {#section-a33f6239476a4b438d939656ad99aa76}
 
-Se exemplet i [rotate=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096) för en gemensam tillämpning av `scl=`.
+Se exemplet i [rotate=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096) för ett vanligt program i `scl=`.
 
 ## Se även {#section-ccefd5de59924059903d66d4974ce317}
 

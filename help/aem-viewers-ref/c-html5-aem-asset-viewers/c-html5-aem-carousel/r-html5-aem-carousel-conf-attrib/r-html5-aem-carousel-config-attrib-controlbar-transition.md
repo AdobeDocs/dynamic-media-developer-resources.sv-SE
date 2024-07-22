@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 260a1767-e49a-46e3-9c3d-23efa5c3228e
 source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
@@ -16,17 +16,17 @@ ht-degree: 0%
 
 Konfigurationsattribut för Carousel Viewer.
 
-` [ControlBar.|<containerId>_controlBar.]transition=none|fade[, *`delaytohide`*[, *`varaktighet`*]`
+` [ControlBar.|<containerId>_controlBar.]transition=none|fade[, *`delaytohide`*[, *`duration`*]`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ingen|tona</span> </p> </td> 
-   <td colname="col2"> <p> Anger den effekttyp som används för att visa eller dölja kontrollfältet och dess innehåll. </p> <p>Ange till <span class="codeph"> ingen</span> för direktvisning/dölj. </p> <p>Ange till <span class="codeph"> tona</span> för att skapa en gradvis toningseffekt. </p> </td> 
+   <td colname="col2"> <p> Anger den effekttyp som används för att visa eller dölja kontrollfältet och dess innehåll. </p> <p>Ange <span class="codeph"> ingen</span> för direktvisning/dölj. </p> <p>Ange som <span class="codeph"> tonad</span> för att få en gradvis toningseffekt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> delaytohide</span></span> </p> </td> 
-   <td colname="col2"> <p> Anger tiden i sekunder mellan den senaste mus-/pekhändelsen som registrerats av kontrollfältet och tidskontrollfältet döljs. </p> <p>Om inställt på <span class="codeph"> -1</span> komponenten utlöser aldrig sin automatiska döljningseffekt och förblir därför alltid synlig på skärmen. </p> </td> 
+   <td colname="col2"> <p> Anger tiden i sekunder mellan den senaste mus-/pekhändelsen som registrerats av kontrollfältet och tidskontrollfältet döljs. </p> <p>Om värdet är <span class="codeph"> -1</span> utlöser komponenten aldrig sin automatiska döljningseffekt och förblir därför alltid synlig på skärmen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> varaktighet</span></span> </p> </td> 

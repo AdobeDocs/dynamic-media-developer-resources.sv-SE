@@ -18,11 +18,11 @@ Standardfärgprofil för CMYK-indata. Anger namnet på ICC-färgprofilen som ska
 
 ## Egenskaper {#section-0cee77438d914c319ec876edb3490821}
 
-Textsträng. Om det anges måste det vara ett giltigt `icc::Name` värde från ICC-profilmappningen för antingen den här bildkatalogen eller standardkatalogen, eller en filsökväg som är relativ till `attribute::RootPath`. Den ICC-profil som det hänvisas till måste vara en CMYK-profil.
+Textsträng. Om det anges måste det vara ett giltigt `icc::Name`-värde från ICC-profilmappningen för antingen den här bildkatalogen eller standardkatalogen, eller en filsökväg som är relativ till `attribute::RootPath`. Den ICC-profil som det hänvisas till måste vara en CMYK-profil.
 
 ## Standard {#section-11f6239e0dd14827abf4a95c1b30161c}
 
-Ärvs från `default::IccProfileSrcCmyk` om den inte är definierad eller om den är tom. If `attribute::IccProfileSrcCmyk` matchar inte en giltig profil, `attribute::IccProfileCmyk` används i stället.
+Ärvs från `default::IccProfileSrcCmyk` om inte definierad eller om tom. Om `attribute::IccProfileSrcCmyk` inte matchar en giltig profil används `attribute::IccProfileCmyk` i stället.
 
 ## Se även {#section-88adddd70265459a9a5d2f50829a4ba7}
 

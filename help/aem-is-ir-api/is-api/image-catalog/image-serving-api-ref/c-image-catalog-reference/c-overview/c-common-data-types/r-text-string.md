@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Textsträngens datatyp.
 
-Strängavgränsare är valfria, såvida inte strängen innehåller några `<CR>`, `<LF>`, eller `<TAB>` tecken. Enkla eller dubbla citattecken kan användas som avgränsare. Om citattecken används måste alla sådana citattecken som är inbäddade i strängen föregås av två på varandra följande citattecken (till exempel månadens special).
+Strängavgränsare är valfria, såvida inte strängen innehåller några `<CR>`-, `<LF>`- eller `<TAB>`-tecken. Enkla eller dubbla citattecken kan användas som avgränsare. Om citattecken används måste alla sådana citattecken som är inbäddade i strängen föregås av två på varandra följande citattecken (till exempel månadens special).

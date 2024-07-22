@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 7150b4a8-a44d-4858-96f2-6004d5f48e77
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Ange ett värde för `unsharpMaskOptions` alternativ med `minOccurs=" *`n`*".`
    <td colname="col2"><span class="codeph"> xsd:dubbel</span></td>
    <td colname="col3"><p>Styr kontrast som används på kantpixlar. 
      <ul id="ul_7AA17E354EE64BC4A5BEAE853FF17191">
-      <li id="li_42FB21C7ED884E1DB03274130B8DCB10">Intervall: 0.0 - 5.0 </li>
+      <li id="li_42FB21C7ED884E1DB03274130B8DCB10">Intervall: 0,0 - 5,0 </li>
       <li id="li_E980CAA1A9C54D60A121F21C964820FF">Standard: 0 </li>
      </ul></p></td>
   </tr>
@@ -45,7 +45,7 @@ Ange ett värde för `unsharpMaskOptions` alternativ med `minOccurs=" *`n`*".`
    <td colname="col2"><span class="codeph"> xsd:dubbel</span></td>
    <td colname="col3"><p>Styr skärpan genom att ange antalet pixlar runt en bilds kant. Vilket värde som är korrekt beror på bildens storlek. 
      <ul id="ul_D4391CD407DE4B48AF4523EBD85D0D40">
-      <li id="li_8AEF11A489484EFD91416F8A03C4DB25">Intervall: 0.0 - 250.0 </li>
+      <li id="li_8AEF11A489484EFD91416F8A03C4DB25">Intervall: 0,0 - 250,0 </li>
       <li id="li_9F1D1B52AFBA46B8BDCDF99A21140002">Med låga värden ökas skärpan endast för kantpixlar. </li>
       <li id="li_7D9FD8AA4899404283D7AB596364A4AF">Höga värden gör ett bredare pixelband skarpare. </li>
      </ul></p></td>
@@ -62,7 +62,7 @@ Ange ett värde för `unsharpMaskOptions` alternativ med `minOccurs=" *`n`*".`
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> monokrom</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:int</span></td>
-   <td colname="col3"><p>Värdena inkluderar <span class="codeph"> 0</span> eller <span class="codeph"> 1</span> endast. </p><p>Ange till <span class="codeph"> 0</span> som ska användas på varje färgkomponent separat eller på <span class="codeph"> 1</span> används endast för bildens intensitet (intensitet). Lagermasken eller den sammansatta masken blir också skarpare. </p><p><span class="codeph"><span class="varname"> monokrom</span></span> ignoreras för gråskalebilder. </p></td>
+   <td colname="col3"><p>Värdena är bara <span class="codeph"> 0</span> eller <span class="codeph"> 1</span>. </p><p>Ange <span class="codeph"> 0</span> om du vill använda den separat för varje färgkomponent eller till <span class="codeph"> 1</span> om du bara vill använda bildens intensitet (intensitet). Lagermasken eller den sammansatta masken blir också skarpare. </p><p><span class="codeph"><span class="varname"> monokrom </span></span> ignoreras för gråskalebilder. </p></td>
   </tr>
  </tbody>
 </table>
@@ -83,7 +83,7 @@ Ange ett värde för `unsharpMaskOptions` alternativ med `minOccurs=" *`n`*".`
 
 ## Används av {#section-db8124a5468b498694a780f8a56a4560}
 
-The `unsharpMaskOptions` type används av:
+Typen `unsharpMaskOptions` används av:
 
 * [ÅterbearbetaResurserJobb](../../types/c-data-types/r-reprocess-assets-job.md#reference-a303f7832ae44fdab1dca7cc8bef3fa3)
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
@@ -93,4 +93,3 @@ The `unsharpMaskOptions` type används av:
 >[!MORELIKETHIS]
 >
 >* [API-referens för bildservering: op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html)
-

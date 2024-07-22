@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 5785844b-945b-4dd0-ac59-efbf1360b7cd
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '342'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Bildmask. Anger en separat maskbild som ska användas som en oassocierad mask.
 
 <table id="simpletable_F5A8CD8D7E9B48DAB3C8184E8FE60D9B"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> object</span> </p></td> 
+  <td class="stentry"> <p><span class="varname"> objekt </span> </p></td> 
   <td class="stentry"> <p>Bildobjekt som ska användas som bild- eller lagermask. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -29,27 +29,27 @@ Bildmask. Anger en separat maskbild som ska användas som en oassocierad mask.
  </tr> 
 </table>
 
-*`object`* kan vara antingen en katalogpost eller en bild/SVG-fil. Kan anges för bildlager och enfärgade lager.
+*`object`* kan antingen vara en katalogpost eller en bild/SVG-fil. Kan anges för bildlager och enfärgade lager.
 
-If *`object`* matchar en bildkatalogspost, `catalog::MaskPath` används eller, om `catalog::MaskPath` är inte definierad, sedan `catalog::Path` används. If *`object`* kan inte tolkas som en katalogpost, utan tolkas som en filsökväg.
+Om *`object`* matchar en bildkatalogspost används `catalog::MaskPath` eller, om `catalog::MaskPath` inte är definierad, används `catalog::Path`. Om *`object`* inte kan tolkas som en katalogpost tolkas den som en filsökväg.
 
 Om källbilden har en alfakanal används den alltid. I annat fall konverteras bilden till gråskala, om det behövs, innan den används som en lagermask.
 
-Om en mask är kopplad till ett enfärgat lager kan den beskäras och skalas med samma regler som används för bilder i bildlager. `size=`, `scale=`, eller `res=` kan användas för att skala masken.
+Om en mask är kopplad till ett enfärgat lager kan den beskäras och skalas med samma regler som används för bilder i bildlager. `size=`, `scale=` eller `res=` kan användas för att skala masken.
 
-Lagermasker kan också anges som en *`nestedRequest`*. Kapslade eller inbäddade begäranden omsluts av klammerparenteser. Förutse en inbäddad bildserverbegäran med `is` och en inbäddad begäran om bildåtergivning med `ir`. En begäran till en extern server antas om inget prefix anges. Se [Begär kapsling och inbäddning](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b) för mer information.
+Lagermasker kan också anges i form av en *`nestedRequest`*. Kapslade eller inbäddade begäranden omsluts av klammerparenteser. Lägg till en inbäddad Image Serving-förfrågan med `is` och en inbäddad begäran om bildåtergivning med `ir`. En begäran till en extern server antas om inget prefix anges. Mer information finns i [Begär kapsling och inbäddning](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b).
 
 ## Egenskaper {#section-a093043dc249423b8ae322cefb0d545d}
 
 Bild- eller lagerattribut. Gäller för lager 0 om `layer=comp`. Ignoreras av effektlager.
 
-*`object`* får inte matcha en katalogpost som innehåller en `src=` eller `mask=` kommando in `catalog::Modifier`.
+*`object`* får inte matchas till en katalogpost som innehåller ett `src=`- eller `mask=`-kommando i `catalog::Modifier`.
 
-The `is` och `ir` -prefix är inte skiftlägeskänsliga.
+Prefixen `is` och `ir` är skiftlägeskänsliga.
 
 ## Standard {#section-10cf793c665f49deb1b248faa3b618a9}
 
-If `mask=` anges inte uttryckligen och om lagerbilden är kopplad till en katalogpost så anges `catalog::MaskPath` används. I annat fall används alfakanalen för lagerbilden, om sådan finns. Om det inte finns någon alfakanal har lagret ingen mask och lagrets rektangel återges helt ogenomskinlig.
+Om `mask=` inte anges explicit och om lagerbilden är associerad med en katalogpost används `catalog::MaskPath`. I annat fall används alfakanalen för lagerbilden, om sådan finns. Om det inte finns någon alfakanal har lagret ingen mask och lagrets rektangel återges helt ogenomskinlig.
 
 ## Exempel {#section-1bbe623f7c744bdf97b596458d8e7ea3}
 
@@ -59,4 +59,4 @@ Använd flera separata masker för att färglägga olika delar av en bild. De f�
 
 ## Se även {#section-7ed5201d91594e5f872438a92eaf1c89}
 
-[maskUse=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-maskuse.md#reference-9bb1fb5eee4a4bd38f33dadc1a752464) , [katalog::MaskPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-maskpath-cat.md), [object](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0) , [Begär kapsling och inbäddning](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b)
+[maskUse=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-maskuse.md#reference-9bb1fb5eee4a4bd38f33dadc1a752464) , [catalog::MaskPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-maskpath-cat.md), [object](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0) , [Begär kapsling och inbäddning](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b)

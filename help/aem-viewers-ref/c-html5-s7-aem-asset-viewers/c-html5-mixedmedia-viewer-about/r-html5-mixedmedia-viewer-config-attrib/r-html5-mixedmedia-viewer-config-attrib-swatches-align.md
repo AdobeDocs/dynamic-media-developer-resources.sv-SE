@@ -21,7 +21,7 @@ Anger den interna justeringen (ankarpunkten) för färgrutebehållaren i kompone
 <table id="table_58D88FF5F83A4ABA928695B5AFF97354"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> vänster|mitten|höger</span> </p> </td> 
+   <td> <p> <span class="codeph"> vänster|center|höger</span> </p> </td> 
    <td> <p> Anger justeringen för de vågräta färgrutorna. </p> </td> 
   </tr> 
   <tr> 

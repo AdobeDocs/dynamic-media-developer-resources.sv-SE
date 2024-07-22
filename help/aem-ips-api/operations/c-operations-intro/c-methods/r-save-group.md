@@ -39,7 +39,7 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| groupHandle | `xsd:string` | Ja | Gruppreferens. |
+| groupHandle | `xsd:string` | Ja | Grupphandtag. |
 
 ## Exempel {#section-26eee227ff1f4edabb7fa1240b4d9999}
 

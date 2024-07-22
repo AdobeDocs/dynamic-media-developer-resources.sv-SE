@@ -20,7 +20,7 @@ JavaScript API-referens för Basic Zoom Viewer.
 
 Ställer in visningsparametern på ett angivet värde. Parametern är antingen ett visningsprogramspecifikt konfigurationsalternativ eller en programvaruutvecklingsmodifierare. Den här parametern anropas före `init()`.
 
-Den här metoden är valfri om visningsprogrammets konfigurationsinformation skickades med `config` JSON-objekt till konstruktor.
+Den här metoden är valfri om visningsprogrammets konfigurationsinformation skickades med JSON-objektet `config` till konstruktorn.
 
 Se även [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
@@ -32,7 +32,7 @@ Se även [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-view
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> parametervärdet. Värdet kan inte vara procentkodat. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> parametervärde. Värdet kan inte vara procentkodat. </p> </td> 
   </tr> 
  </tbody> 
 </table>

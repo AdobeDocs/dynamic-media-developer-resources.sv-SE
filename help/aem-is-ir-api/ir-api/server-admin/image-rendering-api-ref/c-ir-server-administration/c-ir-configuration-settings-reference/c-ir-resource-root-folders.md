@@ -16,4 +16,4 @@ ht-degree: 0%
 
 En lista med sökvägar, avgränsade med semikolon, fungerar som rötter för alla datafiler med relativa filsökvägar.
 
-Det kan antingen vara absoluta sökvägar eller sökvägar i förhållande till *[!DNL install_folder]*. När flera sökvägar har angetts försöker servern varje rot i den angivna ordningen tills filen hittas. Standardvärdet är [!DNL ./resources], för en standardrotsökväg till [!DNL install_folder/resources].
+Det kan antingen vara absoluta sökvägar eller sökvägar i förhållande till *[!DNL install_folder]*. När flera sökvägar har angetts försöker servern varje rot i den angivna ordningen tills filen hittas. Standardvärdet är [!DNL ./resources] för standardrotsökvägen [!DNL install_folder/resources].

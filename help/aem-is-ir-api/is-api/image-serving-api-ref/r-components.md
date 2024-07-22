@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 67dd37f3-b11e-42d6-b308-7c1e76a8f2a9
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Dynamic Media Image Serving består av följande komponenter:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Cachelagringstjänst </p> </td> 
-   <td colname="col2"> <p>J2EE-applikation. Hanterar [!DNL Platform Server]Det är datacache. HTTP-åtkomst vid /is/cache. </p> </td> 
+   <td colname="col2"> <p>J2EE-applikation. Hanterar datacache för [!DNL Platform Server]. HTTP-åtkomst vid /is/cache. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Bildserver </p> </td> 
@@ -50,7 +50,7 @@ Dynamic Media Image Serving består av följande komponenter:
   </tr> 
   <tr> 
    <td colname="col1"> <p>ATE-textåtergivningskomponent </p> </td> 
-   <td colname="col2"> <p>En eller flera instanser av textrenderingstjänsten kan vara aktiva när <span class="codeph"> textPs=</span> åtgärder körs. </p> </td> 
+   <td colname="col2"> <p>En eller flera instanser av textrenderingstjänsten kan vara aktiva när <span class="codeph"> textPs=</span>-åtgärder körs. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Återgivningskomponent för SVG </p> </td> 
@@ -58,9 +58,9 @@ Dynamic Media Image Serving består av följande komponenter:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dynamic Media Image Rendering (även kallat Återgivningsserver) </p> </td> 
-   <td colname="col2"> <p>Det krävs en separat licens för att aktivera. HTTP-åtkomst på <span class="filepath"> /ir/render</span>. Alla bildåtergivningsfunktioner är integrerade i [!DNL Platform Server] och Image Server, utan separata körbara komponenter. </p> </td> 
+   <td colname="col2"> <p>Det krävs en separat licens för att aktivera. HTTP-åtkomst vid <span class="filepath"> /ir/render</span>. Alla bildåtergivningsfunktioner är integrerade i [!DNL Platform Server] och Image Server, utan separata körbara komponenter. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ytterligare konfigurationsinställningar tillhandahålls av standardkatalogen ( [!DNL default.ini]) eller specifika bildkataloger (se [Bildkataloger](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) för mer information).
+Ytterligare konfigurationsinställningar tillhandahålls av standardkatalogen ( [!DNL default.ini]) eller specifika bildkataloger (mer information finns i [Bildkataloger](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)).

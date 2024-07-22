@@ -8,7 +8,7 @@ role: Developer,User
 exl-id: 65a54308-f9db-4458-a9c3-ccb1433af43c
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2642'
+source-wordcount: '2581'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Se [Systemkrav och krav](../../c-system-requirements-and-prerequisites.md#concep
 
 ## Använda blandad Media Viewer {#section-f21ac23d3f6449ad9765588d69584772}
 
-Mixed Media Viewer representerar en JavaScript-huvudfil och en uppsättning hjälpfiler (en enda JavaScript-fil innehåller alla SDK-komponenter för visningsprogrammet som används av det här visningsprogrammet, resurser och CSS) som hämtats av visningsprogrammet under körning.
+Mixed Media Viewer representerar en JavaScript-huvudfil och en uppsättning hjälpfiler (en enda JavaScript-fil med alla SDK-komponenter för visningsprogrammet som används av det här visningsprogrammet, resurser, CSS) som hämtats av visningsprogrammet under körning.
 
 Du kan använda blandad mediavisare i popup-läge med den produktionsklara HTML-sidan som finns i IS-Viewer. Du kan också använda visningsprogrammet i inbäddat läge, där det är integrerat i en målwebbsida med hjälp av det dokumenterade API:t.
 
@@ -61,11 +61,11 @@ Mixed Media Viewer har stöd för enkelberörings- och flerberöringsgester som 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dubbelknacka </p> </td> 
-   <td colname="col2"> <p>När <span class="codeph"> kontinuerlig </span> zoomläge, zoomar in en nivå tills maximal förstoring nås, nästa dubbelknackningsgest återställs till ursprungsläget. </p> </td> 
+   <td colname="col2"> <p>I zoomläget <span class="codeph"> kontinuerlig </span> zoomas zoomläget in en nivå tills maximal förstoring nås. Nästa dubbelknackningsgest återställs till ursprungsläget. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Peka och håll </p> </td> 
-   <td colname="col2"> <p> När <span class="codeph"> inline </span> zoomläge, aktiverar zoomad bild. </p> </td> 
+   <td colname="col2"> <p> I zoomläget <span class="codeph"> infogad </span> aktiveras den zoomade bilden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Knipning </p> </td> 
@@ -86,7 +86,7 @@ Visningsprogrammet har också stöd för både pekrörelser och musindata på Wi
 
 Visningsprogrammet är fullt åtkomligt via tangentbordet.
 
-Se [Tangentbordstillgänglighet och -navigering](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
+Se [Tangentbordstillgänglighet och navigering](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
 ## Bädda in blandad Media Viewer {#section-6bb5d3c502544ad18a58eafe12a13435}
 
@@ -98,7 +98,7 @@ I popup-läge öppnas visningsprogrammet i ett separat webbläsarfönster eller 
 
 Popup-läget är det vanligaste för mobila enheter. Webbsidan läser in visningsprogrammet med `window.open()` JavaScript-anrop, korrekt konfigurerat `A` HTML-element eller någon annan lämplig metod.
 
-Vi rekommenderar att du använder en färdig HTML-sida för popup-läge. I det här fallet anropas den [!DNL MixedMediaViewer.html] och finns i [!DNL html5/] undermapp till din standarddistribution av IS-Viewer:
+Vi rekommenderar att du använder en färdig HTML-sida för popup-läge. I det här fallet kallas den [!DNL MixedMediaViewer.html] och finns i undermappen [!DNL html5/] i din standarddistribution av IS-Viewer:
 
 [!DNL <s7viewers_root>/html5/MixedMediaViewer.html]
 
@@ -118,24 +118,24 @@ De viktigaste användningsområdena är webbsidor som är orienterade för dator
 
 Inbäddning med fast storlek används när visningsprogrammet inte ändrar sin storlek efter den första inläsningen. Den här åtgärden är det bästa alternativet för webbsidor med en statisk layout.
 
-Inbäddning av responsiv design förutsätter att visningsprogrammet måste ändra storlek vid körning som svar på storleksändringen av behållaren `DIV`. Det vanligaste användningsområdet är att lägga till ett visningsprogram på en webbsida som använder en flexibel sidlayout.
+Inbäddning av responsiv design förutsätter att visningsprogrammet måste ändra storlek vid körning som svar på storleksändringen för behållaren `DIV`. Det vanligaste användningsområdet är att lägga till ett visningsprogram på en webbsida som använder en flexibel sidlayout.
 
-I läget responsiv designinbäddning beter sig visningsprogrammet olika beroende på hur webbsidan ändrar storlek på sin behållare `DIV`. Om webbsidan bara anger behållarens bredd `DIV`, utan att begränsa höjden, väljer visningsprogrammet automatiskt höjden enligt proportionerna för den resurs som används. Med den här funktionen kan du vara säker på att resursen passar perfekt in i vyn utan utfyllnad på sidorna. Det här användningsexemplet är det vanligaste för webbsidor som använder responsiva designlayoutramverk som Bootstrap eller Foundation.
+I läget responsiv designinbäddning beter sig visningsprogrammet olika beroende på hur webbsidan ändrar storleken på behållaren `DIV`. Om webbsidan bara anger bredden på behållaren `DIV`, och dess höjd inte begränsas, väljer visningsprogrammet automatiskt höjden enligt proportionerna för resursen som används. Med den här funktionen kan du vara säker på att resursen passar perfekt in i vyn utan utfyllnad på sidorna. Det här användningsexemplet är det vanligaste för webbsidor som använder responsiva designlayoutramverk som Bootstrap eller Foundation.
 
-I annat fall, om webbsidan anger både bredd och höjd för visningsprogrammets behållare `DIV`, fyller visningsprogrammet bara det området och följer den storlek som webbsidans layout ger. Ett bra exempel är att bädda in visningsprogrammet i en modal övertäckning, där storleken på övertäckningen anpassas efter webbläsarens fönsterstorlek.
+Om webbsidan ställer in både bredd och höjd för visningsprogrammets behållare `DIV` fyller visningsprogrammet bara det området och följer den storlek som anges i webbsidans layout. Ett bra exempel är att bädda in visningsprogrammet i en modal övertäckning, där storleken på övertäckningen anpassas efter webbläsarens fönsterstorlek.
 
 ## Inbäddning med fast storlek {#section-17d162f76ffa4804b27928f51e7bea1d}
 
 Du lägger till visningsprogrammet på en webbsida genom att göra följande:
 
-1. Lägga till JavaScript-filen för visningsprogrammet på webbsidan.
-1. Definiera behållaren `DIV`.
+1. Lägga till visningsprogrammets JavaScript-fil på webbsidan.
+1. Definierar behållaren `DIV`.
 1. Anger visningsprogrammets storlek.
 1. Skapa och initiera visningsprogrammet.
 
-1. Lägga till JavaScript-filen för visningsprogrammet på webbsidan.
+1. Lägga till visningsprogrammets JavaScript-fil på webbsidan.
 
-   Om du vill skapa ett visningsprogram måste du lägga till en script-tagg i huvudet HTML. Innan du kan använda visningsprogrammets API måste du se till att du inkluderar [!DNL MixedMediaViewer.js]. The [!DNL MixedMediaViewer.js] filen finns under [!DNL html5/js/] undermapp till din standarddistribution av IS-Viewer:
+   Om du vill skapa ett visningsprogram måste du lägga till en script-tagg i huvudet HTML. Innan du kan använda visningsprogrammets API måste du ta med [!DNL MixedMediaViewer.js]. Filen [!DNL MixedMediaViewer.js] finns under undermappen [!DNL html5/js/] i din standarddistribution av IS-Viewer:
 
 [!DNL <s7viewers_root>/html5/js/MixedMediaViewer.js]
 
@@ -149,16 +149,16 @@ Den relativa sökvägen ser ut så här:
 
 >[!NOTE]
 >
->Referera endast till JavaScript för huvudvisningsprogrammet `include` på sidan. Referera inte till några ytterligare JavaScript-filer i webbsideskoden som kan hämtas av visningsprogrammets logik under körning. Ange särskilt inte direkt HTML5 SDK `Utils.js` biblioteket som läses in av visningsprogrammet från `/s7viewers` kontextsökväg (så kallad konsoliderad SDK) `include`). Orsaken är att platsen för `Utils.js` eller liknande visningsprogrambibliotek för miljön hanteras helt av visningsprogrammets logik och platsen ändras mellan visningsprogramversionerna. Adobe har inte äldre versioner av sekundära visningsprogram `includes` på servern.
+>Referera bara till JavaScript `include`-huvudvisningsfilen på din sida. Referera inte till några andra JavaScript-filer i webbsideskoden som kan hämtas av visningsprogrammets logik under körning. Referera inte direkt till HTML5 SDK `Utils.js`-biblioteket som läses in av visningsprogrammet från kontextsökvägen `/s7viewers` (s.k. konsoliderad SDK `include`). Orsaken är att platsen för `Utils.js` eller liknande visningsprogrambibliotek för miljön hanteras helt av visningsprogrammets logik och platsen ändras mellan visningsprogramversioner. Adobe sparar inte äldre versioner av det sekundära visningsprogrammet `includes` på servern.
 >
 >
->Det innebär att du skickar en direkt referens till valfritt sekundärt JavaScript `include` som används av visningsprogrammet på sidan avbryter visningsprogrammets funktioner i framtiden när en ny produktversion distribueras.
+>Det innebär att om du skickar en direkt referens till eventuella sekundära JavaScript `include` som används av visningsprogrammet på sidan så bryts visningsprogrammets funktioner i framtiden när en ny produktversion distribueras.
 
 1. Definierar behållar-DIV.
 
    Lägg till ett tomt DIV-element på sidan där du vill att visningsprogrammet ska visas. DIV-elementet måste ha sitt ID definierat eftersom detta ID skickas senare till visningsprogrammets API. DIV har den storlek som anges via CSS.
 
-   Platshållarens DIV är ett positionerat element, vilket innebär att `position` CSS-egenskapen är inställd på `relative` eller `absolute`.
+   Platshållarens DIV är ett placerat element, vilket innebär att CSS-egenskapen `position` är inställd på `relative` eller `absolute`.
 
    Kontrollera att helskärmsfunktionen fungerar som den ska i Internet Explorer. Kontrollera att det inte finns några andra element i DOM som har en högre staplingsordning än DIV:n för platshållaren.
 
@@ -170,11 +170,11 @@ Den relativa sökvägen ser ut så här:
 
 1. Ange visningsprogrammets storlek
 
-   I det här visningsprogrammet visas miniatyrer när du arbetar med uppsättningar med flera objekt. På stationära datorer placeras miniatyrbilder under huvudvyn. Samtidigt tillåter visningsprogrammet att huvudresursen byts ut under körning med `setAsset()` API. Som utvecklare har du kontroll över hur visningsprogrammet hanterar miniatyrbildsområdet längst ned när den nya resursen bara har ett objekt. Det går att behålla den yttre visningsstorleken intakt och låta huvudvyn öka höjden och uppta miniatyrområdet. Eller så kan du bibehålla huvudvyns storlek statisk och komprimera det yttre visningsområdet så att webbsidans innehåll kan flyttas uppåt. Använd sedan det kostnadsfria utrymmet som finns kvar från miniatyrbilderna.
+   I det här visningsprogrammet visas miniatyrer när du arbetar med uppsättningar med flera objekt. På stationära datorer placeras miniatyrbilder under huvudvyn. Samtidigt tillåter visningsprogrammet byte av huvudresursen under körning med API:t `setAsset()`. Som utvecklare har du kontroll över hur visningsprogrammet hanterar miniatyrbildsområdet längst ned när den nya resursen bara har ett objekt. Det går att behålla den yttre visningsstorleken intakt och låta huvudvyn öka höjden och uppta miniatyrområdet. Eller så kan du bibehålla huvudvyns storlek statisk och komprimera det yttre visningsområdet så att webbsidans innehåll kan flyttas uppåt. Använd sedan det kostnadsfria utrymmet som finns kvar från miniatyrbilderna.
 
-   Om du vill behålla de yttre gränserna för visningsprogrammet definierar du storleken för `.s7mixedmediaviewer` CSS-klass på översta nivån i absoluta enheter. Storleksändring i CSS kan placeras direkt på HTML-sidan eller i en anpassad CSS-fil för visningsprogrammet, och senare tilldelas en post för visningsförinställningar i Dynamic Media Classic, eller skickas explicit med kommandot style.
+   Om du vill behålla de yttre visningsprogramgränserna intakta definierar du storleken för CSS-klassen `.s7mixedmediaviewer` på den översta nivån i absoluta enheter. Storleksändring i CSS kan placeras direkt på HTML-sidan eller i en anpassad CSS-fil för visningsprogrammet, och senare tilldelas en post för visningsförinställningar i Dynamic Media Classic, eller skickas explicit med kommandot style.
 
-   Se [Anpassa blandad mediavisare](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#concept-61b3410f187c4bf3af09ec813c649bf4) om du vill ha mer information om hur du formaterar visningsprogrammet med CSS.
+   Mer information om hur du formaterar visningsprogrammet med CSS finns i [Anpassa visningsprogrammet för blandade media](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#concept-61b3410f187c4bf3af09ec813c649bf4).
 
    Följande är ett exempel på hur du definierar den statiska storleken på det yttre visningsprogrammet på en HTML-sida:
 
@@ -189,9 +189,9 @@ Den relativa sökvägen ser ut så här:
 
    [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html)
 
-   Om du vill göra huvudvyns dimensioner statiska definierar du visningsprogrammets storlek i absoluta enheter för den inre `Container` SDK-komponent använda `.s7mixedmediaviewer .s7container` CSS-väljare, eller genom att använda `stagesize` modifierare.
+   Om du vill göra huvudvyns dimensioner statiska definierar du visningsprogrammets storlek i absoluta enheter för den inre `Container` SDK-komponenten med `.s7mixedmediaviewer .s7container` CSS-väljaren, eller med `stagesize` -modifieraren.
 
-   Följande är ett exempel på hur du definierar visningsstorleken för den inre `Container` SDK-komponenten så att huvudvisningsområdet inte ändrar storlek när du byter resurs:
+   Följande är ett exempel på hur du definierar visningsstorleken för den inre SDK-komponenten `Container` så att huvudvisningsområdet inte ändrar dess storlek när du byter resurs:
 
    ```html {.line-numbers}
    #s7viewer.s7mixedmediaviewer .s7container { 
@@ -204,7 +204,7 @@ Den relativa sökvägen ser ut så här:
 
    [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html)
 
-   Du kan ange `stagesize` modifiera antingen i posten för visningsförinställning i Dynamic Media Classic, eller skicka den explicit med startkoden för visningsprogrammet med `params` samling. Eller som ett API-anrop enligt beskrivningen i kommandoreferensavsnittet i den här hjälpen, som i följande:
+   Du kan ställa in modifieraren `stagesize` antingen i visningsprogrammets förinställningspost i Dynamic Media Classic eller skicka den explicit med visarens initieringskod med samlingen `params`. Eller som ett API-anrop enligt beskrivningen i kommandoreferensavsnittet i den här hjälpen, som i följande:
 
    ```html {.line-numbers}
    mixedMediaViewer.setParam("stagesize", "640,480");
@@ -214,13 +214,13 @@ Den relativa sökvägen ser ut så här:
 
 1. Skapa och initiera visningsprogrammet.
 
-   När du har slutfört stegen ovan skapar du en instans av `s7viewers.MixedMediaViewer` -klass, skicka all konfigurationsinformation till konstruktorn och anropa `init()` -metod i en visningsprograminstans. Konfigurationsinformation skickas till konstruktorn som ett JSON-objekt. Objektet bör åtminstone ha `containerId` fält som innehåller namnet på visningsprogrammets behållar-ID och kapslat `params` JSON-objekt med konfigurationsparametrar som visningsprogrammet stöder. I det här fallet `params` objektet måste ha minst URL för bildserver som skickas som `serverUrl` -egenskap, URL:en för videoservern skickas som `videoserverurl` egenskap och första tillgång som `asset` parameter. Med JSON-baserat initierings-API kan du skapa och starta visningsprogrammet med en enda kodrad.
+   När du har slutfört stegen ovan skapar du en instans av klassen `s7viewers.MixedMediaViewer`, skickar all konfigurationsinformation till konstruktorn och anropar metoden `init()` för en visningsprograminstans. Konfigurationsinformation skickas till konstruktorn som ett JSON-objekt. Det här objektet ska åtminstone ha fältet `containerId` som innehåller namnet på visningsbehållar-ID och kapslat `params` JSON-objekt med konfigurationsparametrar som visningsprogrammet stöder. I det här fallet måste objektet `params` ha minst URL:en för bildservrar som skickas som egenskapen `serverUrl`, URL:en för videoservern som skickas som egenskapen `videoserverurl` och den ursprungliga resursen som parametern `asset`. Med JSON-baserat initierings-API kan du skapa och starta visningsprogrammet med en enda kodrad.
 
-   Det är viktigt att lägga till visningsprogrambehållaren i DOM så att visningsprogramkoden kan hitta behållarelementet med dess ID. I vissa webbläsare fördröjs skapandet av DOM tills webbsidan är slut. För maximal kompatibilitet, ring `init()` metod precis före stängning `BODY` eller på brödtexten `onload()` -händelse.
+   Det är viktigt att lägga till visningsprogrambehållaren i DOM så att visningsprogramkoden kan hitta behållarelementet med dess ID. I vissa webbläsare fördröjs skapandet av DOM tills webbsidan är slut. För maximal kompatibilitet anropar du metoden `init()` precis före den avslutande `BODY` -taggen eller på body `onload()` -händelsen.
 
-   Samtidigt behöver behållarelementet inte nödvändigtvis vara en del av webbsidans layout ännu. Den kan till exempel vara dold med `display:none` format som tilldelats det. I det här fallet skjuter visningsprogrammet upp initieringsprocessen tills webbsidan återför behållarelementet till layouten. När den här åtgärden utförs återtas visningsprogrammet automatiskt.
+   Samtidigt behöver behållarelementet inte nödvändigtvis vara en del av webbsidans layout ännu. Den kan till exempel vara dold med formatet `display:none` som tilldelats den. I det här fallet skjuter visningsprogrammet upp initieringsprocessen tills webbsidan återför behållarelementet till layouten. När den här åtgärden utförs återtas visningsprogrammet automatiskt.
 
-   Följande är ett exempel på hur du skapar en visningsprograminstans, skickar de minsta nödvändiga konfigurationsalternativen till konstruktorn och anropar `init()` -metod. Exemplet förutsätter `mixedMediaViewer` är visningsprograminstansen, `s7viewer` är namnet på platshållaren `DIV`; [!DNL http://s7d1.scene7.com/is/image/] är webbadressen till bildservern, [!DNL http://s7d1.scene7.com/is/content/] är webbadressen till videoservern, och [!DNL Scene7SharedAssets/Mixed_Media_Set_Sample] är tillgången:
+   Följande är ett exempel på hur du skapar en visningsprograminstans, skickar de minsta nödvändiga konfigurationsalternativen till konstruktorn och anropar metoden `init()`. Exemplet förutsätter att `mixedMediaViewer` är visningsprograminstansen; `s7viewer` är namnet på platshållaren `DIV`; [!DNL http://s7d1.scene7.com/is/image/] är URL:en för bildservrar; [!DNL http://s7d1.scene7.com/is/content/] är URL:en för videoservern och [!DNL Scene7SharedAssets/Mixed_Media_Set_Sample] är resursen:
 
 ```html {.line-numbers}
 <script type="text/javascript"> 
@@ -270,7 +270,7 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 
 ## Responsiv inbäddning med obegränsad höjd {#section-056cb574713c4d07be6d07cf3c598839}
 
-Med responsiv designinbäddning har webbsidan normalt någon typ av flexibel layout som bestämmer visningsprogrammets körningsstorlek `DIV`. I följande exempel antar du att webbsidan tillåter visningsprogrammets behållare `DIV` för att ta 40 % av webbläsarens fönsterstorlek och låta dess höjd vara obegränsad. Webbsidans HTML-kod ser ut så här:
+Med responsiv designinbäddning har webbsidan vanligtvis någon typ av flexibel layout på plats som bestämmer körningsstorleken för visningsprogrammets behållare `DIV`. I följande exempel antar du att webbsidan tillåter att visningsprogrammets behållare `DIV` tar 40 % av webbläsarens fönsterstorlek, vilket gör att höjden inte begränsas. Webbsidans HTML-kod ser ut så här:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -290,11 +290,11 @@ Med responsiv designinbäddning har webbsidan normalt någon typ av flexibel lay
 
 Att lägga till visningsprogrammet på en sådan sida liknar stegen för inbäddning med fast storlek. Den enda skillnaden är att du inte behöver definiera visningsprogrammets storlek explicit.
 
-1. Lägga till JavaScript-filen för visningsprogrammet på webbsidan.
+1. Lägga till visningsprogrammets JavaScript-fil på webbsidan.
 1. Definierar behållar-DIV.
 1. Skapa och initiera visningsprogrammet.
 
-Alla steg ovan är desamma som med inbäddning med fast storlek. Lägg till behållar-DIV till befintlig `"holder"` DIV. Följande kod är ett komplett exempel. Lägg märke till hur visningsprogrammets storlek ändras när webbläsarens storlek ändras och hur visningsprogrammets proportioner matchar resursen.
+Alla steg ovan är desamma som med inbäddning med fast storlek. Lägg till behållar-DIV i befintlig DIV för `"holder"`. Följande kod är ett komplett exempel. Lägg märke till hur visningsprogrammets storlek ändras när webbläsarens storlek ändras och hur visningsprogrammets proportioner matchar resursen.
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -327,13 +327,13 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 
 Följande exempelsida visar mer verkliga användningsområden för responsiv designinbäddning med obegränsad höjd:
 
-[Direktdemonstrationer](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+[Live-demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
 [Alternativ demoplats](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 ## Flexibel storleksinbäddning med definierad bredd och höjd {#section-0a329016f9414d199039776645c693de}
 
-Om det finns inbäddning i flexibel storlek med angiven bredd och höjd är webbsidans format annorlunda. Det ger båda storlekarna till `"holder"` DIV och centrerar det i webbläsarfönstret. Dessutom anger webbsidan storleken på `HTML` och `BODY` -element till 100 procent.
+Om det finns inbäddning i flexibel storlek med angiven bredd och höjd är webbsidans format annorlunda. DIV:n `"holder"` får båda storlekarna och centreras i webbläsarfönstret. Webbsidan anger också storleken på elementen `HTML` och `BODY` till 100 procent.
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -400,7 +400,7 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 
 ## Bädda in med Setter-baserat API {#section-af26f0cc2e5140e8a9bfd0c6a841a6d1}
 
-I stället för att använda JSON-baserad initiering kan du använda set-based API och no-args-konstruktor. Den här API-konstruktorn tar inga parametrar och konfigurationsparametrar anges med `setContainerId()`, `setParam()`och `setAsset()` API-metoder, med separata JavaScript-anrop.
+I stället för att använda JSON-baserad initiering kan du använda set-based API och no-args-konstruktor. Om du använder den här API-konstruktorn används inga parametrar och konfigurationsparametrar anges med API-metoderna `setContainerId()`, `setParam()` och `setAsset()` med separata JavaScript-anrop.
 
 I följande exempel visas hur du använder inbäddning med fast storlek med set-based API:
 

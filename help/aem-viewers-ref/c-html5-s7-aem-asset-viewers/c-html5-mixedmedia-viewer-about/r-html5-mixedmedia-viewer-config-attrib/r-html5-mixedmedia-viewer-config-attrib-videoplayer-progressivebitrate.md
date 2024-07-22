@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # VideoPlayer.progressivebitrate{#videoplayer-progressivebitrate}
 
-` [VideoPlayer.|<containerId>_videoPlayer.]progressivebitrate= *`value`*`
+` [VideoPlayer.|<containerId>_videoPlayer.]progressivebitrate= *`värde`*`
 
 <table id="table_678AFC7BC06F41188F820502D2014C1F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> value</span></span> </p> </td> 
-   <td colname="col2"> <p> Anger (i kilobit per sekund eller kbit/s) den videobithastighet som ska spelas upp från en adaptiv videouppsättning om det aktuella systemet inte har stöd för adaptiv videouppspelning. </p> <p>Komponenten hämtar videoströmmen med den högsta möjliga bithastigheten (men inte högre) till det angivna värdet. Om alla videoströmmar i den adaptiva videouppsättningen har högre kvalitet än det angivna värdet väljer logiken bithastigheten med den lägsta kvaliteten. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> värde </span></span> </p> </td> 
+   <td colname="col2"> <p> Anger (i kilobit per sekund eller kbit/s) den videobithastighet som ska spelas upp från en adaptiv videouppsättning om det aktuella systemet inte stöder adaptiv videouppspelning. </p> <p>Komponenten hämtar videoströmmen med den högsta möjliga bithastigheten (men inte högre) till det angivna värdet. Om alla videoströmmar i den adaptiva videouppsättningen har högre kvalitet än det angivna värdet väljer logiken bithastigheten med den lägsta kvaliteten. </p> </td> 
   </tr> 
  </tbody> 
 </table>

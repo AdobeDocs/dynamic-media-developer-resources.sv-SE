@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 46c91d1f-5809-4270-a06d-5068d20a6341
 source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Utseendet på tipsmeddelandet styrs av följande CSS-klassväljare:
 .s7mixedmediaviewer .s7flyoutzoomview .s7tip
 ```
 
-Det går att konfigurera teckensnittsstil, storlek och lodrät förskjutning via CSS. Den vågräta justeringen hanteras emellertid av visningsprogrammets logik. Åsidosätta den via CSS med `left` eller `right` egenskaper stöds inte.
+Det går att konfigurera teckensnittsstil, storlek och lodrät förskjutning via CSS. Den vågräta justeringen hanteras emellertid av visningsprogrammets logik. Det går inte att åsidosätta den via CSS med egenskaperna `left` eller `right`.
 
 **CSS-egenskaper för tipsmeddelandet**
 
@@ -83,7 +83,7 @@ Det går att konfigurera teckensnittsstil, storlek och lodrät förskjutning via
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> färg </span> </p> </td> 
-   <td colname="col2"> <p>Tips för textfärg. </p> </td> 
+   <td colname="col2"> <p>Färg på tipstext. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
@@ -104,7 +104,7 @@ Det går att konfigurera teckensnittsstil, storlek och lodrät förskjutning via
  </tbody> 
 </table>
 
-Tipsmeddelandet kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) för mer information.
+Tipsmeddelandet kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
 Exempel - Om du vill ange ett halvgenomskinligt tips med vitt Arial® 12-px-teckensnitt, förskjuts 50 pixlar från huvudvyns nederkant, utfyllnad och en rundad kant:
 

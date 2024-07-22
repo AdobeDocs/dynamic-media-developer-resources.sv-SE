@@ -24,7 +24,7 @@ Utseendet på knappen för att bädda in delning styrs med följande CSS-klassv�
 .s7smartcropvideoviewer .s7embedshare
 ```
 
-**CSS-egenskaper för verktyget för inbäddningsdelning**
+**CSS-egenskaper för det inbäddade delningsverktyget**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -49,11 +49,11 @@ Utseendet på knappen för att bädda in delning styrs med följande CSS-klassv�
 
 >[!NOTE]
 >
->Den här knappen har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen.
+>Den här knappen stöder attributväljaren `state` som kan användas för att tillämpa olika skal på olika knapplägen.
 
-Det går att ta bort knappen från panelen Dela via inställningen `display:none` CSS-egenskap i dess CSS-klass.
+Det går att ta bort knappen från panelen Dela via CSS-egenskapen `display:none` i CSS-klassen.
 
-Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) för mer information.
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad).
 
 Exempel - Så här ställer du in en inbäddad delningsknapp som är 28 x 28 pixlar och visar olika bilder för de fyra olika knapplägena:
 
@@ -112,7 +112,7 @@ Som standard visas den modala dialogrutan centrerat på skärmen på stationära
 .s7smartcropvideoviewer .s7embeddialog .s7dialog
 ```
 
-**CSS-egenskaper i dialogrutan**
+**CSS-egenskaper för dialogrutan**
 
 <table id="table_E31711ADF4C7446182549244362199A3"> 
  <tbody> 
@@ -214,7 +214,7 @@ Rubriken styrs med följande CSS-klassväljare:
 .s7smartcropvideoviewer .s7embeddialog .s7dialogheadertext
 ```
 
-**CSS-egenskaper för rubriktexten i dialogrutan**
+**CSS-egenskaper för dialogrutans rubriktext**
 
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
@@ -248,7 +248,7 @@ Stängningsknappen styrs med följande CSS-klassväljare:
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p> Lodrät knappposition i förhållande till rubrikbehållare. </p> </td> 
   </tr> 
   <tr> 
@@ -280,9 +280,9 @@ Stängningsknappen styrs med följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen.
+>Den här knappen stöder attributväljaren `state` som kan användas för att tillämpa olika skal på olika knapplägen.
 
-Knappbeskrivningen Stäng och dialogrutans titel kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) för mer information.
+Knappbeskrivningen Stäng och dialogrutans titel kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad).
 
 Exempel - Om du vill ställa in en dialogruterubrik med utfyllnad, en 24 x 14 pixlars ikon, en 16 punkters fetstil och en 28 x 28 pixlars stängningsknapp. Låt den slutligen placera två pixlar uppifrån och två pixlar från höger om behållaren i dialogrutan:
 
@@ -335,7 +335,7 @@ Sidfoten i dialogrutan består av knappen &quot;Avbryt&quot;. Sidfotsbehållaren
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kant </span> </p> </td> 
    <td colname="col2"> <p> Kant som du kan använda för att visuellt separera sidfoten från resten av dialogrutan. </p> </td> 
   </tr> 
  </tbody> 
@@ -347,7 +347,7 @@ Sidfoten har en inre behållare som behåller knappen. Den styrs med följande C
 .s7smartcropvideoviewer .s7embeddialog .s7dialogbuttoncontainer
 ```
 
-**CSS-egenskaper för behållaren för dialogruteknappen**
+**CSS-egenskaper för dialogruteknappbehållaren**
 
 <table id="table_C34906888A8145C7A61E503DFC6B08A9"> 
  <tbody> 
@@ -366,7 +366,7 @@ Knappen Markera allt styrs med följande CSS-klassväljare:
 
 Knappen är bara tillgänglig på stationära datorer.
 
-**CSS-egenskaper för knappen Markera alla**
+**CSS-egenskaper för knappen Markera allt**
 
 <table id="table_021D0467632F49FEBFDF4CF96D2D67C7"> 
  <tbody> 
@@ -391,7 +391,7 @@ Knappen är bara tillgänglig på stationära datorer.
 
 >[!NOTE]
 >
->Knappen Markera allt har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen.
+>Knappen Markera allt har stöd för attributväljaren `state` som kan användas för att tillämpa olika skal på olika knapplägen.
 
 Knappen Avbryt styrs med följande CSS-klassväljare:
 
@@ -424,7 +424,7 @@ Knappen Avbryt styrs med följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Knappen Avbryt stöder `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen.
+>Knappen Avbryt stöder attributväljaren `state` som kan användas för att tillämpa olika skal på olika knapplägen.
 
 Båda knapparna har dessutom en gemensam CSS-klass som kan innehålla CSS-inställningar som är desamma för andra dialogruteknappar:
 
@@ -457,13 +457,13 @@ Båda knapparna har dessutom en gemensam CSS-klass som kan innehålla CSS-instä
    <td colname="col2"> <p>Skugga. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal-höger </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal-right </span> </p> </td> 
    <td colname="col2"> <p>Högerknappsmarginal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Knappens tips kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) för mer information.
+Knappens tips kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad).
 
 Exempel - om du vill ställa in en dialogruteslut med knappen Avbryt (64 x 34), där textfärgen och bakgrundsfärgen är olika för varje knappläge:
 
@@ -618,7 +618,7 @@ Den här klassen är inte lämplig för att styra etikettens storlek eller place
  </tbody> 
 </table>
 
-Verktygstips för dialogruteetiketter kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) för mer information.
+Verktygstips för dialogruteetiketter kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad).
 
 Exempel - om du vill ställa in alla etiketter till grått, fet med ett teckensnitt på nio pixlar:
 
@@ -675,7 +675,7 @@ Inbäddningskoden kapslas i behållaren och styrs med följande CSS-klassväljar
    <td colname="col2"> <p>Bredden på behållaren för inbäddningskoden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kant </span> </p> </td> 
    <td colname="col2"> <p>Kant runt behållaren för inbäddningskoden. </p> </td> 
   </tr> 
   <tr> 
@@ -706,13 +706,13 @@ Den faktiska inbäddningskodtexten styrs med följande CSS-klassväljare:
 <table id="table_FEEF66150C69489BB42A2408EBFCE928"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> word-wrap </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> automatisk radbrytning </span> </p> </td> 
    <td colname="col2"> <p>Radbrytningsformat. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exempel - Så här ställer du in inbäddningskoden som ska användas `break-word` automatisk radbrytning:
+Exempel - Så här ställer du in inbäddningskoden så att `break-word` ordomslutning används:
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogmessage { 
@@ -726,7 +726,7 @@ Etiketten och listrutan för inbäddningsstorlek finns längst ned i dialogrutan
 .s7smartcropvideoviewer .s7embeddialog .s7dialogembedsizepanel
 ```
 
-**CSS-egenskaper för panelen Bädda in storlek i dialogrutan**
+**CSS-egenskaper i dialogrutan, bädda in storlekspanelen**
 
 <table id="table_6BA2769361BA4EC4AB7D250EC9486CB2"> 
  <tbody> 
@@ -751,7 +751,7 @@ Storleken och justeringen för etiketten för inbäddningsstorlek styrs av följ
 .s7smartcropvideoviewer .s7embeddialog .s7dialogembedsizepanel
 ```
 
-**CSS-egenskaper för panelen Bädda in storlek i dialogrutan**
+**CSS-egenskaper i dialogrutan, bädda in storlekspanelen**
 
 <table id="table_8E50C63C9B1349999251CDB5E5AD3D1D"> 
  <tbody> 
@@ -794,7 +794,7 @@ Bredden på kombinationsrutan för inbäddningsstorlek styrs med följande CSS-k
 
 >[!NOTE]
 >
->Kombinationsrutan har stöd för `expanded` attributväljare med möjliga värden för `true` och `false`. The `true` Värdet används när kombinationsrutan visar en fördefinierad inbäddningsstorlek, vilket innebär att all tillgänglig bredd används. The `false` Värdet används när alternativet för anpassad storlek är markerat i kombinationsrutan, så det bör krympa för att tillåta utrymme för anpassade indatafält för bredd och höjd.
+>Kombinationsrutan stöder attributväljaren `expanded` med möjliga värden `true` och `false`. Värdet `true` används när kombinationsrutan visar en av fördefinierade inbäddningsstorlekar, vilket innebär att all tillgänglig bredd bör användas. Värdet `false` används när alternativet för anpassad storlek väljs i kombinationsrutan, så det bör krympa för att tillåta utrymme för anpassade indatafält för bredd och höjd.
 
 Exempel - Att ställa in kombinationsrutan för inbäddningsstorlek till 300 pixlar bred när ett fördefinierat objekt visas och 110 pixlar bred när en anpassad storlek visas:
 
@@ -813,7 +813,7 @@ Höjden på kombinationsrutetexten definieras av ett särskilt inre element och 
 .s7smartcropvideoviewer .s7embeddialog .s7combobox .s7comboboxtext
 ```
 
-**CSS-egenskaper för kombinationsrutetexten**
+**CSS-egenskaper för kombinationsruttexten**
 
 <table id="table_AB60032BF337433F8455DE20AFBA29AB"> 
  <tbody> 
@@ -843,7 +843,7 @@ Kombinationsrutan har en nedrullningsknapp till höger och den styrs med följan
 <table id="table_70E127FA21264366AD5DBBD7DF40EBAA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p>Lodrät knappposition inuti kombinationsrutan. </p> </td> 
   </tr> 
   <tr> 
@@ -869,7 +869,7 @@ Kombinationsrutan har en nedrullningsknapp till höger och den styrs med följan
  </tbody> 
 </table>
 
-Den här knappen har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen.
+Den här knappen stöder attributväljaren `state` som kan användas för att tillämpa olika skal på olika knapplägen.
 
 Exempel - om du vill ställa in en nedrullningsknapp på 28 x 28 pixlar och ha en separat bild för varje läge:
 
@@ -905,7 +905,7 @@ Panelens storlek och position styrs av komponenten. Det går inte att ändra den
 <table id="table_FA7345321C6A4E63B4B78ECF81CE18DB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kant </span> </p> </td> 
    <td colname="col2"> <p>Panelkant. </p> </td> 
   </tr> 
  </tbody> 
@@ -989,12 +989,12 @@ När alternativet Anpassad storlek har valts i kombinationsrutan för inbäddnin
 .s7smartcropvideoviewer .s7embeddialog .s7dialogcustomsizepanel
 ```
 
-**CSS-egenskaper för den anpassade storlekspanelen i dialogrutan**
+**CSS-egenskaper för dialogrutans panel för anpassad storlek**
 
 <table id="table_B00829EA550F4E5E8F51B1C6ADACCD34"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vänster </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kvar </span> </p> </td> 
    <td colname="col2"> <p> Avstånd från kombinationsrutan för inbäddningsstorlek. </p> </td> 
   </tr> 
  </tbody> 
@@ -1019,7 +1019,7 @@ Varje indatafält med anpassad storlek kapslas i en behållare som återger en k
 <table id="table_A8A04BE1988641618D0A412B8AEEE1C5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kant </span> </p> </td> 
    <td colname="col2"> <p>Kant runt inmatningsfältet. </p> </td> 
   </tr> 
   <tr> 
@@ -1089,7 +1089,7 @@ Utseendet på rullningslistområdet styrs med följande CSS-klassväljare:
    <td colname="col2"> <p>Bredd på rullningslist. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p> Den lodräta rullningslistens förskjutning från rullningspanelens överkant. </p> </td> 
   </tr> 
   <tr> 
@@ -1120,7 +1120,7 @@ Rullningslistens spår är området mellan den övre och den nedre rullningsknap
 .s7smartcropvideoviewer .s7embeddialog .s7scrollbar .s7scrolltrack
 ```
 
-**CSS-egenskaper för rullningslistens spår**
+**CSS-egenskaper för rullningslistspåret**
 
 <table id="table_19CF5503C1D34ED9998D4F4A6DA7D5D5"> 
  <tbody> 
@@ -1163,11 +1163,11 @@ Rullningslistens reglage rör sig lodrätt inom ett rullningsspårsområde. Dess
    <td colname="col2"> <p>Höjd på tummen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-utfyllnadspunkt </span> </p> </td> 
    <td colname="col2"> <p>Den lodräta utfyllnaden mellan spårets överkant. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> utfyllnad-nederkant </span> </p> </td> 
    <td colname="col2"> <p> Den lodräta utfyllnaden mellan spårets nederkant. </p> </td> 
   </tr> 
   <tr> 
@@ -1179,7 +1179,7 @@ Rullningslistens reglage rör sig lodrätt inom ett rullningsspårsområde. Dess
 
 >[!NOTE]
 >
->Tummen har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika tumlägen: `up`, `down`, `over`och `disabled`.
+>Tummen stöder attributväljaren `state`, som kan användas för att tillämpa olika skal på olika tumlägen: `up`, `down`, `over` och `disabled`.
 
 Exempel - om du vill ställa in en rullningslist som är 28 x 45 pixlar, har en marginal på tio pixlar över och under och har olika teckningar för varje läge:
 
@@ -1216,7 +1216,7 @@ Utseendet på de övre och nedre rullningsknapparna styrs av följande CSS-klass
 
 Det går inte att placera rullningsknappar med CSS-egenskaperna top, left, bottom och right. I stället placerar visningsprogramlogiken dem automatiskt.
 
-**CSS-egenskaper för de övre och nedre rullningsknapparna**
+**CSS-egenskaper för den övre och undre rullningsknappen**
 
 <table id="table_554BFCFEAF4F43A9AE5F741DC126F833"> 
  <tbody> 
@@ -1241,9 +1241,9 @@ Det går inte att placera rullningsknappar med CSS-egenskaperna top, left, botto
 
 >[!NOTE]
 >
->Dessa knappar har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen: `up`, `down`, `over`och `disabled`.
+>Dessa knappar har stöd för attributväljaren `state`, som kan användas för att tillämpa olika skal på olika knapplägen: `up`, `down`, `over` och `disabled`.
 
-Knappens tips kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) för mer information.
+Knappens tips kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad).
 
 Exempel - för att ställa in rullningsknappar som är 28 x 32 pixlar och har olika teckningar för varje läge:
 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: c63af583-274c-4052-8186-604119a368af
 source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Utseendet på sidindikatorn styrs med följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p>Placera från huvudkontrollfältets övre kant (på stationära datorer och surfplattor) eller sekundära kontrollfält (på mobiltelefoner), inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
@@ -37,7 +37,7 @@ Utseendet på sidindikatorn styrs med följande CSS-klassväljare:
    <td colname="col2"> <p>Placera från höger kant på huvudkontrollfältet (på stationära datorer och surfplattor) eller sekundärt kontrollfält (på mobiltelefoner), inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vänster </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kvar </span> </p> </td> 
    <td colname="col2"> <p>Placera från vänster kant på huvudkontrollfältet (på stationära datorer och surfplattor) eller sekundärt kontrollfält (på mobiltelefoner), inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
@@ -58,7 +58,7 @@ Utseendet på sidindikatorn styrs med följande CSS-klassväljare:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>Teckensnittsnamn. </p> </td> 
+   <td colname="col2"> <p>Typsnittsnamn. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 

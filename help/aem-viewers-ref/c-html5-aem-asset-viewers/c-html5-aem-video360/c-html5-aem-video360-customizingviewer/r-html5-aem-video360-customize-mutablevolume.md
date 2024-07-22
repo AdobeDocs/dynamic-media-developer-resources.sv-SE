@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: eb30ea49-e0ae-4ef4-a5b3-e245d96ce0db
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Utseendet på området för den ändringsbara volymen styrs med följande CSS-kl
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p> Placera från den övre kanten, inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
@@ -78,7 +78,7 @@ Du kan styra bakgrundsbilden för varje knappläge. Knappens storlek ärvs från
 
 >[!NOTE]
 >
->Den här knappen har stöd för båda `state` och `selected` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen. I synnerhet `selected='true'` motsvarar läget &quot;muted&quot; och `selected='false'` motsvarar tillståndet &quot;unmuted&quot;.
+>Den här knappen stöder både attributväljarna `state` och `selected` som kan användas för att tillämpa olika skal på olika knapplägen. I synnerhet motsvarar `selected='true'` läget &quot;muted&quot; och `selected='false'` det &quot;unmuted&quot; läget.
 
 Det lodräta volymfältsområdet styrs med följande CSS-klassväljare:
 
@@ -112,7 +112,7 @@ Spåret i den lodräta volymkontrollen styrs med följande CSS-klassväljare:
 .s7video360viewer .s7mutablevolume .s7verticalvolume .s7filledtrack
 ```
 
-**CSS-egenskaper för spåret inuti lodrät volymkontroll**
+**CSS-egenskaper för spåret i den lodräta volymkontrollen**
 
 <table id="table_21E9AD3FBC8C4437BA02E5CD1BF7E831"> 
  <tbody> 
@@ -158,15 +158,15 @@ Den lodräta volymknappen styrs med följande CSS-klassväljare:
    <td colname="col2"> <p>Höjden på den lodräta volymkontrollknappen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vänster </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kvar </span> </p> </td> 
    <td colname="col2"> <p>Vågrät position för den lodräta volymkontrollknappen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) för mer information.
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Exempel** - Om du vill ställa in en ljudavstängningsknapp som är 32 x 32 pixlar och placerad 6 pixlar från överkanten och 38 pixlar från kontrollfältets högra kant. Visa olika bilder för vart och ett av de fyra olika knapplägena när de är markerade eller inte markerade.
+**Exempel** - Om du vill ställa in en ljudavstängningsknapp som är 32 x 32 pixlar och placerad 6 pixlar uppifrån och 38 pixlar från kontrollfältets högra kant. Visa olika bilder för vart och ett av de fyra olika knapplägena när de är markerade eller inte markerade.
 
 ```
 .s7video360viewer .s7mutablevolume { 

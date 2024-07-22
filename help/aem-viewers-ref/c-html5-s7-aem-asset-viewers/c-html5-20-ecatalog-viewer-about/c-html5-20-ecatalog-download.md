@@ -1,6 +1,6 @@
 ---
-title: Hämta
-description: Hämta
+title: Ladda ned
+description: Ladda ned
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -12,12 +12,12 @@ ht-degree: 0%
 
 ---
 
-# Hämta{#download}
+# Ladda ned{#download}
 
 Du kan ladda ned den elektroniska katalogen som en PDF-fil med knappen &quot;Ladda ned&quot; i kontrollfältet.
 
 Knappen&quot;Hämta&quot; är automatiskt tillgänglig i visningsprogrammets användargränssnitt när följande inträffar:
 
 * Det finns en faktisk PDF-fil i kundens företag.
-* Namnet matchar namnet på den e-katalogresurs som skickas till användaren och innehåller en `.pdf` tillägg.
+* Namnet matchar namnet på den e-katalogresurs som skickas till visningsprogrammet och innehåller ett `.pdf`-tillägg.
 * PDF-filen publiceras i Dynamic Media Classic.

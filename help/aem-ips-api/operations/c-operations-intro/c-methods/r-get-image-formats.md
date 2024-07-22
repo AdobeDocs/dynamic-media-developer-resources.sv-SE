@@ -1,7 +1,7 @@
 ---
 description: Returnerar bildformat som PDF, EPS, SWF med flera.
 solution: Experience Manager
-title: getImageFormats
+title: getImageFormat
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c2fa4cdd-fb4f-4e6a-8197-8f64c986c3a0
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# getImageFormats{#getimageformats}
+# getImageFormat{#getimageformats}
 
 Returnerar bildformat som PDF, EPS, SWF med flera.
 

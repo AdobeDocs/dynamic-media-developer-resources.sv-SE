@@ -21,7 +21,7 @@ Installation av Image Serving innefattar två större serverkomponenter:
 
 Bildåtergivning är en del av dessa två serverkomponenter.
 
-I följande instruktioner `install_root` refererar till rotmappen där Image Serving och Image Rendering är installerade. Och `server:port` refererar till värdnamnet eller IP-adressen och portnumret som konfigurerats som huvudavlyssningsporten för [!DNL Platform Server].
+I de följande instruktionerna refererar `install_root` till rotmappen där Image Serving och Image Rendering är installerade. Och `server:port` refererar till värdnamnet eller IP-adressen och portnumret som konfigurerats som huvudavlyssningsporten för [!DNL Platform Server].
 
 * [Licenser](c-licensing.md)
 * [Innehåll](c-contents.md)

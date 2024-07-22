@@ -26,8 +26,8 @@ Cacheklustret kan fungera i en av två grundläggande konfigurationer:
 
 * När `PS::cacheCluster.updateLocalCache` är aktiverat (standard) kopieras alla cacheposter som finns på en peer-server till det lokala cacheminnet.
 
-   Den här konfigurationen minskar trafiken mellan peer-servrarna. Den ger också de snabbaste svarstiderna på bekostnad av att alla cacheposter replikeras till alla servrar i klustret. Detta är den rekommenderade konfigurationen.
+  Den här konfigurationen minskar trafiken mellan peer-servrarna. Den ger också de snabbaste svarstiderna på bekostnad av att alla cacheposter replikeras till alla servrar i klustret. Detta är den rekommenderade konfigurationen.
 
-* När `PS::cacheCluster.updateLocalCache` är inaktiverat, data från andra servrar kopieras inte till det lokala cacheminnet.
+* När `PS::cacheCluster.updateLocalCache` är inaktiverat kopieras inte data från andra servrar till det lokala cacheminnet.
 
-   Detta multiplicerar det tillgängliga diskutrymmet för cachedata. Det ökar dock trafiken mellan peer-servrarna och minskar de totala svarstiderna. Använd bara den här konfigurationen när du ser låga träfffrekvenser för cacheminnet.
+  Detta multiplicerar det tillgängliga diskutrymmet för cachedata. Det ökar dock trafiken mellan peer-servrarna och minskar de totala svarstiderna. Använd bara den här konfigurationen när du ser låga träfffrekvenser för cache.

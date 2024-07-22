@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: b4604528-93f6-440c-b676-7b4c89fff6c8
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Utseendet på verktygstipsen styrs av följande CSS-klassväljare:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> Bakgrundsfärg. </p> </td> 
+   <td colname="col2"> <p> Bakgrundsfärg </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> färg </span> </p> </td> 
@@ -56,14 +56,14 @@ Utseendet på verktygstipsen styrs av följande CSS-klassväljare:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
-   <td colname="col2"> <p>Teckensnittsstorlek för text. </p> </td> 
+   <td colname="col2"> <p>Teckenstorlek för text. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Om verktygstipsen anpassas från webbsidan för inbäddning måste alla egenskaper innehålla `!IMPORTANT` regel. Det här steget är inte nödvändigt om verktygstipsen är anpassade i visningsprogrammets CSS-fil.
+>Om verktygstipstipsen anpassas från inbäddningswebbsidan måste alla egenskaper innehålla regeln `!IMPORTANT`. Det här steget är inte nödvändigt om verktygstipsen är anpassade i visningsprogrammets CSS-fil.
 
 Exempel - för att skapa verktygstips som har en grå kant med en hörnradie på 3 pixlar, svart bakgrund och vit text i Arial®, 11 pixlar stor:
 

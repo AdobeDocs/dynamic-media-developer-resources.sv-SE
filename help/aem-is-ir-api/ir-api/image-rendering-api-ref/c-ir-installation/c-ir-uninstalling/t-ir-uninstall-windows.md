@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Följ de här instruktionerna för att avinstallera bildåtergivning på en Windows-dator.
 
-1. Starta avinstallationsprogrammet genom att köra ` *[!DNL install_folder]*\_uninst\uninstaller.exe`eller från Start-menyn väljer **[!UICONTROL Programs]** > **[!UICONTROL Scene7]** > **[!UICONTROL Image Rendering]** > **[!UICONTROL Uninstall]**.
+1. Starta avinstallationsprogrammet genom att köra ` *[!DNL install_folder]*\_uninst\uninstaller.exe` eller välj **[!UICONTROL Programs]** > **[!UICONTROL Scene7]** > **[!UICONTROL Image Rendering]** > **[!UICONTROL Uninstall]** på Start-menyn.

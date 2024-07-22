@@ -1,6 +1,6 @@
 ---
 title: Kommandoreferens som är gemensam för alla visningsprogram - Konfigurationsattribut
-description: Konfigurationsattribut som är gemensamma för alla visningsprogram.
+description: Konfigurationsattribut gemensamma för alla visningsprogram.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # Kommandoreferens som är gemensam för alla visningsprogram - Konfigurationsattribut{#command-reference-common-to-all-viewers-configuration-attributes}
 
-Konfigurationsattribut som är gemensamma för alla visningsprogram.
+Konfigurationsattribut gemensamma för alla visningsprogram.

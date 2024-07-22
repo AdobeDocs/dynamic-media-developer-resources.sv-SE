@@ -20,7 +20,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
-   <td> <p> Anger hur färgrutor fylls i vyn. </p> <p> <span class="codeph"> vänster </span> anger fyllningsordningen från vänster till höger, </p> <p> <span class="codeph"> höger </span> inverterar ordningen så att vyn fylls i från höger till vänster och uppifrån och ned. </p> <p>När <span class="codeph"> auto </span> är inställd används komponenten <span class="codeph"> höger </span> läge när språkinställningen är inställd på <span class="codeph"> ja </span>; I annat fall används left. </p> </td> 
+   <td> <p> Anger hur färgrutor fylls i vyn. </p> <p> <span class="codeph"> vänster </span> ställer in fyllningsordningen från vänster till höger; </p> <p> <span class="codeph"> right </span> inverterar ordningen så att vyn fylls i från höger till vänster och uppifrån och ned. </p> <p>När <span class="codeph"> auto </span> är inställt tillämpar komponenten läget <span class="codeph"> right </span> när språkinställningen är inställd på <span class="codeph"> ja </span>; annars används left. </p> </td> 
   </tr> 
  </tbody> 
 </table>

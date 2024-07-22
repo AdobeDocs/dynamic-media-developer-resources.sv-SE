@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 08f20748-71c7-4b9f-9b45-70352f9abf35
 source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Flagga. Ange 0 om du vill inaktivera och 1 om du vill aktivera syntetiska tecken
 
 ## Standard {#section-71f94aa65e404d14b441674c040b59e3}
 
-Ärvs från `default::SynthesizeFontStyles` om den inte är definierad eller om den är tom.
+Ärvs från `default::SynthesizeFontStyles` om inte definierad eller om tom.
 
 ## Se även {#section-47a79659cc844272b6d5f36c946e12ac}
 

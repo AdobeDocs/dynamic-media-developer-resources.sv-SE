@@ -18,9 +18,9 @@ JavaScript API-referens för panoramavisningsprogrammet.
 
 ` setParams( *`parametrar`*)`
 
-Anger en eller flera parametrar till ett givet värde. Metodargumentets syntax är identisk med en URL-frågesträng. Det betyder att den representerar namn=värde-par avgränsade med `&`. Som i en frågesträng är namnen och värdena procentuellt kodade med UTF8. Innan du ringer `init()`måste den här parametern anropas.
+Anger en eller flera parametrar till ett givet värde. Metodargumentets syntax är identisk med en URL-frågesträng. Det innebär att den representerar namn=värdepar som är separerade med `&`. Som i en frågesträng är namnen och värdena procentuellt kodade med UTF8. Innan du anropar `init()` måste den här parametern anropas.
 
-Den här metoden är valfri om visningsprogrammets konfigurationsinformation skickades med `config` JSON-objekt till konstruktor.
+Den här metoden är valfri om visningsprogrammets konfigurationsinformation skickades med JSON-objektet `config` till konstruktorn.
 
 
 ## Parameter {#section-add05f3d7ca0426897bd74bf7ac9b9cd}
@@ -28,8 +28,8 @@ Den här metoden är valfri om visningsprogrammets konfigurationsinformation ski
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> parametrar</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value, parameterpar avgränsade med <span class="codeph"> &amp;</span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> params </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value-parameterpar avgränsade med <span class="codeph"> &amp;</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

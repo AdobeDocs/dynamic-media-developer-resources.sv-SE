@@ -26,7 +26,7 @@ Anger noll eller flera callback-hanterare. Ett anrop till den här metoden skriv
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> hanterare </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {Object} </span> JSON-objekt med återanrop för visningsprogramhändelser. Egenskapsnamnet är namnet på den visningsprogramhändelse som stöds. Egenskapsvärdet är en JavaScript-funktionsreferens till ett lämpligt återanrop. </p> <p>Se <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local"> Händelseåteranrop </a> för mer information om visningsprogramhändelser. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {Object} </span> JSON-objekt med återanrop för visningsprogramhändelser. Egenskapsnamnet är namnet på den visningsprogramhändelse som stöds. Egenskapsvärdet är en JavaScript-funktionsreferens till ett lämpligt återanrop. </p> <p>Mer information om visningsprogramhändelser finns i <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local"> Händelseåteranrop </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

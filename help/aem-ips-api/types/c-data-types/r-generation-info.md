@@ -1,5 +1,5 @@
 ---
-description: PostScript-filegenskaper.
+description: PostScript filegenskaper.
 solution: Experience Manager
 title: GenerationInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL GenerationInfo]{#generationinfo}
 
-PostScript-filegenskaper.
+PostScript filegenskaper.
 
 Syntax
 

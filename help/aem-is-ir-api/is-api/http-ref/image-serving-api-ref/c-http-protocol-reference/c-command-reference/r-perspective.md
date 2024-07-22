@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 2e0297b0-c9a4-4bbd-9f06-368f722288d4
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -35,9 +35,9 @@ Perspektivomformning. Använd en perspektivomformning på lagerkällbilden så a
  </tr> 
 </table>
 
-Modifieraren *`perspQuad`* består av fyra pixelkoordinatvärden i den sammansatta (eller lager 0) koordinatmodellen, som kommer från det övre vänstra hörnet i den sammansatta bilden.
+Modifieraren *`perspQuad`* består av fyra pixelkoordinatvärden i den sammansatta (eller lagret 0) koordinatmodellen, som utgår från det övre vänstra hörnet i den sammansatta bilden.
 
-Modifieraren `perspQuadN` består av fyra normaliserade koordinatvärden, där `0.0,0.0` motsvarar det övre vänstra hörnet av bilden för det sammansatta lagret/lagret 0 och `1.0,1.0` längst ned till höger.
+Modifieraren `perspQuadN` består av fyra normaliserade koordinatvärden, där `0.0,0.0` motsvarar det övre vänstra hörnet i bilden för det sammansatta lagret/lagret 0 och `1.0,1.0` mot det nedre högra hörnet.
 
 Indatabilden omformas så att indatabildens övre vänstra hörn mappas till det första koordinatvärdet för `perspQuad[N]`, det övre högra hörnet till den andra koordinaten, det nedre högra hörnet till den tredje koordinaten och det nedre vänstra hörnet till den fjärde koordinaten.
 
@@ -53,14 +53,14 @@ Beteendet är odefinierat om den kvadrilaterala inte är lämplig för en perspe
 
 Standardimplementeringen skapar en rimlig kompromiss mellan kvalitet och prestanda, men det kan vara nödvändigt att öka upplösningen för källbilden för att förbättra skärpan eller minska den för att minska alibreringsartefakter.
 
-Om källan är en bild använder du `scale=` om du vill välja en annan upplösning (i förhållande till bildens fullständiga upplösning). Angiven `scale=` värdet avrundas till nästa högre PTIF-upplösningsnivå. Om det finns en kapslad begärandekälla kan storleken på bilden som skapas av den kapslade begäran justeras för att uppnå önskad skärpa. För textlager justeras upplösningen för indatabilden (den återgivna texten) genom att ett större värde än= väljs och upplösningen som anges med ökas `textAttr=`.
+Om källan är en bild använder du `scale=` för att välja en annan upplösning (i förhållande till bildens fullständiga upplösning). Det angivna `scale=`-värdet avrundas till nästa högre PTIF-upplösningsnivå. Om det finns en kapslad begärandekälla kan storleken på bilden som skapas av den kapslade begäran justeras för att uppnå önskad skärpa. För textlager justeras upplösningen för indatabilden (den återgivna texten) genom att ett större värde = väljs och upplösningen som anges med `textAttr=` ökas.
 
-Modifieraren *`resOptions`* Med kan du välja en alternativ omsamplingsalgoritm. Följande värden stöds (skiftlägeskänsliga):
+Med modifieraren *`resOptions`* kan du välja en alternativ omsamplingsalgoritm. Följande värden stöds (skiftlägeskänsliga):
 
 <table id="table_0F20007986324E228096888ED37219C0"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> Värde</b> </th> 
+   <th class="entry"> <b> värde </b> </th> 
    <th class="entry"> <b> Beskrivning</b> </th> 
   </tr> 
  </thead>
@@ -79,20 +79,20 @@ Modifieraren *`resOptions`* Med kan du välja en alternativ omsamplingsalgoritm.
   </tr> 
   <tr> 
    <td> <p> <span class="codeph">R3T<span class="varname"> n</span></span> </p> </td> 
-   <td> <p> Supersampling med justerbar darr (<span class="varname"> n</span> måste vara ett heltalsvärde mellan 0 och 200). </p> </td> 
+   <td> <p> Supersampling med justerbar darr (<span class="varname"> n</span>) måste vara ett heltalsvärde mellan 0 och 200). </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Egenskaper {#section-818e57df0a1b4449888543bc6af77751}
 
-kommandot Lager. Gäller för det aktuella lagret eller för lagret 0 om `layer=comp`. Ignoreras av effektlager.
+kommandot Lager. Gäller det aktuella lagret eller lagret 0 om `layer=comp`. Ignoreras av effektlager.
 
-Modifieraren `res=` ignoreras alltid när det finns perspektiv i samma lager. Modifieraren `size=` ignoreras när det anges för bildlager. Modifierare `size=` och `res=` i lager med `perspective=` är reserverade för framtida bruk.
+Modifieraren `res=` ignoreras alltid när det finns perspektiv i samma lager. Modifieraren `size=` ignoreras när den anges för bildlager. Modifierarna `size=` och `res=` i lager med `perspective=` är reserverade för framtida bruk.
 
 ## Standard {#section-e35683395d514d4eb6b32924e1bf8f2f}
 
-`None`, utan perspektivomformning.
+`None`, för ingen perspektivomformning.
 
 ## Se även {#section-e5b71ac4a0724df6bf678dd354cfa51a}
 

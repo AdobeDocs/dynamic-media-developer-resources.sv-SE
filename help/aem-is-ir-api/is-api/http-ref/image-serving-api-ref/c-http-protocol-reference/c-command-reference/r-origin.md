@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 5ea8eb18-d169-4255-b4b1-dda849246485
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Lagerursprung.
 
 <table id="simpletable_A270FD92B1E841FE81F5AB300351FE01"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> coord</span> </p></td> 
+  <td class="stentry"> <p><span class="varname">-kod</span> </p></td> 
   <td class="stentry"> <p>Pixelförskjutning från det övre vänstra hörnet av lagerrektangeln (int, int). </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -33,17 +33,17 @@ Lagerursprung.
 
 >[!NOTE]
 >
->Lagerrektangeln innehåller alltid ändringar som `extend=`.
+>Lagerrektangeln innehåller alltid ändringar av `extend=`.
 
-Definierar justeringspunkten för lagerrektangeln, som används för att placera lagerrektangeln i förhållande till lager 0 `pos=`. `originN=0,0` placerar lagerorigo i mitten av lagerrektangeln. `originN=-0.5,-0.5` och `origin=0,0` är det övre vänstra hörnet, och `originN=0.5,0.5` är det nedre högra hörnet av lagrets rektangel.
+Definierar justeringspunkten för lagerrektangeln, som används för att placera lagerrektangeln i förhållande till lager 0 med hjälp av `pos=`. `originN=0,0` placerar lagerorigo i mitten av lagerrektangeln. `originN=-0.5,-0.5` och `origin=0,0` är det övre vänstra hörnet och `originN=0.5,0.5` är det nedre högra hörnet av lagerrektangeln.
 
 ## Egenskaper {#section-60f639e36ada43d1abc6bfc100afc925}
 
-Lagerattribut. Gäller för det aktuella lagret eller för lagret 0 om `layer=comp`. Påverkar inte lageromformningar ( `crop=`, `scale=`, `rotate=`, `flip=`) som används på lagerkällan. Åsidosättningar `anchor=`. Ignoreras av effektlager.
+Lagerattribut. Gäller det aktuella lagret eller lagret 0 om `layer=comp`. Påverkas inte av lageromformningar ( `crop=`, `scale=`, `rotate=`, `flip=`) som tillämpas på lagerkällan. Åsidosätter `anchor=`. Ignoreras av effektlager.
 
 ## Standard {#section-b7209e5c2ad6491fb0c2353cc3f1f703}
 
-If `origin=` anges inte, bestäms lagerorigo genom att lageromformningarna tillämpas på bildankarpunkten. Om bildankarpunkten inte är känd är mitten av lagerrektangeln ( `originN=0,0`) används.
+Om `origin=` inte anges bestäms lagrets ursprung genom att lageromformningarna tillämpas på bildankarpunkten. Om bildankarpunkten inte är känd används lagerrektangelns mittpunkt ( `originN=0,0`).
 
 ## Exempel {#section-13e38d6e17be4e6cbc6b27fbde63b291}
 

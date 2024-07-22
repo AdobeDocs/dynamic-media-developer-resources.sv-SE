@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Sökväg till vinjettfil. Relativ sökväg och namn för en vinjettfil.
 
-Servern kombinerar det här värdet med `attribute::RootPath` för att skapa den faktiska filsökvägen för vinjettering. Kan också vara en absolut sökväg.
+Servern kombinerar det här värdet med `attribute::RootPath` för att skapa den faktiska sökvägen till vinjettfilen. Kan också vara en absolut sökväg.
 
 ## Egenskaper {#section-b3b295feac084b56bd8a153c04987153}
 
-Textsträng. Valfritt. Om det anges måste det vara en giltig relativ eller absolut filsökväg. Om tom `vignette::Modifier` måste innehålla `vignette=` -kommando.
+Textsträng. Valfritt. Om det anges måste det vara en giltig relativ eller absolut filsökväg. Om den är tom måste `vignette::Modifier` innehålla kommandot `vignette=`.
 
 ## Standard {#section-a1d2133856084eb79a5be8230a4b38fd}
 

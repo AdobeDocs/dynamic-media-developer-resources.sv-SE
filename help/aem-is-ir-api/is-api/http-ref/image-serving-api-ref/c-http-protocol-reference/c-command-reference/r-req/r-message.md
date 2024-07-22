@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Klientmeddelande. Innehåller en funktion som gör att klienter kan infoga korta textmeddelanden i serverloggen.
 
-`req=message&message= *`string`*`
+`req=message&message= *`sträng`*`
 
 <table id="simpletable_9AF29AA336C4447BBC2FD4A7D43ED91B"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> string</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname"> sträng</span> </p> </td> 
   <td class="stentry"> <p>Meddelandesträng. </p></td> 
  </tr> 
 </table>

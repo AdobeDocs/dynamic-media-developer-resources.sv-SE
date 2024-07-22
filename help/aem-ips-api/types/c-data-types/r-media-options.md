@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: f37d935d-fe74-4878-8477-d2144d58d982
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
@@ -30,19 +30,19 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> videoEncodingPresetsArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> videoEncodingPresetsArray </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:HandleArray</span> </td> 
-   <td colname="col3">En array med <span class="codeph"> PropertySet</span> hanterar referenser till förinställningar för videokodning för omkodning av videoklipp. </td> 
+   <td colname="col3">En array med <span class="codeph"> PropertySet </span> hanterar referenser till videokodningsförinställningar för omkodning av videoklipp. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> generateThumbnail</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> generateThumbnail </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolesk</span> </td> 
    <td colname="col3"> När värdet är true extraheras den första bildrutan i videon och används som miniatyrbild. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailOptions</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailOptions </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:ThumbnailOptions</span> </td> 
-   <td colname="col3">Valfritt. Gör att du kan välja en viss videobildruta som ska användas som miniatyrbild. <p>Om du vill ange en miniatyrbild anger du tiden (i millisekunder från videostarten) för den bildruta som du vill använda. Värdena varierar från 0 till slutet av videon. <p>Obs! Om du anger fel tid <span class="codeph"> generateThumbnail</span> är som standard true. </p></p><p>Se <a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> Miniatyrbildsalternativ</a>. </p></td> 
+   <td colname="col3">Valfritt. Gör att du kan välja en viss videobildruta som ska användas som miniatyrbild. <p>Om du vill ange en miniatyrbild anger du tiden (i millisekunder från videostarten) för den bildruta som du vill använda. Värdena varierar från 0 till slutet av videon. <p>Obs! Om du anger fel tid används <span class="codeph"> generateThumbnail</span> som standard true. </p></p><p>Se <a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> ThumbnailOptions</a>. </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,7 +61,7 @@ Syntax
 
 ## Används av {#section-87cb83407198432c95eaa2db9f12f9db}
 
-The `mediaOptions` type används av:
+Typen `mediaOptions` används av:
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 304d93af-3427-4111-882a-35be9ec3aef5
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Kommandomakron innehåller namngivna kortkommandon för kommandouppsättningar. Makron definieras i separata makrodefinitionsfiler som kan bifogas till bildkataloger eller standardkatalogen.
 
-`$ *`name`*$`
+`$ *`namn`*$`
 
 <table id="simpletable_A03541622C354F60B5F304B999C4EF8E"> 
  <tr class="strow"> 
@@ -25,11 +25,11 @@ Kommandomakron innehåller namngivna kortkommandon för kommandouppsättningar. 
  </tr> 
 </table>
 
-`*`name`*` är inte skiftlägeskänsligt och kan bestå av en kombination av ASCII-bokstäver, siffror, &#39;-&#39;, &#39;_&#39; och &#39;.&#39; tecken.
+`*`namn`*` är inte skiftlägeskänsligt och kan bestå av en kombination av ASCII-bokstäver, siffror, -,_ och . tecken.
 
-Makron kan anropas var som helst i en begäran efter ?, och var som helst i en `catalog::Modifier` eller `catalog::PostModifier` fält. Makron kan bara representera ett eller flera, fullständiga, bildserverkommandon och måste separeras från andra kommandon med `&` avgränsare.
+Makron kan anropas var som helst i en begäran efter &#39;?&#39;, och var som helst i ett `catalog::Modifier`- eller `catalog::PostModifier`-fält. Makron kan bara representera ett eller flera, fullständiga, bildserverkommandon och måste separeras från andra kommandon med `&` avgränsare.
 
-Makroanrop ersätts av motsvarande ersättningssträngar tidigt under tolkningen. Kommandon i makron åsidosätter samma kommandon i begäran om de inträffar före makroanropet i begäran. Detta bearbetningsflöde skiljer sig från `catalog::Modifier`, där kommandon i strängen request alltid åsidosätter kommandon i `catalog::Modifier` sträng, oavsett position i begäran.
+Makroanrop ersätts av motsvarande ersättningssträngar tidigt under tolkningen. Kommandon i makron åsidosätter samma kommandon i begäran om de inträffar före makroanropet i begäran. Detta bearbetningsflöde skiljer sig från `catalog::Modifier`, där kommandon i begärandesträngen alltid åsidosätter kommandon i strängen `catalog::Modifier`, oavsett position i begäran.
 
 Kommandomakron kan inte ha argumentvärden, men egna variabler kan användas för att skicka värden från begäran till makrot.
 
@@ -49,7 +49,7 @@ Makrot används enligt följande:
 
 `http://server/cat/1345?$view$ http://server/cat/1435?$view$ http://server/cat/8243?$view$&wid=480`
 
-För `wid=` skiljer sig åt för den tredje begäran, du kan helt enkelt åsidosätta värdet *efter* makrot anropas (ange `wid=`*före* `$view$` har ingen effekt).
+Eftersom `wid=` inte är samma för den tredje begäran kan du helt enkelt åsidosätta värdet *efter* att makrot anropas (att ange `wid=`*före* `$view$` har ingen effekt).
 
 ## Se även {#section-8cdba0ed2480444ca61e719e54f8871c}
 

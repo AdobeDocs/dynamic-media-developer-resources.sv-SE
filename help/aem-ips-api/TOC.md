@@ -5,7 +5,7 @@ feature-set: Experience Manager Assets
 user-guide-description: Med webbtjänstens API:t för IPS (Image Production System) kan externa program och tredjepartsutvecklare programmässigt komma åt IPS-resurser och -funktioner.
 source-git-commit: 72f9cd1b1de82cbeeb8d41fb0f1cf0b51744a8a3
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 + [WSDL-versioner för IPS-webbtjänst](c-wsdl-versions.md)
 + Operationsmetoder {#operation-methods}
    + [Operationsmetoder](operations/c-operations-intro/c-operations-intro.md)
-   + Operationsparametrar {#operation-parameters}
+   + Åtgärdsparametrar {#operation-parameters}
       + [Översikt över åtgärdsparametrar](operations/c-operations-intro/c-methods/c-methods.md)
       + [addCompany](operations/c-operations-intro/c-methods/r-add-company.md)
       + [addCompanyMembership](operations/c-operations-intro/c-methods/r-add-company-membership.md)
@@ -91,7 +91,7 @@ ht-degree: 0%
       + [getGroupMembers](operations/c-operations-intro/c-methods/r-get-group-members.md)
       + [getGroupMembership](operations/c-operations-intro/c-methods/r-get-group-membership.md)
       + [getGroups](operations/c-operations-intro/c-methods/r-get-groups.md)
-      + [getImageFormats](operations/c-operations-intro/c-methods/r-get-image-formats.md)
+      + [getImageFormat](operations/c-operations-intro/c-methods/r-get-image-formats.md)
       + [getImageRenderingPublishSettings](operations/c-operations-intro/c-methods/r-get-image-rendering-publish-settings.md)
       + [getImageServingPublishSettings](operations/c-operations-intro/c-methods/r-get-image-serving-publish-settings.md)
       + [getImageSetMembers](operations/c-operations-intro/c-methods/r-get-image-set-members.md)
@@ -100,7 +100,7 @@ ht-degree: 0%
       + [getMetadataFields](operations/c-operations-intro/c-methods/r-get-metadata-fields.md)
       + [getOriginalFilePaths](operations/c-operations-intro/c-methods/r-get-original-file-paths.md)
       + [getPhotoshopPath](operations/c-operations-intro/c-methods/r-get-photoshop-path.md)
-      + [getPhotoshopPathNames](operations/c-operations-intro/c-methods/r-get-photoshop-path-names.md)
+      + [getPhotoshopPathName](operations/c-operations-intro/c-methods/r-get-photoshop-path-names.md)
       + [getProjects](operations/c-operations-intro/c-methods/r-get-projects.md)
       + [getProperty](operations/c-operations-intro/c-methods/r-get-property.md)
       + [getPropertySets](operations/c-operations-intro/c-methods/r-get-property-sets.md)
@@ -174,7 +174,7 @@ ht-degree: 0%
       + [updatePropertySet](operations/c-operations-intro/c-methods/r-update-property-set.md)
       + [updateTagFieldValues](operations/c-operations-intro/c-methods/r-update-tag-field-values.md)
       + [updateViewerConfigSettings](operations/c-operations-intro/c-methods/r-update-viewer-config-settings.md)
-      + [updateVinjettPublishFormat](operations/c-operations-intro/c-methods/r-update-vignette-publish-format.md)
+      + [updateVignettePublishFormat](operations/c-operations-intro/c-methods/r-update-vignette-publish-format.md)
       + [updateXMPPacket](operations/c-operations-intro/c-methods/r-update-xmp-packet.md)
 + Datatyper {#data-types}
    + [Datatyper](types/c-data-types/c-data-types.md)
@@ -214,7 +214,7 @@ ht-degree: 0%
    + [CompanyArray](types/c-data-types/r-company-array.md)
    + [CompanyMember](types/c-data-types/r-company-member.md)
    + [CompanyMemberArray](types/c-data-types/r-company-member-array.md)
-   + [FöretagMedlemskap](types/c-data-types/r-company-membership.md)
+   + [CompanyMembership](types/c-data-types/r-company-membership.md)
    + [CompanyMembershipArray](types/c-data-types/r-company-membership-array.md)
    + [CompanyMembershipUpdate](types/c-data-types/r-company-membership-update.md)
    + [CompanyMembershipUpdateArray](types/c-data-types/r-company-membership-update-array.md)
@@ -228,7 +228,7 @@ ht-degree: 0%
    + [CreateVideoSitemapJob](types/c-data-types/r-create-video-sitemap-job.md)
    + [CssInfo](types/c-data-types/r-cssinfo.md)
    + [CuePointInfo](types/c-data-types/r-cue-point-info.md)
-   + [DiskUsage](types/c-data-types/r-disk-usage.md)
+   + [Diskanvändning](types/c-data-types/r-disk-usage.md)
    + [DiskUsageArray](types/c-data-types/r-disk-usage-array.md)
    + [EmailConfirmation](types/c-data-types/r-email-confirmation.md)
    + [EmailArray](types/c-data-types/r-email-array.md)
@@ -297,7 +297,7 @@ ht-degree: 0%
    + [MetadataFieldArray](types/c-data-types/r-metadata-field-array.md)
    + [MetadataPublishJobType](types/c-data-types/r-metadata-publish-job-type.md)
    + [MetadataUpdate](types/c-data-types/r-metadata-update.md)
-   + [MetadataUpdateArray](types/c-data-types/r-metadata-update-array.md)
+   + [metadataUpdateArray](types/c-data-types/r-metadata-update-array.md)
    + [MPEvent](types/c-data-types/r-mp-event.md)
    + [MPEventArray](types/c-data-types/r-mp-event-array.md)
    + [OperationFault](types/c-data-types/r-operation-fault.md)
@@ -362,7 +362,7 @@ ht-degree: 0%
    + [TagValueUpdateFaultArray](types/c-data-types/r-tag-value-update-fault-array.md)
    + [TaskItemProgress](types/c-data-types/r-task-item-progress.md)
    + [TaskItemProgressArray](types/c-data-types/r-task-item-progress-array.md)
-   + [AktivitetFörlopp](types/c-data-types/r-task-progress.md)
+   + [TaskProgress](types/c-data-types/r-task-progress.md)
    + [TaskProgressArray](types/c-data-types/r-task-progress-array.md)
    + [TemplateInfo](types/c-data-types/r-template-info.md)
    + [ThumbAssetUpdate](types/c-data-types/r-thumb-asset-update.md)
@@ -409,7 +409,7 @@ ht-degree: 0%
    + [Färgrymder](string-constants/c-string-constants/r-color-spaces.md)
    + [E-postinställningar](string-constants/c-string-constants/r-email-settings.md)
    + [Teckensnittsformat](string-constants/c-string-constants/r-font-styles.md)
-   + [Teckensnittstyper](string-constants/c-string-constants/r-font-types.md)
+   + [Typsnitt](string-constants/c-string-constants/r-font-types.md)
    + [Genereringsinformation](string-constants/c-string-constants/r-generation-info.md)
    + [Illustrator Processes](string-constants/c-string-constants/r-illustrator-processes.md)
    + [Filtyper för jobbloggar](string-constants/c-string-constants/r-job-log-file-types.md)
@@ -423,12 +423,12 @@ ht-degree: 0%
    + [Behörighetstyper](string-constants/c-string-constants/r-permission-types.md)
    + [Photoshop ankarlägen](string-constants/c-string-constants/r-photoshop-anchor-modes.md)
    + [Namngivningslägen för Photoshop-lager](string-constants/c-string-constants/r-photoshop-layer-naming-modes.md)
-   + [PostScript-färgmodell](string-constants/c-string-constants/r-postscript-colorspace-modes.md)
+   + [PostScript ColorSpace-lägen](string-constants/c-string-constants/r-postscript-colorspace-modes.md)
    + [Profilklasser](string-constants/c-string-constants/r-profile-classes.md)
-   + [Publiceringsläge](string-constants/c-string-constants/r-publish-state.md)
+   + [Publish State](string-constants/c-string-constants/r-publish-state.md)
    + [Egenskapsuppsättningstyper](string-constants/c-string-constants/r-property-set-types.md)
-   + [Publicera kontext](string-constants/c-string-constants/r-publish-context.md)
-   + [Publiceringstyper](string-constants/c-string-constants/r-publish-types.md)
+   + [Publish Context](string-constants/c-string-constants/r-publish-context.md)
+   + [Publish Types](string-constants/c-string-constants/r-publish-types.md)
    + [Regionsform](string-constants/c-string-constants/r-region-shape.md)
    + [Sök efter matchningslägen](string-constants/c-string-constants/r-search-match-modes.md)
    + [Sorteringsanvisningar](string-constants/c-string-constants/r-sort-directions.md)
@@ -443,36 +443,36 @@ ht-degree: 0%
    + [authenticationFault](faults/c-faults/r-authentication-fault.md)
    + [permissionFault](faults/c-faults/r-authorization-fault.md)
    + [ipsApiFault](faults/c-faults/r-ips-api-fault.md)
-+ Ändra logg {#change-log}
++ Ändringslogg {#change-log}
    + [Ändra logg](change-log/c-change-log.md)
    + Version 6.0 {#version-6-0}
       + [Version 6.0](change-log/c-change-log/c-6/c-6.md)
       + [Åtgärder: Nytt och ändrat](change-log/c-change-log/c-6/r-6-operations.md)
-      + [Datatyper: Nytt och ändrat](change-log/c-change-log/c-6/r-6-types.md)
+      + [Datatyper: Ny och ändrad](change-log/c-change-log/c-6/r-6-types.md)
    + Version 4.5 {#version-4-5}
       + [Version 4.5](change-log/c-change-log/c-4-5/c-4-5.md)
       + [Åtgärder: Nytt och ändrat](change-log/c-change-log/c-4-5/r-4-5-operations.md)
-      + [Datatyper: Nytt och ändrat](change-log/c-change-log/c-4-5/r-4-5-types.md)
+      + [Datatyper: Ny och ändrad](change-log/c-change-log/c-4-5/r-4-5-types.md)
       + [Begränsad användning](change-log/c-change-log/c-4-5/r-restricted-use.md)
    + Version 4.4 {#version-4-4}
       + [Version 4.4](change-log/c-change-log/c-4-4/c-4-4.md)
       + [Åtgärder: Nytt och ändrat](change-log/c-change-log/c-4-4/r-4-4-operations.md)
-      + [Datatyper: Nytt och ändrat](change-log/c-change-log/c-4-4/r-4-4-types.md)
+      + [Datatyper: Ny och ändrad](change-log/c-change-log/c-4-4/r-4-4-types.md)
       + [Strängkonstanter: Nytt och ändrat](change-log/c-change-log/c-4-4/r-4-4-string-constants.md)
    + Version 4.2 {#version-4-2}
       + [Version 4.2](change-log/c-change-log/c-4-2/c-4-2.md)
-      + [Datatyper: Nytt och ändrat](change-log/c-change-log/c-4-2/r-4-2-types.md)
+      + [Datatyper: Ny och ändrad](change-log/c-change-log/c-4-2/r-4-2-types.md)
    + Version 4.0 {#version-4-0}
       + [Version 4.0](change-log/c-change-log/c-4-0/c-4-0.md)
       + [Nya tillägg och ändringar](change-log/c-change-log/c-4-0/r-4-0-new.md)
    + Version 3.8 {#version-3-8}
       + [Version 3.8](change-log/c-change-log/c-3-8/c-3-8.md)
       + [Åtgärder: Nytt och ändrat](change-log/c-change-log/c-3-8/r-3-8-operations.md)
-      + [Datatyper: Nytt och ändrat](change-log/c-change-log/c-3-8/r-3-8-types.md)
+      + [Datatyper: Ny och ändrad](change-log/c-change-log/c-3-8/r-3-8-types.md)
       + [Strängkonstanter: Nytt och ändrat](change-log/c-change-log/c-3-8/r-3-8-string-constants.md)
    + Version 3.7 {#version-3-7}
       + [Version 3.7](change-log/c-change-log/c-3-7/c-3-7.md)
       + [Åtgärder: Nytt och ändrat](change-log/c-change-log/c-3-7/r-3-7-operations.md)
-      + [Datatyper: Nytt och ändrat](change-log/c-change-log/c-3-7/r-3-7-types.md)
+      + [Datatyper: Ny och ändrad](change-log/c-change-log/c-3-7/r-3-7-types.md)
       + [Strängkonstanter: Nytt och ändrat](change-log/c-change-log/c-3-7/r-3-7-string-constants.md)
 + [Överför resurser via HTTP POST till UploadFile..](c-http-post.md)

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 08cecb09-100f-4671-b335-d59c88b0e1ef
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 JPEG-storlek i kB. Anger den största tillåtna storleken för JPEG-svar i kilobyte.
 
-`jpegSize= *`size`*`
+`jpegSize= *`storlek`*`
 
 <table id="simpletable_EC2A8D8B65854B45B9CB184DA1069355"> 
  <tr class="strow"> 

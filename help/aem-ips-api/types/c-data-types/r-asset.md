@@ -41,7 +41,7 @@ Syntax
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL assetHandle]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Resurshandtag. </td> 
   </tr> 
   <tr> 
@@ -61,7 +61,7 @@ Syntax
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL createUser]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> E-postadress till den användare som skapade resursen. </td> 
   </tr> 
   <tr> 
@@ -81,8 +81,8 @@ Syntax
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL fileName]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
-   <td colname="col3">Returnerar det virtuella filnamnet. Den fullständiga virtuella filsökvägen är <span class="codeph"> mapp</span>+<span class="codeph"> fileName</span>. </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3">Returnerar det virtuella filnamnet. Den fullständiga virtuella filsökvägen är <span class="codeph"> mapp </span>+<span class="codeph"> fileName</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL flashInfo]</span> </span> </td> 
@@ -91,12 +91,12 @@ Syntax
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL folder]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Mapp som innehåller en resurs. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL folderHandle]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Hantera resursens överordnade mapp. </td> 
   </tr> 
   <tr> 
@@ -126,8 +126,8 @@ Syntax
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL ipsImageUrl]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
-   <td colname="col3"> Relativ URL som representerar en miniatyrbildsvy av resursen. </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3"> Relativ URL som representerar en miniatyrvy av resursen. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL javascriptInfo]</span> </span> </td> 
@@ -141,7 +141,7 @@ Syntax
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL lastModifyUser]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> E-postadress till den användare som senast ändrade resursen. </td> 
   </tr> 
   <tr> 
@@ -166,7 +166,7 @@ Syntax
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL name]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Resursnamn. </td> 
   </tr> 
   <tr> 
@@ -201,7 +201,7 @@ Syntax
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL projects]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Lista med projektnamn. </td> 
   </tr> 
   <tr> 
@@ -226,7 +226,7 @@ Syntax
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL subType]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3">Allmän undertyp av resurs som stöder undertypsvärden (till exempel <span class="codeph"> AssetSet</span>). </td> 
   </tr> 
   <tr> 
@@ -246,13 +246,13 @@ Syntax
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL trashState]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Anger om en resurs finns i papperskorgen eller livefilen (se"Papperskorgen" för värden). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL type]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
-   <td colname="col3">Resurstyp. Se <a href="../../string-constants/c-string-constants/r-asset-types.md#reference-2fe75d230663419d88632d30f1144a10" format="dita" scope="local"> Tillgångstyper</a> för värden. </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3">Resurstyp. Se <a href="../../string-constants/c-string-constants/r-asset-types.md#reference-2fe75d230663419d88632d30f1144a10" format="dita" scope="local"> Resurstyper </a> för värden. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL videoCaptionInfo]</span> </span> </td> 
@@ -300,12 +300,12 @@ Syntax
    <td colname="col3"> Egenskaper för en XML-resurs. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> xslInfo</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> xslInfo </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:XslInfo</span> </td> 
    <td colname="col3"> Egenskaper för en XSL-resurs. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> zipInfo</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> zipInfo </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Kodfras </span> </td> 
    <td colname="col3"> </td> 
   </tr> 

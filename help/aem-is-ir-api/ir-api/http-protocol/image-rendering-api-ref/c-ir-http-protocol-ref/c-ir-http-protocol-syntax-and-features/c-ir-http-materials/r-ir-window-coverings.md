@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: ce6543a1-2438-4661-95bf-ff3d956013bc
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Fönsterbeläggning omfattar både mjuka fönsterbeläggningar (drapes, valances, café curtains) och hårda fönsterbeläggningar (shades and blinds).
 
-Fönsteromslagsmaterial anger en *formatfil för fönsteromfattande* ( [!DNL .vnw] filtillägg), en särskild datafil som liknar en vinjett, som innehåller masker, belysning, layout och textureringsdata som definierar fönsteröverdraget.
+Fönsteromfattande material anger en *formatfil som täcker hela fönstret* ( [!DNL .vnw]), en särskild datafil som liknar en vinjett, som innehåller masker, belysning, layout och texturdata som definierar fönsteromslaget.
 
-[!DNL vnw] -filer innehåller inte färg och struktur (struktur) för fönsteröverdraget. Denna information specificeras separat, på liknande sätt som repeterbara texturer.
+[!DNL vnw] filer innehåller inte färg och struktur (struktur) för fönsteröverdraget. Denna information specificeras separat, på liknande sätt som repeterbara texturer.
 
 Det går bara att använda fönsteromslagsmaterial på fönsterobjekt som är överlappande objekt.
 
@@ -33,7 +33,7 @@ Det går bara att använda fönsteromslagsmaterial på fönsterobjekt som är ö
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272" type="reference" format="dita" scope="local"> <span class="codeph"> src= </span> </a> </p> </td> 
-   <td colname="col2"> <p>Fönsteromfattande formatfil. krävs. </p> </td> 
+   <td colname="col2"> <p>Fönsteromfattande formatfil; krävs. </p> </td> 
    <td colname="col3"> <p>Ingen. </p> </td> 
   </tr> 
   <tr> 
@@ -44,7 +44,7 @@ Det går bara att använda fönsteromslagsmaterial på fönsterobjekt som är ö
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md#reference-0ad9de8887144c83a6db97b4994f7c04" type="reference" format="dita" scope="local"> <span class="codeph"> res= </span> </a> </p> </td> 
    <td colname="col2"> <p>Texturupplösning. </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> attribute::Resolution </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph">-attribut::Upplösning </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-repeat.md#reference-37749da8233f42599ecf4731055fb7d8" type="reference" format="dita" scope="local"> <span class="codeph"> repeat= </span> </a> </p> </td> 

@@ -45,29 +45,29 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Handtaget till företaget. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Resurshandtag. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> publishState </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4">Tillgängliga lägen: 
     <ul id="ul_A2614608DF1E4DB6BF8141D33E59D180"> 
      <li id="li_8C90BFEEE2B14A0184F342018C45EE67"><span class="codeph"> MarkedForPublish</span> </li> 
-     <li id="li_C4BC12B304DA4763956C3049AF597D06"><span class="codeph"> EjMarkeradFörPublicering</span> </li> 
+     <li id="li_C4BC12B304DA4763956C3049AF597D06"><span class="codeph"> NotMarkedForPublish</span> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> contextHandleArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> contextHandleArray </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Kodfras </span> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 
@@ -81,7 +81,7 @@ IPS API returnerar inget svar för den här åtgärden.
 
 ## Exempel {#section-c31ead6d0e594317a12c120509527792}
 
-I det här kodexemplet anges publiceringsstatus för en resurs som använder `NotMarkedForPublish`.
+Det här kodexemplet anger publiceringstillståndet för en resurs med `NotMarkedForPublish`.
 
 **Begäran**
 

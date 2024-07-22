@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: fac33287-ebcc-4995-b968-ac377065fdd4
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Markera objekt efter pixelplats.
 
-` sel= *`x`*, *`y`*[, *`nivå`*]`
+` sel= *`x`*, *`y`*[, *`level`*]`
 
 <table id="simpletable_247FF35D791C43D3AB433B8CF49F8C91"> 
  <tr class="strow"> 
@@ -29,21 +29,21 @@ Markera objekt efter pixelplats.
  </tr> 
 </table>
 
-Markerar gruppen eller objektet vid de pixelkoordinater som anges av *`x, y`* och startar ett nytt MSS. Om inget markeringsbart objekt finns på plockplatsen, eller om plockplatsen inte är giltig, anges åtgärden av `attribute::OnFailSel` tas.
+Markerar gruppen eller objektet vid de pixelkoordinater som anges av *`x, y`* och startar ett nytt MSS. Om inget markeringsbart objekt finns på plockplatsen, eller om plockplatsen inte är giltig, utförs åtgärden som anges av `attribute::OnFailSel`.
 
-*`level`* Anger om den yttersta gruppen ska markeras eller om detaljnivån ska göras i en kapslad grupp eller ett kapslat objekt. If *`level`* har inte angetts, den yttersta gruppen markeras. Ange 1 om du vill välja en gruppnivå under den yttersta gruppen. Ange ett stort tal (till exempel 99) för att markera det innersta objekt eller den grupp som kan markeras.
+*`level`* Anger om den yttersta gruppen ska markeras eller om detaljnivån ska göras i en kapslad grupp eller ett kapslat objekt. Om *`level`* inte anges markeras den yttersta gruppen. Ange 1 om du vill välja en gruppnivå under den yttersta gruppen. Ange ett stort tal (till exempel 99) för att markera det innersta objekt eller den grupp som kan markeras.
 
 ## Egenskaper {#section-8f27e84d88734a62a5e398e0c9972bdc}
 
 Markeringskommando; MSS-avgränsare. Objektmarkeringen är beständig tills ett annat objekt markeras, antingen med `obj=` eller `sel=`.
 
-*`x, y`* Måste vara i intervallet 0, 0 (bildens övre vänstra hörn) till *`wid`*-1, *`hei`*-1 (längst ned, till höger i bilden), där *`wid`* och *`hei`* är storleken på den oskalade vinjetteringsvyn.
+*`x, y`* måste ligga inom intervallet 0, 0 (bildens övre vänstra hörn) till *`wid`*-1, *`hei`*-1 (bildens nedre högra hörn), där *`wid`* och *`hei`* är storleken på den ej skalade vinjetteringsvyn.
 
-Om det anges, *`level`* måste vara 0 eller större.
+Om det anges måste *`level`* vara 0 eller större.
 
 ## Standard {#section-e13c705a3e76468894b4ec190ed8a893}
 
-Ingen för *`x, y`*. *`level`* Standardvärdet är 0.
+Inget för *`x, y`*. *`level`* är som standard 0.
 
 ## Se även {#section-486842570b4e4bf895f6ccc172ebd8b2}
 

@@ -1,7 +1,7 @@
 ---
 description: Bildåtergivning utnyttjar funktionen för bildserverscachning för att spara svarsbilddata, mellanliggande data för kapslade/inbäddade begäranden och källbilddata (t.ex. texturer) som hämtats från en extern källa.
 solution: Experience Manager
-title: Datacachelagring
+title: Cachelagring av data
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: c7be9254-0dd4-4ec3-8448-86a18b9bea0d
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# Datacachelagring{#data-caching}
+# Cachelagring av data{#data-caching}
 
 Bildåtergivning utnyttjar funktionen för bildserverscachning för att spara svarsbilddata, mellanliggande data för kapslade/inbäddade begäranden och källbilddata (t.ex. texturer) som hämtats från en extern källa.
 

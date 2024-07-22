@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 7ad499b1-7da6-483b-ab11-cff2eb9271da
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Kompatibilitetsinformation för operativsystem, webbläsare och mobila enheter.
 
 ## HTML5 Video Viewer {#section-3c2dd1220dea4093b17ca2dd0a688307}
 
-* `IntialBitRate` modifierare stöds bara med HLS- och HDS-uppspelning av programvara. Det fungerar inte när uppspelningen använder den inbyggda spelaren.
+* Modifieraren `IntialBitRate` stöds bara med HLS- och HDS-uppspelning för programvara. Det fungerar inte när uppspelningen använder den inbyggda spelaren.
 * OGG- och WebM-progressiv uppspelning stöds inte.
 * Webbläsarskalning gör att videospelaren visas i fel storlek (inklusive visningsinställningar för Kontrollpanelen i Windows®).
 * Videosökningar med HLS-strömning på Safari är inkonsekventa.

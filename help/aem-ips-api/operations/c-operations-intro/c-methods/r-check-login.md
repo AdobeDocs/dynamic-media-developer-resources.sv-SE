@@ -50,7 +50,7 @@ Kontrollerar om en användare med ett visst företag (identifieras av referens),
 
 ## Exempel {#section-23f90100a9d94bc7b4045634cccd1b98}
 
-I den här exempelkoden används en företagshanteringsparameter, e-postadress och ett lösenord för att avgöra om en användare kan logga in på IPS. Om användaren *kan* loggar in returnerar den här metoden strängen, `ValidLogin`. Om användaren *inte* loggar in returnerar den här metoden strängen, `InvalidLogin`.
+I den här exempelkoden används en företagshanteringsparameter, e-postadress och ett lösenord för att avgöra om en användare kan logga in på IPS. Om användaren *kan* logga in returnerar metoden strängen `ValidLogin`. Om användaren *inte kan* logga in returnerar metoden strängen `InvalidLogin`.
 
 **Begäran**
 

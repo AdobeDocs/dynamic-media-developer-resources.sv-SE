@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 964cb4c1-5256-40eb-94ea-761916174b79
 source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 1%
+source-wordcount: '218'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ Decal size. Bredd, höjd och tjocklek för ett dekalt materialobjekt.
 
 Tre reella tal avgränsade med kommatecken. Den får inte vara negativ. Ställ in oanvända värden på 0. Efterföljande nollor kan utelämnas.
 
-Ange bara både bredd och höjd om bilden ska sträckas ut för att passa den angivna storleken (proportionerna kan ändras). Ange antingen bredd eller höjd om du vill skalförändra bilden proportionellt. Ange 0 för både bredd och höjd `catalog::Resolution`för att bestämma objektstorleken.
+Ange bara både bredd och höjd om bilden ska sträckas ut för att passa den angivna storleken (proportionerna kan ändras). Ange antingen bredd eller höjd om du vill skalförändra bilden proportionellt. Ange både bredd och höjd till 0 om du vill använda `catalog::Resolution` för att bestämma objektstorleken.
 
 Ange ett tjockleksvärde för att lägga till en skugga till det dekala objektet. Valfritt för dekala material, ignorerat av alla andra material.
 
@@ -40,7 +40,7 @@ Ange ett tjockleksvärde för att lägga till en skugga till det dekala objektet
   <td class="stentry"> <p>Dekalen är 5 tum bred, höjden bestäms av bildens proportioner och en skugga återges baserat på en tjocklek på 1 tum. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>0,0,.5 </p></td> 
+  <td class="stentry"> <p>0,0,,5 </p></td> 
   <td class="stentry"> <p>Dekalbredden och höjden bestäms av katalogen::Upplösning och att den är ½ tum tjock. </p></td> 
  </tr> 
 </table>

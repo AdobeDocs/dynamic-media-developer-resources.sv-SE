@@ -20,7 +20,7 @@ Dölj överlappningsobjekt. Döljer alla överlappande objekt eller fönsteromsl
 
 <table id="simpletable_015459EC2F4642A59B04F0B8064070B1"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> val</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> val </span></span> </p> </td> 
   <td class="stentry"> <p>Ignorerad. </p></td> 
  </tr> 
 </table>

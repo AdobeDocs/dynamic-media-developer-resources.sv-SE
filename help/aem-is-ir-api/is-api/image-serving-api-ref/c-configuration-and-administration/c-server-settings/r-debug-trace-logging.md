@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: fe1fc984-3c6b-4bd1-b5ba-630860ac7319
 source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ Använd de här serverinställningarna för att felsöka spårningsloggning.
 
 >[!NOTE]
 >
->Adobe rekommenderar att du konfigurerar alla loggfiler som ska skrivas till samma mapp som `TC::directory`. På så sätt säkerställer du att alla loggfiler i Image Serving deltar i den automatiska loggfilsrotationen som konfigurerats med `TC::maxDays`som förhindrar att servern blir instabil på grund av att det inte finns tillräckligt med diskutrymme.
+>Adobe rekommenderar att du konfigurerar alla loggfiler som ska skrivas till samma mapp som `TC::directory`. Detta säkerställer att alla loggfiler i Image Serving deltar i den automatiska loggfilsrotationen som konfigurerats med `TC::maxDays`, vilket förhindrar eventuell serverinstabilitet på grund av utrymmesbrist.
 
 ## SV::log - Sökväg till loggfil för serveradministratörens spårningslogg {#section-3697bc480ff646e79cacc2812c55ef26}
 
-Mapp- och basfilnamn för Server Supervisor-loggfiler. Sökvägen kan vara absolut eller relativ till *[!DNL install_folder]*. Server Supervisor lägger till ett bindestreck och det aktuella datumet ( *[!DNL -yyyy-mm-dd]*) till filnamnet (före eventuella filsuffix). Adobe rekommenderar att du skickar alla loggfiler till samma mapp som [!DNL Platform Server] loggfiler ( `PS::LogFolder`) för att använda den loggfilshantering som implementeras av [!DNL Platform Server] (`PS::LogDays`). Standardvärdet är [!DNL logs/Supervisor.log].
+Mapp- och basfilnamn för Server Supervisor-loggfiler. Sökvägen kan vara absolut eller relativ till *[!DNL install_folder]*. Serverhanteraren lägger till ett bindestreck och det aktuella datumet ( *[!DNL -yyyy-mm-dd]*) i filnamnet (före filsuffixet, om det finns något). Adobe rekommenderar att du skickar alla loggfiler till samma mapp som [!DNL Platform Server] loggfiler ( `PS::LogFolder`) för att använda den loggfilshantering som implementeras av [!DNL Platform Server] (`PS::LogDays`). Standardvärdet är [!DNL logs/Supervisor.log].
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ Loggnivån kan vara 1, 2, 3 eller 4. Standardvärdet är 2.
 
 ## IS::Log - Felsökningsloggfilens sökväg för Image Server {#section-73a3f09b77f2446c9f82207b7d8aec39}
 
-Mapp- och basfilnamn för bildserverns spårningsloggfiler. Sökvägen kan vara absolut eller relativ till *[!DNL install_folder]*. ImageServer lägger till ett bindestreck och det aktuella datumet ( *[!DNL -yyyy-mm-dd]*) till filnamnet (före eventuella filsuffix). Adobe rekommenderar att du skickar loggfiler för Image Server till samma mapp som [!DNL Platform Server] loggfiler ( `PS::LogFolder`) för att använda den loggfilshantering som implementeras av [!DNL Platform Server] (se `PS::LogDays`).
+Mapp- och basfilnamn för bildserverns spårningsloggfiler. Sökvägen kan vara absolut eller relativ till *[!DNL install_folder]*. ImageServer lägger till ett bindestreck och aktuellt datum ( *[!DNL -yyyy-mm-dd]*) till filnamnet (före filsuffixet, om det finns något). Adobe rekommenderar att du skickar loggfiler för Image Server till samma mapp som [!DNL Platform Server] loggfiler ( `PS::LogFolder`) för att använda den loggfilshantering som implementeras av [!DNL Platform Server] (se `PS::LogDays`).
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ Nivå 1 loggar händelser som rör start, avstängning och [!DNL Platform Server
 
 Nivå 2 loggar även anslutning till och frånkoppling från källbilder.
 
-Nivå 3 lägger till loggning av begäranden om pixeldata och leverans av samma till [!DNL Platform Server].
+Nivå 3 lägger till loggning av begäranden om pixeldata och leverans av samma data till [!DNL Platform Server].
 
 Nivå 4 registrerar alla meddelanden som tagits emot från [!DNL Platform Server].
 

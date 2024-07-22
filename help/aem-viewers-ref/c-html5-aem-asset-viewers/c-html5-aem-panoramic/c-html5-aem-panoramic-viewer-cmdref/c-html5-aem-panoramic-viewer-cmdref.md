@@ -15,9 +15,9 @@ ht-degree: 0%
 
 Konfigurationsattributdokumentation för panoramavisningsprogrammet.
 
-Alla konfigurationskommandon kan anges i URL eller med `setParam()` och/eller `setParams()` API-metoder. Alla config-attribut kan också anges i konfigurationsposten på serversidan.
+Alla konfigurationskommandon kan anges i URL eller med API-metoderna `setParam()` och/eller `setParams()`. Alla config-attribut kan också anges i konfigurationsposten på serversidan.
 
-Vissa konfigurationskommandon kan ha prefixet med klassnamnet eller instansnamnet för motsvarande HTML5 SDK-komponent. Ett instansnamn för komponenten är dynamiskt och beror på ID:t för visningsbehållarens DOM-element som skickas till `setContainerId()` API-metod. Dokumentationen innehåller ett valfritt prefix för sådana kommandon. Till exempel: `vrrender` kommandot dokumenteras enligt följande:
+Vissa konfigurationskommandon kan ha prefixet med klassnamnet eller instansnamnet för motsvarande HTML5 SDK-komponent. Ett instansnamn för komponenten är dynamiskt och beror på ID:t för visningsbehållarens DOM-element som skickas till API-metoden `setContainerId()`. Dokumentationen innehåller ett valfritt prefix för sådana kommandon. Kommandot `vrrender` beskrivs till exempel så här:
 
 ```
 [PanoramicView.|<containerId>_panoramicView].vrrender

@@ -31,7 +31,7 @@ Syntax
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> fieldHandle</span></span> </p> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Metadataparametrar som ska tas bort. </p> </td> 
   </tr> 
  </tbody> 

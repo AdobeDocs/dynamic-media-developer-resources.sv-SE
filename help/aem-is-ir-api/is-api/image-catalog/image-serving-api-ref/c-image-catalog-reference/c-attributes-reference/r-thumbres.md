@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Standardupplösning för miniatyrbilder. Anger en standardinställning för upplösningen av miniatyrbildobjektet om en viss katalogpost inte innehåller ett giltigt katalogvärde::ThumbRes-värde.
 
-Används endast för miniatyrbildsbegäranden ( `req=tmb`) och när `catalog::ThumbType=3`.
+Används endast för miniatyrbegäranden ( `req=tmb`) och när `catalog::ThumbType=3`.
 
 ## Egenskaper {#section-88d37d0e030f4879a9e584dd2cc780f3}
 
@@ -24,7 +24,7 @@ Reellt tal som är större än 0. Uttryckt som pixlar per tum, men kan också fi
 
 ## Standard {#section-86588899ec9b4276a98b03d7faf64003}
 
-Ärvs från `default::ThumbRes` om den inte är definierad eller om den är tom.
+Ärvs från `default::ThumbRes` om inte definierad eller om tom.
 
 ## Se även {#section-a6d2cce2e404441a996dba98a95c8e16}
 

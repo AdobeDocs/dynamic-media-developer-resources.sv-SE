@@ -16,13 +16,13 @@ ht-degree: 0%
 
 Konfigurationsattribut för visningsprogrammet för smart beskärning.
 
-` [SmartCropVideoPlayer.|<containerId>_smartCropVideoPlayer.]singleclick= *`none|playPause`*`
+` [SmartCropVideoPlayer.|<containerId>_smartCropVideoPlayer.]singleclick= *`ingen|playPause`*`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> none|playPause</span> </span> </p> </td> 
-   <td colname="col2"> <p> Konfigurerar mappningen av ett enda klick/tryck för att växla uppspelning/paus. Inställning till <span class="codeph"> ingen</span> inaktiverar enkelklickning/tryck för att spela upp/pausa. Om inställt på <span class="codeph"> playPause</span>, klickar du på videon för att växla mellan att spela upp och pausa videon. På vissa enheter kan du använda inbyggda kontroller. I sådana fall <span class="codeph"> singleclick</span> beteendet är inaktiverat. </p> </td> 
+   <td colname="col2"> <p> Konfigurerar mappningen av ett enda klick/tryck för att växla uppspelning/paus. Om du anger <span class="codeph"> none</span> inaktiveras enkelklickning/tryck för att spela upp/pausa. Om värdet är <span class="codeph"> playPause</span> växlar videon mellan att spela upp och pausa videon när du klickar på den. På vissa enheter kan du använda inbyggda kontroller. I så fall är <span class="codeph">-beteendet </span> inaktiverat. </p> </td> 
   </tr> 
  </tbody> 
 </table>

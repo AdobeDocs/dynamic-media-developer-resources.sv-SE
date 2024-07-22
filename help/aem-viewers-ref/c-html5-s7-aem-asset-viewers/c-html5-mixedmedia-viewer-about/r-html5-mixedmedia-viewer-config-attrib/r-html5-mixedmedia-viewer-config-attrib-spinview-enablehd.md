@@ -7,24 +7,24 @@ role: Developer,User
 exl-id: 0a2abdc6-eae5-4dda-b749-599cd8a07a98
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
 
 # SpinView.enableHD{#spinview-enablehd}
 
-` [SpinView.|<containerId>_spinView.]enableHD=always|never|limit[, *`tal`*]`
+` [SpinView.|<containerId>_spinView.]enableHD=always|never|limit[, *`number`*]`
 
 <table id="table_8929B59833DE4E1C89FA4BCF07309809"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> always|never|limit</span> </p> </td> 
-   <td colname="col2"> <p> Aktivera, begränsa eller inaktivera optimering för enheter där <span class="codeph"> devicePixelRatio</span> är större än <span class="codeph"> 1</span>, dvs. enheter med högdensitetsskärm som iPhone4 och liknande enheter. Om den är aktiv begränsar komponenten storleken på IS-bildbegäran som om enheten bara hade pixelproportionen <span class="codeph"> 1</span> och därmed minska bandbredden. </p> </td> 
+   <td colname="col2"> <p> Aktivera, begränsa eller inaktivera optimering för enheter där <span class="codeph"> devicePixelRatio</span> är större än <span class="codeph"> 1</span>, det vill säga enheter med hög densitet som iPhone4 och liknande enheter. Om den är aktiv begränsar komponenten storleken på IS-bildbegäran som om enheten bara hade pixelproportionen <span class="codeph"> 1</span> och minskar därför bandbredden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> tal</span></span> </p> </td> 
-   <td colname="col2"> <p> Om du använder <span class="codeph"> limit</span> aktiverar komponenten bara hög pixeldensitet upp till den angivna gränsen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> nummer</span></span> </p> </td> 
+   <td colname="col2"> <p> Om du använder inställningen <span class="codeph"> limit</span> aktiverar komponenten endast hög pixeldensitet upp till den angivna gränsen. </p> </td> 
   </tr> 
  </tbody> 
 </table>

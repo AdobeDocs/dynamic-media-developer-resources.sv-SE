@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Variabel bearbetning i inbäddade externa begäranden{#variable-processing-in-embedded-foreign-requests}
 
-Alla `$var$` referenser som förekommer var som helst inom klammerparenteserna för en inbäddad extern begäran ersätts med matchande variabeldefinitionsvärden.
+Alla `$var$`-referenser som förekommer var som helst inom klammerparenteserna för en inbäddad extern begäran ersätts med matchande variabeldefinitionsvärden.
 
 Tillåter inbäddade externa begäranden att placeras i en mall i en bildkatalog.
 

@@ -23,5 +23,5 @@ Syntax
 | Namn | Typ | Beskrivning |
 |---|---|---|
 | url | `xsd:string` | URL för bildserver som representerar mallen. |
-| urlModifier | `xsd:string` |  |
-| urlPostApplyModifier | `xsd:string` |  |
+| urlModifier | `xsd:string` | |
+| urlPostApplyModifier | `xsd:string` | |

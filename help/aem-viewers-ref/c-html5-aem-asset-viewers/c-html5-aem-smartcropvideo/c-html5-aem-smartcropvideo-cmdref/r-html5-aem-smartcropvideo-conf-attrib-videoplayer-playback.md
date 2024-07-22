@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 6df94fe7-30ea-42f1-a39e-50219259a098
 source-git-commit: 8c49595fe0efb684b59601fb268bd8bf97fae555
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Konfigurationsattribut för visningsprogrammet för smart beskärning.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|progressiv</span> </p> </td> 
-   <td colname="col2"> <p> Anger den typ av uppspelning som används av visningsprogrammet. När <span class="codeph"> auto</span> är inställt, i de flesta webbläsare och på alla iOS-enheter använder visningsprogrammet direktuppspelad HTML5-video i HLS-format. Den återgår till progressiv uppspelning i HTML5 på vissa system som äldre Internet Explorer och Android™. </p> <p>If <span class="codeph"> progressiv</span> anges att visningsprogrammet endast förlitar sig på uppspelning i HTML5 eftersom det stöds av webbläsare och att videon spelas upp progressivt på alla system. </p> <p>Mer information om hur du väljer uppspelning i automatiskt och progressivt läge finns i användarhandboken för Viewer SDK. </p> </td> 
+   <td colname="col2"> <p> Anger den typ av uppspelning som används av visningsprogrammet. När <span class="codeph"> auto</span> är inställt används direktuppspelad HTML5-video i HLS-format i de flesta webbläsare och på alla iOS-enheter. Den återgår till progressiv uppspelning i HTML5 på vissa system som äldre Internet Explorer och Android™. </p> <p>Om <span class="codeph"> progressiv</span> har angetts förlitar sig visningsprogrammet bara på uppspelning i HTML5 som stöds av webbläsare och spelar upp video progressivt på alla system. </p> <p>Mer information om hur du väljer uppspelning i automatiskt och progressivt läge finns i användarhandboken för Viewer SDK. </p> </td> 
   </tr> 
  </tbody> 
 </table>

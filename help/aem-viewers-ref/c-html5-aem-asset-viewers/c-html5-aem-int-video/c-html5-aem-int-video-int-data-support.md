@@ -18,11 +18,11 @@ Interactive Video Viewer stöder återgivning av interaktiva färgrutor baserat 
 
 Den för närvarande synliga färgrutan motsvarar videotidsområdet som den är associerad med. När du klickar eller trycker på den interaktiva färgrutan aktiveras den åtgärd som tilldelats den vid redigeringen.
 
-Interaktiv färgruta kan antingen aktivera en snabbvy på värdwebbsidan genom att aktivera ett JavaScript-återanrop eller dirigera om användaren till en extern webbsida.
+Interaktiv färgruta kan antingen aktivera en snabbvy på värdwebbsidan genom att utlösa ett JavaScript-återanrop eller dirigera om användaren till en extern webbsida.
 
 ## Om Quickview {#section-7990e44f641042d2a38ba20c9413b3f8}
 
-Dessa typer av interaktiva färgrutor bör redigeras med åtgärdstypen&quot;snabbvy&quot; i Adobe Experience Manager Assets - On-demand. När en användare aktiverar en sådan färgruta körs visningsprogrammet `quickViewActivate` JavaScript-återanrop och skickar färgrutedata till den. Inbäddningswebbsidan förväntas lyssna på återanropet och när den utlöses öppnas en egen QuickView-implementering.
+Dessa typer av interaktiva färgrutor bör redigeras med åtgärdstypen&quot;snabbvy&quot; i Adobe Experience Manager Assets - On-demand. När en användare aktiverar en sådan färgruta kör visningsprogrammet `quickViewActivate` JavaScript-återanrop och skickar färgrutedata till den. Inbäddningswebbsidan förväntas lyssna på återanropet och när den utlöses öppnas en egen QuickView-implementering.
 
 ## Omdirigera till en extern webbsida {#section-32ebe3c3a7f74892a428c5d48801de4d}
 

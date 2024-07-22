@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 1c24973e-1daf-4d9d-b97c-fb6a18f506ed
 source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '60'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Kommandosträngen Bildsökning som används för att zooma bilden.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> iscommand</span></span> </p> </td> 
-   <td colname="col2"> <p> Om det anges i URL:en, alla förekomster av <span class="codeph"> &amp;</span> och <span class="codeph"> =</span> måste vara HTTP-kodad som <span class="codeph"> %26</span> och <span class="codeph"> %3D</span>, respektive. </p> </td> 
+   <td colname="col2"> <p> Om det anges i URL:en måste alla förekomster av <span class="codeph"> &amp;</span> och <span class="codeph"> =</span> vara HTTP-kodade som <span class="codeph"> %26</span> respektive <span class="codeph"> %3D</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

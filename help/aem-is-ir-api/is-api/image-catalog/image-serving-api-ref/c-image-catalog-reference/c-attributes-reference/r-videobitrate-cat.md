@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Videobithastighet. Tillåter specifikation av en bithastighet som är associerad med varje videopost.
 
-Används av `req=set` och `req=mbrSet`begäranden om att exportera bithastighetsdata.
+Används av `req=set`- och `req=mbrSet`-begäranden om att exportera bithastighetsdata.
 
 ## Egenskaper {#section-76731467b23240ac89b0767491c6020b}
 

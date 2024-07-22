@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: ba22c79b-da59-4993-aa1c-2c990a0c4be5
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -25,17 +25,17 @@ Visa bredd. Anger svarsbildens bredd (visningsbild) när fit= inte finns i begä
  </tr> 
 </table>
 
-Om båda `hei=` och `scl=` anges kan den sammansatta bilden beskäras enligt `align=` -attribut. När `fit=` är närvarande, `wid=` anger den exakta, minimala eller maximala bildbredden för svar; se beskrivningen av `fit=` för mer information.
+Om både `hei=` och `scl=` anges kan den sammansatta bilden beskäras enligt attributet `align=`. När `fit=` finns med anger `wid=` den exakta, minimala eller maximala svarsbildens bredd. Mer information finns i beskrivningen av `fit=`.
 
-If `scl=` om inget anges skalas den sammansatta bilden så att den passar. Om båda `wid=` och `hei=` anges, och `scl=` anges inte, så skalas bilden så att den passar helt inom den breda/hei-rektangeln, så att så lite bakgrundsområde som möjligt visas. I det här fallet placeras bilden inom visningsrektangeln enligt `align=` -attribut.
+Om `scl=` inte anges skalas den sammansatta bilden så att den passar. Om både `wid=` och `hei=` anges, och `scl=` inte anges, skalas bilden så att den får plats helt inom den bredda/hei-rektangeln, så att så lite bakgrundsområde som möjligt visas. I det här fallet placeras bilden inom visningsrektangeln enligt attributet `align=`.
 
 >[!NOTE]
 >
->Ett fel returneras om den beräknade eller standardinställda svarsbilden är större än `attribute::MaxPix`.
+>Ett fel returneras om den beräknade eller standardinställda svarsbildstorleken är större än `attribute::MaxPix`.
 
 ## Standard {#section-976d4c8554a34c899f85d172f6ac6f58}
 
-Om ingen `wid=`, `hei=`, eller `scl=` anges har svarsbilden antingen samma storlek som den sammansatta bilden, eller `attribute::DefaultPix`, beroende på vad som är mindre.
+Om varken `wid=`, `hei=` eller `scl=` anges har svarsbilden antingen samma storlek som den sammansatta bilden eller `attribute::DefaultPix`, beroende på vilken som är minst.
 
 ## Egenskaper {#section-c93b7ce1b0d2475f80b06264b45d1285}
 
@@ -47,7 +47,7 @@ Begär en bild så att den får plats i en 200x200-rektangel. I det övre högra
 
 ` http:// *`Server`*/myRootId/myImageId?wid=200&hei=200&align=1,-1`
 
-Samma bild, med en fast bredd på 200 pixlar, men med en variabel höjd för att bibehålla bildens proportioner. I det här fallet har den returnerade bilden aldrig några bakgrundsfyllningsområden. I detta fall `align=` skulle inte ha någon effekt alls.
+Samma bild, med en fast bredd på 200 pixlar, men med en variabel höjd för att bibehålla bildens proportioner. I det här fallet har den returnerade bilden aldrig några bakgrundsfyllningsområden. I det här fallet skulle `align=` inte ha någon effekt alls.
 
 ` http:// *`Server`*/myRootId/myImageId?wid=200`
 

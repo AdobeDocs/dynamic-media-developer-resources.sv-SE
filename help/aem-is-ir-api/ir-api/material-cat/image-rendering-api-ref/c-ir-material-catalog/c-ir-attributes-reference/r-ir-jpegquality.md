@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 1a699a9e-dbf6-4e01-95aa-37a6eb83f4df
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '80'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ Standardkodningskvalitet för JPEG. Anger standardkvalitetsinställningen för J
 
 ## Egenskaper {#section-8b1ed3e0acaa4fbfa050b74c00b9d4dc}
 
-Heltal och flagga, avgränsade med kommatecken. Det första värdet ligger inom intervallet 1..100 och definierar kvaliteten. Det andra värdet kan vara `0` för normalt beteende, eller `1` för att inaktivera den nedsampling av kromaticitet som används av JPEG-kodare.
+Heltal och flagga, avgränsade med komma. Det första värdet ligger inom intervallet 1..100 och definierar kvaliteten. Det andra värdet kan vara `0` för normalt beteende eller `1` för att inaktivera nedsampling av kromaticitet som används av JPEG-kodare.
 
 ## Standard {#section-60900c0fb8c54444b2361513232514db}
 
-Ärvs från `default::JpegQuality` om den inte är definierad eller om den är tom.
+Ärvs från `default::JpegQuality` om inte definierad eller om tom.
 
 ## Se även {#section-8928a28fcbfe401cad4d4021a7a1c268}
 

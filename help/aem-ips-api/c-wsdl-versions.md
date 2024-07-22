@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: d7a6079e-286e-4e62-b2ff-551ef4a5815c
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ https://<IPS_hostname>:<IPS_port>/<IPS_webapp>/
 services/IpsApiService 
 ```
 
-**Åtkomst till URL:er för Dynamic Media-regioner**
+**Åtkomst-URL:er för Dynamic Media-regioner**
 
 <table id="table_45BB314ABCDA49F38DF7BECF95CC984A"> 
  <thead> 
@@ -94,22 +94,22 @@ Kom ihåg att du kanske måste ändra koden om du vill använda funktionerna i d
    <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2012-02-14 </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4.5 </p> </td> 
+   <td colname="col1"> <p>4,5 </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> IpsApi-2010-01-31.wsdl </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2010-01-31 </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4.4 </p> </td> 
+   <td colname="col1"> <p>4,4 </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> IpsApi-2009-07-31.wsdl </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2009-07-31 </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4.2 </p> </td> 
+   <td colname="col1"> <p>4,2 </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> IpsApi-2008-09-10.wsdl </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2008-09-10 </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4.0 </p> </td> 
+   <td colname="col1"> <p>4,0 </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> IpsApi-2008-01-15.wsdl </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2008-01-15 </span> </p> </td> 
   </tr> 
@@ -127,23 +127,23 @@ Befintliga program som måste ändras för att kunna använda nya funktioner må
 
 **Bindningar**
 
-IPS API-webbtjänsten stöder endast SOAP-bindning.
+IPS API-webbtjänsten stöder endast SOAP bindning.
 
 **Transporter som stöds**
 
-IPS API SOAP-bindningen stöder endast HTTP-transport. Gör alla SOAP-begäranden med HTTPS-POST-metoden.
+IPS API-SOAP-bindningen stöder endast HTTP-transport. Gör alla SOAP förfrågningar med metoden HTTPS-POST.
 
-**SOAP-åtgärdshuvud**
+**SOAP åtgärdshuvud**
 
 Om du vill bearbeta en begäran anger du HTTP-huvudet SOAPAction till namnet på den begärda åtgärden. Åtgärdsnamnattributet i WSDL-bindningsavsnittet anger namnet.
 
 **Meddelandeformat**
 
-Formatet document/literal används för alla in- och utdatameddelanden med typer som är baserade på definitionsspråket XML-schema ( [https://www.w3.org/TR/xmlschema-0/](https://www.w3.org/TR/xmlschema-0/)) och anges i WSDL-filen. Alla typer kräver kvalificerade namn med det målnamnutrymmesvärde som anges i WSDL-filen.
+Formatet document/literal används för alla in- och utdatameddelanden med typer som är baserade på definitionsspråket XML-schema ( [https://www.w3.org/TR/xmlschema-0/](https://www.w3.org/TR/xmlschema-0/)) och som anges i WSDL-filen. Alla typer kräver kvalificerade namn med det målnamnutrymmesvärde som anges i WSDL-filen.
 
 **Begär autentisering**
 
-Den metod som rekommenderas för att skicka autentiseringsuppgifter i API-begäranden är att använda `authHeader` -element enligt definition i IPS API WSDL.
+Den metod som rekommenderas för att skicka autentiseringsuppgifter i API-begäranden är att använda elementet `authHeader` enligt definitionen i WSDL för IPS API.
 
 ```
 <element name="authHeader"> 
@@ -180,8 +180,8 @@ Den metod som rekommenderas för att skicka autentiseringsuppgifter i API-begär
    <td colname="col2"> <p>Lösenord för användarkonto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> locale </span> </p> </td> 
-   <td colname="col2"> <p> Valfri språkinställning för begäran. Se <b>Språk</b> för mer information. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> språk </span> </p> </td> 
+   <td colname="col2"> <p> Valfri språkinställning för begäran. Mer information finns i <b>Språk</b>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> appName </span> </p> </td> 
@@ -202,9 +202,9 @@ Den metod som rekommenderas för att skicka autentiseringsuppgifter i API-begär
  </tbody> 
 </table>
 
-The `authHeader` element definieras alltid i namnutrymmet `http://www.scene7.com/IpsApi/xsd`, oavsett API-version.
+Elementet `authHeader` definieras alltid i namnutrymmet `http://www.scene7.com/IpsApi/xsd`, oavsett API-version.
 
-Följande är ett exempel på hur du använder `authHeader` element i en SOAP-header för begäran:
+Följande är ett exempel på hur du använder elementet `authHeader` i en SOAP.
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
@@ -217,19 +217,19 @@ Följande är ett exempel på hur du använder `authHeader` element i en SOAP-he
  </soap:Header>
 ```
 
-**Andra autentiseringsmetoder för begäranden**
+**Andra autentiseringsmetoder för begäran**
 
-Om det av någon anledning inte är möjligt för ditt klientprogram att skicka `authHeader` SOAP-huvud kan API-begäranden även ange autentiseringsuppgifter med HTTP Basic-autentisering (enligt RFC 2617).
+Om klientprogrammet av någon anledning inte kan skicka SOAP `authHeader` kan API-begäranden även ange autentiseringsuppgifter med HTTP Basic-autentisering (enligt RFC 2617).
 
-För grundläggande HTTP-autentisering måste HTTP-huvudavsnittet i varje SOAP-POST innehålla en rubrik i formuläret:
+För grundläggande HTTP-autentisering måste HTTP-huvudavsnittet i varje begäran om SOAP POST innehålla en rubrik i formuläret:
 
 `Authorization: Basic base64(<IPS_user_email>:<password>)`
 
-Plats `base64()` använder standardkodningen Base64, `<IPS_user_email>` är e-postadressen till en giltig IPS-användare, och `<password>` är användarens lösenord.
+Där `base64()` använder standardkodningen Base64 är `<IPS_user_email>` e-postadressen för en giltig IPS-användare och `<password>` är användarens lösenord.
 
-Skicka auktoriseringshuvudet företrädesvis med den initiala begäran. Om inga autentiseringsuppgifter ingår i begäran, `IpsApiService` svarar inte med statuskoden `401 (Unauthorized)`. I stället anges statuskoden `500 (Internal Server Error)` returneras med ett SOAP-felmeddelande som anger att begäran inte kunde autentiseras.
+Skicka auktoriseringshuvudet företrädesvis med den initiala begäran. Om inga autentiseringsuppgifter ingår i begäran svarar `IpsApiService` inte med statuskoden `401 (Unauthorized)`. I stället returneras statuskoden `500 (Internal Server Error)` med en SOAP felkod som anger att begäran inte kunde autentiseras.
 
-Före IPS 3.8 implementerades autentisering via SOAP-huvudet med `AuthUser` och `AuthPassword` element i namnutrymmet `http://www.scene7.com/IpsApi`. Till exempel:
+Före IPS 3.8 implementerades autentisering via SOAP med elementen `AuthUser` och `AuthPassword` i namnutrymmet `http://www.scene7.com/IpsApi`. Till exempel:
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
@@ -238,15 +238,15 @@ Före IPS 3.8 implementerades autentisering via SOAP-huvudet med `AuthUser` och 
 </soap:Header>
 ```
 
-Det här formatet stöds fortfarande för bakåtkompatibilitet, men har ersatts med `authHeader` -element.
+Det här formatet stöds fortfarande för bakåtkompatibilitet, men har ersatts med elementet `authHeader`.
 
 **Begär auktorisering**
 
 När anroparens autentiseringsuppgifter har autentiserats kontrolleras begäran för att säkerställa att anroparen har behörighet att utföra den begärda åtgärden. Auktoriseringen baseras på användarrollen för anroparen och kan även kräva kontroll av målföretaget, målanvändaren och andra åtgärdsparametrar. Dessutom måste användare av Image Portal tillhöra en grupp med de behörigheter som krävs för att utföra vissa mapp- och resursåtgärder. I referensavsnittet Drift finns information om behörighetskraven för varje åtgärd.
 
-**Exempel på SOAP-begäran och -svar**
+**Exempel på SOAP och svar**
 
-I följande exempel visas en fullständig `addCompany` åtgärd, inklusive HTTP-huvuden:
+I följande exempel visas en fullständig `addCompany`-åtgärd, inklusive HTTP-huvuden:
 
 ```
 POST /scene7/services/IpsApiService HTTP/1.1 
@@ -298,9 +298,9 @@ xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
 </soapenv:Envelope>
 ```
 
-**SOAP-fel**
+**SOAP fel**
 
-När en åtgärd påträffar ett undantagsvillkor, returneras ett SOAP-fel som texten i SOAP-meddelandet i stället för det normala svaret. Om en icke-admin-användare till exempel försöker skicka föregående `addCompany` begäran returneras följande svar:
+När en åtgärd påträffar ett undantagsvillkor returneras ett SOAP som brödtexten i det SOAP meddelandet i stället för det normala svaret. Om en icke-admin-användare till exempel försöker skicka föregående `addCompany`-begäran returneras följande svar:
 
 ```
 HTTP/1.1 500 Internal Server Error 

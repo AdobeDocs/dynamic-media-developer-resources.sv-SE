@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: e9bf641f-5bc9-42d9-a030-5591cd883373
 source-git-commit: 61e3a1fd0e21d336eaf5232096f5b1b54f2a6353
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ JavaScript API-referens för Basic Zoom Viewer
 
 `getComponent(componentId)`
 
-Returnerar en referens till SDK-komponenten för visningsprogrammet som används av visningsprogrammet. Webbsidan kan använda den här metoden för att utöka eller anpassa beteendet för visningsprogrammet som inte är installerat. Anropa den här metoden först efter `initComplete` återanrop för visningsprogrammet har körts, annars kanske komponenten inte har skapats ännu av visningsprogramlogiken.
+Returnerar en referens till SDK-komponenten för visningsprogrammet som används av visningsprogrammet. Webbsidan kan använda den här metoden för att utöka eller anpassa beteendet för visningsprogrammet som inte är installerat. Anropa den här metoden först efter att `initComplete`-visningsprogrammets återanrop har körts, annars kanske komponenten inte har skapats ännu av visningsprogramlogiken.
 
 ## Parametrar {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
@@ -77,7 +77,7 @@ Mer information om en viss komponent finns i dokumentationen till SDK API:t för
 
 ## Returnerar {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-The `{Object}` är en referens till SDK-komponenten för visningsprogrammet. Metoden returnerar `null` om `componentId` är inte en visningsprogramkomponent som stöds eller om komponenten ännu inte har skapats av visningsprogramlogiken.
+`{Object}` är en referens till SDK-komponenten för visningsprogrammet. Metoden returnerar `null` om `componentId` inte är en visningsprogramkomponent som stöds eller om komponenten ännu inte har skapats av visningsprogramlogiken.
 
 ## Exempel {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

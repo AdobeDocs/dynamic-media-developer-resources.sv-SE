@@ -6,7 +6,7 @@ feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Följande CSS-klassväljare styr utseendet på videospelaren för smart beskärn
  </tbody> 
 </table>
 
-Det felmeddelande som visas om systemet inte kan spela upp videon kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) för mer information.
+Det felmeddelande som visas om systemet inte kan spela upp videon kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad).
 
 Exempel - Om du vill ställa in ett visningsprogram för smart beskärning med videospelarens storlek för smart beskärning inställd på 512 x 288 pixlar.
 

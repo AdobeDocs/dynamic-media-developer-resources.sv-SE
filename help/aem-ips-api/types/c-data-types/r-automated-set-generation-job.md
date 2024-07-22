@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 44df6dfa-1485-40c2-8a14-bbf451b87641
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Syntax
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL destFolder]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sökväg till den mapp där du vill spara uppsättningarna. Sparar som standard i företagets rotmapp. </td> 
   </tr> 
   <tr> 
@@ -51,7 +51,7 @@ Syntax
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL emailSetting]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Ställ in ett automatiskt e-postmeddelande för jobbet. </p> </td> 
   </tr> 
  </tbody> 
@@ -59,7 +59,7 @@ Syntax
 
 **emailSetting Options**
 
-The `emailSetting` -parametern innehåller följande alternativ:
+Parametern `emailSetting` innehåller följande alternativ:
 
 | Alternativ | Returnerar |
 |---|---|

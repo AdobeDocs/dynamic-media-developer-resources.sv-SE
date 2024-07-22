@@ -18,15 +18,15 @@ Fyra typer av lager stöds.
 
 ## Bildlager {#section-3e53df1437694272aca03f927fc0db07}
 
-Bildlager måste ha en `src=` som anger vilken bild som ska användas som lager. En separat bild kan anges med `mask=` som ska användas som lagermask eller bilden redan har en alfakanal. Storleken på bildlager hämtas alltid från bilden, men bilden skalas ofta så att den passar med `size=` -kommando. En klippbana kan användas med `clipPath=`.
+Bildlager måste ha ett `src=`-kommando som anger bilden som ska användas som lager. En separat bild kan anges med `mask=` som ska användas som lagermask, eller så har bilden redan en alfakanal. Storleken på bildlager hämtas alltid från bilden, men bilden skalas ofta så att den passar med kommandot `size=`. En klippsökväg kan användas med `clipPath=`.
 
 ## Textlager {#section-dc2aec6416a340bcb20c1f884323c8d0}
 
-Måste ha en `text=` eller `textPs=` som tillhandahåller textinnehållet i form av ett RTF-textfragment (Rich Text Format). Textlager kan ha en egen storlek som är anpassad efter innehållet eller få explicita storlekar. Om texten till exempel ska radbrytas till en viss bredd, eller om texten måste begränsas inom ett visst område. `textPs=` stöd för att flöda text till godtyckliga former som definieras med `textFlowPath=` och på godtyckliga sökvägar som definieras med `textPath=`. `textPs=` stöder även återgivning av text i textrutan eller den angivna formen i godtycklig vinkel ( `textAngle=`).
+Måste ha ett `text=`- eller `textPs=`-kommando som tillhandahåller textinnehållet i form av ett RTF-textfragment (Rich Text Format). Textlager kan ha en egen storlek som är anpassad efter innehållet eller få explicita storlekar. Om texten till exempel ska radbrytas till en viss bredd, eller om texten måste begränsas inom ett visst område. `textPs=` har stöd för att flöda text till godtyckliga former som definierats med `textFlowPath=` och till godtyckliga banor som definierats med `textPath=`. `textPs=` har också stöd för att återge text i textrutan eller den angivna formen i godtyckliga vinklar ( `textAngle=`).
 
 ## Solida färglager {#section-56dfb672756643dda08dc93294809eb0}
 
-Heltäckande färglager används ofta för lager 0 i mallar, så att den sammansatta bildens storlek är fast och oberoende av bildens innehåll. Heltäckande färglager kräver en `color=` och antingen `size=` eller `mask=`och har stöd för de flesta andra kommandon och attribut för att ändra utseendet. Solida färglager kan få godtyckliga former med `clipPath=`.
+Heltäckande färglager används ofta för lager 0 i mallar, så att den sammansatta bildens storlek är fast och oberoende av bildens innehåll. Heltäckande färglager kräver ett `color=`-attribut, antingen `size=` eller `mask=`, och stöder de flesta andra kommandon och attribut för att ändra utseendet. Solida färglager kan ges godtyckliga former med `clipPath=`.
 
 ## Effektlager {#section-dd3b628bc6734077af4c0ddcebcee05f}
 

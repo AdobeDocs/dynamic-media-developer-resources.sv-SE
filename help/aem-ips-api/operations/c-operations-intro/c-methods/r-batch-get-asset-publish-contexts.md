@@ -36,17 +36,16 @@ Syntax
 >* Alla användare har åtkomst till det delade företaget.
 >
 
-
 ## Parametrar {#section-1742fcb196224545b270eb8241f757a8}
 
-**Indata (batchGetAssetPublishContexterParam)**
+**Indata (batchGetAssetPublishContexParam)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Handla till företaget. |
 | assetHandleArray | ` `typer:HandleArray&quot; | Ja | En lista med resurser som du vill fråga efter aktiva (markerade för publicering) kontexter. |
 
-**Utdata (batchGetAssetPublishContextReturn)**
+**Utdata (batchGetAssetPublishContexterReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|

@@ -42,52 +42,52 @@ Skapa eller redigera ett metadatafält. Utelämna den valfria fältreferensen f�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Handtaget till företaget. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> Fälthandtag. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetType</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetType </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Val av resurstyper som metadata ska sparas från. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Fältnamn. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldType</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldType </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Val av metadatafälttyper. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Standardvärde för fälten för alla resurser. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolesk</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> Dölj eller visa systemspecifika IPS-metadata. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"><span class="varname"> isEnced</span></span> </td> 
+   <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolesk</span> </td> 
    <td colname="col3"> <p>Nej </p> </td> 
-   <td colname="col4"> <p>En boolesk flagga som anger om metadatafältet används (valideras) när värdet ställs in. </p> <p>Om värdet är true genereras ett fel om ett ogiltigt värde anges i <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
+   <td colname="col4"> <p>En boolesk flagga som anger om metadatafältet används (valideras) när värdet ställs in. </p> <p>Om värdet är true genereras ett fel om ett ogiltigt värde anges i <span class="codeph"> setAssetMetadata </span> /<span class="codeph"> batchSetAssetMetadata </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -100,7 +100,7 @@ Skapa eller redigera ett metadatafält. Utelämna den valfria fältreferensen f�
 
 ## Exempel {#section-4441c26d1f41466ba972b43dd5189e89}
 
-I det här kodexemplet skapas ett metadatafält som begränsas av strängkonstanterna Resurstyp och Metadatafälttyper. Om `fieldHandle` -elementet har ett giltigt fältreferensvärde, ändrar metadatavärdena och får samma fältreferens som du angav i begäran.
+I det här kodexemplet skapas ett metadatafält som begränsas av strängkonstanterna Resurstyp och Metadatafälttyper. Om elementet `fieldHandle` har ett giltigt fältreferensvärde ändras metadatavärdena och samma fältreferens som du angav i begäran hämtas.
 
 **Begäran**
 

@@ -1,35 +1,35 @@
 ---
 title: bgc
-description: Bakgrundsfärg. Anger den subtraktiva färgen för färgningsbara texturer och dekorfärger.
+description: Bakgrundsfärg Anger den subtraktiva färgen för färgningsbara texturer och dekorfärger.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9ac6517e-b9c3-48d9-97ac-d8aa65a8ba46
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
 
 # bgc {#bgc}
 
-Bakgrundsfärg. Anger den subtraktiva färgen för färgningsbara texturer och dekorfärger.
+Bakgrundsfärg Anger den subtraktiva färgen för färgningsbara texturer och dekorfärger.
 
 `bgc= *[!DNL color]*`
 
 <table id="simpletable_131302355CAB4900A7B45FED903A1AAD" class="- topic/simpletable "> 
  <tr class="- topic/strow strow"> 
-  <td class="- topic/stentry stentry"> <p><span class="+ topic/keyword sw-d/varname varname"> färg</span> </p> </td> 
+  <td class="- topic/stentry stentry"> <p><span class="+ topic/keyword sw-d/varname varname"> färg </span> </p> </td> 
   <td class="- topic/stentry stentry"> <p>RGB eller grått färgvärde. </p></td> 
  </tr> 
 </table>
 
-Bildåtergivningens texturfärgningsalgoritm är okomplicerad - komponentvärdena för `bgc=` subtraheras från värdena för texturpixlar, `color=` läggs till och resultatet klipps till `0,0,0` och `255,255,255`.
+Bildåtergivningens texturfärgningsalgoritm är okomplicerad - komponentvärdena för `bgc=` subtraheras från värdena för texturpixlar. `color=` läggs till och resultatet klipps till `0,0,0` och `255,255,255`.
 
-För typiska användningsområden för texturfärgning är värdet för `bgc=` kan vara den viktigaste eller dominerande färgen i texturbilden. Dynamic Media Image Authoring innehåller halvautomatiska verktyg som extraherar rimliga `bgc=` färgvärden från texturbilder.
+För typisk användning av texturfärgning kan värdet för `bgc=` vara den viktigaste eller dominerande färgen i texturbilden. Dynamic Media Image Authoring innehåller halvautomatiska verktyg som extraherar rimliga `bgc=` färgvärden från texturbilder.
 
-När ett texturmaterial används på ett vinjetteringsobjekt som inte kan struktureras, `bgc=` används som förgrundsfärg om `color=` har inte angetts.
+När ett texturmaterial används på ett vinjetteringsobjekt som inte kan struktureras används `bgc=` som förgrundsfärg om `color=` inte anges.
 
 ## Egenskaper {#section-b2db6f147d7f443ba9f671de04c2ef19}
 

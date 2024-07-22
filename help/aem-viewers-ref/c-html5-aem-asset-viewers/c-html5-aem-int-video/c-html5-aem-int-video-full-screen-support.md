@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 6a3d4a58-c3aa-4663-a848-ee5c1285ff75
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
@@ -20,4 +20,4 @@ I moderna webbläsare, förutom Internet Explorer 10 och tidigare, och på vissa
 
 På iOS-enheter och i äldre Internet Explorer-webbläsare används helskärmsläget&quot;simulerad&quot; istället. I det här läget ändras visningsprogrammets storlek så att hela området i webbläsarfönstret visas. Dessutom visas webbläsarens användargränssnitt och andra fönster fortfarande på skärmen.
 
-En användare aktiverar och inaktiverar helskärmsläget genom att trycka på helskärmsknappen i visningsprogrammets användargränssnitt. När det inbyggda helskärmsläget används på skrivbordet går det också att avsluta det genom att trycka på **Esc**.
+En användare aktiverar och inaktiverar helskärmsläget genom att trycka på helskärmsknappen i visningsprogrammets användargränssnitt. När det inbyggda helskärmsläget används på skrivbordet kan du även avsluta det genom att trycka på **Esc**.

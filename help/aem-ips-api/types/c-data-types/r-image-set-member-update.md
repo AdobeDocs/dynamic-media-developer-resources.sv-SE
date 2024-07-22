@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 4c598afb-a80c-4fac-997f-ef1c7175430c
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 I den här typen är pageReset-fältet användbart för resurstyperna RenderSet och Catalog:
 
-* För `RenderSet`, `pageReset` används för att ange början på en ny återgivningsvy/färgrutegrupp.
+* För `RenderSet` anger `pageReset` början på en ny renderingsvy/färgrutegrupp.
 
-* För katalog `pageReset` används för att ange början på en ny sidvy. Vanligtvis finns det två sidbilder per sidvy, men du kan ha fler eller färre.
+* För katalog anger `pageReset` början på en ny sidvy. Vanligtvis finns det två sidbilder per sidvy, men du kan ha fler eller färre.
 
 ## Parametrar {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -32,14 +32,14 @@ I den här typen är pageReset-fältet användbart för resurstyperna RenderSet 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Resurshandtag i bilduppsättningens medlemsarray. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> pageReset</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> pageReset </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolesk</span> </td> 
-   <td colname="col3">Återställer sidan. <p>Inställningen ignoreras och värdet måste vara true för <span class="codeph"> ImageSet</span> och <span class="codeph"> SpinSet</span>. </p></td> 
+   <td colname="col3">Återställer sidan. <p>Inställningen ignoreras och värdet tvingas till true för <span class="codeph"> ImageSet </span> och <span class="codeph"> SpinSet </span>. </p></td> 
   </tr> 
  </tbody> 
 </table>

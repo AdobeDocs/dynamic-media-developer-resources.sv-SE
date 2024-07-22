@@ -7,12 +7,12 @@ role: Developer,Admin
 exl-id: d8800b15-b9a3-4497-8b6b-fd318458ab5a
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: '48'
 ht-degree: 0%
 
 ---
 
-# Datatyper: Nytt och ändrat{#data-types-new-and-modified}
+# Datatyper: Ny och ändrad{#data-types-new-and-modified}
 
 Beskriver nya och ändrade datatyper för IPS API version 4.4.
 
@@ -33,14 +33,14 @@ Syntax
 
 ## Ändrade typer {#section-dfd062062ad444b0876bbc951fb1560c}
 
-**Tillgång**
+**Resurs**
 
 Tillagda parametrar:
 
 * `subtype`
 * `assetSetInfo`
 
-**JobLog**
+**Jobblogg**
 
 Tillagda parametrar:
 

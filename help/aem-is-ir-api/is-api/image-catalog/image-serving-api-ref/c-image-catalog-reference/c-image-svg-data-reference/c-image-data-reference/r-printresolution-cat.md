@@ -1,5 +1,5 @@
 ---
-description: Utskriftsupplösning. Utskriftsupplösning för fullstorleksbilden.
+description: Utskriftsupplösning Utskriftsupplösning för fullstorleksbilden.
 solution: Experience Manager
 title: PrintResolution
 feature: Dynamic Media Classic,SDK/API
@@ -7,16 +7,16 @@ role: Developer,User
 exl-id: 2168d72a-1f2b-4833-9e6e-ba3d2ddb6d2b
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '68'
 ht-degree: 0%
 
 ---
 
 # PrintResolution{#printresolution}
 
-Utskriftsupplösning. Utskriftsupplösning för fullstorleksbilden.
+Utskriftsupplösning Utskriftsupplösning för fullstorleksbilden.
 
-Det här värdet är inbäddat i svarsbildens sidhuvud, om det inte åsidosätts av `printRes=`.
+Det här värdet är inbäddat i svarsbildhuvudet, såvida det inte åsidosätts av `printRes=`.
 
 ## Egenskaper {#section-de3c1f73da7b43208beeec841c1778c1}
 

@@ -24,6 +24,6 @@ Syntax
 |---|---|---|
 | name | `xsd:string` | Namnet på definitionen av bildschemat. |
 | shapeType | `xsd:string` | Ett av formvärdena för regionen. |
-| region | `xsd:string` | Koordinater för bildschema. Formatet baseras på HTML `<area>` taggattribut. |
-| åtgärd | `xsd:string` | Andra attribut att inkludera i HTML `<area>` -taggen, inklusive `href` URL. |
-| aktiverad | `xsd:boolean` | True om bildschemat är aktiverat. |
+| region | `xsd:string` | Koordinater för bildschema. Formatet baseras på taggattributen för HTML `<area>`. |
+| åtgärd | `xsd:string` | Andra attribut som ska inkluderas i taggen `<area>` i HTML, inklusive URL:en `href` . |
+| aktiverad | `xsd:boolean` | True if the image map is enabled. |

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 7d0827c5-f420-4804-983c-5298ee92b276
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Utseendet på den angivna indikatorbehållaren styrs med följande CSS-klassväl
 
 >[!NOTE]
 >
->Set-indikatorn har stöd för lägesattributväljaren, som du kan använda för att använda olika format för prickade och numeriska operationslägen. I synnerhet `mode="numeric"` motsvarar det numeriska driftsläget, `mode="dotted"` motsvarar standardpunktläget.
+>Set-indikatorn stöder lägesattributväljaren, som du kan använda för att använda olika format för prickade och numeriska operationslägen. I synnerhet motsvarar `mode="numeric"` det numeriska åtgärdsläget. `mode="dotted"` motsvarar standardpunktläget.
 
 Anta till exempel att du vill ställa in en uppsättningsindikator med vit bakgrund:
 
@@ -82,7 +82,7 @@ Utseendet på en enskild indikatorpunkt för uppsättning styrs med CSS-klassvä
    <td colname="col2"> <p>Övre marginal i pixlar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal-höger </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal-right </span> </p> </td> 
    <td colname="col2"> <p>Högermarginal i pixlar. </p> </td> 
   </tr> 
   <tr> 
@@ -99,7 +99,7 @@ Utseendet på en enskild indikatorpunkt för uppsättning styrs med CSS-klassvä
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>Teckensnittets namn. </p> </td> 
+   <td colname="col2"> <p>Typsnittets namn. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
@@ -122,7 +122,7 @@ Utseendet på en enskild indikatorpunkt för uppsättning styrs med CSS-klassvä
 
 >[!NOTE]
 >
->Ange att indikatorobjekt har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika miniatyrlägen. I synnerhet `state="selected"` motsvarar det aktuella elementet i uppsättningen, `state="unselected"` motsvarar standardobjektläget.
+>De angivna indikatorobjekten stöder attributväljaren `state` som kan användas för att tillämpa olika skal på olika miniatyrlägen. I synnerhet motsvarar `state="selected"` det aktuella elementet i uppsättningen. `state="unselected"` motsvarar standardobjektets läge.
 
 Anta till exempel att du vill ställa in en angiven indikator i prickat läge för stationära datorer. Du vill att den ska placeras 20 pixlar från visningsprogrammets nederkant. Och du vill att omarkerade punkter ska vara svarta med 50 % genomskinlighet, 15 x 15 pixlar med sju pixlar rundade hörn. Markerade punkter är svarta med 90 % genomskinlighet, 18 x 18 pixlar med nio pixlar rundade hörn. Avståndet mellan punkter är fem pixlar.
 

@@ -32,7 +32,7 @@ Syntax
 
 ## Parametrar {#section-a4be4024e55c472fa6728faec9c5e048}
 
-**Indata (getActivePublishContextParam)**
+**Indata (getActivePublishContexterParam)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|

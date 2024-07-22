@@ -20,18 +20,18 @@ rgn= *`coord`*, *`size`*
 
 <table id="simpletable_3A430F9078B04C2E90F4D1A130AFA20C"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> coord</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname">-kod</span> </p> </td> 
   <td class="stentry"> <p>Pixelförskjutning från det övre vänstra hörnet av den sammansatta bilden till det övre vänstra hörnet av avkastningen (int, int). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> size</span> </p></td> 
+  <td class="stentry"> <p><span class="varname"> storlek </span> </p></td> 
   <td class="stentry"> <p>Storlek på avkastning i pixlar (int, int). </p></td> 
  </tr> 
 </table>
 
 >[!NOTE]
 >
->`rgn=` definierar bara en avkastning utan att beskära bilden. När `wid=` och/eller `hei=` Om storleken är större än den som används kan ytterligare data från den sammansatta bilden vara synliga i den slutliga svarsbilden.
+>`rgn=` definierar bara en avkastning utan att beskära bilden. När även `wid=` och/eller `hei=` som är större än storleken används, kan ytterligare data från den sammansatta bilden visas i den slutliga svarsbilden.
 
 ## Egenskaper {#section-53edb35f4e364d7ca13fd0886e8b0c86}
 
@@ -39,7 +39,7 @@ Visa attribut. Används oavsett den aktuella lagerinställningen.
 
 Alla områden i avkastningen som sträcker sig utanför den sammansatta bilden fylls med `bgc=`.
 
-`rgn=` används före slutlig skalning och anpassning med `scl=`, `wid=`, `hei=`, `fit=`, `rect=`, eller `align=`.
+`rgn=` används före slutlig skalning och anpassning med `scl=`, `wid=`, `hei=`, `fit=`, `rect=` eller `align=`.
 
 ## Standard {#section-6a3df8f670084def900ffef9dab7e94a}
 

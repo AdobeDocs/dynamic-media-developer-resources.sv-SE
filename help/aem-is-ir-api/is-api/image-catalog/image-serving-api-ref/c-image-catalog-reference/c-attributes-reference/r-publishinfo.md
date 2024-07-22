@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Kataloganteckningssträng. Textsträng som kan användas för att identifiera katalogversionen, publiceringsdatumet och så vidare.
 
-Innehållet i fältet returneras med `req=catalogprops`. I annat fall används inte attributet.
+Innehållet i det här fältet returneras med `req=catalogprops`. I annat fall används inte attributet.
 
 ## Egenskaper {#section-73ff2a7c2e5b4c7a952453276f5bed23}
 
@@ -24,7 +24,7 @@ Textsträng.
 
 ## Standard {#section-82e5a885e142414f996c609efbb962b1}
 
-Ärvs från `default::PublishInfo` om den inte är definierad eller om den är tom.
+Ärvs från `default::PublishInfo` om inte definierad eller om tom.
 
 ## Se även {#section-d61c31afb3dd4ae2abc6285db80c4f8a}
 

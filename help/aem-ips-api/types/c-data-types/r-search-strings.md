@@ -28,6 +28,6 @@ Syntax
 | x | `xsd:int` | Söksträngens X-axelposition. |
 | y | `xsd:int` | Söksträngens Y-axelposition. |
 | width | `xsd:int` | Söksträngsbredd. |
-| height | `xsd:int` | Sökstränghöjd. |
+| height | `xsd:int` | Söksträngens höjd. |
 | fontName | `xsd:string` | Namnet på det teckensnitt som används i söksträngen. |
 | pointSize | `xsd:string` | Teckenstorlek. |

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: d98babad-96c7-419a-abf2-3b6657d550eb
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Exempel - för att göra huvudvyn genomskinlig.
 }
 ```
 
-På datorer har komponenten stöd för `cursortype` attributväljare som kan tillämpas på `.s7pageview` och styr typen av markör baserat på komponentens tillstånd och användaråtgärder. Följande `cursortype` värden stöds:
+På stationära datorer har komponenten stöd för attributväljaren `cursortype` som kan användas på klassen `.s7pageview` och styr typen av markör baserat på komponentens tillstånd och användaråtgärd. Följande `cursortype`-värden stöds:
 
 <table id="table_45B83F6CCDE84C36B0E087CA9144BFE6"> 
  <thead> 
@@ -72,7 +72,7 @@ På datorer har komponenten stöd för `cursortype` attributväljare som kan til
    <td colname="col2"> <p>Visas när bilden kan zoomas in. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> återställ </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> reset </span> </p> </td> 
    <td colname="col2"> <p>Visas när bilden har maximal zoomnivå och kan återställas till ursprungligt läge. </p> </td> 
   </tr> 
   <tr> 
@@ -86,7 +86,7 @@ På datorer har komponenten stöd för `cursortype` attributväljare som kan til
  </tbody> 
 </table>
 
-Den sidavgränsare som visuellt skiljer de vänstra och högra sidorna i det kataloguppslaget styrs med följande CSS-klassväljare:
+Den sidavgränsare som visuellt skiljer de vänstra och högra sidorna i kataloguppslaget styrs med följande CSS-klassväljare:
 
 `.s7ecatalogsearchviewer .s7pageview .s7pagedivider`
 
@@ -100,7 +100,7 @@ Den sidavgränsare som visuellt skiljer de vänstra och högra sidorna i det kat
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> Bredden på sidavgränsaren. Ange till <span class="codeph"> 0 </span> px om du vill dölja avgränsaren helt. </p> </td> 
+   <td colname="col2"> <p> Bredden på sidavgränsaren. Ange <span class="codeph"> 0 </span> px för att dölja avgränsaren helt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
@@ -109,7 +109,7 @@ Den sidavgränsare som visuellt skiljer de vänstra och högra sidorna i det kat
  </tbody> 
 </table>
 
-Exempel - Om du vill ha en 40 pixlar bred sidavgränsare med halvgenomskinlig bild.
+Exempel - Att ha en 40 pixlar bred sidavgränsare med halvgenomskinlig bild.
 
 ```
 .s7ecatalogsearchviewer .s7pageview .s7pagedivider { 
@@ -120,9 +120,9 @@ Exempel - Om du vill ha en 40 pixlar bred sidavgränsare med halvgenomskinlig bi
 
 >[!NOTE]
 >
->När `frametransition` modifieraren är inställd på `turn` eller `auto` (på stationära datorer) styrs siddelarens utseende av `pageturnstyle` modifierare och `.s7pagedivider` CSS-klassen ignoreras.
+>När modifieraren `frametransition` är inställd på `turn` eller `auto` (på skrivbordssystem) styrs siddelarens utseende med modifieraren `pageturnstyle` och CSS-klassen `.s7pagedivider` ignoreras.
 
-Det går att konfigurera visningen av anpassade musmarkörer över huvudvisningsområdet. Den här funktionen styrs med ytterligare attributväljare tillämpade på `.s7ecatalogsearchviewer .s7pageview` CSS-klass:
+Det går att konfigurera visningen av anpassade musmarkörer över huvudvisningsområdet. Den här funktionen styrs med de ytterligare attributväljarna som används för CSS-klassen `.s7ecatalogsearchviewer .s7pageview`:
 
 <table id="table_908164DECF9347A19A9696A23BBDB1A2"> 
  <thead> 
@@ -141,7 +141,7 @@ Det går att konfigurera visningen av anpassade musmarkörer över huvudvisnings
    <td colname="col2"> <p> Visar när en bild kan zoomas in. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> återställ </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> reset </span> </p> </td> 
    <td colname="col2"> <p>Visar när en bild har zoomats maximalt och kan återställas. </p> </td> 
   </tr> 
   <tr> 

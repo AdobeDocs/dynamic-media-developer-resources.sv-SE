@@ -1,7 +1,7 @@
 ---
-description: FöretagMedlemskap
+description: CompanyMembership
 solution: Experience Manager
-title: FöretagMedlemskap
+title: CompanyMembership
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 10a1cd09-5cd8-48e6-93cf-da8d04d9941a
@@ -20,6 +20,6 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| [!DNL company] | `types:Company` |  |
-| [!DNL role] | `xsd:string` |  |
-| isActive | `xsd:boolean` | Anger användarens status för varje företag de tillhör. |
+| [!DNL company] | `types:Company` | |
+| [!DNL role] | `xsd:string` | |
+| isActive | `xsd:boolean` | Anger användarens status för varje företag som han/hon tillhör. |

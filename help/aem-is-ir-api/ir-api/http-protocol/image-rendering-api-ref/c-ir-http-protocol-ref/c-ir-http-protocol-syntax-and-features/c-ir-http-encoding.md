@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: a1efc4ce-a170-4bdb-8584-407e07113272
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Kommandovärden måste vara http-kodade med %xx escape-sekvenser, så att värdesträngarna inte innehåller de reserverade tecknen &#39;=&#39;, &#39;&amp;&#39; och &#39;%&#39;.
 
-Annars gäller standardreglerna för HTTP-kodning. HTTP-specifikationen kräver kodning av osäkra tecken som &#39; (blanksteg), &#39;&quot;&#39;(dubbelt citattecken), &#39;#&#39;, &#39;%&#39;, &#39;&lt;&#39; och &#39;>&#39;, liksom alla kontrolltecken, som `<return>` och `<tab>`.
+Annars gäller standardreglerna för HTTP-kodning. HTTP-specifikationen kräver kodning av osäkra tecken som &#39; (blanksteg), &#39;&quot;&#39;(dubbelt citattecken), &#39;#&#39;, &#39;%&#39;, &#39;&lt;&#39; och &#39;>&#39;, liksom alla kontrolltecken som `<return>` och `<tab>`.
 
-**Varning:** Klammerparenteserna {} som används som avgränsare för kapsling av begäranden får inte kodas. Vissa e-postklienter kodar tyvärr klammerparenteser i inbäddad HTTP-begäran. Om det här problemet skulle vara ett problem tillåter bildåtergivning att parenteser ( ) används i stället för klammerparenteser.
+**Varning!** Klammerparenteser  som används som avgränsare för kapslade begäranden får inte kodas. Vissa e-postklienter kodar tyvärr klammerparenteser i inbäddad HTTP-begäran. Om det här problemet skulle vara ett problem tillåter bildåtergivning att parenteser ( ) används i stället för klammerparenteser.
 
 ## Exempel {#section-3edc5b8ee2354220a281b01722ad337a}
 

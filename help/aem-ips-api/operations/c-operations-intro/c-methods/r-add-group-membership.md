@@ -39,13 +39,13 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Nej </p> </td> 
    <td colname="col4"> <p>Hantera användaren vars gruppmedlemskap du vill lägga till. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> groupHandleArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> groupHandleArray </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:HandleArray</span> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>En array med referenser till de grupper som du vill att företaget ska tillhöra. </p> </td> 

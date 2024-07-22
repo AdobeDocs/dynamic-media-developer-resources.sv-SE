@@ -29,7 +29,7 @@ Används för närvarande endast för kabinettmaterial.
 
 `flags=0` (standard) Återger övre skåp med fasta dörrar.
 
-`flags=1` Ritar upp övre skåp med glasdörrar (om vinjetteringen har skapats med glasdörrar).
+`flags=1` återger övre skåp med glasdörrar (om vinjetteringen har skapats med glasdörrar).
 
 ## Egenskaper {#section-a2b00d7bb15e449ea85178acb92d8285}
 
@@ -37,4 +37,4 @@ Materialattribut. Ignoreras om det inte är ett kabinettmaterial eller om målka
 
 ## Standard {#section-4c134b02a1da4ffb9841233f98f6e97c}
 
-`flags=0` För inga glasdörrar.
+`flags=0` Utan glasdörrar.

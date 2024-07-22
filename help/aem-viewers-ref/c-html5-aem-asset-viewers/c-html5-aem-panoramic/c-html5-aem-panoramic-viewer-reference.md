@@ -7,7 +7,7 @@ feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1955'
+source-wordcount: '1924'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Visningstyp 514.
 
 ## Använda panoramavisningsprogram {#section-f21ac23d3f6449ad9765588d69584772}
 
-HTML5 Panoramavy Viewer representerar en JavaScript-huvudfil och en uppsättning hjälpfiler som hämtats av visningsprogrammet under körning. Uppsättningen med hjälpfiler är en enda JavaScript-uppsättning som inkluderar alla HTML5-visarens SDK-komponenter som används av det här visningsprogrammet, resurser och CSS.
+HTML5 Panoramavy Viewer representerar en JavaScript-huvudfil och en uppsättning hjälpfiler som hämtats av visningsprogrammet under körning. Hjälpfilerna är en enda JavaScript-uppsättning med alla HTML5-visarkomponenter i SDK som används av just detta visningsprogram, resurser och CSS.
 Panoramaviseringsprogrammet HTML5 kan användas både i popup-läge med en produktionsklar HTML-sida som finns i IS-Viewer eller i inbäddat läge, där det integreras med målwebbsidan med hjälp av dokumenterad API.
 Konfigurationen och skalningen liknar den för de andra visningsprogrammen i HTML5. All skalning kan göras med anpassad CSS.
 
@@ -68,9 +68,9 @@ Olika webbsidor har olika behov av visningsprogrammets beteende. Ibland ger en w
 
 I popup-läget öppnas visningsprogrammet i ett separat webbläsarfönster eller på en separat flik. Det tar hela webbläsarfönsterområdet och justeras om webbläsaren ändras eller om enhetens orientering ändras.
 
-Det här läget är det vanligaste för mobila enheter. Webbsidan läser in visningsprogrammet med `window.open()` JavaScript-anrop, korrekt konfigurerat A HTML-element eller något annat lämpligt sätt.
+Det här läget är det vanligaste för mobila enheter. Webbsidan läser in visningsprogrammet med `window.open()` JavaScript-anrop, ett korrekt konfigurerat A HTML-element eller något annat lämpligt sätt.
 
-Vi rekommenderar att du använder en HTML-sida som inte finns i kartongen för popup-åtgärder. Den kallas [!DNL PanoramicViewer.html] och den finns under [!DNL html5/] undermapp till din standarddistribution av IS-Viewer:
+Vi rekommenderar att du använder en HTML-sida som inte finns i kartongen för popup-åtgärder. Den kallas [!DNL PanoramicViewer.html] och finns under undermappen [!DNL html5/] i din standarddistribution av IS-Viewer:
 
 [!DNL <s7viewers_root>/html5/PanoramicViewer.html]
 
@@ -100,14 +100,14 @@ Om webbsidan ställer in både bredd och höjd för visningsprogrammets behålla
 
 Du lägger till visningsprogrammet på en webbsida genom att göra följande:
 
-1. Lägga till JavaScript-filen för visningsprogrammet på webbsidan.
-1. Definiera behållaren `DIV`.
+1. Lägga till visningsprogrammets JavaScript-fil på webbsidan.
+1. Definierar behållaren `DIV`.
 1. Anger visningsprogrammets storlek.
 1. Skapa och initiera visningsprogrammet.
 
-1. Lägga till JavaScript-filen för visningsprogrammet på webbsidan.
+1. Lägga till visningsprogrammets JavaScript-fil på webbsidan.
 
-   Om du vill skapa ett visningsprogram måste du lägga till en script-tagg i huvudet HTML. Innan du kan använda visningsprogrammets API måste du se till att du inkluderar [!DNL PanoramicViewer.js]. The [!DNL PanoramicViewer.js] filen finns under [!DNL html5/js/] undermapp till din standarddistribution av IS-Viewer:
+   Om du vill skapa ett visningsprogram måste du lägga till en script-tagg i huvudet HTML. Innan du kan använda visningsprogrammets API måste du ta med [!DNL PanoramicViewer.js]. Filen [!DNL PanoramicViewer.js] finns under undermappen [!DNL html5/js/] i din standarddistribution av IS-Viewer:
 
 [!DNL <s7viewers_root>/html5/js/PanoramicViewer.js]
 
@@ -121,16 +121,16 @@ Relativ sökväg ser ut så här:
 
 >[!NOTE]
 >
->Referera endast till JavaScript för huvudvisningsprogrammet `include` på sidan. Referera inte till några ytterligare JavaScript-filer i webbsideskoden som kan hämtas av visningsprogrammets logik under körning. Ange särskilt inte direkt HTML5 SDK `Utils.js` biblioteket som läses in av visningsprogrammet från `/s7viewers` kontextsökväg (så kallad konsoliderad SDK) `include`). Orsaken är att platsen för `Utils.js` eller liknande visningsprogrambibliotek för miljön hanteras helt av visningsprogrammets logik och platsen ändras mellan visningsprogramversionerna. Adobe har inte äldre versioner av sekundära visningsprogram `includes` på servern.
+>Referera bara till JavaScript `include`-huvudvisningsfilen på din sida. Referera inte till några andra JavaScript-filer i webbsideskoden som kan hämtas av visningsprogrammets logik under körning. Referera inte direkt till HTML5 SDK `Utils.js`-biblioteket som läses in av visningsprogrammet från kontextsökvägen `/s7viewers` (s.k. konsoliderad SDK `include`). Orsaken är att platsen för `Utils.js` eller liknande visningsprogrambibliotek för miljön hanteras helt av visningsprogrammets logik och platsen ändras mellan visningsprogramversioner. Adobe sparar inte äldre versioner av det sekundära visningsprogrammet `includes` på servern.
 >
 >
->Det innebär att du skickar en direkt referens till valfritt sekundärt JavaScript `include` som används av visningsprogrammet på sidan avbryter visningsprogrammets funktioner i framtiden när en ny produktversion distribueras.
+>Det innebär att om du skickar en direkt referens till eventuella sekundära JavaScript `include` som används av visningsprogrammet på sidan så bryts visningsprogrammets funktioner i framtiden när en ny produktversion distribueras.
 
 1. Definierar behållar-DIV.
 
    Lägg till ett tomt DIV-element på sidan där du vill att visningsprogrammet ska visas. DIV-elementet måste ha sitt ID definierat eftersom detta ID skickas senare till visningsprogrammets API. DIV har den storlek som anges via CSS.
 
-   Platshållarens DIV är ett positionerat element, vilket innebär att `position` CSS-egenskapen är inställd på `relative` eller `absolute`.
+   Platshållarens DIV är ett placerat element, vilket innebär att CSS-egenskapen `position` är inställd på `relative` eller `absolute`.
 
 
    Följande är ett exempel på ett definierat DIV-platshållarelement:
@@ -141,7 +141,7 @@ Relativ sökväg ser ut så här:
 
 1. Ange visningsprogrammets storlek
 
-   Du kan ange den statiska storleken för visningsprogrammet genom att deklarera det för `.s7panoramicviewer` CSS-klass på översta nivån i absoluta enheter, eller med modifieraren `stagesize`.
+   Du kan ange den statiska storleken för visningsprogrammet genom att antingen deklarera den för CSS-klassen `.s7panoramicviewer` på den översta nivån i absoluta enheter eller genom att använda modifieraren `stagesize`.
 
    Storleksändring i CSS kan placeras direkt på HTML-sidan eller i en anpassad CSS-fil för visningsprogrammet, som senare tilldelas till en förinställningspost för visningsprogrammet i AOD eller skickas explicit med hjälp av formatkommandot. Mer information om hur du formaterar visningsprogrammet med CSS finns i Anpassa visningsprogrammet. Nedan visas ett exempel på hur du definierar storleken på det statiska visningsprogrammet på HTML-sidan:
 
@@ -152,7 +152,7 @@ Relativ sökväg ser ut så här:
    }
    ```
 
-   `stagesize` modifieraren kan skickas explicit med initieringskoden för visningsprogrammet med parametersamlingen eller som ett API-anrop enligt beskrivningen i avsnittet Command Reference, så här:
+   `stagesize`-modifieraren kan skickas explicit med visarinitieringskoden med parametersamlingen eller som ett API-anrop enligt beskrivningen i kommandoreferensavsnittet, så här:
 
    ```html {.line-numbers}
    panoramicViewer.setParam("stagesize", "512,256");
@@ -162,13 +162,13 @@ Relativ sökväg ser ut så här:
 
 1. Skapa och initiera visningsprogrammet.
 
-   När du har slutfört stegen ovan skapar du en instans av `s7viewers.PanoramicViewer` -klass, skicka all konfigurationsinformation till konstruktorn och anropa `init(`) i en visningsprograminstans. Konfigurationsinformation skickas till konstruktorn som ett JSON-objekt. Det här objektet ska åtminstone ha fältet containerId som innehåller namnet på visningsbehållar-ID och kapslade parametrar-JSON-objekt med konfigurationsparametrar som stöds av visningsprogrammet. I det här fallet måste parameterobjektet ha minst en URL för bildservrar som skickas som `serverUrl` egenskap och ursprunglig tillgång som tillgångsparameter. Med JSON-baserat initierings-API kan du skapa och starta visningsprogrammet med en enda kodrad.
+   När du har slutfört stegen ovan skapar du en instans av klassen `s7viewers.PanoramicViewer`, skickar all konfigurationsinformation till konstruktorn och anropar metoden `init(` i en visningsprograminstans. Konfigurationsinformation skickas till konstruktorn som ett JSON-objekt. Det här objektet ska åtminstone ha fältet containerId som innehåller namnet på visningsbehållar-ID och kapslade parametrar-JSON-objekt med konfigurationsparametrar som stöds av visningsprogrammet. I det här fallet måste parameterobjektet ha minst en URL för bildservrar som skickas som egenskapen `serverUrl` och den ursprungliga resursparametern. Med JSON-baserat initierings-API kan du skapa och starta visningsprogrammet med en enda kodrad.
 
-   Det är viktigt att lägga till visningsprogrambehållaren i DOM så att visningsprogramkoden kan hitta behållarelementet med dess ID. I vissa webbläsare fördröjs skapandet av DOM tills webbsidan är slut. För maximal kompatibilitet, ring `init()` metod precis före stängning `BODY` eller på brödtexten `onload()` -händelse.
+   Det är viktigt att lägga till visningsprogrambehållaren i DOM så att visningsprogramkoden kan hitta behållarelementet med dess ID. I vissa webbläsare fördröjs skapandet av DOM tills webbsidan är slut. För maximal kompatibilitet anropar du metoden `init()` precis före den avslutande `BODY` -taggen eller på body `onload()` -händelsen.
 
-   Samtidigt behöver behållarelementet inte nödvändigtvis vara en del av webbsidans layout ännu. Den kan till exempel vara dold med `display:none` format som tilldelats det. I det här fallet skjuter visningsprogrammet upp initieringsprocessen tills webbsidan återför behållarelementet till layouten. När den här åtgärden utförs återtas visningsprogrammet automatiskt.
+   Samtidigt behöver behållarelementet inte nödvändigtvis vara en del av webbsidans layout ännu. Den kan till exempel vara dold med formatet `display:none` som tilldelats den. I det här fallet skjuter visningsprogrammet upp initieringsprocessen tills webbsidan återför behållarelementet till layouten. När den här åtgärden utförs återtas visningsprogrammet automatiskt.
 
-   Följande är ett exempel på hur du skapar en visningsprograminstans, skickar nödvändiga minimikonfigurationsalternativ till konstruktorn och anropar `init()` -metod. Det här exemplet förutsätter `panoramicViewer` är visningsprograminstansen, `s7viewer` är namnet på platshållaren `DIV`, [!DNL http://s7d1.scene7.com/is/image/] är webbadressen för bildvisning, och [!DNL Scene7SharedAssets/PanoramicImage-Sample] är tillgången.
+   Följande är ett exempel på hur du skapar en visningsprograminstans, skickar nödvändiga minimikonfigurationsalternativ till konstruktorn och anropar metoden `init()`. I det här exemplet antas `panoramicViewer` vara visningsprograminstansen, `s7viewer` är namnet på platshållaren `DIV`, [!DNL http://s7d1.scene7.com/is/image/] är URL:en för bildvisning och [!DNL Scene7SharedAssets/PanoramicImage-Sample] är resursen.
 
    ```html {.line-numbers}
    <script type="text/javascript"> 
@@ -233,7 +233,7 @@ Med den responsiva inbäddningen har webbsidan vanligtvis någon typ av flexibel
 
 Att lägga till visningsprogrammet på en sådan sida liknar inbäddningen av fast storlek, med den enda skillnaden att du inte behöver definiera visningsprogrammets storlek explicit:
 
-1. Lägga till JavaScript-filen för visningsprogrammet på webbsidan.
+1. Lägga till visningsprogrammets JavaScript-fil på webbsidan.
 1. Definierar behållar-DIV.
 1. Skapa och initiera visningsprogrammet.
 
@@ -269,13 +269,13 @@ var panoramicViewer = new s7viewers.PanoramicViewer({
 
 Följande exempelsida visar hur responsiv designinbäddning med obegränsad höjd används i verkligheten:
 
-[Direktdemonstrationer](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+[Live-demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
 [Alternativ demoplats](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
-**Responsiv design embedding with width and height defined**
+**Responsiv designinbäddning med bredd och höjd definierad**
 
-Om det finns responsiv designinbäddning med definierad bredd och höjd är webbsidans format annorlunda. Det ger &quot; hållaren&quot; båda storlekar `DIV` och centrera det i webbläsarfönstret. Dessutom anger webbsidan storleken på `HTML` och `BODY` till 100 %:
+Om det finns responsiv designinbäddning med bredd och höjd definierad, är webbsidans format annorlunda. Det ger både storlekar för &quot; hållaren&quot; `DIV` och centrerar den i webbläsarfönstret. Webbsidan anger också storleken på elementen `HTML` och `BODY` till 100 %:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -339,9 +339,9 @@ var panoramicViewer = new s7viewers.PanoramicViewer({
 </html>
 ```
 
-**Bädda in med Setter-baserat API**
+**Inbäddning med Setter-baserat API**
 
-I stället för att använda JSON-baserad initiering kan du använda set-based API och no-args-konstruktor. Med detta API tar konstruktorn inga parametrar och konfigurationsparametrar anges med `setContainerId()`, `setParam()`och `setAsset()` API-metoder med separata JavaScript-anrop.
+I stället för att använda JSON-baserad initiering kan du använda set-based API och no-args-konstruktor. Med detta API tar konstruktorn inga parametrar och konfigurationsparametrar anges med API-metoderna `setContainerId()`, `setParam()` och `setAsset()` med separata JavaScript-anrop.
 
 I följande exempel visas inbäddning med fast storlek med set-based API:
 

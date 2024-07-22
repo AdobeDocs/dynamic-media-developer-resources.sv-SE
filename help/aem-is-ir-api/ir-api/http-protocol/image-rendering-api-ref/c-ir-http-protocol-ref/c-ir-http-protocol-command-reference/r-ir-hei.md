@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 8e93aa32-b38e-46e4-be52-abd81222cfc3
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -20,28 +20,28 @@ Svarets bildhöjd. Anger skalningen av den återgivna bilden så att höjden på
 
 <table id="simpletable_C3A31CA539DC4D9F8BE50290D1AFA5CA"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> val</span> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> val </span> </span> </p></td> 
   <td class="stentry"> <p>Svarets bildhöjd i pixlar (heltal större än 0). </p></td> 
  </tr> 
 </table>
 
-Bilden läggs inte till om båda `wid=` och `hei=` anges och bredd/höjd skiljer sig från bildens proportioner.
+Bilden läggs inte till om både `wid=` och `hei=` har angetts och bredd/höjd skiljer sig från bildens proportioner.
 
-`wid=` och `hei=` arbeta tillsammans för att definiera storleken på bilden som returneras av servern. If `scl=` kommer efter `wid=` eller `hei=` i URL:en avbryts dessa kommandon och `scl=` definierar storleken på bilden som returneras av servern.
+`wid=` och `hei=` fungerar tillsammans för att definiera storleken på bilden som returneras av servern. Om `scl=` kommer efter `wid=` eller `hei=` i URL:en avbryts dessa kommandon och storleken på bilden som returneras av servern definieras i `scl=` .
 
-Om `wid=` eller `hei=` kommer efter `scl=` i URL:en avbryts de `scl=` och `wid=`/ `hei=` Definiera storleken på den bild som servern returnerar.
+Men om `wid=` eller `hei=` kommer efter `scl=` i URL:en avbryts `scl=` och `wid=`/ `hei=` definierar storleken på bilden som returneras av servern.
 
 >[!NOTE]
 >
->Ett fel returneras om den beräknade eller standardinställda svarsbilden är större än `attribute::MaxPix`.
+>Ett fel returneras om den beräknade eller standardinställda svarsbildstorleken är större än `attribute::MaxPix`.
 
 ## Egenskaper {#section-6cbc6acd37c847beab84c896ac25280c}
 
-Kan inträffa var som helst i begäran. Ändra storlek på bilden med `wid=`, `hei=`, eller `scl=` ändrar inte utskriftsupplösningsvärdet som är inbäddat i svarsbilden. Ignoreras om `scl=` inträffar efter `wid=` och/eller `hei=` i kommandosekvensen.
+Kan inträffa var som helst i begäran. Om du ändrar storlek på bilden med `wid=`, `hei=` eller `scl=` ändras inte utskriftsupplösningsvärdet som är inbäddat i svarsbilden. Ignoreras om `scl=` inträffar efter `wid=` och/eller `hei=` i kommandosekvensen.
 
 ## Standard {#section-61043f6c1f5d450883ff9e5eafd95955}
 
-If `wid=`, `hei=`, eller `scl=` har inte angetts, skalas svarsbilden så att den passar i den storlek som definieras av `attribute::DefaultPix`. If `attribute::DefaultPix` är tom har svarsbilden samma storlek som vinjettens visningsbild.
+Om `wid=`, `hei=` eller `scl=` inte anges skalas svarsbilden så att den passar i den storlek som definieras av `attribute::DefaultPix`. Om `attribute::DefaultPix` är tom har svarsbilden samma storlek som vinjettens visningsbild.
 
 ## Se även {#section-7ba51379f1e2421c92d3592d20a37734}
 

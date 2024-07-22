@@ -31,27 +31,27 @@ Syntax
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL jobHandle]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Jobbreferens. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL jobName]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Jobbnamn. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL logMessage]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
-   <td colname="col3">Meddelande i jobbloggen. <p><span class="codeph"> [!DNL logMessage]</span> svarsfältet är lokaliserat baserat på <span class="codeph"> authHeader</span> språkområdesfält. </p></td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3">Meddelande i jobbloggen. <p>Svarsfältet <span class="codeph"> [!DNL logMessage]</span> är lokaliserat baserat på språkfältet <span class="codeph"> authHeader </span>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL logType]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Typ av jobb i loggposten. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL submitUserEmail]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> e-postadress till den användare som skickade jobbet. </td> 
   </tr> 
   <tr> 

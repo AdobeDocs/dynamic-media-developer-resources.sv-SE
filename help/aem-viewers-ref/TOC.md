@@ -13,13 +13,13 @@ ht-degree: 0%
 
 # Referenshandbok för Dynamic Media Viewer {#library}
 
-+ [Referenshandbok för Dynamic Media Viewer](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en) -->
++ [Referenshandbok för Dynamic Media-visningsprogram](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en) -->
 + [Exempel på visningsprogrambibliotek](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 + [Systemkrav](c-system-requirements-and-prerequisites.md)
 + [Installera flera visningsprogram på samma server](t-installing-the-viewers.md)
 + Versionsinformation för visningsprogram {#viewers-release-notes}
    + [Versionsinformation för visningsprogram (5.16.5)](c-release-notes/c-rn-03-02-22.md)
-   + Arkiv {#archive}
+   + Arkivera {#archive}
       + [Versionsinformation för visningsprogram (5.16.1)](c-release-notes/c-archive/c-rn-04-06-21.md)
       + [Versionsinformation för visningsprogram (5.15.3)](c-release-notes/c-archive/c-rn-01-13-21.md)
       + [Versionsinformation för visningsprogram (5.14.1)](c-release-notes/c-archive/c-rn-06-03-20.md)
@@ -37,7 +37,7 @@ ht-degree: 0%
 + [Kompatibilitetsinformation](c-compatibility-notes.md)
 + [Tangentbordstillgänglighet och -navigering](c-keyboard-accessibility.md)
 + [Självstudiekurs om SDK för visningsprogram](c-tutorial.md)
-+ Tittare för AEM Assets och Dynamic Media Classic {#viewers-aem-assets-dmc}
++ Visare för AEM Assets och Dynamic Media Classic {#viewers-aem-assets-dmc}
    + [Tittare för AEM Assets och Dynamic Media Classic](c-html5-s7-aem-asset-viewers/c-html5-s7-aem-asset-viewers.md)
    + Grundläggande zoom {#basic-zoom}
       + [Grundläggande zoomningsvisare](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-about.md)
@@ -195,7 +195,7 @@ ht-degree: 0%
       + [Ladda ned](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-download.md)
       + [Favoriter](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-favorites-feature.md)
       + [Namnutrymme för visningsprogramsDK](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-html5-viewer-sdk-namespace.md)
-   + eCatalog Search {#ecatalog-search}
+   + eCatalog-sökning {#ecatalog-search}
       + [eCatalog Search](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-about.md)
       + Kommandoreferens - Konfigurationsattribut {#command-reference-configuration-attributes-ecatalog-search}
          + [Kommandoreferens - Konfigurationsattribut](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib.md)
@@ -261,7 +261,7 @@ ht-degree: 0%
          + [setParam](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-javascriptapiref/r-html5-ecatsearch-javascriptapiref-setparam.md)
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-javascriptapiref/r-html5-ecatsearch-javascriptapiref-setparams.md)
       + [Händelseåteranrop](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-event-callbacks.md)
-      + Anpassa visningsprogrammet för eCatalog Search {#customize-ecatalog-search}
+      + Anpassa visningsprogrammet för eCatalog-sökning {#customize-ecatalog-search}
          + [Anpassa visningsprogrammet för eCatalog Search](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md)
          + [Knappen Lägg till favorit](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-addfavorite.md)
          + [Knappen Stäng](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-closebutton.md)
@@ -466,7 +466,7 @@ ht-degree: 0%
          + [ZoomView.singleclick](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-zoomview-singleclick.md)
          + [ZoomView.transition](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-zoomview-transition.md)
          + [ZoomView.zoomstep](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-zoomview-zoomstep.md)
-      + JavaScript API-referens för blandad Media Viewer {#jsapi-mixed-media}
+      + JavaScript API-referens för blandad mediavisare {#jsapi-mixed-media}
          + [JavaScript API-referens för blandad Media Viewer](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/c-html5-mixedmedia-viewer-javascriptapiref.md)
          + [dispose](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-dispose.md)
          + [getComponent](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-getcomponent.md)
@@ -544,7 +544,7 @@ ht-degree: 0%
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-setparams.md)
          + [SpinViewer](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-spinviewer.md)
       + [Händelseåteranrop](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-event-callbacks.md)
-      + Anpassa Spin Viewer {#customizing-spin}
+      + Anpassa rotationsvisningsprogrammet {#customizing-spin}
          + [Anpassa Spin Viewer](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md)
          + [Knappen Stäng](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/r-html5-spin-viewer-customize-closebutton.md)
          + [Fokusmarkering](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/r-html5-spin-viewer-customize-focushighlight.md)
@@ -751,8 +751,8 @@ ht-degree: 0%
       + Kommandoreferens - URL {#command-reference-interactive-images}
          + [Kommandoreferens - URL](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-int-image-cmdref-url/c-html5-aem-int-image-cmdref-url.md)
          + [preloadimage](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-int-image-cmdref-url/r-html5-aem-int-image-cmdref-url-preloadimage.md)
-      + JavaScript API-referens för Interactive Image Viewer {#jsapi-interactive-image}
-         + [JavaScript API-referens för Interactive Image Viewer](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/c-html5-aem-interactive-image-javascriptapiref.md)
+      + JavaScript API-referens för interaktiv bildvisning {#jsapi-interactive-image}
+         + [JavaScript API-referens för interaktiv bildvisning](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/c-html5-aem-interactive-image-javascriptapiref.md)
          + [dispose](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/r-html5-aem-int-image-viewer-javascriptapiref-dispose.md)
          + [getComponent](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/r-html5-aem-int-image-viewer-javascriptapiref-getcomponent.md)
          + [init](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/r-html5-aem-int-image-viewer-javascriptapiref-init.md)
@@ -834,7 +834,7 @@ ht-degree: 0%
          + [setParam](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-setparam.md)
          + [setParams](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-setparams.md)
       + [Händelseåteranrop](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-event-callbacks.md)
-      + Anpassa Interactive Video Viewer {#customizing-interactive-video}
+      + Anpassa den interaktiva videovisningsprogrammet {#customizing-interactive-video}
          + [Anpassa Interactive Video Viewer](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md)
          + [Uppmaning](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-calltoaction.md)
          + [Bildtext, knapp](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-captionbutton.md)
@@ -891,8 +891,8 @@ ht-degree: 0%
          + [bildtext](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref-url/r-html5-aem-smartcropvideo-url-caption.md)
          + [video](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref-url/r-html5-aem-smartcropvideo-url-video.md)
          + [videoServerUrl](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref-url/r-html5-aem-smartcropvideo-url-videoserverurl.md)
-      + JavaScript API-referens för visningsprogrammet Smart Crop Video {#jsapi-smartcropvideo}
-         + [JavaScript API-referens för visningsprogrammet Smart Crop Video](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/c-html5-aem-smartcropvideo-viewer-javascriptapiref.md)
+      + JavaScript API-referens för visningsprogrammet för smart beskärning {#jsapi-smartcropvideo}
+         + [JavaScript API-referens för visningsprogrammet för smart beskärning](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/c-html5-aem-smartcropvideo-viewer-javascriptapiref.md)
          + [dispose](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-dispose.md)
          + [getComponent](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-getcomponent.md)
          + [init](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-init.md)

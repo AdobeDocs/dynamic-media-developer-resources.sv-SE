@@ -23,6 +23,6 @@ Syntax
 | Namn | Typ | Beskrivning |
 |---|---|---|
 | companyHandle | `xsd:string` | Företagshandtag. |
-| [!DNL name] | `xsd:string` | Företagsnamn. |
+| [!DNL name] | `xsd:string` | Företag |
 | rootPath | `xsd:string` | Företagets rotsökväg. |
 | [!DNL expires] | `xsd:dateTime` | Datum och tid då företaget förfaller. |

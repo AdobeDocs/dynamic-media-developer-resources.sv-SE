@@ -1,5 +1,5 @@
 ---
-description: Skapar en förinställd vy som avgör vad en användare kan se. Visningsprogrammet kan vara av valfri typ i IPS. Förinställningsvyn används när resurserna publiceras.
+description: Skapar en förinställd vy som avgör vad en användare kan se. Visningsprogrammet kan vara av vilken typ som helst som är tillgänglig i IPS. Den förinställda vyn används när resurserna publiceras.
 solution: Experience Manager
 title: createViewerPreset
 feature: Dynamic Media Classic,SDK/API,Viewer Presets
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # createViewerPreset{#createviewerpreset}
 
-Skapar en förinställd vy som avgör vad en användare kan se. Visningsprogrammet kan vara av valfri typ i IPS. Förinställningsvyn används när resurserna publiceras.
+Skapar en förinställd vy som avgör vad en användare kan se. Visningsprogrammet kan vara av vilken typ som helst som är tillgänglig i IPS. Den förinställda vyn används när resurserna publiceras.
 
 Syntax
 

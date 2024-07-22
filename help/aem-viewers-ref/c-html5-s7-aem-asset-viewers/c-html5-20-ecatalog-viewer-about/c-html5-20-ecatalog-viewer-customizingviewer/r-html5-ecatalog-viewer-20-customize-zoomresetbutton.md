@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 6f0e22cd-12bd-4997-b874-539962504d3e
 source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Knappens utseende styrs med följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p>Placera från den övre kanten av huvudkontrollfältet (på datorer och surfplattor) eller visningsprogrammet (på mobiltelefoner), inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
@@ -41,7 +41,7 @@ Knappens utseende styrs med följande CSS-klassväljare:
    <td colname="col2"> <p>Placera från den högra kanten av huvudkontrollfältet (på datorer och surfplattor) eller visningsprogrammet (på mobiltelefoner), inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vänster </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kvar </span> </p> </td> 
    <td colname="col2"> <p>Placera från vänster kant på huvudkontrollfältet (på datorer och surfplattor) eller visningsprogrammet (på mobiltelefoner), inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
@@ -69,9 +69,9 @@ Knappens utseende styrs med följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen.
+>Den här knappen stöder attributväljaren `state` som kan användas för att tillämpa olika skal på olika knapplägen.
 
-Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - För att ställa in en zoomåterställningsknapp som är 28 x 28 pixlar och placerad (på skrivbordet) 4 pixlar från nederkanten och 47 pixlar från den högra kanten av huvudkontrollfältet. Slutligen visas olika bilder för de fyra olika knapplägena.
 

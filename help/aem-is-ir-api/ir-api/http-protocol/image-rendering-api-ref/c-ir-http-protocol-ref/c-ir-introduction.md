@@ -29,7 +29,7 @@ Det antas att läsaren känner till Dynamic Media Image Authoring and Image Rend
 <table id="simpletable_E96BA470B3CE4266A9E6ED0440A56C40"> 
  <tr class="strow"> 
   <td class="stentry"> <p>litteral </p> </td> 
-  <td class="stentry"> <p>I syntaxavsnitt är icke-kursiv text literal. det gäller inte för blanktecken och symbolerna [ ] { } | *. </p> </td> 
+  <td class="stentry"> <p>I syntaxavsnitt är icke-kursiv text literal; den gäller inte för blanktecken och symbolerna [ ] { } | *. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>'literal' </p> </td> 
@@ -40,11 +40,11 @@ Det antas att läsaren känner till Dynamic Media Image Authoring and Image Rend
   <td class="stentry"> <p>Kursiv anger en variabel eller parameter som ska ersättas med ett faktiskt värde. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> attribute::Item </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph">-attribut::Item </span> </p> </td> 
   <td class="stentry"> <p>Ett namn med prefixet 'attribute::' refererar till ett bildkatalogsattribut. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> katalog::Item </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph">-katalog::Item </span> </p> </td> 
   <td class="stentry"> <p>Ett namn med prefixet "katalog::" refererar till ett datakatalogfält. </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -52,19 +52,19 @@ Det antas att läsaren känner till Dynamic Media Image Authoring and Image Rend
   <td class="stentry"> <p>Ett namn med prefixet 'icc:::' refererar till ett fält i ICC-färgprofilsmappningen. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> makro::Item </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> macro::Item </span> </p> </td> 
   <td class="stentry"> <p>Ett namn med "macro:::" som prefix refererar till ett fält i makrodefinitionstabellen. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> linjaluppsättning::Item </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph">-regeluppsättning::Item </span> </p> </td> 
   <td class="stentry"> <p>Ett namn med prefixet 'ruleset::' refererar till ett element i en regeluppsättning för förbehandling av URL-adresser. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> default::Item </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> standard::Item </span> </p> </td> 
   <td class="stentry"> <p>Ett namn med prefixet 'default:::' refererar till ett attribut i standardbildkatalogen. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <span class="codeph"> vinjettering::Item </span> </td> 
+  <td class="stentry"> <span class="codeph">-vinjett::Item </span> </td> 
   <td class="stentry"> <p>Ett namn med prefixet 'vignette::' refererar till ett fält i vinjetteringskartan. </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -76,15 +76,15 @@ Det antas att läsaren känner till Dynamic Media Image Authoring and Image Rend
   <td class="stentry"> <p>Det valfria syntaxelementet kan upprepas en eller flera gånger. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> objekt1 </span>| <span class="varname"> objekt2 </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> objekt1 </span>| <span class="varname"> item2 </span> </p> </td> 
   <td class="stentry"> <p>Ett lodrätt streck anger att syntaxobjektet till vänster eller objektet till höger kan användas. Exakt ett objekt måste markeras. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>{ <span class="varname"> grupp </span> } </p> </td> 
+  <td class="stentry"> <p>{ <span class="varname"> group </span> } </p> </td> 
   <td class="stentry"> <p>Klammerparenteser används för att gruppera syntaxelement. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>*{ <span class="varname"> grupp </span> } </p> </td> 
+  <td class="stentry"> <p>*{ <span class="varname"> group </span> } </p> </td> 
   <td class="stentry"> <p>Syntaxelementen i gruppen kan upprepas en eller flera gånger. </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -93,7 +93,7 @@ Det antas att läsaren känner till Dynamic Media Image Authoring and Image Rend
  </tr> 
 </table>
 
-**Gemensamma termer**
+**Vanliga termer**
 
 ** *`MSS`* ** Materialspecifikationssegment: en uppsättning materialattribut mellan två markeringskommandon i begäran.
 

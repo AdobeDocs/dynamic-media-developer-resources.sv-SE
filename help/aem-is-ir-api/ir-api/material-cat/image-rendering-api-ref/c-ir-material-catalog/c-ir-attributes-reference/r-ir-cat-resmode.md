@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: c57932a0-529c-4f31-b60e-a38de6fe277f
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ Omsamplingsläge. Standard för `resMode=`. Anger de omsamplings- och interpolat
 
 ## Egenskaper {#section-1183a155f33c4eca80f1dc6fb6bda1b5}
 
-Enum. Ange 2 för `'bilin'`, 3 för `'bicub'`eller 4 för `'sharp2'` interpolationsläge (se [resMode=](/help/aem-is-ir-api/ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-resmode.md) för mer information).
+Enum. Ange 2 för interpolationsläget `'bilin'`, 3 för `'bicub'` eller 4 för interpolationsläget `'sharp2'` (mer information finns i [resMode=](/help/aem-is-ir-api/ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-resmode.md)).
 
 ## Standard {#section-ed432a0acc3e4bce926a07e9cfd2c865}
 
-Ärvs från `default::ResMode` om den inte är definierad eller om den är tom.
+Ärvs från `default::ResMode` om inte definierad eller om tom.
 
 ## Se även {#section-34b71c295b4349dfb4379823a2de83c2}
 

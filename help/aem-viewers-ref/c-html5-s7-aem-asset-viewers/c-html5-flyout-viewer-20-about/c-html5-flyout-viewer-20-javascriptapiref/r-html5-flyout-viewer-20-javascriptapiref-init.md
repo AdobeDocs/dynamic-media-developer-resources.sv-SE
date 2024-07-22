@@ -1,6 +1,6 @@
 ---
 title: init
-description: JavaScript API-referens för initiering av visningsprogrammet för utfällbara bilder.
+description: JavaScript API-referens för initiering av visningsprogrammet för utfällbara menyer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # init{#init}
 
-JavaScript API-referens för visningsprogrammet för utfällbara bilder.
+JavaScript API-referens för visningsprogrammet.
 
 `init()`
 
 Startar initieringen av visningsprogrammet. Vid den här tidpunkten måste behållar-DOM-elementet skapas så att visningsprogramkoden kan hitta det med dess ID.
 
-Om behållarelementet ännu inte är en del av webbsidans layout kan det t.ex. döljas med `display:none` format som tilldelats det - visningsprogrammet avbryter sin initieringsprocess. Det gör det tills webbsidan återför behållarelementet till layouten. När detta inträffar återgår visningsprogrammet automatiskt.
+Om behållarelementet ännu inte är en del av webbsidans layout kan det döljas med formatet `display:none` som tilldelats det - visningsprogrammet avbryter initieringsprocessen. Det gör det tills webbsidan återför behållarelementet till layouten. När detta inträffar återgår visningsprogrammet automatiskt.
 
 Den här metoden ska bara anropas en gång under visningsprogrammets livscykel, efterföljande anrop ignoreras.
 

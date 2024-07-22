@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 465d4320-14ea-4f07-97c0-41f53034a7df
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -61,9 +61,9 @@ Knappens utseende styrs med följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen har stöd för båda `state` och `selected` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen. I synnerhet `selected='true'` motsvarar visningsprogrammets läge när miniatyrbildsläget är aktivt och `selected='false'` motsvarar standardläget med huvudvyn.
+>Den här knappen stöder både attributväljarna `state` och `selected` som kan användas för att tillämpa olika skal på olika knapplägen. `selected='true'` motsvarar i synnerhet visningsprogrammets läge när miniatyrbildsläget är aktivt och `selected='false'` motsvarar standardläget med huvudvyn.
 
-Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - Om du vill ställa in en miniatyrknapp som är 28 x 28 pixlar och placerad 4 pixlar från nederkanten och 5 pixlar från den vänstra kanten av huvudkontrollfältet. Och slutligen, visar en annan bild för vart och ett av de fyra olika knapplägena när de är markerade eller inte markerade.
 

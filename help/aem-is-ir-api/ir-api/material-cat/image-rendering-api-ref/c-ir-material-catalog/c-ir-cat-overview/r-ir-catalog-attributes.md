@@ -26,15 +26,15 @@ Följande attribut känns igen i katalogattributfiler.
   <td class="stentry"> <p>Sökväg till eller namn på den associerade katalogdatafilen. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-vignettemapfile.md#reference-ad2c6d08008d415b9f47da17bd3447d2" type="reference" format="dita" scope="local"> VinjettMapFile</a> </p> </td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-vignettemapfile.md#reference-ad2c6d08008d415b9f47da17bd3447d2" type="reference" format="dita" scope="local"> VinjettMapFile </a> </p> </td> 
   <td class="stentry"> <p>Sökväg till eller namn på den associerade vinjettmappningsfilen. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilemapfile.md#reference-6b48159c50c548e697ff7365672a972e" type="reference" format="dita" scope="local"> IccProfileMapFile</a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilemapfile.md#reference-6b48159c50c548e697ff7365672a972e" type="reference" format="dita" scope="local"> IccProfileMapFile </a> </p></td> 
   <td class="stentry"> <p>Sökväg till eller namn på den associerade ICC-profilmappningsfilen. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-macrofile.md#reference-20d550f7841b4541ab69550519cdbef3" type="reference" format="dita" scope="local"> Makrofil </a> </p> </td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-macrofile.md#reference-20d550f7841b4541ab69550519cdbef3" type="reference" format="dita" scope="local"> MacroFile </a> </p> </td> 
   <td class="stentry"> <p>Sökväg till eller namn på den associerade makrodefinitionsfilen. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -61,16 +61,16 @@ Följande attribut känns igen i katalogattributfiler.
   <td class="stentry"> <p>Beskrivning </p></td> 
  </thead> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-showoverlapobjs.md#reference-f96341e877fa475e8a246c6db1865bbf" type="reference" format="dita" scope="local"> VisaÖverlappningsobjekt </a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-showoverlapobjs.md#reference-f96341e877fa475e8a246c6db1865bbf" type="reference" format="dita" scope="local"> ShowOverlapObjs </a> </p></td> 
   <td class="stentry"> <p>Inledande visa/dölj-läge för överlappningsobjekt. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-allowdirecturls.md#reference-02000c0f3c494292bad8425d06268882" type="reference" format="dita" scope="local"> AllowDirectUrls</a> </p> </td> 
-  <td class="stentry"> <p>Tillåt absolut <span class="codeph"> src=</span> URL:er. </p></td> 
+  <td class="stentry"> <p>Tillåt absoluta <span class="codeph"> src=</span> URL:er. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402" type="reference" format="dita" scope="local"> RootUrl </a> </p></td> 
-  <td class="stentry"> <p>Rot-URL för relativ <span class="codeph"> src=</span> URL:er. </p></td> 
+  <td class="stentry"> <p>Rot-URL för relativa <span class="codeph"> src=</span>-URL:er. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-onfailobj.md#reference-4c6ba90418e84da5831f8573bbbf2c8d" type="reference" format="dita" scope="local"> OnFailObj </a> </p></td> 
@@ -101,8 +101,8 @@ Följande attribut känns igen i katalogattributfiler.
   <td class="stentry"> <p>Aktivera senaste ändrade HTTP-svarshuvuden. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-trusteddomains.md#reference-f3570e0b6d8e444093b738d892c0818d" type="reference" format="dita" scope="local"> Betrodda domäner </a> </p> </td> 
-  <td class="stentry"> <p>Webbdomäner som har åtkomst <span class="filepath"> swf</span> svarsbilder. </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-trusteddomains.md#reference-f3570e0b6d8e444093b738d892c0818d" type="reference" format="dita" scope="local"> TrustedDomains </a> </p> </td> 
+  <td class="stentry"> <p>Webbdomäner har åtkomst till <span class="filepath"> swf</span>-svarsbilder. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-clientaddressfilter.md#reference-52a541cec0b0424faf263d1fb4946b5f" type="reference" format="dita" scope="local"> ClientAddressFilter </a> </p></td> 
@@ -120,11 +120,11 @@ Följande attribut känns igen i katalogattributfiler.
   <td class="stentry"> <p>Standardinställningar för avancerad återgivning. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-resolution.md#reference-09fe14e6bfbf4db6b7f4369fffecc806" type="reference" format="dita" scope="local"> Upplösning </a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-resolution.md#reference-09fe14e6bfbf4db6b7f4369fffecc806" type="reference" format="dita" scope="local"> upplösning </a> </p></td> 
   <td class="stentry"> <p>Standardtextur/dekal upplösning. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharp.md#reference-c706450cf95347f98f86c696f9167297" type="reference" format="dita" scope="local"> Sharp </a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharp.md#reference-c706450cf95347f98f86c696f9167297" type="reference" format="dita" scope="local"> skarp </a> </p></td> 
   <td class="stentry"> <p>Standardtextur/dekal skärpa. </p></td> 
  </tr> 
 </table>
@@ -151,7 +151,7 @@ Följande attribut känns igen i katalogattributfiler.
   <td class="stentry"> <p>Standardskärpa för svarsbilder. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-format.md#reference-da5207242f1c4f1c8fa4df6027121ff2" type="reference" format="dita" scope="local"> Format </a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-format.md#reference-da5207242f1c4f1c8fa4df6027121ff2" type="reference" format="dita" scope="local">-format </a> </p></td> 
   <td class="stentry"> <p>Standardformat för svarsbilder. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -175,7 +175,7 @@ Följande attribut känns igen i katalogattributfiler.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilecmyk.md#reference-55aead2d924847ffbd1be4c46add7127" type="reference" format="dita" scope="local"> IccProfileCmyk </a> </p></td> 
-  <td class="stentry"> Standardprofil för CMYK-utdatafärg.</td> 
+  <td class="stentry"> Standardprofil för CMYK-utdata.</td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilegray.md#reference-712f1d0dcca748df9aaf495681bb39e6" type="reference" format="dita" scope="local"> IccProfileGray </a> </p></td> 
@@ -195,7 +195,7 @@ Följande attribut känns igen i katalogattributfiler.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccrenderintent.md#reference-3b80b7a4c25545a593c5076f318b5c40" type="reference" format="dita" scope="local"> IccRenderIntent </a> </p> </td> 
-  <td class="stentry"> Standardåtergivningsmetod.</td> 
+  <td class="stentry"> Standardåtergivning.</td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccblackpointcompensation.md#reference-d939b0cdf6564baaa88deb1059e3b7f0" type="reference" format="dita" scope="local"> IccBlackPointCompensation </a> </p> </td> 

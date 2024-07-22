@@ -31,7 +31,7 @@ Hämtar en array med användare som anges av hanterare för företag, grupper oc
 | companyHandleArray | `types:HandleArray` | Nej | Filtrera resultat efter företag. |
 | groupHandleArray | `types:HandleArray` | Nej | Filtrera resultat efter grupp. |
 | userRoleArray | `types:StringArray` | Nej | Filtrera resultat efter användarroll. |
-| charFilterField | `xsd:string` | Nej | Filtrera resultat efter fältets strängprefix (se [!DNL Trash State).] |
+| charFilterField | `xsd:string` | Nej | Filtrera resultat efter fältets strängprefix (se [!DNL Trash State).]) |
 | charFilter | `xsd:string` | Nej | Filtrera resultat efter ett visst tecken. |
 | sortBy | `xsd:string` | Nej | Val av användarsorteringsfält. |
 | recordsPerPage | `xsd:int` | Nej | Returnerar angivet antal poster per sida. |

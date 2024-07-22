@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: eeadd3ab-80ff-4f9b-b5b7-4f3da6feebde
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
@@ -25,15 +25,15 @@ Lägg till brus. Lägger till slumpmässigt brus i förgrundsbildens data eller 
    <td colname="col2"> <p>Mängd brus i procent (0...100 int). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> enhetlig</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> enhetlig </span> </p> </td> 
    <td colname="col2"> <p>Välj enhetlig brusfördelning. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> gaussisk</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> gaussiska </span> </p> </td> 
    <td colname="col2"> <p>Välj gaussisk brusfördelning. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="varname"> monokrom</span> </p> </td> 
+   <td colname="col1"> <p><span class="varname"> monokrom </span> </p> </td> 
    <td colname="col2"> <p>Ange 0 för färgbrus, 1 för grått brus. </p> </td> 
   </tr> 
  </tbody> 

@@ -18,11 +18,11 @@ I det här exemplet används Bildrutefunktion för att färglägga ett objekt oc
 
 IR-variabler används för att identifiera vinjett, logotypbild och anpassad text.
 
-The `vignette::Modifier` fält i posten *mall* i materialkatalogens vinjetteringskarta `myCat` innehåller följande:
+Fältet `vignette::Modifier` i posten med namnet *template* i vinjetteringskartan för materialkatalogen `myCat` innehåller följande:
 
 `$vig=defaultVignette&$text=text_goes_here&$color=220,220,220&vignette=myCat/$vig$&obj=group/object&color=$color$&decal&src=is{?size=300,100&text={\qc\fs36 $text$}}`
 
-Alla använda vinjetteringar visas i materialkatalogens vinjetteringskarta `myCat`.
+Alla använda vinjetter visas i vinjetteringskartan för materialkatalogen `myCat`.
 
 Klienten kan nu göra följande begäran för att hämta standardbilden (använder variablerna som definieras i början av mallen):
 
@@ -32,4 +32,4 @@ Följande begäran anger visst innehåll som ska återges:
 
 [!DNL `https://server/myCat/template?$vig=specialCup&$text=Happy%20Birthday!\line%20Pauline&$color=230,20,20`]
 
-Mer information om bildservering finns i dokumentationen om bildservering `text=` -kommando.
+Mer information om kommandot Bildserver `text=` finns i dokumentationen om bildservrar.

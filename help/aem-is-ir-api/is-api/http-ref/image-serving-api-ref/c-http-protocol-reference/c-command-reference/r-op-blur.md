@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Oskärpebild. Använder ett oskärpefilter på bilddata.
 
-`op_blur= *`radie`*`
+`op_blur= *`radius`*`
 
 <table id="simpletable_1DD41D819BE74130A77ECFC28486F70A"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> radie</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname"> radius</span> </p> </td> 
   <td class="stentry"> <p>Oskärpefiltrets radie i pixlar (verklig 0,100). </p></td> 
  </tr> 
 </table>
@@ -33,10 +33,10 @@ kommandot Lager. Gäller det aktuella lagret eller den sammansatta bilden om `la
 
 ## Standard {#section-a976cb86620d489085a8fc9bae2626c0}
 
-`op_blur=0`, utan oskärpeeffekt.
+`op_blur=0`, för ingen oskärpeeffekt.
 
 ## Exempel {#section-1ebacde68388492eb108ae0fcd7424db}
 
-Gör bakgrunden i en bild oskarp. En separat maskbild refereras till av `catalog::MaskPath`. Observera att `layer=0`måste anges explicit, annars `op_blur` används på hela den sammansatta bilden.
+Gör bakgrunden i en bild oskarp. `catalog::MaskPath` refererar till en separat maskbild. Observera att `layer=0` måste anges explicit, annars används `op_blur` på hela den sammansatta bilden.
 
 `http://server/myRootId/myImageId?wid=500&layer=0&maskUse=invert&op_blur=20&layer=1&src=myRootId/myImageId`

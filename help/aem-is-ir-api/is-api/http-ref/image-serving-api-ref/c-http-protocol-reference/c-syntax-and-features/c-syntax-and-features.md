@@ -17,7 +17,7 @@ ht-degree: 0%
 Ämnen i det här avsnittet beskriver syntaxen och funktionerna i HTTP-protokollen.
 
 * [Grundläggande syntax för Image Serving HTTP-protokoll](r-basic-syntax.md)
-* [Översikt över kommandot Image Serving HTTP protocol](c-command-overview/c-command-overview.md)
+* [HTTP-protokollkommandot Image Serving   översikt](c-command-overview/c-command-overview.md)
 * [Översikt över lager](c-layering-overview/c-layering-overview.md)
 * [Lageråtgärder](c-layering-overview/c-layer-operations.md)
 * [Lagereffekter](r-layer-effects.md)
@@ -35,5 +35,5 @@ ht-degree: 0%
 * [Begäranlåsning](r-request-locking.md)
 * [Förfrågan om obehörig](r-request-obfuscation.md)
 * [Vattenstämplar](r-watermarks.md)
-* [Serverar statiskt innehåll (inte bildinnehåll)](r-serving-static-non-image-content.md)
+* [Serverar statiskt (icke-bildinnehåll) innehåll](r-serving-static-non-image-content.md)
 * [Medieuppsättningsbegäranden](r-media-set-requests.md)

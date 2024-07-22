@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Anger behörigheter för en enskild resurs genom att använda en behörighetsresurs.
 
-Resurser ärver behörigheterna för sin överordnade mapp som standard. När du har angett behörigheter för en resurs ärver den inte längre behörigheten för dess överordnade såvida du inte anropar `removeAssetPermissions`.
+Assets ärver behörigheterna för sin överordnade mapp som standard. När du har angett behörigheter för en resurs ärver den inte längre behörigheten för dess överordnade såvida du inte anropar `removeAssetPermissions`.
 
 ## Auktoriserade användartyper {#section-91fafc170c734ed2a77beafda9221768}
 

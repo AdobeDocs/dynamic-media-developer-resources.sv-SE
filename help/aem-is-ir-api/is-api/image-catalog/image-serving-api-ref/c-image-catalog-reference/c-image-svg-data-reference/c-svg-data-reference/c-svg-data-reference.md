@@ -16,7 +16,7 @@ ht-degree: 0%
 
 I det här avsnittet beskrivs dataattributen för SVG.
 
-* [Förfaller](r-expiration-svg.md)
+* [Förfallotid](r-expiration-svg.md)
 * [ID](r-id-svg.md)
 * [Bana](r-path-svg.md)
 * [TimeStamp](r-timestamp-svg.md)

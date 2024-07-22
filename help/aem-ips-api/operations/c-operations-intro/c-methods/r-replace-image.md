@@ -45,7 +45,7 @@ Syntax
 
 ## Exempel {#section-cebb93576bde4cb98cb27356ca66783b}
 
-Det här kodexemplet ersätter en bild och tillämpar en `urlModifier` med ett kommando som anger att Image Server inte utför någon åtgärd vid ersättning.
+Det här kodexemplet ersätter en bild och använder en `urlModifier` med ett kommando som anger att Image Server inte utför någon åtgärd vid ersättning.
 
 **Begäran**
 

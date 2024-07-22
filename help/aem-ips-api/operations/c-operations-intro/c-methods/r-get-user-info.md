@@ -36,7 +36,7 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| userHandle | `xsd:string` | Nej | Hantera användaren vars information du vill returnera. |
+| userHandle | `xsd:string` | Nej | Hantera den användare vars information du vill returnera. |
 | e-post | `xsd:string` | Nej | Användarens e-postadress. |
 
 **Utdata (getUserInfoReturn)**

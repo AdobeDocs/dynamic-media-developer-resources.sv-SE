@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: aec8463f-f72a-4203-89ab-8a4f0ad9d6f9
 source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 21%
+source-wordcount: '227'
+ht-degree: 14%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 21%
 
 Kommandovärden måste vara http-kodade med %xx escape-sekvenser, så att värdesträngarna inte innehåller de reserverade tecknen &#39;=&#39;, &#39;&amp;&#39; och &#39;%&#39;.
 
-Annars gäller standardreglerna för HTTP-kodning. HTTP-specifikationen kräver kodning av osäkra tecken samt alla kontrolltecken, till exempel `<return>` och `<tab>`. URL-kodningen för ett tecken består av symbolen %, följt av den tvåsiffriga hexadecimala representationen (skiftlägesokänslig) av tecknets ISO-Latin-kodpunkt. De osäkra tecknen och kodpunkterna är:
+Annars gäller standardreglerna för HTTP-kodning. HTTP-specifikationen kräver kodning av de osäkra tecknen samt alla kontrolltecken, till exempel `<return>` och `<tab>`. URL-kodningen för ett tecken består av symbolen %, följt av den tvåsiffriga hexadecimala representationen (skiftlägesokänslig) av tecknets ISO-Latin-kodpunkt. De osäkra tecknen och kodpunkterna är:
 
 <table id="table_D2C01CADB35E477D82D4C27586424625"> 
  <thead> 
@@ -58,12 +58,12 @@ Annars gäller standardreglerna för HTTP-kodning. HTTP-specifikationen kräver 
    <td colname="col3"> <p>37 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&amp;klammerparentes; </p> </td> 
+   <td colname="col1"> <p>&amp;lbrace; </p> </td> 
    <td colname="col2"> <p>7B </p> </td> 
    <td colname="col3"> <p>123 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&amp;rankning; </p> </td> 
+   <td colname="col1"> <p>&amp;rbrace; </p> </td> 
    <td colname="col2"> <p>7D </p> </td> 
    <td colname="col3"> <p>125 </p> </td> 
   </tr> 
@@ -88,17 +88,17 @@ Annars gäller standardreglerna för HTTP-kodning. HTTP-specifikationen kräver 
    <td colname="col3"> <p>126 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&amp;Brack; </p> </td> 
+   <td colname="col1"> <p>&amp;lbrack; </p> </td> 
    <td colname="col2"> <p>5B </p> </td> 
    <td colname="col3"> <p>91 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&amp;rack; </p> </td> 
+   <td colname="col1"> <p>&amp;rbrack; </p> </td> 
    <td colname="col2"> <p>5D </p> </td> 
    <td colname="col3"> <p>93 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&amp;grav; </p> </td> 
+   <td colname="col1"> <p>&amp;grave; </p> </td> 
    <td colname="col2"> <p>60 </p> </td> 
    <td colname="col3"> <p>96 </p> </td> 
   </tr> 
@@ -183,4 +183,4 @@ Om du använder obehörig kodning kan kodningen begränsas till att ta bort teck
 
 ## Se även {#section-295476ec34c74973962d07dfa9eb2180}
 
-[Förfrågningsfel](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d), [HTTP/1.1-specifikation (RFC 2616)](https://www.w3.org/Protocols/rfc2616/rfc2616.html)
+[Begärandebekräftelse](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d), [HTTP/1.1-specifikation (RFC 2616)](https://www.w3.org/Protocols/rfc2616/rfc2616.html)

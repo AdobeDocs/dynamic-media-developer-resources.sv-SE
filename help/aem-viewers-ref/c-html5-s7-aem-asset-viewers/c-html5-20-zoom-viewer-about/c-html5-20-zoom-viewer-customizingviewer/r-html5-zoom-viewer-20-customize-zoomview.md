@@ -53,24 +53,24 @@ Exempel - Gör huvudvyn genomskinlig.
 }
 ```
 
-På stationära datorer har komponenten stöd för `cursortype` attributväljare som kan användas på `.s7zoomview` klassen. Den styr typen av markör baserat på komponentens tillstånd och användaråtgärder. Följande `cursortype` värden stöds:
+I skrivbordssystem stöder komponenten `cursortype` attributväljare som kan tillämpas på klassen `.s7zoomview`. Den styr typen av markör baserat på komponentens tillstånd och användaråtgärder. Följande `cursortype`-värden stöds:
 
 * `default`
 
-   Visas när bilden inte kan zoomas på grund av en liten bildupplösning, eller komponentinställningar, eller båda.
+  Visas när bilden inte kan zoomas på grund av en liten bildupplösning, eller komponentinställningar, eller båda.
 
 * `zoomin`
 
-   Visas när bilden kan zoomas in.
+  Visas när bilden kan zoomas in.
 
 * `reset`
 
-   Visas när bilden har maximal zoomnivå och kan återställas till det ursprungliga läget.
+  Visas när bilden har maximal zoomnivå och kan återställas till det ursprungliga läget.
 
 * `drag`
 
-   Visas när användaren panorerar bilden som är i zoomläge.
+  Visas när användaren panorerar bilden som är i zoomläge.
 
 * `slide`
 
-   Visas när användaren byter bild genom att svepa eller snärta vågrätt.
+  Visas när användaren byter bild genom att svepa eller snärta vågrätt.

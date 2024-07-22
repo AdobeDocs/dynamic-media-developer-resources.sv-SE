@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 7b4b5cc9-68ad-4e7a-a2d9-3bbced929145
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Utseendet på tipsmeddelandet styrs av följande CSS-klassväljare:
 .s7flyoutviewer .s7flyoutzoomview .s7tip
 ```
 
-Det går att konfigurera teckensnittsstil, storlek, utseende och lodrät förskjutning via CSS. Den vågräta justeringen hanteras emellertid av visningsprogrammets logik. Åsidosätta den via CSS med `left` eller `right` egenskaper stöds inte.
+Det går att konfigurera teckensnittsstil, storlek, utseende och lodrät förskjutning via CSS. Den vågräta justeringen hanteras emellertid av visningsprogrammets logik. Det går inte att åsidosätta den via CSS med egenskaperna `left` eller `right`.
 
 <table id="table_DCF6B69A9D8C4DB7A10C4572F7484799"> 
  <thead> 
@@ -77,7 +77,7 @@ Det går att konfigurera teckensnittsstil, storlek, utseende och lodrät förskj
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>Teckensnittsnamn. </p> </td> 
+   <td colname="col2"> <p>Typsnittsnamn. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
@@ -93,16 +93,16 @@ Det går att konfigurera teckensnittsstil, storlek, utseende och lodrät förskj
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
-   <td colname="col2"> <p>Meddelandetextens kantradie i bakgrunden. </p> </td> 
+   <td colname="col2"> <p>Meddelandetextens bakgrundskantradie. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> opacitet </span> </p> </td> 
-   <td colname="col2"> <p>Meddelandetextens bakgrundsopacitet. </p> <p>För Internet Explorer 8, använd <span class="codeph"> filter:alpha(opacity-..) ) </span> </p> </td> 
+   <td colname="col2"> <p>Meddelandetextens bakgrundsopacitet. </p> <p>Använd <span class="codeph"> filter:alpha(opacity-..) </span> för Internet Explorer 8. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Tipsmeddelandet kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) för mer information.
+Tipsmeddelandet kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27).
 
 .
 

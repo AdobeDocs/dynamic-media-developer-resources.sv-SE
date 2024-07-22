@@ -1,7 +1,7 @@
 ---
 description: Används av PostScriptOptions/colorSpace.
 solution: Experience Manager
-title: PostScript-färgmodell
+title: PostScript ColorSpace-lägen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1083ee53-f9ba-4afe-a62f-98db11c74137
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# PostScript-färgmodell{#postscript-colorspace-modes}
+# PostScript ColorSpace-lägen{#postscript-colorspace-modes}
 
 Används av PostScriptOptions/colorSpace.
 

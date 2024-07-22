@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: ecef47c1-e659-4930-bfb1-cc5e7c059094
 source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Utseendet på området för den ändringsbara volymen styrs med följande CSS-kl
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p> Placera från den övre kanten, inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
@@ -78,7 +78,7 @@ Du kan styra bakgrundsbilden för varje knappläge. Knappens storlek ärvs från
 
 >[!NOTE]
 >
->Den här knappen har stöd för båda `state` och `selected` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen. I synnerhet `selected='true'` motsvarar läget &quot;muted&quot; och `selected='false'` motsvarar tillståndet &quot;unmuted&quot;.
+>Den här knappen stöder både attributväljarna `state` och `selected` som kan användas för att tillämpa olika skal på olika knapplägen. I synnerhet motsvarar `selected='true'` läget &quot;muted&quot; och `selected='false'` det &quot;unmuted&quot; läget.
 
 Det lodräta volymfältsområdet styrs med följande CSS-klassväljare:
 
@@ -112,7 +112,7 @@ Spåret i den lodräta volymkontrollen styrs med följande CSS-klassväljare:
 .s7interactivevideoviewer .s7mutablevolume .s7verticalvolume .s7filledtrack
 ```
 
-**CSS-egenskaper för spåret inuti lodrät volymkontroll**
+**CSS-egenskaper för spåret i den lodräta volymkontrollen**
 
 <table id="table_21E9AD3FBC8C4437BA02E5CD1BF7E831"> 
  <tbody> 
@@ -158,13 +158,13 @@ Den lodräta volymknappen styrs med följande CSS-klassväljare:
    <td colname="col2"> <p>Höjden på den lodräta volymkontrollknappen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vänster </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kvar </span> </p> </td> 
    <td colname="col2"> <p>Vågrät position för den lodräta volymkontrollknappen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 ## Exempel {#section-e8caea0a303c425a8a637c2a47c06355}
 

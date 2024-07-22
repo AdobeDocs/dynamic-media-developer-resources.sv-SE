@@ -25,14 +25,14 @@ Tar bort ett publiceringsformat för vinjettering.
 
 ## Parametrar {#section-789625ba29df4b5f880914d4c64f77ce}
 
-**Indata (deleteVinjettPublishFormatParam)**
+**Indata (deleteVignettePublishFormatParam)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Referensen till det företag som vinjetteringen tillhör. |
 | vinjetteringFormatHandtag | `xsd:string` | Ja | Referensen till vinjetteringens publiceringsformat som ska tas bort. |
 
-**Utdata (deleteVinjettPublishFormatParam)**
+**Utdata (deleteVignettePublishFormatParam)**
 
 IPS API returnerar inget svar för den här åtgärden.
 

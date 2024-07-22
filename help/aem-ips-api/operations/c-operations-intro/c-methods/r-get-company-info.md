@@ -44,15 +44,15 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:sträng</span> </p> </td> 
-   <td colname="col3"> <p>Antingen <span class="codeph"> <span class="varname"> companyHandle</span> </span> eller <span class="codeph"> <span class="varname"> companyName</span> </span> krävs. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle </span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col3"> <p>Antingen <span class="codeph"> <span class="varname"> companyHandle </span> </span> eller <span class="codeph"> <span class="varname"> companyName </span> </span> krävs. </p> </td> 
    <td colname="col4"> <p>Handtaget för det företag vars information du vill få. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:sträng</span> </p> </td> 
-   <td colname="col3"> <p>Antingen <span class="codeph"> <span class="varname"> companyHandle</span> </span> eller <span class="codeph"> <span class="varname"> companyName</span> </span> krävs. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName </span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col3"> <p>Antingen <span class="codeph"> <span class="varname"> companyHandle </span> </span> eller <span class="codeph"> <span class="varname"> companyName </span> </span> krävs. </p> </td> 
    <td colname="col4"> <p>Namnet på det företag vars information du vill få. </p> </td> 
   </tr> 
  </tbody> 
@@ -71,10 +71,10 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> typer:företag</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo </span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> typer:Company</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
-   <td colname="col4"> <p>Hantera och annan beskrivande information om företaget. </p> </td> 
+   <td colname="col4"> <p>Hantera och annan information om företaget. </p> </td> 
   </tr> 
  </tbody> 
 </table>

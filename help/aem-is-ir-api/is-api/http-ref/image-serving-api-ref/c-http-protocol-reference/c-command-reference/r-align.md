@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 01001cc6-1a60-4d6b-a27f-ea5822be6d11
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Justera bild med Visa. Justerar den sammansatta bilden (eventuellt efter skalning, om scl= även anges) inom visningsrektangeln som definieras av wid= och hei=.
 
-` align= *`vågrät`*, *`vert`*`
+` align= *`vågrät`*, *`lodrät`*`
 
 <table id="simpletable_4CB26F72A56D4515B767C303F8E8A1CF"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> vågrät </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> horizontal </span> </span> </p> </td> 
   <td class="stentry"> <p>vågrät justering (verklig, -1.0...1.0) </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -29,23 +29,23 @@ Justera bild med Visa. Justerar den sammansatta bilden (eventuellt efter skalnin
  </tr> 
 </table>
 
-Ange `align=-1,-1` om du vill justera den sammansatta bildens övre vänstra hörn mot vyns övre vänstra hörn anger du `align=1,1` om du vill justera längst ned, till höger om bilden mot vyns nedre högra hörn. För standardförfrågningar om bilder och miniatyrbilder fylls alla områden i vyn som inte täcks av sammansatta bilddata med `bgc=`.
+Ange `align=-1,-1` om du vill justera den sammansatta bildens övre vänstra hörn mot vyns övre vänstra hörn, och ange `align=1,1` om du vill justera den nedre högra delen av bilden mot vyns nedre högra del. För standardbild- och miniatyrbegäranden fylls alla områden i vyn som inte täcks av sammansatta bilddata med `bgc=`.
 
 ## Egenskaper {#section-3fbec8206fc944eda4746d8be84f3b41}
 
-Visa attribut. ( `align=` används också för att definiera justeringen mellan en vattenstämpelbild och den sammansatta bild som vattenstämpeln används på.) Används oavsett aktuell lagerinställning. Ignorerad om endast en av `wid=` och `hei=` anges och när `fit=constrain` eller `fit=stretch`.
+Visa attribut. ( `align=` används också för att definiera justeringen mellan en vattenstämpelbild och den sammansatta bild som vattenstämpeln används på.) Används oavsett aktuell lagerinställning. Ignoreras om endast en av `wid=` och `hei=` har angetts och när `fit=constrain` eller `fit=stretch`.
 
 ## Standard {#section-8a9ceff3dcc844c3af23b1c9066dac79}
 
-`align=0,0`som centrerar bilden i visningsrektangeln.
+`align=0,0` som centrerar bilden i visningsrektangeln.
 
 ## Exempel {#section-2c9447aa2e184fb8ab1a4370dc61d554}
 
-Följande begäran passar `myImage` till en 200 x 200 pixlar stor visningsrektangel.
+Följande begäran passar in `myImage` i en 200 x 200 pixlar stor visningsrektangel.
 
 `http://server/myRootId/myImageId?wid=200&hei=200&align=0,-1`
 
-If `myImage` är exakt fyrkantig, fyller hela visningsrektangeln. If `myImage` har stående proportioner, skalas till 200 pixlar hög och centreras vågrätt i vyn. If `myImage` har liggande proportioner, skalas till 200 pixlar bred och justeras mot vyns överkant. I samtliga fall är den returnerade bilden exakt 200 x 200 pixlar stor, och det utrymme som inte täcks av den skalförändrade bilden `myImage` fylls med `attribute::BkgColor` (ange bgc= om du vill styra bakgrundsfärgen dynamiskt).
+Om `myImage` är exakt fyrkantig fylls hela visningsrektangeln i. Om `myImage` har stående proportioner, skalas den till 200 pixlar hög och centreras vågrätt i vyn. Om `myImage` har liggande proportioner, skalas den till 200 pixlar bred och justeras mot vyns överkant. I samtliga fall är den returnerade bilden exakt 200 x 200 pixlar stor. Alla utrymmen som inte täcks av den skalade `myImage` fylls med `attribute::BkgColor` (ange bgc= för att styra bakgrundsfärgen dynamiskt).
 
 ## Se även {#section-28b42c6db199456a800c8407faa26a99}
 

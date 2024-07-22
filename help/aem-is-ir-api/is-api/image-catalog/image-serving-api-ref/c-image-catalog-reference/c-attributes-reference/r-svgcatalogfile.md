@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Sökvägar till datafiler i SVG. Anger de filer som innehåller SVG-data för den här katalogen.
 
-datafiler i SVG läses in efter alla bilddatafiler i exakt angiven ordning. Om samma `catalog::Id` värdet finns i mer än en post (antingen i samma eller olika bild- eller SVG-katalogfiler), den sista förekomsten gäller.
+datafiler i SVG läses in efter alla bilddatafiler i exakt angiven ordning. Om samma `catalog::Id`-värde förekommer i mer än en post (antingen i samma eller olika bild- eller SVG-katalogfiler) gäller den sista instansen.
 
 ## Egenskaper {#section-fc2d549f76474792837b2b92ec2087ea}
 

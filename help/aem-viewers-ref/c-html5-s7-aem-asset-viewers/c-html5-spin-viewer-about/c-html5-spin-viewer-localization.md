@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: f4c0f16b-dbb9-4505-a3f2-d504ae21c3f0
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Visst innehåll som visas i Snurra visningsprogram kan lokaliseras, inklusive zoomknappar och en helskärmsknapp.
 
-Varje textinnehåll i visningsprogrammet som kan lokaliseras representeras av en SDK-identifierare för visningsprogrammet som kallas SYMBOL. Alla SYMBOL har ett standardassocierat textvärde för engelska ( `"en"`) medföljer det färdiga visningsprogrammet. Den kan också ha användardefinierade värden för så många språkområden som behövs.
+Varje textinnehåll i visningsprogrammet som kan lokaliseras representeras av en SDK-identifierare för visningsprogrammet som kallas SYMBOL. Alla SYMBOL har ett standardassocierat textvärde för den engelska språkversionen ( `"en"`) som medföljer visningsprogrammet. Den kan också ha användardefinierade värden för så många språkområden som behövs.
 
 När visningsprogrammet startas kontrolleras det aktuella språkområdet för att se om det finns ett användardefinierat värde för varje SYMBOL som stöds för språkområdet. Om det finns något används det användardefinierade värdet, i annat fall används standardtexten som inte finns.
 
@@ -38,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-I ovanstående exempel definierar lokaliseringsobjektet två språkinställningar ( `"en"` och `"fr"`) och tillhandahåller lokalisering för två element i användargränssnittet i varje språkområde.
+I ovanstående exempel definierar lokaliseringsobjektet två språkområden ( `"en"` och `"fr"`) och tillhandahåller lokalisering för två element i användargränssnittet i varje språkområde.
 
-Webbsideskoden ska skicka lokaliseringsobjektet till visningsprogramkonstruktorn, som värdet `localizedTexts` konfigurationsobjektets fält. Ett annat alternativ är att skicka lokaliseringsobjektet genom att anropa `setLocalizedTexts(localizationInfo)` -metod.
+Webbsideskoden ska skicka lokaliseringsobjektet till visarkonstruktorn, som ett värde i fältet `localizedTexts` i konfigurationsobjektet. Ett annat alternativ är att skicka lokaliseringsobjektet genom att anropa metoden `setLocalizedTexts(localizationInfo)`.
 
 Följande SYMBOL stöds:
 

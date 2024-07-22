@@ -1,7 +1,7 @@
 ---
 description: Används av FontFieldUpdate/type.
 solution: Experience Manager
-title: Teckensnittstyper
+title: Typsnitt
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 3a127244-89b9-45ed-bf25-23395a89d20e
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# Teckensnittstyper{#font-types}
+# Typsnitt{#font-types}
 
 Används av FontFieldUpdate/type.
 

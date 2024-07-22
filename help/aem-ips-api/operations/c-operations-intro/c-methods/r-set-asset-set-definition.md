@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: f3fbe13b-e650-4a5d-9c46-a492b11fa13e
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Syntax
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Handtaget till företaget med tillgångsuppsättningen. |
 | assetHandle | `xsd:string` | Ja | Resurshandtag |
-| setDefinition | `xsd:string` | Ja | Definitionssträng. Se nedan. |
+| setDefinition | `xsd:string` | Ja | Definitionssträng Se nedan. |
 
 **Utdata (setAssetSetDefinitionReturn)**
 
@@ -45,17 +45,17 @@ IPS API returnerar inget svar för den här åtgärden.
 
 **setDefinition-funktioner**
 
-Ange `setDefinition` textbundna ersättningsfunktioner. De löses under en katalogsökning eller vid publicering. Ersättningssträngar har formatet `${<substitution_func>}`och innehåller följande:
+Ange `setDefinition` ersättningsfunktioner i rad. De löses under en katalogsökning eller vid publicering. Ersättningssträngar har formatet `${<substitution_func>}` och innehåller följande:
 
 >[!NOTE]
 >
->Handlitteraler i parameterlistorna måste omges av hakparenteser `([])`. Texten utanför en ersättningssträng kopieras till utdatasträngen under upplösningen.
+>Handtag-litteraler i parameterlistorna måste omges av hakparenteser `([])`. Texten utanför en ersättningssträng kopieras till utdatasträngen under upplösningen.
 
 <table id="table_A93D2C273B694C289208AA926B2597CD"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Ersättningsfunktion </th> 
-   <th colname="col2" class="entry"> Returnerar resurserna </th> 
+   <th colname="col2" class="entry"> Returnerar resursens </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -64,7 +64,7 @@ Ange `setDefinition` textbundna ersättningsfunktioner. De löses under en katal
    <td colname="col2"> Primär filsökväg. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getCatalogd([ <span class="varname"> asset_handle </span>]) </span> </td> 
+   <td colname="col1"> <span class="codeph"> getCatalog([ <span class="varname"> asset_handle </span>]) </span> </td> 
    <td colname="col2"> Katalog-ID. </td> 
   </tr> 
   <tr> 
@@ -78,7 +78,7 @@ Ange `setDefinition` textbundna ersättningsfunktioner. De löses under en katal
  </tbody> 
 </table>
 
-**Exempel på setDefinition**
+**setDefinition-exempel**
 
 Den här definitionssträngen för medieuppsättningen:
 

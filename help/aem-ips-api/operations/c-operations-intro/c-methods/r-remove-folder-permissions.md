@@ -39,22 +39,22 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Referensen till företaget med mappar med behörigheter som du vill ta bort. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Hantera till mappen. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> updateChildren</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> updateChildren </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolesk</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> <p>När <span class="codeph"> true</span>: 
+   <td colname="col4"> <p>När <span class="codeph"> är true</span>: 
      <ul id="ul_1305D060E0F34A61AA3C827E43F296E6"> 
       <li id="li_AB8705F3CEAD4B8A8F1C28291A6F7EC8">Borttagning av behörigheter sprids genom alla mappbehörighetsåtgärder. </li> 
      </ul> </p> <p>När <span class="codeph"> false</span>: 

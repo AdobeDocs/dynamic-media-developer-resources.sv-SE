@@ -18,7 +18,7 @@ I den här dokumentationen beskrivs serveradministrationsproblem och konfigurati
 
 **Målgrupp**
 
-Den här dokumentationen är avsedd för systemadministratörer och webbmaster-användare som behöver installera, konfigurera och administrera Dynamic Media Image Rendering.
+Den här dokumentationen är avsedd för systemadministratörer och webbmaster som behöver installera, konfigurera och administrera Dynamic Media Image Rendering.
 
 **Dokumentkonventioner**
 

@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Förgrundsfärg. Anger färgen på enfärgade material eller den additiva färgen för färgläggbara material.
 
-`color= *`färg`*`
+`color= *`color`*`
 
 <table id="simpletable_C5AF9074CCA64EA5921772DF3F7E0F55"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> färg</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname"> färg </span> </p> </td> 
   <td class="stentry"> <p>RGB eller grått färgvärde. </p></td> 
  </tr> 
 </table>
@@ -31,7 +31,7 @@ Materialattribut. Krävs för heltäckande färgmaterial, valfritt för alla and
 
 ## Standard {#section-ea8e1967674d426bb8f46abe365b6aca}
 
-`catalog::Color` Om materialet baseras på en katalogpost. I annat fall `none` utan färgsättning.
+`catalog::Color` Om materialet är baserat på en katalogpost. Annars `none` för ingen färgsättning.
 
 ## Se även {#section-5eb8f1c36634474bbfaa63d84e4c3c71}
 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 6367245a-be55-4b7e-bf9e-da4a0ecb556b
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Utseendet på verktygstipsen styrs av följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Om verktygstipsen anpassas från webbsidan för inbäddning måste alla egenskaper innehålla `!IMPORTANT` regel. Den här regeln är inte nödvändig om verktygstipsen är anpassade i visningsprogrammets CSS-fil.
+>Om verktygstipsen anpassas från inbäddningswebbsidan måste alla egenskaper innehålla regeln `!IMPORTANT`. Den här regeln är inte nödvändig om verktygstipsen är anpassade i visningsprogrammets CSS-fil.
 
 Exempel - för att skapa verktygstips som har en grå kant med tre pixlars hörnradie, svart bakgrund och vit text skriven med Arial®, 11 pixlars storlek:
 

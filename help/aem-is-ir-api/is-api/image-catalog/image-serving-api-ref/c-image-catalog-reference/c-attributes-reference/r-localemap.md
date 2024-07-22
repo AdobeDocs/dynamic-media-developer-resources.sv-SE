@@ -16,12 +16,12 @@ ht-degree: 0%
 
 ID-översättningskarta. Anger reglerna som används för översättning av generiska bild-ID:n till språkspecifika ID:n.
 
-`*`artikel`*&#42;['|' *`artikel`*]`
+`*`objekt`*&#42;['|' *`objekt`*]`
 
 <table id="simpletable_A6DD1A28F8ED4178A8ADDB2F3AEFC402"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> artikel</span> </p></td> 
-  <td class="stentry"> <p><span class="varname"> locId</span>,<span class="varname"> locSuffix</span>*[','<span class="varname"> locSuffix</span>] </p></td> 
+  <td class="stentry"> <p><span class="varname"> objekt </span> </p></td> 
+  <td class="stentry"> <p><span class="varname"> locId</span>,<span class="varname"> locSuffix</span>*[',<span class="varname"> locSuffix</span>] </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> locId</span> </p></td> 
@@ -33,13 +33,13 @@ ID-översättningskarta. Anger reglerna som används för översättning av gene
  </tr> 
 </table>
 
-`LocaleMap` refererar till `locId` som kan mappas till valfritt antal `locSuffix`.
+`LocaleMap` refererar till en `locId` som kan mappas till valfritt antal `locSuffix`.
 
-Tom *`locSuffix`* värden tillåts. *`locSuffix`* värdena måste sorteras i den ordning som de ska sökas igenom. Den första matchningen returneras.
+Tomma *`locSuffix`* värden tillåts. *`locSuffix`* värden måste sorteras i den ordning som de ska sökas igenom. Den första matchningen returneras.
 
-Image Serving söker igenom *`locId`* värden för en skiftlägesokänslig matchning med `locale=` det värde som anges i begäran. Om en matchning hittas är den första associerade *`locSuffix`* värdet läggs till det ursprungliga katalog-ID:t. Om den här katalogposten finns används den i annat fall nästa *`locSuffix`* ett värde har provats. Om ingen av *`locSuffix`* värden matchar en katalogpost, bildservern returnerar ett fel eller en standardbild.
+Image Serving söker igenom *`locId`*-värdena efter en skiftlägesokänslig matchning med det `locale=`-värde som anges i begäran. Om en matchning hittas läggs det första associerade *`locSuffix`*-värdet till i det ursprungliga katalog-ID:t. Om den här katalogposten finns används den, annars provas nästa *`locSuffix`*-värde. Om inget av *`locSuffix`*-värdena matchar en katalogpost returnerar Image Serving ett fel eller en standardbild.
 
-En tom *`locId`* värdet matchar tomt och okänt `locale=` strängar. Detta gör att du kan definiera en standardregel för okända språk.
+Ett tomt *`locId`*-värde matchar tomma och okända `locale=`-strängar. Detta gör att du kan definiera en standardregel för okända språk.
 
 När detta är aktiverat används ID-översättning på alla id som refererar till bildkataloger och statiska innehållskataloginlägg.
 

@@ -35,13 +35,13 @@ Syntax
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Handla till företaget. |
 | folderHandle | `xsd:string` | Ja | Mappreferens. |
-| destFolderHandle | `xsd:string` | Ja | Hantera målmappen. |
+| destFolderHandle | `xsd:string` | Ja | Handtag till målmappen. |
 
 **Utdata (moveFolderReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| folderHandle | `xsd:string` | Ja | Hantera den flyttade mappen. |
+| folderHandle | `xsd:string` | Ja | Hantera till den flyttade mappen. |
 
 ## Exempel {#section-6571c6ab89ce4cb9a139abdb29c6b279}
 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 9a51f92a-ffb9-4460-a910-9f2fefe3eae5
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Vågrät justering för miniatyrbilder. Anger den vågräta justeringen av miniatyrbilden i svarsbildsrektangeln som anges av wid= och hei= eller efter attribut::DefaultThumbPix.
 
-Används endast för miniatyrbildsbegäranden ( `req=tmb`) .
+Används endast för miniatyrbildsbegäranden ( `req=tmb`).
 
 ## Egenskaper {#section-c98f793986cd4f98a3995615e3b68f76}
 
@@ -24,7 +24,7 @@ Enum. Tillåtna värden är 1, 2 och 3 för vänsterjustering, centrering och h�
 
 ## Standard {#section-0c06f0d998cb4306868b360a06c32e5b}
 
-Ärvs från `default::ThumbHorizAlign` om den inte är definierad eller om den är tom.
+Ärvs från `default::ThumbHorizAlign` om inte definierad eller om tom.
 
 ## Se även {#section-a74a13c3643140cf971d7a4275e0fdb3}
 

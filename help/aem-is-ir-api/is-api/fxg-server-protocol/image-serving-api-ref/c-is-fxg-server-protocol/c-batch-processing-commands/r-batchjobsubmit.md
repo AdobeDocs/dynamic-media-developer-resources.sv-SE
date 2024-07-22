@@ -30,7 +30,7 @@ Returnerar:
 <table id="simpletable_7C82E4A8520440F5A5ABBC1BCB286AB2"> 
  <tr class="strow"> 
   <td class="stentry"> <p>Jobbstatus </p> </td> 
-  <td class="stentry"> <p>Huruvida överföringen lyckades eller misslyckades. om det lyckas, jobb-ID i XML-format. </p> </td> 
+  <td class="stentry"> <p>Om överföringen lyckades eller misslyckades. Jobb-ID i XML-format om det lyckades. </p> </td> 
  </tr> 
 </table>
 

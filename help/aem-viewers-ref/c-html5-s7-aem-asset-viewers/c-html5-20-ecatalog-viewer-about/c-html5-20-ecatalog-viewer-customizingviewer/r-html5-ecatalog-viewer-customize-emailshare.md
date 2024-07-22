@@ -49,11 +49,11 @@ Utseendet på e-postdelningsknappen styrs av följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen.
+>Den här knappen stöder attributväljaren `state` som kan användas för att tillämpa olika skal på olika knapplägen.
 
-Det går att ta bort knappen från panelen Dela via inställningen `display:none` CSS-egenskap i dess CSS-klass.
+Det går att ta bort knappen från panelen Dela via CSS-egenskapen `display:none` i CSS-klassen.
 
-Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - Om du vill ställa in en knapp för e-postdelning som är 28 x 28 pixlar och visar en annan bild för vart och ett av de fyra olika knapplägena.
 
@@ -112,7 +112,7 @@ Som standard visas den modala dialogrutan centrerat på skärmen på stationära
 .s7ecatalogviewer .s7emaildialog .s7dialog
 ```
 
-**CSS-egenskaper i dialogrutan**
+**CSS-egenskaper för dialogrutan**
 
 <table id="table_5272BC8EF9124018B4290356B95B5559"> 
  <tbody> 
@@ -214,7 +214,7 @@ Rubriken styrs med följande CSS-klassväljare:
 .s7ecatalogviewer .s7emaildialog .s7dialogheadertext
 ```
 
-**CSS-egenskaper för rubriktexten i dialogrutan**
+**CSS-egenskaper för dialogrutans rubriktext**
 
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
@@ -248,7 +248,7 @@ Stängningsknappen styrs med följande CSS-klassväljare:
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p> Lodrät knappposition i förhållande till rubrikbehållare. </p> </td> 
   </tr> 
   <tr> 
@@ -280,9 +280,9 @@ Stängningsknappen styrs med följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen.
+>Den här knappen stöder attributväljaren `state` som kan användas för att tillämpa olika skal på olika knapplägen.
 
-Knappbeskrivningen Stäng och dialogrutans titel kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
+Knappbeskrivningen Stäng och dialogrutans titel kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - Om du vill ställa in en dialogrutarubrik med utfyllnad, en 24 x 17 pixlar-ikon och en 16 punkters fetstil. Slutligen en stängningsknapp på 28 x 28 pixlar som placeras två pixlar uppifrån och två pixlar från höger om dialogrutans behållare:
 
@@ -335,7 +335,7 @@ Dialogrutans sidfot består av knapparna Avbryt och Skicka e-post. Sidfotsbehål
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kant </span> </p> </td> 
    <td colname="col2"> <p> Kant som du kan använda för att visuellt separera sidfoten från resten av dialogrutan. </p> </td> 
   </tr> 
  </tbody> 
@@ -347,7 +347,7 @@ Sidfoten har en inre behållare som behåller båda knapparna. Den styrs med fö
 .s7ecatalogviewer .s7emaildialog .s7dialogbuttoncontainer
 ```
 
-**CSS-egenskaper för behållaren för dialogruteknappen**
+**CSS-egenskaper för dialogruteknappbehållaren**
 
 <table id="table_C34906888A8145C7A61E503DFC6B08A9"> 
  <tbody> 
@@ -389,7 +389,7 @@ Knappen Avbryt styrs med följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen.
+>Den här knappen stöder attributväljaren `state` som kan användas för att tillämpa olika skal på olika knapplägen.
 
 Knappen Skicka e-post styrs med följande CSS-klassväljare:
 
@@ -422,7 +422,7 @@ Knappen Skicka e-post styrs med följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen.
+>Den här knappen stöder attributväljaren `state` som kan användas för att tillämpa olika skal på olika knapplägen.
 
 Båda knapparna har dessutom en gemensam CSS-klass som kan innehålla CSS-inställningar som är desamma för andra dialogruteknappar:
 
@@ -455,13 +455,13 @@ Båda knapparna har dessutom en gemensam CSS-klass som kan innehålla CSS-instä
    <td colname="col2"> <p>Skugga. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal-höger </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal-right </span> </p> </td> 
    <td colname="col2"> <p>Högerknappsmarginal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Den här knappens verktygstips kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
+Den här knappens verktygstips kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - Om du vill ställa in en dialogruteslut med knappen Avbryt (64 x 34) och knappen Skicka e-post (82 x 34). Textfärgen och bakgrundsfärgen är olika för varje knappläge:
 
@@ -550,7 +550,7 @@ Huvuddialogrutan, mellan sidhuvudet och sidfoten, innehåller rullningsbart dial
 
 >[!NOTE]
 >
->Huvuddialogrutan har stöd för det valfria `state` attributväljare. Den är inställd på `sendsuccess` när e-postformuläret skickas och dialogrutan innehåller ett bekräftelsemeddelande. Så länge bekräftelsemeddelandet är litet kan den här attributväljaren användas för att minska dialogrutans höjd när ett sådant bekräftelsemeddelande visas.
+>Huvuddialogrutan har stöd för den valfria attributväljaren `state`. Värdet är `sendsuccess` när e-postformuläret skickas och dialogrutan visar ett bekräftelsemeddelande. Så länge bekräftelsemeddelandet är litet kan den här attributväljaren användas för att minska dialogrutans höjd när ett sådant bekräftelsemeddelande visas.
 
 Exempel - Om du vill ställa in att huvudområdet i dialogrutan ska vara 300 pixlar högt från början och 100 pixlar högt när bekräftelsemeddelandet visas, har du en marginal på tio pixlar och använder en vit bakgrund:
 
@@ -648,7 +648,7 @@ Den här klassen är inte lämplig för att styra etikettens storlek eller place
  </tbody> 
 </table>
 
-Dialogruteetiketter kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
+Dialogruteetiketter kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - om du vill ställa in alla etiketter till grått, fetstil med ett teckensnitt på nio pixlar:
 
@@ -711,7 +711,7 @@ Varje formulärindatafält placeras i behållaren så att du kan använda en anp
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kant </span> </p> </td> 
    <td colname="col2"> <p>Kantlinje runt inmatningsfältbehållaren. </p> </td> 
   </tr> 
   <tr> 
@@ -723,7 +723,7 @@ Varje formulärindatafält placeras i behållaren så att du kan använda en anp
 
 >[!NOTE]
 >
->Indatafältbehållaren stöder valfria `state` attributväljare. Den är inställd på `verifyerror` när användaren gör ett misstag i indataformatet och den interna valideringen misslyckas. Den här attributväljaren kan användas för att markera felaktiga användarindata i formuläret.
+>Indatafältbehållaren stöder den valfria attributväljaren `state`. Värdet är `verifyerror` när användaren gör ett misstag i indataformatet och det inte går att utföra intern validering. Den här attributväljaren kan användas för att markera felaktiga användarindata i formuläret.
 
 De flesta indatafält som sprids från etiketten till vänster upp till höger i dialogrutans brödtext (som inkluderar fältet Från och fältet Meddelande) styrs med följande CSS-klassväljare:
 
@@ -783,7 +783,7 @@ Indatafältet för e-postmeddelanden styrs också med:
 .s7ecatalogviewer .s7emaildialog .s7dialogmessage
 ```
 
-Med den här klassen kan du ange specifika egenskaper för den underliggande `TEXTAREA` -element.
+Med den här klassen kan du ange specifika egenskaper för det underliggande `TEXTAREA`-elementet.
 
 **CSS-egenskaper för dialogrutemeddelandet**
 
@@ -794,13 +794,13 @@ Med den här klassen kan du ange specifika egenskaper för den underliggande `TE
    <td colname="col2"> <p>Meddelandets höjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> word-wrap </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> automatisk radbrytning </span> </p> </td> 
    <td colname="col2"> <p>Radbrytningsformat. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exempel - om du vill ställa in ett e-postmeddelande så att det är 50 pixlar högt och använder `break-word` automatisk radbrytning:
+Exempel - om du vill konfigurera ett e-postmeddelande så att det är 50 pixlar högt och använder `break-word` ordomslutning:
 
 ```
 .s7ecatalogviewer .s7emaildialog .s7dialogmessage { 
@@ -864,9 +864,9 @@ Med knappen Lägg till en annan e-postadress kan en användare lägga till fler 
 
 >[!NOTE]
 >
->Den här knappen har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen.
+>Den här knappen stöder attributväljaren `state` som kan användas för att tillämpa olika skal på olika knapplägen.
 
-Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - Om du vill ställa in knappen &quot;Lägg till en annan e-postadress&quot; så att den är 25 pixlar hög använder du 12 punkters fet stil med högerjustering och en annan textfärg och bild för varje läge:
 
@@ -905,7 +905,7 @@ Med knappen Ta bort kan en användare ta bort extra adresser från e-postformul�
 .s7ecatalogviewer .s7emaildialog .s7dialogremoveemailbutton
 ```
 
-**CSS-egenskaper för dialogrutan Ta bort e-postknapp**
+**CSS-egenskaper i dialogrutan Ta bort e-postknapp**
 
 <table id="table_79E4C65741E64859B9C9E9DCCB3D050B"> 
  <tbody> 
@@ -930,9 +930,9 @@ Med knappen Ta bort kan en användare ta bort extra adresser från e-postformul�
 
 >[!NOTE]
 >
->Den här knappen har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen.
+>Den här knappen stöder attributväljaren `state` som kan användas för att tillämpa olika skal på olika knapplägen.
 
-Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - om du vill ställa in en Ta bort-knapp på 25 x 25 pixlar och använda en annan bild för varje läge:
 
@@ -966,7 +966,7 @@ Innehållet som delas visas längst ned i dialogrutan och innehåller en miniaty
 <table id="table_9C5CBFC2482E4A46BE837573B0B02FE4"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kant </span> </p> </td> 
    <td colname="col2"> <p>Behållarkanten. </p> </td> 
   </tr> 
   <tr> 
@@ -991,7 +991,7 @@ Miniatyrbilder styrs med följande CSS-klassväljare:
 .s7ecatalogviewer .s7emaildialog .s7dialogthumbnail
 ```
 
-The `background-image` -egenskapen anges av komponentlogiken.
+Egenskapen `background-image` anges av komponentlogiken.
 
 **CSS-egenskaper för dialogrutans miniatyrbild**
 
@@ -1212,9 +1212,9 @@ När en användare anger felaktiga indata och intern validering misslyckas. Elle
 
 >[!NOTE]
 >
->Det här meddelandet stöder `state` attributväljare med följande möjliga värden: `verifyerror`, `senderror`och `sendsuccess`. Värdet `verifyerror` anges när ett meddelande visas på grund av ett internt indatavalideringsfel. Värdet `senderror` anges när en backend-e-posttjänst rapporterar ett fel. Värdet  `sendsuccess` anges när e-post har skickats. På det här sättet kan du formatera meddelandet på olika sätt beroende på hur dialogrutan ser ut.
+>Det här meddelandet stöder attributväljaren `state` med följande möjliga värden: `verifyerror`, `senderror` och `sendsuccess`. Värdet `verifyerror` anges när ett meddelande visas på grund av ett internt indatavalideringsfel. Värdet `senderror` anges när en e-posttjänst för serverdel rapporterar ett fel. Värdet `sendsuccess` anges när e-post har skickats. På det här sättet kan du formatera meddelandet på olika sätt beroende på hur dialogrutan ser ut.
 
-Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - Om du vill ange att ett meddelande ska använda ett teckensnitt med tio punkters fet stil, har radhöjden 25 pixlar, utfyllnaden 20 pixlar till vänster och använder en utropsteckenikon. Och slutligen röd text om det finns ett fel, och ingen ikon och grön text om det lyckas:
 
@@ -1280,7 +1280,7 @@ Utseendet på rullningslistområdet styrs med följande CSS-klassväljare:
    <td colname="col2"> <p> Bredden på rullningslisten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p> Den lodräta rullningslistens förskjutning från rullningspanelens överkant. </p> </td> 
   </tr> 
   <tr> 
@@ -1354,11 +1354,11 @@ Rullningslistens reglage rör sig lodrätt inom ett rullningsspårsområde. Dess
    <td colname="col2"> <p>Tumthöjden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-utfyllnadspunkt </span> </p> </td> 
    <td colname="col2"> <p> Den lodräta utfyllnaden mellan spårets överkant. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> utfyllnad-nederkant </span> </p> </td> 
    <td colname="col2"> <p> Den lodräta utfyllnaden mellan spårets nederkant. </p> </td> 
   </tr> 
   <tr> 
@@ -1374,7 +1374,7 @@ Rullningslistens reglage rör sig lodrätt inom ett rullningsspårsområde. Dess
 
 >[!NOTE]
 >
->Tummen har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika tumlägen: `up`, `down`, `over`och `disabled`.
+>Tummen stöder attributväljaren `state`, som kan användas för att tillämpa olika skal på olika tumlägen: `up`, `down`, `over` och `disabled`.
 
 Exempel - för att ställa in rullningslistens reglage som är 28 x 45 pixlar, har en marginal på tio pixlar över och under och har olika teckningar för varje läge:
 
@@ -1409,9 +1409,9 @@ Utseendet på de övre och nedre rullningsknapparna styrs av följande CSS-klass
 .s7ecatalogviewer .s7emaildialog .s7scrollbar .s7scrolldownbutton
 ```
 
-Det går inte att placera rullningsknappar med CSS `top`, `left`, `bottom`och `right` egenskaper. I stället placerar visningsprogramlogiken dem automatiskt.
+Det går inte att placera rullningsknappar med CSS-egenskaperna `top`, `left`, `bottom` och `right`. I stället placerar visningsprogramlogiken dem automatiskt.
 
-**CSS-egenskaper för de övre och nedre rullningsknapparna**
+**CSS-egenskaper för den övre och undre rullningsknappen**
 
 <table id="table_EB853317E08941979B0E141C3C9B2C49"> 
  <tbody> 
@@ -1436,9 +1436,9 @@ Det går inte att placera rullningsknappar med CSS `top`, `left`, `bottom`och `r
 
 >[!NOTE]
 >
->Dessa knappar har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen: `up`, `down`, `over`och `disabled`.
+>Dessa knappar har stöd för attributväljaren `state`, som kan användas för att tillämpa olika skal på olika knapplägen: `up`, `down`, `over` och `disabled`.
 
-Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - för att ställa in rullningsknappar som är 28 x 32 pixlar och har olika teckningar för varje läge:
 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 3816118f-4eb7-4436-9f54-155dde077734
 source-git-commit: 6087b48b898e93e605c3873cbd5132b74d04225f
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Utseendet på bildschemaikonen styrs av följande CSS-klassväljare:
 
 >[!NOTE]
 >
->The `s7mapoverlay` Den CSS-klass som tidigare användes för att formatera bildschemaikoner är nu föråldrad. use `s7icon` i stället.
+>CSS-klassen `s7mapoverlay` som tidigare användes för att formatera bildschemaikoner är nu inaktuell. Använd `s7icon` i stället.
 
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
@@ -59,7 +59,7 @@ Utseendet på bildschemaikonen styrs av följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Bildschemaikonen har stöd för `state` attributväljaren, som du kan använda för att använda olika skal på ikonlägena för `default` och `active`.
+>Bildschemaikonen stöder attributväljaren `state` som du kan använda för att använda olika skal för ikonlägena `default` och `active`.
 
 Exempel - ställ in en bildschemaikon på 28 x 28 pixlar som visar en annan bild för vart och ett av de två olika ikonlägena.
 
@@ -102,13 +102,13 @@ Utseendet på bildschemaområdet styrs med följande CSS-klassväljare:
    <td colname="col2"> <p> Fyllningsfärg för bildschemaområde. </p> <p>Anges i formatet #RRGGBB, RGB(R,G,B) eller RGBA(R,G,B,A). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
-   <td colname="col2"> <p> Områdesformat för bildschemat. </p> <p>Anges som <span class="codeph"> <span class="varname"> width </span> solid <span class="varname"> färg </span> </span>, där <span class="codeph"> <span class="varname"> width </span> </span> uttrycks i pixlar och <span class="codeph"> <span class="varname"> färg </span> </span> anges som #RRGGBB, RGB(R,G,B) eller RGBA(R,G,B,A). </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kant </span> </p> </td> 
+   <td colname="col2"> <p> Områdesformat för bildschemat. </p> <p>Anges som <span class="codeph"> <span class="varname"> width </span> solid <span class="varname"> color </span> </span> där <span class="codeph"> <span class="varname"> width </span> </span> uttrycks i pixlar och <span class="codeph"> <span class="varname"> color </span> </span> anges som #RRGGBB, RGB(R,G,B) eller RGBA(R,G,B,A). </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exempel: ställa in ett genomskinligt bildschemaområde med `1` svart pixelkantlinje:
+Exempel - ställ in ett genomskinligt bildschemaområde med `1` pixelsvart kant:
 
 ```
 .s7ecatalogviewer .s7imagemapeffect .s7region { 

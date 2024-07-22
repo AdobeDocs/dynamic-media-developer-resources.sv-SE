@@ -18,7 +18,7 @@ JavaScript API-referens för panoramavisningsprogrammet.
 
 `setAsset(asset)`
 
-Anger den nya resursen. Du kan anropa den här parametern när som helst, antingen före eller efter `init()`. Om den anropas efter `init()`byter visningsprogrammet ut resursen vid körning.
+Anger den nya resursen. Du kan anropa parametern när som helst, antingen före eller efter `init()`. Om den anropas efter `init()` byter visningsprogrammet ut resursen under körning.
 
 Se även [init](../../../c-html5-aem-asset-viewers/c-html5-aem-panoramic/c-html5-aem-panoramic-viewer-javascriptapiref/r-html5-aem-panoramic-viewer-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
@@ -26,7 +26,7 @@ Se även [init](../../../c-html5-aem-asset-viewers/c-html5-aem-panoramic/c-html5
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> resurs </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> Sträng</span>} nytt resurs-ID. Bilder som använder bildåtergivning (IR) eller användargenererat innehåll (UGC) stöds inte av det här visningsprogrammet. </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> String</span>} nytt resurs-ID. Bilder som använder bildåtergivning (IR) eller användargenererat innehåll (UGC) stöds inte av det här visningsprogrammet. </p> </td> 
   </tr> 
  </tbody> 
 </table>

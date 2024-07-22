@@ -38,7 +38,7 @@ Syntax
 |---|---|---|---|
 | typeHandle | `xsd:string` | Ja | Referensen till egenskapsuppsättningstypen. |
 | primaryOwnerHandle | `xsd:string` | Ja | Den primära ägaren av data som är bundna till databasobjektet. |
-| secondaryOwnerHandle | `xsd:string` | Nej | En valfri sekundär dataägare. |
+| secondaryOwnerHandle | `xsd:string` | Nej | En valfri sekundär ägare av data. |
 
 **Utdata (getPropertySetsReturn)**
 

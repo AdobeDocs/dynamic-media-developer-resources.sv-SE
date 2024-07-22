@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: f67ede68-03c0-461f-a16d-a308f76fd24c
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Om så är fallet används följande materialattribut för att definiera materia
   <tr> 
    <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180" type="reference" format="dita" scope="local"> <span class="codeph"> grov= </span> </a> </p> </td> 
    <td> <p>Ytojämnhet </p> </td> 
-   <td> <p>40% </p> </td> 
+   <td> <p>40 % </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-type.md#reference-128c7de89e2d46838019b560f3f84a35" type="reference" format="dita" scope="local"> <span class="codeph"> type=</span> </a> </p> </td> 
@@ -50,6 +50,6 @@ Om så är fallet används följande materialattribut för att definiera materia
  </tbody> 
 </table>
 
-Renderaren justerar omfånget för `gloss=` och `rough=` attribut enligt `type=`. Vissa typer av material, t.ex. vävnader, reflekterar mindre än materialtyper som sten eller metall. Dessutom ger samma mängd glans som anges för den ena ofta en annan reflektionseffekt än den andra. Attributet `gloss=` och grovhet har ett tämligen brett färgomfång om `type=` har inte angetts eller är inställd på `0`.
+Återgivaren justerar intervallet för attributen `gloss=` och `rough=` enligt `type=`. Vissa typer av material, t.ex. vävnader, reflekterar mindre än materialtyper som sten eller metall. Dessutom ger samma mängd glans som anges för den ena ofta en annan reflektionseffekt än den andra. Attributet `gloss=` och grovheten har ett tämligen brett färgomfång om `type=` inte har angetts eller är inställt på `0`.
 
-`glossmap=` Används för att kontrollera glansigheten i ett material pixelvis.
+`glossmap=` Används för att kontrollera glansigheten i ett material pixel för pixel.

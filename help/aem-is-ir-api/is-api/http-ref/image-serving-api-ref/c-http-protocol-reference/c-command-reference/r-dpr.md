@@ -1,10 +1,11 @@
 ---
 title: dpr
-description: Enhetens pixelproportioner (DPR)&mdash; kallas även CSS-pixelkvot&mdash;är relationen mellan en enhets fysiska pixlar och logiska pixlar.
+description: Enhetens pixelproportioner (DPR)&mdash;also known as CSS pixel ratio&mdash;is the relationship between a device's physical pixels and logical pixels.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
-source-git-commit: a6e0db8238ba5f2209089c6eda7b42c42f66b25f
+exl-id: d64ca9ed-7d8e-4a13-9c9d-acb7de3e31ed
+source-git-commit: 63c0e3b494b6d583117dad01643946900855802e
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 1%
@@ -33,7 +34,7 @@ För närvarande kommer bildskärmens pixeldensitet från Akamai CDN-rubrikvärd
 </table>
 
 
-Du kan använda `dpr=on,dprValue` även om företagets nivå DPR-inställning är avstängd.
+Du kan använda `dpr=on,dprValue` även om DPR-inställningen på företagsnivå är inaktiverad.
 
 På grund av DPR-optimering identifieras alltid MaxPix-bredden när den resulterande bilden är större än Dynamic Media-inställningen MaxPix genom att bildens proportioner behålls.
 
@@ -44,7 +45,7 @@ På grund av DPR-optimering identifieras alltid MaxPix-bredden när den resulter
 | 816 x 500 | 3 | 2 448 x 1 500 |
 | 816 x 500 | 4 | 3264 x 2000 |
 
-DPR-värdena baseras på de värden som identifierats på klientsidan för det paketerade CDN. Dessa värden är ibland felaktiga. IPhone5 med `dpr=2`och iPhone12 med dpr=3, båda visa `dpr=2`. För högupplösta enheter skickas ändå `dpr=2` är bättre än att skicka `dpr=1`. Det bästa sättet att överbrygga denna brist är dock att använda DPR på klientsidan för att ge er 100 % korrekta värden. Och det fungerar för alla enheter, oavsett om det är Apple eller någon annan enhet som startades. Se [Använd smart bildbehandling med enhetspixelproportioner på klientsidan](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/client-side-dpr.html?lang=en).
+DPR-värdena baseras på de värden som identifierats på klientsidan för det paketerade CDN. Dessa värden är ibland felaktiga. IPhone5 med `dpr=2` och iPhone12 med dpr=3 visar båda `dpr=2`. För högupplösta enheter är det ändå bättre att skicka `dpr=2` än att skicka `dpr=1`. Det bästa sättet att överbrygga denna brist är dock att använda DPR på klientsidan för att ge er 100 % korrekta värden. Och det fungerar för alla enheter, oavsett om det är Apple eller någon annan enhet som startades. Se [Använd smart bildbehandling med enhetspixelproportioner på klientsidan](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/client-side-dpr.html?lang=en).
 
 ## Egenskaper
 

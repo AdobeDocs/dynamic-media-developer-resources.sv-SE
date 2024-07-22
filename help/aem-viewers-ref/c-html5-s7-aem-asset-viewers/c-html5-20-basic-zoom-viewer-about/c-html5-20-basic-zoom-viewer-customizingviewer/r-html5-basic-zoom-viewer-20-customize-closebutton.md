@@ -1,20 +1,20 @@
 ---
 title: Knappen Stäng
-description: Om du väljer den här knappen stängs webbsidan som innehåller. Den här knappen visas bara om parametern closeButton är inställd på 1. Du kan ändra storlek, skal och position för knappen med hjälp av CSS.
+description: Om du väljer den här knappen stängs webbsidan som innehåller. Den här knappen visas bara om parametern closeButton har värdet 1. Du kan ändra storlek, skal och position för knappen med hjälp av CSS.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 73535bf3-7993-442e-b322-b640306a5101
 source-git-commit: 61e3a1fd0e21d336eaf5232096f5b1b54f2a6353
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
 
 # Knappen Stäng{#close-button}
 
-Om du klickar eller trycker på den här knappen stängs webbsidan som innehåller innehållet. Den här knappen visas bara om parametern closeButton är inställd på 1. Du kan ändra storlek, skal och position för knappen med hjälp av CSS.
+Om du klickar eller trycker på den här knappen stängs webbsidan som innehåller innehållet. Den här knappen visas bara om parametern closeButton har värdet 1. Du kan ändra storlek, skal och position för knappen med hjälp av CSS.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,7 +35,7 @@ Knappens utseende styrs med följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p>Placera från den övre kanten, inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
@@ -43,7 +43,7 @@ Knappens utseende styrs med följande CSS-klassväljare:
    <td colname="col2"> <p>Placera från den högra kanten, inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vänster </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kvar </span> </p> </td> 
    <td colname="col2"> <p>Placera från den vänstra kanten, inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
@@ -71,9 +71,9 @@ Knappens utseende styrs med följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen.
+>Den här knappen stöder attributväljaren `state` som kan användas för att tillämpa olika skal på olika knapplägen.
 
-Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - för att ställa in en stängningsknapp som är 32 x 32 pixlar och placerad sex pixlar från den övre och högra kanten av visningsprogrammet. Den måste visa olika bilder för vart och ett av de fyra olika knapplägena.
 

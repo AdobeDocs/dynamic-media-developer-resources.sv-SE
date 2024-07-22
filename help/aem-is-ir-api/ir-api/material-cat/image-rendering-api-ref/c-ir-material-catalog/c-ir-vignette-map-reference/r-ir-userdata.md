@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Användardata. Servern returnerar innehållet i det här fältet till klienten som svar på req=userdata.
 
-Nya rader kan rymmas med &#39;?&#39;. Servern ersätter ? med `<cr><lf>` innan innehållet i det här fältet returneras.
+Nya rader kan rymmas med &#39;?&#39;. Servern ersätter ?? med `<cr><lf>` innan innehållet i det här fältet returneras.
 
 ## Egenskaper {#section-4e3904e047a84cc790ce77c56d3e0b21}
 

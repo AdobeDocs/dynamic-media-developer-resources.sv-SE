@@ -18,7 +18,7 @@ En bildserverproxy kan användas för att ändra storlek på bilder för japansk
 
 ## URL-format {#section-2e8c40b0547c4f99874cdf502b338940}
 
-URL-formatet för IS-proxyn påminner mycket om vanliga IS-begäranden. Alla IS-modifierare som skickas till proxyn skickas till Image Server. Information om IS-modifierare finns i [HTTP-protokollreferens](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md#concept-dbbd5241bc6248ad9b9d7f6c635c311e).
+URL-formatet för IS-proxyn påminner mycket om vanliga IS-begäranden. Alla IS-modifierare som skickas till proxyn skickas till Image Server. Information om IS-modifierare finns i [HTTP-protokollreferensen](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md#concept-dbbd5241bc6248ad9b9d7f6c635c311e).
 
 `http://<server>/is-proxy/image/<company><asset>?<modifiers>`
 

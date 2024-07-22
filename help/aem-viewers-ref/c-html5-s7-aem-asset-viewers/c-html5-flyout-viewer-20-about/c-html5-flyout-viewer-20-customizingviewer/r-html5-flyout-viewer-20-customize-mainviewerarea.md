@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: bf928c22-23e9-4df3-b2d7-0841c64baf19
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Visningsområdets utseende styrs av följande CSS-klassväljare:
  </tbody> 
 </table>
 
-Exempel - för att konfigurera ett utfällbart visningsprogram med vit bakgrund ( `#FFFFFF`) och gör storleken 260 x 500 pixlar.
+Exempel - om du vill konfigurera ett utfällbart visningsprogram med vit bakgrund ( `#FFFFFF`) och göra dess storlek 260 x 500 pixlar.
 
 ```
 .s7flyoutviewer { 

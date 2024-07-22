@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: ac09c8cd-cb68-4b70-b1b4-9d4ca0166c7f
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,15 @@ Fem eller sex kommaavgränsade heltal. Det tredje och fjärde numret används in
 
 `creator-id, creator-pin, durability [ , chroma ]`
 
-The `creator-id` och `creator-pin` tillhandahålls av Digimarc när tjänsten köps. De oanvända värdena ska lämnas tomma.
+`creator-id` och `creator-pin` tillhandahålls av Digimarc när tjänsten köps. De oanvända värdena ska lämnas tomma.
 
-`durability` anger den inbäddade styrkan för Digimarc-vattenstämpeln. Den kan vara 1, 2, 3 eller 4, med 1 som indikerar svagast och 4 starkaste hållbarhet.
+`durability` anger inbäddningsstyrkan för Digimarc-vattenstämpel. Den kan vara 1, 2, 3 eller 4, med 1 som indikerar svagast och 4 starkaste hållbarhet.
 
-Ange `chroma` till 1 för att koda vattenstämpeln till bildens krominansdata eller till 0 (standard) för att koda den till luminansen. Den här inställningen ignoreras när gråskalebilder skrivs ut.
+Ange `chroma` till 1 om du vill koda vattenstämpeln till bildens krominansdata eller till 0 (standard) om du vill koda den till luminansen. Den här inställningen ignoreras när gråskalebilder skrivs ut.
 
 ## Standard {#section-d6ecb6e95a7b4232bd612834ea49e6bc}
 
-Ärvs från `default::DigimarcId` om den inte är definierad eller om den är tom.
+Ärvs från `default::DigimarcId` om inte definierad eller om tom.
 
 ## Exempel {#section-8469ae1c27b4461da3d53fbabc32d3c5}
 

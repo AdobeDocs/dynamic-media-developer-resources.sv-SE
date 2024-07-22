@@ -22,7 +22,7 @@ Använd informationen i det här avsnittet för att konfigurera och administrera
 * [Omdirigering vid fel](c-redirect-on-error.md)
 * [Konfigurerar SVG](c-configuring-svg.md)
 * [Serverkonfiguration](c-manual-server-configuration.md)
-* [Definiera SSL-ciphers](r-ssl-ciphers.md)
+* [Definiera SSL-skrivare](r-ssl-ciphers.md)
 * [Serveransvarig](c-server-supervisor.md)
 * [Serverloggning](c-server-logging/c-server-logging.md)
 * [Serverövervakning](c-server-monitoring/c-server-monitoring.md)

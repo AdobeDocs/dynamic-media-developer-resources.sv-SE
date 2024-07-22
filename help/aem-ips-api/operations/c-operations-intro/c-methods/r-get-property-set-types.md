@@ -45,8 +45,8 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4">Referensen till företaget som egenskapsuppsättningstyperna är associerade med. <p>Utelämna om du vill returnera globala egenskapsuppsättningstyper. </p> </td> 
   </tr> 

@@ -23,8 +23,8 @@ Syntax
 | Namn | Typ | Beskrivning |
 |---|---|---|
 | assetHandle | `xsd:string` | Teckensnittsresurshandtag. |
-| fontName | `xsd:string` | Teckensnittsnamn. |
-| postscriptName | `xsd:string` | PostScript-teckensnittsnamn. |
+| fontName | `xsd:string` | Typsnittsnamn. |
+| postscriptName | `xsd:string` | PostScript teckensnittsnamn. |
 | rtfName | `xsd:string` | Namn på RTF-teckensnitt. |
 | [!DNL fontFamily] | `xsd:string` | Teckensnittsfamilj. |
 | [!DNL style] | `xsd:string` | Teckensnittsformat (se Teckensnittsformat för värden). |

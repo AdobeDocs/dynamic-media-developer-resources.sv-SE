@@ -26,7 +26,7 @@ Anger noll eller flera callback-hanterare. Ett anrop till den här metoden skriv
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> hanterare </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {Object} </span> JSON-objekt med återanrop för visningsprogramhändelser, där egenskapsnamnet är namnet på den visningsprogramhändelse som stöds och egenskapsvärdet är en JavaScript-funktionsreferens till ett lämpligt återanrop. </p> <p>Mer information om visningsprogramhändelser finns i avsnittet Händelseåteranrop. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {Object} </span> JSON-objekt med återkopplingar för visningsprogramhändelser, där egenskapsnamnet är namnet på den visningsprogramhändelse som stöds och egenskapsvärdet är en JavaScript-funktionsreferens till ett lämpligt återanrop. </p> <p>Mer information om visningsprogramhändelser finns i avsnittet Händelseåteranrop. </p> </td> 
   </tr> 
  </tbody> 
 </table>

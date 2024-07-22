@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: e137f795-e0f7-4b72-b7e8-188e254bbb45
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Standardtidsstämpel för bildändring. Tillhandahåller ett standardvärde för katalogen::TimeStamp.
 
-Om inget anges används ändringsdatumet/tiden för den här [!DNL *`catalog`*.ini] -fil.
+Om inget anges används ändringsdatumet/-tiden för den här [!DNL *`catalog`*.ini] -filen på servern.
 
 ## Egenskaper {#section-647066e62ce44a84b627fdd0b2f7cfec}
 
@@ -28,15 +28,15 @@ Datum/tid-värdet *`mm`*/ *`dd`*/ *`yyyy`* *`hh`*: *`mm`*: *`ss`* GMT *`offset`*
 
 Tidsvärdet *`hh`* ligger i intervallet 0-23.
 
-Tidsvärdet *`zzz`* är en tidszonskod på tre eller fyra tecken som `GMT` eller `PST`. Besparingstiden för dagsljus måste räknas med i tidszonskoden (till exempel `PST` för Stillahavsområdet, normaltid `PDT` för Pacific, sommartid).
+Tidsvärdet *`zzz`* är en tidszonskod på tre eller fyra tecken, till exempel `GMT` eller `PST`. Besparingstiden för dagsljus måste anges i tidszonskoden (till exempel `PST` för Pacific Standard Time jämfört med `PDT` för Pacific Daylight Savings Time).
 
-Tidsvärdet *`offset`* är en tidszonsförskjutning i timmar eller timmar:minuter, i förhållande till GMT. Till exempel: `PDT` motsvarar `GMT -7`.
+Tidsvärdet *`offset`* är en tidszonsförskjutning i timmar eller timmar:minuter i förhållande till GMT. `PDT` motsvarar till exempel `GMT -7`.
 
-Alla element i strängformaterade datum/tid-värden måste finnas. Om datum/tid-värdet inte är korrekt formaterat ignoreras det och ändringstiden för [!DNL *`catalog`*.ini] filen används i stället.
+Alla element i strängformaterade datum/tid-värden måste finnas. Om datum/tid-värdet inte är korrekt formaterat ignoreras det och ändringstiden för filen [!DNL *`catalog`*.ini] används i stället.
 
 ## Standard {#section-ac465313c97943ed97d41ea852329177}
 
-Om den är tom eller inte definierad används filändringstiden för den här `*`katalog`*.ini` -fil.
+Om filen är tom eller inte definierad används filändringstiden för den här `*`katalogen`*.ini` -filen.
 
 ## Se även {#section-ea19bcefa4a04d7eb5d9480cf0e2ca26}
 

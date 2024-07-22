@@ -22,4 +22,4 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| objekt | `types:AssetMetadataFields` | An `AssetMetadataFields` arrayobjekt. |
+| objekt | `types:AssetMetadataFields` | Ett `AssetMetadataFields`-arrayobjekt. |

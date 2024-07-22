@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 84530842-4d2a-402a-b94b-45356cec5dc1
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 2%
+source-wordcount: '75'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Resurstyp. Används för att identifiera typen av uppsättning som publiceras till katalog::ImageSet.
 
-Resurstypen avgör vilken typ av svar som ska genereras för `req=set` förfrågningar. Om inget värde anges, bestämmer reglerna för automatisk identifiering `req=set` svarstyp.
+Resurstypen avgör vilken typ av svar som ska genereras för `req=set`-begäranden. Om inget värde anges avgör reglerna för automatisk identifiering svarstypen `req=set`.
 
 ## Egenskaper {#properties}
 

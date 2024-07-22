@@ -1,20 +1,20 @@
 ---
 title: Knappen Sista sidan
-description: Om du väljer den här knappen kommer användaren till den sista sidan i katalogen. Den här knappen visas i huvudkontrollfältet på stationära datorer och surfplattor. på mobiltelefoner läggs den till i ett sekundärt kontrollfält. Du kan ändra storlek, skal och position för knappen med hjälp av CSS.
+description: Om du väljer den här knappen kommer användaren till den sista sidan i katalogen. Den här knappen visas i huvudkontrollfältet på stationära datorer och surfplattor. På mobiltelefoner läggs den till i ett sekundärt kontrollfält. Du kan ändra storlek, skal och position för knappen med hjälp av CSS.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: fa1ff52c-6fb1-47e7-b3d4-216fea02bbd8
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
 
 # Knappen Sista sidan{#last-page-button}
 
-Om du väljer den här knappen kommer användaren till den sista sidan i katalogen. Den här knappen visas i huvudkontrollfältet på stationära datorer och surfplattor. på mobiltelefoner läggs den till i ett sekundärt kontrollfält. Du kan ändra storlek, skal och position för knappen med hjälp av CSS.
+Om du väljer den här knappen kommer användaren till den sista sidan i katalogen. Den här knappen visas i huvudkontrollfältet på stationära datorer och surfplattor. På mobiltelefoner läggs den till i ett sekundärt kontrollfält. Du kan ändra storlek, skal och position för knappen med hjälp av CSS.
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
@@ -33,7 +33,7 @@ Knappens utseende styrs med följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p>Placera från huvudkontrollfältets övre kant (på stationära datorer och surfplattor) eller sekundära kontrollfält (på mobiltelefoner), inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
@@ -41,7 +41,7 @@ Knappens utseende styrs med följande CSS-klassväljare:
    <td colname="col2"> <p>Placera från höger kant på huvudkontrollfältet (på stationära datorer och surfplattor) eller sekundärt kontrollfält (på mobiltelefoner), inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vänster </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kvar </span> </p> </td> 
    <td colname="col2"> <p>Placera från vänster kant på huvudkontrollfältet (på stationära datorer och surfplattor) eller sekundärt kontrollfält (på mobiltelefoner), inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
@@ -69,9 +69,9 @@ Knappens utseende styrs med följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen.
+>Den här knappen stöder attributväljaren `state` som kan användas för att tillämpa olika skal på olika knapplägen.
 
-Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - Om du vill ställa in en sista sidknapp som är 28 x 28 pixlar och placerad 4 pixlar från nederkanten och 220 pixlar från den vänstra kanten av huvudkontrollfältet. Slutligen visas olika bilder för de fyra olika knapplägena.
 

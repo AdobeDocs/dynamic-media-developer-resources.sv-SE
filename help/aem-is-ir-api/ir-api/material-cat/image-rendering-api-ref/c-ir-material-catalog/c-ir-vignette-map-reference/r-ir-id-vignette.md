@@ -20,7 +20,7 @@ Vanligtvis en kort och unik identifierare, till exempel ett SKU-nummer. Kan ocks
 
 ## Egenskaper {#section-267bbf34677e4401abbaf6fdce52191b}
 
-Textsträng. Obligatoriskt. Primär indexnyckel för vinjettschematabellen. Varje `vignette::Id` värdet måste vara unikt i tabellen och får inte innehålla tecknen &#39;,&#39;.
+Textsträng. Obligatoriskt. Primär indexnyckel för vinjetteringskarta. Varje `vignette::Id`-värde måste vara unikt i tabellen och får inte innehålla &#39;,&#39;-tecken.
 
 ## Standard {#section-736d3419b19045efa00887cb595b0337}
 

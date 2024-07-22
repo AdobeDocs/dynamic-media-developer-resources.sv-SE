@@ -1,18 +1,18 @@
 ---
 description: Uppdaterar inställningarna för publiceringsformat för vinjettering.
 solution: Experience Manager
-title: updateVinjettPublishFormat
+title: updateVignettePublishFormat
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7f199ed4-375f-4451-b66a-e50bcd55bf23
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
 
-# updateVinjettPublishFormat{#updatevignettepublishformat}
+# updateVignettePublishFormat{#updatevignettepublishformat}
 
 Uppdaterar inställningarna för publiceringsformat för vinjettering.
 
@@ -30,8 +30,8 @@ Uppdaterar inställningarna för publiceringsformat för vinjettering.
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Företagshandtag. |
-| vinjetteringFormatHandtag | `xsd:string` | Ja | Publicera formatreferens. |
-| name | `xsd:string` | Nej | Publicera formatnamn. |
+| vinjetteringFormatHandtag | `xsd:string` | Ja | Publish-formatreferens. |
+| name | `xsd:string` | Nej | Publish-formatnamn. |
 | targetWidth | `xsd:int` | Ja | Anger målbredden för den resulterande vinjetteringsvyn i pixlar. Använd noll så att utdatavärjningen har samma storlek som den primära vinjetteringen. |
 | targetHeight | `xsd:int` | Ja | Anger målhöjden för den resulterande vinjetteringsvyn i pixlar. Använd noll så att utdatavärjningen har samma storlek som den primära vinjetteringen. |
 | createPyramid | `xsd:boolean` | Ja | Skapar en pyramidvinjettering som är optimerad för zoomning på servern för bildåtergivning. Med början från den maximala storleken, som anges av fälten Storlek på målvinjett, skapas vyer i flera storlekar i en enda vinjettutdatafil. Varje efterföljande visningsstorlek halveras tills bredden och höjden är inom 128 x 128 pixlar. |
@@ -43,7 +43,7 @@ Uppdaterar inställningarna för publiceringsformat för vinjettering.
 | usmRadius | `xsd:double` | Ja | Påverkar storleken på kanterna som ska förbättras eller hur breda kanterna blir, så en mindre radie förbättrar detaljskärpan i mindre skala. Högre radievärden kan orsaka glorior vid kanterna. För fina detaljer krävs en mindre radie, eftersom små detaljer av samma storlek eller mindre än radien förloras. |
 | usmThreshold | `xsd:int` | Ja | Styr den minsta intensitetsändring som ska göras skarpare eller hur långt ifrån intilliggande tonvärden måste vara innan filtret fungerar. Den här inställningen kan göra mer skarpa kanter skarpare samtidigt som mer subtila kanter lämnas orörda. Det tillåtna tröskelintervallet är 0 till 255. |
 
-**Utdata (updateVinjettPublishFormatReturn)**
+**Utdata (updateVignettePublishFormatReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|

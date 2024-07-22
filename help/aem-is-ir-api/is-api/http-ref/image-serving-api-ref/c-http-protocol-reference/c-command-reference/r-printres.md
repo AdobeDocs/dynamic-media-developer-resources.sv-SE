@@ -25,7 +25,7 @@ Utskriftsupplösning Åsidosätter utskriftsupplösningsvärdet som är inbädda
  </tr> 
 </table>
 
-Utskriftsupplösningen definieras normalt av `catalog::PrintResolution` om det är en katalogpost, i annat fall av utskriftsupplösningsvärdet som är inbäddat i källbilden. Om det finns en sammansatt bild i mallar eller lager är standardutskriftsupplösningen som är inbäddad i svarsfilen utskriftsupplösningen för lagerbilden med det lägsta lagernumret.
+Utskriftsupplösningen definieras vanligtvis av `catalog::PrintResolution` om det är en katalogpost, i annat fall av utskriftsupplösningsvärdet som är inbäddat i källbilden. Om det finns en sammansatt bild i mallar eller lager är standardutskriftsupplösningen som är inbäddad i svarsfilen utskriftsupplösningen för lagerbilden med det lägsta lagernumret.
 
 Om du anger utskriftsupplösningen ändras inte svarsbildens pixelstorlek.
 

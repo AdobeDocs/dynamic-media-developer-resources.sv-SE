@@ -11,13 +11,13 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Dynamic Media] Resurser för utvecklare{#dynamic-media-developer-resource}
+# Resurser för [!DNL Dynamic Media]-utvecklare{#dynamic-media-developer-resource}
 
 * [Referenshandbok för visningsprogram](/help/aem-viewers-ref/homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html) -->
 Anpassa [!DNL Dynamic Media] visningsprogram för datorer och pekskärmar. En del medietyper du kan arbeta med är interaktiva bilder och videor, 360-gradersvideo, karuseller, bildzoom, video, ekataloger, utfällbara foton, blandade media och snurruppsättningar.
-* [Image Serving/Image Rendering API](/help/aem-is-ir-api/homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html) -->
-Dokumentation om API:er för IS (Image Serving) och IR (Image Rendering) och relaterade tekniker. Om du arbetar med [!DNL Dynamic Media] Klassisk integrering med Adobe Experience Manager bör referera till IS-delen av API:t.
+* [API för bildserver/bildåtergivning](/help/aem-is-ir-api/homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html) -->
+Dokumentation om API:er för IS (Image Serving) och IR (Image Rendering) och relaterade tekniker. Om du arbetar med [!DNL Dynamic Media] Classic-integrering med Adobe Experience Manager bör du se IS-delen av API:t.
 * [API för bildproduktionssystem](/help/aem-ips-api/c-overview.md)
 Med webbtjänstens API:t för IPS (Image Production System) kan externa program och tredjepartsutvecklare programmässigt komma åt IPS-resurser och -funktioner.
 * [[!DNL Dynamic Media] Klassisk versionsinformation](/help/s7-release-notes/s7rn2017.md)
-Den senaste versionsinformationen för Adobe [!DNL Dynamic Media] Klassisk del av [!DNL Adobe Experience Manager] lösningen i [!DNL Adobe Experience Cloud].
+Den senaste versionsinformationen för Adobe [!DNL Dynamic Media] Classic-delen av [!DNL Adobe Experience Manager] -lösningen i [!DNL Adobe Experience Cloud] .

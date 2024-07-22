@@ -22,4 +22,4 @@ Flagga.
 
 ## Standard {#section-e6f7e33a629b4592979bab6d14700e8f}
 
-Ärvs från `default::ShowOverlapObjs` om den inte är definierad eller om den är tom.
+Ärvs från `default::ShowOverlapObjs` om inte definierad eller om tom.

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 503a1fc6-7a6b-4f55-bad1-11f22435276f
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
@@ -22,12 +22,12 @@ Parametern är gemensam för alla visningsprogram.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> configId </span> </span> </p> </td> 
-   <td colname="col2"> <p>Katalog/ID för visningsprogramkonfigurationen. </p> <p> Anger en bildkatalogspost som innehåller visningsprogrammets konfigurationsegenskaper i <span class="codeph"> katalog::UserData </span>. När det här kommandot finns skickar visningsprogrammet en <span class="codeph"> req=userdata </span> kommando för <span class="codeph"> configId </span> till servern och extraherar egenskaper från svaret. Egenskaperna används för att initiera visningsprogrammet. Om URL-strängen anger samma egenskaper åsidosätter de värdena från <span class="codeph"> katalog::UserData </span>. </p> </td> 
+   <td colname="col2"> <p>Katalog/ID för visningsprogramkonfigurationen. </p> <p> Anger en bildkatalogspost som innehåller visningsprogrammets konfigurationsegenskaper i <span class="codeph">-katalogen::UserData </span>. När det här kommandot finns skickar visningsprogrammet ett <span class="codeph"> req=userdata </span> -kommando för <span class="codeph"> configId </span> till servern och extraherar egenskaper från svaret. Egenskaperna används för att initiera visningsprogrammet. Om URL-strängen anger samma egenskaper åsidosätter de värdena från <span class="codeph">-katalogen::UserData </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Alla visningsprogramkommandon som kan anges i `catalog::UserData` förväntade `asset`, `serverUrl`, `contentUrl`, `searchServerUrl`och `config` själv.
+Alla visningsprogramkommandon som kan anges i `catalog::UserData` förväntar sig själva `asset`, `serverUrl`, `contentUrl`, `searchServerUrl` och `config`.
 
 ## Egenskaper {#section-10ee45d637134e0fbcd943c62578cb78}
 
@@ -39,7 +39,7 @@ Ingen.
 
 ## Exempel 1 {#section-a8afbf76f8384aa0a83ed1feeccd5b9a}
 
-En bildkatalog med namnet 2020 innehåller posten `preset-oct`. The `catalog::UserData` -fältet i den här katalogposten innehåller följande data:
+En bildkatalog med namnet 2020 innehåller posten `preset-oct`. Fältet `catalog::UserData` i den här katalogposten innehåller följande data:
 
 ```
 style=customStyle.css
@@ -59,7 +59,7 @@ style=customStyle.css
 
 ## Exempel 2 {#section-577fce5ddbee43fc96d88b2055df47aa}
 
-En bildkatalog med namnet 2019 innehåller posten `spin-oct`. The `catalog::UserData` -fältet i den här katalogposten innehåller följande data:
+En bildkatalog med namnet 2019 innehåller posten `spin-oct`. Fältet `catalog::UserData` i den här katalogposten innehåller följande data:
 
 ```
 zoomStep=3 
@@ -118,7 +118,7 @@ style=etc/dam/presets/css/html5_interactivevideo_dark.css
 
 ## Exempel 5 {#section-19b988551d1d492a9079948e0b04b38f}
 
-En visningsförinställning med namnet `Carousel_Dotted_light` följande uppgifter:
+En visningsförinställning med namnet `Carousel_Dotted_light` och följande data:
 
 ```
 style= etc/dam/presets/css/html5_carouselviewer_dotted_light.css

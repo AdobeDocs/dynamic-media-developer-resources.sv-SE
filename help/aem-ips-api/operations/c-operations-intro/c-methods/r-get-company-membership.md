@@ -37,7 +37,7 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| userHandle | `xsd:string` | Nej | Handtaget till användaren vars medlemskap du vill få. |
+| userHandle | `xsd:string` | Nej | Handtaget till den användare vars medlemskap du vill få. |
 
 **Utdata (getCompanyMembershipReturn)**
 

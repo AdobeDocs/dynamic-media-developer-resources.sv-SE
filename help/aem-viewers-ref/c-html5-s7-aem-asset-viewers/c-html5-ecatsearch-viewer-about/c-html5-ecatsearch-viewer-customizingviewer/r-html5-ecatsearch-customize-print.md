@@ -24,7 +24,7 @@ Utseendet på utskriftsknappen styrs med följande CSS-klassväljare:
 .s7ecatalogsearchviewer .s7print
 ```
 
-**CSS-egenskaper för knappen Skriv ut**
+**CSS-egenskaper för utskriftsknappen**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -57,9 +57,9 @@ Utseendet på utskriftsknappen styrs med följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen.
+>Den här knappen stöder attributväljaren `state` som kan användas för att tillämpa olika skal på olika knapplägen.
 
-Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - Om du vill ställa in en utskriftsknapp som är 28 x 28 pixlar och visar en annan bild för vart och ett av de fyra olika knapplägena.
 
@@ -120,7 +120,7 @@ Som standard visas den modala dialogrutan centrerat på skärmen på datorsystem
 .s7ecatalogsearchviewer .s7kprintdialog .s7dialog
 ```
 
-**CSS-egenskaper i dialogrutan**
+**CSS-egenskaper för dialogrutan**
 
 <table id="table_5272BC8EF9124018B4290356B95B5559"> 
  <tbody> 
@@ -212,7 +212,7 @@ Rubriken styrs med följande CSS-klassväljare:
 .s7ecatalogsearchviewer .s7printdialog .s7dialogheadertext
 ```
 
-**CSS-egenskaper för rubriktexten i dialogrutan**
+**CSS-egenskaper för dialogrutans rubriktext**
 
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
@@ -246,7 +246,7 @@ Stängningsknappen styrs med följande CSS-klassväljare:
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p> Lodrät knappposition i förhållande till rubrikbehållare. </p> </td> 
   </tr> 
   <tr> 
@@ -278,9 +278,9 @@ Stängningsknappen styrs med följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen.
+>Den här knappen stöder attributväljaren `state` som kan användas för att tillämpa olika skal på olika knapplägen.
 
-Knappbeskrivningen Stäng och dialogrutans titel kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
+Knappbeskrivningen Stäng och dialogrutans titel kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - Om du vill ställa in ett dialoghuvud med utfyllnad, en 22 x 22 pixlar ikon och en 16 punkters fetstil. Slutligen placerade en stängningsknapp på 28 x 28 pixlar två pixlar från överkanten och två pixlar från den högra i dialogrutan:
 
@@ -333,7 +333,7 @@ Dialogrutans sidfot består av knapparna Avbryt och Skicka till utskrift. Sidfot
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kant </span> </p> </td> 
    <td colname="col2"> <p> Kant som du kan använda för att visuellt separera sidfoten från resten av dialogrutan. </p> </td> 
   </tr> 
  </tbody> 
@@ -345,7 +345,7 @@ Sidfoten har en inre behållare som behåller båda knapparna. Den styrs med fö
 .s7ecatalogsearchviewer .s7printdialog .s7dialogbuttoncontainer
 ```
 
-**CSS-egenskaper för behållaren för dialogruteknappen**
+**CSS-egenskaper för dialogruteknappbehållaren**
 
 <table id="table_C34906888A8145C7A61E503DFC6B08A9"> 
  <tbody> 
@@ -387,7 +387,7 @@ Knappen Avbryt styrs med följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen.
+>Den här knappen stöder attributväljaren `state` som kan användas för att tillämpa olika skal på olika knapplägen.
 
 Knappen Skicka till utskrift styrs med följande CSS-klassväljare:
 
@@ -420,7 +420,7 @@ Knappen Skicka till utskrift styrs med följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen.
+>Den här knappen stöder attributväljaren `state` som kan användas för att tillämpa olika skal på olika knapplägen.
 
 Båda knapparna har dessutom en gemensam CSS-klass som kan innehålla CSS-inställningar som är desamma för andra dialogruteknappar:
 
@@ -453,13 +453,13 @@ Båda knapparna har dessutom en gemensam CSS-klass som kan innehålla CSS-instä
    <td colname="col2"> <p>Skugga. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal-höger </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal-right </span> </p> </td> 
    <td colname="col2"> <p>Högerknappsmarginal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Knappens tips kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
+Knappens tips kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - Om du vill ställa in en dialogruteslut med knappen Avbryt 64 x 34 och knappen Skicka till utskrift 96 x 34, med textfärgen och bakgrundsfärgen olika för varje knappläge:
 
@@ -667,7 +667,7 @@ Den här klassen är inte lämplig för att styra etikettens storlek eller place
  </tbody> 
 </table>
 
-Dialogruteetiketter kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
+Dialogruteetiketter kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - om du vill ställa in alla etiketter till grått, fetstil med ett teckensnitt på nio pixlar:
 
@@ -736,7 +736,7 @@ Avståndet mellan alternativknappen och bildtexten styrs med följande CSS-klass
 <table id="table_BDD03247E594416D93CDF8604DCE937B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal-höger </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal-right </span> </p> </td> 
    <td colname="col2"> <p> Avstånd mellan alternativknappen och bildtexten. </p> </td> 
   </tr> 
  </tbody> 
@@ -792,7 +792,7 @@ Den vågräta avgränsaren mellan sidintervallmarkeringen och utskriftslayoutavs
 <table id="table_AB42F1DC92BB4946868F0A9FE86ABAA6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kant </span> </p> </td> 
    <td colname="col2"> <p> Kant runt avgränsare. </p> </td> 
   </tr> 
   <tr> 

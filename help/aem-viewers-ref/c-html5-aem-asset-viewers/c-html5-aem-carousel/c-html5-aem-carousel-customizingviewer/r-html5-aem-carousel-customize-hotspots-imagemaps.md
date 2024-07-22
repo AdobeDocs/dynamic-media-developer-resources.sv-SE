@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 70517201-9d59-4d9c-986d-a6e9655b7956
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
@@ -84,15 +84,15 @@ Utseendet på bildschemaområdet styrs med följande CSS-klassväljare:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background </span> </p> </td> 
-   <td colname="col2"> <p>Fyllningsfärg för bildschemaområde. </p> <p>Ange den här färgen i <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span>, eller <span class="codeph"> RGBA(R,G,B,A) </span> format. </p> </td> 
+   <td colname="col2"> <p>Fyllningsfärg för bildschemaområde. </p> <p>Ange den här färgen i formaten <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> eller <span class="codeph"> RGBA(R,G,B,A) </span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>Fyllningsfärg för bildschemaområde. </p> <p>Ange den här färgen i <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span>, eller <span class="codeph"> RGBA(R,G,B,A) </span> format. </p> </td> 
+   <td colname="col2"> <p>Fyllningsfärg för bildschemaområde. </p> <p>Ange den här färgen i formaten <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> eller <span class="codeph"> RGBA(R,G,B,A) </span> . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
-   <td colname="col2"> <p> Områdesformat för bildschemat. Ska anges som <span class="codeph"> width </span> <span class="codeph"> enfärgad </span>", var <span class="codeph"> width </span> uttrycks i pixlar, och <span class="codeph"> färg </span> anges som <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span>, eller <span class="codeph"> RGBA(R,G,B,A) </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kant </span> </p> </td> 
+   <td colname="col2"> <p> Områdesformat för bildschemat. Ska anges som <span class="codeph"> width </span> <span class="codeph"> solid color </span>, där <span class="codeph"> width </span> uttrycks i pixlar och <span class="codeph"> color </span> anges som <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> eller <span class="codeph"> RGBA(R,G,B,A) </span> . </p> </td> 
   </tr> 
  </tbody> 
 </table>

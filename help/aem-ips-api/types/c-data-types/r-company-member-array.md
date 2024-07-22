@@ -20,4 +20,4 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| objekt | `types:CompanyMember` |  |
+| objekt | `types:CompanyMember` | |

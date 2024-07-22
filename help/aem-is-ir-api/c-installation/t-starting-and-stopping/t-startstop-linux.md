@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Det finns två alternativ för att starta eller stoppa Image Serving i Linux®.
 
-* Skriptet för att verifiera status för Image Serving, eller för att starta och stoppa Image Serving, finns i [!DNL ImageServing/bin] mapp:
+* Skriptet för att verifiera status för Image Serving, eller för att starta och stoppa Image Serving, finns i mappen [!DNL ImageServing/bin]:
 
-   `ImageServing.sh {start|stop|restart|status}`
+  `ImageServing.sh {start|stop|restart|status}`
 * Följande alternativ bör vara välbekant för systemadministratörer:
 
-   `/sbin/service ImageServing {start|stop|status}`
+  `/sbin/service ImageServing {start|stop|status}`

@@ -19,8 +19,8 @@ ht-degree: 0%
 <table id="table_1D425B7685D448459CD3FE8D683C813C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> dela|heldragen</span> </p> </td> 
-   <td colname="col2"> <p>Ange till <span class="codeph"> dela</span> så att visningsprogrammet kan visa uppslag med dubbla sidor som en separat sida när de används på en mobil enhet i stående orientering. Ange till <span class="codeph"> solid</span> om du alltid vill visa dubbelsidiga uppslag som heldragna bilder, oavsett enhetens orientering. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> split|solid</span> </p> </td> 
+   <td colname="col2"> <p>Ange <span class="codeph"> split</span> om du vill att visningsprogrammet ska kunna visa uppslag med dubbla sidor som en separat sida när det används på en mobil enhet i stående orientering. Ange <span class="codeph"> heldragen </span> om du alltid vill visa dubbelsidiga uppslag som heldragen bild, oavsett enhetens orientering. </p> </td> 
   </tr> 
  </tbody> 
 </table>

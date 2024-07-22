@@ -33,7 +33,7 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-|  |  |  |  |
+|   |  |  |  |
 
 ## Exempel {#section-ce47a4b6e062423fa55ed3a0fd26d7ff}
 

@@ -20,7 +20,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo </span> </span> </p> </td> 
-   <td colname="col2"> <p> { <span class="codeph"> Objekt </span>} JSON-objekt med lokaliseringsdata. </p> <p>Se <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-namespace.md#concept-679bfabb3e3e4c12a285c4e9c4144153" format="dita" scope="local"> Namnutrymme för visningsprogramsDK </a> för mer information. </p> <p>Se <i>Användarhandbok för Viewer SDK</i> och exemplet innehåller mer information om objektets innehåll. Valfritt. </p> </td> 
+   <td colname="col2"> <p> JSON-objektet <span class="codeph"> Object </span> med lokaliseringsdata. </p> <p>Mer information finns i <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-namespace.md#concept-679bfabb3e3e4c12a285c4e9c4144153" format="dita" scope="local"> SDK-namnområde för visningsprogram </a>. </p> <p>Mer information om objektets innehåll finns i <i>användarhandboken för SDK för visningsprogrammet</i> och i exemplet. Valfritt. </p> </td> 
   </tr> 
  </tbody> 
 </table>

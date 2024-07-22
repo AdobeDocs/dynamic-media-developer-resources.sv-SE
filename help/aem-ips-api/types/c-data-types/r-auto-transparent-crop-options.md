@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 351f63a4-cc1b-4db9-93df-c21acd02e12a
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '49'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,8 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> tolerans</span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:dubbel</span> </td> 
+   <td colname="col1"> <span class="codeph"> tolerans </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
    <td colname="col3">Tar bort tomt utrymme från bildkanter baserat på genomskinlighet. Använder: 
     <ul id="ul_FE5423B857AE43FCBA7A9AEA76C754CC">
      <li id="li_01E3BD0AB8DA4C408B47CB02B269404A">0 om du vill matcha färgerna exakt. </li>

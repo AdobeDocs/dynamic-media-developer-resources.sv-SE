@@ -1,6 +1,6 @@
 ---
 title: IccBlackPointCompensation
-description: Svartpunktskompensation. Anger om svartpunktskompensation ska användas för färgkonverteringar när ingen explicit markering görs med icc=.
+description: Blackpoint-kompensation. Anger om svartpunktskompensation ska användas för färgkonverteringar när ingen explicit markering görs med icc=.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # IccBlackPointCompensation{#iccblackpointcompensation}
 
-Svartpunktskompensation. Anger om svartpunktskompensation ska användas för färgkonverteringar när ingen explicit markering görs med `icc=`.
+Blackpoint-kompensation. Anger om svartpunktskompensation ska användas för färgkonverteringar när ingen explicit markering görs med `icc=`.
 
 ## Egenskaper {#section-21fd20b16bea4a22aecab0ae8b81e332}
 
-Flagga. Ange till `0` för att inaktivera eller `1` för att möjliggöra svartpunktskompensation.
+Flagga. Ange `0` för att inaktivera eller till `1` för att aktivera svartpunktskompensation.
 
 ## Standard {#section-5bc6703a43a149f18af88b70baae568f}
 
-Ärvs från `default::IccBlackPointCompensation` om den inte är definierad eller om den är tom.
+Ärvs från `default::IccBlackPointCompensation` om inte definierad eller om tom.
 
 ## Se även {#section-90fcbddf02c54846aa09f85fabc7b4d4}
 

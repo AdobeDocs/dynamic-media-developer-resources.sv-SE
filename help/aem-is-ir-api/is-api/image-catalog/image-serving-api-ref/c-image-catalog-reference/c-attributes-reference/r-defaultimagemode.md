@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: b30ce72f-7c74-407c-bd4a-042b84c469e9
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,15 @@ Standardbildläge. Väljer hur standardbilden ska användas när det inte går a
 
 ## Egenskaper {#section-7fa8acb63540490d9f5186231b5e77c3}
 
-Enum. &#39;0&#39; om du vill ersätta hela den sammansatta bilden, även om den saknade bilden bara är ett av flera lager, &#39;1&#39; om du vill ersätta varje lagrets källbild som saknas med standardbilden och returnera den sammansatta bilden som vanligt.
+Enum. &#39;0&#39; om du vill ersätta hela den sammansatta bilden, även om den saknade bilden bara är ett av flera lager; &#39;1&#39; om du vill ersätta varje saknad lagerkällbild med standardbilden och returnera den sammansatta bilden som vanligt.
 
 ## Begränsningar {#section-04cb0d50e8914564a8d226d0d4663c8b}
 
-Bildservning återgår till `DefaultImageMode=0` vid bildåtergivning, FXG eller `req=set` begäranden misslyckas.
+Bildservern återgår till `DefaultImageMode=0` när en kapslad bildåtergivning, FXG eller `req=set` misslyckas.
 
 ## Standard {#section-9e318524a2a5496386901286748c7ee7}
 
-Ärvs från `default::DefaultImage` om den inte är definierad eller om den är tom.
+Ärvs från `default::DefaultImage` om inte definierad eller om tom.
 
 ## Se även {#section-fddce1d27a0c43fb8b4d891f76ac5a52}
 

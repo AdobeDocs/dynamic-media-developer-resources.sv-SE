@@ -24,4 +24,4 @@ Syntax
 |---|---|---|
 | value | `xsd:string` | Märkordsvärde som uppdateringen misslyckades för. |
 | kod | `xsd:int` | Felkodnummer. |
-| orsak | `xsd:string` | Felmeddelande (oformaterad text). |
+| orsak | `xsd:string` | Felmeddelande (normal text). |

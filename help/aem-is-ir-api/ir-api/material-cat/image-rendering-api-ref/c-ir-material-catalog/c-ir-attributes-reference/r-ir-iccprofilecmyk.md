@@ -18,11 +18,11 @@ Standardfärgrymd för CMYK. Anger namnet på ICC-färgprofilen som ska använda
 
 ## Egenskaper {#section-849678b272954bdcb236f49aa54f1609}
 
-Textsträng. Om det anges måste det vara ett giltigt `icc::Name` värde från ICC-profilmappningen för antingen den här bildkatalogen eller standardkatalogen, eller en filsökväg som är relativ till `attribute::RootPath`. Den ICC-profil som det hänvisas till måste vara en CMYK-profil.
+Textsträng. Om det anges måste det vara ett giltigt `icc::Name`-värde från ICC-profilmappningen för antingen den här bildkatalogen eller standardkatalogen, eller en filsökväg som är relativ till `attribute::RootPath`. Den ICC-profil som det hänvisas till måste vara en CMYK-profil.
 
 ## Standard {#section-55026b7454af4d868bcb47f7743c9c5b}
 
-Ärvs från `default::IccProfileCmyk` om den inte är definierad eller om den är tom.
+Ärvs från `default::IccProfileCmyk` om inte definierad eller om tom.
 
 ## Se även {#section-89feb193693b43dc99a2107658d57154}
 

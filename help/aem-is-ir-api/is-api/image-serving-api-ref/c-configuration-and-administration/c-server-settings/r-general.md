@@ -22,11 +22,11 @@ Anger huvudavlyssningsporten för [!DNL Platform Server]. Den här porten använ
 
 ## IS::CacheServerUrl - URL för cachelagring av tjänstens rot {#section-bcca227a1f91453b834db4ea050968e2}
 
-Anger HTTP-rotsökvägen som tillåter att Image Server får åtkomst till cachelagringstjänsten. Måste anges till [!DNL http://localhost:TC::PsPort /is/cache/secondary], med matchande portnummer `TC::PsPort`.
+Anger HTTP-rotsökvägen som tillåter att Image Server får åtkomst till cachelagringstjänsten. Måste anges till [!DNL http://localhost:TC::PsPort /is/cache/secondary], med portnumret som matchar `TC::PsPort`.
 
 ## IS::RemoteUrlDefaultExpiration - standard-TTL för fjärr-Image Source {#section-e4c31228b459492cacd2f482d9575f71}
 
-TTL för cachelagrade bilder som hämtats via HTTP från en fjärrkälla med hjälp av `src={…}` konstruera. Används endast när fjärrservern inte har något förfallohuvud i HTTP-svaret. Heltalsvärde i sekunder.
+TTL för cachelagrade bilder som hämtats via HTTP från en fjärrkälla med hjälp av `src={…}`-konstruktionen. Används endast när fjärrservern inte har något förfallohuvud i HTTP-svaret. Heltalsvärde i sekunder.
 
 ## IS::RemoteUrlTimeout - fjärrtimeout för Image Source {#section-437646c479cc4bea81dae42100a3c50a}
 
@@ -34,7 +34,7 @@ Den tid som Image Server väntar på att en fjärrserver ska leverera den begär
 
 ## PS::allowDefaultCatalogRequests - Aktivera/inaktivera standardkatalogbegäranden {#section-484e442a115a49b4ac269d1718b351e1}
 
-Ange som false om du inte vill tillåta begäranden som inte innehåller något giltigt katalog-ID i sökvägen. Standard är `true`. När inställt på `false`returneras ett fel för begäranden utan katalog-ID.
+Ange som false om du inte vill tillåta begäranden som inte innehåller något giltigt katalog-ID i sökvägen. Standardvärdet är `true`. När värdet är `false` returneras ett fel för begäranden utan katalog-ID.
 
 >[!NOTE]
 >
@@ -42,4 +42,4 @@ Ange som false om du inte vill tillåta begäranden som inte innehåller något 
 
 ## PS::saveToFile.saveTimeout - Tidsgräns för filsparande {#section-d22afd8ad86144b28684ed95a59db40e}
 
-Standardvärde för timeout för `req=saveToFile` när `timeout=`har inte angetts. `msec`. Ett fel returneras om sparåtgärden inte slutförs inom den angivna tiden.
+Standardvärde för timeout för `req=saveToFile` när `timeout=`inte har angetts. `msec`. Ett fel returneras om sparåtgärden inte slutförs inom den angivna tiden.

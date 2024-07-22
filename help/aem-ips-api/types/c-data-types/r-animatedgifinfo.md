@@ -31,22 +31,22 @@ Syntax
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> [!DNL originalPath]</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:sträng</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sökväg till filen GIF. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> [!DNL originalFile]</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:sträng</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Filnamn. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> [!DNL optimizedPath]</span></span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:sträng</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sökväg till den IPS-optimerade bildfilen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> [!DNL optimizedFile]</span></span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:sträng</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Den IPS-optimerade bildfilen. </p> </td> 
   </tr> 
   <tr> 

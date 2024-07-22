@@ -1,7 +1,7 @@
 ---
 description: Dessa kommandon gäller för källbilder som används antingen i enkla begäranden eller i bildlager, samt för masker som är kopplade till heltäckande färglager.
 solution: Experience Manager
-title: Källbildsåtgärder
+title: Source bildåtgärder
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2024e193-3c46-4c51-971d-c7d335657ac8
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# Källbildsåtgärder{#source-image-operations}
+# Source bildåtgärder{#source-image-operations}
 
 Dessa kommandon gäller för källbilder som används antingen i enkla begäranden eller i bildlager, samt för masker som är kopplade till heltäckande färglager.
 
@@ -22,7 +22,7 @@ Dessa kommandon gäller för källbilder som används antingen i enkla begärand
   <td class="stentry"> <p>Anger källbildens ankarpunkt. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab" type="reference" format="dita" scope="local"> beskära</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab" type="reference" format="dita" scope="local"> beskär</a> </p></td> 
   <td class="stentry"> <p>Beskär eller utökar källbilden. </p></td> 
  </tr> 
  <tr class="strow"> 

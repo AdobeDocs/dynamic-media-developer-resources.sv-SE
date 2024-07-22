@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: c62cb98f-d87f-4273-bc51-30e4845d6540
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '40'
+source-wordcount: '42'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,6 @@ Syntax
 
 ## Ändrade konstanter {#section-559927ae41e64ac285ac3d907ce3afb6}
 
-**Tillgångstyper**
+**Resurstyper**
 
-* Tillagd `Zip`.
+* `Zip` har lagts till.

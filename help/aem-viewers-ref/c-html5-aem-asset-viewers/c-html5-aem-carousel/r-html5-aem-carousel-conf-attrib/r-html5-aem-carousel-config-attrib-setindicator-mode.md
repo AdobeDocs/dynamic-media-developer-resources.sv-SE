@@ -19,8 +19,8 @@ ht-degree: 0%
 <table id="table_0BEA0B5FFDF64E5594B534B2A87A6D88"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> numeric|prickad</span> </p> </td> 
-   <td colname="col2"> <p> Konfigurerar återgivningsformatet för den angivna indikatorn. </p> <p>När inställt på <span class="codeph"> prickad </span>återger komponenten identiska indikatorer för alla sidor. </p> <p>När inställt på <span class="codeph"> numeric</span> Ett 1-baserat sidnummer placeras inuti varje indikatorelement. </p> <p>The <span class="codeph"> numeric</span> Funktionsläget stöds inte på enheter med pekrörelser. I stället använder komponenten <span class="codeph"> prickad</span> på sådana enheter. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> numerisk|prickad</span> </p> </td> 
+   <td colname="col2"> <p> Konfigurerar återgivningsformatet för den angivna indikatorn. </p> <p>När den är inställd på <span class="codeph"> prickade </span> återges identiska indikatorer för alla sidor. </p> <p>När värdet är <span class="codeph"> numeric</span> placeras ett 1-baserat sidnummer inuti varje indikatorelement. </p> <p>Åtgärdsläget <span class="codeph"> numeric</span> stöds inte på enheter som har pekrörelser. I stället använder komponenten <span class="codeph"> prickade </span> på sådana enheter. </p> </td> 
   </tr> 
  </tbody> 
 </table>

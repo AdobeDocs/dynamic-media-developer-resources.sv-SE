@@ -25,4 +25,4 @@ Syntax
 | assetHandle | `xsd:string` | Resursen vars metadata inte kunde anges. |
 | fieldHandle | `xsd:string` | Referensen till metadatafältet vars värde inte kunde anges. |
 | kod | `xsd:int` | Felkod. |
-| orsak | `xsd:string` | Felbeskrivning (oformaterad text). |
+| orsak | `xsd:string` | Felbeskrivning (normal text). |

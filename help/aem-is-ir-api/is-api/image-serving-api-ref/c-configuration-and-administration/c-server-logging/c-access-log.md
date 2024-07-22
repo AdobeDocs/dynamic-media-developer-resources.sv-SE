@@ -1,5 +1,5 @@
 ---
-description: Det här är den primära loggen som håller reda på alla HTTP-begäranden som gjorts till [!DNL Platform Server]. Om Bildåtergivning är aktiverat skrivs dess åtkomstloggdata till samma fil.
+description: Det här är den primära loggen som håller reda på alla HTTP-begäranden som gjorts till  [!DNL Platform Server]. Om Bildåtergivning är aktiverat skrivs dess åtkomstloggdata till samma fil.
 solution: Experience Manager
 title: Åtkomstlogg
 feature: Dynamic Media Classic,SDK/API
@@ -20,6 +20,6 @@ Det här är den primära loggen som håller reda på alla HTTP-begäranden som 
 
 >[!NOTE]
 >
->Utöver klienttrafik för Image Serving ( [!DNL /is/image/*]) och bildåtergivning ( [!DNL /ir/render/*]) kan åtkomstloggen innehålla viss intern trafik: åtkomst till [!DNL Platform Server] katalogsystem ( [!DNL /is-catalog/*]), cachedelning och omdirigeringsbegäranden för fel ( [!DNL /is/cache/*]), åtkomst till andra paket som distribueras till [!DNL Platform Server], t.ex. Dynamic Media Viewer ( [!DNL /is-viewers/*]), statisk trafik och förfrågningar om statiskt innehåll från [!DNL Platform Server] (till exempel [!DNL /is-docs/*]).
+>Utöver klienttrafik för Image Serving ( [!DNL /is/image/*]) och Image Rendering ( [!DNL /ir/render/*]) kan åtkomstloggen innehålla viss intern trafik: åtkomst till [!DNL Platform Server] katalogsystemet ( [!DNL /is-catalog/*]), cachedelning och begäran om felomdirigering ( [!DNL /is/cache/*]), åtkomst till andra paket som distribuerats till [!DNL Platform Server], t.ex. Dynamic Media Viewer ( [!DNL /is-viewers/*]), statisk trafik och statiskt innehåll som hanteras av [!DNL Platform Server] (se) till exempel [!DNL /is-docs/*]).
 
-Förfrågningar med [!DNL /is-catalog] och [!DNL /is/cache] rotsökvägar ska alltid uteslutas vid klienttrafikanalys.
+Begäranden med [!DNL /is-catalog]- och [!DNL /is/cache]-rotsökvägar ska alltid exkluderas från alla klienttrafikanalyser.

@@ -1,7 +1,7 @@
 ---
-description: Returnerar en array med Photoshop sökvägsnamn för den angivna bilden.
+description: Returnerar en array med Photoshop-sökvägsnamn för den angivna bilden.
 solution: Experience Manager
-title: getPhotoshopPathNames
+title: getPhotoshopPathName
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 11d4c0d0-a3a3-4324-a4a6-1dd7b7e673da
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# getPhotoshopPathNames{#getphotoshoppathnames}
+# getPhotoshopPathName{#getphotoshoppathnames}
 
-Returnerar en array med Photoshop sökvägsnamn för den angivna bilden.
+Returnerar en array med Photoshop-sökvägsnamn för den angivna bilden.
 
 Syntax
 

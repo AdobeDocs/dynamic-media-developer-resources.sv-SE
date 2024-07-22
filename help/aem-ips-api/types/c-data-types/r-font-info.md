@@ -23,5 +23,5 @@ Syntax
 | Namn | Typ | Beskrivning |
 |---|---|---|
 | originalPath | `xsd:string` | Teckensnittssökväg. |
-| originalFile | `xsd:string` | Teckensnittsnamn. |
+| originalFile | `xsd:string` | Typsnittsnamn. |
 | fileSize | `xsd:int` | Teckenstorlek. |

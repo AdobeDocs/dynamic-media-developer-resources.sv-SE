@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Tar bort företagsanvändare från en viss grupp.
 
-**Skillnader mellan kommandot Ta bort**
+**Skillnader mellan Ta bort kommandon**
 
 * `removeGroupMembers`: Tar bort flera användare från en grupp.
 * `removeGroupMembership`: Tar bort en enskild användare från en array med grupper.
@@ -34,7 +34,7 @@ Tar bort företagsanvändare från en viss grupp.
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Handtaget till företaget med de användare som du vill arbeta med. |
-| groupHandle | `xsd:string` | Ja | Gruppreferens. |
+| groupHandle | `xsd:string` | Ja | Grupphandtag. |
 | userHandleArray | `types:HandleArray` | Ja | En array med handtag för användare vars gruppmedlemskap du vill ta bort. |
 
 **Utdata (removeGroupMembersParam)**
@@ -43,7 +43,7 @@ IPS API returnerar inget svar för den här åtgärden.
 
 ## Exempel {#section-9eedac852cea46ec80de6a6928bf97ac}
 
-Detta kodexempel tar bort en användare från det angivna företaget. Ta bort flera användare från en grupp med användarhandtagsarrayen.
+Detta kodexempel tar bort en användare från det angivna företaget. Ta bort flera användare från en grupp med användarhandtagsmatrisen.
 
 **Begäran**
 

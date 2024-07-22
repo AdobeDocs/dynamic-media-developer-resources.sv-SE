@@ -24,13 +24,13 @@ Bädda in XMP metadata. Anger om XMP metadata ska inkluderas i svarsbilden.
 
 ## Egenskaper {#section-27024c4272f44d9a8c264a0629193af2}
 
-Begär attribut. Ignoreras om källbilden inte innehåller XMP data. Endast XMP data från källbilden av `layer=0` bearbetas. XMP data från andra lagerbilder ignoreras.
+Begär attribut. Ignoreras om källbilden inte innehåller XMP data. Endast XMP data från källbilden för `layer=0` bearbetas. XMP data från andra lagerbilder ignoreras.
 
-Ignoreras om utdatabildformatet inte har stöd för XMP. Se beskrivningen av `fmt=` för en lista över de utdataformat som stöder XMP.
+Ignoreras om utdatabildformatet inte har stöd för XMP. Se beskrivningen av `fmt=` för en lista över utdatabildformat som stöder XMP.
 
 ## Standard {#section-aedbedd04d664ba184b2cfe35644b960}
 
-`xmpEmbed=0`, utan inbäddning av banor i utdatabilder.
+`xmpEmbed=0`, om du inte vill bädda in sökvägar i utdatabilder.
 
 ## Se även {#section-0b5b7d0a19564101ba7102e667e29828}
 

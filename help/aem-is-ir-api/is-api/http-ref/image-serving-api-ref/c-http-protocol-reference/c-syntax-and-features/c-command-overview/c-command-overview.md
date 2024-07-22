@@ -19,7 +19,7 @@ De kommandon som stöds av Image Serving listas nedan, grupperade efter grovkate
 * [Begär kommandon](r-request-commands-and-attributes.md)
 * [Visa kommandon](r-view-commands-and-attributes.md)
 * [Vanliga åtgärder](r-common-operations-and-attributes.md)
-* [Källbildsåtgärder](r-source-image-operations-and-attributes.md)
+* [Source bildåtgärder](r-source-image-operations-and-attributes.md)
 * [Gemensamma lagerkommandon](r-common-layer-commands-and-attributes.md)
 * [Bildlagerkommandon](r-image-layer-commands-and-attributes.md)
 * [Kommandon för textlager](r-text-layer-commands-and-attributes.md)

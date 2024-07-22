@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 7040edf2-4356-4493-b886-8c5694f5863a
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Avståndet mellan miniatyrbilder av färgrutor styrs med CSS-klassväljaren:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> marginal </span> </p> </td> 
-   <td colname="col2"> <p> Storleken på den vågräta och lodräta marginalen runt varje miniatyrbild. Det faktiska mellanrummet för miniatyrbilder är lika med summan av vänster och höger marginaluppsättning för <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col2"> <p> Storleken på den vågräta och lodräta marginalen runt varje miniatyrbild. Det faktiska mellanrummet för miniatyrbilder är lika med summan av vänster och höger marginaluppsättning för <span class="codeph"> .s7miniatyrcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -91,7 +91,7 @@ Exempel - om du vill ange mellanrum som är tio pixlar både lodrätt och vågr�
 }
 ```
 
-**CSS-egenskaper för miniatyrbildsfärgrutor**
+**CSS-egenskaper för miniatyrbildsrutorna**
 
 Utseendet på enskilda miniatyrbilder styrs med följande CSS-klassväljare:
 
@@ -116,7 +116,7 @@ Utseendet på enskilda miniatyrbilder styrs med följande CSS-klassväljare:
    <td colname="col2"> <p>Höjden på miniatyrfärgrutorna. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kant </span> </p> </td> 
    <td colname="col2"> <p>Kanten på miniatyrfärgrutorna. </p> </td> 
   </tr> 
  </tbody> 
@@ -124,7 +124,7 @@ Utseendet på enskilda miniatyrbilder styrs med följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Miniatyrbilden har stöd för `state` attributväljaren, som används för att tillämpa olika skal på olika miniatyrlägen. Särskilt gäller följande: `state="selected"` motsvarar miniatyrbilden för den bild som visas i huvudvyn, `state="default"` motsvarar resten av miniatyrbilderna, och `state="over"` används vid hovring av musen.
+>Miniatyrbilden stöder attributväljaren `state`, som används för att tillämpa olika skal på olika miniatyrlägen. I synnerhet motsvarar `state="selected"` miniatyrbilden för den bild som visas i huvudvyn, `state="default"` motsvarar resten av miniatyrbilderna och `state="over"` används vid hovring med musen.
 
 Exempel - Om du vill ställa in miniatyrbilder som är 56 x 56 pixlar har du en ljusgrå standardkant och en mörkgrå markerad kant:
 
@@ -150,7 +150,7 @@ Utseendet på vänster och höger rullningsknapp styrs av följande CSS-klassvä
 .s7flyoutviewer .s7swatches .s7scrollrightbutton
 ```
 
-Det går inte att placera rullningsknappar med CSS `top`, `left`, `bottom`och `right` egenskaper. I stället placerar visningsprogramlogiken dem automatiskt.
+Det går inte att placera rullningsknappar med CSS-egenskaperna `top`, `left`, `bottom` och `right`. I stället placerar visningsprogramlogiken dem automatiskt.
 
 <table id="table_F957367566C542829E2F6D296F9DAAC5"> 
  <thead> 
@@ -181,9 +181,9 @@ Det går inte att placera rullningsknappar med CSS `top`, `left`, `bottom`och `r
 
 >[!NOTE]
 >
->Den här knappen har stöd för `state` attributväljare, som används för att tillämpa olika skal på knapplägen `up`, `down`, `over`och `disabled`.
+>Den här knappen stöder attributväljaren `state` som används för att tillämpa olika skal på knapplägena `up`, `down`, `over` och `disabled`.
 
-Knappens tips kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) för mer information.
+Knappens tips kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27).
 
 Exempel - för att ställa in rullningsknappar som är 56 x 56 pixlar och har olika teckningar för varje läge:
 

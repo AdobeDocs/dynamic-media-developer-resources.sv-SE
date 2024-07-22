@@ -29,7 +29,7 @@ Syntax
 
 >[!NOTE]
 >
->Användaren måste ha läs- och borttagningsåtkomst till resursen.
+>Användaren måste ha behörighet att läsa och ta bort resursen.
 
 ## Parametrar {#section-0eed164e278b456fbdfb7a50727a0416}
 
@@ -47,19 +47,19 @@ Syntax
  <tbody> 
   <tr> 
    <td colname="col1"> <p>companyHandle </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:sträng</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Referensen till företaget som mappen tillhör. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>assetHandle </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:sträng</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Referensen till resursen som ska tas bort. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>metadataDelete </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:sträng</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Metadata som ska tas bort från resursen. </p> </td> 
   </tr> 

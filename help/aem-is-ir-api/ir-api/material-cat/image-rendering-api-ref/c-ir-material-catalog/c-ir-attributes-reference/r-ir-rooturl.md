@@ -1,6 +1,6 @@
 ---
-title: RootUrl
-description: Rot-URL för relativa bild-URL:er. Anger rot-URL:en för relativa bild-URL:er.
+title: RootURL
+description: URL för relativa bilder för URL:er. Anger rot-URL för relativa bild-URL:er.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# RootUrl{#rooturl}
+# RootURL{#rooturl}
 
-Rot-URL för relativa bild-URL:er. Anger rot-URL:en för relativa bild-URL:er. The`attribute::RootUrl` används i stället för `attribute::RootPath` när `src=` värdet omsluts av { klammerparenteser }.
+URL för relativa bilder för URL:er. Anger rot-URL för relativa bild-URL:er. `attribute::RootUrl` används i stället för `attribute::RootPath` när ett `src=`-värde omges av { curly braces }.
 
 ## Egenskaper {#section-69cd0f71ea614770a8778c745d23197a}
 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: c2cd37de-f81e-4b08-9a3e-ff05a72c363c
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Skalförändra bilden. Skalar en lagerkällbild utifrån faktor i förhållande 
 
 <table id="simpletable_AC596A87494A4213A7D1C76612E8F2FD"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> faktor</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname"> faktor </span> </p> </td> 
   <td class="stentry"> <p>Skalfaktor (verklig, större än 0,0). </p></td> 
  </tr> 
 </table>
@@ -29,11 +29,11 @@ Ingen skalförändring används när `scale=1`. *`factor`* är mindre än 1.0 ne
 
 ## Egenskaper {#section-3c7eb45527394fe79b1ddba6c1fcca09}
 
-Källbild/maskattribut. Ignoreras om `size=` anges också för det aktuella lagret. Åsidosättningar `res=`. Gäller för lager 0 om det anges för `layer=comp`. Ignoreras om lagret inte är associerat med en bild eller mask.
+Source image/mask-attribut. Ignoreras om `size=` också har angetts för det aktuella lagret. Åsidosätter `res=`. Gäller för lager 0 om det anges för `layer=comp`. Ignoreras om lagret inte är associerat med en bild eller mask.
 
 ## Standard {#section-26e64904362342a5a62c5f6598f330c4}
 
-Om inget anges, `res=` används. If `res=` anges inte används bilden utan skalning.
+Om inget anges används `res=`. Om `res=` inte anges används bilden utan skalning.
 
 ## Se även {#section-61a11f30d37341d58c10df759bfff951}
 

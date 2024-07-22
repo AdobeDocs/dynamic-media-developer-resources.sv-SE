@@ -37,7 +37,7 @@ Materialattribut.
 
 ## Exempel {#section-47e4811882574441a4d517e42a35f352}
 
-Efter lite experimenterande med bildredigering är det fastställt att USM (Unsharp-masking) ger rätt skärpa för det angivna programmet och materialet. Strängen för renderingsinställningar som konfigurerar USM kopieras till `rs=` kommando som ska användas med detta material:
+Efter lite experimenterande med bildredigering är det fastställt att USM (Unsharp-masking) ger rätt skärpa för det angivna programmet och materialet. Strängen för renderingsinställningar som konfigurerar USM kopieras till kommandot `rs=` som ska användas med det här materialet:
 
 `…&rs=U2V20W50X2&…`
 

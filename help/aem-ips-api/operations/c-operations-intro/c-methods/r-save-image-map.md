@@ -47,45 +47,45 @@ Syntax
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Handtaget till företaget med den bildschema som du vill spara. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Handtaget till den bildresurs som bildschemat tillhör. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageMapHandle </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> Handtaget till bildschemat. Skapar ett bildschema om NULL. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Namnet på det bildschema som skapas eller sparas. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> shapeType </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Val av regionsform. </td> 
+   <td colname="col4"> Val av region. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> region </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> En kommaavgränsad lista med punkter som definierar regionen. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> åtgärd </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> action </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> <p>The <span class="codeph"> href </span> det värde som är associerat med bildschemat enligt IPS-gränssnittet. </p> <p>För att få <span class="codeph"> href </span> klickar du på bilden i IPS-gränssnittet, kopierar och klistrar in URL-adressen i det här elementet och formaterar sedan IPS-URL:en som en korrekt URL-adress. Till exempel: <span class="codeph"> &amp; </span> blir <span class="codeph"> &amp;amp; </span>. </p> </td> 
+   <td colname="col4"> <p>Värdet <span class="codeph"> href </span> som är associerat med bildschemat enligt IPS-gränssnittet. </p> <p>Om du vill hämta värdet <span class="codeph"> href </span> klickar du på bilden i IPS-gränssnittet, kopierar och klistrar in URL:en i det här elementet och formaterar sedan IPS-URL:en som en korrekt URL. Till exempel blir <span class="codeph"> &amp; </span> <span class="codeph"> &amp;amp; </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> position </span> </span> </td> 
@@ -94,7 +94,7 @@ Syntax
    <td colname="col4"> Ordningen i listan med bildscheman (Z-axeln). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> aktiverad </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> enabled </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolesk </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"></td> 

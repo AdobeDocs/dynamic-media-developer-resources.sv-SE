@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Tillgångstyper och antal för ett företag.
 
-Resurstyper omfattar [!DNL ViewerSWf], [!DNL PDF], [!DNL Cabinet]och andra.
+Resurstyper är bland annat [!DNL ViewerSWf], [!DNL PDF], [!DNL Cabinet].
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
 | assetType | `xsd:string` | Typ av tillgång som är associerad med antal. |
-| antal | `sd:int` | Antal `assetType` tillgångar i företaget. |
+| antal | `sd:int` | Antal `assetType` resurser i företaget. |

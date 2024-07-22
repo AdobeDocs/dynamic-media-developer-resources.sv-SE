@@ -29,7 +29,7 @@ Syntax
 
 >[!NOTE]
 >
->Användaren måste ha läs- och borttagningsåtkomst till resursen.
+>Användaren måste ha behörighet att läsa och ta bort resursen.
 
 ## Parametrar {#section-0eed164e278b456fbdfb7a50727a0416}
 

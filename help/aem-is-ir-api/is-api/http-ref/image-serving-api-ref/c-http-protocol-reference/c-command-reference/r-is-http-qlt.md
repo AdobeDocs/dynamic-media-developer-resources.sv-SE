@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: c2a611a8-f331-4e01-a262-34340ce67b21
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 JPEG-kvalitet. Anger kodningsattribut för JPEG för att styra komprimeringsnivån. Detta varierar i sin tur filstorleken (mängden svarsdata) och, indirekt, den resulterande bildens visuella kvalitet.
 
-` qlt= *`kvalitet`*[, *`kroma`*]`
+` qlt= *`quality`*[, *`chroma`*]`
 
 <table id="simpletable_FB8090D4BEBF42FD83A64A7AAB6D7F92"> 
  <tr class="strow"> 
@@ -29,13 +29,13 @@ JPEG-kvalitet. Anger kodningsattribut för JPEG för att styra komprimeringsniv�
  </tr> 
 </table>
 
-Högre *`quality`* värden ökar filstorleken och kvaliteten, lägre värden minskar filstorleken och minskar den upplevda bildkvaliteten. Värden över 90 genererar ofta bilder som inte kan särskiljas från den okomprimerade bilden.
+Högre *`quality`*-värden ökar filstorleken och kvaliteten, lägre värden minskar filstorleken och minskar den upplevda bildkvaliteten. Värden över 90 genererar ofta bilder som inte kan särskiljas från den okomprimerade bilden.
 
-Ange *`chroma`* flagga för att inaktivera nedsampling av kromaticitet i RGB som används av typiska JPEG-kodare. Detta kan öka den upplevda skärpan på kanterna i en bild när kanten definieras av en nyansändring i stället för intensitet. Om du anger den här flaggan kan filstorleken öka något. Experimentera med den här inställningen om texten ser något suddig ut.
+Ställ in flaggan *`chroma`* för att inaktivera nedsampling av kromaticitet i RGB som används av typiska JPEG-kodare. Detta kan öka den upplevda skärpan på kanterna i en bild när kanten definieras av en nyansändring i stället för intensitet. Om du anger den här flaggan kan filstorleken öka något. Experimentera med den här inställningen om texten ser något suddig ut.
 
 ## Egenskaper {#section-925a44cbdc9042db8d4eb149cd073d21}
 
-Begär attribut. Används oavsett aktuell lagerinställning. Ignoreras om utdatabildens filformat inte stöder kodning i JPEG. Se beskrivningen av `fmt=` för information om vilka utdataformat som stöds `qlt=`.
+Begär attribut. Används oavsett aktuell lagerinställning. Ignoreras om utdatabildens filformat inte stöder kodning i JPEG. Läs beskrivningen av `fmt=` om du vill ha information om vilka utdatabildformat som stöder `qlt=`.
 
 *`chroma`* ignoreras om utdatapixeltypen är CMYK eller grå.
 

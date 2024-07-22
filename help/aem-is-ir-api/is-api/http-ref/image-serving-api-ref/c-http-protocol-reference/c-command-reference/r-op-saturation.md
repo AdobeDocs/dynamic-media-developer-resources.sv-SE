@@ -25,7 +25,7 @@ Justera mättnad. Ändrar mättnaden för varje synlig pixel i lagret eller den 
  </tr> 
 </table>
 
-`op_saturation=-100` tunnar ut bilden helt.
+`op_saturation=-100` tunnar ut bilden fullständigt.
 
 ## Egenskaper {#section-9a3cc9ff060049449554dfa69d92fd53}
 
@@ -33,7 +33,7 @@ kommandot Lager. Gäller det aktuella lagret eller den sammansatta bilden om `la
 
 ## Standard {#section-ef0e78f55c8b4d22aee09104dad6410a}
 
-`op_saturation=0`, utan att mättnaden förändras. CMYK-bilder eller -lager konverteras till RGB innan åtgärden tillämpas.
+`op_saturation=0`, om mättnaden inte ändras. CMYK-bilder eller -lager konverteras till RGB innan åtgärden tillämpas.
 
 ## Exempel {#section-033b272f1b7e4efeb94e841fd8095357}
 

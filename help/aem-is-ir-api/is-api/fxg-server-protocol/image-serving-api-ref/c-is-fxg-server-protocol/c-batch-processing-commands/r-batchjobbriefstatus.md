@@ -27,7 +27,7 @@ Den här parametern:
 
 Returnerar:
 
-Kortfattad status för arbetet i XML-format. fel om jobbet är ogiltigt eller om jobbet har tagits bort.
+Kortfattad status för jobbet i XML-format. Fel om jobbet är ogiltigt eller om jobbet har tagits bort.
 
 ## Exempel {#section-806460949bb043438ad4dd4e7ab74145}
 

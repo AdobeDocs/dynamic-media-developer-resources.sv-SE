@@ -22,6 +22,6 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| publishType | `xsd:string` | En av de tillgängliga publiceringstyperna. |
+| publishType | `xsd:string` | En av tillgängliga publiceringstyper. |
 | emailSetting | `xsd:string` | Val av e-postinställningar. |
 | httpCompletionUrl | `xsd:string` | URL för att skicka ett meddelande om slutförande. |

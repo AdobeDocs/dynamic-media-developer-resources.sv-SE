@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 7603c873-a2d1-4a24-85a6-8e56a1f207de
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Utseendet på Favorit-ikonen styrs av följande CSS-klassväljare:
 .s7ecatalogsearchviewer .s7favoriteseffect .s7icon
 ```
 
-**CSS-egenskaper för ikonen Favorit**
+**CSS-egenskaper för Favoritikon**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -57,7 +57,7 @@ Exempel - ställ in en ikon med 36 x 36 pixlar för Favoriter.
 }
 ```
 
-På datorer har komponenten stöd för `cursortype` attributväljaren som du kan använda för `.s7favoriteseffect` och styr typen av markör baserat på den valda användaråtgärden. Följande `cursortype` värden stöds:
+I skrivbordssystem stöder komponenten attributväljaren `cursortype` som du kan använda på klassen `.s7favoriteseffect` och styr typen av markör baserat på den valda användaråtgärden. Följande `cursortype`-värden stöds:
 
 <table id="table_71F8F333909247E4ACFEBDE3A1370EAB"> 
  <tbody> 
@@ -67,7 +67,7 @@ På datorer har komponenten stöd för `cursortype` attributväljaren som du kan
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> mode_remove </span> </p> </td> 
-   <td colname="col2"> <p>Den användare som visas tar bort en befintlig Favorit-ikon. </p> </td> 
+   <td colname="col2"> <p>En befintlig Favorit-ikon tas bort av användaren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> mode_view </span> </p> </td> 

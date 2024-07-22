@@ -48,7 +48,7 @@ Följande miniatyrresurstyper tillåts:
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Handtaget till företaget som innehåller tillgångarna. |
-| updateArray | `types:ThumbAssetUpdateArray` | Ja | Arrayen med uppdateringar. |
+| updateArray | `types:ThumbAssetUpdateArray` | Ja | Matrisen med uppdateringar. |
 
 **Utdata (batchSetThumbAssetParam)**
 

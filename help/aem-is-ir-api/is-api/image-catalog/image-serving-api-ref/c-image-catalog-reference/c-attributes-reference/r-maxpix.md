@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 0fd990cf-a54f-4574-8328-8988368d5875
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ Servern returnerar ett fel om en begäran skulle orsaka en svarsbild vars bredd 
 
 ## Egenskaper {#section-b175425b9e9f48e0b1a71640f6a9e936}
 
-Två heltal, större än 0, avgränsade med kommatecken. Bredd och höjd i pixlar. Kan även anges till `0,0` för att tillåta en svarsbild utan begränsningar.
+Två heltal, större än 0, avgränsade med kommatecken. Bredd och höjd i pixlar. Kan även anges till `0,0` för att tillåta en svarsbildstorlek utan begränsningar.
 
 ## Standard {#section-1003537434da432fb2af100ecdbf9d72}
 
-Ärvs från `default::MaxPix` om den inte är definierad eller om den är tom.
+Ärvs från `default::MaxPix` om inte definierad eller om tom.
 
 ## Se även {#section-7385697a1b86482bba19db894f7af95b}
 

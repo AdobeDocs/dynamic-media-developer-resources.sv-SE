@@ -1,6 +1,6 @@
 ---
 title: substitutioner
-description: Ersättningssträngselement. Valfritt i <rule> -element.
+description: Ersättningssträngselement. Valfritt i <rule>-element.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # substitutioner{#substitution}
 
-Ersättningssträngselement. Valfritt i `<rule>` -element.
+Ersättningssträngselement. Valfritt i `<rule>`-element.
 
 ## Attribut {#section-d955eefc53eb4274861270669c01f9ca}
 
@@ -30,12 +30,12 @@ Definierar en ersättningssträng för den matchande strängen eller delstränge
 
 Om mönsteruttrycket innehåller deluttryck (avgränsade med parenteser) ersätts den första matchade delsträngen med ersättningssträngen. Om mönsteruttrycket inte innehåller underuttryck ersätts hela den matchade strängen.
 
-If `<expression>` är tom eller saknas läggs ersättningssträngen till i sökvägen eller frågan.
+Om `<expression>` är tom eller saknas läggs ersättningssträngen till i sökvägen eller frågan.
 
-If `<substitution>` är tom tas den matchande strängen eller delsträngen bort. If `<substitution>` anges inte, sökvägen eller frågesträngen ändras inte.
+Om `<substitution>` är tom tas den matchande strängen eller delsträngen bort. Om `<substitution>` inte anges ändras inte sökvägen eller frågesträngen.
 
 ## Anteckning {#section-90fe89bb17a04804b7ff3c93df082892}
 
-Ersättningssträngen får inte innehålla literala &lt;- och &amp;-tecken. Dessa reserverade tecken kan kodas med `&` och `<`eller så kan hela strängen omslutas av en XML `CDATA` avsnitt:
+Ersättningssträngen får inte innehålla literala &lt;- och &amp;-tecken. Dessa reserverade tecken kan kodas med `&` respektive `<`, eller så kan hela strängen omslutas av ett XML `CDATA` -avsnitt:
 
 `<substitution><![CDATA[&text=<Hello, world!>]]></ substitution>`

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: e25a3b9d-88ef-4214-9b6b-2527ebf0f145
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Utseendet på uppspelningsikonen styrs med följande CSS-klassväljare:
  </tbody> 
 </table>
 
-Ikoneffekten har stöd för `state` attributväljare. Attributväljaren `state="play"` används när videon pausas mitt under uppspelningen, och `state="replay"` används när spelhuvudet är i slutet av strömmen.
+Ikoneffekten stöder attributväljaren `state`. Attributväljaren `state="play"` används när videon pausas mitt i uppspelningen och `state="replay"` används när spelhuvudet är i slutet av direktuppspelningen.
 
 **Exempel** - Konfigurera en 100 x 100 pixlar stor uppspelningsikon.
 

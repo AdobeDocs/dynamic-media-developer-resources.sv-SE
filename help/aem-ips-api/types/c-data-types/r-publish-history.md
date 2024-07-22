@@ -23,6 +23,6 @@ Syntax
 | Namn | Typ | Beskrivning |
 |---|---|---|
 | serverName | `xsd:string` | Namnet på servern som äger publiceringshistoriken. |
-| contextName | `xsd:string` | Kontextnamn för publiceringshistorik. |
-| publishFormat | `xsd:string` | Publicera format. |
+| contextName | `xsd:string` | Publish kontextnamn för historik. |
+| publishFormat | `xsd:string` | Publish. |
 | lastPublished | `xsd:dateTime` | Datum och tid då resursen senast publicerades. |

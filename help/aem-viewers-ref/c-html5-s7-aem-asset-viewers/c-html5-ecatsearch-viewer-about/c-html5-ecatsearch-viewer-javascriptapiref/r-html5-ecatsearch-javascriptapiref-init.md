@@ -20,7 +20,7 @@ JavaScript API-referens för eCatalog Viewer.
 
 Startar initieringen av eCatalog Viewer. Nu måste behållar-DOM-elementet skapas så att visningsprogramkoden kan hitta det med dess ID.
 
-Om behållarelementet inte är en del av webbsideslayouten än, kan det till exempel döljas med [!DNL `display:none`] stil som tilldelats det - visningsprogrammet avbryter sin initieringsprocess. Det gör det tills webbsidan återför behållarelementet till layouten. När den här händelsen inträffar återtas visningsprogrammet automatiskt.
+Om behållarelementet inte är en del av webbsideslayouten än, till exempel om det är dolt med formatet [!DNL `display:none`] som tilldelats det, kommer visningsprogrammet att avbryta initieringsprocessen. Det gör det tills webbsidan återför behållarelementet till layouten. När den här händelsen inträffar återtas visningsprogrammet automatiskt.
 
 Anropa bara den här metoden en gång under visningsprogrammets livscykel. Efterföljande anrop ignoreras.
 

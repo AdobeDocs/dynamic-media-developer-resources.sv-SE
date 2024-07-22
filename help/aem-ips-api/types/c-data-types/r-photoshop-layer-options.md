@@ -1,5 +1,5 @@
 ---
-description: Alternativ för bildlager i Photoshop.
+description: Photoshop bildlageralternativ.
 solution: Experience Manager
 title: PhotoshopLayerOptions
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL PhotoshopLayerOptions]{#photoshoplayeroptions}
 
-Alternativ för bildlager i Photoshop.
+Photoshop bildlageralternativ.
 
 Syntax
 

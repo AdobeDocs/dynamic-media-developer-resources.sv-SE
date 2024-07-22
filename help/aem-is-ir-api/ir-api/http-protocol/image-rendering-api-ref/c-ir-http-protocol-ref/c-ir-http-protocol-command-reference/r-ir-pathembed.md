@@ -20,13 +20,13 @@ Bädda in bandata. Anger om Photoshop-banor som är inbäddade i vinjetteringen 
 
 ## Egenskaper {#section-be50b6d1ebd14a9c93f80ac338b44bfc}
 
-Begär attribut. Ignoreras om vinjetteringen inte innehåller sökvägsdata. Banan som data skalas till `wid=` och/eller `hei=` vid behov.
+Begär attribut. Ignoreras om vinjetteringen inte innehåller sökvägsdata. Sökvägsdata skalas till `wid=` och/eller `hei=` om det behövs.
 
-Ignoreras om utdatabildformatet inte stöder baninbäddning. Se beskrivningen av `fmt=` för en lista över utdataformat som stöder baninbäddning.
+Ignoreras om utdatabildformatet inte stöder baninbäddning. Se beskrivningen av `fmt=` för en lista över utdatabildformat som stöder sökvägsinbäddning.
 
 ## Standard {#section-3be88ed9053b48919ff33af9418078cc}
 
-`pathEmbed=0`, utan inbäddning av banor i utdatabilder.
+`pathEmbed=0`, om du inte vill bädda in sökvägar i utdatabilder.
 
 ## Se även {#section-4e6151658c384b6f9d0446f55dde7b7f}
 

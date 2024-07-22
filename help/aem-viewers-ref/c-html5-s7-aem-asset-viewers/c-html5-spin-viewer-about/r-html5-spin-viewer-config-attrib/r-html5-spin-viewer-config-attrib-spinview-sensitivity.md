@@ -7,20 +7,20 @@ role: Developer,User
 exl-id: 256cffae-d284-4f46-a2dc-4618ea7eda57
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
 
 # SpinView.sensitivity{#spinview-sensitivity}
 
-` [SpinView.|<containerId>_spinView.]sensitivity= *`Känslighet`*[, *`Känslighet`*]`
+` [SpinView.|<containerId>_spinView.]sensitivity= *`xKänslighet`*[, *`yKänslighet`*]`
 
 <table id="table_18D47E7C6A2D4D68B94225CB621D5F7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> Känslighet</span>[, <span class="varname"> Känslighet</span>]</span> </p> </td> 
-   <td colname="col2"> <p> Styr känsligheten för det vågräta och lodräta rotationsintervallet som utförs med en musdragning eller dragning. </p> <p> <span class="codeph"> Känslighet</span> Anger hur många horisontella produktrotationer som görs om användaren drar musen vågrätt från den ena sidan av vyn till den andra. Tre innebär till exempel att användaren ser tre fullständiga snurrningar för en fullständig dragningsgest. </p> <p>På samma sätt <span class="codeph"> Känslighet</span> styr den lodräta rotationens känslighet. Värdet 1 innebär att en hel lodrät dragning eller dragning ändrar visningsvinkeln från det översta rotationsplanet till det understa (eller omvänt). </p> <p>Ange ett negativt värde för <span class="codeph"> Känslighet</span> inverterar den lodräta rotationens riktning. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> xSensitivity</span>[, <span class="varname"> ySensitivity</span>]</span> </p> </td> 
+   <td colname="col2"> <p> Styr känsligheten för det vågräta och lodräta rotationsintervallet som utförs med en musdragning eller dragning. </p> <p> <span class="codeph"> xSensitivity </span> anger hur många fullständiga horisontella produktrotationer som görs om användaren drar musen vågrätt från ena sidan av vyn till den andra. Tre innebär till exempel att användaren ser tre fullständiga snurrningar för en fullständig dragningsgest. </p> <p>På samma sätt styr <span class="codeph"> ySensitivity </span> den lodräta rotationens känslighet. Värdet 1 innebär att en hel lodrät dragning eller dragning ändrar visningsvinkeln från det översta rotationsplanet till det understa (eller omvänt). </p> <p>Om du anger ett negativt värde för <span class="codeph"> ySensitivity </span> inverteras riktningen för den lodräta rotationen. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 1f11a686-7239-4922-a608-5330864184ac
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '50'
 ht-degree: 0%
 
 ---
@@ -40,14 +40,14 @@ Syntax
 
 **searchAsset**
 
-* Borttagen `name` parameter.
-* Tillagd `excludeFieldArray`.
+* `name`-parametern har tagits bort.
+* `excludeFieldArray` har lagts till.
 
 **getFolders**
 
-* Tillagd `excludeFieldArray`.
+* `excludeFieldArray` har lagts till.
 
 **getFolderTree**
 
-* Tillagd `excludeFieldArray` och `getUniqueMetadataValues`.
-* Gjord `fieldHandle` en obligatorisk parameter.
+* `excludeFieldArray` och `getUniqueMetadataValues` har lagts till.
+* Skapade `fieldHandle` som en obligatorisk parameter.

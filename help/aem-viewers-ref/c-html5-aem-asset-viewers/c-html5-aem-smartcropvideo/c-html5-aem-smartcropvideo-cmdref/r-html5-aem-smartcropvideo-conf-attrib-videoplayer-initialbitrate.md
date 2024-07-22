@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 4fc4fefa-b094-4e2e-b8ec-a439f8a1a56c
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 Konfigurationsattribut för Video Viewer.
 
-` [SmartCropVideoPlayer.|<containerId>_videoPlayer.]initialbitrate= *`value`*`
+` [SmartCropVideoPlayer.|<containerId>_videoPlayer.]initialbitrate= *`värde`*`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> value </span> </p> </td> 
-   <td colname="col2"> <p>Anger den videobithastighet (i kilobit per sekund eller kbit/s) som används för den första videouppspelningen på stationära datorer. </p> <p>Om det här bithastighetsvärdet inte finns i den adaptiva videouppsättningen startar videospelaren den video som har den näst lägsta bithastigheten. </p> <p>Om inställt på <span class="codeph"> 0 </span>startar videospelaren från lägsta möjliga bithastighet. Gäller endast för system som inte har inbyggt stöd för HLS-video i HTML5 (som är webbläsarna Firefox, Chrome och Internet Explorer 11 i Windows 10) och när uppspelningsläget är inställt på <span class="codeph"> auto </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> värde </span> </p> </td> 
+   <td colname="col2"> <p>Anger den videobithastighet (i kilobit per sekund eller kbit/s) som används för den första videouppspelningen på stationära datorer. </p> <p>Om det här bithastighetsvärdet inte finns i den adaptiva videouppsättningen startar videospelaren den video som har den näst lägsta bithastigheten. </p> <p>Om värdet är <span class="codeph"> 0 </span> startar videospelaren från lägsta möjliga bithastighet. Gäller endast för system som inte har inbyggt stöd för HLS-video i HTML5 (som är webbläsarna Firefox, Chrome och Internet Explorer 11 i Windows 10) och när uppspelningsläget är inställt på <span class="codeph"> auto </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

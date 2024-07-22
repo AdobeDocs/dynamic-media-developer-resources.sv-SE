@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 8c399b64-e278-41bc-a9eb-692812979fea
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Visst innehåll som visas i det grundläggande zoomvisningsprogrammet kan lokaliseras, inklusive zoomknappar och en helskärmsknapp.
 
-Varje textinnehåll i visningsprogrammet som kan lokaliseras representeras av en SDK-identifierare för visningsprogrammet som kallas SYMBOL. Alla SYMBOL har ett standardassocierat textvärde för engelska ( `"en"`) som medföljer det färdiga visningsprogrammet och kan även ha användardefinierade värden för så många språk som behövs.
+Varje textinnehåll i visningsprogrammet som kan lokaliseras representeras av en SDK-identifierare för visningsprogrammet som kallas SYMBOL. Alla SYMBOL har ett standardassocierat textvärde för den engelska språkversionen ( `"en"`) som medföljer visningsprogrammet som inte är installerat och kan även ha användardefinierade värden för så många språkområden som behövs.
 
 När visningsprogrammet startas kontrolleras det aktuella språkområdet för att se om det finns ett användardefinierat värde för varje SYMBOL som stöds i språkområdet. Om det finns något används det användardefinierade värdet, i annat fall används standardtexten som inte finns.
 
@@ -38,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-I exemplet ovan definierar lokaliseringsobjektet två språkinställningar ( `"en"` och `"fr"`) och tillhandahåller lokalisering för två element i användargränssnittet i varje språkområde.
+I exemplet ovan definierar lokaliseringsobjektet två språkområden ( `"en"` och `"fr"`) och tillhandahåller lokalisering för två element i användargränssnittet i varje språkområde.
 
-Webbsideskoden ska skicka ett sådant lokaliseringsobjekt till visningsprogramkonstruktorn som ett värde på `localizedTexts` konfigurationsobjektets fält. Ett annat alternativ är att skicka lokaliseringsobjektet genom att anropa `setLocalizedTexts(localizationInfo)` -metod.
+Webbsideskoden ska skicka ett sådant lokaliseringsobjekt till visningsprogramkonstruktorn som ett värde på fältet `localizedTexts` i konfigurationsobjektet. Ett annat alternativ är att skicka lokaliseringsobjektet genom att anropa metoden `setLocalizedTexts(localizationInfo)`.
 
 Följande SYMBOL stöds:
 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 5f2514a9-bbd0-436d-ad96-b89778604f8a
 source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ JavaScript API-referens för Video Image Viewer.
 
 `getComponent(componentId)`
 
-Returnerar en referens till SDK-komponenten för visningsprogrammet som används av visningsprogrammet. Webbsidan kan använda den här metoden för att utöka eller anpassa beteendet för visningsprogrammet som inte är installerat. Anropa den här metoden först efter `initComplete` återanrop för visningsprogrammet har körts, annars kanske komponenten inte har skapats ännu av visningsprogramlogiken.
+Returnerar en referens till SDK-komponenten för visningsprogrammet som används av visningsprogrammet. Webbsidan kan använda den här metoden för att utöka eller anpassa beteendet för visningsprogrammet som inte är installerat. Anropa den här metoden först efter att `initComplete`-visningsprogrammets återanrop har körts, annars kanske komponenten inte har skapats ännu av visningsprogramlogiken.
 
 ## Parametrar {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
@@ -55,13 +55,13 @@ Returnerar en referens till SDK-komponenten för visningsprogrammet som används
  </tbody> 
 </table>
 
-När du arbetar med SDK API:er är det viktigt att du använder rätt fullständigt kvalificerat SDK-namnutrymme enligt beskrivningen i [Namnutrymme för visningsprogramsDK](../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-namespace.md#concept-00a31b9bc7eb4014b28c1ba661fe5265).
+När du arbetar med SDK API:er är det viktigt att du använder rätt fullständigt kvalificerat SDK-namnutrymme enligt beskrivningen i [SDK-namnområdet för visningsprogrammet](../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-namespace.md#concept-00a31b9bc7eb4014b28c1ba661fe5265).
 
 Mer information om en viss komponent finns i dokumentationen till SDK API:t för visningsprogrammet.
 
 ## Returnerar {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` En referens till SDK-komponenten för visningsprogrammet. Metoden returnerar `null` om `componentId` är inte en visningsprogramkomponent som stöds eller om komponenten ännu inte har skapats av visningsprogramlogiken.
+`{Object}` En referens till SDK-komponenten för visningsprogrammet. Metoden returnerar `null` om `componentId` inte är en visningsprogramkomponent som stöds eller om komponenten ännu inte har skapats av visningsprogramlogiken.
 
 ## Exempel {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

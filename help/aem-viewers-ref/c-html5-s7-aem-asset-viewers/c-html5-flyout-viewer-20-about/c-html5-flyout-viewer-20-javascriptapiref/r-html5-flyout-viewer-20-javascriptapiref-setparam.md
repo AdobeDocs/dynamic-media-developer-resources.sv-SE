@@ -1,6 +1,6 @@
 ---
 title: setParam
-description: JavaScript API-referens för visningsprogrammet för utfällbara bilder.
+description: JavaScript API-referens för visningsprogrammet.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # setParam{#setparam}
 
-JavaScript API-referens för visningsprogrammet för utfällbara bilder.
+JavaScript API-referens för visningsprogrammet.
 
 ` setParam( *`namn, värde`*)`
 
-Ställer in visningsparametern på ett angivet värde. Parametern är antingen ett visningsprogramspecifikt konfigurationsalternativ eller en programvaruutvecklingsmodifierare. Den här parametern anropas före `init()`. Den här metoden är valfri om visningsprogrammets konfigurationsinformation skickas med `config` JSON-objekt till konstruktorn.
+Ställer in visningsparametern på ett angivet värde. Parametern är antingen ett visningsprogramspecifikt konfigurationsalternativ eller en programvaruutvecklingsmodifierare. Den här parametern anropas före `init()`. Den här metoden är valfri om visningsprogrammets konfigurationsinformation skickas med JSON-objektet `config` till konstruktorn.
 
 Se även [init](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-init.md#reference-8651640683fc4a538bfb660709d1a463).
 
@@ -30,7 +30,7 @@ Se även [init](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-a
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> parametervärdet. Värdet kan inte vara procentkodat. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> parametervärde. Värdet kan inte vara procentkodat. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -15,6 +15,6 @@ ht-degree: 0%
 # Tangentbordstillgänglighet och -navigering{#keyboard-accessibility-and-navigation}
 
 Alla funktioner som visas i visningsprogrammets användargränssnitt är tillgängliga via tangentbordet.
-Slutanvändaren kan använda `Left`, `Right`, `UP`och `DOWN` för att panorera bilden.
-The `Esc` kan användas för att återställa bilden.
+Slutanvändaren kan använda `Left`, `Right`, `UP` och `DOWN` tangenttryckningar för att panorera bilden.
+Tangentbordet `Esc` kan användas för att återställa bilden.
 

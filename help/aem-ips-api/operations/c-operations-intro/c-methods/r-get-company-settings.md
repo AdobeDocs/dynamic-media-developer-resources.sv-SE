@@ -37,7 +37,7 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| inställningar | `types:CompanySettings` | Ja | Företagsinställningar. |
+| inställningar | `types:CompanySettings` | Ja | Företagsinställningar |
 
 ## Exempel {#section-191f78995ecf473a95eadf7296204fd7}
 

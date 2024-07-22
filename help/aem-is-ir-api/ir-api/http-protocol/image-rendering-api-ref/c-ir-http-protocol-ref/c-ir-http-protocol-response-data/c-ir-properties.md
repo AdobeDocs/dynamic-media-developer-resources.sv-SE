@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Egenskaper{#properties}
 
-Egenskapsdata returneras som svar på följande req=-typer: bilproppar och proppar.
+Egenskapsdata returneras som svar på följande req=-typer: imageprops och props.
 
 Svarsdata är formaterade så att de kan läsas som Java™-egenskaper. Ett typiskt svar på textegenskaper har följande allmänna struktur:
 
@@ -26,9 +26,9 @@ Svarsdata är formaterade så att de kan läsas som Java™-egenskaper. Ett typi
 
 ...
 
-` *[!DNL propertyValue]*` Kan vara tomt. Tomt utrymme är valfritt i början och slutet av varje rad och före och efter avgränsaren &#39;=&#39;. Enkla eller dubbla citattecken kan användas för att omsluta strängvärden, men är inte obligatoriska.
+` *[!DNL propertyValue]*` kan vara tom. Tomt utrymme är valfritt i början och slutet av varje rad och före och efter avgränsaren &#39;=&#39;. Enkla eller dubbla citattecken kan användas för att omsluta strängvärden, men är inte obligatoriska.
 
-Strängvärden kan innehålla escape-tecken i JAVA-format, t.ex. `\n`, `\t`, `\:`, eller `\\`.
+Strängvärden kan innehålla escape-tecken i JAVA-format, till exempel `\n`, `\t`, `\:` eller `\\`.
 
 **Se även**
 

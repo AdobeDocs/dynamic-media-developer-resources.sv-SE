@@ -22,12 +22,12 @@ JavaScript API-referens för Video Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> resurs </span> </span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="codeph"> Sträng </span>} nytt resurs-ID eller explicit bilduppsättning med tillvalsmodifierare för bildservering som läggs till efter <span class="codeph"> ? </span>. </p> <p> Bilder som använder IR (Image Rendering) eller UGC (User-Generated Content) stöds inte av det här visningsprogrammet. </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> String </span> nytt resurs-ID eller explicit bilduppsättning med tillvalsmodifierare för bildservertillägg efter <span class="codeph"> ? </span>. </p> <p> Bilder som använder IR (Image Rendering) eller UGC (User-Generated Content) stöds inte av det här visningsprogrammet. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Anger en ny resurs. Du kan anropa den här parametern när som helst, antingen före eller efter `init()`. Om den anropas efter `init()`byter visningsprogrammet ut resursen vid körning.
+Anger en ny resurs. Du kan anropa parametern när som helst, antingen före eller efter `init()`. Om den anropas efter `init()` byter visningsprogrammet ut resursen under körning.
 
 Se även [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 

@@ -22,15 +22,15 @@ Omsamplingsläge. Väljer den omsamplings- och/eller interpoleringsalgoritm som 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bilin </span> </p> </td> 
-   <td colname="col2"> <p>Väljer bilinjär standardinterpolation. Snabbaste omsamplingsmetod. vissa aliaseringsartefakter är märkbara. </p> </td> 
+   <td colname="col2"> <p>Väljer bilinjär standardinterpolation. Den snabbaste omsamplingsmetoden. Vissa aliasing-artefakter är märkbara. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bikub </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bicub </span> </p> </td> 
    <td colname="col2"> <p>Väljer bikubisk interpolation. Processorintensivare än bilinjär interpolation, men ger skarpare bilder med mindre framträdande aliasartefakter. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> skarp2 </span> </p> </td> 
-   <td colname="col2"> <p>Väljer en modifierad Lanczos Window-funktion som en interpoleringsalgoritm. Kan ge något tydligare resultat än bikubisk till en högre processorkostnad. <span class="codeph"> skarp </span> har ersatts med <span class="codeph"> skarp2 </span>, vilket är mindre sannolikt att orsaka aliasing-artefakter (Moiré). </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sharp2 </span> </p> </td> 
+   <td colname="col2"> <p>Väljer en modifierad Lanczos Window-funktion som en interpoleringsalgoritm. Kan ge något tydligare resultat än bikubisk till en högre processorkostnad. <span class="codeph"> sharp </span> har ersatts med <span class="codeph"> sharp2 </span> som har en mindre sannolikhet att orsaka aliasing-artefakter (Moiré). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bisharp </span> </p> </td> 
@@ -41,7 +41,7 @@ Omsamplingsläge. Väljer den omsamplings- och/eller interpoleringsalgoritm som 
 
 >[!IMPORTANT]
 >
->Bevara bildens proportioner när du använder båda `resMode=bisharp` och `fit=stretch`är det bäst att använda parametern width eller height. Om båda parametrarna måste definieras kan du kapsla in dem i ett annat lager, vilket visas i följande exempel:
+>Om du vill behålla bildens proportioner när du använder både `resMode=bisharp` och `fit=stretch` är det bäst att använda antingen parametern width eller parametern height. Om båda parametrarna måste definieras kan du kapsla in dem i ett annat lager, vilket visas i följande exempel:
 >
 >`/is/image/is/image/companyname?layer=0&src=is(companyname/imagename?wid=30&hei=30&fit=stretch)&resmode=bisharp`
 

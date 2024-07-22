@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 7a8d7205-d3bf-4ca8-b80a-9072436a3df5
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Instruktioner för installation av API:t för visningsprogram i Dynamic Media.
 
 Installera och testa Image Serving innan du installerar visningsprogrammen för Image Serving.
 
-Kopiera IS Viewer-filerna till hårddisken och distribuera sedan `s7viewers.war` till `../ImageServing/webapps` katalog. I dokumentationen för Image Serving finns instruktioner om hur du distribuerar, startar, stoppar och hanterar Image Server.
+Kopiera IS Viewer-filerna till hårddisken och distribuera sedan filen `s7viewers.war` till katalogen `../ImageServing/webapps`. I dokumentationen för Image Serving finns instruktioner om hur du distribuerar, startar, stoppar och hanterar Image Server.
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ Kopiera IS Viewer-filerna till hårddisken och distribuera sedan `s7viewers.war`
 **Så här installerar du flera visningsprogram på samma server:**
 
 1. Byt namn på visningsprogrammet .war till önskad kontext och distribuera filen till önskad plats.
-1. Ange `this.isViewerRoot` parameter in `config.js`.
-1. Öppna `config.js` i roten för den nya visningsmappen.
-1. Ange parameter `this.isViewerRoot = "/s7viewers"` mot bakgrund av `s7viewers.war` -fil. Till exempel: `"/s7viewers-4.0"`.
+1. Ange parametern `this.isViewerRoot` i `config.js`.
+1. Öppna `config.js` i roten för den nya visningsprogrammappen.
+1. Ange parametern `this.isViewerRoot = "/s7viewers"` i kontexten för filen `s7viewers.war`. Exempel: `"/s7viewers-4.0"`.
 1. Spara filen och stäng den.

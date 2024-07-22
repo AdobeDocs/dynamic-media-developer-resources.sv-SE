@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # IccProfileRgb{#iccprofilergb}
 
-RGB standardprofil för utdatafärg. Anger namnet på ICC-färgprofilen som ska användas för svarsbilder i RGB när ingen utdatafärgrymd har angetts med `icc=`. Dessutom för vissa RGB-färgvärden som anges med olika kommandon för bildåtergivning, t.ex. `bgc=` och `color=`.
+RGB standardprofil för utdatafärg. Anger namnet på ICC-färgprofilen som ska användas för svarsbilder i RGB när ingen utdatafärgrymd har angetts med `icc=`. Dessutom för vissa RGB-färgvärden som anges med olika kommandon för bildåtergivning, till exempel `bgc=` och `color=`.
 
 ## Egenskaper {#section-b4a1bd92e99047479a5036413525a6d9}
 
-Textsträng. Om det anges måste det vara ett giltigt `icc::Name` värde från ICC-profilmappningen för antingen den här materialkatalogen eller standardkatalogen, eller en filsökväg som är relativ till `attribute::RootPath`. Den ICC-profil som det hänvisas till måste vara en RGB-profil.
+Textsträng. Om det anges måste det vara ett giltigt `icc::Name`-värde från ICC-profilmappningen för antingen den här materialkatalogen eller standardkatalogen, eller en filsökväg som är relativ till `attribute::RootPath`. Den ICC-profil som det hänvisas till måste vara en RGB-profil.
 
 ## Standard {#section-5809772f8e96438ab7626d323c66a4ba}
 
-Ärvs från `default::IccProfileRgb` om den inte är definierad eller om den är tom.
+Ärvs från `default::IccProfileRgb` om inte definierad eller om tom.
 
 ## Se även {#section-732c17dece3a4575855c9b79a08d0067}
 

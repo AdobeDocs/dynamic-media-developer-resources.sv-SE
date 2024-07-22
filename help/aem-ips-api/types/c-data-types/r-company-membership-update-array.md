@@ -20,4 +20,4 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| objekt | `types:CompanyMembershipUpdate` |  |
+| objekt | `types:CompanyMembershipUpdate` | |

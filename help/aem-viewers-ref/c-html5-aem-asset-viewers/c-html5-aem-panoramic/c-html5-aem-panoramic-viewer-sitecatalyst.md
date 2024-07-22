@@ -18,7 +18,7 @@ Som standard skickar visningsprogrammet en enda HTTP-begäran för spårning til
 
 ## Anpassad spårning {#section-cda48fc9730142d0bb3326bac7df3271}
 
-För att kunna integreras med analyssystem från tredje part måste man lyssna på `trackEvent` återanrop och process för visningsprogram `eventInfo` vid behov callback-funktionens argument. Följande kod är ett exempel på en sådan hanterarfunktion:
+Om du vill integrera med analyssystem från tredje part måste du lyssna på `trackEvent`-visningsprogrammets callback-argument och bearbeta `eventInfo`-argumentet för callback-funktionen efter behov. Följande kod är ett exempel på en sådan hanterarfunktion:
 
 ```javascript {.line-numbers}
 var panoramicViewer = new s7viewers.PanoramicViewer({
@@ -53,7 +53,7 @@ Visningsprogrammet spårar följande SDK-användarhändelser:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LADDA </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LÄS IN </span> </p> </td> 
    <td colname="col2"> <p>när visningsprogrammet läses in först. </p> </td> 
   </tr> 
  </tbody> 

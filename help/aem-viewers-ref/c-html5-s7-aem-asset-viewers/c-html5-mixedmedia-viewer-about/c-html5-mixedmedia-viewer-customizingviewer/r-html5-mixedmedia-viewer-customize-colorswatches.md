@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 0a73d1c9-362d-48a5-96c9-3d543e68ebec
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Avståndet mellan färgrutans miniatyrbilder styrs med följande CSS-klassvälja
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> marginal </span> </p> </td> 
-   <td colname="col2"> <p> Storleken på den vågräta och lodräta marginalen runt varje miniatyrbild. Det faktiska mellanrummet för miniatyrbilder är lika med summan av vänster och höger marginaluppsättning för <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col2"> <p> Storleken på den vågräta och lodräta marginalen runt varje miniatyrbild. Det faktiska mellanrummet för miniatyrbilder är lika med summan av vänster och höger marginaluppsättning för <span class="codeph"> .s7miniatyrcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -101,7 +101,7 @@ Utseendet på den enskilda miniatyrbilden styrs av följande CSS-klassväljare:
    <td colname="col2"> <p>Höjden på miniatyrbilden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kant </span> </p> </td> 
    <td colname="col2"> <p>Miniatyrens kantlinje. </p> </td> 
   </tr> 
  </tbody> 
@@ -109,7 +109,7 @@ Utseendet på den enskilda miniatyrbilden styrs av följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Miniatyrbilden har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika miniatyrlägen. Särskilt gäller följande: `state="selected"` motsvarar miniatyrbilden för den bild som visas i huvudvyn, `state="default"` motsvarar resten av miniatyrbilderna, och `state="over"` används vid hovring av musen.
+>Miniatyrbilden stöder attributväljaren `state` som kan användas för att tillämpa olika skal på olika miniatyrlägen. I synnerhet motsvarar `state="selected"` miniatyrbilden för den bild som visas i huvudvyn, `state="default"` motsvarar resten av miniatyrbilderna och `state="over"` används vid hovring med musen.
 
 Exempel - Om du vill ställa in miniatyrbilder som är 56 x 56 pixlar har du en ljusgrå standardkant och en mörkgrå markerad kant.
 
@@ -132,7 +132,7 @@ Utseendet på vänster och höger rullningsknapp styrs av följande CSS-klassvä
 
 `.s7mixedmediaviewer .s7colorswatches .s7swatches .s7scrollrightbutton`
 
-Det går inte att placera rullningsknappar med CSS `top`, `left`, `bottom`och `right` egenskaper. I stället placerar visningsprogramlogiken dem automatiskt.
+Det går inte att placera rullningsknappar med CSS-egenskaperna `top`, `left`, `bottom` och `right`. I stället placerar visningsprogramlogiken dem automatiskt.
 
 <table id="table_A5663C4AAC4446168CAD8DBA2894BB9C"> 
  <thead> 
@@ -163,7 +163,7 @@ Det går inte att placera rullningsknappar med CSS `top`, `left`, `bottom`och `r
 
 >[!NOTE]
 >
->Den här knappen har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen: `up`, `down`, `over`och `disabled`.
+>Den här knappen stöder attributväljaren `state` som kan användas för att tillämpa olika skal på olika knapplägen: `up`, `down`, `over` och `disabled`.
 
 Exempel - för att ställa in rullningsknappar som är 56 x 56 pixlar och har olika teckningar för varje läge.
 

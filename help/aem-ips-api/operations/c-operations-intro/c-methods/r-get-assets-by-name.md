@@ -48,61 +48,61 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Handtaget till företaget. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> accessUserHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> accessUserHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> Ger åtkomst som en annan användare. Endast tillgängligt för administratörer. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> accessGroupHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> accessGroupHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> Används för att filtrera efter en viss grupp. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> nameArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> nameArray </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:StringArray</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Array med resursnamn som ska hämtas. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetTypeArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetTypeArray </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:StringArray</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> En array med resurstyper som tillåts för hämtade resurser. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> excludeAssetTypeArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> excludeAssetTypeArray </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:StringArray</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> Array med tillgångstyper som exkluderats för hämtade resurser. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetSubTypeArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetSubTypeArray </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:StringArray</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> Array med tillgångsundertyper som tillåts för hämtade resurser. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> strictSubTypeCheck</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> strictSubTypeCheck </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolesk</span> </td> 
    <td colname="col3"> Nej </td> 
-   <td colname="col4"> <p>If <span class="codeph"> true</span> och <span class="codeph"> assetSubTypeArray</span> är inte tom, bara resurser vars undertyper finns i <span class="codeph"> assetSubTypeArray</span> returneras. </p> <p>If <span class="codeph"> false</span>, inkluderas resurser utan definierad undertyp. </p> <p>Standardvärdet är <span class="codeph"> false</span>. </p> </td> 
+   <td colname="col4"> <p>Om <span class="codeph"> true </span> och <span class="codeph"> assetSubTypeArray </span> inte är tomma returneras bara resurser vars undertyper finns i <span class="codeph"> assetSubTypeArray </span>. </p> <p>Om värdet är <span class="codeph"> false</span> inkluderas resurser utan definierad undertyp. </p> <p>Standardvärdet är <span class="codeph"> false</span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> responseFieldArray </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:StringArray</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> Innehåller en lista med fält och underfält som ingår i svaret. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> excludeFieldArray </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:StringArray</span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> Innehåller en lista med fält och underfält som är exkluderade från svaret. </td> 

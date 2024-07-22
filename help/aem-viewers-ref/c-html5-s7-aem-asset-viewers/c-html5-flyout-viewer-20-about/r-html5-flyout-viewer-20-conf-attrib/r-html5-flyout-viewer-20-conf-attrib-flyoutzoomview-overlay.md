@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 7fbf24c6-900f-4e94-b879-3a8f95dc5c08
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Styr högdagerutseendet för huvudvyn när den utfällbara menyn är aktiv. När inställt på <span class="codeph"> 0</span>markerar det område som visas i det utfällbara fönstret med hjälp av format från <span class="codeph"> .s7highlight</span> eller av <span class="codeph"> .s7cursor</span> CSS-klassnamn (beroende på värdet på <span class="codeph"> highlightmode</span> modifierare). När inställt på <span class="codeph"> 1</span> -komponenten försätts i "omvänd" läge där det för närvarande visade området antingen är helt genomskinligt (om det är <span class="codeph"> highlightmode</span> är inställd på <span class="codeph"> markera</span>) eller formaterad med <span class="codeph"> .s7cursor</span> CSS-klassnamn (om det är <span class="codeph"> highlightmode</span> är inställd på <span class="codeph"> markör</span>), men det omgivande området fylls med hjälp av format från <span class="codeph"> .s7overlay</span> CSS-klassnamn. </p> </td> 
+   <td colname="col2"> <p> Styr högdagerutseendet för huvudvyn när den utfällbara menyn är aktiv. När värdet är <span class="codeph"> 0</span> markeras det område som är synligt i det utfällbara fönstret med format från <span class="codeph"> .s7highlight</span> eller från <span class="codeph"> .s7cursor</span> CSS-klassnamn (beroende på värdet för <span class="codeph"> highlightmode </span> -modifierare). När <span class="codeph"> 1</span> -komponenten ställs in på inverterat läge där det visningsområde som visas antingen är helt genomskinligt (om <span class="codeph"> highlightmode </span> är inställt på <span class="codeph"> highlight</span>) eller formaterat med <span class="codeph"> .s7cursor</span> CSS-klassnamn (om <span class="codeph"> highlightmode </span> är inställt på <span class="codeph"> cursor </span>), men det omgivande området fylls med format från CSS-klassnamnet <span class="codeph"> .s7overlay </span> . </p> </td> 
   </tr> 
  </tbody> 
 </table>

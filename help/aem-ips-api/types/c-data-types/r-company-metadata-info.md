@@ -22,5 +22,5 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| [!DNL Code Phrase] | `Code Phrase` |  |
+| [!DNL Code Phrase] | `Code Phrase` | |
 

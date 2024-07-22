@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Efter installationen konfigurerar du tjänster som ska köras under det andra användarkontot.
 
-1. Gå till inställningarna för den lokala säkerhetsprincipen i Windows genom att välja **[!UICONTROL Start Menu]** > **[!UICONTROL Settings]** > **[!UICONTROL Control Panel]** > **[!UICONTROL Administration Tools]** > **[!UICONTROL Local Security Policy]**.
+1. Du kommer åt inställningarna för den lokala säkerhetsprincipen i Windows genom att välja **[!UICONTROL Start Menu]** > **[!UICONTROL Settings]** > **[!UICONTROL Control Panel]** > **[!UICONTROL Administration Tools]** > **[!UICONTROL Local Security Policy]**.
 1. Välj **[!UICONTROL Security Settings]** > **[!UICONTROL Local Policies]** > **[!UICONTROL User Rights Assignment]**.
-1. Dubbelklicka på **[!UICONTROL Log on as a service]** policy.
-1. Välj **[!UICONTROL Add…]** och väljer sedan Användare eller Grupp och väljer **[!UICONTROL Ok]** för att bekräfta.
+1. Dubbelklicka på principen **[!UICONTROL Log on as a service]**.
+1. Markera **[!UICONTROL Add…]**, markera användaren eller gruppen och markera sedan **[!UICONTROL Ok]** för att bekräfta.

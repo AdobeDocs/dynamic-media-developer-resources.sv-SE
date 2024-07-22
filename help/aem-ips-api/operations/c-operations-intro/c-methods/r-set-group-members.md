@@ -31,7 +31,7 @@ Anger gruppmedlemskap för användare som tillhör ett visst företag.
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Företagshandtag. |
-| groupHandle | `xsd:string` | Ja | Gruppreferens. |
+| groupHandle | `xsd:string` | Ja | Grupphandtag. |
 | userHandleArray | `types:HandleArray` | Ja | Array med referenser för användare vars gruppmedlemskap du vill ange. |
 
 **Utdata (setGroupMembesReturn)**

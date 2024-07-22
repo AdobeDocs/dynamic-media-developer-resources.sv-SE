@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 322d97af-bb1b-44bb-90f1-cda9984b78b5
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Dilate/erode image. Tillämpar en morfologisk dilatation (radie > 0) eller erodering (radie &lt; 0) på maskdata.
 
-`op_growMask= *`radie`*`
+`op_growMask= *`radius`*`
 
 <table id="simpletable_3BAA4523D29E447FA7A4C9009B3E8344"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> radie</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname"> radius</span> </p> </td> 
   <td class="stentry"> <p>Dilate/erode radius in pixels, där radius antas gälla för masken med full upplösning och därför skalas ned för masker med nedsampling (int -100..100). </p></td> 
  </tr> 
 </table>
@@ -29,11 +29,11 @@ Används främst för att förstora eller förminska en mask något för att und
 
 ## Egenskaper {#section-b1c66d65168d4ea695e8662ea690bd4e}
 
-Används på det aktuella lagret eller på lagret `0` if `layer=comp`.
+Gäller för det aktuella lagret eller för lagret `0` om `layer=comp`.
 
 ## Standard {#section-14c908bb87cb42acbea709effea2f964}
 
-`op_growMask=0`, utan att förändras.
+`op_growMask=0`, utan ändring.
 
 ## Se även {#section-ad3e5cecfc3448a38ea06093e015c88a}
 

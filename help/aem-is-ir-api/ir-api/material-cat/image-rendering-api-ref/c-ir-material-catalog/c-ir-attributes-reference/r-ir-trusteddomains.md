@@ -1,6 +1,6 @@
 ---
 title: Betrodda domäner
-description: Flash webbdomäner. Adobe Flash kan kräva åtkomst till egenskaper för bilder som levereras i swf-format. SWF-filen måste bevilja åtkomst uttryckligen genom att registrera namnet på de programdomäner som den litar på.
+description: Flash programwebbdomäner. Adobe Flash-program kan kräva åtkomst till egenskaper för bilder som levereras i swf-format. SWF-filen måste bevilja åtkomst uttryckligen genom att registrera namnet på de programdomäner som den litar på.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Betrodda domäner{#trusteddomains}
 
-Flash webbdomäner. Adobe Flash kan kräva åtkomst till egenskaper för bilder som levereras i swf-format. SWF-filen måste bevilja åtkomst uttryckligen genom att registrera namnet på de programdomäner som den litar på.
+Flash programwebbdomäner. Adobe Flash-program kan kräva åtkomst till egenskaper för bilder som levereras i swf-format. SWF-filen måste bevilja åtkomst uttryckligen genom att registrera namnet på de programdomäner som den litar på.
 
 ## Egenskaper {#section-5d6ecfa431a04abd8628a28e0ab3be83}
 
@@ -22,7 +22,7 @@ Sträng som innehåller en kommaavgränsad lista med webbdomännamn. Om det är 
 
 ## Standard {#section-8fae0c896f7d46e7a61b0fd7e2b34dc3}
 
-Ärvs från `default::TrustedDomains` om de inte finns.
+Ärvs från `default::TrustedDomains` om det inte finns.
 
 ## Se även {#section-2f829671c385411d8e1a7525def5529f}
 

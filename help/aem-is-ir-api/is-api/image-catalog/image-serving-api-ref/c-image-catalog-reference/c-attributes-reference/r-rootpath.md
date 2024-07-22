@@ -1,5 +1,5 @@
 ---
-description: Källdatarotsökväg. Absolut eller relativ sökväg för rotmappen för den här bildkatalogens källdata.
+description: Source datarotsökväg. Absolut eller relativ sökväg för rotmappen för den här bildkatalogens källdata.
 solution: Experience Manager
 title: RootPath
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # RootPath{#rootpath}
 
-Källdatarotsökväg. Absolut eller relativ sökväg för rotmappen för den här bildkatalogens källdata.
+Source datarotsökväg. Absolut eller relativ sökväg för rotmappen för den här bildkatalogens källdata.
 
-The `RootPath` är ett textsträngsvärde. Se [Hantera källdata](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/r-source-data.md#reference-4eebd51b2db2401c90be771d3382329e) om du vill ha mer information om serverrotsökvägar.
+`RootPath` är ett textsträngsvärde. Mer information om serverrotsökvägar finns i [Hantera Source-data](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/r-source-data.md#reference-4eebd51b2db2401c90be771d3382329e).
 
 ## Egenskaper {#section-b41d7e0ea63143eb8034569706cad0c0}
 
@@ -28,4 +28,4 @@ Textsträng. Måste vara tom, en giltig relativ mappsökväg eller en giltig abs
 
 ## Se även {#section-6bf4ffc4987843a9a2dbe81b43076437}
 
-[katalog::Path](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md) , [katalog::MaskPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-maskpath-cat.md),  [linjaluppsättning::PathRule](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md#concept-3e5058cf3507470b82cac638df23ea8e), [Hantera källdata](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/r-source-data.md#reference-4eebd51b2db2401c90be771d3382329e)
+[katalog::Path](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md) , [katalog::MaskPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-maskpath-cat.md), [regeluppsättning::PathRule](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md#concept-3e5058cf3507470b82cac638df23ea8e), [Hantera Source-data](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/r-source-data.md#reference-4eebd51b2db2401c90be771d3382329e)

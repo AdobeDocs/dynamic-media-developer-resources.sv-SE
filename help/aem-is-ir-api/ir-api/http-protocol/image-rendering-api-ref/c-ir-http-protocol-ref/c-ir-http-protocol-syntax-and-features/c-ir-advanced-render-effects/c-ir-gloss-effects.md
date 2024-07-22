@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Om det är aktiverat i vinjetteringen varierar renderaren belysningsalgoritmen för att simulera en variation av materialglansigheten (främst genom att kontrollera kontrast).
 
-Effekten är oberoende av reflektionsrenderingen och kompletterar den genom att simulera speglande reflektioner. Effekten styrs med samma `gloss=`, `glossmap=`och `type=` attribut som används för att styra speglingar.
+Effekten är oberoende av reflektionsrenderingen och kompletterar den genom att simulera speglande reflektioner. Effekten styrs med samma `gloss=`-, `glossmap=`- och `type=`-attribut som används för att styra reflexer.

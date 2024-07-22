@@ -1,5 +1,5 @@
 ---
-description: The [!DNL Platform Server] skriver poster i den här loggfilen för att registrera varningar och fel, för att registrera starthändelser, avstängningar och kataloginläsningshändelser.
+description: ' [!DNL Platform Server] skriver poster i den här loggfilen för att registrera varningar och fel, för att registrera starthändelser, avstängningar och kataloginläsningshändelser.'
 solution: Experience Manager
 title: Spårningslogg
 feature: Dynamic Media Classic,SDK/API
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # Spårningslogg{#trace-log}
 
-The [!DNL Platform Server] skriver poster i den här loggfilen för att registrera varningar och fel, för att registrera starthändelser, avstängningar och kataloginläsningshändelser.
+[!DNL Platform Server] skriver poster i den här loggfilen för att registrera varningar och fel, för att registrera starthändelser, avstängningar och kataloginläsningshändelser.

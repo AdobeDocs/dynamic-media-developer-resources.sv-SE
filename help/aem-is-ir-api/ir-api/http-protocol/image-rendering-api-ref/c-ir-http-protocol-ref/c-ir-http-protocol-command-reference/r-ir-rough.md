@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 8903b51c-c7d4-460f-8f28-00053eac9d6e
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,9 @@ Materialytans grovhet. Anger materialytans relativa grovhet.
  </tr> 
 </table>
 
-Används för att styra återgivningseffekten för 3D-reflektion. Lägre värden för grovhet ger vanligen jämnare reflektionseffekter. högre värden orsakar slumpgenerering och spridning av den reflekterade bilden.
+Används för att styra återgivningseffekten för 3D-reflektion. Lägre värden för grovhet ger vanligen jämnare reflektionseffekter och högre värden ger slumpgenerering och spridning av den reflekterade bilden.
 
-Varje materialtyp ( `type=`) definierar en minimal och maximal reflektionsåtergivningseffekt baserad på grovhet. För vissa materialtyper (t.ex. väggpapper) `rough=` har minimal inverkan på reflektionens utseende, medan effekten är betydligt mer uttalad för andra materialtyper (t.ex. sten eller keram).
+Varje materialtyp ( `type=`) definierar en minimal och maximal reflektionsåtergivningseffekt baserat på grovhet. För vissa materialtyper (till exempel väggpapper) har `rough=` minimal inverkan på reflektionens utseende, medan effekten är betydligt mer uttalad för andra materialtyper (till exempel sten eller keramik).
 
 `rough=-1` Anger grovheten till ett serverinternt standardvärde (40 % för vanliga materialtyper).
 
@@ -41,4 +41,4 @@ Materialattribut. Ignoreras om vinjetteringen inte har någon 3D-reflektionskapa
 
 ## Se även {#section-d232fff7237443cc95c4bb50cb3d32bb}
 
-[type=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-type.md#reference-128c7de89e2d46838019b560f3f84a35) , [glans=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca)
+[type=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-type.md#reference-128c7de89e2d46838019b560f3f84a35) , [gloss=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca)

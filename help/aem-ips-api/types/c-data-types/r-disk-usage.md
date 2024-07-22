@@ -1,7 +1,7 @@
 ---
 description: Diskutrymmesstatistik för en resurs eller mapp.
 solution: Experience Manager
-title: DiskUsage
+title: Diskanvändning
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a3c4c1cd-0fcc-4e7a-a4aa-884d0ce2f208
@@ -23,7 +23,7 @@ Syntax
 | Namn | Typ | Beskrivning |
 |---|---|---|
 | companyHandle | `xsd:string` | Företagshandtag. |
-| companyName | `xsd:string` | Företagsnamn. |
+| companyName | `xsd:string` | Företag |
 | imageCount | `xsd:int` | Antal lagrade bilder. |
 | discSpaceUsage | `xsd:long` | Total filsida i kB. |
-| lastModified | `xsd:dateTime` | Datum-, tids- och tidszonen `DiskUsage` texten ändrades senast. |
+| lastModified | `xsd:dateTime` | Datum-, tids- och tidszon som typen `DiskUsage` senast ändrades. |

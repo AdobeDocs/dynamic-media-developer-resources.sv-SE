@@ -20,15 +20,15 @@ Alla icke-PTIFF-bildfiler måste valideras innan filen blir tillgänglig för Im
 
 ## Användning {#usage}
 
-` validate *`fileType`* [ *`alternativ`*] [ *`sourceFile`* [ … ]]`
+` validate *`fileType`* [ *`options`*] [ *`sourceFile`* [ … ]]`
 
 <table id="simpletable_D2C6B20E1007433AB4184A73046A44F0"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> fileType </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> -jpeg | -ptif | -any </span> </p> <p>Källfiltyp. Minst en måste anges (-any tillåter samma bildfiltyper som stöds av IC). </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -jpeg | -ptif | -any </span> </p> <p>Source filtyp. Minst en måste anges (-any tillåter samma bildfiltyper som stöds av IC). </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> alternativ </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> options </span> </span> </p> </td> 
   <td class="stentry"> <p>Andra kommandoalternativ (se nedan). </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -46,7 +46,7 @@ Alla icke-PTIFF-bildfiler måste valideras innan filen blir tillgänglig för Im
 <table id="simpletable_004B1A29BDFD40A9B89E4CBD23119B3F"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -fileList <span class="varname"> listFile </span> </span> </p> </td> 
-  <td class="stentry"> <p>Anger en separat textfil som innehåller listan med bildfiler. En post per fil. If <span class="codeph"> -fileList </span> ingår, <span class="varname"> sourceFile </span> får inte anges. </p> </td> 
+  <td class="stentry"> <p>Anger en separat textfil som innehåller listan med bildfiler. En post per fil. Om <span class="codeph"> -fileList </span> ingår får <span class="varname"> sourceFile </span> inte anges. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -readPixels </span> </p> </td> 
@@ -66,7 +66,7 @@ Alla icke-PTIFF-bildfiler måste valideras innan filen blir tillgänglig för Im
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -silent </span> </p> </td> 
-  <td class="stentry"> <p>Inaktiverar <span class="codeph"> stdout </span>/ <span class="codeph"> stderr </span> utdata. Endast en status returneras. </p> </td> 
+  <td class="stentry"> <p>Inaktiverar <span class="codeph"> stdout </span>/ <span class="codeph"> stderr </span>-utdata. Endast en status returneras. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -stopOnError </span> </p> </td> 

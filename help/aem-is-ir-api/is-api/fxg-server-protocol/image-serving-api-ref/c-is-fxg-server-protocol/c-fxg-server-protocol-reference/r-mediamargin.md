@@ -18,4 +18,4 @@ Ange mediemarginal. Anger den mediemarginal som anges i filen PDF.
 
 ` mediaMargin=[ *[!DNL top]*[, *[!DNL left]*= *[!DNL top]*[, *[!DNL bottom]*= *[!DNL top]*[, *[!DNL right]*= *[!DNL left]*]]]]` i punkter
 
-Som standard är `mediaMargin` är inställt på full storlek för dokumentet som definieras av `viewWidth` och `viewHeight`. The *[!DNL left]*, *[!DNL bottom]* och *[!DNL right]* värden är som standard *[!DNL top]* om inget annat anges.
+Som standard är `mediaMargin` inställd på den fullständiga storleken för dokumentet som definieras av `viewWidth` och `viewHeight`. Värdena *[!DNL left]*, *[!DNL bottom]* och *[!DNL right]* får standardvärdet *[!DNL top]* om de inte anges.

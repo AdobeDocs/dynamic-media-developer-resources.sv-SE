@@ -1,5 +1,5 @@
 ---
-description: Materialfärg. Den huvudsakliga färgen för enfärgade material och den additiva färgen för färglagda texturmaterial.
+description: Materialfärg. Huvudfärgen för enfärgade material och tilläggsfärgen för färgade texturmaterial.
 solution: Experience Manager
 title: Färg
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Färg{#color}
 
-Materialfärg. Den huvudsakliga färgen för enfärgade material och den additiva färgen för färglagda texturmaterial.
+Materialfärg. Huvudfärgen för enfärgade material och tilläggsfärgen för färgade texturmaterial.
 
 ## Egenskaper {#section-073772b43b264b37bd96d1fb7404d10b}
 

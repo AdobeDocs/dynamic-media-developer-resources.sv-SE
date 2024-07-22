@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 0f9430ce-65b9-44be-8d0e-58dbb529c5c2
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Objektupplösning. Objektupplösning för fullstorleksbilden.
 
-Används för upplösningsbaserad skalning med `res=` -kommando.
+Används för upplösningsbaserad skalning med kommandot `res=`.
 
 ## Egenskaper {#section-861a86da50364e2181d62778338359ea}
 

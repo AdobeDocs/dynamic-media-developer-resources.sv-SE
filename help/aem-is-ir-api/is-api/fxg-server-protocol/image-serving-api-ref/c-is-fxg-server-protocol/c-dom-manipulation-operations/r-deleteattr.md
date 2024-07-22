@@ -18,7 +18,7 @@ Ta bort alla attribut för ett givet s7:elementID.
 
 `deleteAttr.elementID={attributeName%26attributeName}`
 
-Om ett FXG-nodelement har en `s7:elementID` kan attributen för den noden tas bort med det här kommandot.
+Om ett FXG-nodelement har `s7:elementID` definierat kan attributen för den noden tas bort med det här kommandot.
 
 ## Exempel {#section-dece7192384a412c9afdfbda6f08bc97}
 
@@ -28,4 +28,4 @@ Om ett FXG-nodelement har en `s7:elementID` kan attributen för den noden tas bo
 
 `<Group d:id="4" d:type="layer" d:userLabel="WhiteFrame" s7:elementID="middle_area">`
 
-I det här exemplet tas attributen bort *[!DNL x]*, *[!DNL y]* och *[!DNL visible]* från den ursprungliga FXG-noden.
+I det här exemplet tas attributen *[!DNL x]*, *[!DNL y]* och *[!DNL visible]* bort från den ursprungliga FXG-noden.

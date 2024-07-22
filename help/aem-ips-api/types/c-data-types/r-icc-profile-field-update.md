@@ -23,6 +23,6 @@ Syntax
 | Namn | Typ | Beskrivning |
 |---|---|---|
 | assetHandle | `xsd:string` | Hantering av ICC-profilresursen som ska uppdateras. |
-| [!DNL class] | `xsd:string` | Profilklasser (se&quot;Profilklasser&quot; för värden). |
+| [!DNL class] | `xsd:string` | Profilklasser (se Profilklasser för värden). |
 | colorSpace | `xsd:string` | Profilfärgrymd (se &quot;Färgrymder&quot; för värden). |
 | pcsType | `xsd:string` | Profilanslutningsrymd (se &quot;Färgrymder&quot; för värden). |

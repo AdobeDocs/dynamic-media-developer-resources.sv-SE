@@ -20,7 +20,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td> <p>Anger det bildformat som komponenten använder för att läsa in bilder från Image Server. Det kan vara vilket värde som helst som Image Server och klientwebbläsaren stöder. Om det angivna formatet slutar med <span class="codeph"> -alpha</span>återger komponenten bilder som genomskinligt innehåll. För alla andra bildformat hanterar komponenten bilder som ogenomskinliga. </p> </td> 
+   <td> <p>Anger det bildformat som komponenten använder för att läsa in bilder från Image Server. Det kan vara vilket värde som helst som Image Server och klientwebbläsaren stöder. Om det angivna formatet slutar med <span class="codeph"> -alpha</span> återges bilderna som genomskinligt innehåll av komponenten. För alla andra bildformat hanterar komponenten bilder som ogenomskinliga. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -21,8 +21,8 @@ Parametern är gemensam för alla visningsprogram.
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p>Rotsökväg för relativ eller absolut bildserver. </p> <p> Anger en relativ eller absolut sökväg till Image Serving, från vilken visningsprogrammet hämtar bilder. Om banan inte har något radavstånd <span class="filepath"> /</span>är den relativ till visningsprogrammets HTML-sida. Om banan har ett radavstånd <span class="filepath"> /</span>anger den en absolut sökväg på samma server. </p> <p> Använd bara en absolut sökväg om e-postdelningsmodulen är aktiverad i visningsprogrammet. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isRootPath </span> </span> </p> </td> 
+   <td colname="col2"> <p>Rotsökväg för relativ eller absolut bildserver. </p> <p> Anger en relativ eller absolut sökväg till Image Serving, från vilken visningsprogrammet hämtar bilder. Om sökvägen inte har radavståndet <span class="filepath"> /</span> är den relativ till platsen för visningsprogrammets HTML-sida. Om sökvägen har radavståndet <span class="filepath"> /</span> anger den en absolut sökväg på samma server. </p> <p> Använd bara en absolut sökväg om e-postdelningsmodulen är aktiverad i visningsprogrammet. </p> </td> 
   </tr> 
  </tbody> 
 </table>

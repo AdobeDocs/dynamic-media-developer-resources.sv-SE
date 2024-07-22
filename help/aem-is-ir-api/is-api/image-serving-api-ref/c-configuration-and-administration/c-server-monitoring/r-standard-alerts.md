@@ -21,7 +21,7 @@ I följande tabell beskrivs varje typ av standardvarning.
 <table id="table_02611F1B920E48A6973BFA969CA564EB"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b>Aviseringstyp</b> </th> 
+   <th class="entry"> <b>Varningstyp</b> </th> 
    <th class="entry"> <b>Titel-ID</b> </th> 
    <th class="entry"> <b>Beskrivning</b> </th> 
   </tr> 
@@ -35,7 +35,7 @@ I följande tabell beskrivs varje typ av standardvarning.
   <tr> 
    <td> <p>Hög samtidighet </p> </td> 
    <td> <p>Konc </p> </td> 
-   <td> Skickas när antalet begäranden som behandlas samtidigt ( <i>överlappa</i>) överskrider det angivna tröskelvärdet. Kan vara en indikation på ett serveröverlagringsvillkor. </td> 
+   <td> Skickas när antalet begäranden som behandlas samtidigt (<i>överlappning</i>) överskrider det angivna tröskelvärdet. Kan vara en indikation på ett serveröverlagringsvillkor. </td> 
   </tr> 
   <tr> 
    <td> <p>Minsta trafik </p> </td> 

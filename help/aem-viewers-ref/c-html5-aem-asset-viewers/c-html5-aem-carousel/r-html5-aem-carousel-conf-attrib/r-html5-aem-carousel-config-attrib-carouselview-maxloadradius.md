@@ -7,20 +7,20 @@ role: Developer,User
 exl-id: 8a3d3d32-7970-420c-8ad8-296c9ba1f08a
 source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '67'
 ht-degree: 0%
 
 ---
 
 # CarouselView.maxloadradius{#carouselview-maxloadradius}
 
-` [CarouselView.|<containerId>_carouselView.]maxloadradius=-1|0| *`preloadnbr`*`
+` [CarouselView.|<containerId>_carouselView.]maxloadradius=-1|0| *`förinläsare`*`
 
 <table id="table_B3B03B00DCF0466DB332E851F4DDF610"> 
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> -1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td> <p>Anger beteende för komponentförinläsning. </p> <p>När inställt på <span class="codeph"> -1</span> komponenten läser in alla karusellbildrutor i förväg när de är inaktiva. </p> <p>När inställt på <span class="codeph"> 0</span> komponenten läser bara in den bildruta som är synlig, föregående och nästa bildruta. </p> <p><span class="codeph"><span class="varname"> preloadnbr</span></span>I definieras hur många osynliga bildrutor runt den bildruta som visas som förinlästa när den är inaktiv. </p> </td> 
+   <td> <p>Anger beteende för komponentförinläsning. </p> <p>När den är inställd på <span class="codeph"> -1</span> läser komponenten in alla karusellbildrutor i förväg när den är inaktiv. </p> <p>När värdet är <span class="codeph"> 0</span> läser komponenten bara in den bildruta som är synlig, föregående och nästa bildruta. </p> <p><span class="codeph"><span class="varname"> preloader</span></span>definierar hur många osynliga bildrutor runt den bildruta som visas som förinlästa när den är inaktiv. </p> </td> 
   </tr> 
  </tbody> 
 </table>

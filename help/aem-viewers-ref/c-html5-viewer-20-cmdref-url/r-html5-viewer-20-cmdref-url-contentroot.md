@@ -21,8 +21,8 @@ Parametern är gemensam för alla visningsprogram.
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> contentUrlPath</span> </span> </p> </td> 
-   <td colname="col2"> <p>Anger grundsökvägen till anpassade CSS-filer, undertextningsinnehåll eller navigeringsinnehåll. </p> <p>Om banan inte har något radavstånd <span class="filepath"> /</span>är den relativ till visningsprogrammets HTML-sida. Om banan har ett radavstånd <span class="filepath"> /</span>anger den en absolut sökväg på samma server. </p> <p> Påverkar inte inläsningen av standard-CSS-filen när du inte anger ett formatkommando. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> contentUrlPath </span> </span> </p> </td> 
+   <td colname="col2"> <p>Anger grundsökvägen till anpassade CSS-filer, undertextningsinnehåll eller navigeringsinnehåll. </p> <p>Om sökvägen inte har radavståndet <span class="filepath"> /</span> är den relativ till platsen för visningsprogrammets HTML-sida. Om sökvägen har radavståndet <span class="filepath"> /</span> anger den en absolut sökväg på samma server. </p> <p> Påverkar inte inläsningen av standard-CSS-filen när du inte anger ett formatkommando. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: a4e187d9-b920-4d0d-adaa-ea369c5694fe
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 1%
+source-wordcount: '63'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p>Anger visningsprogrammets layout på enheter med pekskärm. När parametern är inställd på <span class="codeph"> 1 </span>visas färgrutorna under huvudvyn på skrivbordet. på enheter med pekskärm visas färgrutor ovanpå huvudvyn. </p> <p>När parametern är inställd på <span class="codeph"> 0 </span>, återges färgrutor under huvudvyn på alla enhetstyper. </p> </td> 
+   <td colname="col2"> <p>Anger visningsprogrammets layout på enheter med pekskärm. När parametern är inställd på <span class="codeph"> 1 </span> visar visningsprogrammet färgrutor under huvudvyn på skrivbordet. På beröringsaktiverade enheter visas färgrutor ovanpå huvudvyn. </p> <p>När parametern är inställd på <span class="codeph"> 0 </span> återges färgrutor under huvudvyn på alla enhetstyper. </p> </td> 
   </tr> 
  </tbody> 
 </table>

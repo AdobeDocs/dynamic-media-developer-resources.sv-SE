@@ -22,11 +22,11 @@ Definierar också standardmittpunkten för rotation.
 
 Två heltal avgränsade med kommatecken. Pixelförskjutning i förhållande till det övre vänstra hörnet i den högupplösta bilden.
 
-Åsidosatt av `anchor=`(som i sin tur kan åsidosättas med `origin=`).
+Åsidosätts av `anchor=` (som i sin tur kan åsidosättas av `origin=`).
 
 ## Standard {#section-ca3a4cc837d643519eff15951f2b47a1}
 
-Bildens mittpunkt används om fältet inte finns eller om det är tomt, och om det är en giltig bildpost (d.v.s. om `catalog::Path` är giltigt).
+Bildens mittpunkt används om fältet inte finns eller om det är tomt, och om det är en giltig bildpost (d.v.s. om `catalog::Path` är giltig).
 
 ## Se även {#section-f605d29c3f5d48ad8e2a374f11886f19}
 

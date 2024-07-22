@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Denna materialkategori omfattar färger för väggar, trävaror och ytmaterial, bilar och andra tillämpningar där texturer inte behövs.
 
-Du kan till exempel använda heltäckande färger för att ändra färgen på ett klädobjekt där texturändringar inte krävs, eller för att ange färgen för plastrimmen och mattningen på en bilinsida. Ett material betraktas som en heltäckande färg om det inte finns `src=` värdet finns i MSS.
+Du kan till exempel använda heltäckande färger för att ändra färgen på ett klädobjekt där texturändringar inte krävs, eller för att ange färgen för plastrimmen och mattningen på en bilinsida. Ett material betraktas som en heltäckande färg om det inte finns något `src=`-värde i MSS.
 
 Heltäckande färger kan användas på alla återgivningsbara objekt.
 
@@ -31,7 +31,7 @@ Heltäckande färger kan användas på alla återgivningsbara objekt.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa" type="reference" format="dita" scope="local"> <span class="codeph"> color= </span> </a> </p> </td> 
-   <td colname="col2"> <p> Grått eller RGB. krävs. </p> </td> 
+   <td colname="col2"> <p> Grå eller RGB, färgvärde krävs. </p> </td> 
    <td colname="col3"> <p>Ingen. </p> </td> 
   </tr> 
  </tbody> 

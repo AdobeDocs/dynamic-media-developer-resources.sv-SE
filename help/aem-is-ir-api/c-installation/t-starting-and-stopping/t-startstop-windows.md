@@ -18,5 +18,5 @@ Det finns flera mekanismer för att starta eller stoppa Image Server och [!DNL P
 
 1. Välj något av följande om du vill starta eller stoppa Image Serving:
 
-* Kontrollpanelen för Windows-tjänster kan användas för att starta, stoppa, starta om och verifiera statusen för `Dynamic Media Image Serving` service.
-* **[!UICONTROL Start Menu]**> **[!UICONTROL All Programs]**> **[!UICONTROL Dynamic Media (Scene7)]**> **[!UICONTROL Image Serving]**> **[!UICONTROL Control Service]** innehåller kommandon för att starta, stoppa och starta om `Dynamic Media Image Serving` service.
+* Kontrollpanelen för Windows-tjänster kan användas för att starta, stoppa, starta om och verifiera statusen för tjänsten `Dynamic Media Image Serving`.
+* **[!UICONTROL Start Menu]**> **[!UICONTROL All Programs]**> **[!UICONTROL Dynamic Media (Scene7)]**> **[!UICONTROL Image Serving]**> **[!UICONTROL Control Service]** innehåller kommandon för att starta, stoppa och starta om tjänsten `Dynamic Media Image Serving`.

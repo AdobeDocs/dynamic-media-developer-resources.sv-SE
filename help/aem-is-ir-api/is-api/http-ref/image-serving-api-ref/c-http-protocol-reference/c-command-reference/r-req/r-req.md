@@ -39,8 +39,8 @@ Typ av begäran. Anger typen av begäran.
 * [xlate](r-xlate.md)
 * [xmp](r-xmp.md)
 
-Om inget annat anges i de detaljerade beskrivningarna returneras servern `text` svar med MIME-typ `text/plain`. I många typer av förfrågningar kan du ange en svarstyp, som `text` som vanligtvis är standard, `javascript`, `xml`, eller `json`. De associerade MIME-svarstyperna är `text/plain`, `text/javascript`, `text/xml`och `text/javascript`, respektive
+Om inget annat anges i de detaljerade beskrivningarna returnerar servern `text` svar med MIME-typen `text/plain`. I många frågetyper kan du ange en svarstyp, till exempel `text` som vanligtvis är standard, `javascript`, `xml` eller `json`. De associerade MIME-typerna för svar är `text/plain`, `text/javascript`, `text/xml` och `text/javascript`.
 
-Om inget annat anges formaterar svaren svaret som en uppsättning `name=value` par.
+Om inget annat anges formaterar svaren som en uppsättning av `name=value` par.
 
 Se [Egenskaper](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9).

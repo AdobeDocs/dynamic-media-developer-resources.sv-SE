@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 25032917-237c-4227-92bd-ce66a6d003a0
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Utseendet på behållaren för miniatyrbilder styrs med följande CSS-klassvälj
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p> Den lodräta förskjutningen för miniatyrbehållaren från visningsprogrammets överkant. </p> </td> 
   </tr> 
   <tr> 
@@ -43,7 +43,7 @@ Utseendet på behållaren för miniatyrbilder styrs med följande CSS-klassvälj
    <td colname="col2"> <p>Den vänstra marginalen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal-höger </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal-right </span> </p> </td> 
    <td colname="col2"> <p>Rätt marginal. </p> </td> 
   </tr> 
   <tr> 
@@ -83,7 +83,7 @@ Avståndet mellan miniatyrbilder styrs med följande CSS-klassväljare:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> marginal </span> </p> </td> 
-   <td colname="col2"> <p> Storleken på den vågräta och lodräta marginalen runt varje miniatyrbild. Det faktiska vågräta mellanrummet för miniatyrbilder är lika med summan av den vänstra och högra marginalen som är inställd för <span class="codeph"> .s7thumbcell </span>. Lodrätt mellanrum för miniatyrbilder är lika med summan av den övre och den nedre marginalen. </p> </td> 
+   <td colname="col2"> <p> Storleken på den vågräta och lodräta marginalen runt varje miniatyrbild. Det faktiska vågräta mellanrummet för miniatyrbilder är lika med summan av den vänstra och högra marginalen som är inställd för <span class="codeph"> .s7miniatyrcell </span>. Lodrätt mellanrum för miniatyrbilder är lika med summan av den övre och den nedre marginalen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -117,7 +117,7 @@ Utseendet på enskilda miniatyrbilder styrs med följande CSS-klassväljare:
    <td colname="col2"> <p>Miniatyrbildens höjd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kant </span> </p> </td> 
    <td colname="col2"> <p>Miniatyrens kantlinje. </p> </td> 
   </tr> 
   <tr> 
@@ -131,7 +131,7 @@ När visningsprogrammet roterar till stående läge på pekenheter kan det ändr
 
 >[!NOTE]
 >
->Miniatyrbilden har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika miniatyrlägen. Särskilt gäller följande: `state="selected"` motsvarar miniatyrbilden för den bild som visas i huvudvyn, `state="default"` motsvarar resten av miniatyrbilderna, och `state="over"` används vid hovring av musen.
+>Miniatyrbilden stöder attributväljaren `state` som kan användas för att tillämpa olika skal på olika miniatyrlägen. I synnerhet motsvarar `state="selected"` miniatyrbilden för den bild som visas i huvudvyn, `state="default"` motsvarar resten av miniatyrbilderna och `state="over"` används vid hovring med musen.
 
 Exempel - Om du vill ställa in miniatyrbilder som är 120 x 85 pixlar har du en vit bakgrund, en ljusgrå standardkant och en mörkgrå markerad kant.
 
@@ -196,7 +196,7 @@ Om det finns fler miniatyrbilder än vad som får plats lodrätt i vyn återges 
    <td colname="col2"> <p>Bredden på rullningslisten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p> Den lodräta rullningslistens förskjutning från miniatyrbildsområdets överkant. </p> </td> 
   </tr> 
   <tr> 
@@ -274,11 +274,11 @@ Rullningslistens reglage rör sig lodrätt inom rullningsspårets område. Dess 
    <td colname="col2"> <p>Höjden på rullningslistens miniatyrbild. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-utfyllnadspunkt </span> </p> </td> 
    <td colname="col2"> <p>Den lodräta utfyllnaden mellan rullningslistens överkant. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> utfyllnad-nederkant </span> </p> </td> 
    <td colname="col2"> <p>Den lodräta utfyllnaden mellan rullningslistens nederkant. </p> </td> 
   </tr> 
   <tr> 
@@ -294,7 +294,7 @@ Rullningslistens reglage rör sig lodrätt inom rullningsspårets område. Dess 
 
 >[!NOTE]
 >
->Tummen har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på tumlägena `up`, `down`, `over`och `disabled`.
+>Tummen har stöd för attributväljaren `state`, som kan användas för att tillämpa olika skal på tumlägena `up`, `down`, `over` och `disabled`.
 
 Exempel - om du vill ställa in en rullningslist som är 28 x 45 pixlar, har 10 pixelmarginaler högst upp och längst ned och har olika teckningar för varje läge.
 
@@ -327,7 +327,7 @@ Utseendet på de övre och nedre rullningsknapparna styrs av följande CSS-klass
 
 `.s7ecatalogsearchviewer .s7thumbnailgridview .s7scrollbar .s7scrolldownbutton`
 
-Det går inte att placera rullningsknapparna med CSS `top`, `left`, `bottom`och `right` egenskaper. I stället placerar visningsprogramlogiken dem automatiskt.
+Det går inte att placera rullningsknapparna med CSS-egenskaperna `top`, `left`, `bottom` och `right`. I stället placerar visningsprogramlogiken dem automatiskt.
 
 <table id="table_89E64A138ABF463F9650BB454F22D530"> 
  <thead> 
@@ -358,9 +358,9 @@ Det går inte att placera rullningsknapparna med CSS `top`, `left`, `bottom`och 
 
 >[!NOTE]
 >
->Dessa knappar har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen `up`, `down`, `over`och `disabled`.
+>Dessa knappar har stöd för attributväljaren `state` som kan användas för att tillämpa olika skal på de olika knapplägena `up`, `down`, `over` och `disabled`.
 
-Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - för att ställa in rullningsknappar som är 28 x 32 pixlar och har olika teckningar för varje läge.
 

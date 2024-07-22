@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Sökvägar till bilddatafiler. Anger de filer som innehåller bilddata för den här katalogen.
 
-Bilddatafiler läses in i den angivna ordningen. Om samma `catalog::Id` värdet finns i mer än en post (antingen i samma eller olika katalogfiler), gäller den sista instansen.
+Bilddatafiler läses in i den angivna ordningen. Om samma `catalog::Id`-värde förekommer i mer än en post (antingen i samma eller olika katalogfiler) gäller den sista instansen.
 
 ## Egenskaper {#section-6da55f145ecd4e31a5de52637a436983}
 

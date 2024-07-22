@@ -16,28 +16,28 @@ ht-degree: 0%
 
 Vinjettfil. Anger vilken vinjett som ska användas för begäran.
 
-`vignette=[ *`catId`*/] *`recId`*|[catId/] *`fil`*`
+`vignette=[ *`catId`*/] *`recId`*|[catId/] *`file`*`
 
 <table id="simpletable_432EC5501CA3431B83A762C3EE4E8DD2"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p> </td> 
-  <td class="stentry"> <p>ID för materialkatalog (matchas med <span class="codeph"> attribute::RootId</span>). </p></td> 
+  <td class="stentry"> <p>Materialkatalog-ID (matchat med attributet <span class="codeph">::RootId</span>). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> recId</span> </p></td> 
-  <td class="stentry"> <p>Vinjett-ID (matchat med <span class="codeph"> vinjettering::ID</span>). </p></td> 
+  <td class="stentry"> <p><span class="varname"> recId </span> </p></td> 
+  <td class="stentry"> <p>Vinjett-ID (matchas mot <span class="codeph"> vinjett::Id</span>). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> fil</span> </p></td> 
+  <td class="stentry"> <p><span class="varname"> fil </span> </p></td> 
   <td class="stentry"> <p>Filsökväg och namn för relativ vinjettering. </p></td> 
  </tr> 
 </table>
 
 Kan antingen ange en post för en vinjetteringskarta eller en vinjettfil. Fjärr-URL:er tillåts inte.
 
-`vignette=` Kan användas som ett alternativ till att ange vinjett i URL-sökvägen för begäran. Används för att ange vinjetter med hjälp av variabler i mallar.
+`vignette=` kan användas som ett alternativ till att ange vinjett i URL-sökvägen för begäran. Används för att ange vinjetter med hjälp av variabler i mallar.
 
-If *`catId`* anges inte, sessionskatalogen används.
+Om *`catId`* inte anges används sessionskatalogen.
 
 ## Egenskaper {#section-f58661fc78d7496e8e3d0fb98b945c4b}
 

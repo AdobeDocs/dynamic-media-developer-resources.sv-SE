@@ -18,7 +18,7 @@ Skapar en mapp.
 
 >[!NOTE]
 >
->Den nya mappen är underordnad till mappen Bilder, även om du anger en `/` för att ange företagets rot.
+>Den nya mappen är underordnad mappen Images, även om du anger en `/` som anger roten för företaget.
 
 Syntax
 
@@ -48,7 +48,7 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| folderHandle | `xsd:string` | Ja | Hantering av den nya mappen. |
+| folderHandle | `xsd:string` | Ja | Hantera den nya mappen. |
 
 ## Exempel {#section-e596fbdb44fd43c8b30005cb2a2fdf26}
 

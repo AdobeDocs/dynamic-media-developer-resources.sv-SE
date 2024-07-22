@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 9314782f-703b-4e9c-a026-62970d1c752f
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Om en begäran inte kan slutföras returnerar servern antingen en felbild eller en annan HTTP-svarsstatus än 200 tillsammans med ett felmeddelande.
 
-Svarsstatusvärdet beror på felets typ. För de vanligaste felen är det &quot;403&quot;. Felsvar för förfrågningstyper som inte är bilder följer det format som anges med `req=`. (Kan inte implementeras konsekvent just nu.)
+Svarsstatusvärdet beror på felets typ. För de vanligaste felen är det &quot;403&quot;. Felsvar för förfrågningstyper som inte är avbildningar följer det format som anges med `req=`. (Kan inte implementeras konsekvent just nu.)
 
 Detaljrikedomen i felmeddelandet kan konfigureras med `attribute::ErrorDetail`.
 
@@ -24,13 +24,13 @@ Detaljrikedomen i felmeddelandet kan konfigureras med `attribute::ErrorDetail`.
 
 Image Serving kan konfigureras för att returnera felmeddelanden som återges i en bild.
 
-Se [attribute::ErrorImage](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errorimage.md#reference-c494d5d8b2584fe3800f35baabd0292c) i bildkatalogsreferensen för mer information.
+Mer information finns i [attribute::ErrorImage](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errorimage.md#reference-c494d5d8b2584fe3800f35baabd0292c) i bildkatalogsreferensen.
 
 Om felbilden genereras utan fel är HTTP-svarsstatusen 200. Om ett fel inträffar när felbilden bearbetas returneras standardsvaret på HTTP-felet och textmeddelandet till klienten.
 
 ## Standardbild {#section-66bf25fe6b434081bfae96d38d9be25e}
 
-Image Serving kan konfigureras så att en bild som saknas ersätts med en standardbild. Standardbilden kan anges med `attribute::DefaultImage` eller `defaultImage=` -kommando.
+Image Serving kan konfigureras så att en bild som saknas ersätts med en standardbild. Standardbilden kan anges antingen med kommandot `attribute::DefaultImage` eller `defaultImage=`.
 
 ## Se även {#section-e261d7f224ca4546bb64bf8cb909db08}
 

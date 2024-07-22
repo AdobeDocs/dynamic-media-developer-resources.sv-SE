@@ -43,7 +43,7 @@ Syntax
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| jobLogArray | `types:AssetJobLogArray` | Ja | Jobbloggmatris. |
+| jobLogArray | `types:AssetJobLogArray` | Ja | Jobbloggsmatris. |
 
 ## Exempel {#section-f03d7f3ec5d043d38227f926fb7609f6}
 

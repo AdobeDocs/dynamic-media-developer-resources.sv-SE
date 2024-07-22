@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Jobbdata för ett batchjobb.
 
-Används i batchjobbbegäranden för att till fullo beskriva ett jobb när ett jobb skickas för bearbetning. Värdet är ett URL-kodat XML-fragment.
+Används i batchjobbbegäranden för att till fullo beskriva ett jobb när ett jobb skickas för bearbetning. Värdet är ett URL-kodat XML-kodfragment.

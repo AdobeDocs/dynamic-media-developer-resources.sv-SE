@@ -1,5 +1,5 @@
 ---
-description: Responsive Image Library är en JavaScript-modul som dynamiskt justerar kvaliteten på bilder som hanteras från Dynamic Media och bäddas in på responsiva webbsidor. Dessutom ger den bättre bildkvalitet på enheter med skärmar med hög densitet. Biblioteket kan även återge resultat från smart beskärning och smarta färgrutor reagerar.
+description: Responsive Image Library är en JavaScript-modul som dynamiskt anpassar kvaliteten på bilder som hanteras från Dynamic Media och bäddas in på responsiva webbsidor. Dessutom ger den bättre bildkvalitet på enheter med skärmar med hög densitet. Biblioteket kan även återge resultat från smart beskärning och smarta färgrutor reagerar.
 solution: Experience Manager
 title: Om bibliotek för responsiv bild
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: f853b9b4-917c-4744-b2a5-25fde2532356
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '804'
 ht-degree: 0%
 
 ---
 
 # Om bibliotek för responsiv bild{#about-responsive-image-library}
 
-Responsive Image Library är en JavaScript-modul som dynamiskt justerar kvaliteten på bilder som hanteras från Dynamic Media och bäddas in på responsiva webbsidor. Dessutom ger den bättre bildkvalitet på enheter med skärmar med hög densitet. Biblioteket kan även återge resultat från smart beskärning och smarta färgrutor reagerar.
+Responsive Image Library är en JavaScript-modul som dynamiskt anpassar kvaliteten på bilder som hanteras från Dynamic Media och bäddas in på responsiva webbsidor. Dessutom ger den bättre bildkvalitet på enheter med skärmar med hög densitet. Biblioteket kan även återge resultat från smart beskärning och smarta färgrutor reagerar.
 
 ## Demo-URL:er {#section-4f72c1dc38bf4e03acfa5205733a05a5}
 
@@ -57,14 +57,14 @@ Det enklaste sättet att använda det responsiva bildbiblioteket är att definie
    <td colname="col01"> <p>5 </p> </td> 
    <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/template.html" format="https" scope="external"> https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/template.html </a> </p> <p> 
      <!--http://sasha.s7qa.com/jira-bugs/S7-7729/template.html--> </p> </td> 
-   <td colname="col2"> <p>Du kan också använda kommandona Bildserver med Bildmallar för att styra vissa mallparametrar baserat på bildstorleken. I nästa exempel används en bildservermall där teckensnittsstorleken för textövertäckningen parametriseras med <span class="codeph"> $fontsize </span> parameter. Responsiv bild är konfigurerad att använda en större teckenstorlek för mindre bildstorlekar för att säkerställa att texten alltid förblir läsbar: </p> </td> 
+   <td colname="col2"> <p>Du kan också använda kommandona Bildserver med Bildmallar för att styra vissa mallparametrar baserat på bildstorleken. I det här nästa exemplet används en bildservermall där teckensnittsstorleken för textövertäckningen parametriseras med parametern <span class="codeph"> $fontsize </span> . Responsiv bild är konfigurerad att använda en större teckenstorlek för mindre bildstorlekar för att säkerställa att texten alltid förblir läsbar: </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Systemkrav {#section-35ea9e9c79cc43d7bcefdc240340fba4}
 
-**Servermaskinvara och -programvara**
+**Servermaskinvara och programvara**
 
 * Dynamic Media Image Serving 6.0.1 eller senare.
 

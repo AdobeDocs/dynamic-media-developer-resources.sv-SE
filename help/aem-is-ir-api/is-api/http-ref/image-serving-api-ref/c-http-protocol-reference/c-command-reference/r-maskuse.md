@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: e99101a1-1747-454c-b0c0-3af3335c0497
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ I följande tabell visas effekten av `maskUse=` beroende på tillgänglighet och
 <table id="table_B765F6A765F548948531AF26DA0B4360"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> Värde</b> </th> 
+   <th class="entry"> <b> värde </b> </th> 
    <th class="entry"> <b> Ingen mask</b> </th> 
-   <th class="entry"> <b> Oassocierad alfa (eller separat maskbild)</b> </th> 
+   <th class="entry"> <b> Oassocierad alfa (eller separat maskbild) </b> </th> 
    <th class="entry"> <b> Associerad (förmultiplicerad) alfa</b> </th> 
   </tr> 
  </thead>
@@ -37,7 +37,7 @@ I följande tabell visas effekten av `maskUse=` beroende på tillgänglighet och
    <td> <p> Förgrundsområde för en bild över en rektangel fylld med helsvart </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> norm </span> </p> </td> 
+   <td> <p> <span class="codeph"> normal </span> </p> </td> 
    <td> <p> Ogenomskinlig bildram </p> </td> 
    <td> <p> Bildens förgrundsområde </p> </td> 
    <td> <p> Förgrundsområde för bild eller lager </p> </td> 
@@ -55,7 +55,7 @@ I följande tabell visas effekten av `maskUse=` beroende på tillgänglighet och
 
 Bild- eller lagerattribut. Gäller för lager 0 om `layer=comp`. Om det anges i ett effektlager ändrar kommandot den mask som ärvs från det överordnade lagret.
 
-Beteendet för `maskUse=` är odefinierad och stöds inte när den anges med text eller enfärgslager när ingen bildmask används (anges med `mask=` eller `catalog::Mask`).
+Beteendet för `maskUse=` är odefinierat och stöds inte när det anges med text eller enfärgade lager när ingen bildmask är tillämplig (anges med `mask=` eller `catalog::Mask`).
 
 ## Standard {#section-982dd8174641437786dcb3729ace6428}
 

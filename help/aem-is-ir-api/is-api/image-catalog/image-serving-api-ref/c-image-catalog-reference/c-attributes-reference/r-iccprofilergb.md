@@ -18,11 +18,11 @@ RGB standardprofil för utdatafärg. Anger namnet på ICC-färgprofilen som ska 
 
 ## Egenskaper {#section-3dd55c954d4d4ad4bb715ed7cee31025}
 
-Textsträng. Om det anges måste det vara ett giltigt `icc::Name` värde från ICC-profilmappningen för antingen den här bildkatalogen eller standardkatalogen, eller en filsökväg som är relativ till `attribute::RootPath`. Den ICC-profil som det hänvisas till måste vara en RGB-profil.
+Textsträng. Om det anges måste det vara ett giltigt `icc::Name`-värde från ICC-profilmappningen för antingen den här bildkatalogen eller standardkatalogen, eller en filsökväg som är relativ till `attribute::RootPath`. Den ICC-profil som det hänvisas till måste vara en RGB-profil.
 
 ## Standard {#section-dfe08dd7b851453ca816623a4179955b}
 
-Ärvs från `default::IccProfileRgb` om den inte är definierad eller om den är tom.
+Ärvs från `default::IccProfileRgb` om inte definierad eller om tom.
 
 ## Se även {#section-05bc25ab7caa418ca94d43ced905add7}
 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: ab653aae-532b-4f3d-8541-f6296fbf9172
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1239'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ Bildkonverteringsverktyg.
 
 `ic` är ett kommandoradsverktyg som konverterar bildfiler till det optimerade Pyramid TIFF-formatet (PTIFF). Även om det går att bearbeta bilder utan konvertering rekommenderar vi att du konverterar alla bilder som är större än 512 x 512 pixlar till PTIFF. Denna konvertering ger optimal serverprestanda och resursanvändning och minimerar svarstiderna.
 
-Vi rekommenderar att PTIFF-filer som innehåller fotografiskt innehåll kodas JPEG (ange `-jpegcompress`). Datorgenererat innehåll kan dra nytta av icke-förstörande komprimering (antingen `-deflatecompress` eller `-lzwcompress`). Om inte en färgkonvertering eller konvertering av pixeltyp krävs, överförs JPEG-källbilddata till PTIFF utan avkodning för att undvika kvalitetsförsämring. I det här fallet gäller de angivna komprimeringsalternativen bara för pyramidnivåerna med lägre upplösning.
+Vi rekommenderar att PTIFF-filer som innehåller fotografiskt innehåll kodas JPEG (ange `-jpegcompress`). Datorgenererat innehåll kan dra nytta av förlustfri komprimering (antingen `-deflatecompress` eller `-lzwcompress`). Om inte en färgkonvertering eller konvertering av pixeltyp krävs, överförs JPEG-källbilddata till PTIFF utan avkodning för att undvika kvalitetsförsämring. I det här fallet gäller de angivna komprimeringsalternativen bara för pyramidnivåerna med lägre upplösning.
 
-Om du inte konverterar stora bilder behöver du inte ange parametrar som styr hur mycket minne som ska användas. Om du är det, ge `ic` mer minne genom att använda `-maxmem` inställningen som beskrivs nedan. En bra tumregel för att beräkna mängden minne som krävs är att multiplicera bildens bredd gånger bildens höjd gånger antalet kanaler. Fyra för en RGB-bild med tre alfavärden. Om kanalerna dessutom är 16 bitar per komponent i stället för 8 gånger det slutliga resultatet.
+Om du inte konverterar stora bilder behöver du inte ange parametrar som styr hur mycket minne som ska användas. Om du är det ger du `ic` mer minne genom att använda inställningen `-maxmem` som beskrivs nedan. En bra tumregel för att beräkna mängden minne som krävs är att multiplicera bildens bredd gånger bildens höjd gånger antalet kanaler. Fyra för en RGB-bild med tre alfavärden. Om kanalerna dessutom är 16 bitar per komponent i stället för 8 gånger det slutliga resultatet.
 
 ## Användning {#section-fb5293fa79894442aba831c1e14c5cc9}
 
@@ -33,7 +33,7 @@ Om du inte konverterar stora bilder behöver du inte ange parametrar som styr hu
 <table id="table_E368E220299D449D8311478AB5042987"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"><i>alternativ</i> </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"><i>options</i> </span> </span> </p> </td> 
    <td colname="col2"> <p>Kommandoalternativ (se nedan). </p> </td> 
   </tr> 
   <tr> 
@@ -64,7 +64,7 @@ Om du inte konverterar stora bilder behöver du inte ange parametrar som styr hu
 <table id="table_02011C7C076745A8BF4378B22C48C8A3"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -okomprimerad </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -uncompressed </span> </p> </td> 
    <td colname="col2"> <p>Komprimera inte utdatabilden. </p> </td> 
   </tr> 
   <tr> 
@@ -80,7 +80,7 @@ Om du inte konverterar stora bilder behöver du inte ange parametrar som styr hu
    <td colname="col2"> <p>Använd kodningen JPEG. Ignoreras om <span class="codeph"> <span class="varname"> sourceFile </span> </span> innehåller alfavärden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -jpegquality &lt; <span class="varname"> kvalitet </span>&gt; </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -jpegquality &lt; <span class="varname"> quality </span>&gt; </span> </p> </td> 
    <td colname="col2"> <p>JPEG-kvalitet (0-100; standard är 95). </p> </td> 
   </tr> 
   <tr> 
@@ -88,8 +88,8 @@ Om du inte konverterar stora bilder behöver du inte ange parametrar som styr hu
    <td colname="col2"> <p>Inaktivera nedsampling av färgbilder i JPEG (kan förbättra kvaliteten på färgtext och bilder). Detta påverkar inte utdatabilder som är CMYK eller gråskala. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -usm &lt; <span class="varname"> belopp </span>&gt; &lt; <span class="varname"> radie </span>&gt; &lt; <span class="varname"> tröskelvärde </span>&gt; &lt; <span class="varname"> monokrom </span>&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Använd oskarp maskning på pyramidnivåer i delprov. Se <a href="../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-usm.md#reference-51ac75adadfe4346ab60953192d0a1aa" type="reference" format="dita" scope="local"> op_usm= </a> för mer information. (Används inte för bilder med full upplösning.) </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -usm &lt; <span class="varname"> amount </span>&gt; &lt; <span class="varname"> radius </span>&gt; &lt; <span class="varname"> threshold </span>&gt; &lt; <span class="varname"> monokrom </span>&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Använd oskarp maskning på pyramidnivåer i delprov. Mer information finns i <a href="../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-usm.md#reference-51ac75adadfe4346ab60953192d0a1aa" type="reference" format="dita" scope="local"> op_usm= </a>. (Används inte för bilder med full upplösning.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -applyClippath </span> </p> </td> 
@@ -97,10 +97,10 @@ Om du inte konverterar stora bilder behöver du inte ange parametrar som styr hu
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -dpi &lt; <span class="varname"> dpi </span>&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Upplösning (dpi) för <span class="codeph"> <span class="varname"> destFile </span> </span>, om inget anges, utskriftsupplösningen för <span class="codeph"> srcFile </span> kopieras till <span class="codeph"> <span class="varname"> destFile </span> </span>. </p> </td> 
+   <td colname="col2"> <p>Utskriftsupplösning (dpi) för <span class="codeph"> <span class="varname"> destFile </span> </span> - om den inte anges kopieras utskriftsupplösningen för <span class="codeph"> srcFile </span> till <span class="codeph"> <span class="varname"> destFile </span> </span> . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -autocrop &lt; <span class="varname"> hörn </span>&gt; &lt; <span class="varname"> läge </span>&gt; &lt; <span class="varname"> tolerans </span>&gt; &lt; <span class="varname"> infoFile </span>&gt; </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -autocrop &lt; <span class="varname"> corner </span>&gt; &lt; <span class="varname"> mode </span>&gt; &lt; <span class="varname"> tolerans </span>&gt; &lt; <span class="varname"> infoFile </span>&gt; </span> </p> </td> 
    <td colname="col2"> <p>Beräkna en beskärningsrektangel för att minimera en enfärgad bakgrund. Ingen beskärningsinformation genereras om algoritmen för automatisk beskärning skulle resultera i att hela bilden beskärs. </p> <p>Om du vill beräkna beskärningsrektangeln utan att konvertera bilden anger du <span class="codeph"> -autocrop </span> utan <span class="codeph"> -convert </span> och utan <span class="codeph"> <span class="varname"> destFile.</span> </span></p>
 
 <p><i><b>hörn</b></i> - ul | ur | alla | lr </p>
@@ -109,25 +109,25 @@ Om du inte konverterar stora bilder behöver du inte ange parametrar som styr hu
    <p>Ange 0 om du vill beskära baserat på färgen på den angivna hörnpixeln. Fungerar på förmultiplicerade färgdata om alfadata är kopplade till källbilden.</p>
    <p>Ange 1 om du vill beskära baserat på alfavärden. Hörnet ignoreras och 0 är alltid startvärdet. Ingen beskärning används om inga alfavärden är associerade med källbilden.</p> 
    <p><i><b>tolerans</b></i> - Matcha tolerans. Verkligt värde 0,0 till 1,0. Anger toleransen för att matcha pixelkomponentvärden. Ange 0 om du vill ha exakta träffar.</p>
-   <p><i><b>infoFile</b></i> - Sökväg till och namn på den XML-utdatafil som beskärningsinformationen skrivs till.</p>
+   <p><i><b>infoFile</b></i> - Sökväg till och namn på den XML-utdatafil som beskärningsinformation har skrivits till.</p>
 
 <p>  
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -embedXmpData </span> </p> </td> 
-   <td colname="col2"> <p>Kopiera XMP metadata, om tillgängligt, från <span class="codeph"> <span class="varname"> sourceFile </span> </span> till <span class="codeph"> <span class="varname"> destFile </span> </span> utan ändringar. </p> </td> 
+   <td colname="col2"> <p>Kopiera XMP metadata, om tillgängligt, från <span class="codeph"> <span class="varname"> sourceFile </span> </span> till <span class="codeph"> <span class="varname"> destFile </span> </span> utan ändring. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -embedColorProfile </span> </p> </td> 
-   <td colname="col2"> <p> Bädda in ICC-färgprofilen i <span class="codeph"> <span class="varname"> destFile </span> </span>, om den är tillgänglig (ingen profil är inbäddad som standard). </p> </td> 
+   <td colname="col2"> <p> Bädda in ICC-färgprofilen i <span class="codeph"> <span class="varname"> destFile </span> </span>, om den är tillgänglig (ingen profil bäddas in som standard). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -imageprofile &lt; <span class="varname"> fil </span>&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Sökväg till och namn på en ICC-profilfil. Definierar färgrymden för <span class="codeph"> <span class="varname"> sourceFile </span> </span> och måste matcha dess pixeltyp. Ska bara anges om ingen profil är inbäddad i <span class="codeph"> <span class="varname"> sourceFile </span> </span>, eftersom detta åsidosätter den inbäddade profilen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -imageprofile &lt; <span class="varname"> file </span>&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Sökväg till och namn på en ICC-profilfil. Definierar färgrymden för <span class="codeph"> <span class="varname"> sourceFile </span> </span> och måste matcha dess pixeltyp. Ska bara anges om ingen profil är inbäddad i <span class="codeph"> <span class="varname"> sourceFile </span> </span> eftersom detta åsidosätter den inbäddade profilen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -viewprofile &lt; <span class="varname"> fil </span>&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Sökväg till och namn på en ICC-profilfil. Definierar pixeltyp och färgrymd för <span class="codeph"> <span class="varname"> destFile </span> </span>. Konc.int. konverteras till den här profilen om <span class="codeph"> <span class="varname"> sourceFile </span> </span> har en inbäddad profil eller om <span class="codeph"> -imageprofile </span> anges också. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -viewprofile &lt; <span class="varname"> file </span>&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Sökväg till och namn på en ICC-profilfil. Definierar pixeltypen och färgrymden för <span class="codeph"> <span class="varname"> destFile </span> </span>. IC konverterar till den här profilen om <span class="codeph"> <span class="varname"> sourceFile </span> </span> har en inbäddad profil eller om <span class="codeph"> -imageprofile </span> också har angetts. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -intentPerceptual </span> </p> </td> 
@@ -159,7 +159,7 @@ Om du inte konverterar stora bilder behöver du inte ange parametrar som styr hu
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> - forceJPEGDecompress </span> </p> </td> 
-   <td colname="col2"> <p>Tvinga avkodning och omkodning av indatabilder från JPEG. </p> <p> <b>Varning:</b> Om du använder det här alternativet kan bildkvaliteten försämras. </p> </td> 
+   <td colname="col2"> <p>Tvinga avkodning och omkodning av indatabilder från JPEG. </p> <p> <b>Varning!</b> Om du använder det här alternativet kan bildkvaliteten försämras. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -downsample2x2 </span> </p> </td> 
@@ -174,7 +174,7 @@ Om du inte konverterar stora bilder behöver du inte ange parametrar som styr hu
    <td colname="col2"> <p>Använd omsamplingsfilter med högre kvalitet (FlashPix). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -downsample8x8BikubiskSharp </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -downsample8x8BicubicSharp </span> </p> </td> 
    <td colname="col2"> <p>Nedsampla med Photoshop-format 8x8 bikubisk-skarp filter. </p> </td> 
   </tr> 
   <tr> 
@@ -183,7 +183,7 @@ Om du inte konverterar stora bilder behöver du inte ange parametrar som styr hu
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -overwrite </span> </p> </td> 
-   <td colname="col2"> <p>Tillåt att befintliga <span class="codeph"> <span class="varname"> destFile </span> </span>. Som standard läggs ett numeriskt suffix till i filnamnet för att förhindra att filen skrivs över. </p> </td> 
+   <td colname="col2"> <p>Tillåt att en befintlig <span class="codeph"> <span class="varname"> destFile </span> </span> skrivs över. Som standard läggs ett numeriskt suffix till i filnamnet för att förhindra att filen skrivs över. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -skiphidden </span> </p> </td> 
@@ -194,11 +194,11 @@ Om du inte konverterar stora bilder behöver du inte ange parametrar som styr hu
    <td colname="col2"> <p>Avbryt inte bearbetningen när ett fel inträffar. Det har bara en effekt när du bearbetar flera filer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -logfile &lt; <span class="varname"> fil </span>&gt; </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -logfile &lt; <span class="varname"> file </span>&gt; </span> </p> </td> 
    <td colname="col2"> <p>Loggfilens sökväg och namn (standardvärdet är <span class="codeph"> stdout </span>). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -loglevel &lt; <span class="varname"> nivå </span>&gt; </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -loglevel &lt; <span class="varname"> level </span>&gt; </span> </p> </td> 
    <td colname="col2"> <p>Loggnivå. </p> 
    <p>&lt; 0 - Loggning inaktiverad.</p>
    <p>0 - Lista filer som ska bearbetas.</p>
@@ -217,16 +217,16 @@ Om du inte konverterar stora bilder behöver du inte ange parametrar som styr hu
    <td colname="col2"> <p>Skriv över loggfil. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -log progressSsec &lt; <span class="varname"> msek </span>&gt; </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -logprogressSsec &lt; <span class="varname"> msec </span>&gt; </span> </p> </td> 
    <td colname="col2"> <p>Loggningsintervall i msek för loggnivå 2 och senare (standard är 3000). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -maxmem &lt; <span class="varname"> byte </span>&gt; </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -maxmem &lt; <span class="varname"> bytes </span>&gt; </span> </p> </td> 
    <td colname="col2"> <p>Minnesanvändningsgräns. Måste vara minst 10 MB. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -maxmempercent &lt; <span class="varname"> procent </span>&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Minnesanvändningsgräns. Standardvärdet är 25 % av det fysiska minnet. Om ingen <span class="codeph"> maxmem </span> eller <span class="codeph"> maxmempercent </span> anges explicit med maxmempercent-standard. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -maxmempercent &lt; <span class="varname"> percent </span>&gt; </span> </p> </td> 
+   <td colname="col2"> <p>Minnesanvändningsgräns. Standardvärdet är 25 % av det fysiska minnet. Om varken <span class="codeph"> maxmem </span> eller <span class="codeph"> maxmempercent </span> uttryckligen anges används maxmempercent-standardvärdet. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -version </span> </p> </td> 
@@ -242,11 +242,11 @@ I följande tabell visas de bildfilformat och formatalternativ som stöds av IC.
 <table id="table_1EB2B60993D34B1887275EA4E3491401"> 
  <thead> 
   <tr> 
-   <th class="entry"> <p> <b> Format</b> </p> </th> 
-   <th class="entry"> <p> <b> Pixeltyp</b> <b> Bits/Chan</b> </p> </th> 
-   <th class="entry"> <p> <b> Bits/Chan</b> </p> </th> 
-   <th class="entry"> <p> <b> Komprimering</b> </p> </th> 
-   <th class="entry"> <p> <b> Anteckningar</b> </p> </th> 
+   <th class="entry"> <p> <b>-format</b> </p> </th> 
+   <th class="entry"> <p> <b> Pixeltyp </b> <b> bitar/kanal </b> </p> </th> 
+   <th class="entry"> <p> <b> bitar/kanal</b> </p> </th> 
+   <th class="entry"> <p> <b>-komprimering</b> </p> </th> 
+   <th class="entry"> <p> <b> anteckningar</b> </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -261,7 +261,7 @@ I följande tabell visas de bildfilformat och formatalternativ som stöds av IC.
    <td> <b> EPS</b> <p> (Encapsulated Postscript) </p> </td> 
    <td> <p> CMYK | RGB | grå </p> </td> 
    <td> <p> 8 </p> </td> 
-   <td> <p> ASCII | ASCII85 | Binärt | JPEG </p> </td> 
+   <td> <p> ASCII | ASCII85 | binary | JPEG </p> </td> 
    <td> <p> Endast EPS-filer som genererats av Photoshop stöds. </p> </td> 
   </tr> 
   <tr> 
@@ -279,7 +279,7 @@ I följande tabell visas de bildfilformat och formatalternativ som stöds av IC.
    <td> <p> Om det finns något konverteras genomskinlighetsvärdet på paletten till alfa. </p> </td> 
   </tr> 
   <tr> 
-   <td> <b> JPG</b> <p> (JFIF/JPEG) </p> </td> 
+   <td> <b> JPG </b> <p> (JFIF/JPEG) </p> </td> 
    <td> <p> CMYK | RGB | grå </p> </td> 
    <td> <p> 8 </p> </td> 
    <td> <p> JPEG </p> </td> 
@@ -316,9 +316,9 @@ I följande tabell visas de bildfilformat och formatalternativ som stöds av IC.
  </tbody> 
 </table>
 
-Inbäddade ICC-profiler känns igen i EPS-, JPG, PSD, PNG- och TIFF.
+Inbäddade ICC-profiler känns igen i EPS-, JPG-, PSD-, PNG- och TIFF-filer.
 
-Inbäddade sökvägar och XMP metadata känns igen i EPS-, JPG-, PSD- och TIFF-filer.
+Inbäddade sökvägar och XMP metadata känns igen i filer i EPS, JPG, PSD och TIFF.
 
 ## Exempel {#section-3c1986b30315431989bd76b1ee5bef6d}
 
@@ -326,7 +326,7 @@ Konvertera en enda bild med bäst kvalitet och behåll den i samma mapp:
 
 `ic -convert src/myFile.png src/myFile.tif`
 
-Konvertera alla bilder i *`srcFolder`* till JPEG-kodad pyramid TIFF och placera i *`destFolder`*:
+Konvertera alla bilder i *`srcFolder`* till JPEG-kodad pyramid TIFF och placera dem i *`destFolder`*:
 
 `ic -convert -jpegcompress -jpegquality 90 -overwrite -continueOnError srcFolder destFolder`
 

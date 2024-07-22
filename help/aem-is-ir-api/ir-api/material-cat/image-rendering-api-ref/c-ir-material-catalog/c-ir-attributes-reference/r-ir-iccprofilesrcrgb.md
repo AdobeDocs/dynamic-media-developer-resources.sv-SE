@@ -18,11 +18,11 @@ RGB standardfärgprofil för indata. Anger namnet på ICC-färgprofilen som ska 
 
 ## Egenskaper {#section-c22966bba03e43c08e9d3fb91bfdd465}
 
-Textsträng. Om det anges måste det vara ett giltigt `icc::Name` värde från ICC-profilmappningen för antingen den här bildkatalogen eller standardkatalogen, eller en filsökväg som är relativ till `attribute::RootPath`. Den ICC-profil som det hänvisas till måste vara en RGB-profil.
+Textsträng. Om det anges måste det vara ett giltigt `icc::Name`-värde från ICC-profilmappningen för antingen den här bildkatalogen eller standardkatalogen, eller en filsökväg som är relativ till `attribute::RootPath`. Den ICC-profil som det hänvisas till måste vara en RGB-profil.
 
 ## Standard {#section-0171cd6680284bfa9844b9cc3644ca61}
 
-Ärvs från `default::IccProfileSrcRgb` om den inte är definierad eller om den är tom. If `attribute::IccProfileSrcRgb` matchar inte en giltig profil, `attribute::IccProfileRgb` används i stället.
+Ärvs från `default::IccProfileSrcRgb` om inte definierad eller om tom. Om `attribute::IccProfileSrcRgb` inte matchar en giltig profil används `attribute::IccProfileRgb` i stället.
 
 ## Se även {#section-1ba91666830f4c209c39260ea29f938e}
 

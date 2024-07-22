@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 8f4fe698-afe8-4ce6-904d-42fa67dee4dd
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: '62'
 ht-degree: 0%
 
 ---
@@ -32,8 +32,8 @@ Syntax
 
 **searchAssets**
 
-* Valfritt `publishState` kan du söka på `MarkedForPublish/NotMarkedForPublish` tillgångsläge.
+* Med den valfria parametern `publishState` kan du söka efter resursläget `MarkedForPublish/NotMarkedForPublish`.
 
 **getJobLogs**
 
-* Valfritt `userHandle` kan du hämta jobbloggar som skickas av en viss användare.
+* Med den valfria parametern `userHandle` kan du hämta jobbloggar som skickats in av en viss användare.

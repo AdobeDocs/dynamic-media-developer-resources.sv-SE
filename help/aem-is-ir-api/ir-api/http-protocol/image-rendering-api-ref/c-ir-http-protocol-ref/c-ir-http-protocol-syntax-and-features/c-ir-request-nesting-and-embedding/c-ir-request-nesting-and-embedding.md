@@ -18,4 +18,4 @@ Bildåtergivning tillåter inbäddning av Image Serving-begäranden och HTTP-beg
 
 Dessa mekanismer stöds inte för kabinettmaterial och fönsteromslagsmaterial.
 
-Se även [src=](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272) och Image Serving Reference.
+Se även [src=](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272) och Referens för bildvisning.

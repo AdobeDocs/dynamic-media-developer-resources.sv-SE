@@ -49,41 +49,41 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> successCount</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> successCount </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Antal resurser har flyttats. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> warningCount</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> warningCount </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Antal resurser som genererade varningar när åtgärden försökte flytta dem. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> errorCount</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> errorCount </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Antal resurser som genererade fel när åtgärden försökte flytta dem. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> warningDetailArray </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:AssetOperationFaultArray</span> </td> 
    <td colname="col3"> Nej </td> 
-   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span>som innehåller 
+   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span> som innehåller: 
     <ul id="ul_689F4A87A68140F18DFB43868226A409"> 
-     <li id="li_274C8BF5932F4AF584AA92F25E0F33C6">Resurser som utlöste varningarna. </li> 
+     <li id="li_274C8BF5932F4AF584AA92F25E0F33C6">Assets som utlöste varningarna. </li> 
      <li id="li_5CC4A9120CA94F968CAF0D0135C49E0A">Varningskoder. </li> 
      <li id="li_AEC91FA68B2E43BC8BAA108C743F5667">Orsak till varningen. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> errorDetailArray </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:AssetOperationFaultArray</span> </td> 
    <td colname="col3"> Nej </td> 
-   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span>som innehåller 
+   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span> som innehåller: 
     <ul id="ul_C397BC384A134F429D01ADA28DF2E097"> 
-     <li id="li_EAEBB5F539164480BA9EAA7C8FFBF69A">Resurser som orsakade felen. </li> 
+     <li id="li_EAEBB5F539164480BA9EAA7C8FFBF69A">Assets som orsakade felen. </li> 
      <li id="li_F96D5FBB2F7A402AA36D8DFA3971391D">Felkoder. </li> 
      <li id="li_F610415E416F43DDA4B1DBF1897E2F61">Orsak till felen. </li> 
     </ul> </td> 
@@ -93,7 +93,7 @@ Syntax
 
 ## Exempel {#section-c31ed4c004ab4b3fa42c96d26ceb5ce7}
 
-Detta kodexempel flyttar resurser till en specifik plats som anges av `assetMoveArray`. Arrayen innehåller tillgångshandtaget och dess mappreferens. Svaret anger att resurserna flyttades.
+Det här kodexemplet flyttar resurser till en specifik plats som anges av `assetMoveArray`. Arrayen innehåller tillgångshandtaget och dess mappreferens. Svaret anger att resurserna flyttades.
 
 **Begäran**
 

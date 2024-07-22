@@ -18,7 +18,7 @@ Byter namn på en resurs.
 
 >[!NOTE]
 >
->The `renameFiles` parametern har tagits bort för tidigare versioner och tagits bort från `renameAsset`. Sökvägen för den virtuella filen ändras så att den matchar det nya resursnamnet (med filtillägget bevarat), medan sökvägarna för fysiska filer inte påverkas. API-klienter måste ta bort referenser till den här parametern när de uppdaterar till den nya API-versionen.
+>Parametern `renameFiles` har tagits bort för tidigare versioner och tagits bort från `renameAsset`. Sökvägen för den virtuella filen ändras så att den matchar det nya resursnamnet (med filtillägget bevarat), medan sökvägarna för fysiska filer inte påverkas. API-klienter måste ta bort referenser till den här parametern när de uppdaterar till den nya API-versionen.
 
 ## Auktoriserade användartyper {#section-cc27ad713c6d498b8f056850b20976f4}
 
@@ -42,11 +42,11 @@ Byter namn på en resurs.
 | companyHandle | `xsd:string` | Ja | Referensen till företaget som tillgången tillhör. |
 | assetHandle | `xsd:string` | Ja | Referensen till resursen som du vill byta namn på. |
 | newName | `xsd:string` | Ja | Resursens nya namn. |
-| validateName | `xsd:boolean` | Ja | Om `validateName` är `true` och resurstypen kräver ett unikt IPS-ID, kontrolleras det nya namnet för global unicitet och `renameAsset` returnerar ett fel om det inte är unikt. |
+| validateName | `xsd:boolean` | Ja | Om `validateName` är `true` och resurstypen kräver ett unikt IPS-ID kontrolleras det nya namnet för global unika egenskaper och `renameAsset` genererar ett fel om det inte är unikt. |
 
 **Utdata (renameAssetReturn)**
 
-IPS API returnerar inget svar för den här åtgärden. Se beskrivningen av `<ns1:validateName>` -element för caveats om det här elementet.
+IPS API returnerar inget svar för den här åtgärden. Se beskrivningen av elementet `<ns1:validateName>` för att få information om det här elementet.
 
 ## Exempel {#section-a0ddffd62bec42e09069f22ceb486f8a}
 

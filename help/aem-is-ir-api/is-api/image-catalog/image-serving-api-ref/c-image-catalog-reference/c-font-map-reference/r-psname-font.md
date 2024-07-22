@@ -20,7 +20,7 @@ För närvarande är det bara FXG-återgivaren som kan referera till teckensnitt
 
 ## Egenskaper {#section-a560f8bfc69a4d88aeb0b53c1625153b}
 
-Textsträng. Valfritt. Sekundär indexnyckel för teckensnittskartan. Samma `font::PsName` kan bara förekomma en gång i samma teckensnittskarta.
+Textsträng. Valfritt. Sekundär indexnyckel för teckensnittskartan. Samma `font::PsName`-värde kan bara förekomma en gång i samma teckensnittskarta.
 
 ## Standard {#section-c5903d5340e740b69ec0150d2303a893}
 

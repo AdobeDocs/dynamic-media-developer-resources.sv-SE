@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Tar bort användare från en array med grupper.
 
-**Skillnader mellan kommandot Ta bort**
+**Skillnader mellan Ta bort kommandon**
 
 * `removeGroupMembers`: Tar bort flera användare från en grupp.
 * `removeGroupMembership`: Tar bort en enskild användare från en array med grupper.

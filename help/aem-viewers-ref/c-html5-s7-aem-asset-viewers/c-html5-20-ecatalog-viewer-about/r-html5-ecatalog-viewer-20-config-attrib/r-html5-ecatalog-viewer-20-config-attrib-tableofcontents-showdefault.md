@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 1c700d12-4bea-4b87-91c1-f615c3dceb79
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 2%
+source-wordcount: '47'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td> <p> När inställt på <span class="codeph"> 1</span>fyller komponenten i den nedrullningsbara panelen med element för alla sidor, även för sidor som inte har någon etikett definierad. </p> <p>När inställt på <span class="codeph"> 0</span> endast objekt med explicita etiketter visas i den nedrullningsbara panelen. </p> </td> 
+   <td> <p> När den är inställd på <span class="codeph"> 1</span> fyller komponenten i den nedrullningsbara panelen med element för alla sidor, även för sidor som inte har någon etikett definierad. </p> <p>Om värdet är <span class="codeph"> 0</span> visas endast objekt med explicita etiketter i den nedrullningsbara panelen. </p> </td> 
   </tr> 
  </tbody> 
 </table>

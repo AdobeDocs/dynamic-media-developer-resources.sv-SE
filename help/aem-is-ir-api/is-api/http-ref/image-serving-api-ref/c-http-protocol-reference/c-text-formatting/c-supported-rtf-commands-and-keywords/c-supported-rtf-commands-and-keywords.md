@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: a63bc7f1-34a9-485d-aadd-c65e3e26034a
 source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Nedan följer en lista över nyckelord och kommandon som stöds av textmotorn Scene 7 Image Serving.
 
-Se publicerade [RTF 1.6-specifikation](https://msdn.microsoft.com/en-us/library/aa140277%28v=office.10%29.aspx) om du vill ha information om varje nyckelord eller kommando.
+Mer information om varje nyckelord eller kommando finns i den publicerade [RTF 1.6-specifikationen](https://msdn.microsoft.com/en-us/library/aa140277%28v=office.10%29.aspx).
 
 RTF-kommandon som inte visas nedan ignoreras av parsern.
 

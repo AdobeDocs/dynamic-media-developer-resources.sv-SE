@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 86c87cd1-6e08-40cb-80e6-35a9f49b6572
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
@@ -22,34 +22,34 @@ Lagerklippsbana. Anger en klippbana för aktuellt lager.
 
 <table id="simpletable_275E2A5FAB804C6388BD110D2ACA3C82"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> pathDefinition</span> </span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> pathDefinition </span> </span> </p> </td> 
   <td class="stentry"> <p>Bandata. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> pathName</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> pathName </span></span> </p> </td> 
   <td class="stentry"> <p>Namnet på banan som är inbäddad i lagerkällbilden (endast ASCII). </p></td> 
  </tr> 
 </table>
 
-De delar av lagret som ligger utanför det område som definieras av `clipPath=` renderas som genomskinliga.
+Alla delar av lagret som ligger utanför det område som definieras av `clipPath=` återges som genomskinliga.
 
-`*`pathName`*` är namnet på en bana som är inbäddad i lagerkällbilden. Banan omformas automatiskt för att bibehålla den relativa justeringen med bildinnehållet. Om mer än en `*`pathName`*` anges klipper servern ut bilden till skärningspunkten för dessa sökvägar. Alla `*`pathName`*` som inte hittas i källbilden ignoreras.
+`*`pathName`*` är namnet på en bana som är inbäddad i lagerkällbilden. Banan omformas automatiskt för att bibehålla den relativa justeringen med bildinnehållet. Om mer än en `*`pathName`*` har angetts klipper servern ut bilden till skärningspunkten för sökvägarna. Alla `*`pathName`*` som inte hittas i källbilden ignoreras.
 
 >[!NOTE]
 >
 >Endast ASCII-strängar stöds för `*`pathName`*`.
 
-`*`pathDefinition`*` I kan du ange explicita bandata i pixelkoordinater för lager.
+`*`pathDefinition`*` tillåter att explicit sökvägsdata anges i lagerpixelkoordinater.
 
-If `size=` är angivet och inte 0,0, lagret är förstorleksdefinierat. I det här fallet är bankoordinaterna relativa till lagrets övre vänstra hörn och lagret placeras baserat på `origin=` eller dess standardvärde. Alla områden i banan utanför lagrets rektangel förblir genomskinliga.
+Om `size=` har angetts och inte 0,0, förstorleksändras lagret. I det här fallet är bankoordinaterna relativa till lagrets övre vänstra hörn och lagret placeras baserat på `origin=` eller dess standardvärde. Alla områden i banan utanför lagrets rektangel förblir genomskinliga.
 
-If `size=` är inte angivet för en enfärgad färg eller ett textlager, anses lagret vara självanpassat i den utsträckning som banan bestämmer dess storlek. If `origin=` har inte angetts, används som standard (0,0) för bankoordinatmodellen. Med den här arbetsflödesprocessen kan du ange bankoordinater i förhållande till origo för lager 0.
+Om `size=` inte anges för en heltäckande färg eller ett textlager betraktas lagret som självanpassat i den utsträckning som banan bestämmer dess storlek. Om `origin=` inte anges används (0,0) av sökvägens koordinatmodell som standard. Med den här arbetsflödesprocessen kan du ange bankoordinater i förhållande till origo för lager 0.
 
 >[!NOTE]
 >
->`scale=`, `rotate=`och `anchor=` -kommandon tillåts inte för självstorleksändring av enfärgade lager.
+>Kommandona `scale=`, `rotate=` och `anchor=` tillåts inte för helstora färglager som ändrar storlek automatiskt.
 
-`*`pathDefinition`*` accepterar en sträng som liknar värdet för `d=` SVG-attribut `<path>` -element, förutom att kommatecken används i stället för mellanslag för att separera värden. `*`pathDefinition`*` kan innehålla en eller flera underbanor med sluten slinga.
+`*`pathDefinition`*` accepterar en sträng som liknar värdet för attributet `d=` i elementet SVG `<path>` förutom att kommatecken används i stället för mellanslag för att skilja värden åt. `*`pathDefinition`*` kan innehålla en eller flera underbanor med sluten slinga.
 
 Följande sökvägskommandon stöds i `*`pathDefinition`*`:
 
@@ -57,18 +57,18 @@ Följande sökvägskommandon stöds i `*`pathDefinition`*`:
  <thead> 
   <tr> 
    <th class="entry"> <b> Kommando</b> </th> 
-   <th class="entry"> <b> Namn</b> </th> 
+   <th class="entry"> <b> namn </b> </th> 
    <th class="entry"> <b> Beskrivning</b> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td> <b> M</b> <span class="varname"> x,y</span> </td> 
+   <td> <b> M</b> <span class="varname"> x,y </span> </td> 
    <td> <p> moveto absolut </p> </td> 
    <td> <p> Starta en ny delbana vid x,y. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <b> m</b> <span class="varname"> x,y</span> </td> 
+   <td> <b> m</b> <span class="varname"> x,y </span> </td> 
    <td> <p> flytta relativt </p> </td> 
   </tr> 
   <tr valign="top"> 
@@ -81,12 +81,12 @@ Följande sökvägskommandon stöds i `*`pathDefinition`*`:
    <td> <p> lineto relativ </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <b> C</b> *{<span class="varname"> x1,y1,x2,y2,x,y</span>} </td> 
+   <td> <b> C</b> *<span class="varname"> x1,y1,x2,y2,x,y</span> </td> 
    <td> <p> krängande absolut </p> </td> 
    <td> <p> Rita en Bezier-kurva från den aktuella positionen till x,y. x1,y1 är kontrollpunkten i början av kurvan och x2,y2 är kontrollpunkten i slutet av kurvan. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <b> c</b> *{<span class="varname"> x1,y1,x2,y2,x,y</span>} </td> 
+   <td> <b> c</b> *{<span class="varname"> x1,y1,x2,y2,x,y</span> </td> 
    <td> <p> kurvförhållande </p> </td> 
   </tr> 
   <tr valign="top"> 
@@ -111,7 +111,7 @@ Om en underbana börjar med en relativ rörelse (&#39;m&#39;) är den relativ ti
 
 Lagerattribut. Gäller det aktuella lagret eller den sammansatta bilden om `layer=comp`. Effektlager ignorerar det.
 
-Modifieraren `clipPathE=` ignoreras om det inte finns någon bana med det angivna namnet i lagerkällbilden eller om lagerkällan inte är en bild.
+Modifieraren `clipPathE=` ignoreras om det inte finns någon bana med det angivna namnet i lagrets källbild eller om lagerkällan inte är en bild.
 
 ## Standard {#section-076c35ea37fa4a44ada253b4c2dec1dd}
 

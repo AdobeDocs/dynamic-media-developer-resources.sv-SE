@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: c812c7f0-4ac1-42cb-be47-7baebd8caf60
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,9 @@ Visa höjd. Anger svarsbildens höjd (visningsbild) när det inte finns någon p
  </tr> 
 </table>
 
-Om båda `wid=` och `scl=` anges kan den sammansatta bilden beskäras enligt `align=`-attribut. När `fit=` är närvarande, `hei=` anger den exakta, minsta eller maximala svarshöjden i bilden. Se beskrivningen av [fit=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md) för mer information.
+Om både `wid=` och `scl=` anges kan den sammansatta bilden beskäras enligt attributet `align=`. När `fit=` finns med anger `hei=` den exakta, lägsta eller högsta svarshöjden. Mer information finns i beskrivningen av [fit=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md).
 
-If `scl=` om inget anges skalas den sammansatta bilden så att den passar. Om båda `wid=` och `hei=` anges, och `scl=` anges inte, så skalas bilden så att den passar helt inom den breda/hei-rektangeln, så att så lite bakgrundsområde som möjligt visas. I det här fallet placeras bilden inom visningsrektangeln enligt `align=` -attribut. Bakgrundsområdet fylls med `bgc=`eller, om det inte anges med `attribute::BkgColor`.
+Om `scl=` inte anges skalas den sammansatta bilden så att den passar. Om både `wid=` och `hei=` anges, och `scl=` inte anges, skalas bilden så att den får plats helt inom den bredda/hei-rektangeln, så att så lite bakgrundsområde som möjligt visas. I det här fallet placeras bilden inom visningsrektangeln enligt attributet `align=`. Bakgrundsområdet fylls med `bgc=` eller, om det inte anges med `attribute::BkgColor`.
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ Visa attribut. Det används oavsett den aktuella lagerinställningen.
 
 ## Standard {#section-76544d34806d4124a8b173e229cba71f}
 
-Om ingen `wid=`, `hei=`, eller `scl=` anges har svarsbilden antingen samma storlek som den sammansatta bilden, eller `attribute::DefaultPix`, beroende på vad som är mindre.
+Om varken `wid=`, `hei=` eller `scl=` anges har svarsbilden antingen den sammansatta bildens storlek eller `attribute::DefaultPix`, beroende på vilken som är minst.
 
 ## Exempel {#section-eb10df7cd67e4733984810aaffd0b9e2}
 
@@ -47,7 +47,7 @@ Begär en bild så att den får plats i en 200x200-rektangel. I det övre vänst
 
 `http://server/myRootId/myImageId?wid=200&hei=200&align=-1,-1`
 
-Samma bild, med en fast höjd på 200 pixlar, men med en variabel bredd som matchar bildens proportioner. I det här fallet har den returnerade bilden aldrig några bakgrundsfyllningsområden. Och i det här fallet `align=` skulle inte ha någon effekt alls.
+Samma bild, med en fast höjd på 200 pixlar, men med en variabel bredd som matchar bildens proportioner. I det här fallet har den returnerade bilden aldrig några bakgrundsfyllningsområden. I det här fallet skulle `align=` inte ha någon effekt alls.
 
 `http://server/myRootId/myImageId?hei=200`
 

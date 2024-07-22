@@ -44,7 +44,7 @@ Syntax
 
 ## Exempel {#section-a0cd532b67e346d088fbec141231a0e5}
 
-Detta kodexempel skapar ett projekt som kallas `ApiTestProject` i ett företag som anges av dess referens. Svaret returnerar referensen till projektet.
+Detta kodexempel skapar ett projekt med namnet `ApiTestProject` i ett företag som anges av dess referens. Svaret returnerar referensen till projektet.
 
 **Begäran**
 

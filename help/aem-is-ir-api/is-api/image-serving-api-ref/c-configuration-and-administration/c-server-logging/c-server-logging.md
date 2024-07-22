@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: 5be30dd6-e540-4189-9379-7465ac7198ce
 source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Alla loggfiler skrivs till samma loggmapp som anges med katalogen TC::directory.
 
-Loggfiler skapas vanligtvis och roteras dagligen. Äldre loggfiler i loggmappen tas bort automatiskt efter ett visst antal dagar ( `TC::maxDays`).
+Loggfiler skapas vanligtvis och roteras dagligen. Äldre loggfiler i loggmappen tas automatiskt bort efter ett angivet antal dagar ( `TC::maxDays`).
 
 Viktigt! Det måste finnas tillräckligt mycket diskutrymme för loggfiler för att diskutrymmet ska kunna ta slut. 1-2 GB/dag kan behövas för servrar och standardlogginställningar.
 
-The [!DNL Platform Server] och Image Server skapar de tre typer av loggfiler som beskrivs nedan.
+[!DNL Platform Server] och Image Server skapar de tre typer av loggfiler som beskrivs nedan.
 
 Andra Image Serving-komponenter och vissa andra Dynamic Media-paket, som Dynamic Media Viewer, kan också skapa loggfiler i samma mapp. Loggfilerna är avsedda för Dynamic Media internt bruk och kan begäras av Dynamic Media tekniska support för felsökning.
 

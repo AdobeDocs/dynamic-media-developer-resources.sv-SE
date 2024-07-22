@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Tillåt absoluta käll-URL:er.
 
-Ange till `1` för att tillåta absoluta HTTP-URL:er (som börjar med &quot; `http://`&quot;) in `src=` kommandon. Ange till `0` för att inte tillåta absoluta URL:er.
+Ange till `1` om du vill tillåta absoluta HTTP-URL:er (med början från `http://`) i `src=`-kommandon. Ange till `0` om du inte vill tillåta absoluta URL:er.
 
 ## Egenskaper {#section-9246bc06c7484f9e8f65a5edb24f6854}
 
@@ -24,7 +24,7 @@ Flagga.
 
 ## Standard {#section-a881c30ea28e47e296faa890c3bd6daf}
 
-Ärvs från `default::AllowDirectUrls` om den inte är definierad eller om den är tom.
+Ärvs från `default::AllowDirectUrls` om inte definierad eller om tom.
 
 ## Se även {#section-66e0c597a8b04155b40538385312b389}
 

@@ -20,9 +20,9 @@ JavaScript API-referens för visningsprogrammet för smart beskärning.
 
 Startar initieringen av videovisningsprogrammet för smart beskärning. Vid den här tidpunkten måste behållar-DOM-elementet skapas så att visningsprogramkoden kan hitta det med dess ID.
 
-Om behållarelementet inte är en del av webbsideslayouten än, kan det till exempel döljas med `display:none` format som tilldelats det - visningsprogrammet avbryter sin initieringsprocess. Det gör det tills webbsidan återför behållarelementet till layouten. När den här åtgärden utförs återtas visningsprogrammet automatiskt.
+Om behållarelementet inte är en del av webbsideslayouten än - till exempel om det är dolt med formatet `display:none` som tilldelats det - kommer visningsprogrammet att avbryta initieringsprocessen. Det gör det tills webbsidan återför behållarelementet till layouten. När den här åtgärden utförs återtas visningsprogrammet automatiskt.
 
-Anropa denna metod endast en gång under tittarens livscykel. efterföljande anrop ignoreras.
+Anropa den här metoden endast en gång under visningsprogrammets livscykel. Efterföljande anrop ignoreras.
 
 ## Parametrar {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 

@@ -7,16 +7,16 @@ role: Developer,User
 exl-id: e36660bb-d2ec-464c-b578-fe862bca5c50
 source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
 
 # TimeStamp{#timestamp}
 
-If `attribute::UseLastModified` är inställd, `catalog::TimeStamp` värdet returneras i HTTP-svaret som en Senast ändrad HTTP-rubrik. Rubriken Senast ändrad returneras alltid för statiskt innehåll, även om `attribute::UseLastModified` har inte angetts.
+Om `attribute::UseLastModified` anges returneras värdet `catalog::TimeStamp` i HTTP-svaret som en Senast ändrad HTTP-rubrik. Rubriken Senast ändrad returneras alltid för statiskt innehåll, även om `attribute::UseLastModified` inte har angetts.
 
-För bild- och SVG-innehåll `catalog::TimeStamp` används också för katalogbaserad cachevalidering (se [attribute::CacheValidationPolicy](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-cachevalidationpolicy.md).
+För bild- och SVG-innehåll används `catalog::TimeStamp` även för katalogbaserad cachevalidering (se [attribute::CacheValidationPolicy](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-cachevalidationpolicy.md)).
 
 ## Egenskaper {#section-2298a384b5cb43929542655c5a49beb2}
 
@@ -26,13 +26,13 @@ Datum-/tidsvärde i Java-format. Kan vara antingen heltal i millisekunder sedan 
 
 *`mm`*/ *`dd`*/ *`yyyy`* *`hh`*: *`mm`*: *`ss`* GMT *`offset`*
 
-*`hh`* ligger mellan 0 och 23.
+*`hh`* ligger i intervallet 0-23.
 
-*`zzz`* är en tidszonskod på tre eller fyra tecken, till exempel &quot;GMT&quot; eller &quot;PST&quot;. Konto för sommartid i tidszonskoden. Till exempel PST för Pacific Standard Time jämfört med PDT för Pacific Daylight Savings Time).
+*`zzz`* är en tidszonskod på tre eller fyra tecken, till exempel GMT eller PST. Konto för sommartid i tidszonskoden. Till exempel PST för Pacific Standard Time jämfört med PDT för Pacific Daylight Savings Time).
 
 *`offset`* är en tidszonsförskjutning i timmar eller `hours:minutes`, i förhållande till GMT. &quot;PDT&quot; motsvarar till exempel &quot;GMT -7&quot;.
 
-Alla element i strängformaterade datum/tid-värden måste finnas. Om datum/tid-värdet inte är korrekt formaterat ignoreras det och ändringstiden för `*`katalog`*.ini` filen används i stället.
+Alla element i strängformaterade datum/tid-värden måste finnas. Om datum/tid-värdet inte är korrekt formaterat ignoreras det och ändringstiden för `*`katalog`*.ini`-filen används i stället.
 
 ## Standard {#section-0cbf801401ff4857bdda168fd12358af}
 

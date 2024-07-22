@@ -53,7 +53,7 @@ Exempel - för att göra huvudvyn genomskinlig.
 }
 ```
 
-På datorer har komponenten stöd för `cursortype` attributväljare som kan användas på `.s7zoomview` och styr markörtypen baserat på komponentens tillstånd och användaråtgärden. Följande `cursortype` värden stöds:
+I skrivbordssystem stöder komponenten attributväljaren `cursortype` som kan användas på klassen `.s7zoomview` och styr markörtypen baserat på komponentens tillstånd och användaråtgärd. Följande `cursortype`-värden stöds:
 
 <table id="table_BC9FC40DA27B4A85995F4E9431AABF33"> 
  <thead> 
@@ -72,7 +72,7 @@ På datorer har komponenten stöd för `cursortype` attributväljare som kan anv
    <td colname="col2"> <p>Visas när bilden kan zoomas in. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> återställ </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> reset </span> </p> </td> 
    <td colname="col2"> <p>Visas när bilden har maximal zoomnivå och kan återställas till det ursprungliga läget. </p> </td> 
   </tr> 
   <tr> 

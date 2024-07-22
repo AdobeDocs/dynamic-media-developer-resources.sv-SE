@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Innehåller inställningar för hantering av bildkataloger.
 
-Filen är en JAVA-egenskapsfil. Det är viktigt att följa tillämpliga konventioner. annars [!DNL Platform Server] kanske inte kan starta. Använd ett dubbelt omvänt snedstreck (\\) eller ett enkelt snedstreck (/) i stället för ett omvänt snedstreck (\) i Windows-filsökvägar. Det omvända snedstrecket används som ett escape-tecken i den här filtypen.
+Filen är en JAVA-egenskapsfil. Du måste iaktta försiktighet för att följa lämpliga konventioner. Annars kanske [!DNL Platform Server] inte kan startas. Använd ett dubbelt omvänt snedstreck (\\) eller ett enkelt snedstreck (/) i stället för ett omvänt snedstreck (\) i Windows-filsökvägar. Det omvända snedstrecket används som ett escape-tecken i den här filtypen.
 
 Ändringarna i den här filen börjar gälla kort efter att filen har sparats.
 

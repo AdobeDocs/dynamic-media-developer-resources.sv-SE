@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: ede7d887-526b-4e00-9885-166dc37627aa
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
@@ -59,11 +59,11 @@ Knappens utseende styrs med följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen har stöd för `state` och `selected` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen.
+>Den här knappen stöder attributväljarna `state` och `selected` som kan användas för att tillämpa olika skal på olika knapplägen.
 >
->I synnerhet `selected='false'` motsvarar det inledande rullningsknappläget, och `selected='true'` motsvarar läget när sökpanelen är aktiv.
+>`selected='false'` motsvarar i synnerhet det inledande rullningsknappläget och `selected='true'` motsvarar läget när sökpanelen är aktiv.
 
-Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - om du vill ställa in en sökknapp som är 28 x 28 pixlar och visar olika bilder för vart och ett av de fyra olika knapplägena när de är markerade eller inte markerade.
 

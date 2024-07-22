@@ -16,16 +16,16 @@ ht-degree: 0%
 
 Tillåt direkt åtkomst till sökvägsbaserade resurser.
 
-När det här attributet definieras tillåts eller begränsas sökvägsbaserad åtkomst för de angivna objekttyperna, beroende på om `include` eller `exclude` nyckelord används.
+När det här attributet definieras tillåts eller begränsas sökvägsbaserad åtkomst för de angivna objekttyperna, beroende på om nyckelordet `include` eller `exclude` används.
 
 >[!NOTE]
 >
->Om `AllowDirectAccess` inget attribut har angetts, standardvärdet är `exclude`.
+>Om attributet `AllowDirectAccess` inte anges är standardvärdet `exclude`.
 
-* `include` ger åtkomst till de angivna objekttyperna och begränsar åtkomsten för alla andra.
+* `include` tillåter åtkomst för de angivna objekttyperna och begränsar åtkomsten för alla andra.
 * `exclude` begränsar åtkomsten för de angivna objekttyperna och tillåter åtkomst för alla andra.
 
-Om ingen `include` eller `exclude` anges, `include` antas.
+Om varken `include` eller `exclude` anges antas `include`.
 
 Följande typer kan kontrolleras:
 
@@ -39,13 +39,13 @@ Följande typer kan kontrolleras:
 
 ## Exempel {#section-4c3765ebaa4245a799b454fc196f9237}
 
-* Tillåt endast direktåtkomst för `IS` och `STATIC` objekttyper
+* Tillåt endast direktåtkomst för objekttyperna `IS` och `STATIC`
 
   `AllowDirectAccess=include:IS,STATIC`
 
 * Tillåt direktåtkomst för alla objekttyper utom `IS` och `STATIC``AllowDirectAccess=exclude:IS,STATIC`
 
-* Tillåt direktåtkomst för *no* objekttyper (d.v.s. include none)
+* Tillåt direktåtkomst för objekttyperna *no* (d.v.s. ingen)
 
   `AllowDirectAccess=include:`
 
@@ -53,12 +53,12 @@ Följande typer kan kontrolleras:
 
   `AllowDirectAccess=exclude:`
 
-* Motsvarar `include:IS,STATIC` (om `include`/ `exclude` inte finns, `include` antas)
+* Motsvarar `include:IS,STATIC` (om `include`/ `exclude` inte finns antas `include`)
 
   `AllowDirectAccess=IS,STATIC`
 
-  Observera att det är standardvärdet som används om `AllowDirectAccess` inget attribut har angetts för det här företaget.
+  Observera att det är standardvärdet som används om attributet `AllowDirectAccess` inte har angetts för det här företaget.
 
-* Inkludera ingen, motsvarar `include:` (om `include`/ `exclude` inte finns, `include` antas)
+* Inkludera ingen, vilket motsvarar `include:` (om `include`/ `exclude` inte finns antas `include`)
 
   `AllowDirectAccess=`

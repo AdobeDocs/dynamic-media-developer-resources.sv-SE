@@ -14,12 +14,12 @@ ht-degree: 0%
 
 # Print.printquality{#print-printquality}
 
-` [Print.|<containerId>_print.]printquality= *`size`*`
+` [Print.|<containerId>_print.]printquality= *`storlek`*`
 
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> size</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> storlek </span></span> </p> </td> 
    <td colname="col2"> <p> Den maximala storleken på bilden som skickas till utskrift. </p> </td> 
   </tr> 
  </tbody> 

@@ -21,7 +21,7 @@ Konfigurationsattribut för Video Viewer.
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> e-postadress</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> e-postadress </span></span> </p> </td> 
    <td colname="col2"> <p> Anger bas-URL:en för e-posttjänsten Dynamic Media Classic OnDemand. </p> </td> 
   </tr> 
  </tbody> 

@@ -1,5 +1,5 @@
 ---
-description: Datafiler för statisk innehållskälla är bara tillgängliga för [!DNL Platform Server].
+description: Datafiler för statisk innehållskälla är bara tillgängliga för  [!DNL Platform Server].
 solution: Experience Manager
 title: Källdata för statiskt innehåll
 feature: Dynamic Media Classic,SDK/API
@@ -22,8 +22,8 @@ Sökvägen för datafiler med statiskt innehåll tolkas på följande sätt:
 
 Servern kombinerar sökvägssegment från höger till vänster tills en absolut filsökväg har upprättats.
 
-Alla ` *[!DNL rootPath]*` segment kan vara tomma, relativa eller absoluta bansegment.
+Alla ` *[!DNL rootPath]*`-segment kan vara tomma, relativa eller absoluta sökvägssegment.
 
-` *[!DNL catalogPath]*` är antingen en absolut eller relativ sökväg/filnamn. *[!DNL requestPath]* måste vara en relativ sökväg/ett relativt filnamn.
+` *[!DNL catalogPath]*` är antingen en absolut eller relativ sökväg/namn. *[!DNL requestPath]* måste vara en relativ sökväg/ett relativt filnamn.
 
-Flera `PS::staticContent.rootPaths` värden kan definieras i [!DNL PlatformServer.conf]. Detta gör att källdatafiler kan distribueras över flera filsystem. The [!DNL Platform Server] söker efter alternativa sökvägar i den ordning som anges tills datafilen hittas.
+Flera `PS::staticContent.rootPaths`-värden kan definieras i [!DNL PlatformServer.conf]. Detta gör att källdatafiler kan distribueras över flera filsystem. [!DNL Platform Server] försöker med alternativa sökvägar i den ordning som anges tills datafilen hittas.

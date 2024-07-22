@@ -22,7 +22,7 @@ Flagga.
 
 ## Standard {#section-e6f1f81ef5c949a488b2002581bda0d0}
 
-Ärvs från `default::Sharpen` om den inte är definierad eller om den är tom.
+Ärvs från `default::Sharpen` om inte definierad eller om tom.
 
 ## Se även {#section-85393c62428f49739a2510f9427d3607}
 

@@ -1,5 +1,5 @@
 ---
-title: Teknikstöd
+title: Stöd för hjälpmedel
 description: Alla visningsprogramkomponenter har stöd för ARIA-roller (Accessible Rich Internet Applications) och -attribut för att förbättra integrationen med hjälpmedelstekniker som skärmläsare.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images,Accessibility
@@ -12,12 +12,12 @@ ht-degree: 0%
 
 ---
 
-# Teknikstöd{#assistive-technology-support}
+# Stöd för hjälpmedel{#assistive-technology-support}
 
 Alla visningsprogramkomponenter har stöd för ARIA-roller (Accessible Rich Internet Applications) och -attribut för att förbättra integrationen med hjälpmedelstekniker som skärmläsare.
 
-Visningsprogramelementet på den översta nivån har en roll `region` och `aria-label` som standard anges visningsprogrammets namn. Du kan styra etiketten med `Container.LABEL` lokaliseringssymbol.
+Visningselementet på den översta nivån har rollen `region` och attributet `aria-label` inställt som standard på visningsprogrammets namn. Du kan styra etiketten med lokaliseringssymbolen `Container.LABEL`.
 
-Huvudvyn har en roll `application`. En kort beskrivning av huvudvyn finns i `aria-roledescription`, med det värde som definieras av `ROLE_DESCRIPTION` lokaliseringssymbol för motsvarande huvudvykomponent. Navigeringstips för tangentbordsanvändare tillhandahålls med `aria-describedby`, kommer texten för användartipset från `USAGE_HINT` lokaliseringssymbol. Om en resurs har en etikett definierad i fältet UserData, `aria-label` -attributet anges med värdet för den etiketten.
+Huvudvyn har rollen `application`. En kort beskrivning av huvudvyn tillhandahålls i `aria-roledescription`, med det värde som definieras av `ROLE_DESCRIPTION`-lokaliseringssymbolen för motsvarande huvudvykomponent. Navigeringstips för tangentbordsanvändare tillhandahålls med `aria-describedby`. Texten för användartipset kommer från `USAGE_HINT`-lokaliseringssymbolen. Om en resurs har en etikett definierad i fältet UserData ställs attributet `aria-label` in med värdet för den etiketten.
 
-Aktiveringspunkter, regioner och bildscheman har rollen `button` och beskrivande text med `aria-label` -attribut, med värdet för aktiveringspunkten eller bildschemaetiketten. När användaren fokuserar på aktiveringspunkter eller bildscheman visas navigeringstips för tangentbordsanvändare med `aria-describedby`, med texten för användartipset som kommer från `USAGE_HINT` lokaliseringssymbol.
+Aktiveringspunkter, regioner och bildscheman har rollen `button` och beskrivande text med attributet `aria-label`, med värdet för aktiveringspunkten eller bildschemats etikett. När användaren fokuserar på aktiveringspunkter eller bildscheman visas navigeringstips för tangentbordsanvändare med `aria-describedby`, där texten för användartipset kommer från lokaliseringssymbolen `USAGE_HINT`.

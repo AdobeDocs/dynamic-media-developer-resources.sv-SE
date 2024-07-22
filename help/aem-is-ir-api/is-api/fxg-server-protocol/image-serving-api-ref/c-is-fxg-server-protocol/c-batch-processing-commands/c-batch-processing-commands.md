@@ -18,7 +18,7 @@ Följande kommandon omfattar API:t för gruppbearbetning som används av Platfor
 
 Dessa anges i specialbegärandeformatet som: `?req=<command>`
 
-Exemplen som visas för dessa kommandon använder en fiktiv `PlatformServer` URL &quot; [!DNL scene7.adobe.com:8080]&quot; och ett fiktivt företag som heter AcmeCorp. Jobb-ID:t är också fiktivt.
+Exemplen som visas för dessa kommandon använder en fiktiv `PlatformServer`-URL [!DNL scene7.adobe.com:8080] och ett fiktivt företag som kallas AcmeCorp. Jobb-ID:t är också fiktivt.
 
 * [batchjobbinformationsstatus](r-batchjobbriefstatus.md)
 * [batchjobbta bort](r-batchjobdelete.md)

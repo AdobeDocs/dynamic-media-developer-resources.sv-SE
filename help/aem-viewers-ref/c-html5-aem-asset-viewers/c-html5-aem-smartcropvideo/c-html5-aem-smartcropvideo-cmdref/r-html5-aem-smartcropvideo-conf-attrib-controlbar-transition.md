@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 7b4db11b-e9ac-4a52-9206-083989128bc6
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
@@ -16,20 +16,20 @@ ht-degree: 0%
 
 Konfigurationsattribut för visningsprogrammet för smart beskärning.
 
-` [ControlBar.|<containerId>_controls.]transition=none|fade[, *`delaytohide`*[, *`varaktighet`*]`
+` [ControlBar.|<containerId>_controls.]transition=none|fade[, *`delaytohide`*[, *`duration`*]`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ingen|tona</span> </p> </td> 
-   <td colname="col2"> <p> Anger den effekttyp som används för att visa eller dölja kontrollfältet och dess innehåll. </p> <p>Använd <span class="codeph"> ingen</span> för direktvisning och dölj. Använd <span class="codeph"> tona</span> för att skapa en gradvis toning in- och uttoningseffekt. </p> <p>Tona stöds inte i Internet Explorer 8. </p> </td> 
+   <td colname="col2"> <p> Anger den effekttyp som används för att visa eller dölja kontrollfältet och dess innehåll. </p> <p>Använd <span class="codeph"> ingen</span> för direktvisning och dölj. Använd <span class="codeph"> Tona </span> för att få en gradvis toning in- och uttoningseffekt. </p> <p>Tona stöds inte i Internet Explorer 8. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delaytohide</span> </span> </p> </td> 
-   <td colname="col2"> <p>Anger tiden i sekunder mellan den senaste mus-/pekhändelsen som kontrollfältet registrerar och tidskontrollfältet döljs. </p> <p> Om inställt på <span class="codeph"> -1</span>, utlöser komponenten aldrig sin automatiska döljningseffekt och förblir alltid synlig på skärmen. </p> </td> 
+   <td colname="col2"> <p>Anger tiden i sekunder mellan den senaste mus-/pekhändelsen som kontrollfältet registrerar och tidskontrollfältet döljs. </p> <p> Om den anges till <span class="codeph"> -1</span> utlöser komponenten aldrig sin auto-hide-effekt och förblir alltid synlig på skärmen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> varaktighet</span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duration </span> </span> </p> </td> 
    <td colname="col2"> <p>Anger längden på in- och uttoningsanimeringen, i sekunder. </p> </td> 
   </tr> 
  </tbody> 

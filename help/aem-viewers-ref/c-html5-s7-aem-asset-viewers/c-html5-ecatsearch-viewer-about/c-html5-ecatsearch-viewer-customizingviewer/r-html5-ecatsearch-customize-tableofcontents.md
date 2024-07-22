@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: bc597c68-b86c-4577-9d24-6999eccada78
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -59,9 +59,9 @@ Placeringen och storleken på innehållsförteckningsknappen i visningsprogramme
 
 >[!NOTE]
 >
->Den här knappen har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen.
+>Den här knappen stöder attributväljaren `state` som kan användas för att tillämpa olika skal på olika knapplägen.
 
-Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - Ställ in en innehållsförteckningsknapp som är placerad 4 pixlar från nederkanten och 43 pixlar från vänster om huvudkontrollfältet. Storleken är 28 x 28 pixlar och olika bilder visas för vart och ett av de fyra olika knapplägena:
 
@@ -112,7 +112,7 @@ Utseendet på den nedrullningsbara panelen styrs av följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Det går inte att styra storleken eller placeringen av den nedrullningsbara panelen från CSS. komponenten hanterar sin layout programmatiskt.
+>Det går inte att styra storleken eller positionen för den nedrullningsbara panelen från CSS. Komponenten hanterar layouten programmatiskt.
 
 Exempel - ställ in en nedrullningsbar panel som har en halvgenomskinlig svart bakgrund, en marginal på 5 pixlar runt innehållet och en skugga:
 
@@ -136,7 +136,7 @@ Det enskilda objektets utseende och känsla styrs med följande CSS-klassväljar
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>Teckensnittsnamn. </p> </td> 
+   <td colname="col2"> <p>Typsnittsnamn. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
@@ -155,7 +155,7 @@ Det enskilda objektets utseende och känsla styrs med följande CSS-klassväljar
 
 >[!NOTE]
 >
->Listruteobjektet har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på hovring och valda objektlägen.
+>Listruteobjektet har stöd för attributväljaren `state`, som kan användas för att tillämpa olika skal för hovring och valda objektlägen.
 
 Exempel - skapa ett nedrullningsbart objekt med ett Helvetica®-teckensnitt med 14 pixlar och 19 pixlar högt. Ett objekt har en mörkgrå bakgrund på hovring och en ljusgrå bakgrund när det är markerat:
 
@@ -192,7 +192,7 @@ Ett element som visar sidindexet styrs med följande CSS-klassväljare:
    <td colname="col2"> <p> Maximal elementbredd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> utfyllnad höger </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> utfyllnadshöger </span> </p> </td> 
    <td colname="col2"> <p> Avstånd mellan sidindexet och sidetiketten. </p> </td> 
   </tr> 
  </tbody> 
@@ -200,7 +200,7 @@ Ett element som visar sidindexet styrs med följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Du kan dölja sidindexet helt genom att ange `display:none` för `s7index` CSS-klass.
+>Det går att dölja sidindexet helt genom att ange `display:none` för CSS-klassen `s7index`.
 
 Exempel 1 - ställ in ett sidindex med en minsta bredd på 40 pixlar, en maximal bredd på 70 pixlar och en marginal på 5 pixlar till höger:
 
@@ -265,7 +265,7 @@ Om det finns fler objekt än vad som får plats lodrätt i den nedrullningsbara 
    <td colname="col2"> <p> Bredden på rullningslisten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p> Den lodräta rullningslistens förskjutning från panelområdets överkant. </p> </td> 
   </tr> 
   <tr> 
@@ -306,7 +306,7 @@ Rullningslistens spår är området mellan den övre och den nedre rullningsknap
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>Bakgrundsfärgen för spåret. </p> </td> 
+   <td colname="col2"> <p>Bakgrundsfärg för spår. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -339,11 +339,11 @@ Rullningslistens reglage rör sig lodrätt inom rullningsspårets område. Dess 
    <td colname="col2"> <p>Tumthöjden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">-utfyllnadspunkt </span> </p> </td> 
    <td colname="col2"> <p> Den lodräta utfyllnaden mellan spårets överkant. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> utfyllnad-nederkant </span> </p> </td> 
    <td colname="col2"> <p>Den lodräta utfyllnaden mellan spårets nederkant. </p> </td> 
   </tr> 
   <tr> 
@@ -359,7 +359,7 @@ Rullningslistens reglage rör sig lodrätt inom rullningsspårets område. Dess 
 
 >[!NOTE]
 >
->Tummen har stöd för `state` attributväljaren, som kan användas för att tillämpa olika skal på `up`, `down`, `over`och `disabled` tumlägen.
+>Tummen har stöd för attributväljaren `state`, som kan användas för att tillämpa olika skal på tumlägena `up`, `down`, `over` och `disabled`.
 
 Exempel - Ställ in en rullningslist som är 28 x 45 pixlar, har 10 pixelmarginaler högst upp och längst ned och har olika teckningar för varje läge:
 
@@ -396,7 +396,7 @@ Utseendet på de övre och nedre rullningsknapparna styrs av följande CSS-klass
 .s7ecatalogsearchviewer .s7tableofcontents .s7scrollbar .s7scrolldownbutton
 ```
 
-Det går inte att placera rullningsknapparna med CSS `top`, `left`, `bottom`och `right` egenskaper, i stället placerar visningsprogramlogiken dem automatiskt.
+Det går inte att placera rullningsknapparna med CSS-egenskaperna `top`, `left`, `bottom` och `right`. I stället placeras de automatiskt av visningsprogramlogiken.
 
 **CSS-egenskaper för knappen för rullning uppåt och nedåt**
 
@@ -423,9 +423,9 @@ Det går inte att placera rullningsknapparna med CSS `top`, `left`, `bottom`och 
 
 >[!NOTE]
 >
->Button har stöd för `state` attributväljaren, som kan användas för att tillämpa olika skal på `up`, `down`, `over`och `disabled` knapplägen.
+>Knappen stöder attributväljaren `state` som kan användas för att tillämpa olika skal på knapplägena `up`, `down`, `over` och `disabled`.
 
-Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - ställ in rullningsknappar som är 28 x 32 pixlar och har olika teckningar för varje läge:
 

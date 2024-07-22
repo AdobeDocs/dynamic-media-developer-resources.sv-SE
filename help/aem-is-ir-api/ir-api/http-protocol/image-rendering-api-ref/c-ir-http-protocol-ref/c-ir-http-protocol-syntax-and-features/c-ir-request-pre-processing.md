@@ -22,9 +22,9 @@ Regler för förbehandling av begäranden kan ändra sökvägen och frågedelarn
 
 Regler för förbehandling av begäranden är lämpliga för olika program, varav vissa anges nedan:
 
-* Implementera en *virtuella sökvägar* som gör det möjligt att mappa om sökvägen till filen, FTP och HTTP-sökvägarna.
+* Implementera en *virtuell sökvägsmekanism* som tillåter ommappning av sökvägen till fil-, FTP- och HTTP-sökvägar.
 * Tillåt inte användning av processorintensiva kommandon för att förhindra servermissbruk.
-* Styr inställningarna för bildkvalitet (t.ex. JPEG eller skärpa) beroende på sökvägen eller bildnamnet.
+* Styr inställningarna för bildkvalitet (till exempel JPEG eller skärpa) beroende på sökvägen eller bildnamnet.
 
 Detaljerad information om hur du skapar, använder och hanterar regeluppsättningar finns i Referens för regeluppsättning.
 

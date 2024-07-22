@@ -22,7 +22,7 @@ Textsträng. Om du anger det måste det vara ett giltigt teckensnitt::Namn-värd
 
 ## Standard {#section-ed0199be32a24e31a47b345ce7d109f6}
 
-Ärvs från `default::DefaultFont` om den inte är definierad eller om den är tom.
+Ärvs från `default::DefaultFont` om inte definierad eller om tom.
 
 ## Se även {#section-b012591f90a2428a8062afe4f3b6ce33}
 

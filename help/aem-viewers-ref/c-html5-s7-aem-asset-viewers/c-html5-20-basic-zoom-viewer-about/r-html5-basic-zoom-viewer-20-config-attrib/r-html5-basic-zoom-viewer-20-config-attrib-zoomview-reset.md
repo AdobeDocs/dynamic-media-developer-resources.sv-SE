@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 054cd090-2167-4903-ba19-52bc8606370c
 source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '40'
-ht-degree: 2%
+source-wordcount: '42'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Återställer visningsporten när ramen (bilden) ändras. Om inställt på <span class="varname"> 0</span>bevarar den aktuella visningsporten med bästa möjliga passform samtidigt som bildens proportioner bevaras. </p> </td> 
+   <td colname="col2"> <p> Återställer visningsporten när ramen (bilden) ändras. Om värdet är <span class="varname"> 0</span> bevaras den aktuella visningsporten med bästa möjliga passform, men proportionen för den nyinställda bilden behålls. </p> </td> 
   </tr> 
  </tbody> 
 </table>

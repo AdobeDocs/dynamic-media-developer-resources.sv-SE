@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 129a8451-f634-44ad-adb1-f30d2621cb29
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
@@ -81,9 +81,9 @@ Utseendet på menyknappen Favoriter styrs av följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen.
+>Den här knappen stöder attributväljaren `state` som kan användas för att tillämpa olika skal på olika knapplägen.
 
-Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - Ställ in en Favoriter-menyknapp som visar olika bilder för de fyra olika knapplägena.
 
@@ -108,7 +108,7 @@ Utseendet på panelen som innehåller enskilda Favoriter-ikoner styrs av följan
 .s7ecatalogsearchviewer .s7favoritesmenu .s7favoritesmenupanel
 ```
 
-**CSS-egenskaper i panelen Favoriter**
+**CSS-egenskaper på panelen Favoriter-menyn**
 
 <table id="table_B57B44C561E94F86BB1B0EC1671F26DB"> 
  <tbody> 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 84dd1e40-2ab8-4356-9eff-8766432b539b
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Konfigurerar hur komponenten hämtar nya bilder för huvud- och utfällningsvyn när storleken ändras. </p> <p>Ange till <span class="codeph"> 0 </span>läser komponenten inte in nya bilder när du ändrar storlek och bildupplösningen i den utfällbara vyn ändras inte. </p> <p>Ange till <span class="codeph"> 1 </span> I kan du ange en eller flera breddbrytpunkter för bilden som läses in i huvudvyn. </p> </td> 
+   <td colname="col2"> <p> Konfigurerar hur komponenten hämtar nya bilder för huvud- och utfällningsvyn när storleken ändras. </p> <p>Om värdet är <span class="codeph"> 0 </span> läser komponenten inte in nya bilder vid storleksändring och bildupplösningen i den utfällbara vyn ändras inte. </p> <p>Med inställningen <span class="codeph"> 1 </span> kan du ange en eller flera breddbrytpunkter för bilden som läses in i huvudvyn. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> brytpunkt, <span class="varname"> width </span>; <span class="varname"> width </span> </span> </p> </td> 

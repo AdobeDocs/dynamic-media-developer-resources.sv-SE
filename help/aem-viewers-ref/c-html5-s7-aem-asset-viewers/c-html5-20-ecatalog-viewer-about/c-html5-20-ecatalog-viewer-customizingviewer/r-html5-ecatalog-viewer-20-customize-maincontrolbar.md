@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 4db16599-ede0-47ae-bb5a-840655d3620b
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Utseendet på huvudkontrollfältet styrs av följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p>Placera högst upp i visningsprogrammet. </p> </td> 
   </tr> 
   <tr> 
@@ -49,7 +49,7 @@ Utseendet på huvudkontrollfältet styrs av följande CSS-klassväljare:
  </tbody> 
 </table>
 
-**Exempel** - för att ställa in ett grått huvudkontrollfält som är 36 pixlar högt och placerat högst upp i visningsbehållaren.
+**Exempel** - om du vill ställa in ett grått huvudkontrollfält som är 36 pixlar högt och som är placerat högst upp i visningsbehållaren.
 
 ```
 .s7ecatalogviewer .s7controlbar { 
@@ -75,7 +75,7 @@ Rullningsfunktionen är aktiverad för huvudkontrollfältet och inaktiverad för
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> position </span> </p> </td> 
-   <td colname="col2"> <p>När inställt på <span class="codeph"> static </span> rullningsfunktionen är inaktiverad. </p> <p>Ange den här egenskapen som <span class="codeph"> absolut </span> för att aktivera rullningsfunktionen. </p> </td> 
+   <td colname="col2"> <p>När värdet är <span class="codeph"> static </span> är rullningsfunktionen inaktiverad. </p> <p>Ange den här egenskapen till <span class="codeph"> absolut </span> för att aktivera rullningsfunktionen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -140,9 +140,9 @@ Utseendet på den här knappen styrs av följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen har stöd för `state` och `selected` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen. Särskilt gäller följande: `state="selected"` motsvarar det inledande rullningsknappläget när det är möjligt att rulla kontrollfältets innehåll åt vänster. Attributet `state="default"` motsvarar läget när innehållet rullas hela vägen till vänster och rullningsknappen föreslår att det återgår till det ursprungliga läget.
+>Den här knappen stöder attributväljarna `state` och `selected` som kan användas för att tillämpa olika skal på olika knapplägen. I synnerhet motsvarar `state="selected"` det inledande rullningsknappläget när det är möjligt att rulla innehållet i kontrollfältet åt vänster. Attributet `state="default"` motsvarar läget när innehållet rullas hela vägen till vänster och rullningsknappen föreslår att det återgår till det ursprungliga läget.
 
-Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 **Exempel** - Aktivera rullningsfunktionen i huvudkontrollfältet för mobiltelefoner. Ställ in en rullningsknapp på 64 x 64 pixlar som visar en annan bild för vart och ett av de fyra olika knapplägena när de är markerade eller inte är markerade:
 

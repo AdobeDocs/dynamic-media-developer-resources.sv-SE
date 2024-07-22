@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 13398ac5-7137-4345-88b8-5e4df09edb7b
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 1%
+source-wordcount: '60'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Konfigurationsattribut för visningsprogrammet för blandad media.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Anger avstängt läge för videouppspelning vid första inläsningen. Om inställt på <span class="codeph"> 1 </span> volymen är avstängd, I annat fall spelas videon upp med ljud. På vissa enheter kan videon spelas upp automatiskt när videouppspelning stängs av vid inläsning. </p> </td> 
+   <td colname="col2"> <p> Anger avstängt läge för videouppspelning vid första inläsningen. Om värdet är <span class="codeph"> 1 </span> stängs volymen av, annars spelas videon upp med ljud. På vissa enheter kan videon spelas upp automatiskt när videouppspelning stängs av vid inläsning. </p> </td> 
   </tr> 
  </tbody> 
 </table>

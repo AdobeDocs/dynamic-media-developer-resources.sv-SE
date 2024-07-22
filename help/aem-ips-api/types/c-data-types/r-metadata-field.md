@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Användardefinierade fältdefinitioner för specifika resurser.
 
-Hämta taggfältdefinitioner med `getMetadataFields` eller `getAssetMetadataField` åtgärder.
+Hämta taggfältsdefinitioner med åtgärderna `getMetadataFields` eller `getAssetMetadataField`.
 
 ## Parametrar {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -30,23 +30,23 @@ Hämta taggfältdefinitioner med `getMetadataFields` eller `getAssetMetadataFiel
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Fältreferens för metadata. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Namn på metadatafält. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Fälttyp för metadata. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Standardvärde för metadatafältet. </td> 
   </tr> 
   <tr> 
@@ -60,18 +60,18 @@ Hämta taggfältdefinitioner med `getMetadataFields` eller `getAssetMetadataFiel
    <td colname="col3"> Avgör om metadatafältet definieras av användaren eller inte. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
+   <td colname="col1"><span class="codeph"> <span class="varname"> isHidden </span> </span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolesk</span> </td> 
    <td colname="col3">Dölj eller visa systemspecifika IPS-metadata. Returnerat från <a href="../../operations/c-operations-intro/c-methods/r-get-metadata-fields.md#reference-170337127801401d9ea54bd4ccf28efe" format="dita" scope="local"> getMetadataFields</a> och <a href="../../operations/c-operations-intro/c-methods/r-get-asset-metadata-fields.md#reference-ea57f8e98d3e443da66114550b0d0a28" format="dita" scope="local"> getAssetMetadataFields</a>. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"><span class="varname"> isEnced</span></span> </td> 
+   <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolesk</span> </td> 
-   <td colname="col3"> <p>En boolesk flagga som anger om metadatafälttypen används (valideras) när värdet ställs in. </p> <p>Om värdet är true genereras ett fel om ett ogiltigt värde anges i <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
+   <td colname="col3"> <p>En boolesk flagga som anger om metadatafälttypen används (valideras) när värdet ställs in. </p> <p>Om värdet är true genereras ett fel om ett ogiltigt värde anges i <span class="codeph"> setAssetMetadata </span> /<span class="codeph"> batchSetAssetMetadata </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Du kan skapa en uppsättning delade angivna värden som markerade taggar kan peka på. </td> 
   </tr> 
  </tbody> 

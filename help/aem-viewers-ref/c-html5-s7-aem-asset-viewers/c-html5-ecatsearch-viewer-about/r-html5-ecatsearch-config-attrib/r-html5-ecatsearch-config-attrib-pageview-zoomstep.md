@@ -7,24 +7,24 @@ role: Developer,User
 exl-id: d92e56ae-2bb6-46f6-b0f7-64b867492a37
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
 
 # PageView.zoomstep{#pageview-zoomstep}
 
-[!DNL `[PageView.|<containerId>_pageView.]zoomstep= *`steg`*[, *`limit`*]`]
+[!DNL `[PageView.|<containerId>_pageView.]zoomstep= *`step`*[, *`limit`*]`]
 
 <table id="table_82C9252157DB41B5B98505855975D2F5"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> steg</span></span> </p> </td> 
-   <td colname="col2"> <p> Konfigurerar antalet in- och utzoomningsåtgärder som krävs för att öka eller minska upplösningen med en faktor på två. Upplösningsändringen för varje zoomåtgärd är 2^1 per steg. Ange till <span class="codeph"> 0</span> för att zooma till full upplösning med en enda zoomåtgärd. </p> </td> 
+   <td colname="col2"> <p> Konfigurerar antalet in- och utzoomningsåtgärder som krävs för att öka eller minska upplösningen med en faktor på två. Upplösningsändringen för varje zoomåtgärd är 2^1 per steg. Ange <span class="codeph"> 0</span> om du vill zooma till full upplösning med en enda zoomåtgärd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> limit</span></span> </p> </td> 
-   <td colname="col2"> <p> Anger den maximala zoomupplösningen i förhållande till den högupplösta bilden. Standardvärdet är <span class="codeph"> 1.0</span>som inte tillåter zoomning utöver full upplösning. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> gräns</span></span> </p> </td> 
+   <td colname="col2"> <p> Anger den maximala zoomupplösningen i förhållande till den högupplösta bilden. Standardvärdet är <span class="codeph"> 1.0</span> som inte tillåter zoomning utöver den fullständiga upplösningen. </p> </td> 
   </tr> 
  </tbody> 
 </table>

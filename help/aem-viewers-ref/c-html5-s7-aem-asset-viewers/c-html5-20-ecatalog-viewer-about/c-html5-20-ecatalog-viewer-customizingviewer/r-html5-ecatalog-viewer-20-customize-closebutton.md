@@ -1,20 +1,20 @@
 ---
 title: Knappen Stäng
-description: Om du markerar eller trycker på den här knappen stängs webbsidan med innehållet. Den här knappen visas bara om parametern closeButton är inställd på 1. Den här knappen är inte tillgänglig på stationära datorer. Du kan ändra storlek, skal och position för knappen med hjälp av CSS.
+description: Om du markerar eller trycker på den här knappen stängs webbsidan med innehållet. Den här knappen visas bara om parametern closeButton har värdet 1. Den här knappen är inte tillgänglig på stationära datorer. Du kan ändra storlek, skal och position för knappen med hjälp av CSS.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 07dc3a95-1f3e-44c4-8126-621f10aec212
 source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
 
 # Knappen Stäng{#close-button}
 
-Om du markerar eller trycker på den här knappen stängs webbsidan med innehållet. Den här knappen visas bara om parametern closeButton är inställd på 1. Den här knappen är inte tillgänglig på stationära datorer. Du kan ändra storlek, skal och position för knappen med hjälp av CSS.
+Om du markerar eller trycker på den här knappen stängs webbsidan med innehållet. Den här knappen visas bara om parametern closeButton har värdet 1. Den här knappen är inte tillgänglig på stationära datorer. Du kan ändra storlek, skal och position för knappen med hjälp av CSS.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -33,7 +33,7 @@ Knappens utseende styrs med följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p>Placera från huvudkontrollfältets övre kant, inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
@@ -41,7 +41,7 @@ Knappens utseende styrs med följande CSS-klassväljare:
    <td colname="col2"> <p>Placera från den högra kanten av huvudkontrollfältet, inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vänster </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kvar </span> </p> </td> 
    <td colname="col2"> <p>Placera från vänster kant på huvudkontrollfältet, inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
@@ -69,9 +69,9 @@ Knappens utseende styrs med följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen har stöd för `state` attributväljaren, som du kan använda för att använda olika skal på olika knapplägen.
+>Den här knappen har stöd för attributväljaren `state` som du kan använda för att använda olika skal för olika knapplägen.
 
-Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - Om du vill ställa in en stängningsknapp som är 56 x 56 pixlar och som är placerad 4 pixlar från den övre och högra kanten av huvudkontrollfältet. Slutligen visas olika bilder för de fyra olika knapplägena.
 

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 8eb2aa50-52b9-4b63-9789-87e492f34a22
 source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 1%
+source-wordcount: '208'
+ht-degree: 0%
 
 ---
 
@@ -33,19 +33,19 @@ Visningsprogrammet har stöd för undertextning via WebVTT-filer på webben. Öv
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> A </span> </p> </td> 
    <td colname="col2"> <p>textjustering </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> left|right|middle|start|end </span> </p> </td> 
-   <td colname="col4"> <p> Styr textjustering. </p> <p>Standard är <span class="codeph"> mitten </span>. </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> vänster|höger|mitten|start|slut </span> </p> </td> 
+   <td colname="col4"> <p> Styr textjustering. </p> <p>Standardvärdet är <span class="codeph"> mitten </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> T </span> </p> </td> 
    <td colname="col2"> <p>textposition </p> </td> 
-   <td colname="col3"> <p> 0%-100% </p> </td> 
+   <td colname="col3"> <p> 0 %-100 % </p> </td> 
    <td colname="col4"> <p> Procentandel indrag i VideoPlayer-komponenten för bildtextens början. </p> <p>Standardvärdet är 0 %. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> S </span> </p> </td> 
    <td colname="col2"> <p>radstorlek </p> </td> 
-   <td colname="col3"> <p> 0%-100% </p> </td> 
+   <td colname="col3"> <p> 0 %-100 % </p> </td> 
    <td colname="col4"> <p> Procentandel av videobredden som används för bildtexter. </p> <p>Standardvärdet är 100 %. </p> </td> 
   </tr> 
   <tr> 
@@ -62,7 +62,7 @@ Andra WebVTT-funktioner i WebVTT-filen stöds inte, men bör inte störa bildtex
 <table id="table_A5BB1C08DA4B425DBD0356C7D3693E75"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fil </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> file </span> </span> </p> </td> 
    <td colname="col2"> <p> Anger en URL eller sökväg till WebVTT-bildtextinnehållet. Servera WebVTT-filen med Image Serving. </p> </td> 
   </tr> 
   <tr> 

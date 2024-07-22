@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 539d8863-e94d-45dc-bb8c-3db7bead0051
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,6 @@ Ersättningsvariabeln används för att överföra värden från begärande-URL:
 </table>
 
 * Variabeldefinitioner och referenser kan förekomma i frågedelen av begäran-URL:en.
-* Variabler definieras enligt ovan, på samma sätt som andra IS-kommandon. radavståndet &#39;$&#39; identifierar kommandot som en variabeldefinition.
+* Variabler definieras enligt ovan, ungefär som andra IS-kommandon. Med radavståndet &#39;$&#39; identifieras kommandot som en variabeldefinition.
 * Variabelnamnet `*`var`*` är skiftlägeskänsligt och kan bestå av en kombination av bokstäver, siffror, &#39;-&#39; och &#39;_&#39;.
 * Viktigt värde måste vara en URL-kodad enpass för säker HTTP-överföring.

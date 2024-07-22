@@ -1,5 +1,5 @@
 ---
-description: En array med taggvärdesuppdateringar.
+description: En array med taggvärden uppdateras.
 solution: Experience Manager
 title: TagValueUpdateArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL TagValueUpdateArray]{#tagvalueupdatearray}
 
-En array med taggvärdesuppdateringar.
+En array med taggvärden uppdateras.
 
 Syntax
 
@@ -22,4 +22,4 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| objekt | `types:TagValueUpdate` | En array med taggvärdesuppdateringar. |
+| objekt | `types:TagValueUpdate` | En array med taggvärden uppdateras. |

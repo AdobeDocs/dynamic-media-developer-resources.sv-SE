@@ -49,11 +49,11 @@ Utseendet på knappen för länkdelning styrs med följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen.
+>Den här knappen stöder attributväljaren `state` som kan användas för att tillämpa olika skal på olika knapplägen.
 
-Det går att ta bort knappen från panelen Dela via inställningen `display:none` CSS-egenskap i dess CSS-klass.
+Det går att ta bort knappen från panelen Dela via CSS-egenskapen `display:none` i CSS-klassen.
 
-Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - Så här ställer du in en knapp för länkdelning som är 28 x 28 pixlar och visar en annan bild för vart och ett av de fyra olika knapplägena:
 
@@ -112,7 +112,7 @@ Som standard visas den modala dialogrutan centrerat på skärmen på stationära
 .s7ecatalogviewer .s7linkdialog .s7dialog
 ```
 
-**CSS-egenskaper i dialogrutan**
+**CSS-egenskaper för dialogrutan**
 
 <table id="table_E31711ADF4C7446182549244362199A3"> 
  <tbody> 
@@ -214,7 +214,7 @@ Rubriken styrs med följande CSS-klassväljare:
 .s7ecatalogviewer .s7linkdialog .s7dialogheadertext
 ```
 
-**CSS-egenskaper för rubriktexten i dialogrutan**
+**CSS-egenskaper för dialogrutans rubriktext**
 
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
@@ -248,7 +248,7 @@ Stängningsknappen styrs med följande CSS-klassväljare:
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p> Lodrät knappposition i förhållande till rubrikbehållare. </p> </td> 
   </tr> 
   <tr> 
@@ -280,9 +280,9 @@ Stängningsknappen styrs med följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen.
+>Den här knappen stöder attributväljaren `state` som kan användas för att tillämpa olika skal på olika knapplägen.
 
-Knappbeskrivningen Stäng och dialogrutans titel kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
+Knappbeskrivningen Stäng och dialogrutans titel kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - Om du vill ställa in en dialogruterubrik med utfyllnad, en ikon med storleken 22 x 12 pixlar och en rubrik med 16 punkter i fet stil. Slutligen en stängningsknapp på 28 x 28 pixlar som placeras två pixlar uppifrån och två pixlar från höger om dialogrutan:
 
@@ -335,7 +335,7 @@ Dialogrutans sidfot består av en Avbryt-knapp. Sidfotsbehållaren styrs med fö
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kant </span> </p> </td> 
    <td colname="col2"> <p> Kant som du kan använda för att visuellt separera sidfoten från resten av dialogrutan. </p> </td> 
   </tr> 
  </tbody> 
@@ -347,7 +347,7 @@ Sidfoten har en inre behållare som behåller knappen. Den styrs med följande C
 .s7ecatalogviewer .s7linkdialog .s7dialogbuttoncontainer
 ```
 
-**CSS-egenskaper för behållaren för dialogruteknappen**
+**CSS-egenskaper för dialogruteknappbehållaren**
 
 <table id="table_C34906888A8145C7A61E503DFC6B08A9"> 
  <tbody> 
@@ -366,7 +366,7 @@ Knappen Markera allt styrs med följande CSS-klassväljare:
 
 Knappen är bara tillgänglig på stationära datorer.
 
-**CSS-egenskaper för knappen Markera alla**
+**CSS-egenskaper för knappen Markera allt**
 
 <table id="table_021D0467632F49FEBFDF4CF96D2D67C7"> 
  <tbody> 
@@ -391,7 +391,7 @@ Knappen är bara tillgänglig på stationära datorer.
 
 >[!NOTE]
 >
->Knappen Markera allt har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen.
+>Knappen Markera allt har stöd för attributväljaren `state` som kan användas för att tillämpa olika skal på olika knapplägen.
 
 Knappen Avbryt styrs med följande CSS-klassväljare:
 
@@ -424,7 +424,7 @@ Knappen Avbryt styrs med följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen.
+>Den här knappen stöder attributväljaren `state` som kan användas för att tillämpa olika skal på olika knapplägen.
 
 Båda knapparna har dessutom en gemensam CSS-klass som kan innehålla CSS-inställningar som är desamma för andra dialogruteknappar:
 
@@ -457,13 +457,13 @@ Båda knapparna har dessutom en gemensam CSS-klass som kan innehålla CSS-instä
    <td colname="col2"> <p>Skugga. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marginal-höger </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marginal-right </span> </p> </td> 
    <td colname="col2"> <p>Högerknappsmarginal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Knappens tips kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
+Knappens tips kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - om du vill ställa in en dialogruteslut med knappen Avbryt (64 x 34), där textfärgen och bakgrundsfärgen är olika för varje knappläge:
 
@@ -616,7 +616,7 @@ Den här klassen är inte lämplig för att styra etikettens storlek eller place
  </tbody> 
 </table>
 
-Dialogruteetiketter kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
+Dialogruteetiketter kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - om du vill ställa in alla etiketter till grått, fet med ett teckensnitt på nio pixlar:
 
@@ -669,7 +669,7 @@ Delningslänken kapslas i en behållare och styrs med följande CSS-klassväljar
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kant </span> </p> </td> 
    <td colname="col2"> <p>Kant runt delningslänkens behållare. </p> </td> 
   </tr> 
   <tr> 
@@ -694,7 +694,7 @@ Själva delningslänken styrs med följande CSS-klassväljare:
 .s7ecatalogviewer .s7linkdialog .s7dialoglink
 ```
 
-**CSS-egenskaper för länken för delning av dialogruta**
+**CSS-egenskaper i dialogrutan för att dela länk**
 
 <table id="table_65CF778F5BDA45118208538DCBE203FB"> 
  <tbody> 

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Standardsvarsbild. Anger den bild- eller katalogpost som ska användas när det inte går att hitta en bild.
 
-` defaultImage= *`object`*`
+` defaultImage= *`objekt`*`
 
 <table id="simpletable_C1FC14B7D9AE476DB2B10EB402944335"> 
  <tr class="strow"> 
@@ -25,25 +25,25 @@ Standardsvarsbild. Anger den bild- eller katalogpost som ska användas när det 
  </tr> 
 </table>
 
-*`object`* kan vara antingen en katalogpost (inklusive en mall) eller en enkel bildfilssökväg. Användbart om du vill ersätta saknade bilder med standardbilder. Det här värdet åsidosätter värdet för motsvarande katalog `attribute::DefaultImage`. Ett tomt värde ( `defaultImage=`) inaktiverar standardbildhantering.
+*`object`* kan antingen vara en katalogpost (inklusive en mall) eller en enkel sökväg till bildfilen. Användbart om du vill ersätta saknade bilder med standardbilder. Det här värdet åsidosätter värdet för motsvarande katalog `attribute::DefaultImage`. Ett tomt värde ( `defaultImage=`) inaktiverar standardbildhantering.
 
 >[!NOTE]
 >
 >Standardbildmekanismen gäller inte för SVG-objekt. Ett fel returneras om det SVG-objekt som anges i begäran inte kan hittas.
 
-If `attribute::DefaultImageMode=0`, *`object`* ersätter hela den ursprungliga begäran, även om bara en bild i en flerbildskomposition saknas. De enda kommandona som behålls från den ursprungliga begäran är: `wid=`, `hei=`, `fmt=`, `qlt=`.
+Om `attribute::DefaultImageMode=0` ersätter *`object`* hela den ursprungliga begäran, även om bara en bild i en flerbildsdisposition saknas. De enda kommandona som behålls från den ursprungliga begäran är: `wid=`, `hei=`, `fmt=`, `qlt=`.
 
-If `attribute::DefaultImageMode=1`, ersätter objektet bara den bild som saknas i lagret. Attributen för det lager som saknas används och den sammansatta bilden bearbetas och returneras som vanligt.
+Om `attribute::DefaultImageMode=1` ersätter objektet bara den bild som saknas. Attribut för det lager som saknas används och den sammansatta bilden bearbetas och returneras som vanligt.
 
 ## Egenskaper {#section-d30923d8dc4042eba10989212dd70887}
 
-Begär attribut. Används oavsett den aktuella lagerinställningen. Ignoreras om `req=` är annat än `img` eller `tmb`.
+Begär attribut. Används oavsett den aktuella lagerinställningen. Ignoreras om `req=` inte är `img` eller `tmb`.
 
 ## Begränsningar {#section-30df31bc8cac41cd917f1e45196779c2}
 
 Externa bildkällor täcks inte av standardbildmekanismen. Ett fel returneras om en extern bildkälla inte är giltig.
 
-Bildservning återgår till `DefaultImageMode=0` när en kapslad bildåtergivning eller en FXG-återgivningsbegäran misslyckas.
+Bildservern återgår till `DefaultImageMode=0` när en kapslad bildåtergivning eller en FXG-återgivningsbegäran misslyckas.
 
 ## Standard {#section-0676c66b233c46a3a3a1517da4ace998}
 

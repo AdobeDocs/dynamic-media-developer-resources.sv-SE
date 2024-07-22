@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 3f93b479-f5da-47a0-b80c-c23c1460e8e1
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '59'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,8 @@ ht-degree: 0%
 <table id="table_0070E5402099428DBEA2A900CADB2BAA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> width</span>,<span class="varname"> height</span></span> </p> </td> 
-   <td colname="col2"> <p> Visningsprogrammets totala bredd och höjd. Värdet för <span class="codeph"> 0,0</span> betyder att visningsprogrammets storlek anpassas efter CSS-reglerna och webbsidans layout. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> width </span>,<span class="varname"> height </span></span> </p> </td> 
+   <td colname="col2"> <p> Den totala bredden och höjden på visningsprogrammet. Värdet <span class="codeph"> 0,0</span> innebär att visningsprogrammet har en storlek som följer CSS-reglerna och webbsidans layout. </p> </td> 
   </tr> 
  </tbody> 
 </table>

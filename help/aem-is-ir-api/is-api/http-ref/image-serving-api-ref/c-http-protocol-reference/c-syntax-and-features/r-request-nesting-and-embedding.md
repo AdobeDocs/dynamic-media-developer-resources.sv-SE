@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: b9c9d241-5a3d-4637-a90a-d8cdf29cc968
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1047'
 ht-degree: 0%
 
 ---
@@ -22,17 +22,17 @@ Image Serving har stöd för obegränsad kapsling av Image Serving-begäranden, 
 
 ## Begäranden om kapslad bildservering {#section-6954202119e0466f8ff27c79f4f039c8}
 
-En hel bildserverbegäran kan användas som en lagerkälla genom att ange den i `src=` (eller `mask=`) med följande syntax:
+En hel Image Serving-begäran kan användas som en lagerkälla genom att ange den i kommandot `src=` (eller `mask=`) med följande syntax:
 
 `…&src=is( nestedRequest)&…`
 
-The `is` är skiftlägeskänslig.
+Token `is` är skiftlägeskänslig.
 
 Den kapslade begäran får inte innehålla serverrotsökvägen (vanligtvis ` http:// *[!DNL server]*/is/image/'`).
 
 >[!NOTE]
 >
->Avgränsningstecken för kapslad begäran ( `'(',')'`) och kommandots avgränsningstecken ( `'?'`, `'&'`, `'='`) i kapslade begäranden får inte vara HTTP-kodade. I praktiken måste kapslade begäranden kodas på samma sätt som den yttre (kapslade) begäran.
+>De kapslade begärandeavgränsningstecknen ( `'(',')'`) och kommandoavgränsningstecknen ( `'?'`, `'&'`, `'='`) i kapslade begäranden får inte vara HTTP-kodade. I praktiken måste kapslade begäranden kodas på samma sätt som den yttre (kapslade) begäran.
 
 Förbearbetningsregler tillämpas på kapslade begäranden.
 
@@ -48,7 +48,7 @@ Följande kommandon ignoreras när de anges i kapslade begäranden (antingen i b
 
 Om den resulterande bilden av den kapslade begäran innehåller maskdata (alfavärden) skickas den till inbäddningslagret som lagermask.
 
-Även ignorerade `attribute::MaxPix`och `attribute::DefaultPix` för den bildkatalog som gäller för den kapslade begäran.
+Även `attribute::MaxPix` och `attribute::DefaultPix` av bildkatalogen som gäller för den kapslade begäran ignoreras.
 
 Bildresultatet av en kapslad IS-begäran kan cachelagras genom att inkludera `cache=on`. Som standard är cachelagring av mellanliggande data inaktiverad. Cachelagring bör endast aktiveras när den mellanliggande bilden förväntas återanvändas i en annan begäran inom en rimlig tidsperiod. Standardhantering av cacheminnet på serversidan gäller. Data cachelagras i ett förlustfritt format.
 
@@ -58,13 +58,13 @@ När Dynamic Media Image Rendering är aktiverat på servern kan återgivningsbe
 
 ` …&src=ir( *[!DNL renderRequest]*)&…`
 
-The `ir` är skiftlägeskänslig.
+Token `ir` är skiftlägeskänslig.
 
 *[!DNL renderRequest]* är den vanliga begäran om bildåtergivning, exklusive HTTP-rotsökvägen ` http:// *[!DNL server]*/ir/render/`.
 
 >[!NOTE]
 >
->Avgränsningstecken för kapslad begäran ( `'(',')'`) och kommandots avgränsningstecken ( `'?'`, `'&'`, `'='`) i kapslade begäranden får inte vara HTTP-kodade. Inbäddade begäranden måste i själva verket kodas på samma sätt som den yttre (inbäddade) begäran.
+>De kapslade begärandeavgränsningstecknen ( `'(',')'`) och kommandoavgränsningstecknen ( `'?'`, `'&'`, `'='`) i kapslade begäranden får inte vara HTTP-kodade. Inbäddade begäranden måste i själva verket kodas på samma sätt som den yttre (inbäddade) begäran.
 
 Följande kommandon för bildåtergivning ignoreras när de anges i kapslade begäranden:
 
@@ -75,17 +75,17 @@ Följande kommandon för bildåtergivning ignoreras när de anges i kapslade beg
 * `printRes=`
 * `req=`
 
-Även ignorerade `attribute::MaxPix` och `attribute::DefaultPix` för den materialkatalog som gäller för den kapslade återgivningsbegäran.
+`attribute::MaxPix` och `attribute::DefaultPix` av materialkatalogen som gäller för den kapslade återgivningsbegäran ignoreras också.
 
 Bildresultatet av en kapslad IR-begäran kan cachelagras genom att inkludera `cache=on`. Som standard är cachelagring av mellanliggande data inaktiverad. Cachelagring bör endast aktiveras när den mellanliggande bilden förväntas återanvändas i en annan begäran inom en rimlig tidsperiod. Standardhantering av cacheminnet på serversidan gäller. Data cachelagras i ett förlustfritt format.
 
 ## Inbäddade FXG-renderingsbegäranden {#section-c817e4b4f7da414ea5a51252ca7e120a}
 
-När FXG-grafikåtergivaren (även [!DNL AGMServer]) är installerat och aktiverat med Image Serving, kan FXG-begäranden användas som lagerkällor genom att ange dem i `src=` (eller `mask=`). Använd följande syntax:
+När FXG-grafikåtergivaren (även [!DNL AGMServer]) är installerad och aktiverad med Image Serving, kan FXG-begäranden användas som lagerkällor genom att ange dem i kommandona `src=` (eller `mask=`). Använd följande syntax:
 
 `…&src=fxg( renderRequest)&…`
 
-The `fxg` är skiftlägeskänslig.
+Token `fxg` är skiftlägeskänslig.
 
 >[!NOTE]
 >
@@ -95,7 +95,7 @@ The `fxg` är skiftlägeskänslig.
 
 >[!NOTE]
 >
->Avgränsningstecken ( `'(',')'`) och kommandots avgränsningstecken ( `'?'`, `'&'`, `'='`) i kapslade begäranden får inte vara HTTP-kodade. Inbäddade begäranden måste i själva verket kodas på samma sätt som den yttre (inbäddade) begäran.
+>Avgränsningstecknen ( `'(',')'`) och kommandoavgränsningstecknen ( `'?'`, `'&'`, `'='`) i kapslade begäranden får inte vara HTTP-kodade. Inbäddade begäranden måste i själva verket kodas på samma sätt som den yttre (inbäddade) begäran.
 
 Följande FXG-kommandon ignoreras när de anges i kapslade begäranden:
 
@@ -113,17 +113,17 @@ Image Serving stöder åtkomst till källbilder på externa HTTP-servrar.
 >
 >Endast HTTP-protokollet stöds för fjärr-URL:er.
 
-Ange en extern URL för en `src=` eller en `mask=` avgränsar du det externa URL- eller URL-fragmentet med parenteser:
+Om du vill ange en extern URL för ett `src=`- eller `mask=`-kommando avgränsar du det externa URL- eller URL-fragmentet med parenteser:
 
 `…&src=( foreignUrl)&…`
 
-Viktigt! Avgränsningstecken ( `'(',')'`) och kommandots avgränsningstecken ( `'?'`, `'&'`, `'='`) i kapslade begäranden får inte vara HTTP-kodade. Inbäddade begäranden måste i själva verket kodas på samma sätt som den yttre (inbäddade) begäran.
+Viktigt! Avgränsningstecknen ( `'(',')'`) och kommandoavgränsningstecknen ( `'?'`, `'&'`, `'='`) i kapslade begäranden får inte vara HTTP-kodade. Inbäddade begäranden måste i själva verket kodas på samma sätt som den yttre (inbäddade) begäran.
 
-Fullständig absolut URL (om `attribute::AllowDirectUrls` är inställt) och URL:er i förhållande till `attribute::RootUrl` är tillåtna. Ett fel inträffar om en absolut URL är inbäddad och attributet: `AllowDirectUrls` är 0 eller om en relativ URL har angetts och `attribute::RootUrl` är tom.
+Fullständiga absoluta URL:er (om `attribute::AllowDirectUrls` har angetts) och URL:er i förhållande till `attribute::RootUrl` tillåts. Ett fel inträffar om en absolut URL är inbäddad och attributet: `AllowDirectUrls` är 0, eller om en relativ URL har angetts och `attribute::RootUrl` är tom.
 
 Även om externa URL:er inte kan anges direkt i sökvägskomponenten i den begärda URL:en, går det att ställa in en förbearbetningsregel som tillåter konvertering av relativa sökvägar till absoluta URL:er (se exemplet nedan).
 
-Externa bilder cachelagras av servern enligt de cachelagringsrubriker som ingår i HTTP-svaret. Om ingen `ETag` Svaret cachelagras inte heller om det finns en senast ändrad HTTP-svarshuvud. Detta kan orsaka dålig prestanda vid upprepad åtkomst för samma externa bild, eftersom Image Serving måste hämta om och validera bilden vid varje åtkomst.
+Externa bilder cachelagras av servern enligt de cachelagringsrubriker som ingår i HTTP-svaret. Om varken en `ETag` eller en Senast ändrad HTTP-svarshuvud finns, cachelagras inte svaret. Detta kan orsaka dålig prestanda vid upprepad åtkomst för samma externa bild, eftersom Image Serving måste hämta om och validera bilden vid varje åtkomst.
 
 Den här funktionen stöder samma bildfilsformat som stöds av verktyget Bildkonvertering (IC), med undantag för källbilder med 16 bitar per komponent.
 
@@ -151,7 +151,7 @@ Med mindre ändringar kan vi förskala bilden för lager 0 och cachelagra den pe
 
 **Bädda in begäranden om Dynamic Media bildåtergivning**
 
-Använda en mall som lagras i [!DNL myCatalog/myTemplate]; generera bilden för lager2 av mallen med Dynamic Media Image Rendering:
+Använd en mall som lagras i [!DNL myCatalog/myTemplate]. Generera bilden för lager2 i mallen med Dynamic Media Image Rendering:
 
 `http://server/is/image/myCatalog/myTemplate?layer=2&src=ir(myRenderCatalog/myRenderObject?id=myIdValue&sel=group&src=is(myCatalog/myTexture1?res=30)&res=30)&wid=300`
 
@@ -159,4 +159,4 @@ Lägg märke till de kapslade klammerparenteserna. Begäran om bildåtergivning 
 
 ## Se även {#section-109a0a9a3b144158958351139c8b8e69}
 
-[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) , [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [Begär förbearbetning](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-preprocessing.md#reference-c27976436bf04194bfbe9adf40ea98e3), bildåtergivningsreferens, [Mallar](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e), [Bilderingsverktyg](../../../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f)
+[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) , [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [Begär förbearbetning](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-preprocessing.md#reference-c27976436bf04194bfbe9adf40ea98e3), Referens för bildåtergivning, [Mallar](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e), [Bildserververktyg](../../../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f)

@@ -27,7 +27,7 @@ Den här parametern:
 
 Returnerar:
 
-PDF i utdata från arbetet strömmas som svar på detta, fel om `jobid` är ogiltigt eller så har jobbet tagits bort.
+PDF-utdata för jobbet direktuppspelas som svar. Fel om `jobid` är ogiltigt eller om jobbet har tagits bort.
 
 ## Exempel {#section-0319e615fa254132a9dab59351b4c252}
 

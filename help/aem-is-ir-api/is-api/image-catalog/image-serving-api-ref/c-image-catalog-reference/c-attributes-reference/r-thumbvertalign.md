@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: bb1aa398-5638-4109-bf05-bc51ace4146d
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Lodrät justering för miniatyrbilder. Anger den lodräta justeringen av miniatyrbilden i svarsbildsrektangeln som anges av wid= och hei= eller av attributet::DefaultThumbPix.
 
-Används endast för miniatyrbildsbegäranden ( `req=tmb`).
+Används endast för miniatyrbegäranden ( `req=tmb`).
 
 ## Egenskaper {#section-f02c23248e87419caf3d95add51aea1e}
 
@@ -24,7 +24,7 @@ Enum. Tillåtna värden är 1, 2 och 3 för justering upptill, i mitten och nedt
 
 ## Standard {#section-30caa4e772254419ad7a3a89d440666c}
 
-Ärvs från `default::ThumbHorizAlign` om den inte är definierad eller om den är tom.
+Ärvs från `default::ThumbHorizAlign` om inte definierad eller om tom.
 
 ## Se även {#section-c4cd5209d994498eb56a78fcd5bbdfa4}
 

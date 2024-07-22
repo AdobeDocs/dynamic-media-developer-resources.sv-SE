@@ -22,4 +22,4 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| objekt | `types:IccProfileUpdate` | `IccProfileFieldUpdate` arrayobjekt. |
+| objekt | `types:IccProfileUpdate` | `IccProfileFieldUpdate`-arrayobjekt. |

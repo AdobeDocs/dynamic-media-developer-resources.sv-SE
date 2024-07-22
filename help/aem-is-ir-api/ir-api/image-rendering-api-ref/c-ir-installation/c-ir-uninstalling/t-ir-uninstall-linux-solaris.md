@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: c81feaba-18da-441a-bfd5-40275558a384
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,14 @@ Följ dessa anvisningar för att avinstallera bildåtergivning i ett Linux®- el
 
 ## Metod 1
 
-1. Sök [!DNL uninstall.sh].
+1. Sök efter [!DNL uninstall.sh].
 
-   Den finns i den katalog som ImageRendering installerades från. Om den här katalogen har tagits bort måste det ursprungliga installationspaketet vara okomprimerat och okomprimerat för att kunna extraheras [!DNL uninstall.sh].
+   Den finns i den katalog som ImageRendering installerades från. Om den här katalogen har tagits bort måste det ursprungliga installationspaketet vara okomprimerat och obearbetat för att extrahera [!DNL uninstall.sh].
 1. Kör [!DNL uninstall.sh] och följ instruktionerna på skärmen.
 
 ## Metod 2
 
-1. Stoppa ImageRendering med följande:
+1. Stoppa bildåtergivning med följande:
 
    ` *[!DNL install_folder]*/bin/ImageRendering.sh stop.`
 

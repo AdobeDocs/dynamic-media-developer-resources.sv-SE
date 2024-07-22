@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Skapar en bild med flera lager som kan ha flera text- och bildlager.
 
-The `urlModifier` parametern anger de Image Server-protokollkommandon som lagras i Image Server-katalogen som används före eventuella användardefinierade kommandon på URL:en. The `urlPostApplyModifier` -parametern anger protokollkommandon som används efter URL-kommandon, vilket åsidosätter eventuella inställningar som användaren anger.
+Parametern `urlModifier` anger de Image Server-protokollkommandon som lagras i Image Server-katalogen som används före eventuella användardefinierade kommandon på URL:en. Parametern `urlPostApplyModifier` anger protokollkommandon som används efter URL-kommandon, vilket åsidosätter eventuella inställningar som användaren anger.
 
 ## Auktoriserade användartyper {#section-9fb615d8e75f452eab2893cc3decfbe6}
 
@@ -47,7 +47,7 @@ The `urlModifier` parametern anger de Image Server-protokollkommandon som lagras
 
 ## Exempel {#section-09adb4d2f0c944af875c4463a461f55d}
 
-I det här kodexemplet skapas en mall i en mapp som anges av ett handtag med namnet `APIcreateTemplate`, a `urlModifier`och en `urlPostApplyModifier`. Svaret returnerar referensen till den nya mallen.
+I det här kodexemplet skapas en mall i en mapp som anges av en referens, med namnet `APIcreateTemplate`, `urlModifier` och `urlPostApplyModifier`. Svaret returnerar referensen till den nya mallen.
 
 **Begäran**
 

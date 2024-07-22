@@ -16,12 +16,12 @@ ht-degree: 0%
 
 Vissa program kan kräva en annan belysningskarta för olika typer av material.
 
-Upp till tre belysningskartor kan skapas för varje vinjett. Belysningskartan för en återgivningsåtgärd markeras med `illum=` och `gloss=` kommandon.
+Upp till tre belysningskartor kan skapas för varje vinjett. Belysningskartan för en återgivningsåtgärd markeras med kommandona `illum=` och `gloss=`.
 
-**Standardmarkering** - Om `illum=` eller `gloss=` Om inget anges används den första genererade belysningskartan (vanligen karta A, även platt).
+**Standardmarkering** - Om `illum=` eller `gloss=` inte anges används den första genererade belysningskartan (vanligen karta A, även platt).
 
-**Automatisk markering med`gloss=`** - Om `illum=` har inte angetts eller är inställd på `-1`jämför återgivaren den angivna `gloss=` med de glansvärden som är associerade med varje belysningskarta i vinjetteringen. Det väljer belysningskartan vars glansvärde är närmast den angivna `gloss=`.
+**Automatisk markering med`gloss=`** - Om `illum=` inte har angetts eller är inställd på `-1` jämför återgivaren det angivna `gloss=`-värdet med glansvärdena som associeras med varje belysningskarta i vinjetteringen. Den väljer belysningskarta vars glanskvärde är närmast den angivna `gloss=`.
 
-**Explicit markering med`illum=`** - Om `illum=` anges och anges till `0`, `1`, eller `2`använder återgivaren motsvarande belysningskarta, `gloss=` ignoreras när du väljer belysningskartan.
+**Explicit markering med`illum=`** - Om `illum=` har angetts och angetts till `0`, `1` eller `2` använder återgivaren motsvarande belysningskarta. `gloss=` ignoreras när belysningskartan väljs.
 
-Om vinjetteringen bara innehåller ett belysningskarta används kartan och ignoreras `illum=` och `gloss=` kommandon.
+Om vinjetteringen bara innehåller ett belysningskarta används kartan och kommandona `illum=` och `gloss=` ignoreras.

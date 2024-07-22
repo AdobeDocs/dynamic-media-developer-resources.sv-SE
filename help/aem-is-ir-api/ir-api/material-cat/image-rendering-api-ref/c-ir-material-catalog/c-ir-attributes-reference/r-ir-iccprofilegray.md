@@ -18,11 +18,11 @@ Standardfärgrymd för gråskala. Anger namnet på ICC-färgprofilen som ska anv
 
 ## Egenskaper {#section-7af0a3e2c8cf4cdd98974bfa4a15f3ac}
 
-Textsträng. Om det anges måste det vara ett giltigt `icc::Name` värde från ICC-profilmappningen för antingen den här materialkatalogen eller standardkatalogen, eller en filsökväg som är relativ till `attribute::RootPath`. Den ICC-profil som refereras måste vara en gråskaleprofil.
+Textsträng. Om det anges måste det vara ett giltigt `icc::Name`-värde från ICC-profilmappningen för antingen den här materialkatalogen eller standardkatalogen, eller en filsökväg som är relativ till `attribute::RootPath`. Den ICC-profil som refereras måste vara en gråskaleprofil.
 
 ## Standard {#section-aaa1c71e5d0c4e0792099d77e37c05ee}
 
-Ärvs från `default::IccProfileGray` om den inte är definierad eller om den är tom.
+Ärvs från `default::IccProfileGray` om inte definierad eller om tom.
 
 ## Se även {#section-cd43189611f4426aacddcc604eb02a10}
 

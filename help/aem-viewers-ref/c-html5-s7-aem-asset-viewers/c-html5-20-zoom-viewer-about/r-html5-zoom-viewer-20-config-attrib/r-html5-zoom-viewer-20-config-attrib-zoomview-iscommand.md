@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: bab0a648-a365-4df1-bded-ba0202e62e1f
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '58'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> iscommand</span></span> </p> </td> 
-   <td colname="col2"> <p> Kommandosträngen Bildsökning som används för att zooma bilden. Om det anges i URL:en, alla förekomster av <span class="codeph"> &amp;</span> och <span class="codeph"> =</span> måste vara HTTP-kodad som <span class="codeph"> %26</span> och <span class="codeph"> %3D</span>, respektive. </p> <p> <p>Obs! Kommandon för att ändra bildstorlek stöds inte. </p> </p> </td> 
+   <td colname="col2"> <p> Kommandosträngen Bildsökning som används för att zooma bilden. Om det anges i URL:en måste alla förekomster av <span class="codeph"> &amp;</span> och <span class="codeph"> =</span> vara HTTP-kodade som <span class="codeph"> %26</span> respektive <span class="codeph"> %3D</span>. </p> <p> <p>Obs! Kommandon för att ändra bildstorlek stöds inte. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -20,7 +20,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td colname="col2"> <p> Anger var etiketten ritas i förhållande till miniatyrbilden. Det innebär att etiketten centreras på den angivna platsen i förhållande till miniatyrbilden. </p> <p>När en <span class="codeph"> knappbeskrivning</span> anges visas etikettexten som ett flytande verktygstips över miniatyrbilden. </p> <p>När inställt på <span class="codeph"> ingen</span>ändras etikettvisningen. </p> </td> 
+   <td colname="col2"> <p> Anger var etiketten ritas i förhållande till miniatyrbilden. Det innebär att etiketten centreras på den angivna platsen i förhållande till miniatyrbilden. </p> <p>När ett <span class="codeph">-verktygstips </span> anges visas etikettexten som ett flytande verktygstips över miniatyrbilden. </p> <p>När värdet är <span class="codeph"> none</span> ändras etikettvisningen. </p> </td> 
   </tr> 
  </tbody> 
 </table>

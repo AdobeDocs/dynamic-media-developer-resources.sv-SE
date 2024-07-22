@@ -20,7 +20,7 @@ JavaScript API-referens för eCatalog Viewer.
 
 Ställer in visningsparametern på ett angivet värde. Parametern är antingen ett visningsprogramspecifikt konfigurationsalternativ eller en programvaruutvecklingsmodifierare. Den här parametern anropas före [!DNL `init()`].
 
-Den här metoden är valfri om visningsprogrammets konfigurationsinformation skickas med [!DNL `config`] JSON-objekt till konstruktorn.
+Den här metoden är valfri om visningsprogrammets konfigurationsinformation skickas med JSON-objektet [!DNL `config`] till konstruktorn.
 
 Se även [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
@@ -32,7 +32,7 @@ Se även [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> parametervärdet. Värdet kan inte vara procentkodat. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> parametervärde. Värdet kan inte vara procentkodat. </p> </td> 
   </tr> 
  </tbody> 
 </table>

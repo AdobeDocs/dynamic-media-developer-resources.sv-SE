@@ -18,4 +18,4 @@ Bildkataloger innehåller många serverkonfigurationsinställningar, samt tecken
 
 De mappar bild- och statiska innehålls-ID:n som används i begäranden till faktiska filsökvägar, lagrar olika bildmetadata, t.ex. bildscheman, och tillhandahåller behållare för mallar och bilduppsättningar.
 
-Bildkataloger är bara tillgängliga för [!DNL Platform Server], aldrig av Image Server. Katalogattributfiler måste ha ett .ini-suffix och placeras i [!DNL Platform Server]Katalogmapp ( `PS::CatalogFolder`). Minst standardbildkatalogen krävs och måste fyllas i med alla attribut för att bildkatalogen ska fungera korrekt [!DNL Platform Server].
+Bildkataloger används endast av [!DNL Platform Server], aldrig av Image Server. Katalogattributfiler måste ha ett .ini-suffix och placeras i katalogmappen för [!DNL Platform Server] ( `PS::CatalogFolder`). Minst standardbildkatalogen krävs och måste fyllas i med alla attribut för att [!DNL Platform Server] ska fungera korrekt.

@@ -18,7 +18,7 @@ Följande alternativ styr hur CAB-filer behandlas. De ignoreras om sourceFile in
 
 <table id="simpletable_332B78DDEB6540708844AB54AE321F9B"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph">-resolution <span class="varname"> val</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph">-upplösning <span class="varname"> val</span></span> </p> </td> 
   <td class="stentry"> <p>Anger målupplösningen för kabinettformatfiler. Reellt värde i pixlar per tum. Om inget anges får produktionsskåpsformatfilen samma upplösning som källfilen. </p></td> 
  </tr> 
 </table>

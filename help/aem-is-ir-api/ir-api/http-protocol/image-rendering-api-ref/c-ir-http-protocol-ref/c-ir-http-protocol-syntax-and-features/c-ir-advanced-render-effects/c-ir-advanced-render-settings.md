@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 0ad8f4b4-dd9c-43f5-aacc-67a564e34d92
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 17%
+source-wordcount: '576'
+ht-degree: 9%
 
 ---
 
@@ -20,7 +20,7 @@ Vinjetteringsverktyget (som ingår i Dynamic Media Image Authoring package) inne
 >
 >Renderingsinställningar är en avancerad funktion för bildåtergivning och bildredigering. Kontakta Adobe tekniska support eller din Adobe-konsultrepresentant för att få utbildning, konsultation eller båda, om hur du använder Renderingsinställningar.
 
-De här inställningarna styrs interaktivt i Bildredigering. Det går att använda samma inställningar i Bildåtergivning med `rs=` kommando (eller med `catalog::RenderSettings` värde). Den här mekanismen används för att välja olika skärpealternativ för varje material och för att ändra beteendet för belysningsåtergivningsalgoritmerna, t.ex. att ändra mättnaden för högdagrar eller kontrasten i skuggor.
+De här inställningarna styrs interaktivt i Bildredigering. Det går att använda samma inställningar i Bildåtergivning med kommandot `rs=` (eller med värdet `catalog::RenderSettings`). Den här mekanismen används för att välja olika skärpealternativ för varje material och för att ändra beteendet för belysningsåtergivningsalgoritmerna, t.ex. att ändra mättnaden för högdagrar eller kontrasten i skuggor.
 
 ## Avancerade renderingsinställningar (rs=) {#section-d9e7f341ebd44f07a4e90f1f5910726b}
 
@@ -136,7 +136,7 @@ De här inställningarna styrs interaktivt i Bildredigering. Det går att använ
   </tr> 
   <tr> 
    <td colname="col1"> <p>Y </p> </td> 
-   <td colname="col2"> <p>Poisson: Använd växlingsknappen. </p> </td> 
+   <td colname="col2"> <p>Poisson: Använd växlingsknapp. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>1 </p> </td> 
    <td colname="col5"> <p>Standardvärdet är 1. </p> </td> 
@@ -223,35 +223,35 @@ De här inställningarna styrs interaktivt i Bildredigering. Det går att använ
    <td colname="col2"> <p>Intensitetskompensation. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255 </p> </td> 
-   <td colname="col5"> <p>Formatera annorlunda: a36.207.136.177.xx </p> </td> 
+   <td colname="col5"> <p>Format different: a36.207.136.177.xx </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>b </p> </td> 
    <td colname="col2"> <p>Mättnadsjustering. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255 </p> </td> 
-   <td colname="col5"> <p>Formatera annorlunda: b36.207.136.177.xx </p> </td> 
+   <td colname="col5"> <p>Annat format: b36.207.136.177.xx </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>c </p> </td> 
    <td colname="col2"> <p>Justering av skuggor. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255 </p> </td> 
-   <td colname="col5"> <p>Formatera annorlunda: c36.207.136.177.xx </p> </td> 
+   <td colname="col5"> <p>Annat format: c36.207.136.177.xx </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>d </p> </td> 
-   <td colname="col2"> <p>Justering av högdagrar. </p> </td> 
+   <td colname="col2"> <p>Högdagerjustering. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255 </p> </td> 
-   <td colname="col5"> <p>Formatera annorlunda: d36.207.136.177.xx </p> </td> 
+   <td colname="col5"> <p>Annat format: d36.207.136.177.xx </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>e </p> </td> 
    <td colname="col2"> <p>Speglande högdagrar. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255 </p> </td> 
-   <td colname="col5"> <p>Formatera annorlunda: e36.207.136.177.xx </p> </td> 
+   <td colname="col5"> <p>Annat format: e36.207.136.177.xx </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>xx </p> </td> 
@@ -265,21 +265,21 @@ De här inställningarna styrs interaktivt i Bildredigering. Det går att använ
    <td colname="col2"> <p>Belysningsjustering. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255 </p> </td> 
-   <td colname="col5"> <p>Formatera annorlunda: k64.138.175.60.xx.133.242 </p> </td> 
+   <td colname="col5"> <p>Annat format: k64.138.175.60.xx.133.242 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>u &amp; s </p> </td> 
    <td colname="col2"> <p>Nyansväxling för skugga. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255 </p> </td> 
-   <td colname="col5"> <p>Formatera annorlunda: u8.1.2.3.4.5.6.7.8.s8.1.2.3.4.5.6.7.8 </p> </td> 
+   <td colname="col5"> <p>Formatera annorlunda: u8.1.2.3.4.5.6.7.8.s8.1.2.3.4.5.6.7.8. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>v &amp; t </p> </td> 
    <td colname="col2"> <p>Markera nyansväxling. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255 </p> </td> 
-   <td colname="col5"> <p>Formatera annorlunda: v8.1.2.3.4.5.6.7.8.t8.1.2.3.4.5.6.7.8 </p> </td> 
+   <td colname="col5"> <p>Formatera annorlunda: v8.1.2.3.4.5.6.7.8.t8.1.2.3.4.5.6.7.8. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>w </p> </td> 

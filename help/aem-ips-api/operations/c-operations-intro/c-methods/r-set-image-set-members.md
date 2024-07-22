@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Anger listan med resurser som är associerade med en bilduppsättning.
 
-Den här åtgärden ignorerar `pageReset` parameter för `ImageSets` och `SpinSets` och tvingar värdet till true.
+Den här åtgärden ignorerar parametern `pageReset` för `ImageSets` och `SpinSets` och tvingar värdet till true.
 
 ## Auktoriserade användartyper {#section-8968d6a39a344cfc8521020d92ae8916}
 
@@ -46,19 +46,19 @@ Den här åtgärden ignorerar `pageReset` parameter för `ImageSets` och `SpinSe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:sträng</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle </span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Företagshandtag. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Handtag för bilduppsättning. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:ImageSetMemberUpdateArray</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> En array med resursmedlemmar som tillhör bilduppsättningen. </td> 

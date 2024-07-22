@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 60e40195-710f-4f03-b152-52eaa10c5b21
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
@@ -18,23 +18,23 @@ Image Serving stöder Scalable Vector Graphics-filer (SVG) som källdata. Övere
 
 Image Serving känner bara igen statiskt SVG-innehåll. Animeringar, skript och annat interaktivt innehåll stöds inte.
 
-SVG kan anges där bildfiler tillåts (URL-sökväg, `src=`och `mask=`). När innehållet i filen SVG har rastrerats hanteras det precis som en bild.
+SVG kan anges där bildfiler tillåts (URL-sökväg, `src=` och `mask=`). När innehållet i filen SVG har rastrerats hanteras det precis som en bild.
 
 På samma sätt som bilder kan du ange SVG-filer som bildkatalogposter eller som relativa filsökvägar.
 
 ## Ersättningsvariabler {#section-83b149f13f244193901df39b204c975b}
 
-` $ *[!DNL var]*$` substitutionsvariabler kan inkluderas i värdesträngarna i filen SVG `<text>` element och alla elementattribut.
+` $ *[!DNL var]*$` ersättningsvariabler kan inkluderas i SVG-filen i värdesträngarna `<text>` och i alla elementattribut.
 
 Viktiga variabler i frågedelen i inbäddade Image Serving-begäranden ersätts inte direkt. I stället läggs alla tillgängliga variabeldefinitioner till i begäran, vilket gör att Image Serving kan ersätta variabler när begäran analyseras.
 
-Se [Ersättningsvariabler](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-substitution-variables.md#reference-90dc01aba44940e4acdd0c6476e7aa5a) om du vill ha mer information.
+Mer information finns i [Ersättningsvariabler](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-substitution-variables.md#reference-90dc01aba44940e4acdd0c6476e7aa5a).
 
 ## Bildreferenser {#section-a7680f9e6aca4b1a83560637cc9fac66}
 
-Bilder kan infogas i SVG med `<image>` -element. Bilder som refereras av `xlink::href` attributet för `<image>` -elementet måste vara en giltig begäran om bildbehandling. Externa URL:er tillåts inte.
+Bilder kan infogas i SVG med elementet `<image>`. Bilder som refereras av attributet `xlink::href` för elementet `<image>` måste vara giltiga begäranden om att skicka bilder. Externa URL:er tillåts inte.
 
-Ange antingen en fullständig begäran om bildbehandling, med början `http://`eller en relativ URL-adress, som börjar med `/is/image`. Om en fullständig HTTP-sökväg anges tas domännamnet bort från sökvägen för konvertering till det relativa formatet. Det kan vara en fördel att använda en fullständig HTTP-sökväg eftersom den kan förhandsvisas med en SVG-renderare från tredje part.
+Ange antingen en fullständig Image Serving-begäran, med början från `http://`, eller en relativ URL, med början från `/is/image`. Om en fullständig HTTP-sökväg anges tas domännamnet bort från sökvägen för konvertering till det relativa formatet. Det kan vara en fördel att använda en fullständig HTTP-sökväg eftersom den kan förhandsvisas med en SVG-renderare från tredje part.
 
 >[!NOTE]
 >
@@ -42,13 +42,13 @@ Ange antingen en fullständig begäran om bildbehandling, med början `http://`e
 
 >[!NOTE]
 >
->Bilder som är inbäddade i SVG ändrar för närvarande inte automatiskt storlek. Kontrollera att alla bildreferenser innehåller de bildserverkommandon som behövs för att ställa in önskad bildstorlek (till exempel `wid=`). Om bildstorleken inte anges explicit `attribute::DefaultPix` används.
+>Bilder som är inbäddade i SVG ändrar för närvarande inte automatiskt storlek. Kontrollera att alla bildreferenser innehåller de bildserverkommandon som behövs för att ställa in önskad bildstorlek (till exempel `wid=`). Om bildstorleken inte anges uttryckligen används `attribute::DefaultPix`.
 
 ## Färghantering {#section-ea76e2bc4e1842638aa97a2d470c8a68}
 
-Alla färgvärden som är inbäddade i SVG-filer och skickas till SVG-mallar som ersättningsvariabler antas finnas i `sRgb` färgrymd.
+Alla färgvärden som är inbäddade i SVG-filer och skickas till SVG-mallar som ersättningsvariabler antas finnas i färgmodellen `sRgb`.
 
-Ingen färgkonvertering utförs när bilder bäddas in i SVG. Se till att du anger färgåtergivning `icc=sRgb` för alla inbäddade bildbegäranden.
+Ingen färgkonvertering utförs när bilder bäddas in i SVG. För att säkerställa färgåtergivning måste du ange `icc=sRgb` för alla inbäddade bildbegäranden.
 
 Efter rastreringen deltar SVG-bilden i färghanteringen på samma sätt som andra bilder.
 
@@ -70,7 +70,7 @@ Endast statiskt innehåll återges. Animering, interaktiva funktioner som knappa
 
 ICC-profilbaserade färgspecifikationer stöds för närvarande inte.
 
-`<script>` kan finnas men ignoreras alltid.
+`<script>` element kan finnas men ignoreras alltid.
 
 ## Se även {#section-901dd1775fd24154a766dcfbe5032b67}
 

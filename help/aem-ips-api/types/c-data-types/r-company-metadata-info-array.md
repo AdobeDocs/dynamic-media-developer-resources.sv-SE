@@ -22,5 +22,5 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| Kodfras | `Code Phrase` |  |
-| Kodfras | `Code Phrase` |  |
+| Kodfras | `Code Phrase` | |
+| Kodfras | `Code Phrase` | |

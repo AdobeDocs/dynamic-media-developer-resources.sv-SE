@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: d293c385-d355-4d9e-9fe9-8ef35fef60bf
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Viss information som visas i Interactive Video Viewer kan lokaliseras. Detta innehåll innehåller funktionsbeskrivningar för användargränssnittselement och ett felmeddelande som visas när videon inte kan spelas upp.
 
-Varje textinnehåll i visningsprogrammet som kan lokaliseras representeras av den speciella SDK-identifieraren för visningsprogrammet som kallas SYMBOL. Alla SYMBOL har ett standardassocierat textvärde för engelska ( `"en"`) medföljer det färdiga visningsprogrammet. Den kan också ha användardefinierade värden för så många språkområden som behövs.
+Varje textinnehåll i visningsprogrammet som kan lokaliseras representeras av den speciella SDK-identifieraren för visningsprogrammet som kallas SYMBOL. Alla SYMBOL har ett standardassocierat textvärde för en engelsk språkinställning ( `"en"`) som levereras med visningsprogrammet som inte är installerat. Den kan också ha användardefinierade värden för så många språkområden som behövs.
 
 När visningsprogrammet startas kontrolleras det aktuella språkområdet för att se om det finns ett användardefinierat värde för varje SYMBOL som stöds för sådana språkområden. Om det finns något används det användardefinierade värdet, i annat fall används standardtexten som inte finns.
 
@@ -38,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-I exemplet ovan definierar lokaliseringsobjektet två språkinställningar ( `"en"` och `"fr"`) och tillhandahåller lokalisering för två element i användargränssnittet i varje språkområde.
+I exemplet ovan definierar lokaliseringsobjektet två språkområden ( `"en"` och `"fr"`) och tillhandahåller lokalisering för två element i användargränssnittet i varje språkområde.
 
-Webbsideskoden ska skicka lokaliseringsobjektet till visningsprogramkonstruktorn, som värdet `localizedTexts` konfigurationsobjektets fält. Ett annat alternativ är att skicka lokaliseringsobjektet genom att anropa `setLocalizedTexts(localizationInfo)` -metod.
+Webbsideskoden ska skicka lokaliseringsobjektet till visarkonstruktorn, som ett värde i fältet `localizedTexts` i konfigurationsobjektet. Ett annat alternativ är att skicka lokaliseringsobjektet genom att anropa metoden `setLocalizedTexts(localizationInfo)`.
 
 Följande SYMBOL stöds:
 
@@ -86,7 +86,7 @@ Följande SYMBOL stöds:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_VOLUME </span> </p> </td> 
-   <td colname="col2"> <p> Etikett för volymreglage som visas med hjälp av ARIA <span class="codeph"> aria-valuetext </span> -attribut. </p> </td> 
+   <td colname="col2"> <p> Volymreglagets knobetikett som visas med attributet <span class="codeph"> aria-valuetext </span> för ARIA. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED </span> </p> </td> 

@@ -18,11 +18,11 @@ Ange textnodsvärdet för s7:elementID.
 
 `setVal.elementID= *[!DNL value]*`
 
-Om ett FXG-nodelement har en `s7:elementID` kan textvärdet för den noden ändras.
+Om ett FXG-nodelement har `s7:elementID` definierat kan textvärdet för den noden ändras.
 
 ## Exempel {#section-f574fd66dedd4a219aa537d7bdabea23}
 
-Anta en `s7:elementID="paragraph1"` -attribut definieras för en `TextGraphic` och följande gäller:
+Anta att ett `s7:elementID="paragraph1"`-attribut har definierats för en `TextGraphic`-nod, då gäller följande:
 
 `&setVal.paragraph=Hello`
 

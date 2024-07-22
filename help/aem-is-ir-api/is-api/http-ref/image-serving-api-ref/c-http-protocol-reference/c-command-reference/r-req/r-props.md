@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 9933d1dc-ae16-4d17-80ca-a1068cd73b0c
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -25,27 +25,27 @@ Egenskaper för svarsdata. Utvärderar den aktuella begäran som om den vore en 
  </tr> 
 </table>
 
-Begäranden som stöder JSONP-svarsformatet gör att du kan ange namnet på JS-callback-hanteraren med den utökade syntaxen för `req=` parameter:
+Begäranden som har stöd för JSONP-svarsformatet gör att du kan ange namnet på JS-callback-hanteraren med den utökade syntaxen för parametern `req=`:
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` är namnet på JS-hanteraren som finns i JSONP-svaret. Endast tecknen a-z, A-Z och 0-9 tillåts. Valfritt. Standard är `s7jsonResponse`.
+`<reqHandler>` är namnet på JS-hanteraren som finns i JSONP-svaret. Endast tecknen a-z, A-Z och 0-9 tillåts. Valfritt. Standardvärdet är `s7jsonResponse`.
 
-Se [Egenskaper](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9) för en beskrivning av svarssyntaxen och MIME-svarstypen. HTTP-svaret kan nås med en TTL som baseras på `attribute::NonImgExpiration`.
+I [Egenskaper](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9) finns en beskrivning av svarssyntaxen och MIME-svarstypen. HTTP-svaret kan nås med en TTL som baseras på `attribute::NonImgExpiration`.
 
 Följande egenskaper returneras för /is/image-begäranden:
 
 <table id="table_9665612ED7D24C07AAF75D953C0FEB36"> 
  <tbody> 
   <tr> 
-   <td> <b> Egenskap</b> </td> 
-   <td> <b> Typ</b> </td> 
+   <td> <b> egenskap </b> </td> 
+   <td> <b> Typ </b> </td> 
    <td> <b> Beskrivning</b> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> image.bgc </span> </p> </td> 
    <td> <p> hex </p> </td> 
-   <td> <p> Bakgrundsfärg (se <span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88" type="reference" format="dita" scope="local"> bgc= </a> </span>.) </p> </td> 
+   <td> <p> Bakgrundsfärg (Se <span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88" type="reference" format="dita" scope="local"> bgc= </a> </span>.) </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td valign="top"> <p> <span class="codeph"> image.height </span> </p> </td> 
@@ -65,7 +65,7 @@ Följande egenskaper returneras för /is/image-begäranden:
   <tr valign="top"> 
    <td> <p> <span class="codeph"> image.length </span> </p> </td> 
    <td> <p> heltal </p> </td> 
-   <td> <p> Svarsstorlek i pixlar som inte innehåller HTTP-huvudet; 0 om data från svarsbilden inte har cachelagrats tidigare av servern. (Se <span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76" type="reference" format="dita" scope="local"> req=loadCache </a> </span>.) </p> </td> 
+   <td> <p> Svarsstorleken i pixlar som inte innehåller HTTP-huvudet; 0 om data från svarsbilden inte har cachelagrats tidigare av servern. (Se <span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76" type="reference" format="dita" scope="local"> req=loadcache </a> </span>.) </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> image.mask </span> </p> </td> 
@@ -75,7 +75,7 @@ Följande egenskaper returneras för /is/image-begäranden:
   <tr valign="top"> 
    <td> <p> <span class="codeph"> image.pixType </span> </p> </td> 
    <td> <p> string </p> </td> 
-   <td> <p> Svarsbildtyp, kan vara <span class="codeph"> CMYK </span>, <span class="codeph"> RGB </span> eller <span class="codeph"> BW </span> (för gråskalebilder). </p> </td> 
+   <td> <p> Svarsbildtypen kan vara <span class="codeph"> CMYK </span>, <span class="codeph"> RGB </span> eller <span class="codeph"> BW </span> (för gråskalebilder). </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> image.pathEmbed </span> </p> </td> 
@@ -120,17 +120,17 @@ Följande egenskaper returneras för /is/image-begäranden:
  </tbody> 
 </table>
 
-Följande egenskaper returneras för `/is/content` begäranden:
+Följande egenskaper returneras för `/is/content`-begäranden:
 
 <table id="table_B66360C475CE495D9701AB526E758873"> 
  <tbody> 
   <tr> 
-   <td> <b> Egenskap</b> </td> 
-   <td> <b> Typ</b> </td> 
+   <td> <b> egenskap </b> </td> 
+   <td> <b> Typ </b> </td> 
    <td> <b> Beskrivning</b> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> bana </span> </p> </td> 
+   <td> <p> <span class="codeph"> sökväg </span> </p> </td> 
    <td> <p> string </p> </td> 
    <td> <p>Delvis löst filsökväg. (Se <span class="codeph"> static::Path </span>.) </p> </td> 
   </tr> 
@@ -140,14 +140,14 @@ Följande egenskaper returneras för `/is/content` begäranden:
    <td> <p> Objektfilens storlek i byte </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> förfallodatum </span> </p> </td> 
+   <td> <p> <span class="codeph"> förfaller </span> </p> </td> 
    <td> <p> double </p> </td> 
-   <td> <p> <span class="codeph"> static::Expiration </span> eller standardtiden för live </p> </td> 
+   <td> <p> <span class="codeph"> statisk::Förfallotid </span> eller standardtid för live </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> lastModified </span> </p> </td> 
    <td> <p> string </p> </td> 
-   <td> <p> Datum/tid för ändring (från <span class="codeph"> static::TimeStamp </span> eller objektfilen) </p> </td> 
+   <td> <p> Ändringsdatum/tid (från <span class="codeph"> statisk::TimeStamp </span> eller objektfilen) </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> userType </span> </p> </td> 

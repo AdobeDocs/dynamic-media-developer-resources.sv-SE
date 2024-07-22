@@ -18,7 +18,7 @@ Standardspråk-ID. Språk-ID som ska användas för lokalisering/översättning 
 
 ## Egenskaper {#section-a101e9658d304e9caf032a99ecb80386}
 
-Textsträng. Ignoreras om `attribute::LocaleMap` och `attribute::LocaleStrMap` är tomma, eller när `locale=` är angiven och inte tom.
+Textsträng. Ignoreras om `attribute::LocaleMap` och `attribute::LocaleStrMap` är tomma eller om `locale=` har angetts och inte är tomma.
 
 ## Se även {#section-b9ffc98baf6c4f67a26466f90cee18b6}
 

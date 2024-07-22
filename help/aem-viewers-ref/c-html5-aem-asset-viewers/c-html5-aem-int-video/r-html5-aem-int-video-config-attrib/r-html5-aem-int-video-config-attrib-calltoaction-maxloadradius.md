@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: db04133e-bb23-4d94-b91d-fcf34576c03f
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 Konfigurationsattribut för Interactive Video Viewer.
 
-` [CallToAction.|<containerId>_callToAction.]maxloadradius=-1|0| *`preloadnbr`*`
+` [CallToAction.|<containerId>_callToAction.]maxloadradius=-1|0| *`förinläsare`*`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p> Anger beteende för komponentförinläsning. </p> <p>När inställt på <span class="codeph"> -1</span> alla miniatyrbilder läses in samtidigt när komponenten initieras eller resursen ändras. </p> <p>När inställt på <span class="codeph"> 0</span> bara synliga miniatyrer läses in. </p> <p>Ange till <span class="codeph"><span class="varname"> preloadnbr</span></span> om du vill definiera hur många osynliga rader/kolumner runt det synliga området som är förinlästa. </p> </td> 
+   <td colname="col2"> <p> Anger beteende för komponentförinläsning. </p> <p>När värdet är <span class="codeph"> -1</span> läses alla miniatyrbilder in samtidigt när komponenten initieras eller resursen ändras. </p> <p>Om värdet är <span class="codeph"> 0</span> läses endast synliga miniatyrbilder in. </p> <p>Ange <span class="codeph"><span class="varname"> preloadBr</span></span> för att definiera hur många osynliga rader/kolumner runt det synliga området som är förinlästa. </p> </td> 
   </tr> 
  </tbody> 
 </table>

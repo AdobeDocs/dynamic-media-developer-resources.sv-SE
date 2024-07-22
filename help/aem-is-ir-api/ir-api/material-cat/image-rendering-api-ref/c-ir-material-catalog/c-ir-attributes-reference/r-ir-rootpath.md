@@ -1,6 +1,6 @@
 ---
 title: RootPath
-description: Källdatarotsökväg. Textsträngsvärde. Absolut sökväg eller relativt sökvägssegment för rotmappen för alla vinjett-, textur-, bild- och ICC-datafiler som refereras av den här bildkatalogen.
+description: Source datarotsökväg. Textsträngsvärde. Absolut sökväg eller relativt sökvägssegment för rotmappen för alla vinjett-, textur-, bild- och ICC-datafiler som refereras av den här bildkatalogen.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # RootPath{#rootpath}
 
-Källdatarotsökväg. Textsträngsvärde. Absolut sökväg eller relativt sökvägssegment för rotmappen för alla vinjett-, textur-, bild- och ICC-datafiler som refereras av den här bildkatalogen.
+Source datarotsökväg. Textsträngsvärde. Absolut sökväg eller relativt sökvägssegment för rotmappen för alla vinjett-, textur-, bild- och ICC-datafiler som refereras av den här bildkatalogen.
 
 ## Egenskaper {#section-5ff1cf592dd24dfc8cfa470c753ab828}
 
-Textsträng. Måste vara tomt, ett giltigt sökvägssegment i förhållande till serverkonfigurationsinställningen Bildåtergivning `ir.resourceRootPaths`eller en giltig absolut filsökväg. Bör inte innehålla inledande och avslutande sökvägselementavgränsare.
+Textsträng. Det måste vara tomt, ett giltigt sökvägssegment relativt serverkonfigurationsinställningen `ir.resourceRootPaths` för bildåtergivning eller en giltig absolut sökväg. Bör inte innehålla inledande och avslutande banelementavgränsare.
 
 ## Standard {#section-4a7f3ab22b0c4090b3896d29bd192b8a}
 

@@ -8,7 +8,7 @@ role: Developer,User
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,9 @@ Systemkrav för visningsprogram i Dynamic Media HTML 5.
 <!-- Updated March 03, 2022 Contact is now Deepa Gupta -->
 
 * Adobe Dynamic Media Image Serving 6.7.1 eller senare.
-* HTML5-visningsprogram kräver SDK JavaScript-bibliotek på serversidan 3.11.5 eller senare.
-* *Skicka e-post till en vän* sociala funktioner kräver s7ondemand 5.0.9 eller senare.
-* eCatalog Viewer - [Popup för panelen Info](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) support kräver informationsserver 2.1.8 eller senare.
+* HTML5-visningsprogram kräver SDK JavaScript-serverbibliotek 3.11.5 eller senare.
+* *Skicka e-post till en vän* - sociala funktioner kräver s7ondemand 5.0.9 eller senare.
+* eCatalog Viewer - [Stöd för popup-fönster på panelen Info](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) kräver informationsserver 2.1.8 eller senare.
 * Sökfunktionskomponenter kräver s7search 2.3.0 eller senare.
 
 ## Systemkrav för visningsprogram {#section-cc72b1e209524d038b4d5b92b35e998e}
@@ -41,8 +41,8 @@ Systemkrav för visningsprogram i Dynamic Media HTML 5.
 * Stöds i följande webbläsar-/plattformsversioner eller senare:
    * Android™ OS 4.x
    * BlackBerry® 10 i webbläsare. Endast videouppspelning stöds.
-   * Krom 82
-   * Kant
+   * Chrome 82
+   * Edge
    * Firefox 77
    * Internet Explorer 11
    * iOS6
@@ -50,25 +50,25 @@ Systemkrav för visningsprogram i Dynamic Media HTML 5.
    * iPhone 3GS
    * Safari 11
 * Internet Explorer på mobila enheter stöds inte.
-* *PanoramavyViewer* stöds i följande webbläsar-/plattformsversioner eller senare:
+* *PanoramicViewer* stöds i följande webbläsar-/plattformsversioner eller senare:
    * Android™ 4.4 (endast telefonenheter)
-   * Krom 82
-   * Kant
+   * Chrome 82
+   * Edge
    * Firefox 77
    * Internet Explorer 11
    * iOS 10
    * Safari 11
 * *Video360Viewer* och *DimensionalViewer* stöds i följande webbläsar-/plattformsversioner eller senare:
    * Android™ 5 (endast telefonenheter)
-   * Krom 82
-   * Kant
+   * Chrome 82
+   * Edge
    * Firefox 77
    * iOS 12
    * Safari 12
 * *ZoomVerticalViewer* stöds i följande webbläsar-/plattformsversioner eller senare:
    * Android™ 4.x
-   * Krom 82
-   * Kant
+   * Chrome 82
+   * Edge
    * Firefox 77
    * Internet Explorer 11
    * iOS 10

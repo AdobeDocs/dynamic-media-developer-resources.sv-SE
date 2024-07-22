@@ -52,7 +52,7 @@ Ange eller uppdatera publiceringsläget för en eller flera resurser. Du kan ang
 
 ## Exempel {#section-283a073f3cb14bcda5abed863c538aa4}
 
-I det här kodexemplet anges publiceringsstatus för en resurs som använder `NotMarkedForPublish`.
+Det här kodexemplet anger publiceringstillståndet för en resurs med `NotMarkedForPublish`.
 
 **Begäran**
 

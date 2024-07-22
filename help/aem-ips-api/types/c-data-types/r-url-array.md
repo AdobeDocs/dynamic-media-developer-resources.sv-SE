@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 61225fb2-7c25-4f9c-82c9-02bf69995028
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '42'
+source-wordcount: '47'
 ht-degree: 0%
 
 ---
@@ -25,15 +25,15 @@ En array med URL:er för att göra CDN-cache ogiltig.
 <table id="table_A28FC686DFB84198BF6671F953E8F044"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> Namn</b> </th> 
-   <th class="entry"> <b> Typ</b> </th> 
+   <th class="entry"> <b> namn </b> </th> 
+   <th class="entry"> <b> Typ </b> </th> 
    <th class="entry"> <b> Beskrivning</b> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> <span class="varname"> objekt</span> </span> </p> </td> 
-   <td> <p> <span class="codeph"> xsd:sträng</span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> objekt </span> </span> </p> </td> 
+   <td> <p> <span class="codeph"> xsd:string</span> </p> </td> 
    <td> <p> Listan med URL:er som ska göras ogiltiga. Begränsat till högst 1 000 URL:er enligt WSDL-definitionen. </p> </td> 
   </tr> 
  </tbody> 

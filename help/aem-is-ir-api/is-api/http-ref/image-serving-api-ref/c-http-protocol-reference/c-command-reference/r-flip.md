@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 451d8b4d-0f22-41f3-ac86-435797c23ea3
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,11 @@ Vänd lager. Vänder lagret vågrätt, lodrätt eller både och efter att beskä
 
 Den kan också användas på textlager.
 
-Vissa kommandon, inklusive `extend=`, används implicit på lager 0 i stället för det sammansatta lagret när `layer=comp` är markerat. I sådana fall tillämpas alla kommandon som tilldelas automatiskt till lager 0 före de kommandon som gäller för `layer=comp`. När `layer=comp`, `extend=` används före `flip=`.
+Vissa kommandon, bland annat `extend=`, används implicit för lager 0 i stället för det sammansatta lagret när `layer=comp` är markerat. I sådana fall tillämpas alla kommandon som tilldelas automatiskt till lager 0 före de kommandon som gäller för `layer=comp`. När `layer=comp` används `extend=` alltså före `flip=`.
 
 >[!NOTE]
 >
->Det vända lagret placeras baserat på lagerankarpunkten. Annat `flip=` värden resulterar i olika lagerpositioner när ankarpunkten inte är i mitten av lagret.
+>Det vända lagret placeras baserat på lagerankarpunkten. Olika `flip=`-värden ger olika lagerpositioner när ankarpunkten inte är i mitten av lagret.
 
 ## Egenskaper {#section-294da2af7be746b5adfc35e29ee68217}
 

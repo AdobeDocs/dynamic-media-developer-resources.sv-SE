@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 1afd3a60-e0b6-47d1-b7e4-98a3145782a2
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ Progressiv JPEG-skanning. Med Progressiv JPEG visas en bild på ett sådant sät
 
 Den faktiska hastigheten för varje skanning beror på överföringshastigheten för användarens system och den dator som tar emot och dekomprimerar data.
 
-`Auto` använder de inläsningsinställningar som beräknas av det oberoende JPEG-biblioteket och beror på färgmodellen. Värdena för `3`, `4`, `5` motsvarar den skanningsinställning som finns i Adobe Photoshop när du sparar en JPEG-fil som en pjpeg (progressiv JPEG).
+`Auto` använder skanningsinställningarna som beräknas av det oberoende JPEG-biblioteket och är beroende av färgmodellen. Värdena för `3`, `4`, `5` motsvarar den skanningsinställning som finns i Adobe Photoshop när du sparar en JPEG-fil som en pjpeg (progressiv JPEG).
 
-If `pscan` är inte inställd, används som standard `auto`.
+Om `pscan` inte är inställt blir standardvärdet `auto`.
 
 ## Egenskaper {#section-e36aa3c63a974b969d9e4f43fe5a37ab}
 

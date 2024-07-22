@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 821b9edb-c91f-4ae3-a4ff-9c6c65769d6a
 source-git-commit: 8c49595fe0efb684b59601fb268bd8bf97fae555
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 1%
+source-wordcount: '60'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Konfigurationsattribut för visningsprogrammet för smart beskärning.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Anger avstängt läge för videouppspelning vid första inläsningen. Om inställt på <span class="codeph"> 1 </span> volymen är avstängd, I annat fall spelas videon upp med ljud. På vissa enheter kan videon spelas upp automatiskt när videouppspelning stängs av vid inläsning. </p> </td> 
+   <td colname="col2"> <p> Anger avstängt läge för videouppspelning vid första inläsningen. Om värdet är <span class="codeph"> 1 </span> stängs volymen av, annars spelas videon upp med ljud. På vissa enheter kan videon spelas upp automatiskt när videouppspelning stängs av vid inläsning. </p> </td> 
   </tr> 
  </tbody> 
 </table>

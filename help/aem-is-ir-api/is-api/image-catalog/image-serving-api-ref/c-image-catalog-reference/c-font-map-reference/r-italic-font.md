@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Italics-flagga.
 
-Anger om teckensnittsfilen som den här teckensnittskartan refererar till ska användas när den efterfrågas av kursiv RTF-text ( `\i`).
+Anger om den teckensnittsfil som refereras av den här teckensnittsmappningsposten ska användas när det begärs av kommandot RTF-kursiv ( `\i`).
 
 ## Egenskaper {#section-607e76490e87418496d1c6763018a14f}
 

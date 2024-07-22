@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 21db58df-b76e-4a78-afc4-5e0188cb8896
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 1%
+source-wordcount: '88'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ Konfigurationsattribut för Interactive Video Viewer.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> overdragvalue </span> </span> </p> </td> 
-   <td colname="col2"> <p> Finns i <span class="codeph"> 0-1 </span> och är ett procentvärde för rörelsen i fel riktning av den faktiska hastigheten. </p> <p>Om inställt på <span class="codeph"> 1 </span>flyttas den med musen. </p> <p>Om inställt på <span class="codeph"> 0 </span>kan du inte gå åt fel håll. </p> </td> 
+   <td colname="col2"> <p> Är i intervallet <span class="codeph"> 0-1 </span> och är ett procentvärde för rörelsen i fel riktning av den faktiska hastigheten. </p> <p>Om värdet är <span class="codeph"> 1 </span> flyttas det med musen. </p> <p>Om värdet är <span class="codeph"> 0 </span> kan du inte flytta i fel riktning. </p> </td> 
   </tr> 
  </tbody> 
 </table>

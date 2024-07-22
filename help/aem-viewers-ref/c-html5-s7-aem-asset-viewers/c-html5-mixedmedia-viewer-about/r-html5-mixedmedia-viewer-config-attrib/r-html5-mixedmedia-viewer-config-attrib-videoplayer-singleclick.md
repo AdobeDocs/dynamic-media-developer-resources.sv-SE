@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # VideoPlayer.singleclick{#videoplayer-singleclick}
 
-` [VideoPlayer.|<containerId>_videoPlayer.]singleclick= *`none|playPause`*`
+` [VideoPlayer.|<containerId>_videoPlayer.]singleclick= *`ingen|playPause`*`
 
 <table id="table_53A26E1617CB411B9586203CB9AA1AB2"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> none|playPause</span> </span> </p> </td> 
-   <td colname="col2"> <p> Konfigurerar mappningen av ett enda klick/tryck för att växla uppspelning/paus. Inställning till <span class="codeph"> ingen</span> inaktiverar enkelklickning/tryck för att spela upp/pausa. Om inställt på <span class="codeph"> playPause</span>, klickar du på videon för att växla mellan att spela upp och pausa videon. På vissa enheter kan du använda inbyggda kontroller. I sådana fall <span class="codeph"> singleclick</span> beteendet är inaktiverat. </p> </td> 
+   <td colname="col2"> <p> Konfigurerar mappningen av ett enda klick/tryck för att växla uppspelning/paus. Om du anger <span class="codeph"> none</span> inaktiveras enkelklickning/tryck för att spela upp/pausa. Om värdet är <span class="codeph"> playPause</span> växlar videon mellan att spela upp och pausa videon när du klickar på den. På vissa enheter kan du använda inbyggda kontroller. I så fall är <span class="codeph">-beteendet </span> inaktiverat. </p> </td> 
   </tr> 
  </tbody> 
 </table>

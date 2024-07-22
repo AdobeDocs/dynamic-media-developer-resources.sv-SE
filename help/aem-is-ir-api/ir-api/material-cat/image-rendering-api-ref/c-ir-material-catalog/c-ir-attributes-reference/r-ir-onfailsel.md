@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # OnFailSel{#onfailsel}
 
-Felhantering av markeringsfel. Anger vilken åtgärd som ska utföras om `sel=` kommandot misslyckas eftersom den angivna pixelplatsen inte ligger inom maskområdet för ett markeringsbart objekt.
+Felhantering av markeringsfel. Anger vilken åtgärd som ska vidtas om kommandot `sel=` misslyckas eftersom den angivna pixelplatsen inte ligger inom maskområdet för ett markeringsbart objekt.
 
 ## Egenskaper {#section-cec491e6c5c744f9bfafaaa9d8774f83}
 
@@ -23,7 +23,7 @@ Enum.
 <table id="simpletable_1CFD2BC6F9BC4D2AB372EAF115B7F2FC"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p> </td> 
-  <td class="stentry"> <p>Ärv från <span class="codeph"> standard::OnFailSel </span>. </p> </td> 
+  <td class="stentry"> <p>Ärv från <span class="codeph"> som standard::OnFailSel </span>. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p> </td> 
@@ -31,7 +31,7 @@ Enum.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
-  <td class="stentry"> <p>Avmarkera; Alla försök att använda material eller visa/dölja objekt ignoreras. </p> </td> 
+  <td class="stentry"> <p>Avmarkera. Alla försök att använda material eller visa/dölja objekt ignoreras. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 

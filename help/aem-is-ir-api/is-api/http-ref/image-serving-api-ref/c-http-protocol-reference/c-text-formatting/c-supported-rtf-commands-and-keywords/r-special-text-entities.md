@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 3798dd83-897a-441c-a7c4-ef7325b20f16
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '66'
 ht-degree: 0%
 
 ---
@@ -41,29 +41,29 @@ Använd följande specialenheter när du formaterar text.
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;klammerparentes; </span> </td> 
-   <td> <p>Klammerparenteser som är öppna just nu. </p> </td> 
+   <td> <span class="codeph"> &amp;stämpel;klammerparentes; </span> </td> 
+   <td> <p>Klammerparentesen är öppen. </p> </td> 
    <td> <p>Klammerparentesen måste vara HTTP-kodad. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;rankning; </span> </td> 
+   <td> <span class="codeph"> &amp;stämpel;klammerparentes; </span> </td> 
    <td> <p>Stäng klammerparentesen. </p> </td> 
    <td> <p>Klammerparentesen måste vara HTTP-kodad. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \~ </span> </td> 
    <td> <p>Fast mellanslag. </p> </td> 
-   <td> <p><span class="codeph"> textPs=</span> endast. </p> </td> 
+   <td> <p>Endast <span class="codeph"> textPs=</span>. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \_</span> </td> 
    <td> <p>Fast bindestreck. </p> </td> 
-   <td> <p><span class="codeph"> textPs=</span> endast. </p> </td> 
+   <td> <p>Endast <span class="codeph"> textPs=</span>. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \- </span> </td> 
    <td> <p>Valfritt bindestreck. </p> </td> 
-   <td> <p><span class="codeph"> textPs=</span> endast. </p> </td> 
+   <td> <p>Endast <span class="codeph"> textPs=</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

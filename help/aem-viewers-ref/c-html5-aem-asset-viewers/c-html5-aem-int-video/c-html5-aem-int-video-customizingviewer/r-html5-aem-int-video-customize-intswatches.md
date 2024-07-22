@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: c9ef02eb-f5db-474b-b234-c49508e2af35
 source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '888'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Följande CSS-klassväljare styr platsen och orienteringen för den interaktiva 
 .s7interactivevideoviewer .s7interactiveswatches
 ```
 
-## CSS-egenskaper för de interaktiva färgrutorna {#css-properties-of-the-interactive-swatches}
+## CSS-egenskaper för interaktiva färgrutor {#css-properties-of-the-interactive-swatches}
 
 <table id="table_352DAD495AE742E39B4F12629C43F712"> 
  <tbody> 
@@ -36,10 +36,10 @@ Följande CSS-klassväljare styr platsen och orienteringen för den interaktiva 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Höjden på den interaktiva färgrutepanelen. </p> </td> 
+   <td colname="col2"> <p>Höjden på panelen för interaktiva färgrutor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p>Den övre positionen för den interaktiva färgrutepanelen. </p> </td> 
   </tr> 
   <tr> 
@@ -47,8 +47,8 @@ Följande CSS-klassväljare styr platsen och orienteringen för den interaktiva 
    <td colname="col2"> <p>Nedre position för panelen för interaktiva färgrutor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vänster </span> </p> </td> 
-   <td colname="col2"> <p>Den vänstra positionen för den interaktiva färgrutepanelen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kvar </span> </p> </td> 
+   <td colname="col2"> <p>Vänster position för den interaktiva färgrutepanelen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> höger </span> </p> </td> 
@@ -59,8 +59,8 @@ Följande CSS-klassväljare styr platsen och orienteringen för den interaktiva 
 
 Körningsplatsen och orienteringen för den interaktiva färgrutepanelen definieras av en kombination av ovanstående CSS-egenskaper enligt följande:
 
-* Om du vill återge interaktiva färgrutor vågrätt längst ned i visningsprogrammet anger du höjden till ett absolut pixelvärde. vänster och nerifrån till 0px; width, right, and top to auto.
-* Om du vill återge interaktiva färgrutor lodrätt till höger om videoinnehållet anger du bredden till en absolut pixel. höger och uppifrån till 0px; höjd, vänster och nederst till auto.
+* Om du vill återge interaktiva färgrutor vågrätt längst ned i visningsprogrammet anger du höjden till ett absolut pixelvärde, vänster och nederst till 0px, bredd, höger och överst till auto.
+* Om du vill återge interaktiva färgrutor lodrätt till höger om videoinnehållet anger du bredden till en absolut pixel, höger och upptill till 0px, höjd, vänster och nederst till auto.
 
 Det går att använda CSS-markörer med den här stilen för att få en adaptiv placering av den interaktiva färgrutepanelen.
 
@@ -111,8 +111,8 @@ Följande CSS-klassväljare styr utseendet på banderollpanelen:
    <td colname="col2"> <p>Textfärg i banderollpanelen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
-   <td colname="col2"> <p>Kant runt banderollpanelen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kant </span> </p> </td> 
+   <td colname="col2"> <p>Kantlinje runt banderollpanelen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
@@ -127,13 +127,13 @@ Följande CSS-klassväljare styr utseendet på banderollpanelen:
    <td colname="col2"> <p>Den teckensnittsfamilj som ska användas för texten i banderollpanelen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> teckensnittsjustering </span> </p> </td> 
    <td colname="col2"> <p>Den teckensnittsjustering som ska användas för texten i banderollpanelen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Banderollverktygstipset kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
+Banderollverktygstipset kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 ## Exempel {#section-e8caea0a303c425a8a637c2a47c06355}
 
@@ -148,7 +148,7 @@ Så här ställer du in en banderoll med mörkgrå bakgrund, en ljusgrå kant p�
 }
 ```
 
-Följande CSS-klassväljare styr utseendet på färgrutorna:
+Följande CSS-klassväljare styr färgrutornas utseende:
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7swatches
@@ -210,14 +210,14 @@ Följande CSS-klassväljare styr utseendet på enskilda miniatyrbilder:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Miniatyrens bredd. </p> </td> 
+   <td colname="col2"> <p>Miniatyrbildens bredd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Höjden på miniatyrbilden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kant </span> </p> </td> 
    <td colname="col2"> <p>Miniatyrens kantlinje. </p> </td> 
   </tr> 
  </tbody> 
@@ -225,7 +225,7 @@ Följande CSS-klassväljare styr utseendet på enskilda miniatyrbilder:
 
 >[!NOTE]
 >
->Miniatyrbilden har stöd för `state` attributväljaren, som du kan använda för att använda olika skal på olika miniatyrlägen. I synnerhet `state="selected"` motsvarar miniatyrbilden för den markerade bilden, `state="default"` motsvarar resten av miniatyrbilderna, `state="over"` används vid hovring av musen.
+>Miniatyrbilden stöder attributväljaren `state` som du kan använda för att använda olika skal för olika miniatyrlägen. I synnerhet motsvarar `state="selected"` miniatyrbilden för den markerade bilden. `state="default"` motsvarar resten av miniatyrbilderna och `state="over"` används vid hovring med musen.
 
 ## Exempel {#section-69fec189ffaa440b97b6b846c320b75b}
 
@@ -251,7 +251,7 @@ Följande CSS-klassväljare styr utseendet på miniatyrbildetiketten:
    <td colname="col2"> <p>Textfärg. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kant </span> </p> </td> 
    <td colname="col2"> <p>Etikettkant. </p> </td> 
   </tr> 
   <tr> 
@@ -260,7 +260,7 @@ Följande CSS-klassväljare styr utseendet på miniatyrbildetiketten:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>Teckensnittsnamn. </p> </td> 
+   <td colname="col2"> <p>Typsnittsnamn. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -285,7 +285,7 @@ Följande CSS-klassväljare styr utseendet på upp- och nedrullningsknapparna:
 
 `.s7interactivevideoviewer .s7interactiveswatches .s7scrolldownbutton`
 
-Det går inte att placera rullningsknapparna med CSS `top`, `left`, `bottom`och `right` egenskaper, i stället placerar visningsprogramlogiken dem automatiskt.
+Det går inte att placera rullningsknapparna med CSS-egenskaperna `top`, `left`, `bottom` och `right`. I stället placeras de automatiskt av visningsprogramlogiken.
 
 ## CSS-egenskaper för uppåt- och nedrullningsknapparnas utseende {#css-properties-of-the-appearance-of-the-up-and-down-scroll-buttons}
 
@@ -312,9 +312,9 @@ Det går inte att placera rullningsknapparna med CSS `top`, `left`, `bottom`och 
 
 >[!NOTE]
 >
->Den här knappen har stöd för `state` attributväljaren, som du kan använda för att tillämpa olika skal på knapplägena: &quot; `up`&quot;, &quot; `down`&quot;, &quot; `over`&quot;, och &quot; `disabled`&quot;.
+>Den här knappen stöder attributväljaren `state`, som du kan använda för att tillämpa olika skal på knapplägena: `up`, `down`, `over` och `disabled`.
 
-Knappverktygstipsen kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
+Knappens tips kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 ## Exempel {#section-e6ce4fa084b84288bc7583342b2c510c}
 

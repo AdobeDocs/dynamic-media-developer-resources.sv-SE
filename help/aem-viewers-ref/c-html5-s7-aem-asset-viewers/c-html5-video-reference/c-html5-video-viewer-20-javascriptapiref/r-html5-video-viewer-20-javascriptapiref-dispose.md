@@ -24,7 +24,7 @@ Webbsideskoden bör även ta bort variabeln för visningsprograminstansen så at
 
 Om webbsideskoden har registrerade händelseavlyssnare direkt i Viewer SDK-komponenter som används av visningsprogrammet - eller lagrade externa referenser till sådana komponenter - måste du uttryckligen avregistrera sådana avlyssnare efter webbsideskoden. Du måste också ta bort sådana externa komponentreferenser innan du anropar `dispose()`.
 
-Åtkomst inte längre till visningsprogrammets API efter `dispose()` anropas.
+Åtkomst inte längre till visningsprogrammets API efter att `dispose()` har anropats.
 
 ## Parametrar {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 

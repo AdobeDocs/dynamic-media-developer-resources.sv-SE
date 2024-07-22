@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: aed8cf2e-5a09-43ff-9420-0d0d54059515
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -41,9 +41,9 @@ Den här datatypen är valfri och inaktiverad som standard.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> hörn</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
-   <td colname="col3">Markerar det hörn som du vill arbeta med. <span class="codeph"> hörn</span> godkänner följande värden: 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> corner </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3">Markerar det hörn som du vill arbeta med. <span class="codeph"> hörn </span> accepterar följande värden: 
     <ul id="ul_36C2F07706764A7081010D5521BF3096">
      <li id="li_CBACE5C6AA8C48D3BEE033D3AE03AF3C"><span class="codeph"> UpperLeft</span></li>
      <li id="li_49AC53536B4B4D2CA3DD89E2A2B2E95D"><span class="codeph"> NederkantVänster</span></li>
@@ -52,8 +52,8 @@ Den här datatypen är valfri och inaktiverad som standard.
     </ul></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> tolerans</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:dubbel</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> tolerans </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
    <td colname="col3">En valfri inställning som tar bort tomt utrymme från bildkanter baserat på genomskinlighet. Accepterar ett värdeintervall från 0,0 till 1,0. Ange: 
     <ul id="ul_FE5423B857AE43FCBA7A9AEA76C754CC">
      <li id="li_01E3BD0AB8DA4C408B47CB02B269404A">0 om du vill matcha färgerna exakt. </li>
@@ -61,12 +61,12 @@ Den här datatypen är valfri och inaktiverad som standard.
     </ul></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> fillMethod</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
-   <td colname="col3"> <p>Styr pixelgenomskinlighet på den plats som anges av <span class="codeph"><span class="varname"> hörn</span></span> variabel. The <span class="codeph"> fillMethod</span> godkänner följande värden: </p> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fillMethod </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3"> <p>Kontrollera pixelgenomskinlighet på den plats som anges av variabeln <span class="codeph"><span class="varname"> corner</span></span> . <span class="codeph"> fillMethod </span> accepterar följande värden: </p> 
     <ul id="ul_D95F3B613D344BB89487ED09D83F9217"> 
-     <li id="li_3D7B7CA1B9094D16A98E0BA3D962E97F"> <span class="codeph"> FloodFill</span>: Vrider alla pixlar i det angivna hörnet genomskinliga. </li> 
-     <li id="li_F97343C3DA7644BCBD1748AD8F9DCE2E"> <span class="codeph"> MatchaPixel</span>: Vrider alla matchande pixlar genomskinliga oavsett plats. </li> 
+     <li id="li_3D7B7CA1B9094D16A98E0BA3D962E97F"> <span class="codeph"> FloodFill </span>: Alla pixlar i det angivna hörnet blir genomskinliga. </li> 
+     <li id="li_F97343C3DA7644BCBD1748AD8F9DCE2E"> <span class="codeph"> MatchPixel</span>: Ändrar alla matchande pixlar genomskinliga oavsett plats. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -89,7 +89,7 @@ Den här datatypen är valfri och inaktiverad som standard.
 
 ## Används av {#section-28c43baafe85434a9ee9e303ed10569a}
 
-The `KnockoutBackgroundOptions` type används av:
+Typen `KnockoutBackgroundOptions` används av:
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)

@@ -14,14 +14,14 @@ ht-degree: 0%
 
 # Egenskaper{#properties}
 
-Egenskapsdata returneras som svar på följande `req=` typer:
+Egenskapsdata returneras som svar på följande `req=`-typer:
 
 * `catalogprops`
 * `imageprops`
 * `props`
 * `userdata`
 
-`userdata` svaren formateras bara som egenskaper när innehållet i `catalog::UserData` följer egenskapsformatet.
+`userdata` svar formateras bara som egenskaper när innehållet i `catalog::UserData` följer egenskapsformatet.
 
 * [Textegenskaper (Java)](r-text-java-properties.md)
 * [JavaScript-egenskaper](r-javascript-properties.md)

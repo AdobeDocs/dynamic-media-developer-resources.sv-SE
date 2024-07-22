@@ -23,5 +23,5 @@ Syntax
 | Namn | Typ | Beskrivning |
 |---|---|---|
 | colorManagement | `xsd:string` | Alternativ för färghanteringsläge. |
-| sourceProfileHandle | `xsd:string` | Källprofilreferens. |
+| sourceProfileHandle | `xsd:string` | Source-profilreferens. |
 | outputProfileHandle | `xsd:string` | Utdataprofilens referens. |

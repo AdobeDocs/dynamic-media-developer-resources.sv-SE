@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: d3bd6d4d-d7bd-4c9b-bc9e-7edaaac6378e
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -28,17 +28,17 @@ Använd följande kommandon för grundläggande teckenformatering.
   <tr> 
    <td> <span class="codeph"> \plain </span> </td> 
    <td> <p>Återställ teckenformatering till standard. </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> endast. </p> </td> 
+   <td> <p> Endast <span class="codeph"> textPs= </span>. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \f <span class="varname"> N </span> </span> </td> 
-   <td> <p>Typsnitt. </p> </td> 
+   <td> <p>Teckensnitt. </p> </td> 
    <td> <p> <span class="codeph"> \fonttbl </span> index. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \fs <span class="varname"> N </span> </span> </td> 
    <td> <p>Teckenstorlek. </p> </td> 
-   <td> <p>Halvpunkter. Standardvärdet är 24. </p> </td> 
+   <td> <p>Halvpunkter; standard är 24. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \cf <span class="varname"> N </span> </span> </td> 
@@ -78,7 +78,7 @@ Använd följande kommandon för grundläggande teckenformatering.
       <li id="li_482CCC6F5D8544CCA69DF2A070097ABD"> <span class="codeph"> \ulth </span> </li> 
       <li id="li_F11C79A6640B4C0684CA5D9733E49F43"> <span class="codeph"> \ulw </span> </li> 
       <li id="li_84F94D17372B4C0494A9F8AEC951C556"> <span class="codeph"> \ulwave </span> </li> 
-     </ul> </p> <p>Dessa implementeras nu som standard <span class="codeph"> \ul </span> understrykning. Alla andra RTF-understrykningskommandon ignoreras. </p> </td> 
+     </ul> </p> <p>Dessa implementeras för närvarande som en <span class="codeph"> \ul </span> -understrykning. Alla andra RTF-understrykningskommandon ignoreras. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \ulnone </span> </td> 
@@ -93,12 +93,12 @@ Använd följande kommandon för grundläggande teckenformatering.
   <tr> 
    <td> <span class="codeph"> \caps </span> </td> 
    <td> <p>versaler </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> endast. </p> </td> 
+   <td> <p> Endast <span class="codeph"> textPs= </span>. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \scaps </span> </td> 
-   <td> <p>gemener ("kapitäler") </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> endast. </p> </td> 
+   <td> <p>gemener (kapitäler) </p> </td> 
+   <td> <p> Endast <span class="codeph"> textPs= </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

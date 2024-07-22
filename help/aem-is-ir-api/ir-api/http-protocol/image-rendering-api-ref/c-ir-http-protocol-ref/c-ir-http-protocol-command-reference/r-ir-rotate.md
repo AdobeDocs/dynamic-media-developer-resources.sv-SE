@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 355d9691-c04b-44a6-9563-5bef185cfa7e
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
@@ -29,13 +29,13 @@ Rotera repeterbara texturmaterial (utom tapeter) i multipler av 45° när det an
 
 Rotera repeterbara texturmaterial i godtyckliga vinklar när de används på flödeslinje- och Sketch-objekt.
 
-Rotera material i olika vinklar.
+Rotera dekala material i valfri vinkel.
 
-Positiva vinklar roterar medsols. Texturen eller den dekala formen roteras runt fästpunkten ( `anchor=`). fästpunkten förblir justerad mot målobjektets nollpunkt.
+Positiva vinklar roterar medsols. Texturen eller den dekala roteras runt fästpunkten ( `anchor=`). Fästpunkten förblir justerad mot målobjektets ursprung.
 
 ## Egenskaper {#section-ad4d07897ca24f63af1a4062f8618e36}
 
-Materialattribut. Ignoreras av enfärgat, tapet, skåp och fönsterhanteringsmaterial. *`angle`* Måste vara en multipel av 45 för repeterbara texturer, såvida det inte tillämpas på flödeslinje- eller Sketch-objekt.
+Materialattribut. Ignoreras av enfärgat, tapet, skåp och fönsterhanteringsmaterial. *`angle`* måste vara en multipel av 45 för repeterbara texturer, såvida inte detta tillämpas på flödeslinje- eller Sketch-objekt.
 
 ## Standard {#section-14c991e71b74449db8ff18a775949b28}
 

@@ -18,4 +18,4 @@ Mellanliggande bilddata som skapas av kapslade/inbäddade bildserings- och bild�
 
 Bilder som hämtas från externa HTTP-servrar lagras också i svarsdatacachen. Sådana bilder valideras automatiskt med valideringsverktyget innan cacheposten genereras.
 
-The [!DNL Platform Server] sammanställer bildkatalogdata för effektiv åtkomst. Dessa data lagras i `CS::CatalogCacheFolder`.
+[!DNL Platform Server] kompilerar bildkatalogsdata för effektiv åtkomst. Dessa data lagras i `CS::CatalogCacheFolder`.

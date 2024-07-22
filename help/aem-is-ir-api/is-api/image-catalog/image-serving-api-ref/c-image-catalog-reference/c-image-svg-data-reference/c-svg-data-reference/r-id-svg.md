@@ -22,7 +22,7 @@ Vanligtvis är det en kort och unik identifierare, till exempel ett SKU-nummer, 
 
 ## Egenskaper {#section-874a6853f67b4b229341ca76682884ae}
 
-Textsträng. Obligatoriskt. Postidentifierare för datatabellen för bild/SVG eller statiskt innehåll. Varje `catalog::Id` värdet i den här bildkatalogen/SVG-katalogen eller i den här statiska innehållskatalogen måste vara unikt och får inte innehålla tecknen &#39;,&#39;.
+Textsträng. Obligatoriskt. Postidentifierare för datatabellen för bild/SVG eller statiskt innehåll. Varje `catalog::Id`-värde i den här bildkatalogen/SVG-katalogen eller i den här statiska innehållskatalogen måste vara unikt och får inte innehålla tecknen &#39;,&#39;.
 
 ## Standard {#section-a26e7d83a5ee44b5918baef82ee48e14}
 

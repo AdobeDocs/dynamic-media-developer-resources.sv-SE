@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: cdb3ed5e-c396-483d-aea0-2b3f24efe56e
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Kabinettmaterial anger en kabinettformatfil (.vnc-filtillägg), en särskild datafil som innehåller fotografiska representationer av skåp tillsammans med parameterlayoutdefinitioner och annan information som krävs för återgivning av skåftets framsidor.
 
-[!DNL vnc] filerna kan innehålla en repeterbar kornstextur, eller så kan texturen ges externt med hjälp av ett andra argument till `src=`. Vissa [!DNL vnc] filer kan användas för att färgsätta eller texturera valda områden i skåpsrutor (används vanligtvis för att laminera skåpsstilar).
+[!DNL vnc]-filer kan innehålla en upprepningsbar kornstextur, eller så kan texturen ges externt med hjälp av ett andra argument till `src=`. Vissa [!DNL vnc]-filer tillåter färgläggning eller texturering av valda områden i skåpsrutor (används vanligtvis för laminerade skåpsstilar).
 
 Kabinettmaterial kan bara användas på kabinettobjekt.
 
@@ -42,7 +42,7 @@ Kabinettmaterial kan bara användas på kabinettobjekt.
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md#reference-0ad9de8887144c83a6db97b4994f7c04" type="reference" format="dita" scope="local"> <span class="codeph"> res= </span> </a> </p> </td> 
    <td colname="col2"> <p>Valfri texturupplösning. </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> attribute::Resolution </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph">-attribut::Upplösning </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa" type="reference" format="dita" scope="local"> <span class="codeph"> color= </span> </a> </p> </td> 

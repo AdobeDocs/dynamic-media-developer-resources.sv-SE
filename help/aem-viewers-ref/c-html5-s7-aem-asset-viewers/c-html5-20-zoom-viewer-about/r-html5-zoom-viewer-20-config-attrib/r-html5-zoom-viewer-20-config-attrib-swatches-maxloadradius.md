@@ -7,20 +7,20 @@ role: Developer,User
 exl-id: df9d5be4-d1e1-4b72-a7e7-0f3611278d2a
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '57'
 ht-degree: 0%
 
 ---
 
 # Swatches.maxloadradius{#swatches-maxloadradius}
 
-` [Swatches.|<containerId>_swatches.]maxloadradius=-1|0| *`preloadnbr`*`
+` [Swatches.|<containerId>_swatches.]maxloadradius=-1|0| *`förinläsare`*`
 
 <table id="table_B3B03B00DCF0466DB332E851F4DDF610"> 
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> -1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td> <p>Anger beteende för komponentförinläsning. När inställt på <span class="codeph"> -1</span> alla färgrutor läses in samtidigt när komponenten initieras eller resursen ändras. </p> <p>När inställt på <span class="codeph"> 0</span> bara synliga färgrutor läses in. </p> <p><span class="codeph"><span class="varname"> preloadnbr</span></span> definierar hur många osynliga rader/kolumner runt det synliga området som är förinlästa. </p> </td> 
+   <td> <p>Anger beteende för komponentförinläsning. När värdet är <span class="codeph"> -1</span> läses alla färgrutor in samtidigt när komponenten initieras eller resursen ändras. </p> <p>När värdet är <span class="codeph"> 0</span> läses endast synliga färgrutor in. </p> <p><span class="codeph"><span class="varname"> preloader</span></span> definierar hur många osynliga rader/kolumner runt det synliga området som är förinlästa. </p> </td> 
   </tr> 
  </tbody> 
 </table>

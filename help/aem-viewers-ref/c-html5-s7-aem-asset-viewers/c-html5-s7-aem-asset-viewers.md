@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Tittare för AEM Assets och Dynamic Media Classic{#viewers-for-aem-assets-and-dynamic-media-classic}
 
-Följande tittare arbetar under Adobe Experience Manager Assets och under Dynamic Media Classic.
+Följande visningsprogram arbetar under Adobe Experience Manager Assets och under Dynamic Media Classic.
 
 * [Grundläggande zoom](c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-about.md)
 * [eCatalog](c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-about.md)

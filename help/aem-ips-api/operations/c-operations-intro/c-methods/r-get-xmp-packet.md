@@ -30,7 +30,7 @@ Syntax
 
 ## Parametrar {#section-b4075df0e4414b00b961d978d5471db9}
 
-**Indata (getXMPPacketParam)**
+**Indata (getXMPPacketParam**)
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|

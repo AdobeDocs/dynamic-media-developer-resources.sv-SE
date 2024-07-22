@@ -27,7 +27,7 @@ Den här parametern:
 
 Returnerar:
 
-Detaljerad status för jobbet i XML-format; fel om `jobid` är ogiltigt eller så har jobbet tagits bort.
+Detaljerad status för jobbet i XML-format. Fel om `jobid` är ogiltigt eller om jobbet har tagits bort.
 
 ## Exempel {#section-55f463750afe4814b5fdbaa2f1aafab4}
 

@@ -19,15 +19,15 @@ ht-degree: 0%
 <table id="table_4322E3ECE9354016B891F5E7A35D6A2A"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> snapin</span> </span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> snapin-modulen </span> </span> </p> </td> 
    <td> <p>Gör att knapparna justeras intill färgrutorna. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> snapout</span> </span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> snapout </span> </span> </p> </td> 
    <td> <p>Gör att knapparna justeras intill komponentkanten. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> övertäckning</span> </span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> övertäckning </span> </span> </p> </td> 
    <td> <p>Gör att knapparna återges ovanpå färgrutorna. </p> </td> 
   </tr> 
  </tbody> 

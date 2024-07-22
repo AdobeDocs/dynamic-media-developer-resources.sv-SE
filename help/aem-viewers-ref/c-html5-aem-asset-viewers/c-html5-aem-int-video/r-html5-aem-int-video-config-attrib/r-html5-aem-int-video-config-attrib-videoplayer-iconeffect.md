@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 690dc488-2db0-4166-a308-f1f3438c480a
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '129'
 ht-degree: 0%
 
 ---
@@ -16,20 +16,20 @@ ht-degree: 0%
 
 Konfigurationsattribut för Interactive Video Viewer.
 
-` [VideoPlayer.|<containerId>_videoPlayer.]iconeffect=0|1[, *`antal`*][, *`tona`*][, *`autoHide`*]`
+` [VideoPlayer.|<containerId>_videoPlayer.]iconeffect=0|1[, *`count`*][, *`fade`*][, *`autoHide`*]`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Gör att IconEffect kan visas ovanpå videon när videon är i pausat läge. På vissa enheter används inbyggda kontroller. I sådana fall <span class="codeph"> ikoneffekt</span> modifierare ignoreras. </p> </td> 
+   <td colname="col2"> <p> Gör att IconEffect kan visas ovanpå videon när videon är i pausat läge. På vissa enheter används inbyggda kontroller. I sådana fall ignoreras modifieraren <span class="codeph"> iconeffect </span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> antal</span></span> </p> </td> 
-   <td colname="col2"> <p> Anger det maximala antalet gånger som IconEffect visas och visas igen. Värdet för <span class="codeph"> -1</span> anger att ikonen visas oändligt. </p> </td> 
+   <td colname="col2"> <p> Anger det maximala antalet gånger som IconEffect visas och visas igen. Värdet <span class="codeph"> -1</span> anger att ikonen visas oändligt igen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> tona</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> tonad</span></span> </p> </td> 
    <td colname="col2"> <p> Anger hur länge animeringen ska visas eller döljas, i sekunder. </p> </td> 
   </tr> 
   <tr> 

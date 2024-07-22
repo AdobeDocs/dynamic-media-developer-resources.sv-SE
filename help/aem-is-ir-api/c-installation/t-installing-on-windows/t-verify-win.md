@@ -25,5 +25,5 @@ Bildservern är installerad som en Windows-tjänst.
 
 [!DNL  http:// *[!DNL server:port]*/ir/render]
 
-Kontrollera om det finns `imageServer.`&quot; objekt i svaret, vilket anger att Image Server lyssnar.
+Kontrollera om det finns `imageServer.`-objekt i svaret, vilket anger att Image Server lyssnar.
 >Ytterligare verifiering kan utföras med exempelsidorna i dokumentations- och demopaketen, om det är installerat.

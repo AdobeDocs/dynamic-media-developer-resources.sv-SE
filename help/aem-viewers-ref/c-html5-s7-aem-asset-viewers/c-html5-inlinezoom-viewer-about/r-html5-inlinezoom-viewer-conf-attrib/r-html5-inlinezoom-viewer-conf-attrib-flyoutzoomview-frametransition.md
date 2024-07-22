@@ -20,7 +20,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ingen|tona</span> </p> </td> 
-   <td colname="col2"> <p> </p> <p> Anger vilken typ av effekt som används i huvudvyn vid resursändring. </p> <p><span class="codeph"> ingen</span> står för ingen övergång, huvudvyändringen sker omedelbart. </p> <p><span class="codeph"> tona</span> aktiverar övertoningsövergång där den gamla bilden tonas ut och den nya bilden tonas in </p> <p> </p> </td> 
+   <td colname="col2"> <p> </p> <p> Anger vilken typ av effekt som används i huvudvyn vid resursändring. </p> <p><span class="codeph"> ingen</span> står för ingen övergång, huvudvyändringen sker omedelbart. </p> <p><span class="codeph"> fade</span> aktiverar övertoningsövergång där den gamla bilden tonas ut och den nya bilden tonas in </p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> varaktighet</span></span> </p> </td> 

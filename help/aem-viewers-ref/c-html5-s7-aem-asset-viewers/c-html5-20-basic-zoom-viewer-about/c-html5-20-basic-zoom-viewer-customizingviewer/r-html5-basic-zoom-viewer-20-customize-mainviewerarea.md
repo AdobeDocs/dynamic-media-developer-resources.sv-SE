@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: f51de2d6-0de2-4a4d-bbf4-185547e6c550
 source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Visningsområdets utseende styrs av följande CSS-klassväljare:
  </tbody> 
 </table>
 
-Exempel - för att ställa in ett visningsprogram med vit bakgrund ( `#FFFFFF`) och gör storleken 512 x 288 pixlar.
+Exempel - för att ställa in ett visningsprogram med vit bakgrund ( `#FFFFFF`) och göra storleken 512 x 288 pixlar.
 
 ```
 .s7basiczoomviewer{ 

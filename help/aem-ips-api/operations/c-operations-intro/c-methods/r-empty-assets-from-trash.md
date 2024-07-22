@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 36866dc8-6a16-4445-942f-d0ea3c168272
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Tömmer resurser från IPS-papperskorgen.
 
-Resurserna finns i papperskorgen tills de töms manuellt eller tills de går ur papperskorgen. Om de töms manuellt bor de i papperskorgen till nästa rensningsjobb (normalt på kvällen) när de till slut tömts från systemet. Om de kommer ut i papperskorgen rensas resurserna bort som en del av samma rensningsaktivitet. Timeout-värdet kan konfigureras (standardvärdet är 7 dagar).
+Assets bor i papperskorgen tills de töms manuellt eller tills de tippar ut ur papperskorgen. Om de töms manuellt bor de i papperskorgen till nästa rensningsjobb (normalt på kvällen) när de till slut tömts från systemet. Om de kommer ut i papperskorgen rensas resurserna bort som en del av samma rensningsaktivitet. Timeout-värdet kan konfigureras (standardvärdet är 7 dagar).
 
 ## Auktoriserade användartyper {#section-24dee2bf5f9f4714a64955c80f2803b4}
 

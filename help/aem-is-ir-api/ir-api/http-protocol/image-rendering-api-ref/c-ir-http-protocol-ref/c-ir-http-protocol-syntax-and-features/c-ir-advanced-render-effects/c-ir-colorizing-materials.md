@@ -1,5 +1,5 @@
 ---
-title: Färga material
+title: Färglägga material
 description: De flesta material kan färgas dynamiskt.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
@@ -12,10 +12,10 @@ ht-degree: 0%
 
 ---
 
-# Färga material{#colorizing-materials}
+# Färglägga material{#colorizing-materials}
 
 De flesta material kan färgas dynamiskt.
 
-Färgningsalgoritmen är enkel och fungerar bäst för materialbilder som har ett begränsat nyansintervall. Om du vill färglägga ett material subtraherar renderaren bara `bgc=` värdet och lägger till `color=` till varje pixelvärde.
+Färgningsalgoritmen är enkel och fungerar bäst för materialbilder som har ett begränsat nyansintervall. Om du vill färglägga ett material subtraherar renderaren bara värdet `bgc=` och lägger till värdet `color=` för varje pixelvärde.
 
-Färgsättning är inaktiverad om `color=` har inte angetts. The `bgc=` Attributet ignoreras av kabinettmaterial. basfärgvärdet som är inbäddat i [!DNL vnc] filen används i stället.
+Färgläggning är inaktiverat om `color=` inte anges. Attributet `bgc=` ignoreras av kabinettmaterial. Basfärgvärdet som är inbäddat i filen [!DNL vnc] används i stället.

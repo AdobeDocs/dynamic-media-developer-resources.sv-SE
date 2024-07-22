@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 5f50cb66-e5b4-42c6-8917-a954d8d80154
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Visningsområdets utseende styrs av följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Ikoneffekten har stöd för `media-type` attributväljare, som du kan använda för att använda olika ikoneffekter på olika enheter. I synnerhet `media-type='standard'` motsvarar stationära datorer där musindata normalt används och `media-type='multitouch'` motsvarar enheter med pekrörelser.
+>Ikoneffekten stöder attributväljaren `media-type` som du kan använda för att använda olika ikoneffekter på olika enheter. I synnerhet motsvarar `media-type='standard'` stationära datorer där musindata normalt används och `media-type='multitouch'` motsvarar enheter med pekrörelser.
 
 Exempel - för att ställa in en zoomindikator på 100 x 100 pixlar med olika grafik för stationära datorer och pekenheter.
 

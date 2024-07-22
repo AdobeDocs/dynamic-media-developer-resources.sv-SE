@@ -41,7 +41,7 @@ Syntax
 | folderHandle | `xsd:string` | Ja | Referensen till mappen. |
 | name | `xsd:string` | Ja | Namn på bilduppsättning. |
 | type | `xsd:string` | Ja | Bilduppsättningstyp. |
-| thumbAssetHandle | `xsd:string` | Nej | Hantera den resurs som fungerar som miniatyrbild för den nya bilduppsättningen. Om inget anges försöker IPS använda den första bildresursen som uppsättningen refererar till. |
+| thumbAssetHandle | `xsd:string` | Nej | Hantera den resurs som fungerar som miniatyrbild för den nya bilduppsättningen. Om inget anges försöker IPS att använda den första bildresursen som uppsättningen refererar till. |
 
 **Utdata**
 

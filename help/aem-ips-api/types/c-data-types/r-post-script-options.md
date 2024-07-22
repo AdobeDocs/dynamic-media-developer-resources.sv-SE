@@ -1,5 +1,5 @@
 ---
-description: Alternativ för PostScript-filer.
+description: Filalternativ för PostScript.
 solution: Experience Manager
 title: PostScriptOptions
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL PostScriptOptions]{#postscriptoptions}
 
-Alternativ för PostScript-filer.
+Filalternativ för PostScript.
 
 Syntax
 
@@ -22,8 +22,8 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| process | `xsd:string` | PostScript-processval. |
+| process | `xsd:string` | PostScript processval. |
 | upplösning | `xsd:double` | Filupplösning. |
-| färgrymd | `xsd:string` | PostScript-färgmodell. |
+| färgrymd | `xsd:string` | PostScript färgrymdsläge. |
 | alpha | `xsd:boolean` | Om filen ska rastreras till en bild. I så fall skapas en genomskinlig bakgrund om originalfilen har definierats på det här sättet. Används vanligtvis för att skapa överlagrade logotyper. |
 | extractSearchWords | `xsd:boolean` | Om sökord ska extraheras från PostScript-filen. |

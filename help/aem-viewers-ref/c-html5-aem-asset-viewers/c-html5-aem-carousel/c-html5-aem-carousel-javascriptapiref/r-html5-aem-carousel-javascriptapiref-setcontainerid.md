@@ -18,9 +18,9 @@ JavaScript API-referens för Carousel Viewer.
 
 ` setContainerId( *`containerId`*)`
 
-Anger ID för DOM-behållaren (vanligtvis en `DIV`) som visningsprogrammet infogas i. Det är inte nödvändigt att ha behållarelementet skapat när metoden anropas. Behållaren måste dock finnas när `init()` körs. Den måste anropas före `init()`.
+Anger ID:t för DOM-behållaren (vanligtvis `DIV`) som visningsprogrammet infogas i. Det är inte nödvändigt att ha behållarelementet skapat när metoden anropas. Behållaren måste dock finnas när `init()` körs. Den måste anropas före `init()`.
 
-Den här metoden är valfri om visningsprogrammets konfigurationsinformation skickas med `config` JSON-objekt till konstruktorn.
+Den här metoden är valfri om visningsprogrammets konfigurationsinformation skickas med JSON-objektet `config` till konstruktorn.
 
 ## Parameter {#section-fa807db629ce43bab286b1e1dc96c492}
 
@@ -28,7 +28,7 @@ Den här metoden är valfri om visningsprogrammets konfigurationsinformation ski
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> ID för behållare. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> ID för behållaren. </p> </td> 
   </tr> 
  </tbody> 
 </table>

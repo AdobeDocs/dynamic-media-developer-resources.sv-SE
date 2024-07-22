@@ -22,7 +22,7 @@ Konfigurationsattribut för Interactive Video Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
-   <td colname="col2"> <p> Anger hur färgrutor fylls i vyn. </p> <p>Ange till <span class="codeph"> vänster </span> för att ange fyllningsordningen från vänster till höger. </p> <p>Ange till <span class="codeph"> höger </span> inverterar ordningen så att vyn fylls i från höger till vänster, uppifrån och ned. </p> <p>När <span class="codeph"> auto </span> är inställt används rätt läge för komponenten när språkområdet är inställt på <span class="codeph"> ja </span>"; i annat fall, <span class="codeph"> vänster </span> används. </p> </td> 
+   <td colname="col2"> <p> Anger hur färgrutor fylls i vyn. </p> <p>Ange till <span class="codeph"> vänster </span> för att ange fyllningsordningen från vänster till höger. </p> <p>Om värdet är <span class="codeph"> right </span> inverteras ordningen så att vyn fylls i från höger till vänster, uppifrån och ned. </p> <p>När <span class="codeph"> auto </span> är inställt använder komponenten det högra läget när språkinställningen är inställd på <span class="codeph"> ja </span>, annars används <span class="codeph"> left </span> . </p> </td> 
   </tr> 
  </tbody> 
 </table>

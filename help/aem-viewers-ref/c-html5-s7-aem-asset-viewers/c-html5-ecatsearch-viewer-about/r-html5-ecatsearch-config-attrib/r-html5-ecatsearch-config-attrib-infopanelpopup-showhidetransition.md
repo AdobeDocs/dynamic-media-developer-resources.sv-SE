@@ -19,7 +19,7 @@ ht-degree: 0%
 <table id="table_863763B730A949AA8C0E11E6F8461E3A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> tona|ingen</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> tonad|ingen</span> </p> </td> 
    <td colname="col2"> <p> Anger typen av animering på informationspanelen. </p> </td> 
   </tr> 
   <tr> 

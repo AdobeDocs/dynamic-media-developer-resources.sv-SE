@@ -18,4 +18,4 @@ Ange utfallsmarginal. Anger den utfallsmarginal som ställs in i filen PDF.
 
 `bleedMargin=[ *[!DNL top]*[, *[!DNL left]*= *[!DNL top]*[, *[!DNL bottom]*= *[!DNL top]*[, *[!DNL right]*= *[!DNL left]*]]]]` i punkter
 
-Som standard är `bleedMargin` är inställt på full storlek för dokumentet som definieras av `viewWidth` och `viewHeight`. The *[!DNL left]*, *[!DNL bottom]* och *[!DNL right]* värden är som standard *[!DNL top]* om inget annat anges.
+Som standard är `bleedMargin` inställd på den fullständiga storleken för dokumentet som definieras av `viewWidth` och `viewHeight`. Värdena *[!DNL left]*, *[!DNL bottom]* och *[!DNL right]* får standardvärdet *[!DNL top]* om de inte anges.

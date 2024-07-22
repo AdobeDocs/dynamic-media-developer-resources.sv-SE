@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 7d6c9408-1f09-464d-8a69-eabdf7c0117d
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ Kommandon i det här fältet åsidosätter alltid kommandon i HTTP-begäran och 
 
 `catalog::PostModifier` är användbart om vissa bilder kräver särskilda inställningar som normalt styrs från URL-adressen, till exempel `qlt=` eller `resmode=`. `catalog::Modifier` ska användas för att ange de flesta IS-kommandon i bildkatalogen.
 
-Makron tillåts i `catalog::PostModifier`, förutsatt att de är definierade i samma katalog eller i standardkatalogen. Egna variabler kan också användas.
+Makron tillåts i `catalog::PostModifier`, förutsatt att de definieras i samma katalog eller i standardkatalogen. Egna variabler kan också användas.
 
 >[!NOTE]
 >
->Om en begäran innehåller flera lager är det bara innehållet i `catalog::PostModifier` av lager 0 används. `catalog::PostModifier` av alla andra lager ignoreras.
+>Om en begäran innehåller flera lager används bara innehållet i `catalog::PostModifier` i lager 0. `catalog::PostModifier` av alla andra lager ignoreras.
 
 ## Egenskaper {#section-6d5b0462ba1245b8ac3ddfd15c059f42}
 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: e0213978-3a1d-44b4-82bf-4527b980b29e
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '422'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ Spelningsloggverktyget kan användas för att förgenerera innehåll för HTTP-s
 
 Den befintliga Image Serving HTTP-svarscachen är inte garanterat användbar efter en större versionsuppgradering (när den första eller andra siffran i versionsnumret ändras). Om servern ska tas direkt in i fulladdningsförhållanden efter uppgraderingen kan servern bli överbelastad med de första timmarna av cacheminnesbegäranden tills cacheminnet är någorlunda ifyllt och cachens träffhastighet ökar.
 
-För att undvika den här initiala laddningen `playlog` kan användas för att förgenerera innehåll för HTTP-svarscachen. `playlog` extraherar HTTP-begäranden från en befintlig åtkomstloggfil och skickar den till servern för att generera cacheposter. För vanliga användningsscenarier räcker det att spela upp en enda åtkomstloggfil som innehåller trafikens hela dag.
+För att undvika den här inledande inläsningsökningen kan verktyget `playlog` användas för att förgenerera innehåll för HTTP-svarscachen. `playlog` extraherar HTTP-begäranden från en befintlig åtkomstloggfil och skickar den till servern för att generera cacheposter. För vanliga användningsscenarier räcker det att spela upp en enda åtkomstloggfil som innehåller trafikens hela dag.
 
-Förutom att fylla i HTTP-svarscachen efter uppgraderingsinstallationer, används verktyget även för att förgenerera cacheinnehåll när en ny server läggs till i en belastningsutjämnad miljö. spela bara upp en nyligen använd loggfil från en av de andra servrarna.
+Förutom att fylla i HTTP-svarscachen efter uppgraderingsinstallationer används verktyget även för att generera cacheinnehåll i förväg när en ny server läggs till i en belastningsutjämnad miljö. Du behöver bara spela upp en nyligen använd loggfil från en av de andra servrarna.
 
-`playlog` kan konfigureras för att stödja de flesta åtkomstloggfiler som genererats av tidigare versioner av Image Serving.
+`playlog` kan konfigureras med stöd för de flesta åtkomstloggfiler som genererats av tidigare versioner av Image Serving.
 
 ## Användning {#section-daa126ec469b4a9d90d59def4fdaacdd}
 
@@ -35,31 +35,31 @@ Förutom att fylla i HTTP-svarscachen efter uppgraderingsinstallationer, använd
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -n <span class="varname"> col </span> </span> </p> </td> 
-  <td class="stentry"> <p>Fältnummer (kolumn) som innehåller begäran i loggposten. 1-baserad. </p> <p>Standard: 16 </p> </td> 
+  <td class="stentry"> <p>Fältnummer (kolumn) som innehåller begäran i loggposten, 1-baserat. </p> <p>Standard: 16 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> -s <span class="varname"> avgränsare </span> </span> </p> </td> 
-  <td class="stentry"> <p>Fältavgränsare; reguljärt uttrycksmönster. </p> <p>Standard: <span class="codeph"> [ ]+ </span>) </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -s <span class="varname"> separator </span> </span> </p> </td> 
+  <td class="stentry"> <p>Fältavgränsare; mönster för reguljära uttryck. </p> <p>Standard: <span class="codeph"> [ ]+ </span>) </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -m <span class="varname"> markör </span> </span> </p> </td> 
-  <td class="stentry"> <p>Markör för begäran. identifierar förfrågningar i loggfilen som ska spelas upp, reguljärt uttrycksmönster. </p> <p>Standard: <span class="codeph"> Begäran: </span>) </p> </td> 
+  <td class="stentry"> <p>Begärandemarkör; identifierar begäranden i loggfilen som ska spelas upp; mönster för reguljära uttryck. </p> <p>Standard: <span class="codeph"> Begäran: </span>) </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -x <span class="varname"> suffix </span> </span> </p> </td> 
-  <td class="stentry"> <p>Tillägg till den begäran som extraherats ur loggfilen. kan användas för att skilja uppspelade begäranden från live-begäranden i loggfilerna, a '?' eller '&amp;'-avgränsare infogas automatiskt, suffixet kan referera till valfritt loggfält efter position inom klammerparentes, standardvärdet motsvarar signaturfältet md5. </p> <p>Standard: <span class="codeph"> playlog={25} </span>) </p> </td> 
+  <td class="stentry"> <p>Det suffix som ska läggas till i den begäran som extraheras från loggfilen. Det kan användas för att separera uppspelningsbegäranden från live-begäranden i loggfilerna. Ett ? eller '&amp;'-avgränsaren infogas automatiskt. Suffixet kan referera till valfritt loggfält efter position inom klammerparentes, standardvärdet motsvarar signaturfältet i md5. </p> <p>Standard: <span class="codeph"> playlog={25} </span>) </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -v </span> </p> </td> 
-  <td class="stentry"> <p>Utförligt läge skriver ut de genererade URL:erna för begäran till <span class="codeph"> stdout </span>. </p> </td> 
+  <td class="stentry"> <p>I detaljerat läge skrivs de genererade begärande-URL:erna ut till <span class="codeph"> stdout </span>. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -h </span> </p> </td> 
-  <td class="stentry"> <p>Skriv ut en sammanfattning till <span class="codeph"> stdout </span>. </p> </td> 
+  <td class="stentry"> <p>Skriv ut en synkronisering till <span class="codeph"> stdout </span>. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -r </span> </p> </td> 
-  <td class="stentry"> <p>request-method - HTTP request method to use ( <span class="codeph"> get|post|head|smart </span>). </p> <p>Standard: <span class="codeph"> smart </span>) </p> </td> 
+  <td class="stentry"> <p>request-method - HTTP-begärandemetod som ska användas ( <span class="codeph"> get|post|head|smart </span>). </p> <p>Standard: <span class="codeph"> smart </span>) </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -o </span> </p> </td> 
@@ -77,6 +77,6 @@ I följande exempel spelas alla begäranden upp från en åtkomstloggfil som ska
 
 `> ../bin/playlog.sh access-2007-01-01.log -n 18 -s ' ' -m . -p http://localhost:8080`
 
-Följande kommando spelar upp alla begäranden som finns i en spårningsloggfil som skapats av Image Serving i Windows:
+Följande kommando spelar upp alla begäranden som finns i en spårningsloggfil som har skapats av Image Serving i Windows:
 
 `> "\Program Files\Scene7\ImageServing\bin\playlog.bat" d:\logs/access-2006-09-01.log`

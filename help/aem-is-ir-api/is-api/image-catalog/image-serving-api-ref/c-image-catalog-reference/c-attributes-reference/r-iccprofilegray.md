@@ -1,6 +1,6 @@
 ---
 title: IccProfileGray
-description: Gråskalans standardprofil för utdatafärg. Anger namnet på ICC-färgprofilen som ska användas för gråskalesvarsbilder när ingen utdatafärgrymd har angetts med icc= och för vissa gråskalefärgvärden som har angetts med olika bildserverkommandon, till exempel color=.
+description: Standardprofil för gråskala. Anger namnet på ICC-färgprofilen som ska användas för gråskalesvarsbilder när ingen utdatafärgrymd har angetts med icc= och för vissa gråskalefärgvärden som har angetts med olika bildserverkommandon, till exempel color=.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # IccProfileGray{#iccprofilegray}
 
-Gråskalans standardprofil för utdatafärg. Anger namnet på ICC-färgprofilen som ska användas för gråskalesvarsbilder när ingen utdatafärgrymd har angetts med icc= och för vissa gråskalefärgvärden som har angetts med olika bildserverkommandon, till exempel color=.
+Standardprofil för gråskala. Anger namnet på ICC-färgprofilen som ska användas för gråskalesvarsbilder när ingen utdatafärgrymd har angetts med icc= och för vissa gråskalefärgvärden som har angetts med olika bildserverkommandon, till exempel color=.
 
 ## Egenskaper {#section-03f090ee2acf4537b83f78840d23ecab}
 
-Textsträng. Om det anges måste det vara ett giltigt `icc::Name` värde från ICC-profilmappningen för antingen den här bildkatalogen eller standardkatalogen, eller en filsökväg som är relativ till `attribute::RootPath`. Den ICC-profil som refereras måste vara en gråskaleprofil.
+Textsträng. Om det anges måste det vara ett giltigt `icc::Name`-värde från ICC-profilmappningen för antingen den här bildkatalogen eller standardkatalogen, eller en filsökväg som är relativ till `attribute::RootPath`. Den ICC-profil som refereras måste vara en gråskaleprofil.
 
 ## Standard {#section-95ba3ab15edc4259b657c6ebf8783d61}
 
-Ärvs från `default::IccProfileGray` om den inte är definierad eller om den är tom.
+Ärvs från `default::IccProfileGray` om inte definierad eller om tom.
 
 ## Se även {#section-b737b9a6a8bd4997b660292301ba967b}
 

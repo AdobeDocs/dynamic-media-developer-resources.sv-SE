@@ -18,12 +18,12 @@ Pixelkoordinater. Används för att ange bildkoordinater i form av en pixelförs
 
 <table id="simpletable_A686120953124ACB8803CB9C877252AB"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> coord</span> </span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> px</span> </span>, <span class="codeph"><span class="varname"> py</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> coord </span> </span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> px </span> </span>, <span class="codeph"><span class="varname"> py </span></span> </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> px</span> </span>, <span class="codeph"><span class="varname"> py</span></span> </p></td> 
-  <td class="stentry"> <p><span class="varname"> x</span>, <span class="varname"> y</span> pixelvärden (int) </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> px </span> </span>, <span class="codeph"><span class="varname"> py </span></span> </p></td> 
+  <td class="stentry"> <p><span class="varname"> x</span>, <span class="varname"> y</span> värden i pixlar (int) </p></td> 
  </tr> 
 </table>
 

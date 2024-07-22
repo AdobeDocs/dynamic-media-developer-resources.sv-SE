@@ -16,4 +16,4 @@ ht-degree: 0%
 
 En prioritetsvarning skickas när det kostnadsfria Java-heap-utrymmet ligger under det angivna tröskelvärdet omedelbart efter en Java-skräpinsamlingscykel.
 
-Upprepade varningar bör åtgärdas genom att Java-heap-utrymmet ökas. Efterföljande förekomster av detta villkor resulterar inte i någon e-postavisering förrän den fördröjningsperiod som anges med `AS::monitorAlertGenerator.heapSpaceResetInterval` har gått ut.
+Upprepade varningar bör åtgärdas genom att Java-heap-utrymmet ökas. Efterföljande förekomster av det här villkoret resulterar inte i någon e-postavisering förrän den fördröjningsperiod som angetts med `AS::monitorAlertGenerator.heapSpaceResetInterval` har gått ut.

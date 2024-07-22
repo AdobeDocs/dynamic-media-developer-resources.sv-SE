@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 6647b459-11d2-47e4-9033-3a740f01a623
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ grout= *`color`*[,*`width`*]
 
 <table id="simpletable_302B78CFC8F14E0F962D1D2064AD1371"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> färg </span> </span> </p> </td>
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> color </span> </span> </p> </td>
   <td class="stentry"> <p>Groutfärg (grå eller RGB). </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -34,17 +34,17 @@ För maximal kontroll av jordningens utseende gäller följande krav:
 * Rutan måste vara kvadratisk eller rektangulär. Inga andra former stöds för närvarande.
 * Bilden får endast innehålla en platta.
 * Standardutfallet i bilden (om sådan finns) måste ha samma tjocklek på alla fyra kanterna.
-* Standardjordningens tjocklek måste anges i materialkatalogen ( `catalog::GroutWidth`).
+* Tjockleken på standardutsnittet måste anges i materialkatalogen ( `catalog::GroutWidth`).
 
 ## Egenskaper {#section-de78b678245b4ffda48097c345949e77}
 
-Materialattribut. `*`färg`*` Måste vara ett RGB-färgvärde. `*`width`*` måste vara ett reellt värde 0 eller större.
+Materialattribut. `*`color`*` måste vara ett RGB-färgvärde. `*`width`*` måste ha det verkliga värdet 0 eller större.
 
 Ignoreras om upprepning = 4, 5, 7, 8, 9, 14 eller högre, eller om detta anges för andra material än repeterbara texturer.
 
 ## Standard {#section-bfab3621f70b4489a21994ab11b20cc6}
 
-If `grout=` anges inte, bildens gruppering ändras inte. If `grout= *`färg`*` anges, `*`width`*` standardvärdet är `catalog::GroutWidth`.
+Om `grout=` inte anges ändras inte bildens groout. Om `grout= *`color`*` anges blir `*`width`*` som standard `catalog::GroutWidth`.
 
 ## Se även {#section-8d472906a44943f5a8557e98f2fbc71f}
 

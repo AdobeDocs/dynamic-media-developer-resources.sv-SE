@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 2294eb37-b362-438f-94bc-eb24ca641752
 source-git-commit: d1df6e943747f9db12c08003647aee840fdfcc0a
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Om jsonp anges som svarsformat formateras svarsdata med JSONP (JavaScript Object Notation with Padding), som omsluts av ett JavaScript-funktionsanrop.
 
-Klienten kan ange en valfri unik begärandeidentifierare ( *`reqId`*), som returneras i svaret och gör det möjligt för klienten att särskilja flera svar som tas emot asynkront. Ett typiskt svar har följande allmänna struktur:
+Klienten kan ange en valfri unik begärandeidentifierare ( *`reqId`*) som returneras i svaret och gör att klienten kan särskilja flera svar som tas emot asynkront. Ett typiskt svar har följande allmänna struktur:
 
 ```
 /*jsonp*/s7jsonResponse({ 
@@ -37,7 +37,7 @@ Klienten kan ange en valfri unik begärandeidentifierare ( *`reqId`*), som retur
 </varname>" );
 ```
 
-The `s7jsonResponse` JavaScript-funktionen måste definieras av klienten. I den enklaste formen kan funktionen se ut så här:
+JavaScript-funktionen `s7jsonResponse` måste definieras av klienten. I den enklaste formen kan funktionen se ut så här:
 
 ```
 var responseData; 
@@ -47,16 +47,16 @@ S7jsonResponse(data, reqId)
 }
 ```
 
-Begäranden som stöder JSONP-svarsformatet gör att du kan ange namnet på JS-callback-hanteraren med den utökade syntaxen för `req=` parameter:
+Begäranden som har stöd för JSONP-svarsformatet gör att du kan ange namnet på JS-callback-hanteraren med den utökade syntaxen för parametern `req=`:
 
 `req=...,json [&handler = reqHandler]`
 
-The `<reqHandler>` syntax är namnet på JS-hanteraren som finns i JSONP-svaret. Endast tecknen a-z, A-Z och 0-9 tillåts. Valfritt. Standard är `s7jsonResponse`.
+Syntaxen `<reqHandler>` är namnet på JS-hanteraren som finns i JSONP-svaret. Endast tecknen a-z, A-Z och 0-9 tillåts. Valfritt. Standardvärdet är `s7jsonResponse`.
 
 Paketet Dynamic Media Image Serving Viewers innehåller ett verktyg för att begära och analysera JSONP-formaterade data från Image Serving.
 
-Se [https://en.wikipedia.org/wiki/JSONP](https://en.wikipedia.org/wiki/JSONP) om du vill ha mer information om JSONP-formatet.
+Mer information om JSONP-formatet finns i [https://en.wikipedia.org/wiki/JSONP](https://en.wikipedia.org/wiki/JSONP).
 
-Se [www.json.org](https://www.json.org/json-en.html) för mer information om JSON-formatet.
+Mer information om JSON-formatet finns i [www.json.org](https://www.json.org/json-en.html).
 
 Se även [req](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76).

@@ -19,7 +19,7 @@ ht-degree: 0%
 <table id="table_5321841E90C941678F32AAF995CDC257"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> e-postadress</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> e-postadress </span></span> </p> </td> 
    <td colname="col2"> <p> Anger bas-URL:en för e-posttjänsten Dynamic Media Classic OnDemand. </p> </td> 
   </tr> 
  </tbody> 

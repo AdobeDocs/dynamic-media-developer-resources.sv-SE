@@ -1,5 +1,5 @@
 ---
-description: Regelbehållarelement. En giltig regeluppsättningsfil innehåller en <ruleset> -element.
+description: Regelbehållarelement. En giltig regeluppsättningsfil innehåller ett <ruleset>-element.
 solution: Experience Manager
 title: linjaluppsättning
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # linjaluppsättning{#ruleset}
 
-Regelbehållarelement. En giltig regeluppsättningsfil innehåller en `<ruleset>` -element.
+Regelbehållarelement. En giltig regeluppsättningsfil innehåller ett `<ruleset>`-element.
 
 ## Attribut {#section-70de3018c1254f6f978dc5ccfb4f8d01}
 
@@ -22,4 +22,4 @@ Ingen.
 
 ## Data {#section-e189386b60754fa29dd4db5709525c25}
 
-Ingen eller flera `<rule>` -element.
+Inga eller fler `<rule>`-element.

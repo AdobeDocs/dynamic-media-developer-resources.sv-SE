@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: c44bfb38-a523-4399-8dbd-936830bb7cac
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1057'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Visst innehåll som visas i eCatalog Viewer kan lokaliseras, t.ex. zoomknappar, sidändringsknappar, miniatyrknappar, helskärmsknappar, stängningsknappar och rullningslistknappar.
 
-Varje textinnehåll i visningsprogrammet som kan lokaliseras representeras av en SDK-identifierare för visningsprogrammet som kallas SYMBOL. Alla SYMBOL har ett standardassocierat textvärde för engelska ( `"en"`) som medföljer det färdiga visningsprogrammet och kan även ha användardefinierade värden för så många språk som behövs.
+Varje textinnehåll i visningsprogrammet som kan lokaliseras representeras av en SDK-identifierare för visningsprogrammet som kallas SYMBOL. Alla SYMBOL har ett standardassocierat textvärde för den engelska språkversionen ( `"en"`) som medföljer visningsprogrammet som inte är installerat och kan även ha användardefinierade värden för så många språkområden som behövs.
 
 När visningsprogrammet startas kontrolleras det aktuella språkområdet för att se om det finns ett användardefinierat värde för varje SYMBOL som stöds i språkområdet. Om det finns något används det användardefinierade värdet, i annat fall används standardtexten som inte finns.
 
@@ -38,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-I exemplet ovan definierar lokaliseringsobjektet två språkinställningar ( `"en"` och `"fr"`) och tillhandahåller lokalisering för två element i användargränssnittet i varje språkområde.
+I exemplet ovan definierar lokaliseringsobjektet två språkområden ( `"en"` och `"fr"`) och tillhandahåller lokalisering för två element i användargränssnittet i varje språkområde.
 
-Webbsideskoden ska skicka ett sådant lokaliseringsobjekt till visningsprogramkonstruktorn som ett värde på `localizedTexts` konfigurationsobjektets fält. Ett annat alternativ är att skicka lokaliseringsobjektet genom att anropa `setLocalizedTexts(localizationInfo)` -metod.
+Webbsideskoden ska skicka ett sådant lokaliseringsobjekt till visningsprogramkonstruktorn som ett värde på fältet `localizedTexts` i konfigurationsobjektet. Ett annat alternativ är att skicka lokaliseringsobjektet genom att anropa metoden `setLocalizedTexts(localizationInfo)`.
 
 Följande SYMBOL stöds (under förutsättning att containerId är visningsbehållarens ID):
 
@@ -97,35 +97,35 @@ Följande SYMBOL stöds (under förutsättning att containerId är visningsbehå
    <td colname="col2"> <p>Bläddra nedåt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_rightButton.PanRightButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_rightButton.PanRightButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Stor knapp för nästa sida. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_leftButton.PanLeftButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_leftButton.PanLeftButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Knappen Stor föregående sida. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_lastPageButton.PanRightButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_lastPageButton.PanRightButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Knappen Sista sidan. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_secondaryLastPageButton.PanRightButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_secondaryLastPageButton.PanRightButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Knappen Sista sidan. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_firstPageButton.PanLeftButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_firstPageButton.PanLeftButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Knappen Första sidan. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_secondaryFirstPageButton.PanLeftButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_secondaryFirstPageButton.PanLeftButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Knappen Första sidan. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_toolBarRightButton.PanRightButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_toolBarRightButton.PanRightButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Knappen Nästa sida. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_toolBarLeftButton.PanLeftButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_toolBarLeftButton.PanLeftButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Knappen Föregående sida. </p> </td> 
   </tr> 
   <tr> 
@@ -181,7 +181,7 @@ Följande SYMBOL stöds (under förutsättning att containerId är visningsbehå
    <td colname="col2"> <p>Från indatafält. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmailShare.MessageGE </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmailShare.MESSAGE </span> </p> </td> 
    <td colname="col2"> <p>Inmatningsfält för meddelanden. </p> </td> 
   </tr> 
   <tr> 
@@ -345,7 +345,7 @@ Följande SYMBOL stöds (under förutsättning att containerId är visningsbehå
    <td colname="col2"> <p>Bildtext för alternativknappen"2 sidor per ark". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Skriv ut.AVBRYT </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Print.CANCEL </span> </p> </td> 
    <td colname="col2"> <p>Beskrivning för knappen Avbryt. </p> </td> 
   </tr> 
   <tr> 
@@ -361,7 +361,7 @@ Följande SYMBOL stöds (under förutsättning att containerId är visningsbehå
    <td colname="col2"> <p> Knappen Skicka till utskrift. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FavoriterMenu.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FavoritesMenu.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Menyknappen Favoriter. </p> </td> 
   </tr> 
   <tr> 
@@ -389,12 +389,12 @@ Följande SYMBOL stöds (under förutsättning att containerId är visningsbehå
    <td colname="col2"> <p>Knappen Visa alla favoriter när vyn Favoriter är inaktiv. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FavoriterEffect.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FavoritesEffect.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>En favoritikon. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_XX[_YY] </span> </p> </td> 
-   <td colname="col2"> <p>Sidetikett som genereras av visningsprogrammet vid inläsningen. </p> <p>Symbolens namn är en mall, där <span class="codeph"> XX </span> är ett nollbaserat uppslagsindex i liggande orientering, och valfritt <span class="codeph"> YY </span> är ett nollbaserat sidindex inuti uppslaget som <span class="codeph"> XX </span>. </p> <p>Gäller endast för den initialt inlästa resursen, ignoreras om en resurs ändras med <span class="codeph"> setAsset() </span> API-anrop. </p> </td> 
+   <td colname="col2"> <p>Sidetikett som genereras av visningsprogrammet vid inläsningen. </p> <p>Symbolens namn är en mall, där <span class="codeph"> XX </span> är ett nollbaserat uppslagsindex i liggande orientering, och det valfria <span class="codeph"> YY </span> är ett nollbaserat sidindex inuti uppslaget som anges av <span class="codeph"> XX </span> . </p> <p>Gäller endast för den initialt inlästa resursen. Ignoreras om en resurs ändras med API-anropet <span class="codeph"> setAsset() </span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_DELIM </span> </p> </td> 
@@ -418,15 +418,15 @@ Följande SYMBOL stöds (under förutsättning att containerId är visningsbehå
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SearchPanel.INFO_NO_RESULTS </span> </p> </td> 
-   <td colname="col2"> <p>Lokaliserat meddelande visas när sökningen inte returnerade några resultat. </p> <p>Den här symbolen har stöd för följande ersättningstoken vid körning: <span class="codeph"> $SEARCH_TEXT$ </span>. Komponenten ersätter den med den söktext som användaren har angett. </p> </td> 
+   <td colname="col2"> <p>Lokaliserat meddelande visas när sökningen inte returnerade några resultat. </p> <p>Den här symbolen stöder följande ersättningstoken vid körning: <span class="codeph"> $SEARCH_TEXT$ </span>. Komponenten ersätter den med den söktext som användaren har angett. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SearchPanel.INFO_RESULTS </span> </p> </td> 
    <td colname="col2"> <p>Lokaliserat meddelande som visas när sökningen har slutförts och returnerar minst ett resultat. </p> <p>Den här symbolen har stöd för följande ersättningstoken vid körning: </p> <p> 
      <ul id="ul_30B76EAB921848069BE843A5F91F697A"> 
-      <li id="li_16AF3EFCC4BF4180B66DE5EA82CC77F4"> <span class="codeph"> $SEARCH_TEXT$ </span> - Den söktext som användaren har angett. </li> 
+      <li id="li_16AF3EFCC4BF4180B66DE5EA82CC77F4"> <span class="codeph"> $SEARCH_TEXT$ </span> - Den söktext som användaren anger. </li> 
       <li id="li_A0FBF12344B04BF0B702A2B7473330A8"> <span class="codeph"> $HIT_COUNT$ </span> - Det totala antalet sökträffar som hittades. </li> 
-      <li id="li_9EB7B41A989B455ABEC72E052284F117"> <span class="codeph"> $PAGE_COUNT$ </span> - antalet katalogsidor som innehåller minst en sökträff. </li> 
+      <li id="li_9EB7B41A989B455ABEC72E052284F117"> <span class="codeph"> $PAGE_COUNT$ </span> - Antalet katalogsidor som innehåller minst en sökträff. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -439,7 +439,7 @@ Följande SYMBOL stöds (under förutsättning att containerId är visningsbehå
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SearchPanel.LABEL </span> </p> </td> 
-   <td colname="col2"> <p>Definierar ett värde för <span class="codeph"> aria-label </span> ARIA-attribut för hela sökpanelen. </p> </td> 
+   <td colname="col2"> <p>Definierar ett värde för ARIA-attributet <span class="codeph"> aria-label </span> för hela sökpanelen. </p> </td> 
   </tr> 
  </tbody> 
 </table>

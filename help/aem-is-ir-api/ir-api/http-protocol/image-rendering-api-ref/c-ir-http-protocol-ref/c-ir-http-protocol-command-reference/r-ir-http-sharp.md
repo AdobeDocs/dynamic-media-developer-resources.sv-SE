@@ -1,20 +1,20 @@
 ---
 title: skarp
-description: Öka skärpan i texturen. Anger den skärpa som ska användas vid återgivning av det här materialet.
+description: Öka skärpan i texturen. Anger den skärpa som ska användas när materialet återges.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7921ceba-e249-4aab-823e-c54705c4a7c3
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '126'
 ht-degree: 3%
 
 ---
 
 # skarp{#sharp}
 
-Öka skärpan i texturen. Anger den skärpa som ska användas vid återgivning av det här materialet.
+Öka skärpan i texturen. Anger den skärpa som ska användas när materialet återges.
 
 `sharp=0|1|2|3`
 
@@ -37,7 +37,7 @@ ht-degree: 3%
  </tr> 
 </table>
 
-`sharp=1` Använder skärpa efter att materialet har renderats. `sharp=2` tillämpar skärpa efter ursprunglig skalning av texturen, men innan den omvandlas till scenen, `sharp=3` använder skärpa både före och efter omformningen.
+`sharp=1` Använder skärpa efter att materialet har renderats. `sharp=2` tillämpar skärpa efter den första skalningen av texturen, men innan den omformas till scenen. `sharp=3` tillämpar skärpa både före och efter omformningen.
 
 Skärpealgoritmen och mängden skärpa och andra USM-parametrar (oskarp maskering) styrs av standardmaterialmallen som tillhandahålls av vinjetteringen eller med `rs=`.
 
@@ -47,7 +47,7 @@ Materialattribut. Ignoreras av heltäckande färgmaterial.
 
 ## Standard {#section-febfa16e65864987b4d328e2ff1df64d}
 
-`catalog::Sharp`, om materialet är baserat på en katalogpost, i annat fall `attribute::Sharp`.
+`catalog::Sharp`, om materialet är baserat på en katalogpost, annars `attribute::Sharp`.
 
 ## Se även {#section-0d5e2c94342c4ee586374ad9c917eeb9}
 

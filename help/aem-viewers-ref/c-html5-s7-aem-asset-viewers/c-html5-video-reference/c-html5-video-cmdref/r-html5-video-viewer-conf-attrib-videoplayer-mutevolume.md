@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 8f644a40-7fd9-4edd-be29-698635b46507
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 1%
+source-wordcount: '56'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Konfigurationsattribut för Video Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Anger avstängt läge för videouppspelning vid första inläsningen. Om inställt på <span class="codeph"> 1 </span> volymen är avstängd, I annat fall spelas videon upp med ljud. På vissa enheter kan videon spelas upp automatiskt när videouppspelning stängs av vid inläsning. </p> </td> 
+   <td colname="col2"> <p> Anger avstängt läge för videouppspelning vid första inläsningen. Om värdet är <span class="codeph"> 1 </span> stängs volymen av, annars spelas videon upp med ljud. På vissa enheter kan videon spelas upp automatiskt när videouppspelning stängs av vid inläsning. </p> </td> 
   </tr> 
  </tbody> 
 </table>

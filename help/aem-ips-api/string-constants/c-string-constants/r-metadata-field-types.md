@@ -22,7 +22,7 @@ Syntax
 
 * [!DNL `Untyped`]
 * [!DNL `Boolean`]
-* [!DNL `BooleanTag`]: Ett specialfall för [!DNL `SingleFixedTag`] med en ordlista som inte kan ändras och som initierats till värdena [!DNL `True`] och [!DNL `False`].
+* [!DNL `BooleanTag`]: Ett specialfall av [!DNL `SingleFixedTag`] med en ordlista som inte kan ändras och som initierats till värdena [!DNL `True`] och [!DNL `False`].
 
 * [!DNL `Color`]
 * [!DNL `Date`]
@@ -30,9 +30,9 @@ Syntax
 * [!DNL `FileName`]
 * [!DNL `Float`]
 * [!DNL `Int`]
-* [!DNL `MultiFixedTag`]: Noll eller flera strängvärden från en stängd ordlista. Det är bara administratörer som kan ändra ordlistan.
+* [!DNL `MultiFixedTag`]: Noll eller fler strängvärden från en stängd ordlista. Det är bara administratörer som kan ändra ordlistan.
 * [!DNL `MultiTag`]: Noll eller fler strängvärden.
-* [!DNL `SingleFixedTag`]: Ett strängvärde från en stängd ordlista. If `setAssetMetadata` eller `batchSetAssetMetadata` anropas med ett värde som inte finns i ordlistan, returneras ett fel. Det är bara administratörer som kan ändra ordlistan.
+* [!DNL `SingleFixedTag`]: Ett strängvärde från en stängd ordlista. Om `setAssetMetadata` eller `batchSetAssetMetadata` anropas med ett värde som inte finns i ordlistan returneras ett fel. Det är bara administratörer som kan ändra ordlistan.
 
 * [!DNL `SingleTag`]: Ett strängvärde.
 * [!DNL `String`]

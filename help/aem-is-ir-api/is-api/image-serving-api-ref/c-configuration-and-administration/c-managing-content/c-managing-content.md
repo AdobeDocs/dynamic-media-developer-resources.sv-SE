@@ -17,6 +17,6 @@ ht-degree: 0%
 De här avsnitten innehåller information om hantering av innehåll.
 
 * [Bildkataloger](c-image-catalogs.md)
-* [Källdata](r-source-data.md)
+* [Source data](r-source-data.md)
 * [Källdata för statiskt innehåll](c-static-content-source-data.md)
 * [Ta bort eller ersätta datafiler](c-deleting-or-replacing-data-files.md)

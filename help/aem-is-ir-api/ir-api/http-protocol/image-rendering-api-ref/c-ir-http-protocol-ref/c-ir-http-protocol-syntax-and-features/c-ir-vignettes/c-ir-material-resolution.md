@@ -18,4 +18,4 @@ Upplösningsvärdet för en repeterbar textur eller annat material definierar ma
 
 Texturupplösningsvärden anges i pixlar per tum (eller den enhet som vinjetteringen anger för scenens koordinatmodell).
 
-Materialupplösningen anges med `res=`.
+Materialupplösningen har angetts med `res=`.

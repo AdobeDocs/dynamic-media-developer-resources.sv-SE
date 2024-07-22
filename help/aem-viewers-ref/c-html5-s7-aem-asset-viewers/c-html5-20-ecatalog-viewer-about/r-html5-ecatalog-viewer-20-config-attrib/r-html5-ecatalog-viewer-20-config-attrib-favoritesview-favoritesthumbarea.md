@@ -7,20 +7,20 @@ role: Developer,User
 exl-id: 5c57fcc8-be67-408a-9c4c-4e15d5fe6410
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '61'
 ht-degree: 0%
 
 ---
 
 # FavoritesView.favoritesThumbView{#favoritesview-favoritesthumbview}
 
-` [FavoritesView.|<containerId>_favoritesView.]favoritesThumbArea= *`area`*`
+` [FavoritesView.|<containerId>_favoritesView.]favoritesThumbArea= *`område`*`
 
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> area</span></span> </p> </td> 
-   <td colname="col2"> <p> Anger beskärningsområdet för favoritminiatyrbilden. Uttryckt som ett relativt värde till den totala bildrutestorleken, med ett intervall från <span class="codeph"> 0</span> till <span class="codeph"> 1.0</span>. </p> <p>Värdet för <span class="codeph"> 1</span> betyder att hela bildrutebilden används som miniatyrbild. </p> <p>Värdet för <span class="codeph"> 0.1</span> innebär att endast 10 % av bildrutestorleken används. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> område </span></span> </p> </td> 
+   <td colname="col2"> <p> Anger beskärningsområdet för favoritminiatyrbilden. Uttryckt som ett relativt värde till den totala bildrutestorleken, med ett intervall från <span class="codeph"> 0</span> till <span class="codeph"> 1.0</span>. </p> <p>Värdet <span class="codeph"> 1</span> innebär att hela bildrutebilden används för miniatyrbilden. </p> <p>Värdet <span class="codeph"> 0,1</span> innebär att endast 10 % av bildrutestorleken används. </p> </td> 
   </tr> 
  </tbody> 
 </table>

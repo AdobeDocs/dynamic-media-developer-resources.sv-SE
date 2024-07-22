@@ -24,4 +24,4 @@ Syntax
 |---|---|---|
 | användare | `types:User` | Användarnamn. |
 | roll | `xsd:string` | Den roll användaren har för varje företag han/hon tillhör. |
-| isActive | `xsd:boolean` | Anger användarens status för varje företag de tillhör. |
+| isActive | `xsd:boolean` | Anger användarens status för varje företag som han/hon tillhör. |

@@ -22,4 +22,4 @@ Syntax
 |---|---|---|
 | companyHandle | `xsd:string` | Handla till företaget. |
 | roll | `xsd:string` | Den roll en användare har för varje företag han/hon tillhör. |
-| isActive | `xsd:boolean` | Anger användarens status för varje företag de tillhör. |
+| isActive | `xsd:boolean` | Anger användarens status för varje företag som han/hon tillhör. |

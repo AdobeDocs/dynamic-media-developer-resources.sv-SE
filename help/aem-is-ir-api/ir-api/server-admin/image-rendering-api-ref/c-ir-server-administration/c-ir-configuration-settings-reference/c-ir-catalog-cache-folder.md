@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Rotmappen för katalogsystemets cache.
 
-Kan antingen vara en absolut sökväg eller en relativ sökväg till [!DNL *[!DNL install_folder]*]. Standard är [!DNL ./cache], vilket motsvarar [!DNL] *[!DNL install_folder]*/cache].
+Kan antingen vara en absolut sökväg eller en relativ sökväg till [!DNL *[!DNL install_folder]*]. Standardvärdet är [!DNL ./cache], vilket motsvarar [!DNL *[!DNL install_folder]*/cache].

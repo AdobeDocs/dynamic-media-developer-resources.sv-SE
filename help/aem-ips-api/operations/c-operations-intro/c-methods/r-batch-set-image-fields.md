@@ -48,7 +48,7 @@ Syntax
 
 ## Exempel {#section-0476e3d6516a4f8bbaac9de983bc6d1e}
 
-I det här exemplet anges data i fälten för två bilder i en uppdateringsarray. I arrayen anges bilderna med hjälp av deras resurshandtag och innehåller upplösning i pixlar, x- och y-positionskoordinater samt användardata. Svaret indikerar att fält för båda bilderna har angetts korrekt.
+I det här exemplet ställs data in i fälten för två bilder i en uppdateringsarray. I arrayen anges bilderna med hjälp av deras resurshandtag och innehåller upplösning i pixlar, x- och y-positionsankarkoordinater och användardata. Svaret indikerar att fält för båda bilderna har angetts korrekt.
 
 **Begäran**
 

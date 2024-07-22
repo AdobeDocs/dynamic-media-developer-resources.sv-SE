@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 62d2368b-ea56-4964-ab9c-07454e19540c
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Vissa typer av svar (till exempel felsvar) är alltid markerade för omedelbar f
 
 ## Egenskaper {#section-7f5173d090cf48df8fa1a2c72b8c8c60}
 
-Reellt tal, -2, -1 eller 0 eller högre. Antal timmar till förfallodatum sedan svarsbilden genererades. Ange 0 om du alltid vill att svarsbilden ska upphöra att gälla omedelbart, vilket i praktiken inaktiverar klientcache-lagring. Ange till -1 för att markera som *`never expire`*. I det här fallet returnerar servern alltid 304-status (inte ändrad) som svar på begäran om villkorlig GET utan att kontrollera om filen faktiskt har ändrats. Ange till -2 om du vill använda standardinställningen från `attribute::Expiration`.
+Reellt tal, -2, -1 eller 0 eller högre. Antal timmar till förfallodatum sedan svarsbilden genererades. Ange 0 om du alltid vill att svarsbilden ska upphöra att gälla omedelbart, vilket i praktiken inaktiverar klientcache-lagring. Ange till -1 för att markera som *`never expire`*. I det här fallet returnerar servern alltid 304-status (inte ändrad) som svar på begäran om villkorlig GET utan att kontrollera om filen faktiskt har ändrats. Ange till -2 om du vill använda standardinställningen som tillhandahålls av `attribute::Expiration`.
 
 ## Standard {#section-ec72cc1dfc5e4f278174d37da2e39462}
 

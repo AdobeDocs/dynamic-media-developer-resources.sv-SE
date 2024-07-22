@@ -7,28 +7,28 @@ role: Developer,User
 exl-id: f57a8a2e-63a1-4a59-9a25-b435d0ac39dc
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
 
 # ZoomView.frametransition{#zoomview-frametransition}
 
-` [ZoomView.|<containerId>_zoomView.]frametransition=none|fade|slide[, *`varaktighet`*[, *`avstånd`*]`
+` [ZoomView.|<containerId>_zoomView.]frametransition=none|fade|slide[, *`duration`*[, *`spacing`*]`
 
 <table id="table_D5992FCFF26046079089652B211BB6C5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ingen|tona|bildruta </span> </p> </td> 
-   <td colname="col2"> <p>Anger vilken typ av effekt som används vid bildruteändring. Attributet <span class="codeph"> ingen </span> står för ingen övergång, bildruteändringen sker omedelbart. Attributet <span class="codeph"> tona </span> betyder övertoningsövergång mellan gamla och nya bildrutor. Attributet <span class="codeph"> bild </span> aktiverar övergången där den gamla bildrutan glider ut ur vyn och den nya bildrutan glider in. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ingen|tona|bild </span> </p> </td> 
+   <td colname="col2"> <p>Anger vilken typ av effekt som används vid bildruteändring. Attributet <span class="codeph"> none </span> står för ingen övergång. Bildruteändringen sker omedelbart. Tona <span class="codeph">-attributet </span> innebär en övertoning mellan gamla och nya bildrutor. Attributet <span class="codeph"> bild </span> aktiverar övergång där den gamla bildrutan glider ut ur vyn och den nya bildrutan glider in. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> varaktighet </span> </span> </p> </td> 
-   <td colname="col2"> <p>Anger längden (i sekunder) för <span class="codeph"> tona </span> eller <span class="codeph"> bild </span> övergångseffekt. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duration </span> </span> </p> </td> 
+   <td colname="col2"> <p>Anger längden (i sekunder) för övergångseffekten <span class="codeph"> för toning </span> eller <span class="codeph"> bild </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> avstånd </span> </span> </p> </td> 
-   <td colname="col2"> <p>Avståndet mellan intilliggande bildrutor i <span class="codeph"> bild </span> övergång, har intervallet från <span class="codeph"> 0 </span> via <span class="codeph"> 1 </span> och är relativ till komponentens bredd. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> spacing </span> </span> </p> </td> 
+   <td colname="col2"> <p>Avståndet mellan intilliggande bildrutor i övergången <span class="codeph"> bild </span> ligger mellan <span class="codeph"> 0 </span> och <span class="codeph"> 1 </span> och är relativt till komponentens bredd. </p> </td> 
   </tr> 
  </tbody> 
 </table>

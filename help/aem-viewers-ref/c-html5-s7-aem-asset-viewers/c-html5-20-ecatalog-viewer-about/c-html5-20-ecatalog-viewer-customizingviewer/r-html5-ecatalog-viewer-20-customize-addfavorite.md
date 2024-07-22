@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 3602fa7b-d654-4976-a62d-d959898cb530
 source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -49,9 +49,9 @@ Utseendet på knappen Lägg till favorit styrs av följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen har stöd för båda `state` och `selected` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen. I synnerhet `selected='true'` motsvarar läget när en användare kan lägga till en ny Favorit-ikon genom att markera eller trycka. Attributet `selected='false'` motsvarar det normala driftsläget när en användare kan zooma, panorera och byta sidor.
+>Den här knappen stöder både attributväljarna `state` och `selected` som kan användas för att tillämpa olika skal på olika knapplägen. I synnerhet motsvarar `selected='true'` läget när en användare kan lägga till en ny Favorit-ikon genom att markera eller trycka. Attributet `selected='false'` motsvarar normalläget när en användare kan zooma, panorera och byta sidor.
 
-Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - För att ställa in en Lägg till favorit-knapp som är 28 x 28 pixlar. Och den visar olika bilder för vart och ett av de fyra olika knapplägena när den är markerad eller inte är markerad.
 

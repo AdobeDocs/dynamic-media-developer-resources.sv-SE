@@ -22,7 +22,7 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| groupHandle | `xsd:string` | Gruppreferens. |
+| groupHandle | `xsd:string` | Grupphandtag. |
 | groupName | `xsd:string` | Gruppnamn. |
 | permissionType | `xsd:string` | Val av behörighetstyp. |
 | isAllowed | `xsd:boolean` | Anger om behörighet är tillåten. |

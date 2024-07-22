@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: c29f085e-8093-44d2-8f98-9341d780cca8
 source-git-commit: 6087b48b898e93e605c3873cbd5132b74d04225f
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -60,12 +60,12 @@ Informationspanelens dialogruta visas som standard i mitten av visningsprogramom
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vänster </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kvar </span> </p> </td> 
    <td colname="col2"> <p>Den vågräta positionen för informationsdialogrutan i visningsområdets bakgrundsfyllning. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
-   <td colname="col2"> <p>Den lodräta positionen för informationspanelens dialogruta i visningsområdet. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
+   <td colname="col2"> <p>Den lodräta positionen för informationspanelens dialogruta i visningsprogramområdet. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -97,7 +97,7 @@ Informationspanelens dialogruta visas som standard i mitten av visningsprogramom
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> box-shadow </span> </p> </td> 
-   <td colname="col2"> <p>Dialogrutekugga. </p> </td> 
+   <td colname="col2"> <p>Dialogskugga. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -137,7 +137,7 @@ Utseendet på den här knappen styrs av följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p>Placera från dialogrutans övre kant. </p> </td> 
   </tr> 
   <tr> 
@@ -145,7 +145,7 @@ Utseendet på den här knappen styrs av följande CSS-klassväljare:
    <td colname="col2"> <p>Placera från dialogrutans högra kant. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vänster </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kvar </span> </p> </td> 
    <td colname="col2"> <p>Placera från dialogrutans vänstra kant. </p> </td> 
   </tr> 
   <tr> 
@@ -173,9 +173,9 @@ Utseendet på den här knappen styrs av följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen har stöd för `state` attributväljaren, som du kan använda för att använda olika skal på olika knapplägen.
+>Den här knappen har stöd för attributväljaren `state` som du kan använda för att använda olika skal för olika knapplägen.
 
-Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - Om du vill ställa in en dialogrutas stängningsknapp som är 28 x 28 pixlar och placerad 5 pixlar från den övre och högra kanten av dialogrutan för informationspanelen. Slutligen visas olika bilder för de fyra olika knapplägena.
 

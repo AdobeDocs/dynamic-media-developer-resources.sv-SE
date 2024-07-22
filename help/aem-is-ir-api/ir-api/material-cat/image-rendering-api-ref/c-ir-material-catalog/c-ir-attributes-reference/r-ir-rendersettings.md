@@ -22,8 +22,8 @@ Textsträng. Om det anges måste det vara en giltig återgivningsinställningsst
 
 ## Standard {#section-4e76784aeecd4f09a33124aded7406cb}
 
-`default::RenderSettings` om den inte anges eller om den är tom.
+`default::RenderSettings` om den inte har angetts eller om den är tom.
 
 ## Se även {#section-f35d7772f4b744d1846331e19ea99173}
 
-[rs=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rs.md#reference-d20cefaaa6cd4f449d1591c87959b4cf) , [katalog::RenderSettings](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rendersettings.md#reference-f3ae5e18095d40b2a8edef957dd82fbd)
+[rs=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rs.md#reference-d20cefaaa6cd4f449d1591c87959b4cf) , [catalog::RenderSettings](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rendersettings.md#reference-f3ae5e18095d40b2a8edef957dd82fbd)

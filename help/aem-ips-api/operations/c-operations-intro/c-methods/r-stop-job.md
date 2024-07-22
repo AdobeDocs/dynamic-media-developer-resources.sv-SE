@@ -36,7 +36,7 @@ Syntax
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Företagshandtag. |
-| jobHandle | `xsd:string` | Ja | Hantera jobbet som du vill stoppa. |
+| jobHandle | `xsd:string` | Ja | Hantera det jobb som du vill stoppa. |
 
 **Utdata (stopJobReturn0**
 

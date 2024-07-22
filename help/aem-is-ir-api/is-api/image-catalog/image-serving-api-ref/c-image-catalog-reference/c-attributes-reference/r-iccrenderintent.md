@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 732b1935-6556-4420-a056-4e00cb3ed152
 source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Enum. Ange 0 för perceptuell, 1 för relativ kolorimetri, 2 för mättnad och 3
 
 ## Standard {#section-61a05067905b44099c228e15de279dbd}
 
-Ärvs från `default::IccRenderIntent` om den inte är definierad eller om den är tom.
+Ärvs från `default::IccRenderIntent` om inte definierad eller om tom.
 
 ## Se även {#section-7da9ff3038ca452a9f7375a1ca0581af}
 

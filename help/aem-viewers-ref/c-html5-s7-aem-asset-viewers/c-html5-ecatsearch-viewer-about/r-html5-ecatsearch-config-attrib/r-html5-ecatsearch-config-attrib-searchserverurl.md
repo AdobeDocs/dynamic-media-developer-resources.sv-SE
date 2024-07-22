@@ -19,7 +19,7 @@ ht-degree: 0%
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> searchServerUrl</span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> searchServerUrl </span> </span> </p> </td> 
    <td colname="col2"> <p> Söktjänstens rotsökväg. Om ingen domän anges används den domän som visningsprogrammet hanteras från. </p> </td> 
   </tr> 
  </tbody> 

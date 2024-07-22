@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Sökväg till bildfil.
 
-Relativ eller absolut sökväg och namn för källbildfilen som är associerad med den här katalogposten. Servern använder de regler för sökvägsupplösning som beskrivs i Hantera källdata för att hitta datafilen.
+Relativ eller absolut sökväg och namn för källbildfilen som är associerad med den här katalogposten. Servern använder de regler för sökvägsupplösning som beskrivs i Hantera Source-data för att hitta datafilen.
 
 ## Egenskaper {#path-properties}
 
@@ -34,6 +34,6 @@ Ingen.
 
 ## Se även {#path-seealso}
 
-[Konc.int. verktyg](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) , [attribute::RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md) , [attribute::DefaultExt](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultext.md) , [src=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md)
+[IC Utility](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) , [attribute::RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md) , [attribute::DefaultExt](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultext.md) , [src=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md)
 
 <!-- [attribute::LowerCasePaths]() -->

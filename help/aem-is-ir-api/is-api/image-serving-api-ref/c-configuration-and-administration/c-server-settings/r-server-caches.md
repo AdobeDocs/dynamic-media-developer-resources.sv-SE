@@ -18,11 +18,11 @@ Använd de här serverinställningarna för servercachen.
 
 ## PS::cache.rootPaths - Cache-datamappar {#section-f0aa808304d74ecdb0c3644f11906c53}
 
-Rotmappen/rotmapparna för [!DNL Platform Server]Diskcache. En eller flera absoluta filsökvägar eller sökvägar i förhållande till *[!DNL install_folder]*, avgränsade med semikolon (;). Data för HTTP-svarscachen fördelas jämnt över alla angivna mappar. Cacheminnen för hjälpcacheminnen (kompilerade bildkataloger och externa bilddata) finns i den primära cachemappen (den första mappen i listan).
+Rotmappen för diskcachen för [!DNL Platform Server]. En eller flera absoluta filsökvägar eller sökvägar i förhållande till *[!DNL install_folder]*, avgränsade med semikolon (;). Data för HTTP-svarscachen fördelas jämnt över alla angivna mappar. Cacheminnen för hjälpcachen (kompilerade bildkataloger och externa bilddata) finns i den primära cachemappen (den första mappen i listan).
 
 ## PS::cache.maxSize - Cachestorlek för svarsdata {#section-ed2e1e7ba4bd4e13b77bb20c4cacddb4}
 
-Maximal storlek för HTTP-svarscache i byte. Denna inställning begränsar mängden faktiska data som ska cachas. det tar inte hänsyn till filsystemets belastning. (Se [Cache för svarsdata](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-response-data-cache.md#concept-81ea996c242441f2a69f7e9d9b3a29ca).) Om flera cachedatamappar har angetts sprids cachedata jämnt över alla mappar. Värdet för `cache.maxSize` in [!DNL PlatformServer.conf] är i byte.
+Maximal storlek för HTTP-svarscache i byte. Den här inställningen begränsar mängden faktiska data som ska cachas, men tar inte hänsyn till filsystemets belastning. (Se [Cache för svarsdata](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-response-data-cache.md#concept-81ea996c242441f2a69f7e9d9b3a29ca).) Om flera cachedatamappar har angetts sprids cachedata jämnt över alla mappar. Värdet för `cache.maxSize` i [!DNL PlatformServer.conf] är i byte.
 
 ## PS::cache.maxEnentries - Max antal poster för svarsdatacache {#section-5603e327e90542a5b50aeeb27b080410}
 
@@ -42,7 +42,7 @@ Image Server behöver ibland spara mellanliggande data på disken. Sökvägen ka
 
 ## SV::temp - Mappen Temporära filer för serveransvarig {#section-fd2cd5ef7e814a4bb56aaf5525e1a154}
 
-Serverhanteraren behöver ibland spara mellanliggande data på disken. Sökvägen kan vara absolut eller relativ till *[!DNL install_folder]*. Standardvärdet är [!DNL  *[!DNL install_folder]*/temp].
+Serverhanteraren behöver ibland spara mellanliggande data på disken. Sökvägen kan vara absolut eller relativ till *[!DNL install_folder]*. Standardvärdet är [!DNL *[!DNL install_folder]*/temp].
 
 >[!NOTE]
 >

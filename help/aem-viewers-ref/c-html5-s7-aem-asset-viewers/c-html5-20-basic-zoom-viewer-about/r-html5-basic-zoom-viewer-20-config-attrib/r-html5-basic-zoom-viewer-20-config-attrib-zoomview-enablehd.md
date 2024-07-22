@@ -7,23 +7,23 @@ role: Developer,User
 exl-id: 321ca7e2-e3f9-4b0e-8bde-41d8478e1a0b
 source-git-commit: 61e3a1fd0e21d336eaf5232096f5b1b54f2a6353
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
 
 # ZoomView.enableHD{#zoomview-enablehd}
 
-` [ZoomView.|<containerId>_zoomView.]enableHD=always|never|limit[, *`tal`*]`
+` [ZoomView.|<containerId>_zoomView.]enableHD=always|never|limit[, *`number`*]`
 
 <table id="table_0BEA0B5FFDF64E5594B534B2A87A6D88"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> always|never|limit</span> </p> </td> 
-   <td colname="col2"> <p> Aktivera, begränsa eller inaktivera optimering för enheter där <span class="codeph"> devicePixelRatio</span> är större än <span class="codeph"> 1</span>, dvs. enheter med högdensitetsskärmar som iPhone4 och liknande enheter. Om den är aktiv begränsar komponenten storleken på IS-bildbegäran som om enheten bara hade pixelproportionen <span class="codeph"> 1</span> och på så sätt minska bandbredden. </p> <p>Se exemplet nedan. </p> </td> 
+   <td colname="col2"> <p> Aktivera, begränsa eller inaktivera optimering för enheter där <span class="codeph"> devicePixelRatio</span> är större än <span class="codeph"> 1</span>, det vill säga enheter med högdensitetsvisning som iPhone4 och liknande enheter. Om den är aktiv begränsar komponenten storleken på IS-bildbegäran som om enheten bara hade pixelproportionen <span class="codeph"> 1</span> och på så sätt minskar bandbredden. </p> <p>Se exemplet nedan. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> tal</span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> number</span> </span> </p> </td> 
    <td colname="col2"> <p> Om du använder begränsningsinställningen aktiveras endast hög pixeldensitet upp till den angivna gränsen. </p> <p>Se exemplet nedan. </p> </td> 
   </tr> 
  </tbody> 
@@ -68,7 +68,7 @@ Nedan följer de förväntade resultaten när du använder det här konfiguratio
      <ul id="ul_CEC06B2280164951BA1A0ADED99E8050"> 
       <li id="li_CA7A0980ACC54690A4F212DF53E2DC8A"> <p>Om gränsvärdet är 1600 och pixeldensiteten är 1,5 används bilden på 1500 x 1500. </p> </li> 
       <li id="li_A4AAD7FBFA0347B082789511CA6768A5"> <p>Om gränsvärdet är 1600 och pixeldensiteten är 2 används bilden på 1000 x 1000 eftersom bilden på 2000 x 2000 överskrider gränsvärdet. </p> </li> 
-     </ul> </p> <p> <b>Bästa praxis</b>: Begränsningsnumret måste fungera med företagsinställningen för maximal bildstorlek. Ange därför gränsvärdet som lika med företagets inställning för maximal bildstorlek. </p> </td> 
+     </ul> </p> <p> <b>Bästa praxis</b>: Begränsningsantalet måste fungera med företagsinställningen för maximal storleksbild. Ange därför gränsvärdet som lika med företagets inställning för maximal bildstorlek. </p> </td> 
   </tr> 
  </tbody> 
 </table>

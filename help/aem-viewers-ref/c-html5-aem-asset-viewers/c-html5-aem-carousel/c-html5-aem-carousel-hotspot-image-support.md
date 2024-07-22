@@ -18,11 +18,11 @@ Visningsprogrammet har stöd för återgivning av hotspot-ikoner och bildschemao
 
 Se [Aktiveringspunkter och bildscheman](../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-hotspots-imagemaps.md#reference-2ac3cc414ef2467390bf53145f1d8d74).
 
-Aktiveringspunkter och regioner kan antingen aktivera en snabbvyfunktion på värdwebbsidan genom att aktivera ett JavaScript-återanrop eller dirigera om en användare till en extern webbsida.
+Aktiveringspunkter och regioner kan antingen aktivera en snabbvyfunktion på värdwebbsidan genom att utlösa ett JavaScript-återanrop eller dirigera om en användare till en extern webbsida.
 
 ## Snabbvisa hotspot-områden {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Den här typen av hotspot-områden eller bildscheman bör redigeras med åtgärdstypen&quot;Quickview&quot; i Dynamic Media, Adobe Experience Manager. När en användare aktiverar ett sådant hotspot- eller bildschema kör visningsprogrammet `quickViewActivate` JavaScript-återanrop och skickar hotspot- eller bildschemadata till den. Inbäddningswebbsidan förväntas lyssna efter det här återanropet. När sidan utlöses öppnas en egen QuickView-implementering.
+Den här typen av hotspot-områden eller bildscheman bör redigeras med åtgärdstypen&quot;Quickview&quot; i Dynamic Media, Adobe Experience Manager. När en användare aktiverar ett sådant hotspot- eller bildschema kör visningsprogrammet JavaScript-återanropet `quickViewActivate` och skickar hotspot- eller bildschemats data till det. Inbäddningswebbsidan förväntas lyssna efter det här återanropet. När sidan utlöses öppnas en egen QuickView-implementering.
 
 ## Omdirigera till extern webbsida {#section-ef820c71251e4215800bb99c0c9ebe16}
 

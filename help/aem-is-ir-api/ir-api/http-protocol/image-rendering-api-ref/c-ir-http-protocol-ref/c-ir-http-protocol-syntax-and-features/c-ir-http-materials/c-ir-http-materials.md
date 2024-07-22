@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Bildåtergivning använder material för grupper eller objekt i vinjetter.
 
-Ett material består av en uppsättning *attributes*. Vissa attribut krävs för vissa material, andra är valfria och andra ignoreras om de finns. Många attribut har standardvärden. Alla material kan inte användas på alla objekt (ett kabinettmaterial kan till exempel inte användas på en soffa).
+Ett material består av en uppsättning *attribut*. Vissa attribut krävs för vissa material, andra är valfria och andra ignoreras om de finns. Många attribut har standardvärden. Alla material kan inte användas på alla objekt (ett kabinettmaterial kan till exempel inte användas på en soffa).
 
 Alla attribut som förekommer inom ett materialspecifikationssegment (MSS) men som inte anges ovan eller i de specifika materialtabellerna nedan ignoreras av servern.
 
-I följande tabeller visas grundläggande materialattribut. IR har stöd för ytterligare attribut för styrning [avancerade renderingseffekter](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-advanced-render-effects.md#concept-bf8b6d8460244b9cacc7f4a3df4c5281).
+I följande tabeller visas grundläggande materialattribut. IR har stöd för ytterligare attribut för styrning av [avancerade återgivningseffekter](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-advanced-render-effects.md#concept-bf8b6d8460244b9cacc7f4a3df4c5281).
 
 Om inget annat anges är alla materialattribut valfria, med lämpliga standardvärden.
 

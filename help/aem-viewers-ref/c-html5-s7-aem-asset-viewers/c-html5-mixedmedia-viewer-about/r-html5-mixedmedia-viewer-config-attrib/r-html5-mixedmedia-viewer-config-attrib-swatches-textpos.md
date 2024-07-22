@@ -22,7 +22,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td> <p> Anger var etiketten ritas i förhållande till färgrutans miniatyrbild. Det innebär att etiketten centreras på den angivna platsen i förhållande till färgrutans miniatyrbild. När <span class="codeph"> knappbeskrivning</span> anges, ingen etikett ritas. </p> </td> 
+   <td> <p> Anger var etiketten ritas i förhållande till färgrutans miniatyrbild. Det innebär att etiketten centreras på den angivna platsen i förhållande till färgrutans miniatyrbild. När <span class="codeph"> tooltip</span> har angetts ritas ingen etikett. </p> </td> 
   </tr> 
  </tbody> 
 </table>

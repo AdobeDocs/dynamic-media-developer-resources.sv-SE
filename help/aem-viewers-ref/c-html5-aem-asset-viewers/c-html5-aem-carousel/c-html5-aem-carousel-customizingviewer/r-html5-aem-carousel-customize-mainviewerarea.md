@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: bdac54f5-79e3-4d3d-9c7e-d9a7cec61c73
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Visningsområdets utseende styrs av följande CSS-klassväljare:
  </tbody> 
 </table>
 
-Exempel - för att konfigurera ett visningsprogram med en vit bakgrund ( `#FFFFFF`) och gör storleken 174 x 500 pixlar.
+Exempel - för att konfigurera ett visningsprogram med en vit bakgrund ( `#FFFFFF`) och göra storleken 174 x 500 pixlar.
 
 ```
 .s7carouselviewer { 

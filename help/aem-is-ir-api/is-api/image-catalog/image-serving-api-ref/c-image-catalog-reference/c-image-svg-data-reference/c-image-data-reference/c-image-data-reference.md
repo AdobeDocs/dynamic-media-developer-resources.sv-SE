@@ -19,7 +19,7 @@ I det här avsnittet beskrivs bildens dataattribut.
 * [Ankarpunkt](r-anchor-cat.md)
 * [AssetType](r-assettype-cat.md)
 * [DigimarcInfo](r-digimarcinfo-cat.md)
-* [Förfaller](r-expiration-cat.md)
+* [Förfallotid](r-expiration-cat.md)
 * [ID](r-id-cat.md)
 * [ImageSet](r-imageset-cat.md)
 * [Karta](r-map-cat.md)

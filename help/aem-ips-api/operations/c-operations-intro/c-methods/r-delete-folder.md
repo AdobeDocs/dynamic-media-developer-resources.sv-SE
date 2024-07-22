@@ -29,7 +29,7 @@ Syntax
 
 >[!NOTE]
 >
->Användaren måste ha läs- och borttagningsåtkomst till mappen och alla dess underordnade objekt.
+>Användaren måste ha läs- och borttagningsåtkomst till mappen och alla dess underordnade.
 
 ## Parametrar {#section-a793c98a481a4f26ab50bc69b16b57e7}
 

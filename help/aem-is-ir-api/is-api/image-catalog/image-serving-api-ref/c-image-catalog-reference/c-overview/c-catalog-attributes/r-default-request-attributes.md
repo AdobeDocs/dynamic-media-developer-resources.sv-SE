@@ -27,27 +27,27 @@ Katalogattributfiler känner igen dessa standardattribut för begäran.
    <td colname="col2"> <p> Standardteckensnittsnamn. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-defaultimage.md#reference-8e9900e129f54ed68462a3c2fc3bc433" format="dita" scope="local"> DefaultImage</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-defaultimage.md#reference-8e9900e129f54ed68462a3c2fc3bc433" format="dita" scope="local"> DefaultImage </a></span> </p> </td> 
    <td colname="col2"> <p> Standardsvarsbild. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultpix.md#reference-996b2c22b30f4fd9b970c84063306df1" format="dita" scope="local"> DefaultPix</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultpix.md#reference-996b2c22b30f4fd9b970c84063306df1" format="dita" scope="local"> DefaultPix </a></span> </p> </td> 
    <td colname="col2"> <p> Standardstorlek för svarsbilder. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultthumbpix.md#reference-cf52bb74bed2466e8bc8adb0cacd6141" format="dita" scope="local"> DefaultThumbPix</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultthumbpix.md#reference-cf52bb74bed2466e8bc8adb0cacd6141" format="dita" scope="local"> DefaultThumbPix </a></span> </p> </td> 
    <td colname="col2"> <p> Standardstorlek för miniatyrbilder. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-bkgcolor.md#reference-ed53106ee50442d7a2dd3e1f60e6f0f8" format="dita" scope="local"> BkgColor</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-bkgcolor.md#reference-ed53106ee50442d7a2dd3e1f60e6f0f8" format="dita" scope="local"> BkgColor </a></span> </p> </td> 
    <td colname="col2"> <p> Standardbakgrundsfärg för svarsbilder. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-jpegquality.md#reference-4a879e7c46024c8a898a9fd226f9eb09" format="dita" scope="local"> JpegQuality</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-jpegquality.md#reference-4a879e7c46024c8a898a9fd226f9eb09" format="dita" scope="local"> JpegQuality </a></span> </p> </td> 
    <td colname="col2"> <p> Standardinställningar för JPEG-kodaren. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-resmode.md#reference-609095ef568743a086f28d87c54dafa2" format="dita" scope="local"> ResMode</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-resmode.md#reference-609095ef568743a086f28d87c54dafa2" format="dita" scope="local"> ResMode </a></span> </p> </td> 
    <td colname="col2"> <p> Standardläge för omsampling. </p> </td> 
   </tr> 
   <tr> 

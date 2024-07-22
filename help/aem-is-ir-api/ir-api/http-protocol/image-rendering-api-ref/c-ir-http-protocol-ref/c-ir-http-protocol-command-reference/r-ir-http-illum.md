@@ -20,7 +20,7 @@ Väljare för illustrationsschema. Anger den belysningskarta som materialet ska 
 
 Om den angivna belysningskartan inte är tillgänglig i målvinjetteringen används den närmaste tillgängliga kartan i stället.
 
-`illum=-1` Anger att belysningskartan väljs automatiskt baserat på `gloss=` värde.
+`illum=-1` Anger att belysningskartan väljs automatiskt baserat på värdet `gloss=`.
 
 ## Egenskaper {#section-aace8466566e4cf1a0c5a6c0167245c9}
 

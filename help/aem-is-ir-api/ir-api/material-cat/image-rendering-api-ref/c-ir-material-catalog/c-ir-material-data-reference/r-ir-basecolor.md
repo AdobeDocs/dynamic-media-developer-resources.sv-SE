@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Dominerande bildfärg. Subtraktiv färg, används för texturfärgning. Bör vara den genomsnittliga dominerande färgen i texturbilden.
 
-Du kan också använda `BaseColor`som en fyllningsfärg om det inte finns något strukturmaterial `catalog::Color` används på ett vinjettobjekt som inte är texturerbart.
+Du kan också använda `BaseColor` som fyllningsfärg om ett texturmaterial som inte har `catalog::Color` används på ett vinjetteringsobjekt som inte kan struktureras.
 
 ## Egenskaper {#section-d9aec235f28b402581cf2277f5fc6fbb}
 

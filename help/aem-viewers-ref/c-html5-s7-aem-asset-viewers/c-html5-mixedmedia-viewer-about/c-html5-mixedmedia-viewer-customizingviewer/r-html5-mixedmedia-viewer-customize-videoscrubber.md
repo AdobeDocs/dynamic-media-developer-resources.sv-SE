@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 3e9c8800-fda2-41d1-8436-b2de7952652c
 source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -28,12 +28,12 @@ Videonavigeringens allmänna utseende styrs med följande CSS-klassväljare:
 .s7mixedmediaviewer .s7videoscrubber .s7knob
 ```
 
-**CSS-egenskaper för videonavigeringslisten**
+**CSS-egenskaper för videonavigeringsprogrammet**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p>Placera från den övre kanten, inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
@@ -59,7 +59,7 @@ Följande CSS-klassväljare spårar indikatorerna för bakgrund, uppspelning och
 .s7mixedmediaviewer .s7videoscrubber .s7trackplayed
 ```
 
-**Spårets CSS-egenskaper**
+**CSS-egenskaper för spåret**
 
 <table id="table_46903DCACF314426B67783167ADF7715"> 
  <tbody> 
@@ -85,7 +85,7 @@ Följande CSS-klassväljare styr ratten:
 <table id="table_966826FB81114362A8D81D1EED38D512"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p>Lodrät rattförskjutning. </p> </td> 
   </tr> 
   <tr> 
@@ -113,7 +113,7 @@ Följande CSS-klassväljare styr den tid som spelas upp:
 .s7mixedmediaviewer .s7videoscrubber .s7videotime
 ```
 
-**CSS-egenskaper för den tid som spelas upp**
+**CSS-egenskaper för bubblan för uppspelning**
 
 <table id="table_21E9AD3FBC8C4437BA02E5CD1BF7E831"> 
  <tbody> 
@@ -156,7 +156,7 @@ Följande CSS-klassväljare styr den tid som spelas upp:
  </tbody> 
 </table>
 
-Verktygstipset för videospolning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) för mer information.
+Verktygstipset för videospolning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
 ## Exempel {#section-e8caea0a303c425a8a637c2a47c06355}
 

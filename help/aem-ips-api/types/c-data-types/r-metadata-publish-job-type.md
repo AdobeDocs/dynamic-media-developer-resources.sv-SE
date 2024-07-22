@@ -30,9 +30,9 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> forcePublish</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> forcePublish </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolesk</span> </td> 
-   <td colname="col3">Ange till <span class="codeph"> True</span> publicera <i>alla</i> data till metadataservern igen. <p>Obs! Beroende på mängden data kan detta ta flera minuter till några timmar. </p><p>Ange inte den här parametern om du bara vill publicera nya eller ändrade metadata. </p></td> 
+   <td colname="col3">Ange <span class="codeph"> True</span> om du vill publicera <i>alla</i>-data till metadataservern igen. <p>Obs! Beroende på mängden data kan detta ta flera minuter till några timmar. </p><p>Ange inte den här parametern om du bara vill publicera nya eller ändrade metadata. </p></td> 
   </tr> 
  </tbody> 
 </table>

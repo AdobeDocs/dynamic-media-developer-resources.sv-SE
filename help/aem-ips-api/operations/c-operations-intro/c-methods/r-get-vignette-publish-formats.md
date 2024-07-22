@@ -25,7 +25,7 @@ Syntax
 
 ## Parametrar {#section-ba28150e6d8c4aa0b4ec72451ba7bc71}
 
-**Indata (getVinjettPublishFormatsParam)**
+**Indata (getVignettePublishFormatsParam)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|

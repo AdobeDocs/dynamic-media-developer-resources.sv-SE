@@ -22,4 +22,4 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| autoSetsArray | `types:HandleArray` | Array med [!DNL PropertySet] -hanterare som definierar skript för automatisk set-generering som används vid överföring. |
+| autoSetsArray | `types:HandleArray` | En matris med [!DNL PropertySet] handtag som definierar de skript för automatisk uppsättningsgenerering som används vid överföring. |

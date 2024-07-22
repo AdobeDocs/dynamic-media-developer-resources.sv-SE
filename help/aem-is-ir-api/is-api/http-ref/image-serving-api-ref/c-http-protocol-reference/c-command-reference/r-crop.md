@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: d1ea63c1-95f0-4a4e-b65d-eb535eef0205
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ Beskär bild. Anger ett rektangulärt beskärningsområde, uttryckt antingen i p
 
 <table id="simpletable_472A9AD67AA64419B0877B0535F8B14A"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> coord</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> coord </span></span> </p> </td> 
   <td class="stentry"> <p>Pixelförskjutning från det övre vänstra hörnet av källbilden till det övre vänstra hörnet av beskärningsrektangeln (int, int). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> coordN</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> coordN </span></span> </p> </td> 
   <td class="stentry"> <p>Normaliserad förskjutning från det övre vänstra hörnet i källbilden till det övre vänstra hörnet i beskärningsrektangeln (reellt, reellt). </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -34,7 +34,7 @@ Beskär bild. Anger ett rektangulärt beskärningsområde, uttryckt antingen i p
   <td class="stentry"> <p>Beskärningsrektangelns storlek i pixlar (int, int). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> sizeN</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> sizeN </span></span> </p></td> 
   <td class="stentry"> <p>Normaliserad storlek på beskärningsrektangeln i förhållande till källbildens storlek (verklig, verklig). </p></td> 
  </tr> 
 </table>
@@ -43,7 +43,7 @@ Kan även användas för att utöka bilden utanför gränserna genom att ange ne
 
 ## Egenskaper {#section-632e0405bb9940679b5f8b1c10e0902e}
 
-Källbild/maskattribut. Gäller för källbilden för lagret 0 om `layer=comp`. Ignoreras av lager som inte är kopplade till en källbild eller källmask.
+Source image/mask-attribut. Gäller för källbilden för lager 0 om `layer=comp`. Ignoreras av lager som inte är kopplade till en källbild eller källmask.
 
 ## Standard {#section-41f62d386c664f77952bc22e7286bb88}
 

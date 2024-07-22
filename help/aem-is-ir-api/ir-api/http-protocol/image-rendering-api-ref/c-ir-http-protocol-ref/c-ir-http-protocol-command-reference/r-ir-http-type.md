@@ -53,7 +53,7 @@ Typ av materialyta. Anger materialets yttyp.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>8 </p></td> 
-  <td class="stentry"> <p>Skrivbordsunderlägg </p></td> 
+  <td class="stentry"> <p>Bakgrund </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>9 </p></td> 
@@ -77,7 +77,7 @@ Typ av materialyta. Anger materialets yttyp.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>14 </p></td> 
-  <td class="stentry"> <p>Natursten </p></td> 
+  <td class="stentry"> <p>Naturlig sten </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>15 </p></td> 
@@ -101,7 +101,7 @@ Typ av materialyta. Anger materialets yttyp.
  </tr> 
 </table>
 
-Används med `gloss=` och `rough=` för att styra reflektioner och glanseffektbeteenden. Olika material ger olika effekter, även om `gloss=` och `rough=` är likadana.
+Används med `gloss=` och `rough=` för att styra reflektion och glanseffektbeteenden. Olika material ger olika effekter, även om `gloss=` och `rough=` är samma.
 
 ## Egenskaper {#section-2345b2508273426295ce8ac46182ea64}
 
@@ -109,8 +109,8 @@ Materialattribut. Ignoreras om vinjetteringen inte innehåller 3-D-reflektionsda
 
 ## Standard {#section-0989055fb74a41a3b2f2a47fe7d90a42}
 
-`catalog::Type` Om materialet baseras på en katalogpost. Annars `type=0`. Om inget anges, eller om `type=0`väljer servern en lämplig standard beroende på målobjektet och andra materialattribut.
+`catalog::Type` Om materialet är baserat på en katalogpost. Annars `type=0`. Om inget anges, eller om `type=0` anges, väljer servern en lämplig standard beroende på målobjektet och andra materialattribut.
 
 ## Se även {#section-7cf808b0bb3d4b4fbb7b9a850d5a038b}
 
-[glans=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) , [grov=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)
+[blankt=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) , [grov=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)

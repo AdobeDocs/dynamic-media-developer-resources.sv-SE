@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 369e389c-f0e2-405e-b4aa-2f6b9ac8b8ea
 source-git-commit: 8c49595fe0efb684b59601fb268bd8bf97fae555
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
@@ -16,25 +16,25 @@ ht-degree: 0%
 
 Konfigurationsattribut för visningsprogrammet för smart beskärning.
 
-` [SmartCropVideoPlayer.|<containerId>_videoPlayer.]iconeffect= *`0|1`*[, *`antal`*][, *`tona`*][, *`autoHide`*]`
+` [SmartCropVideoPlayer.|<containerId>_videoPlayer.]iconeffect= *`0|1`*[, *`count`*][, *`fade`*][, *`autoHide`*]`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 0|1</span> </span> </p> </td> 
-   <td colname="col2"> <p> Gör att IconEffect kan visas ovanpå videon när videon pausas. På vissa enheter används inbyggda kontroller. I sådana fall <span class="codeph"> ikoneffekt</span> modifierare ignoreras. </p> </td> 
+   <td colname="col2"> <p> Gör att IconEffect kan visas ovanpå videon när videon pausas. På vissa enheter används inbyggda kontroller. I så fall ignoreras modifieraren <span class="codeph"> iconeffect </span> . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> antal</span> </span> </p> </td> 
-   <td colname="col2"> <p> Anger det maximala antalet gånger som IconEffect visas och visas igen. Värdet för <span class="codeph"> -1</span> anger att ikonen visas oändligt. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> count </span> </span> </p> </td> 
+   <td colname="col2"> <p> Anger det maximala antalet gånger som IconEffect visas och visas igen. Värdet <span class="codeph"> -1</span> anger att ikonen visas oändligt igen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> tona</span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> tona </span> </span> </p> </td> 
    <td colname="col2"> <p> Anger hur länge animeringen ska visas eller döljas, i sekunder. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> autoHide</span> </span> </p> </td> 
-   <td colname="col2"> <p> Anger antalet sekunder som IconEffect ska vara synlig innan den döljs automatiskt. Det vill säga, tiden efter att animeringen har tonats in är slutförd och innan animeringen börjar tonas ut. En inställning för <span class="codeph"> 0</span> inaktiverar beteende som döljer automatiskt. </p> </td> 
+   <td colname="col2"> <p> Anger antalet sekunder som IconEffect ska vara synlig innan den döljs automatiskt. Det vill säga, tiden efter att animeringen har tonats in är slutförd och innan animeringen börjar tonas ut. Om du anger <span class="codeph"> 0</span> inaktiveras beteendet för att dölja automatiskt. </p> </td> 
   </tr> 
  </tbody> 
 </table>

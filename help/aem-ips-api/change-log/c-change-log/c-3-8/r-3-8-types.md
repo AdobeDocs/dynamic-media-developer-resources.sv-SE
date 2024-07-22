@@ -7,12 +7,12 @@ role: Developer,Admin
 exl-id: 6121c7a9-aebc-4aa5-970f-8b115f14c71e
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '40'
+source-wordcount: '42'
 ht-degree: 0%
 
 ---
 
-# Datatyper: Nytt och ändrat{#data-types-new-and-modified}
+# Datatyper: Ny och ändrad{#data-types-new-and-modified}
 
 Beskriver nya och ändrade datatyper för IPS API version 3.8.
 

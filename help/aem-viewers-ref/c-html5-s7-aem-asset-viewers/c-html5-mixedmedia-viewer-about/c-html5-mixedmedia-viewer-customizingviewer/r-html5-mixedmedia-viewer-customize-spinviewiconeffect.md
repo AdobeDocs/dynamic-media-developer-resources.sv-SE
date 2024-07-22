@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 1c5c73f9-c32a-4bca-93f0-c5a95756355b
 source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Visningsområdets utseende styrs av följande CSS-klassväljare:
  </tbody> 
 </table>
 
-Rotationsindikatorn har stöd för `state` attributväljare som är inställd på `spin_1D` om det finns en endimensionell snurra och till `spin_2D` om det finns en flerdimensionell snurra.
+Rotationsindikatorn stöder attributväljaren `state` som är inställd på `spin_1D` om det finns en endimensionell snurra och på `spin_2D` om det finns en flerdimensionell snurra.
 
 Exempel - Om du vill ställa in en zoomindikator på 100 x 100 pixlar.
 

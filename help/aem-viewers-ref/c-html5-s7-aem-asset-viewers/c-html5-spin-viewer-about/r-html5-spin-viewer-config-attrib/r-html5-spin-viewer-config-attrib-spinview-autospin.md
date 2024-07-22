@@ -7,32 +7,32 @@ role: Developer,User
 exl-id: 16276e07-5494-4fd9-bd77-e77a46c57fd1
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 1%
+source-wordcount: '102'
+ht-degree: 0%
 
 ---
 
 # SpinView.autospin{#spinview-autospin}
 
-` [SpinView.|<containerId>_spinView.]maxloadradius=0|1[, *`varaktighet`*][, *`riktning`*][, *`spin_number`*]`
+` [SpinView.|<containerId>_spinView.]maxloadradius=0|1[, *`duration`*][, *`direction`*][, *`spin_number`*]`
 
 <table id="table_49FFD1BC53B846F09A6D214BC8C5C3FE"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Aktiverar eller inaktiverar den automatiska rotationsanimeringen. För att få bästa möjliga upplevelse av automatisk snurra rekommenderar vi att du läser in alla bildrutor i förväg genom att ställa in <span class="codeph"> maxloadradius</span> till <span class="codeph"> -1</span>. Observera dock att den här inställningen leder till ökad inläsningstid och ökad bandbreddsanvändning. </p> </td> 
+   <td colname="col2"> <p> Aktiverar eller inaktiverar den automatiska rotationsanimeringen. För att få bästa möjliga upplevelse av automatisk rotation rekommenderar vi att du läser in alla bildrutor i förväg genom att ange <span class="codeph"> maxloadradius</span> till <span class="codeph"> -1</span>. Observera dock att den här inställningen leder till ökad inläsningstid och ökad bandbreddsanvändning. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> varaktighet</span></span> </p> </td> 
    <td colname="col2"> <p> Antalet sekunder per ett helt rotationsfält. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> riktning</span></span> </p> </td> 
-   <td colname="col2"> <p> Rotationsriktningen som är <span class="codeph"> 0</span> för spinning österut och <span class="codeph"> 1</span> för att snurra västerut. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> riktning </span></span> </p> </td> 
+   <td colname="col2"> <p> Rotationsriktningen som är <span class="codeph"> 0</span> för spinning öst och <span class="codeph"> 1</span> för spinning väst. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> spin_number</span></span> </p> </td> 
-   <td colname="col2"> <p> Antalet fullständiga rotationer som görs innan autospin stoppas. Talet är ett flyttal. Ange till <span class="codeph"> -1</span> för ett oändligt automatiskt snurra. </p> </td> 
+   <td colname="col2"> <p> Antalet fullständiga rotationer som görs innan autospin stoppas. Talet är ett flyttal. Ange <span class="codeph"> -1</span> för ett oändligt automatiskt snurr. </p> </td> 
   </tr> 
  </tbody> 
 </table>

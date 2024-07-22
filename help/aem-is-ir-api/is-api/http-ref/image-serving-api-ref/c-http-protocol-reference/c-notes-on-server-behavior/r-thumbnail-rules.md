@@ -16,6 +16,6 @@ ht-degree: 0%
 
 Tänk på dessa miniatyrregler.
 
-1. If `catalog::ThumbType=Crop`, skalas (beskuren) bilden till minsta möjliga storlek samtidigt som den täcker hela målrektangeln. If `catalog::ThumbType=Fit`, skalas (beskuren) bilden till största möjliga storlek samtidigt som hela bilden fortfarande passas in i målrektangeln. If `catalog::ThumbType=Texture`, skalas (beskuren) bilden till proportionerna för `catalog::ThumbRes` till `catalog::Resolution`.
+1. Om `catalog::ThumbType=Crop` skalas (beskuren) bilden till minsta möjliga storlek samtidigt som den täcker hela målrektangeln. Om `catalog::ThumbType=Fit` skalas (beskuren) bilden till den största möjliga storleken samtidigt som hela bilden fortfarande passas in i målrektangeln. Om `catalog::ThumbType=Texture` skalas (beskuren) bilden till förhållandet `catalog::ThumbRes` till `catalog::Resolution`.
 1. Justera den skalförändrade bilden mot målrektangeln baserat på `attribute::ThumbHorizAlign` och `attribute::ThumbVertAlign`.
 1. Beskär resultatet till målrektangeln.

@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: e677a617-115d-4f6e-9eb5-bdc14ad7ff24
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Syntax
 
 ## TC::directory - loggfilsmapp {#section-5d9e2168d4504bbe9868b7d6051c9d67}
 
-Mappen som [!DNL Platform Server] skriver loggfiler. Detta kan vara en absolut sökväg eller en relativ sökväg *`install_folder`*. Standard är [!DNL  *`install_folder`*/logs].
+Mappen som [!DNL Platform Server] skriver loggfiler till. Detta kan vara en absolut sökväg eller en relativ sökväg till *`install_folder`*. Standardvärdet är [!DNL  *`install_folder`*/logs].
 
 >[!NOTE]
 >
@@ -32,13 +32,13 @@ Antalet dagar som loggfiler ska bevaras. Nya loggfiler skapas varje dag vid midn
 
 ## TC::prefix - Access Log File Name {#section-1003856323b844049632710a5a056aa7}
 
-Namnprefix för filen som åtkomstloggdata skrivs till. Datum och filsuffix ( [!DNL  *`yyyy`*-*`mm`*-*`dd`*.log]) läggs till i den angivna strängen. Namnet på åtkomstloggfilen måste vara ett annat än namnet på spårningsloggfilen. Standardvärdet är &quot; `access-`&quot;.
+Namnprefix för filen som åtkomstloggdata skrivs till. Datumet och filsuffixet ( [!DNL  *`yyyy`*-*`mm`*-*`dd`*.log]) läggs till i den angivna strängen. Namnet på åtkomstloggfilen måste vara ett annat än namnet på spårningsloggfilen. Standardvärdet är `access-`.
 
 ## TC::pattern - Access Log Pattern {#section-22775ea85cee444d8a7d7336a3b1feef}
 
-Anger datamönstret för [!DNL Platform Server] loggposter för åtkomst. Mönstersträngen anger variabler som ersätts med motsvarande värden. Alla andra tecken i mönstersträngen överförs bokstavligen till loggposten.
+Anger datamönstret för [!DNL Platform Server]-åtkomstloggposter. Mönstersträngen anger variabler som ersätts med motsvarande värden. Alla andra tecken i mönstersträngen överförs bokstavligen till loggposten.
 
-Om du vill använda cacheuppvärmningsverktyget måste blanksteg användas som fältavgränsare. The [!DNL Platform Server] ersätter alla blanksteg och &#39;%&#39;-tecken i fältvärden med `%20` och `%25`, respektive
+Om du vill använda cacheuppvärmningsverktyget måste blanksteg användas som fältavgränsare. [!DNL Platform Server] ersätter alla blanksteg och %-tecken i fältvärden med `%20` respektive `%25`.
 
 Följande mönstervariabler stöds:
 
@@ -76,11 +76,11 @@ Följande mönstervariabler stöds:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %G </span> </p> </td> 
-   <td> <p>datum och tid, formaterat som <span class="codeph"> <span class="varname"> yyyy </span>- <span class="varname"> MM </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>: <span class="varname"> mm </span>: <span class="varname"> ss </span>. <span class="varname"> SSS </span> offset </span> </p> <p> ( <span class="varname"> SSS </span> är msec, <span class="varname"> offset </span> är GMT-tidsförskjutningen); tidsvärdet hämtas när svaret skickas till klienten. </p> </td> 
+   <td> <p>datum och tid, formaterat som <span class="codeph"> <span class="varname"> åååå </span>- <span class="varname"> MM </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>: <span class="varname"> mm </span>: <span class="varname"> ss </span>. <span class="varname"> SSS </span> offset </span> </p> <p> ( <span class="varname"> SSS </span> är msek, <span class="varname"> offset </span> är GMT-tidsförskjutningen); tidsvärdet hämtas när svaret skickas till klienten. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %m </span> </p> </td> 
-   <td> <p>Metod för begäran ( <span class="codeph"> GET </span>, <span class="codeph"> POST </span>och så vidare). </p> </td> 
+   <td> <p>Begärandemetod ( <span class="codeph"> GET </span>, <span class="codeph"> POST </span> osv.). </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %O </span> </p> </td> 
@@ -107,7 +107,7 @@ Följande mönstervariabler stöds:
    <td> <p>Statuskod för HTTP-svar. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %s </span> </p> </td> 
+   <td> <p> <span class="codeph"> %S </span> </p> </td> 
    <td> <p>Användarsessions-ID. </p> </td> 
   </tr> 
   <tr> 
@@ -136,7 +136,7 @@ Följande mönstervariabler stöds:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{CacheUse}r </span> </p> </td> 
-   <td> <p>[!DNL Platform Server] nyckelord för cachehantering: <span class="codeph"> { ÅTERANVÄND | SKAPAD | UPPDATERAD | FJÄRRANSLUTNING | REMOTE_CREATED | REMOTE_UPDATED | REMOTE_CACHE | VALIDERAD | IGNORERAD | ODEFINIERAD } </span>. </p> </td> 
+   <td> <p>[!DNL Platform Server] nyckelord för cachehantering: <span class="codeph"> { ÅTERANVÄND | SKAPAD | UPPDATERAD | FJÄRRANSLUTNING | REMOTE_CREATED | REMOTE_UPDATED | REMOTE_CACHE | VALIDERAD | IGNORERAD | UNDEFINED } </span>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{ContentType}r </span> </p> </td> 
@@ -148,7 +148,7 @@ Följande mönstervariabler stöds:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{Digest}r </span> </p> </td> 
-   <td> <p>The <span class="codeph"> etag </span> svarsrubrikens värde (MD5-signatur för svarsdata). </p> </td> 
+   <td> <p>Svarshuvudet <span class="codeph"> etag </span> (MD5-signatur för svarsdata). </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{Exception}r </span> </p> </td> 
@@ -168,7 +168,7 @@ Följande mönstervariabler stöds:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{PeerServer}r </span> </p> </td> 
-   <td> <p>IP-adressen för den peer-server i cacheklustret som levererade cacheposten eller - om <span class="codeph"> CacheUse </span> är ingetdera <span class="codeph"> REMOTE_CREATED </span> eller <span class="codeph"> REMOTE_UPDATED </span>. </p> </td> 
+   <td> <p>IP-adressen för den peer-server i cacheklustret som levererade cacheposten eller - om <span class="codeph"> CacheUse </span> varken är <span class="codeph"> REMOTE_CREATED </span> eller <span class="codeph"> REMOTE_UPDATED </span> . </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{ProcessingStatus}r </span> </p> </td> 
@@ -183,7 +183,7 @@ Följande mönstervariabler stöds:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{ReqType}r </span> </p> </td> 
-   <td> <p>Det övre basvärdet för <span class="codeph"> req= </span>. </p> </td> 
+   <td> <p>Det övre värdet för <span class="codeph"> req= </span>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{RootId}r </span> </p> </td> 
@@ -191,18 +191,18 @@ Följande mönstervariabler stöds:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{SendTime}r </span> </p> </td> 
-   <td> <p>Den tid det tar [!DNL Platform Server] för att skicka svar när data har skrivits till utdataströmmen. </p> </td> 
+   <td> <p>Den tid det tar [!DNL Platform Server] att skicka svar efter skrivning av data till utdataströmmen. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{Size}r </span> </p> </td> 
-   <td> <p>Gilla <span class="codeph"> %B </span>, men innehåller värden för 304 (inte ändrade) svar. </p> </td> 
+   <td> <p>Som <span class="codeph"> %B </span>, men innehåller värden för 304 (inte ändrade) svar. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{TransformedUrl}r </span> </p> </td> 
    <td> <p>Den slutliga URL:en efter alla omformningar av regeluppsättningar. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{ <span class="varname"> httpRequestHeader </span>} i </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{ <span class="varname"> httpRequestHeader </span>}i </span> </p> </td> 
    <td> <p>Värdet för den angivna HTTP-begärandehuvudet. </p> </td> 
   </tr> 
   <tr> 
@@ -212,4 +212,4 @@ Följande mönstervariabler stöds:
  </tbody> 
 </table>
 
-Standard är `"%G %a %s %{ProcessingStatus}r %{Size}r %D %{ParseTime}r %{FetchTime}r %O %{ReqType}r '%{RootId}r' %{CacheUse}r %R [%I] '%{Referer}i' %{Host}i %{X-Forwarded-For}i %{If-None-Match}i %{If-Match}i %{If-Modified-Since}i %{Digest}r %{ContentType}r %p %{Exception}r %{CacheKey}r %{PeerServer}" %{SendTime}r %{Context}r %{TransformedUrl}r %{PathBasedAccess}r.`
+Standardvärdet är `"%G %a %s %{ProcessingStatus}r %{Size}r %D %{ParseTime}r %{FetchTime}r %O %{ReqType}r '%{RootId}r' %{CacheUse}r %R [%I] '%{Referer}i' %{Host}i %{X-Forwarded-For}i %{If-None-Match}i %{If-Match}i %{If-Modified-Since}i %{Digest}r %{ContentType}r %p %{Exception}r %{CacheKey}r %{PeerServer}" %{SendTime}r %{Context}r %{TransformedUrl}r %{PathBasedAccess}r.`

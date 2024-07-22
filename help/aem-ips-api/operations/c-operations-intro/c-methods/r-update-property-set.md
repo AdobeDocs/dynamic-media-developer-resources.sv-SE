@@ -37,7 +37,7 @@ Syntax
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
 | setHandle | `xsd:string` | Ja | Hantera till egenskapsuppsättningen. |
-| replaceProperties | `xsd:string` | Nej | Ange till `true` för att ersätta egenskaper. |
+| replaceProperties | `xsd:string` | Nej | Ange `true` om du vill ersätta egenskaper. |
 | propertyArray | `types:PropertyArray` | Ja | Array med uppdaterade egenskaper för egenskapsuppsättningen. |
 
 **Utdata (updatePropertySetReturn)**

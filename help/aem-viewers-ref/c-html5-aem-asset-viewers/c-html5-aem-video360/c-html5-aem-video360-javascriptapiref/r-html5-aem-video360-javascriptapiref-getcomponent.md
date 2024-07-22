@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: bc5f0046-8e20-4ff0-a90f-05c38f686ad2
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ JavaScript API-referens för Video360 Viewer.
 
 `getComponent(componentId)`
 
-Returnerar en referens till SDK-komponenten för visningsprogrammet som används av visningsprogrammet. Webbsidan kan använda den här metoden för att utöka eller anpassa beteendet för visningsprogrammet som inte är installerat. Anropa den här metoden först efter `initComplete` återanrop för visningsprogrammet har körts, annars kanske komponenten inte har skapats ännu av visningsprogramlogiken.
+Returnerar en referens till SDK-komponenten för visningsprogrammet som används av visningsprogrammet. Webbsidan kan använda den här metoden för att utöka eller anpassa beteendet för visningsprogrammet som inte är installerat. Anropa den här metoden först efter att `initComplete`-visningsprogrammets återanrop har körts, annars kanske komponenten inte har skapats ännu av visningsprogramlogiken.
 
 ## Parametrar {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
@@ -78,7 +78,7 @@ Returnerar en referens till SDK-komponenten för visningsprogrammet som används
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> twitterShare </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.share.TwitterDela </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.share.TwitterShare </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> facebookShare </span> </p> </td> 
@@ -95,13 +95,13 @@ Returnerar en referens till SDK-komponenten för visningsprogrammet som används
  </tbody> 
 </table>
 
-När du arbetar med SDK API:er är det viktigt att du använder rätt fullständigt kvalificerat SDK-namnutrymme enligt beskrivningen i [Namnutrymme för visningsprogramsDK](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-viewer-sdk-namespace.md#concept-4ee8657c7d67421f8e7880130a246621).
+När du arbetar med SDK API:er är det viktigt att du använder rätt fullständigt kvalificerat SDK-namnutrymme enligt beskrivningen i [SDK-namnområdet för visningsprogrammet](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-viewer-sdk-namespace.md#concept-4ee8657c7d67421f8e7880130a246621).
 
-Se *HTML5 Viewer SDK API* dokumentation om du vill ha mer information om en viss komponent.
+Mer information om en viss komponent finns i dokumentationen för *HTML5 Viewer SDK API* .
 
 ## Returnerar {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-The `{Object}` är en referens till SDK-komponenten för visningsprogrammet. Metoden returnerar `null` om `componentId` är inte en visningsprogramkomponent som stöds eller om komponenten ännu inte har skapats av visningsprogramlogiken.
+`{Object}` är en referens till SDK-komponenten för visningsprogrammet. Metoden returnerar `null` om `componentId` inte är en visningsprogramkomponent som stöds eller om komponenten ännu inte har skapats av visningsprogramlogiken.
 
 ## Exempel {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

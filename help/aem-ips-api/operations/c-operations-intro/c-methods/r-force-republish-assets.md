@@ -42,25 +42,25 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Hantera företaget som innehåller resurser som ska återställas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"> <span class="varname"> publicera omFiler</span> </span> </td> 
+   <td colname="col1"><span class="codeph"> <span class="varname"> publicera om filer </span> </span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolesk</span> </td> 
    <td colname="col3"> <p>Nej </p> </td> 
    <td colname="col4"> <p>Anger att filerna för resursen publiceras på nytt till leveransservrarna. Standardvärdet är <span class="codeph"> true</span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"> <span class="varname"> resyncCatalog</span> </span> </td> 
+   <td colname="col1"><span class="codeph"> <span class="varname"> resyncCatalog </span> </span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolesk</span> </td> 
    <td colname="col3"> <p>Nej </p> </td> 
    <td colname="col4"> <p>Anger att katalogmetadata som används för att hantera resursen synkroniseras för att garantera att den är aktuell. Den här parametern används för att lösa konkurrensvillkor som kan uppstå vid nästan samtidiga uppdateringar av samma post. Standardvärdet är <span class="codeph"> false</span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandleArray </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:HandleArray</span> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>En array med referenser till resurser vars publiceringsstatus ska återställas. </p> </td> 
@@ -81,7 +81,7 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> publishStateUpdateArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> publishStateUpdateArray </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:PublishStateUpdateArray</span> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Array med publiceringstillståndsuppdateringar. </p> </td> 

@@ -39,7 +39,7 @@ IPS API returnerar inget svar för den här åtgärden.
 
 ## Exempel {#section-e1c474ea91a040609ecd7c2400f4fa3c}
 
-Det här kodexemplet tar bort ett företags metadatafält. Det använder företagshandtaget och metadatahandtaget som fält i `deleteMetadataFieldParam` skickas till IPS Web Services-servern för att utföra den här åtgärden.
+Det här kodexemplet tar bort ett företags metadatafält. Det använder företagshandtaget och metadatahandtaget som fält i `deleteMetadataFieldParam` som skickas till IPS Web Services-servern för att utföra den här åtgärden.
 
 **Begäran**
 

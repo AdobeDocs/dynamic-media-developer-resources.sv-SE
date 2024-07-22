@@ -24,8 +24,8 @@ Syntax
 |---|---|---|
 | userHandle | `xsd:string` | Användarhandtag. |
 | firstName | `xsd:string` | Användarens förnamn. |
-| lastName | `xsd:string` | Användarens efternamn. |
+| lastName | `xsd:string` | Efternamn. |
 | e-post | `xsd:string` | e-postadress. |
-| defaultRole | `xsd:string` | Anger rollen för en användare i varje företag de tillhör. Användarrollen `IpsAmin` åsidosätter andra användarroller. |
+| defaultRole | `xsd:string` | Anger rollen för en användare i varje företag de tillhör. Användarrollen `IpsAmin` åsidosätter dock andra användarroller. |
 | isValid | `xsd:boolean` | Anger om användaren är giltig. |
 | passwordExpires | `xsd:dateTime` | Anger förfallodatum för lösenord. |

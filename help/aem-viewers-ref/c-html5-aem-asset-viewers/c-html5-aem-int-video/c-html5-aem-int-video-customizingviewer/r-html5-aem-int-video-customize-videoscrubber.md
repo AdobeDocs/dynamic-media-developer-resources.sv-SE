@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 9d11f2e9-315c-44d8-beb1-530d2b316604
 source-git-commit: 14ca8cd5e1ce60d59806765e573e50417d0ccc50
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1034'
 ht-degree: 0%
 
 ---
@@ -28,12 +28,12 @@ Videonavigeringens allmänna utseende styrs med följande CSS-klassväljare:
 .s7interactivevideoviewer .s7videoscrubber .s7knob
 ```
 
-**CSS-egenskaper för videonavigeringslisten**
+**CSS-egenskaper för videonavigeringsprogrammet**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p>Placera från den övre kanten, inklusive utfyllnad. </p> </td> 
   </tr> 
   <tr> 
@@ -59,7 +59,7 @@ Följande CSS-klassväljare spårar indikatorerna för bakgrund, uppspelning och
 .s7interactivevideoviewer .s7videoscrubber .s7trackplayed
 ```
 
-**Spårets CSS-egenskaper**
+**CSS-egenskaper för spåret**
 
 <table id="table_46903DCACF314426B67783167ADF7715"> 
  <tbody> 
@@ -85,7 +85,7 @@ Följande CSS-klassväljare styr ratten:
 <table id="table_966826FB81114362A8D81D1EED38D512"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p>Lodrät rattförskjutning. </p> </td> 
   </tr> 
   <tr> 
@@ -113,7 +113,7 @@ Följande CSS-klassväljare styr den tid som spelas upp:
 .s7interactivevideoviewer .s7videoscrubber .s7videotime
 ```
 
-**CSS-egenskaper för den tid som spelas upp**
+**CSS-egenskaper för bubblan för uppspelning**
 
 <table id="table_21E9AD3FBC8C4437BA02E5CD1BF7E831"> 
  <tbody> 
@@ -156,9 +156,9 @@ Följande CSS-klassväljare styr den tid som spelas upp:
  </tbody> 
 </table>
 
-Verktygstipset för videospolning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
+Verktygstipset för videospolning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
-**Exempel** - Om du vill ställa in ett videovisningsprogram med en videobub och anpassade spårfärger som är tio pixlar höga. Placera den tio pixlar och 35 pixlar från kontrollfältets övre och vänstra kant.
+**Exempel** - Om du vill ställa in ett videovisningsprogram med en videonavigeringsfunktion och anpassade spårfärger som är tio pixlar höga. Placera den tio pixlar och 35 pixlar från kontrollfältets övre och vänstra kant.
 
 ```
 .s7interactivevideoviewer .s7videoscrubber  { 
@@ -181,7 +181,7 @@ background-color:#888888;
 }
 ```
 
-När videokapitelmarkören är aktiverad med `navigation` -parameter visas kapitelplaceringar som markörer ovanpå videonavigeringsspåret.
+När videokapitelmarkören är aktiverad med parametern `navigation` visas kapitelplaceringar som markörer ovanpå videonavigeringsspåret.
 
 Videokapitelmarkören styrs av följande CSS-klassväljare:
 
@@ -214,7 +214,7 @@ Videokapitelmarkören styrs av följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen har stöd för `state` attributväljaren, som du kan använda för att använda olika skal på olika knapplägen. I synnerhet `selected='default'` motsvarar standardläget för kapitelmarkör för video och `selected='over'` används när videokapitelmarkören aktiveras av en muspekare eller en pekgest.
+>Den här knappen har stöd för attributväljaren `state` som du kan använda för att använda olika skal för olika knapplägen. I synnerhet motsvarar `selected='default'` standardläget för videokapitelmarkör och `selected='over'` används när videokapitelmarkören aktiveras av en muspekare eller en pekgest.
 
 **Exempel** - Om du vill ställa in en videokapitelmarkör som är 5 x 8 pixlar och använder olika teckningar för läget&quot;default&quot; och&quot;over&quot;.
 
@@ -254,7 +254,7 @@ Videokassubblan styrs av följande CSS-klassväljare:
  </tbody> 
 </table>
 
-**Exempel** - Om du vill ställa in en videokapitelbubbla som är 235 pixlar bred och har åtta pixlar uppåt från videonavigeringsspårets nederkant.
+**Exempel** - Om du vill ställa in en videokapitelbubbla som är 235 pixlar bred och har åtta pixlar uppåt från videonavigeringsspårets underkant.
 
 ```
 .s7interactivevideoviewer .s7videoscrubber .s7chapter { 
@@ -271,13 +271,13 @@ Rubriken styrs av följande CSS-klassväljare:
 .s7interactivevideoviewer .s7videoscrubber .s7chapter .s7header
 ```
 
-**CSS-egenskaper för videokapitelbubblans rubrik**
+**CSS-egenskaper för videokapitelbubblans sidhuvud**
 
 <table id="table_56FBC3BADDEA4E15924DD750CADC474F"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Höjd på videokapitelbubblans sidhuvud. </p> </td> 
+   <td colname="col2"> <p>Höjd på videokapitelbubbla. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> utfyllnad </span> </p> </td> 
@@ -289,7 +289,7 @@ Rubriken styrs av följande CSS-klassväljare:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
-   <td colname="col2"> <p>Höjd på textrad för videokapitelbubblor. </p> </td> 
+   <td colname="col2"> <p>Höjd på textraden i videokapitelbubblans sidhuvud. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -332,13 +332,13 @@ Starttiden för videokapitlet styrs av följande CSS-klassväljare:
    <td colname="col2"> <p>Teckensnittsfamilj. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> utfyllnad höger </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> utfyllnadshöger </span> </p> </td> 
    <td colname="col2"> <p> Utfyllnad mellan starttid och kapitelrubrik. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Exempel** - För att ställa in kapitelns starttid med teckensnittet Verdana på tio gråa pixlar och med utfyllnaden på tio pixlar till höger.
+**Exempel** - Om du vill ange kapitelstarttid med det grå teckensnittet 10 pixlar Verdana och har utfyllnaden 10 pixlar till höger.
 
 ```
 .s7interactivevideoviewer .s7videoscrubber .s7chapter .s7header .s7starttime { 
@@ -355,7 +355,7 @@ Videoklippets titel styrs av följande CSS-klassväljare:
 .s7interactivevideoviewer .s7videoscrubber .s7chapter .s7header .s7title
 ```
 
-**CSS-egenskaper för videokapiteltiteln**
+**CSS-egenskaper för videokapitelrubriken**
 
 <table id="table_240DD3E119584DCC95FF480B60266603"> 
  <tbody> 
@@ -378,7 +378,7 @@ Videoklippets titel styrs av följande CSS-klassväljare:
  </tbody> 
 </table>
 
-**Exempel** - Om du vill ställa in en videokapiteltitel som använder ett vitt, fetstilt teckensnitt på tio pixlar.
+**Exempel** - Om du vill ställa in en videokapitelrubrik som använder ett vitt, fetstilt teckensnitt med tio pixlar Verdana.
 
 ```
 .s7interactivevideoviewer .s7videoscrubber .s7chapter .s7header .s7title { 
@@ -430,7 +430,7 @@ Beskrivningen av videokapitlet styrs av följande CSS-klassväljare:
  </tbody> 
 </table>
 
-**Exempel** - Om du vill ställa in videokapitelbeskrivning med ett mörkgrått, 11 pixlar Verdana-teckensnitt, med ljusgrå bakgrund. En höjd på fem pixlar, vågrät utfyllnad på 12 pixlar, övre utfyllnad på 12 pixlar och nedre utfyllnad på nio pixlar.
+**Exempel** - Om du vill ställa in kapitelbeskrivning för video med ett mörkgrått, 11 pixlar Verdana-teckensnitt med ljusgrå bakgrund. En höjd på fem pixlar, vågrät utfyllnad på 12 pixlar, övre utfyllnad på 12 pixlar och nedre utfyllnad på nio pixlar.
 
 ```
 .s7interactivevideoviewer .s7videoscrubber .s7chapter .s7description { 
@@ -449,21 +449,21 @@ Kassaanslutningen längst ned i kapitelbubblan styrs av följande CSS-klassvälj
 .s7interactivevideoviewer .s7videoscrubber .s7chapter .s7tail
 ```
 
-**CSS-egenskaper för Edge-kopplingen**
+**CSS-egenskaper för Edge Connector**
 
 <table id="table_BC6AFB57D9404A84A3AE657448C0EB06"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border-color </span> </p> </td> 
-   <td colname="col2"> <p>Konnektionens färg. </p> <p>Definierad som <span class="codeph"> &lt;color&gt; transparent </span> så att bara den övre kantlinjefärgen definieras och de återstående kantlinjerna förblir genomskinliga. </p> </td> 
+   <td colname="col2"> <p>Konnektionens färg. </p> <p>Definieras som <span class="codeph"> &lt;color&gt; transparent </span> så att endast den översta kantsfärgen definieras och de återstående kantlinjerna förblir genomskinliga. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border-width </span> </p> </td> 
-   <td colname="col2"> <p> Bredd på kantkoppling. </p> <p>Definierad som <span class="codeph"> &lt;width&gt; &lt;width&gt; 0 </span> så att samma bredd bara definieras för den övre och den vågräta kantlinjen och den nedre kantens bredd är <span class="codeph"> 0 </span>. </p> </td> 
+   <td colname="col2"> <p> Bredd på kantkoppling. </p> <p>Definieras som <span class="codeph"> &lt;width&gt; &lt;width&gt; 0 </span> så att samma bredd bara definieras för den övre och vågräta kantlinjen och den nedre kantlinjebredden är <span class="codeph"> 0 </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> marginal </span> </p> </td> 
-   <td colname="col2"> <p> Definierar endast en negativ nedre marginal. Det ska ha samma värde som <span class="codeph"> border-width </span>. </p> </td> 
+   <td colname="col2"> <p> Definierar endast en negativ nedre marginal. Den ska ha samma värde som <span class="codeph"> border-width </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

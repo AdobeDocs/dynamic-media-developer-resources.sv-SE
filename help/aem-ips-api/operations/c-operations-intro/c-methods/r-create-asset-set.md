@@ -43,37 +43,37 @@ Syntax
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Referensen till företaget som innehåller resursuppsättningen. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Referensen till mappen där den nya resursuppsättningen skapas. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Resursnamn. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> subType </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> En unik identifierare som skapats av klienten för resursuppsättningstypen. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> Parametrarna i uppsättningsdefinitionssträngen. <p>Dessa parametrar måste matcha det format som anges av målvisningsprogrammet. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:sträng </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Nej </td> 
    <td colname="col4"> Hantera den resurs som fungerar som miniatyrbild för den nya bilduppsättningen. Om inget anges försöker IPS att använda den första bildresursen som uppsättningen refererar till. </td> 
   </tr> 
@@ -95,7 +95,7 @@ Du kan ange infogade ersättningsfunktioner som löses vid katalogsökning eller
 | `getMetaData([<asset_handle>], [<metadata_field_handle>])` | Metadatavärden för resursen. |
 | `getThumbCatalogId([<asset_handle>])` | Resursens katalog-ID (endast för bildbaserade resurser). Den associerade tumresursens katalog-ID (för andra resurser). Om en associerad tumresurs inte är tillgänglig returnerar funktionen en tom sträng. |
 
-**Exempel på Media setDefinition String**
+**Exempel på Media setDefinition-sträng**
 
 ```java
 ${getCatalogId([a|1664|22|1664])};${getCatalogId([a|1664|22|1664])};1,${getFilePath([a|103 

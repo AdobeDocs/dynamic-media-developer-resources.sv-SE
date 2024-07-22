@@ -20,9 +20,9 @@ JavaScript API-referens för Video360 Viewer.
 
 Startar initieringen av Video360 Viewer. Vid den här tidpunkten måste behållar-DOM-elementet skapas så att visningsprogramkoden kan hitta det med dess ID.
 
-Om behållarelementet inte är en del av webbsideslayouten än (t.ex. kan det döljas med `display:none` format som tilldelats), kommer visningsprogrammet att avbryta sin initieringsprocess. Det gör det tills webbsidan återför behållarelementet till layouten. När den här händelsen inträffar återtas visningsprogrammet automatiskt.
+Om behållarelementet inte är en del av webbsideslayouten än (t.ex. kan det döljas med formatet `display:none` som tilldelats det) gör visningsprogrammet uppehåll i initieringsprocessen. Det gör det tills webbsidan återför behållarelementet till layouten. När den här händelsen inträffar återtas visningsprogrammet automatiskt.
 
-Anropa denna metod endast en gång under tittarens livscykel. efterföljande anrop ignoreras.
+Anropa den här metoden endast en gång under visningsprogrammets livscykel. Efterföljande anrop ignoreras.
 
 ## Parametrar {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 

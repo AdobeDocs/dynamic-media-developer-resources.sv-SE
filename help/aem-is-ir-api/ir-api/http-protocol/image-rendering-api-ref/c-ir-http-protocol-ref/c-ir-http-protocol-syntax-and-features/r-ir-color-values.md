@@ -7,19 +7,19 @@ role: Developer,User
 exl-id: 608ff0f1-4fbd-4e32-af07-3a62569d14c7
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 9%
+source-wordcount: '117'
+ht-degree: 1%
 
 ---
 
 # Färgvärden{#color-values}
 
-Färgvärden för `color=` och `bgc=` attribut kan anges antingen med en lista med decimaler, kommaavgränsade komponentvärden eller en hex-notation, som liknar HTML.
+Färgvärden för attributen `color=` och `bgc=` kan anges med hjälp av en lista med decimalvärden, kommaavgränsade komponentvärden eller en hex-notation, som liknar HTML.
 
 <table id="simpletable_9B3A231D5BB14A3DB2B42B341E198341"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> färg</span> </p></td> 
-  <td class="stentry"> <p><span class="codeph">{red , green, blue} | grå } | { [ 0x ] hex6 } | { 0xhex2 }</span> </p></td> 
+  <td class="stentry"> <p><span class="varname"> färg </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">{ {röd, grön, blå} | grå } | { [ 0x ] hex6 } | { 0xhex2 }</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><i>röd, grön, blå, grå</i> </p></td> 
@@ -41,12 +41,12 @@ Några exempel på giltiga färgspecifikationer och deras motsvarande RGB-färgv
 
 <table id="simpletable_837B3173020240A5B7B2DB2F4CC57352"> 
  <tr class="strow"> 
-  <td class="stentry"> <p>0,100,200 </p></td> 
+  <td class="stentry"> <p>0 100 200 </p></td> 
   <td class="stentry"> <p>(0,100,200) </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>128 </p></td> 
-  <td class="stentry"> <p>(128,128,128) </p></td> 
+  <td class="stentry"> <p>(128 128 128) </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>0x010203 </p></td> 

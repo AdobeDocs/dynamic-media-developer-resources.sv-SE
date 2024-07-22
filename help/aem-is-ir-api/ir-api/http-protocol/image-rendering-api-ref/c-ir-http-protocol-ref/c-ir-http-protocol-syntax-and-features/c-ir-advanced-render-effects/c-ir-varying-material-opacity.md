@@ -16,8 +16,8 @@ ht-degree: 0%
 
 Variabel opacitet stöds för heltäckande färg och repeterbara texturer som används på överlappande objekt samt för dekorationer och fönsterbeläggning.
 
-Du kan ange opacitetsinformation genom att använda en RGB-bild med en alfakanal. Dessutom kan den totala opaciteten varieras med `opacity=` (både för RGB och RGBA-bilder).
+Du kan ange opacitetsinformation genom att använda en RGB-bild med en alfakanal. Dessutom kan den övergripande opaciteten varieras med kommandot `opacity=` (både för RGB och RGBA-bilder).
 
 Vägggränser har också stöd för RGBA-bilder, främst för att stödja urklippsgränser.
 
-The [!DNL vnw] filer som definierar fönstertäckningar kan innehålla en opacitetskanal. Den kombineras av renderaren med alfakanalen för den repeterbara texturen och `opacity=` för att ge ett fullständigt urval av opacitetseffekter för enkla och genomskinliga fönsterbehandlingar.
+[!DNL vnw]-filerna som definierar fönstertäckningar kan innehålla en opacitetskanal. Den kombineras av renderaren med alfakanalen för den repeterbara texturen och värdet `opacity=` för att ge ett fullständigt intervall av opacitetseffekter för enkla och genomskinliga fönsterbehandlingar.

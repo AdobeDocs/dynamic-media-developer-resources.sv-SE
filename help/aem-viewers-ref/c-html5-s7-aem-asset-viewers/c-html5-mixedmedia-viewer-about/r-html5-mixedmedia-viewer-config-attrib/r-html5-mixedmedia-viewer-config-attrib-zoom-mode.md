@@ -21,8 +21,8 @@ Anger typ av zoominteraktion.
 <table id="table_E314540D347D47699C04EB80D20C0721"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> kontinuerlig|inline|auto </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> kontinuerlig </span> I kan du använda klassisk zoom där bilden zoomas in gradvis när du klickar, dubbelknackar eller nyper ut i huvudvyn. Om du vill gå tillbaka till den inledande vyn zoomar du ut eller återställer zoomläget. Klassen </p> <p> <span class="codeph"> inline </span> Med kan du zooma direkt, där den zoomade bilden visas direkt när du håller pekaren över huvudvyn på skrivbordet eller när du håller pekaren över en pekenhet. Bilden återgår automatiskt till det ursprungliga läget när du har flyttat musen från vyn eller släppt fingret. I <span class="codeph"> inline </span> läge förenklas kapslade bilduppsättningar och visas som enskilda miniatyrbilder. Klassen <span class="codeph"> auto </span> aktiverar textbundet läge på skrivbordet och i helskärmsläge på touchenheter. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kontinuerlig|intern|auto </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> continuous </span> aktiverar klassisk zoomning där bilden zoomas in gradvis när du klickar, dubbelknackar eller nyper i huvudvyn. Om du vill gå tillbaka till den inledande vyn zoomar du ut eller återställer zoomläget. klassen </p> <p> <span class="codeph"> inline </span> aktiverar omedelbar zoomning, där den zoomade bilden visas direkt när du hovrar huvudvyn på skrivbordet eller när du håller pekaren över en touchenhet. Bilden återgår automatiskt till det ursprungliga läget när du har flyttat musen från vyn eller släppt fingret. I <span class="codeph"> infogat </span>-läge förenklas kapslade bilduppsättningar och visas som enskilda miniatyrbilder. Klassen <span class="codeph"> auto </span> aktiverar infogat läge på skrivbordet och i kontinuerligt läge på touchenheter. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Sökväg till bildfil. Relativ sökväg och namn för en textur- eller dekal bildfil.
 
-Servern kombinerar värdet med `attribute::RootPath` för att skapa den faktiska sökvägen till bildfilen. Kan också vara en absolut sökväg.
+Servern kombinerar det här värdet med `attribute::RootPath` för att skapa den faktiska sökvägen till bildfilen. Kan också vara en absolut sökväg.
 
 Används för att ange texturbildsfilen för textur-, skåp- och fönsterövertäckningsmaterial samt RGB- eller RGBA-bildfilen för dekala material och väggkanter. Alla kabinett- och fönsterbeläggningsmaterial kräver inte en separat repeterbar texturbild.
 
@@ -38,4 +38,4 @@ Ingen.
 
 ## Se även {#section-1bf37fab8e5f4c42a03b785abafc53bd}
 
-[Konc.int. verktyg](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) , [attribute::RootPath](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md), [src=](/help/aem-is-ir-api/ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md)
+[IC Utility](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) , [attribute::RootPath](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md), [src=](/help/aem-is-ir-api/ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md)

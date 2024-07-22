@@ -45,8 +45,8 @@ Syntax
    <td colname="col3"> Ja </td> 
    <td colname="col4">Ange till: 
     <ul id="ul_FB9F59A8293B4CCA98E42EBF8412C77B"> 
-     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> true</span> att inkludera ogiltiga användare. </li> 
-     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> false</span> för att utesluta ogiltiga användare. </li> 
+     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> true</span> om ogiltiga användare ska inkluderas. </li> 
+     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> false</span> om du vill utelämna ogiltiga användare. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

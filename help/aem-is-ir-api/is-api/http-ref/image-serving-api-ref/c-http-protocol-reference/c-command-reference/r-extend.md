@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 03db6555-6851-49d4-b0de-5570bf56ad76
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 Utöka lager. Lägger till marginaler i ett lager eller beskär lagrets rektangel.
 
-`extend= *`vänster`*, *`top`*, *`höger`*, *`nederkant`*`
+`extend= *`left`*, *`top`*, *`right`*, *`bottom`*`
 
 `extendN= *`leftN`*, *`topN`*, *`rightN`*, *`bottomN`*`
 
 <table id="simpletable_1DCCD469712B423C8154630127DC5F54"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> vänster,övre,nedre,höger</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> left,top,bottom,right</span></span> </p></td> 
   <td class="stentry"> <p>Antal pixlar att lägga till (eller ta bort från, om värdet är negativt) i den vänstra, övre, högra och nedre kanten av lagerrektangeln (int, int, int, int). </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -31,11 +31,11 @@ Utöka lager. Lägger till marginaler i ett lager eller beskär lagrets rektange
  </tr> 
 </table>
 
-`extend=` används på lagret *efter* bilden beskärs ( `crop=`) och alla lageromformningar, inklusive `rotate=`, har tillämpats.
+`extend=` används på lagret *efter* att bilden beskurits ( `crop=`) och alla lageromformningar, inklusive `rotate=`, har tillämpats.
 
-Det utökade området fylls med `bgColor=`eller, om inget anges, förblir genomskinlig.
+Det utökade området fylls med `bgColor=` eller, om det inte anges, förblir genomskinligt.
 
-Argumentvärden för `extendN=` normaliseras i förhållande till storleken på lagerrektangeln efter lageromformningar, inklusive `rotate=` har tillämpats.
+Argumentvärden för `extendN=` normaliseras i förhållande till storleken på lagerrektangeln efter att lageromformningar, inklusive `rotate=`, har tillämpats.
 
 ## Egenskaper {#section-8fc94de871f841f3bf5e1df135972ca9}
 
@@ -43,7 +43,7 @@ Lagerattribut. Gäller för lager 0 om `layer=comp`. Ignoreras av effektlager.
 
 ## Standard {#section-de7473649cb9406b8d99028c74c4b8dc}
 
-`extend=0,0,0,0`, om du inte vill ändra lagrets rektangel.
+`extend=0,0,0,0`, om du inte vill ändra lagerektangeln.
 
 ## Exempel {#section-cc6d8e76f3dd4607ac31cb095d86c9fe}
 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 56ebf2a1-f2c3-4b3f-8d0a-9383f1411440
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
@@ -20,14 +20,14 @@ Sammansättningsmall. Här kan du ange en sammansättningsmall i en annan katalo
 
 <table id="simpletable_DEC6F4EB460D453B8F272C98C9C8B7E5"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> object</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname"> objekt </span> </p> </td> 
   <td class="stentry"> <p>Mall. </p></td> 
  </tr> 
 </table>
 
 *`template`* måste vara en bildkatalogspost med malltexten i `catalog::Modifier`.
 
-När `template=` finns, det objekt som anges i begärandesökvägen används inte som källa för lager 0. Det kan dock kallas en `src=` eller `mask=` var som helst i mallen genom att använda den fördefinierade variabeln path `$object$` som `src=` värde. `catalog::Modifier` för objektet som anges i begärandesökvägen tillämpas bara om `$object$` i mallen, när `catalog::PostModifier` används alltid.
+När `template=` finns, används inte objektet som anges i begärandesökvägen som källa för lager 0. Den kan dock refereras som `src=` eller `mask=` var som helst i mallen genom att använda den fördefinierade sökvägsvariabeln `$object$` som ett `src=`-värde. `catalog::Modifier` av objektet som anges i begärandesökvägen används bara med ersättningsläget `$object$` i mallen, medan `catalog::PostModifier` alltid används.
 
 Lager 0 definieras i mallbrödtexten och kan vara ett bild-, enfärgat, textbaserat eller kapslat eller inbäddat begärandolager.
 
@@ -47,4 +47,4 @@ Se exemplen i [Mallar](../../../../../is-api/http-ref/image-serving-api-ref/c-ht
 
 ## Se även {#section-067587444f774469931ecafd5a39834c}
 
-[object](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0), [Mallar](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e), [Fördefinierad banvariabel](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-substitution-variables.md#reference-90dc01aba44940e4acdd0c6476e7aa5a)
+[objekt](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0), [mallar](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e), [fördefinierad sökvägsvariabel](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-substitution-variables.md#reference-90dc01aba44940e4acdd0c6476e7aa5a)

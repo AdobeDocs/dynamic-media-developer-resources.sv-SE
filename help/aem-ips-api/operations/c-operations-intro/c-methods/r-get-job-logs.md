@@ -42,7 +42,7 @@ Syntax
 | sortDirection | `xsd:string` | Nej | Sorteringsordning (stigande eller fallande). |
 | startDate | `xsd:dateTime` | Nej | Datum och tid då jobbloggen startades. Ange tidszonen med begäran för det här fältet. |
 | endDate | `xsd:dateTime` | Nej | Datum och tid för slutet av jobbloggen. Ange tidszonen med begäran för det här fältet. |
-| numRows | `xsd:int` | Nej | Maximalt antal rader att returnera. |
+| numRows | `xsd:int` | Nej | Maximalt antal rader som ska returneras. |
 
 **Utdata (getJobLogsReturn)**
 

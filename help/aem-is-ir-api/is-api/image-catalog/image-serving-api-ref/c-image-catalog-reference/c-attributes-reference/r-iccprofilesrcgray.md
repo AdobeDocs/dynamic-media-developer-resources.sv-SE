@@ -18,11 +18,11 @@ Standardprofil för inmatningsfärg för gråskala. Anger namnet på ICC-färgpr
 
 ## Egenskaper {#section-8cbb316df6eb463aaca7b308d3568086}
 
-Textsträng. Om det anges måste det vara ett giltigt `icc::Name` värde från ICC-profilmappningen för antingen den här bildkatalogen eller standardkatalogen, eller en filsökväg som är relativ till `attribute::RootPath`. Den ICC-profil som refereras måste vara en gråskaleprofil.
+Textsträng. Om det anges måste det vara ett giltigt `icc::Name`-värde från ICC-profilmappningen för antingen den här bildkatalogen eller standardkatalogen, eller en filsökväg som är relativ till `attribute::RootPath`. Den ICC-profil som refereras måste vara en gråskaleprofil.
 
 ## Standard {#section-bcc7250715884412bd0780f60d1cce7b}
 
-Ärvs från `default::IccProfileSrcGray` om den inte är definierad eller om den är tom. If `attribute::IccProfileSrcGray` matchar inte en giltig profil, `attribute::IccProfileGray` används i stället.
+Ärvs från `default::IccProfileSrcGray` om inte definierad eller om tom. Om `attribute::IccProfileSrcGray` inte matchar en giltig profil används `attribute::IccProfileGray` i stället.
 
 ## Se även {#section-e429b76daf2e4b92b326db2b0bcbd0c5}
 

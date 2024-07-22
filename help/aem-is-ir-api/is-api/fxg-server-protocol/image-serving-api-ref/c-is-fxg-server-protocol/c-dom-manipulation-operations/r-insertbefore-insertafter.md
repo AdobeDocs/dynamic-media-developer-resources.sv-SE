@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 20d27fa7-e98a-4f85-9e48-5fa9ad3102b7
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '51'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Ange XML före eller efter en nod.
 
 `insertBefore=<xml>, insertAfter=<xml>`
 
-Om ett FXG-nodelement har en `s7:elementID` kan du lägga till XML-fragment före eller efter den noden med det här kommandot.
+Om ett FXG-nodelement har en `s7:elementID` definierad kan du lägga till XML-fragment före eller efter den noden med det här kommandot.
 
 ## Exempel {#section-1fc8d4135ef94b60b838391e1568e70e}
 

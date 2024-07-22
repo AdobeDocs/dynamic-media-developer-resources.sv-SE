@@ -21,7 +21,7 @@ Anger intern justering (ankarpunkt) för färgrutebehållaren i komponentområde
 <table id="table_33CC037517964DA89EE0C005BB6B32BB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> vänster|mitten|höger</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> vänster|center|höger</span> </p> </td> 
    <td colname="col2"> <p> Anger justering för vågräta färgrutor. </p> </td> 
   </tr> 
   <tr> 

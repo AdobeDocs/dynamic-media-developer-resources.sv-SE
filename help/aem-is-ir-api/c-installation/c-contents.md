@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 5b03e68e-a4c2-4b4f-8579-d253d7c112de
 source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -18,12 +18,12 @@ Efter installationen innehåller mapphierarkin i install_root de filer och mappa
 
 >[!NOTE]
 >
->Det finns ytterligare filer och mappar. ändra dem inte.
+>Det finns fler filer och mappar. Ändra dem inte.
 
 <table id="table_F9FE5E0622A54CCD88461078FD5EA3DC"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Installera rot </p> </th> 
+   <th colname="col1" class="entry"> <p>Installationsrot </p> </th> 
    <th colname="col2" class="entry"> <p> </p> </th> 
    <th colname="col3" class="entry"> <p> </p> </th> 
    <th colname="col4" class="entry"> <p>Beskrivning </p> </th> 
@@ -75,7 +75,7 @@ Efter installationen innehåller mapphierarkin i install_root de filer och mappa
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> <span class="filepath"> PsLayers (.exe) </span> </p> </td> 
+   <td colname="col3"> <p> <span class="filepath"> PSLayers (.exe) </span> </p> </td> 
    <td colname="col4"> <p>[!DNL Photoshop] extrahering av textlagervariabler. </p> </td> 
   </tr> 
   <tr> 
@@ -94,7 +94,7 @@ Efter installationen innehåller mapphierarkin i install_root de filer och mappa
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> cache/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>Datacache-mapp; kan konfigureras vid installation eller genom manuell redigering av konfigurationsfiler. </p> </td> 
+   <td colname="col4"> <p>Mappen för datacache kan konfigureras när du installerar eller redigerar konfigurationsfiler manuellt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -118,7 +118,7 @@ Efter installationen innehåller mapphierarkin i install_root de filer och mappa
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> katalog/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>IS image catalogs folder; kan konfigureras vid installation eller genom manuell redigering av konfigurationsfiler. </p> </td> 
+   <td colname="col4"> <p>IS image catalogs folder; configurable when installing or by manual editing configuration files. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -130,7 +130,7 @@ Efter installationen innehåller mapphierarkin i install_root de filer och mappa
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> default.ini </span> </p> </td> 
-   <td colname="col4"> <p> <span class="codeph"> Default.ini </span> krävs för att servern ska fungera. </p> </td> 
+   <td colname="col4"> <p> <span class="codeph"> Default.ini </span> krävs för att servern ska fungera. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -166,13 +166,13 @@ Efter installationen innehåller mapphierarkin i install_root de filer och mappa
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> bilder/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>Image Serving source data folder; redigera konfigurationsfiler manuellt. </p> </td> 
+   <td colname="col4"> <p>Image Serving source data folder; edit configuration files. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> loggar/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>Alla loggdata för PS och IS skrivs till denna mapp; redigera konfigurationsfiler manuellt. </p> </td> 
+   <td colname="col4"> <p>Alla PS- och IS-loggdata skrivs till den här mappen. Redigera konfigurationsfiler manuellt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -200,13 +200,13 @@ Efter installationen innehåller mapphierarkin i install_root de filer och mappa
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> Viktigt.htm </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> ReadMe.htm </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> static-content/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> statiskt innehåll/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>Datakällmapp för statiskt innehåll; redigera konfigurationsfiler manuellt. </p> </td> 
   </tr> 
@@ -244,7 +244,7 @@ Efter installationen innehåller mapphierarkin i install_root de filer och mappa
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> katalog/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>Mappen Bildåtergivningskataloger; kan konfigureras vid installation eller genom manuell redigering av konfigurationsfiler. </p> </td> 
+   <td colname="col4"> <p>Mappen för bildåtergivningskataloger; kan konfigureras vid installation eller genom manuell redigering av konfigurationsfiler. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -262,7 +262,7 @@ Efter installationen innehåller mapphierarkin i install_root de filer och mappa
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> default.ini </span> </p> </td> 
-   <td colname="col4"> <p> <span class="codeph"> Default.ini </span> krävs för att servern ska fungera. </p> </td> 
+   <td colname="col4"> <p> <span class="codeph"> Default.ini </span> krävs för att servern ska fungera. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -274,7 +274,7 @@ Efter installationen innehåller mapphierarkin i install_root de filer och mappa
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> resurser/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>Källdatamapp för bildåtergivning; redigera konfigurationsfiler manuellt. </p> </td> 
+   <td colname="col4"> <p>Källdatamapp för bildåtergivning. Redigera konfigurationsfiler manuellt. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 46d88547-bb60-4370-9c79-bd281b40ba28
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '87'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Syntax
 * `ImagePortalUser`
 * `ImagePortalContrib`
 * `ImagePortalContribUser`
-* ``
+* &quot;
 
 ## Parametrar {#section-ebffe496284c4ced9f329f78127be199}
 
@@ -77,4 +77,3 @@ Syntax
 >[!MORELIKETHIS]
 >
 >* [PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204)
-

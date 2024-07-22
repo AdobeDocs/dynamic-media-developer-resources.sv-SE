@@ -30,9 +30,9 @@ Syntax
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> forceUpdate</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> forceUpdate </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolesk</span> </td> 
-   <td colname="col3">Skapar platskartan när den är inställd på <span class="codeph"> true</span>. <p><p>Obs! Om konfigurationen för platskartor är inställd på manuell och <span class="codeph"> forceUpdate</span> har inte angetts, webbplatskartan genereras inte. </p></p></td> 
+   <td colname="col3">Skapar platskartan när den är inställd på <span class="codeph"> true</span>. <p><p>Obs! Om konfigurationen för att skapa platskartor är inställd på manuell och <span class="codeph"> forceUpdate </span> inte är inställd genereras inte platskartan. </p></p></td> 
   </tr> 
  </tbody> 
 </table>

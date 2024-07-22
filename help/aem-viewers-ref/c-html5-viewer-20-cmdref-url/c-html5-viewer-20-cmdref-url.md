@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Kommandots referensdokumentation som är gemensam för alla visningsprogram.
 
-De kommandon som anges nedan används antingen via URL eller API `setParam()` eller `setParams()` metoder.
+De kommandon som anges nedan används antingen via URL eller med API:t `setParam()` eller `setParams()`.

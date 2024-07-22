@@ -20,13 +20,13 @@ Spin Viewer har stöd för Adobe Analytics tracking out of the box.
 
 Spin Viewer har stöd för körklar Adobe Analytics-spårning.
 
-Om du vill aktivera spårning skickar du rätt namn på företagets förinställning som `config2` parameter.
+Om du vill aktivera spårning skickar du rätt namn på företagets förinställning som `config2`-parameter.
 
 Visningsprogrammet skickar även en enda HTTP-begäran för spårning till den konfigurerade Image Server med information om visningsprogramtyp och version.
 
 ## Anpassad spårning {#section-47512156a1d64b338b50cfa39c84f4aa}
 
-För att kunna integreras med analyssystem från tredje part måste man lyssna på `trackEvent` återanrop till visningsprogrammet och bearbeta `eventInfo` callback-funktionens argument efter behov. Följande kod är ett exempel på en sådan hanterarfunktion:
+Om du vill integrera med analyssystem från tredje part måste du lyssna på `trackEvent`-visningsprogrammets återanrop och bearbeta `eventInfo`-argumentet för återanropsfunktionen efter behov. Följande kod är ett exempel på en sådan hanterarfunktion:
 
 ```javascript {.line-numbers}
 var spinViewer = new s7viewers.SpinViewer({ 
@@ -61,12 +61,12 @@ Visningsprogrammet spårar följande SDK-användarhändelser:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LADDA </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LÄS IN </span> </p> </td> 
    <td colname="col2"> <p>visningsprogrammet läses in först. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>en resurs byts ut i visningsprogrammet med <span class="codeph"> setAsset() </span> API. </p> </td> 
+   <td colname="col2"> <p>en resurs byts ut i visningsprogrammet med API:t <span class="codeph"> setAsset() </span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOMA </span> </p> </td> 

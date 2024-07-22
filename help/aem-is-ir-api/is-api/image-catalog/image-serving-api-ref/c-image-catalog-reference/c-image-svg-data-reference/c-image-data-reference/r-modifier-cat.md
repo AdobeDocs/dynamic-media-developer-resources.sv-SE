@@ -18,9 +18,9 @@ Modifieringssträng för prefixbegäran. Inga eller flera bildserverkommandon av
 
 Används för att permanent ändra bilder och lagra mallarna.
 
-Kommandona i det här fältet åsidosätts av samma kommandon i den begäran eller mall som posten refereras till från, samt av kommandon i `catalog::PostModifier`
+Kommandon i det här fältet åsidosätts av samma kommandon i den begäran eller mall som posten refereras till från, och av kommandon i `catalog::PostModifier`
 
-Makron tillåts i `catalog::Modifier`, förutsatt att de är definierade i samma katalog eller i standardkatalogen. Egna variabler kan också användas.
+Makron tillåts i `catalog::Modifier`, förutsatt att de definieras i samma katalog eller i standardkatalogen. Egna variabler kan också användas.
 
 ## Egenskaper {#section-6674388f77d644469371a17e8809c45f}
 

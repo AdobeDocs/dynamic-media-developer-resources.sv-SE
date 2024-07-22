@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: ffbbc2ae-60da-4c3d-a350-6dbcb64e189d
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '938'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ Sökindatafältet styrs av följande CSS-klassväljare:
    <td colname="col2"> <p> Den inre utfyllnaden mellan inmatningsfältets gränser och inmatningstexten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kant </span> </p> </td> 
    <td colname="col2"> <p>Kant för sökinmatningsfältet. </p> </td> 
   </tr> 
   <tr> 
@@ -139,7 +139,7 @@ Sökknappen till vänster om sökinmatningsfältet i form av &quot;lookglass&quo
  .s7ecatalogsearchviewer .s7searchpanel .s7searchinputbutton
 ```
 
-**CSS-egenskaper för indataknappen för sökning**
+**CSS-egenskaper för sökindataknappen**
 
 <table id="table_CDD818B40BB1416CB47B7C52F799DE0C"> 
  <tbody> 
@@ -160,7 +160,7 @@ Sökknappen till vänster om sökinmatningsfältet i form av &quot;lookglass&quo
    <td colname="col2"> <p>Storleken på ikonen för "lookglass". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kant </span> </p> </td> 
    <td colname="col2"> <p>Kant på indataknappen för sökning. </p> </td> 
   </tr> 
   <tr> 
@@ -202,7 +202,7 @@ Sökresultatpanelen kan visa en textfråga när funktionen anropas för första 
    <td colname="col2"> <p>Namnet på textteckensnittet. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> teckensnittsjustering </span> </p> </td> 
    <td colname="col2"> <p>Vågrät textjustering. </p> </td> 
   </tr> 
   <tr> 
@@ -214,9 +214,9 @@ Sökresultatpanelen kan visa en textfråga när funktionen anropas för första 
 
 >[!NOTE]
 >
->Den här textpanelen har stöd för `state` attributväljare, som kan användas för att tillämpa olika format på olika textmeddelanden. Särskilt gäller följande: `state='prompt'` motsvarar den textprompt som visas när panelen anropas för första gången. The `state='results'` motsvarar texten med information om sökträffar. Och slutligen `state='no_results'` motsvarar den text som visas när sökfrågan inte returnerade några resultat.
+>Den här textpanelen har stöd för attributväljaren `state` som kan användas för att tillämpa olika format på olika textmeddelanden. I synnerhet motsvarar `state='prompt'` den textprompt som visas när panelen anropas för första gången. `state='results'` motsvarar texten med information om sökträffar. Slutligen motsvarar `state='no_results'` texten som visas när sökfrågan inte returnerade några resultat.
 
-Meddelandet kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
+Meddelandet kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - Så här ställer du in en textpanel som använder ett grått 18-pixelsteckensnitt:
 
@@ -233,13 +233,13 @@ Sökresultaten återges som en enda kolumn eller som en enda rad med miniatyrbil
 .ecatalogsearchviewer .s7searchpanel .s7swatches .s7thumbcell
 ```
 
-**CSS-egenskaper för miniatyrcellerna**
+**CSS-egenskaper för miniatyrbildscellerna**
 
 <table id="table_26974E509F6943BB98CBC1E4BAE62D68"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> marginal </span> </p> </td> 
-   <td colname="col2"> <p> Storleken på den lodräta marginalen runt varje miniatyrbild. Faktiskt avstånd för miniatyrbilder är lika med summan av de övre och nedre marginalerna som angetts för <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col2"> <p> Storleken på den lodräta marginalen runt varje miniatyrbild. Det faktiska mellanrummet för miniatyrbilder är lika med summan av de övre och nedre marginalerna som angetts för <span class="codeph"> .s7miniatyrcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -271,7 +271,7 @@ Utseendet på enskilda miniatyrbilder styrs med följande CSS-klassväljare:
    <td colname="col2"> <p>Höjden på miniatyrbilden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kant </span> </p> </td> 
    <td colname="col2"> <p>Miniatyrens kantlinje. </p> </td> 
   </tr> 
  </tbody> 
@@ -356,9 +356,9 @@ Det går inte att placera rullningsknappar med CSS-egenskaperna top, left, botto
 
 >[!NOTE]
 >
->Den här knappen har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på `"up"`, `"down"`, `"over"`och `"disabled"` knapplägen.
+>Den här knappen stöder attributväljaren `state` som kan användas för att tillämpa olika skal på knapplägena `"up"`, `"down"`, `"over"` och `"disabled"`.
 
-Knappens tips kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) för mer information.
+Knappens tips kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exempel - Så här ställer du in en rullningsknapp som är 125 x 35 pixlar och har olika teckningar för varje läge:
 

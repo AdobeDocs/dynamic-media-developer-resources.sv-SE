@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: e8d95b55-0a97-4887-b711-7be99833c389
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Lösenordets förfallodatum är valfritt. Om det utelämnas upphör aldrig löse
 
 >[!NOTE]
 >
->*Endast* den `IpsAdmin` användartypen har behörighet att köra setPassword-anrop mot andra användare.
+>*Endast* `IpsAdmin`-användartypen har behörighet att köra setPassword-anrop mot andra användare.
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -50,13 +50,13 @@ Lösenordets förfallodatum är valfritt. Om det utelämnas upphör aldrig löse
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> userHandle </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> xsd:sträng </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
    <td colname="col3"> <p>Nej </p> </td> 
    <td colname="col4"> <p>Användarhandtag. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> lösenord </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> xsd:sträng </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> password </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Lösenord. </p> <p>Följande krav gäller för det valda lösenordet: </p> <p> 
      <ul id="ul_E5BE3621127C476788412174584075B3"> 
@@ -64,10 +64,10 @@ Lösenordets förfallodatum är valfritt. Om det utelämnas upphör aldrig löse
       <li id="li_71224B3A89C8461AB689BAD383EC8CEA">Lösenordet måste innehålla minst åtta tecken. </li> 
       <li id="li_C21B6843EA734D1ABE0580185F775408">Lösenordet måste innehålla ett eller flera tecken från följande teckenklasser: 
        <ul id="ul_D5D3911AD6214035BBD2AB8350A459C7"> 
-        <li id="li_6E3F084100104F2CBCF130EF8852C7B7">Engelska gemener. Till exempel: <span class="codeph"> a b c d e </span> och så vidare </li> 
-        <li id="li_1FDED8D7348842BC857320D797D41217">Engelska versaler. Till exempel: <span class="codeph"> A B C D E </span> och så vidare. </li> 
-        <li id="li_C3C4D5412AA749F3B78F37B2B696CF80">Nummer. Till exempel: <span class="codeph"> 1 2 3 4 5 </span> och så vidare. </li> 
-        <li id="li_2730798F26E74B878BEDE510CD06D8DD">Specialsymboltecken. Du kan till exempel använda något av följande: <span class="codeph"> &amp;grav; ~! @ # $ % ^ * ( ) _ + - = { } | [ ] &amp; \ : " ; ' &lt; &gt; ? , . / </span> </li> 
+        <li id="li_6E3F084100104F2CBCF130EF8852C7B7">Engelska gemener. Till exempel <span class="codeph"> a b c d e </span> o.s.v. </li> 
+        <li id="li_1FDED8D7348842BC857320D797D41217">Engelska versaler. Till exempel <span class="codeph"> A B C D E </span> och så vidare. </li> 
+        <li id="li_C3C4D5412AA749F3B78F37B2B696CF80">Nummer. Exempel: <span class="codeph"> 1 2 3 4 5 </span> o.s.v. </li> 
+        <li id="li_2730798F26E74B878BEDE510CD06D8DD">Specialsymboltecken. Du kan till exempel använda något av följande: <span class="codeph"> &amp;grave; ~ ! @ # $ % ^ * ( ) _ + - = { } | [ ] &amp; \ : " ; ' &lt; &gt; ? , . / </span> </li> 
        </ul> </li> 
      </ul> </p> </td> 
   </tr> 

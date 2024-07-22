@@ -22,7 +22,7 @@ Alla funktioner som visas i vyerna Basic Zoom, eCatalog, eCatalog Search, Flyout
 
 Alla funktioner som visas i vyerna Basic Zoom, eCatalog, eCatalog Search, Flyout, Inline Zoom, Mixed Media, Spin, Video, Zoom, Carousel, Dimensional (3D), Interactive Image, Interactive Video och Video360 är tillgängliga via tangentbordet.
 
-En slutanvändare kan navigera mellan element i användargränssnittet i visningsprogrammet med **[!UICONTROL Tab]** och **[!UICONTROL Shift+Tab]** tangenttryckningar. Använda **[!UICONTROL Tab]** flyttar indatafokus till nästa element i användargränssnittet i tabbordningen, använda **[!UICONTROL Shift+Tab]** återför indatafokus till föregående element i användargränssnittet. Fokusförflyttningen följer det naturliga elementet i användargränssnittet på skärmen och flyttas från vänster till höger och sedan uppifrån och ned.
+En slutanvändare kan navigera mellan element i användargränssnittet i visningsprogrammet med **[!UICONTROL Tab]** och **[!UICONTROL Shift+Tab]** tangenttryckningar. Om du använder **[!UICONTROL Tab]** flyttas indatafokus till nästa element i användargränssnittet i tabbordningen. Om du använder **[!UICONTROL Shift+Tab]** flyttas indatafokus tillbaka till det föregående elementet i användargränssnittet. Fokusförflyttningen följer det naturliga elementet i användargränssnittet på skärmen och flyttas från vänster till höger och sedan uppifrån och ned.
 
 Beroende på inställningarna för operativsystem och webbläsare får det element i användargränssnittet som har indatafokus en visuell fokusindikation. Den visuella indikatorn kan till exempel vara en tunn kantlinje som återges runt elementet i användargränssnittet.
 
@@ -44,7 +44,7 @@ De tangenttryckningar som stöds av de enskilda elementen i visningsprogrammets 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Zooma in eller ut </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> + </span> eller <span class="uicontrol"> - </span>, respektive. </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> + </span> respektive <span class="uicontrol"> - </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Zoomåterställning </p> </td> 
@@ -60,7 +60,7 @@ De tangenttryckningar som stöds av de enskilda elementen i visningsprogrammets 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Val av färgruta </p> </td> 
-   <td colname="col2"> <p>Uppåt-, nedåt-, vänster- eller högerpil; Home- eller End-tangenten. </p> </td> 
+   <td colname="col2"> <p>Uppåt-, nedåt-, vänster- eller högerpilstangent, hem- eller sluttangenten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Aktivering av färgruta </p> </td> 
@@ -71,7 +71,7 @@ De tangenttryckningar som stöds av de enskilda elementen i visningsprogrammets 
    <td colname="col2"> <p>Vänster- eller uppiltangenten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Video och interaktiv video, snabbspolning framåt </p> </td> 
+   <td colname="col1"> <p>Video och interaktiv video, snabbt framåt </p> </td> 
    <td colname="col2"> <p>Höger eller nedpil. </p> </td> 
   </tr> 
   <tr> 
@@ -80,7 +80,7 @@ De tangenttryckningar som stöds av de enskilda elementen i visningsprogrammets 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Video och interaktiv video, styr volymnivån när reglaget är i fokus </p> </td> 
-   <td colname="col2"> <p>Uppåt-, nedåt-, vänster- eller högerpil; Home- eller End-tangenten. </p> </td> 
+   <td colname="col2"> <p>Uppåt-, nedåt-, vänster- eller högerpilstangent, hem- eller sluttangenten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Video och interaktiv video, variabel volym </p> </td> 
@@ -96,7 +96,7 @@ De tangenttryckningar som stöds av de enskilda elementen i visningsprogrammets 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Carousel, aktivering av hotspot och hotspot </p> </td> 
-   <td colname="col2"> <p>Markering av aktiveringspunkt: upp-, ned-, vänster- eller högerpil </p> <p>Aktivering av hotspot: Blanksteg eller Enter. </p> </td> 
+   <td colname="col2"> <p>Markering av aktiveringspunkt: upp-, ned-, vänster- eller högerpil </p> <p>Aktivering av aktiveringspunkt: mellanslag eller Enter-tangenten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eCatalog, ändra sidbilden i huvudvyn </p> </td> 
@@ -104,7 +104,7 @@ De tangenttryckningar som stöds av de enskilda elementen i visningsprogrammets 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eCatalog, miniatyrbildsval </p> </td> 
-   <td colname="col2"> <p>Piltangenter; Home and End key. </p> </td> 
+   <td colname="col2"> <p>Piltangenter; Home- och End-tangenten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eCatalog, aktivering av färgrutor </p> </td> 
@@ -120,7 +120,7 @@ De tangenttryckningar som stöds av de enskilda elementen i visningsprogrammets 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eCatalog, aktivera nedrullningsbara komponenter </p> </td> 
-   <td colname="col2"> <p> Nedpil: Blanksteg eller Enter. </p> </td> 
+   <td colname="col2"> <p> Nedåtpil; Blanksteg eller Retur. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eCatalog, när fokus är på en nedrullningsbar panel </p> </td> 

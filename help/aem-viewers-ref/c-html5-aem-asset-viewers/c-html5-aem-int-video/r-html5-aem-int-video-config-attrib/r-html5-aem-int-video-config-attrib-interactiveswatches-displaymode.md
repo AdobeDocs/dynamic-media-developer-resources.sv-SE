@@ -21,7 +21,7 @@ Konfigurationsattribut för Interactive Video Viewer.
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> kontinuerligt|segment</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kontinuerlig|segment</span> </p> </td> 
    <td colname="col2"> <p> Fyller i interaktiva färgrutor kontinuerligt med miniatyrbilder oavsett segmentgränser eller om det tomma utrymmet visar segmentgränserna. </p> </td> 
   </tr> 
  </tbody> 

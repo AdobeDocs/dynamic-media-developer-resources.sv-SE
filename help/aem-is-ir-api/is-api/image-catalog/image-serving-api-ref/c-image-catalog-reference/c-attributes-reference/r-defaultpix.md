@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 709fb2a1-1b9d-421e-9a65-5f5c74390ce3
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Standardvisningsstorlek.
 
-Servern begränsar svarsbilderna till att inte vara större än den här bredden och höjden om begäran inte uttryckligen anger visningsstorleken med `wid=`, `hei=`, eller `scl=`.
+Servern begränsar svarsbilder till att inte vara större än den här bredden och höjden om begäran inte uttryckligen anger visningsstorleken med `wid=`, `hei=` eller `scl=`.
 
 ## Egenskaper {#section-c3e658cf82c540d986b118f74f0fe1b2}
 
@@ -26,7 +26,7 @@ Gäller inte kapslade/inbäddade begäranden.
 
 ## Standard {#section-b7338b2bf5114fff83b0714a57b20639}
 
-Ärvs från `default::DefaultPix` om den inte är definierad eller om den är tom.
+Ärvs från `default::DefaultPix` om inte definierad eller om tom.
 
 ## Se även {#section-59088cd41da940e8ac0e74e2b049c6e9}
 

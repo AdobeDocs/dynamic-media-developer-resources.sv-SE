@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 1b48aa7f-d1c8-4367-94c2-689991b90942
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Med knappen Spela upp/Paus kan användaren pausa eller återuppta automatisk upp
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
-Knappen visas bara om `CarouselViewer.autoplay` parametern är inställd på `1`; annars är det dolt. Med CSS kan du ändra storlek på, skalförändra och placera den här knappen i förhållande till kontrollfältet som innehåller den.
+Knappen är bara synlig om parametern `CarouselViewer.autoplay` är inställd på `1`, annars är den dold. Med CSS kan du ändra storlek på, skalförändra och placera den här knappen i förhållande till kontrollfältet som innehåller den.
 
 **CSS-egenskaper för huvudvisningsområdet**
 
@@ -35,7 +35,7 @@ Knappens utseende styrs med följande CSS-klassväljare:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> övre </span> </p> </td> 
    <td colname="col2"> <p>Placera högst upp i visningsprogrammets ram. </p> </td> 
   </tr> 
   <tr> 
@@ -43,7 +43,7 @@ Knappens utseende styrs med följande CSS-klassväljare:
    <td colname="col2"> <p>Placera till höger om visningsprogrammets ram. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vänster </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kvar </span> </p> </td> 
    <td colname="col2"> <p>Position från vänster om visningsprogrammet. </p> </td> 
   </tr> 
   <tr> 
@@ -75,9 +75,9 @@ Knappens utseende styrs med följande CSS-klassväljare:
 
 >[!NOTE]
 >
->Den här knappen har stöd för `state` attributväljare, som kan användas för att tillämpa olika skal på olika knapplägen.
+>Den här knappen stöder attributväljaren `state` som kan användas för att tillämpa olika skal på olika knapplägen.
 
-Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) för mer information.
+Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md).
 
 Anta till exempel att du vill ställa in en pausknapp för uppspelning som är 28 x 28 pixlar. Du vill att knappen ska placeras 17 pixlar från nederkanten och 12 pixlar från den vänstra kanten av visningsprogrammet. Och du vill att den ska visa olika bilder för vart och ett av de fyra olika knapplägena när den är markerad eller inte är markerad.
 

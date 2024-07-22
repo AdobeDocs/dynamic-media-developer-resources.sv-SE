@@ -16,12 +16,12 @@ ht-degree: 0%
 
 Konfigurationsattribut för visningsprogrammet för smart beskärning.
 
-` [SmartCropVideoPlayer.|<containerId>_smartCropVideoPlayer.]progressivebitrate= *`value`*`
+` [SmartCropVideoPlayer.|<containerId>_smartCropVideoPlayer.]progressivebitrate= *`värde`*`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> value</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> värde </span> </p> </td> 
    <td colname="col2"> <p> Anger önskad videobithastighet (i kilobit per sekund eller kbit/s) för uppspelning från en adaptiv videouppsättning om det aktuella systemet inte har stöd för adaptiv videouppspelning. </p> <p>Komponenten hämtar videoströmmen med den högsta möjliga bithastigheten (men inte högre) till det angivna värdet. Om alla videoströmmar i den adaptiva videouppsättningen har högre kvalitet än det angivna värdet väljer logiken bithastigheten med den lägsta kvaliteten. </p> </td> 
   </tr> 
  </tbody> 
