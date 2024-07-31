@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: b861d383d0a1af63ae18eb1e73231758c3352a55
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 0%
@@ -51,14 +51,16 @@ Svarsbildformat.
 | `webp-alpha` | Förstörande och förlustfri WebP med alfakanal. |
 | `webp` | Förstörande och förlustfri WebP. |
 
-| *`pixelType`* - rgb | grå | cmyk |
+*`pixelType`* - rgb | grå | cmyk
+
 | *`pixelType`* | Beskrivning |
 |---|---|
 | `cmyk` | Returnera CMYK-bilddata. |
 | `gray` | Returnera gråskalebilddata. |
 | `rgb` | Returnera bilddata för RGB. |
 
-| *`compression`* - jpeg | förstörande | förlustfri | lzw | ingen | zip |
+*`compression`* - jpeg | förstörande | förlustfri | lzw | ingen | zip
+
 | *`compression`* | Beskrivning |
 |---|---|
 | `jpeg` | JPEG-komprimering (förstörande). |
