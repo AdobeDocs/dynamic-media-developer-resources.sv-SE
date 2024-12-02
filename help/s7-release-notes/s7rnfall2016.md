@@ -1,6 +1,6 @@
 ---
 title: Scene7 hösten 2016
-description: "Den senaste versionsinformationen om Adobe Scene7 hösten 2016, en del av Adobe Experience Manager-lösningen i Adobe Experience Cloud."
+description: Den senaste versionsinformationen om Adobe Scene7 hösten 2016, en del av Adobe Experience Manager-lösningen i Adobe Experience Cloud.
 solution: Experience Manager
 feature: Dynamic Media Classic
 role: Developer,User

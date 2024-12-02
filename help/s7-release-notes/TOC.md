@@ -1,6 +1,6 @@
 ---
 title: Versionsinformation för Adobe Dynamic Media Classic
-description: "Versionsinformation för Adobe Dynamic Media Classic, en del av Adobe Experience Manager-lösningen i Adobe Experience Cloud."
+description: Versionsinformation för Adobe Dynamic Media Classic, som ingår i Adobe Experience Manager i Adobe Experience Cloud.
 author: Rick Brough
 cloud: Experience Cloud
 product: adobe dynamic media classic
