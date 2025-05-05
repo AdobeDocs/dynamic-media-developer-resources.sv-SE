@@ -37,7 +37,7 @@ Undantag från den här regeln gäller versionsinformationen där kända problem
 
 Alla idéer du kan behöva förbättra dokumentationen är välkomna som bidrag. Kommentarer, problem och förfrågningar är dock avsedda för *avgifter* endast. De är inte avsedda att användas för att besvara frågor om hur du använder Dynamic Media, implementerar projektet eller löser tekniska problem.
 
-Om du har frågor om hur du använder Dynamic Media eller om tekniska fel ska du rapportera dem via [Experience Cloud Enterprise Support Portal](https://experienceleague.adobe.com/?support-solution=General&amp;support-tab=home#support) eller diskuteras i [Experience Manager community.](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
+Om du har frågor om hur du använder Dynamic Media eller om tekniska fel ska du rapportera dem via [Experience Cloud Enterprise Support Portal](https://experienceleague.adobe.com/sv?support-solution=General&amp;support-tab=home#support) eller diskuteras i [Experience Manager community.](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
 
 ***Dokumentationsavgifter ersätter inte Adobe kundtjänst*** och alla sådana bidrag som söker svar på frågor som rör stöd avvisas.
 

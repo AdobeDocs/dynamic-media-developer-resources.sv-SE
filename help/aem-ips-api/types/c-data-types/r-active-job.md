@@ -170,7 +170,7 @@ Om du vill returnera jobbtypen anger du ett jobbtypsvärde. Du kan returnera fö
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:ExportJob</span> </td> 
-   <td colname="col3">Tillåt auktoriserad export av tidigare överförda filer. Se <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> Exportera jobb </a>. </td> 
+   <td colname="col3">Tillåt auktoriserad export av tidigare överförda filer. Se <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html?lang=sv-SE" format="http" scope="external"> Exportera jobb </a>. </td> 
   </tr> 
  </tbody> 
 </table>
