@@ -241,7 +241,7 @@ Stängningsknappen styrs med följande CSS-klassväljare:
 .s7ecatalogsearchviewer .s7printdialog .s7closebutton
 ```
 
-**CSS-egenskaper för stängningsknappen **
+**CSS-egenskaper för stängningsknappen &#x200B;**
 
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
@@ -328,7 +328,7 @@ Dialogrutans sidfot består av knapparna Avbryt och Skicka till utskrift. Sidfot
 .s7ecatalogsearchviewer .s7printdialog .s7dialogfooter
 ```
 
-**CSS-egenskaper för dialogrutans sidfot **
+**CSS-egenskaper för dialogrutans sidfot &#x200B;**
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -527,7 +527,7 @@ Huvudområdet i dialogrutan, mellan sidhuvudet och sidfoten, innehåller dialogi
 .s7ecatalogsearchviewer .s7printdialog .s7dialogviewarea
 ```
 
-**CSS-egenskaper i dialogrutans visningsområde **
+**CSS-egenskaper i dialogrutans visningsområde &#x200B;**
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
@@ -562,7 +562,7 @@ Allt formulärinnehåll (som etiketter och inmatningsfält) finns i en behållar
 .s7ecatalogsearchviewer .s7printdialog .s7dialogbody
 ```
 
-**CSS-egenskaper för dialogrutans brödtext **
+**CSS-egenskaper för dialogrutans brödtext &#x200B;**
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
@@ -644,7 +644,7 @@ Alla statiska etiketter i dialogrutan styrs med följande CSS-klassväljare:
 
 Den här klassen är inte lämplig för att styra etikettens storlek eller placering eftersom du kan använda den på texter på olika ställen i formuläranvändargränssnittet.
 
-**CSS-egenskaper för dialogruteetiketten. **
+**CSS-egenskaper för dialogruteetiketten. &#x200B;**
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 

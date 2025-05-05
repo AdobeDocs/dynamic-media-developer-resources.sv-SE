@@ -43,7 +43,7 @@ Följande typer kan kontrolleras:
 
   `AllowDirectAccess=include:IS,STATIC`
 
-* Tillåt direktåtkomst för alla objekttyper utom `IS` och `STATIC``AllowDirectAccess=exclude:IS,STATIC`
+* Tillåt direktåtkomst för alla objekttyper utom `IS` och `STATIC` `AllowDirectAccess=exclude:IS,STATIC`
 
 * Tillåt direktåtkomst för objekttyperna *no* (d.v.s. ingen)
 

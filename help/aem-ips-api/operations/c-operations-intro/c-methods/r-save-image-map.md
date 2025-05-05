@@ -85,7 +85,7 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> action </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> <p>Värdet <span class="codeph"> href </span> som är associerat med bildschemat enligt IPS-gränssnittet. </p> <p>Om du vill hämta värdet <span class="codeph"> href </span> klickar du på bilden i IPS-gränssnittet, kopierar och klistrar in URL:en i det här elementet och formaterar sedan IPS-URL:en som en korrekt URL. Till exempel blir <span class="codeph"> &amp; </span> <span class="codeph"> &amp;amp; </span>. </p> </td> 
+   <td colname="col4"> <p>Värdet <span class="codeph"> href </span> som är associerat med bildschemat enligt IPS-gränssnittet. </p> <p>Om du vill hämta värdet <span class="codeph"> href </span> klickar du på bilden i IPS-gränssnittet, kopierar och klistrar in URL:en i det här elementet och formaterar sedan IPS-URL:en som en korrekt URL. Till exempel blir <span class="codeph"> &amp; </span> <span class="codeph"> &amp; </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> position </span> </span> </td> 

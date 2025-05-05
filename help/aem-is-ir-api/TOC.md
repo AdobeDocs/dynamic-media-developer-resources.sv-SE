@@ -109,7 +109,7 @@ ht-degree: 0%
       + Syntax och funktioner {#syntax-and-features}
          + [Syntax och funktioner](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-syntax-and-features.md)
          + [Grundläggande syntax för Image Serving HTTP-protokoll](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-basic-syntax.md)
-         + HTTP-protokollkommandot {#image-serving-http} för bildservern
+         + HTTP-protokollkommandot för bildservern {#image-serving-http}
             + [Översikt över kommandot Image Serving HTTP protocol](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/c-command-overview.md)
             + [Begär kommandon](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-request-commands-and-attributes.md)
             + [Visa kommandon](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-view-commands-and-attributes.md)

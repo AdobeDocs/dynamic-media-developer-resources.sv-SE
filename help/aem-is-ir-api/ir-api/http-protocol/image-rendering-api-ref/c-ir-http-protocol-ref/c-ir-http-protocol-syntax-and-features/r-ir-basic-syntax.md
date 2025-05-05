@@ -46,7 +46,7 @@ I det här avsnittet beskrivs den grundläggande syntaxen för HTTP-protokollet 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname">-kommando </span> </p> </td> 
-   <td colname="col2"> <p><span class="varname"> cmdName</span> | { $<span class="varname"> var</span> } } [ = <span class="varname"> value</span> ] </p> </td> 
+   <td colname="col2"> <p><span class="varname"> cmdName</span> | { $<span class="varname"> var</span> } &rbrace; [ = <span class="varname"> value</span> ] </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> makro </span> </p> </td> 

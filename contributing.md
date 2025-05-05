@@ -42,7 +42,7 @@ Med hjälp av olika problem kan du enkelt beskriva din idé för förbättring a
 
 Om du ser ett problem och vet exakt hur du löser det kan du skapa en pull-begäran. Dragningsbegäranden gör att du kan göra egna ändringar i dokumentationen, som sedan granskas för att inkluderas av en dokumentationsteammedlem. Om du vill göra dina föreslagna ändringar och skapa en pull-begäran väljer du **Redigera den här sidan** längst upp på den högra navigeringspanelen på en sida.
 
-Alla pull-begäranden måste åtföljas av en signerad [licensavtal eller CLA](https://opensource.adobe.com/cla.html. Denna process ger Adobe tillstånd att återdistribuera dina bidrag som en del av projektet. Skicka in Adobe CLA endast en gång. Om du har skickat in en tidigare, är du redo att gå!
+Alla pull-begäranden måste åtföljas av en signerad [licensavtal eller CLA] (https://opensource.adobe.com/cla.html. Denna process ger Adobe tillstånd att återdistribuera dina bidrag som en del av projektet. Skicka in Adobe CLA endast en gång. Om du har skickat in en tidigare, är du redo att gå!
 
 ### Introduktion till snabbvideo
 
