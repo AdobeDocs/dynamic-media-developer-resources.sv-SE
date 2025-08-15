@@ -32,11 +32,11 @@ Den senaste versionsinformationen för [!DNL Adobe Scene7] hösten 2016-versione
 
 Adobe är mycket glada över att kunna meddela att HTTP/2-leverans av innehåll är tillgänglig, vilket ger bättre prestanda.
 
-Se [HTTP2 Delivery of Content FAQ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
+Se [HTTP2 Delivery of Content FAQ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html?lang=sv-SE#dynamic).
 
 ## Scene7 Publishing System {#section-24487cb493444d808fb7193f0a00cdd4}
 
-Fullständig dokumentation finns på [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)
+Fullständig dokumentation finns på [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=sv-SE](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=sv-SE)
 
 **Nya funktioner, förbättringar och felkorrigeringar**
 
@@ -58,7 +58,7 @@ Fullständig dokumentation finns på [https://experienceleague.adobe.com/docs/dy
 
 ## Visare (Image Serving 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-Fullständig dokumentation finns i [Referenshandbok för visningsprogram](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+Fullständig dokumentation finns i [Referenshandbok för visningsprogram](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=sv-SE).
 
 **Felkorrigeringar för Image Serving 5.5.3**
 
@@ -68,7 +68,7 @@ Fullständig dokumentation finns i [Referenshandbok för visningsprogram](https:
 
 ## Visare (Image Serving 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-Fullständig dokumentation finns i [Referenshandbok för visningsprogram](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+Fullständig dokumentation finns i [Referenshandbok för visningsprogram](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=sv-SE).
 
 **Felkorrigeringar för Image Serving 5.5.2**
 
@@ -77,7 +77,7 @@ Fullständig dokumentation finns i [Referenshandbok för visningsprogram](https:
 
 ## Visare (Image Serving 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-Fullständig dokumentation finns i [Referenshandbok för visningsprogram](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+Fullständig dokumentation finns i [Referenshandbok för visningsprogram](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=sv-SE).
 
 **Nya funktioner, förbättringar och felkorrigeringar för Image Serving 5.5.1**
 

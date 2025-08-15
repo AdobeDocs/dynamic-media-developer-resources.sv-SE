@@ -25,7 +25,7 @@ I det här avsnittet beskrivs HTTP-protokollkommandona.
 >* Nätverksbandbredd
 >* DPR (Device Pixel Ratio)
 >
->Om du vill lära dig hur enkelt det är att använda ögonblicksbild kan du spela upp utbildningsvideon [för ögonblicksbild](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) (3 minuter och 17 sekunder).
+>Om du vill lära dig hur enkelt det är att använda ögonblicksbild kan du spela upp utbildningsvideon [för ögonblicksbild](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=sv-SE) (3 minuter och 17 sekunder).
 
 
 **Endast för dynamiska media i Adobe Experience Manager** - Förutom de grundläggande bildinställningarna som är tillgängliga i användargränssnittet stöder [!DNL Dynamic Media] i AEM ( [!DNL Adobe Experience Manager]) flera avancerade bildändringar som du kan ange i fältet **Bildmodifierare**. Dessa parametrar definieras nedan. Tänk dock på att följande funktioner inte stöds i Dynamic Media i AEM.
@@ -42,7 +42,7 @@ I det här avsnittet beskrivs HTTP-protokollkommandona.
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-Se även Dynamic Media [Alternativ för bildförinställningar](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) i dokumentationen för AEM 6.5.
+Se även Dynamic Media [Alternativ för bildförinställningar](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html?lang=sv-SE#dynamic) i dokumentationen för AEM 6.5.
 
 * [justera](r-align.md)
 * [ankare](r-anchor.md)

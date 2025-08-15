@@ -18,7 +18,7 @@ Om du vill lägga till ett responsivt bildbibliotek på en webbsida och hantera 
 
 **Använd bibliotek för responsiv bild**
 
-1. I Dynamic Media Classic [skapar du en bildförinställning](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing) om du tänker använda ett responsivt bildbibliotek med förinställningar.
+1. I Dynamic Media Classic [skapar du en bildförinställning](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html?lang=sv-SE#image-sizing) om du tänker använda ett responsivt bildbibliotek med förinställningar.
 
    När du definierar bildförinställningar som används med responsiva bildbibliotek ska du inte använda några inställningar som påverkar bildstorleken, till exempel `wid=`, `hei=` eller `scl=`. Ange inga storleksfält i bildförinställningen. Lämna dem som tomma värden.
 1. Lägg till JavaScript-biblioteksfilen på webbsidan.

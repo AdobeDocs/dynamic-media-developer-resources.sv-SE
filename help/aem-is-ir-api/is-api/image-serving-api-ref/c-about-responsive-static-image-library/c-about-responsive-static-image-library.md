@@ -31,31 +31,31 @@ Det enklaste sättet att använda det responsiva bildbiblioteket är att definie
  <tbody> 
   <tr> 
    <td colname="col01"> <p>1 </p> </td> 
-   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/responsive-static-image-simple.html" scope="external" format="https"> https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/responsive-static-image-simple.html </a> </p> <p> 
+   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/responsive-static-image-simple.html?lang=sv-SE" scope="external" format="https"> https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/responsive-static-image-simple.html?lang=sv-SE </a> </p> <p> 
      <!-- http://sasha.s7qa.com/jira-bugs/S7-7729/responsive-static-image-simple.htm--> </p> </td> 
    <td colname="col2"> <p>Följande är ett enkelt exempel där den responsiva bilden finns i en behållare som tar 50 % av webbsidans bredd. Varje gång webbläsarfönstret ändrar storlek ändras behållarbredden. När bildbredden når en av de konfigurerade brytpunkterna, som är inställda på 200, 400, 600 och 800 pixlar för illustrativa ändamål, hämtas och visas en ny återgivning. Målet är att undvika att läsa in stora bilder i onödan och spara bandbredd i nätverket. </p> <p>Klicka på webbadressen så att du öppnar webbsidan, ändrar storlek på webbläsarfönstret och övervakar nätverkstrafiken. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
-   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/responsive-static-image-bootstrap.html" format="https" scope="external"> https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/responsive-static-image-bootstrap.html </a> </p> <p> 
+   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/responsive-static-image-bootstrap.html?lang=sv-SE" format="https" scope="external"> https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/responsive-static-image-bootstrap.html?lang=sv-SE </a> </p> <p> 
      <!-- http://sasha.s7qa.com/jira-bugs/S7-7729/responsive-static-image-bootstrap.htm--> </p> </td> 
    <td colname="col2"> <p>Följande Bootstrap-exempel visar samma användningsfall på en webbsida. Enligt Bootstrap CSS kan layoutcellen som den responsiva bilden läggs till i ha en av följande bredder: 360, 720 och 940 pixlar. Dessa värden är exakt vad som skickas som brytpunkter till det responsiva bildbiblioteket. Dynamic Media säkerställer därför att klientens bandbredd används effektivt. Dessutom ser det till att bilden visas i exakt den storlek som behövs, med den aktuella webbsidans layout, utan att webbläsaren skalas. </p> <p>Klicka på URL:en så att du öppnar webbsidan, ändrar storlek på webbläsarfönstret för att hitta olika layoutbrytpunkter och övervakar nätverkstrafiken. </p> <p>Fler avancerade användningsområden är att associera olika bildförinställningar, eller bildservningskommandon, eller båda, med olika brytpunktsvärden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
-   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/image-presets.html" format="https" scope="external"> https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/image-presets.html</a> </p> <p> 
+   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/image-presets.html?lang=sv-SE" format="https" scope="external"> https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/image-presets.html?lang=sv-SE</a> </p> <p> 
      <!--http://sasha.s7qa.com/jira-bugs/S7-7729/image-presets.html--> </p> </td> 
    <td colname="col2"> <p>I det här nästa exemplet används förinställningar av olika bildkvalitet och format för olika brytpunktsstorlekar. För en liten brytpunkt används en förinställning med låg kvalitet som tvingar Image Serving att endast returnera GIF-bilden komprimerad till sex färger. En medelstor brytpunkt är att använda en bildförinställning som är konfigurerad för JPEG med hög komprimering. Den största brytpunkten är associerad med en bildförinställning av hög kvalitet med förlustfri PNG. En sådan metod säkerställer att bilder av hög kvalitet levereras till sådana enheter, baserat på antagandet att enheter med större skärmar har större bandbredd och bearbetningskraft. </p> <p>Klicka på webbadressen så att du öppnar webbsidan, ändrar storlek på webbläsarfönstret från större till mindre och ser hur bildkvaliteten försämras. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>4 </p> </td> 
-   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/crops.html" format="https" scope="external"> https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/crops.html </a> </p> <p> 
+   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/crops.html?lang=sv-SE" format="https" scope="external"> https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/crops.html?lang=sv-SE </a> </p> <p> 
      <!--http://sasha.s7qa.com/jira-bugs/S7-7729/crops.html--> </p> </td> 
    <td colname="col2"> <p>Förutom Bildförinställningar kan du koppla speciella bildserverkommandon till brytpunkter. I följande exempel visas hur det är möjligt att gradvis beskära banderollbilden till det intressanta området när skärmbildens storlek blir mindre. Här har den största brytpunkten inga bildserverkommandon alls, så banderollbilden är helt synlig. Vid medelbrytpunkt tillämpas måttlig beskärning, vilket gör att bara texten"Running" visas. Vid en liten brytpunkt tillämpas mer beskärning så att endast produkten visas. </p> <p>Klicka på webbadressen så att du öppnar webbsidan och ändrar storlek på webbläsarfönstret. Lägg märke till hur bilden beskärs gradvis när du går från större till mindre. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>5 </p> </td> 
-   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/template.html" format="https" scope="external"> https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/template.html </a> </p> <p> 
+   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/template.html?lang=sv-SE" format="https" scope="external"> https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/template.html?lang=sv-SE </a> </p> <p> 
      <!--http://sasha.s7qa.com/jira-bugs/S7-7729/template.html--> </p> </td> 
    <td colname="col2"> <p>Du kan också använda kommandona Bildserver med Bildmallar för att styra vissa mallparametrar baserat på bildstorleken. I det här nästa exemplet används en bildservermall där teckensnittsstorleken för textövertäckningen parametriseras med parametern <span class="codeph"> $fontsize </span> . Responsiv bild är konfigurerad att använda en större teckenstorlek för mindre bildstorlekar för att säkerställa att texten alltid förblir läsbar: </p> </td> 
   </tr> 

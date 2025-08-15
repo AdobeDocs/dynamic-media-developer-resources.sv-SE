@@ -271,7 +271,7 @@ Följande exempelsida visar hur responsiv designinbäddning med obegränsad höj
 
 [Live-demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Alternativ demoplats](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+[Alternativ demoplats](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=sv-SE)
 
 **Responsiv designinbäddning med bredd och höjd definierad**
 
