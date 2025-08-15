@@ -1,5 +1,5 @@
 ---
-description: Teckensnittets namn. Teckensnittets teckensnittsnamn exakt enligt kommandot RTF \fonttbl.
+description: Teckensnittets namn. Teckensnittets teckensnittsnamn exakt enligt kommandot RTF fonttbl.
 solution: Experience Manager
 title: Namn
 feature: Dynamic Media Classic,SDK/API

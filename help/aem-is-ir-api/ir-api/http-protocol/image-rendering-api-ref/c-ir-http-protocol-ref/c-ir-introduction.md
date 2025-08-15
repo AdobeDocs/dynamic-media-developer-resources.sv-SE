@@ -95,6 +95,6 @@ Det förutsätts att läsaren känner till Dynamic Media Image Authoring och Ima
 
 **Vanliga termer**
 
-** *`MSS`* ** Materialspecifikationssegment: en uppsättning materialattribut mellan två markeringskommandon i begäran.
+**&#x200B; *`MSS`* &#x200B;** Materialspecifikationssegment: en uppsättning materialattribut mellan två markeringskommandon i begäran.
 
-** *`vignette`* ** En bild som har förberetts vid redigering av dynamiska mediabilder för användning med bildåtergivning.
+**&#x200B; *`vignette`* &#x200B;** En bild som har förberetts vid redigering av dynamiska mediabilder för användning med bildåtergivning.

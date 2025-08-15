@@ -21,7 +21,7 @@ Glanskarta. Tillhandahåller pixel-för-pixel-kontroll av glansigheten i en uppr
 <table id="simpletable_6AFC3DEB61D647339525C7CFFA052608"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> embeddedReq </span> </span> </p></td> 
-  <td class="stentry"> <p><span class="codeph">&amp;klammerparentes;'is&amp;lbrace;'<span class="varname"> isReq</span>'&amp;rbrace;'&amp;rbrace;|&amp;lbrace;'&amp;lbrace;'<span class="varname"> foreignReq</span>'&amp;rbrace;' </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&klammerparentes;'is&lbrace;'<span class="varname"> isReq</span>'&rbrace;'&rbrace;|&lbrace;'&lbrace;'<span class="varname"> foreignReq</span>'&rbrace;' </span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> glossMapFile </span> </span> </p></td> 

@@ -20,15 +20,15 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> mall </span></span> </p> </td> 
-   <td> <p>Innehållsmallen som data som returneras från infoservern sammanfogas i. </p> <p>Innehållsmallen är en XML som följer detta DTD: </p> <p> <code>&lt;!DOCTYPE&nbsp;info&nbsp;[
+   <td> <p>Innehållsmallen som data som returneras från infoservern sammanfogas i. </p> <p>Innehållsmallen är en XML som följer detta DTD: </p> <p> <code>&lt;!DOCTYPE&nbsp;info&nbsp;&lbrack;
       &lt;!ELEMENT&nbsp;info&nbsp;(var&nbsp;#PCDATA)
       &lt;!ELEMENT&nbsp;var&nbsp;(#PCDATA)&gt;
       &lt;!ATTLIST&nbsp;var&nbsp;
       name&nbsp;CDATA&nbsp;#REQUIRED
       rollover&nbsp;CDATA&nbsp;#IMPLIED&nbsp;&gt;
-      ]&gt;</code> </p> <p>Syntaxen för innehållsmallen är följande: </p> <p> <code>&lt;info&gt;
+      &rbrack;&gt;</code> </p> <p>Syntaxen för innehållsmallen är följande: </p> <p> <code>&lt;info&gt;
       &lt;var&nbsp;name='VAR_NAME'&nbsp;rollover='ROLLOVER_KEY'&gt;&lt;!CDATA[&nbsp;VAR_VALUE&nbsp;]&gt;
-      &lt;![CDATA[&nbsp;TEMPLATE_CONTENT&nbsp;]&gt;
+      &lt;!&lbrack;CDATA[&nbsp;TEMPLATE_CONTENT&nbsp;]&gt;
       &lt;/info&gt;</code> </p> <p>Det innebär att mallen måste börja med elementet <span class="codeph"> &lt;info&gt;</span> som kan innehålla valfria <span class="codeph"> &lt;var&gt;</span> -element. Själva mallinnehållet <span class="codeph"> TEMPLATE_CONTENT</span> är HTML-text. Innehållsmallen kan dessutom innehålla variabelnamn omgivna av <span class="codeph"> $</span> tecken. Dessa tecken ersätts med de variabelvärden som informationsservern returnerar eller med standardvärden. </p> <p>Standardvariabler som definieras i mallen kan antingen vara globala (om rollover-attributet inte har angetts) eller specifika för en viss rollover-nyckel (om rollover-attributet finns). </p> <p>Under mallbearbetningen har variabler som är specifika för rollover-nycklar företräde framför globala variabler. </p> </td> 
   </tr> 
  </tbody> 

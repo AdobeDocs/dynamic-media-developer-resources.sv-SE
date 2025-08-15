@@ -67,7 +67,7 @@ Lösenordets förfallodatum är valfritt. Om det utelämnas upphör aldrig löse
         <li id="li_6E3F084100104F2CBCF130EF8852C7B7">Engelska gemener. Till exempel <span class="codeph"> a b c d e </span> o.s.v. </li> 
         <li id="li_1FDED8D7348842BC857320D797D41217">Engelska versaler. Till exempel <span class="codeph"> A B C D E </span> och så vidare. </li> 
         <li id="li_C3C4D5412AA749F3B78F37B2B696CF80">Nummer. Exempel: <span class="codeph"> 1 2 3 4 5 </span> o.s.v. </li> 
-        <li id="li_2730798F26E74B878BEDE510CD06D8DD">Specialsymboltecken. Du kan till exempel använda något av följande: <span class="codeph"> &amp;grave; ~ ! @ # $ % ^ * ( ) _ + - = { } | [ ] &amp; \ : " ; ' &lt; &gt; ? , . / </span> </li> 
+        <li id="li_2730798F26E74B878BEDE510CD06D8DD">Specialsymboltecken. Du kan till exempel använda något av följande: <span class="codeph"> &grave; ~ ! @ # $ % ^ * ( ) _ + - = { } | [ ] &amp; \ : " ; ' &lt; &gt; ? , . / </span> </li> 
        </ul> </li> 
      </ul> </p> </td> 
   </tr> 

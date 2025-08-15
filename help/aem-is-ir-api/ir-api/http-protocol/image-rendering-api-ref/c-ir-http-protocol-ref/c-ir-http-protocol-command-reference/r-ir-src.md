@@ -33,7 +33,7 @@ Materialfil. Anger materialdata, antingen i form av en enstaka materialkatalogre
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> embeddedReq</span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph">&amp;klammerparentes;'is&amp;lbrace;'<span class="varname"> isReq</span>'&amp;klammerparentes;'&amp;klammerparentes;'&amp;klammerparenteser;'<span class="varname"> irReq</span>'&amp;klammerparenteser;'|&amp;klammerparenteser;'&amp;klammerparenteser;;' <span class="varname"> foreignReq</span>'&amp;rbrace;'</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&klammerparentes;'is&lbrace;'<span class="varname"> isReq</span>'&klammerparentes;'&klammerparentes;'&klammerparenteser;'<span class="varname"> irReq</span>'&klammerparenteser;'|&klammerparenteser;'&klammerparenteser;;' <span class="varname"> foreignReq</span>'&rbrace;'</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p></td> 

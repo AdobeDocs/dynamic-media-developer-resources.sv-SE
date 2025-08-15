@@ -92,7 +92,7 @@ Utseendet på bildschemaområdet styrs med följande CSS-klassväljare:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> kant </span> </p> </td> 
-   <td colname="col2"> <p> Områdesformat för bildschemat. Ska anges som <span class="codeph"> width </span> <span class="codeph"> solid color </span>, där <span class="codeph"> width </span> uttrycks i pixlar och <span class="codeph"> color </span> anges som <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> eller <span class="codeph"> RGBA(R,G,B,A) </span> 3}. </p> </td> 
+   <td colname="col2"> <p> Områdesformat för bildschemat. Ska anges som <span class="codeph"> width </span> <span class="codeph"> solid color </span>, där <span class="codeph"> width </span> uttrycks i pixlar och <span class="codeph"> color </span> anges som <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> eller <span class="codeph"> RGBA(R,G,B,A) </span> 3&rbrace;. </p> </td> 
   </tr> 
  </tbody> 
 </table>

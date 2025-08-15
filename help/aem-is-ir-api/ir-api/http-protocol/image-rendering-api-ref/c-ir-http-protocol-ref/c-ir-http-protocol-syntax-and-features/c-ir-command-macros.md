@@ -18,7 +18,7 @@ Kommandomakron innehåller namngivna kortkommandon för kommandouppsättningar.
 
 `$ *[!DNL name]*$`
 
-** *[!DNL name]* ** Makronamn
+**&#x200B; *[!DNL name]* &#x200B;** Makronamn
 
 Makron definieras i separata makrodefinitionsfiler som kan bifogas till materialkataloger eller standardkatalogen.
 

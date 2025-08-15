@@ -22,7 +22,7 @@ Detaljmeddelande som svarar på en av de URL:er som anges i CDN-begäran om ogil
 
 ## Parametrar {#section-cf4b0c923cef4c14869319af73ace58b}
 
-| ** Namn* | ** Typ* | ** Beskrivning** |
+| **&#x200B; Namn* | &#x200B;** Typ* | **&#x200B; Beskrivning** |
 |---|---|---|
 | kod | `xsd:int` | Felkod från CDN |
 | orsak | `xsd:string` | Felmeddelande från CDN |

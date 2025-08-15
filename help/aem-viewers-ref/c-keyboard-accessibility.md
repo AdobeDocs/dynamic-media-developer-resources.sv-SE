@@ -26,7 +26,7 @@ En slutanvändare kan navigera mellan element i användargränssnittet i visning
 
 Beroende på inställningarna för operativsystem och webbläsare får det element i användargränssnittet som har indatafokus en visuell fokusindikation. Den visuella indikatorn kan till exempel vara en tunn kantlinje som återges runt elementet i användargränssnittet.
 
-Det går att inaktivera eller anpassa den här typen av fokusmarkering i visningsprogrammets CSS. I innehållsförteckningen i det här hjälpsystemet, under ett specifikt visningsprogramnamn (till exempel Grundläggande zoom eller Interaktiv video), klickar du på **Anpassa *visningsprogrammets namn*** >** Fokusmarkering **.
+Det går att inaktivera eller anpassa den här typen av fokusmarkering i visningsprogrammets CSS. I innehållsförteckningen i det här hjälpsystemet, under ett specifikt visningsprogramnamn (till exempel Grundläggande zoom eller Interaktiv video), klickar du på **Anpassa *visningsprogrammets namn*** >**&#x200B; Fokusmarkering &#x200B;**.
 
 De tangenttryckningar som stöds av de enskilda elementen i visningsprogrammets användargränssnitt är i de flesta fall uppenbara och enkla att upptäcka.
 
