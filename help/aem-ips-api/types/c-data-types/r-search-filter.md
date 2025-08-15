@@ -69,7 +69,7 @@ Syntax
    <td colname="col3">Ange till: 
     <ul id="ul_8C164A5D9F0F43968C86A67FA6884F35"> 
      <li id="li_D8009688FF2C439D98D6C1052C1A6CBE"><span class="codeph"> Sant</span>: Om du bara vill returnera ursprungliga resurser. </li> 
-     <li id="li_4970226BF0FF42388CAE4415FB63AF16"><span class="codeph"> Falskt</span>: Returnerar genererat innehåll. Exempel: bilder från ett överfört PDF. </li> 
+     <li id="li_4970226BF0FF42388CAE4415FB63AF16"><span class="codeph"> Falskt</span>: Returnerar genererat innehåll. Exempel: bilder från en överförd PDF. </li> 
     </ul> </td> 
   </tr> 
   <tr> 

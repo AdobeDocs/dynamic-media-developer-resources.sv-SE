@@ -26,9 +26,9 @@ Regler för förbehandling av begäranden är lämpliga för ett antal olika pro
 * Selektivt använda säkerhetsfunktioner, som vattenstämplar, filtrerade efter bildnamn eller sökväg.
 * Utelämnar vattenstämplar eller andra säkerhetsfunktioner när servern hämtas från specifika IP-adresser.
 * Tillämpning av kommandon, till exempel `defaultImage=`, på alla förfrågningar eller förfrågningar som har ett visst mönster i URL-sökvägen eller frågesträngarna.
-* Tillåt inte användning av processorintensiva kommandon för att förhindra servermissbruk.
+* Tillåt inte användning av CPU-intensiva kommandon för att förhindra servermissbruk.
 * Tillåter att källbilder hittas på HTTP- eller FTP-servrar samtidigt som de anges på sökvägen för begäran i stället för med `src=`.
-* Styr inställningarna för bildkvalitet (till exempel JPEG eller skärpa) beroende på sökvägen eller bildnamnet.
+* Styr inställningarna för bildkvalitet (t.ex. JPEG-kvalitet eller skärpa) beroende på sökvägen eller bildnamnet.
 
 Detaljerad information om hur du skapar, använder och hanterar regeluppsättningar finns i [Referens för regeluppsättning](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md#concept-3e5058cf3507470b82cac638df23ea8e).
 

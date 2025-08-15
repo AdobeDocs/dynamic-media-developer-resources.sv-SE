@@ -20,7 +20,7 @@ Denna referenshandbok innehåller och definierar alla tjänster, metoder och dat
 
 ## Standarder och protokoll {#section-d85e71e44b7f432b9c65ce6ca45b7157}
 
-IPS API använder SOAP- och HTTP-protokoll och är kompatibelt med alla klienter som uppfyller dessa standarder. Ytterligare testning säkerställer att API:t är kompatibelt med Java™ (med Apache Axis2-biblioteket), Adobe Flex och Microsoft® .NET.
+IPS API använder SOAP- och HTTP-standardprotokoll och är kompatibelt med alla klienter som uppfyller dessa standarder. Ytterligare testning säkerställer att API:t är kompatibelt med Java™ (med Apache Axis2-biblioteket), Adobe Flex och Microsoft® .NET.
 
 >[!MORELIKETHIS]
 >

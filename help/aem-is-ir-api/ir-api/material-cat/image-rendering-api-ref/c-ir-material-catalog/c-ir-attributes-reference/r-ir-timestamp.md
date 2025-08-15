@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 0b6d8fa6-0ad9-4f72-8d6d-1427e5d59df3
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Datum-/tidsvärde i Java™-format. Kan vara antingen heltal i millisekunder sed
 
 *[!DNL zzz]* är en tidszonskod på tre eller fyra tecken, till exempel GMT eller PST. Sommartid måste anges i tidszonskoden (t.ex. PST för Pacific Standard Time och PDT för Pacific Daylight Savings Time).
 
-*[!DNL offset]* är en tidszonsförskjutning i timmar eller timmar:minuter i förhållande till GMT. &quot;PDT&quot; motsvarar till exempel &quot;GMT -7&quot;.
+*[!DNL offset]* är en tidszonsförskjutning i timmar eller timmar :minutes i förhållande till GMT. &quot;PDT&quot; motsvarar till exempel &quot;GMT -7&quot;.
 
 Alla element i strängformaterade datum/tid-värden måste finnas. Om datum-/tidsvärdet inte är korrekt formaterat ignoreras det och ändringstiden för filen [!DNL *[!DNL catalog]*.ini] används i stället.
 

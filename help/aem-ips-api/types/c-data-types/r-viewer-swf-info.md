@@ -1,5 +1,5 @@
 ---
-description: Egenskaper för en visningsprogramfil i SWF.
+description: Egenskaper för en visningsprogramfil för SWF.
 solution: Experience Manager
 title: ViewerSwfInfo
 feature: Dynamic Media Classic,SDK/API,Viewers
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL ViewerSwfInfo]{#viewerswfinfo}
 
-Egenskaper för en visningsprogramfil i SWF.
+Egenskaper för en visningsprogramfil för SWF.
 
 Syntax
 
@@ -22,6 +22,6 @@ Syntax
 
 | Namn | Typ | Beskrivning |
 |---|---|---|
-| originalPath | `xsd:string` | Relativ sökväg till den ursprungligen överförda visningsprogramfilen SWF. |
-| originalFile | `xsd:string` | Filnamn för den ursprungliga visningsprogramfilen SWF. |
+| originalPath | `xsd:string` | Relativ sökväg till den ursprungligen överförda SWF-filen för visningsprogrammet. |
+| originalFile | `xsd:string` | Filnamn för den ursprungliga SWF-filen för visningsprogrammet. |
 | fileSize | `xsd:int` | Filstorlek. |

@@ -22,7 +22,7 @@ Konfigurationsattribut för Interactive Video Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Anger om visningsprogrammet visar panelen"call-to-action" när videouppspelningen är klar. </p> </td> 
+   <td colname="col2"> <p> Anger om visningsprogrammet visar panelen "call-to-action" när videouppspelningen är klar. </p> </td> 
   </tr> 
  </tbody> 
 </table>

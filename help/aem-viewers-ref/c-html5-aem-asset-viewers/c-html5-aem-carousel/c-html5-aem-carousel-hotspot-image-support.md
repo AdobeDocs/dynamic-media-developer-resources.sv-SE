@@ -22,7 +22,7 @@ Aktiveringspunkter och regioner kan antingen aktivera en snabbvyfunktion på vä
 
 ## Snabbvisa hotspot-områden {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Den här typen av hotspot-områden eller bildscheman bör redigeras med åtgärdstypen&quot;Quickview&quot; i Dynamic Media, Adobe Experience Manager. När en användare aktiverar ett sådant hotspot- eller bildschema kör visningsprogrammet JavaScript-återanropet `quickViewActivate` och skickar hotspot- eller bildschemats data till det. Inbäddningswebbsidan förväntas lyssna efter det här återanropet. När sidan utlöses öppnas en egen QuickView-implementering.
+Den här typen av hotspot-områden eller bildscheman bör skapas med åtgärdstypen&quot;QuickView&quot; i Dynamic Media i Adobe Experience Manager. När en användare aktiverar ett sådant hotspot- eller bildschema kör visningsprogrammet JavaScript-återanropet `quickViewActivate` och skickar hotspot- eller bildschemats data till det. Inbäddningswebbsidan förväntas lyssna efter det här återanropet. När sidan utlöses öppnas en egen QuickView-implementering.
 
 ## Omdirigera till extern webbsida {#section-ef820c71251e4215800bb99c0c9ebe16}
 

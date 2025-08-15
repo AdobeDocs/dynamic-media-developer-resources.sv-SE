@@ -1,6 +1,6 @@
 ---
-title: Uppmaning
-description: Panelen Anrop till åtgärd visas när videon avslutas och alla interaktiva färgrutor som är associerade med videon visas.
+title: Call to action
+description: Panelen Call to action visas när videon avslutas och alla interaktiva färgrutor som är kopplade till videon visas.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -12,38 +12,38 @@ ht-degree: 0%
 
 ---
 
-# Uppmaning{#call-to-action}
+# Call to action{#call-to-action}
 
-Panelen Anrop till åtgärd visas när videon avslutas och alla interaktiva färgrutor som är associerade med videon visas.
+Panelen Call to action visas när videon avslutas och alla interaktiva färgrutor som är kopplade till videon visas.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 Panelen består av ett rubrikområde som visar videotiteln, en knapp för att spela upp i det övre högra hörnet och faktiska interaktiva färgrutor som visas som ett rullningsbart rutnät. Du kan inaktivera panelen med konfigurationsattributet [callToActionRecap](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-calltoactionrecap.md#reference-3720b68800684ddabf523e9d81644ce6).
 
-Anropet till åtgärdspanelen tar alltid hela det tillgängliga visningsprogramområdet.
+På call to action-panelen visas alltid hela det tillgängliga visningsprogramområdet.
 
 <!--<a id="section_3A619BE925C04AFA87A6B7846C5C7E2B"></a>-->
 
-Följande CSS-klassväljare styr utseendet på bakgrundsfärgen i åtgärdspanelen:
+Följande CSS-klassväljare styr utseendet på bakgrundsfärgen i panelen call to action:
 
 ```
 .s7interactivevideoviewer .s7calltoaction
 ```
 
-## CSS-egenskaper för bakgrundsfärgen för åtgärdspanelen {#css-properties-of-the-background-color-of-the-call-to-action-panel}
+## CSS-egenskaper för bakgrundsfärgen i panelen call to action {#css-properties-of-the-background-color-of-the-call-to-action-panel}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> Bakgrundsfärg för åtgärdspanelen. </p> </td> 
+   <td colname="col2"> <p> Bakgrundsfärg på panelen call to action. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Exempel {#example}
 
-Så här ställer du in ett anrop till åtgärdspanelen med mörkgrå bakgrund:
+Så här ställer du in en call to action-panel med mörkgrå bakgrund:
 
 ```
 .s7interactivevideoviewer .s7calltoaction { 
@@ -53,13 +53,13 @@ Så här ställer du in ett anrop till åtgärdspanelen med mörkgrå bakgrund:
 
 <!--<a id="section_AD18C770788B49989BEDAA608ECA804C"></a>-->
 
-Följande CSS-klassväljare styr utseendet på huvudet i åtgärdspanelen:
+Följande CSS-klassväljare styr utseendet på sidhuvudet på panelen call to action:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7header
 ```
 
-## CSS-egenskaper för huvudet i åtgärdspanelen {#css-properties-of-the-call-to-action-panel-header}
+## CSS-egenskaper för call to action-panelrubriken {#css-properties-of-the-call-to-action-panel-header}
 
 <table id="table_DAA1770AB3074845B5E1B700CD6FC18A"> 
  <tbody> 
@@ -92,13 +92,13 @@ Så här ställer du in en rubrik som är 70 pixlar hög, med en mörkgrå bakgr
 
 <!--<a id="section_B0333FC1A2CC4E089C68D34B839E5156"></a>-->
 
-Följande CSS-klassväljare styr utseendet på rubriktiteln i åtgärdspanelen:
+Följande CSS-klassväljare styr utseendet på rubriktiteln i panelen call to action:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7header .s7title
 ```
 
-## CSS-egenskaper för rubriktiteln i åtgärdspanelen:  {#css-properties-of-the-header-title-in-the-call-to-action-panel}
+## CSS-egenskaper för rubriktiteln i panelen call to action:  {#css-properties-of-the-header-title-in-the-call-to-action-panel}
 
 <table id="table_A5E36A5C4C664346B6DAE9A02B36C3D2"> 
  <tbody> 
@@ -148,13 +148,13 @@ Så här ställer du in en videotitel med en radhöjd på 70 pixlar, en teckensn
 
 <!--<a id="section_D23A6D4BA0614286A060982B359E3C08"></a>-->
 
-Följande CSS-klassväljare styr utseendet på stängningsknappen i åtgärdspanelen:
+Följande CSS-klassväljare styr utseendet på stängningsknappen i panelen call to action:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7closebutton
 ```
 
-## CSS-egenskaper för stängningsknappen i åtgärdspanelen: {#css-properties-of-the-close-button-in-the-call-to-action-panel}
+## CSS-egenskaper för stängningsknappen på panelen call to action: {#css-properties-of-the-close-button-in-the-call-to-action-panel}
 
 <table id="table_CB0BCBE70DB447BC8D31034A96308924"> 
  <tbody> 
@@ -220,13 +220,13 @@ Så här ställer du in en uppspelningsknapp som är 28 x 28 pixlar. Knappen må
 
 <!--<a id="section_3975B58E78DE4E81B469372FB8A3A348"></a>-->
 
-Följande CSS-klassväljare styr utseendet på miniatyrrutnätet i åtgärdspanelen:
+Följande CSS-klassväljare styr utseendet på miniatyrrutnätsvyn i panelen call to action:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview
 ```
 
-## CSS-egenskaper för miniatyrrutnätsvyn i åtgärdspanelen:  {#css-properties-of-the-thumbnail-grid-view-in-the-call-to-action-panel}
+## CSS-egenskaper för miniatyrrutnätsvyn i panelen call to action:  {#css-properties-of-the-thumbnail-grid-view-in-the-call-to-action-panel}
 
 <table id="table_A0DDD21C84944D48A639F51FCC8DF065"> 
  <tbody> 
@@ -249,13 +249,13 @@ Så här ställer du in ett miniatyrområde med en mörkgrå bakgrund:
 
 <!--<a id="section_D2E5AADFCE0345468DC0D2977E2765D2"></a>-->
 
-Följande CSS-klassväljare styr utseendet på tumcellen i åtgärdspanelen:
+Följande CSS-klassväljare styr utseendet på tumcellen i panelen call to action:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbcell
 ```
 
-## CSS-egenskaper för tumcellen i åtgärdspanelen: {#css-properties-of-the-thumbcell-in-the-call-to-action-panel}
+## CSS-egenskaper för tumcellen i panelen call to action: {#css-properties-of-the-thumbcell-in-the-call-to-action-panel}
 
 <table id="table_9CEBEF6FC7024F02840A581AEEF612B4"> 
  <tbody> 
@@ -281,13 +281,13 @@ Så här anger du ett vågrätt mellanrum på 24 pixlar och ett lodrätt mellanr
 
 <!--<a id="section_D06CF9F709A3447F83DC6E1CE7CA58B5"></a>-->
 
-Följande CSS-klassväljare styr utseendet på miniatyrbilden i åtgärdspanelen:
+Följande CSS-klassväljare styr utseendet på miniatyrbilden i panelen call to action:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumb
 ```
 
-## CSS-egenskaper för miniatyrbilden i åtgärdspanelen: {#css-properties-of-the-thumbnail-in-the-call-to-action-panel}
+## CSS-egenskaper för miniatyrbilden i panelen call to action: {#css-properties-of-the-thumbnail-in-the-call-to-action-panel}
 
 <table id="table_ECD7477F4BE94BA8943210FA8B6B8D01"> 
  <tbody> 
@@ -323,13 +323,13 @@ Så här ställer du in miniatyrbilder som är 94 x 100 pixlar:
 
 <!--<a id="section_F1B7E3FA3ABD4D71848586A3B308F9E2"></a>-->
 
-Följande CSS-klassväljare styr utseendet på miniatyretiketten i åtgärdspanelen:
+Följande CSS-klassväljare styr utseendet på miniatyretiketten i panelen call to action:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7label
 ```
 
-## CSS-egenskaper för miniatyrbildetiketten i åtgärdspanelen: {#css-properties-of-the-thumbnail-label-in-the-call-to-action-panel}
+## CSS-egenskaper för miniatyrbildetiketten i panelen call to action: {#css-properties-of-the-thumbnail-label-in-the-call-to-action-panel}
 
 <table id="table_E2C9F21EBD9140FD9D20A4BBAD117E2F"> 
  <tbody> 
@@ -367,15 +367,15 @@ Om du vill ställa in etiketter som använder en vit färg ska du centrera 15 pi
 
 <!--<a id="section_2C011101EB804513B942EFB4CBD38E62"></a>-->
 
-Om det finns fler miniatyrbilder än vad som får plats lodrätt i vyn återges en lodrät rullningslist till höger med miniatyrbilder. Anropet till åtgärdspanelen återger som standard ett litet vertikalt fält utan reglage och rullningsknappar. Du kan dock anpassa fältet genom att ändra CSS-koden för visningsprogrammet.
+Om det finns fler miniatyrbilder än vad som får plats lodrätt i vyn återges en lodrät rullningslist till höger med miniatyrbilder. Som standard återges ett litet lodrätt streck utan reglage och rullningsknappar på panelen call to action. Du kan dock anpassa fältet genom att ändra CSS-koden för visningsprogrammet.
 
-Följande CSS-klassväljare styr utseendet på rullningslistområdet i åtgärdspanelen:
+Följande CSS-klassväljare styr utseendet på rullningslistområdet i panelen call to action:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar
 ```
 
-## CSS-egenskaper för rullningslistområdet i åtgärdspanelen: {#css-properties-of-the-scroll-bar-area-in-the-call-to-action-panel}
+## CSS-egenskaper för rullningslistområdet i panelen call to action: {#css-properties-of-the-scroll-bar-area-in-the-call-to-action-panel}
 
 <table id="table_6D3A4A68BFDB44259A6E2E632B9195F3"> 
  <tbody> 
@@ -415,7 +415,7 @@ Så här ställer du in en rullningslist som är 22 pixlar bred och som inte har
 
 Rullningslistens spår är området mellan den övre och den nedre rullningslistens knappar. Komponenten ställer automatiskt in spårets position och höjd.
 
-Följande CSS-klassväljare styr utseendet på rullningslistens spår i åtgärdspanelen:
+Följande CSS-klassväljare styr utseendet på rullningslistens spår i panelen call to action:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrolltrack
@@ -457,7 +457,7 @@ Följande CSS-klassväljare styr utseendet på tumhöjden och andra proportioner
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrollthumb
 ```
 
-## CSS-egenskaper för tumshöjden i åtgärdspanelen: {#css-properties-of-the-thumb-height-in-the-call-to-action-panel}
+## CSS-egenskaper för tumshöjden i panelen call to action: {#css-properties-of-the-thumb-height-in-the-call-to-action-panel}
 
 <table id="table_1F39948FC3924FA4B7F851B65B2D860B"> 
  <tbody> 
@@ -524,9 +524,9 @@ Följande CSS-klassväljare styr utseendet på de övre och nedre rullningsknapp
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrolldownbutton
 ```
 
-Det går inte att placera rullningsknappar med CSS-egenskaperna top, left, bottom eller right. Visningsprogrammets logik placerar dem automatiskt. Anropet till åtgärdspanelen i det interaktiva visningsprogrammet använder inte de här knapparna i rullningslisten, och deras storlek anges till 0 pixlar i standard-CSS.
+Det går inte att placera rullningsknappar med CSS-egenskaperna top, left, bottom eller right. Visningsprogrammets logik placerar dem automatiskt. På call to action-panelen i det interaktiva visningsprogrammet används inte dessa knappar i rullningslisten, och deras storlek är inställd på 0 pixlar i standard-CSS.
 
-## CSS-egenskaper för de övre och nedre rullningsknapparna i åtgärdspanelen:  {#css-properties-of-the-top-and-bottom-scroll-buttons-in-the-call-to-action-panel}
+## CSS-egenskaper för de övre och nedre rullningsknapparna i panelen call to action:  {#css-properties-of-the-top-and-bottom-scroll-buttons-in-the-call-to-action-panel}
 
 <table id="table_FE17D19E0545424EADB0256524361359"> 
  <tbody> 

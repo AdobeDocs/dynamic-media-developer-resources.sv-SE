@@ -1,5 +1,5 @@
 ---
-description: Fet ansiktsflagga. Anger om teckensnittsfilen som refereras av den här teckensnittskartan ska användas när det efterfrågas av RTF-kommandot fet (b).
+description: Fet ansiktsflagga. Anger om teckensnittsfilen som refereras av den här teckensnittskartan ska användas när det efterfrågas av RTF-kommandot fet (\b).
 solution: Experience Manager
 title: Fet
 feature: Dynamic Media Classic,SDK/API

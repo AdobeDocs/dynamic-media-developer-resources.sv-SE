@@ -1,5 +1,5 @@
 ---
-description: Vidarebefordrar den angivna listan med URL:er till Dynamic Media CDN-leverantören (Content Distribution Network) för att ogiltigförklara deras befintliga cache för HTTP-svar.
+description: Vidarebefordrar den angivna listan med URL:er till Dynamic Media CDN-providern (Content Distribution Network) för att ogiltigförklara deras befintliga cache för HTTP-svar.
 solution: Experience Manager
 title: cdnCacheInvalidation
 feature: Dynamic Media Classic,SDK/API
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # cdnCacheInvalidation{#cdncacheinvalidation}
 
-Vidarebefordrar den angivna listan med URL:er till Dynamic Media CDN-leverantören (Content Distribution Network) för att ogiltigförklara deras befintliga cache för HTTP-svar.
+Vidarebefordrar den angivna listan med URL:er till Dynamic Media CDN-providern (Content Distribution Network) för att ogiltigförklara deras befintliga cache för HTTP-svar.
 
 ## cdnCacheInvalidation: Om {#section-4f70d2bc79d64288b961836ab17e9690}
 
-Cacheogiltigförklaring av CDN tvingar alla HTTP-begäranden för dessa URL:er att valideras mot aktuella publicerade data i Dynamic Media-nätverket efter att denna invalideringsbegäran har bearbetats via CDN-nätverket. Alla URL:er som inte är anslutna till Dynamic Media tjänst-URL-struktur och som direkt matchar Dynamic Media företags rot-ID som tilldelats när företaget skapas resulterar i ett API-fel för hela begäran. Om det finns ogiltiga URL:er som CDN inte stöder och som den anser vara ogiltiga resulterar det också i ett API-fel för hela begäran.
+Cacheogiltigförklaring av CDN tvingar alla HTTP-begäranden för dessa URL:er att valideras mot aktuella publicerade data i det dynamiska medienätverket efter att denna invalideringsbegäran har bearbetats via CDN-nätverket. Alla URL:er som inte är anslutna till URL-strukturen för Dynamic Media-tjänsten och som direkt matchar det rotnr för Dynamic Media-företaget som tilldelats när företaget skapas resulterar i ett API-fel för hela begäran. Om det finns ogiltiga URL:er som CDN inte stöder och som den anser vara ogiltiga resulterar det också i ett API-fel för hela begäran.
 
 **Användningsfrekvens: Regler**
 
-Reglerna för hur ofta denna funktion ska användas regleras av Dynamic Media CDN-partners. CDN behåller sin frihet att försämra svarstiden för dessa ogiltigförklaringar för att behålla optimala prestanda för tjänsten för användarna. Om Dynamic Media får ett meddelande om överanvändning av funktionen måste Adobe gå till att inaktivera funktionen antingen per företag eller helt i tjänsten.
+Reglerna för hur ofta den här funktionen används regleras av Dynamic Medias CDN-partners. CDN behåller sin frihet att försämra svarstiden för dessa ogiltigförklaringar för att behålla optimala prestanda för tjänsten för användarna. Om Dynamic Media får ett meddelande om överanvändning av den här funktionen måste Adobe övergå till att inaktivera funktionen antingen per företag eller helt i tjänsten.
 
 **Bekräftelsemeddelanden**
 
@@ -61,7 +61,7 @@ Bekräftelsemeddelanden från Dynamic Media CDN-partnern kan skickas till den so
    <td> <p> <span class="codeph"> <span class="varname"> urlArray </span> </span> </p> </td> 
    <td> <p> <span class="codeph"> typer:UrlArray</span> </p> </td> 
    <td> <p> Ja </p> </td> 
-   <td> <p> Lista med upp till 1 000 URL:er som ska göras ogiltiga från CDN-cachen. Alla URL:er måste innehålla Dynamic Media-företagets rot-ID för att kunna ogiltigförklaras. </p> </td> 
+   <td> <p> Lista med upp till 1 000 URL:er som ska göras ogiltiga från CDN-cachen. Alla URL:er måste innehålla det dynamiska mediets företags rot-ID som ska ogiltigförklaras. </p> </td> 
   </tr> 
  </tbody> 
 </table>

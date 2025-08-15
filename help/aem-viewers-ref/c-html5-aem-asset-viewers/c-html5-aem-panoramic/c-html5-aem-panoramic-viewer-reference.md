@@ -27,15 +27,15 @@ Visningstyp 514.
 
 ## Använda panoramavisningsprogram {#section-f21ac23d3f6449ad9765588d69584772}
 
-HTML5 Panoramavy Viewer representerar en JavaScript-huvudfil och en uppsättning hjälpfiler som hämtats av visningsprogrammet under körning. Hjälpfilerna är en enda JavaScript-uppsättning med alla HTML5-visarkomponenter i SDK som används av just detta visningsprogram, resurser och CSS.
-Panoramaviseringsprogrammet HTML5 kan användas både i popup-läge med en produktionsklar HTML-sida som finns i IS-Viewer eller i inbäddat läge, där det integreras med målwebbsidan med hjälp av dokumenterad API.
-Konfigurationen och skalningen liknar den för de andra visningsprogrammen i HTML5. All skalning kan göras med anpassad CSS.
+HTML5 Panoramavy Viewer representerar en JavaScript-huvudfil och en uppsättning hjälpfiler som hämtats av visningsprogrammet under körning. Hjälpfilerna är en enda JavaScript-uppsättning med alla HTML5 Viewer SDK-komponenter som används av just detta visningsprogram, resurser, CSS.
+HTML5 Panoramavy Viewer kan användas både i popup-läge med en produktionsklar HTML-sida som finns i IS-Viewer eller i inbäddat läge, där den integreras med målwebbsidan med dokumenterat API.
+Konfigurationen och skalningen liknar den för andra visningsprogram i HTML5. All skalning kan göras med anpassad CSS.
 
 Se [Kommandoreferens som är gemensam för alla visningsprogram - Konfigurationsattribut](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) och [Kommandoreferens som är gemensam för alla visningsprogram - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
-## Interaktion med panoramavisare för HTML5 {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
+## Interagera med HTML5 Panoramic Viewer {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
-HTML5 Panoramavy Viewer stöder automatisk panorering och navigering genom att dra eller gyroskopisk rörelse.
+HTML5 Panoramic Viewer har stöd för automatisk panorering och navigering genom att dra eller gyroskopisk rörelse.
 
 <table id="table_panoramic"> 
  <thead> 
@@ -60,7 +60,7 @@ HTML5 Panoramavy Viewer stöder automatisk panorering och navigering genom att d
 Visningsprogrammet har stöd för både pekrörelser och musindata på Windows-enheter med pekskärm och mus. Detta stöd är dock begränsat till webbläsarna Chrome, Internet Explorer 11 och Edge.
 Panoramaviseringsprogrammet kan återge panoramabilder i VR-läge (Virtual Reality) genom att ange renderingsmodifieraren. När återgivning är aktiverat visas en panoramabild i delade skärmar. Ett vanligt användningsexempel är att placera bilden i en mobiltelefon som är monterad i ett virtuellt verklighetshuvud och ger separata bilder för varje öga. Visningsprogrammet svarar på huvudets gyroskopiska rörelser och navigerar genom bilden.
 
-## Bädda in panoramavisare för HTML5 {#section-6bb5d3c502544ad18a58eafe12a13435}
+## Bädda in HTML5 Panoramavisningsprogram {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 Olika webbsidor har olika behov av visningsprogrammets beteende. Ibland ger en webbsida en länk. Om du väljer den länken öppnas visningsprogrammet i ett separat webbläsarfönster. I andra fall kan det vara nödvändigt att bädda in visningsprogrammet på värdsidan. I det senare fallet kan webbsidan ha en statisk layout eller vara&quot;responsiv&quot; och visas på olika enheter eller för olika webbläsarfönsterstorlekar. För att tillgodose dessa behov har visningsprogrammet stöd för tre primära åtgärdslägen: popup, inbäddning med fast storlek och responsiv inbäddning.
 
@@ -68,15 +68,15 @@ Olika webbsidor har olika behov av visningsprogrammets beteende. Ibland ger en w
 
 I popup-läget öppnas visningsprogrammet i ett separat webbläsarfönster eller på en separat flik. Det tar hela webbläsarfönsterområdet och justeras om webbläsaren ändras eller om enhetens orientering ändras.
 
-Det här läget är det vanligaste för mobila enheter. Webbsidan läser in visningsprogrammet med `window.open()` JavaScript-anrop, ett korrekt konfigurerat A HTML-element eller något annat lämpligt sätt.
+Det här läget är det vanligaste för mobila enheter. Webbsidan läser in visningsprogrammet med `window.open()` JavaScript-anrop, ett korrekt konfigurerat HTML-element eller något annat lämpligt sätt.
 
-Vi rekommenderar att du använder en HTML-sida som inte finns i kartongen för popup-åtgärder. Den kallas [!DNL PanoramicViewer.html] och finns under undermappen [!DNL html5/] i din standarddistribution av IS-Viewer:
+Vi rekommenderar att du använder en färdig HTML-sida för popup-läge. Den kallas [!DNL PanoramicViewer.html] och finns under undermappen [!DNL html5/] i din standarddistribution av IS-Viewer:
 
 [!DNL <s7viewers_root>/html5/PanoramicViewer.html]
 
 Visuell anpassning kan uppnås genom att använda anpassad CSS.
 
-Här är ett exempel på HTML som öppnar visningsprogrammet i det nya fönstret:
+Här är ett exempel på HTML-kod som öppnar visningsprogrammet i det nya fönstret:
 
 ```html {.line-numbers}
 <a href="http://s7d1.scene7.com/s7viewers/html5/PanoramicViewer.html?asset=Scene7SharedAssets/PanoramicImage-Sample" target="_blank">Open popup viewer</a>
@@ -107,7 +107,7 @@ Du lägger till visningsprogrammet på en webbsida genom att göra följande:
 
 1. Lägga till visningsprogrammets JavaScript-fil på webbsidan.
 
-   Om du vill skapa ett visningsprogram måste du lägga till en script-tagg i huvudet HTML. Innan du kan använda visningsprogrammets API måste du ta med [!DNL PanoramicViewer.js]. Filen [!DNL PanoramicViewer.js] finns under undermappen [!DNL html5/js/] i din standarddistribution av IS-Viewer:
+   Om du vill skapa ett visningsprogram måste du lägga till en script-tagg i HTML head. Innan du kan använda visningsprogrammets API måste du ta med [!DNL PanoramicViewer.js]. Filen [!DNL PanoramicViewer.js] finns under undermappen [!DNL html5/js/] i din standarddistribution av IS-Viewer:
 
 [!DNL <s7viewers_root>/html5/js/PanoramicViewer.js]
 
@@ -121,7 +121,7 @@ Relativ sökväg ser ut så här:
 
 >[!NOTE]
 >
->Referera bara till JavaScript `include`-huvudvisningsfilen på din sida. Referera inte till några andra JavaScript-filer i webbsideskoden som kan hämtas av visningsprogrammets logik under körning. Referera inte direkt till HTML5 SDK `Utils.js`-biblioteket som läses in av visningsprogrammet från kontextsökvägen `/s7viewers` (s.k. konsoliderad SDK `include`). Orsaken är att platsen för `Utils.js` eller liknande visningsprogrambibliotek för miljön hanteras helt av visningsprogrammets logik och platsen ändras mellan visningsprogramversioner. Adobe sparar inte äldre versioner av det sekundära visningsprogrammet `includes` på servern.
+>Referera bara till JavaScript `include`-huvudvisningsfilen på din sida. Referera inte till några andra JavaScript-filer i webbsideskoden som kan hämtas av visningsprogrammets logik under körning. Referera inte direkt till HTML5 SDK `Utils.js`-biblioteket som läses in av visningsprogrammet från `/s7viewers`-kontextsökvägen (så kallad konsoliderad SDK `include`). Orsaken är att platsen för `Utils.js` eller liknande visningsprogrambibliotek för miljön hanteras helt av visningsprogrammets logik och platsen ändras mellan visningsprogramversioner. Adobe sparar inte äldre versioner av det sekundära visningsprogrammet `includes` på servern.
 >
 >
 >Det innebär att om du skickar en direkt referens till eventuella sekundära JavaScript `include` som används av visningsprogrammet på sidan så bryts visningsprogrammets funktioner i framtiden när en ny produktversion distribueras.
@@ -143,7 +143,7 @@ Relativ sökväg ser ut så här:
 
    Du kan ange den statiska storleken för visningsprogrammet genom att antingen deklarera den för CSS-klassen `.s7panoramicviewer` på den översta nivån i absoluta enheter eller genom att använda modifieraren `stagesize`.
 
-   Storleksändring i CSS kan placeras direkt på HTML-sidan eller i en anpassad CSS-fil för visningsprogrammet, som senare tilldelas till en förinställningspost för visningsprogrammet i AOD eller skickas explicit med hjälp av formatkommandot. Mer information om hur du formaterar visningsprogrammet med CSS finns i Anpassa visningsprogrammet. Nedan visas ett exempel på hur du definierar storleken på det statiska visningsprogrammet på HTML-sidan:
+   Storleksändring i CSS kan placeras direkt på HTML-sidan eller i en anpassad CSS-fil för visningsprogrammet, som senare tilldelas en förinställningspost för visningsprogrammet i AOD eller skickas explicit med formatkommando. Mer information om hur du formaterar visningsprogrammet med CSS finns i Anpassa visningsprogrammet. Nedan visas ett exempel på hur du definierar statisk visningsstorlek på HTML-sidan:
 
    ```html {.line-numbers}
    #s7viewer.s7panoramicviewer {
@@ -213,7 +213,7 @@ Relativ sökväg ser ut så här:
 
 **Responsiv designinbäddning med obegränsad höjd**
 
-Med den responsiva inbäddningen har webbsidan vanligtvis någon typ av flexibel layout som bestämmer körningsstorleken för visningsprogrammets behållar-DIV. I det här exemplet antar vi att webbsidan tillåter att visningsprogrammets behållare-DIV tar 80 % av webbläsarens fönsterstorlek och låter dess höjd vara obegränsad. Webbsidans HTML-kod kan se ut så här:
+Med den responsiva inbäddningen har webbsidan vanligtvis någon typ av flexibel layout som bestämmer körningsstorleken för visningsprogrammets behållar-DIV. I det här exemplet antar vi att webbsidan tillåter att visningsprogrammets behållare-DIV tar 80 % av webbläsarens fönsterstorlek och låter dess höjd vara obegränsad. Webbsidan med HTML-koden kan se ut så här:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -271,7 +271,7 @@ Följande exempelsida visar hur responsiv designinbäddning med obegränsad höj
 
 [Live-demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Alternativ demoplats](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=sv-SE)
+[Alternativ demoplats](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 **Responsiv designinbäddning med bredd och höjd definierad**
 

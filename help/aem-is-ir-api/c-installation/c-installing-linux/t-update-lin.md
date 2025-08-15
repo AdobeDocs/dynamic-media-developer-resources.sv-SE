@@ -1,6 +1,6 @@
 ---
 title: Uppdaterar från IS 4.7.4 eller senare
-description: Gör så här när du uppgraderar Dynamic Media Image Serving på Linux®.
+description: Använd den här proceduren när du uppgraderar Dynamic Media Image Serving i Linux®.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Uppdaterar från IS 4.7.4 eller senare{#updating-from-is-or-later}
 
-Gör så här när du uppgraderar Dynamic Media Image Serving på Linux®.
+Använd den här proceduren när du uppgraderar Dynamic Media Image Serving i Linux®.
 
 Om du uppgraderar från en äldre version av Image Serving kontaktar du supporten för rätt process.
 
@@ -22,7 +22,7 @@ Mappen [!DNL webapps] kan tas bort vid uppgradering. Säkerhetskopiera mappen [!
 
 1. Logga in på servervärden med rotprivilegier.
 1. Ta bort komprimeringen och ta bort kontrollen för Image Serving-distributionens tjärfil.
-1. Kör [!DNL `./install-is`] i mappen [!DNL setup] för att starta installationsguiden.
+1. Kör [!DNL setup] i mappen [!DNL `./install-is`] för att starta installationsguiden.
 
    Installationsprogrammet för uppdateringen kontrollerar det installerade paketets integritet och version. Om det lyckas visas slutanvändaravtalet (&quot;EULA&quot;).
 1. Läs licensavtalet och ange sedan **[!UICONTROL y]** för att fortsätta med installationen.

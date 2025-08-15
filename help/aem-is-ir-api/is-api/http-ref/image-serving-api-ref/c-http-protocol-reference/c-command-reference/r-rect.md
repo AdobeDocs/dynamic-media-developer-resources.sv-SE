@@ -37,7 +37,7 @@ Med det här kommandot kan Image Serving leverera stora bilder via HTTP som anna
 
 >[!NOTE]
 >
->För bästa resultat bör storleken på remsa eller plattor vara en multipel av JPEG-kodningsrutans storlek (16 x 16 pixlar) när du använder JPEG-komprimering.
+>För bästa resultat bör remsans eller plattans storlek vara en multipel av JPEG-kodningspanelens storlek (16 x 16 pixlar) när JPEG-komprimering används.
 
 ## Exempel {#section-932fcfcb41d74a29bc929e4430c49601}
 

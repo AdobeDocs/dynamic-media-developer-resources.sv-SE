@@ -1,6 +1,6 @@
 ---
 title: Färghantering
-description: RTF-specifikationen tillåter färgvärden för RGB som anges med &bsol;colortbl. Varje komponent levereras separat med kommandona &bsol;red, &bsol;green och &bsol;blue.
+description: RTF-specifikationen tillåter RGB-färgvärden som anges med &bsol;colortbl. Varje komponent levereras separat med kommandona &bsol;red, &bsol;green och &bsol;blue.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Färghantering{#color-handling}
 
-RTF-specifikationen tillåter färgvärden för RGB som anges med `\colortbl`. Varje komponent tillhandahålls separat med kommandona `\red`, `\green` och `\blue`.
+RTF-specifikationen tillåter RGB-färgvärden som anges med `\colortbl`. Varje komponent tillhandahålls separat med kommandona `\red`, `\green` och `\blue`.
 
 Det egna RTF-tilläggskommandot `\cmykcolortbl` gör det möjligt att ange CMYK-färger, där varje färgkomponent finns i kommandona `\cyan`, `\magenta`, `\yellow` och `\black`.
 
 Färgkomponentvärdena för `\colortbl` ligger i intervallet 0-255. Komponentvärdena för `\cmykcolortbl` ligger i intervallet 0-100.
 
-RTF-tilläggskommandot `\*\iscolortbl`, som stöds av `textPs=`, erbjuder ett sätt att ange en färgtabell med standardfärgvärden för bildservrar, med stöd för RGB, grått, CMYK och alfa. Den har följande syntax:
+RTF-tilläggskommandot `\*\iscolortbl`, som stöds av `textPs=`, erbjuder ett sätt att ange en färgtabell med standardfärgvärden för bildservrar, med fullständigt stöd för RGB, grått, CMYK och alfa. Den har följande syntax:
 
 ` {\&#42;\iscolortbl; *[!DNL colors]*;}`
 

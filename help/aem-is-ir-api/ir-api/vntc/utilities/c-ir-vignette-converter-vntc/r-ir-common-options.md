@@ -39,7 +39,7 @@ Följande alternativ kan användas oavsett typen av sourceFile.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -lowerpriority <span class="varname"> ival </span> </span> </p> </td> 
-  <td class="stentry"> <p>Sänk prioriteten för <span class="filepath"> vntc </span> -processen. Den här processen kan användas så att <span class="filepath"> vntc </span> inte tar över en hel CPU när en vinjettering bearbetas. Det gör att operativsystemet kan ge mer tid till andra, viktigare, processer. <span class="varname"> ival </span> anger den lägre prioritetsprocenten (0..100). Standardvärdet är <span class="codeph"> -lowerpriority 0 </span>, vilket inte sänker prioriteten för <span class="filepath"> vntc </span> -processen. </p> </td> 
+  <td class="stentry"> <p>Sänk prioriteten för <span class="filepath"> vntc </span> -processen. Den här processen kan användas så att <span class="filepath"> vntc </span> inte tar över en hel CPU när en vinjett bearbetas. Det gör att operativsystemet kan ge mer tid till andra, viktigare, processer. <span class="varname"> ival </span> anger den lägre prioritetsprocenten (0..100). Standardvärdet är <span class="codeph"> -lowerpriority 0 </span>, vilket inte sänker prioriteten för <span class="filepath"> vntc </span> -processen. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -maxmem <span class="varname"> ival </span> </span> </p> </td> 

@@ -24,7 +24,7 @@ Textsträng. Obligatoriskt för bild- och SVG-poster, kan vara tomt för mallpos
 
 Se beskrivningen av verktyget Image Converter (IC) för en fullständig lista över bildfilformat som stöds.
 
-Program som kräver bilddata i flera olika upplösningar fungerar bäst när du använder flerupplösningsformatet Dynamic Media pyramid TIFF (PTIFF). IC-verktyget används för att skapa PTIFF-bilder från alla bildformat som stöds.
+Program som kräver bilddata i flera olika upplösningar fungerar bäst när du använder multiupplösningsformatet Dynamic Media pyramid TIFF (PTIFF). IC-verktyget används för att skapa PTIFF-bilder från alla bildformat som stöds.
 
 ## Standard {#section-82dad83ec3f84ae8bf2f850b4139f63e}
 

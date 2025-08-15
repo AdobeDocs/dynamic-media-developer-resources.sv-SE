@@ -1,5 +1,5 @@
 ---
-description: Använd jobbalternativ för PDF. En jobbalternativfil eller förinställning för PDF är en fil som skapas av Illustrator i dialogrutan Spara som PDF eller PDF i InDesign.
+description: Använd PDF jobbalternativ. En jobbalternativfil eller PDF-förinställning är en fil som skapas av Illustrator i dialogrutan Spara som PDF eller PDF-förinställningar i InDesign.
 solution: Experience Manager
 title: joboption
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # joboption{#joboption}
 
-Använd jobbalternativ för PDF. En jobbalternativfil eller förinställning för PDF är en fil som skapas av Illustrator i dialogrutan Spara som PDF eller PDF i InDesign.
+Använd PDF jobbalternativ. En jobbalternativfil eller PDF-förinställning är en fil som skapas av Illustrator i dialogrutan Spara som PDF eller PDF-förinställningar i InDesign.
 
 ` joboption= *`värde`*`
 
@@ -25,7 +25,7 @@ Använd jobbalternativ för PDF. En jobbalternativfil eller förinställning fö
  </tr> 
 </table>
 
-Jobbalternativfilen kan överföras och publiceras av IPS/Dynamic Media Classic. Alternativen för PDF i jobbalternativfilen används när PDF skapas.
+Jobbalternativfilen kan överföras och publiceras av IPS/Dynamic Media Classic. PDF-alternativen i jobbalternativsfilen används när PDF skapas.
 
 Följande alternativ stöds för närvarande:
 
@@ -40,7 +40,7 @@ Följande alternativ stöds för närvarande:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Typsnitt </p></td> 
-  <td class="stentry"> <p> Bädda in alla teckensnitt </p> <p> Bädda in teckensnitt för OpenType </p> <p> Skapa delmängder av inbäddade teckensnitt när andelen tecken som används är mindre än: </p> <p> Inkludera alltid lista </p> <p> Inkludera aldrig lista </p> </td> 
+  <td class="stentry"> <p> Bädda in alla teckensnitt </p> <p> Bädda in OpenType-teckensnitt </p> <p> Skapa delmängder av inbäddade teckensnitt när andelen tecken som används är mindre än: </p> <p> Inkludera alltid lista </p> <p> Inkludera aldrig lista </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Färg </p></td> 
@@ -53,7 +53,7 @@ Följande alternativ stöds för närvarande:
         <li id="li_942CD69732984E16A71C2F75EC5B5245"> Lab D50 </li> 
         <li id="li_7063B9E98D1E4946AC8F0EF7BC988806"> PCS XYZ </li> 
         <li id="li_5809447576B147B68630C4B7EC2E7870"> Platt XYZ </li> 
-        <li id="li_3B5DA42A04124A6BAA12343AFC19F620">Linjär ROMM-RGB </li> 
+        <li id="li_3B5DA42A04124A6BAA12343AFC19F620">Linear ROMM-RGB </li> 
         <li id="li_DEC3028FA9C34176B761D12B7179B44F">ROMM-RGB </li> 
         <li id="li_3E7E7C4A680C4E3EADE0A26048ECF1F4"> sYCC 8-bitars </li> 
         <li id="li_16A615C9A74D443AB3C63B3FE3AB5443"> e-YCC 8-bitars </li> 

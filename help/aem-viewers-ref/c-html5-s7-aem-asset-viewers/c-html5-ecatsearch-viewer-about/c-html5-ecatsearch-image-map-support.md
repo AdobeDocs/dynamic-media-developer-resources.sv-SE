@@ -42,7 +42,7 @@ Kontrollera slutligen att visningsprogramkonfigurationen innehåller rätt värd
 
 >[!NOTE]
 >
->Tänk på att när du konfigurerar popup-rutan för panelen Info körs den HTML-kod och JavaScript-kod som skickas till panelen Info på klientens dator. Se därför till att sådan HTML-kod och JavaScript-kod är säkra.
+>Tänk på att när du konfigurerar Info Panel-popup körs den HTML-kod och JavaScript-kod som skickas till Info-panelen på klientens dator. Se därför till att sådan HTML-kod och JavaScript-kod är säkra.
 
 ## Interna hyperlänkar {#section-6afa4fb2fe564c429e0201f019a95849}
 

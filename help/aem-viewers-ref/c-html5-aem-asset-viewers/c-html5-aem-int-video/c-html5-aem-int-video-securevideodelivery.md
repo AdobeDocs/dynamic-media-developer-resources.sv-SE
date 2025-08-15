@@ -28,7 +28,7 @@ Beroende på den metod för publicering av [!DNL Dynamic Media]-video som du anv
   https://demos-pub.assetsadobe.com/etc/dam/viewers/s7viewers/html5/InteractiveVideoViewer.html?asset=%2Fcontent%2Fdam%2Fmarketing%2Fshoppable-video%2Fadobe-axis-demo%2FAdobe_AXIS_V3_GRADED-HD.mp4&config=/etc/dam/presets/viewer/Shoppable_Video_light&serverUrl=https%3A%2F%2Fadobedemo62-h.assetsadobe.com%2Fis%2Fimage%2F&contenturl=%2F&config2=/etc/dam/presets/analytics&videoserverurl=https://gateway-na.assetsadobe.com/DMGateway/public/demoCo&interactivedata=content/dam/_VTT/marketing/shoppable-video/adobe-axis-demo/Adobe_AXIS_V3_GRADED-HD.mp4.svideo.vtt&VideoPlayer.contenturl=https://adobedemo62-h.assetsadobe.com/is/content&VideoPlayer.ssl=on
   ```
 
-  Se även [Länka URL:er till ditt webbprogram](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=sv-SE#dynamic)
+  Se även [Länka URL:er till ditt webbprogram](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic)
 
 * Om du publicerar en [!DNL Dynamic Media]-video med inbäddad kod lägger du till `VideoPlayer.ssl` i listan över andra parametrar för visningsprogramkonfiguration i det inbäddade kodfragmentet. Om du till exempel vill tvinga HTTPS-videoleverans lägger du till `&VideoPlayer.ssl=on` som i följande exempel:
 
@@ -77,4 +77,4 @@ Beroende på den metod för publicering av [!DNL Dynamic Media]-video som du anv
   </script>
   ```
 
-  Se även [Bädda in videon på en webbsida](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=sv-SE#dynamic).
+  Se även [Bädda in videon på en webbsida](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic).

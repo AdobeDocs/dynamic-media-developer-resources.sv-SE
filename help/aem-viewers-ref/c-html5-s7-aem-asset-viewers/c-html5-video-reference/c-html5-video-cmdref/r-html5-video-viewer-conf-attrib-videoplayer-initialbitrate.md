@@ -22,7 +22,7 @@ Konfigurationsattribut för Video Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> värde </span> </p> </td> 
-   <td colname="col2"> <p>Anger den videobithastighet (i kilobit per sekund eller kbit/s) som används för den första videouppspelningen på stationära datorer. </p> <p>Om det här bithastighetsvärdet inte finns i den adaptiva videouppsättningen startar videospelaren den video som har den näst lägsta bithastigheten. </p> <p>Om värdet är <span class="codeph"> 0 </span> startar videospelaren från lägsta möjliga bithastighet. Gäller endast för system som inte har inbyggt stöd för HLS-video i HTML5 (som är webbläsarna Firefox, Chrome och Internet Explorer 11 i Windows 10) och när uppspelningsläget är inställt på <span class="codeph"> auto </span>. </p> </td> 
+   <td colname="col2"> <p>Anger den videobithastighet (i kilobit per sekund eller kbit/s) som används för den första videouppspelningen på stationära datorer. </p> <p>Om det här bithastighetsvärdet inte finns i den adaptiva videouppsättningen startar videospelaren den video som har den näst lägsta bithastigheten. </p> <p>Om värdet är <span class="codeph"> 0 </span> startar videospelaren från lägsta möjliga bithastighet. Gäller endast för system som inte har inbyggt stöd för HTML5 HLS-video (som är webbläsarna Firefox, Chrome och Internet Explorer 11 i Windows 10) och när uppspelningsläget är inställt på <span class="codeph"> auto </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

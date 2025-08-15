@@ -1,7 +1,7 @@
 ---
 description: Följande fält känns igen i bild- och SVG-datafiler.
 solution: Experience Manager
-title: Image_SVG data
+title: Image_SVG-data
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5392e08f-3614-4588-8846-4262d32f3ce1
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# Image_SVG data{#image-svg-data}
+# Image_SVG-data{#image-svg-data}
 
 Följande fält känns igen i bild- och SVG-datafiler.
 

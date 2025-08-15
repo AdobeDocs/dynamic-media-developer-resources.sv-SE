@@ -24,7 +24,7 @@ Alltid associerat med en bild. Du kan hämta ett `ImageMap`-mål från `ImageInf
 |---|---|---|
 | imageMapHandle | `xsd:string` | Bildkartans handtag. |
 | [!DNL name] | `xsd:string` | Namn på bildschema |
-| [!DNL region] | `xsd:string` | Koordinater för bildschema. Formatet baseras på taggattributet `<area>` i HTML. |
+| [!DNL region] | `xsd:string` | Koordinater för bildschema. Formatet baseras på taggattributet för HTML `<area>`. |
 | [!DNL action] | `xsd:string` | Andra attribut som ska inkluderas i taggen `<area>` i HTML, inklusive URL:en `href` . |
 | shapeType | `xsd:boolean` | Värdet [!DNL RegionShape]. |
 | [!DNL position] | `xsd:string` | Placera i formatet för HTML `<area>`-elementets [!DNL coords]-attribut. Till exempel: `coords ="0,0,84,128"`. |

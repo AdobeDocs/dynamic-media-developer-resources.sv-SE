@@ -18,7 +18,7 @@ Klientens cachetid till livstid. Antal timmar till utgångsdatum. Används för 
 
 Servern beräknar förfallotid/datum för NTTP-svarsdata genom att lägga till det här värdet till tid/datum för överföringen.
 
-Webbläsare hanterar cacheminnen med hjälp av filernas förfallotider. Innan webbläsaren skickar en begäran till servern kontrollerar den om filen redan har laddats ned. Om så är fallet och om filen ännu inte har gått ut, skickar webbläsaren en villkorlig GET-begäran (till exempel med rubriken If-Modified-Since HTTP-begäran) i stället för en vanlig GET-begäran. Servern kan svara med statusen 304 och inte skicka bilden. Webbläsaren läser sedan bara in filen från cachen. Detta kan avsevärt öka den övergripande prestandan för data som används ofta.
+Webbläsare hanterar cacheminnen med hjälp av filernas förfallotider. Innan webbläsaren skickar en begäran till servern kontrollerar den om filen redan har laddats ned. Om så är fallet och om filen ännu inte har gått ut, skickar webbläsaren en villkorlig GET-begäran (till exempel med rubriken If-Modified-Since HTTP) i stället för en vanlig GET-begäran. Servern kan svara med statusen 304 och inte skicka bilden. Webbläsaren läser sedan bara in filen från cachen. Detta kan avsevärt öka den övergripande prestandan för data som används ofta.
 
 Servern ställer in rubriken för utgående HTTP-svar på aktuellt datum/tid plus det minsta av vinjettering::Förfallotid och alla kataloger::Förfallovärden för vinjetteringen och allt material som ingår i återgivningsåtgärden.
 

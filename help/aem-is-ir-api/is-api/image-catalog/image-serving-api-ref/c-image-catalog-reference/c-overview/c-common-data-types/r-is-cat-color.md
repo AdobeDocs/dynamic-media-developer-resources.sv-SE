@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Färgdatatyp.
 
-Färgvärde. Hexadecimal, packad RGB, eventuellt föregånget av `0x`. RGB-värdet `128,255,0` kan till exempel anges som `0x80ff00` eller `80ff00` .
+Färgvärde. Hexadecimalt, packat RGB-värde, eventuellt föregånget av `0x`. RGB-värdet `128,255,0` kan till exempel anges som `0x80ff00` eller `80ff00` .

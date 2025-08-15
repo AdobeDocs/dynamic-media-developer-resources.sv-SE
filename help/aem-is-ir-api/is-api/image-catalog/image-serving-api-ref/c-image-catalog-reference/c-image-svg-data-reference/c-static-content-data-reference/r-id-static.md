@@ -18,11 +18,11 @@ Vanligtvis en kort och unik identifierare, t.ex. ett SKU-nummer, kanske med någ
 
 >[!NOTE]
 >
->Bilden och SVG-tabellerna sammanfogas till en enda tabell när bildkatalogen läses in. Id-värden måste vara unika för båda tabellerna. Posten SVG ignoreras om bildtabellen innehåller en post med samma ID-värde. Statiskt innehåll hanteras med en separat tabell. Statiska innehållsobjekt och bild/SVG-objekt kan därför ha samma ID-värden.
+>Bilden och SVG-tabellerna sammanfogas till en enda tabell när bildkatalogen läses in. Id-värden måste vara unika för båda tabellerna. SVG-posten ignoreras om bildtabellen innehåller en post med samma ID-värde. Statiskt innehåll hanteras med en separat tabell. Statiska innehållsobjekt och bild-/SVG-objekt kan därför ha samma ID-värden.
 
 ## Egenskaper {#section-874a6853f67b4b229341ca76682884ae}
 
-Textsträng. Obligatoriskt. Postidentifierare för datatabellen för bild/SVG eller statiskt innehåll. Varje `catalog::Id`-värde i den här bildkatalogen/SVG-katalogen eller i den här statiska innehållskatalogen måste vara unikt och får inte innehålla tecknen &#39;,&#39;.
+Textsträng. Obligatoriskt. Postidentifierare för datatabellen image/SVG eller statiskt innehåll. Varje `catalog::Id`-värde i den här bildkatalogen/SVG-katalogen eller i den här statiska innehållskatalogen måste vara unikt och får inte innehålla tecknen &#39;,&#39;.
 
 ## Standard {#section-a26e7d83a5ee44b5918baef82ee48e14}
 

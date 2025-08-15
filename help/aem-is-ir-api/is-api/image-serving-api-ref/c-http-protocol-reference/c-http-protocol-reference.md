@@ -1,5 +1,5 @@
 ---
-description: Det här dokumentet beskriver HTTP-protokollet för Dynamic Media Image Serving.
+description: I det här dokumentet beskrivs HTTP-protokollet för dynamisk mediabildservering.
 solution: Experience Manager
 title: HTTP-protokollreferens
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # HTTP-protokollreferens{#http-protocol-reference}
 
-Det här dokumentet beskriver HTTP-protokollet för Dynamic Media Image Serving.
+I det här dokumentet beskrivs HTTP-protokollet för dynamisk mediabildservering.
 
 * [Introduktion](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md)
 * [Syntax och funktioner](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-syntax-and-features.md)

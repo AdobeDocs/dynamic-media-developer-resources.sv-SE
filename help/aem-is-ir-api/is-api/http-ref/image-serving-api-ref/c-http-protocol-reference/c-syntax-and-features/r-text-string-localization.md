@@ -97,7 +97,7 @@ Mer information finns i beskrivningen av `attribute::LocaleStrMap`.
 
 ## Översättningsprocessen {#section-a2a8a3e5850f4f7c9d2318267afe98a2}
 
-Med tanke på översättningskartan ovan och begäran `/is/image/myCat/myItem?req=&locale=nl` söker servern först efter `nl` i språkområdet. Den matchade posten `nl,N` anger att *`localizedString`* som är markerad med `^loc=N^` ska returneras för varje *`stringElement`*. Om *`localizationToken`* inte finns i *`stringElement`* returneras ett tomt värde.
+Med tanke på översättningskartan ovan och begäran `/is/image/myCat/myItem?req=&locale=nl` söker servern först efter `nl` i språkområdet. Den matchade posten `nl,N` anger att *`stringElement`* som är markerad med *`localizedString`* ska returneras för varje `^loc=N^`. Om *`localizationToken`* inte finns i *`stringElement`* returneras ett tomt värde.
 
 Låt oss säga att `catalog::UserData` för `myCat/myItem` innehåller följande (radbrytningar infogade för tydlighet):
 

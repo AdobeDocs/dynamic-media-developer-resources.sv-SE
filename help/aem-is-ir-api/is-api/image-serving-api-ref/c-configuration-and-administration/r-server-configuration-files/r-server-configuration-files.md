@@ -18,7 +18,7 @@ Alla konfigurationsfiler finns i `install_folder/conf` och kan redigeras med de 
 
 >[!NOTE]
 >
->De flesta serverkonfigurationsfiler innehåller ytterligare egenskaper och värden som inte beskrivs i det här dokumentet. Sådana egenskaper är avsedda för intern serveranvändning och får inte ändras om inte Dynamic Media tekniska support ger anvisningar om det.
+>De flesta serverkonfigurationsfiler innehåller ytterligare egenskaper och värden som inte beskrivs i det här dokumentet. Sådana egenskaper är avsedda för intern serveranvändning och får inte ändras om inte Dynamic Media-teknisk support ger anvisningar om det.
 
 I det här dokumentet behandlas inställningar för följande konfigurationsfiler:
 

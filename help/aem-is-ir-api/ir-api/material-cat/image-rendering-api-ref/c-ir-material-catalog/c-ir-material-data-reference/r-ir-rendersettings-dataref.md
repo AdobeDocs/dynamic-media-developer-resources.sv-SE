@@ -18,7 +18,7 @@ Avancerade renderingsinställningar. Avancerade renderingsinställningar använd
 
 ## Egenskaper {#section-b4c8fe595efc4838ac598659bc820607}
 
-Textsträng. Valfritt för alla material. Om det anges måste det vara en giltig återgivningsinställningssträng, enligt definitionen med verktyget Skapa vinjett (ingår i Dynamic Media Image Authoring package).
+Textsträng. Valfritt för alla material. Om det anges måste det vara en giltig återgivningsinställningssträng, enligt definitionen med Vinjetteringsverktyget (ingår i paketet Dynamic Media Image Authoring).
 
 ## Standard {#section-6a4d2013c1d34284b4ff21bb07485d28}
 

@@ -1,6 +1,6 @@
 ---
 title: Syntax och funktioner för HTTP-protokoll
-description: I det här avsnittet beskrivs HTTP-protokollets syntax och funktioner för Dynamic Media Image Rendering.
+description: I det här avsnittet beskrivs HTTP-protokollets syntax och innehåller funktioner för dynamisk bildåtergivning.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Syntax och funktioner för HTTP-protokoll{#http-protocol-syntax-and-features}
 
-I det här avsnittet beskrivs HTTP-protokollets syntax och funktioner för Dynamic Media Image Rendering.
+I det här avsnittet beskrivs HTTP-protokollets syntax och innehåller funktioner för dynamisk bildåtergivning.
 
 * [Grundläggande syntax för HTTP-protokoll för bildåtergivning](r-ir-basic-syntax.md)
 * [Kommandoöversikt över HTTP-protokollet för bildåtergivning](c-ir-command-overview/c-ir-command-overview.md)

@@ -1,6 +1,6 @@
 ---
 title: Introduktion
-description: Det här dokumentet beskriver HTTP-protokollet för Dynamic Media Image Rendering.
+description: I det här dokumentet beskrivs HTTP-protokollet för återgivning av dynamiska mediebilder.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # Introduktion{#introduction}
 
-Det här dokumentet beskriver HTTP-protokollet för Dynamic Media Image Rendering.
+I det här dokumentet beskrivs HTTP-protokollet för återgivning av dynamiska mediebilder.
 
-Endast de allmänt tillgängliga aspekterna av protokollet beskrivs. Servern kan ha stöd för ytterligare kommandon som är reserverade för användning av Dynamic Media klientprogramvara.
+Endast de allmänt tillgängliga aspekterna av protokollet beskrivs. Servern kan stödja ytterligare kommandon som är reserverade för användning av klientprogramvaran för Dynamic Media.
 
 **Målgrupp**
 
 Det här dokumentet är avsett för erfarna programmerare och webbplatsutvecklare som vill använda Dynamic Media Image Rendering för en webbplats eller ett anpassat program.
 
-Det antas att läsaren känner till Dynamic Media Image Authoring and Image Rendering, allmänna HTTP-protokollstandarder och konventioner samt grundläggande bildterminologi.
+Det förutsätts att läsaren känner till Dynamic Media Image Authoring och Image Rendering, allmänna HTTP-protokollstandarder och konventioner samt grundläggande bildterminologi.
 
 **Dokumentkonventioner**
 
@@ -95,6 +95,6 @@ Det antas att läsaren känner till Dynamic Media Image Authoring and Image Rend
 
 **Vanliga termer**
 
-**&#x200B; *`MSS`* &#x200B;** Materialspecifikationssegment: en uppsättning materialattribut mellan två markeringskommandon i begäran.
+** *`MSS`* ** Materialspecifikationssegment: en uppsättning materialattribut mellan två markeringskommandon i begäran.
 
-**&#x200B; *`vignette`* &#x200B;** En bild som har förberetts i Dynamic Media Image Authoring för användning med bildåtergivning.
+** *`vignette`* ** En bild som har förberetts vid redigering av dynamiska mediabilder för användning med bildåtergivning.

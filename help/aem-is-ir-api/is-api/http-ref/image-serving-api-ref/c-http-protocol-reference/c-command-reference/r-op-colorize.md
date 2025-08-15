@@ -21,7 +21,7 @@ Färga bilden. Färglägger bilddata samtidigt som skuggor och högdagrar bevara
 <table id="simpletable_768D6CDF3F734E7F89DC7AB2EAAC0C77"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> färg </span> </p> </td> 
-  <td class="stentry"> <p>Färg på RGB som ersättare. </p> </td> 
+  <td class="stentry"> <p>Ersätt RGB-färg. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> av </span> </p> </td> 

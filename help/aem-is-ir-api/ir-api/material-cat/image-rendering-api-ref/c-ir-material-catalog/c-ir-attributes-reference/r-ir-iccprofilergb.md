@@ -1,6 +1,6 @@
 ---
 title: IccProfileRgb
-description: RGB standardprofil för utdatafärg. Anger namnet på ICC-färgprofilen som ska användas för svarsbilder i RGB när ingen utdatafärgrymd har angetts med icc=. Dessutom för vissa RGB-färgvärden som anges med olika kommandon för bildåtergivning, till exempel bgc= och color=.
+description: RGB standardfärgprofil för utdata. Anger namnet på ICC-färgprofilen som ska användas för RGB-svarsbilder när ingen utdatafärgrymd har angetts med icc=. Dessutom för vissa RGB-färgvärden som anges med olika kommandon för bildåtergivning, till exempel bgc= och color=.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # IccProfileRgb{#iccprofilergb}
 
-RGB standardprofil för utdatafärg. Anger namnet på ICC-färgprofilen som ska användas för svarsbilder i RGB när ingen utdatafärgrymd har angetts med `icc=`. Dessutom för vissa RGB-färgvärden som anges med olika kommandon för bildåtergivning, till exempel `bgc=` och `color=`.
+RGB standardfärgprofil för utdata. Anger namnet på ICC-färgprofilen som ska användas för RGB-svarsbilder när ingen utdatafärgrymd har angetts med `icc=`. Dessutom för vissa RGB-färgvärden som anges med olika kommandon för bildåtergivning, till exempel `bgc=` och `color=`.
 
 ## Egenskaper {#section-b4a1bd92e99047479a5036413525a6d9}
 

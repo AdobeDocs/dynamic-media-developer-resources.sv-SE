@@ -149,7 +149,7 @@ I följande tabell visas de viktigaste funktionerna för varje textkommando:
 
 RTF-kompatibla strängar kan sättas samman manuellt eller genom att formatera texten i en textredigerare eller ordbehandlare som kan spara RTF-filer. RTF-filen kan sedan öppnas i en vanlig textredigerare och det aktuella RTF-innehållet i filen kopieras till begärande-URL:en.
 
-Vissa ordbehandlare genererar ganska stora filer, som innehåller viktiga preamultiplikationer som inte används av Dynamic Media Image Serving. Vi rekommenderar att du tar bort oanvända RTF-element från strängen innan du skickar strängen till textkommandona.
+Vissa ordbehandlare genererar ganska stora filer, som innehåller viktiga preambler som inte används av Dynamic Media Image Serving. Vi rekommenderar att du tar bort oanvända RTF-element från strängen innan du skickar strängen till textkommandona.
 
 Språkkodning som bygger på UTF-8 och ISO-standarder stöds i RTF-strängar som ett alternativ till de vanliga RTF-teckenkodningsmekanismerna. Detta gör att program kan skicka icke-engelsk text till servern utan att känna till RTF-kodning.
 

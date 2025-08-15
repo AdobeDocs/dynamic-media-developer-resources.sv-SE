@@ -28,7 +28,7 @@ Kabinettformatfiler (.vnc) och fönsteromslagsformatfiler ( [!DNL .vnw]) färgha
 
 ## Standardfärgrymder {#section-8ce27edf42e746febe4654f8f19b9c0c}
 
-Varje bildkatalog (och standardkatalogen) kan definiera en uppsättning ICC-profiler. Dessa profiler utgör standardfärgmodellerna för den här katalogen - en indata- och en utdataprofil för gråskale-, RGB- och CMYK-data ( `attribute::IccProfileRgb`, `attribute::IccProfileGray`, `attribute::IccProfileCmyk`, `attribute::IccProfileSrcRgb`, `attribute::IccProfileSrcGray` och `attribute::IccProfileSrcCmyk`).
+Varje bildkatalog (och standardkatalogen) kan definiera en uppsättning ICC-profiler. Dessa profiler utgör standardfärgmodellerna för den här katalogen - en indata- och en utdataprofil för gråskala, RGB- och CMYK-data ( `attribute::IccProfileRgb`, `attribute::IccProfileGray`, `attribute::IccProfileCmyk`, `attribute::IccProfileSrcRgb`, `attribute::IccProfileSrcGray` och `attribute::IccProfileSrcCmyk`).
 
 Standardfärgrymden för en viss bild eller ett annat objekt väljs från katalogstandardprofilerna utifrån bildens pixeltyp.
 
@@ -38,7 +38,7 @@ Materialbilder kan bädda in ICC-profiler för att definiera indatafärgrymden. 
 
 ## Arbetsfärgrymd {#section-645d9cfa5b0347a190a0ece218f5b5e1}
 
-Vanligtvis definieras arbetsfärgrymden av ICC-färgprofilen som är inbäddad i vinjetteringen. Om vinjetteringen inte innehåller någon profil används standardindataprofilen för RGB ( `attribute::IccProfileSrcRgb` i sessionskatalogen) för arbetsfärgrymden.
+Vanligtvis definieras arbetsfärgrymden av ICC-färgprofilen som är inbäddad i vinjetteringen. Om vinjetteringen inte innehåller någon profil används RGB standardindataprofil ( `attribute::IccProfileSrcRgb` i sessionskatalogen) för arbetsfärgrymden.
 
 Alla återgivningsåtgärder utförs i arbetsfärgrymden.
 
@@ -50,7 +50,7 @@ RGB-färgvärden som har angetts med `color=`, `bgc=`, `catalog::BgColor` och `c
 
 ## Materialdatafiler {#section-33f7a170a6664c02b8479fb89cc0aea3}
 
-Materialbildfiler (textur- och dekala bilder) kan ha RGB, gråskala eller CMYK-pixeltyp och kan bädda in en färgprofil. Om ingen färgprofil är inbäddad kopplas bildens standardfärgmodell (t.ex. färgprofilen från materialkatalogen som motsvarar bildens pixeltyp).
+Materialbildfiler (textur- och dekala bilder) kan ha pixeltypen RGB, gråskala eller CMYK och kan bädda in en färgprofil. Om ingen färgprofil är inbäddad kopplas bildens standardfärgmodell (t.ex. färgprofilen från materialkatalogen som motsvarar bildens pixeltyp).
 
 Materialbilder som hämtas från kapslad bildserver eller begäran om bildåtergivning innehåller vanligtvis en färgprofil. Om så inte är fallet associeras bilderna med den standardfärgrymd för indata som motsvarar pixeltypen.
 

@@ -1,6 +1,6 @@
 ---
 title: HttpFlashStreamingContext
-description: URL-prefix för Flash Streaming Server. URL-prefix för Flash Streaming Server som används vid generering av f4m-svar med flera bitar och req=mbrSet.
+description: URL-prefix för Flash Streaming Server. URL-prefix för Flash Streaming Server som används vid generering av f4m-svar med flera bitar med req=mbrSet.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # HttpFlashStreamingContext{#httpflashstreamingcontext}
 
-URL-prefix för Flash Streaming Server. URL-prefix för Flash Streaming Server som används vid generering av f4m-svar med flera bitar och req=mbrSet.
+URL-prefix för Flash Streaming Server. URL-prefix för Flash Streaming Server som används vid generering av f4m-svar med flera bitar med req=mbrSet.
 
 ## Egenskaper {#section-e7ae7d96a7cb40829de7e784fcbbad33}
 

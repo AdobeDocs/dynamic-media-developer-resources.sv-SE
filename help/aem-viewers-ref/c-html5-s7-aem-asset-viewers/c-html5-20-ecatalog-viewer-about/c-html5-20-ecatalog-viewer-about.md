@@ -33,7 +33,7 @@ Det här visningsprogrammet fungerar med kataloger och har stöd för valfria bi
 
 ## Använda eCatalog Viewer {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-eCatalog Viewer representerar en JavaScript-huvudfil och en uppsättning hjälpfiler (en enda JavaScript-komponent med alla SDK-komponenter för visningsprogrammet som används av det här visningsprogrammet, resurser, CSS) som hämtats av visningsprogrammet under körning
+eCatalog Viewer representerar en JavaScript-huvudfil och en uppsättning hjälpfiler (en enda JavaScript-komponent med alla Viewer SDK-komponenter som används av det här visningsprogrammet, resurser, CSS) som hämtats av visningsprogrammet under körning
 
 Du kan använda eCatalog Viewer i popup-läge med en produktionsklar HTML-sida som finns i IS-Viewer eller i inbäddat läge, där den integreras med målwebbsidan med dokumenterat API.
 
@@ -86,7 +86,7 @@ Visningsprogrammet är fullt tillgängligt för tangentbordet, vilket beskrivs i
 
 eCatalog Viewer har stöd för verktyg för delning via sociala medier. De är tillgängliga som en knapp i huvudkontrollfältet som utökas till ett delningsverktygsfält när en användare klickar eller trycker på den.
 
-Delningsverktygsfältet innehåller ikoner för varje typ av delningskanal som stöds, som Facebook, Twitter, e-postdelning, inbäddning av koddelning och länkdelning. När verktygen för e-postdelning, inbäddning eller länkdelning är aktiverade visas en modal dialogruta med ett motsvarande inmatningsformulär. När Facebook eller Twitter anropas omdirigeras användaren till en standarddelningsdialogruta från en social tjänst. Delningsverktygen är inte tillgängliga i helskärmsläge på grund av säkerhetsbegränsningar i webbläsaren.
+Delningsverktygsfältet innehåller ikoner för varje typ av delningskanal som stöds, inklusive Facebook, Twitter, e-postdelning, inbäddning av koddelning och länkdelning. När verktygen för e-postdelning, inbäddning eller länkdelning är aktiverade visas en modal dialogruta med ett motsvarande inmatningsformulär. När Facebook eller Twitter anropas omdirigeras användaren till en standarddialogruta för delning från en social tjänst. Delningsverktygen är inte tillgängliga i helskärmsläge på grund av säkerhetsbegränsningar i webbläsaren.
 
 ## Bädda in eCatalog Viewer {#section-6bb5d3c502544ad18a58eafe12a13435}
 
@@ -96,7 +96,7 @@ Olika webbsidor har olika behov av visningsprogrammets beteende. Ibland innehål
 
 I popup-läge öppnas visningsprogrammet i ett separat webbläsarfönster eller på en separat flik. Det tar hela webbläsarfönsterområdet och justeras om webbläsaren ändrar storlek eller om en mobilenhets orientering ändras.
 
-Popup-läget är det vanligaste för mobila enheter. Webbsidan läser in visningsprogrammet med `window.open()` JavaScript-anrop, korrekt konfigurerat `A` HTML-element eller någon annan lämplig metod.
+Popup-läget är det vanligaste för mobila enheter. Webbsidan läser in visningsprogrammet med `window.open()` JavaScript-anrop, korrekt konfigurerade `A` HTML-element eller någon annan lämplig metod.
 
 Vi rekommenderar att du använder en färdig HTML-sida för popup-läge. I det här fallet kallas den [!DNL eCatalogViewer.html] och finns i undermappen [!DNL html5/] i din standarddistribution av IS-Viewer:
 
@@ -104,7 +104,7 @@ Vi rekommenderar att du använder en färdig HTML-sida för popup-läge. I det h
 
 Du kan anpassa visuellt genom att använda anpassad CSS.
 
-Här följer ett exempel på HTML som öppnar visningsprogrammet i ett nytt fönster:
+Nedan följer ett exempel på HTML-kod som öppnar visningsprogrammet i ett nytt fönster:
 
 ```html {.line-numbers}
 <a href="https://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist" target="_blank">Open popup viewer</a>
@@ -135,7 +135,7 @@ Du lägger till visningsprogrammet på en webbsida genom att göra följande:
 
 1. Lägga till visningsprogrammets JavaScript-fil på webbsidan.
 
-   Om du vill skapa ett visningsprogram måste du lägga till en script-tagg i huvudet HTML. Innan du kan använda visningsprogrammets API måste du ta med [!DNL eCatalogViewer.js]. Filen [!DNL eCatalogViewer.js] finns under undermappen [!DNL html5/js/] i din standarddistribution av IS-Viewer:
+   Om du vill skapa ett visningsprogram måste du lägga till en script-tagg i HTML head. Innan du kan använda visningsprogrammets API måste du ta med [!DNL eCatalogViewer.js]. Filen [!DNL eCatalogViewer.js] finns under undermappen [!DNL html5/js/] i din standarddistribution av IS-Viewer:
 
 [!DNL <s7viewers_root>/html5/js/eCatalogViewer.js]
 
@@ -149,7 +149,7 @@ Den relativa sökvägen ser ut så här:
 
 >[!NOTE]
 >
->Referera bara till JavaScript `include`-huvudvisningsfilen på din sida. Referera inte till några andra JavaScript-filer i webbsideskoden som kan hämtas av visningsprogrammets logik under körning. Referera inte direkt till HTML5 SDK `Utils.js`-biblioteket som läses in av visningsprogrammet från kontextsökvägen `/s7viewers` (s.k. konsoliderad SDK `include`). Orsaken är att platsen för `Utils.js` eller liknande visningsprogrambibliotek för miljön hanteras helt av visningsprogrammets logik och platsen ändras mellan visningsprogramversioner. Adobe sparar inte äldre versioner av det sekundära visningsprogrammet `includes` på servern.
+>Referera bara till JavaScript `include`-huvudvisningsfilen på din sida. Referera inte till några andra JavaScript-filer i webbsideskoden som kan hämtas av visningsprogrammets logik under körning. Referera inte direkt till HTML5 SDK `Utils.js`-biblioteket som läses in av visningsprogrammet från `/s7viewers`-kontextsökvägen (så kallad konsoliderad SDK `include`). Orsaken är att platsen för `Utils.js` eller liknande visningsprogrambibliotek för miljön hanteras helt av visningsprogrammets logik och platsen ändras mellan visningsprogramversioner. Adobe sparar inte äldre versioner av det sekundära visningsprogrammet `includes` på servern.
 >
 >
 >Det innebär att om du skickar en direkt referens till eventuella sekundära JavaScript `include` som används av visningsprogrammet på sidan så bryts visningsprogrammets funktioner i framtiden när en ny produktversion distribueras.
@@ -243,7 +243,7 @@ Den relativa sökvägen ser ut så här:
 
 **Responsiv designinbäddning med obegränsad höjd**
 
-Med responsiv designinbäddning har webbsidan vanligtvis någon typ av flexibel layout på plats som bestämmer körningsstorleken för visningsprogrammets behållare `DIV`. I det här exemplet antar du att webbsidan tillåter att visningsprogrammets behållare `DIV` tar 40 % av webbläsarens fönsterstorlek, och lämnar dess höjd obegränsad. Den resulterande webbsidans HTML-kod ser ut så här:
+Med responsiv designinbäddning har webbsidan vanligtvis någon typ av flexibel layout på plats som bestämmer körningsstorleken för visningsprogrammets behållare `DIV`. I det här exemplet antar du att webbsidan tillåter att visningsprogrammets behållare `DIV` tar 40 % av webbläsarens fönsterstorlek, och lämnar dess höjd obegränsad. Den slutliga HTML-koden för webbsidan ser ut så här:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 

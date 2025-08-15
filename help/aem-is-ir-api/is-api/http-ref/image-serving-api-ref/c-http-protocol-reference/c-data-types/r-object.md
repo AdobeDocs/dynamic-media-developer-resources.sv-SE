@@ -49,7 +49,7 @@ Både *`rootId`* och *`objId`* är skiftlägeskänsliga. *`path`* är endast ski
 
 Om ett radavstånd `/` anges genomsöks standardkatalogen i stället för huvudkatalogen. Detta är i första hand användbart när en explicit sökväg kräver `default::RootPath` i stället för huvudkatalogens `attribute::RootPath`, men det kan också användas för att få åtkomst till poster i standardkatalogen som annars skulle åsidosättas av poster i huvudkatalogen.
 
-Mer information om hur *`path`* översätts till en fysisk filsökväg finns i *Hantera innehåll* i *Konfigurationshandboken för servern*.
+Mer information om hur *översätts till en fysisk filsökväg finns i* Hantera innehåll *i* Konfigurationshandboken för servern *`path`*.
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ Mer information om hur *`path`* översätts till en fysisk filsökväg finns i *
 
 Se beskrivningen av verktyget IC (Image Converter) för en fullständig lista över filformat som stöds.
 
-Program som kräver bilddata i flera olika upplösningar fungerar bäst när du använder flerupplösningsformatet Dynamic Media pyramid TIFF (PTIF). IC-verktyget används för att skapa PTIF-bilder från alla bildformat som stöds.
+Program som kräver bilddata i flera olika upplösningar fungerar bäst när du använder multiupplösningsformatet PTIF (Dynamic Media pyramid TIFF). IC-verktyget används för att skapa PTIF-bilder från alla bildformat som stöds.
 
 ## Exempel {#section-728ca9b566b54ea1afdf8f5f0a031a57}
 

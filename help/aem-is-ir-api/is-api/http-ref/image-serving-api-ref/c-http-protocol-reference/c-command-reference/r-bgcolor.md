@@ -21,7 +21,7 @@ Lagerbakgrundsfärg. Anger bakgrundsfärgen och opaciteten för det aktuella lag
 <table id="simpletable_2D23B1B282CD4216AB5BE7E7430D1B3F"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> color </span></span> </p> </td> 
-  <td class="stentry"> <p>Grå, RGB eller CMYK-färgvärde, med eller utan alfa. </p></td> 
+  <td class="stentry"> <p>Grå, RGB- eller CMYK-färgvärde, med eller utan alfa. </p></td> 
  </tr> 
 </table>
 

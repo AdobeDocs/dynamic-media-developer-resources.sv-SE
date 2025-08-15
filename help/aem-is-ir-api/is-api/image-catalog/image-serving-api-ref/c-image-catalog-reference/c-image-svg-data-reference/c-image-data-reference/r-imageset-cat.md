@@ -1,5 +1,5 @@
 ---
-description: Bilduppsättningsdata. Innehåller en mekanism för att definiera sorterade uppsättningar bilder och kontrollattribut som används av Dynamic Media-visningsprogram.
+description: Bilduppsättningsdata. Innehåller en mekanism för att definiera sorterade uppsättningar bilder och kontrollattribut som används av visningsprogram för dynamiska media.
 solution: Experience Manager
 title: ImageSet
 feature: Dynamic Media Classic,SDK/API,Image Sets
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # ImageSet{#imageset}
 
-Bilduppsättningsdata. Innehåller en mekanism för att definiera sorterade uppsättningar bilder och kontrollattribut som används av Dynamic Media-visningsprogram.
+Bilduppsättningsdata. Innehåller en mekanism för att definiera sorterade uppsättningar bilder och kontrollattribut som används av visningsprogram för dynamiska media.
 
 En bilduppsättning består av en sorterad, kommaavgränsad lista med objekt. Varje objekt består av ett eller flera underobjekt (bild-ID, färgrute-ID, sökvägar för mediefiler, etiketter o.s.v.), separerade med semikolon, kolon eller båda.
 
@@ -52,7 +52,7 @@ Varje objekt i en grundläggande färgruteuppsättning består av en referens ti
 | `*`imageId`*` | IS-bildreferens (katalog/id) |
 | `*`swatchId`*` | IS-bildreferens (katalog/id) |
 | `*`solidColorSpecifier`*` | ` '{0x' *`rrggbb`* [ *`label`*]'}'` |
-| `*`rrggbb`*` | 6-siffrigt hexadecimalt RGB färgvärde för enfärgade färgrutor |
+| `*`rrggbb`*` | 6-siffrigt hexadecimalt RGB-färgvärde för heltäckande färgrutor |
 | `*`etikett`*` | Valfri textetikett för heltäckande färgrutor |
 
 **Hierarkiska färgruteuppsättningar**

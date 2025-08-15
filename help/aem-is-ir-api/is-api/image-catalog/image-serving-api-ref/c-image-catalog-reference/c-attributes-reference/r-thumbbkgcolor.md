@@ -1,5 +1,5 @@
 ---
-description: Standardbakgrundsfärg för miniatyrbilder. RGB som används för att fylla ut en miniatyrbilds område som inte innehåller verkliga bilddata.
+description: Standardbakgrundsfärg för miniatyrbilder. RGB-värdet används för att fylla i en miniatyrbilds utdataområde som inte innehåller verkliga bilddata.
 solution: Experience Manager
 title: ThumbBkgColor
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # ThumbBkgColor{#thumbbkgcolor}
 
-Standardbakgrundsfärg för miniatyrbilder. RGB som används för att fylla ut en miniatyrbilds område som inte innehåller verkliga bilddata.
+Standardbakgrundsfärg för miniatyrbilder. RGB-värdet används för att fylla i en miniatyrbilds utdataområde som inte innehåller verkliga bilddata.
 
 Används endast för miniatyrbegäranden ( `req=tmb`) och när `catalog::ThumbType` är inställt på 2 eller 3.
 

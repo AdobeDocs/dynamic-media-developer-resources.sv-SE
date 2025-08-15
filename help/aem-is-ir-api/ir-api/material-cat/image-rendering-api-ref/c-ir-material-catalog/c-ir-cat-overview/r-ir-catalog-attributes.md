@@ -171,7 +171,7 @@ Följande attribut känns igen i katalogattributfiler.
  </thead> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilergb.md#reference-cdaad25b155646ffa382d722fd324b30" type="reference" format="dita" scope="local"> IccProfileRgb </a> </p></td> 
-  <td class="stentry"> Standardprofil för utdatafärg för RGB.</td> 
+  <td class="stentry"> RGB standardprofil för utdata.</td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilecmyk.md#reference-55aead2d924847ffbd1be4c46add7127" type="reference" format="dita" scope="local"> IccProfileCmyk </a> </p></td> 
@@ -191,7 +191,7 @@ Följande attribut känns igen i katalogattributfiler.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilesrcrgb.md#reference-2fb0f7cfc6e74813b82cd98ae165bd49" type="reference" format="dita" scope="local"> IccProfileSrcRgb </a> </p></td> 
-  <td class="stentry"> Standardfärgprofil för indata från RGB.</td> 
+  <td class="stentry"> RGB standardfärgprofil för indata.</td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccrenderintent.md#reference-3b80b7a4c25545a593c5076f318b5c40" type="reference" format="dita" scope="local"> IccRenderIntent </a> </p> </td> 

@@ -25,7 +25,7 @@ Exkluderingsområde för textflöde. Anger ett eller flera områden som ska utes
  </tr> 
 </table>
 
-Mer information, inklusive en beskrivning av *`pathDefinition`*, finns i [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d). Om ingen sökvägsdefinition har angetts ignoreras `textFlowXPath=`.
+Mer information, inklusive en beskrivning av [, finns i ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)clipPath=*`pathDefinition`*. Om ingen sökvägsdefinition har angetts ignoreras `textFlowXPath=`.
 
 ## Egenskaper {#section-cd1ebb151d4a405fbfc508d46522d686}
 

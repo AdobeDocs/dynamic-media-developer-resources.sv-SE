@@ -20,7 +20,7 @@ Syntax
 
 ## TC::directory - loggfilsmapp {#section-5d9e2168d4504bbe9868b7d6051c9d67}
 
-Mappen som [!DNL Platform Server] skriver loggfiler till. Detta kan vara en absolut sökväg eller en relativ sökväg till *`install_folder`*. Standardvärdet är [!DNL &#x200B; *`install_folder`*/logs].
+Mappen som [!DNL Platform Server] skriver loggfiler till. Detta kan vara en absolut sökväg eller en relativ sökväg till *`install_folder`*. Standardvärdet är [!DNL  *`install_folder`*/logs].
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ Antalet dagar som loggfiler ska bevaras. Nya loggfiler skapas varje dag vid midn
 
 ## TC::prefix - Access Log File Name {#section-1003856323b844049632710a5a056aa7}
 
-Namnprefix för filen som åtkomstloggdata skrivs till. Datumet och filsuffixet ( [!DNL &#x200B; *`yyyy`*-*`mm`*-*`dd`*.log]) läggs till i den angivna strängen. Namnet på åtkomstloggfilen måste vara ett annat än namnet på spårningsloggfilen. Standardvärdet är `access-`.
+Namnprefix för filen som åtkomstloggdata skrivs till. Datumet och filsuffixet ( [!DNL  *`yyyy`*-*`mm`*-*`dd`*.log]) läggs till i den angivna strängen. Namnet på åtkomstloggfilen måste vara ett annat än namnet på spårningsloggfilen. Standardvärdet är `access-`.
 
 ## TC::pattern - Access Log Pattern {#section-22775ea85cee444d8a7d7336a3b1feef}
 
@@ -80,7 +80,7 @@ Följande mönstervariabler stöds:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %m </span> </p> </td> 
-   <td> <p>Begärandemetod ( <span class="codeph"> GET </span>, <span class="codeph"> POST </span> osv.). </p> </td> 
+   <td> <p>Begärandemetod ( <span class="codeph"> GET </span>, <span class="codeph"> POST </span> och så vidare). </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %O </span> </p> </td> 

@@ -46,7 +46,7 @@ I det här avsnittet beskrivs den grundläggande syntaxen för HTTP-protokollet 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname">-kommando </span> </p> </td> 
-   <td colname="col2"> <p><span class="varname"> cmdName</span> | { $<span class="varname"> var</span> } &rbrace; [ = <span class="varname"> value</span> ] </p> </td> 
+   <td colname="col2"> <p><span class="varname"> cmdName</span> | { $<span class="varname"> var</span> } } [ = <span class="varname"> value</span> ] </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> makro </span> </p> </td> 
@@ -79,7 +79,7 @@ Rotkontexten `/ir/render` krävs för alla HTTP-begäranden till bildåtergivnin
 
 **Kommentarer**
 
-Kommentarer kan bäddas in i begärandesträngar var som helst och identifieras med en punkt (.) direkt efter kommandoavgränsaren (&amp;). Kommentaren avslutas av nästa förekomst av en (okodad) kommandoavgränsare. Den här funktionen kan användas för att lägga till information i begäran som inte är avsedd för Image Serving, t.ex. tidsstämplar och databas-ID:n.
+Kommentarer kan bäddas in i begärande strängar var som helst och identifieras med en punkt (.) omedelbart efter kommandoavgränsaren (&amp;). Kommentaren avslutas av nästa förekomst av en (okodad) kommandoavgränsare. Den här funktionen kan användas för att lägga till information i begäran som inte är avsedd för Image Serving, t.ex. tidsstämplar och databas-ID:n.
 
 **HTTP-avkodning**
 

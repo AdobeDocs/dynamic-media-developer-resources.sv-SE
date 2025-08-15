@@ -1,6 +1,6 @@
 ---
 title: Installera flera Dynamic Media-visningsprogram på samma server
-description: Instruktioner för installation av Dynamic Media Viewer API.
+description: Instruktioner för hur du installerar API:t för Dynamic Media Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 <!-- Updated April 06, 2021 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
-Instruktioner för installation av API:t för visningsprogram i Dynamic Media.
+Instruktioner för installation av API:t för visningsprogram för dynamiska media.
 
 Installera och testa Image Serving innan du installerar visningsprogrammen för Image Serving.
 
@@ -24,7 +24,7 @@ Kopiera IS Viewer-filerna till hårddisken och distribuera sedan filen `s7viewer
 
 >[!NOTE]
 >
->Det finns ingen uppgradering för visningsprogrammen för Image Serving. Adobe rekommenderar att du säkerhetskopierar alla befintliga Dynamic Media-visningsprogram (s7viewers) innan du fortsätter med installationen.
+>Det finns ingen uppgradering för visningsprogrammen för Image Serving. Adobe rekommenderar att du säkerhetskopierar alla befintliga visningsprogram för Dynamic Media (s7viewers) innan du fortsätter med installationen.
 
 **Så här installerar du flera visningsprogram på samma server:**
 

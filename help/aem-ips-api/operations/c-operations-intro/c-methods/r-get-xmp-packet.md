@@ -1,5 +1,5 @@
 ---
-description: Hämtar ett XMP för det angivna objektet.
+description: Hämtar ett XMP-metadatapaket för den angivna resursen.
 solution: Experience Manager
 title: getXMPPacket
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # getXMPPacket{#getxmppacket}
 
-Hämtar ett XMP för det angivna objektet.
+Hämtar ett XMP-metadatapaket för den angivna resursen.
 
 Syntax
 
@@ -35,13 +35,13 @@ Syntax
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Företagshandtaget för det paket som du vill returnera (till exempel `c|656`). |
-| assetHandle | `xsd:string` | Ja | Resursen som XMP ska hämtas för. |
+| assetHandle | `xsd:string` | Ja | Resursen som XMP-paketet ska hämtas för. |
 
 **Utdata (getXMPPacketReturn)**
 
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| compressedPacket | `xsd:Base 64 binary` | Ja | [!DNL zlib-compressed] XMP paket. |
+| compressedPacket | `xsd:Base 64 binary` | Ja | [!DNL zlib-compressed] XMP-paket. |
 
 ## Exempel {#section-d681af49122e4ca9bcd04110a2e98e6f}
 

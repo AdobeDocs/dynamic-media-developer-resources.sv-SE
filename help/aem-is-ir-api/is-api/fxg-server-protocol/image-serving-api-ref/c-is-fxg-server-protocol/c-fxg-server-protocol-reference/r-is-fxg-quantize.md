@@ -1,6 +1,6 @@
 ---
 title: kvantifiera
-description: Färgkvantifiering. Anger färgkvantifieringsattribut för konvertering av GIF-utdata.
+description: Färgkvantifiering. Anger färgkvantifieringsattribut för GIF-utdatakonvertering.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # kvantifiera{#quantize}
 
-Färgkvantifiering. Anger färgkvantifieringsattribut för konvertering av GIF-utdata.
+Färgkvantifiering. Anger färgkvantifieringsattribut för GIF-utdatakonvertering.
 
 ` quantize= *`type`*[, *`dither`*[, *`numColors`*[, *`colorList`*]]]`
 
@@ -33,7 +33,7 @@ Färgkvantifiering. Anger färgkvantifieringsattribut för konvertering av GIF-u
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> colorList </span> </span> </p> </td> 
-  <td class="stentry"> <p>Kommaavgränsad lista med framtvingade RGB-färger i hex6-format. Gör att du kan ange tvingade färger som ska inkluderas i en <span class="codeph"> adaptiv </span>-palett. Om antalet angivna färger är mindre än <span class="codeph"> numColors </span> beräknas ytterligare färger baserat på bildinnehållet. </p> <p>Används bara om <span class="codeph"> fmt=gif </span> eller <span class="codeph"> fmt=gif-alpha </span>. I annat fall ignoreras. Färgerna som anges med <span class="codeph"> <span class="varname"> colorList </span> </span> måste vara RGB-värden i hex6-format (se <span class="codeph"> color </span>). Inga andra färgspecifikationer tillåts. </p> </td> 
+  <td class="stentry"> <p>Kommaavgränsad lista med tvingade RGB-färger i hex6-format. Gör att du kan ange tvingade färger som ska inkluderas i en <span class="codeph"> adaptiv </span>-palett. Om antalet angivna färger är mindre än <span class="codeph"> numColors </span> beräknas ytterligare färger baserat på bildinnehållet. </p> <p>Används bara om <span class="codeph"> fmt=gif </span> eller <span class="codeph"> fmt=gif-alpha </span>. I annat fall ignoreras. Färgerna som anges med <span class="codeph"> <span class="varname"> colorList </span> </span> måste vara RGB-värden i hex6-format (se <span class="codeph"> color </span>). Inga andra färgspecifikationer tillåts. </p> </td> 
  </tr> 
 </table>
 
@@ -43,10 +43,10 @@ Färgkvantifiering. Anger färgkvantifieringsattribut för konvertering av GIF-u
 
 ## Exempel {#section-b3a979dc9ae3459baa093bf17310988f}
 
-Skapa en miniatyrbild för GIF med paletten `web` utan gitter:
+Skapa en GIF-miniatyrbild med paletten `web` utan gitter:
 
 [!DNL `http://server/myRootId/myImageId?req=tmb&fmt=gif&quantize=web,off`]
 
-Konvertera bilden till ett GIF med två toner med transparens och tvinga färgerna till svartvitt:
+Konvertera bilden till en GIF-bild med två toner och genomskinlighet och tvinga färgerna till svartvitt:
 
 [!DNL `http://server/is/agm/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`]

@@ -22,7 +22,7 @@ Konfigurationsattribut för Interactive Video Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> vänster|center|höger</span> </p> </td> 
-   <td colname="col2"> <p> Anger den interna vågräta justeringen (eller ankarpunkten) för miniatyrbehållaren i komponentområdet. </p> <p>Vid anrop till åtgärd ändras storleken på den interna miniatyrbehållaren så att endast ett helt antal miniatyrbilder visas. Därför finns det en utfyllnad mellan den interna behållaren och de externa komponentgränserna. </p> <p>Den här modifieraren anger hur den interna miniatyrbehållaren placeras vågrätt inuti komponenten. </p> </td> 
+   <td colname="col2"> <p> Anger den interna vågräta justeringen (eller ankarpunkten) för miniatyrbehållaren i komponentområdet. </p> <p>I call-to-action storleksändras den interna miniatyrbehållaren så att endast ett helt antal miniatyrbilder visas. Därför finns det en utfyllnad mellan den interna behållaren och de externa komponentgränserna. </p> <p>Den här modifieraren anger hur den interna miniatyrbehållaren placeras vågrätt inuti komponenten. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -117,7 +117,7 @@ Syntax
    <td colname="col1"> <span class="codeph"> <span class="varname"> generatorArray </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:GenerationInfoArray</span> </td> 
    <td colname="col3"> <p>Nej </p> </td> 
-   <td colname="col4"> <p><span class="codeph"> generatorArray </span> visar hur resursen skapades. Om <span class="codeph"> assetHandler</span> till exempel är en bildsida för PDF innehåller detta processorverktyget PDF och refererar till PDF-filresursen. </p> </td> 
+   <td colname="col4"> <p><span class="codeph"> generatorArray </span> visar hur resursen skapades. Om <span class="codeph"> assetHandler</span> till exempel är en bildsida för en PDF innehåller detta PDF-processorverktyget och refererar till PDF-filresursen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> generatedArray </span> </span> </td> 
@@ -134,11 +134,11 @@ Syntax
  </tbody> 
 </table>
 
-Du kan använda parametrarna `responseFieldArray` eller `excludeFieldArray` för att begränsa svarsstorleken. I synnerhet är de `GenerationInfo` objekt som returneras i `generatorArray` eller `generatedArray` standard att inkludera både den som är upphovsman och de genererade resursposterna. För en resurstyp i PDF resulterar det här beteendet i oönskade kopior av posten&quot;original&quot; i PDF i svaret. Du kan ta bort det här problemet genom att lägga till `generatedArray/items/originator` i `excludeFieldArray`. Du kan också ange en explicit lista med svarsfält som du vill inkludera i `responseFieldArray`.
+Du kan använda parametrarna `responseFieldArray` eller `excludeFieldArray` för att begränsa svarsstorleken. I synnerhet är de `GenerationInfo` objekt som returneras i `generatorArray` eller `generatedArray` standard att inkludera både den som är upphovsman och de genererade resursposterna. För en resurstyp i PDF resulterar detta i oönskade kopior av PDF-resursposten&quot;original&quot; i svaret. Du kan ta bort det här problemet genom att lägga till `generatedArray/items/originator` i `excludeFieldArray`. Du kan också ange en explicit lista med svarsfält som du vill inkludera i `responseFieldArray`.
 
 ## Exempel {#section-8946ea4b9cb94912a8408249c897f192}
 
-Följande grundläggande exempel är en begäran om referensen för generatorn för en bild som extraheras från PDF. Den innehåller `containerArray` längd ett med ett objekt inklusive `assetHandle` för PDF.
+Följande grundläggande exempel är en begäran om referensen för generatorn för en bild som extraheras från en PDF. Den innehåller `containerArray` längd ett med ett objekt inklusive `assetHandle` för PDF.
 
 **Begäran**
 

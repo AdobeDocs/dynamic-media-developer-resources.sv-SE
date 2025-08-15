@@ -1,12 +1,12 @@
 ---
-title: Adobe Dynamic Media utvecklarresurser
+title: Resurser för Adobe Dynamic Media-utvecklare
 cloud: Experience Cloud
 product: adobe dynamic media classic
 solution: Dynamic Media Classic
 audience: end-user
 user-guide-title: Adobe Dynamic Media Developer Resources
-breadcrumb-title: Dynamic Media Developer Resources
-user-guide-description: Få tillgång till resurser för Dynamic Media-utvecklare, t.ex. referenshandboken för visningsprogram, API:t för Image Production System, API:t för Image Serving and Rendering samt arkiverade veringsinformation för Scene7.
+breadcrumb-title: Resurser för Dynamic Media Developer
+user-guide-description: Få tillgång till resurser för Dynamic Media-utvecklare som referenshandboken för visningsprogrammen, API:t för bildproduktionssystemet, API:t för bildserver och återgivning samt arkiverade veringsinformation för Scene7.
 feature-set: Experience Manager Assets
 index: y
 source-git-commit: 3598b0247406d942b0f58b1c74aae4956590f5f8
@@ -17,7 +17,7 @@ ht-degree: 0%
 ---
 
 
-# Dynamic Media Developer Resources{#landing}
+# Resurser för Dynamic Media Developer{#landing}
 
 + [Startsida](home.md)
 

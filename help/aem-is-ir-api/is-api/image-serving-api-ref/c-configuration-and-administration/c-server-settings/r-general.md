@@ -18,7 +18,7 @@ Allmänna serverinställningar
 
 ## TC::PsPort - huvudavlyssningsport {#section-d31d3051aa994a76b60b70c3d9f7e89f}
 
-Anger huvudavlyssningsporten för [!DNL Platform Server]. Den här porten används även för att komma åt dokumentation och exempelsidor för Image Serving, Image Rendering och Dynamic Media Viewer (om det är installerat).
+Anger huvudavlyssningsporten för [!DNL Platform Server]. Den här porten används även för att komma åt dokumentation och exempelsidor för bildservrar, bildåtergivning och dynamiska medievyer (om de är installerade).
 
 ## IS::CacheServerUrl - URL för cachelagring av tjänstens rot {#section-bcca227a1f91453b834db4ea050968e2}
 

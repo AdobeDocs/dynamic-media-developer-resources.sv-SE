@@ -36,7 +36,7 @@ https://<IPS_hostname>:<IPS_port>/<IPS_webapp>/
 services/IpsApiService 
 ```
 
-**Åtkomst-URL:er för Dynamic Media-regioner**
+**Åtkomst-URL:er för dynamiska medieområden**
 
 <table id="table_45BB314ABCDA49F38DF7BECF95CC984A"> 
  <thead> 
@@ -127,11 +127,11 @@ Befintliga program som måste ändras för att kunna använda nya funktioner må
 
 **Bindningar**
 
-IPS API-webbtjänsten stöder endast SOAP bindning.
+IPS API-webbtjänsten stöder endast SOAP-bindning.
 
 **Transporter som stöds**
 
-IPS API-SOAP-bindningen stöder endast HTTP-transport. Gör alla SOAP förfrågningar med metoden HTTPS-POST.
+IPS API SOAP-bindningen har endast stöd för HTTP-transport. Gör alla SOAP-förfrågningar med HTTPS POST-metoden.
 
 **SOAP åtgärdshuvud**
 
@@ -197,14 +197,14 @@ Den metod som rekommenderas för att skicka autentiseringsuppgifter i API-begär
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> errorHttpStatusCode </span> </p> </td> 
-   <td colname="col2"> <p> Valfri parameter för att åsidosätta HTTP-statuskoden för felsvar. Som standard returnerar felsvar HTTP-statuskod 500 (Internt serverfel). Vissa klientplattformar, inklusive Adobe Flash, kan inte läsa svarstexten om inte statuskoden 200 (OK) returneras. </p> </td> 
+   <td colname="col2"> <p> Valfri parameter för att åsidosätta HTTP-statuskoden för felsvar. Som standard returnerar felsvar HTTP-statuskod 500 (Internt serverfel). Vissa klientplattformar, bland annat Adobe Flash, kan inte läsa svarstexten om inte statuskoden 200 (OK) returneras. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 Elementet `authHeader` definieras alltid i namnutrymmet `http://www.scene7.com/IpsApi/xsd`, oavsett API-version.
 
-Följande är ett exempel på hur du använder elementet `authHeader` i en SOAP.
+Följande är ett exempel på hur du använder elementet `authHeader` i en SOAP-rubrik för begäran:
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
@@ -219,17 +219,17 @@ Följande är ett exempel på hur du använder elementet `authHeader` i en SOAP.
 
 **Andra autentiseringsmetoder för begäran**
 
-Om klientprogrammet av någon anledning inte kan skicka SOAP `authHeader` kan API-begäranden även ange autentiseringsuppgifter med HTTP Basic-autentisering (enligt RFC 2617).
+Om klientprogrammet av någon anledning inte kan skicka SOAP-huvudet `authHeader` kan API-begäranden även ange autentiseringsuppgifter med HTTP Basic-autentisering (enligt RFC 2617).
 
-För grundläggande HTTP-autentisering måste HTTP-huvudavsnittet i varje begäran om SOAP POST innehålla en rubrik i formuläret:
+För HTTP Basic-autentisering måste HTTP-huvudavsnittet i varje SOAP POST-begäran innehålla en rubrik i formuläret:
 
 `Authorization: Basic base64(<IPS_user_email>:<password>)`
 
 Där `base64()` använder standardkodningen Base64 är `<IPS_user_email>` e-postadressen för en giltig IPS-användare och `<password>` är användarens lösenord.
 
-Skicka auktoriseringshuvudet företrädesvis med den initiala begäran. Om inga autentiseringsuppgifter ingår i begäran svarar `IpsApiService` inte med statuskoden `401 (Unauthorized)`. I stället returneras statuskoden `500 (Internal Server Error)` med en SOAP felkod som anger att begäran inte kunde autentiseras.
+Skicka auktoriseringshuvudet företrädesvis med den initiala begäran. Om inga autentiseringsuppgifter ingår i begäran svarar `IpsApiService` inte med statuskoden `401 (Unauthorized)`. I stället returneras statuskoden `500 (Internal Server Error)` med en felkod från SOAP som anger att begäran inte kunde autentiseras.
 
-Före IPS 3.8 implementerades autentisering via SOAP med elementen `AuthUser` och `AuthPassword` i namnutrymmet `http://www.scene7.com/IpsApi`. Till exempel:
+Före IPS 3.8 implementerades autentisering via SOAP-huvudet med elementen `AuthUser` och `AuthPassword` i namnutrymmet `http://www.scene7.com/IpsApi`. Till exempel:
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
@@ -244,7 +244,7 @@ Det här formatet stöds fortfarande för bakåtkompatibilitet, men har ersatts 
 
 När anroparens autentiseringsuppgifter har autentiserats kontrolleras begäran för att säkerställa att anroparen har behörighet att utföra den begärda åtgärden. Auktoriseringen baseras på användarrollen för anroparen och kan även kräva kontroll av målföretaget, målanvändaren och andra åtgärdsparametrar. Dessutom måste användare av Image Portal tillhöra en grupp med de behörigheter som krävs för att utföra vissa mapp- och resursåtgärder. I referensavsnittet Drift finns information om behörighetskraven för varje åtgärd.
 
-**Exempel på SOAP och svar**
+**Exempel på begäran och svar från SOAP**
 
 I följande exempel visas en fullständig `addCompany`-åtgärd, inklusive HTTP-huvuden:
 
@@ -298,9 +298,9 @@ xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
 </soapenv:Envelope>
 ```
 
-**SOAP fel**
+**SOAP-fel**
 
-När en åtgärd påträffar ett undantagsvillkor returneras ett SOAP som brödtexten i det SOAP meddelandet i stället för det normala svaret. Om en icke-admin-användare till exempel försöker skicka föregående `addCompany`-begäran returneras följande svar:
+När en åtgärd påträffar ett undantagstillstånd returneras ett SOAP-fel som brödtexten i SOAP-meddelandet i stället för det normala svaret. Om en icke-admin-användare till exempel försöker skicka föregående `addCompany`-begäran returneras följande svar:
 
 ```
 HTTP/1.1 500 Internal Server Error 

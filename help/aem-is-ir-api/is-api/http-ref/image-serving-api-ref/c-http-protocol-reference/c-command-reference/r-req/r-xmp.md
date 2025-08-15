@@ -1,5 +1,5 @@
 ---
-description: XMP metadata. Returnerar de XMP metadata som är associerade med bilden som anges i sökvägen för begäran.
+description: XMP metadata. Returnerar de XMP-metadata som är associerade med bilden som anges i sökvägen för begäran.
 solution: Experience Manager
 title: xmp
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # xmp{#xmp}
 
-XMP metadata. Returnerar de XMP metadata som är associerade med bilden som anges i sökvägen för begäran.
+XMP metadata. Returnerar de XMP-metadata som är associerade med bilden som anges i sökvägen för begäran.
 
 `req=xmp`
 

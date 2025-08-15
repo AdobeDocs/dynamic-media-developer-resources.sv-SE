@@ -21,7 +21,7 @@ Den här proceduren visar hur du installerar Image Serving för första gången 
 
    Om licensnyckelfilen för Image Serving och/eller Image Rendering (med filsuffixet [!DNL .sc8]) är tillgänglig kopierar du den till den här mappen. Annars fortsätter du med installationen och installerar licensnyckeln senare.
 1. Ta bort komprimeringen och ta bort kontrollen för Image Serving-distributionens tjärfil.
-1. Starta installationsguiden genom att köra [!DNL ./install-is] i mappen [!DNL Setup].
+1. Starta installationsguiden genom att köra [!DNL Setup] i mappen [!DNL ./install-is].
 
    Om ingen licensnyckel hittas visas instruktioner som beskriver hur du hämtar en licensfil. Gör det nu eller fortsätt med installationen av Image Serving och installera licensnyckeln senare.
 1. När slutanvändarlicensavtalet (EULA) visas läser du licensavtalet och anger sedan `y` för att fortsätta.

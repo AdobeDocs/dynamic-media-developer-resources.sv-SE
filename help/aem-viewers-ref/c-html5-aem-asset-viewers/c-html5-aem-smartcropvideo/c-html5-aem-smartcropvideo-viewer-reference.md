@@ -21,7 +21,7 @@ Se [Systemkrav och krav](../../c-system-requirements-and-prerequisites.md#concep
 
 Både en video och adaptiva videouppsättningar stöds. Dessutom har visningsprogrammet stöd för arbete med progressiv video och HLS-strömmar på externa platser. Det är utformat för att fungera både på stationära och mobila webbläsare som stöder HTML5-video. Det här visningsprogrammet har även stöd för valfria undertexter som visas ovanpå videoinnehåll, videokapitelnavigering och verktyg för delning via sociala medier.
 
-Visningsprogrammet för smart beskärning av video använder direktuppspelad HTML5-video i HLS-format i standardkonfigurationen när det underliggande systemet stöder det. På system som saknar stöd för direktuppspelning från HTML5 återgår visningsprogrammet till progressiv videoleverans i HTML5.
+Visningsprogrammet för smart beskärning använder direktuppspelad HTML5-video i HLS-format i standardkonfigurationen när det underliggande systemet har stöd för det. På system som inte stöder direktuppspelning med HTML5 återgår visningsprogrammet till progressiv videoleverans i HTML5.
 
 Visningstyp 518.
 
@@ -31,9 +31,9 @@ Visningstyp 518.
 
 ## Använda Smart Crop Video Viewer {#section-f21ac23d3f6449ad9765588d69584772}
 
-Smart Crop Video Viewer representerar en JavaScript-huvudfil och en uppsättning hjälpfiler - en enda JavaScript-komponent med alla SDK-komponenter för visningsprogrammet som används av det här visningsprogrammet, resurser och CSS-nedladdade filer för visningsprogrammet under körning.
+Smart Crop Video Viewer representerar en JavaScript-huvudfil och en uppsättning hjälpfiler - en enda JavaScript-komponent med alla Viewer SDK-komponenter som används av just detta visningsprogram, resurser och CSS-nedladdade av visningsprogrammet under körning.
 
-Du kan använda visningsprogrammet för smart beskärning av video i popup-läge med den produktionsklara HTML-sidan som finns i IS-Viewer. Du kan också använda visningsprogrammet i inbäddat läge, där det är integrerat i en målwebbsida med hjälp av det dokumenterade API:t.
+Du kan använda Smart Crop Video Viewer i popup-läge med en produktionsklar HTML-sida som finns i IS-Viewer. Du kan också använda visningsprogrammet i inbäddat läge, där det är integrerat i en målwebbsida med hjälp av det dokumenterade API:t.
 
 Konfigurationen och skalningen av visningsprogrammet liknar de andra visningsprogrammen. All skalning görs med anpassad CSS.
 
@@ -82,15 +82,15 @@ Det går att bädda in flera videor på samma sida på både surfplattor och mob
 
 I popup-läge öppnas visningsprogrammet i ett separat webbläsarfönster eller på en separat flik. Det tar hela webbläsarfönsterområdet och justeras om webbläsaren ändrar storlek eller enhetens orientering ändras.
 
-Det här läget är det vanligaste för mobila enheter. Webbsidan läser in visningsprogrammet med `window.open()` JavaScript-anrop, korrekt konfigurerat `A` HTML-element eller någon annan lämplig metod.
+Det här läget är det vanligaste för mobila enheter. Webbsidan läser in visningsprogrammet med `window.open()` JavaScript-anrop, korrekt konfigurerade `A` HTML-element eller någon annan lämplig metod.
 
-Vi rekommenderar att du använder en HTML-sida som inte finns i kartongen för popup-åtgärder. Den kallas [!DNL SmartCropVideoViewer.html] och finns under undermappen [!DNL html5/] i din standarddistribution av IS-Viewer:
+Vi rekommenderar att du använder en färdig HTML-sida för popup-läge. Den kallas [!DNL SmartCropVideoViewer.html] och finns under undermappen [!DNL html5/] i din standarddistribution av IS-Viewer:
 
 [!DNL <s7viewers_root>/html5/SmartCropVideoViewer.html]
 
 Du kan anpassa visuellt genom att använda anpassad CSS.
 
-Här följer ett exempel på HTML som öppnar visningsprogrammet i ett nytt fönster:
+Nedan följer ett exempel på HTML-kod som öppnar visningsprogrammet i ett nytt fönster:
 
 ```html {.line-numbers}
 <a href="http://s7d1.scene7.com/s7viewers/html5/SmartCropVideoViewer.html?asset=html5automation/frisbee-AVS" target="_blank">Open popup viewer</a>
@@ -121,7 +121,7 @@ Du lägger till visningsprogrammet på en webbsida genom att göra följande:
 
 1. Lägga till visningsprogrammets JavaScript-fil på webbsidan.
 
-   Om du vill skapa ett visningsprogram måste du lägga till en script-tagg i huvudet HTML. Innan du kan använda visningsprogrammets API måste du ta med [!DNL SmartCropVideoViewer.js]. Filen [!DNL SmartCropVideoViewer.js] finns under undermappen [!DNL html5/js/] i din standarddistribution av IS-Viewer:
+   Om du vill skapa ett visningsprogram måste du lägga till en script-tagg i HTML head. Innan du kan använda visningsprogrammets API måste du ta med [!DNL SmartCropVideoViewer.js]. Filen [!DNL SmartCropVideoViewer.js] finns under undermappen [!DNL html5/js/] i din standarddistribution av IS-Viewer:
 
 [!DNL <s7viewers_root>/html5/js/SmartCropVideoViewer.js]
 
@@ -135,7 +135,7 @@ Relativ sökväg ser ut så här:
 
 >[!NOTE]
 >
->Referera bara till JavaScript `include`-huvudvisningsfilen på din sida. Referera inte till några andra JavaScript-filer i webbsideskoden som kan hämtas av visningsprogrammets logik under körning. Referera inte direkt till HTML5 SDK `Utils.js`-biblioteket som läses in av visningsprogrammet från kontextsökvägen `/s7viewers` (s.k. konsoliderad SDK `include`). Orsaken är att platsen för `Utils.js` eller liknande visningsprogrambibliotek för miljön hanteras helt av visningsprogrammets logik och platsen ändras mellan visningsprogramversioner. Adobe sparar inte äldre versioner av det sekundära visningsprogrammet `includes` på servern.
+>Referera bara till JavaScript `include`-huvudvisningsfilen på din sida. Referera inte till några andra JavaScript-filer i webbsideskoden som kan hämtas av visningsprogrammets logik under körning. Referera inte direkt till HTML5 SDK `Utils.js`-biblioteket som läses in av visningsprogrammet från `/s7viewers`-kontextsökvägen (så kallad konsoliderad SDK `include`). Orsaken är att platsen för `Utils.js` eller liknande visningsprogrambibliotek för miljön hanteras helt av visningsprogrammets logik och platsen ändras mellan visningsprogramversioner. Adobe sparar inte äldre versioner av det sekundära visningsprogrammet `includes` på servern.
 >
 >
 >Det innebär att om du skickar en direkt referens till eventuella sekundära JavaScript `include` som används av visningsprogrammet på sidan så bryts visningsprogrammets funktioner i framtiden när en ny produktversion distribueras.
@@ -234,7 +234,7 @@ Relativ sökväg ser ut så här:
 
 **Responsiv designinbäddning med obegränsad höjd**
 
-Med den responsiva designinbäddningen har webbsidan vanligtvis någon typ av flexibel layout på plats som bestämmer körningsstorleken för visningsprogrammets behållare `DIV`. I det här exemplet antar du att webbsidan tillåter att visningsprogrammets behållare `DIV` tar 40 % av webbläsarens fönsterstorlek, och lämnar dess höjd obegränsad. Webbsidans HTML-kod ser ut så här:
+Med den responsiva designinbäddningen har webbsidan vanligtvis någon typ av flexibel layout på plats som bestämmer körningsstorleken för visningsprogrammets behållare `DIV`. I det här exemplet antar du att webbsidan tillåter att visningsprogrammets behållare `DIV` tar 40 % av webbläsarens fönsterstorlek, och lämnar dess höjd obegränsad. Webbsidan med HTML-koden ser ut så här:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -293,7 +293,7 @@ Följande exempelsida visar hur responsiv designinbäddning med obegränsad höj
 
 [Live-demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Alternativ demoplats](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=sv-SE)
+[Alternativ demoplats](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 **Responsiv designinbäddning med bredd och höjd definierad**
 

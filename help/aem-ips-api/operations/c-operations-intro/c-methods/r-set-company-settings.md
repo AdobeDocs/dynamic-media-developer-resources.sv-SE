@@ -37,7 +37,7 @@ Syntax
 | defaultSourceProfileHandle | `xsd:string` | Nej | IccProfile-resurs som ska användas som standardkällfärgprofil. |
 | defaultDisplayProfileHandle | `xsd:string` | Nej | IccProfile-resurs som ska användas som standardprofil för visningsfärg. |
 | iptcExifMappingXsltHandle | `xsd:string` | Nej | XSL-resurs som används för att mappa IPTC- och EXIF-metadata till IPS-metadatafält. |
-| xmpMappingXsltHandle | `xsd:string` | Nej | XSL-resurs som används för att mappa XMP metadata till IPS-metadatafält. |
+| xmpMappingXsltHandle | `xsd:string` | Nej | XSL-resurs som används för att mappa XMP-metadata till IPS-metadatafält. |
 | discSpaceWarningMin | `xsd:int` | Nej | Minsta lediga diskutrymme (i kB) som är tillgängligt innan ett varningsmeddelande skickas. |
 | emailTrashCleanupWarning | `xsd:boolean` | Nej | Ange till `true` om du vill skicka ett meddelande till företagsadministratörer när resurser tömts från papperskorgen. |
 

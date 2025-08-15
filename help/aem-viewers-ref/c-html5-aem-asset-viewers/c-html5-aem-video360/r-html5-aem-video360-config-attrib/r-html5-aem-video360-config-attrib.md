@@ -18,7 +18,7 @@ Konfigurationsattributdokumentation för Video360 Viewer.
 
 Alla konfigurationskommandon kan anges i URL:en eller med API-metoderna `setParam()`, `setParams()` eller båda. Alla konfigurationsattribut kan också anges i konfigurationsposten på serversidan.
 
-Vissa konfigurationskommandon kan ha prefixet med klassnamnet eller instansnamnet för motsvarande SDK-komponent i visningsprogrammet. Ett instansnamn för komponenten är dynamiskt och beror på ID:t för visningsbehållarens DOM-element som skickas till API-metoden `setContainerId()`. Dokumentationen innehåller ett valfritt prefix för sådana kommandon. Kommandot `playback` beskrivs till exempel så här:
+Vissa konfigurationskommandon kan ha prefixet med klassnamnet eller instansnamnet för motsvarande Viewer SDK-komponent. Ett instansnamn för komponenten är dynamiskt och beror på ID:t för visningsbehållarens DOM-element som skickas till API-metoden `setContainerId()`. Dokumentationen innehåller ett valfritt prefix för sådana kommandon. Kommandot `playback` beskrivs till exempel så här:
 
 `[VideoPlayer.|<containerId>_videoPlayer].playback`
 

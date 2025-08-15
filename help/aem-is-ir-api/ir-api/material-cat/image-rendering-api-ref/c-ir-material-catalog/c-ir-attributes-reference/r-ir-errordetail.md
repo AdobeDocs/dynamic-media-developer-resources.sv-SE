@@ -41,7 +41,7 @@ Följande värden är tillåtna:
 
 * Nivå 0 rekommenderas för liveservrar som är tillgängliga för allmänheten.
 * Nivå 2 rekommenderas för testnings-, kvalitetssäkrings- och programutvecklingsservrar.
-* Information på nivå 3 kan vara användbar vid rapportering av problem till Dynamic Media tekniska support.
+* Information på nivå 3 kan vara användbar när du rapporterar problem till den tekniska supporten för Dynamic Media.
 
 ## Egenskaper {#section-f03f9a8edd6a4d99aff38fbec41c4b80}
 

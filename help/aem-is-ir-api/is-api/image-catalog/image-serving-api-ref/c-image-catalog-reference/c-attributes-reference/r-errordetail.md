@@ -33,7 +33,7 @@ Följande värden är tillåtna:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>Fullständig felsökningsinformation. Lägger till Java-stackspår när det är tillämpligt. Felbilder innehåller aldrig stackspår och returnerar i stället nivå 2-information i <span class="codeph"> $error.message</span>. Den här informationen kan vara användbar när du rapporterar problem till Dynamic Media tekniska support. </p></td> 
+  <td class="stentry"> <p>Fullständig felsökningsinformation. Lägger till Java-stackspår när det är tillämpligt. Felbilder innehåller aldrig stackspår och returnerar i stället nivå 2-information i <span class="codeph"> $error.message</span>. Den här informationen kan vara användbar när du rapporterar problem till Dynamic Media teknisk support. </p></td> 
  </tr> 
 </table>
 

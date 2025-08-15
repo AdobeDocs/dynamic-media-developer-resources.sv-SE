@@ -1,5 +1,5 @@
 ---
-description: Flash programwebbdomäner. Adobe Flash-program kan kräva åtkomst till egenskaper för bilder som levereras med fmt=swf eller fmt=swf3.
+description: Webbdomäner för Flash-program. Adobe Flash-program kan kräva åtkomst till egenskaperna för bilder som levereras med fmt=swf eller fmt=swf3.
 solution: Experience Manager
 title: Betrodda domäner
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Betrodda domäner{#trusteddomains}
 
-Flash programwebbdomäner. Adobe Flash-program kan kräva åtkomst till egenskaper för bilder som levereras med fmt=swf eller fmt=swf3.
+Webbdomäner för Flash-program. Adobe Flash-program kan kräva åtkomst till egenskaperna för bilder som levereras med fmt=swf eller fmt=swf3.
 
 SWF-filen måste bevilja åtkomst uttryckligen genom att registrera namnet på de programdomäner som den litar på.
 

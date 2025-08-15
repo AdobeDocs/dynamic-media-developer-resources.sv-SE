@@ -77,7 +77,7 @@ Följande egenskaper returneras:
   <tr> 
    <td> <p> <span class="codeph">-bild. embeddedXmpData</span> </p> </td> 
    <td> <p> boolesk </p> </td> 
-   <td> <p> 1 om bilden innehåller XMP data </p> </td> 
+   <td> <p> 1 om bilden innehåller XMP-data </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.mask</span> </p> </td> 

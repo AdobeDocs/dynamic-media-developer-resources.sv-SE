@@ -52,7 +52,7 @@ Vissa operativsystem har kopplingsmodeller med hög kontextväxling. I sådana f
 
 ## IS::NumberOfTextServers - Antal textserverinstanser {#section-971e20a90c1a473598fba738ed95671a}
 
-Det maximala antalet textrenderare som ska vara aktiva samtidigt. 0 (standard) motsvarar 1,5 gånger antalet tillgängliga processorkärnor.
+Det maximala antalet textrenderare som ska vara aktiva samtidigt. 0 (standard) motsvarar 1,5 gånger antalet tillgängliga CPU-kärnor.
 
 ## IS::TextServerTcpPortRange - Kommunikationsportar för textserver {#section-a13465de88ed4df09931e5ba840c1942}
 

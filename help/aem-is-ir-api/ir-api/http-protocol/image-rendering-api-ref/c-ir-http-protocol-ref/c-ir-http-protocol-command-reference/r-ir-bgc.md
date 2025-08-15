@@ -21,7 +21,7 @@ Bakgrundsfärg Anger den subtraktiva färgen för färgningsbara texturer och de
 <table id="simpletable_131302355CAB4900A7B45FED903A1AAD" class="- topic/simpletable "> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p><span class="+ topic/keyword sw-d/varname varname"> färg </span> </p> </td> 
-  <td class="- topic/stentry stentry"> <p>RGB eller grått färgvärde. </p></td> 
+  <td class="- topic/stentry stentry"> <p>RGB eller grått. </p></td> 
  </tr> 
 </table>
 
@@ -41,7 +41,7 @@ Materialattribut. Ignoreras av heltäckande färg och kabinettmaterial.
 
 ## Exempel {#section-bf5f0f296bc448ed9d5a84afabcf81e6}
 
-Färglägg en klädväv vars textur har den dominerande RGB-färgen 120,34,193:
+Färga en klädstruktur vars textur har den dominerande RGB-färgen 120,34,193:
 
 `…&src=fabrics/d213.jpg&res=40&bgc=120,34,193&color=140,95,100&…`
 

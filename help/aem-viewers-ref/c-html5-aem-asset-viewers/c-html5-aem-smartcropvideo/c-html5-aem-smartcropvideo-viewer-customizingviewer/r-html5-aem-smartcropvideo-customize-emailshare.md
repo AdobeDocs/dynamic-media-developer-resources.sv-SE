@@ -241,7 +241,7 @@ Stängningsknappen styrs med följande CSS-klassväljare:
 .s7smartcropvideoviewer .s7emaildialog .s7closebutton
 ```
 
-**CSS-egenskaper för stängningsknappen &#x200B;**
+**CSS-egenskaper för stängningsknappen **
 
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
@@ -328,7 +328,7 @@ Sidfoten i dialogrutan består av knapparna Avbryt och Skicka e-post. Sidfotsbeh
 .s7smartcropvideoviewer .s7emaildialog .s7dialogfooter
 ```
 
-**CSS-egenskaper för dialogrutans sidfot &#x200B;**
+**CSS-egenskaper för dialogrutans sidfot **
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -527,7 +527,7 @@ Huvuddialogrutan, mellan sidhuvudet och sidfoten, innehåller rullningsbart dial
 .s7smartcropvideoviewer .s7emaildialog .s7dialogviewarea
 ```
 
-**CSS-egenskaper i dialogrutans visningsområde &#x200B;**
+**CSS-egenskaper i dialogrutans visningsområde **
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
@@ -571,7 +571,7 @@ Allt formulärinnehåll (som etiketter och inmatningsfält) finns inuti en behå
 
 Om höjden på den här behållaren verkar vara större än huvudområdet i dialogrutan aktiveras en lodrät rullning automatiskt av komponenten.
 
-**CSS-egenskaper för dialogrutans brödtext &#x200B;**
+**CSS-egenskaper för dialogrutans brödtext **
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
@@ -623,7 +623,7 @@ Alla statiska etiketter i dialogruteformuläret styrs med
 
 Den här klassen är inte lämplig för att styra etikettens storlek eller placering eftersom du kan använda den på text på olika ställen i användargränssnittet.
 
-**CSS-egenskaper för dialogruteetiketten. &#x200B;**
+**CSS-egenskaper för dialogruteetiketten. **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
@@ -959,7 +959,7 @@ Innehållet som delas visas längst ned i dialogrutan och innehåller en miniaty
 .s7smartcropvideoviewer .s7emaildialog .s7dialogbody .s7dialogcontent
 ```
 
-**CSS-egenskaper för dialogrutans innehåll &#x200B;**
+**CSS-egenskaper för dialogrutans innehåll **
 
 <table id="table_9C5CBFC2482E4A46BE837573B0B02FE4"> 
  <tbody> 
@@ -1094,7 +1094,7 @@ Innehållets ursprung styrs med följande CSS-klassväljare:
 .s7smartcropvideoviewer .s7emaildialog .s7dialogorigin
 ```
 
-**CSS-egenskaper för dialogrutans innehållsursprung &#x200B;**
+**CSS-egenskaper för dialogrutans innehållsursprung **
 
 <table id="table_51763B532A9C4AE8AE54B69933A8C0B5"> 
  <tbody> 

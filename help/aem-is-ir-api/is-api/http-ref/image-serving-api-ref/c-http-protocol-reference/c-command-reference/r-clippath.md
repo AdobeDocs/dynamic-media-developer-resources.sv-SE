@@ -49,7 +49,7 @@ Om `size=` inte anges för en heltäckande färg eller ett textlager betraktas l
 >
 >Kommandona `scale=`, `rotate=` och `anchor=` tillåts inte för helstora färglager som ändrar storlek automatiskt.
 
-`*`pathDefinition`*` accepterar en sträng som liknar värdet för attributet `d=` i elementet SVG `<path>` förutom att kommatecken används i stället för mellanslag för att skilja värden åt. `*`pathDefinition`*` kan innehålla en eller flera underbanor med sluten slinga.
+`*`pathDefinition`*` accepterar en sträng som liknar värdet för attributet `d=` i SVG `<path>` -elementet, förutom att kommatecken används i stället för mellanslag för att skilja värden åt. `*`pathDefinition`*` kan innehålla en eller flera underbanor med sluten slinga.
 
 Följande sökvägskommandon stöds i `*`pathDefinition`*`:
 
@@ -86,7 +86,7 @@ Följande sökvägskommandon stöds i `*`pathDefinition`*`:
    <td> <p> Rita en Bezier-kurva från den aktuella positionen till x,y. x1,y1 är kontrollpunkten i början av kurvan och x2,y2 är kontrollpunkten i slutet av kurvan. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <b> c</b> *&lbrace;<span class="varname"> x1,y1,x2,y2,x,y</span> </td> 
+   <td> <b> c</b> *{<span class="varname"> x1,y1,x2,y2,x,y</span> </td> 
    <td> <p> kurvförhållande </p> </td> 
   </tr> 
   <tr valign="top"> 

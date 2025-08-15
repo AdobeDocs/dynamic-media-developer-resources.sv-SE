@@ -1,5 +1,5 @@
 ---
-description: I det här dokumentet beskrivs materialkatalogen för Dynamic Media Image Rendering.
+description: I det här dokumentet beskrivs materialkatalogen för återgivning av dynamiska mediabilder.
 solution: Experience Manager
 title: Introduktion
 feature: Dynamic Media Classic,SDK/API
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Introduktion{#introduction}
 
-I det här dokumentet beskrivs materialkatalogen för Dynamic Media Image Rendering.
+I det här dokumentet beskrivs materialkatalogen för återgivning av dynamiska mediabilder.
 
 **Målgrupp**
 
-Dokumentationen är avsedd för erfarna programmerare och webbplatsutvecklare som vill använda Dynamic Media Image Rendering för en webbplats eller ett anpassat program.
+Denna dokumentation är avsedd för erfarna programmerare och webbplatsutvecklare som vill använda dynamisk bildåtergivning för en webbplats eller ett anpassat program.
 
-Det antas att läsaren känner till Dynamic Media Image Authoring and Image Rendering, allmänna HTTP-protokollstandarder och konventioner samt grundläggande bildterminologi.
+Det förutsätts att läsaren känner till Dynamic Media Image Authoring och Image Rendering, allmänna HTTP-protokollstandarder och konventioner samt grundläggande bildterminologi.
 
 **Dokumentkonventioner**
 

@@ -1,5 +1,5 @@
 ---
-description: IS innehåller mekanismer för att förenkla användningen av bildscheman för HTML. De JAVA-baserade och Flash-baserade visningsprogrammen i IS har också begränsat stöd för bildscheman.
+description: IS innehåller mekanismer för att förenkla användningen av HTML bildscheman. De JAVA-baserade och Flash-baserade visningsprogrammen i IS har också begränsat stöd för bildscheman.
 solution: Experience Manager
 title: Bildscheman
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Bildscheman{#image-maps}
 
-IS innehåller mekanismer för att förenkla användningen av bildscheman för HTML. De JAVA-baserade och Flash-baserade visningsprogrammen i IS har också begränsat stöd för bildscheman.
+IS innehåller mekanismer för att förenkla användningen av HTML bildscheman. De JAVA-baserade och Flash-baserade visningsprogrammen i IS har också begränsat stöd för bildscheman.
 
 Source bildscheman tillhandahålls till IS antingen via `catalog::Map` eller med kommandot `map=`, och bearbetade kartor hämtas med kommandot `req=map`.
 

@@ -25,7 +25,7 @@ Avancerade renderingsinställningar. Anger avancerade renderingsinställningar s
  </tr> 
 </table>
 
-Används för finjustering av återgivningsutseende. Om du vill skapa renderingsinställningssträngar använder du renderingsfunktionen i redigeringsverktyget för vinjett (ingår i Dynamic Media Image Authoring package).
+Används för finjustering av återgivningsutseende. Om du vill skapa renderingsinställningssträngar använder du renderingsfunktionen i redigeringsverktyget för vinjett (ingår i redigeringspaketet för dynamiska mediabilder).
 
 ## Egenskaper {#section-9a2b2228789046658cb80eddf343af75}
 

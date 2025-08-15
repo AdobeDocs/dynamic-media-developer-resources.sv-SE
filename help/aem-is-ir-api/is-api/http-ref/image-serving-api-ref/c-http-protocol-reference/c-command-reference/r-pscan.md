@@ -1,6 +1,6 @@
 ---
 title: pscan
-description: Progressiv JPEG-skanning. Med Progressiv JPEG visas en bild på ett sådant sätt att den först visar ett oskarpt/lågkvalitativt foto i sin helhet.
+description: Progressiv JPEG-skanning. Progressiv JPEG visar en bild på ett sådant sätt att den först visar ett oskarpt/lågkvalitativt foto i sin helhet.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # pscan{#pscan}
 
-Progressiv JPEG-skanning. Med Progressiv JPEG visas en bild på ett sådant sätt att den först visar ett oskarpt/lågkvalitativt foto i sin helhet. När skanningen fortsätter blir den tydligare när bildens data hämtas mer fullständigt. Med den här parametern kan du ange hur många inläsningar det tar (3, 4 eller 5) för att hela bilden ska visas.
+Progressiv JPEG-skanning. Progressiv JPEG visar en bild på ett sådant sätt att den först visar ett oskarpt/lågkvalitativt foto i sin helhet. När skanningen fortsätter blir den tydligare när bildens data hämtas mer fullständigt. Med den här parametern kan du ange hur många inläsningar det tar (3, 4 eller 5) för att hela bilden ska visas.
 
 `pscan=auto|3|4|5`
 
@@ -26,7 +26,7 @@ Om `pscan` inte är inställt blir standardvärdet `auto`.
 
 ## Egenskaper {#section-e36aa3c63a974b969d9e4f43fe5a37ab}
 
-Begär attribut. Används oavsett den aktuella lagerinställningen. Ignoreras om utdataformatet inte är progressiv JPEG.
+Begär attribut. Används oavsett den aktuella lagerinställningen. Ignoreras om utdataformatet inte är progressivt JPEG.
 
 ## Standard {#section-01948f6cd7a2415091004cd7526436c7}
 

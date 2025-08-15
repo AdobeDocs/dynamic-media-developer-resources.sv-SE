@@ -1,7 +1,7 @@
 ---
 description: Används av searchAssetsParam/publishState, setAssetPublishStateParam/publishState och ContextStateUpdate/publishState.
 solution: Experience Manager
-title: Publish State
+title: Publiceringsläge
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0be4ef1b-f1d3-4698-a5ed-d721c328291a
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# Publish State{#publish-state}
+# Publiceringsläge{#publish-state}
 
 Används av searchAssetsParam/publishState, setAssetPublishStateParam/publishState och ContextStateUpdate/publishState.
 

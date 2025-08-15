@@ -1,6 +1,6 @@
 ---
 title: Licenser
-description: En licensnyckel för Dynamic Media Image Rendering krävs och måste installeras på alla system där Image Rendering är installerat.
+description: En licensnyckel för dynamisk bildåtergivning krävs och måste vara installerad på alla system där Bildåtergivning är installerat.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # Licenser{#licensing}
 
-En licensnyckel för Dynamic Media Image Rendering krävs och måste installeras på alla system där Image Rendering är installerat.
+En licensnyckel för dynamisk bildåtergivning krävs och måste vara installerad på alla system där Bildåtergivning är installerat.
 
 Bildåtergivning kan inte köras utan en giltig licens. Installationsproceduren innehåller steg för att hämta och installera licensnyckeln.

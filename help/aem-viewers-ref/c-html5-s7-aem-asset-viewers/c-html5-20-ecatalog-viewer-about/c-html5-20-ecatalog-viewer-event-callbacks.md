@@ -26,7 +26,7 @@ Visningsprogramhändelser som stöds är bland annat följande:
 
    * `objID {String}` används inte just nu.
    * `compClass {String}` används inte just nu.
-   * `instName {String}` ett instansnamn för SDK-komponenten för visningsprogrammet som utlöste händelsen.
+   * `instName {String}` ett instansnamn för Viewer SDK-komponenten som utlöste händelsen.
    * `timeStamp {Number}`-händelsens tidsstämpel.
    * `eventInfo {String}` händelsenyttolast
 

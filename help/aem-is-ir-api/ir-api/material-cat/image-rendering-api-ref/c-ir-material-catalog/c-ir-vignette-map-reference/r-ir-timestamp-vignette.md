@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 6a163727-9ac6-43ca-9afd-169ac6306124
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,11 @@ Datum-/tidsvärde i Java™-format. Det kan vara antingen heltal i millisekunder
 
 *[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]* *[!DNL zzz]*
 
-*[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]*&#x200B;GMT *[!DNL offset]*
+*[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]*GMT *[!DNL offset]*
 
 * *[!DNL hh]* ligger i intervallet 0-23.
 * *[!DNL zzz]* är en tidszonskod på tre eller fyra tecken, till exempel GMT eller PST. Sommartid måste anges i tidszonskoden (t.ex. PST för Pacific Standard Time och PDT för Pacific Daylight Savings Time).
-* *[!DNL offset]* är en tidszonsförskjutning i timmar eller timmar:minuter i förhållande till GMT. &quot;PDT&quot; motsvarar till exempel &quot;GMT -7&quot;.
+* *[!DNL offset]* är en tidszonsförskjutning i timmar eller timmar :minutes i förhållande till GMT. &quot;PDT&quot; motsvarar till exempel &quot;GMT -7&quot;.
 
 Alla element i strängformaterade datum/tid-värden måste finnas. Om datum-/tidsvärdet inte är korrekt formaterat ignoreras det och ändringstiden för filen [!DNL *[!DNL catalog]*.ini] används i stället.
 

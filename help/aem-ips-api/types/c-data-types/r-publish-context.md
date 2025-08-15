@@ -57,4 +57,4 @@ Assets har en separat markör för varje publiceringsläge och sammanhang. Ange 
 
 >[!MORELIKETHIS]
 >
->* [Publish Context](../../string-constants/c-string-constants/r-publish-context.md#reference-3ade116df0df40deb86154eb0ac7c12a)
+>* [Publiceringskontext](../../string-constants/c-string-constants/r-publish-context.md#reference-3ade116df0df40deb86154eb0ac7c12a)

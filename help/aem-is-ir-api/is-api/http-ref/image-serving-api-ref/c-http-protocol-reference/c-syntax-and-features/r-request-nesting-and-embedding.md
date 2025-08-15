@@ -89,7 +89,7 @@ Token `fxg` är skiftlägeskänslig.
 
 >[!NOTE]
 >
->FXG-grafikåtergivning är endast tillgängligt i Dynamic Media värdmiljö och kan kräva ytterligare licensiering. Kontakta Dynamic Media tekniska support för mer information.
+>FXG-grafikåtergivning är endast tillgängligt i Dynamic Media-värdmiljön och kan kräva ytterligare licensiering. Kontakta Dynamic Media teknisk support för mer information.
 
 *[!DNL renderRequest]* är den vanliga FXG-återgivningsbegäran, exklusive HTTP-rotsökvägen ` http:// *[!DNL server]*/agm/render/`.
 
@@ -149,7 +149,7 @@ Med mindre ändringar kan vi förskala bilden för lager 0 och cachelagra den pe
 
 `layer=0&src=is(?src=$img$&size=300,300&cache=on)&layer=1&text=$txt$`
 
-**Bädda in begäranden om Dynamic Media bildåtergivning**
+**Inbäddningsbegäranden för återgivning av dynamiska mediabilder**
 
 Använd en mall som lagras i [!DNL myCatalog/myTemplate]. Generera bilden för lager2 i mallen med Dynamic Media Image Rendering:
 

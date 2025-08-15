@@ -18,7 +18,7 @@ Bildkonverteringsverktyg.
 
 `ic` är ett kommandoradsverktyg som konverterar bildfiler till det optimerade Pyramid TIFF-formatet (PTIFF). Även om det går att bearbeta bilder utan konvertering rekommenderar vi att du konverterar alla bilder som är större än 512 x 512 pixlar till PTIFF. Denna konvertering ger optimal serverprestanda och resursanvändning och minimerar svarstiderna.
 
-Vi rekommenderar att PTIFF-filer som innehåller fotografiskt innehåll kodas JPEG (ange `-jpegcompress`). Datorgenererat innehåll kan dra nytta av förlustfri komprimering (antingen `-deflatecompress` eller `-lzwcompress`). Om inte en färgkonvertering eller konvertering av pixeltyp krävs, överförs JPEG-källbilddata till PTIFF utan avkodning för att undvika kvalitetsförsämring. I det här fallet gäller de angivna komprimeringsalternativen bara för pyramidnivåerna med lägre upplösning.
+Vi rekommenderar att PTIFF-filer som innehåller fotografiskt innehåll kodas med JPEG (ange `-jpegcompress`). Datorgenererat innehåll kan dra nytta av förlustfri komprimering (antingen `-deflatecompress` eller `-lzwcompress`). Om inte färgkonvertering eller konvertering av pixeltyp krävs, överförs JPEG källbilddata till PTIFF utan avkodning för att undvika kvalitetsförsämring. I det här fallet gäller de angivna komprimeringsalternativen bara för pyramidnivåerna med lägre upplösning.
 
 Om du inte konverterar stora bilder behöver du inte ange parametrar som styr hur mycket minne som ska användas. Om du är det ger du `ic` mer minne genom att använda inställningen `-maxmem` som beskrivs nedan. En bra tumregel för att beräkna mängden minne som krävs är att multiplicera bildens bredd gånger bildens höjd gånger antalet kanaler. Fyra för en RGB-bild med tre alfavärden. Om kanalerna dessutom är 16 bitar per komponent i stället för 8 gånger det slutliga resultatet.
 
@@ -77,7 +77,7 @@ Om du inte konverterar stora bilder behöver du inte ange parametrar som styr hu
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -jpegcompress </span> </p> </td> 
-   <td colname="col2"> <p>Använd kodningen JPEG. Ignoreras om <span class="codeph"> <span class="varname"> sourceFile </span> </span> innehåller alfavärden. </p> </td> 
+   <td colname="col2"> <p>Använd JPEG-kodning. Ignoreras om <span class="codeph"> <span class="varname"> sourceFile </span> </span> innehåller alfavärden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -jpegquality &lt; <span class="varname"> quality </span>&gt; </span> </p> </td> 
@@ -85,7 +85,7 @@ Om du inte konverterar stora bilder behöver du inte ange parametrar som styr hu
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -fullsamplekrominans </span> </p> </td> 
-   <td colname="col2"> <p>Inaktivera nedsampling av färgbilder i JPEG (kan förbättra kvaliteten på färgtext och bilder). Detta påverkar inte utdatabilder som är CMYK eller gråskala. </p> </td> 
+   <td colname="col2"> <p>Inaktivera JPEG chroma-downsampling (kan förbättra kvaliteten på färgtext och bilder). Detta påverkar inte utdatabilder som är CMYK eller gråskala. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -usm &lt; <span class="varname"> amount </span>&gt; &lt; <span class="varname"> radius </span>&gt; &lt; <span class="varname"> threshold </span>&gt; &lt; <span class="varname"> monokrom </span>&gt; </span> </p> </td> 
@@ -115,7 +115,7 @@ Om du inte konverterar stora bilder behöver du inte ange parametrar som styr hu
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -embedXmpData </span> </p> </td> 
-   <td colname="col2"> <p>Kopiera XMP metadata, om tillgängligt, från <span class="codeph"> <span class="varname"> sourceFile </span> </span> till <span class="codeph"> <span class="varname"> destFile </span> </span> utan ändring. </p> </td> 
+   <td colname="col2"> <p>Kopiera XMP-metadata, om sådana finns, från <span class="codeph"> <span class="varname"> sourceFile </span> </span> till <span class="codeph"> <span class="varname"> destFile </span> </span> utan ändring. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -embedColorProfile </span> </p> </td> 
@@ -159,7 +159,7 @@ Om du inte konverterar stora bilder behöver du inte ange parametrar som styr hu
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> - forceJPEGDecompress </span> </p> </td> 
-   <td colname="col2"> <p>Tvinga avkodning och omkodning av indatabilder från JPEG. </p> <p> <b>Varning!</b> Om du använder det här alternativet kan bildkvaliteten försämras. </p> </td> 
+   <td colname="col2"> <p>Tvinga avkodning och omkodning av JPEG indatabilder. </p> <p> <b>Varning!</b> Om du använder det här alternativet kan bildkvaliteten försämras. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -downsample2x2 </span> </p> </td> 
@@ -279,7 +279,7 @@ I följande tabell visas de bildfilformat och formatalternativ som stöds av IC.
    <td> <p> Om det finns något konverteras genomskinlighetsvärdet på paletten till alfa. </p> </td> 
   </tr> 
   <tr> 
-   <td> <b> JPG </b> <p> (JFIF/JPEG) </p> </td> 
+   <td> <b> JPG</b> <p> (JFIF/JPEG) </p> </td> 
    <td> <p> CMYK | RGB | grå </p> </td> 
    <td> <p> 8 </p> </td> 
    <td> <p> JPEG </p> </td> 
@@ -318,7 +318,7 @@ I följande tabell visas de bildfilformat och formatalternativ som stöds av IC.
 
 Inbäddade ICC-profiler känns igen i EPS-, JPG-, PSD-, PNG- och TIFF-filer.
 
-Inbäddade sökvägar och XMP metadata känns igen i filer i EPS, JPG, PSD och TIFF.
+Inbäddade sökvägar och XMP-metadata känns igen i EPS-, JPG-, PSD- och TIFF-filer.
 
 ## Exempel {#section-3c1986b30315431989bd76b1ee5bef6d}
 
@@ -326,10 +326,10 @@ Konvertera en enda bild med bäst kvalitet och behåll den i samma mapp:
 
 `ic -convert src/myFile.png src/myFile.tif`
 
-Konvertera alla bilder i *`srcFolder`* till JPEG-kodad pyramid TIFF och placera dem i *`destFolder`*:
+Konvertera alla bilder i *`srcFolder`* till JPEG-kodade pyramid-TIFF:er och placera i *`destFolder`*:
 
 `ic -convert -jpegcompress -jpegquality 90 -overwrite -continueOnError srcFolder destFolder`
 
-Konvertera alla bilder i *`srcFolder`*. Den kodade bildinformationen för JPG-filer används för den förlustfria LZW-komprimeringen med full upplösning för resten av bildpyramidbilden för dessa bilder samt för hela utdatamilden för alla indatafiler som inte är JPG. Pixeltyper, inbäddade färgprofiler, XMP metadata och så vidare. upprätthålls.
+Konvertera alla bilder i *`srcFolder`*. Den kodade bildinformationen i JPG-filer används för den förlustfria LZW-komprimeringen med fullständig upplösning för resten av bildpyramidbilden för dessa bilder samt för hela utdatamilden av alla indatafiler som inte kommer från JPG. Pixeltyper, inbäddade färgprofiler, XMP-metadata och så vidare. upprätthålls.
 
 `ic -convert -lzwcompress -embedXmpData -embedColorProfile -maintainpixeltype -overwrite -continueOnError srcFolder destFolder`

@@ -1,6 +1,6 @@
 ---
 title: Vinjetter
-description: Vinjetter är bilder som har skapats med Dynamic Media Image Authoring och som kan användas med Image Rendering.
+description: Vinjetter är bilder som har skapats med funktionen för redigering av dynamiska media-bilder, och som kan användas med bildåtergivning.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Vinjetter{#vignettes}
 
-Vinjetter är bilder som har skapats med Dynamic Media Image Authoring och som kan användas med Image Rendering.
+Vinjetter är bilder som har skapats med funktionen för redigering av dynamiska media-bilder, och som kan användas med bildåtergivning.
 
 IR har stöd för två grundläggande typer av vinjetter: *2D* och *3D*. Rumsscener är vanligtvis 3D-vinjetteringar som kan återge reflektioner, medan de flesta andra scener, som kläder eller möbelklädsel, vanligtvis är 2D-vinjetteringar som inte kan återge reflektionen.
 

@@ -1,6 +1,6 @@
 ---
 title: Aktiveringspunkter
-description: Visningsprogrammet visar hotspot-ikoner över huvudvyn på platser där hotspot-områden ursprungligen skapades i Dynamic Media av AEM Assets - on-demand.
+description: Visningsprogrammet visar hotspot-ikoner över huvudvyn på platser där hotspot-områden ursprungligen skapades i Dynamic Media of AEM Assets - on-demand.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Aktiveringspunkter{#hotspots}
 
-Visningsprogrammet visar hotspot-ikoner över huvudvyn på platser där hotspot-områden ursprungligen skapades i Dynamic Media av AEM Assets - on-demand.
+Visningsprogrammet visar hotspot-ikoner över huvudvyn på platser där hotspot-områden ursprungligen skapades i Dynamic Media of AEM Assets - on-demand.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

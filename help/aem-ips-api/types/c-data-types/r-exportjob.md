@@ -53,7 +53,7 @@ ExportJob stöder inte följande resurstyper:
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL is_modifier]</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
-   <td colname="col3"> <p>Anger återgivnings-URL-strängen <span class="codeph"> ImageServer </span> som läggs till i begäran om <span class="codeph">-konvertering</span> för ExportJob. </p> <p>Mer information om hur du skickar IS-modifierare finns i <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html?lang=sv-SE" scope="external" format="html"> IS-dokumentationen </a>. </p> </td> 
+   <td colname="col3"> <p>Anger återgivnings-URL-strängen <span class="codeph"> ImageServer </span> som läggs till i begäran om <span class="codeph">-konvertering</span> för ExportJob. </p> <p>Mer information om hur du skickar IS-modifierare finns i <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html" scope="external" format="html"> IS-dokumentationen </a>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL macro]</span> </span> </p> </td> 

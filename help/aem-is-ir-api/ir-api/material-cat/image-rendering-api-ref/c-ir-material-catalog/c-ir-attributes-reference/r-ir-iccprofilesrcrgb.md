@@ -1,6 +1,6 @@
 ---
 title: IccProfileSrcRgb
-description: RGB standardfärgprofil för indata. Anger namnet på ICC-färgprofilen som ska användas för RGB-materialbilder och vinjetter som inte bäddar in en färgprofil. Även för färgvärden för RGB som anges med olika kommandon för bildåtergivning, till exempel bgc= och color=.
+description: RGB standardfärgprofil för indata. Anger namnet på ICC-färgprofilen som ska användas för RGB-materialbilder och vinjetter som inte bäddar in en färgprofil. Även för RGB-färgvärden som anges med olika kommandon för bildåtergivning, till exempel bgc= och color=.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # IccProfileSrcRgb{#iccprofilesrcrgb}
 
-RGB standardfärgprofil för indata. Anger namnet på ICC-färgprofilen som ska användas för RGB-materialbilder och vinjetter som inte bäddar in en färgprofil. Även för färgvärden för RGB som anges med olika kommandon för bildåtergivning, till exempel `bgc=` och `color=`.
+RGB standardfärgprofil för indata. Anger namnet på ICC-färgprofilen som ska användas för RGB-materialbilder och vinjetter som inte bäddar in en färgprofil. Även för RGB-färgvärden som anges med olika bildåtergivningskommandon, som `bgc=` och `color=`.
 
 ## Egenskaper {#section-c22966bba03e43c08e9d3fb91bfdd465}
 

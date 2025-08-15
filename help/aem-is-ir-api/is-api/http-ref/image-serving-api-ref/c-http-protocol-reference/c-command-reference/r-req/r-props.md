@@ -90,7 +90,7 @@ Följande egenskaper returneras för /is/image-begäranden:
   <tr valign="top"> 
    <td> <p> <span class="codeph"> image.quality </span> </p> </td> 
    <td> <p> heltal </p> </td> 
-   <td> <p> JPEG-kvalitet. (Se <span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-qlt.md#reference-f69ed0758c784b0385d979820546d352" type="reference" format="dita" scope="local"> qlt= </a> </span>.) </p> </td> 
+   <td> <p> JPEG. (Se <span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-qlt.md#reference-f69ed0758c784b0385d979820546d352" type="reference" format="dita" scope="local"> qlt= </a> </span>.) </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> image.type </span> </p> </td> 

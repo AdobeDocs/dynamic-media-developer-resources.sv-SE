@@ -1,5 +1,5 @@
 ---
-title: Referenshandbok för Adobe Dynamic Media-visningsprogram
+title: Referenshandbok för Adobe Dynamic Media Viewer
 description: Adobe Dynamic Media Viewers Reference Guide for basic zoom, ecatalog, zoom, ecatalog search, flyout, inline zoom, blandade media, spin, video, carousel, Dimensional, interactive video, interactive image, and video 360 viewers.
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User

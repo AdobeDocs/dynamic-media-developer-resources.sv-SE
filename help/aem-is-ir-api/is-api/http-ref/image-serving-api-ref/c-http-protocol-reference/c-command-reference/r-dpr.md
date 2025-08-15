@@ -36,7 +36,7 @@ För närvarande kommer bildskärmens pixeldensitet från Akamai CDN-rubrikvärd
 
 Du kan använda `dpr=on,dprValue` även om DPR-inställningen på företagsnivå är inaktiverad.
 
-På grund av DPR-optimering identifieras alltid MaxPix-bredden när den resulterande bilden är större än Dynamic Media-inställningen MaxPix genom att bildens proportioner behålls.
+På grund av DPR-optimering identifieras alltid MaxPix-bredden när den resulterande bilden är större än inställningen för dynamiska medier i MaxPix genom att bildens proportioner behålls.
 
 | Begärd bildstorlek | DPR-värde | Levererad bildstorlek |
 |-|-|-|
@@ -45,7 +45,7 @@ På grund av DPR-optimering identifieras alltid MaxPix-bredden när den resulter
 | 816 x 500 | 3 | 2 448 x 1 500 |
 | 816 x 500 | 4 | 3264 x 2000 |
 
-DPR-värdena baseras på de värden som identifierats på klientsidan för det paketerade CDN. Dessa värden är ibland felaktiga. IPhone5 med `dpr=2` och iPhone12 med dpr=3 visar båda `dpr=2`. För högupplösta enheter är det ändå bättre att skicka `dpr=2` än att skicka `dpr=1`. Det bästa sättet att överbrygga denna brist är dock att använda DPR på klientsidan för att ge er 100 % korrekta värden. Och det fungerar för alla enheter, oavsett om det är Apple eller någon annan enhet som startades. Se [Använd smart bildbehandling med enhetspixelproportioner på klientsidan](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/client-side-dpr.html?lang=sv-SE).
+DPR-värdena baseras på de värden som identifierats på klientsidan för det paketerade CDN. Dessa värden är ibland felaktiga. IPhone5 med `dpr=2` och iPhone12 med dpr=3 visar båda `dpr=2`. För högupplösta enheter är det ändå bättre att skicka `dpr=2` än att skicka `dpr=1`. Det bästa sättet att överbrygga denna brist är dock att använda DPR på klientsidan för att ge er 100 % korrekta värden. Och det fungerar för alla enheter, oavsett om det är Apple eller någon annan enhet som startades. Se [Använd smart bildbehandling med enhetspixelproportioner på klientsidan](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/client-side-dpr.html?lang=en).
 
 ## Egenskaper
 
@@ -63,4 +63,4 @@ Ett request-attribut. Det har ingen effekt om `dpr` är av eller om `dprValue=1`
 
 ## Se även
 
-[bfc](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bfc.md), [nätverk](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md), [Smart bildbehandling](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=sv-SE)
+[bfc](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bfc.md), [nätverk](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md), [Smart bildbehandling](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=en)

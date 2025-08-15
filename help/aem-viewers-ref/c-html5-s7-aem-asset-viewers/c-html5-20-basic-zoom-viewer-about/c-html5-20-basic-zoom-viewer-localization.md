@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Visst innehåll som visas i det grundläggande zoomvisningsprogrammet kan lokaliseras, inklusive zoomknappar och en helskärmsknapp.
 
-Varje textinnehåll i visningsprogrammet som kan lokaliseras representeras av en SDK-identifierare för visningsprogrammet som kallas SYMBOL. Alla SYMBOL har ett standardassocierat textvärde för den engelska språkversionen ( `"en"`) som medföljer visningsprogrammet som inte är installerat och kan även ha användardefinierade värden för så många språkområden som behövs.
+Varje textinnehåll i visningsprogrammet som kan lokaliseras representeras av en speciell Viewer SDK-identifierare som kallas SYMBOL. Alla SYMBOL har ett standardassocierat textvärde för den engelska språkversionen ( `"en"`) som medföljer visningsprogrammet som inte är installerat och kan även ha användardefinierade värden för så många språkområden som behövs.
 
 När visningsprogrammet startas kontrolleras det aktuella språkområdet för att se om det finns ett användardefinierat värde för varje SYMBOL som stöds i språkområdet. Om det finns något används det användardefinierade värdet, i annat fall används standardtexten som inte finns.
 

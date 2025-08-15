@@ -1,5 +1,5 @@
 ---
-description: Dessa nya eller ändrade åtgärder och datatyper som finns i betaversionen av WSDL får inte användas utanför Dynamic Media-utvecklade program.
+description: Dessa nya eller ändrade åtgärder och datatyper som finns i betaversionen av WSDL får inte användas utanför program som utvecklats med Dynamic Media.
 solution: Experience Manager
 title: Begränsad användning
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Begränsad användning{#restricted-use}
 
-Dessa nya eller ändrade åtgärder och datatyper som finns i betaversionen av WSDL får inte användas utanför Dynamic Media-utvecklade program.
+Dessa nya eller ändrade åtgärder och datatyper som finns i betaversionen av WSDL får inte användas utanför program som utvecklats med Dynamic Media.
 
 Dessa åtgärder och typer kan inaktiveras, ändras eller tas bort vid efterföljande systemuppdateringar.
 

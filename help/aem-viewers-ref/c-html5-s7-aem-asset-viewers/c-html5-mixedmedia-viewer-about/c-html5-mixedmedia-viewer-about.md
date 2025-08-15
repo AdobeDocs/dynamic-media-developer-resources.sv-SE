@@ -19,7 +19,7 @@ Mixed Media Viewer är ett visningsprogram för media. Det har stöd för mediau
 
 En miniatyrbild längst ned i visningsprogrammet representerar varje medieuppsättningselement tillsammans med resurstypsindikatorn. När ett element i färgruteuppsättningen är markerat visas en andra rad med färgrutor så att du kan välja färgvariation i färgruteuppsättningen. Bilder och element för färgruteuppsättning har stöd för zoomning i löpande läge eller textbundet läge. Rotationsuppsättningar har stöd för både zoomning och snurrning. Videofilmer och adaptiva videouppsättningar har stöd för alla grundläggande uppspelningskontroller så länge som valfria undertexter visas ovanpå videoinnehållet. Användaren kan när som helst växla till helskärm genom att klicka på helskärmsknappen. Visningsprogrammet har en valfri stängningsknapp. Den är utformad för att fungera på stationära datorer och mobila enheter.
 
-I Mixed Media Viewer används HTML5-direktuppspelad videouppspelning i HLS-format i standardkonfigurationen när det underliggande systemet stöder det. På system som saknar stöd för direktuppspelning från HTML5 återgår visningsprogrammet till progressiv videoleverans i HTML5.
+I Mixed Media Viewer används HTML5-direktuppspelad videouppspelning i HLS-format i standardkonfigurationen när det underliggande systemet stöder det. På system som inte stöder direktuppspelning med HTML5 återgår visningsprogrammet till progressiv videoleverans i HTML5.
 
 >[!NOTE]
 >
@@ -35,9 +35,9 @@ Se [Systemkrav och krav](../../c-system-requirements-and-prerequisites.md#concep
 
 ## Använda blandad Media Viewer {#section-f21ac23d3f6449ad9765588d69584772}
 
-Mixed Media Viewer representerar en JavaScript-huvudfil och en uppsättning hjälpfiler (en enda JavaScript-fil med alla SDK-komponenter för visningsprogrammet som används av det här visningsprogrammet, resurser, CSS) som hämtats av visningsprogrammet under körning.
+Mixed Media Viewer representerar en JavaScript-huvudfil och en uppsättning hjälpfiler (en enda JavaScript-fil innehåller alla Viewer SDK-komponenter som används av just detta visningsprogram, resurser, CSS) som hämtats av visningsprogrammet under körning.
 
-Du kan använda blandad mediavisare i popup-läge med den produktionsklara HTML-sidan som finns i IS-Viewer. Du kan också använda visningsprogrammet i inbäddat läge, där det är integrerat i en målwebbsida med hjälp av det dokumenterade API:t.
+Du kan använda blandad mediavisare i popup-läge med en produktionsklar HTML-sida som finns i IS-Viewer. Du kan också använda visningsprogrammet i inbäddat läge, där det är integrerat i en målwebbsida med hjälp av det dokumenterade API:t.
 
 Konfigurationen och skalningen av visningsprogrammet liknar de andra visningsprogrammen. All skalning görs med anpassad CSS.
 
@@ -96,7 +96,7 @@ Olika webbsidor har olika behov av visningsprogrammets beteende. Ibland innehål
 
 I popup-läge öppnas visningsprogrammet i ett separat webbläsarfönster eller på en separat flik. Det tar hela webbläsarfönsterområdet och justeras om webbläsaren ändrar storlek eller om en mobilenhets orientering ändras.
 
-Popup-läget är det vanligaste för mobila enheter. Webbsidan läser in visningsprogrammet med `window.open()` JavaScript-anrop, korrekt konfigurerat `A` HTML-element eller någon annan lämplig metod.
+Popup-läget är det vanligaste för mobila enheter. Webbsidan läser in visningsprogrammet med `window.open()` JavaScript-anrop, korrekt konfigurerade `A` HTML-element eller någon annan lämplig metod.
 
 Vi rekommenderar att du använder en färdig HTML-sida för popup-läge. I det här fallet kallas den [!DNL MixedMediaViewer.html] och finns i undermappen [!DNL html5/] i din standarddistribution av IS-Viewer:
 
@@ -104,7 +104,7 @@ Vi rekommenderar att du använder en färdig HTML-sida för popup-läge. I det h
 
 Du kan anpassa visuellt genom att använda anpassad CSS.
 
-Här följer ett exempel på HTML som öppnar visningsprogrammet i ett nytt fönster:
+Nedan följer ett exempel på HTML-kod som öppnar visningsprogrammet i ett nytt fönster:
 
 ```html {.line-numbers}
 <a href="http://s7d1.scene7.com/s7viewers/html5/MixedMediaViewer.html?asset=Scene7SharedAssets/Mixed_Media_Set_Sample" target="_blank">Open popup viewer</a>
@@ -135,7 +135,7 @@ Du lägger till visningsprogrammet på en webbsida genom att göra följande:
 
 1. Lägga till visningsprogrammets JavaScript-fil på webbsidan.
 
-   Om du vill skapa ett visningsprogram måste du lägga till en script-tagg i huvudet HTML. Innan du kan använda visningsprogrammets API måste du ta med [!DNL MixedMediaViewer.js]. Filen [!DNL MixedMediaViewer.js] finns under undermappen [!DNL html5/js/] i din standarddistribution av IS-Viewer:
+   Om du vill skapa ett visningsprogram måste du lägga till en script-tagg i HTML head. Innan du kan använda visningsprogrammets API måste du ta med [!DNL MixedMediaViewer.js]. Filen [!DNL MixedMediaViewer.js] finns under undermappen [!DNL html5/js/] i din standarddistribution av IS-Viewer:
 
 [!DNL <s7viewers_root>/html5/js/MixedMediaViewer.js]
 
@@ -149,7 +149,7 @@ Den relativa sökvägen ser ut så här:
 
 >[!NOTE]
 >
->Referera bara till JavaScript `include`-huvudvisningsfilen på din sida. Referera inte till några andra JavaScript-filer i webbsideskoden som kan hämtas av visningsprogrammets logik under körning. Referera inte direkt till HTML5 SDK `Utils.js`-biblioteket som läses in av visningsprogrammet från kontextsökvägen `/s7viewers` (s.k. konsoliderad SDK `include`). Orsaken är att platsen för `Utils.js` eller liknande visningsprogrambibliotek för miljön hanteras helt av visningsprogrammets logik och platsen ändras mellan visningsprogramversioner. Adobe sparar inte äldre versioner av det sekundära visningsprogrammet `includes` på servern.
+>Referera bara till JavaScript `include`-huvudvisningsfilen på din sida. Referera inte till några andra JavaScript-filer i webbsideskoden som kan hämtas av visningsprogrammets logik under körning. Referera inte direkt till HTML5 SDK `Utils.js`-biblioteket som läses in av visningsprogrammet från `/s7viewers`-kontextsökvägen (så kallad konsoliderad SDK `include`). Orsaken är att platsen för `Utils.js` eller liknande visningsprogrambibliotek för miljön hanteras helt av visningsprogrammets logik och platsen ändras mellan visningsprogramversioner. Adobe sparar inte äldre versioner av det sekundära visningsprogrammet `includes` på servern.
 >
 >
 >Det innebär att om du skickar en direkt referens till eventuella sekundära JavaScript `include` som används av visningsprogrammet på sidan så bryts visningsprogrammets funktioner i framtiden när en ny produktversion distribueras.
@@ -172,7 +172,7 @@ Den relativa sökvägen ser ut så här:
 
    I det här visningsprogrammet visas miniatyrer när du arbetar med uppsättningar med flera objekt. På stationära datorer placeras miniatyrbilder under huvudvyn. Samtidigt tillåter visningsprogrammet byte av huvudresursen under körning med API:t `setAsset()`. Som utvecklare har du kontroll över hur visningsprogrammet hanterar miniatyrbildsområdet längst ned när den nya resursen bara har ett objekt. Det går att behålla den yttre visningsstorleken intakt och låta huvudvyn öka höjden och uppta miniatyrområdet. Eller så kan du bibehålla huvudvyns storlek statisk och komprimera det yttre visningsområdet så att webbsidans innehåll kan flyttas uppåt. Använd sedan det kostnadsfria utrymmet som finns kvar från miniatyrbilderna.
 
-   Om du vill behålla de yttre visningsprogramgränserna intakta definierar du storleken för CSS-klassen `.s7mixedmediaviewer` på den översta nivån i absoluta enheter. Storleksändring i CSS kan placeras direkt på HTML-sidan eller i en anpassad CSS-fil för visningsprogrammet, och senare tilldelas en post för visningsförinställningar i Dynamic Media Classic, eller skickas explicit med kommandot style.
+   Om du vill behålla de yttre visningsprogramgränserna intakta definierar du storleken för CSS-klassen `.s7mixedmediaviewer` på den översta nivån i absoluta enheter. Storleksändring i CSS kan placeras direkt på HTML-sidan eller i en anpassad CSS-fil för visningsprogrammet, och senare tilldelas till en förinställningspost för visningsprogrammet i Dynamic Media Classic, eller skickas explicit med hjälp av formatkommandot.
 
    Mer information om hur du formaterar visningsprogrammet med CSS finns i [Anpassa visningsprogrammet för blandade media](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#concept-61b3410f187c4bf3af09ec813c649bf4).
 
@@ -187,9 +187,9 @@ Den relativa sökvägen ser ut så här:
 
    Du kan se beteendet med ett fast yttre visningsområde på följande exempelsida. Observera att storleken på det yttre visningsprogrammet inte ändras när du växlar mellan uppsättningar:
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html?lang=sv-SE](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html?lang=sv-SE)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html)
 
-   Om du vill göra huvudvyns dimensioner statiska definierar du visningsprogrammets storlek i absoluta enheter för den inre `Container` SDK-komponenten med `.s7mixedmediaviewer .s7container` CSS-väljaren, eller med `stagesize` -modifieraren.
+   Om du vill göra huvudvyns dimensioner statiska definierar du visningsprogrammets storlek i absoluta enheter för den inre `Container` SDK-komponenten med `.s7mixedmediaviewer .s7container` CSS-väljaren eller med `stagesize` -modifieraren.
 
    Följande är ett exempel på hur du definierar visningsstorleken för den inre SDK-komponenten `Container` så att huvudvisningsområdet inte ändrar dess storlek när du byter resurs:
 
@@ -202,7 +202,7 @@ Den relativa sökvägen ser ut så här:
 
    Följande exempelsida visar visningsprogrammets beteende med en fast storlek för huvudvyn. Observera att när du växlar mellan uppsättningar förblir huvudvyn statisk och webbsidans innehåll flyttas lodrätt:
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html?lang=sv-SE](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html?lang=sv-SE)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html)
 
    Du kan ställa in modifieraren `stagesize` antingen i visningsprogrammets förinställningspost i Dynamic Media Classic eller skicka den explicit med visarens initieringskod med samlingen `params`. Eller som ett API-anrop enligt beskrivningen i kommandoreferensavsnittet i den här hjälpen, som i följande:
 
@@ -270,7 +270,7 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 
 ## Responsiv inbäddning med obegränsad höjd {#section-056cb574713c4d07be6d07cf3c598839}
 
-Med responsiv designinbäddning har webbsidan vanligtvis någon typ av flexibel layout på plats som bestämmer körningsstorleken för visningsprogrammets behållare `DIV`. I följande exempel antar du att webbsidan tillåter att visningsprogrammets behållare `DIV` tar 40 % av webbläsarens fönsterstorlek, vilket gör att höjden inte begränsas. Webbsidans HTML-kod ser ut så här:
+Med responsiv designinbäddning har webbsidan vanligtvis någon typ av flexibel layout på plats som bestämmer körningsstorleken för visningsprogrammets behållare `DIV`. I följande exempel antar du att webbsidan tillåter att visningsprogrammets behållare `DIV` tar 40 % av webbläsarens fönsterstorlek, vilket gör att höjden inte begränsas. Webbsidan med HTML-koden ser ut så här:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -329,7 +329,7 @@ Följande exempelsida visar mer verkliga användningsområden för responsiv des
 
 [Live-demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Alternativ demoplats](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=sv-SE)
+[Alternativ demoplats](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 ## Flexibel storleksinbäddning med definierad bredd och höjd {#section-0a329016f9414d199039776645c693de}
 

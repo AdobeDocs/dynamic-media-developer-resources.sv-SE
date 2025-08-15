@@ -178,7 +178,7 @@ background-position: -0px -448px;
 
 ## Allmän formatinformation och råd {#section-95855dccbbc444e79970f1aaa3260b7b}
 
-* När du anpassar visningsprogrammets användargränssnitt med CSS stöds inte regeln `!IMPORTANT` för att formatera visningsprogramelement. Regeln `!IMPORTANT` ska inte användas för att åsidosätta standardformat eller körningsformat som tillhandahålls av visningsprogrammet eller visaren-SDK. Orsaken är att det kan påverka beteendet för rätt komponenter. I stället bör du använda CSS-väljare med rätt specificitet för att ange CSS-egenskaper som dokumenteras i den här referenshandboken.
+* När du anpassar visningsprogrammets användargränssnitt med CSS stöds inte regeln `!IMPORTANT` för att formatera visningsprogramelement. Regeln `!IMPORTANT` ska inte användas för att åsidosätta standardformat eller körningsformat som tillhandahålls av visningsprogrammet eller visningsprogrammets SDK. Orsaken är att det kan påverka beteendet för rätt komponenter. I stället bör du använda CSS-väljare med rätt specificitet för att ange CSS-egenskaper som dokumenteras i den här referenshandboken.
 * Alla sökvägar till externa resurser i CSS matchas mot CSS-platsen, inte mot visningsprogrammets HTML-sidplats. Tänk på den här regeln när du kopierar standard-CSS till en annan plats. Kopiera även standardresurserna eller uppdatera sökvägarna i den anpassade CSS-koden.
 * Det format du föredrar för bitmappsbilder är PNG.
 * Bitmappsgrafik tilldelas element i användargränssnittet med egenskapen `background-image`.

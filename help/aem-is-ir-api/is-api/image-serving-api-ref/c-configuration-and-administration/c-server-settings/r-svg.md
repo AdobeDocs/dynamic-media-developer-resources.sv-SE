@@ -1,6 +1,6 @@
 ---
 title: SVG
-description: Inställningarna i det här avsnittet måste bara beaktas om återgivning av SVG krävs.
+description: Inställningarna i det här avsnittet måste bara beaktas om SVG-återgivning krävs.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
@@ -14,21 +14,21 @@ ht-degree: 0%
 
 # SVG{#svg}
 
-Inställningarna i det här avsnittet måste bara beaktas om återgivning av SVG krävs.
+Inställningarna i det här avsnittet måste bara beaktas om SVG-återgivning krävs.
 
 ## SV::SvgHeapSize - SVG Heap Size {#section-59ab17681daa4be8b5d794713e1a504e}
 
 Java-stackstorleken för SVG Renderer. Standardvärdet är &quot;200m&quot; (200 MB).
 
-## PS::svgProvider.rootPaths - rotmappar för SVG {#section-70fe575b0ad54e3b8b6d3a01ea8f1f44}
+## PS::svgProvider.rootPaths - SVG Data Root Folders {#section-70fe575b0ad54e3b8b6d3a01ea8f1f44}
 
-Platsen för källdatafilerna i SVG. Det kan vara en eller flera absoluta filsökvägar eller sökvägar i förhållande till *[!DNL install_folder]*, avgränsade med semikolon. Vanligtvis inställt på samma värde som `IS::RootPath`.
+Platsen för SVG källdatafiler. Det kan vara en eller flera absoluta filsökvägar eller sökvägar i förhållande till *[!DNL install_folder]*, avgränsade med semikolon. Vanligtvis inställt på samma värde som `IS::RootPath`.
 
-## PS::svgProvider.SVGFileSizeLimit - största filstorlek för SVG {#section-b9c81e3e104642ebbdd9f000843d3256}
+## PS::svgProvider.SVGFileSizeLimit - Maximal filstorlek för SVG {#section-b9c81e3e104642ebbdd9f000843d3256}
 
-Största filstorlek för källfilen SVG i kBytes. Servern returnerar ett fel när ett försök görs att återge en SVG-fil som är större än denna gräns. Standardvärdet är 1 024 kbit/s.
+Största storlek för SVG-källfil i kBytes. Servern returnerar ett fel när ett försök görs att återge en SVG-fil som är större än denna gräns. Standardvärdet är 1 024 kbit/s.
 
-## IS::SvgMAxRenderRgnPixels - Storleksgräns för utdatamodell i SVG {#section-5be1fd9639424d878a5ffd11736d3920}
+## IS::SvgMAxRenderRgnPixels - Storleksgräns för SVG-utdatamodell {#section-5be1fd9639424d878a5ffd11736d3920}
 
 Det begränsar storleken på bilder som SVGRender kan producera. Heltalsvärde som är större än 0 i miljoner pixlar. Ett fel returneras om en återgivningsåtgärd skulle överskrida storleksgränsen. Standardvärdet är 4.
 
@@ -38,7 +38,7 @@ Porten som används för SVgRender för att hämta bilder från [!DNL Platform S
 
 Viktigt! För att SVGRender-komponenten ska fungera korrekt måste det här konfigurationsalternativet anges till samma värde som `TC::PsPort`.
 
-## PS::svgProvider.fontRoot - SVG-teckensnittsmapp {#section-a8d45b0d68504945b8780f5eac351b0d}
+## PS::svgProvider.fontRoot - Mappen SVG Font Files {#section-a8d45b0d68504945b8780f5eac351b0d}
 
 Anger var SVgRender hittar de teckensnittsfiler som behövs för att återge SVG-text, vanligtvis en av sökvägarna som anges i `IS::RootPaths`. Standardvärdet är [!DNL *[!DNL install_folder]*/images].
 

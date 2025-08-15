@@ -26,7 +26,7 @@ Programmet kan bara skrivas med globala objekt-ID:n, och med Image Serving ersä
 
 ## Omfång {#section-66fcd5bd467c4eeaa1574583cbe9756d}
 
-Alla referenser till poster i bildkataloger, SVG och statiska innehållskataloger beaktas för översättningsteckensnitt och ICC-profilreferenser översätts inte. Förutom *`object`* i sökvägen för [!DNL /is/image] och [!DNL /is/static requests] är dessa kommandon och katalogattribut föremål för ID-översättning: `src=`, `mask=`, `template=`, `defaultImage=`, `attribute::DefaultImage` och `attribute::Watermark`.
+Alla referenser till poster i bilder, SVG och statiska innehållskataloger beaktas för översättningsteckensnitt och ICC-profilreferenser översätts inte. Förutom *`object`* i sökvägen för [!DNL /is/image] och [!DNL /is/static requests] är dessa kommandon och katalogattribut föremål för ID-översättning: `src=`, `mask=`, `template=`, `defaultImage=`, `attribute::DefaultImage` och `attribute::Watermark`.
 
 ## Översättningskarta för ID {#section-9e417b352c314dfe94e831fdd62cddc8}
 

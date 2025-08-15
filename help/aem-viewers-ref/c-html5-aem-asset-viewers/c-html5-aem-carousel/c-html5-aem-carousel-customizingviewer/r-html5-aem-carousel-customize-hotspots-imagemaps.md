@@ -1,6 +1,6 @@
 ---
 title: Aktiveringspunkter och bildscheman
-description: Visningsprogrammet visar hotspot-ikoner över huvudvyn på platser där hotspot-områden ursprungligen skapades i Dynamic Media av AEM Assets - on-demand.
+description: Visningsprogrammet visar hotspot-ikoner över huvudvyn på platser där hotspot-områden ursprungligen skapades i Dynamic Media of AEM Assets - on-demand.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Aktiveringspunkter och bildscheman{#hotspots-and-image-maps}
 
-Visningsprogrammet visar hotspot-ikoner över huvudvyn på platser där hotspot-områden ursprungligen skapades i Dynamic Media av AEM Assets - on-demand.
+Visningsprogrammet visar hotspot-ikoner över huvudvyn på platser där hotspot-områden ursprungligen skapades i Dynamic Media of AEM Assets - on-demand.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -92,7 +92,7 @@ Utseendet på bildschemaområdet styrs med följande CSS-klassväljare:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> kant </span> </p> </td> 
-   <td colname="col2"> <p> Områdesformat för bildschemat. Ska anges som <span class="codeph"> width </span> <span class="codeph"> solid color </span>, där <span class="codeph"> width </span> uttrycks i pixlar och <span class="codeph"> color </span> anges som <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> eller <span class="codeph"> RGBA(R,G,B,A) </span> . </p> </td> 
+   <td colname="col2"> <p> Områdesformat för bildschemat. Ska anges som <span class="codeph"> width </span> <span class="codeph"> solid color </span>, där <span class="codeph"> width </span> uttrycks i pixlar och <span class="codeph"> color </span> anges som <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> eller <span class="codeph"> RGBA(R,G,B,A) </span> 3}. </p> </td> 
   </tr> 
  </tbody> 
 </table>

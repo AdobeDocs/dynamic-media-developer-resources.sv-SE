@@ -22,7 +22,7 @@ Konfigurationsattribut för Video Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|progressiv</span> </p> </td> 
-   <td colname="col2"> <p> Anger den typ av uppspelning som används av visningsprogrammet. När <span class="codeph"> auto</span> är inställt används direktuppspelad HTML5-video i HLS-format i de flesta webbläsare och på alla iOS-enheter. Den återgår till progressiv uppspelning i HTML5 på vissa system som äldre Internet Explorer och Android™. </p> <p>Om <span class="codeph"> progressiv</span> har angetts förlitar sig visningsprogrammet bara på uppspelning i HTML5 som stöds av webbläsare och spelar upp video progressivt på alla system. </p> <p>Mer information om hur du väljer uppspelning i automatiskt och progressivt läge finns i användarhandboken för Viewer SDK. </p> </td> 
+   <td colname="col2"> <p> Anger den typ av uppspelning som används av visningsprogrammet. När <span class="codeph"> auto</span> har angetts används HTML5-direktuppspelad video i HLS-format i de flesta webbläsare och på alla iOS-enheter. Den återgår till progressiv uppspelning av HTML5 i vissa system som äldre Internet Explorer och Android™. </p> <p>Om <span class="codeph"> progressiv</span> har angetts förlitar sig visningsprogrammet bara på HTML5-uppspelning eftersom det stöds av webbläsare och video spelas upp progressivt på alla system. </p> <p>Mer information om hur du väljer uppspelning i automatiskt och progressivt läge finns i användarhandboken för Viewer SDK. </p> </td> 
   </tr> 
  </tbody> 
 </table>

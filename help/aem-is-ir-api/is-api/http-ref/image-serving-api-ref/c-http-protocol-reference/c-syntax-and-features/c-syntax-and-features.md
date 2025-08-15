@@ -27,7 +27,7 @@ ht-degree: 0%
 * [Bildkataloger](r-image-catalogs.md)
 * [Översättning av objekt-ID](r-object-id-translation.md)
 * [Textsträngslokalisering](r-text-string-localization.md)
-* [Stöd för SVG](r-svg-support.md)
+* [SVG support](r-svg-support.md)
 * [Förbehandling av begäran](r-request-preprocessing.md)
 * [Bildscheman](r-image-maps.md)
 * [Färghantering för bildhantering](r-color-management.md)

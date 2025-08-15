@@ -1,6 +1,6 @@
 ---
 title: Stöd för Adobe Analytics tracking
-description: Visningsprogrammet HTML5 Video360 har stöd för Adobe Analytics-spårning direkt.
+description: HTML5 Video360 Viewer har stöd för Adobe Analytics-spårning direkt.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User,Data Engineer,Data Architect
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Stöd för Adobe Analytics tracking{#support-for-adobe-analytics-tracking}
 
-Visningsprogrammet HTML5 Video360 har stöd för Adobe Analytics-spårning direkt.
+HTML5 Video360 Viewer har stöd för Adobe Analytics-spårning direkt.
 
 Om du vill aktivera spårning skickar du rätt namn på företagets förinställning som `config2`-parameter.
 
@@ -52,7 +52,7 @@ Visningsprogrammet spårar följande SDK-användarhändelser:
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>SDK-användarhändelse </p> </th> 
+   <th colname="col1" class="entry"> <p>SDK användarhändelse </p> </th> 
    <th colname="col2" class="entry"> <p>Skickat... </p> </th> 
   </tr> 
  </thead>

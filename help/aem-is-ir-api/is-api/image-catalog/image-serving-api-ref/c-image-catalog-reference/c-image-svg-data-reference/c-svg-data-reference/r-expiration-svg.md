@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Används för att hantera klient- och proxyservercachning. Servern beräknar förfallotid/datum för HTTP-svarsdata genom att lägga till det här värdet till tid/datum för överföring.
 
-Webbläsare hanterar cacheminnen med hjälp av filernas förfallotider. Innan webbläsaren skickar en begäran till servern kontrollerar den om filen redan har laddats ned. I så fall, och om filen ännu inte har gått ut, skickar webbläsaren en villkorlig GET-begäran (till exempel med fältet Om ändrad-Sedan inställt i begärandehuvudet) i stället för en vanlig GET-begäran. Servern kan svara med statusen 304 och inte skicka bilden. Webbläsaren läser sedan in filen från cachen. Detta kan avsevärt öka den övergripande prestandan för data som används ofta.
+Webbläsare hanterar cacheminnen med hjälp av filernas förfallotider. Innan webbläsaren skickar en begäran till servern kontrollerar den om filen redan har laddats ned. Om så är fallet och om filen ännu inte har gått ut, skickar webbläsaren en villkorlig GET-begäran (till exempel med fältet Om-ändrad-Sedan inställt i begärandehuvudet) i stället för en vanlig GET-begäran. Servern kan svara med statusen 304 och inte skicka bilden. Webbläsaren läser sedan in filen från cachen. Detta kan avsevärt öka den övergripande prestandan för data som används ofta.
 
 Förfallotid används för följande svarstyper:
 
@@ -30,7 +30,7 @@ Vissa typer av svar (till exempel felsvar) är alltid markerade för omedelbar f
 
 ## Egenskaper {#section-7f5173d090cf48df8fa1a2c72b8c8c60}
 
-Reellt tal, -2, -1 eller 0 eller högre. Antal timmar till förfallodatum sedan svarsbilden genererades. Ange 0 om du alltid vill att svarsbilden ska upphöra att gälla omedelbart, vilket i praktiken inaktiverar klientcache-lagring. Ange till -1 för att markera som *`never expire`*. I det här fallet returnerar servern alltid 304-status (inte ändrad) som svar på begäran om villkorlig GET utan att kontrollera om filen faktiskt har ändrats. Ange till -2 om du vill använda standardinställningen som tillhandahålls av `attribute::Expiration`.
+Reellt tal, -2, -1 eller 0 eller högre. Antal timmar till förfallodatum sedan svarsbilden genererades. Ange 0 om du alltid vill att svarsbilden ska upphöra att gälla omedelbart, vilket i praktiken inaktiverar klientcache-lagring. Ange till -1 för att markera som *`never expire`*. I det här fallet returnerar servern alltid 304-status (inte ändrad) som svar på villkorliga GET-begäranden utan att kontrollera om filen faktiskt har ändrats. Ange till -2 om du vill använda standardinställningen som tillhandahålls av `attribute::Expiration`.
 
 ## Standard {#section-ec72cc1dfc5e4f278174d37da2e39462}
 

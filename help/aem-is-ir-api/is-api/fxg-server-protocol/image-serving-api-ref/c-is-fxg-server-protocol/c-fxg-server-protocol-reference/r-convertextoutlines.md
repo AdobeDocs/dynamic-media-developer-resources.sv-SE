@@ -1,5 +1,5 @@
 ---
-description: Konvertera PDF-text till konturer.
+description: Konvertera text i en PDF-fil till konturer.
 solution: Experience Manager
 title: convertTextToOutlines
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # convertTextToOutlines{#converttexttooutlines}
 
-Konvertera PDF-text till konturer.
+Konvertera text i en PDF-fil till konturer.
 
 <table id="simpletable_FDE0D8786BC747AF87A336452500E695"> 
  <tr class="strow"> 

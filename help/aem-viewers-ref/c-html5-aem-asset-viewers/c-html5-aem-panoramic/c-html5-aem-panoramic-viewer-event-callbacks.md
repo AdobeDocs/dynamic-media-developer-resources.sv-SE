@@ -25,7 +25,7 @@ Visningsprogramhändelser som stöds är bland annat följande:
 
    * `objID {String}` används inte just nu.
    * `compClass {String}` används inte just nu.
-   * `instName {String}` ett instansnamn för HTML5 Viewer SDK-komponenten som utlöste händelsen.
+   * `instName {String}` ett instansnamn för den SDK-komponent för HTML5 Viewer som utlöste händelsen.
    * `timeStamp {Number}`-händelsens tidsstämpel.
    * `eventInfo {String}` händelsenyttolast.
 

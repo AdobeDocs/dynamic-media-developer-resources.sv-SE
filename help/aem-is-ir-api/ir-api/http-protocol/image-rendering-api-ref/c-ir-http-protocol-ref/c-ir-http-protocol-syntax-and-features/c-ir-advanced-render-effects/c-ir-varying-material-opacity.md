@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Variabel opacitet stöds för heltäckande färg och repeterbara texturer som används på överlappande objekt samt för dekorationer och fönsterbeläggning.
 
-Du kan ange opacitetsinformation genom att använda en RGB-bild med en alfakanal. Dessutom kan den övergripande opaciteten varieras med kommandot `opacity=` (både för RGB och RGBA-bilder).
+Du kan ange opacitetsinformation genom att använda en RGB-bild med en alfakanal. Dessutom kan den övergripande opaciteten varieras med kommandot `opacity=` (både för RGB- och RGBA-bilder).
 
 Vägggränser har också stöd för RGBA-bilder, främst för att stödja urklippsgränser.
 

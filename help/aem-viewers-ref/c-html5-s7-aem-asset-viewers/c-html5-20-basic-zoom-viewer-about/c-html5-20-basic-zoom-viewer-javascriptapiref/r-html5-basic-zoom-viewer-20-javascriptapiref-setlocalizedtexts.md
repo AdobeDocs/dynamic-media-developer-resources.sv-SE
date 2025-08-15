@@ -22,7 +22,7 @@ JavaScript API-referens för Basic Zoom Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo </span> </span> </p> </td> 
-   <td colname="col2"> <p> {<span class="codeph"> Object</span>} JSON-objekt med lokaliseringsdata. </p> <p>Mer information finns i <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74" format="dita" scope="local"> Lokalisering av användargränssnittselement </a>. </p> <p> Mer information om objektets innehåll finns även i <i>användarhandboken för visningsprogrammet för SDK</i> och i exemplet. </p> </td> 
+   <td colname="col2"> <p> {<span class="codeph"> Object</span>} JSON-objekt med lokaliseringsdata. </p> <p>Mer information finns i <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74" format="dita" scope="local"> Lokalisering av användargränssnittselement </a>. </p> <p> Se även <i>Användarhandboken för visningsprogrammet för SDK</i> och exemplet för mer information om objektets innehåll. </p> </td> 
   </tr> 
  </tbody> 
 </table>

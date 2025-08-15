@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 0c9a489c-36e0-4934-b9c5-33414a9ce0b8
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1210'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Image Serving försöker vanligtvis fördröja färgkonverteringar under bearbet
 
 >[!NOTE]
 >
->Kommandona `op_brightness=`, `op_colorbalance=`, `op_colorize=`, `op_contrast=`, `op_hue=` och `op_saturation=` är RGB. De här åtgärderna bevarar endast färgåtergivningen om lagerfärgrymden har pixeltypen RGB. Om det inte är RGB konverteras data till RGB med tidigare okänd färgkonvertering och resultatet har begränsad färgåtergivning. Lagerfärgrymden för sådana lager bör betraktas som obestämd.
+>Kommandona `op_brightness=`, `op_colorbalance=`, `op_colorize=`, `op_contrast=`, `op_hue=` och `op_saturation=` är RGB-åtgärder. De här åtgärderna bevarar endast färgåtergivningen om lagerfärgrymden har RGB pixeltyp. Om det inte är RGB konverteras data till RGB med tidigare okänd färgkonvertering och resultatet har begränsad färgåtergivning. Lagerfärgrymden för sådana lager bör betraktas som obestämd.
 
 Färgkonverteringsalternativen anges med `icc=` eller, om `icc=` inte anges, med `attribute::IccRenderIntent`, `attribute::IccBlackPointCompensation` och `attribute::IccDither`.
 
@@ -76,13 +76,13 @@ För närvarande stöds endast färgrymderna CMYK, RGB och gråskala.
 
 ## ICC-färgprofiler som ingår {#section-98b4a7d9f9814e8ba27d6dcf3dcf850c}
 
-Bildredigering innehåller de flesta vanliga Adobe ICC-profiler i standardbildkatalogen. Dessa profiler kan nås antingen med deras gemensamma namn (till exempel enligt Photoshop) eller med en något kortare identifierare. I följande tabell visas alla vanliga ICC-profiler. När en profil i kommandot `icc=` refereras med sitt vanliga namn måste blanksteg kodas som `%20`.
+Image Serving innehåller de flesta vanliga Adobe ICC-profiler i standardbildkatalogen. Dessa profiler kan nås antingen med deras gemensamma namn (till exempel enligt Photoshop) eller med en något kortare identifierare. I följande tabell visas alla vanliga ICC-profiler. När en profil i kommandot `icc=` refereras med sitt vanliga namn måste blanksteg kodas som `%20`.
 
 Ytterligare profiler kan läggas till i standardprofilerna, antingen i standardkatalogen eller i en viss bildkatalog. Mer information finns i [ICC Profile Map Reference](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c).
 
 >[!NOTE]
 >
->Följande tabell gäller endast för *Dynamic Media Hybrid* (körs i körläge `dynamicmedia`).
+>Följande tabell gäller endast för *Dynamic Media Hybrid* (körs i `dynamicmedia` körningsläge).
 
 | Identifierare | Gemener | Filnamn |
 |-- |-- |-- |
@@ -96,7 +96,7 @@ Ytterligare profiler kan läggas till i standardprofilerna, antingen i standardk
 | `ProPhoto` | ProPhoto RGB | ProPhoto.icm |
 | `SMPTE` | SMPTE-C | SMPTE-C.icc |
 | `sRGB` | sRGB IEC61966-2.1 | sRgb-färgrymdsprofil.icm |
-| `WideGamutRGB` | Bred färgomfång RGB | WideGamutRGB.icc |
+| `WideGamutRGB` | Wide Gamut RGB | WideGamutRGB.icc |
 | **CMYK** |  |  |
 | `CoatedFogra27` | Coated FOGRA27 (ISO 12647-2:2004) | CoatedFOGRA27.icc |
 | `CoatedFogra39` | Coated FOGRA39 (ISO 12647-2:2004) | CoatedFOGRA39.icc |
@@ -114,14 +114,14 @@ Ytterligare profiler kan läggas till i standardprofilerna, antingen i standardk
 | `PS5Default` | Photoshop 5 - standard-CMYK | Photoshop5DefaultCMYK.icc |
 | `SheetfedCoated` | U.S. Sheetfed Coated v2 | USSheetfedCoated.icc |
 | `SheetfedUncoated` | U.S. Sheetfed Uncoated v2 | USSheetfedUncoated.icc |
-| `UncoatedFogra29` | Uncoated FOGRA29 (ISO 12647-2:2004) | UncoatedFOGRA29.icc |
+| `UncoatedFogra29` | Obestruket FOGRA29 (ISO 12647-2:2004) | UncoatedFOGRA29.icc |
 | `WebCoated` | U.S. Web Coated (SWOP) v2 | USWebCoatedSWOP.icc |
 | `WebCoatedFogra28` | Web Coated FOGRA28 (ISO 12647-2:2004) | WebCoatedFOGRA28.icc |
 | `WebCoatedGrade3` | Web Coated SWOP 2006 Grade 3 Paper | WebCoatedSWOP2006Grade3.icc |
 | `WebCoatedGrade5` | Web Coated SWOP 2006 Grade 5 Paper | WebCoatedSWOP2006Grade5.icc |
 | `WebUncoated` | U.S. Web Uncoated v2 | USWebUncoated.icc |
 
-Följande tabell gäller för *Dynamic Media Classic Image Serving* och *Dynamic Media* (körs i `dynamicmedia_scene7` körningsläge).
+Följande tabell gäller *Dynamic Media Classic Image Serving* och *Dynamic Media* (körs i `dynamicmedia_scene7` körningsläge).
 
 | Identifierare | Gemener | Filnamn |
 |-- |-- |-- |
@@ -135,7 +135,7 @@ Följande tabell gäller för *Dynamic Media Classic Image Serving* och *Dynamic
 | `ProPhoto RGB` | ProPhoto RGB | ProPhoto RGB.icm |
 | `SMPTE` | SMPTE-C | SMPTE-C.icc |
 | `sRGB` | sRGB IEC61966-2.1 | sRgb-färgrymdsprofil.icm |
-| `WideGamutRGB` | Bred färgomfång RGB | WideGamutRGB.icc |
+| `WideGamutRGB` | Wide Gamut RGB | WideGamutRGB.icc |
 | **CMYK** |  |  |
 | `CoatedFogra27` | Coated FOGRA27 (ISO 12647-2:2004) | CoatedFOGRA27.icc |
 | `CoatedFogra39` | Coated FOGRA39 (ISO 12647-2:2004) | CoatedFOGRA39.icc |
@@ -152,7 +152,7 @@ Följande tabell gäller för *Dynamic Media Classic Image Serving* och *Dynamic
 | `PS5Default` | Photoshop 5 - standard-CMYK | Photoshop5DefaultCMYK.icc |
 | `SheetfedCoated` | U.S. Sheetfed Coated v2 | USSheetfedCoated.icc |
 | `SheetfedUncoated` | U.S. Sheetfed Uncoated v2 | USSheetfedUncoated.icc |
-| `UncoatedFogra29` | Uncoated FOGRA29 (ISO 12647-2:2004) | UncoatedFOGRA29.icc |
+| `UncoatedFogra29` | Obestruket FOGRA29 (ISO 12647-2:2004) | UncoatedFOGRA29.icc |
 | `US Newsprint (SNAP 2007)` | US Newsprint (SNAP 2007) | USNewsprintSNAP2007.icc |
 | `WebCoated` | U.S. Web Coated (SWOP) v2 | USWebCoatedSWOP.icc |
 | `WebCoatedFogra28` | Web Coated FOGRA28 (ISO 12647-2:2004) | WebCoatedFOGRA28.icc |

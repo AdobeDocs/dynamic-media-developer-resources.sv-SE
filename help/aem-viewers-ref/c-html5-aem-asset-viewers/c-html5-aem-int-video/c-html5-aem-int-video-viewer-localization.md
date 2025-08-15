@@ -154,15 +154,15 @@ Följande SYMBOL stöds:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FacebookShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Facebook delningsknapp. </p> </td> 
+   <td colname="col2"> <p>Delningsknapp för Facebook. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Knappen Dela twitter. </p> </td> 
+   <td colname="col2"> <p>Twitter-delningsknapp. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> CloseButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Knappen Stäng på åtgärdspanelen. </p> </td> 
+   <td colname="col2"> <p>Stäng-knappen på panelen call to action. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> VideoPlayer.ERROR </span> </p> </td> 

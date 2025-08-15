@@ -28,25 +28,25 @@ Självstorleksändringslager för `text=` och `textPs=` har liknande utseende oc
 
 Följande exempel är för text i förstorlek. Beteendet för text som ändrar storlek automatiskt är annorlunda.
 
-**&#x200B; `Text=` har alltid en smal marginal överst:**
+** `Text=` har alltid en smal marginal överst:**
 
 ![Exempel på textplacering är en bild](assets/tp01.png)
 
 `/is/image/?size=230,50&bgc=f0f0f0&fmt=png&text=\fs40Normal%20Normal%20Normal`
 
-**&#x200B; `textPs=` återger text som är tätt justerad mot textrutans överkant, vilket resulterar i en viss urklippning, även för vanliga teckensnitt som Arial®:**
+** `textPs=` återger text som är tätt justerad mot textrutans överkant, vilket resulterar i en viss urklippning, även för vanliga teckensnitt som Arial®:**
 
 ![Exempel på textplacering är två bilder](assets/tp02.png)
 
 `/is/image/?size=230,50&bgc=f0f0f0&fmt=png&textPs=\fs40Normal%20Normal%20Normal`
 
-**&#x200B; `text=` förskjuter automatiskt återgiven text nedåt för att undvika urklipp:**
+** `text=` förskjuter automatiskt återgiven text nedåt för att undvika urklipp:**
 
 ![Exempel på textplacering är tre bilder](assets/tp03.png)
 
 `/is/image?size=230,50&bgc=f0f0f0&fmt=png&text=\fs40Normal%20{\up20Raised%20}Normal`
 
-**&#x200B; `textPs=` flyttar inte text som innehåller upphöjda delar, vilket resulterar i betydande bortfall om texten finns i lager 0:**
+** `textPs=` flyttar inte text som innehåller upphöjda delar, vilket resulterar i betydande bortfall om texten finns i lager 0:**
 
 ![Exempel på textplacering är fyra bilder](assets/tp04.png)
 

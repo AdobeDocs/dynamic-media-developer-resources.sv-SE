@@ -26,7 +26,7 @@ Servern bör uppfylla följande maskinvarukrav.
 
 **Windows**
 
-* Intel Xeon®- eller AMD® Opteron-processor med minst fyra kärnor.
+* Intel Xeon® eller AMD® Opteron CPU med minst fyra kärnor.
 * Minst 1 GB RAM-minne.
 * Växlingsutrymmet är minst dubbelt så stort som mängden fysiskt minne (RAM).
 * 2 GB ledigt hårddiskutrymme för installation och grundläggande funktioner. Ytterligare diskutrymme krävs för källbilder, loggar, datacache och manifestfiler.
@@ -34,7 +34,7 @@ Servern bör uppfylla följande maskinvarukrav.
 
 **Linux®**
 
-* Intel Xeon®- eller AMD® Opteron-processor med minst fyra kärnor.
+* Intel Xeon® eller AMD® Opteron CPU med minst fyra kärnor.
 * Minst 16 GB RAM-minne.
 * Växling är inaktiverat (rekommenderas).
 * 2 GB ledigt hårddiskutrymme för installation och grundläggande funktioner. Ytterligare diskutrymme krävs för källbilder, loggar, datacache och manifestfiler.

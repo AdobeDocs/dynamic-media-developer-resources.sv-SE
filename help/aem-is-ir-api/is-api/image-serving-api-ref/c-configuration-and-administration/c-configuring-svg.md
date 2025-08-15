@@ -1,7 +1,7 @@
 ---
 description: SVgRender-komponenten är ett oberoende Java-program.
 solution: Experience Manager
-title: Konfigurerar SVG
+title: Konfigurera SVG
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 9013e13f-818f-41b4-80b6-2615d9a8742f
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# Konfigurerar SVG{#configuring-svg}
+# Konfigurera SVG{#configuring-svg}
 
 SVgRender-komponenten är ett oberoende Java-program.
 
-Konfigurationsinställningarna för SVG finns i [!DNL PlatformServer.conf], [!DNL SVG.conf], [!DNL ImageServerRegistry.xml] och [!DNL ServerSupervisorRegistry.xml].
+SVG konfigurationsinställningar finns i [!DNL PlatformServer.conf], [!DNL SVG.conf], [!DNL ImageServerRegistry.xml] och [!DNL ServerSupervisorRegistry.xml].
 
 En socketanslutning används för att kommunicera mellan SVGRender och Image Server. Portnumret är 27346. Om det behövs kan det ändras genom att ställa in `SVGRender.port` i [!DNL svg.conf] och `<SVGTcpPort>` i [!DNL ImageServerRegistry.xml] på ett nytt värde.
 

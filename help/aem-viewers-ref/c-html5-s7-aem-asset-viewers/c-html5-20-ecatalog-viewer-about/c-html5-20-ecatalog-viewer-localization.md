@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Visst innehåll som visas i eCatalog Viewer kan lokaliseras, t.ex. zoomknappar, sidändringsknappar, miniatyrknappar, helskärmsknappar, stängningsknappar och rullningslistknappar.
 
-Varje textinnehåll i visningsprogrammet som kan lokaliseras representeras av en SDK-identifierare för visningsprogrammet som kallas SYMBOL. Alla SYMBOL har ett standardassocierat textvärde för den engelska språkversionen ( `"en"`) som medföljer visningsprogrammet som inte är installerat och kan även ha användardefinierade värden för så många språkområden som behövs.
+Varje textinnehåll i visningsprogrammet som kan lokaliseras representeras av en speciell Viewer SDK-identifierare som kallas SYMBOL. Alla SYMBOL har ett standardassocierat textvärde för den engelska språkversionen ( `"en"`) som medföljer visningsprogrammet som inte är installerat och kan även ha användardefinierade värden för så många språkområden som behövs.
 
 När visningsprogrammet startas kontrolleras det aktuella språkområdet för att se om det finns ett användardefinierat värde för varje SYMBOL som stöds i språkområdet. Om det finns något används det användardefinierade värdet, i annat fall används standardtexten som inte finns.
 
@@ -294,11 +294,11 @@ Följande SYMBOL stöds (under förutsättning att containerId är visningsbehå
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FacebookShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Facebook delningsknapp. </p> </td> 
+   <td colname="col2"> <p>Delningsknapp för Facebook. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Knappen Dela twitter. </p> </td> 
+   <td colname="col2"> <p>Twitter-delningsknapp. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.TOOLTIP </span> </p> </td> 

@@ -1,6 +1,6 @@
 ---
 title: AnimatedGifInfo
-description: Egenskaper för en Animated GIF-filresurs.
+description: Egenskaper för en animerad GIF-filresurs.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL AnimatedGifInfo]{#animatedgifinfo}
 
-Egenskaper för en Animated GIF-filresurs.
+Egenskaper för en animerad GIF-filresurs.
 
 Syntax
 
@@ -32,7 +32,7 @@ Syntax
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> [!DNL originalPath]</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>Sökväg till filen GIF. </p> </td> 
+   <td colname="col3"> <p>Sökväg till GIF-filen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> [!DNL originalFile]</span> </span> </p> </td> 

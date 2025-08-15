@@ -1,5 +1,5 @@
 ---
-description: Standardkodningsattribut för JPEG. Anger standardattributen för svarsbilder i JPEG.
+description: JPEG standardkodningsattribut. Anger standardattributen för JPEG svarsbilder.
 solution: Experience Manager
 title: JpegQuality
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # JpegQuality{#jpegquality}
 
-Standardkodningsattribut för JPEG. Anger standardattributen för svarsbilder i JPEG.
+JPEG standardkodningsattribut. Anger standardattributen för JPEG svarsbilder.
 
 ## Egenskaper {#section-7a75ebaf11bd4b778d287c2c5c150d0c}
 
-Heltal och flagga, avgränsade med komma. Det första värdet ligger inom intervallet 1..100 och definierar kvaliteten. Det andra värdet kan vara 0 för normalt beteende eller 1 för att inaktivera nedsampling av kromaticitet i RGB som normalt används av JPEG-kodare.
+Heltal och flagga, avgränsade med komma. Det första värdet ligger inom intervallet 1..100 och definierar kvaliteten. Det andra värdet kan vara 0 för normalt beteende, eller 1 för att inaktivera RGB-nedsampling av kromaticitet som vanligtvis används av JPEG-kodare.
 
 ## Standard {#section-0b25eddd59bc434abfe38eeea9d45df3}
 

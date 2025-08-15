@@ -20,15 +20,15 @@ ht-degree: 0%
 
 Om visningsprogrammet fungerar i den konfiguration som beskrivs i början av det här avsnittet, kan publicerad videoleverans ske både i HTTPS-läge (säkert) och HTTP-läge (osäkert). I en standardkonfiguration följer leveransprotokollet strikt leveransprotokollet för inbäddningswebbsidan. Det är dock möjligt att tvinga HTTPS-video att levereras utan hänsyn till det protokoll som används när webbsidan bäddas in med konfigurationsattributet [VideoPlayer.ssl](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-ssl.md#reference-df0a29aa8a584cebaaa1c7bb6fab362e). (Förhandsgranskning av video i redigeringsläge levereras alltid säkert via HTTPS.)
 
-Beroende på vilken metod du använder för att publicera Dynamic Media-video i Adobe Experience Manager används konfigurationsattributet `VideoPlayer.ssl` på ett annat sätt, vilket visas i följande exempel:
+Beroende på den metod för publicering av Dynamic Media-video som du använder i Adobe Experience Manager används konfigurationsattributet `VideoPlayer.ssl` på ett annat sätt, vilket visas i följande exempel:
 
-* Om du publicerar en Dynamic Media-video med en URL-adress lägger du till `VideoPlayer.ssl` i URL-adressen. Om du till exempel vill framtvinga en säker videoleverans lägger du till `&VideoPlayer.ssl=on` i slutet av följande exempel på visningsprogrammets URL:
+* Om du publicerar en Dynamic Media-video med en URL, lägger du till `VideoPlayer.ssl` i URL:en. Om du till exempel vill framtvinga en säker videoleverans lägger du till `&VideoPlayer.ssl=on` i slutet av följande exempel på visningsprogrammets URL:
 
   ```
   https://demos-pub.assetsadobe.com/etc/dam/viewers/s7viewers/html5/MixedMediaViewer.html?asset=%2Fcontent%2Fdam%2FGeometrixx-Outdoors-New-Launch%2Fbackpack%2Fbackpack_mixed_media&config=/etc/dam/presets/viewer/MixedMedia_light&serverUrl=https%3A%2F%2Fadobedemo62-h.assetsadobe.com%2Fis%2Fimage%2F&contenturl=%2F&config2=/etc/dam/presets/analytics&videoserverurl=https://gateway-na.assetsadobe.com/DMGateway/public/demoCo&VideoPlayer.ssl=on
   ```
 
-  Se även [(Länka URL:er till ditt webbprogram](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=sv-SE#dynamic).
+  Se även [(Länka URL:er till ditt webbprogram](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic).
 
 * Om du publicerar en Dynamic Media-video med inbäddad kod lägger du till `VideoPlayer.ssl` i listan över andra parametrar för visningsprogramkonfiguration i det inbäddade kodfragmentet. Om du till exempel vill tvinga HTTPS-videoleverans lägger du till `&VideoPlayer.ssl=on` som i följande exempel:
 
@@ -56,4 +56,4 @@ Beroende på vilken metod du använder för att publicera Dynamic Media-video i 
   </script>
   ```
 
-  Se även [(Bädda in videon på en webbsida ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=sv-SE#dynamic).
+  Se även [(Bädda in videon på en webbsida ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic).

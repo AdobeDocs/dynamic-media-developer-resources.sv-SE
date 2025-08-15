@@ -1,6 +1,6 @@
 ---
 title: qlt
-description: JPEG-kvalitet. Anger kodningsattribut för JPEG för att styra komprimeringsnivån.
+description: JPEG-kvalitet. Anger JPEG-kodningsattribut som styr komprimeringsnivån.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,14 +14,14 @@ ht-degree: 0%
 
 # qlt{#qlt}
 
-JPEG-kvalitet. Anger kodningsattribut för JPEG för att styra komprimeringsnivån.
+JPEG-kvalitet. Anger JPEG-kodningsattribut som styr komprimeringsnivån.
 
 ` qlt= *`quality`*[. *`chroma`*]`
 
 <table id="simpletable_A245B6A3D2374A6A89DE63A5621CFEC0"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> kvalitet </span> </p> </td> 
-  <td class="stentry"> <p>JPEG (1...100) </p> </td> 
+  <td class="stentry"> <p>JPEG-kodningskvalitet (1...100) </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> kroma </span> </p> </td> 
@@ -29,7 +29,7 @@ JPEG-kvalitet. Anger kodningsattribut för JPEG för att styra komprimeringsniv�
  </tr> 
 </table>
 
-Anger kodningsattribut för JPEG för att styra komprimeringsnivån. Detta varierar i sin tur filstorleken (mängden svarsdata) och, indirekt, den resulterande bildens visuella kvalitet.
+Anger JPEG-kodningsattribut som styr komprimeringsnivån. Detta varierar i sin tur filstorleken (mängden svarsdata) och, indirekt, den resulterande bildens visuella kvalitet.
 
 Högre *`quality`*-värden ökar filstorleken och kvaliteten, lägre värden minskar filstorleken och minskar den upplevda bildkvaliteten. Värden över 90 genererar ofta bilder som inte kan särskiljas från den okomprimerade bilden.
 

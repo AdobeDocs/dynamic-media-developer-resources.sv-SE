@@ -35,11 +35,11 @@ Grundsyntaxen för HTTP-protokollet är följande:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> modifier </span> </span> </p></td> 
-  <td class="stentry"> <p><span class="codeph">kommando|{$<span class="varname"> makro</span>$}|&lbrace;.<span class="varname"> kommentar </span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">kommando|{$<span class="varname"> makro</span>$}|{.<span class="varname"> kommentar </span></span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> command</span> </span> </p> </td> 
-  <td class="stentry"> <p>&lbrace;<span class="varname"> cmdName</span>|{$<span class="varname"> var</span>}[=<span class="varname"> värde</span>] </p></td> 
+  <td class="stentry"> <p>{<span class="varname"> cmdName</span>|{$<span class="varname"> var</span>}[=<span class="varname"> värde</span>] </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> makro </span> </span> </p> </td> 
@@ -81,7 +81,7 @@ Image Serving extraherar först *`object`* och *`modifiers`* från den inkommand
 
 ## Kommentar {#section-69ef0be0f17a418c87a0eba21c2ddb00}
 
-Kommentarer kan bäddas in i begärandesträngar var som helst och identifieras av en punkt (.) direkt efter kommandoavgränsaren (&amp;). Kommentaren avslutas av nästa förekomst av en (okodad) kommandoavgränsare. Den här funktionen kan användas för att lägga till information i begäran som inte är avsedd för Image Serving, t.ex. tidsstämplar och databas-ID:n.
+Kommentarer kan bäddas in i begärandesträngar var som helst och identifieras av en punkt (.) omedelbart efter kommandoavgränsaren (&amp;). Kommentaren avslutas av nästa förekomst av en (okodad) kommandoavgränsare. Den här funktionen kan användas för att lägga till information i begäran som inte är avsedd för Image Serving, t.ex. tidsstämplar och databas-ID:n.
 
 ## Se även {#section-d0b836568c31454b8dbeb136e6bbe0f0}
 

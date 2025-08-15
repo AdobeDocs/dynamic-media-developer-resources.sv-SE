@@ -39,7 +39,7 @@ Implementerade `trashState`-param för `searchAssets`.
 
 Åtgärden `getAssetPublishHistory` har implementerats.
 
-Det valfria huvudet `faultHttpStatusCode` SOAP har lagts till för att aktivera felhantering i Flex. Använd `<faultHttpStatusCode>200</faultHttpStatusCode>` för Flex. Standardstatuskoden för felsvar är `500 (Internal Server Error)`.
+Ett valfritt `faultHttpStatusCode` SOAP-huvud har lagts till för att aktivera felhantering i Flex. Använd `<faultHttpStatusCode>200</faultHttpStatusCode>` för Flex. Standardstatuskoden för felsvar är `500 (Internal Server Error)`.
 
 Lagt till åtgärder för att återställa resurser från papperskorgen och tomma resurser från papperskorgen.
 
@@ -79,7 +79,7 @@ Stöd har lagts till för `setImageSetMembers` för att inkludera `RenderSet` me
 
 Företagsinställningar för IPS, `CompanySettings`, som har porterats till API:t för webbtjänster.
 
-`excludeByproducts` filterflagga har lagts till i åtgärden `searchAssets`. Om du anger den här flaggan som true körs `PSDlayer` bilder och bilder som har rippats i PDF.
+`excludeByproducts` filterflagga har lagts till i åtgärden `searchAssets`. Om du anger den här flaggan som true körs `PSDlayer` bilder och PDF rensade bilder.
 
 `getGenerationInfo`-åtgärden har lagts till.
 
@@ -115,7 +115,7 @@ Visningsprogrammets skal har stöd för två parametrar: `skinFg` och `skinBg`. 
 
 Åtgärden `getAssociatedAssets` har implementerats.
 
-`ReprocessAssets`-jobbtypen har lagts till för att tillåta ombearbetning av tidigare överförda primära källfiler, inklusive återställande av PDF och omoptimering av bilder.
+`ReprocessAssets`-jobbtypen har lagts till för att tillåta ombearbetning av tidigare överförda primära källfiler, inklusive återgivning av PDF-filer och omoptimering av bilder.
 
 Fälttypen `PropertySetType` har bytt namn till `propertyType`. Namnändringen påverkar parametern `createPropertySetType` och svaret på `getPropertySetType/getPropertySetTypes`.
 
@@ -160,11 +160,11 @@ Fälttypen `PropertySetType` har bytt namn till `propertyType`. Namnändringen p
 
 Lagt till språkparametrar för jobb och en mekanism för att ange språkområde för API-åtgärder. Språksträngen ska formateras som `<language_code>[-<country_code>]`. Språkkoden är en gemen kod med två bokstäver enligt ISO-639, och den valfria landskoden är en kod med två bokstäver i versaler enligt ISO-3166.
 
-En valfri språkinställningsparameter har lagts till i SOAP `authHeader` för att ange språkinställningen för API-åtgärder. Om den här parametern inte finns används HTTP-huvudet `Accept-Language`. Om den här rubriken inte finns används standardspråket för IPS-servern.
+En valfri språkområdesparameter har lagts till i SOAP-huvudet `authHeader` för att ange språkområdet för API-åtgärder. Om den här parametern inte finns används HTTP-huvudet `Accept-Language`. Om den här rubriken inte finns används standardspråket för IPS-servern.
 
 Stöd för get/set har lagts till för metadatafält med starkt typsnitt.
 
-Implementerat stöd för SOAP och HTTP-huvud för GZIP-svarskontroll.
+Stöd för SOAP- och HTTP-huvuden för GZIP-svarskontroll har implementerats.
 
 `gzipResponse`-flaggan har lagts till i `authHeader`. Om den inte finns kontrollerar API:t HTTP `Accept-Encoding`-huvudet.
 
@@ -327,7 +327,7 @@ Ytterligare alternativ har lagts till i `UploadDirectoryJob` och `UploadUrlsJob`
   <tr> 
    <td colname="col2"> <p> <span class="codeph"> extractSearchWords </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;boolesk&gt; </span> </p> </td> 
-   <td colname="col4"> <p>Definierar om ord från PDF ska extraheras till databasen för att senare skickas till en sökserver (standardvärdet är false). </p> </td> 
+   <td colname="col4"> <p>Definierar om ord från PDF extraheras till databasen för att senare skickas till en sökserver (standardvärdet är false). </p> </td> 
   </tr> 
  </tbody> 
 </table>

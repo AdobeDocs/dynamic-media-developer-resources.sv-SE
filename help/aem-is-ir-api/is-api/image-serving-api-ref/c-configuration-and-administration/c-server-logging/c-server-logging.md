@@ -22,7 +22,7 @@ Viktigt! Det måste finnas tillräckligt mycket diskutrymme för loggfiler för 
 
 [!DNL Platform Server] och Image Server skapar de tre typer av loggfiler som beskrivs nedan.
 
-Andra Image Serving-komponenter och vissa andra Dynamic Media-paket, som Dynamic Media Viewer, kan också skapa loggfiler i samma mapp. Loggfilerna är avsedda för Dynamic Media internt bruk och kan begäras av Dynamic Media tekniska support för felsökning.
+Andra Image Serving-komponenter och vissa andra Dynamic Media-paket, till exempel Dynamic Media Viewer, kan också skapa loggfiler i samma mapp. Loggfilerna är avsedda för intern användning av Dynamic Media och kan begäras av Dynamic Media teknisk support för felsökning.
 
 * [Åtkomstlogg](c-access-log.md)
 * [Spårningslogg](c-trace-log.md)

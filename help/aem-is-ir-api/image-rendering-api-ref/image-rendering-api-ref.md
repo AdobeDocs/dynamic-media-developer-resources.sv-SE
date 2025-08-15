@@ -1,6 +1,6 @@
 ---
 title: API-referens för bildåtergivning
-description: Visa referenshjälpen för Dynamic Media Image Rendering API.
+description: Visa API-referenshjälpen för dynamisk bildåtergivning.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # API-referens för bildåtergivning {#image-rendering-api-reference}
 
-Visa referenshjälpen för Dynamic Media Image Rendering API.
+Visa API-referenshjälpen för dynamisk bildåtergivning.

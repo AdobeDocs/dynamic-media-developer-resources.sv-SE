@@ -1,5 +1,5 @@
 ---
-description: Egenskaperna för en PDF-inställningsfilresurs.
+description: Egenskaperna för en PDF inställningsfil.
 solution: Experience Manager
 title: PDFSettingsInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL PdfSettingsInfo]{#pdfsettingsinfo}
 
-Egenskaperna för en PDF-inställningsfilresurs.
+Egenskaperna för en PDF inställningsfil.
 
 Syntax
 

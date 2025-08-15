@@ -19,7 +19,7 @@ Materialkataloger har flera funktioner.
 * Tillåt beständig definition av material, inklusive alla materialegenskaper.
 
   Material som definieras i materialkatalogen kan refereras med ett enkelt ID i stället för en uppsättning materialegenskaper.
-* Ange standardvärden för vissa begärandeattribut, t.ex. JPEG-kvalitet eller en standardstorlek för svarsbilder.
+* Ange standardvärden för vissa attribut, som JPEG-kvalitet eller en standardstorlek för svarsbilder.
 * Hantera vinjetter, ICC-profiler och förfrågningsmallar.
 
 Även om inga särskilda materialkataloger har definierats är alla funktioner i materialkataloger tillgängliga som standardkatalog ( [!DNL default.ini]).

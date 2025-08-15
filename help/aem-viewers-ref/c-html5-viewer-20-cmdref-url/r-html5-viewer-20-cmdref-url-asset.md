@@ -62,7 +62,7 @@ eller
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> multiDimensionalSpinSet </span> </span> </p> </td> 
-   <td colname="col2"> <p>Anger en explicit flerdimensionell snurra med följande syntax: </p> <p> <span class="codeph"> (( <span class="varname"> horizontalSpinSet </span>) [,( <span class="varname"> horizontalSpinSet </span>)]) </span> </p> <p> där <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> är en kommaavgränsad lista med bildrutor för en given vågrät axel. Alla <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> ska ha samma antal bildrutor. </p> <p> <p>Obs! Den här funktionen stöds i Adobe Dynamic Media Classic, men inte i Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p>Anger en explicit flerdimensionell snurra med följande syntax: </p> <p> <span class="codeph"> (( <span class="varname"> horizontalSpinSet </span>)[,( <span class="varname"> horizontalSpinSet </span>)]) </span> </p> <p> där <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> är en kommaavgränsad lista med bildrutor för en given vågrät axel. Alla <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> ska ha samma antal bildrutor. </p> <p> <p>Obs! Den här funktionen stöds i Adobe Dynamic Media Classic, men inte i Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> modifiers </span> </span> </p> </td> 

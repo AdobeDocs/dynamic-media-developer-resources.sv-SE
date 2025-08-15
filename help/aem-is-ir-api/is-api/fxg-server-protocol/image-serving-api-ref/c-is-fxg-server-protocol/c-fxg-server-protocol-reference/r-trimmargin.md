@@ -1,5 +1,5 @@
 ---
-description: Ange trimningsmarginal. Anger den trimningsmarginal som är angiven i filen PDF.
+description: Ange trimningsmarginal. Anger den trimningsmarginal som ställs in i PDF-filen.
 solution: Experience Manager
 title: trimMargin
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # trimMargin{#trimmargin}
 
-Ange trimningsmarginal. Anger den trimningsmarginal som är angiven i filen PDF.
+Ange trimningsmarginal. Anger den trimningsmarginal som ställs in i PDF-filen.
 
 ` trimMargin=[ *[!DNL top]*[, *[!DNL left]*= *[!DNL top]*[, *[!DNL bottom]*= *[!DNL top]*[, *[!DNL right]*= *[!DNL left]*]]]]` i punkter
 

@@ -35,7 +35,7 @@ Om något annat kommando anges i begäran returneras ett sammansatt bildschema. 
 
 Ange `text` eller utelämna den andra parametern så att du kan returnera data för bildschemat i form av en `HTML <AREA>` -elementsträng med MIME-svarstyp `text/plain`.
 
-Ange `xml` så att du kan formatera svaret som XML i stället för HTML. Textkodning kan anges om så önskas. Standardvärdet är `UTF-8`.
+Ange `xml` så att du kan formatera svaret som XML i stället för som HTML. Textkodning kan anges om så önskas. Standardvärdet är `UTF-8`.
 
 Returnerar en tom sträng (eller ett tomt `<AREA>`-element) om inga mappningsdata hittades för de angivna katalogobjekten och/eller om inga `<AREA>` -element återstår efter att bilderna har beskurits.
 

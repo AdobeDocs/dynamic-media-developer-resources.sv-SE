@@ -1,5 +1,5 @@
 ---
-description: Ange mediemarginal. Anger den mediemarginal som anges i filen PDF.
+description: Ange mediemarginal. Anger den mediemarginal som anges i PDF-filen.
 solution: Experience Manager
 title: mediaMargin
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # mediaMargin{#mediamargin}
 
-Ange mediemarginal. Anger den mediemarginal som anges i filen PDF.
+Ange mediemarginal. Anger den mediemarginal som anges i PDF-filen.
 
 ` mediaMargin=[ *[!DNL top]*[, *[!DNL left]*= *[!DNL top]*[, *[!DNL bottom]*= *[!DNL top]*[, *[!DNL right]*= *[!DNL left]*]]]]` i punkter
 

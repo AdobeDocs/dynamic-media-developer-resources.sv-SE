@@ -37,7 +37,7 @@ Variabelnamnet *`var`* är inte skiftlägeskänsligt och kan bestå av en kombin
 
 >[!NOTE]
 >
->*`value`* måste vara URL-kodad med en omgång för säker HTTP-överföring. Dubbel kodning krävs om *`value`* överförs på nytt via HTTP. Detta är fallet när *`value`* ersätts i en kapslad extern begäran eller i href-attributet för ett `<image>`-element i SVG.
+>*`value`* måste vara URL-kodad med en omgång för säker HTTP-överföring. Dubbel kodning krävs om *`value`* överförs på nytt via HTTP. Detta är fallet när *`value`* ersätts i en kapslad extern begäran eller i href-attributet för ett SVG `<image>` -element.
 
 Variabelreferenser består av variabelnamnet som avgränsas av inledande och avslutande &#39;$&#39; ($*var*$). Referenser kan förekomma var som helst i värdedelen av ett IS-kommando (det vill säga mellan &#39;=&#39; efter kommandonamnet och efterföljande &#39;&amp;&#39; eller slutet av begäran). Det går inte att använda anpassade variabler för kommandona `layer=` och `effect=`. Flera variabler tillåts i samma kommandovärde. Servern ersätter varje förekomst av ` $ *`var`*$` med *`value`*.
 

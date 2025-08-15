@@ -23,7 +23,7 @@ Följande systemegenskaper stöds:
 * `VideoRootUrl`
 * `swfRootUrl`
 * `SvgRenderRootUrl`: URL-prefix för återgivning av SVG-resurser.
-* `SvgRenderEnabled`: Sant om SVG-resurser kan återges av `SvgRenderRootUrl`.
+* `SvgRenderEnabled`: True om SVG-resurser kan återges av `SvgRenderRootUrl`.
 
 * `UploadPostMaxFileSize`: Största tillåtna storlek (i byte) för fildata i en överföring [!DNL POST]. Filer som är större än maxgränsen nekas.
 

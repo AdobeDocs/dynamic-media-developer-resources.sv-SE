@@ -33,7 +33,7 @@ Materialfil. Anger materialdata, antingen i form av en enstaka materialkatalogre
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> embeddedReq</span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph">&klammerparentes;'is&lbrace;'<span class="varname"> isReq</span>'&klammerparentes;'&klammerparentes;'&klammerparenteser;'<span class="varname"> irReq</span>'&klammerparenteser;'|&klammerparenteser;'&klammerparenteser;;' <span class="varname"> foreignReq</span>'&rbrace;'</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&amp;klammerparentes;'is&amp;lbrace;'<span class="varname"> isReq</span>'&amp;klammerparentes;'&amp;klammerparentes;'&amp;klammerparenteser;'<span class="varname"> irReq</span>'&amp;klammerparenteser;'|&amp;klammerparenteser;'&amp;klammerparenteser;;' <span class="varname"> foreignReq</span>'&amp;rbrace;'</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p></td> 
@@ -91,9 +91,9 @@ Om *`catId`* inte anges används sessionskatalogen.
 
 ## Filformat som stöds {#section-f2186d3eef834fc8bbecb2bc68daacad}
 
-Bildåtergivning stöder samma källbildformat som Dynamic Media Image Serving.
+Bildåtergivning har stöd för samma källbildformat som Dynamic Media Image Serving.
 
-Program som kräver bilddata i flera olika upplösningar fungerar bäst när du använder flerupplösningsformatet Scene7 pyramid TIFF (PTIFF). Image Serving innehåller verktyget Image Converter (IC) som skapar PTIFF-bilder i alla format som stöds.
+Program som kräver bilddata i flera olika upplösningar fungerar bäst när du använder Scene7-pyramidformatet TIFF (PTIFF) med flera upplösningar. Image Serving innehåller verktyget Image Converter (IC) som skapar PTIFF-bilder i alla format som stöds.
 
 Se beskrivningen av verktyget IC i dokumentationen för Image Serving för en fullständig lista över filformat som stöds.
 

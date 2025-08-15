@@ -25,6 +25,6 @@ Syntax
 | process | `xsd:string` | Val av&quot;PDF-processer&quot;. |
 | upplösning | `xsd:double` | Filupplösning. |
 | färgrymd | `xsd:string` | Färgrymdsval efter skript. |
-| pdfCatalog | `xsd:boolean` | Om en sida med flera PDF ska kombineras i en e-katalog efter återgivningen (standardvärdet är true). |
-| extractSearchWords | `xsd:boolean` | Om sökord ska extraheras från filen PDF. |
+| pdfCatalog | `xsd:boolean` | Om en PDF ska kombineras i en e-katalog efter återgivningen (standardvärdet är true). |
+| extractSearchWords | `xsd:boolean` | Om sökord ska extraheras från PDF-filen. |
 | extractLinks | `xsd:boolean` | Om PDF-länkar ska extraheras till bildscheman som tilldelats de rastrerade sidorna i IPS. |

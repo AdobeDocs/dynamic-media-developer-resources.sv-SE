@@ -61,7 +61,7 @@ Mål. *`num`*.rect krävs för varje zoommål och måste ange en rektangel helt 
 
 För program som använder snurra- och broschyrvisningsprogram måste zoommålen definieras i samma katalogpost som definierar bilduppsättningen. Alla zoommåldefinitioner i katalogposterna för medlemmarna i bilduppsättningen ignoreras av visningsprogrammet.
 
-Dynamic Media-visningsprogrammen förväntar sig zoommål i koordinaterna för den högupplösta bilden som redan har justerats med kommandona från `catalog::Modifier`.
+Visningsprogram för dynamiska media förväntar sig zoommål i koordinaterna för den högupplösta bilden som redan har justerats med kommandona från `catalog::Modifier`.
 
 ## Egenskaper {#section-b3f8eba4985f4b00bb935d592fe770f9}
 

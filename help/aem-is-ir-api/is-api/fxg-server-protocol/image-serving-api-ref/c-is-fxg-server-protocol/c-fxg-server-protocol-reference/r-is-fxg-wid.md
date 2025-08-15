@@ -29,7 +29,7 @@ Visa bredd. Anger svarsbildens bredd (visningsbild).
 
 Om varken `wid=`, `hei=` eller `scale=` anges är svarsbilden den standardvisningsstorlek som anges i FXG-filen.
 
-Rasterformat återges med standardvisningsstorlek (eller inställningen DefaultPix). Klicka på **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** och ange värden för bredd och höjd. Mindre storlekar ger bättre prestanda. Spara inställningarna och utför en Image Serving Publish för att göra en ändring.
+Rasterformat återges med standardvisningsstorlek (eller inställningen DefaultPix). Klicka på **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** och ange värden för bredd och höjd. Mindre storlekar ger bättre prestanda. Spara inställningarna och utför en bildserverkublicering för att tillämpa en ändring.
 
 Om du använder ett `scale=1`-kommando återges en rasterformatbegäran med den storlek som anges i FXG-filen.
 
@@ -37,7 +37,7 @@ Om du använder ett `scale=1`-kommando återges en rasterformatbegäran med den 
 
 `http://server/is/agm/myRootId/myImageId?wid=200`
 
-Om inget format anges återges bilden som en SWF-fil. I det här fallet har höjd och bredd ingen betydelse eftersom SWF vanligtvis utvidgas till webbläsarfönstrets storlek. Därför gäller `hei` och `wid` bara för raster- och PDF-format. Rasterformat:
+Om inget format anges återges bilden som en SWF-fil. I det här fallet har höjd och bredd ingen betydelse eftersom SWF vanligtvis utökas till samma storlek som webbläsarfönstret. Därför gäller `hei` och `wid` bara för raster- och PDF-format. Rasterformat:
 
 * GIF
 * TIF

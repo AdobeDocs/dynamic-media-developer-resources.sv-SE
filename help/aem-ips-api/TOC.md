@@ -13,12 +13,12 @@ ht-degree: 0%
 
 # Dynamic Media Image Production System API {#image-production-api}
 
-+ [Om Dynamic Media Image Production System API](c-overview.md)
++ [Om API för Dynamic Media Image Production System](c-overview.md)
 + [Inaktuella anrop](c-deprecated-calls.md)
 + [WSDL-versioner för IPS-webbtjänst](c-wsdl-versions.md)
 + Operationsmetoder {#operation-methods}
    + [Operationsmetoder](operations/c-operations-intro/c-operations-intro.md)
-   + Åtgärdsparametrar {#operation-parameters}
+   + Operationsparametrar {#operation-parameters}
       + [Översikt över åtgärdsparametrar](operations/c-operations-intro/c-methods/c-methods.md)
       + [addCompany](operations/c-operations-intro/c-methods/r-add-company.md)
       + [addCompanyMembership](operations/c-operations-intro/c-methods/r-add-company-membership.md)
@@ -419,16 +419,16 @@ ht-degree: 0%
    + [Jobbtyper](string-constants/c-string-constants/r-job-types.md)
    + [Fälttyper för metadata](string-constants/c-string-constants/r-metadata-field-types.md)
    + [Operatorer för numerisk jämförelse/datumjämförelse](string-constants/c-string-constants/r-numeric-date-comparison-operators.md)
-   + [PDF-processer](string-constants/c-string-constants/r-pdf-processes.md)
+   + [PDF Processes](string-constants/c-string-constants/r-pdf-processes.md)
    + [Behörighetstyper](string-constants/c-string-constants/r-permission-types.md)
    + [Photoshop ankarlägen](string-constants/c-string-constants/r-photoshop-anchor-modes.md)
    + [Namngivningslägen för Photoshop-lager](string-constants/c-string-constants/r-photoshop-layer-naming-modes.md)
    + [PostScript ColorSpace-lägen](string-constants/c-string-constants/r-postscript-colorspace-modes.md)
    + [Profilklasser](string-constants/c-string-constants/r-profile-classes.md)
-   + [Publish State](string-constants/c-string-constants/r-publish-state.md)
+   + [Publiceringsläge](string-constants/c-string-constants/r-publish-state.md)
    + [Egenskapsuppsättningstyper](string-constants/c-string-constants/r-property-set-types.md)
-   + [Publish Context](string-constants/c-string-constants/r-publish-context.md)
-   + [Publish Types](string-constants/c-string-constants/r-publish-types.md)
+   + [Publicera kontext](string-constants/c-string-constants/r-publish-context.md)
+   + [Publiceringstyper](string-constants/c-string-constants/r-publish-types.md)
    + [Regionsform](string-constants/c-string-constants/r-region-shape.md)
    + [Sök efter matchningslägen](string-constants/c-string-constants/r-search-match-modes.md)
    + [Sorteringsanvisningar](string-constants/c-string-constants/r-sort-directions.md)
@@ -443,7 +443,7 @@ ht-degree: 0%
    + [authenticationFault](faults/c-faults/r-authentication-fault.md)
    + [permissionFault](faults/c-faults/r-authorization-fault.md)
    + [ipsApiFault](faults/c-faults/r-ips-api-fault.md)
-+ Ändringslogg {#change-log}
++ Ändra logg {#change-log}
    + [Ändra logg](change-log/c-change-log.md)
    + Version 6.0 {#version-6-0}
       + [Version 6.0](change-log/c-change-log/c-6/c-6.md)

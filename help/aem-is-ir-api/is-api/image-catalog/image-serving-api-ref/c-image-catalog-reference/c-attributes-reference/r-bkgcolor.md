@@ -1,5 +1,5 @@
 ---
-description: Standardbakgrundsfärg. RGB som används för att fylla i områden i en svarsbild som inte innehåller verkliga bilddata.
+description: Standardbakgrundsfärg. RGB-värde används för att fylla i områden i en svarsbild som inte innehåller verkliga bilddata.
 solution: Experience Manager
 title: BkgColor
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # BkgColor{#bkgcolor}
 
-Standardbakgrundsfärg. RGB som används för att fylla i områden i en svarsbild som inte innehåller verkliga bilddata.
+Standardbakgrundsfärg. RGB-värde används för att fylla i områden i en svarsbild som inte innehåller verkliga bilddata.
 
 ## Egenskaper {#section-2768b2beee214676aa32f17e2a0e3343}
 

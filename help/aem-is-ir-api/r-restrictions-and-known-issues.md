@@ -1,5 +1,5 @@
 ---
-description: Det finns vissa begränsningar och kända fel som bör beaktas när du använder Dynamic Media Image Serving.
+description: Det finns vissa begränsningar och kända fel som bör beaktas när du använder dynamisk mediabildserver.
 solution: Experience Manager
 title: Begränsningar och kända fel
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: fd32456b-9d99-4e82-a61c-2fc4d7030630
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1233'
 ht-degree: 0%
 
 ---
 
 # Begränsningar och kända fel{#restrictions-and-known-issues}
 
-Det finns vissa begränsningar och kända fel som bör beaktas när du använder Dynamic Media Image Serving.
+Det finns vissa begränsningar och kända fel som bör beaktas när du använder dynamisk mediabildserver.
 
 ## Dokumentationsfel {#section-b1579410b11e41e488c7de9ecc7e8d5c}
 
@@ -88,13 +88,13 @@ Digimarc-biblioteket vägrar att använda en Digimarc-vattenstämpel på en bild
 
   För bildåtergivning av icke-pyramidade vinjetter ökar du egenskapsvärdet för IrMaxNonPyrVignetteSize i konfigurationsfilen [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml].
 
-  Öka egenskapsvärdet för `MaxNonDsfSize` i [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml]-konfigurationsfilen för Image Serving non-pyramided TIFF.
+  Öka egenskapsvärdet för `MaxNonDsfSize` i [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml]-konfigurationsfilen för bildservrar som inte är pyramiderade TIFF-filer.
 
-* Adobe [!DNL Photoshop] CS3 sparar inte PSD-filer med lager som standard som en sammansatt bild.
+* Adobe [!DNL Photoshop] CS3 sparar inte PSD-filer i lager som standard som en sammansatt bild.
 
   *Symtomen*:
 
-  Adobe [!DNL Photoshop] CS3-filen med lager i PSD visas som svart med texten&quot;Den här filen med lager [!DNL Photoshop] sparades inte med en sammansatt bild&quot;. för svarsbilden Image Serving eller i IPS.
+  PSD-filen med Adobe [!DNL Photoshop] CS3-lager visas som svart med texten&quot;Den här filen med lager [!DNL Photoshop] sparades inte med en sammansatt bild&quot;. för svarsbilden Image Serving eller i IPS.
 
   *Lösning*:
 
@@ -124,7 +124,7 @@ Digimarc-biblioteket vägrar att använda en Digimarc-vattenstämpel på en bild
 
   RTF-strängen kan inte använda både vänster och höger radjustering för ett textlager som ändrar storlek automatiskt.
 
-* SVG har en egen egenskap för teckensnittssökvägen för refererade teckensnitt som inte är inbäddade i SVG-filen.
+* SVG har en egen egenskap för teckensnittssökvägar för refererade teckensnitt som inte är inbäddade i SVG-filen.
 
   *Symtomen*
 

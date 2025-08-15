@@ -138,7 +138,7 @@ Kapslade medieuppsättningar stöds inte. En kapslad medieuppsättning definiera
 
 ## Exempel {#section-588c9d33aa05482c86cd2b1936887228}
 
-XML-exempelsvar för `req=set`-begäran finns på sidan Egenskaper under rubriken Exempel på HTML.
+XML-exempelsvar för `req=set`-begäran finns på sidan Egenskaper under rubriken HTML-exempel.
 
 `http://crc.scene7.com/is-docs/examples/properties.htm`
 

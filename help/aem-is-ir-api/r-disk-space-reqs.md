@@ -55,14 +55,14 @@ Förutom det utrymme som krävs för att installera programmet har Image Serving
 
 ## Krav på diskutrymme för källbilder {#section-317da75099ad480d9a461c7e706d4f1c}
 
-Adobe rekommenderar att du konverterar alla källbilder till PTIFF-formatet (pyramid TIFF) med kommandoradsverktyget Bildkonverterare (IC). Den här konverteringen ger optimala prestanda vid körning av Image Serving för alla program. Även om Image Server kan bearbeta alla källfilsformat som godkänts av IC, stöder inte Dynamic Media sådan användning.
+Adobe rekommenderar att du konverterar alla källbilder till TIFF-pyramidformatet (PTIFF) med kommandoradsverktyget Bildkonverterare (IC). Den här konverteringen ger optimala prestanda vid körning av Image Serving för alla program. Även om Image Server kan bearbeta alla källfilsformat som godkänts av IC stöder inte Dynamic Media sådan användning.
 
 När du använder PTIFF-filer kan följande reglage hjälpa dig att fastställa utrymmeskrav.
 
 *`total_space`* (byte) = *`number_of_images`* × (2000 + *`avg_pixel_count`* x *`avg_num_components`* × *`p_factor`*)
 
 * *`avg_pixel_count`* Den genomsnittliga pixelstorleken (bredd x höjd) för alla ursprungliga källbilder. Om originalbilderna till exempel är ungefär 2 000 × 2 000 pixlar är det 4 megapixlar.
-* *`avg_num_components`* beror på vilken typ av bilder det är. För bilder i RGB är det 3 och för de flesta CMYK- och RGBA-bilder är det 4. Använd 3.5 om halva bilden är RGB och den andra hälften är RGBA.
+* *`avg_num_components`* beror på vilken typ av bilder det är. För de flesta RGB-bilder är det 3. För de flesta CMYK- och RGBA-bilder är det 4. Använd 3.5 om halva bilden är RGB och den andra hälften är RGBA.
 * *`p_factor`* beror på den komprimeringstyp och kvalitet som anges när bilderna konverteras med IC.
 
 <table id="table_89995BECF30243569954819D07DA2A2F"> 
@@ -82,7 +82,7 @@ När du använder PTIFF-filer kan följande reglage hjälpa dig att fastställa 
    <td> <p> 25-0,75, beroende på bilden </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>JPEG-komprimering </p> </td> 
+   <td> <p>JPEG Compression </p> </td> 
    <td> <p> 1 (typiskt för JPEG-kvalitet 95) </p> </td> 
   </tr> 
  </tbody> 
@@ -94,7 +94,7 @@ När du använder PTIFF-filer kan följande reglage hjälpa dig att fastställa 
 
 **Exempel**
 
-Vid en driftsättning av Image Serving förväntas 30 000 lågupplösta äldre bilder användas, med en genomsnittlig storlek på 500 × 500 RGB. Nya bilddata med utskriftskvalitet läggs till med en hastighet på 10 000 per år. Den typiska CMYK-bildstorleken är 4k × 6k byte. Alla data komprimeras JPEG med hög kvalitet. Den totala mängden diskutrymme efter tre års användning beräknas enligt följande:
+Vid en driftsättning av Image Serving förväntas 30 000 lågupplösta äldre bilder användas, med en genomsnittlig storlek på 500 × 500 RGB-pixlar. Nya bilddata med utskriftskvalitet läggs till med en hastighet på 10 000 per år. Den typiska CMYK-bildstorleken är 4k × 6k byte. Alla data komprimeras med hög kvalitet av JPEG. Den totala mängden diskutrymme efter tre års användning beräknas enligt följande:
 
 *`total_space`* = 30 000 × (2k + 0,5k × 0,5k × 3 × 0.1) + 3 × 10 000 × (2k + 4k × 6k × 4 × 0.1) = 2,2 G + 268 GB = cirka 270 GB
 

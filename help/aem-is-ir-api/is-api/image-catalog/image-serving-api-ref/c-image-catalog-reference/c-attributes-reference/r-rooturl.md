@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 72560180-53e5-4293-9dd3-c0cd196551dc
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 URL för relativa bilder för URL:er. Anger rot-URL för relativa bild-URL:er.
 
-`attribute::RootUrl` används i stället för `attribute::RootPath` när ett `src=` - eller `mask=`-värde omges av {klammerparenteser} eller (parenteser).
+`attribute::RootUrl` används i stället för `attribute::RootPath` när ett `src=` - eller `mask=`-värde omges av {curly braces} eller (parenteser).
 
 ## Egenskaper {#section-fe02269b4b724319a5d1f2cfcae31cba}
 

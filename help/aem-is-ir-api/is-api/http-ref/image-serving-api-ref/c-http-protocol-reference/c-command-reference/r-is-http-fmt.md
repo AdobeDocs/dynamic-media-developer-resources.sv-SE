@@ -25,7 +25,7 @@ Svarsbildformat.
 | `avif-alpha` | Förstörande och förlustfri AVIF med alfakanal. |
 | `avif` | Förstörande och förlustfri AVIF. |
 | `eps` | Okomprimerad binär kapslad PostScript. |
-| `f4m` | Flash Streaming Server-manifestformat. |
+| `f4m` | manifestformat för Flash Streaming Server. |
 | `gif-alpha` | GIF med 2 till 255 färger plus genomskinlighet för nyckelfärger. |
 | `gif` | GIF med 2 till 256 färger. |
 | `heic` | Förlustfri HEIC. Det här formatet hämtas som standard från webbläsaren om det inte stöds. |
@@ -36,16 +36,16 @@ Svarsbildformat.
 | `jpegxr` | Förstörande och förlustfri JPEG XR. |
 | `jpg` | Förstörande JPG. |
 | `m3u8` | Apple Streaming Server, manifestformat. |
-| `pdf` | Bilden är inbäddad i PDF. |
+| `pdf` | Bild inbäddad i PDF. |
 | `pjpeg` | Progressiv JPEG. |
 | `png-alpha` | 24-bitars förlustfri PNG med alfakanal. |
 | `png` | 24-bitars förlustfri PNG. |
 | `png8-alpha` | 8-bitars förlustfri PNG med alfakanal. |
 | `png8` | 8-bitars förlustfri PNG. |
-| `swf-alpha` | Förstörande JPEG och dekomprimerad mask inbäddad i en Adobe AS2-swf-fil. |
-| `swf` | Förstörande JPEG inbäddad i en Adobe AS2-swf-fil. |
-| `swf3-alpha` | Förstörande JPEG och dekomprimerad mask inbäddad i en Adobe AS3-swf-fil. **Obs!** swf- och swf-alpha-format används bäst för ActionScript 2-program (Flash Player 8 och tidigare). Formaten swf3 och swf3-alpha rekommenderas för ActionScript3-program (Flash Player 9 och senare). |
-| `swf3` | Förstörande JPEG inbäddad i en SWF-fil i Adobe. |
+| `swf-alpha` | Förstörande JPEG och en dekomprimerad mask som är inbäddad i en Adobe AS2-swf-fil. |
+| `swf` | Förstörande JPEG inbäddat i en Adobe AS2 swf-fil. |
+| `swf3-alpha` | Förstörande JPEG och en dekomprimerad mask som är inbäddad i en Adobe AS3 swf-fil. **Obs!** swf- och swf-alpha-format används bäst för ActionScript 2-program (Flash Player 8 och tidigare). Formaten swf3 och swf3-alpha rekommenderas för ActionScript3-program (Flash Player 9 och senare). |
+| `swf3` | Förstörande JPEG inbäddat i en Adobe AS3 swf-fil. |
 | `tif-alpha` | TIFF med alfakanal. |
 | `tif` | TIFF. |
 | `webp-alpha` | Förstörande och förlustfri WebP med alfakanal. |
@@ -57,7 +57,7 @@ Svarsbildformat.
 |---|---|
 | `cmyk` | Returnera CMYK-bilddata. |
 | `gray` | Returnera gråskalebilddata. |
-| `rgb` | Returnera bilddata för RGB. |
+| `rgb` | Returnera RGB bilddata. |
 
 *`compression`* - jpeg | förstörande | förlustfri | lzw | ingen | zip
 
@@ -65,7 +65,7 @@ Svarsbildformat.
 |---|---|
 | `jpeg` | JPEG-komprimering (förstörande). |
 | `lossy` | JPEG 2000, JPEG XR-komprimering (förstörande) och WebP. |
-| `lossless` | HEIC, JPEG 2000, JPEG XR-komprimering (icke-förstörande) och WebP. |
+| `lossless` | HEIC, JPEG 2000 och JPEG XR-komprimering (icke-förstörande) samt WebP. |
 | `lzw` | LZW-komprimering (icke-förstörande) (Lempel-Ziv-Welch). |
 | `none` | Okomprimerad. |
 | `zip` | Deflate-komprimering (icke-förstörande). |
@@ -77,7 +77,7 @@ Svarsbildformat.
 
 * *`compression`* tillåts bara om `tif`, `tif-alpha`, `pdf`, `webp`, `webp-alpha`, `jpeg2000`, `jpeg2000-alpha`, `jpegxr` eller `jpegxr-alpha` har angetts som *`format`*. I tabellen nedan finns information om vilka komprimeringsalternativ som stöds för dessa bildformat.
 
-Du kan använda `qlt=` för att ange kodningsalternativ för JPEG för följande format: JPEG, TIFF med JPEG-komprimering, PDF med JPEG-komprimering och SWF. WebP, JPEG 2000 och JPEG XR använder också `qlt=`, men värdena ger olika kvaliteter för de olika formaten. Använd `quantize=` om `fmt=gif` eller `fmt=gif-alpha`. Mer information finns i kommandobeskrivningarna. De andra formaten har inga inställningsbara alternativ.
+Du kan använda `qlt=` för att ange JPEG-kodningsalternativ för följande format: JPEG, TIFF med JPEG-komprimering, PDF med JPEG-komprimering och SWF. WebP, JPEG 2000 och JPEG XR använder också `qlt=`, men värdena ger olika kvaliteter för de olika formaten. Använd `quantize=` om `fmt=gif` eller `fmt=gif-alpha`. Mer information finns i kommandobeskrivningarna. De andra formaten har inga inställningsbara alternativ.
 
 8 bitar per pixelkomponent returneras för alla *`formats`* och *`pixelTypes`* (8 bitar per pixel för GIF).
 
@@ -168,7 +168,7 @@ I följande tabell visas giltiga kombinationer av *`format`*och *`pixelType`*, m
    <td colname="col1"> <p> swf,swf3, swf-alpha, swf-alpha3 </p> </td> 
    <td colname="col2"> <p>rgb, grå </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/x-shockwave-flash&gt; </span> </p> </td> 
-   <td colname="col4"> <p>Nej </p> <p> <p>Obs! Flashen Player Adobe ignorerar inbäddade ICC-profiler. </p> </p> </td> 
+   <td colname="col4"> <p>Nej </p> <p> <p>Obs! Inbäddade ICC-profiler ignoreras i Adobe Flash Player. </p> </p> </td> 
    <td colname="col5"> <p> <span class="codeph"> qlt= </span>, <span class="codeph"> attribut::TrustedDomains </span> </p> </td> 
   </tr>
   <tr valign="top"> 
@@ -228,7 +228,7 @@ Begär attribut. Tillämpas oavsett aktuell lagerinställning om `req=img` (stan
 
 ` http:// *`server`*/myRootId/myImageId?fmt=tif,,jpeg&qlt=95&wid=300`
 
-**Konvertera en bild till ett GIF med två toner med transparens och tvinga färger till svartvitt:**
+**Konvertera en bild till en GIF-bild med två toner och transparens för nyckelfärger och tvinga färger till svartvitt:**
 
 ` http:// *`server`*/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`
 

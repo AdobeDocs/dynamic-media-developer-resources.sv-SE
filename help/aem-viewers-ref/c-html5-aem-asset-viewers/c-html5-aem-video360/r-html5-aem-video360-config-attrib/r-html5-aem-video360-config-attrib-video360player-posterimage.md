@@ -27,7 +27,7 @@ Konfigurationsattribut för Video360 Viewer.
       <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph"> ?</span> som <span class="codeph"> %3F</span> </p> </li> 
       <li id="li_391CCF067F734480B2B4AFC9760C479A"> <p> <span class="codeph"> &amp;</span> som <span class="codeph"> %26</span> </p> </li> 
       <li id="li_6824B66A55554C5A8B12874DCF5BFAEE"> <p> <span class="codeph"> =</span> as <span class="codeph"> %3D</span> </p> </li> 
-     </ul> </p> <p> Modifieraren fungerar för videoinnehåll på Dynamic Media Classic eller Adobe Experience Manager, Dynamic Media. </p> <p>Om du vill förhindra att standardförhandsvisningsbilden visas anger du <span class="codeph"> none</span> som värde för förhandsvisningsbilden. </p> </td> 
+     </ul> </p> <p> Modifieraren fungerar för videoinnehåll som lagras på Dynamic Media Classic eller Adobe Experience Manager, Dynamic Media. </p> <p>Om du vill förhindra att standardförhandsvisningsbilden visas anger du <span class="codeph"> none</span> som värde för förhandsvisningsbilden. </p> </td> 
   </tr> 
  </tbody> 
 </table>

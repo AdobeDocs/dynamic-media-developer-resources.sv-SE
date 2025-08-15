@@ -37,7 +37,7 @@ När du skapar anpassad CSS bör du tänka på att visningsprogrammet tilldelar 
 * Alla sökvägar till externa resurser i CSS matchas mot CSS-platsen, inte mot visningsprogrammets HTML-sidplats. Ta hänsyn till detta när du kopierar standard-CSS till en annan plats: det kan vara nödvändigt att kopiera standardresurserna också eller att uppdatera sökvägarna i den anpassade CSS:en.
 * Du kan använda olika format för färgvärden som stöds av CSS. Om genomskinlighet krävs föreslås formatet `rgba(R,G,B,A)`. Annars krävs inte genomskinlighet `#RRGGBB`.
 
-När visningsprogrammets användargränssnitt anpassas med CSS stöds inte användningen av regeln `!IMPORTANT` för att formatera visningsprogramelement. Regeln `!IMPORTANT` ska inte användas för att åsidosätta standardformat eller körningsformat som tillhandahålls av visningsprogrammet eller visaren-SDK eftersom det kan påverka korrekt komponentbeteende. I stället bör CSS-väljare med rätt specificitet användas för att ange CSS-egenskaper som dokumenteras i den här referenshandboken.
+När visningsprogrammets användargränssnitt anpassas med CSS stöds inte användningen av regeln `!IMPORTANT` för att formatera visningsprogramelement. Regeln `!IMPORTANT` ska inte användas för att åsidosätta standardformat eller körningsformat som tillhandahålls av visningsprogrammet eller visningsprogrammet SDK eftersom det kan påverka korrekt komponentbeteende. I stället bör CSS-väljare med rätt specificitet användas för att ange CSS-egenskaper som dokumenteras i den här referenshandboken.
 
 ## CSS för panoramavisningsprogram {#section-9b6d8d601cb441d08214dada7bb4eddc}
 

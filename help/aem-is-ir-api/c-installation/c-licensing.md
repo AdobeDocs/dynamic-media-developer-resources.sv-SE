@@ -16,6 +16,6 @@ ht-degree: 0%
 
 För att använda Image Serving krävs en licensnyckel för Dynamic Media Image Serving och den måste vara installerad på varje system där Image Serving ska användas.
 
-På samma sätt krävs en licensnyckel för Dynamic Media Image Rendering för att använda bildåtergivning. Bildåtergivning kan användas utan en Image Serving-licens och omvänt.
+På samma sätt krävs en licensnyckel för återgivning av dynamiska mediebilder för att använda bildåtergivning. Bildåtergivning kan användas utan en Image Serving-licens och omvänt.
 
 Installationsproceduren innehåller steg för att hämta och installera nödvändiga licensnycklar.

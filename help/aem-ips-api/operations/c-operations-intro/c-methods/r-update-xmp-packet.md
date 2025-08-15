@@ -1,5 +1,5 @@
 ---
-description: Anger eller uppdaterar ett XMP metadatapaket för en resurs.
+description: Anger eller uppdaterar ett XMP-metadatapaket för en resurs.
 solution: Experience Manager
 title: updateXMPPacket
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # updateXMPPacket{#updatexmppacket}
 
-Anger eller uppdaterar ett XMP metadatapaket för en resurs.
+Anger eller uppdaterar ett XMP-metadatapaket för en resurs.
 
 Syntax
 
@@ -36,7 +36,7 @@ Syntax
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Företagshandtag. |
 | assetHandle | `xsd:string` | Ja | Resurshandtag. |
-| compressedPacket | `xsd:Base 64 binary` | Ja | [!DNL zlib-compressed] XMP paket som du vill ställa in eller uppdatera. |
+| compressedPacket | `xsd:Base 64 binary` | Ja | [!DNL zlib-compressed] XMP-paket som du vill ställa in eller uppdatera. |
 
 **Utdata (updateXMPPacketReturn)**
 

@@ -1,5 +1,5 @@
 ---
-description: I den här dokumentationen beskrivs hur du administrerar Dynamic Media Image Rendering-servern.
+description: I den här dokumentationen beskrivs hur du administrerar servern för dynamisk bildåtergivning.
 solution: Experience Manager
 title: Översikt över serveradministration
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Översikt över serveradministration{#server-administration-overview}
 
-I den här dokumentationen beskrivs hur du administrerar Dynamic Media Image Rendering-servern.
+I den här dokumentationen beskrivs hur du administrerar servern för dynamisk bildåtergivning.
 
 Bildåtergivning består av två huvudkomponenter:
 

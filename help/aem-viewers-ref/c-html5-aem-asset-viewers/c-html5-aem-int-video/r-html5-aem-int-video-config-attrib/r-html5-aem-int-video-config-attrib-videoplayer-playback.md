@@ -22,7 +22,7 @@ Konfigurationsattribut för Interactive Video Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|progressiv</span> </p> </td> 
-   <td colname="col2"> <p> Anger den typ av uppspelning som används av visningsprogrammet. </p> <p>När <span class="codeph"> auto</span> är inställt används direktuppspelad HTML5-video i HLS-format i de flesta webbläsare och på alla iOS-enheter. Dessutom återgår den till progressiv uppspelning i HTML5 i vissa system som äldre Internet Explorer och Android™. </p> <p>När <span class="codeph"> progressiv</span> är inställt förlitar sig visningsprogrammet endast på uppspelning i HTML5 som stöds av webbläsare och spelar upp video progressivt på alla system. </p> <p>Mer information om hur du väljer uppspelning i de inbyggda lägena <span class="codeph"> auto</span> och <span class="codeph"> progressiv </span> finns i användarhandboken för HTML5 Viewers SDK. </p> </td> 
+   <td colname="col2"> <p> Anger den typ av uppspelning som används av visningsprogrammet. </p> <p>När <span class="codeph"> auto</span> har angetts används HTML5-direktuppspelad video i HLS-format i de flesta webbläsare och på alla iOS-enheter. Dessutom återgår det till progressiv uppspelning av HTML5 i vissa system som äldre Internet Explorer och Android™. </p> <p>När <span class="codeph"> progressiv</span> är inställt förlitar sig visningsprogrammet endast på HTML5-uppspelning eftersom det stöds av webbläsare och video spelas upp progressivt på alla system. </p> <p>Mer information om hur du väljer uppspelning i lägena <span class="codeph"> auto</span> och <span class="codeph"> progressiv</span> finns i SDK-användarhandboken för HTML5-visningsprogram. </p> </td> 
   </tr> 
  </tbody> 
 </table>

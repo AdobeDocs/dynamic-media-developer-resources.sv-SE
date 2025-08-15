@@ -18,7 +18,7 @@ Innehåller konfigurationsinställningar för serveransvarig.
 
 När du redigerar den här XML-filen måste du behålla giltig XML-syntax, annars kanske inte Image Server kan startas.
 
-Starta om bildservern när du har redigerat den här filen för att se till att ändringarna börjar gälla. Endast de element-/attributvärden som markeras nedan stöds för ändring. Redigera allt annat innehåll i filen endast om Dynamic Media tekniska support rekommenderar det.
+Starta om bildservern när du har redigerat den här filen för att se till att ändringarna börjar gälla. Endast de element-/attributvärden som markeras nedan stöds för ändring. Redigera endast allt annat innehåll i filen om du får råd från den tekniska supporten för Dynamic Media.
 
 ```
 <supervisor>

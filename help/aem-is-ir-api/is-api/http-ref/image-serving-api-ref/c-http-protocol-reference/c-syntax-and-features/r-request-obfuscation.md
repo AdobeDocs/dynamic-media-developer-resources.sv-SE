@@ -20,7 +20,7 @@ Servern försöker avkoda om `attribute::RequestObfuscation` har angetts. Om avk
 
 >[!IMPORTANT]
 >
->Om du aktiverar den här funktionen bör du vara medveten om att det finns vissa begränsningar för dess användning som omfattar följande:<br>- Dynamic Media användargränssnitt kanske inte visar rätt information för fältet **[!UICONTROL Last Published]**. Detta påverkar dock inte publiceringen.<br> - För närvarande fungerar inte HLS-videoströmning när **[!UICONTROL Request obfuscation]** och **[!UICONTROL Request locking]** är aktiverade.<br> - För närvarande fungerar inte vissa Dynamic Media-visningsprogram när **[!UICONTROL Request obfuscation]** och **[!UICONTROL Request locking]** är aktiverade.
+>Om du aktiverar den här funktionen bör du vara medveten om att det finns vissa begränsningar för dess användning som omfattar följande:<br>- Användargränssnittet för dynamiska media kanske inte visar rätt information för fältet **[!UICONTROL Last Published]**. Detta påverkar dock inte publiceringen.<br> - För närvarande fungerar inte HLS-videoströmning när **[!UICONTROL Request obfuscation]** och **[!UICONTROL Request locking]** är aktiverade.<br> - För närvarande fungerar inte vissa dynamiska medievyer när **[!UICONTROL Request obfuscation]** och **[!UICONTROL Request locking]** är aktiverade.
 
 ## Exempel {#section-dd4bfab19aa040f8ba3f6e397c6b0941}
 

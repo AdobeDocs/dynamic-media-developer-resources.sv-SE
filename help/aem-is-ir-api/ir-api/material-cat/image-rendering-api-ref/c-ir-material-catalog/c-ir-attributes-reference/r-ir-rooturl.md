@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: 094b5143-d4f0-412f-92cf-3522157cbeca
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
 
 # RootURL{#rooturl}
 
-URL för relativa bilder för URL:er. Anger rot-URL för relativa bild-URL:er. `attribute::RootUrl` används i stället för `attribute::RootPath` när ett `src=`-värde omges av { curly braces }.
+URL för relativa bilder för URL:er. Anger rot-URL för relativa bild-URL:er. `attribute::RootUrl` används i stället för `attribute::RootPath` när ett `src=`-värde omges av {curly braces}.
 
 ## Egenskaper {#section-69cd0f71ea614770a8778c745d23197a}
 

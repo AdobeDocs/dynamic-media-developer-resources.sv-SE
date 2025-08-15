@@ -18,7 +18,7 @@ Om du vill lägga till ett responsivt bildbibliotek på en webbsida och hantera 
 
 **Använd bibliotek för responsiv bild**
 
-1. I Dynamic Media Classic [skapar du en bildförinställning](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html?lang=sv-SE#image-sizing) om du tänker använda ett responsivt bildbibliotek med förinställningar.
+1. I Dynamic Media Classic [skapar du en bildförinställning](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing) om du tänker använda ett responsivt bildbibliotek med förinställningar.
 
    När du definierar bildförinställningar som används med responsiva bildbibliotek ska du inte använda några inställningar som påverkar bildstorleken, till exempel `wid=`, `hei=` eller `scl=`. Ange inga storleksfält i bildförinställningen. Lämna dem som tomma värden.
 1. Lägg till JavaScript-biblioteksfilen på webbsidan.
@@ -30,9 +30,9 @@ Om du vill lägga till ett responsivt bildbibliotek på en webbsida och hantera 
 
    Biblioteket läser vissa konfigurationsattribut från en bildinstans som det arbetar med. Definiera attribut innan API-funktionen `s7responsiveImage` anropas för en sådan bild.
 
-   Du bör också placera den befintliga bild-URL:en i attributet `data-src`. Ange sedan att det befintliga `src`-attributet ska ha en 1x1 GIF-avbildning kodad som Data URI. Om du gör det minskar antalet HTTP-begäranden som skickas av webbsidan vid inläsningen. Observera dock att om SEO (sökmotoroptimering) behövs är det bättre att ställa in ett `title`-attribut för bildinstansen.
+   Du bör också placera den befintliga bild-URL:en i attributet `data-src`. Ställ sedan in det befintliga `src`-attributet så att 1x1 GIF-bild är kodad som data-URI. Om du gör det minskar antalet HTTP-begäranden som skickas av webbsidan vid inläsningen. Observera dock att om SEO (sökmotoroptimering) behövs är det bättre att ställa in ett `title`-attribut för bildinstansen.
 
-   Följande är ett exempel på hur du definierar attributet `data-breakpoints` för bilden och använder ett 1x1-GIF som är kodat som Data URI:
+   Följande är ett exempel på hur du definierar attributet `data-breakpoints` för bilden och använder en 1x1 GIF som är kodad som Data URI:
 
    ```
    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
@@ -85,7 +85,7 @@ Följande kod är ett komplett exempel på en enkel webbsida som har en enda fly
 
 **Använda smart beskärning**
 
-Det finns två smarta beskärningslägen i AEM 6.4 och Dynamic Media Viewer 5.9:
+Det finns två Smart Crop-lägen i AEM 6.4 och Dynamic Media Viewer 5.9:
 
 * **Manuell** - användardefinierade brytpunkter och motsvarande Image Service-kommandon definieras i ett attribut i image-elementet.
 * **Smart beskärning** - beräknade renderingar av smarta beskärningar hämtas automatiskt från leveransservern. Den bästa återgivningen väljs med bildelementets körningsstorlek.

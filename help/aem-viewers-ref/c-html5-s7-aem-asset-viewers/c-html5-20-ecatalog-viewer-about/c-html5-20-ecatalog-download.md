@@ -18,6 +18,6 @@ Du kan ladda ned den elektroniska katalogen som en PDF-fil med knappen &quot;Lad
 
 Knappen&quot;Hämta&quot; är automatiskt tillgänglig i visningsprogrammets användargränssnitt när följande inträffar:
 
-* Det finns en faktisk PDF-fil i kundens företag.
+* En PDF-fil finns i kundens företag.
 * Namnet matchar namnet på den e-katalogresurs som skickas till visningsprogrammet och innehåller ett `.pdf`-tillägg.
 * PDF-filen publiceras i Dynamic Media Classic.

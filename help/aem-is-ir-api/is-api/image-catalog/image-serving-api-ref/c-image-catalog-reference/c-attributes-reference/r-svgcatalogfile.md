@@ -1,5 +1,5 @@
 ---
-description: Sökvägar till datafiler i SVG. Anger de filer som innehåller SVG-data för den här katalogen.
+description: Sökvägar till SVG-datafiler. Anger de filer som innehåller SVG-data för den här katalogen.
 solution: Experience Manager
 title: SvgCatalogFile
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # SvgCatalogFile{#svgcatalogfile}
 
-Sökvägar till datafiler i SVG. Anger de filer som innehåller SVG-data för den här katalogen.
+Sökvägar till SVG-datafiler. Anger de filer som innehåller SVG-data för den här katalogen.
 
-datafiler i SVG läses in efter alla bilddatafiler i exakt angiven ordning. Om samma `catalog::Id`-värde förekommer i mer än en post (antingen i samma eller olika bild- eller SVG-katalogfiler) gäller den sista instansen.
+SVG datafiler läses in efter alla bilddatafiler i exakt angiven ordning. Om samma `catalog::Id`-värde förekommer i mer än en post (antingen i samma eller en annan bild eller i SVG-katalogfiler) gäller den sista instansen.
 
 ## Egenskaper {#section-fc2d549f76474792837b2b92ec2087ea}
 
@@ -24,7 +24,7 @@ Ett eller flera textsträngsvärden, avgränsade med kommatecken. Valfritt. Varj
 
 ## Standard {#section-a4e58951f3c249599665b823566433c9}
 
-Tomt, vilket anger att bildkatalogen inte innehåller några SVG-data.
+Tom, vilket betyder att den här bildkatalogen inte innehåller några SVG-data.
 
 ## Se även {#section-dad6cf4cc5994cf5bbed8807c96119dd}
 

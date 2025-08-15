@@ -36,7 +36,7 @@ Om inget anges visas inte bildtextknappen i användargränssnittet. Bildtexter s
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Komponent-ID </p> </th> 
-   <th colname="col2" class="entry"> <p>Namn på SDK-komponentklass för visningsprogram </p> </th> 
+   <th colname="col2" class="entry"> <p>Namn på komponentklass för SDK-visningsprogram </p> </th> 
   </tr> 
  </thead>
  <tbody> 

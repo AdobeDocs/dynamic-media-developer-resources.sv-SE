@@ -47,11 +47,11 @@ Följande alternativ styr bearbetningen av vinjettfiler. De ignoreras om sourceF
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> -pyramid</span> </p></td> 
-  <td class="stentry"> <p>Skapar en pyramidvinjettering. Krävs när återgivna bilder ska visas med Dynamic Media zoomningsvisningsprogram. Mer information finns i <a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585" type="concept" format="dita" scope="local"> Vinjettskalning</a>. </p></td> 
+  <td class="stentry"> <p>Skapar en pyramidvinjettering. Krävs när återgivna bilder ska visas med zoomningsvisningsprogram för Dynamic Media. Mer information finns i <a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585" type="concept" format="dita" scope="local"> Vinjettskalning</a>. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">-thumbwidth <span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p>Pixelns bredd- och höjdbegränsning för miniatyrbilden. Om du anger det genereras en JPEG-bild som inte är bredare och inte längre än <span class="varname"> ival</span> från vinjettvybilden, en panelbild av kabinettformatfilen eller belysningskartan för det första formatet i fönsteromslagsformatfilen. </p></td> 
+  <td class="stentry"> <p>Pixelns bredd- och höjdbegränsning för miniatyrbilden. Om detta anges genereras en JPEG-bild som inte är bredare och inte längre än <span class="varname"> ival</span> från vinjettvybilden, en panelbild av kabinettformatfilen eller belysningskartan för den första stilen i fönsteromslagsformatfilen. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">-width <span class="varname"> ival</span> *[,<span class="varname"> ival</span>]</span> </p></td> 

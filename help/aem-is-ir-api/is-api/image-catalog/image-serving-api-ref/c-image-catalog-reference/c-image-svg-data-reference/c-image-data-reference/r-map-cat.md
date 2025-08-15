@@ -1,5 +1,5 @@
 ---
-description: Bildschemadata. Inget eller flera fullständiga HTML <AREA>-element, sorterade framifrån och bakåt.
+description: Bildschemadata. Inga eller fler fullständiga HTML <AREA>-element, sorterade framifrån och bakåt.
 solution: Experience Manager
 title: Karta
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Karta{#map}
 
-Bildschemadata. Inga eller fler fullständiga `<AREA>`-element i HTML, sorterade framifrån och bakåt.
+Bildschemadata. Inga eller fler fullständiga HTML `<AREA>`-element, sorterade framifrån och bakåt.
 
 Servern tolkar och kan ändra attributen SHAPE och COORDS (SHAPE=CIRCLE stöds inte i den här versionen). Alla andra attribut för `<AREA>` skickas igenom utan ändring. Koordinatvärden som anges med COORDS-attributet måste vara pixelförskjutningar från det övre vänstra hörnet i den oförändrade källbilden. (`%` koordinater stöds inte i den här versionen och kanske inte bearbetas korrekt.)
 

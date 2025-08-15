@@ -1,6 +1,6 @@
 ---
 title: JpegQuality
-description: Standardkodningskvalitet för JPEG. Anger standardkvalitetsinställningen för JPEG-kodade svarsbilder.
+description: Standardkvalitet för JPEG-kodning. Anger standardkvalitetsinställningen för JPEG-kodade svarsbilder.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # JpegQuality{#jpegquality}
 
-Standardkodningskvalitet för JPEG. Anger standardkvalitetsinställningen för JPEG-kodade svarsbilder.
+Standardkvalitet för JPEG-kodning. Anger standardkvalitetsinställningen för JPEG-kodade svarsbilder.
 
 ## Egenskaper {#section-8b1ed3e0acaa4fbfa050b74c00b9d4dc}
 

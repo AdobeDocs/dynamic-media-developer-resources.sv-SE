@@ -68,7 +68,7 @@ Använd följande kommandon för avancerad textformatering.
   <tr> 
    <td> <span class="codeph"> \charscaley <span class="varname"> N </span> </span> </td> 
    <td> <p>Lodrät teckenskalning. </p> </td> 
-   <td> <p>Positiv eller negativ procent. Standardvärdet är 100, Dynamic Media-tillägg. </p> <p> <span class="codeph"> \charscaley </span> skalförändrar även radavstånd när det används med <span class="codeph"> text= </span>. <span class="codeph"> textPs= </span> bevarar alltid radavstånd oavsett mängden lodrät teckenskalning. </p> </td> 
+   <td> <p>Positiv eller negativ procent, standardvärdet är 100, tillägget Dynamic Media. </p> <p> <span class="codeph"> \charscaley </span> skalförändrar även radavstånd när det används med <span class="codeph"> text= </span>. <span class="codeph"> textPs= </span> bevarar alltid radavstånd oavsett mängden lodrät teckenskalning. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \ltrch </span> </td> 
@@ -83,7 +83,7 @@ Använd följande kommandon för avancerad textformatering.
   <tr> 
    <td> <span class="codeph"> \copyfit <span class="varname"> N </span> </span> </td> 
    <td> <p>Aktivera textpassning och ange största tillåtna teckenstorlek. </p> </td> 
-   <td> <p>Teckensnittsstorlek i halvpunkter; endast <span class="codeph"> textPs= </span>; Dynamic Media-tillägg. </p> </td> 
+   <td> <p>Teckensnittsstorlek i halvpunkter; <span class="codeph"> textPs= endast </span>; Dynamic Media-tillägg. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \copyfitlines <span class="varname"> N </span> </span> </td> 

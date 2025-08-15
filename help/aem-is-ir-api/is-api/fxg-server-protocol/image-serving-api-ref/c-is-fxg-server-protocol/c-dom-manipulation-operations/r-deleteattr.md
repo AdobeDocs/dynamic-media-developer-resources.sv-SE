@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: 7cecd0aa-c928-4652-a92f-f21ebcf83304
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '48'
 ht-degree: 0%
 
 ---
 
 # deleteAttr{#deleteattr}
 
-Ta bort alla attribut för ett givet s7:elementID.
+Ta bort alla attribut för en given s7:elementID.
 
 `deleteAttr.elementID={attributeName%26attributeName}`
 

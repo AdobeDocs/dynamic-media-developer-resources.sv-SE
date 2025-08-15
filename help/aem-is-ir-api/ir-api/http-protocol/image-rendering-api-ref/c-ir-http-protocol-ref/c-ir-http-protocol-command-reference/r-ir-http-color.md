@@ -21,7 +21,7 @@ Förgrundsfärg. Anger färgen på enfärgade material eller den additiva färge
 <table id="simpletable_C5AF9074CCA64EA5921772DF3F7E0F55"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> färg </span> </p> </td> 
-  <td class="stentry"> <p>RGB eller grått färgvärde. </p></td> 
+  <td class="stentry"> <p>RGB eller grått. </p></td> 
  </tr> 
 </table>
 

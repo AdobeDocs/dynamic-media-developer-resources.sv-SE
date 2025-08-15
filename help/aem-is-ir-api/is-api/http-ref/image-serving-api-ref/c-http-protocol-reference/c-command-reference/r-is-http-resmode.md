@@ -26,11 +26,11 @@ Omsamplingsläge. Väljer den omsamplings- och/eller interpoleringsalgoritm som 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bicub </span> </p> </td> 
-   <td colname="col2"> <p>Väljer bikubisk interpolation. Processorintensivare än bilinjär interpolation, men ger skarpare bilder med mindre framträdande aliasartefakter. </p> </td> 
+   <td colname="col2"> <p>Väljer bikubisk interpolation. Mer CPU-intensivt än bilinjär interpolation, men ger skarpare bilder med mindre framträdande aliasartefakter. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> sharp2 </span> </p> </td> 
-   <td colname="col2"> <p>Väljer en modifierad Lanczos Window-funktion som en interpoleringsalgoritm. Kan ge något tydligare resultat än bikubisk till en högre processorkostnad. <span class="codeph"> sharp </span> har ersatts med <span class="codeph"> sharp2 </span> som har en mindre sannolikhet att orsaka aliasing-artefakter (Moiré). </p> </td> 
+   <td colname="col2"> <p>Väljer en modifierad Lanczos Window-funktion som en interpoleringsalgoritm. Kan ge något tydligare resultat än bikubisk till en högre CPU-kostnad. <span class="codeph"> sharp </span> har ersatts med <span class="codeph"> sharp2 </span> som har en mindre sannolikhet att orsaka aliasing-artefakter (Moiré). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bisharp </span> </p> </td> 

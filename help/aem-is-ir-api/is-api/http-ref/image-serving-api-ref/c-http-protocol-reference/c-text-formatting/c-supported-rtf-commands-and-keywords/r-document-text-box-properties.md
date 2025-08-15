@@ -43,12 +43,12 @@ Följande dokumentegenskaper stöds i textrutor.
   <tr> 
    <td> <span class="codeph"> \cmykcolortbl </span> </td> 
    <td> <p>CMYK-färgtabell. </p> </td> 
-   <td> <p>Dynamic Media. </p> </td> 
+   <td> <p>Dynamic Media-tillägg. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \*\iscolortbl </span> </td> 
    <td> <p>Färgtabell för bildservningsfärger. </p> </td> 
-   <td> <p>Dynamic Media-tillägg; endast <span class="codeph"> textPs= </span> </p> </td> 
+   <td> <p>Dynamiskt mediatillägg; endast <span class="codeph"> textPs= </span> </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \red <span class="varname"> N </span> </span> </td> 
@@ -68,22 +68,22 @@ Följande dokumentegenskaper stöds i textrutor.
   <tr> 
    <td> <span class="codeph"> \cyan <span class="varname"> N </span> </span> </td> 
    <td> <p>Cyanfärgskomponent. </p> </td> 
-   <td> <p>Dynamic Media-tillägg; kan bara visas i <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
+   <td> <p>Dynamiskt mediatillägg; kan bara visas i <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \magenta <span class="varname"> N </span> </span> </td> 
    <td> <p>Magentafärgkomponent. </p> </td> 
-   <td> <p>Dynamic Media-tillägg; kan bara visas i <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
+   <td> <p>Dynamiskt mediatillägg; kan bara visas i <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \yellow <span class="varname"> N </span> </span> </td> 
    <td> <p>Gul färgkomponent. </p> </td> 
-   <td> <p>Dynamic Media-tillägg; kan bara visas i <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
+   <td> <p>Dynamiskt mediatillägg; kan bara visas i <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \black <span class="varname"> N </span> </span> </td> 
    <td> <p>Svart färgkomponent. </p> </td> 
-   <td> <p>Dynamic Media-tillägg; kan bara visas i <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
+   <td> <p>Dynamiskt mediatillägg; kan bara visas i <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \margl <span class="varname"> N </span> </span> </td> 

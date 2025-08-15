@@ -1,6 +1,6 @@
 ---
-title: Twitter
-description: Verktyget för delning av twitter består av en knapp som har lagts till på panelen Delning för sociala medier. När knappen är markerad dirigeras användaren om till en delningsdialogruta som tillhandahålls av en social tjänst. Knappens position hanteras helt av verktyget för social delning.
+title: Twitter-delning
+description: Twitter-delningsverktyget består av en knapp som har lagts till på panelen Dela via sociala medier. När knappen är markerad dirigeras användaren om till en delningsdialogruta som tillhandahålls av en social tjänst. Knappens position hanteras helt av verktyget för social delning.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
@@ -12,19 +12,19 @@ ht-degree: 0%
 
 ---
 
-# Twitter{#twitter-share}
+# Twitter-delning{#twitter-share}
 
-Verktyget för delning av twitter består av en knapp som har lagts till på panelen Delning för sociala medier. När knappen är markerad dirigeras användaren om till en delningsdialogruta som tillhandahålls av en social tjänst. Knappens position hanteras helt av verktyget för social delning.
+Twitter-delningsverktyget består av en knapp som har lagts till på panelen Dela via sociala medier. När knappen är markerad dirigeras användaren om till en delningsdialogruta som tillhandahålls av en social tjänst. Knappens position hanteras helt av verktyget för social delning.
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
-Utseendet på Twitternas delningsknapp styrs av följande CSS-klassväljare:
+Utseendet på Twitter-delningsknappen styrs av följande CSS-klassväljare:
 
 ```
 .s7smartcropvideoviewer .s7twittershare
 ```
 
-**CSS-egenskaper för verktyget Dela Twitter**
+**CSS-egenskaper för Twitter-delningsverktyget**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -55,7 +55,7 @@ Det går att ta bort knappen från panelen Dela via CSS-egenskapen `display:none
 
 Knappens funktionsbeskrivning kan lokaliseras. Mer information finns i [Lokalisering av användargränssnittselement](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad).
 
-Exempel - för att ställa in en knapp för att dela Twitter som är 28 x 28 pixlar och som visar en annan bild för vart och ett av de fyra olika knapplägena:
+Exempel - för att ställa in en Twitter-delningsknapp som är 28 x 28 pixlar och visar en annan bild för vart och ett av de fyra olika knapplägena:
 
 ```
 .s7smartcropvideoviewer .s7twittershare { 

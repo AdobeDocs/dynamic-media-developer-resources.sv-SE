@@ -1,6 +1,6 @@
 ---
 title: Scene7 hösten 2016
-description: Den senaste versionsinformationen om Adobe Scene7 hösten 2016, en del av Adobe Experience Manager-lösningen i Adobe Experience Cloud.
+description: Den senaste versionsinformationen om Adobe Scene7 Fall 2016, en del av Adobe Experience Manager-lösningen i Adobe Experience Cloud.
 solution: Experience Manager
 feature: Dynamic Media Classic
 role: Developer,User
@@ -30,13 +30,13 @@ Den senaste versionsinformationen för [!DNL Adobe Scene7] hösten 2016-versione
 
 ## Allmänt {#section-52afeb72ecb34c1585ea67a5051825a2}
 
-Adobe är glada över att kunna meddela att det finns HTTP/2-leverans av innehåll, vilket i sin helhet ger bättre prestanda.
+Adobe är mycket glada över att kunna meddela att HTTP/2-leverans av innehåll är tillgänglig, vilket ger bättre prestanda.
 
-Se [HTTP2 Delivery of Content FAQ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html?lang=sv-SE#dynamic).
+Se [HTTP2 Delivery of Content FAQ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
 
 ## Scene7 Publishing System {#section-24487cb493444d808fb7193f0a00cdd4}
 
-Fullständig dokumentation finns på [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=sv-SE](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=sv-SE)
+Fullständig dokumentation finns på [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)
 
 **Nya funktioner, förbättringar och felkorrigeringar**
 
@@ -53,22 +53,22 @@ Fullständig dokumentation finns på [https://experienceleague.adobe.com/docs/dy
 * Felkorrigering med välkomstmeddelandet som skickades till nya Scene7-användare som inte innehöll autentisering för att kontrollera vissa inställningar.
 * Felkorrigering som innebär att det inte gick att hämta en FTP-mapplista om någon mapp hade specialtecken i namnet.
 * Konfigurera OKTA-tjänsteleverantörer för Scene7-miljöer.
-* Stöd för Experience Cloud Org ID för visningsprogramanalys har lagts till.
-* Implementerade Scene7 SAML-användare.
+* Stöd för Experience Cloud Org ID för Viewer Analytics har lagts till.
+* Implementerad Scene7 SAML-konsument.
 
 ## Visare (Image Serving 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-Fullständig dokumentation finns i [Referenshandbok för visningsprogram](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=sv-SE).
+Fullständig dokumentation finns i [Referenshandbok för visningsprogram](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Felkorrigeringar för Image Serving 5.5.3**
 
 * Kompatibilitet med RequireJS- och DOJO-bibliotek.
 
-  Konsoliderade SDK JS-cachning under distributionen av visningsprogrammet.
+  Konsoliderade SDK JS-cachning under användandet av visningsprogrammet.
 
 ## Visare (Image Serving 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-Fullständig dokumentation finns i [Referenshandbok för visningsprogram](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=sv-SE).
+Fullständig dokumentation finns i [Referenshandbok för visningsprogram](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Felkorrigeringar för Image Serving 5.5.2**
 
@@ -77,15 +77,15 @@ Fullständig dokumentation finns i [Referenshandbok för visningsprogram](https:
 
 ## Visare (Image Serving 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-Fullständig dokumentation finns i [Referenshandbok för visningsprogram](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=sv-SE).
+Fullständig dokumentation finns i [Referenshandbok för visningsprogram](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Nya funktioner, förbättringar och felkorrigeringar för Image Serving 5.5.1**
 
 * HTML5 eCatalog-visningsprogram med sökfunktion.
-* HLS-direktuppspelad videouppspelning har lagts till som standardmetod för videoleverans i de flesta datorsystem. Flash-baserad HDS-videoströmning är fortfarande tillgängligt som ett alternativt uppspelningsalternativ.
+* HLS direktuppspelad videouppspelning har lagts till som standardmetod för videoleverans i de flesta datorsystem. Flash-baserad videoströmning från HDS är fortfarande tillgängligt som ett alternativt uppspelningsalternativ.
 * Stöd för enheter med både mus- och pekrörelser som kör Chrome webbläsare.
-* Stöd för Experience Cloud Org ID har lagts till i Analytics-integreringen.
-* Uppdatera AppMeasurement JavaScript-bibliotek till version 1.6.1.
+* Experience Cloud Org ID-stöd har lagts till i Analytics-integreringen.
+* Uppdatera AppMeasurement JavaScript-biblioteket till version 1.6.1.
 * Stöd för höger-till-vänster-orientering har lagts till i eCatalog-visningsprogrammet.
 * Korrigerat problem där `tip=0,-1,0` orsakade ett fel utanför intervallet.
 
@@ -104,7 +104,7 @@ Fullständig dokumentation finns i [Referenshandbok för visningsprogram](https:
 
 * Galaxy SIII
 
-   * Minnesläcka som visas i visningsprogrammen Zoom och eCatalog HTML 5. Upprepad navigering i bildrutor kan göra att webbläsaren kraschar.
+   * Minnesläcka som syns i Zoom- och eCatalog HTML5-visningsprogrammen. Upprepad navigering i bildrutor kan göra att webbläsaren kraschar.
    * Dubbeltryck på visningsprogrammet kan göra att hela sidan zoomas i stället för bara visningsprogrammet med skalning på webbläsarsidan aktiverad.
 
 * Galaxy S4
@@ -121,13 +121,13 @@ Fullständig dokumentation finns i [Referenshandbok för visningsprogram](https:
 
 * HTML Mobile Devices
 
-   * HTC-mobilenheter Adobe upptäcker att det inte går att inaktivera inbyggda nyp-zoom är en funktion i HTC UI-wrapper (HTC Sense). Det här problemet kan göra att hela sidan zoomas när du använder Nyp för att zooma i visningsprogrammet. Föreslå att dubbelknacka i stället.
+   * HTC-mobilenheter Adobe upptäckter visar att det inte går att inaktivera inbyggda nyp-zoom är en funktion i HTC UI-wrapper (HTC Sense). Det här problemet kan göra att hela sidan zoomas när du använder Nyp för att zooma i visningsprogrammet. Föreslå att dubbelknacka i stället.
    * Bildschemaikoner kan överlappa om bildscheman är små och nära varandra.
 
-* HTML5-video
+* HTML5 Video
 
    * Internet Explorer 9: anpassade förhandsvisningsbilder visas inte.
-   * Modifieraren `IntialBitRate` stöds bara med HLS- och HDS-uppspelning för programvara. Det fungerar inte när uppspelningen använder den inbyggda spelaren.
+   * Modifieraren `IntialBitRate` stöds bara med uppspelning av HLS och Flash HDS. Det fungerar inte när uppspelningen använder den inbyggda spelaren.
    * OGG- och WebM-progressiv uppspelning stöds för närvarande inte.
    * Webbläsarskalning kan göra att videospelaren visas i fel storlek (inklusive visningsinställningar för Windows OS-kontrollpanelen).
    * Videosökning med HLS-direktuppspelning på Safari kan vara inkonsekvent.
@@ -145,9 +145,9 @@ Fullständig dokumentation finns i [Referenshandbok för visningsprogram](https:
 
 * Safari
 
-   * Safari 6.1 eller senare: Inställningarna för Internetplugin-program kan förhindra videouppspelning av Flash.
-   * Sökning efter video med HLS-direktuppspelning på Safari kan vara inkonsekvent.
-   * Det går inte att söka till slutet av videon på Safari 6 med HLS-direktuppspelning.
+   * Safari 6.1 eller senare: Inställningar för Internet-plugin-program kan förhindra uppspelning av Flash-video.
+   * &quot;Sök&quot;-video med HLS-direktuppspelning på Safari kan vara inkonsekvent.
+   * Det går inte att söka till slutet av en video på Safari 6 med HLS-strömning.
 
 **Kända fel och begränsningar**
 
@@ -188,22 +188,22 @@ Fullständig dokumentation finns i [Referenshandbok för visningsprogram](https:
 
    * För att miniatyrerna ska kunna återges korrekt i utgående e-post måste modifieraren `serverurl` ha en absolut URL.
 
-* HTML5-video
+* HTML5 Video
 
    * Det kan uppstå ett fel med maximal storlek i förhandsvisningsbilden. Företaget måste öka begränsningsinställningen för Image Serving Publish.
-   * Videoklipp kräver en företagsregeluppsättning om värdtjänsten för HTML-sidan hanteras från en extern server (inte en Scene7-server). Kontakta supporten för Adobe om du behöver hjälp.
+   * Videoklipp kräver en företagsregeluppsättning om HTML-sidan hanteras från en extern server (inte en Scene7-server). Kontakta Adobe Support om du behöver hjälp.
    * Analysspårning kan rapportera felaktig uppspelningsprocent på grund av buffring
    * Svarta bildrutor i stället för förhandsvisningsbilder kan visas på iPad- eller Android™-enheter.
    * Svart bildruta kan blinka på skärmen när visningsprogrammet läses in på iPad- eller Android™-enheter.
    * Svarta kantlinjer visas bredvid VideoPlayer-komponenten när bakgrunden är inställd på vit/genomskinlig på iPad-enheter.
    * Den sista videobildrutan kan förvrängas i iPad med iOS 7.
-   * Ibland kan makroblockering förekomma under videosökning i HLS-direktuppspelningsläge i Chrome-, Firefox- och Internet Explorer-webbläsare.
+   * Ibland kan makroblockering förekomma vid videosökning i HLS-direktuppspelningsläge i Chrome-, Firefox- och Internet Explorer-webbläsare.
       * Förhandsvisningsbilden kanske inte visas i Microsoft® Edge webbläsare för första gången.
       * Posterbilden kan döljas efter att videon har lästs in i Internet Explorer 9 när progressiv uppspelning används.
 
-## Scene7 HTML 5 Viewer SDK 3.0.2 {#section-30e2392859c442d1aab2766d0f1d1580}
+## Scene7 HTML5 Viewer SDK 3.0.2 {#section-30e2392859c442d1aab2766d0f1d1580}
 
-Användarhandboken finns i Adobe HTML5 Viewer SDK-mappen för klientinstallationen. Komponent-API-dokumentationen finns i undermappen docs i klientinstallationen.
+Användarhandboken finns i mappen Adobe HTML5 Viewer SDK i klientinstallationen. Komponent-API-dokumentationen finns i undermappen docs i klientinstallationen.
 
 **Felkorrigeringar för 3.0.2**
 
@@ -214,11 +214,11 @@ Användarhandboken finns i Adobe HTML5 Viewer SDK-mappen för klientinstallation
 
 * Allmänt
 
-   * HLS-direktuppspelad videouppspelning har lagts till som standardmetod för videoleverans i de flesta datorsystem. Flash-baserad HDS-videoströmning är fortfarande tillgängligt som ett alternativt uppspelningsalternativ.
+   * HLS direktuppspelad videouppspelning har lagts till som standardmetod för videoleverans i de flesta datorsystem. Flash-baserad videoströmning från HDS är fortfarande tillgängligt som ett alternativt uppspelningsalternativ.
    * Komponenterna SearchManager, SearchPanel, SearchEffect och SearchButton har lagts till som stöd för den nya sökfunktionen i visningsprogram för eCatalog.
    * Stöd för enheter med både mus- och pekrörelser som körs i Chrome webbläsare.
    * Avsaknad av Android™-version som stöd för framtida versioner av operativsystemet.
-   * Lägg till stöd för höger till vänster-orientering i eCatalog-specifika SDK-komponenter.
+   * Lägg till stöd för höger-till-vänster-orientering i eCatalog-specifika SDK-komponenter.
 
 * ControlBar
 
@@ -281,7 +281,7 @@ Användarhandboken finns i Adobe HTML5 Viewer SDK-mappen för klientinstallation
 
    * helskärmsläget upptar inte hela enhetsskärmen, utan ändrar bara storlek på programmet till webbläsarfönstrets storlek.
    * Anpassade markörer fungerar inte på pekenheter.
-   * Sidskalning på pekenheter stöds för närvarande inte. Om du vill bädda in visningsprogram för HTML5 måste du ha en meta-tagg för visningsområdet med lämpliga inställningar.
+   * Sidskalning på pekenheter stöds för närvarande inte. Om du vill bädda in HTML5-visningsprogram måste du ha en meta-tagg för visningsprogrammet med lämpliga inställningar.
 
 * Xoom
 

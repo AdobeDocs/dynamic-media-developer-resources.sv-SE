@@ -67,7 +67,7 @@ Syntax
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> inDesignOptions </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:InDesignOptions</span> </td> 
-   <td colname="col3"> Alternativ för överföring av InDesign till servern. </td> 
+   <td colname="col3"> Alternativ för överföring av InDesign-filer till servern. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> knockoutBackground </span> </span> </td> 

@@ -70,7 +70,7 @@ Sessionskatalogen innehåller följande standardvärden för sessioner:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph">-attribut::TiffEncoding</span> </p> </td> 
-   <td> <p> Komprimeringstyp för TIFF-bildutdata </p> </td> 
+   <td> <p> Komprimeringstyp för TIFF bildutdata </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph">-attribut::Skärpa</span> </p> </td> 

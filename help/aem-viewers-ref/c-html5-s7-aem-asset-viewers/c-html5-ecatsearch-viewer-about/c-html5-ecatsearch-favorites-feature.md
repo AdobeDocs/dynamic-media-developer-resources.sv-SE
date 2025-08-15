@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Sökfunktion{#search-feature}
 
-Visningsprogrammet har stöd för textsökning i katalogens innehåll. För att sökfunktionen ska fungera måste funktionen Extrahera sökord vara aktiverad när källfilen för PDF överförs till Dynamic Media Classic.
+Visningsprogrammet har stöd för textsökning i katalogens innehåll. För att sökfunktionen ska fungera måste funktionen Extrahera sökord vara aktiverad när PDF-källfilen överförs till Dynamic Media Classic.
 
 Sökfunktionen aktiveras genom att en sökknapp aktiveras i huvudverktygsfältet. Den här åtgärden öppnar en sökresultatpanel med ett textinmatningsfält. Användaren kan göra en sökning med nyckelord som avgränsas med blanksteg eller med fraser som omges av citattecken.
 

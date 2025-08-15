@@ -20,7 +20,7 @@ Du får bäst kvalitet på kursiv och fet stil om du registrerar motsvarande tec
 
 Teckensnittet som anges med `attribute::DefaultFont` används när ingen anges explicit i RTF-strängen.
 
-Image Serving har stöd för TrueType, OpenType® och Adobe Type 1 (endast Windows).
+Image Serving har stöd för TrueType-, OpenType®- och Adobe Type 1-teckensnitt (endast Windows).
 
 <!-- THIS APPEARS TO BE VERY OLD OUTDATED INFORMATION; URL IS DEAD TOO ## Photofont&reg; font support {#section-74560ae898cf4708aba4c8b4093f5f00}
 

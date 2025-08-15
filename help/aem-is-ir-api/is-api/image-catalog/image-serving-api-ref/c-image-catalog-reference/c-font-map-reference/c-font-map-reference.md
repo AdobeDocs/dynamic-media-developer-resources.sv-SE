@@ -18,7 +18,7 @@ Om en teckensnittsmappning krävs för en bildkatalog måste den relativa eller 
 
 Poster i teckensnittskartan för en viss bildkatalog åsidosätter poster i teckensnittskartan för standardkatalogen.
 
-Image Serving har stöd för Adobe Type 1, OpenType och TrueType-teckensnitt.
+Image Serving har stöd för Adobe Type 1-, OpenType- och TrueType-teckensnitt.
 
 `textPs=` har även stöd för CID-, ATC- och bitmappsteckensnitt.
 

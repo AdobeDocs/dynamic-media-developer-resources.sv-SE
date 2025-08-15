@@ -52,17 +52,17 @@ Svara i bildformat. Anger bildkodningsformatet för bilddata som skickas till kl
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>swf </p> </td> 
-  <td class="stentry"> <p>Förstörande JPEG inbäddad i en Macromedia swf-fil. </p> </td> 
+  <td class="stentry"> <p>Förstörande JPEG inbäddat i en Macromedia swf-fil. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>swf-alpha </p> </td> 
-  <td class="stentry"> <p>Förstörande JPEG och dekomprimerad mask inbäddad i en Macromedia swf-fil. </p> </td> 
+  <td class="stentry"> <p>Förstörande JPEG och en dekomprimerad mask som är inbäddad i en Macromedia swf-fil. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>PDF </p> </td> 
-  <td class="stentry"> <p>Bilden är inbäddad i PDF. </p> </td> 
+  <td class="stentry"> <p>Bild inbäddad i PDF. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
@@ -82,7 +82,7 @@ Svara i bildformat. Anger bildkodningsformatet för bilddata som skickas till kl
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> pixelType </span> </p> </td> 
   <td class="stentry"> <p>rgb </p> </td> 
-  <td class="stentry"> <p>Returnera bilddata för RGB. </p> </td> 
+  <td class="stentry"> <p>Returnera RGB bilddata. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
@@ -120,7 +120,7 @@ Svara i bildformat. Anger bildkodningsformatet för bilddata som skickas till kl
 
 *`compression`* Tillåts endast om tif, tif-alpha eller PDF har angetts som *`format`*. I tabellen nedan finns information om vilka komprimeringsalternativ som stöds för dessa bildformat.
 
-`qlt-` Anger kodningsalternativ för JPEG för följande format: JPEG, TIFF med JPEG-komprimering, PDF med JPEG-komprimering och SWF. Använd `quantize=` om `fmt=gif` eller `fmt=gif-alpha`. Mer information finns i kommandobeskrivningarna. De andra formaten har inga inställningsbara alternativ.
+`qlt-` Anger JPEG-kodningsalternativ för följande format: JPEG, TIFF med JPEG-komprimering, PDF med JPEG-komprimering och SWF-fil. Använd `quantize=` om `fmt=gif` eller `fmt=gif-alpha`. Mer information finns i kommandobeskrivningarna. De andra formaten har inga inställningsbara alternativ.
 
 Åtta bitar per pixelkomponent returneras för alla format och pixeltyper.
 
@@ -169,7 +169,7 @@ I följande tabell visas giltiga kombinationer av *`format`* och *`pixelType`*, 
    <td colname="col1"> <p>swf, swf-alpha </p> </td> 
    <td colname="col2"> <p>rgb, grå </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/x-shockwave-flash&gt; </span> </p> </td> 
-   <td colname="col4"> <p>Nej </p> <p>(Flashen Player ignorerar inbäddade ICC-profiler.) </p> </td> 
+   <td colname="col4"> <p>Nej </p> <p>(Inbäddade ICC-profiler ignoreras i Flash Player.) </p> </td> 
    <td colname="col5"> <p> <span class="codeph"> qlt= </span>, <span class="codeph"> attribut::TrustedDomains </span> </p> </td> 
   </tr> 
   <tr> 
@@ -210,4 +210,4 @@ Kan förekomma var som helst i begäran.
 
 ## Se även {#section-c55efc881fc94c70bff91b870e026a7b}
 
-[attribute::Format](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-format.md#reference-da5207242f1c4f1c8fa4df6027121ff2) , [attribute::JpegQuality](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-jpegquality.md#reference-d86fc5ad18bb436891efdbe1f98fea50), [attribute::TiffEncoding](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-tiffencoding.md#reference-a3425191166042d59db766c468857d0e), [qlt=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-qlt.md#reference-27b91c226eb241d0a14a29af3b3afdbd), [iccEmbed=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f), [pathEmbed=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-pathembed.md#reference-dfff01079fc74dbd896362cc740d7f5f), [req=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-req.md#reference-792b1a663fb64261bd2de2a209b847fb), [&rbrace;kvantisera=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-quantize.md#reference-b8069670fa474e4799ac29f0d693ca38)
+[attribute::Format](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-format.md#reference-da5207242f1c4f1c8fa4df6027121ff2) , [attribute::JpegQuality](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-jpegquality.md#reference-d86fc5ad18bb436891efdbe1f98fea50), [attribute::TiffEncoding](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-tiffencoding.md#reference-a3425191166042d59db766c468857d0e), [qlt=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-qlt.md#reference-27b91c226eb241d0a14a29af3b3afdbd), [iccEmbed=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f), [pathEmbed=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-pathembed.md#reference-dfff01079fc74dbd896362cc740d7f5f), [req=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-req.md#reference-792b1a663fb64261bd2de2a209b847fb), [}kvantisera=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-quantize.md#reference-b8069670fa474e4799ac29f0d693ca38)

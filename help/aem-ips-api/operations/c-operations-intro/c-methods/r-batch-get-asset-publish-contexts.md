@@ -43,7 +43,7 @@ Syntax
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Handla till företaget. |
-| assetHandleArray | ` `typer:HandleArray&quot; | Ja | En lista med resurser som du vill fråga efter aktiva (markerade för publicering) kontexter. |
+| assetHandleArray | ` `typer:HandleArray | Ja | En lista med resurser som du vill fråga efter aktiva (markerade för publicering) kontexter. |
 
 **Utdata (batchGetAssetPublishContexterReturn)**
 

@@ -47,7 +47,7 @@ Visningsprogrammet spårar följande SDK-användarhändelser:
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>SDK-användarhändelse </p> </th> 
+   <th colname="col1" class="entry"> <p>SDK användarhändelse </p> </th> 
    <th colname="col2" class="entry"> <p>Skickat när.. </p> </th> 
   </tr> 
  </thead>

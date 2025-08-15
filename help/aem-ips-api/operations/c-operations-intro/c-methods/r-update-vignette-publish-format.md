@@ -30,8 +30,8 @@ Uppdaterar inställningarna för publiceringsformat för vinjettering.
 | Namn | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Företagshandtag. |
-| vinjetteringFormatHandtag | `xsd:string` | Ja | Publish-formatreferens. |
-| name | `xsd:string` | Nej | Publish-formatnamn. |
+| vinjetteringFormatHandtag | `xsd:string` | Ja | Publicera formatreferens. |
+| name | `xsd:string` | Nej | Publicera formatnamn. |
 | targetWidth | `xsd:int` | Ja | Anger målbredden för den resulterande vinjetteringsvyn i pixlar. Använd noll så att utdatavärjningen har samma storlek som den primära vinjetteringen. |
 | targetHeight | `xsd:int` | Ja | Anger målhöjden för den resulterande vinjetteringsvyn i pixlar. Använd noll så att utdatavärjningen har samma storlek som den primära vinjetteringen. |
 | createPyramid | `xsd:boolean` | Ja | Skapar en pyramidvinjettering som är optimerad för zoomning på servern för bildåtergivning. Med början från den maximala storleken, som anges av fälten Storlek på målvinjett, skapas vyer i flera storlekar i en enda vinjettutdatafil. Varje efterföljande visningsstorlek halveras tills bredden och höjden är inom 128 x 128 pixlar. |

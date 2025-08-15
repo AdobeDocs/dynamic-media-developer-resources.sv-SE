@@ -51,4 +51,4 @@ Ange publiceringskontextstatus för en resurs med `setAssetsContextState`.
 
 >[!MORELIKETHIS]
 >
->* [Publish State](../../string-constants/c-string-constants/r-publish-state.md#reference-a9d80231514b4272b39d10c1a7aadca8)
+>* [Publiceringsläge](../../string-constants/c-string-constants/r-publish-state.md#reference-a9d80231514b4272b39d10c1a7aadca8)

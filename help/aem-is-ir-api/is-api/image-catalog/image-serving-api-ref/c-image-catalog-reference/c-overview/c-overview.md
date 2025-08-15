@@ -21,7 +21,7 @@ Bildkataloger används för att ge servern information om bilder och stöddata (
 Varje bildkatalog består av en nödvändig katalogattributfil och en uppsättning valfria katalogdatafiler:
 
 * Bilddatafilen som specificerar bilder och mallar och tillhörande metadata.
-* Datafilen SVG, som specificerar SVG-filer och tillhörande metadata.
+* SVG-datafilen där SVG-filer och tillhörande metadata anges.
 * Makrodefinitionsfilen som innehåller definitioner för begärandemakron.
 * Teckensnittsmappningsfilen som håller reda på teckensnitt.
 * Profilmappningsfilen som specificerar ICC-färgprofiler.
@@ -31,6 +31,6 @@ Katalogdatafiler associeras med bildkataloger utifrån filreferenser i katalogat
 
 Katalogattributfiler måste ha filsuffixet [!DNL .ini] och måste finnas i katalogmappen för [!DNL Platform Server] ( `PlatformServer::catalog.rootPath`). Katalogdatafiler kan finnas i samma mapp eller i någon annan mapp som är tillgänglig för [!DNL Platform Server].
 
-Det här dokumentet beskriver bildkatalogsfilformatet för Dynamic Media Image Serving-systemet. Den avsedda målgruppen är erfarna programmerare och webbutvecklare som vill använda Dynamic Media Image Serving för en webb- eller anpassad applikation.
+Det här dokumentet beskriver bildkatalogsfilformatet för systemet för dynamisk mediaservertering. Den avsedda målgruppen är erfarna programmerare och webbutvecklare som vill använda Dynamic Media Image Serving för en webb eller anpassad applikation.
 
 Det antas att läsaren i allmänhet känner till Dynamic Media Image Serving-systemet, allmänna HTTP-protokollstandarder och konventioner samt grundläggande bildterminologi.

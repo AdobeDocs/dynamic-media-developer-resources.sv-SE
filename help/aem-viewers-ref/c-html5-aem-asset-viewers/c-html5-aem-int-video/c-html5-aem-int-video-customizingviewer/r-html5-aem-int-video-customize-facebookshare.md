@@ -1,6 +1,6 @@
 ---
-title: Facebook
-description: Facebook delningsverktyg består av en knapp som läggs till på panelen Dela via sociala medier. När knappen är markerad dirigeras användaren om till en delningsdialogruta som tillhandahålls av en social tjänst. Knappens position hanteras helt av verktyget för social delning.
+title: Facebook-delning
+description: Facebook-delningsverktyget består av en knapp som läggs till på panelen Dela via sociala medier. När knappen är markerad dirigeras användaren om till en delningsdialogruta som tillhandahålls av en social tjänst. Knappens position hanteras helt av verktyget för social delning.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Facebook{#facebook-share}
+# Facebook-delning{#facebook-share}
 
-Facebook delningsverktyg består av en knapp som läggs till på panelen Dela via sociala medier. När knappen är markerad dirigeras användaren om till en delningsdialogruta som tillhandahålls av en social tjänst. Knappens position hanteras helt av verktyget för social delning.
+Facebook-delningsverktyget består av en knapp som läggs till på panelen Dela via sociala medier. När knappen är markerad dirigeras användaren om till en delningsdialogruta som tillhandahålls av en social tjänst. Knappens position hanteras helt av verktyget för social delning.
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
@@ -24,7 +24,7 @@ Utseendet på Facebook-delningsknappen styrs av följande CSS-klassväljare:
 .s7interactivevideoviewer .s7facebookshare
 ```
 
-**CSS-egenskaper för delningsverktyget i Facebook**
+**CSS-egenskaper för Facebook-delningsverktyget**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -57,7 +57,7 @@ Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av element i anv
 
 ## Exempel {#section-01cbe0096b1443e0a7d91956bd264465}
 
-Så här ställer du in en delningsknapp för Facebook som är 28 x 28 pixlar och visar en annan bild för vart och ett av de fyra olika knapplägena:
+Så här ställer du in en Facebook-delningsknapp som är 28 x 28 pixlar och visar olika bilder för de fyra olika knapplägena:
 
 ```
 .s7interactivevideoviewer .s7facebookshare { 

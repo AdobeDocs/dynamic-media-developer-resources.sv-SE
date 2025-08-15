@@ -25,7 +25,7 @@ textPath= *`pathDefinition`*
  </tr> 
 </table>
 
-Mer information, inklusive en beskrivning av *`pathDefinition`*, finns i [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d).
+Mer information, inklusive en beskrivning av [, finns i ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)clipPath=*`pathDefinition`*.
 
 >[!NOTE]
 >

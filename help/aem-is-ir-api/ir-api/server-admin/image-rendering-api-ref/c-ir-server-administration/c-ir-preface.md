@@ -1,5 +1,5 @@
 ---
-description: I den här dokumentationen beskrivs serveradministrationsproblem och konfigurationsinställningar för Dynamic Media Image Rendering.
+description: I den här dokumentationen beskrivs serveradministrationsproblem och konfigurationsinställningar för dynamisk bildåtergivning.
 solution: Experience Manager
 title: Prefix för serveradministration
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Prefix för serveradministration{#server-administration-preface}
 
-I den här dokumentationen beskrivs serveradministrationsproblem och konfigurationsinställningar för Dynamic Media Image Rendering.
+I den här dokumentationen beskrivs serveradministrationsproblem och konfigurationsinställningar för dynamisk bildåtergivning.
 
 **Målgrupp**
 
-Den här dokumentationen är avsedd för systemadministratörer och webbmaster som behöver installera, konfigurera och administrera Dynamic Media Image Rendering.
+Den här dokumentationen är avsedd för systemadministratörer och webbmaster-användare som behöver installera, konfigurera och administrera återgivning av dynamiska mediebilder.
 
 **Dokumentkonventioner**
 

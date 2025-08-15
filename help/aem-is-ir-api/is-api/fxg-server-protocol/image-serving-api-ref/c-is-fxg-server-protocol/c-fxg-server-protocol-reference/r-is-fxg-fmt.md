@@ -25,7 +25,7 @@ Svarsbildens format.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"></td> 
-  <td class="stentry"> <p> Anger bildkodningsformatet för bilddata som skickas till klienten och motsvarande MIME-svarstyp för HTTP-svarshuvudet. </p> <p> <span class="codeph"> jpeg </span>: förstörande JPEG </p> <p> <span class="codeph"> png </span>: förlustfri PNG </p> <p> <span class="codeph"> png-alpha </span>: förlustfri PNG med alfakanal </p> <p> <span class="codeph"> tif </span>: TIFF </p> <p> <span class="codeph"> tif-alpha </span>: TIFF med alfakanal </p> <p> <span class="codeph"> swf </span>: förstörande JPEG inbäddad i en Adobe-swf-fil </p> <p> <span class="codeph"> pdf </span>: bild inbäddad i PDF </p> <p> <span class="codeph"> gif </span>: GIF med 2 till 256 färger </p> <p> <span class="codeph"> gif-alpha </span>: GIF med 2 till 255 färger plus genomskinlighet för nyckelfärg </p> <p> <span class="codeph"> fxg </span>: FXG med variabler och DOM-manipulering används </p> <p> <span class="codeph"> fxgraw </span>: ursprunglig FXG sparad på servern </p> </td> 
+  <td class="stentry"> <p> Anger bildkodningsformatet för bilddata som skickas till klienten och motsvarande MIME-svarstyp för HTTP-svarshuvudet. </p> <p> <span class="codeph"> jpeg </span>: förstörande JPEG </p> <p> <span class="codeph"> png </span>: förlustfri PNG </p> <p> <span class="codeph"> png-alpha </span>: förlustfri PNG med alfakanal </p> <p> <span class="codeph"> tif </span>: TIFF </p> <p> <span class="codeph"> tif-alpha </span>: TIFF med alfakanal </p> <p> <span class="codeph"> swf </span>: förstörande JPEG inbäddat i en Adobe swf-fil </p> <p> <span class="codeph"> pdf </span>: bild inbäddad i PDF </p> <p> <span class="codeph"> gif </span>: GIF med 2 till 256 färger </p> <p> <span class="codeph"> gif-alpha </span>: GIF med 2 till 255 färger plus genomskinlighet för nyckelfärg </p> <p> <span class="codeph"> fxg </span>: FXG med variabler och DOM-manipulering används </p> <p> <span class="codeph"> fxgraw </span>: ursprunglig FXG sparad på servern </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> pixelType </span> </span> </p></td> 
@@ -39,7 +39,7 @@ Svarsbildens format.
 
 `tiffCompression` tillåts bara om tif, tif-alpha har angetts som format. I tabellen nedan finns information om vilka komprimeringsalternativ som stöds för dessa bildformat.
 
-`qlt=` kan användas för att ange kodningsalternativ för JPEG för följande format: JPEG, TIFF med JPEG-komprimering. Quantize= kan användas om fmt=gif eller fmt=gif-alpha. Mer information finns i kommandobeskrivningarna. De andra formaten har inga inställningsbara alternativ.
+`qlt=` kan användas för att ställa in JPEG-kodningsalternativ för följande format: JPEG, TIFF med JPEG-komprimering. Quantize= kan användas om fmt=gif eller fmt=gif-alpha. Mer information finns i kommandobeskrivningarna. De andra formaten har inga inställningsbara alternativ.
 
 8 bitar per pixelkomponent returneras för alla format och `pixelTypes[7]`.
 

@@ -1,6 +1,6 @@
 ---
 title: Självstudiekurs om SDK för visningsprogram
-description: Viewer SDK innehåller en uppsättning JavaScript-baserade komponenter för anpassad visningsprogramutveckling. Tittarna är webbaserade program som gör att multimediematerial som hanteras av Adobe Dynamic Media kan bäddas in på webbsidor.
+description: Viewer SDK innehåller en uppsättning JavaScript-baserade komponenter för anpassad visningsprogramutveckling. Tittarna är webbaserade program som gör att multimediematerial från Adobe Dynamic Media kan bäddas in på webbsidor.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Självstudiekurs om SDK för visningsprogram{#viewer-sdk-tutorial}
 
-Viewer SDK innehåller en uppsättning JavaScript-baserade komponenter för anpassad visningsprogramutveckling. Tittarna är webbaserade program som gör att multimediematerial som hanteras av Adobe Dynamic Media kan bäddas in på webbsidor.
+Viewer SDK innehåller en uppsättning JavaScript-baserade komponenter för anpassad visningsprogramutveckling. Tittarna är webbaserade program som gör att multimediematerial från Adobe Dynamic Media kan bäddas in på webbsidor.
 
-SDK innehåller till exempel interaktiv zoomning och panorering. Den innehåller även 360-gradersvisning och videouppspelning av resurser som överförts till Adobe Dynamic Media via serverdelsprogrammet Dynamic Media Classic.
+SDK har till exempel interaktiv zoomning och panorering. Den innehåller även 360-gradersvisning och videouppspelning av resurser som överförts till Adobe Dynamic Media via serverdelsprogrammet Dynamic Media Classic.
 
 Även om komponenterna bygger på HTML5-funktionalitet är de utformade för att fungera på Android™- och Apple iOS-enheter samt stationära datorer, inklusive Internet Explorer och senare. Den här typen av upplevelser innebär att du kan skapa ett enda arbetsflöde för alla plattformar som stöds.
 
@@ -24,27 +24,27 @@ SDK består av UI-komponenter som utgör visningsprograminnehåll. Du kan format
 
 Den här självstudiekursen innehåller följande åtgärder som du kan använda för att skapa ett enkelt zoomningsvisningsprogram:
 
-* [Hämta den senaste SDK-versionen av visningsprogrammet från Adobe Developer Connection](c-tutorial.md#section-84dc74c9d8e24a2380b6cf8fc28d7127)
-* [Läs in SDK för visningsprogrammet](c-tutorial.md#section-98596c276faf4cf79ccf558a9f4432c6)
+* [Hämta den senaste versionen av SDK för visningsprogram från Adobe Developer Connection](c-tutorial.md#section-84dc74c9d8e24a2380b6cf8fc28d7127)
+* [Läs in visningsprogrammet SDK](c-tutorial.md#section-98596c276faf4cf79ccf558a9f4432c6)
 * [Lägger till format i visningsprogrammet](c-tutorial.md#section-3783125360a1425eae5a5a334867cc32)
 * [Inkluderar behållare och zoomvy](c-tutorial.md#section-1a01730663154a508b88cc40c6f35539)
 * [Lägger till MediaSet- och Swatches-komponenter i visningsprogrammet](c-tutorial.md#section-02b8c21dd842400e83eae2a48ec265b7)
 * [Lägger till knappar i visningsprogrammet](c-tutorial.md#section-1fc334fa0d2b47eb9cdad461725c07be)
 * [Konfigurera färgrutorna lodrätt](c-tutorial.md#section-91a8829d5b5a4d45a35b7faeb097fcc9)
 
-## Hämta den senaste SDK-versionen av visningsprogrammet från Adobe Developer Connection {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
+## Ladda ned den senaste Viewer SDK från Adobe Developer Connection {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
 
-1. Hämta den senaste SDK:n för visningsprogram från Adobe Developer Connection <!-- SDK NO LONGER AVAILABLE TO DOWNLOAD;DOUBLE CHECK WITH AMIT. THIS ENTIRE TOPIC IS LIKELY OBSOLETE. [here](https://marketing.adobe.com/developer/devcenter/scene7/show) -->.
+1. Hämta det senaste visningsprogrammet för SDK från Adobe Developer Connection <!-- SDK NO LONGER AVAILABLE TO DOWNLOAD;DOUBLE CHECK WITH AMIT. THIS ENTIRE TOPIC IS LIKELY OBSOLETE. [here](https://marketing.adobe.com/developer/devcenter/scene7/show) -->.
 
    >[!NOTE]
    >
-   >Du kan slutföra den här självstudiekursen utan att behöva ladda ned SDK-paketet för visningsprogrammet eftersom SDK har lästs in via fjärranslutning. Viewer-paketet innehåller dock ytterligare exempel och en API-referenshandbok som kan hjälpa dig att skapa egna visningsprogram.
+   >Du kan slutföra den här självstudiekursen utan att behöva ladda ned Viewer SDK-paketet eftersom SDK har lästs in på fjärrbasis. Viewer-paketet innehåller dock ytterligare exempel och en API-referenshandbok som kan hjälpa dig att skapa egna visningsprogram.
 
-## Läs in SDK för visningsprogrammet {#section-98596c276faf4cf79ccf558a9f4432c6}
+## Läs in visningsprogrammet SDK {#section-98596c276faf4cf79ccf558a9f4432c6}
 
 1. Börja med att konfigurera en ny sida för att utveckla det grundläggande zoomvisningsprogrammet som du ska skapa.
 
-   Ta den här nya sidan som Bootstrap - eller inläsarkod - som du använder för att konfigurera ett tomt SDK-program. Öppna din favorittextredigerare och klistra in följande HTML-kod i den:
+   Den här nya sidan är den Bootstrap-kod (eller inläsarkod) som du använder för att konfigurera ett tomt SDK-program. Öppna din favorittextredigerare och klistra in följande HTML-kod i den:
 
    ```html {.line-numbers}
    <!DOCTYPE html> 
@@ -79,7 +79,7 @@ Den här självstudiekursen innehåller följande åtgärder som du kan använda
    </html>
    ```
 
-   Lägg till följande JavaScript-kod i taggen `script` så att den initierar `ParameterManager`. Om du gör det kan du förbereda dig för att skapa och instansiera SDK-komponenter i funktionen `initViewer`:
+   Lägg till följande JavaScript-kod i taggen `script` så att den initierar `ParameterManager`. Om du gör det kan du förbereda dig för att skapa och initiera SDK-komponenter i funktionen `initViewer`:
 
    ```javascript {.line-numbers}
    /* We create a self-running anonymous function to encapsulate variable scope. Placing code inside such 
@@ -161,7 +161,7 @@ Inkludera komponenterna `Container` och `ZoomView`.
    </script>
    ```
 
-1. Skapa nu variabler för att referera till de olika SDK-komponenterna.
+1. Skapa variabler för att referera till de olika komponenterna i SDK.
 
    Lägg till följande variabler högst upp i den anonyma huvudfunktionen, alldeles ovanför `s7sdk.Util.init()`:
 
@@ -215,7 +215,7 @@ Lägg till komponenterna `MediaSet` och `Swatches` i visningsprogrammet.
 
 1. Om du vill att användarna ska kunna välja bilder från en uppsättning kan du lägga till komponenterna `MediaSet` och `Swatches`.
 
-   Lägg till följande SDK:
+   Lägg till följande SDK innehåller:
 
    ```javascript {.line-numbers}
    s7sdk.Util.lib.include('s7sdk.set.MediaSet'); 

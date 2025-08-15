@@ -22,7 +22,7 @@ Rotmappen för diskcachen för [!DNL Platform Server]. En eller flera absoluta f
 
 ## PS::cache.maxSize - Cachestorlek för svarsdata {#section-ed2e1e7ba4bd4e13b77bb20c4cacddb4}
 
-Maximal storlek för HTTP-svarscache i byte. Den här inställningen begränsar mängden faktiska data som ska cachas, men tar inte hänsyn till filsystemets belastning. (Se [Cache för svarsdata](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-response-data-cache.md#concept-81ea996c242441f2a69f7e9d9b3a29ca).) Om flera cachedatamappar har angetts sprids cachedata jämnt över alla mappar. Värdet för `cache.maxSize` i [!DNL PlatformServer.conf] är i byte.
+Maximal storlek för HTTP-svarscache i byte. Den här inställningen begränsar mängden faktiska data som ska cachas, men tar inte hänsyn till filsystemets belastning. (Se [Svarsdatacache](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-response-data-cache.md#concept-81ea996c242441f2a69f7e9d9b3a29ca).) Om flera cachedatamappar anges sprids cachedata jämnt över alla mappar. Värdet för `cache.maxSize` i [!DNL PlatformServer.conf] är i byte.
 
 ## PS::cache.maxEnentries - Max antal poster för svarsdatacache {#section-5603e327e90542a5b50aeeb27b080410}
 

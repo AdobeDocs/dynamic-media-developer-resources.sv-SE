@@ -22,7 +22,7 @@ Disponerar den här visningsprograminstansen genom att frigöra alla resurser so
 
 Webbsideskoden bör även ta bort variabeln för visningsprograminstansen så att den helt tar bort visningsprogrammet från webbläsarminnet.
 
-Om webbsideskoden har registrerade händelseavlyssnare direkt i Viewer SDK-komponenter som används av visningsprogrammet - eller lagrade externa referenser till sådana komponenter - måste du uttryckligen avregistrera sådana avlyssnare efter webbsideskoden. Du måste också ta bort sådana externa komponentreferenser innan du anropar `dispose()`.
+Om webbsideskoden har registrerade händelseavlyssnare direkt i Viewer SDK-komponenter som används av visningsprogrammet - eller lagrade externa referenser till sådana komponenter - måste du avregistrera sådana avlyssnare explicit efter webbsideskoden. Du måste också ta bort sådana externa komponentreferenser innan du anropar `dispose()`.
 
 Åtkomst inte längre till visningsprogrammets API efter att `dispose()` har anropats.
 

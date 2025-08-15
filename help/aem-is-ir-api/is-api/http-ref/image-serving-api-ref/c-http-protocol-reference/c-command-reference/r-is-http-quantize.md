@@ -1,6 +1,6 @@
 ---
 title: kvantifiera
-description: Färgkvantifiering. Anger färgkvantifieringsattribut för konvertering av GIF-utdata.
+description: Färgkvantifiering. Anger färgkvantifieringsattribut för GIF-utdatakonvertering.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # kvantifiera{#quantize}
 
-Färgkvantifiering. Anger färgkvantifieringsattribut för konvertering av GIF-utdata.
+Färgkvantifiering. Anger färgkvantifieringsattribut för GIF-utdatakonvertering.
 
 ` quantize= *`type`*[, *`dither`*[, *`numColors`*[, *`colorList`*]]]`
 
@@ -22,7 +22,7 @@ Färgkvantifiering. Anger färgkvantifieringsattribut för konvertering av GIF-u
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> type </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {adaptive|web|mac} </span> </p> <p>Anger paletttyp. </p> <p>Ange som <span class="codeph"> adaptiv </span> för att beräkna en optimal palett för bilden. </p> <p>Ange <span class="codeph"> web </span> eller <span class="codeph"> mac </span> om du vill välja en fördefinierad palett. </p> <p> <p>Obs! Lastpallstypen <span class="codeph"> mac </span> stöds bara för formaten GIF och PNG8, men inte för formaten GIF-Alpha och PNG8-Alpha.</p> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {adaptive|web|mac} </span> </p> <p>Anger paletttyp. </p> <p>Ange som <span class="codeph"> adaptiv </span> för att beräkna en optimal palett för bilden. </p> <p>Ange <span class="codeph"> web </span> eller <span class="codeph"> mac </span> om du vill välja en fördefinierad palett. </p> <p> <p>Obs! Lastpallstypen <span class="codeph"> mac </span> stöds bara för GIF- och PNG8-format, men inte för GIF-Alpha- och PNG8-Alpha-format.</p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> gitter </span> </span> </p> </td> 
@@ -34,7 +34,7 @@ Färgkvantifiering. Anger färgkvantifieringsattribut för konvertering av GIF-u
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> colorList </span> </span> </p> </td> 
-   <td colname="col2"> <p>En kommaavgränsad lista med RGB-färger som framtvingas i hex6-format </p> <p>Här kan du ange vilka färger som ska ingå i en <span class="codeph"> adaptiv </span> -palett. Om antalet angivna färger är mindre än <span class="codeph"> <span class="varname"> numColors </span> </span> beräknas ytterligare färger baserat på bildinnehållet.</p> </td> 
+   <td colname="col2"> <p>En kommaavgränsad lista med tvingade RGB-färger i hex6-format </p> <p>Här kan du ange vilka färger som ska ingå i en <span class="codeph"> adaptiv </span> -palett. Om antalet angivna färger är mindre än <span class="codeph"> <span class="varname"> numColors </span> </span> beräknas ytterligare färger baserat på bildinnehållet.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -51,11 +51,11 @@ Färgerna som anges med *`colorList`* måste bestå av RGB-värden i hex6-format
 
 ## Exempel {#section-e34aca7587d548a7ae9d4266b80c9451}
 
-Skapa en miniatyrbild för GIF med paletten `web` utan gitter:
+Skapa en GIF-miniatyrbild med paletten `web` utan gitter:
 
 `http:// *`*Server*`*/myRootId/myImageId?req=tmb&fmt=gif&quantize=web,off`
 
-Konvertera bilden till ett GIF med två toner och transparens. Och tvinga färgerna till svartvitt:
+Konvertera bilden till en GIF-bild med tvåfärgad genomskinlighet. Och tvinga färgerna till svartvitt:
 
 `http:// *`*Server*`*/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`
 

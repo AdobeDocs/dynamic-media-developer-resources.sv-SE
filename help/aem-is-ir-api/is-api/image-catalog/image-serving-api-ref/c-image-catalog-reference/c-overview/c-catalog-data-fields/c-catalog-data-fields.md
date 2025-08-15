@@ -16,7 +16,7 @@ ht-degree: 0%
 
 I det här avsnittet beskrivs katalogdatafälten.
 
-* [Image_SVG data](r-image-svg-data.md)
+* [Image_SVG-data](r-image-svg-data.md)
 * [Statiska innehållsdata](r-static-contents-data.md)
 * [Makrodefinitioner](r-macro-definitions.md)
 * [Teckensnittskartor](r-font-maps.md)

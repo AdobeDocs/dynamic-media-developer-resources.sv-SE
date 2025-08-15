@@ -18,7 +18,7 @@ Katalogattribut och -fält kan innehålla data av någon av följande typer.
 
 **Färg**
 
-Färgvärde. Hexadecimal, packat RGB, eventuellt föregånget av 0x. RGB-värdet `128,255,0` kan till exempel anges som `0x80ff00` eller `80ff00`.
+Färgvärde. Hexadecimalt, packat RGB-värde, eventuellt föregånget av 0x. RGB-värdet `128,255,0` kan till exempel anges som `0x80ff00` eller `80ff00`.
 
 **Flagga**
 

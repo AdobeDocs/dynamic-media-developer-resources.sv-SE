@@ -18,7 +18,7 @@ URL-kommando för Interactive Video Viewer.
 
 `interactivedata= *`fil`*`
 
-Interaktiva data associerar vissa tidsregioner i videoinnehållet med produktdata som senare visas i interaktiva färgrutor bredvid videon. Den är också kopplad till den call-to-action-panel som visas när videouppspelningen är klar. Den innehåller också en titel för den interaktiva videon som visas på panelen call-to-action.
+Interaktiva data associerar vissa tidsregioner i videoinnehållet med produktdata som senare visas i interaktiva färgrutor bredvid videon. Den är också kopplad till den call-to-action-panel som visas när videouppspelningen är klar. Där finns också en titel för den interaktiva videon som visas på panelen call-to-action.
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 

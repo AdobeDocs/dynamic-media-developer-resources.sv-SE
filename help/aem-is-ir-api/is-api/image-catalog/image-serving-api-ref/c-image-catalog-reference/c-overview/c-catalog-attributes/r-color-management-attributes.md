@@ -27,7 +27,7 @@ Katalogattributfiler känner igen dessa färghanteringsattribut.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilergb.md#reference-3479e7daac54404f84b06b98ca07b9df" type="reference" format="dita" scope="local"> IccProfileRgb </a> </span> </p></td> 
-  <td class="stentry"> <p>Standardprofil för utdatafärg för RGB. </p></td> 
+  <td class="stentry"> <p>RGB standardprofil för utdata. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrccmyk.md#reference-b57196dfe5db41fe88bd0828ed4ec728" type="reference" format="dita" scope="local"> IccProfileSrcCmyk </a> </span> </p></td> 
@@ -39,7 +39,7 @@ Katalogattributfiler känner igen dessa färghanteringsattribut.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrcrgb.md#reference-b8e576d075b44f5c94d95bfb5aa22ae2" type="reference" format="dita" scope="local"> IccProfileSrcRgb </a> </span> </p></td> 
-  <td class="stentry"> <p>Standardfärgprofil för indata från RGB. </p></td> 
+  <td class="stentry"> <p>RGB standardfärgprofil för indata. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccrenderintent.md#reference-012f207f28bd4406a5368d23ed95a51f" type="reference" format="dita" scope="local"> IccRenderIntent </a> </span> </p> </td> 

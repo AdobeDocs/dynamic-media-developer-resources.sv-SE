@@ -1,5 +1,5 @@
 ---
-description: Det här dokumentet beskriver HTTP-protokollet för Dynamic Media Image Serving.
+description: I det här dokumentet beskrivs HTTP-protokollet för dynamisk mediabildservering.
 solution: Experience Manager
 title: Introduktion
 feature: Dynamic Media Classic,SDK/API
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # Introduktion{#introduction}
 
-Det här dokumentet beskriver HTTP-protokollet för Dynamic Media Image Serving.
+I det här dokumentet beskrivs HTTP-protokollet för dynamisk mediabildservering.
 
-Endast de allmänt tillgängliga aspekterna av protokollet beskrivs. Servern kan ha stöd för ytterligare kommandon som är reserverade för användning av Dynamic Media klientprogramvara.
+Endast de allmänt tillgängliga aspekterna av protokollet beskrivs. Servern kan ha stöd för ytterligare kommandon som är reserverade för användning av klientprogramvaran för Dynamic Media.

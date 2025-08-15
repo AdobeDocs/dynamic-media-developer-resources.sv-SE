@@ -1,6 +1,6 @@
 ---
 cloud: Experience Cloud
-user-guide-title: Referenshandbok för Dynamic Media Viewer
+user-guide-title: Referenshandbok för Dynamic Media Viewers
 feature-set: Experience Manager Assets
 user-guide-description: Anpassa Dynamic Media-visningsprogram för datorer och pekskärmar. Inkludera interaktiva bilder och videor, karuseller, snurr med mera.
 source-git-commit: 8d5dbc2d2b5e228f8496fd71633bf1cb96218226
@@ -11,15 +11,15 @@ ht-degree: 0%
 ---
 
 
-# Referenshandbok för Dynamic Media Viewer {#library}
+# Referenshandbok för Dynamic Media Viewers {#library}
 
-+ [Referenshandbok för Dynamic Media-visningsprogram](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=sv-SE) -->
++ [Referenshandbok för dynamiska mediavisare](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en) -->
 + [Exempel på visningsprogrambibliotek](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 + [Systemkrav](c-system-requirements-and-prerequisites.md)
 + [Installera flera visningsprogram på samma server](t-installing-the-viewers.md)
 + Versionsinformation för visningsprogram {#viewers-release-notes}
    + [Versionsinformation för visningsprogram (5.16.5)](c-release-notes/c-rn-03-02-22.md)
-   + Arkivera {#archive}
+   + Arkiv {#archive}
       + [Versionsinformation för visningsprogram (5.16.1)](c-release-notes/c-archive/c-rn-04-06-21.md)
       + [Versionsinformation för visningsprogram (5.15.3)](c-release-notes/c-archive/c-rn-01-13-21.md)
       + [Versionsinformation för visningsprogram (5.14.1)](c-release-notes/c-archive/c-rn-06-03-20.md)
@@ -37,7 +37,7 @@ ht-degree: 0%
 + [Kompatibilitetsinformation](c-compatibility-notes.md)
 + [Tangentbordstillgänglighet och -navigering](c-keyboard-accessibility.md)
 + [Självstudiekurs om SDK för visningsprogram](c-tutorial.md)
-+ Visare för AEM Assets och Dynamic Media Classic {#viewers-aem-assets-dmc}
++ Tittare för AEM Assets och Dynamic Media Classic {#viewers-aem-assets-dmc}
    + [Tittare för AEM Assets och Dynamic Media Classic](c-html5-s7-aem-asset-viewers/c-html5-s7-aem-asset-viewers.md)
    + Grundläggande zoom {#basic-zoom}
       + [Grundläggande zoomningsvisare](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-about.md)
@@ -84,7 +84,7 @@ ht-degree: 0%
       + [Stöd för hjälpmedel](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-assistive.md)
       + [Lokalisering av användargränssnittselement](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-localization.md)
       + [helskärmsstöd](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-full-screen-support.md)
-      + [Namnutrymme för visningsprogramsDK](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-html5-viewer-sdk-namespace.md)
+      + [SDK-namnområde för visningsprogram](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-html5-viewer-sdk-namespace.md)
    + eCatalog {#ecatalog}
       + [eCatalog](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-about.md)
       + Kommandoreferens - Konfigurationsattribut {#command-reference-configuration-attributes-ecatalog}
@@ -152,7 +152,7 @@ ht-degree: 0%
          + [Ladda ned](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-download.md)
          + [E-postresurs](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-customize-emailshare.md)
          + [Bädda in resurs](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-customize-embedshare.md)
-         + [Facebook](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-customize-facebookshare.md)
+         + [Facebook-delning](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-customize-facebookshare.md)
          + [Favoriter-menyn](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-customize-favoritesmenu.md)
          + [Favoriter, effekt](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-customize-favoriteseffect.md)
          + [Vyn Favoriter](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-customize-favoritesview.md)
@@ -180,7 +180,7 @@ ht-degree: 0%
          + [Miniatyrbilder](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-thumbnails.md)
          + [Knappen Miniatyrbilder](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-thumbnailsbutton.md)
          + [Verktygstips](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-customize-tooltips.md)
-         + [Twitter](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-customize-twittershare.md)
+         + [Twitter-delning](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-customize-twittershare.md)
          + [Knappen Visa alla favoriter](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-viewallfavorites.md)
          + [Knappen Zooma in](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-zoominbutton.md)
          + [Knappen Zooma ut](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-zoomoutbutton.md)
@@ -194,8 +194,8 @@ ht-degree: 0%
       + [Utskriftsfunktion](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-print-feature.md)
       + [Ladda ned](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-download.md)
       + [Favoriter](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-favorites-feature.md)
-      + [Namnutrymme för visningsprogramsDK](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-html5-viewer-sdk-namespace.md)
-   + eCatalog-sökning {#ecatalog-search}
+      + [SDK-namnområde för visningsprogram](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-html5-viewer-sdk-namespace.md)
+   + eCatalog Search {#ecatalog-search}
       + [eCatalog Search](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-about.md)
       + Kommandoreferens - Konfigurationsattribut {#command-reference-configuration-attributes-ecatalog-search}
          + [Kommandoreferens - Konfigurationsattribut](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib.md)
@@ -261,14 +261,14 @@ ht-degree: 0%
          + [setParam](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-javascriptapiref/r-html5-ecatsearch-javascriptapiref-setparam.md)
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-javascriptapiref/r-html5-ecatsearch-javascriptapiref-setparams.md)
       + [Händelseåteranrop](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-event-callbacks.md)
-      + Anpassa visningsprogrammet för eCatalog-sökning {#customize-ecatalog-search}
+      + Anpassa visningsprogrammet för eCatalog Search {#customize-ecatalog-search}
          + [Anpassa visningsprogrammet för eCatalog Search](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md)
          + [Knappen Lägg till favorit](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-addfavorite.md)
          + [Knappen Stäng](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-closebutton.md)
          + [Ladda ned](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-download.md)
          + [E-postresurs](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-emailshare.md)
          + [Bädda in resurs](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-embedshare.md)
-         + [Facebook](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-facebookshare.md)
+         + [Facebook-delning](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-facebookshare.md)
          + [Favoriter, effekt](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-favoriteseffect.md)
          + [Favoriter-menyn](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-favoritesmenu.md)
          + [Vyn Favoriter](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-favoritesview.md)
@@ -299,7 +299,7 @@ ht-degree: 0%
          + [Miniatyrbilder](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-thumbnails.md)
          + [Knappen Miniatyrbilder](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-thumbnailsbutton.md)
          + [Verktygstips](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-tooltips.md)
-         + [Twitter](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-twittershare.md)
+         + [Twitter-delning](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-twittershare.md)
          + [Knappen Visa alla favoriter](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-viewallfavorites.md)
          + [Knappen Zooma in](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-zoominbutton.md)
          + [Knappen Zooma ut](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-zoomoutbutton.md)
@@ -313,7 +313,7 @@ ht-degree: 0%
       + [helskärmsstöd](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-full-screen-support.md)
       + [Ladda ned](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-download.md)
       + [Sökfunktion](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-favorites-feature.md)
-      + [Namnutrymme för visningsprogramsDK](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-html5-viewer-sdk-namespace.md)
+      + [SDK-namnområde för visningsprogram](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-html5-viewer-sdk-namespace.md)
    + Utfällbar {#flyout}
       + [Utfällbar](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-about.md)
       + Kommandoreferens - Konfigurationsattribut {#command-reference-configuration-attributes-flyout}
@@ -360,7 +360,7 @@ ht-degree: 0%
       + [Stöd för Adobe Analytics tracking](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-sitecatalyst.md)
       + [Stöd för hjälpmedel](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-assistive.md)
       + [Lokalisering av användargränssnittselement](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md)
-      + [Namnutrymme för visningsprogramsDK](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-namespace.md)
+      + [SDK-namnområde för visningsprogram](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-namespace.md)
    + Textbunden zoom {#inline-zoom}
       + [Textbunden zoom](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-about.md)
       + Kommandoreferens - Konfigurationsattribut {#command-reference-configuration-attributes-inline-zoom}
@@ -405,7 +405,7 @@ ht-degree: 0%
       + [Stöd för Adobe Analytics tracking](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-sitecatalyst.md)
       + [Stöd för hjälpmedel](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-assistive.md)
       + [Lokalisering av användargränssnittselement](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md)
-      + [Namnutrymme för visningsprogramsDK](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-namespace.md)
+      + [SDK-namnområde för visningsprogram](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-namespace.md)
    + Blandade media {#mixed-media}
       + [Blandade media](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-about.md)
       + Kommandoreferens - Konfigurationsattribut {#command-reference-configuration-attributes-mixed-media}
@@ -466,7 +466,7 @@ ht-degree: 0%
          + [ZoomView.singleclick](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-zoomview-singleclick.md)
          + [ZoomView.transition](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-zoomview-transition.md)
          + [ZoomView.zoomstep](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-zoomview-zoomstep.md)
-      + JavaScript API-referens för blandad mediavisare {#jsapi-mixed-media}
+      + JavaScript API-referens för blandad Media Viewer {#jsapi-mixed-media}
          + [JavaScript API-referens för blandad Media Viewer](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/c-html5-mixedmedia-viewer-javascriptapiref.md)
          + [dispose](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-dispose.md)
          + [getComponent](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-getcomponent.md)
@@ -513,7 +513,7 @@ ht-degree: 0%
       + [HTTPS-videoleverans](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-securevideodelivery.md)
       + [Lokalisering av användargränssnittselement](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md)
       + [helskärmsstöd](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-full-screen-support.md)
-      + [Namnutrymme för visningsprogramsDK](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-namespace.md)
+      + [SDK-namnområde för visningsprogram](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-namespace.md)
    + Snurra {#spin}
       + [Snurra visningsprogram](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-about.md)
       + Kommandoreferens - Konfigurationsattribut {#command-reference-configuration-attributes-spin}
@@ -544,7 +544,7 @@ ht-degree: 0%
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-setparams.md)
          + [SpinViewer](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-spinviewer.md)
       + [Händelseåteranrop](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-event-callbacks.md)
-      + Anpassa rotationsvisningsprogrammet {#customizing-spin}
+      + Anpassa Spin Viewer {#customizing-spin}
          + [Anpassa Spin Viewer](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md)
          + [Knappen Stäng](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/r-html5-spin-viewer-customize-closebutton.md)
          + [Fokusmarkering](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/r-html5-spin-viewer-customize-focushighlight.md)
@@ -562,7 +562,7 @@ ht-degree: 0%
       + [Stöd för hjälpmedel](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-assistive.md)
       + [Lokalisering av användargränssnittselement](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-localization.md)
       + [helskärmsstöd](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-full-screen-support.md)
-      + [Namnutrymme för visningsprogramsDK](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-namespace.md)
+      + [SDK-namnområde för visningsprogram](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-namespace.md)
    + Video {#video}
       + [Video](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-reference.md)
       + Kommandoreferens - Konfigurationsattribut {#command-reference-configuration-attributes-video}
@@ -614,7 +614,7 @@ ht-degree: 0%
          + [Kontrollfält](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-20-customize-controlbar.md)
          + [E-postresurs](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-customize-emailshare.md)
          + [Bädda in resurs](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-customize-embedshare.md)
-         + [Facebook](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-customize-facebookshare.md)
+         + [Facebook-delning](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-customize-facebookshare.md)
          + [Fokusmarkering](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-customize-focushighlight.md)
          + [helskärmsknapp](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-20-customize-fullscreenbutton.md)
          + [Ikoneffekt](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-20-customize-iconeffect.md)
@@ -624,7 +624,7 @@ ht-degree: 0%
          + [Knappen Spela upp/Paus](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-20-customize-playpausebutton.md)
          + [Social andel](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-customize-socialshare.md)
          + [Verktygstips](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-customize-tooltips.md)
-         + [Twitter](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-customize-twittershare.md)
+         + [Twitter-delning](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-customize-twittershare.md)
          + [Videospelare](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-20-customize-videoplayer.md)
          + [Videoskrubber](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-20-customize-videoscrubber.md)
          + [Videotid](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-20-customize-videotime.md)
@@ -634,7 +634,7 @@ ht-degree: 0%
       + [Lokalisering av användargränssnittselement](c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md)
       + [helskärmsstöd](c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-full-screen-support.md)
       + [Stöd för extern video](c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md)
-      + [Namnutrymme för visningsprogramsDK](c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-namespace.md)
+      + [SDK-namnområde för visningsprogram](c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-namespace.md)
    + Zooma {#zoom}
       + [Zooma](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-about.md)
       + Kommandoreferens - Konfigurationsattribut {#command-reference-configuration-attributes-zoom}
@@ -692,7 +692,7 @@ ht-degree: 0%
       + [Stöd för hjälpmedel](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-assistive.md)
       + [Lokalisering av användargränssnittselement](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md)
       + [helskärmsstöd](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-full-screen-support.md)
-      + [Namnutrymme för visningsprogramsDK](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-namespace.md)
+      + [SDK-namnområde för visningsprogram](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-namespace.md)
 + Endast visningsprogram för AEM Assets {#viewers-for-aem-assets-only}
    + [Endast visningsprogram för AEM Assets](c-html5-aem-asset-viewers/c-html5-aem-asset-viewers.md)
    + Carousel {#carousel}
@@ -740,7 +740,7 @@ ht-degree: 0%
       + [Lokalisering av användargränssnittselement](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md)
       + [Stöd för hotspot- och bildscheman](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-hotspot-image-support.md)
       + [Förhandsladda bild](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-preload-image.md)
-      + [Namnutrymme för visningsprogramsDK](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-namespace.md)
+      + [SDK-namnområde för visningsprogram](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-namespace.md)
    + Interaktiv bild {#interactive-images}
       + [Interaktiv bild](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-images.md)
       + Kommandoreferens - Konfigurationsattribut {#command-reference-configuration-attributes-interactive-images}
@@ -775,7 +775,7 @@ ht-degree: 0%
       + [Lokalisering av användargränssnittselement](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-localization.md)
       + [Stöd för hotspot](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-hotspot-support.md)
       + [Förhandsladda bild](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-preload-image.md)
-      + [Namnutrymme för visningsprogramsDK](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-namespace.md)
+      + [SDK-namnområde för visningsprogram](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-namespace.md)
    + Interaktiv video {#interactive-video}
       + [Interaktiv video](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video.md)
       + Kommandoreferens - Konfigurationsattribut {#command-reference-configuration-attributes-interactive-video}
@@ -834,12 +834,12 @@ ht-degree: 0%
          + [setParam](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-setparam.md)
          + [setParams](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-setparams.md)
       + [Händelseåteranrop](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-event-callbacks.md)
-      + Anpassa den interaktiva videovisningsprogrammet {#customizing-interactive-video}
+      + Anpassa Interactive Video Viewer {#customizing-interactive-video}
          + [Anpassa Interactive Video Viewer](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md)
-         + [Uppmaning](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-calltoaction.md)
+         + [Call to action](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-calltoaction.md)
          + [Bildtext, knapp](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-captionbutton.md)
          + [Kontrollfält](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-controlbar.md)
-         + [Facebook](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-facebookshare.md)
+         + [Facebook-delning](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-facebookshare.md)
          + [Fokusmarkering](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-focushighlight.md)
          + [helskärmsknapp](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-fullscreenbutton.md)
          + [Ikoneffekt](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-iconeffect.md)
@@ -850,7 +850,7 @@ ht-degree: 0%
          + [Knappen Spela upp/Paus](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-playpausebutton.md)
          + [Social andel](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-socialshare.md)
          + [Verktygstips](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-tooltips.md)
-         + [Twitter](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-twittershare.md)
+         + [Twitter-delning](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-twittershare.md)
          + [Videospelare](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-videoplayer.md)
          + [Videoskrubber](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-videoscrubber.md)
          + [Videotid](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-videotime.md)
@@ -860,7 +860,7 @@ ht-degree: 0%
       + [Stöd för interaktiva data](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-int-data-support.md)
       + [Lokalisering av användargränssnittselement](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md)
       + [helskärmsstöd](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-full-screen-support.md)
-      + [Namnutrymme för visningsprogramsDK](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-html5-viewer-sdk-namespace.md)
+      + [SDK-namnområde för visningsprogram](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-html5-viewer-sdk-namespace.md)
    + Video för smart beskärning {#smartcropvideo}
       + [Video för smart beskärning](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-reference.md)
       + Kommandoreferens - Konfigurationsattribut {#command-reference-configuration-attributes-smartcropvideo}
@@ -911,7 +911,7 @@ ht-degree: 0%
          + [Kontrollfält](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-controlbar.md)
          + [E-postresurs](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-emailshare.md)
          + [Bädda in resurs](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-embedshare.md)
-         + [Facebook](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-facebookshare.md)
+         + [Facebook-delning](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-facebookshare.md)
          + [Fokusmarkering](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-focushighlight.md)
          + [helskärmsknapp](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-fullscreenbutton.md)
          + [Ikoneffekt](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-iconeffect.md)
@@ -921,7 +921,7 @@ ht-degree: 0%
          + [Knappen Spela upp/Paus](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-playpausebutton.md)
          + [Social andel](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-socialshare.md)
          + [Verktygstips](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-tooltips.md)
-         + [Twitter](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-twittershare.md)
+         + [Twitter-delning](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-twittershare.md)
          + [Videoskrubber](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-videoscrubber.md)
          + [Videotid](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-videotime.md)
       + [Stöd för Adobe Analytics tracking](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-sitecatalystracking.md)
@@ -930,7 +930,7 @@ ht-degree: 0%
       + [Lokalisering av användargränssnittselement](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md)
       + [helskärmsstöd](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-full-screen-support.md)
       + [Stöd för extern video](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-external-video-support.md)
-      + [Namnutrymme för visningsprogramsDK](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-namespace.md)
+      + [SDK-namnområde för visningsprogram](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-namespace.md)
    + Video360 {#video360}
       + [Video360](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360.md)
       + Kommandoreferens - Konfigurationsattribut {#command-reference-configuration-attributes-video360}
@@ -975,7 +975,7 @@ ht-degree: 0%
          + [Anpassa Video360-visningsprogrammet](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md)
          + [Kontrollfält](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-controlbar.md)
          + [Bädda in resurs](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-embedshare.md)
-         + [Facebook](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-facebookshare.md)
+         + [Facebook-delning](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-facebookshare.md)
          + [Fokusmarkering](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-focushighlight.md)
          + [helskärmsknapp](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-fullscreenbutton.md)
          + [Ikoneffekt](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-iconeffect.md)
@@ -985,7 +985,7 @@ ht-degree: 0%
          + [Knappen Spela upp/Paus](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-playpausebutton.md)
          + [Social andel](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-socialshare.md)
          + [Verktygstips](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-tooltips.md)
-         + [Twitter](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-twittershare.md)
+         + [Twitter-delning](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-twittershare.md)
          + [Video360-spelare](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-video360player.md)
          + [Videoskrubber](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-videoscrubber.md)
          + [Videotid](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-videotime.md)
@@ -995,7 +995,7 @@ ht-degree: 0%
       + [Lokalisering av användargränssnittselement](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md)
       + [helskärmsstöd](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-full-screen-support.md)
       + [Stöd för extern video](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md)
-      + [Namnutrymme för visningsprogramsDK](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-viewer-sdk-namespace.md)
+      + [SDK-namnområde för visningsprogram](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-viewer-sdk-namespace.md)
 + Kommandoreferens som är gemensam för alla visningsprogram - Konfigurationsattribut {#command-reference-common-to-all-viewers-config-attrib}
    + [Kommandoreferens som är gemensam för alla visningsprogram - Konfigurationsattribut](r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md)
    + [stageSize](r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib-stagesize.md)

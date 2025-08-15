@@ -1,6 +1,6 @@
 ---
-title: Twitter
-description: Verktyget för delning av twitter består av en knapp som har lagts till på panelen Delning för sociala medier. När knappen är markerad dirigeras användaren om till en delningsdialogruta som tillhandahålls av en social tjänst. Knappens position hanteras helt av verktyget för social delning.
+title: Twitter-delning
+description: Twitter-delningsverktyget består av en knapp som har lagts till på panelen Dela via sociala medier. När knappen är markerad dirigeras användaren om till en delningsdialogruta som tillhandahålls av en social tjänst. Knappens position hanteras helt av verktyget för social delning.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -12,19 +12,19 @@ ht-degree: 0%
 
 ---
 
-# Twitter{#twitter-share}
+# Twitter-delning{#twitter-share}
 
-Verktyget för delning av twitter består av en knapp som har lagts till på panelen Delning för sociala medier. När knappen är markerad dirigeras användaren om till en delningsdialogruta som tillhandahålls av en social tjänst. Knappens position hanteras helt av verktyget för social delning.
+Twitter-delningsverktyget består av en knapp som har lagts till på panelen Dela via sociala medier. När knappen är markerad dirigeras användaren om till en delningsdialogruta som tillhandahålls av en social tjänst. Knappens position hanteras helt av verktyget för social delning.
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
-Utseendet på Twitternas delningsknapp styrs av följande CSS-klassväljare:
+Utseendet på Twitter-delningsknappen styrs av följande CSS-klassväljare:
 
 ```
 .s7interactivevideoviewer .s7twittershare
 ```
 
-**CSS-egenskaper för verktyget Dela Twitter**
+**CSS-egenskaper för Twitter-delningsverktyget**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -57,7 +57,7 @@ Knappens funktionsbeskrivning kan lokaliseras. Se [Lokalisering av element i anv
 
 ## Exempel {#section-5a8837ea208e48ed8dfa6a3c1a514492}
 
-Så här ställer du in en knapp för delning av Twitter som är 28 x 28 pixlar och visar en annan bild för vart och ett av de fyra olika knapplägena:
+Så här ställer du in en Twitter-delningsknapp som är 28 x 28 pixlar och visar olika bilder för de fyra olika knapplägena:
 
 ```
 .s7interactivevideoviewer .s7twittershare { 

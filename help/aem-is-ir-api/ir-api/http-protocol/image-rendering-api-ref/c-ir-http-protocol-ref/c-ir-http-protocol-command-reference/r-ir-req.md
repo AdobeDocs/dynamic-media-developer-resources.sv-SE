@@ -166,7 +166,7 @@ Returnerar bildmappsdata som ingår i vinjetteringen. Som standard returneras ka
 
 Kartdata skalas inte till `wid=` eller `hei=` eller ändras inte på något annat sätt. MIME-typen för svar är `<text/xml>`.
 
-Svarsdata består av ett `<map>`-element som innehåller en uppsättning `<area>`-element som liknar taggen HTML `<AREA>` .
+Svarsdata består av ett `<map>`-element som innehåller en uppsättning `<area>`-element som liknar HTML `<AREA>` -taggen.
 
 Varje `<area>`-element innehåller standardattributen `type=` och `coord=` samt ett `name=`-attribut som anger namn eller sökväg för vinjetteringsgruppen. Det finns flera `<area>`-element med samma namn om maskerna för motsvarande objektgrupp har icke sammanhängande regioner.
 
@@ -236,7 +236,7 @@ Följande egenskaper kan ingå i svaret:
   <tr> 
    <td> <p> <span class="codeph"> image.quality </span> </p> </td> 
    <td> <p>Heltal, boolesk </p> </td> 
-   <td> <p> JPEG och chroma-flagga (se <span class="codeph"> <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-qlt.md#reference-27b91c226eb241d0a14a29af3b3afdbd" type="reference" format="dita" scope="local"> qlt= </a> </span>) </p> </td> 
+   <td> <p> JPEG kvalitets- och färgflagga (se <span class="codeph"> <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-qlt.md#reference-27b91c226eb241d0a14a29af3b3afdbd" type="reference" format="dita" scope="local"> qlt= </a> </span>) </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.type </span> </p> </td> 

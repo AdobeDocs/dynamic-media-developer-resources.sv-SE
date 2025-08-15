@@ -72,7 +72,7 @@ Kommandon för flera bildservrar eller namn på bildförinställningar avgränsa
 
 ## dataläge {#section-97caf43cf5ab4ca8b1b866d8f394a9a4}
 
-Följande två smarta beskärningslägen är tillgängliga i AEM 6.4 och senare och i Dynamic Media Viewer 5.9 och senare:
+Följande två Smart Crop-lägen är tillgängliga i AEM 6.4 och senare samt i Dynamic Media Viewer 5.9 och senare:
 
 * **Manuell** - användardefinierade brytpunkter och motsvarande Image Service-kommandon definieras i ett attribut i image-elementet.
 * **Smart beskärning** - beräknade renderingar av smarta beskärningar hämtas automatiskt från leveransservern. Den bästa återgivningen väljs med bildelementets körningsstorlek.

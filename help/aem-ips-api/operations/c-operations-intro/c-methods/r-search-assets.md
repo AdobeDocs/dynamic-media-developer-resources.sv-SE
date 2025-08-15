@@ -96,7 +96,7 @@ Begränsa storleken på datauppsättningen med parametrarna `responseFieldArray`
    <td colname="col1"> <span class="codeph"> <span class="varname"> publishState </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Nej </td> 
-   <td colname="col4"> Publish val. </td> 
+   <td colname="col4"> Välj publiceringstillstånd. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> trashState </span> </span> </td> 
@@ -180,7 +180,7 @@ Begränsa storleken på datauppsättningen med parametrarna `responseFieldArray`
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeByproducts </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolesk</span> </td> 
    <td colname="col3"> Nej </td> 
-   <td colname="col4"> Om värdet är true utesluts byproduktresurser som genereras vid förtäring av en primär resurs, t.ex. bilder på en rippad PDF-sida, från sökresultaten. Standardvärdet är false. </td> 
+   <td colname="col4"> Om värdet är true utesluts produktresurser som genereras vid inmatning av en primär resurs, t.ex. bortskurna PDF-sidbilder, från sökresultaten. Standardvärdet är false. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludByproductArray </span> </span> </td> 

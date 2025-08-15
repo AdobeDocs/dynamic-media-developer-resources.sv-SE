@@ -24,7 +24,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> antal</span></span> </p> </td> 
-   <td colname="col2"> <p> Anger det maximala antalet gånger som ikoneffekten </span> <span class="codeph"> visas och visas igen. Värdet <span class="codeph"> -1</span> anger att ikonen alltid visas oändligt. </p> </td> 
+   <td colname="col2"> <p> Anger det maximala antalet gånger som ikoneffekten <span class="codeph"> </span> visas och visas igen. Värdet <span class="codeph"> -1</span> anger att ikonen alltid visas oändligt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> tonad</span></span> </p> </td> 
@@ -32,7 +32,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> autoHide</span></span> </p> </td> 
-   <td colname="col2"> <p>Anger antalet sekunder som ikoneffekten </span> för <span class="codeph"> förblir helt synlig innan den döljs automatiskt. Det vill säga, tiden efter att den intonade animeringen är klar men innan den uttonade animeringen börjar. En inställning på <span class="codeph"> 0</span> inaktiverar beteendet för att dölja automatiskt. </p> </td> 
+   <td colname="col2"> <p>Anger antalet sekunder som ikoneffekten <span class="codeph"> för </span> förblir helt synlig innan den döljs automatiskt. Det vill säga, tiden efter att den intonade animeringen är klar men innan den uttonade animeringen börjar. En inställning på <span class="codeph"> 0</span> inaktiverar beteendet för att dölja automatiskt. </p> </td> 
   </tr> 
  </tbody> 
 </table>

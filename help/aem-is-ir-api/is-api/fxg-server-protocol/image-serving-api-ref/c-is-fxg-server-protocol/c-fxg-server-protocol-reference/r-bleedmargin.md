@@ -1,5 +1,5 @@
 ---
-description: Ange utfallsmarginal. Anger den utfallsmarginal som ställs in i filen PDF.
+description: Ange utfallsmarginal. Anger den utfallsmarginal som ställs in i PDF-filen.
 solution: Experience Manager
 title: utfallsmarginal
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # utfallsmarginal{#bleedmargin}
 
-Ange utfallsmarginal. Anger den utfallsmarginal som ställs in i filen PDF.
+Ange utfallsmarginal. Anger den utfallsmarginal som ställs in i PDF-filen.
 
 `bleedMargin=[ *[!DNL top]*[, *[!DNL left]*= *[!DNL top]*[, *[!DNL bottom]*= *[!DNL top]*[, *[!DNL right]*= *[!DNL left]*]]]]` i punkter
 

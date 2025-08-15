@@ -18,7 +18,7 @@ Standardinställningar för avancerad återgivning. Standard för `catalog::Rend
 
 ## Egenskaper {#section-fa89db09aeeb420292cf783f07b8547a}
 
-Textsträng. Om det anges måste det vara en giltig återgivningsinställningssträng, enligt definitionen med verktyget Skapa vinjett (ingår i Dynamic Media Image Authoring package).
+Textsträng. Om det anges måste det vara en giltig återgivningsinställningssträng, enligt definitionen med Vinjetteringsverktyget (ingår i paketet Dynamic Media Image Authoring).
 
 ## Standard {#section-4e76784aeecd4f09a33124aded7406cb}
 

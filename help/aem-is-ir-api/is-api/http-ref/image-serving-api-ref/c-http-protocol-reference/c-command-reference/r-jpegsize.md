@@ -1,6 +1,6 @@
 ---
 title: jpegSize
-description: JPEG-storlek i kB. Anger den största tillåtna storleken för JPEG-svar i kilobyte.
+description: JPEG-storlek i kB. Anger den maximala storleken för JPEG-svar i kilobyte.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # jpegSize{#jpegsize}
 
-JPEG-storlek i kB. Anger den största tillåtna storleken för JPEG-svar i kilobyte.
+JPEG-storlek i kB. Anger den maximala storleken för JPEG-svar i kilobyte.
 
 `jpegSize= *`storlek`*`
 
@@ -25,7 +25,7 @@ JPEG-storlek i kB. Anger den största tillåtna storleken för JPEG-svar i kilob
  </tr> 
 </table>
 
-Om värdet är ett positivt värde, och om JPEG-svaret med den angivna JPEG-kvaliteten inte överstiger det här värdet, returneras bilden som svar. I annat fall minskar JPEG-kvaliteten tills den antingen skapar en bild som passar in i den angivna storleken eller tills den inte får plats. I det senare fallet misslyckas begäran med ett fel.
+Om värdet är ett positivt värde, och om JPEG-svaret med den angivna JPEG-kvaliteten inte överstiger det här värdet, returneras bilden som svar. I annat fall försämras JPEG-kvaliteten tills den antingen skapar en bild som passar in i den angivna storleken eller tills den inte får plats. I det senare fallet misslyckas begäran med ett fel.
 
 Värdet 0 innebär att svaret inte begränsas av storleken.
 
@@ -33,7 +33,7 @@ Negativa värden är inte tillåtna.
 
 ## Egenskaper {#section-19e544e77d35478b98fe8666f27d6968}
 
-Begär attribut. Används oavsett aktuell lagerinställning. Ignoreras om utdatabildformatet inte är JPEG.
+Begär attribut. Används oavsett aktuell lagerinställning. Ignoreras om utdatabildens format inte är JPEG.
 
 ## Standard {#section-198b798ed187453197e0969c641d6fb5}
 

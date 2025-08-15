@@ -1,7 +1,7 @@
 ---
 description: Används av getActivePublishContextReturn/publishContext.
 solution: Experience Manager
-title: Publish Context
+title: Publicera kontext
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2eaa6771-18e9-4758-bfa9-23cce278bee7
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# Publish Context{#publish-context}
+# Publicera kontext{#publish-context}
 
 Används av getActivePublishContextReturn/publishContext.
 

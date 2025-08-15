@@ -26,6 +26,6 @@ Cacheposter blir ogiltiga och kan genereras om när en katalogpost som ingår i 
 
 >[!NOTE]
 >
->PTIFF-bilder (Dynamic Media pyramid TIFF) bevarar fildatumet internt i filhuvudet i valideringssyfte. Filändringstiden som bevaras av filsystemet används för att kontrollera om en fil som inte är en PTIFF-fil har ändrats.
+>Dynamic Media pyramid TIFF-bilder (PTIFF) bevarar fildatumet internt i filhuvudet i valideringssyfte. Filändringstiden som bevaras av filsystemet används för att kontrollera om en fil som inte är en PTIFF-fil har ändrats.
 
 Endast bildfiler deltar i cachevalideringsprocessen. Ändringar av teckensnittsfiler eller ICC-profilfiler medför inte att cacheposter ogiltigförklaras automatiskt.

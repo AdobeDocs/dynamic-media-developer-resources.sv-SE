@@ -1,6 +1,6 @@
 ---
-title: Systemkrav för visningsprogram för Dynamic Media HTML 5
-description: Systemkrav för visningsprogram i Dynamic Media HTML 5.
+title: Systemkrav för Dynamic Media HTML5-visningsprogram
+description: Systemkrav för Dynamic Media HTML5-visningsprogram.
 solution: Experience Manager
 contentOwner: Rick Brough
 feature: Dynamic Media Classic,Viewers,SDK/API
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# Systemkrav för Dynamic Media HTML 5-visningsprogram{#system-requirements}
+# Systemkrav för Dynamic Media HTML5-visningsprogram{#system-requirements}
 
-Systemkrav för visningsprogram i Dynamic Media HTML 5.
+Systemkrav för Dynamic Media HTML5-visningsprogram.
 
 <!-- Updated March 03, 2022 Contact is now Deepa Gupta -->
 
@@ -25,8 +25,8 @@ Systemkrav för visningsprogram i Dynamic Media HTML 5.
 
 <!-- Updated March 03, 2022 Contact is now Deepa Gupta -->
 
-* Adobe Dynamic Media Image Serving 6.7.1 eller senare.
-* HTML5-visningsprogram kräver SDK JavaScript-serverbibliotek 3.11.5 eller senare.
+* Adobe Dynamic Media Image Server 6.7.1 eller senare.
+* HTML 5-visningsprogram kräver SDK JavaScript serverbibliotek 3.11.5 eller senare.
 * *Skicka e-post till en vän* - sociala funktioner kräver s7ondemand 5.0.9 eller senare.
 * eCatalog Viewer - [Stöd för popup-fönster på panelen Info](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) kräver informationsserver 2.1.8 eller senare.
 * Sökfunktionskomponenter kräver s7search 2.3.0 eller senare.
@@ -78,7 +78,7 @@ Systemkrav för visningsprogram i Dynamic Media HTML 5.
 
 <!-- CQDOC-19433 -->
 
-Från och med den 30 september 2022 har Dynamic Media-visningsprogram för Adobe upphört med stödet för följande:
+Från och med 30 september 2022 har Adobe Dynamic Media Viewer avslutat stödet för följande:
 
 * TLS (Transport Layer Security) 1.0 och 1.1
 * Följande svaga lärare i TLS 1.2:
@@ -97,7 +97,7 @@ Från och med den 30 september 2022 har Dynamic Media-visningsprogram för Adobe
    * TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
    * TLS_RSA_WITH_SDES_EDE_CBC_SHA
 
-## Webbläsare- och operativsystemskombinationer som inte stöds för Dynamic Media Viewer {#browser-os-support}
+## Webbläsare- och operativsystemkombinationer som inte stöds för Dynamic Media Viewer {#browser-os-support}
 
 <!-- CQDOC-19433 -->
 

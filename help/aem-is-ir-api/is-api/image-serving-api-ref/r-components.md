@@ -1,6 +1,6 @@
 ---
 title: Bildserverkomponenter
-description: 'Dynamic Media Image Serving består av följande komponenter: '
+description: Dynamic Media Image Serving består av följande komponenter.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -53,7 +53,7 @@ Dynamic Media Image Serving består av följande komponenter:
    <td colname="col2"> <p>En eller flera instanser av textrenderingstjänsten kan vara aktiva när <span class="codeph"> textPs=</span>-åtgärder körs. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Återgivningskomponent för SVG </p> </td> 
+   <td colname="col1"> <p>SVG Render Component </p> </td> 
    <td colname="col2"> <p>Fristående Java™-program (som inte hanteras av Tomcat). </p> </td> 
   </tr> 
   <tr> 

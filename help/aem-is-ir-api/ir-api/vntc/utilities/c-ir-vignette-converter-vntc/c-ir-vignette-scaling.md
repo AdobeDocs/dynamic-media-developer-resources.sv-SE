@@ -24,7 +24,7 @@ Fyra allmänna typer av produktionsvinjettering stöds.
   Rekommenderas när alla önskade bildstorlekar för återgivning är kända. Ger bättre kvalitet och snabbare återgivning än enupplösning- och pyramidvinjettering eftersom bilden inte behöver skalas efter återgivningen.
 * Pyramid
 
-  Bäst för alla syften, som rekommenderas när flera bildstorlekar behövs och de exakta storlekarna inte är förbestämda och när visningsprogrammet för Dynamic Media Zoom används.
+  Bäst för alla syften, som rekommenderas när flera bildstorlekar behövs och de exakta storlekarna inte är förbestämda och när visningsprogrammet för dynamisk mediazoom används.
 * Pyramid med en eller flera upplösningar
 
   Ger hög kvalitet för specifika storlekar samtidigt som stöd för visningsprogram för zoomning och flexibilitet bibehålls.

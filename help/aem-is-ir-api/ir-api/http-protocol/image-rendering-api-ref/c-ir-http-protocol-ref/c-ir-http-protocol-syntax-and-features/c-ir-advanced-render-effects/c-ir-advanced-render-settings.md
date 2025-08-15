@@ -1,6 +1,6 @@
 ---
 title: Avancerade renderingsinställningar
-description: Vinjetteringsverktyget (som ingår i Dynamic Media Image Authoring package) innehåller funktioner för att styra lågnivåaspekter av vinjetteringsmotorn.
+description: Vinjetteringsverktyget (som ingår i utvecklingsverktyget för dynamiska media) innehåller funktioner för att styra lågnivåaspekter av vinjetteringsmotorn.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 9%
 
 # Avancerade renderingsinställningar{#advanced-render-settings}
 
-Vinjetteringsverktyget (som ingår i Dynamic Media Image Authoring package) innehåller funktioner för att styra lågnivåaspekter av vinjetteringsmotorn.
+Vinjetteringsverktyget (som ingår i utvecklingsverktyget för dynamiska media) innehåller funktioner för att styra lågnivåaspekter av vinjetteringsmotorn.
 
 >[!NOTE]
 >
->Renderingsinställningar är en avancerad funktion för bildåtergivning och bildredigering. Kontakta Adobe tekniska support eller din Adobe-konsultrepresentant för att få utbildning, konsultation eller båda, om hur du använder Renderingsinställningar.
+>Renderingsinställningar är en avancerad funktion för bildåtergivning och bildredigering. Kontakta Adobe tekniska support eller en konsultrepresentant för Adobe om du vill ha utbildning, konsultation eller båda, om hur du använder Renderingsinställningar.
 
 De här inställningarna styrs interaktivt i Bildredigering. Det går att använda samma inställningar i Bildåtergivning med kommandot `rs=` (eller med värdet `catalog::RenderSettings`). Den här mekanismen används för att välja olika skärpealternativ för varje material och för att ändra beteendet för belysningsåtergivningsalgoritmerna, t.ex. att ändra mättnaden för högdagrar eller kontrasten i skuggor.
 

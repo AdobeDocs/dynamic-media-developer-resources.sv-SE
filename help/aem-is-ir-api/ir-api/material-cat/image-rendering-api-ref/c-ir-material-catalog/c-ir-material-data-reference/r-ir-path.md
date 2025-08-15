@@ -18,7 +18,7 @@ Sökväg till bildfil. Relativ sökväg och namn för en textur- eller dekal bil
 
 Servern kombinerar det här värdet med `attribute::RootPath` för att skapa den faktiska sökvägen till bildfilen. Kan också vara en absolut sökväg.
 
-Används för att ange texturbildsfilen för textur-, skåp- och fönsterövertäckningsmaterial samt RGB- eller RGBA-bildfilen för dekala material och väggkanter. Alla kabinett- och fönsterbeläggningsmaterial kräver inte en separat repeterbar texturbild.
+Används för att ange texturbildsfilen för textur-, skåp- och fönsterbeläggningsmaterial samt RGB- eller RGBA-bildfilen för dekala material och väggkanter. Alla kabinett- och fönsterbeläggningsmaterial kräver inte en separat repeterbar texturbild.
 
 ## Egenskaper {#section-8c12ea24f21d4472be677581893e6681}
 
@@ -26,9 +26,9 @@ Textsträng. Krävs för textur- och dekmaterial, valfritt för skåp och fönst
 
 ## Filformat som stöds {#section-7ef6c9f7c72c4f03ae926d030b6c46d8}
 
-Bildåtergivning stöder samma källbildformat som Dynamic Media Image Serving.
+Bildåtergivning har stöd för samma källbildformat som Dynamic Media Image Serving.
 
-Program som kräver bilddata i flera olika upplösningar fungerar bäst när du använder flerupplösningsformatet Dynamic Media pyramid TIFF (PTIFF). Image Serving innehåller verktyget Image Converter (IC) som skapar PTIFF-bilder i alla format som stöds.
+Program som kräver bilddata i flera olika upplösningar fungerar bäst när du använder multiupplösningsformatet Dynamic Media pyramid TIFF (PTIFF). Image Serving innehåller verktyget Image Converter (IC) som skapar PTIFF-bilder i alla format som stöds.
 
 Se beskrivningen av verktyget IC i dokumentationen för Image Serving för en fullständig lista över filformat som stöds.
 

@@ -1,6 +1,6 @@
 ---
 title: xmpEmbed
-description: Bädda in XMP metadata. Anger om XMP metadata ska inkluderas i svarsbilden.
+description: Bädda in XMP-metadata. Anger om XMP-metadata ska inkluderas i svarsbilden.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 # xmpEmbed{#xmpembed}
 
-Bädda in XMP metadata. Anger om XMP metadata ska inkluderas i svarsbilden.
+Bädda in XMP-metadata. Anger om XMP-metadata ska inkluderas i svarsbilden.
 
 `xmpEmbed=0|1`
 
 >[!NOTE]
 >
->XMP data skickas från källbilden till svarsbilden utan ändring. Detta kan leda till att felaktiga data bäddas in i svarsbilden.
+>XMP-data skickas från källbilden till svarsbilden utan ändring. Detta kan leda till att felaktiga data bäddas in i svarsbilden.
 
 ## Egenskaper {#section-27024c4272f44d9a8c264a0629193af2}
 
-Begär attribut. Ignoreras om källbilden inte innehåller XMP data. Endast XMP data från källbilden för `layer=0` bearbetas. XMP data från andra lagerbilder ignoreras.
+Begär attribut. Ignoreras om källbilden inte innehåller XMP-data. Endast XMP-data från källbilden för `layer=0` bearbetas. XMP-data från andra lagerbilder ignoreras.
 
-Ignoreras om utdatabildformatet inte har stöd för XMP. Se beskrivningen av `fmt=` för en lista över utdatabildformat som stöder XMP.
+Ignoreras om utdatabildformatet inte stöder XMP-inbäddning. Se beskrivningen av `fmt=` för en lista över utdatabildformat som stöder XMP-inbäddning.
 
 ## Standard {#section-aedbedd04d664ba184b2cfe35644b960}
 

@@ -167,7 +167,7 @@ background-position: -0px -560px;
 
 ## Allmän formatinformation och råd {#section-95855dccbbc444e79970f1aaa3260b7b}
 
-* När du anpassar visningsprogrammets användargränssnitt med CSS stöds inte regeln `!IMPORTANT` för att formatera visningsprogramelement. Regeln `!IMPORTANT` ska inte användas för att åsidosätta standardformat eller körningsformat som tillhandahålls av visningsprogrammet eller visaren-SDK. Orsaken är att det kan påverka beteendet för rätt komponenter. I stället bör du använda CSS-väljare med rätt specificitet för att ange CSS-egenskaper som dokumenteras i den här referenshandboken.
+* När du anpassar visningsprogrammets användargränssnitt med CSS stöds inte regeln `!IMPORTANT` för att formatera visningsprogramelement. Regeln `!IMPORTANT` ska inte användas för att åsidosätta standardformat eller körningsformat som tillhandahålls av visningsprogrammet eller visningsprogrammets SDK. Orsaken är att det kan påverka beteendet för rätt komponenter. I stället bör du använda CSS-väljare med rätt specificitet för att ange CSS-egenskaper som dokumenteras i den här referenshandboken.
 * Alla sökvägar till externa resurser i CSS matchas mot CSS-platsen, inte mot visningsprogrammets HTML-sidplats. Tänk på den här regeln när du kopierar standard-CSS till en annan plats. Kopiera även standardresurserna eller uppdatera sökvägarna i den anpassade CSS-koden.
 * Det format du föredrar för bitmappsbilder är PNG.
 * Bitmappsgrafik tilldelas element i användargränssnittet med egenskapen `background-image`.
@@ -185,7 +185,7 @@ Nedan följer referensdokumentation för användargränssnittselement som gälle
 * [Ladda ned](r-html5-ecatsearch-customize-download.md)
 * [E-postresurs](r-html5-ecatsearch-customize-emailshare.md)
 * [Bädda in resurs](r-html5-ecatsearch-customize-embedshare.md)
-* [Facebook](r-html5-ecatsearch-customize-facebookshare.md)
+* [Facebook-delning](r-html5-ecatsearch-customize-facebookshare.md)
 * [Favoriter, effekt](r-html5-ecatsearch-customize-favoriteseffect.md)
 * [Favoriter-menyn](r-html5-ecatsearch-customize-favoritesmenu.md)
 * [Vyn Favoriter](r-html5-ecatsearch-customize-favoritesview.md)
@@ -216,7 +216,7 @@ Nedan följer referensdokumentation för användargränssnittselement som gälle
 * [Miniatyrbilder](r-html5-ecatsearch-customize-thumbnails.md)
 * [Knappen Miniatyrbilder](r-html5-ecatsearch-customize-thumbnailsbutton.md)
 * [Verktygstips](r-html5-ecatsearch-customize-tooltips.md)
-* [Twitter](r-html5-ecatsearch-customize-twittershare.md)
+* [Twitter-delning](r-html5-ecatsearch-customize-twittershare.md)
 * [Knappen Visa alla favoriter](r-html5-ecatsearch-customize-viewallfavorites.md)
 * [Knappen Zooma in](r-html5-ecatsearch-customize-zoominbutton.md)
 * [Knappen Zooma ut](r-html5-ecatsearch-customize-zoomoutbutton.md)

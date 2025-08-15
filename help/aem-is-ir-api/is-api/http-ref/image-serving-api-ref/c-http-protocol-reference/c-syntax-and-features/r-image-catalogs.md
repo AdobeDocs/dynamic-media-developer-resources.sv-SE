@@ -21,7 +21,7 @@ Bildkataloger har följande funktioner:
 * Tillåt beständig koppling av bilder med vissa metadata- och modifieringskommandon.
 
   Poster i bildkataloger refereras med en genvägsnotation `*`rootId/objId`*`, där `*`rootId`*` identifierar bildkatalogen och `*`objId`*` identifierar en datapost i katalogen.
-* Ange standardvärden för vissa attribut, t.ex. JPEG-kvalitet eller om en vattenstämpel ska användas.
+* Ange standardvärden för vissa begärandeattribut, t.ex. JPEG-kvalitet eller om en vattenstämpel ska användas.
 * Hantera teckensnitt, ICC-profiler, makrodefinitioner och frågemallar
 
 Även om inga specifika bildkataloger har definierats är alla funktioner i bildkataloger tillgängliga som standardkatalog ( [!DNL default.ini]).

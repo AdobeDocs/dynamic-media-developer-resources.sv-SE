@@ -25,11 +25,11 @@ Visningsprogramhändelser som stöds är bland annat följande:
 
    * `objID {String}` används inte just nu.
    * `compClass {String}` används inte just nu.
-   * `instName {String}` ett instansnamn för SDK-komponenten för visningsprogrammet som utlöste händelsen.
+   * `instName {String}` ett instansnamn för Viewer SDK-komponenten som utlöste händelsen.
    * `timeStamp {Number}`-händelsens tidsstämpel.
    * `eventInfo {String}` händelsenyttolast.
 
-* `quickViewActivate` - utlöses när en användare klickar på eller trycker på en interaktiv färgruta i den interaktiva färgrutekomponenten eller i skärmen &quot;call to action&quot; som visas i slutet av videouppspelningen. Callback-hanteraren tar det enda argumentet som är ett JSON-objekt med följande fält:
+* `quickViewActivate` - utlöses när en användare klickar på eller trycker på en interaktiv färgruta i den interaktiva färgrutekomponenten eller i call to action-skärmen som visas i slutet av videouppspelningen. Callback-hanteraren tar det enda argumentet som är ett JSON-objekt med följande fält:
 
    * `sku` `String` SKU-värde som är associerat med den interaktiva färgrutan.
    * `<additionalVariable>` { `String`} noll eller fler ytterligare variabler som är associerade med den interaktiva färgrutan.

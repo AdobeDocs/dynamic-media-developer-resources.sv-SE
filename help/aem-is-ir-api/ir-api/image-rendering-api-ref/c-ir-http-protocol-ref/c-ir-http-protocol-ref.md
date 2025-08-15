@@ -1,5 +1,5 @@
 ---
-description: Det här dokumentet beskriver HTTP-protokollet för Dynamic Media Image Rendering.
+description: I det här dokumentet beskrivs HTTP-protokollet för återgivning av dynamiska mediebilder.
 solution: Experience Manager
 title: HTTP-protokollreferens
 feature: Dynamic Media Classic,SDK/API
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # HTTP-protokollreferens{#http-protocol-reference}
 
-Det här dokumentet beskriver HTTP-protokollet för Dynamic Media Image Rendering.
+I det här dokumentet beskrivs HTTP-protokollet för återgivning av dynamiska mediebilder.

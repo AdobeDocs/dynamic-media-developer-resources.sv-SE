@@ -43,7 +43,7 @@ Image Serving control script. Skriptet används för att starta, stoppa eller st
    <td colname="col2"> <p>Starta om alla Image Serving-komponenter, inklusive Server Supervisor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> starta om { ps} | är | svg &rbrace; </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> starta om { ps} | är | svg } </span> </p> </td> 
    <td colname="col2"> <p> Startar om Tomcat/[!DNL Platform Server], Image Server eller SVG. </p> </td> 
   </tr> 
   <tr> 

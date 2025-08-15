@@ -1,5 +1,5 @@
 ---
-description: InDesignens filegenskaper.
+description: InDesign filegenskaper.
 solution: Experience Manager
 title: InDesignInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL InDesignInfo]{#indesigninfo}
 
-InDesignens filegenskaper.
+InDesign filegenskaper.
 
 Syntax
 

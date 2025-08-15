@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Visst innehåll som visas i Video Viewer kan lokaliseras. Innehållet innehåller funktionsbeskrivningar för användargränssnittselement och ett felmeddelande som visas när videon inte kan spelas upp.
 
-Varje textinnehåll i visningsprogrammet som kan lokaliseras representeras av en SDK-identifierare för visningsprogrammet som kallas SYMBOL. Alla SYMBOL har ett standardassocierat textvärde för den engelska språkversionen ( `"en"`) som medföljer visningsprogrammet. Den kan också ha användardefinierade värden för så många språkområden som behövs.
+Varje textinnehåll i visningsprogrammet som kan lokaliseras representeras av en speciell Viewer SDK-identifierare som kallas SYMBOL. Alla SYMBOL har ett standardassocierat textvärde för den engelska språkversionen ( `"en"`) som medföljer visningsprogrammet. Den kan också ha användardefinierade värden för så många språkområden som behövs.
 
 När visningsprogrammet startas kontrolleras det aktuella språkområdet för att se om det finns ett användardefinierat värde för varje SYMBOL som stöds för språkområdet. Om det finns något används det användardefinierade värdet, i annat fall används standardtexten som inte finns.
 
@@ -254,11 +254,11 @@ Följande SYMBOL stöds:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FacebookShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Verktygstips för delningsknappen i Facebook. </p> </td> 
+   <td colname="col2"> <p>Verktygstips för Facebook-delningsknappen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Verktygstips för knappen för att dela Twitter. </p> </td> 
+   <td colname="col2"> <p>Verktygstips för Twitter-delningsknappen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> VideoPlayer.ERROR </span> </p> </td> 

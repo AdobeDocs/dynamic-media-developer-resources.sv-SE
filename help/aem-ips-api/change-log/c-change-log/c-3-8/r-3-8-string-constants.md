@@ -26,7 +26,7 @@ Syntax
 
 * Värden: `Rectangle` och `Polygon`.
 
-**Publish State**
+**Publiceringsläge**
 
 * Används av: `searchAssetsParam/publishState` och `setAssetPublishStateParam/publishState`.
 

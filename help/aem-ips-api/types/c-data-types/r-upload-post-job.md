@@ -20,7 +20,7 @@ Se även [Överför resurser via HTTP-POST till överföringen..](../../c-http-p
 
 >[!NOTE]
 >
->Alla POSTER som begär ett överföringsjobb måste komma från samma IP-adress.
+>Alla POST-begäranden för ett överföringsjobb måste komma från samma IP-adress.
 
 ## Parametrar {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -74,7 +74,7 @@ Se även [Överför resurser via HTTP-POST till överföringen..](../../c-http-p
    <td colname="col1"> <span class="codeph"> <span class="varname"> inDesignOptions </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typer:InDesignOptions</span> </td> 
    <td colname="col3"> <p>Nej </p> </td> 
-   <td colname="col4"> <p>Alternativ för överföring av InDesign till Image Server. </p> </td> 
+   <td colname="col4"> <p>Alternativ för överföring av InDesign-filer till Image Server. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> IllustratorOptions </span> </span> </td> 

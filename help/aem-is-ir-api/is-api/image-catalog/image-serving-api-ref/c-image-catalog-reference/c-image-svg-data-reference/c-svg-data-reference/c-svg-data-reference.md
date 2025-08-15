@@ -1,5 +1,5 @@
 ---
-description: I det här avsnittet beskrivs dataattributen för SVG.
+description: I det här avsnittet beskrivs SVG dataattribut.
 solution: Experience Manager
 title: SVG datareferens
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # SVG datareferens{#svg-data-reference}
 
-I det här avsnittet beskrivs dataattributen för SVG.
+I det här avsnittet beskrivs SVG dataattribut.
 
 * [Förfallotid](r-expiration-svg.md)
 * [ID](r-id-svg.md)

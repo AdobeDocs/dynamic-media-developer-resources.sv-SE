@@ -34,7 +34,7 @@ En process som återger en befintlig PDF-resurs.
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> pdfHandleArray </span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> typer:HandleArray</span> </p> </td> 
-   <td colname="col3"> <p>Hantera arrayen med PDF-filer som ska rensas. </p> </td> 
+   <td colname="col3"> <p>Hantera den array med PDF-filer som ska rensas. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> createMask </span> </span> </p> </td> 

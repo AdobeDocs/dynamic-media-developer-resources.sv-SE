@@ -53,7 +53,7 @@ Kompatibilitetsinformation för operativsystem, webbläsare och mobila enheter.
 
 ## HTML5 Video Viewer {#section-3c2dd1220dea4093b17ca2dd0a688307}
 
-* Modifieraren `IntialBitRate` stöds bara med HLS- och HDS-uppspelning för programvara. Det fungerar inte när uppspelningen använder den inbyggda spelaren.
+* Modifieraren `IntialBitRate` stöds bara med uppspelning av HLS och Flash HDS. Det fungerar inte när uppspelningen använder den inbyggda spelaren.
 * OGG- och WebM-progressiv uppspelning stöds inte.
 * Webbläsarskalning gör att videospelaren visas i fel storlek (inklusive visningsinställningar för Kontrollpanelen i Windows®).
 * Videosökningar med HLS-strömning på Safari är inkonsekventa.
@@ -70,6 +70,6 @@ Kompatibilitetsinformation för operativsystem, webbläsare och mobila enheter.
 
 ## Safari {#section-f8de598293d349188aa02c82cd3af8b6}
 
-* Safari 6.1 eller senare: Inställningarna för Internetplugin-program förhindrar videouppspelning i Flash.
+* Safari 6.1 eller senare: Inställningarna för Internetplugin-program förhindrar uppspelning av Flash-video.
 * Videosökningar med HLS-strömning på Safari är inkonsekventa.
-* Det går inte att söka till slutet av videon på Safari 6 med HLS-direktuppspelning.
+* Det går inte att söka till slutet av en video på Safari 6 med HLS-strömning.

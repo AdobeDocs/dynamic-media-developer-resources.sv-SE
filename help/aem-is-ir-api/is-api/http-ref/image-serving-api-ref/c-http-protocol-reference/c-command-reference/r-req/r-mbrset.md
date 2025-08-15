@@ -33,7 +33,7 @@ Returnerar ett text- eller xml-svar som innehåller en lista med URL:er (och mot
 
 Det tidigare kravet på att en giltig videopost innehåller ett värde för `catalog::VideoBitRate` har nu avkopplats. Posten kan innehålla ett värde för `catalog::VideoBitRate`*,* `catalog::AudioBitRate`*eller* `catalog::TotalStreamBitRate`. Endast ett av dessa måste definieras för att videoposten ska vara giltig. Observera att kraven för `catalog::Path` och ett giltigt videofiltillägg inte har ändrats.
 
-Svaren är avsedda att användas av Apple och Flash Streaming Servers och uppfyller därför strukturellt dessa specifikationer. URL:er genereras med prefix `attribute::HttpAppleStreamingContext` och `attribute::HttpFlashStreamingContext`.
+Svaren är avsedda att användas av Apple- och Flash Streaming Servers och överensstämmer därmed strukturellt med dessa specifikationer. URL:er genereras med prefix `attribute::HttpAppleStreamingContext` och `attribute::HttpFlashStreamingContext`.
 
 m3u8-svar innehåller bara mp4-filer om det finns några i videouppsättningen. Om det inte finns några mp4-filer innehåller svaren bara f4v-filer. Om det inte finns några mp4-filer eller f4v-filer är svaret tomt.
 

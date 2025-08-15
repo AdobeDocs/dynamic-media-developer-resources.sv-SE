@@ -1,6 +1,6 @@
 ---
 title: API-referens för bildservering
-description: Se referenshjälpen för Dynamic Media Image Serving API.
+description: Visa API:t för Dynamic Media Image Serving.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # API-referens för bildservering {#image-serving-api-reference}
 
-Se referenshjälpen för Dynamic Media Image Serving API.
+Visa API:t för Dynamic Media Image Serving.

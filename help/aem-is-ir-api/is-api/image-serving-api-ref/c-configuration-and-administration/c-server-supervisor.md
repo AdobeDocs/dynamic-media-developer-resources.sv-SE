@@ -1,5 +1,5 @@
 ---
-description: Image Serving-komponenterna hanteras av Server Supervisor, som är en Linux-daemon eller Windows-tjänst (S7Supervisor.exe, som listas som "Dynamic Media Image Serving" på kontrollpanelen för tjänster).
+description: Image Serving-komponenterna hanteras av Server Supervisor, som är en Linux-daemon eller Windows-tjänst (S7Supervisor.exe, som listas som"Dynamic Media Image Serving" i kontrollpanelen Tjänster).
 solution: Experience Manager
 title: Serveransvarig
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Serveransvarig{#server-supervisor}
 
-Image Serving-komponenterna hanteras av Server Supervisor, som är en Linux-daemon eller Windows-tjänst (S7Supervisor.exe, som listas som &quot;Dynamic Media Image Serving&quot; på kontrollpanelen för tjänster).
+Image Serving-komponenterna hanteras av Server Supervisor, som är en Linux-daemon eller Windows-tjänst (S7Supervisor.exe, som listas som&quot;Dynamic Media Image Serving&quot; i kontrollpanelen Tjänster).
 
 Förutom att starta och stoppa andra Image Serving-komponenter ansvarar Server Supervisor för att säkerställa de övriga komponenternas hälsa. Om en komponent kraschar startas den om automatiskt för att minimera eventuella avbrott i tjänsten.
 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: e137f795-e0f7-4b72-b7e8-188e254bbb45
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Tidsvärdet *`hh`* ligger i intervallet 0-23.
 
 Tidsvärdet *`zzz`* är en tidszonskod på tre eller fyra tecken, till exempel `GMT` eller `PST`. Besparingstiden för dagsljus måste anges i tidszonskoden (till exempel `PST` för Pacific Standard Time jämfört med `PDT` för Pacific Daylight Savings Time).
 
-Tidsvärdet *`offset`* är en tidszonsförskjutning i timmar eller timmar:minuter i förhållande till GMT. `PDT` motsvarar till exempel `GMT -7`.
+Tidsvärdet *`offset`* är en tidszonsförskjutning i timmar eller timmar :minutes i förhållande till GMT. `PDT` motsvarar till exempel `GMT -7`.
 
 Alla element i strängformaterade datum/tid-värden måste finnas. Om datum/tid-värdet inte är korrekt formaterat ignoreras det och ändringstiden för filen [!DNL *`catalog`*.ini] används i stället.
 

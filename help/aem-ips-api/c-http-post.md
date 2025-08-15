@@ -1,6 +1,6 @@
 ---
 title: Överföra resurser via HTTP POST till UploadFile-servern
-description: När du överför resurser till  [!DNL Dynamic Media] Classic måste du utföra en eller flera HTTP-POST-begäranden som konfigurerar ett jobb för att koordinera alla loggaktiviteter som är associerade med de överförda filerna.
+description: När du överför resurser till  [!DNL Dynamic Media] Classic måste du ange en eller flera HTTP POST-begäranden som ställer in ett jobb för att koordinera alla loggaktiviteter som är associerade med de överförda filerna.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Överföra resurser via HTTP POST till UploadFile-servern{#uploading-assets-by-way-of-http-posts-to-the-uploadfile-servlet}
 
-När du överför resurser till Dynamic Media Classic måste du ange en eller flera HTTP-POSTER som ställer in ett jobb för att koordinera all loggaktivitet som är kopplad till de överförda filerna.
+När du överför resurser till Dynamic Media Classic krävs en eller flera HTTP POST-begäranden som ställer in ett jobb för att koordinera all loggaktivitet som är kopplad till de överförda filerna.
 
 Använd följande URL för att komma åt UploadFile-servern:
 
@@ -24,9 +24,9 @@ https://<server>/scene7/UploadFile
 
 >[!NOTE]
 >
->Alla POSTER som begär ett överföringsjobb måste komma från samma IP-adress.
+>Alla POST-begäranden för ett överföringsjobb måste komma från samma IP-adress.
 
-**Åtkomst-URL:er för Dynamic Media-regioner**
+**Åtkomst-URL:er för dynamiska medieområden**
 
 <table id="table_45BB314ABCDA49F38DF7BECF95CC984A"> 
  <thead> 
@@ -61,14 +61,14 @@ https://<server>/scene7/UploadFile
 
 >[!NOTE]
 >
->Alla POSTER som begär ett överföringsjobb måste komma från samma IP-adress.
+>Alla POST-begäranden för ett överföringsjobb måste komma från samma IP-adress.
 
-|  Formulärdel för HTTP-POST  |  Beskrivning  |
+|  HTTP POST-formulärdel  |  Beskrivning  |
 |---|---|
 | `auth`  |   Obligatoriskt. Ett XML authHeader-dokument som anger autentisering och klientinformation. Se **Begär autentisering** under [SOAP](/help/aem-ips-api/c-wsdl-versions.md). |
-| `file params`  |   Valfritt. Du kan inkludera en eller flera filer som ska överföras vid varje begäran om POST. Varje fildel kan innehålla en filnamnsparameter i Content-Disposition-huvudet som används som målfilnamn i IPS om ingen `uploadPostParams/fileName`-parameter har angetts. |
+| `file params`  |   Valfritt. Du kan inkludera en eller flera filer som ska överföras tillsammans med varje POST-begäran. Varje fildel kan innehålla en filnamnsparameter i Content-Disposition-huvudet som används som målfilnamn i IPS om ingen `uploadPostParams/fileName`-parameter har angetts. |
 
-|  Formulärdel för HTTP-POST   |  uploadPostParams-elementnamn   |  Typ   |  Beskrivning   |
+|  HTTP POST-formulärdel   |  uploadPostParams-elementnamn   |  Typ   |  Beskrivning   |
 |---|---|---|---|
 | `uploadParams` (obligatoriskt. Ett XML `uploadParams`-dokument som anger överföringsparametrarna)   |   `companyHandle`  |  `xsd:string`  | Obligatoriskt. Hantera till det företag som filen överförs till.  |
 | `uploadParams` (obligatoriskt. Ett XML `uploadParams`-dokument som anger överföringsparametrarna) | `jobName`  |  `xsd:string`  | Antingen `jobName` eller `jobHandle` krävs. Namn på överföringsjobbet.  |
@@ -86,13 +86,13 @@ Se [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593
 
 Du kan anta att parametern `uploadParams` kan ändras för enskilda filer som en del av samma jobb, men så är inte fallet. Använd samma `uploadParams`-parametrar för hela jobbet.
 
-Den initiala POSTEN för ett nytt överföringsjobb bör ange parametern `jobName`, helst med ett unikt jobbnamn för att förenkla efterföljande jobbstatusavsökningar och jobbloggfrågor. Ytterligare POSTER för samma överföringsjobb ska ange parametern `jobHandle` i stället för `jobName`, med det `jobHandle`-värde som returneras från den ursprungliga begäran.
+Den inledande POST-begäran för ett nytt överföringsjobb ska ange parametern `jobName`, helst med ett unikt jobbnamn för att förenkla efterföljande jobbstatuskontrollfrågor och jobbloggfrågor. Ytterligare POST-begäranden för samma överföringsjobb ska ange parametern `jobHandle` i stället för `jobName`, med det `jobHandle`-värde som returneras från den ursprungliga begäran.
 
-Den sista POSTEN för ett överföringsjobb ska ange parametern `endJob` till true så att inga framtida filer POSTed för det här jobbet skickas. Detta innebär i sin tur att jobbet kan slutföras omedelbart efter att alla POSTed-filer har importerats. Annars går jobbet ut om inga fler begäranden om POST tas emot inom 30 minuter.
+Den sista POST-begäran för ett överföringsjobb ska ange parametern `endJob` till true så att inga framtida filer POSTed för det här jobbet. Detta innebär i sin tur att jobbet kan slutföras omedelbart efter att alla POSTed-filer har importerats. Annars går jobbet ut om inga fler POST-begäranden tas emot inom 30 minuter.
 
 ## UploadPOST-svar {#section-421df5cc04d44e23a464059aad86d64e}
 
-För en begäran om lyckad POST är svarstexten ett XML `uploadPostReturn`-dokument, vilket anges i följande XSD:
+För en lyckad POST-begäran är svarstexten ett XML `uploadPostReturn`-dokument, vilket anges i följande XSD:
 
 ```xml {.line-numbers}
 <element name="uploadPostReturn"> 
@@ -104,11 +104,11 @@ För en begäran om lyckad POST är svarstexten ett XML `uploadPostReturn`-dokum
     </element>
 ```
 
-`jobHandle` som returneras skickas i parametern `uploadPostParams`/ `jobHandle` för efterföljande POSTER för samma jobb. Du kan också använda den för att avfråga jobbstatus med åtgärden `getActiveJobs` eller för att fråga jobbloggarna med åtgärden `getJobLogDetails`.
+`jobHandle` som returneras skickas i parametern `uploadPostParams`/ `jobHandle` för efterföljande POST-begäranden för samma jobb. Du kan också använda den för att avfråga jobbstatus med åtgärden `getActiveJobs` eller för att fråga jobbloggarna med åtgärden `getJobLogDetails`.
 
-Om det uppstår ett fel när POSTEN bearbetas består svarstexten av en av API-feltyperna som beskrivs i [Felmeddelanden](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b).
+Om det uppstår ett fel när POST-begäran bearbetas består svarstexten av en av API-feltyperna som beskrivs i [Felmeddelanden](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b).
 
-## Exempelbegäran om POST {#section-810fe32abdb9426ba0fea488dffadd1e}
+## Exempel på POST-begäran {#section-810fe32abdb9426ba0fea488dffadd1e}
 
 ```{.line-numbers}
 POST /scene7/UploadFile HTTP/1.1 
@@ -178,7 +178,7 @@ Content-Transfer-Encoding: binary
 --O9-ba7tieRtqA4QRSaVk-eDq6658SPrYfvUcJ--
 ```
 
-## Exempel på svar från POSTEN - lyckad {#section-0d515ba14c454ed0b5196ac8d1bb156e}
+## Exempel på POST-svar - lyckad {#section-0d515ba14c454ed0b5196ac8d1bb156e}
 
 ```{.line-numbers}
 HTTP/1.1 200 OK 
@@ -192,7 +192,7 @@ Server: Unknown
 </uploadPostReturn>
 ```
 
-## Exempel på svar från POSTEN - fel {#section-efc32bb371554982858b8690b05090ec}
+## Exempel på POST-svar - fel {#section-efc32bb371554982858b8690b05090ec}
 
 ```{.line-numbers}
 HTTP/1.1 200 OK 

@@ -36,14 +36,14 @@ Syntax
 | triggerState | `xsd:int` | Val av utlösarläge för jobb. |
 | imageServingPublishJob | `types:ImageServingPublishJob` | Jobbinformation för en bild som visar publiceringsjobb. |
 | imageServingRenderJob | `types:ImageServingRenderJob` | Jobbinformation för ett bildåtergivningsjobb. |
-| videoPublishJob | `types:VideoPublishJob` | Jobbinformation för ett videopubliceringsjobb. Se [VideoPublishJob](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html?lang=sv-SE). |
+| videoPublishJob | `types:VideoPublishJob` | Jobbinformation för ett videopubliceringsjobb. Se [VideoPublishJob](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
 | serverDirectoryPublishJob | `types:ServerDirectoryPublishJob` | Jobbinformation för ett serverkatalogpubliceringsjobb. |
 | uploadDirectoryJob | `types:UploadDirectoryJob` | Jobbinformation för ett uppladdningskatalogjobb. |
 | uploadUrlsJob | `types:UploadUrlsJob` | Jobbinformation för ett jobb för att ladda upp URL:er. |
 | optimizeImagesJob | `types:OptimizeImagesJob` | |
 | ripPdfsJob | `types:RipPdfsJob` | |
 | reprocessAssetsJob | `types:ReprocessAssetsJob` | |
-| exportJob | `types:ExportJob` | Tillåt auktoriserad export av tidigare överförda filer. Se [Exportera jobb](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html?lang=sv-SE). |
+| exportJob | `types:ExportJob` | Tillåt auktoriserad export av tidigare överförda filer. Se [Exportera jobb](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
 
 ## Anteckningar {#section-34ec157f281f412f9f0f6e861e6ed0cd}
 

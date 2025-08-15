@@ -23,4 +23,4 @@ Syntax
 | Namn | Typ | Beskrivning |
 |---|---|---|
 | ccOriginator | `xsd:boolean` | Om värdet är true inkluderar användarens webbtjänstkonto, som är en lista över e-postmeddelanden som ska ta emot en e-postbekräftelse från Dynamic Media CDN. |
-| ccOthersArray | `types:EmailArray` | En matris med e-postadresser (max 5) som ska ta emot bekräftelsemeddelanden från Dynamic Media CDN. |
+| ccOthersArray | `types:EmailArray` | En matris med e-postadresser (max 5) som ska ta emot bekräftelsemeddelandet från Dynamic Media CDN. |

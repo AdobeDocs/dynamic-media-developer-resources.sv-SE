@@ -18,7 +18,7 @@ Innehåller konfigurationsinställningar för Image Server.
 
 När du ändrar den här XML-filen måste du se till att behålla giltig XML-syntax, annars kanske inte Image Server startar.
 
-För att ändringarna ska börja gälla startar du om Image Server när du har redigerat den här filen. Det är bara elementvärdena som anges nedan som kan ändras. Redigera allt annat innehåll i filen endast om Dynamic Media tekniska support rekommenderar det.
+För att ändringarna ska börja gälla startar du om Image Server när du har redigerat den här filen. Det är bara elementvärdena som anges nedan som kan ändras. Redigera allt annat innehåll i filen endast om du får råd från den tekniska supporten för Dynamic Media.
 
 >[!NOTE]
 >

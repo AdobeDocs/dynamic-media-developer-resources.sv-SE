@@ -1,7 +1,7 @@
 ---
 description: Image Serving stöder Scalable Vector Graphics-filer (SVG) som källdata. Överensstämmelse med SVG 1.1 krävs.
 solution: Experience Manager
-title: Stöd för SVG
+title: SVG support
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 60e40195-710f-4f03-b152-52eaa10c5b21
@@ -12,19 +12,19 @@ ht-degree: 0%
 
 ---
 
-# Stöd för SVG{#svg-support}
+# SVG support{#svg-support}
 
 Image Serving stöder Scalable Vector Graphics-filer (SVG) som källdata. Överensstämmelse med SVG 1.1 krävs.
 
 Image Serving känner bara igen statiskt SVG-innehåll. Animeringar, skript och annat interaktivt innehåll stöds inte.
 
-SVG kan anges där bildfiler tillåts (URL-sökväg, `src=` och `mask=`). När innehållet i filen SVG har rastrerats hanteras det precis som en bild.
+SVG kan anges där bildfiler tillåts (URL-sökväg, `src=` och `mask=`). När innehållet i SVG-filen har rastrerats hanteras det precis som en bild.
 
-På samma sätt som bilder kan du ange SVG-filer som bildkatalogposter eller som relativa filsökvägar.
+På samma sätt som för bilder kan SVG-filer anges som bildkatalogposter eller som relativa filsökvägar.
 
 ## Ersättningsvariabler {#section-83b149f13f244193901df39b204c975b}
 
-` $ *[!DNL var]*$` ersättningsvariabler kan inkluderas i SVG-filen i värdesträngarna `<text>` och i alla elementattribut.
+` $ *[!DNL var]*$` ersättningsvariabler kan inkluderas i SVG-filen i värdesträngarna `<text>` och alla elementattribut.
 
 Viktiga variabler i frågedelen i inbäddade Image Serving-begäranden ersätts inte direkt. I stället läggs alla tillgängliga variabeldefinitioner till i begäran, vilket gör att Image Serving kan ersätta variabler när begäran analyseras.
 
@@ -34,27 +34,27 @@ Mer information finns i [Ersättningsvariabler](../../../../../is-api/http-ref/i
 
 Bilder kan infogas i SVG med elementet `<image>`. Bilder som refereras av attributet `xlink::href` för elementet `<image>` måste vara giltiga begäranden om att skicka bilder. Externa URL:er tillåts inte.
 
-Ange antingen en fullständig Image Serving-begäran, med början från `http://`, eller en relativ URL, med början från `/is/image`. Om en fullständig HTTP-sökväg anges tas domännamnet bort från sökvägen för konvertering till det relativa formatet. Det kan vara en fördel att använda en fullständig HTTP-sökväg eftersom den kan förhandsvisas med en SVG-renderare från tredje part.
+Ange antingen en fullständig Image Serving-begäran, med början från `http://`, eller en relativ URL, med början från `/is/image`. Om en fullständig HTTP-sökväg anges tas domännamnet bort från sökvägen för konvertering till det relativa formatet. Det kan vara en fördel att använda en fullständig HTTP-sökväg eftersom den kan förhandsgranskas med en SVG-återgivare från tredje part.
 
 >[!NOTE]
 >
->Stödet för bildåtergivning i den här versionen av Image Serving är begränsat. Att referera bilder inifrån SVG bör endast användas i situationer där traditionella bildserverlager och mallfunktioner inte räcker till för att uppnå önskat resultat. SVG får under inga omständigheter användas för att generera sammansatta bilder i flera bilder.
+>Stödet för bildåtergivning i den här versionen av Image Serving är begränsat. Att referera till bilder från SVG bör endast användas i situationer där traditionella funktioner för bildserverlager och mallar inte räcker till för att uppnå det önskade resultatet. SVG får under inga omständigheter användas för att generera flerbildsmontage.
 
 >[!NOTE]
 >
->Bilder som är inbäddade i SVG ändrar för närvarande inte automatiskt storlek. Kontrollera att alla bildreferenser innehåller de bildserverkommandon som behövs för att ställa in önskad bildstorlek (till exempel `wid=`). Om bildstorleken inte anges uttryckligen används `attribute::DefaultPix`.
+>Bilder som är inbäddade i SVG storleksändras för närvarande inte automatiskt. Kontrollera att alla bildreferenser innehåller de bildserverkommandon som behövs för att ställa in önskad bildstorlek (till exempel `wid=`). Om bildstorleken inte anges uttryckligen används `attribute::DefaultPix`.
 
 ## Färghantering {#section-ea76e2bc4e1842638aa97a2d470c8a68}
 
-Alla färgvärden som är inbäddade i SVG-filer och skickas till SVG-mallar som ersättningsvariabler antas finnas i färgmodellen `sRgb`.
+Alla färgvärden som är inbäddade i SVG-filer och skickas till SVG-mallar som ersättningsvariabler antas finnas i färgrymden `sRgb`.
 
 Ingen färgkonvertering utförs när bilder bäddas in i SVG. För att säkerställa färgåtergivning måste du ange `icc=sRgb` för alla inbäddade bildbegäranden.
 
-Efter rastreringen deltar SVG-bilden i färghanteringen på samma sätt som andra bilder.
+Efter rastreringen deltar SVG-bilden i färghanteringen precis som andra bilder.
 
 ## Exempel {#section-036cdd45abd449849ee00a8f21788c28}
 
-I följande SVG-mall visas bildreferenser och användning av variabler.
+Följande SVG-mall visar bildreferenser och användning av variabler.
 
 `<?xml version="1.0" standalone="no"?> <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"> <svg width="500" height="500"> <image x="50" y="50" width="400" height="400" xlink:href="/is/image?src=$img$&wid=300&hei=400"/> <text x="150" y="400" style="font-size:$pts$; fill:$color$"> Title: $txt$ </text> </svg>`
 
@@ -64,7 +64,7 @@ Den här SVG-mallen kan användas på följande sätt:
 
 ## Begränsningar {#section-daa5eccd07204aaf993be41e87822d54}
 
-SVG-filer måste vara fristående och får inte referera till några sekundära filer eller resurser, med undantag för externa bilder som refereras till med Image Serving- eller Image Rendering-begäranden (se ovan).
+SVG-filer måste vara fristående och får inte referera till några sekundära filer eller resurser, med undantag för externa bilder som refereras till i Image Serving- eller Image Rendering-begäranden (se ovan).
 
 Endast statiskt innehåll återges. Animering, interaktiva funktioner som knappar och så vidare. kan finnas men kan inte återges som förväntat.
 
@@ -74,4 +74,4 @@ ICC-profilbaserade färgspecifikationer stöds för närvarande inte.
 
 ## Se även {#section-901dd1775fd24154a766dcfbe5032b67}
 
-[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) , [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [SVG 1.1-specifikation](https://www.w3.org/TR/SVG11/)
+[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) , [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [SVG 1.1 Specification](https://www.w3.org/TR/SVG11/)
