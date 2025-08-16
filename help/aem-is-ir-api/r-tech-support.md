@@ -17,4 +17,4 @@ ht-degree: 0%
 Använd följande för att kontakta teknisk support.
 
 * **Telefon** - 800-898-9743 från 06:00 till 18:00, Stillahavstid i USA, måndag till fredag, utom helgdagar.
-* **Skapa ett supportärende** - [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+* **Skapa ett supportärende** - [https://helpx.adobe.com/se/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/se/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
