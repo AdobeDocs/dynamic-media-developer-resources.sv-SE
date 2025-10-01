@@ -294,7 +294,7 @@ Följande exempelsida visar mer verkliga användningsområden för responsiv des
 
 [Live-demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Alternativ demoplats](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+[Alternativ demoplats](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=sv-SE)
 
 **Bädda in flexibel storlek med angiven bredd och höjd**
 
