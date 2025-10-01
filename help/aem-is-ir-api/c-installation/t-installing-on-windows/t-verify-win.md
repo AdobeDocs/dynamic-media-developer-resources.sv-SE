@@ -23,7 +23,7 @@ Bildservern är installerad som en Windows-tjänst.
 
    `http:// server:port /is/image`
 
-[!DNL  http:// *[!DNL server:port]*/ir/render]
+[!DNL &#x200B; http:// *[!DNL server:port]*/ir/render]
 
 Kontrollera om det finns `imageServer.`-objekt i svaret, vilket anger att Image Server lyssnar.
 
