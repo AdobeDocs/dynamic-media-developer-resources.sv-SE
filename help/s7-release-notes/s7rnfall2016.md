@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic
 role: Developer,User
 exl-id: 23091ef7-750a-4ec2-9d03-1d713f436991
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
 workflow-type: tm+mt
-source-wordcount: '2236'
+source-wordcount: '2234'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,11 @@ Den senaste versionsinformationen för [!DNL Adobe Scene7] hösten 2016-versione
 
 Adobe är mycket glada över att kunna meddela att HTTP/2-leverans av innehåll är tillgänglig, vilket ger bättre prestanda.
 
-Se [HTTP2 Delivery of Content FAQ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html?lang=sv-SE#dynamic).
+Se [HTTP2 Delivery of Content FAQ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
 
 ## Scene7 Publishing System {#section-24487cb493444d808fb7193f0a00cdd4}
 
-Fullständig dokumentation finns på [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=sv-SE](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=sv-SE)
+Fullständig dokumentation finns på [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)
 
 **Nya funktioner, förbättringar och felkorrigeringar**
 
@@ -58,7 +58,7 @@ Fullständig dokumentation finns på [https://experienceleague.adobe.com/docs/dy
 
 ## Visare (Image Serving 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-Fullständig dokumentation finns i [Referenshandbok för visningsprogram](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=sv-SE).
+Fullständig dokumentation finns i [Referenshandbok för visningsprogram](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Felkorrigeringar för Image Serving 5.5.3**
 
@@ -68,7 +68,7 @@ Fullständig dokumentation finns i [Referenshandbok för visningsprogram](https:
 
 ## Visare (Image Serving 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-Fullständig dokumentation finns i [Referenshandbok för visningsprogram](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=sv-SE).
+Fullständig dokumentation finns i [Referenshandbok för visningsprogram](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Felkorrigeringar för Image Serving 5.5.2**
 
@@ -77,7 +77,7 @@ Fullständig dokumentation finns i [Referenshandbok för visningsprogram](https:
 
 ## Visare (Image Serving 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-Fullständig dokumentation finns i [Referenshandbok för visningsprogram](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=sv-SE).
+Fullständig dokumentation finns i [Referenshandbok för visningsprogram](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Nya funktioner, förbättringar och felkorrigeringar för Image Serving 5.5.1**
 
@@ -151,10 +151,7 @@ Fullständig dokumentation finns i [Referenshandbok för visningsprogram](https:
 
 **Kända fel och begränsningar**
 
-* Image Serving-modifierare från `iscommands` läggs inte till i `req=set`-begäran. Modifierare som bara påverkar bildvisningen fungerar bra. Modifierare som påverkar storleken måste användas i en komplex resurs. Till exempel:
-
-  `https://s7d9.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset= {Scene7SharedAssets/Backpack_B?extendn=0.5%252C0.5%252C0.5%252C0.5}`
-
+* Image Serving-modifierare från `iscommands` läggs inte till i `req=set`-begäran. Modifierare som bara påverkar bildvisningen fungerar bra. Modifierare som påverkar storleken måste användas i en komplex resurs.
 * [Utfällbar meny] IE9 finns ibland kvar på skärmen när musen är avstängd.
 * Webbläsarskalning leder till fel storleksändring.
 * iPad 2: Large eCatalog asset kraschar Safari på iOS.
