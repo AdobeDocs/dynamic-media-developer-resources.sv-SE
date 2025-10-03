@@ -296,7 +296,7 @@ Följande exempelsida visar mer verkliga användningsområden för responsiv des
 
 <!--
 
-[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=sv-SE)
 
 -->
 

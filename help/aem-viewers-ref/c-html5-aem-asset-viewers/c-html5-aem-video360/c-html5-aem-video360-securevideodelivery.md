@@ -34,7 +34,7 @@ Beroende på den metod för publicering av Dynamic Media-video som du använder 
 
 -->
 
-Se även [Länka URL:er till ditt webbprogram](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic).
+Se även [Länka URL:er till ditt webbprogram](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=sv-SE#dynamic).
 
 * Om du publicerar en Dynamic Media-video med inbäddad kod lägger du till `Video360Player.ssl` i listan över andra parametrar för visningsprogramkonfiguration i det inbäddade kodfragmentet.
 
@@ -69,4 +69,4 @@ Se även [Länka URL:er till ditt webbprogram](https://experienceleague.adobe.co
 
 -->
 
-Se även [Bädda in videon på en webbsida](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic)
+Se även [Bädda in videon på en webbsida](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=sv-SE#dynamic)

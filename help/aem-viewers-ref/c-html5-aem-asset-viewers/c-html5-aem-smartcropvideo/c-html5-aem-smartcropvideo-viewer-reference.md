@@ -297,7 +297,7 @@ Följande exempelsida visar hur responsiv designinbäddning med obegränsad höj
 
 <!--
 
-[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=sv-SE)
 
 -->
 
