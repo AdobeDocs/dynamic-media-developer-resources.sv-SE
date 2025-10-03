@@ -5,9 +5,9 @@ title: Kommandoreferens - Konfigurationsattribut
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8cc645f8-03fe-4ac7-b23f-36536b60fdf6
-source-git-commit: 3df884c468ea89cc55b2b8ce13af01bfad454545
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,13 @@ Konfigurationsattribut definieras som attribut direkt i ett IMG-element som hant
 Valfritt.
 
 URL till den bild som Image Serving visar. Om URL:en inte finns använder biblioteket värdet som är angivet i attributet `src` som reserv. Det här attributet används för den inledande bilden och den dynamiska bilden som hanteras från olika platser i biblioteket för responsiv bild.
-<!--
-**Example** 
+
+**Exempel**
 
 ```
 <img data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
 ```
--->
+
 
 ## src {#section-5dbc1f9a3c274705adb9702e4c7af0b1}
 
@@ -35,15 +35,15 @@ Om `data-src` anges är `src` valfritt och kan innehålla alla URL-adresser som 
 
 Om `data-src` inte anges är `src` obligatoriskt och måste innehålla en URL till den bild som Image Serving visar.
 
-<!--
-**Example**
 
-Using data URI for the `src` attribute and Image Serving URL for the `data-src` attribute:
+**Exempel**
+
+Använder data-URI för attributet `src` och Image Serving URL för attributet `data-src`:
 
 ```
 <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
 ```
--->
+
 
 ## data-breakpoints {#section-3bf62a89ff3e40569848c1fe3ac7886c}
 
@@ -55,26 +55,26 @@ Du kan använda vilket bildserverkommando som helst, förutom de kommandon som p
 
 Kommandon för flera bildservrar eller namn på bildförinställningar avgränsas med tecknet `&`. Om ett bildserverkommando har ett kommatecken i värdet ersätts det med `%2C`. Namn på bildförinställningar omsluts av dollartecken ( `$`).
 
-<!--
-**Examples**
 
-**Using breakpoints only**
+**Exempel**
+
+**Använder bara brytpunkter**
 
 `<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720">`
 
-**Using Image Serving commands**
+**Använda bildserverkommandon**
 
 `<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360:op_sharpen=1,720:resMode=sharp2&op_usm=0.9%2C1.0%2C8%2C0">`
 
-**Using Image Presets**
+**Använda bildförinställningar**
 
 `<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360:$ResponsiveImage_Low$,940:$ResponsiveImage_High$">`
 
-**Using Image Presets & Image Serving commands**
+**Använda kommandona Bildförinställningar och Bildvisning**
 
 `<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360:qlt=50,940:$ResponsiveImage_High$">`
 
--->
+
 
 ## dataläge {#section-97caf43cf5ab4ca8b1b866d8f394a9a4}
 

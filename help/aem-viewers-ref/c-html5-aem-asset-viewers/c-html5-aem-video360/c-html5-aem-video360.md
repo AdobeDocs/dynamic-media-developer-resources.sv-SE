@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 74dca3f6-ce89-4c5b-8459-c2c4ca8ed27c
-source-git-commit: 2d4a26d04e11f544b4cbabaca592d77cfa2241d3
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '2179'
+source-wordcount: '2561'
 ht-degree: 0%
 
 ---
@@ -26,12 +26,10 @@ I Video360 Viewer används HTML5-direktuppspelad videouppspelning i HLS-format i
 
 Visningstypen är 517.
 
-<!--
-## Demo URLs {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
+## Demo-URL:er {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
 
 [https://s7d9.scene7.com/s7viewers/html5/Video360Viewer.html?asset=Viewers/space_station_360-AVS](https://s7d9.scene7.com/s7viewers/html5/Video360Viewer.html?asset=Viewers/space_station_360-AVS)
 
--->
 
 ## Systemkrav {#section-b7270cc4290043399681dc504f043609}
 
@@ -101,15 +99,12 @@ Vi rekommenderar att du använder en färdig HTML-sida för popup-läge. Den kal
 
 Du kan anpassa visuellt genom att använda anpassad CSS.
 
-<!--
-The following is an example of HTML code that opens the viewer in a new window:
--->
+Nedan följer ett exempel på HTML-kod som öppnar visningsprogrammet i ett nytt fönster:
 
-<!--
 ```html {.line-numbers}
 <a href="https://s7d9.scene7.com/s7viewers/html5/Video360Viewer.html?asset=Viewers/space_station_360-AVS" target="_blank">Open popup viewer</a>
 ```
--->
+
 
 **Om inbäddningsläge med fast storlek och inbäddningsläge för responsiv design**
 
@@ -204,17 +199,15 @@ Den relativa sökvägen ser ut så här:
 
    Dessutom bör behållarelementet inte nödvändigtvis vara en del av webbsidans layout ännu. Den kan till exempel vara dold med formatet `display:none` som tilldelats den. I det här fallet skjuter visningsprogrammet upp initieringsprocessen tills webbsidan återför behållarelementet till layouten. När det inträffar återgår visningsprogrammet automatiskt.
 
-<!--
-   The following is an example of creating a viewer instance, passing the minimum necessary configuration options to the constructor and calling the `init()` method. The example assumes the following:
 
-    * The viewer instance is `video360Viewer`. 
-    * The name of placeholder `DIV` is `s7viewer`. 
-    * The Image Serving URL is `https://s7d9.scene7.com/is/image`. 
-    * The video server URL is `https://s7d9.scene7.com/is/content`. 
-    * The asset is `Viewers/space_station_360-AVS`.
--->
+   Följande är ett exempel på hur du skapar en visningsprograminstans, skickar de minsta nödvändiga konfigurationsalternativen till konstruktorn och anropar metoden `init()`. Exemplet förutsätter följande:
 
-<!--
+   * Visningsprograminstansen är `video360Viewer`.
+   * Platshållarens `DIV` namn är `s7viewer`.
+   * URL:en för bildservrar är `https://s7d9.scene7.com/is/image`.
+   * Videoserverns URL är `https://s7d9.scene7.com/is/content`.
+   * Resursen är `Viewers/space_station_360-AVS`.
+
 
    ```html {.line-numbers}
    <script type="text/javascript"> 
@@ -229,13 +222,10 @@ Den relativa sökvägen ser ut så här:
    </script>
    ```
 
--->
 
-<!--
-   The following code is a complete example of a trivial web page that embeds the Video360 Viewer with a fixed size:
--->
+   Följande kod är ett fullständigt exempel på en enkel webbsida som bäddar in Video360 Viewer med fast storlek:
 
-<!--
+
    ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
@@ -262,16 +252,13 @@ Den relativa sökvägen ser ut så här:
    </script> 
    </body> 
    </html>
- ```
- -->
+   ```
 
-<!--  
-**Responsive design embedding with unrestricted height**
 
-With responsive design embedding, the web page normally has some kind of flexible layout in place that dictates the runtime size of the viewer's container `DIV`. For the following example, assume that the web page allows the viewer's container `DIV` to take 40% of the web browser window size, leaving its height unrestricted. The web page HTML code would look like the following:
--->
+**Responsiv designinbäddning med obegränsad höjd**
 
-<!--
+Med responsiv designinbäddning har webbsidan vanligtvis någon typ av flexibel layout på plats som bestämmer körningsstorleken för visningsprogrammets behållare `DIV`. I följande exempel antar du att webbsidan tillåter att visningsprogrammets behållare `DIV` tar 40 % av webbläsarens fönsterstorlek, vilket gör att höjden inte begränsas. Webbsidan med HTML-koden ser ut så här:
+
 ```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
@@ -287,21 +274,18 @@ With responsive design embedding, the web page normally has some kind of flexibl
 </body> 
 </html>
 ```
--->
 
-<!--
-Adding the viewer to such a page is similar to the steps for fixed size embedding. The only difference is that you do not need to explicitly define the viewer size.
 
-1. Adding the viewer JavaScript file to your web page. 
-1. Defining the container DIV. 
-1. Creating and initializing the viewer.
+Att lägga till visningsprogrammet på en sådan sida liknar stegen för inbäddning med fast storlek. Den enda skillnaden är att du inte behöver definiera visningsprogrammets storlek explicit.
 
-All the steps above are the same as with the fixed size embedding. Add the container DIV to the existing `"holder"` DIV. 
+1. Lägga till visningsprogrammets JavaScript-fil på webbsidan.
+1. Definierar behållar-DIV.
+1. Skapa och initiera visningsprogrammet.
 
-The following code is a complete example. Notice how viewer size changes when the browser is resized, and how the viewer aspect ratio matches the asset.
--->
+Alla steg ovan är desamma som med inbäddning med fast storlek. Lägg till behållar-DIV i befintlig DIV för `"holder"`.
 
-<!--
+Följande kod är ett komplett exempel. Lägg märke till hur visningsprogrammets storlek ändras när webbläsarens storlek ändras och hur visningsprogrammets proportioner matchar resursen.
+
 ```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
@@ -330,15 +314,13 @@ var video360Viewer = new s7viewers.Video360Viewer({
 </body> 
 </html>
 ```
--->
 
-<!--
-**Responsive Embedding with Width and Height Defined**
 
-If there is responsive embedding with width and height defined, the web page styling is different. It provides both sizes to the `"holder"` DIV and center it in the browser window. Also, the web page sets the size of the `HTML` and `BODY` element to 100 percent.
--->
+**Responsiv inbäddning med definierad bredd och höjd**
 
-<!--
+Om det finns responsiv inbäddning med bredd och höjd definierad är webbsidans format annorlunda. Den ger DIV:n `"holder"` båda storlekar och centrerar den i webbläsarfönstret. Webbsidan anger också storleken på elementen `HTML` och `BODY` till 100 procent.
+
+
 ```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
@@ -362,12 +344,11 @@ height: 60%;
 </body> 
 </html>
 ```
--->
 
-<!--
-The rest of the embedding steps are identical to the steps used for responsive embedding with unrestricted height. 
 
-The resulting example is the following:
+Resten av inbäddningsstegen är identiska med stegen som används för responsiv inbäddning med obegränsad höjd.
+
+Följande exempel visas:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -406,19 +387,13 @@ var video360Viewer = new s7viewers.Video360Viewer({
 </html>
 ```
 
--->
+**Bädda in med Setter-baserat API**
+
+I stället för att använda JSON-baserad initiering kan du använda set-based API och no-args-konstruktor. Om du använder den här API-konstruktorn används inga parametrar och konfigurationsparametrar anges med API-metoderna `setContainerId()`, `setParam()` och `setAsset()` med separata JavaScript-anrop.
+
+I följande exempel visas hur du använder inbäddning med fast storlek med det inställningsbaserade API:t:
 
 
-<!--
-**Embedding Using Setter-based API**
-
-Instead of using JSON-based initialization, it is possible to use setter-based API and no-args constructor. Using this API constructor does not take any parameters and configuration parameters are specified using `setContainerId()`, `setParam()`, and `setAsset()` API methods with separate JavaScript calls.
-
-The following example illustrates using fixed size embedding with the setter-based API:
-
--->
-
-<!--
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -446,5 +421,4 @@ video360Viewer.init();
 </html>
 ```
 
--->
 

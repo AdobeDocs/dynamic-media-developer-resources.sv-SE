@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 704097af-f108-42f7-92e7-5dd75916a045
-source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '33'
+source-wordcount: '34'
 ht-degree: 0%
 
 ---
@@ -35,10 +35,9 @@ Obligatoriskt. (Om inte parametern `asset` används. Se [Stöd för extern video
 
 Ingen.
 
-<!--
-## Example {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
+
+## Exempel {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
 
 ```
 video=https://s7d9.scene7.com/is/content/Viewers/space_station_360-AVS
 ```
--->

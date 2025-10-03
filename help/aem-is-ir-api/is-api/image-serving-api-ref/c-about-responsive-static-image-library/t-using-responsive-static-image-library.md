@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2542b9f3-c398-4dbf-afa3-1671fc4fe72a
-source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Om du vill lägga till ett responsivt bildbibliotek på en webbsida och hantera 
 
 **Använd bibliotek för responsiv bild**
 
-1. I Dynamic Media Classic [skapar du en bildförinställning](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html?lang=sv-SE#image-sizing) om du tänker använda ett responsivt bildbibliotek med förinställningar.
+1. I Dynamic Media Classic [skapar du en bildförinställning](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing) om du tänker använda ett responsivt bildbibliotek med förinställningar.
 
    När du definierar bildförinställningar som används med responsiva bildbibliotek ska du inte använda några inställningar som påverkar bildstorleken, till exempel `wid=`, `hei=` eller `scl=`. Ange inga storleksfält i bildförinställningen. Lämna dem som tomma värden.
 1. Lägg till JavaScript-biblioteksfilen på webbsidan.
@@ -32,13 +32,13 @@ Om du vill lägga till ett responsivt bildbibliotek på en webbsida och hantera 
 
    Du bör också placera den befintliga bild-URL:en i attributet `data-src`. Ställ sedan in det befintliga `src`-attributet så att 1x1 GIF-bild är kodad som data-URI. Om du gör det minskar antalet HTTP-begäranden som skickas av webbsidan vid inläsningen. Observera dock att om SEO (sökmotoroptimering) behövs är det bättre att ställa in ett `title`-attribut för bildinstansen.
 
-<!--
-   The following is an example of defining `data-breakpoints` attribute for the image and using a 1x1 GIF encoded as Data URI:
+
+   Följande är ett exempel på hur du definierar attributet `data-breakpoints` för bilden och använder en 1x1 GIF som är kodad som Data URI:
 
    ```
    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
    ```
--->
+
 
 1. Anropa API-funktionen `s7responsiveImage` för varje bildinstans som hanteras i biblioteket.
 
@@ -58,8 +58,8 @@ Biblioteket har stöd för att arbeta med många bildinstanser på webbsidan sam
 
 Det är webbsidans ansvar att formatera bildelementet så att det blir flexibelt i storlek. Det responsiva bildbiblioteket skiljer inte mellan bilder med fast storlek och&quot;flytande&quot; bilder. Om den används på en bild med fast storlek läses den nya bilden in endast en gång.
 
-<!--
-The following code is a complete example of a trivial web page that has a single fluid image managed by the Responsive Image library. The example contains extra CSS styling to make the image "responsive" to the web browser window size:
+
+Följande kod är ett komplett exempel på en enkel webbsida som har en enda flytande bild som hanteras av biblioteket för responsiv bild. Exemplet innehåller extra CSS-format som gör bilden&quot;responsiv&quot; till webbläsarfönstrets storlek:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -84,9 +84,8 @@ The following code is a complete example of a trivial web page that has a single
   </script> 
  </body> 
 </html>
-
 ```
--->
+
 
 **Använda smart beskärning**
 

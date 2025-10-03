@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 79f7e356-55d1-46e1-b85a-2e73633c9404
-source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,25 @@ Om visningsprogrammet fungerar i den konfiguration som beskrivs i början av det
 
 Beroende på den metod för publicering av Dynamic Media-video som du använder i Adobe Experience Manager används konfigurationsattributet `Video360Player.ssl` på ett annat sätt, vilket visas i följande exempel:
 
-* Om du publicerar en Dynamic Media-video med en URL, lägger du till `Video360Player.ssl` i URL:en. Om du till exempel vill framtvinga en säker videoleverans lägger du till `&Video360Player.ssl=on` i slutet av följande exempel på visningsprogrammets URL:
+* Om du publicerar en Dynamic Media-video med en URL, lägger du till `Video360Player.ssl` i URL:en.
+
+<!-- For example, to force secure video delivery, you append `&Video360Player.ssl=on` to the end of the following viewer URL example: -->
+
+<!--
 
   ```
   https://demos-pub.assetsadobe.com/etc/dam/viewers/s7viewers/html5/Video360Viewer.html?asset=%2Fcontent%2Fdam%2Fmarketing%2Fshoppable-video%2Fadobe-axis-demo%2FAdobe_AXIS_V3_GRADED-HD.mp4&config=/etc/dam/presets/viewer/Video&serverUrl=https%3A%2F%2Fadobedemo62-h.assetsadobe.com%2Fis%2Fimage%2F&contenturl=%2F&config2=/etc/dam/presets/analytics&videoserverurl=https://gateway-na.assetsadobe.com/DMGateway/public/demoCo&posterimage=/content/dam/marketing/shoppable-video/adobe-axis-demo/Adobe_AXIS_V3_GRADED-HD.mp4&Video360Player.ssl=on
   ```
 
-  Se även [Länka URL:er till ditt webbprogram](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=sv-SE#dynamic).
+-->
 
-* Om du publicerar en Dynamic Media-video med inbäddad kod lägger du till `Video360Player.ssl` i listan över andra parametrar för visningsprogramkonfiguration i det inbäddade kodfragmentet. Om du till exempel vill tvinga HTTPS-videoleverans lägger du till `&Video360Player.ssl=on` som i följande exempel:
+Se även [Länka URL:er till ditt webbprogram](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic).
+
+* Om du publicerar en Dynamic Media-video med inbäddad kod lägger du till `Video360Player.ssl` i listan över andra parametrar för visningsprogramkonfiguration i det inbäddade kodfragmentet.
+
+<!-- For example, to force HTTPS video delivery, you append `&Video360Player.ssl=on` as in the following example: -->
+
+<!--
 
   ```
   <style type="text/css"> 
@@ -57,4 +67,6 @@ Beroende på den metod för publicering av Dynamic Media-video som du använder 
   </script>
   ```
 
-  Se även [Bädda in videon på en webbsida](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=sv-SE#dynamic)
+-->
+
+Se även [Bädda in videon på en webbsida](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic)

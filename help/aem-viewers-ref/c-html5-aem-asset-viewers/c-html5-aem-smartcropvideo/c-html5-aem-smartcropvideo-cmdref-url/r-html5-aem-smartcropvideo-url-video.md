@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 7292f4e6-b687-4dfd-8806-aba364192b75
-source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '41'
+source-wordcount: '42'
 ht-degree: 0%
 
 ---
@@ -36,10 +36,9 @@ Obligatoriskt. (Om inte parametern `asset` används. Se [Stöd för extern video
 
 Ingen.
 
-<!--
-## Example {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
+## Exempel {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
 
 ```
 video=https://s7d9.scene7.com/is/content/Scene7SharedAssets/Glacier_Climber_MP4
 ```
--->
+
