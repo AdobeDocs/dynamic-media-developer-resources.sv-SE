@@ -43,7 +43,7 @@ Färgkvantifiering. Anger färgkvantifieringsattribut för GIF-utdatakonverterin
 
 Begär attribut. Det används oavsett den aktuella lagerinställningen. Används endast om `fmt=gif`, `fmt=gif-alpha`, `fmt=png8` eller `fmt=png8-alpha`. I annat fall ignoreras.
 
-Färgerna som anges med *`colorList`* måste bestå av RGB-värden i hex6-format (se [ color](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md) utan `0x` -prefix. Inga andra färgspecifikationer tillåts. Modifieraren *`numColors`* måste vara 2-256.
+Färgerna som anges med *`colorList`* måste bestå av RGB-värden i hex6-format (se [&#x200B; color](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md) utan `0x` -prefix. Inga andra färgspecifikationer tillåts. Modifieraren *`numColors`* måste vara 2-256.
 
 ## Standard {#section-ca3e817617244e8798ccff67b2023a32}
 
