@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Dynamic Media Image Serving and Rendering API {#image-serving-api}
 
-+ [API-startsida för dynamisk mediabildserver och bildåtergivning](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html) -->
++ [API-startsida för dynamisk mediabildserver och bildåtergivning](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html?lang=sv-SE) -->
 + [Om den här versionen](r-about-this-release.md)
 + [Systemkrav och krav](r-requirements-and-prerequisites.md)
 + [Krav och rekommendationer för diskutrymme](r-disk-space-reqs.md)
