@@ -5,9 +5,9 @@ title: Grundläggande syntax för Image Serving HTTP-protokoll
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ac75d6d0-a71e-45a0-89ee-b952a0202793
-source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
+source-git-commit: 92a995b6cbadb00a075a3be5ae2a9f8feb6c900d
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,11 @@ Grundsyntaxen för HTTP-protokollet är följande:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> modifier </span> </span> </p></td> 
-  <td class="stentry"> <p><span class="codeph">kommando|{$<span class="varname"> makro</span>$}|&lbrace;.<span class="varname"> kommentar </span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">kommando|{$<span class="varname"> makro</span>$}|{.<span class="varname"> kommentar </span></span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> command</span> </span> </p> </td> 
-  <td class="stentry"> <p>&lbrace;<span class="varname"> cmdName</span>|{$<span class="varname"> var</span>}[=<span class="varname"> värde</span>] </p></td> 
+  <td class="stentry"> <p><code>{</code><span class="varname"> cmdName</span>|<code>{$</code><span class="varname"> var</span><code>}}[=</code><span class="varname"> value</span><code>]</code> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> makro </span> </span> </p> </td> 

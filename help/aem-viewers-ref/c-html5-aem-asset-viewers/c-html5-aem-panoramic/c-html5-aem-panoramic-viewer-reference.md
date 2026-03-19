@@ -2,10 +2,11 @@
 title: Panoramavisningsprogram
 description: HTML5 Panoramavy Viewer är ett bildvisningsprogram som visar en panoramabild. Syftet med det här visningsprogrammet är att visa ett sfäriskt panorama, även kallat ekvirektangulär bild. Det har stöd för automatisk panorering och panorering med gyroskopisk rörelse. Den är utformad för att fungera på stationära datorer och mobila enheter. Visningsläget Virtuell verklighet är tillgängligt på mobila enheter med stöd för detta.
 keywords: responsiv
-solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
-source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '1916'
 ht-degree: 0%
@@ -275,7 +276,7 @@ Följande exempelsida visar hur responsiv designinbäddning med obegränsad höj
 
 <!--
 
-[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=sv-SE)
+[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 -->
 

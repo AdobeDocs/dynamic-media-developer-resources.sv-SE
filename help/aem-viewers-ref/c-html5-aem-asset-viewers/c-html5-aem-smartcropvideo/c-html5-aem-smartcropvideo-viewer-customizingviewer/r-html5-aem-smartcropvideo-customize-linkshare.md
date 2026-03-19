@@ -1,11 +1,12 @@
 ---
 title: Länkresurs
 description: Länkdelningsverktyget består av en knapp som läggs till på panelen Dela via sociala medier och den modala dialogruta som visas när verktyget aktiveras. Knappens position hanteras helt av verktyget för social delning.
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 6f2b832f-e627-428a-8673-129bfa58c7e2
-source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '1388'
 ht-degree: 0%
@@ -243,7 +244,7 @@ Stängningsknappen styrs med följande CSS-klassväljare:
 .s7smartcropvideoviewer .s7linkdialog .s7closebutton
 ```
 
-**CSS-egenskaper för stängningsknappen &#x200B;**
+**CSS-egenskaper för stängningsknappen **
 
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
@@ -330,7 +331,7 @@ Sidfoten i dialogrutan består av knappen &quot;Avbryt&quot;. Sidfotsbehållaren
 .s7smartcropvideoviewer .s7linkdialog .s7dialogfooter
 ```
 
-**CSS-egenskaper för dialogrutans sidfot &#x200B;**
+**CSS-egenskaper för dialogrutans sidfot **
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -531,7 +532,7 @@ Huvudområdet i dialogrutan, mellan sidhuvudet och sidfoten, innehåller dialogi
 .s7smartcropvideoviewer .s7linkdialog .s7dialogviewarea
 ```
 
-**CSS-egenskaper i dialogrutans visningsområde &#x200B;**
+**CSS-egenskaper i dialogrutans visningsområde **
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
@@ -566,7 +567,7 @@ Allt formulärinnehåll (som etiketter och inmatningsfält) finns inuti en behå
 .s7smartcropvideoviewer .s7linkdialog .s7dialogbody
 ```
 
-**CSS-egenskaper för dialogrutans brödtext &#x200B;**
+**CSS-egenskaper för dialogrutans brödtext **
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
@@ -593,7 +594,7 @@ Alla statiska etiketter i dialogruteformuläret styrs med
 
 Den här klassen är inte lämplig för att styra etikettens storlek eller placering eftersom du kan använda den på texter på olika ställen i användargränssnittet.
 
-**CSS-egenskaper för dialogruteetiketten. &#x200B;**
+**CSS-egenskaper för dialogruteetiketten. **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 

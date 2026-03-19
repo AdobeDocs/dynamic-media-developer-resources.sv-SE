@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d26371da-e992-4f63-a5be-190ce60eca2f
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 0%
@@ -39,6 +39,8 @@ Standardkatalogen innehåller dessutom alla attribut och dataposter (ICC-profile
 
 För att återgivningsservern ska fungera korrekt måste katalogattributfilen för standardkatalogen ha namnet [!DNL default.ini]. Den måste också alltid finnas i katalogmappen och måste vara fullt ifylld med alla nödvändiga attribut, exklusive `attribute::RootId` och referenserna till de olika katalogdatafilerna, som alla är valfria.
 
-<!-- **See also**
+<!--
+ **See also**
 
-`PlatformServer::ir.catalogRootPath` -->
+`PlatformServer::ir.catalogRootPath`
+-->

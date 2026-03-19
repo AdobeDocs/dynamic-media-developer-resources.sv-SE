@@ -8,8 +8,8 @@ user-guide-title: Adobe Dynamic Media Developer Resources
 breadcrumb-title: Resurser för Dynamic Media Developer
 user-guide-description: Få tillgång till resurser för Dynamic Media-utvecklare som referenshandboken för visningsprogrammen, API:t för bildproduktionssystemet, API:t för bildserver och återgivning samt arkiverade veringsinformation för Scene7.
 feature-set: Experience Manager Assets
-index: y
-source-git-commit: 3598b0247406d942b0f58b1c74aae4956590f5f8
+index: true
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 0%
@@ -21,7 +21,8 @@ ht-degree: 0%
 
 + [Startsida](home.md)
 
-<!--This TOC may not be necessary. Not sure, so leaving it in.
+<!--
+This TOC may not be necessary. Not sure, so leaving it in.
 + [Viewers Reference Guide](/help/aem-viewers-ref/homeviewers.md)
 + [IS/IR API](/help/aem-is-ir-api/homeisir.md)
 + [IPS API](/help/aem-ips-api/c-overview.md)

@@ -2,11 +2,12 @@
 title: Videovisningsprogram för smart beskärning
 description: Video Viewer för smart beskärning spelar upp strömmande och progressiv video som är kodad i H.264-format med stöd för smart beskärning. Den levereras från Dynamic Media Classic eller Adobe Experience Manager med Dynamic Media.
 keywords: responsiv
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 937be8a2-307e-47bb-9fc8-d354f780a214
-source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '2364'
 ht-degree: 0%
@@ -297,7 +298,7 @@ Följande exempelsida visar hur responsiv designinbäddning med obegränsad höj
 
 <!--
 
-[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=sv-SE)
+[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 -->
 

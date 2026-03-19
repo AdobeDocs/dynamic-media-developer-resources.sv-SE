@@ -3,7 +3,7 @@ cloud: Experience Cloud
 user-guide-title: Referenshandbok för Dynamic Media Viewers
 feature-set: Experience Manager Assets
 user-guide-description: Anpassa Dynamic Media-visningsprogram för datorer och pekskärmar. Inkludera interaktiva bilder och videor, karuseller, snurr med mera.
-source-git-commit: 8d5dbc2d2b5e228f8496fd71633bf1cb96218226
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '2066'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Referenshandbok för Dynamic Media Viewers {#library}
 
-+ [Referenshandbok för dynamiska mediavisare](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=sv-SE) -->
++ [Referenshandbok för Dynamic Media Viewers](homeviewers.md)
 + [Exempel på visningsprogrambibliotek](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 + [Systemkrav](c-system-requirements-and-prerequisites.md)
 + [Installera flera visningsprogram på samma server](t-installing-the-viewers.md)
@@ -1012,3 +1012,4 @@ ht-degree: 0%
    + [serverUrl](c-html5-viewer-20-cmdref-url/r-html5-viewer-20-cmdref-url-serverurl.md)
    + [videoServerUrl](c-html5-viewer-20-cmdref-url/r-html5-viewer-cmdref-url-videoserverurl.md)
 
+<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en) -->

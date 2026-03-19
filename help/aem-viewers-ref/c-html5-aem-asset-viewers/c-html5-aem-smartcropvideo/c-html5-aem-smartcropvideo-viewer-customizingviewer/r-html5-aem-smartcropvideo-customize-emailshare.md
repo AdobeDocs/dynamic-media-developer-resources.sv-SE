@@ -1,11 +1,12 @@
 ---
 title: E-postresurs
 description: Verktyget för e-postdelning består av en knapp som läggs till på panelen Dela via sociala medier och i den modala dialogrutan som visas när verktyget aktiveras. Knappens position hanteras helt av verktyget för social delning.
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: f2685d59-6b92-49cf-9359-dda602af4297
-source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '3029'
 ht-degree: 0%
@@ -241,7 +242,7 @@ Stängningsknappen styrs med följande CSS-klassväljare:
 .s7smartcropvideoviewer .s7emaildialog .s7closebutton
 ```
 
-**CSS-egenskaper för stängningsknappen &#x200B;**
+**CSS-egenskaper för stängningsknappen **
 
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
@@ -328,7 +329,7 @@ Sidfoten i dialogrutan består av knapparna Avbryt och Skicka e-post. Sidfotsbeh
 .s7smartcropvideoviewer .s7emaildialog .s7dialogfooter
 ```
 
-**CSS-egenskaper för dialogrutans sidfot &#x200B;**
+**CSS-egenskaper för dialogrutans sidfot **
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -527,7 +528,7 @@ Huvuddialogrutan, mellan sidhuvudet och sidfoten, innehåller rullningsbart dial
 .s7smartcropvideoviewer .s7emaildialog .s7dialogviewarea
 ```
 
-**CSS-egenskaper i dialogrutans visningsområde &#x200B;**
+**CSS-egenskaper i dialogrutans visningsområde **
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
@@ -571,7 +572,7 @@ Allt formulärinnehåll (som etiketter och inmatningsfält) finns inuti en behå
 
 Om höjden på den här behållaren verkar vara större än huvudområdet i dialogrutan aktiveras en lodrät rullning automatiskt av komponenten.
 
-**CSS-egenskaper för dialogrutans brödtext &#x200B;**
+**CSS-egenskaper för dialogrutans brödtext **
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
@@ -623,7 +624,7 @@ Alla statiska etiketter i dialogruteformuläret styrs med
 
 Den här klassen är inte lämplig för att styra etikettens storlek eller placering eftersom du kan använda den på text på olika ställen i användargränssnittet.
 
-**CSS-egenskaper för dialogruteetiketten. &#x200B;**
+**CSS-egenskaper för dialogruteetiketten. **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
@@ -959,7 +960,7 @@ Innehållet som delas visas längst ned i dialogrutan och innehåller en miniaty
 .s7smartcropvideoviewer .s7emaildialog .s7dialogbody .s7dialogcontent
 ```
 
-**CSS-egenskaper för dialogrutans innehåll &#x200B;**
+**CSS-egenskaper för dialogrutans innehåll **
 
 <table id="table_9C5CBFC2482E4A46BE837573B0B02FE4"> 
  <tbody> 
@@ -1094,7 +1095,7 @@ Innehållets ursprung styrs med följande CSS-klassväljare:
 .s7smartcropvideoviewer .s7emaildialog .s7dialogorigin
 ```
 
-**CSS-egenskaper för dialogrutans innehållsursprung &#x200B;**
+**CSS-egenskaper för dialogrutans innehållsursprung **
 
 <table id="table_51763B532A9C4AE8AE54B69933A8C0B5"> 
  <tbody> 

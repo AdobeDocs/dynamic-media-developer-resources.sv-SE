@@ -5,9 +5,9 @@ title: ImageSet
 feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,User
 exl-id: eacf0553-8cec-4a1d-80a5-6fe37b92b5bf
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Varje objekt i en grundläggande färgruteuppsättning består av en referens ti
 | `*`basicSwatchSet`*` | `*`swatchItem`*&#42;[',' *`swatchItem`*]` |
 |---|---|
 | `*`swatchItem`*` | `*`imageId`*[';' *`swatch`*]` |
-| `*`färgruta`*` | `*`swatchId`*|solidColorSpecifier` |
+| `*`färgruta`*` | `*`swatchId`*`\|`solidColorSpecifier` |
 | `*`imageId`*` | IS-bildreferens (katalog/id) |
 | `*`swatchId`*` | IS-bildreferens (katalog/id) |
 | `*`solidColorSpecifier`*` | ` '{0x' *`rrggbb`* [ *`label`*]'}'` |
@@ -61,7 +61,7 @@ Varje objekt i en hierarkisk färgruteuppsättning kan bestå av ett grundlägga
 
 | `*`hierarchicalSwatchSet`*` | `*`hierarchicalSwatchItem`* &#42;[ ',' *`hierarchicalSwatchItem`* ]` |
 |---|---|
-| `*`hierarchicalSwatchItem`*` | `*`swatchItem`* | { *`basicSwatchSetId`* ';' *`swatch`* }` |
+| `*`hierarchicalSwatchItem`*` | `*`swatchItem`*` \| `{` *`basicSwatchSetId`* &#39;;&#39; *`swatch`* `}` |
 | `*`basicSwatchSetId`*` | IS reference (catalog/id) to a catalog record defining a basic swatch set |
 
 **Grundläggande snurruppsättningar**
@@ -76,7 +76,7 @@ Varje objekt i en tvådimensionell snurra kan bestå av en enkel bild, en refere
 
 | `*`2dSpinItem`*` | `*`2dSpinSet`* *`2dSpinItem`* &#42;[ ',' *`2dSpinItem`* ]` |
 |---|---|
-| `*`2dSpinItem`*` | `*`imageId`* | { '{' *`basicSpinSet`* '}' } | *`basicSpinSetId`*` |
+| `*`2dSpinItem`*` | `*`imageId`*` \| `{` &#39;{&#39; *`basicSpinSet`* &#39;}&#39; `}` \| `*`basicSpinSetId`*` |
 | `*`basicSpinSetId`*` | IS reference (catalog/id) to a catalog record defining a basic spin set |
 
 **Siduppsättningar**
@@ -93,12 +93,12 @@ Varje objekt i en medieuppsättning kan bestå av en bild, grundläggande färgr
 
 | `*`mediaSet`*` | `*`objekt`* &#42;[ , *`objekt`* ]` |
 |---|---|
-| `*`objekt`*` | ` { *`videoItem`* | *`recutItem`* | *`imageItem`*}} | *`setItem`* } [ ; [ *`ID`* ] [ ; [ *`reserved`* ] ] ]` |
+| `*`objekt`*` | `{ *`videoItem`*` \| *`recutItem`* \| *`imageItem`*`}}`\|*`setItem`*`}` `[` ; `[`*`ID`*`]` `[` ; `[`*`reserved`*`] ] ]` |
 | `*`videoItem`*` | `*`video`* ; *`swatchId`*` |
 | `*`recutItem`*` | `*`recut`* ; *`swatchId`*` |
 | `*`imageItem`*` | `*`imageId`* ; [ *`swatchId`* ]` |
-| `*`setItem`*` | ` { *`setId`* | { '{' *`inlineSet`* '}' } } ; *`swatchId`*` |
-| `*`ID`*` | `media type identifier [ img | basic | advanced_image | img | img_set | advanced_imageset | advanced_swatchset | spin | video ]` |
+| `*`setItem`*` | `{ *`setId`*` \| `{` &#39;{&#39; *`inlineSet`* &#39;}&#39; `} }` ; *`swatchId`* |
+| `*`ID`*` | `media type identifier` `[` img \| grundläggande \| advanced_image \| img \| img_set \| advanced_imageset \| advanced_swatchset \| snurra \| video `]` |
 | `*`swatchId`*` | IS-bild-ID |
 | `*`video`*` | Filsökväg för video/animering eller statiskt katalog-ID |
 | `*`recut`*` | Sökväg till XML-fil för postdefinition eller statiskt katalog-ID |

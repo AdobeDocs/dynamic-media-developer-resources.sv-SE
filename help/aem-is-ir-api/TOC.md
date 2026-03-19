@@ -4,7 +4,7 @@ user-guide-title: Dynamic Media Image Serving and Rendering API
 breadcrumb-title: Dynamic Media Image Serving and Rendering API
 feature-set: Experience Manager Assets
 user-guide-description: Visa dokumentation om API:er för IS (Image Serving) och IR (Image Rendering) och relaterade tekniker.
-source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '1454'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Dynamic Media Image Serving and Rendering API {#image-serving-api}
 
-+ [API-startsida för dynamisk mediabildserver och bildåtergivning](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html?lang=sv-SE) -->
++ [Startsida för Dynamic Media Image Serving och Image Rendering API](homeisir.md)
 + [Om den här versionen](r-about-this-release.md)
 + [Systemkrav och krav](r-requirements-and-prerequisites.md)
 + [Krav och rekommendationer för diskutrymme](r-disk-space-reqs.md)
@@ -765,3 +765,9 @@ ht-degree: 0%
       + [Alternativ för kabinettformatfiler](ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-options-for-cabinet-style-files.md)
       + [Returnerar](ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-returns.md)
       + [Utdata](ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-output.md)
+
+<!--
+Comment from the first link in the TOC:
+(https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html)
+Comments within the TOC can cause rendering problems.
+-->

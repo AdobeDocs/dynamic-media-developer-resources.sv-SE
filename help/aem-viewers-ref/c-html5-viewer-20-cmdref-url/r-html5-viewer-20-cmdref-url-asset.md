@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: edcd18b6-5292-44da-80be-b7f75ee4c48e
-source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ eller
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> multiDimensionalSpinSet </span> </span> </p> </td> 
-   <td colname="col2"> <p>Anger en explicit flerdimensionell snurra med följande syntax: </p> <p> <span class="codeph"> (( <span class="varname"> horizontalSpinSet </span>) [,( <span class="varname"> horizontalSpinSet </span>)]) </span> </p> <p> där <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> är en kommaavgränsad lista med bildrutor för en given vågrät axel. Alla <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> ska ha samma antal bildrutor. </p> <p> <p>Obs! Den här funktionen stöds i Adobe Dynamic Media Classic, men inte i Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p>Anger en explicit flerdimensionell snurra med följande syntax: </p> <p> <pre><code>(( horizontalSpinSet )&lbrack;[,( horizontalSpinSet )&rbrack;)</code></pre> </p> <p> där <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> är en kommaavgränsad lista med bildrutor för en given vågrät axel. Alla <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> ska ha samma antal bildrutor. </p> <p> <p>Obs! Den här funktionen stöds i Adobe Dynamic Media Classic, men inte i Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> modifiers </span> </span> </p> </td> 
